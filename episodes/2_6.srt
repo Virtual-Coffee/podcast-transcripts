@@ -1,0 +1,3693 @@
+1
+00:00:14,369 --> 00:00:16,920
+Bekah Hawrot Weigel: Hello, and
+welcome to season two, episode
+
+2
+00:00:16,920 --> 00:00:19,050
+six of the Virtual Coffee
+podcast.
+
+3
+00:00:21,399 --> 00:00:24,550
+I'm Bekah, and this is a podcast
+that features members of the
+
+4
+00:00:24,550 --> 00:00:28,300
+Virtual Coffee community.
+Virtual Coffee is an intimate
+
+5
+00:00:28,300 --> 00:00:30,969
+group of developers at all
+stages of their coding journey.
+
+6
+00:00:31,269 --> 00:00:33,759
+And they're here on this podcast
+sharing their stories and what
+
+7
+00:00:33,759 --> 00:00:37,090
+they've learned. And we're here
+to share it with you. Here with
+
+8
+00:00:37,090 --> 00:00:38,950
+me today is my co host, Dan.
+
+9
+00:00:40,299 --> 00:00:42,579
+Dan Ott: Thanks, Bekah. Today
+we're talking with Courtney
+
+10
+00:00:42,579 --> 00:00:45,759
+Landau. Courtney is a software
+engineer currently working at an
+
+11
+00:00:45,759 --> 00:00:50,170
+early stage startup in the
+education technology space. We
+
+12
+00:00:50,170 --> 00:00:52,810
+talked with Courtney about how
+the trend of constant self
+
+13
+00:00:52,810 --> 00:00:56,170
+marketing and Tech has impacted
+her career. Our experience as a
+
+14
+00:00:56,170 --> 00:00:59,140
+developer and what it's been
+like to take on a variety of
+
+15
+00:00:59,140 --> 00:01:01,600
+roles as a Virtual Coffee
+contributor.
+
+16
+00:01:02,590 --> 00:01:04,180
+Bekah Hawrot Weigel: We start
+every episode like we start
+
+17
+00:01:04,180 --> 00:01:06,969
+every Virtual Coffee, we
+introduce ourselves with our
+
+18
+00:01:06,969 --> 00:01:10,390
+name, where we're from what we
+do and a random check in
+
+19
+00:01:10,390 --> 00:01:14,140
+question. Today's random
+question is, if you had to
+
+20
+00:01:14,140 --> 00:01:18,640
+delete all but three apps from
+your smartphone, which ones
+
+21
+00:01:18,670 --> 00:01:21,370
+would you keep? We hope you
+enjoyed this episode.
+
+22
+00:01:29,709 --> 00:01:33,640
+Hey, I'm Bekah, I am a front end
+developer from a small town in
+
+23
+00:01:33,640 --> 00:01:41,530
+Ohio. And if I could keep three
+apps on my smartphone, I think
+
+24
+00:01:41,560 --> 00:01:52,810
+it would be slack. Spotify.
+And then Google Drive.
+
+25
+00:01:54,159 --> 00:02:01,000
+Dan Ott: Google Drive.
+Nice. Yeah. So so one
+
+26
+00:01:57,069 --> 00:02:02,709
+entertainment, one and two sort
+of work working once.
+
+27
+00:02:04,150 --> 00:02:05,709
+Bekah Hawrot Weigel: That seems
+to know what that says about me.
+
+28
+00:02:06,829 --> 00:02:10,370
+Dan Ott: Three's...three's
+tough. Hi, I'm Dan. I am a front
+
+29
+00:02:10,370 --> 00:02:12,169
+end developer from Lakewood,
+Ohio.
+
+30
+00:02:14,479 --> 00:02:20,330
+And if I so if I had to keep
+three apps, I thought I would do
+
+31
+00:02:20,689 --> 00:02:24,860
+Spotify as well. I would do
+overcast, it's just podcast app.
+
+32
+00:02:25,340 --> 00:02:32,030
+And that I listen to pretty much
+all time. And I don't know. I
+
+33
+00:02:32,030 --> 00:02:33,949
+feel like some kind of game
+except that I can't really get
+
+34
+00:02:33,949 --> 00:02:38,870
+into any games right now. I'm in
+between games right now. So I
+
+35
+00:02:38,870 --> 00:02:40,969
+don't really have a good I guess
+I'll say slack. But like I was
+
+36
+00:02:40,969 --> 00:02:43,159
+kind of honestly looking forward
+to not having slack on my phone
+
+37
+00:02:43,159 --> 00:02:48,680
+in this imaginary, you know,
+thing. But slack is probably
+
+38
+00:02:48,680 --> 00:02:50,870
+pretty lost without having slack
+on my phone. So that'll be my
+
+39
+00:02:50,870 --> 00:02:52,639
+choice. Choice three, slack.
+
+40
+00:02:53,300 --> 00:02:55,009
+Courtney Landau: Hi, I'm
+Courtney. I'm a software
+
+41
+00:02:55,009 --> 00:02:59,479
+developer from Bethlehem,
+Pennsylvania. And three
+
+42
+00:03:00,650 --> 00:03:05,000
+apps that I would keep were are
+gonna sound like everybody
+
+43
+00:03:05,000 --> 00:03:10,159
+else's now overcast, number one,
+Spotify. And I would definitely
+
+44
+00:03:10,159 --> 00:03:15,199
+not keep slack Just saying. And
+I guess Instagram.
+
+45
+00:03:16,969 --> 00:03:19,129
+Yeah, because I do like the
+photos.
+
+46
+00:03:21,560 --> 00:03:24,560
+Dan Ott: I have, like, you know,
+I could do pretty easily without
+
+47
+00:03:24,560 --> 00:03:28,610
+Twitter. I'm not on Instagram
+anymore. I was like, thinking
+
+48
+00:03:28,610 --> 00:03:35,120
+about
+was it? Oh, things like my to do
+
+49
+00:03:30,620 --> 00:03:36,289
+app? You know, except that I
+know. I never use it.
+
+50
+00:03:38,719 --> 00:03:41,210
+Courtney Landau: would happily
+give up any of the work apps?
+
+51
+00:03:41,599 --> 00:03:42,020
+Yeah.
+
+52
+00:03:42,889 --> 00:03:45,560
+Bekah Hawrot Weigel: I was like
+between slack and Twitter. I
+
+53
+00:03:45,560 --> 00:03:47,990
+couldn't decide. But
+
+54
+00:03:49,280 --> 00:03:53,840
+Dan Ott: well, Twitter, you can
+more easily get on. Just on
+
+55
+00:03:53,870 --> 00:03:55,669
+safari. Right. Like I was
+thinking.
+
+56
+00:03:56,840 --> 00:03:57,379
+Courtney Landau: That's true
+
+57
+00:03:57,409 --> 00:04:00,080
+Dan Ott: slack's a little... I
+don't know, slack works on the
+
+58
+00:04:00,080 --> 00:04:04,610
+phone through the web.
+You know, I know you can on your
+
+59
+00:04:02,240 --> 00:04:07,819
+computer on the web. But
+regardless, I mentioned it would
+
+60
+00:04:05,569 --> 00:04:07,819
+not be the fun.
+
+61
+00:04:11,060 --> 00:04:13,159
+Bekah Hawrot Weigel: Yeah. All
+right. Oh, thanks, Courtney, for
+
+62
+00:04:13,159 --> 00:04:16,699
+being here today. We're very,
+very excited to be talking to
+
+63
+00:04:16,699 --> 00:04:22,069
+you. And usually the way we get
+started is asking our guests how
+
+64
+00:04:22,069 --> 00:04:25,670
+they got into tech. So can you
+give us a little bit about your
+
+65
+00:04:25,670 --> 00:04:27,769
+background and how you ended up
+where you are today?
+
+66
+00:04:28,310 --> 00:04:33,439
+Courtney Landau: Yeah, um, so I
+am Yeah, a career changer. So I
+
+67
+00:04:33,470 --> 00:04:37,730
+came from clinical field. I was
+CAT scan tech. Well, actually, I
+
+68
+00:04:37,730 --> 00:04:40,850
+still work per diem as CAT scan
+tech once in a while in the
+
+69
+00:04:40,850 --> 00:04:46,040
+hospital.
+So yeah, I did that while
+
+70
+00:04:47,120 --> 00:04:54,829
+out. I went to X ray school after
+and then I did CAT scan for a
+
+71
+00:04:51,709 --> 00:04:58,759
+long time had kids and when they
+were young, I worked the weekend
+
+72
+00:04:54,829 --> 00:05:02,839
+program. Kind of
+While they were young the entire
+
+73
+00:05:00,290 --> 00:05:05,000
+time, so I worked 212 hour
+shifts on the weekend. And
+
+74
+00:05:06,649 --> 00:05:10,879
+so that was great for when they
+were young. But when they were
+
+75
+00:05:10,879 --> 00:05:16,970
+going back to school, I ended up
+thinking I wanted to change
+
+76
+00:05:13,579 --> 00:05:18,350
+careers. And I really liked tech.
+
+77
+00:05:19,370 --> 00:05:21,680
+Bekah Hawrot Weigel: What it
+what interested you about tech?
+
+78
+00:05:21,829 --> 00:05:23,600
+Courtney Landau: Yeah, so I was
+really into
+
+79
+00:05:24,769 --> 00:05:28,790
+kind of computers. So I kind of
+went, thought it would, I would
+
+80
+00:05:28,910 --> 00:05:35,180
+get a master's in
+Information Sciences kind of go
+
+81
+00:05:32,209 --> 00:05:38,209
+into like, stay in medical, but
+kind of do like more like an IT
+
+82
+00:05:35,180 --> 00:05:57,949
+thing. But then I took
+working out problems. And that
+
+83
+00:05:53,480 --> 00:06:04,129
+kind of led me to focus my
+master's on coding moreso than
+
+84
+00:05:57,949 --> 00:06:07,670
+it so while I was doing the
+Masters, I was kind of building
+
+85
+00:06:04,129 --> 00:06:11,930
+a bunch of working on Free Code
+Camp at the same time kind of
+
+86
+00:06:07,670 --> 00:06:15,560
+doing web dev stuff, along with
+my coursework. And that kind of
+
+87
+00:06:11,990 --> 00:06:16,370
+led me into web dev once I
+graduated.
+
+88
+00:06:17,360 --> 00:06:19,040
+Bekah Hawrot Weigel: Nice, what
+is your master's in?
+
+89
+00:06:19,850 --> 00:06:24,680
+Courtney Landau: Information
+Sciences. So I kind of it was my
+
+90
+00:06:24,680 --> 00:06:32,639
+bachelor's in biology. So
+what I went when I found that
+
+91
+00:06:29,610 --> 00:06:36,389
+this program was local, and I
+could go in like half time, so
+
+92
+00:06:32,639 --> 00:06:40,920
+when I was first starting, like
+doing these, I did kind of some
+
+93
+00:06:36,389 --> 00:06:45,870
+MOOCs online, like with coding,
+and it kind of see what I would
+
+94
+00:06:40,920 --> 00:06:51,420
+like, and I, I figured I could,
+because you could kind of
+
+95
+00:06:46,139 --> 00:06:56,970
+structure your classes around.
+Like, either like development or
+
+96
+00:06:52,620 --> 00:06:59,939
+it more I and I did take some it
+classes along with it, but most
+
+97
+00:06:56,970 --> 00:07:03,410
+of them were like, all
+coding classes. So
+
+98
+00:07:04,189 --> 00:07:06,470
+Dan Ott: Oh, that's so cool. So
+yeah, so when you started your
+
+99
+00:07:06,470 --> 00:07:08,540
+master's program, you weren't
+really thinking about coding at
+
+100
+00:07:08,540 --> 00:07:33,379
+all. interesting.
+
+101
+00:07:34,370 --> 00:07:34,970
+Courtney Landau: Yeah,
+
+102
+00:07:35,889 --> 00:07:36,490
+Dan Ott: that's really cool.
+
+103
+00:07:36,490 --> 00:07:38,800
+Courtney Landau: I didn't want
+to do like a boot camp type
+
+104
+00:07:38,800 --> 00:07:39,370
+thing, because
+
+105
+00:08:01,209 --> 00:08:02,500
+Unknown: really solidifying it.
+
+106
+00:08:02,949 --> 00:08:06,879
+Bekah Hawrot Weigel: Nice. And
+so then what was the transition,
+
+107
+00:08:06,879 --> 00:08:11,319
+like, from your job at the
+hospital to your first job in
+
+108
+00:08:11,319 --> 00:08:11,740
+tech?
+
+109
+00:08:12,189 --> 00:08:15,430
+Courtney Landau: Yeah. So um, I
+ended up well, I was still
+
+110
+00:08:15,430 --> 00:08:18,850
+working the weekends, like, I
+worked weekends for probably 10
+
+111
+00:08:18,850 --> 00:08:23,740
+years. And so when I was about
+to graduate, I was kind of
+
+112
+00:08:23,740 --> 00:08:26,589
+applying when I was in school,
+but nothing worked out. And then
+
+113
+00:08:26,589 --> 00:08:29,050
+I when I was about to graduate,
+I managed to land an internship,
+
+114
+00:08:29,050 --> 00:10:02,080
+so I, a paid internship full
+time, so Really like
+
+115
+00:10:03,629 --> 00:10:07,169
+software developments more,
+using more my brain basically,
+
+116
+00:10:07,169 --> 00:10:12,450
+it's got CAT scan, there's not
+really any room for, like,
+
+117
+00:10:12,509 --> 00:10:19,200
+moving up, there's no, it's
+either like management or go to
+
+118
+00:10:19,200 --> 00:10:23,070
+school and become like, I don't
+know, pa or a doctor. But yeah.
+
+119
+00:10:23,669 --> 00:10:27,600
+So yeah, I like being in
+software development now.
+
+120
+00:10:28,710 --> 00:10:31,200
+Bekah Hawrot Weigel: Did that
+internship lead to a full time
+
+121
+00:10:31,200 --> 00:10:31,679
+job?
+
+122
+00:10:32,850 --> 00:10:36,600
+Courtney Landau: Right now, um,
+the internship did not lead to a
+
+123
+00:10:36,600 --> 00:10:41,220
+full time job. I was hoping that
+it would. But they were not
+
+124
+00:10:41,220 --> 00:11:59,919
+hiring at the end of it. So no
+one got hired. big company,
+
+125
+00:12:01,049 --> 00:12:04,679
+Dell, which was would have been
+about an hour and 15 minute
+
+126
+00:12:04,710 --> 00:12:11,009
+drive. And so I had that offer.
+And then the very, very small
+
+127
+00:12:11,009 --> 00:12:14,070
+startup where I would be the
+only developer and working from
+
+128
+00:12:14,070 --> 00:12:20,850
+home. So I ultimately chose this
+one, obviously. So yeah, I've
+
+129
+00:12:20,850 --> 00:12:23,279
+been there since September of 19.
+
+130
+00:12:25,980 --> 00:12:27,899
+Bekah Hawrot Weigel: Wow, I feel
+like that's a little bit
+
+131
+00:12:27,899 --> 00:12:31,500
+overwhelming. When you were
+talking about the commute to the
+
+132
+00:12:31,500 --> 00:12:34,980
+other job. I thought like why
+why definitely pick the remote
+
+133
+00:12:34,980 --> 00:12:41,159
+one. But then also being new to
+the industry. And being the only
+
+134
+00:12:41,159 --> 00:12:44,970
+developer seems a little bit
+overwhelming. How was that for
+
+135
+00:12:44,970 --> 00:12:45,389
+you?
+
+136
+00:12:46,529 --> 00:14:23,100
+Courtney Landau: Right, yeah.
+And it's here and almost a half.
+
+137
+00:14:19,679 --> 00:14:23,100
+So
+
+138
+00:14:23,850 --> 00:14:26,669
+Dan Ott: that's really cool.
+That's cool that they, you know,
+
+139
+00:14:31,590 --> 00:15:03,090
+newer career developer,
+You don't have a somebody else
+
+140
+00:15:00,090 --> 00:15:03,570
+that, you know, that was there
+before.
+
+141
+00:15:04,200 --> 00:15:08,009
+Courtney Landau: Right. So, um,
+I had the CTO who
+
+142
+00:15:10,379 --> 00:15:12,960
+I don't know how much he
+actually built. I think he
+
+143
+00:15:12,960 --> 00:15:20,820
+contracted out I think, a lot of
+it. So coming, I came into that.
+
+144
+00:15:20,879 --> 00:15:27,059
+And so
+can you repeat that question?
+
+145
+00:15:25,500 --> 00:15:27,059
+Sorry?
+
+146
+00:15:27,840 --> 00:15:31,019
+Dan Ott: Oh, yeah, well, no,
+that makes sense. Because
+
+147
+00:15:31,320 --> 00:15:34,440
+usually, if anybody has listened
+to this podcast for a while,
+
+148
+00:15:34,440 --> 00:15:38,129
+they will know that I will talk
+for like a minute or two and
+
+149
+00:15:38,129 --> 00:15:42,450
+ask, like, several questions. In
+the middle of the sentences, no
+
+150
+00:15:42,450 --> 00:15:47,220
+worries. The first question I
+was wondering about was what you
+
+151
+00:15:47,220 --> 00:15:50,549
+answered was like, you know, if
+you were the only developer who
+
+152
+00:15:50,549 --> 00:15:54,330
+built it, and then the second
+part was, was, yeah, like, talk
+
+153
+00:15:54,330 --> 00:15:56,129
+more, can you? I was just
+wondering if you could talk more
+
+154
+00:15:56,129 --> 00:16:00,690
+about
+what it was like getting used to
+
+155
+00:15:57,899 --> 00:16:01,740
+like that, that codebase. I
+know, they they said,
+
+156
+00:16:02,879 --> 00:16:05,370
+or you said that they sent you
+to some view training and stuff,
+
+157
+00:16:05,370 --> 00:16:10,889
+which is really cool. But
+just in general, like not having
+
+158
+00:16:07,409 --> 00:16:13,139
+a another developer to sort of
+lean on for questions. I was
+
+159
+00:16:10,889 --> 00:16:14,940
+just, I was just curious, let
+you know what that looks like
+
+160
+00:16:13,139 --> 00:16:14,940
+for you.
+
+161
+00:16:15,899 --> 00:16:20,159
+Courtney Landau: Right? Yeah.
+Um, yeah, a lot of the majority
+
+162
+00:16:20,190 --> 00:16:23,009
+of like, the code that was
+written at that point was the
+
+163
+00:16:23,009 --> 00:16:26,279
+Chrome extension, which does a
+lot of like website tracking,
+
+164
+00:16:26,279 --> 00:16:29,370
+and doesn't use a lot of the
+chrome API's.
+
+165
+00:16:30,720 --> 00:16:34,950
+So that was pretty complex, and
+kind of overwhelming at first.
+
+166
+00:16:34,950 --> 00:16:44,009
+But really, the Vue app was
+the easy part. So and I did have
+
+167
+00:16:39,509 --> 00:16:47,970
+him too. He was available, you
+know, he still is available to
+
+168
+00:16:44,009 --> 00:16:50,549
+for but it's at this point, he's
+more like big questions, big
+
+169
+00:16:47,970 --> 00:16:54,990
+picture questions.
+And a lot of the stuff he's
+
+170
+00:16:52,500 --> 00:16:59,279
+like, I don't know, JavaScript,
+so. Okay, you're on your own. But
+
+171
+00:17:00,659 --> 00:17:04,319
+yeah, no, it was actually like,
+the first thing I'm remembering
+
+172
+00:17:04,319 --> 00:17:07,500
+now that the first thing that I
+had to fix was like a bug. So I
+
+173
+00:17:07,500 --> 00:17:11,640
+had to get root in the Chrome
+extension to really dig in to
+
+174
+00:17:11,640 --> 00:17:20,430
+like off things. And
+so that was a lot. But yeah, it
+
+175
+00:17:15,180 --> 00:17:26,549
+worked itself out. For
+questions. Yeah, I either go to
+
+176
+00:17:20,430 --> 00:17:31,410
+him or go to, like, I use
+discord a lot like the when I
+
+177
+00:17:26,640 --> 00:17:33,630
+had Firebase questions, there's
+pretty helpful discord on that.
+
+178
+00:17:31,500 --> 00:17:33,630
+And
+
+179
+00:17:36,240 --> 00:17:39,299
+Dan Ott: That's awesome. Yeah,
+so the CTO was, like, maybe
+
+180
+00:17:39,299 --> 00:17:42,660
+didn't write most of the code,
+but at least was familiar enough
+
+181
+00:17:42,660 --> 00:17:45,809
+with it, you know, because he
+worked with custom contracts
+
+182
+00:17:45,809 --> 00:17:49,440
+with whatever to point the way
+and answer some big questions.
+
+183
+00:17:51,420 --> 00:17:54,660
+That is, so you're still though,
+like, you're still the the only
+
+184
+00:17:54,660 --> 00:17:57,539
+developer there. At this point?
+After?
+
+185
+00:17:57,569 --> 00:17:57,930
+Courtney Landau: Yep.
+
+186
+00:17:57,990 --> 00:18:00,420
+Dan Ott: How long was it? A year
+and
+
+187
+00:18:01,859 --> 00:18:04,170
+Courtney Landau: September of
+19. So yeah.
+
+188
+00:18:04,920 --> 00:18:09,029
+Dan Ott: But I mean, that's
+really cool. It's like I was, so
+
+189
+00:18:09,029 --> 00:18:11,549
+being a solo developer, you
+know, you have, there's,
+
+190
+00:18:11,579 --> 00:18:14,730
+there's, as you know, there's,
+you know, some different
+
+191
+00:18:14,730 --> 00:18:20,369
+responsibilities. So, what is it
+like for you, When, when, when
+
+192
+00:18:20,369 --> 00:18:26,670
+they have a new feature, you
+know, that they? I guess I'm not
+
+193
+00:18:26,670 --> 00:18:28,980
+gonna I don't want to lead the
+question too much. What is what
+
+194
+00:18:28,980 --> 00:18:32,819
+is like, you know, when you when
+they have a new feature that
+
+195
+00:18:32,819 --> 00:18:34,440
+they'd like, you know, to
+implement?
+
+196
+00:18:35,670 --> 00:18:39,240
+Courtney Landau: Right, so, um,
+basically, I handle it all I
+
+197
+00:18:39,240 --> 00:18:45,119
+have to come up with like, the,
+my plan and kind of, like, mock
+
+198
+00:18:45,119 --> 00:18:49,559
+stuff up for them. And for new
+features, I'm pretty much
+
+199
+00:18:49,559 --> 00:18:55,470
+handling Yeah, still, at this
+point, handling all the whole
+
+200
+00:18:55,470 --> 00:19:02,369
+process from start to finish.
+And they're really good with
+
+201
+00:19:04,589 --> 00:19:08,549
+that, that's, they're not like
+impatient with me, I'm sure.
+
+202
+00:19:08,789 --> 00:19:12,450
+Especially in the beginning,
+things took longer than they
+
+203
+00:19:12,450 --> 00:19:16,019
+could have with a more
+experienced developer. But, um,
+
+204
+00:19:17,910 --> 00:19:18,869
+yeah, so.
+
+205
+00:19:22,019 --> 00:19:24,450
+Dan Ott: I mean, that's, that's
+great. Like, when I was sort of
+
+206
+00:19:24,450 --> 00:19:27,720
+getting I was it's a lot of
+responsibility for for any
+
+207
+00:19:27,720 --> 00:19:31,890
+developer, right, like,
+regardless of their experience
+
+208
+00:19:31,890 --> 00:19:36,329
+level, or, you know, the path in
+their career. And it seems like
+
+209
+00:19:36,359 --> 00:19:39,450
+it seems like it's a really good
+fit, you know, I don't know it
+
+210
+00:19:39,450 --> 00:19:41,460
+seems like pretty cool situation
+to be in.
+
+211
+00:19:43,049 --> 00:19:45,059
+Courtney Landau: Yes, I'm sorry.
+
+212
+00:19:45,509 --> 00:19:48,569
+Bekah Hawrot Weigel: No, I was
+just gonna say I think that it's
+
+213
+00:19:48,569 --> 00:19:51,450
+amazing what you're doing.
+You're talking through all of
+
+214
+00:19:51,450 --> 00:19:55,259
+this stuff, but you know, coming
+on and working on all this stuff
+
+215
+00:19:55,259 --> 00:19:59,819
+by yourself. I just think is is
+a pretty big, I don't know if I
+
+216
+00:19:59,819 --> 00:20:03,660
+want to accomplishment, or it's
+just something that I certainly
+
+217
+00:20:03,660 --> 00:20:06,750
+admire hearing you talk about,
+because I don't I don't think
+
+218
+00:20:06,750 --> 00:20:12,329
+that I would have been confident
+enough to take on something like
+
+219
+00:20:12,329 --> 00:20:12,779
+that.
+
+220
+00:20:14,279 --> 00:20:17,759
+Courtney Landau: Yeah, thank
+you. But I don't always feel
+
+221
+00:20:17,759 --> 00:20:21,809
+that way, like the actual coding
+and stuff. But that's my
+
+222
+00:20:21,809 --> 00:20:24,930
+favorite part. I don't really
+like all the time planning
+
+223
+00:20:24,930 --> 00:20:28,680
+everything out and having to go
+through. I mean, I'm getting
+
+224
+00:20:28,680 --> 00:20:33,809
+better at it, I think. But I
+wish I had a project manager to
+
+225
+00:20:33,809 --> 00:20:37,200
+tell me what to do. Sometimes I
+just want to like pull a ticket
+
+226
+00:20:37,200 --> 00:20:41,369
+off a JIRA board and call it a
+day. But yeah, I like it. I
+
+227
+00:20:41,369 --> 00:20:46,319
+mean, and also, I get to do
+other things like, not just
+
+228
+00:20:46,319 --> 00:20:49,049
+coding, I get to talk directly
+with teachers. So it's an
+
+229
+00:20:49,049 --> 00:20:55,559
+education, tech nology. thing.
+So I, like I get to have
+
+230
+00:20:55,559 --> 00:20:59,670
+meetings with teachers and talk
+through features and like, build
+
+231
+00:20:59,670 --> 00:21:03,329
+what they want to like with, you
+know, the founders, if they
+
+232
+00:21:03,329 --> 00:21:06,930
+agree and see how they, you
+know, have meetings with them,
+
+233
+00:21:06,930 --> 00:21:10,920
+and see how they react when I
+build something that they want
+
+234
+00:21:10,920 --> 00:21:13,019
+it. And that's awesome.
+
+235
+00:21:13,619 --> 00:21:14,250
+Bekah Hawrot Weigel: That's
+really cool.
+
+236
+00:21:14,369 --> 00:21:15,329
+Dan Ott: That's very cool.
+
+237
+00:21:16,680 --> 00:21:18,869
+Bekah Hawrot Weigel: I want to
+talk a little bit about this is
+
+238
+00:21:18,869 --> 00:21:24,000
+like changing gears a little
+bit, but you had this tweet that
+
+239
+00:21:24,029 --> 00:21:28,200
+I was really, I really enjoyed,
+but it's as quiet and soft
+
+240
+00:21:28,200 --> 00:21:31,980
+spoken doesn't mean
+inexperienced. And I thought
+
+241
+00:21:31,980 --> 00:21:37,140
+that was so good, and powerful
+and important. Because tech is
+
+242
+00:21:37,140 --> 00:21:39,869
+kind of a really loud place
+right now. Right? And we're
+
+243
+00:21:39,869 --> 00:21:42,809
+always talking about, like,
+marketing yourself and putting
+
+244
+00:21:42,809 --> 00:21:47,190
+yourself out there. And so,
+people kind of have to like, be
+
+245
+00:21:47,190 --> 00:21:51,359
+a marketer, or be a devrel for
+themselves to get new jobs. And
+
+246
+00:21:51,359 --> 00:21:56,549
+so I, I wanted to hear you kind
+of talk through, you know, maybe
+
+247
+00:21:56,549 --> 00:22:01,470
+one what this tweet means to
+you, or, you know, how being
+
+248
+00:22:01,470 --> 00:22:08,549
+somebody that is quiet or soft
+spoken, has impacted your tech
+
+249
+00:22:08,549 --> 00:22:09,089
+journey?
+
+250
+00:22:10,829 --> 00:22:16,529
+Courtney Landau: Yeah, um, so
+I've always been pretty quiet
+
+251
+00:22:16,529 --> 00:22:24,089
+person, especially when I first
+meet people definitely tend to
+
+252
+00:22:24,119 --> 00:22:28,650
+more keep things in. But then
+once I like, once I'm
+
+253
+00:22:28,650 --> 00:22:33,359
+comfortable, I am probably
+completely the opposite. I don't
+
+254
+00:22:33,359 --> 00:22:42,150
+know. I do, like really like to
+talk. I really. I like, so in
+
+255
+00:22:42,660 --> 00:22:46,380
+tech, and just in general, I
+feel like even in my previous
+
+256
+00:22:46,380 --> 00:22:53,730
+career, I feel like sometimes
+people take your quietness for
+
+257
+00:22:54,690 --> 00:23:02,730
+not knowing what you're talking
+about, or, but yeah, I, and I
+
+258
+00:23:02,730 --> 00:23:07,650
+feel like that continues to
+happen, where I'm not like, out
+
+259
+00:23:07,650 --> 00:23:13,650
+there all the time. And like, I
+like on Twitter, like, I'm
+
+260
+00:23:13,650 --> 00:23:17,849
+barely tweet at all because I
+like, well, Major, I really
+
+261
+00:23:17,849 --> 00:23:20,940
+can't think of anything else. We
+don't have the time, but pretty
+
+262
+00:23:20,940 --> 00:23:25,140
+much. But I don't know how
+people come up with stuff. But
+
+263
+00:23:25,170 --> 00:23:29,609
+I'm saying, especially tech
+related, like, I feel like
+
+264
+00:23:29,609 --> 00:23:34,920
+everything I type, everything I
+write will be boring. And But
+
+265
+00:23:34,920 --> 00:23:39,869
+anyway, yeah. So I feel like,
+also, I think, like just being
+
+266
+00:23:39,869 --> 00:23:42,930
+quiet and not like speaking up
+for yourself all the time, just
+
+267
+00:23:42,960 --> 00:23:46,619
+like constantly saying what
+you're doing and things it makes
+
+268
+00:23:46,619 --> 00:23:50,039
+people maybe like, assume that
+you may not have experienced or
+
+269
+00:23:50,039 --> 00:23:53,519
+know what you're talking about.
+I'm not sure. But
+
+270
+00:23:54,650 --> 00:23:57,500
+Dan Ott: yeah, it's I mean, it's
+interesting. I mean, I really
+
+271
+00:23:57,500 --> 00:24:03,109
+like the way you phrase that. I
+mean, I've I feel like I've
+
+272
+00:24:03,230 --> 00:24:05,569
+can't be the same way,
+especially with with Twitter and
+
+273
+00:24:05,569 --> 00:24:08,359
+things like that. I never even
+never even occurs to me until
+
+274
+00:24:08,359 --> 00:24:12,890
+much later to tweet things. Like
+when they're happening, you
+
+275
+00:24:12,890 --> 00:24:20,630
+know? And I don't know. Yeah,
+and I, and the same with trying
+
+276
+00:24:20,630 --> 00:24:25,069
+to, like, think of ideas to
+tweet about or read about or
+
+277
+00:24:25,069 --> 00:24:29,089
+anything, you know, it's just a
+weird process to me. When I'm
+
+278
+00:24:29,089 --> 00:24:32,720
+coding. It's the farthest thing
+from my brain, you know,
+
+279
+00:24:32,779 --> 00:24:36,230
+Courtney Landau: right. Yeah.
+And I also feel like, there's
+
+280
+00:24:36,230 --> 00:24:42,589
+kind of, it's kind of, we're on
+Twitter, and we're reading, you
+
+281
+00:24:42,589 --> 00:24:46,369
+know, Twitter, but there are a
+ton of people that are
+
+282
+00:24:46,369 --> 00:24:49,220
+developers that don't have
+Twitter at all. They just, you
+
+283
+00:24:49,220 --> 00:24:52,609
+know, work and do their thing.
+And or same with like, open
+
+284
+00:24:52,609 --> 00:24:55,160
+source they don't like there's a
+lot of people who just do their
+
+285
+00:24:55,160 --> 00:24:58,309
+job and then go home. If it's
+not open source, then it's not
+
+286
+00:24:58,309 --> 00:25:02,329
+out there. But that doesn't mean
+like they don't know what
+
+287
+00:25:02,329 --> 00:25:04,759
+they're doing. You know? I don't
+know.
+
+288
+00:25:05,319 --> 00:25:08,259
+Bekah Hawrot Weigel: Yeah, for
+sure. And I think, you know,
+
+289
+00:25:08,259 --> 00:25:12,670
+since there's just such a focus
+on people who are out there
+
+290
+00:25:12,670 --> 00:25:16,240
+talking a lot, and I was just
+thinking back, like, you've been
+
+291
+00:25:16,240 --> 00:25:18,700
+coming to Virtual Coffee for a
+while, and I think like your
+
+292
+00:25:18,700 --> 00:25:25,690
+first involvement in coming to
+more than, like, our coffee
+
+293
+00:25:25,690 --> 00:25:31,240
+chats was with HacktoberFest,
+and you sign up as a mentor, and
+
+294
+00:25:31,240 --> 00:25:36,940
+a contributor. And I think, you
+know, it was funny, because it
+
+295
+00:25:37,390 --> 00:25:44,349
+kind of made me think about
+this. Um, I don't know how to
+
+296
+00:25:44,349 --> 00:25:47,710
+say this. I was surprised, I'll
+say that you signed up as a
+
+297
+00:25:47,710 --> 00:25:51,670
+mentor. And I had to kind of
+like, check myself because you
+
+298
+00:25:51,700 --> 00:25:56,049
+are quiet. And thinking about
+like, okay, there are different
+
+299
+00:25:56,049 --> 00:25:59,980
+people who are acting in
+different roles. And so it's
+
+300
+00:26:00,009 --> 00:26:03,069
+important to, you know, like, I
+don't think that I made an
+
+301
+00:26:03,069 --> 00:26:06,549
+assumption about you being
+quiet. But I also think that I
+
+302
+00:26:06,549 --> 00:26:10,839
+didn't think to, like, reach out
+to you and say, like, hey, do
+
+303
+00:26:10,839 --> 00:26:14,380
+you want to play a bigger role
+in this? And so like, it was
+
+304
+00:26:14,380 --> 00:26:18,759
+great to see you do that. And
+all of the support that you gave
+
+305
+00:26:18,789 --> 00:26:24,039
+was amazing. So I know, it was
+like a nice check for me in
+
+306
+00:26:24,039 --> 00:26:26,859
+terms of thinking about all the
+members of the community and how
+
+307
+00:26:26,859 --> 00:26:28,539
+we all work differently.
+
+308
+00:26:29,710 --> 00:26:37,210
+Courtney Landau: Yeah. Thanks.
+Um, yeah, I really, like I feel
+
+309
+00:26:37,240 --> 00:26:43,359
+I've been doing web dev kind of
+since probably, at this point. I
+
+310
+00:26:43,420 --> 00:26:47,440
+was doing Free Code Camp
+probably started that in 2016.
+
+311
+00:26:47,619 --> 00:26:53,079
+And then yeah. And so I've been
+doing kind of JavaScript, HTML
+
+312
+00:26:53,079 --> 00:26:59,200
+and CSS for a while. And I felt
+like I could. Now that I've been
+
+313
+00:26:59,200 --> 00:27:02,109
+more, even though at that point,
+maybe been working a year, I
+
+314
+00:27:02,109 --> 00:27:06,339
+guess. Like, I could definitely
+help out someone new or someone
+
+315
+00:27:07,210 --> 00:27:10,420
+completely in boot camp, like,
+and I really like working with
+
+316
+00:27:10,420 --> 00:27:13,359
+people who are really new,
+because I like sharing my
+
+317
+00:27:13,359 --> 00:27:15,819
+knowledge. And even though I
+still feel like I know nothing,
+
+318
+00:27:16,269 --> 00:27:23,230
+I do know a little bit more than
+when I started. So yeah, so I
+
+319
+00:27:23,230 --> 00:27:26,799
+worked with someone who's in
+boot camp, and that was a great
+
+320
+00:27:26,799 --> 00:27:30,700
+experience. And also back when I
+was learning, like, I was, like,
+
+321
+00:27:30,700 --> 00:27:35,019
+I my, I did a couple
+contributions to Free Code Camp
+
+322
+00:27:35,019 --> 00:27:40,210
+actually. And so the but I never
+finished a whole HacktoberFest
+
+323
+00:27:40,240 --> 00:27:48,279
+because I just never found was
+able to. So I liked being able
+
+324
+00:27:48,279 --> 00:27:49,390
+to help someone through that.
+
+325
+00:27:51,490 --> 00:27:53,920
+Bekah Hawrot Weigel: Yeah,
+that's awesome. And, and I know,
+
+326
+00:27:53,950 --> 00:28:01,690
+I mean, you were paired with
+Andrea, right? You had one. And
+
+327
+00:28:01,720 --> 00:28:04,630
+she definitely benefited from
+that she I just remember her
+
+328
+00:28:04,630 --> 00:28:08,349
+saying, like, what a great
+experience it was to work with
+
+329
+00:28:08,349 --> 00:28:11,619
+you. And it's just so great to
+see like those connections
+
+330
+00:28:11,619 --> 00:28:16,660
+happening and the community
+supporting one another. So that
+
+331
+00:28:16,660 --> 00:28:22,390
+was, I don't know. Something
+that I really enjoyed seeing
+
+332
+00:28:22,390 --> 00:28:22,930
+happen.
+
+333
+00:28:23,920 --> 00:28:27,549
+Courtney Landau: Yeah, I mean,
+community is great. And I try to
+
+334
+00:28:27,880 --> 00:28:34,089
+help out as much as I can. Yeah,
+when I came into Free Code, I'm
+
+335
+00:28:34,569 --> 00:28:36,880
+talking about Free Code Camp now
+I'm talking about Virtual
+
+336
+00:28:36,880 --> 00:28:46,269
+Coffee. It was really great for
+me because I was working on
+
+337
+00:28:46,269 --> 00:28:49,839
+still am working by myself. And
+I really don't know anybody in
+
+338
+00:28:49,839 --> 00:28:55,359
+tech. Besides like, the three
+guys that were on my team at my
+
+339
+00:28:55,359 --> 00:29:02,410
+internship, and so when you were
+tweeting about Virtual Coffee
+
+340
+00:29:04,029 --> 00:29:10,779
+and even before the pandemic, I
+was working from home, so I was
+
+341
+00:29:10,779 --> 00:29:13,480
+really excited and then the
+slack group and it's just been
+
+342
+00:29:13,480 --> 00:29:17,950
+so great. Like I made so many
+friends in tech now.
+
+343
+00:29:21,309 --> 00:29:26,109
+Dan Ott: That's, it's, it's
+pretty cool. I was gonna ask
+
+344
+00:29:26,109 --> 00:29:33,099
+like, you know, given not sure
+how to phrase this, but like
+
+345
+00:29:33,099 --> 00:29:38,440
+given your, like quietness and
+what is the what is the right
+
+346
+00:29:38,440 --> 00:29:42,640
+word for that? But like, given
+the fact that you know, you
+
+347
+00:29:42,640 --> 00:29:44,259
+know, you're not out there like
+tweeting all the time, you're
+
+348
+00:29:44,259 --> 00:29:49,059
+not doing a lot of that other
+stuff. I still see you getting
+
+349
+00:29:49,059 --> 00:29:50,950
+involved in you know, things
+like Bekah was saying that
+
+350
+00:29:50,950 --> 00:29:54,430
+HacktoberFest and you You know,
+I've given talks at our
+
+351
+00:29:54,430 --> 00:29:58,539
+lightning talks. For instance,
+do you find yourself like
+
+352
+00:29:58,930 --> 00:30:05,259
+looking for ways to To create
+content or like, you know, do
+
+353
+00:30:05,259 --> 00:30:09,609
+things like that. Other than,
+you know, I don't know, the
+
+354
+00:30:09,609 --> 00:30:12,009
+traditional, like, tweets and
+whatever, that you know, a lot
+
+355
+00:30:12,009 --> 00:30:13,029
+of other developers do.
+
+356
+00:30:14,259 --> 00:30:17,799
+Courtney Landau: Yeah, um, I
+think, like, we're the lightning
+
+357
+00:30:17,799 --> 00:30:20,619
+talks are concerned and things
+like that. I do want to put
+
+358
+00:30:20,619 --> 00:30:26,650
+myself out there. And it's more
+like me making myself do things
+
+359
+00:30:26,710 --> 00:30:30,970
+that are outside of my comfort
+zone like so
+
+360
+00:30:31,000 --> 00:30:31,450
+Dan Ott: Totally
+
+361
+00:30:31,630 --> 00:30:35,109
+Courtney Landau: yeah, because I
+get, you know, even like this
+
+362
+00:30:35,109 --> 00:30:41,079
+podcast, get so nervous, for it,
+but, yeah, it's good for, you
+
+363
+00:30:41,079 --> 00:30:46,750
+know, I could easily just stay
+in my office and not contribute,
+
+364
+00:30:46,750 --> 00:30:50,589
+but I want to get out there and
+I do benefit a lot from it. So
+
+365
+00:30:51,160 --> 00:30:51,579
+yeah.
+
+366
+00:30:52,750 --> 00:30:55,972
+Dan Ott: Do you have I mean, I
+suffer from suffer, I don't know
+
+367
+00:30:56,032 --> 00:30:59,674
+if that stuff is the right word.
+But I struggle with the same
+
+368
+00:30:59,733 --> 00:31:03,496
+thing. And especially before, if
+I'm got, you know, fun Virtual
+
+369
+00:31:03,555 --> 00:31:07,077
+Coffee guy bolts, the I went
+through long phase years of my
+
+370
+00:31:07,136 --> 00:31:10,778
+career where I was just like, I
+don't know, I just did that I
+
+371
+00:31:10,838 --> 00:31:14,599
+just stayed in my little cave,
+you know, uncoated and whatever,
+
+372
+00:31:14,660 --> 00:31:18,061
+I follow people on Twitter,
+probably, but I was not like,
+
+373
+00:31:18,122 --> 00:31:21,942
+very active, and I was honestly
+kind of comfortable with it, you
+
+374
+00:31:22,002 --> 00:31:25,585
+know, sometimes, and then I do
+find that the more that I do,
+
+375
+00:31:25,644 --> 00:31:29,405
+force myself out of my comfort
+zone, you know, there's, there's
+
+376
+00:31:29,464 --> 00:31:32,867
+these moments right before,
+like, like talking, you know,
+
+377
+00:31:32,928 --> 00:31:39,029
+giving a talk, for instance.
+And this was, honestly, for me,
+
+378
+00:31:35,700 --> 00:31:43,410
+it was much worse, in person,
+you know, and I was, I was
+
+379
+00:31:39,029 --> 00:31:49,680
+trying to give talks for my
+Meetup group, and would have
+
+380
+00:31:43,440 --> 00:31:51,509
+these moments, like, shortly
+before, where I was very
+
+381
+00:31:49,680 --> 00:31:53,970
+nervous, and I was just like,
+why, why, why, why did I do
+
+382
+00:31:51,509 --> 00:31:57,150
+this? Why did I make this
+choice? Like, can I just, I want
+
+383
+00:31:53,970 --> 00:32:01,170
+to just go back to my cave where
+nobody can see me, but
+
+384
+00:31:57,150 --> 00:32:07,049
+afterwards, generally felt
+pretty good, you know, glad that
+
+385
+00:32:01,170 --> 00:32:12,660
+I did it. And so that's one
+thing I keep looking for is ways
+
+386
+00:32:07,049 --> 00:32:15,329
+to, I don't know, force myself
+to do things like that. You
+
+387
+00:32:12,660 --> 00:32:18,359
+know, I don't know if that makes
+sense. But like signing up for
+
+388
+00:32:15,329 --> 00:32:25,559
+things before I can think about
+it, for instance, you know, you
+
+389
+00:32:18,359 --> 00:32:32,430
+know, things like that. Have you
+is, have you had any other out
+
+390
+00:32:27,660 --> 00:32:38,339
+of your comfort zone adventures,
+recently, aside from the ones
+
+391
+00:32:33,029 --> 00:32:38,339
+we've covered? Oh,
+
+392
+00:32:41,670 --> 00:32:45,839
+Courtney Landau: yeah. But like
+you said, like, I just keep, you
+
+393
+00:32:45,839 --> 00:32:48,779
+know, forcing myself the more I
+do it, the more the better it
+
+394
+00:32:48,779 --> 00:32:54,210
+gets. But that's why I have to
+force myself but the only other
+
+395
+00:32:54,450 --> 00:33:00,000
+situations where like, recently,
+we're just taking interviews
+
+396
+00:33:00,000 --> 00:33:03,240
+while take phone calls once a
+month, just because I know that
+
+397
+00:33:03,269 --> 00:33:09,539
+how that I don't know that I
+come across great interviews,
+
+398
+00:33:09,539 --> 00:33:14,970
+just because I'm so nervous and
+things like that. So just, I
+
+399
+00:33:14,970 --> 00:33:19,319
+made a decision to like take,
+because now that I've been in
+
+400
+00:33:19,319 --> 00:33:22,650
+the industry for a little bit,
+now the recruiters are reaching
+
+401
+00:33:22,650 --> 00:33:27,450
+out like crazy on LinkedIn. So
+I'll take a call, like once a
+
+402
+00:33:27,450 --> 00:33:30,240
+week, and that's what I'm trying
+to do. Because when I go too
+
+403
+00:33:30,240 --> 00:33:34,289
+long, without talking to people,
+I get worse at it. So and I know
+
+404
+00:33:34,289 --> 00:33:38,490
+that about myself, so. And that
+kind of helps. But
+
+405
+00:33:38,609 --> 00:33:40,619
+Dan Ott: that's really great. So
+I mean, yeah, so like, that's, I
+
+406
+00:33:40,619 --> 00:33:42,660
+mean, these aren't practice
+interviews you're taking, you
+
+407
+00:33:42,660 --> 00:33:45,839
+know, these are real. I mean,
+they might be the first round or
+
+408
+00:33:45,839 --> 00:33:48,210
+whatever. But these are real
+interviews, you know, that
+
+409
+00:33:48,210 --> 00:33:52,410
+you're just taking for your own,
+you know, your own I don't know,
+
+410
+00:33:52,470 --> 00:33:55,470
+benefit or whatever. Right.
+That's awesome.
+
+411
+00:33:55,740 --> 00:33:59,339
+Courtney Landau: Um, yeah. I
+mean, yeah, they're also like,
+
+412
+00:33:59,490 --> 00:34:03,660
+if it's not just like, any
+random, like, if I'm interested
+
+413
+00:34:03,660 --> 00:34:08,550
+in hearing more about it, I will
+reach out but yeah, totally.
+
+414
+00:34:08,940 --> 00:34:13,889
+It's more perfect. I like where
+I'm at right now. But also, we
+
+415
+00:34:13,889 --> 00:34:17,369
+are very new, and we don't have,
+you know, a lot of money coming
+
+416
+00:34:17,369 --> 00:34:22,800
+in. So it's kind of assurance to
+to keep up my skills.
+
+417
+00:34:23,579 --> 00:34:26,639
+Dan Ott: Totally. Well, and
+I've, you know, I've heard from
+
+418
+00:34:26,639 --> 00:34:29,489
+other people that like this,
+that interviewing is is like,
+
+419
+00:34:29,519 --> 00:34:34,949
+honestly, just a separate skill
+that is worth practicing. And I
+
+420
+00:34:34,949 --> 00:34:37,110
+just think I think it's very
+cool that you do it sort of
+
+421
+00:34:37,199 --> 00:34:40,409
+intentionally like that, even
+when there's not a need. Seems
+
+422
+00:34:40,409 --> 00:34:43,469
+like the right time to practice
+is when what is that an
+
+423
+00:34:43,469 --> 00:34:47,309
+emergency? Right? Right. Yeah.
+That's really, really cool.
+
+424
+00:34:49,679 --> 00:34:51,389
+Bekah Hawrot Weigel: You, you've
+given two lightning talks. So
+
+425
+00:34:51,389 --> 00:34:56,159
+we've had two lightning talk
+events, and you've given talks
+
+426
+00:34:56,190 --> 00:35:00,300
+in both of them, which were
+fantastic like you do. Such a
+
+427
+00:35:00,300 --> 00:35:04,050
+good job like communicating
+things through and going
+
+428
+00:35:04,050 --> 00:35:07,440
+through, you know, the things
+that you're working on. And I
+
+429
+00:35:07,440 --> 00:35:11,670
+find like, I give talks, but I
+am terrified, pretty much the
+
+430
+00:35:11,670 --> 00:35:15,840
+entire time. And then wonder why
+I have agreed to do this. But
+
+431
+00:35:15,840 --> 00:35:19,409
+like, Are you comfortable? You
+look comfortable when you're
+
+432
+00:35:19,409 --> 00:35:22,530
+doing it? Or is this Oh, are you
+pushing yourself out of your
+
+433
+00:35:22,530 --> 00:35:24,090
+comfort zone in those things?
+
+434
+00:35:24,570 --> 00:35:28,739
+Courtney Landau: Oh, I'm totally
+pushing. But the lightning talks
+
+435
+00:35:28,769 --> 00:35:34,889
+are nice, because I can I mean,
+you know, I did a traditional
+
+436
+00:35:34,889 --> 00:35:41,280
+kind of college route. So I
+have, like, if you hired
+
+437
+00:35:41,309 --> 00:35:43,889
+occasionally, you're giving
+presentations constantly, at
+
+438
+00:35:43,889 --> 00:35:48,900
+least with my masters. I was. So
+I've done it before. And I found
+
+439
+00:35:49,079 --> 00:35:53,670
+really just having, like, tons
+of preparation and practice. I
+
+440
+00:35:53,670 --> 00:35:58,349
+practice like so many times
+beforehand, because if I don't,
+
+441
+00:35:58,349 --> 00:36:02,670
+then I get, you know, also, I
+have to know exactly what I'm
+
+442
+00:36:02,670 --> 00:36:08,429
+going to say. So I don't like
+lose, you know, my thoughts. So
+
+443
+00:36:09,510 --> 00:36:14,250
+I don't know. Yeah. I am
+surprised to hear you say that
+
+444
+00:36:14,250 --> 00:36:18,510
+back up. Because I mean, you did
+say that. I've done well before,
+
+445
+00:36:18,510 --> 00:36:21,300
+you know, in my lightning talks,
+but I can't go back and listen
+
+446
+00:36:21,300 --> 00:36:25,650
+to them. Because I just feel my
+nervousness all over again. I
+
+447
+00:36:25,679 --> 00:36:27,719
+know that I should to improve,
+but
+
+448
+00:36:29,190 --> 00:36:32,579
+Bekah Hawrot Weigel: it's so
+hard. Oh, for sure. I mean, I
+
+449
+00:36:32,579 --> 00:36:36,690
+don't like listening to myself
+talk or like, let alone going
+
+450
+00:36:36,690 --> 00:36:41,429
+back. And like watching a video
+of myself talking. I am given a
+
+451
+00:36:41,429 --> 00:36:45,719
+talk next week. And the last
+time I gave a version of this
+
+452
+00:36:45,719 --> 00:36:49,199
+talk, I like cried on camera for
+10 minutes. And I was telling my
+
+453
+00:36:49,199 --> 00:36:51,599
+friend Oh, yeah, I'm doing this
+talk. And she's like, Is that
+
+454
+00:36:51,599 --> 00:36:56,039
+the same one that you cried? And
+you're gonna do it again? Well,
+
+455
+00:36:56,039 --> 00:36:59,309
+yeah, I didn't I didn't really
+think about it that way. But now
+
+456
+00:36:59,309 --> 00:37:04,500
+I will. But I think it is like
+that practice. And then also
+
+457
+00:37:04,500 --> 00:37:09,360
+realizing that sometimes you can
+practice and things are still
+
+458
+00:37:09,360 --> 00:37:12,449
+aren't going to happen the way
+that maybe you hoped. And then
+
+459
+00:37:12,449 --> 00:37:15,119
+it's just kind of figuring out
+like, how do you push through
+
+460
+00:37:15,119 --> 00:37:18,989
+that when you've got a roomful
+of people staring at you or
+
+461
+00:37:18,989 --> 00:37:19,650
+whatever.
+
+462
+00:37:21,000 --> 00:37:27,750
+Courtney Landau: Right. Yeah.
+And also, the topics I'm taking
+
+463
+00:37:27,780 --> 00:37:32,039
+are very, like, some things I'm
+very familiar with, like I know
+
+464
+00:37:32,039 --> 00:37:38,010
+pretty well that I'd be afraid
+to, like, do a topic on
+
+465
+00:37:38,010 --> 00:37:41,280
+something that I've been using
+for just like a practice project
+
+466
+00:37:41,280 --> 00:37:42,179
+or something. I don't know.
+
+467
+00:37:44,579 --> 00:37:45,570
+Unknown: I don't know. I just,
+
+468
+00:37:47,110 --> 00:37:49,869
+Courtney Landau: if I really
+know what I'm talking about. I
+
+469
+00:37:49,869 --> 00:37:52,900
+feel like I could what you're
+talking about Bekah? Yeah,
+
+470
+00:37:52,960 --> 00:37:54,130
+that'd be really hard for me.
+
+471
+00:37:55,170 --> 00:37:56,730
+Bekah Hawrot Weigel: Well, I
+think that's good advice. No,
+
+472
+00:37:56,730 --> 00:38:00,599
+something that note, well,
+especially if it's out of your
+
+473
+00:38:00,599 --> 00:38:04,079
+comfort zone, or if you're doing
+something for the first time,
+
+474
+00:38:04,079 --> 00:38:08,280
+like, find a topic that you're
+comfortable talking about,
+
+475
+00:38:08,280 --> 00:38:12,360
+because then that can offset
+some of that discomfort in
+
+476
+00:38:12,360 --> 00:38:13,679
+trying something new.
+
+477
+00:38:16,860 --> 00:38:21,389
+Dan Ott: Yeah, that's, that kind
+of goes along with my, I'm
+
+478
+00:38:21,389 --> 00:38:25,949
+working on these, like, I didn't
+need to come up with the name of
+
+479
+00:38:25,949 --> 00:38:30,239
+them. But like, these pieces of
+advice, you know, for different
+
+480
+00:38:30,239 --> 00:38:34,440
+situations, right. And like
+that, trying to not do something
+
+481
+00:38:34,440 --> 00:38:37,199
+new, like too many new things
+all at the same time. You know,
+
+482
+00:38:37,230 --> 00:38:40,170
+it's like, that's, that's a
+danger zone. Right? So, if
+
+483
+00:38:40,170 --> 00:38:44,369
+you're, like, just getting into
+speaking, right, it's just like,
+
+484
+00:38:44,369 --> 00:38:46,860
+when he was saying, like, pick,
+choose something you're
+
+485
+00:38:46,860 --> 00:38:49,139
+comfortable speaking about,
+right? And then once you get
+
+486
+00:38:49,139 --> 00:38:52,440
+like, I feel like the talks, you
+see sometimes where somebody
+
+487
+00:38:52,469 --> 00:38:55,980
+learns, like, is presenting
+something that they just learned
+
+488
+00:38:55,980 --> 00:39:02,309
+about or whatever, that stems
+are seasoned, you know,
+
+489
+00:39:02,309 --> 00:39:06,449
+speakers, right. Right. So where
+they're like, okay, the the
+
+490
+00:39:06,449 --> 00:39:09,389
+thing that they don't know, is
+just that tech or whatever, and
+
+491
+00:39:09,389 --> 00:39:13,469
+not, you know, not being
+comfortable with what speaking.
+
+492
+00:39:15,150 --> 00:39:18,210
+I do the same thing. You know,
+I've done the same thing, that
+
+493
+00:39:18,239 --> 00:39:23,940
+the times that I've done. The
+lightning talks and stuff is it,
+
+494
+00:39:24,300 --> 00:39:27,539
+it's nice Also, if you get off
+track, or something you at
+
+495
+00:39:27,539 --> 00:39:31,829
+least, like, if you're if you
+know, you know the topic, you
+
+496
+00:39:31,829 --> 00:39:34,949
+can kind of usually find your
+way back. Right.
+
+497
+00:39:35,579 --> 00:39:40,139
+Courtney Landau: Yeah. And
+another thing is, yeah, I like
+
+498
+00:39:41,128 --> 00:39:44,219
+when you're talking about so I
+kind of think I could only talk
+
+499
+00:39:44,219 --> 00:39:48,719
+about like technical things. I
+don't know if I would be able to
+
+500
+00:39:50,278 --> 00:39:55,318
+talk about more things that
+weren't like with the technical
+
+501
+00:39:55,318 --> 00:39:57,358
+talk, it's kind of more you're,
+you know, you're kind of going
+
+502
+00:39:57,358 --> 00:39:59,849
+through steps. So I find that
+easier.
+
+503
+00:40:02,489 --> 00:40:05,940
+Dan Ott: Yeah, well, I mean, and
+there's lots lots and lots of
+
+504
+00:40:05,940 --> 00:40:10,530
+value in the, like technical
+talks, you know? And have you
+
+505
+00:40:10,530 --> 00:40:15,989
+found like, in your experience
+with, you know, the talks or
+
+506
+00:40:15,989 --> 00:40:17,760
+whatever, that you've written,
+that they've actually helped
+
+507
+00:40:17,760 --> 00:40:21,570
+you. I don't learn anything new,
+or reframe anything for
+
+508
+00:40:21,570 --> 00:40:25,829
+yourself, you know, even though
+you, like, we're, you know,
+
+509
+00:40:25,860 --> 00:40:28,380
+talking about a topic that you,
+you know, sensibly, like, knew
+
+510
+00:40:28,380 --> 00:40:28,860
+pretty well.
+
+511
+00:40:31,469 --> 00:40:35,400
+Courtney Landau: Um, yeah, I
+think that there's value in
+
+512
+00:40:35,400 --> 00:40:39,119
+that, because you have to cover
+the topic. When you're giving
+
+513
+00:40:39,119 --> 00:40:44,789
+the talk, like, you want to
+cover all aspects of it? And if
+
+514
+00:40:44,789 --> 00:40:47,579
+it's something I haven't, you
+know, there's certain parts of
+
+515
+00:40:47,579 --> 00:40:53,219
+it that I haven't really used in
+depth that really helps solidify
+
+516
+00:40:53,219 --> 00:40:54,630
+things. Yeah,
+
+517
+00:40:54,840 --> 00:40:58,920
+Dan Ott: yeah, I've had that
+experience where this was, I
+
+518
+00:40:58,920 --> 00:41:00,929
+guess, this was for that the
+last round of lightning talks, I
+
+519
+00:41:00,929 --> 00:41:06,539
+talked about CSS Grid, and I
+picked it because I like knew it
+
+520
+00:41:06,539 --> 00:41:09,179
+pretty well, you know, and,
+like, grammie grid is like, kind
+
+521
+00:41:09,179 --> 00:41:14,219
+of, I say, knew pretty well. And
+that means like, I only had to
+
+522
+00:41:14,219 --> 00:41:18,239
+look up half of the things that
+I was trying to do. But like, I
+
+523
+00:41:18,239 --> 00:41:20,639
+honestly, like, had a whole
+thing wrong in my head that I
+
+524
+00:41:20,639 --> 00:41:23,190
+was going to talk about, you
+know, and I had, like, read it
+
+525
+00:41:23,190 --> 00:41:26,849
+out incorrectly, and went to
+just reference the docs just so
+
+526
+00:41:26,849 --> 00:41:29,639
+I could like, nail down one
+piece of syntax and realize that
+
+527
+00:41:29,670 --> 00:41:32,909
+I had this whole thing that I
+learned it, you know, what I
+
+528
+00:41:32,909 --> 00:41:36,059
+mean? Like, like, in preparing
+for the talk, I was like,
+
+529
+00:41:36,059 --> 00:41:39,210
+actually, like, improve my own,
+you know, knowledge at the same
+
+530
+00:41:39,210 --> 00:41:45,389
+time as it was kind of cool. I
+was just like, you know, and
+
+531
+00:41:45,389 --> 00:41:48,119
+writing is I think that kind of
+the same way, except maybe with
+
+532
+00:41:48,119 --> 00:41:53,820
+some less pressure, but like,
+the the act of like, teaching,
+
+533
+00:41:53,820 --> 00:41:57,480
+you know, in some way can is
+like a very valuable, like
+
+534
+00:41:57,510 --> 00:42:00,750
+learning tool for yourself,
+right? That's the way I look at
+
+535
+00:42:00,750 --> 00:42:01,170
+it at least.
+
+536
+00:42:01,679 --> 00:42:04,800
+Courtney Landau: Yeah,
+definitely. There's definitely a
+
+537
+00:42:04,800 --> 00:42:09,210
+lot of value for. And I admire
+people that are making blog
+
+538
+00:42:09,210 --> 00:42:14,909
+posts about things a lot. And I
+just don't know how people find
+
+539
+00:42:14,909 --> 00:42:20,789
+that time. I wish I could do
+more of that. But yeah, it's
+
+540
+00:42:20,820 --> 00:42:25,710
+very time consuming, but you do.
+It does really solidify your
+
+541
+00:42:25,710 --> 00:42:27,269
+knowledge. For sure.
+
+542
+00:42:28,650 --> 00:42:31,230
+Bekah Hawrot Weigel: I know, you
+know, it's a strategy even in
+
+543
+00:42:31,230 --> 00:42:35,190
+teaching, like if you're in a
+classroom to put a student who
+
+544
+00:42:35,280 --> 00:42:38,190
+might be a little bit ahead of
+another student together and
+
+545
+00:42:38,190 --> 00:42:43,019
+have them pair. No, I'm not even
+on coding things, but just, you
+
+546
+00:42:43,019 --> 00:42:45,389
+know, whatever topic you're
+learning about, because there's
+
+547
+00:42:45,389 --> 00:42:51,360
+something about that peer to
+peer interaction, and the, how
+
+548
+00:42:51,360 --> 00:42:57,599
+you're able to solidify your own
+understanding of a concept. But
+
+549
+00:42:57,900 --> 00:43:04,500
+how teaching it and working
+together helps students retain
+
+550
+00:43:04,500 --> 00:43:07,920
+information better and to grow.
+And I think, you know, a lot of
+
+551
+00:43:07,920 --> 00:43:10,619
+it has to do with like that
+sense of accomplishment and
+
+552
+00:43:10,619 --> 00:43:13,530
+teamwork. And I don't know, I
+think that's one of the great
+
+553
+00:43:13,530 --> 00:43:16,230
+things about Virtual Coffee,
+because people are always kind
+
+554
+00:43:16,230 --> 00:43:20,219
+of pairing up to work on things
+together. And, you know, with
+
+555
+00:43:20,219 --> 00:43:24,929
+the mentoring you've done to
+Courtney, maybe you've had that
+
+556
+00:43:24,929 --> 00:43:28,199
+experience as well. But you
+know, the idea of, you know,
+
+557
+00:43:28,199 --> 00:43:37,860
+pairing with people who you
+talked earlier about being able
+
+558
+00:43:37,860 --> 00:43:40,769
+to offer something, even if
+you're a little bit ahead of
+
+559
+00:43:40,769 --> 00:43:43,320
+someone else. And I just think
+that's so important. I don't
+
+560
+00:43:43,320 --> 00:43:47,579
+think that people realize that
+enough that you if you're a step
+
+561
+00:43:47,579 --> 00:43:50,369
+ahead of somebody, you can still
+teach and mentor.
+
+562
+00:43:52,199 --> 00:43:55,769
+Courtney Landau: Right? Yeah,
+and definitely
+
+563
+00:43:57,429 --> 00:44:03,010
+mentoring and, like doing the
+Oktoberg mentoring is definitely
+
+564
+00:44:03,010 --> 00:44:09,010
+helps solidify my knowledge as
+well. And I really enjoy it.
+
+565
+00:44:09,010 --> 00:44:15,210
+Like, I like
+talking to people about tech. So
+
+566
+00:44:11,039 --> 00:44:18,690
+I hope to continue doing that.
+throughout the rest of my career.
+
+567
+00:44:20,219 --> 00:44:26,159
+Dan Ott: I feel like one of the
+nice things about nice, but like
+
+568
+00:44:26,159 --> 00:44:28,079
+one of the most one of the
+important things about mentoring
+
+569
+00:44:28,079 --> 00:44:33,510
+is like showing that it's okay
+to like, not know, everything,
+
+570
+00:44:33,659 --> 00:44:36,510
+you know, and you can be like
+successful at whatever project
+
+571
+00:44:36,510 --> 00:44:41,280
+or task you know, without like
+having the complete knowledge of
+
+572
+00:44:41,280 --> 00:44:45,869
+all things, you know, which is
+one of the hardest, like, I feel
+
+573
+00:44:45,869 --> 00:44:48,929
+like one of the hardest things
+about learning to be a developer
+
+574
+00:44:48,929 --> 00:44:57,059
+and learning new, new skills is
+is just like you it's very
+
+575
+00:44:57,059 --> 00:45:00,840
+natural to feel like you need to
+know everything, you know Yeah,
+
+576
+00:45:00,840 --> 00:45:02,550
+but like very obvious, like,
+
+577
+00:45:03,780 --> 00:45:05,070
+Courtney Landau: yeah, that is
+impossible.
+
+578
+00:45:05,309 --> 00:45:07,500
+Dan Ott: Right? It's impossible.
+No, you're fine. I was just
+
+579
+00:45:07,500 --> 00:45:12,780
+gonna say it's it's like, it can
+seem like everybody that's
+
+580
+00:45:12,780 --> 00:45:17,010
+experienced does know
+everything, you know. And that's
+
+581
+00:45:17,070 --> 00:45:24,179
+like a lesson we try to I don't
+know display is even people who
+
+582
+00:45:24,179 --> 00:45:26,579
+have been working in the
+industry for a very long time.
+
+583
+00:45:27,929 --> 00:45:30,449
+Don't know everything, no don't
+know nearly everything, you know
+
+584
+00:45:30,449 --> 00:45:32,550
+what I mean? They they've just
+like gotten better at finding
+
+585
+00:45:32,579 --> 00:45:36,960
+things out, you know faster,
+like lots of times. So it's just
+
+586
+00:45:36,960 --> 00:45:39,869
+like learning things together is
+a great like mentor mentee you
+
+587
+00:45:39,869 --> 00:45:43,380
+know, activity for lack of a
+better word.
+
+588
+00:45:44,789 --> 00:45:47,579
+Unknown: Yeah, definitely. And
+
+589
+00:45:51,010 --> 00:45:53,530
+Courtney Landau: they,
+especially Andrea for
+
+590
+00:45:53,559 --> 00:45:59,639
+HacktoberFest, she
+definitely saw a lot of that I
+
+591
+00:45:56,099 --> 00:46:04,650
+wasn't familiar with because we
+worked on the Virtual Coffee
+
+592
+00:45:59,639 --> 00:46:10,170
+site itself. And I wasn't
+familiar with, like, the static
+
+593
+00:46:04,650 --> 00:46:14,789
+site generator. I hadn't really
+used that before. And we use
+
+594
+00:46:10,170 --> 00:46:21,630
+eleventy. And so I was learning
+along with her. But yeah, it was
+
+595
+00:46:14,820 --> 00:46:26,250
+really, it was great. And she
+actually, I steal her story, but
+
+596
+00:46:21,630 --> 00:46:34,170
+she taught me I knew she'd
+definitely taught me things cuz
+
+597
+00:46:26,250 --> 00:46:37,380
+she, she was committing a fight
+like a half of not the entire
+
+598
+00:46:34,170 --> 00:46:40,320
+file. Like I've just always just
+committed that entire file, but
+
+599
+00:46:37,380 --> 00:46:43,980
+she's on how you can stage just
+selection and selected parts.
+
+600
+00:46:40,320 --> 00:46:52,440
+She I think she was very happy
+that she got to show me
+
+601
+00:46:43,980 --> 00:46:56,670
+something. Yeah, just she has a
+good experience. And yeah, we
+
+602
+00:46:52,440 --> 00:47:00,000
+went mentoring with me will see
+me googling and and it's very
+
+603
+00:46:56,670 --> 00:47:03,179
+valuable to show how you go
+through your process to like,
+
+604
+00:47:00,000 --> 00:47:06,900
+and it definitely gets better
+over time of how to figure
+
+605
+00:47:03,179 --> 00:47:10,710
+things out, just working
+through. Because I mean, web dev
+
+606
+00:47:06,900 --> 00:47:10,710
+is constantly changing anyway.
+
+607
+00:47:11,340 --> 00:47:15,269
+Dan Ott: Yes, exactly. Yeah,
+that's, that's really awesome.
+
+608
+00:47:15,269 --> 00:47:19,230
+I, I feel like, Oh, no, I can't
+speak for Andrew. But like,
+
+609
+00:47:20,190 --> 00:47:22,289
+being in that position, I almost
+would would rather that
+
+610
+00:47:22,289 --> 00:47:28,409
+experience of like, my, like a
+mentor, like not, not being the
+
+611
+00:47:28,409 --> 00:47:30,300
+total expert, and just having
+all the answers, right, you
+
+612
+00:47:30,300 --> 00:47:32,940
+know, because that like learning
+how to figure things out is,
+
+613
+00:47:34,139 --> 00:47:36,960
+right, it's just like, the most
+important thing I feel like to
+
+614
+00:47:37,139 --> 00:47:39,210
+get under your belt, especially
+early.
+
+615
+00:47:42,119 --> 00:47:46,289
+Bekah Hawrot Weigel: Yeah, I
+want to, I want to say too, so
+
+616
+00:47:46,559 --> 00:47:51,179
+you did do the lightning talks,
+you have mentored, you know,
+
+617
+00:47:51,179 --> 00:47:55,500
+take for some of our coffees.
+And this last time for the
+
+618
+00:47:55,559 --> 00:47:59,760
+lightning talks, you also were a
+coordinator, which meant that
+
+619
+00:47:59,760 --> 00:48:02,340
+you worked with a bunch of
+different speakers, and you work
+
+620
+00:48:02,340 --> 00:48:08,130
+with us to kind of create this
+process or to understand the
+
+621
+00:48:08,130 --> 00:48:14,880
+process that to create these
+events. And that is a lot of
+
+622
+00:48:14,880 --> 00:48:19,679
+stuff to be doing. And you did
+it all really well. You had so
+
+623
+00:48:19,679 --> 00:48:22,920
+many people that you were
+working with to coordinate that
+
+624
+00:48:22,920 --> 00:48:26,820
+while you were writing your own
+talk. Um, do you think like
+
+625
+00:48:26,820 --> 00:48:30,659
+maybe some of the stuff that
+you're doing with Project
+
+626
+00:48:31,170 --> 00:48:37,050
+Management at your job came into
+play here? Or you just decided
+
+627
+00:48:37,050 --> 00:48:38,340
+you are going to do it off?
+
+628
+00:48:39,210 --> 00:48:45,030
+Courtney Landau: Um, no, for
+sure. Yeah. Definitely have to
+
+629
+00:48:47,010 --> 00:48:51,630
+do I like working on I like
+doing stuff that like helping
+
+630
+00:48:51,630 --> 00:48:55,949
+out where I can, you know, and
+doing that back end like stuff
+
+631
+00:48:55,949 --> 00:48:59,400
+is like, right up my alley.
+Like, by like, doing the
+
+632
+00:48:59,400 --> 00:49:02,099
+coordinating type things. I was
+always kind of one of those
+
+633
+00:49:02,250 --> 00:49:07,860
+people who aren't here's to be
+like, oh,
+
+634
+00:49:09,239 --> 00:49:11,579
+like Vice President, the one who
+doesn't have to do everything.
+
+635
+00:49:13,980 --> 00:49:18,300
+Know of clubs and things. But
+yeah, so yeah, like doing that
+
+636
+00:49:19,230 --> 00:49:24,510
+kind of thing. Coordinating was
+not hard. It was just reaching
+
+637
+00:49:24,510 --> 00:49:26,880
+out to people every once a while
+wasn't Yeah, it wasn't a big
+
+638
+00:49:26,880 --> 00:49:31,199
+deal. And my own talk was
+something that, you know, I was
+
+639
+00:49:31,199 --> 00:49:33,449
+pretty familiar with, so I
+didn't really have to spend a
+
+640
+00:49:33,449 --> 00:49:37,230
+ton of time. Now you notice I
+didn't haven't done like a brown
+
+641
+00:49:37,230 --> 00:49:40,500
+bag. Right? That that involves a
+lot of work, I think like to
+
+642
+00:49:40,500 --> 00:49:42,389
+speak for an hour, but
+
+643
+00:49:42,960 --> 00:49:44,579
+Bekah Hawrot Weigel: so that's
+what you're gonna do next. Is
+
+644
+00:49:44,579 --> 00:49:45,420
+that what you're saying?
+
+645
+00:49:47,309 --> 00:49:48,119
+Courtney Landau: I don't know
+about that.
+
+646
+00:49:48,179 --> 00:49:50,340
+Dan Ott: What's your brown bag
+topic? Gonna be?
+
+647
+00:49:50,639 --> 00:49:54,059
+Courtney Landau: Yeah, that's I
+that's the question though. I
+
+648
+00:49:54,059 --> 00:49:54,750
+have no idea.
+
+649
+00:49:55,650 --> 00:49:56,010
+Dan Ott: I mean,
+
+650
+00:49:56,039 --> 00:49:57,420
+Courtney Landau: I probably will.
+
+651
+00:49:57,480 --> 00:49:59,789
+Dan Ott: There's lots of options
+though. With the brown bag to
+
+652
+00:49:59,789 --> 00:50:02,280
+eat. You know, they don't always
+have to be just like,
+
+653
+00:50:02,489 --> 00:50:06,929
+presentation for an hour, you
+know, can be like, even with
+
+654
+00:50:06,929 --> 00:50:10,619
+Firebase, you know, mix in some
+workshop II stuff or whatever.
+
+655
+00:50:10,710 --> 00:50:12,480
+There's like, there's lots of
+options.
+
+656
+00:50:12,630 --> 00:50:15,300
+Courtney Landau: Yeah. All
+right. Yeah, that's me. I would
+
+657
+00:50:15,300 --> 00:50:19,260
+really like I think that's more
+up my alley than an hour long
+
+658
+00:50:19,260 --> 00:50:21,510
+talk is more of a workshop
+personally.
+
+659
+00:50:22,050 --> 00:50:24,960
+Dan Ott: Interesting, I think in
+general, anyway, maybe not more
+
+660
+00:50:24,960 --> 00:50:27,780
+interesting. But I always I very
+much enjoy workshops, because
+
+661
+00:50:28,079 --> 00:50:31,710
+it's fun to like work along, you
+know, alongside. Yeah,
+
+662
+00:50:31,800 --> 00:50:35,130
+Courtney Landau: yeah. I mean, a
+bit of a tangent, but the code,
+
+663
+00:50:35,250 --> 00:50:40,050
+was it. Like DEV.to's, dot com
+or the code newbies conference,
+
+664
+00:50:40,380 --> 00:50:43,530
+that workshop? those workshops.
+were really good. I really
+
+665
+00:50:43,530 --> 00:50:46,559
+enjoyed those. Nice. That was
+definitely the best part of the
+
+666
+00:50:46,559 --> 00:50:52,230
+conference for me. Yep, so VC.
+Next step, we should do
+
+667
+00:50:52,650 --> 00:50:53,699
+workshops.
+
+668
+00:50:54,440 --> 00:50:59,539
+Bekah Hawrot Weigel: We've had
+one workshop. At the beginning
+
+669
+00:50:59,630 --> 00:51:03,920
+of the year, this year, we're
+hot did one. And that was really
+
+670
+00:51:03,920 --> 00:51:07,849
+great. I would love to see more
+workshops. I think that's
+
+671
+00:51:07,849 --> 00:51:12,500
+intimidating. I don't know, I I
+feel like I could never give a
+
+672
+00:51:12,500 --> 00:51:16,760
+workshop. I would be intimidated
+by that. But we should
+
+673
+00:51:16,760 --> 00:51:20,750
+definitely get your workshop
+started Courtney.
+
+674
+00:51:20,780 --> 00:51:26,329
+Courtney Landau: Okay.
+Yeah, no, I don't know why. But
+
+675
+00:51:22,400 --> 00:51:28,250
+I like that. I like teaching
+things like that. I think that.
+
+676
+00:51:29,539 --> 00:51:35,090
+For me, my comfort level was
+more geared towards that kind of
+
+677
+00:51:35,090 --> 00:51:38,599
+thing, then talking on stage, or
+would it not really on stage,
+
+678
+00:51:38,599 --> 00:51:40,699
+but you know, for an hour?
+
+679
+00:51:41,329 --> 00:51:45,050
+Dan Ott: Yeah, I feel the same
+way I feel I very much enjoy,
+
+680
+00:51:45,050 --> 00:51:49,130
+like, especially even want a one
+on one, you know, like
+
+681
+00:51:49,190 --> 00:51:53,420
+conversations, but anything
+where it's, the closer it is to
+
+682
+00:51:54,170 --> 00:51:57,440
+having conversation, as opposed
+to you know, like you said, like
+
+683
+00:51:57,440 --> 00:52:00,199
+standing on a huge stage or
+whatever, you know, I don't
+
+684
+00:52:00,199 --> 00:52:03,260
+know, the easier it is for me to
+get into it and feel less
+
+685
+00:52:03,289 --> 00:52:04,280
+nervous about it anyway.
+
+686
+00:52:07,369 --> 00:52:09,050
+Bekah Hawrot Weigel: So we've
+talked a lot about the things
+
+687
+00:52:09,050 --> 00:52:12,349
+that you've done to kind of push
+yourself out of your comfort
+
+688
+00:52:12,349 --> 00:52:17,780
+zone and your journey. And I
+don't know if you have a recent
+
+689
+00:52:17,780 --> 00:52:21,800
+win that you want to share. But
+if you do, we would love to hear
+
+690
+00:52:21,800 --> 00:52:22,010
+it.
+
+691
+00:52:23,690 --> 00:52:27,889
+Courtney Landau: Let me think
+for a second. Probably like, a
+
+692
+00:52:28,610 --> 00:52:35,630
+month ago now or not sure. But I
+had for work I had designed and
+
+693
+00:52:35,630 --> 00:52:40,400
+built. We I mentioned the Chrome
+extension we had for students,
+
+694
+00:52:40,400 --> 00:52:46,250
+but I designed and built one for
+teachers as well, to solve a
+
+695
+00:52:46,250 --> 00:52:50,630
+need that they saw that works
+with Google Classroom. But um,
+
+696
+00:52:51,079 --> 00:52:57,500
+yeah, so that came out like,
+couple weeks ago, and I got some
+
+697
+00:52:57,500 --> 00:53:00,530
+really good feedback on that.
+And everybody seems to really
+
+698
+00:53:00,530 --> 00:53:02,599
+like it. So that's a win for me.
+
+699
+00:53:03,019 --> 00:53:04,340
+Dan Ott: That's awesome. That's
+a huge win.
+
+700
+00:53:04,610 --> 00:53:05,329
+Bekah Hawrot Weigel: Yeah, it is.
+
+701
+00:53:07,909 --> 00:53:12,469
+Dan Ott: I've never messed with
+Chrome extensions. Are they
+
+702
+00:53:12,530 --> 00:53:18,320
+like, is it JavaScript? Yep.
+Yes, it's just like a, like a
+
+703
+00:53:18,320 --> 00:53:22,550
+whole nother world. Like, just
+if you know, JavaScript, are you
+
+704
+00:53:22,550 --> 00:53:24,920
+still gonna just be totally lost
+until you learn it? Or is it
+
+705
+00:53:24,920 --> 00:53:26,119
+like, you know,
+
+706
+00:53:27,380 --> 00:53:29,539
+Courtney Landau: it depends on
+what you want to do. I guess
+
+707
+00:53:29,539 --> 00:53:33,260
+it's really, like, there's a pop
+up part that's just, you know,
+
+708
+00:53:33,260 --> 00:53:37,820
+styling, HTML, CSS, and
+JavaScript there. But then
+
+709
+00:53:37,820 --> 00:53:42,079
+there's like things that you can
+do within, like, use Google
+
+710
+00:53:42,079 --> 00:53:47,300
+Chrome, API's to like, inject
+things into the page, like,
+
+711
+00:53:47,570 --> 00:53:51,860
+websites or grab things from
+them. And then there's the
+
+712
+00:53:51,860 --> 00:53:55,219
+background that's does a bunch
+of stuff. But that's Yeah, and
+
+713
+00:53:55,219 --> 00:53:59,840
+that's just JavaScript too. So,
+yeah, totally depends on there's
+
+714
+00:53:59,900 --> 00:54:02,329
+it, there's a million different
+things you could do with the
+
+715
+00:54:02,389 --> 00:54:03,380
+Chrome extension. But
+
+716
+00:54:06,710 --> 00:54:08,389
+Dan Ott: that's, that's a whole
+area I've never I've never
+
+717
+00:54:08,389 --> 00:54:11,989
+messed with, but it always
+seemed like, could be some, you
+
+718
+00:54:11,989 --> 00:54:13,849
+know, possible to make some cool
+stuff, you know,
+
+719
+00:54:14,389 --> 00:54:15,289
+Bekah Hawrot Weigel: Could be a
+workshop.
+
+720
+00:54:15,559 --> 00:54:16,219
+Dan Ott: Yeah. Could be.
+
+721
+00:54:16,940 --> 00:54:18,530
+Courtney Landau: I could do a
+workshop on that.
+
+722
+00:54:20,599 --> 00:54:21,769
+Bekah Hawrot Weigel: That would
+be awesome.
+
+723
+00:54:21,860 --> 00:54:22,369
+Dan Ott: I'd go.
+
+724
+00:54:25,340 --> 00:54:27,889
+Courtney Landau: I don't know
+how, yeah. How many people want
+
+725
+00:54:27,889 --> 00:54:29,659
+to build Chrome extensions, but
+
+726
+00:54:31,309 --> 00:54:33,019
+Bekah Hawrot Weigel: I mean, I
+think it's cool. Everybody in
+
+727
+00:54:33,019 --> 00:54:35,480
+the community is always
+interested in something, you
+
+728
+00:54:35,480 --> 00:54:39,050
+know, there's enough people here
+that they just want to hear
+
+729
+00:54:39,079 --> 00:54:41,989
+whether they want to do it or
+just want to have some
+
+730
+00:54:41,989 --> 00:54:45,800
+understanding of it. I think
+that you know, there are always
+
+731
+00:54:45,800 --> 00:54:49,039
+people there that are going to
+support the talk or the workshop.
+
+732
+00:54:49,730 --> 00:54:51,949
+Courtney Landau: That's Yeah,
+that's really true. Because
+
+733
+00:54:52,579 --> 00:54:55,610
+there's always a lot of people
+that I go to as many brown bags
+
+734
+00:54:55,610 --> 00:55:00,170
+as I can, even if I'm not as
+interested in the topic, It
+
+735
+00:55:00,349 --> 00:55:02,329
+always proves valuable some way,
+
+736
+00:55:02,719 --> 00:55:05,780
+Bekah Hawrot Weigel: for sure.
+All right, Courtney, this has
+
+737
+00:55:05,780 --> 00:55:09,710
+been really great. And it was
+nice to talk through all of
+
+738
+00:55:09,710 --> 00:55:12,260
+these things with you and kind
+of hear your stories behind
+
+739
+00:55:12,260 --> 00:55:16,909
+things. So thank you so much for
+being here. today. We will post
+
+740
+00:55:16,940 --> 00:55:21,289
+all of your contact information,
+your Twitter handle and that
+
+741
+00:55:21,289 --> 00:55:25,969
+kind of stuff in our show notes.
+So thanks for being here.
+
+742
+00:55:26,960 --> 00:55:28,190
+Courtney Landau: Great. Thanks
+so much.
+
+743
+00:55:32,480 --> 00:55:34,400
+Bekah Hawrot Weigel: Thank you
+for listening to this episode of
+
+744
+00:55:34,400 --> 00:55:38,599
+the Virtual Coffee podcast. This
+episode was produced by Dan Ott
+
+745
+00:55:38,599 --> 00:55:42,829
+and Bekah Hawrot Weigel, and
+edited by Dan Ott. If you have
+
+746
+00:55:42,829 --> 00:55:46,039
+questions or comments, you can
+hit us up on Twitter at Virtual
+
+747
+00:55:46,039 --> 00:55:50,960
+Coffee, IO. Or you can email us
+at podcast at Virtual coffee.io.
+
+748
+00:55:51,980 --> 00:55:54,590
+You can find the show notes plus
+you can sign up for our
+
+749
+00:55:54,590 --> 00:55:57,679
+newsletter to find out what
+Virtual Coffee has been up to on
+
+750
+00:55:57,679 --> 00:56:00,230
+our website at Virtual coffee.io
+
+751
+00:56:01,340 --> 00:56:04,070
+Dan Ott: please subscribe to our
+podcast and be sure to leave us
+
+752
+00:56:04,070 --> 00:56:07,250
+a review. Thanks for listening
+and we'll see you next week.

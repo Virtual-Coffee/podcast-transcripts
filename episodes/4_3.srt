@@ -1,0 +1,4424 @@
+1
+00:00:05,581 --> 00:00:09,240
+Bekah: Hello, and welcome to
+season four, episode three of the
+
+2
+00:00:09,240 --> 00:00:14,141
+Virtual Coffee Podcast. I'm
+Bekah, and this is a podcast that
+
+3
+00:00:14,141 --> 00:00:17,861
+features members of the Virtual
+Coffee community. Virtual Coffee
+
+4
+00:00:17,861 --> 00:00:20,501
+is an intimate group of
+developers at all stages of their
+
+5
+00:00:20,501 --> 00:00:23,260
+coding journey. And they're here
+on this podcast, sharing their
+
+6
+00:00:23,260 --> 00:00:25,990
+stories and what they've learned.
+And we are here to share it with
+
+7
+00:00:25,990 --> 00:00:29,591
+you. Here with me today is my
+cohost Dan.
+
+8
+00:00:30,318 --> 00:00:32,959
+Dan: Thanks Bekah! This week, we
+got the chance to sit down with
+
+9
+00:00:32,959 --> 00:00:36,348
+Jennifer Konikowski. Jennifer has
+been a software engineer for over
+
+10
+00:00:36,348 --> 00:00:39,168
+10 years and has worked with a
+million different languages and
+
+11
+00:00:39,168 --> 00:00:42,319
+helped found and organize
+PyLadies Boston and Boston Ruby
+
+12
+00:00:42,319 --> 00:00:46,308
+Women. She's currently a senior
+engineer at Splice. We had a
+
+13
+00:00:46,308 --> 00:00:49,009
+great time chatting with
+Jennifer. She talked about her
+
+14
+00:00:49,009 --> 00:00:51,889
+experiences building communities,
+how she approached navigating
+
+15
+00:00:51,889 --> 00:00:54,859
+different workplaces through her
+career. And she shared some hot
+
+16
+00:00:54,859 --> 00:00:58,279
+takes to get us through the week.
+I had a great time talking with
+
+17
+00:00:58,279 --> 00:01:00,048
+Jennifer and I know you're going
+to enjoy it.
+
+18
+00:01:07,441 --> 00:01:10,201
+Bekah: We start every episode of
+the podcast like we start every
+
+19
+00:01:10,201 --> 00:01:13,531
+Virtual Coffee. We introduce
+ourselves with our name where
+
+20
+00:01:13,531 --> 00:01:17,641
+we're from, what we do and a
+random check-in question. Today's
+
+21
+00:01:17,641 --> 00:01:23,742
+question is which vegetable is
+best with cheese. We hope you
+
+22
+00:01:23,742 --> 00:01:28,781
+enjoy this episode. Hi, I'm
+Bekah. I am a front end developer
+
+23
+00:01:28,781 --> 00:01:34,996
+from a small town in Ohio. The
+best vegetable with cheese is
+
+24
+00:01:35,057 --> 00:01:38,326
+most definitely broccoli. There's
+no other right answer.
+
+25
+00:01:41,121 --> 00:01:46,251
+Dan: Um, hi, I'm Dan. I'm a front
+end developer from Cleveland,
+
+26
+00:01:46,762 --> 00:01:51,981
+Ohio, and yeah, I don't, this
+question is bizarre. Uh, I don't,
+
+27
+00:01:51,981 --> 00:01:54,831
+uh, I don't really like broccoli
+with cheese. Like I prefer
+
+28
+00:01:54,831 --> 00:01:57,981
+broccoli, just like, you know,
+without cheese. If I had the
+
+29
+00:01:57,981 --> 00:02:01,852
+option between the two, um, I
+would choose no cheese. Uh,
+
+30
+00:02:03,686 --> 00:02:05,277
+Bekah: rice broccoli casserole
+Okay
+
+31
+00:02:05,727 --> 00:02:06,796
+Dan: Is potato a vegetable.
+
+32
+00:02:08,896 --> 00:02:09,287
+Bekah: Yes,
+
+33
+00:02:09,401 --> 00:02:10,331
+Jennifer: going to be my question
+
+34
+00:02:11,627 --> 00:02:13,247
+Dan: I don't know if it is or
+not. That's going to be my answer
+
+35
+00:02:13,247 --> 00:02:14,086
+for sure. If
+
+36
+00:02:14,137 --> 00:02:16,887
+Bekah: root vegetable root
+vegetable
+
+37
+00:02:17,486 --> 00:02:20,657
+Dan: I'll I'm stealing potato.
+That's my that's my answer
+
+38
+00:02:24,901 --> 00:02:29,222
+Jennifer: Hi, I'm Jennifer. I am
+a senior backend software
+
+39
+00:02:29,222 --> 00:02:36,062
+engineer at splice, um, out of
+Pittsburgh, Pennsylvania. And I'm
+
+40
+00:02:36,062 --> 00:02:39,271
+also like if potatoes are
+considered a vegetable, I guess
+
+41
+00:02:39,301 --> 00:02:44,521
+potatoes, you know, who doesn't
+love some poutine, cheesy fries,
+
+42
+00:02:45,451 --> 00:02:45,951
+you know?
+
+43
+00:02:46,546 --> 00:02:46,801
+Dan: Yeah
+
+44
+00:02:47,581 --> 00:02:51,106
+Bekah: is a good call. I was
+thinking just putting it on your
+
+45
+00:02:51,106 --> 00:02:52,097
+mashed potatoes
+
+46
+00:02:52,706 --> 00:02:55,526
+Jennifer: No, I don't. If
+potatoes aren't Fried I generally
+
+47
+00:02:55,526 --> 00:02:56,217
+don't eat them.
+
+48
+00:02:58,081 --> 00:03:01,352
+Dan: I think mashed potatoes, but
+again, without cheese, but like
+
+49
+00:03:01,382 --> 00:03:04,021
+there's a lot of fried situations
+that I think cheese.
+
+50
+00:03:04,206 --> 00:03:09,396
+Bekah: like mashed potatoes with
+cheese and bacon and why I know a
+
+51
+00:03:09,417 --> 00:03:10,266
+Greek yogurt
+
+52
+00:03:10,731 --> 00:03:12,201
+Dan: Like a big potato cheese.
+
+53
+00:03:13,417 --> 00:03:19,046
+Bekah: Yes Um oh welcome Jennifer
+Thank you so much for being here
+
+54
+00:03:19,046 --> 00:03:23,467
+and tolerating my strange
+question for our intro.
+
+55
+00:03:24,516 --> 00:03:26,497
+Jennifer: I had to miss Virtual
+Coffee this week. So to be
+
+56
+00:03:26,497 --> 00:03:28,747
+honest, you know, this is, this
+is my comeuppance.
+
+57
+00:03:29,447 --> 00:03:29,646
+Bekah: Oh yeah
+
+58
+00:03:29,817 --> 00:03:32,401
+Jennifer: I had to get at least
+one weird question this week to
+
+59
+00:03:32,401 --> 00:03:32,882
+answer.
+
+60
+00:03:33,632 --> 00:03:36,451
+Bekah: Well Tuesday Tuesday was
+all kinds of weirdness And at the
+
+61
+00:03:36,451 --> 00:03:39,211
+beginning we won't go there
+because it got a little dark but
+
+62
+00:03:40,981 --> 00:03:44,342
+we're glad to have you here with
+us today and we always like to
+
+63
+00:03:44,372 --> 00:03:47,461
+get started with your origin
+story. So can you tell us a
+
+64
+00:03:47,461 --> 00:03:49,662
+little bit about how you got to
+this point
+
+65
+00:03:50,372 --> 00:03:58,072
+Jennifer: Oh boy. Um, I, so I
+grew up in Alabama. I wanted to
+
+66
+00:03:58,472 --> 00:04:06,692
+leave Alabama. And at the time,
+my best bet to decide to start as
+
+67
+00:04:06,692 --> 00:04:12,301
+a biomedical engineer at Georgia
+Tech. Um, after I was like, I
+
+68
+00:04:12,301 --> 00:04:16,802
+don't want to do that switched a
+couple of times, ended on
+
+69
+00:04:16,802 --> 00:04:21,271
+industrial engineering, uh,
+really enjoyed that actually I've
+
+70
+00:04:21,961 --> 00:04:26,507
+in statistics and operations
+research. Super fun. Through
+
+71
+00:04:26,987 --> 00:04:29,956
+that, um, Georgia Tech actually
+makes all their students take at
+
+72
+00:04:29,956 --> 00:04:35,057
+least one computing class. had
+two extra as part of my program.
+
+73
+00:04:35,836 --> 00:04:39,976
+Um, I think that ended up putting
+me in a good position because
+
+74
+00:04:39,976 --> 00:04:45,016
+when I was graduating, I didn't
+have the highest GPA. So I was
+
+75
+00:04:45,016 --> 00:04:47,656
+going in the career fair to like
+all the companies that had
+
+76
+00:04:47,656 --> 00:04:52,247
+shorter lines that like weren't
+as cool. And I ended up getting a
+
+77
+00:04:52,247 --> 00:04:57,166
+job at Home Depot as a. Oh,
+shoot. What was the, it's a weird
+
+78
+00:04:57,166 --> 00:05:01,786
+job title IT developer. what it
+was. It was pretty similar to a
+
+79
+00:05:01,786 --> 00:05:08,177
+project management position. And
+from there I had thought I would
+
+80
+00:05:08,177 --> 00:05:14,596
+be doing more development per the
+job title, and there were a few
+
+81
+00:05:14,596 --> 00:05:20,732
+things that for me, I actually
+overall I think had a pretty good
+
+82
+00:05:20,732 --> 00:05:25,201
+experience with Home Depot as a
+company, but my particular team
+
+83
+00:05:25,201 --> 00:05:29,732
+was a bit of a disaster, which I
+think is sort of a theme my whole
+
+84
+00:05:29,732 --> 00:05:34,831
+career. And at a certain point of
+like, know, it's look at the
+
+85
+00:05:34,831 --> 00:05:38,581
+common denominator. I'm like, oh
+crap. it is me. Hopefully not
+
+86
+00:05:38,581 --> 00:05:45,232
+though. Um, I think I'm just
+really bad at where to work. I
+
+87
+00:05:45,232 --> 00:05:46,637
+swear, Splice is great.
+
+88
+00:05:47,406 --> 00:05:48,396
+Bekah: So far so good.
+
+89
+00:05:49,247 --> 00:05:56,206
+Jennifer: Yeah, so, so good. Um,
+so I changed jobs. I joined the
+
+90
+00:05:56,206 --> 00:06:00,526
+deliverability team at MailChimp
+for a couple of years, and then I
+
+91
+00:06:00,526 --> 00:06:05,867
+moved up to Boston. And at that
+point, um, obviously with a job
+
+92
+00:06:05,896 --> 00:06:12,047
+in email delivery, there's not
+that many. It's hard to find
+
+93
+00:06:12,047 --> 00:06:17,117
+another place where you can do
+that. Uh, without against an
+
+94
+00:06:17,146 --> 00:06:22,966
+actual non-compete, uh, in
+dealing with trade secrets. So I
+
+95
+00:06:22,966 --> 00:06:25,396
+was like, okay, I definitely
+can't go get a job at Constant
+
+96
+00:06:25,396 --> 00:06:29,896
+Contact. Cause there's no way
+MailChimp wouldn't go after me. I
+
+97
+00:06:29,896 --> 00:06:33,107
+learned, I learned some Python,
+so I'm like, I guess now I can be
+
+98
+00:06:33,107 --> 00:06:36,887
+a developer and. I, this was,
+
+99
+00:06:37,286 --> 00:06:37,706
+Dan: Yeah.
+
+100
+00:06:37,786 --> 00:06:43,247
+Jennifer: was back when this was,
+uh, October, 2012. So mostly pre
+
+101
+00:06:43,247 --> 00:06:48,226
+boot camps. So caveat, this is, I
+feel like an origin story that is
+
+102
+00:06:48,226 --> 00:06:54,377
+really hard to come by these days
+I got hired to be a warm body, as
+
+103
+00:06:54,377 --> 00:07:00,396
+a contractor, um, through like a
+sort of third party TripAdvisor
+
+104
+00:07:01,257 --> 00:07:08,692
+and it got experience without
+having to do almost anything in
+
+105
+00:07:08,692 --> 00:07:13,682
+the interview. And, you know,
+from there, I worked at a variety
+
+106
+00:07:13,682 --> 00:07:19,052
+of startups, in the Boston area.
+Uh, I also worked at Occupy for a
+
+107
+00:07:19,052 --> 00:07:25,802
+couple of years, uh, moved to
+Pittsburgh uh, since then I
+
+108
+00:07:25,831 --> 00:07:29,012
+worked at Stitch Fix for a couple
+of years, Testable for one I've
+
+109
+00:07:29,012 --> 00:07:35,372
+been at Splice now two over two
+weeks. For no, exactly. Two
+
+110
+00:07:35,372 --> 00:07:35,752
+months.
+
+111
+00:07:38,922 --> 00:07:39,331
+Bekah: That's...
+
+112
+00:07:39,331 --> 00:07:43,471
+Jennifer: oh, and I've mostly
+done Ruby on Rails back in, but
+
+113
+00:07:43,471 --> 00:07:48,961
+as I'm sure a lot of this know,
+uh, it's very hard to get away
+
+114
+00:07:48,961 --> 00:07:50,641
+from being full stack.
+
+115
+00:07:53,012 --> 00:07:56,762
+Bekah: I know. So you've done a
+lot of work, I think throughout
+
+116
+00:07:56,762 --> 00:08:01,697
+that time. With community and
+building community. And I think
+
+117
+00:08:02,326 --> 00:08:05,927
+looking at your thinking about
+your origin story and of the
+
+118
+00:08:05,927 --> 00:08:09,887
+different steps of your journey
+to get where you were, I love to
+
+119
+00:08:09,887 --> 00:08:13,966
+talk a little bit about like, why
+you decided to start PyLadies
+
+120
+00:08:13,966 --> 00:08:16,127
+when you were in Boston or like,
+what was the thing that made you
+
+121
+00:08:16,127 --> 00:08:19,906
+think, like, I need to start
+working to build community for
+
+122
+00:08:19,906 --> 00:08:21,266
+women and minorities and tech?
+
+123
+00:08:22,896 --> 00:08:30,091
+Jennifer: So, I mean, I think
+mostly like, since I've started
+
+124
+00:08:30,271 --> 00:08:33,961
+in the workforce and had any sort
+of power, I have personally
+
+125
+00:08:33,961 --> 00:08:38,611
+always felt the need to try and
+bring people up with me. Um, and
+
+126
+00:08:38,611 --> 00:08:44,761
+I know, so when I was in Atlanta,
+my friend, uh, Laura had started
+
+127
+00:08:46,481 --> 00:08:50,432
+Atlanta and we were just like a
+little study group of people
+
+128
+00:08:50,432 --> 00:08:59,986
+trying to learn Python and that
+helped me much. And that I, that
+
+129
+00:09:00,017 --> 00:09:05,267
+when I moved to Boston, I wanted
+to do that in Boston as well,
+
+130
+00:09:05,267 --> 00:09:08,506
+because I saw Boston has this
+really great Boston Python group.
+
+131
+00:09:08,716 --> 00:09:12,527
+They're wonderful. But at the
+same time, the group is massive.
+
+132
+00:09:13,157 --> 00:09:17,297
+And I know for me, it was really
+intimidating to go, especially
+
+133
+00:09:17,297 --> 00:09:19,726
+because it's all dudes. It didn't
+matter that they were generally
+
+134
+00:09:19,726 --> 00:09:23,567
+like extremely kind and
+welcoming. you go in a room with
+
+135
+00:09:23,567 --> 00:09:29,057
+like 200 people and there's
+maybe. You know, 10 women, you
+
+136
+00:09:29,057 --> 00:09:33,886
+know, I've, even if I'm, even if
+I'm generous, let's say 40 out of
+
+137
+00:09:33,886 --> 00:09:42,256
+those 200, know, it still feels
+very overwhelming. Um, so wanted
+
+138
+00:09:42,256 --> 00:09:47,506
+a safe for women to come and
+learn Python, maybe just
+
+139
+00:09:48,177 --> 00:09:50,956
+experience it. And even though I
+was a Ruby developer at the time,
+
+140
+00:09:51,287 --> 00:09:56,326
+the reason I sort of chose Python
+because as much as I love Ruby,
+
+141
+00:09:56,356 --> 00:09:58,787
+the community is entirely
+focused, pretty much on
+
+142
+00:09:59,417 --> 00:10:04,576
+applications and APIs great. I
+love them. That's what I do. But
+
+143
+00:10:04,667 --> 00:10:08,386
+I find that Python has more
+applications outside of being a
+
+144
+00:10:08,386 --> 00:10:12,496
+software developer, uh, data
+scientists use Python, academics,
+
+145
+00:10:12,496 --> 00:10:19,481
+use Python, There's I, I knew a
+lot of linguists actually, who
+
+146
+00:10:19,481 --> 00:10:24,491
+were part of Boston. And I
+thought that was cool. And if my
+
+147
+00:10:24,491 --> 00:10:30,912
+overall goal was to sort of, part
+of my goal was to also more women
+
+148
+00:10:30,912 --> 00:10:34,481
+how to code, not even necessarily
+make them software developers,
+
+149
+00:10:34,601 --> 00:10:40,062
+but to be like, Hey, is a thing
+it's not actually that hard. you
+
+150
+00:10:40,062 --> 00:10:44,221
+can do it, you and it will help
+you do your job faster and more
+
+151
+00:10:44,221 --> 00:10:48,001
+efficiently, and you don't have
+to become a software developer.
+
+152
+00:10:48,601 --> 00:10:51,091
+You can learn this skill and it
+can benefit you where you are.
+
+153
+00:10:51,841 --> 00:10:55,052
+Um, but obviously I also wanted
+to help. If people were
+
+154
+00:10:55,052 --> 00:10:58,981
+interested in switch, I wanted to
+do everything I could to support
+
+155
+00:10:58,981 --> 00:11:04,292
+them in that. And so, and I was
+also as a Ruby developer. Um, my
+
+156
+00:11:04,292 --> 00:11:11,101
+friend, uh, Melissa Z uh, Boston,
+Ruby women. And I would go to
+
+157
+00:11:11,101 --> 00:11:14,101
+that. I was one of the founding
+members of that group and I would
+
+158
+00:11:14,101 --> 00:11:17,552
+help organize that. And for both
+of those groups, I would host
+
+159
+00:11:17,552 --> 00:11:23,506
+like weekly study sessions for
+Boston review women. I. I'd be
+
+160
+00:11:23,506 --> 00:11:27,726
+like, oh, like I'm going to be at
+this. Uh, I think it was, I, I
+
+161
+00:11:27,726 --> 00:11:31,126
+went to area four in Kendall
+Square and be like, I'm going to
+
+162
+00:11:31,126 --> 00:11:34,996
+be here from 12 to one during my
+lunch break, come meet me. Like,
+
+163
+00:11:34,996 --> 00:11:37,697
+I'll answer any questions that I
+can. I'll help you work through
+
+164
+00:11:37,697 --> 00:11:40,277
+things. I'll talk about job
+applications. I'll review your
+
+165
+00:11:40,277 --> 00:11:43,366
+resume. Like literally whatever
+you want. I'll be there. hanging
+
+166
+00:11:43,366 --> 00:11:46,576
+out here for you. then for
+PyLadies, I'd do the same thing
+
+167
+00:11:46,576 --> 00:11:52,267
+on the weekend. I used to try to
+do like some sort of class. And I
+
+168
+00:11:52,267 --> 00:11:54,937
+found that it was really hard to
+get people to stick with
+
+169
+00:11:54,937 --> 00:12:00,907
+something at the same pace. So
+having it be more open-ended I
+
+170
+00:12:00,907 --> 00:12:04,147
+think was better for everyone
+because otherwise people would be
+
+171
+00:12:04,147 --> 00:12:08,297
+like, oh, I couldn't make it to
+this one. So now I'm out. Which
+
+172
+00:12:08,297 --> 00:12:12,616
+is the thing that I, I think
+maybe if I had, if I made people
+
+173
+00:12:12,616 --> 00:12:14,657
+pay for it, they would've stuck
+with it, but at the same time,
+
+174
+00:12:14,657 --> 00:12:19,517
+like I wanted this to be
+accessible for everyone. And I
+
+175
+00:12:19,517 --> 00:12:24,511
+know. I know a lot of people who
+have gone to bootcamps, and I
+
+176
+00:12:24,511 --> 00:12:27,422
+know a lot of great developers
+out of bootcamps, but I feel like
+
+177
+00:12:27,422 --> 00:12:30,662
+bootcamps are really expensive.
+And one of the things that I saw
+
+178
+00:12:30,692 --> 00:12:33,182
+in Boston that I really didn't
+like was that the bootcamps were,
+
+179
+00:12:33,721 --> 00:12:38,101
+um, themselves as the only way to
+get into tech and to switch
+
+180
+00:12:38,101 --> 00:12:42,471
+careers. And that. I really
+didn't like that because a lot of
+
+181
+00:12:42,471 --> 00:12:46,371
+people were switching careers
+they were not in a good space
+
+182
+00:12:46,552 --> 00:12:48,861
+with their job and they did not,
+they were not making that much
+
+183
+00:12:48,861 --> 00:12:51,772
+money. So to be like, oh, the
+only way to switch is because you
+
+184
+00:12:51,772 --> 00:12:57,751
+pay us $15,000. And I'm like, no,
+like, mean, you can do that. If
+
+185
+00:12:57,751 --> 00:13:00,331
+that's the best fit for you, you
+know, maybe you need like the
+
+186
+00:13:00,331 --> 00:13:04,922
+extra accountability, the extra
+classes. But I, one of my big
+
+187
+00:13:04,951 --> 00:13:11,672
+things I like the community be
+able to be providing those
+
+188
+00:13:11,672 --> 00:13:14,476
+mentoring resources that people.
+They get out of bootcamps. You
+
+189
+00:13:14,476 --> 00:13:16,846
+should not only be able to find
+that in bootcamp, you should not
+
+190
+00:13:16,846 --> 00:13:20,716
+be able to only network. If you
+went to a bootcamp, you you,
+
+191
+00:13:20,716 --> 00:13:24,647
+shouldn't be able to only like
+learn in a group setting in a
+
+192
+00:13:24,647 --> 00:13:31,667
+bootcamp. Um, so I felt like as a
+member of the community, like I
+
+193
+00:13:32,267 --> 00:13:38,701
+wanted to do everything that I
+could, build that up. fortunately
+
+194
+00:13:38,701 --> 00:13:45,422
+Pittsburgh is a lot smaller, so
+didn't really, I didn't really do
+
+195
+00:13:45,422 --> 00:13:50,581
+the same thing in Pittsburgh
+because at the time maybe I would
+
+196
+00:13:50,581 --> 00:13:54,692
+now, but at the time we had Girl
+Develop It and I felt like that
+
+197
+00:13:54,692 --> 00:13:58,532
+would, we weren't big enough to
+really have like competing
+
+198
+00:13:58,562 --> 00:14:05,672
+women's development groups. of
+course now girl develop it sort
+
+199
+00:14:05,672 --> 00:14:12,392
+of imploded, but I maybe I'll
+revisit later. Cause it is
+
+200
+00:14:12,902 --> 00:14:14,402
+obviously a passion of mine.
+
+201
+00:14:15,547 --> 00:14:18,576
+Bekah: Yeah I mean, there are
+Pittsburgh, surprisingly has a
+
+202
+00:14:18,576 --> 00:14:22,537
+lot of tech stuff already going
+on, which is really nice to see.
+
+203
+00:14:23,017 --> 00:14:25,746
+And I think, you know, I want to
+hit on this idea that you were
+
+204
+00:14:25,746 --> 00:14:30,636
+talking about having community as
+part of the learning experience.
+
+205
+00:14:31,116 --> 00:14:37,177
+I think one the things about
+bootcamps that is tough is it
+
+206
+00:14:37,177 --> 00:14:42,572
+just kind of puts you in this
+place where you only talk to the
+
+207
+00:14:42,572 --> 00:14:47,581
+people in your bootcamp. And so
+it doesn't exactly mimic the
+
+208
+00:14:47,581 --> 00:14:51,812
+larger experience of what being a
+developer is and communicating
+
+209
+00:14:51,812 --> 00:14:59,611
+with other people, all different
+stages in, in what you're working
+
+210
+00:14:59,611 --> 00:15:04,922
+on. Right? And so of have this
+insulated experience, but if
+
+211
+00:15:04,922 --> 00:15:07,532
+you're working with a community
+of people, or if you're
+
+212
+00:15:07,532 --> 00:15:12,481
+developing this open
+conversation, allows you to
+
+213
+00:15:12,481 --> 00:15:16,621
+create, I think, good habits of
+communication, maybe,or something
+
+214
+00:15:16,621 --> 00:15:21,601
+that, that could really be one of
+those things that allows you to
+
+215
+00:15:21,601 --> 00:15:24,751
+be really successful in ways that
+boot camps.
+
+216
+00:15:28,246 --> 00:15:31,576
+Dan: I, I, yeah, a lot of the
+stuff you said. I was wondering
+
+217
+00:15:31,576 --> 00:15:36,062
+if you could tell me a little bit
+more about like, so with groups,
+
+218
+00:15:36,062 --> 00:15:38,971
+you did study groups, right? Um,
+so open-ended study groups. Can
+
+219
+00:15:38,971 --> 00:15:41,912
+you, can you just like, me
+through, like, what one, like
+
+220
+00:15:41,912 --> 00:15:43,892
+what, what one session, what,
+what would happen, you know, at a
+
+221
+00:15:43,892 --> 00:15:47,402
+study group? Um, you know, in
+particular, like at once pick
+
+222
+00:15:47,402 --> 00:15:47,611
+one.
+
+223
+00:15:48,167 --> 00:15:53,057
+Jennifer: yeah, it would really
+depend on who came. Uh, so like
+
+224
+00:15:53,596 --> 00:15:58,126
+one example is over a period of
+weeks, this one woman, um,
+
+225
+00:15:58,756 --> 00:16:02,866
+regularly and was trying to find
+a job. So part of what was
+
+226
+00:16:02,866 --> 00:16:07,246
+actually just encourage her and
+tell her that, like I knew where
+
+227
+00:16:07,246 --> 00:16:12,677
+she was. So I'm like, I know you
+have the skills to do this. Like
+
+228
+00:16:12,677 --> 00:16:19,381
+I think you should apply you
+know, absolute worst thing is get
+
+229
+00:16:19,381 --> 00:16:21,871
+rejected, but I think you have a
+really good chance of getting
+
+230
+00:16:21,871 --> 00:16:25,081
+this job. You know, I helped her
+review her resume and make it pop
+
+231
+00:16:25,081 --> 00:16:29,072
+a little bit more. And emphasize
+if she was coming from the
+
+232
+00:16:29,072 --> 00:16:33,991
+restaurant industry, it was
+applying to a program. No, it was
+
+233
+00:16:33,991 --> 00:16:39,782
+project manager position at a
+tech company. Um, because that's
+
+234
+00:16:39,841 --> 00:16:42,841
+that was a particular position
+that I felt like, that she was
+
+235
+00:16:42,841 --> 00:16:46,412
+interested in that would take the
+skills she already had
+
+236
+00:16:46,412 --> 00:16:51,871
+professionally and could work
+them into a much higher paying
+
+237
+00:16:53,741 --> 00:16:58,831
+And so that was one of the things
+that would happen. But then
+
+238
+00:16:59,192 --> 00:17:01,831
+sometimes people would come in
+and be like, oh, I'm working
+
+239
+00:17:01,831 --> 00:17:08,652
+through. This section of this
+tutorial, I don't understand for
+
+240
+00:17:08,672 --> 00:17:13,201
+loops and I would try to go
+through it with them, give
+
+241
+00:17:13,201 --> 00:17:20,221
+examples, walk them through,
+maybe like, cause sometimes I
+
+242
+00:17:20,221 --> 00:17:23,251
+think sometimes people need like
+a number of different examples or
+
+243
+00:17:23,251 --> 00:17:26,672
+to hear things a different way.
+So maybe like the first thing I
+
+244
+00:17:26,672 --> 00:17:31,051
+say, like doesn't make sense I
+used to be like, okay, let me try
+
+245
+00:17:31,051 --> 00:17:37,021
+another thing. And, um, I, I give
+sort of like another type of
+
+246
+00:17:37,021 --> 00:17:39,152
+example of how it was supposed to
+work.
+
+247
+00:17:39,547 --> 00:17:39,846
+Dan: totally.
+
+248
+00:17:39,961 --> 00:17:43,142
+Jennifer: eventually like
+generally, eventually they get
+
+249
+00:17:43,142 --> 00:17:45,721
+it. And occasionally someone
+would come with some sort of like
+
+250
+00:17:45,842 --> 00:17:50,071
+pandas question I'm like, we can
+try and struggle through this
+
+251
+00:17:50,071 --> 00:17:52,412
+together, but I don't know
+pandas.
+
+252
+00:17:53,156 --> 00:17:53,576
+Dan: Yeah.
+
+253
+00:17:54,092 --> 00:17:54,991
+Jennifer: FYI.
+
+254
+00:17:55,376 --> 00:17:58,067
+Dan: That's I mean, that's, that
+sounds really cool. And so like,
+
+255
+00:17:58,567 --> 00:18:03,301
+this was pre COVID or whatever.
+Right. So, so like, would it be
+
+256
+00:18:03,422 --> 00:18:05,102
+people would just like, I'll
+bring their laptops and sit
+
+257
+00:18:05,102 --> 00:18:07,682
+around a circle or, I mean, I'm
+just trying to, because I'm like,
+
+258
+00:18:07,682 --> 00:18:10,711
+I'm used to, like, you know, I've
+been to a lot of meetups that are
+
+259
+00:18:10,922 --> 00:18:13,412
+mostly just presentations and
+hang, you know, social time
+
+260
+00:18:13,412 --> 00:18:15,902
+afterwards or whatever. And this
+sounds a little bit more, you
+
+261
+00:18:15,902 --> 00:18:18,422
+know, a little different of a, of
+an experience that I'm really
+
+262
+00:18:18,422 --> 00:18:18,991
+interested in.
+
+263
+00:18:19,721 --> 00:18:22,332
+Jennifer: So I feel like it was
+similar to the size of like the
+
+264
+00:18:22,332 --> 00:18:25,451
+Virtual Coffee breakout rooms,
+because the group wasn't that
+
+265
+00:18:25,481 --> 00:18:29,491
+neither of these groups were
+huge. Well by numbers, Py Ladies
+
+266
+00:18:29,491 --> 00:18:31,622
+Boston is bottom was huge, but
+the number of people who would
+
+267
+00:18:31,622 --> 00:18:35,221
+come to the actual big monthly
+meetups, wasn't that big. And the
+
+268
+00:18:35,221 --> 00:18:40,811
+number of people that come to
+these where maybe three to seven,
+
+269
+00:18:41,561 --> 00:18:46,392
+you know, so I'd just be hanging
+out in this coffee shop and we
+
+270
+00:18:46,402 --> 00:18:52,096
+just sort of take over a table. I
+didn't get space, but yeah, I
+
+271
+00:18:52,096 --> 00:18:58,636
+think that's an, another thing is
+for, for me, also overall like
+
+272
+00:18:58,636 --> 00:19:01,307
+Boston Ruby Women. We basically
+didn't even do presentations at
+
+273
+00:19:01,307 --> 00:19:05,356
+all. It was more, but I think
+this is in a way, like more
+
+274
+00:19:05,356 --> 00:19:11,896
+relevant for, uh, women and
+underrepresented minorities. It
+
+275
+00:19:11,896 --> 00:19:14,987
+really helps to have a group
+where you can talk about like
+
+276
+00:19:14,987 --> 00:19:18,946
+what's going on at work. And the
+other people in the group, like
+
+277
+00:19:19,067 --> 00:19:24,977
+really understand because they're
+in similar situations. Um, so
+
+278
+00:19:25,017 --> 00:19:28,487
+Boston Ruby Women we base, it was
+borderline just a Ruby Women's
+
+279
+00:19:28,487 --> 00:19:32,866
+Happy Hour got sponsored by
+thoughtbot, know? So we just like
+
+280
+00:19:32,866 --> 00:19:38,672
+chill out at thoughtbot half the
+time be talking about like,
+
+281
+00:19:38,672 --> 00:19:44,102
+what's going on at our jobs and
+with PyLadies Boston, I also
+
+282
+00:19:44,102 --> 00:19:48,842
+didn't want it to be
+presentations all the time. A.
+
+283
+00:19:48,842 --> 00:19:55,021
+Because it's, as an organizer,
+it's really hard to actually get
+
+284
+00:19:55,592 --> 00:19:59,491
+a monthly presenter, like someone
+who wants to present every single
+
+285
+00:19:59,491 --> 00:20:04,501
+month. And one of the things I
+ended up doing was, uh, rotating.
+
+286
+00:20:04,622 --> 00:20:11,882
+So I'd have presentations one
+month. talks the next a panel,
+
+287
+00:20:11,912 --> 00:20:15,662
+usually about work. Those were
+very popular. So I'd get like six
+
+288
+00:20:15,662 --> 00:20:19,412
+different women. Sort of like
+different stages in their career
+
+289
+00:20:19,412 --> 00:20:23,192
+and doing different things about
+like what they do and like what
+
+290
+00:20:23,192 --> 00:20:29,852
+work is like, what problems they
+run into. Um, what else did I do?
+
+291
+00:20:30,332 --> 00:20:33,402
+Oh, I started doing mob
+programming, which was also fun.
+
+292
+00:20:33,422 --> 00:20:35,832
+It was hard to get people to want
+to volunteer.
+
+293
+00:20:36,271 --> 00:20:37,991
+Bekah: you describe what mob
+programming
+
+294
+00:20:38,221 --> 00:20:41,491
+Jennifer: sure. mob programming,
+at least the way we did it. It's.
+
+295
+00:20:42,467 --> 00:20:46,777
+Uh, the whole room is looking at
+the same problem. So I would,
+
+296
+00:20:47,356 --> 00:20:52,906
+other piece, I would usually put
+myself as a Guinea pig for any of
+
+297
+00:20:52,906 --> 00:20:57,047
+these. Like, I always had to have
+a presentation ready or some code
+
+298
+00:20:57,076 --> 00:21:00,826
+because if we ran out of time,
+I'm like, well, got to keep it
+
+299
+00:21:00,826 --> 00:21:06,646
+going. And so. For example, I had
+this silly Python game I had
+
+300
+00:21:06,646 --> 00:21:10,906
+written a while back and took it
+up there and I would run people
+
+301
+00:21:10,906 --> 00:21:15,376
+through like the premise of what
+was going on in the code and then
+
+302
+00:21:15,856 --> 00:21:20,807
+asked for suggestions on things
+that I should consider changing
+
+303
+00:21:20,807 --> 00:21:24,527
+or like what they see that could
+be improved, anything like that.
+
+304
+00:21:25,666 --> 00:21:31,096
+So, It's fun. Not a ton of places
+do it at work, but occasionally
+
+305
+00:21:31,126 --> 00:21:35,507
+people do sort of like pairing
+with a massive group. So if
+
+306
+00:21:35,507 --> 00:21:37,336
+you're in a good environment, it
+can be really fun.
+
+307
+00:21:37,836 --> 00:21:40,646
+Dan: Yeah. Yeah. We tried that
+one. We tried it once with the
+
+308
+00:21:40,676 --> 00:21:44,817
+Cleveland React meetup, it was,
+it was a it was interesting. I
+
+309
+00:21:44,817 --> 00:21:46,787
+feel like with some practice, so
+yeah, you can, you can make it
+
+310
+00:21:46,797 --> 00:21:50,247
+like a pretty cool thing. That's
+awesome. I love how the
+
+311
+00:21:50,247 --> 00:21:53,376
+concentration of like the small
+groups and the kind of like the
+
+312
+00:21:53,836 --> 00:21:57,946
+less of... you said, the happy
+hour, like less, less of talking
+
+313
+00:21:57,946 --> 00:22:00,467
+of technical issues and more of
+just laying, you know, community
+
+314
+00:22:00,467 --> 00:22:04,576
+support and, um, like just coming
+together, you know, um,
+
+315
+00:22:04,576 --> 00:22:09,862
+Jennifer: Yeah. Also with our,
+um, with our lightening talks,
+
+316
+00:22:10,342 --> 00:22:13,731
+uh, one of the things I encourage
+was just like, you can give a
+
+317
+00:22:13,731 --> 00:22:18,442
+lightning talk on anything cause
+I wanted it to good place to.
+
+318
+00:22:19,442 --> 00:22:22,981
+Encourage women to feel
+comfortable giving presentations.
+
+319
+00:22:24,031 --> 00:22:27,751
+so like one of our members did a
+presentation that everyone loved
+
+320
+00:22:27,751 --> 00:22:34,112
+on birds like birdwatching, you
+know, and, and getting, and there
+
+321
+00:22:34,112 --> 00:22:37,051
+were plenty of people who did
+technical topics, I think
+
+322
+00:22:37,051 --> 00:22:43,442
+oftentimes, um, and I still feel
+this way. I like if, when it
+
+323
+00:22:43,442 --> 00:22:48,092
+comes to submitting a talk to a
+conference on like, I'm not an
+
+324
+00:22:48,092 --> 00:22:53,731
+expert on any technical topics.
+So I can't give a talk on any of
+
+325
+00:22:53,731 --> 00:22:56,791
+those. And I know that's not
+necessarily a healthy thing to
+
+326
+00:22:56,791 --> 00:23:00,692
+think about, but at the same
+time, I know that's what a lot of
+
+327
+00:23:00,692 --> 00:23:05,852
+people feel. So I didn't want to
+be forcing people to technical
+
+328
+00:23:05,852 --> 00:23:08,672
+talks and have that be the only
+option I felt like you need to
+
+329
+00:23:08,672 --> 00:23:11,551
+build up confidence in other
+ways, like be okay with public
+
+330
+00:23:11,551 --> 00:23:14,281
+speaking first and then deal
+with.
+
+331
+00:23:15,801 --> 00:23:15,922
+Dan: Yeah,
+
+332
+00:23:15,922 --> 00:23:18,902
+Jennifer: insecurity around
+getting a talk on to on something
+
+333
+00:23:18,902 --> 00:23:19,501
+technical.
+
+334
+00:23:20,836 --> 00:23:23,537
+Dan: That seems like pretty good
+advice that reminds me of, um,
+
+335
+00:23:23,646 --> 00:23:26,507
+was that organization that, that
+Gant worked with, um,
+
+336
+00:23:28,797 --> 00:23:29,517
+Bekah: Toastmasters
+
+337
+00:23:30,646 --> 00:23:33,017
+Dan: as there's like a, uh,
+organization just about, you
+
+338
+00:23:33,017 --> 00:23:35,146
+know, public speaking and getting
+good at it. And so they would do
+
+339
+00:23:35,386 --> 00:23:39,116
+talks all the time, but I doubt,
+I doubt it. I'm some of Gant's
+
+340
+00:23:39,136 --> 00:23:43,277
+were technical, but I liked the
+idea of, I don't know, getting
+
+341
+00:23:43,277 --> 00:23:46,186
+used to it without having to
+like, worry about all the extra
+
+342
+00:23:46,186 --> 00:23:49,666
+stuff. It's like learn one thing
+at a time, you know, like, you
+
+343
+00:23:49,666 --> 00:23:51,487
+know, yeah. No, I love that. I
+love that.
+
+344
+00:23:51,676 --> 00:23:54,257
+Bekah: I keep wanting to do like
+a lightning talk session with
+
+345
+00:23:54,287 --> 00:23:58,037
+Virtual Coffee. That's like five
+minutes and talk about something
+
+346
+00:23:58,037 --> 00:24:00,826
+you're interested in. That's not
+technical because I think it's
+
+347
+00:24:00,856 --> 00:24:05,027
+also a really fun way to learn
+new things and oh, that's the
+
+348
+00:24:05,027 --> 00:24:08,326
+person that I can talk to about
+rock climbing or, you know,
+
+349
+00:24:08,626 --> 00:24:14,646
+whatever Um, of the things that
+this reminded me of, and I wanted
+
+350
+00:24:14,646 --> 00:24:18,396
+to talk to you about, so talking
+about this idea of talking
+
+351
+00:24:18,396 --> 00:24:22,807
+speaking technically. And I think
+one of the things that I was told
+
+352
+00:24:22,836 --> 00:24:28,346
+early in my career is not to do
+community because women are often
+
+353
+00:24:28,346 --> 00:24:33,096
+seen as, you do community, then
+people only know you for
+
+354
+00:24:33,096 --> 00:24:37,156
+community. And they think that
+you're non-technical. So I wanted
+
+355
+00:24:37,156 --> 00:24:41,477
+to get your take on that and kind
+of like what the balance is.
+
+356
+00:24:43,402 --> 00:24:46,882
+Jennifer: That's probably partly
+true, but part of me is like, I
+
+357
+00:24:48,051 --> 00:24:56,872
+don't care because I want to help
+people. And if someone thinks
+
+358
+00:24:56,872 --> 00:25:05,767
+that, you know, running. a user
+group is, is women's work well, A
+
+359
+00:25:05,797 --> 00:25:08,646
+like that's, that's really
+frustrating. I'm sure there are a
+
+360
+00:25:08,646 --> 00:25:11,527
+lot of people who think that,
+that seems extremely real to me,
+
+361
+00:25:11,557 --> 00:25:18,277
+even though the majority of user
+groups are run by men, uh, you
+
+362
+00:25:18,277 --> 00:25:21,997
+know, who tend to get plenty of
+conference talks because they run
+
+363
+00:25:22,057 --> 00:25:27,892
+like a massive user group or
+something. Um, And I guess on the
+
+364
+00:25:27,892 --> 00:25:35,182
+flip side, I think it was overall
+beneficial to me. it, I don't
+
+365
+00:25:35,182 --> 00:25:38,392
+want to say publicity, but I feel
+like it got me a lot of like sort
+
+366
+00:25:38,392 --> 00:25:43,701
+of tech, publicity, um, in a way
+that I don't think I was
+
+367
+00:25:43,701 --> 00:25:48,172
+necessarily expecting. Uh, so I
+would have people reach out to
+
+368
+00:25:48,172 --> 00:25:55,866
+me. Um, That I don't think they
+would have if I wasn't so uh,
+
+369
+00:25:55,957 --> 00:26:00,817
+doing the work with PyLadies
+Boston. So I, I think it was
+
+370
+00:26:00,817 --> 00:26:04,326
+overall good. I'm sure there were
+some people are like, this person
+
+371
+00:26:04,326 --> 00:26:09,007
+spends all their actually time on
+user groups gross, but if it
+
+372
+00:26:09,007 --> 00:26:12,307
+always feels like lose, lose,
+like it's like you're supposed to
+
+373
+00:26:12,307 --> 00:26:17,826
+do all of this stuff. You know,
+and you are supposed to network,
+
+374
+00:26:18,396 --> 00:26:22,567
+know, but you're also, um,
+supposed to be coding like
+
+375
+00:26:22,567 --> 00:26:27,696
+nonstop in your free time, which
+actually like that's, that's
+
+376
+00:26:27,696 --> 00:26:33,067
+another thing I feel like I used
+to think negatively about and I
+
+377
+00:26:33,067 --> 00:26:37,596
+think it was PyLadies that
+changed my mind. And that's
+
+378
+00:26:37,596 --> 00:26:45,207
+partly because I realized that.
+Really, like, like real
+
+379
+00:26:45,207 --> 00:26:50,787
+networking is building actual,
+meaningful relationships, but
+
+380
+00:26:50,787 --> 00:26:56,396
+they happen to be with people who
+are in your, um, wow. I'm totally
+
+381
+00:26:56,396 --> 00:26:59,126
+forgetting a word, but sort of
+like your work circle, you know,
+
+382
+00:26:59,126 --> 00:27:04,051
+that, and. 'Cause. 'Cause I think
+sometimes people think like, oh,
+
+383
+00:27:04,082 --> 00:27:08,372
+I'll just out to this rando on
+LinkedIn, you know, and see if
+
+384
+00:27:08,372 --> 00:27:11,281
+they'll refer me, that's
+networking, you know, or I'll ask
+
+385
+00:27:11,281 --> 00:27:15,211
+this random person I met once,
+know about this company and that
+
+386
+00:27:15,211 --> 00:27:19,461
+will matter. And I'm like, that
+does not matter, you know, but if
+
+387
+00:27:19,461 --> 00:27:25,162
+you're actually building up
+relationships like. Yeah, I I've
+
+388
+00:27:25,162 --> 00:27:30,382
+definitely referred like really
+referred to jobs. Like there's,
+
+389
+00:27:31,102 --> 00:27:33,531
+there's just like posting my
+referral link. I don't really
+
+390
+00:27:33,531 --> 00:27:39,082
+count that. in the first startup
+I actually worked at, after I
+
+391
+00:27:39,082 --> 00:27:44,842
+left, the contractor that I was
+under with TripAdvisor, uh, I
+
+392
+00:27:44,842 --> 00:27:50,797
+referred the woman who was
+co-organizing who stepped up to
+
+393
+00:27:50,797 --> 00:27:54,757
+help me co organize PyLadies
+Boston,because I was like, I,
+
+394
+00:27:55,237 --> 00:28:00,037
+this point feel really strongly
+that I know her work ethic, and I
+
+395
+00:28:00,037 --> 00:28:04,176
+know that she would be an asset
+here. And so I advocated for her,
+
+396
+00:28:04,656 --> 00:28:08,346
+you know, and to me, that's what,
+that's what you really want out
+
+397
+00:28:08,346 --> 00:28:12,126
+of networking. But you only get
+that if you relationships and
+
+398
+00:28:12,186 --> 00:28:19,666
+show people like what you're
+about and. And what you, I guess,
+
+399
+00:28:19,666 --> 00:28:24,886
+like what you value, right. And
+they're like, oh, I want that
+
+400
+00:28:24,886 --> 00:28:30,067
+person on my team. They're so
+great. Like I want to work with
+
+401
+00:28:30,067 --> 00:28:32,916
+them and you don't get that from
+a one-off interaction. And I
+
+402
+00:28:32,916 --> 00:28:35,287
+think that's one of the things I
+liked about Virtual Coffee. I
+
+403
+00:28:35,287 --> 00:28:38,227
+like that we do the small
+breakout rooms and I think it
+
+404
+00:28:38,227 --> 00:28:42,787
+gives us a chance to build those
+meaningful connections and make
+
+405
+00:28:42,787 --> 00:28:47,467
+us more likely that in the we'll
+be able to actually refer each
+
+406
+00:28:47,586 --> 00:28:50,866
+other, you know, and advocate for
+each other when trying to get
+
+407
+00:28:51,017 --> 00:28:51,686
+people hired.
+
+408
+00:28:52,446 --> 00:28:52,656
+Bekah: It's
+
+409
+00:28:52,656 --> 00:28:56,011
+Dan: absolutely. My list of
+Virtual Coffee members that I
+
+410
+00:28:56,011 --> 00:28:59,551
+want to work, can work with is
+very long, you know? And it's,
+
+411
+00:28:59,791 --> 00:29:03,481
+it's all, it's all that, it's
+the, it's like the longterm, you
+
+412
+00:29:03,481 --> 00:29:06,092
+know, connections. The networking
+metaphor is interesting. You
+
+413
+00:29:06,092 --> 00:29:09,991
+know, it's if you meet somebody
+once and then walk away, is it.
+
+414
+00:29:11,001 --> 00:29:14,152
+Are they really in your network,
+you know, if you're like building
+
+415
+00:29:15,082 --> 00:29:19,071
+on purpose, you know, like that
+means strong connections. And
+
+416
+00:29:19,071 --> 00:29:22,761
+that means, you know, actually
+spending time and effort on it,
+
+417
+00:29:22,852 --> 00:29:26,511
+you know, um, the, the term has
+gotten loaded with a lot of
+
+418
+00:29:26,511 --> 00:29:30,836
+negative connotations for sure.
+Like, I like everything always
+
+419
+00:29:30,876 --> 00:29:35,017
+does after a while, but it's one
+of the reasons why, like, you
+
+420
+00:29:35,017 --> 00:29:38,916
+know, LinkedIn is a dumpster
+fire, but like the, the, the fact
+
+421
+00:29:38,916 --> 00:29:42,307
+that like the interesting part of
+the LinkedIn model is like the
+
+422
+00:29:42,307 --> 00:29:44,047
+first connection, second
+connection, you know, like that
+
+423
+00:29:44,047 --> 00:29:48,487
+sort of thing, you know, um, is
+like valuable information or,
+
+424
+00:29:48,576 --> 00:29:51,997
+well, maybe not on LinkedIn, but
+you know, be, you know, that sort
+
+425
+00:29:51,997 --> 00:29:54,247
+of thing. Right? have like a
+strong connection with this
+
+426
+00:29:54,247 --> 00:29:56,916
+person. I have worked with them
+or I've, you know, uh, and then
+
+427
+00:29:56,926 --> 00:30:01,717
+you're like, okay, well, If Bekah
+recommends somebody to me that I
+
+428
+00:30:01,717 --> 00:30:04,926
+don't know, that person is going
+to be higher on my list than
+
+429
+00:30:05,717 --> 00:30:08,737
+people that I don't know at all.
+Right. So it's like, sorry,
+
+430
+00:30:08,737 --> 00:30:11,977
+there's somebody slamming doors
+outside, but, yeah. So I don't
+
+431
+00:30:11,977 --> 00:30:14,376
+know. I, I liked the way that I
+liked the way that you were, you
+
+432
+00:30:14,376 --> 00:30:17,317
+were thinking about that. It's
+it's cool. Let's see. Interesting
+
+433
+00:30:17,317 --> 00:30:17,707
+stuff.
+
+434
+00:30:18,287 --> 00:30:21,257
+Bekah: You were saying, you made
+a lot of connections through
+
+435
+00:30:21,257 --> 00:30:25,047
+building community for people who
+reached out to you for jobs I
+
+436
+00:30:25,047 --> 00:30:29,926
+know been true for me. And one of
+the nice parts of it is I have a
+
+437
+00:30:29,926 --> 00:30:33,166
+whole group of people that I can
+recommend. And so I think, you
+
+438
+00:30:33,166 --> 00:30:37,007
+know, when you get to that point
+you know people, then you make
+
+439
+00:30:37,007 --> 00:30:40,517
+those personal connections and
+it's really great to see, you
+
+440
+00:30:40,517 --> 00:30:43,606
+know, how far that goes out. You
+know, I recommended a person for
+
+441
+00:30:43,606 --> 00:30:47,227
+a job. there. And then when they
+left, they recommended another
+
+442
+00:30:47,227 --> 00:30:52,446
+person. Right. so then this whole
+cycle of, know helping us
+
+443
+00:30:52,896 --> 00:30:54,156
+advocate for each other.
+
+444
+00:30:54,817 --> 00:30:55,747
+Jennifer: a hundred percent.
+
+445
+00:30:57,557 --> 00:31:01,291
+Bekah: So, okay. So the second.
+One of the second pieces of
+
+446
+00:31:01,291 --> 00:31:05,251
+advice I got after starting
+Virtual Coffee. this resonated
+
+447
+00:31:05,251 --> 00:31:08,731
+when you were talking about not
+making people pay for PyLadies
+
+448
+00:31:09,481 --> 00:31:12,872
+was, well, if you're going to do
+community, then you, you have to
+
+449
+00:31:13,112 --> 00:31:15,932
+charge a membership fee, right?
+Like you have to get paid for
+
+450
+00:31:15,932 --> 00:31:19,882
+your time. And that's something
+at Virtual Coffee that we've
+
+451
+00:31:19,882 --> 00:31:22,761
+always had a strong stance
+against. You know, we never want
+
+452
+00:31:22,761 --> 00:31:28,192
+to make anyone pay for access to
+and the content that we produce,
+
+453
+00:31:28,192 --> 00:31:34,192
+because think it's important to
+allow that and for everyone in
+
+454
+00:31:34,192 --> 00:31:41,961
+our community. So what, was what,
+I guess, what are your thoughts
+
+455
+00:31:41,961 --> 00:31:45,172
+on that of like people have to
+pay for your time?
+
+456
+00:31:46,862 --> 00:31:50,582
+Jennifer: Uh, if it's not clear
+here I a hundred percent agree
+
+457
+00:31:50,582 --> 00:32:01,382
+with not so with, with things
+being free. here's the thing. to
+
+458
+00:32:01,382 --> 00:32:06,721
+me, it depends on who it is. Like
+a company is asking me for advice
+
+459
+00:32:06,932 --> 00:32:12,031
+or someone is basically asking me
+to effectively consult their
+
+460
+00:32:12,031 --> 00:32:17,082
+work. Yeah. No, pay me for my
+time. Like. You know, I'm doing
+
+461
+00:32:17,082 --> 00:32:19,721
+work to further the capitalist
+machine. Like I want money,
+
+462
+00:32:20,957 --> 00:32:21,017
+Dan: Yeah.
+
+463
+00:32:21,102 --> 00:32:24,942
+Jennifer: when it comes to people
+who are potentially unemployed,
+
+464
+00:32:25,332 --> 00:32:30,491
+you know, and are just trying to
+better their own life situation,
+
+465
+00:32:30,942 --> 00:32:35,892
+like, no, I don't want your
+money. Like, especially. I think,
+
+466
+00:32:35,892 --> 00:32:39,912
+especially like where, where I
+was like Coffee is obviously a
+
+467
+00:32:39,912 --> 00:32:42,461
+little bit broader, but at the
+same time, there are so many
+
+468
+00:32:42,521 --> 00:32:48,491
+juniors in there. I'm like, I
+don't, I never felt right. my
+
+469
+00:32:49,781 --> 00:32:53,741
+primary audience with PyLadies
+was people who are not developers
+
+470
+00:32:54,852 --> 00:32:58,511
+being like, yeah, I'm a developer
+making, know, a good salary or.
+
+471
+00:32:59,682 --> 00:33:05,231
+Can you pay me to, to, to help
+you get there too. I you're not
+
+472
+00:33:05,231 --> 00:33:08,352
+making that much money, but give
+some more of your money to me.
+
+473
+00:33:08,541 --> 00:33:08,811
+Dan: Okay.
+
+474
+00:33:09,642 --> 00:33:13,961
+Jennifer: I don't know. Maybe I,
+maybe this is like the socialist
+
+475
+00:33:13,961 --> 00:33:14,321
+in me
+
+476
+00:33:14,457 --> 00:33:14,757
+Bekah: Okay
+
+477
+00:33:15,221 --> 00:33:19,902
+Jennifer: where I was like, no, I
+want to help build people up. And
+
+478
+00:33:21,342 --> 00:33:26,096
+I guess maybe I also like don't
+necessarily. I think that highly
+
+479
+00:33:26,096 --> 00:33:33,267
+of myself, that, you know, by
+advice is worth money. So I would
+
+480
+00:33:33,267 --> 00:33:35,787
+feel really bad asking someone to
+pay for it. And the other thing
+
+481
+00:33:35,787 --> 00:33:41,067
+is I'm not necessarily creating
+the content. Right. You know,
+
+482
+00:33:41,067 --> 00:33:44,576
+there was some times where sure.
+Like the class I could have maybe
+
+483
+00:33:44,606 --> 00:33:48,086
+charged for that. I didn't feel
+right. Doing it. But for the most
+
+484
+00:33:48,086 --> 00:33:52,152
+part, yeah. members are giving
+presentations. Why should I be
+
+485
+00:33:52,152 --> 00:33:56,291
+paid for this? Like if anything,
+maybe I could've been like, Hey,
+
+486
+00:33:56,291 --> 00:34:02,682
+yeah, I'll take donations for,
+for the cost of the meetup, but
+
+487
+00:34:03,132 --> 00:34:08,742
+it's really like, even a meetup
+is only like, I dunno, like 80
+
+488
+00:34:08,742 --> 00:34:14,556
+bucks every six months or
+something. It's not that huge in
+
+489
+00:34:14,556 --> 00:34:16,806
+the scale of things, especially
+if you're making a software dev
+
+490
+00:34:16,806 --> 00:34:22,056
+salary within the U S so I was
+just like, to be honest, it's not
+
+491
+00:34:22,056 --> 00:34:24,456
+even worth it. Cause then I have
+to think about taxes
+
+492
+00:34:24,467 --> 00:34:24,556
+Bekah: Okay.
+
+493
+00:34:24,786 --> 00:34:29,496
+Jennifer: about getting gifts and
+paying, like, to me, the other
+
+494
+00:34:29,496 --> 00:34:33,547
+thing I'm like, it's not even
+worth the potential tax headache
+
+495
+00:34:33,577 --> 00:34:38,677
+of creating like a business and
+getting paid for this. When also
+
+496
+00:34:38,677 --> 00:34:44,371
+I to do this. I want to help
+people, like I'm not doing this
+
+497
+00:34:44,371 --> 00:34:50,311
+for money, I'm doing this because
+like, I think, I mean, I think
+
+498
+00:34:50,311 --> 00:34:54,211
+everyone should learn to code
+period, I also think being a
+
+499
+00:34:54,211 --> 00:34:57,391
+software developers is stinking
+easy job. Like it's frustrating,
+
+500
+00:34:57,391 --> 00:34:59,521
+but it's not that hard, you
+
+501
+00:34:59,561 --> 00:34:59,831
+Bekah: Yeah.
+
+502
+00:34:59,851 --> 00:35:02,942
+Jennifer: And I think pretty much
+like anyone can do it. We paid
+
+503
+00:35:02,942 --> 00:35:09,702
+way too much. And there are too
+many jobs. Like even now, Where
+
+504
+00:35:10,512 --> 00:35:14,831
+it's really hard for juniors to
+find a job. I know, at the same
+
+505
+00:35:14,831 --> 00:35:18,222
+time, it's because companies are
+like, I don't know, we can only
+
+506
+00:35:18,222 --> 00:35:25,572
+hire seniors. And they're an
+absolutely absurd amount like
+
+507
+00:35:25,782 --> 00:35:28,661
+Amazon, which I'm pretty sure
+they wouldn't want to hire me
+
+508
+00:35:28,661 --> 00:35:33,882
+anyway for a number of reasons.
+Um, like they keep emailing me
+
+509
+00:35:33,882 --> 00:35:36,762
+and I keep like this last time, I
+think I responded back with, how
+
+510
+00:35:36,762 --> 00:35:42,492
+do I get blocklisted by Amazon?
+Like, please let me know. I want
+
+511
+00:35:42,492 --> 00:35:46,572
+to be on a block list. also that
+is, I think proof, like, there
+
+512
+00:35:46,572 --> 00:35:49,871
+are a lot of people who think
+like, oh, if I do like then this
+
+513
+00:35:49,931 --> 00:35:59,351
+massive company is never gonna
+hire me. No. I have like twitter
+
+514
+00:35:59,351 --> 00:36:04,961
+account that how unions are, you
+know, and Amazon recruiters are
+
+515
+00:36:04,961 --> 00:36:09,280
+so like, "Want to for Amazon?"
+
+516
+00:36:09,742 --> 00:36:10,092
+Bekah: Uh,
+
+517
+00:36:10,231 --> 00:36:15,489
+Jennifer: like, frickin' no, I
+don't, you know, but, sorry, I
+
+518
+00:36:15,579 --> 00:36:15,820
+just
+
+519
+00:36:15,860 --> 00:36:18,440
+Bekah: that was fantastic. No,
+no. I love that. I wish that
+
+520
+00:36:18,440 --> 00:36:22,280
+everybody could have watched you
+give that speech there because
+
+521
+00:36:22,280 --> 00:36:23,989
+your body language was fantastic.
+
+522
+00:36:29,195 --> 00:36:31,985
+Jennifer: I'm just full of like
+rants and hot takes about tech.
+
+523
+00:36:32,465 --> 00:36:35,764
+Bekah: my like when you're in my
+breakout room, I'm like, yes.
+
+524
+00:36:39,409 --> 00:36:42,168
+Dan: Oh man. Yeah, I did. This
+podcast needs more hot takes.
+
+525
+00:36:42,168 --> 00:36:47,418
+Anyway. I think, you know, if
+there's one thing missing, I like
+
+526
+00:36:47,418 --> 00:36:50,289
+the, I mean, I I agree with
+everything you said though. And.
+
+527
+00:36:51,548 --> 00:36:54,728
+You know, we, as, as people, like
+when you're running a community
+
+528
+00:36:54,728 --> 00:36:59,349
+and stuff, you'll get advice or
+whatever, and part of it for me,
+
+529
+00:36:59,349 --> 00:37:02,289
+the way I've been thinking about
+it, what you know is like, it's
+
+530
+00:37:02,289 --> 00:37:04,809
+not a, it's not a product, right?
+We don't have people, you know,
+
+531
+00:37:04,809 --> 00:37:08,679
+you get people that come in
+sometimes to communities and
+
+532
+00:37:08,679 --> 00:37:11,889
+want, just want something and to,
+you know, leave again, you know,
+
+533
+00:37:12,309 --> 00:37:16,398
+but, uh, I think. That is another
+benefit of more intimate
+
+534
+00:37:16,759 --> 00:37:20,568
+communities, uh, you know, is, is
+you get a lot less of that, you
+
+535
+00:37:20,568 --> 00:37:23,628
+know, if you had, if your group
+was just like people coming in
+
+536
+00:37:23,628 --> 00:37:27,498
+and saying job, please, and then
+leave, you know, like, uh, all
+
+537
+00:37:27,498 --> 00:37:30,018
+the time, then that's like, okay,
+let's turn this into a product.
+
+538
+00:37:30,018 --> 00:37:33,498
+And just like charge people you
+know, but it's not, um, that's
+
+539
+00:37:33,498 --> 00:37:36,048
+not what like most communities
+are about. Uh, it's certainly
+
+540
+00:37:36,048 --> 00:37:39,400
+possible to turn a community into
+a product and make money off of
+
+541
+00:37:39,400 --> 00:37:42,664
+it. uh you see lot of people
+doing it, but you know, it's, I
+
+542
+00:37:42,664 --> 00:37:46,893
+don't know. Then it's then I
+start thinking of it as a
+
+543
+00:37:46,893 --> 00:37:49,293
+different thing than a community
+at that point, you know, you know
+
+544
+00:37:49,293 --> 00:37:51,545
+what I mean? It becomes... a
+
+545
+00:37:52,295 --> 00:37:56,405
+Jennifer: as organizers, like you
+also get a ton out of it. And I
+
+546
+00:37:56,405 --> 00:37:59,224
+think that's the other thing that
+felt weird. Cause in a way I'm
+
+547
+00:37:59,224 --> 00:38:02,195
+like, well, I'm probably actually
+getting the most out of this.
+
+548
+00:38:02,195 --> 00:38:08,550
+Like not only am I getting to
+constantly try to you know flex
+
+549
+00:38:08,550 --> 00:38:13,320
+my mentoring muscles and get
+better at that. Um, because I'm
+
+550
+00:38:13,320 --> 00:38:17,159
+the one like making up the random
+extra time, you know, I have to
+
+551
+00:38:17,159 --> 00:38:20,400
+give way more presentations I'm
+still not the world's greatest
+
+552
+00:38:20,400 --> 00:38:24,059
+public speaker, but did I improve
+drastically from having to give a
+
+553
+00:38:24,059 --> 00:38:27,179
+bunch of mediocre presentations
+at PyLadies? Hell yeah, I did.
+
+554
+00:38:27,690 --> 00:38:31,230
+know, and I was the one there
+every single month, which means
+
+555
+00:38:31,679 --> 00:38:36,559
+got to meet a bunch of absolutely
+amazing people. So yeah, it's
+
+556
+00:38:36,559 --> 00:38:42,860
+like, I, I'm getting the more out
+of this than anyone else. Why
+
+557
+00:38:42,860 --> 00:38:44,480
+should people pay
+
+558
+00:38:44,675 --> 00:38:44,945
+Dan: Yeah
+
+559
+00:38:45,679 --> 00:38:47,260
+Jennifer: also to basically just
+meet me?
+
+560
+00:38:47,960 --> 00:38:51,829
+Bekah: And pay for your
+autograph.
+
+561
+00:38:51,840 --> 00:38:55,920
+Jennifer: tell you right now.
+Don't don't pay for that
+
+562
+00:38:55,920 --> 00:38:56,369
+pleasure.
+
+563
+00:38:56,409 --> 00:38:58,398
+Dan: When you put it that way and
+that makes me want to charge
+
+564
+00:38:58,398 --> 00:38:58,668
+people.
+
+565
+00:39:02,820 --> 00:39:03,929
+Jennifer: Just charge for
+autographs.
+
+566
+00:39:04,074 --> 00:39:06,625
+Bekah: We told you we were
+charging for this podcast
+
+567
+00:39:06,625 --> 00:39:08,403
+episode, is one.
+
+568
+00:39:08,483 --> 00:39:09,679
+Dan: We'll send you, we'll send
+you the bill.
+
+569
+00:39:11,074 --> 00:39:13,135
+Jennifer: I'll S I'll send them
+the same one we can do, you know,
+
+570
+00:39:13,144 --> 00:39:19,664
+in, in trade it kind trade for
+the pleasure of of each other's
+
+571
+00:39:19,684 --> 00:39:20,224
+company.
+
+572
+00:39:22,309 --> 00:39:26,539
+Bekah: All right, so I'm ready
+for some more hot takes. So you
+
+573
+00:39:26,539 --> 00:39:29,960
+are, have done a lot of work to
+get women and minorities into
+
+574
+00:39:29,960 --> 00:39:35,389
+tech. So are things that
+companies are doing that exclude
+
+575
+00:39:35,389 --> 00:39:39,110
+women or the red flags that we
+should look out for?
+
+576
+00:39:41,594 --> 00:39:50,925
+Jennifer: Uh, well, my favorite
+is the stuff you don't get until
+
+577
+00:39:50,925 --> 00:39:56,304
+you're actually there. And
+especially this. think it's
+
+578
+00:39:56,835 --> 00:40:02,090
+specififcally towards possibly
+some other minorities, but I
+
+579
+00:40:02,090 --> 00:40:07,429
+think specifically women where
+you get called, like you're more
+
+580
+00:40:07,429 --> 00:40:11,630
+likely to be called like cynical
+or shoot. I'm trying to think of
+
+581
+00:40:11,630 --> 00:40:17,449
+another thing from one of my
+reviews. at splice, but at a
+
+582
+00:40:17,840 --> 00:40:23,630
+recent company that will not be I
+an article put in my review.
+
+583
+00:40:23,630 --> 00:40:28,579
+Again, I'm a native US English
+speaker how to be more polite and
+
+584
+00:40:28,579 --> 00:40:39,320
+tactful in American English. You
+know, so I stopped doing those
+
+585
+00:40:39,320 --> 00:40:41,909
+things, like, you know, think
+about If you're a manager
+
+586
+00:40:41,909 --> 00:40:43,257
+Dan: did they think you were like
+Canadian or something
+
+587
+00:40:43,257 --> 00:40:47,427
+Jennifer: N no, for
+
+588
+00:40:47,684 --> 00:40:48,074
+Dan: Sorry
+
+589
+00:40:48,469 --> 00:40:53,960
+Jennifer: sure. For sure. Not,
+but even if, Canadians also like
+
+590
+00:40:53,960 --> 00:41:00,394
+really any like Um, you're a
+manager listening to this
+
+591
+00:41:00,753 --> 00:41:01,143
+Dan: and have been
+
+592
+00:41:01,144 --> 00:41:05,405
+Jennifer: like, well, I got
+feedback from this woman's
+
+593
+00:41:05,405 --> 00:41:10,085
+coworkers on how she was. So
+brusque consider if that feedback
+
+594
+00:41:10,085 --> 00:41:14,585
+might be gendered and maybe don't
+give it to him, to her and,
+
+595
+00:41:14,920 --> 00:41:15,190
+Bekah: Yeah.
+
+596
+00:41:15,215 --> 00:41:18,635
+Jennifer: tell him. The people
+who gave you that feedback, but
+
+597
+00:41:18,635 --> 00:41:23,465
+they should probably sit with,
+their, uh, preconceptions of how
+
+598
+00:41:23,465 --> 00:41:29,014
+a woman should speak. Um, but to
+me, like the biggest struggle,
+
+599
+00:41:29,014 --> 00:41:33,755
+and I think why we've had so many
+trouble, is often aren't ton of
+
+600
+00:41:33,815 --> 00:41:42,619
+glaring red flags in Um, cause
+honestly, so one of. You can't
+
+601
+00:41:42,619 --> 00:41:49,190
+even count on diversity. One of,
+one of my favorite teams that I
+
+602
+00:41:49,199 --> 00:41:56,349
+worked on was me and all white
+dudes. But they were wonderful
+
+603
+00:41:56,670 --> 00:41:59,585
+Like I still talk to a lot of
+these guys. They were the most
+
+604
+00:41:59,585 --> 00:42:03,514
+supportive, I think of almost any
+other team worked on. You know,
+
+605
+00:42:03,545 --> 00:42:05,704
+one of them would regularly if he
+was working on something
+
+606
+00:42:05,735 --> 00:42:09,065
+interesting. Call me over to, to
+pair be like, I think this would
+
+607
+00:42:09,065 --> 00:42:13,655
+be really fascinating for you.
+Like, um, dig into this. And this
+
+608
+00:42:13,655 --> 00:42:16,715
+was when I was only maybe like a
+couple of years into my career.
+
+609
+00:42:16,715 --> 00:42:21,125
+So. Like still pretty junior,
+like, you know, egging into
+
+610
+00:42:21,125 --> 00:42:24,364
+mid-level. I know at this point,
+like people are like senior after
+
+611
+00:42:24,364 --> 00:42:30,905
+two years, whatever. Um, it's all
+meaningless. Um, you're senior
+
+612
+00:42:30,905 --> 00:42:34,775
+after two years, where are you
+going? Like your career is going
+
+613
+00:42:34,775 --> 00:42:38,795
+to be like fricking 30 years plus
+years long. Um,
+
+614
+00:42:39,364 --> 00:42:39,844
+Bekah: burnout.
+
+615
+00:42:39,934 --> 00:42:46,715
+Jennifer: go at a certain point.
+Um, that's another. Okay. Uh, And
+
+616
+00:42:46,894 --> 00:42:52,974
+versus a company that I worked at
+that was extremely diverse or,
+
+617
+00:42:52,974 --> 00:43:00,394
+well, extremely diverse was like,
+okay, on gender issues. But if we
+
+618
+00:43:00,394 --> 00:43:06,815
+brought up any sort of racial or
+ethnicity issues, it was, it was
+
+619
+00:43:06,815 --> 00:43:11,465
+bad. It was, it was real bad. I
+was at one point accused of anti
+
+620
+00:43:11,465 --> 00:43:15,875
+Southern bias. At that I am a
+Southerner by the way, I grew up
+
+621
+00:43:15,875 --> 00:43:19,175
+in Alabama, as I mentioned, I
+lived in Georgia for seven years.
+
+622
+00:43:20,644 --> 00:43:26,195
+I still that's still most of my
+life, so I still very much
+
+623
+00:43:26,195 --> 00:43:29,764
+identify as a southerner. And
+yeah, I was because I had
+
+624
+00:43:29,764 --> 00:43:32,195
+mentioned something about long
+voting lines throughout the south
+
+625
+00:43:32,195 --> 00:43:35,224
+and I'm just like, well, hi. I
+remember standing in a really
+
+626
+00:43:35,224 --> 00:43:37,414
+long line in Atlanta. I don't
+know about you.
+
+627
+00:43:39,364 --> 00:43:39,425
+Bekah: yeah,
+
+628
+00:43:40,804 --> 00:43:44,974
+Jennifer: so. I've I've basically
+found that I don't feel. And the
+
+629
+00:43:44,974 --> 00:43:48,965
+other thing is I've, even if
+you're trying to judge based on
+
+630
+00:43:48,965 --> 00:43:54,065
+diversity, you might not even be
+giving answers. Like when I asked
+
+631
+00:43:54,065 --> 00:43:58,054
+at one point in one company I
+joined the interview about like,
+
+632
+00:43:58,054 --> 00:44:03,675
+what, uh, of like how womendo do
+you have in engineering The guy
+
+633
+00:44:03,695 --> 00:44:06,394
+was like, oh yeah. You know,
+like, I don't have the exact
+
+634
+00:44:06,394 --> 00:44:09,454
+numbers, but like, know, yeah. We
+have like, women are in
+
+635
+00:44:09,454 --> 00:44:14,030
+engineering management. And then
+I joined looking at the org chart
+
+636
+00:44:15,050 --> 00:44:20,269
+and there like three women in
+engineering. Me, woman on my
+
+637
+00:44:20,269 --> 00:44:25,460
+team, one person in QA, there is
+no one in management. I was like,
+
+638
+00:44:28,239 --> 00:44:37,085
+What So, so. I mean, honestly,
+like, I feel like the big things
+
+639
+00:44:38,704 --> 00:44:41,525
+for companies I'm just like, stop
+doing most of what you're doing.
+
+640
+00:44:42,005 --> 00:44:47,885
+Um, like it's, it's all bad. Um,
+but like don't, don't lie to
+
+641
+00:44:47,885 --> 00:44:51,635
+people because also if someone
+really cares about that, going to
+
+642
+00:44:51,635 --> 00:44:57,034
+be put off and they're going to
+leave quickly. Um, you know, try
+
+643
+00:44:57,034 --> 00:45:00,664
+to be honest about where you are,
+like this is for any hiring
+
+644
+00:45:00,664 --> 00:45:04,994
+managers. The honest about where
+you are and where you actually
+
+645
+00:45:04,994 --> 00:45:12,644
+are trying to go. Um, and the
+other thing is when people, and
+
+646
+00:45:12,644 --> 00:45:18,914
+people of color your company and
+give you feedback on how the
+
+647
+00:45:18,914 --> 00:45:25,429
+process is going. I think. Don't
+react negatively. Like don't get
+
+648
+00:45:25,429 --> 00:45:30,559
+defensive I think that's the, the
+hardest thing. Cause I've been in
+
+649
+00:45:30,559 --> 00:45:33,409
+many places where I've tried to
+be like, Hey, I think we should
+
+650
+00:45:33,409 --> 00:45:36,980
+consider doing this. And people
+have gotten extremely defensive
+
+651
+00:45:37,730 --> 00:45:45,755
+and it's like, I didn't care, I
+would just leave. I don't need to
+
+652
+00:45:45,755 --> 00:45:48,965
+stay here. Like I'm only giving
+this feedback and trying to make
+
+653
+00:45:48,965 --> 00:45:53,525
+it better because I care about
+where I am and I want, I want
+
+654
+00:45:53,525 --> 00:45:56,855
+this to be like a better place to
+work. I want people to, to love
+
+655
+00:45:56,855 --> 00:46:01,795
+it, you know? And, and I think a
+lot of times people miss that,
+
+656
+00:46:02,434 --> 00:46:08,985
+you know that if you are giving,
+if you're trying to get involved
+
+657
+00:46:08,985 --> 00:46:13,094
+in, in, and that's, the other
+thing is don't don't necessarily
+
+658
+00:46:13,094 --> 00:46:19,744
+make. Women and minorities do D I
+efforts, but also consider
+
+659
+00:46:19,894 --> 00:46:23,914
+talking to least some of them if
+you're consider implementing a
+
+660
+00:46:23,914 --> 00:46:31,954
+change, because I've seen a lot
+of changes for the good of equity
+
+661
+00:46:31,954 --> 00:46:35,775
+and diversity rolled out that
+were quite poor
+
+662
+00:46:37,233 --> 00:46:37,414
+Bekah: Yeah
+
+663
+00:46:38,969 --> 00:46:42,699
+Dan: Sure. Do you have any, do
+you have any advice for for.
+
+664
+00:46:42,858 --> 00:46:46,619
+Somebody Who, so, so maybe went
+through the interview red flags,
+
+665
+00:46:46,639 --> 00:46:48,768
+you know, landed in a position
+like that, where they're
+
+666
+00:46:48,918 --> 00:46:52,639
+uncomfortable, maybe like, and I
+suppose the experience is going
+
+667
+00:46:52,639 --> 00:46:54,949
+to be different if you're coming
+in as a senior or somebody, you
+
+668
+00:46:54,949 --> 00:46:58,068
+know, a little more comfortable.
+I mean, I don't want to speak for
+
+669
+00:46:58,068 --> 00:47:00,048
+you, but I would imagine you
+would have no problem just
+
+670
+00:47:00,048 --> 00:47:03,139
+quitting a job. Right. Uh, you
+know, like if you're
+
+671
+00:47:03,139 --> 00:47:05,389
+uncomfortable, but if you're, if
+it's your first job, for
+
+672
+00:47:05,389 --> 00:47:08,028
+instance, a first tech job,
+especially something like that,
+
+673
+00:47:08,028 --> 00:47:09,920
+you have any, I any
+
+674
+00:47:10,090 --> 00:47:13,775
+Jennifer: If first job, it's
+extremely toxic. If it's
+
+675
+00:47:13,775 --> 00:47:17,135
+extremely toxic just start
+applying You got one job. You can
+
+676
+00:47:17,135 --> 00:47:21,784
+probably get another don't. I
+would generally not recommend
+
+677
+00:47:21,784 --> 00:47:25,054
+quitting before you have another
+job. I've only ever done that
+
+678
+00:47:25,414 --> 00:47:29,704
+once. And it was a really,
+really, really bad environment.
+
+679
+00:47:29,974 --> 00:47:34,565
+But I also talked to my husband
+about it and was like, can we
+
+680
+00:47:34,565 --> 00:47:38,494
+afford to do this? And he was
+like, because I'm tired of you
+
+681
+00:47:38,494 --> 00:47:43,873
+complaining this terrible place
+Um he still didn't get rid of me
+
+682
+00:47:43,894 --> 00:47:45,934
+complaining about that for
+probably like two years. Cause it
+
+683
+00:47:45,934 --> 00:47:52,744
+was that bad. Um, so it's, if
+it's really bad start looking for
+
+684
+00:47:52,744 --> 00:47:57,320
+another job, like if it's
+extremely toxic, it's. Just a
+
+685
+00:47:57,320 --> 00:48:00,139
+bunch of things where you're
+like, Ugh, this is really
+
+686
+00:48:00,139 --> 00:48:05,989
+annoying. Try to buckle down. And
+know, if it's your first job,
+
+687
+00:48:06,050 --> 00:48:09,139
+even getting just a year of
+experience is going to make you
+
+688
+00:48:09,199 --> 00:48:12,619
+put you in a better position to
+get a better job. And I, I
+
+689
+00:48:12,619 --> 00:48:15,920
+generally don't think you have to
+stay out of a job for a year, but
+
+690
+00:48:15,920 --> 00:48:20,210
+again, when it's your first tech
+job, you need experience. Um, so
+
+691
+00:48:20,630 --> 00:48:26,000
+being able to say just suck it
+up, hopefully people with more.
+
+692
+00:48:26,960 --> 00:48:32,119
+Power in that particular
+workplace will speak up. I don't
+
+693
+00:48:32,119 --> 00:48:40,070
+want to, I, the reason I try to
+speak up is because I am
+
+694
+00:48:40,550 --> 00:48:43,130
+confident in my ability to
+quickly get another job. If
+
+695
+00:48:43,130 --> 00:48:48,574
+things go downhill, do I want to
+be fired? No. But, you know, do I
+
+696
+00:48:48,574 --> 00:48:51,784
+feel like it's my responsibility
+for people who are coming in, who
+
+697
+00:48:51,784 --> 00:48:55,144
+are more junior who have less
+power, like to make sure that
+
+698
+00:48:55,144 --> 00:48:58,954
+they're in a safe as safe a work
+environment as I can make it.
+
+699
+00:48:59,105 --> 00:49:03,244
+Yes. But if you are that person
+who is more junior, do not feel
+
+700
+00:49:03,244 --> 00:49:08,554
+obligated to speak up because
+you're just not in the best
+
+701
+00:49:08,554 --> 00:49:15,664
+position to do that. Once you
+start getting. Next level senior,
+
+702
+00:49:15,695 --> 00:49:20,255
+maybe start advocating for others
+a bit more because it really is
+
+703
+00:49:20,255 --> 00:49:27,364
+important we all, like, I don't
+think it should only be up to,
+
+704
+00:49:28,744 --> 00:49:32,344
+um, women and underrepresented
+minorities to call out racism and
+
+705
+00:49:32,344 --> 00:49:37,849
+sexism in the workplace. Um, and.
+It can be a little frustrating.
+
+706
+00:49:37,969 --> 00:49:43,070
+Um, when you know, I'm working
+with, uh, a bunch of guys and
+
+707
+00:49:43,070 --> 00:49:46,070
+they're all, they're all really
+great, but you know, they're not
+
+708
+00:49:46,070 --> 00:49:50,929
+really, they're not dealing with
+the same crap that I am, cause
+
+709
+00:49:50,929 --> 00:49:53,929
+they're not putting themselves
+out there and pushing back
+
+710
+00:49:53,929 --> 00:49:57,170
+against bad policies. So,
+
+711
+00:49:57,668 --> 00:49:57,969
+Dan: Yeah
+
+712
+00:49:58,190 --> 00:50:04,730
+Jennifer: but if you're junior,
+on tight, uh, it'll get better.
+
+713
+00:50:06,289 --> 00:50:10,099
+Don't give up, even though tech
+is mostly trash, like, our most
+
+714
+00:50:10,099 --> 00:50:12,860
+workplaces, you're a bunch of
+people talking about quitting
+
+715
+00:50:12,860 --> 00:50:16,070
+tech and I'm like, nowhere's
+better. Everywhere. Sucks.
+
+716
+00:50:16,190 --> 00:50:16,460
+Bekah: Yeah
+
+717
+00:50:17,074 --> 00:50:17,423
+Dan: Uh, my, my,
+
+718
+00:50:17,423 --> 00:50:18,605
+Bekah: academia's awful
+
+719
+00:50:19,764 --> 00:50:23,673
+Dan: yeah, the academia. Um, I
+have no my imagi I always
+
+720
+00:50:23,673 --> 00:50:25,864
+imagined just going into the
+woods, you know, by myself. If I,
+
+721
+00:50:25,923 --> 00:50:29,523
+when I imagine quitting you know
+it there's no people around him.
+
+722
+00:50:29,523 --> 00:50:34,054
+I imagined, you know, ideal job,
+trees and stuff. I don't, I don't
+
+723
+00:50:34,054 --> 00:50:35,043
+know what the job is
+
+724
+00:50:35,253 --> 00:50:38,304
+Bekah: Dan Daniel also work with
+me
+
+725
+00:50:38,364 --> 00:50:41,889
+Dan: don't know going to oh yeah.
+Well, you're fine. You know, most
+
+726
+00:50:41,929 --> 00:50:43,878
+times, but, uh, no
+
+727
+00:50:43,969 --> 00:50:44,309
+Jennifer: You can
+
+728
+00:50:44,329 --> 00:50:44,929
+Dan: just tech is
+
+729
+00:50:45,085 --> 00:50:45,594
+Jennifer: ranger.
+
+730
+00:50:45,708 --> 00:50:48,289
+Dan: tech. Yeah. Forest ranger. I
+feel like I I
+
+731
+00:50:48,389 --> 00:50:48,599
+Jennifer: There's
+
+732
+00:50:48,840 --> 00:50:49,099
+Dan: ended up.
+
+733
+00:50:49,375 --> 00:50:49,735
+Jennifer: there.
+
+734
+00:50:49,969 --> 00:50:52,039
+Dan: Yeah. I feel like you just
+ended up having to like, be
+
+735
+00:50:52,128 --> 00:50:54,559
+chasing kids out of the park that
+had smoking weed or so they're
+
+736
+00:50:54,559 --> 00:50:56,869
+not, I don't know, whatever, you
+know, like, you know, just being
+
+737
+00:50:56,869 --> 00:51:00,259
+like a security guard, almost
+ranger I need something yet. I
+
+738
+00:51:00,259 --> 00:51:05,958
+need like a trail maintenance. I
+don't know where it's somewhere
+
+739
+00:51:06,219 --> 00:51:08,929
+somewhere, far away so I can just
+disappear for a couple of months
+
+740
+00:51:08,929 --> 00:51:09,469
+and then come back
+
+741
+00:51:09,630 --> 00:51:10,565
+Jennifer: Rural Canada.
+
+742
+00:51:10,639 --> 00:51:14,748
+Dan: Yeah I'll go in Algonquin.
+It's something like that. Anyway.
+
+743
+00:51:15,018 --> 00:51:15,259
+That's
+
+744
+00:51:15,329 --> 00:51:19,889
+Bekah: I found one of the things
+that's been helpful for me is in
+
+745
+00:51:19,889 --> 00:51:23,219
+having a community and then
+having a network. There are
+
+746
+00:51:23,219 --> 00:51:26,880
+enough people that I know or
+connections through people. I
+
+747
+00:51:26,880 --> 00:51:32,239
+know that I can ask What what is
+this work environment like and
+
+748
+00:51:32,300 --> 00:51:35,480
+get an honest answer. And that
+has been so important. So
+
+749
+00:51:35,480 --> 00:51:39,139
+networking is important to find a
+job, but also it's very important
+
+750
+00:51:39,139 --> 00:51:43,489
+to find a good job. And like, I
+don't mean pay, I mean, good
+
+751
+00:51:43,489 --> 00:51:44,090
+place to work.
+
+752
+00:51:46,369 --> 00:51:49,248
+Dan: And actually that just made
+me think that another bonus is
+
+753
+00:51:49,728 --> 00:51:53,298
+having people to ask advice of
+in, in, if they're in situations,
+
+754
+00:51:53,298 --> 00:51:56,059
+you know, where they're not sure
+what to do or whatever, you know,
+
+755
+00:51:56,059 --> 00:51:59,088
+actually having somebody who's
+been through that, uh, to, to ask
+
+756
+00:51:59,088 --> 00:52:00,798
+us bonus of community.
+
+757
+00:52:01,579 --> 00:52:06,559
+Jennifer: I think that can help.
+But caveat is like one of what
+
+758
+00:52:06,559 --> 00:52:11,480
+was for me, like one of the jobs
+I've had was that a place that
+
+759
+00:52:11,840 --> 00:52:16,250
+friends worked at and they loved
+and other people I knew work at
+
+760
+00:52:16,250 --> 00:52:22,610
+in loved, but. Like I ended up
+not only did I get under leveled
+
+761
+00:52:22,639 --> 00:52:25,550
+when I joined and that's
+something that's hard to tell
+
+762
+00:52:25,760 --> 00:52:29,840
+because every place is leveling
+is totally different, know? So I
+
+763
+00:52:29,840 --> 00:52:35,329
+don't know until I joined it, I'm
+like, wait, what? Now I see
+
+764
+00:52:35,329 --> 00:52:41,329
+everyone's levels This messed up.
+Um, it's also a lot of places to
+
+765
+00:52:41,329 --> 00:52:47,570
+really dependent on your manager.
+And so the people who were. Being
+
+766
+00:52:47,570 --> 00:52:51,230
+like, oh, this is such a good
+place. They all had a different
+
+767
+00:52:51,230 --> 00:52:56,659
+manager than me. I did end up
+switching teams at a, at a point,
+
+768
+00:52:56,659 --> 00:53:05,150
+but like original manager was
+really, really bad. And like
+
+769
+00:53:05,150 --> 00:53:08,780
+that, that's sort of the thing
+with. What have you said about
+
+770
+00:53:08,780 --> 00:53:12,440
+like a home Depot? I had net
+positive experience working
+
+771
+00:53:12,440 --> 00:53:16,340
+there, partly because I did
+coworker and I ended up talking
+
+772
+00:53:16,340 --> 00:53:20,510
+to HR about situation and they
+were able to remedy it for her,
+
+773
+00:53:20,900 --> 00:53:24,679
+but not for me because straight
+up part of it, I was like, well,
+
+774
+00:53:25,400 --> 00:53:28,820
+I don't think this job is right
+for me. Like, if I had a
+
+775
+00:53:28,820 --> 00:53:32,750
+different manager, um, But I
+think my experience would have
+
+776
+00:53:32,750 --> 00:53:34,760
+been totally different and I
+probably would've stayed longer
+
+777
+00:53:34,760 --> 00:53:40,219
+than like eight months. I'd had a
+better, a better manager that I
+
+778
+00:53:40,219 --> 00:53:44,179
+know did exist there, you know?
+So
+
+779
+00:53:45,168 --> 00:53:45,679
+Dan: Oh, on.
+
+780
+00:53:45,769 --> 00:53:52,550
+Jennifer: really, I feel like it
+can help. It can potentially get
+
+781
+00:53:52,550 --> 00:53:58,340
+you away from like really bad
+situations, but not a guarantee.
+
+782
+00:54:00,375 --> 00:54:05,655
+Which sucks, it did help. Like
+one of, uh, one of my really good
+
+783
+00:54:05,655 --> 00:54:11,235
+friends works at Splice we talked
+a lot before I even applied. And
+
+784
+00:54:11,235 --> 00:54:13,844
+she was like, oh yeah, like
+here's the crappy shit that's
+
+785
+00:54:13,844 --> 00:54:17,175
+going on. Or that has gone on,
+you know, is going on. And I was
+
+786
+00:54:17,175 --> 00:54:22,994
+like, oh, that all actually
+sounds fine to me. none of those
+
+787
+00:54:22,994 --> 00:54:28,730
+are deal breakers. I'm, I'm good.
+I'll apply. That sounds great.
+
+788
+00:54:30,650 --> 00:54:32,239
+Sounds so much better than now.
+
+789
+00:54:33,929 --> 00:54:35,849
+Dan: I'm trying to think. I don't
+even know. Are there any other
+
+790
+00:54:35,849 --> 00:54:38,039
+hot buttons can push or
+
+791
+00:54:38,041 --> 00:54:43,175
+Jennifer: One take I'm planning
+on writing on my blog is that
+
+792
+00:54:43,235 --> 00:54:46,476
+may, which I think getting to be
+less and less of a hot take.
+
+793
+00:54:47,766 --> 00:54:53,465
+Good. Um, is that being a
+full-stack developer is bullshit.
+
+794
+00:54:54,155 --> 00:54:58,385
+one, no one is truly a hundred
+percent full stack because it is
+
+795
+00:54:58,596 --> 00:55:03,096
+fricking impossible because it is
+hard enough to keep up with all
+
+796
+00:55:03,096 --> 00:55:07,476
+of the front end things only. And
+it's hard enough to keep, uh, to
+
+797
+00:55:07,476 --> 00:55:12,065
+fully learn a backend language,
+to get to the point where you're
+
+798
+00:55:12,166 --> 00:55:17,391
+end optimizing your database,
+every, like it's hard enough to
+
+799
+00:55:17,690 --> 00:55:23,360
+really gain any sort of expertise
+either side and anyone who says
+
+800
+00:55:23,360 --> 00:55:26,181
+they're a full-stack developer,
+I'm sort of like, Hmm. But what's
+
+801
+00:55:26,181 --> 00:55:28,490
+your favorite because that's what
+you're actually good at. And the
+
+802
+00:55:28,490 --> 00:55:30,320
+other thing is just the thing
+you're sort of forced to do. And
+
+803
+00:55:30,320 --> 00:55:33,471
+you're probably not doing very
+well. I say that as someone who
+
+804
+00:55:33,471 --> 00:55:38,391
+has been a full stack developer
+and has been poorly doing HTML
+
+805
+00:55:38,391 --> 00:55:43,295
+and CSS forever Script probably
+fine. Like I've had to do it for
+
+806
+00:55:43,295 --> 00:55:47,885
+long enough that I I'm fine at
+it, but put me on like some real
+
+807
+00:55:47,885 --> 00:55:55,056
+like front end front end. And I'm
+like, where's bootstrap. Oh, I
+
+808
+00:55:55,056 --> 00:56:00,335
+have to make a change to
+bootstrap. lets not. just, let's
+
+809
+00:56:00,335 --> 00:56:02,706
+just make this super bootstrappy
+and then we're good.
+
+810
+00:56:03,980 --> 00:56:07,429
+Dan: Uh, as somebody who's been
+like actual front-end
+
+811
+00:56:07,429 --> 00:56:10,519
+concentration for a very, very
+long time. I absolutely agree
+
+812
+00:56:10,519 --> 00:56:13,489
+with you back end stuff. is hard
+to, and it's like hard. It's hard
+
+813
+00:56:13,489 --> 00:56:16,880
+to do it well, and there's,
+there's so many I don't know I'm
+
+814
+00:56:16,880 --> 00:56:18,860
+with ya. I'm with you on it. If
+you need a pull quote or
+
+815
+00:56:18,860 --> 00:56:19,219
+something
+
+816
+00:56:21,260 --> 00:56:21,380
+Bekah: Okay
+
+817
+00:56:21,505 --> 00:56:25,045
+Jennifer: maybe I'll ask for some
+quotes. That'll be fun. I'll ask
+
+818
+00:56:25,076 --> 00:56:27,536
+all of us. That is a question.
+And in Virtual Coffee, who wants
+
+819
+00:56:27,536 --> 00:56:32,364
+to give me their hot takes on why
+being full stack is not, is real
+
+820
+00:56:32,740 --> 00:56:35,981
+Bekah: what I think it's so hard.
+a lot of like full stack bootcamp
+
+821
+00:56:35,981 --> 00:56:40,001
+programs out there. then there
+are people coming out of those
+
+822
+00:56:40,001 --> 00:56:48,365
+boot camps, looking for full
+stack jobs. I just. Struggle with
+
+823
+00:56:48,396 --> 00:56:54,666
+that path because your learning
+and just come out of a big
+
+824
+00:56:54,695 --> 00:57:01,416
+learning experience, but it makes
+more sense to to be able to focus
+
+825
+00:57:01,416 --> 00:57:07,626
+on one aspect and understand the
+other for sure, but to really
+
+826
+00:57:07,626 --> 00:57:11,994
+dive deep into that. So you can,
+so you can level up and get to a
+
+827
+00:57:11,994 --> 00:57:13,175
+mid level position
+
+828
+00:57:14,170 --> 00:57:18,215
+Jennifer: Yeah, I totally agree.
+And I think the. Like what's
+
+829
+00:57:18,215 --> 00:57:23,525
+really pushing This is companies
+who want just one developer who
+
+830
+00:57:23,706 --> 00:57:27,666
+does their front end, their
+backend and their operations. you
+
+831
+00:57:27,666 --> 00:57:28,775
+know, you should know
+
+832
+00:57:30,641 --> 00:57:30,831
+Dan: okay.
+
+833
+00:57:31,235 --> 00:57:35,646
+Jennifer: I'm just going to go
+with, you know, rails, Ruby. Uh,
+
+834
+00:57:35,766 --> 00:57:41,135
+PostGrest AWS. I'm probably
+probably missing a couple, you
+
+835
+00:57:41,135 --> 00:57:44,300
+know, probably a Reddis, you
+know, gotta toss in Reddis just
+
+836
+00:57:44,300 --> 00:57:46,101
+for good, good measure or
+something
+
+837
+00:57:46,125 --> 00:57:48,344
+Dan: my pet Webpack or whatever,
+whatever. Well, I guess if you're
+
+838
+00:57:48,344 --> 00:57:51,465
+in grab, you can use whatever
+ridiculous nonsense of rails
+
+839
+00:57:51,465 --> 00:57:52,505
+does, but, uh
+
+840
+00:57:52,505 --> 00:57:53,025
+Jennifer: Hotwire now
+
+841
+00:57:53,925 --> 00:57:56,146
+Dan: yeah. Hotwire
+
+842
+00:57:56,166 --> 00:57:58,195
+Bekah: no more no more React
+
+843
+00:57:58,195 --> 00:58:00,284
+Dan: it's so funny cause it's
+like how it always used to be and
+
+844
+00:58:00,284 --> 00:58:02,985
+then it wasn't and then it was,
+and you know, it's like, there's
+
+845
+00:58:02,985 --> 00:58:06,364
+this golden age where. You know
+where there were really just
+
+846
+00:58:06,364 --> 00:58:08,885
+backing in front of developers,
+you know, cause it front and got
+
+847
+00:58:08,885 --> 00:58:12,375
+complicated enough. Backend was
+harder than that. It's just,
+
+848
+00:58:13,235 --> 00:58:15,965
+Jennifer: I think always been
+complicated enough. I say that as
+
+849
+00:58:15,965 --> 00:58:19,056
+someone who was like, you know,
+messing around with my angel,
+
+850
+00:58:19,056 --> 00:58:21,626
+FireSIGHT when I was 13 and, you
+know, trying to get scrolling
+
+851
+00:58:21,626 --> 00:58:25,175
+text, I wasn't that great at it
+then. And to be honest, I really
+
+852
+00:58:25,175 --> 00:58:26,405
+haven't improved that much.
+
+853
+00:58:27,295 --> 00:58:29,844
+Dan: yeah, no, it just keeps
+getting more complicated.
+
+854
+00:58:29,844 --> 00:58:30,896
+Jennifer: I can get solid
+scrolling text going by but
+
+855
+00:58:30,896 --> 00:58:31,286
+That's about it.
+
+856
+00:58:32,304 --> 00:58:32,485
+Dan: Dope.
+
+857
+00:58:33,545 --> 00:58:36,815
+Jennifer: My personal built in
+Squarespace because you know
+
+858
+00:58:37,275 --> 00:58:38,525
+don't have time for that shit.
+
+859
+00:58:39,875 --> 00:58:41,614
+Dan: That's what somebody was
+just asking about that on, on,
+
+860
+00:58:41,644 --> 00:58:43,445
+um, on Virtual Coffee, I think
+
+861
+00:58:43,780 --> 00:58:44,260
+Jennifer: Oh, really?
+
+862
+00:58:44,405 --> 00:58:46,625
+Dan: it's okay. Like their
+backend developer there, it was
+
+863
+00:58:46,625 --> 00:58:50,675
+like a Ruby developer maybe or
+something and, um, yeah. And they
+
+864
+00:58:50,675 --> 00:58:52,894
+were just like, is it okay if I
+don't, if I use a template or
+
+865
+00:58:52,894 --> 00:58:56,054
+whatever, you know? Um, yeah. I
+mean, my answer was emphatically
+
+866
+00:58:56,074 --> 00:58:56,764
+Yes. Like,
+
+867
+00:58:56,940 --> 00:58:57,210
+Jennifer: Yeah.
+
+868
+00:58:57,670 --> 00:58:59,835
+Bekah: a front end developer. I
+use a template.
+
+869
+00:59:00,280 --> 00:59:02,710
+Dan: Yeah. I mean, whatever
+
+870
+00:59:04,139 --> 00:59:07,501
+Bekah: It decreases the barrier
+to entry for me. Like I will sit
+
+871
+00:59:07,501 --> 00:59:11,429
+there and trying to design, I'm
+not a designer. Right. Or like
+
+872
+00:59:11,429 --> 00:59:14,400
+get all of the things Right. It's
+just, it's too much work to have
+
+873
+00:59:14,400 --> 00:59:18,510
+to think about that and, figuring
+out all of the things. So
+
+874
+00:59:19,869 --> 00:59:20,170
+Dan: Yep.
+
+875
+00:59:20,311 --> 00:59:23,311
+Bekah: somebody has already done
+it. They have done it well, it
+
+876
+00:59:23,311 --> 00:59:24,619
+cost $37
+
+877
+00:59:24,920 --> 00:59:25,130
+Jennifer: Yep.
+
+878
+00:59:25,670 --> 00:59:28,309
+Dan: hard to work on your own
+stuff too spend time on it.
+
+879
+00:59:29,565 --> 00:59:32,806
+Bekah: Well, I think that's an
+excellent hot take to end on. So
+
+880
+00:59:32,835 --> 00:59:36,795
+thank you so much, Jennifer, for
+being here and giving us all of
+
+881
+00:59:36,795 --> 00:59:40,485
+your hot takes and sharing with
+us, your journey. this is really
+
+882
+00:59:40,485 --> 00:59:42,585
+a really great and a lot of fun.
+So thank you.
+
+883
+00:59:43,275 --> 00:59:46,344
+Jennifer: You're Welcome. I'm
+always here for hot takes. Anyone
+
+884
+00:59:46,346 --> 00:59:49,385
+can hit me up in Virtual Coffee
+for the hot take of the day.
+
+885
+00:59:50,135 --> 00:59:52,715
+Bekah: Oh yes. We need hot take
+of day
+
+886
+00:59:53,896 --> 00:59:54,635
+Jennifer: We should
+
+887
+00:59:55,085 --> 00:59:58,190
+Dan: imagining like a lightening
+talks except hot take lightening
+
+888
+00:59:58,190 --> 00:59:59,916
+Bekah: Oh Oh, well, if we're
+going to do
+
+889
+00:59:59,971 --> 01:00:03,099
+Jennifer: That should be of the
+weekly reminders. What's take
+
+890
+01:00:03,889 --> 01:00:04,670
+Dan: Ooh, I like it.
+
+891
+01:00:04,905 --> 01:00:08,675
+Bekah: well, we need a slack bot.
+All right.
+
+892
+01:00:09,170 --> 01:00:11,840
+Dan: Oh man. Yes. I'll add my,
+thanks to this. This was really
+
+893
+01:00:11,840 --> 01:00:14,630
+great. I appreciate your time and
+appreciate you coming on.
+
+894
+01:00:15,596 --> 01:00:16,916
+Bekah: All right, we'll see you
+soon. Bye.
+
+895
+01:00:21,387 --> 01:00:23,697
+Dan: Thank you for listening to
+this episode of the Virtual
+
+896
+01:00:23,697 --> 01:00:27,217
+Coffee Podcast. This episode was
+produced by Dan Ott and Bekah
+
+897
+01:00:27,237 --> 01:00:30,398
+Hawrot Weigel, and was edited by
+Andy Bonjour at GoodDay
+
+898
+01:00:30,418 --> 01:00:33,208
+Communications. If you have
+questions or comments, you can
+
+899
+01:00:33,208 --> 01:00:36,447
+hit us up on Twitter at
+VirtualCoffeeIO or email us at
+
+900
+01:00:36,447 --> 01:00:41,307
+podcast@virtualcoffee.io. You can
+find the show notes, sign up for
+
+901
+01:00:41,307 --> 01:00:43,648
+our newsletter, check out any of
+our other resources on our
+
+902
+01:00:43,648 --> 01:00:48,117
+website at virtualcoffee.io. And
+of course join us for our Virtual
+
+903
+01:00:48,117 --> 01:00:50,967
+Coffee Chats every Tuesday at
+9:00 am Eastern and Thursday at
+
+904
+01:00:50,967 --> 01:00:54,563
+12:00 pm Eastern Please subscribe
+to our podcast and be sure to
+
+905
+01:00:54,563 --> 01:00:57,623
+leave us a review. Thanks for
+listening and we'll see you next
+
+906
+01:00:57,623 --> 01:00:57,954
+week!

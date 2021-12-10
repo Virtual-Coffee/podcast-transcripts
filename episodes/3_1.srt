@@ -1,0 +1,5566 @@
+1
+00:00:10,599 --> 00:00:15,970
+Bekah: Hello, and welcome back to
+the Virtual Coffee Podcast. I'm
+
+2
+00:00:15,970 --> 00:00:19,149
+Bekah. And this is a podcast that
+features members of the Virtual
+
+3
+00:00:19,149 --> 00:00:22,420
+Coffee community. Virtual Coffee
+is an intimate group of
+
+4
+00:00:22,420 --> 00:00:25,480
+developers at all stages of their
+coding journey. And they're here
+
+5
+00:00:25,480 --> 00:00:27,910
+on this podcast, sharing their
+stories. And what they've
+
+6
+00:00:27,910 --> 00:00:31,100
+learned. Here with me today is my
+cohost, Dan.
+
+7
+00:00:31,730 --> 00:00:36,024
+Dan: Hey, Bekah. Um, season
+three, that's exciting. We had a
+
+8
+00:00:36,024 --> 00:00:40,765
+really great season two. We heard
+from all sorts of people. Yeah.
+
+9
+00:00:40,765 --> 00:00:43,914
+We had a lot of great
+conversations. Um, in the last
+
+10
+00:00:43,914 --> 00:00:46,375
+season, you know, we talked a lot
+about finding your voice and
+
+11
+00:00:46,424 --> 00:00:49,604
+building confidence as a
+developer. And I heard a lot of
+
+12
+00:00:49,634 --> 00:00:53,575
+great stories from different
+people and it was a blast. And we
+
+13
+00:00:53,575 --> 00:00:57,054
+are pumped to be back for season
+three with some great episodes
+
+14
+00:00:57,426 --> 00:01:00,695
+Bekah: I am very excited to be
+back too. And I thought would be
+
+15
+00:01:00,771 --> 00:01:01,371
+Dan: We're pumped,
+
+16
+00:01:01,896 --> 00:01:09,506
+Bekah: Okay. I am excited and you
+are pumped. Okay.
+
+17
+00:01:11,090 --> 00:01:11,930
+Dan: very pumped.
+
+18
+00:01:17,215 --> 00:01:21,117
+Bekah: Very excited. As we move
+into season three of the podcast,
+
+19
+00:01:21,117 --> 00:01:24,268
+I thought it would be fun to talk
+a little bit about what we've
+
+20
+00:01:24,268 --> 00:01:29,037
+learned as podcast co-hosts. I
+think we can talk about all of
+
+21
+00:01:29,037 --> 00:01:29,608
+the seasons
+
+22
+00:01:30,337 --> 00:01:35,528
+Dan: Yeah. Yeah. I mean, well, w
+when did our first episode air in
+
+23
+00:01:35,528 --> 00:01:37,897
+January, something like that. So
+it's been half a year or
+
+24
+00:01:37,897 --> 00:01:43,587
+whatever. Um, I've I've learned a
+lot. I've learned a ton from the
+
+25
+00:01:43,828 --> 00:01:49,677
+technical perspective. Um, you
+know, producing this, you know,
+
+26
+00:01:49,677 --> 00:01:53,668
+with, with you is, has been, I
+don't just like the new thing to
+
+27
+00:01:53,668 --> 00:01:58,677
+learn every, every week. Uh, it
+seems like, um, and it's now I'm
+
+28
+00:01:58,677 --> 00:02:01,408
+at the point where I know all the
+things I don't know, you know
+
+29
+00:02:01,408 --> 00:02:07,707
+what I mean? Like, you know,
+sound quality stuff, editing, um,
+
+30
+00:02:07,737 --> 00:02:11,902
+things like that. I, I, uh, I've
+gotten. To the point where I can
+
+31
+00:02:11,902 --> 00:02:16,212
+do it, you know what I mean? And
+so now it's like, now I know all
+
+32
+00:02:16,233 --> 00:02:18,802
+the things I don't know, or at
+least I know that there are a lot
+
+33
+00:02:18,802 --> 00:02:21,383
+of things. I don't know, you know
+what I mean? Um, but it's been
+
+34
+00:02:21,383 --> 00:02:23,752
+fun. I feel like I've been, I've
+been at least from the technical
+
+35
+00:02:23,752 --> 00:02:26,782
+standpoint of, you know, podcast
+stuff. Um, kind of getting my
+
+36
+00:02:26,782 --> 00:02:30,622
+feet under me. Um, so that part's
+been cool
+
+37
+00:02:30,622 --> 00:02:33,957
+Bekah: I can start the intros
+without laughing all the time.
+
+38
+00:02:35,032 --> 00:02:35,182
+Dan: Yeah,
+
+39
+00:02:35,187 --> 00:02:36,027
+Bekah: Most of the time.
+
+40
+00:02:36,402 --> 00:02:40,723
+Dan: I feel like we we've been
+using Zencaster and they released
+
+41
+00:02:40,723 --> 00:02:43,782
+a new version of their software,
+which was pretty cool, which we
+
+42
+00:02:43,782 --> 00:02:46,962
+enjoyed a lot. Um, and they have
+a countdown thing now. So when
+
+43
+00:02:46,962 --> 00:02:49,423
+you hit this, you, when you hit
+start record, there's a little
+
+44
+00:02:49,483 --> 00:02:52,663
+countdown. And I feel like that
+almost helps us, you know, cause
+
+45
+00:02:52,663 --> 00:02:56,353
+you, I dunno. I feel like that
+was where we get tripped up is
+
+46
+00:02:56,353 --> 00:02:58,693
+cause it hit record and then
+there'd be some pause and nobody
+
+47
+00:02:58,693 --> 00:03:00,793
+knows if they're supposed to talk
+or not. You know? So it's a
+
+48
+00:03:00,793 --> 00:03:02,862
+small, small touch. I feel like
+that has helped us.
+
+49
+00:03:03,323 --> 00:03:05,332
+Bekah: Yeah, well, I think
+getting more comfortable to, you
+
+50
+00:03:05,332 --> 00:03:08,483
+know, in the beginning, it was
+just, it's different being
+
+51
+00:03:08,633 --> 00:03:13,612
+interviewed for on a podcast than
+interviewing other people,
+
+52
+00:03:13,643 --> 00:03:18,742
+because you have a different role
+as a host and you're there to try
+
+53
+00:03:18,742 --> 00:03:21,473
+and tell the story. And I think
+it took a little while for me to
+
+54
+00:03:21,473 --> 00:03:24,712
+kind of wrap my head around that
+and maybe going into season
+
+55
+00:03:24,712 --> 00:03:29,663
+three, I feel like I've got a
+better grasp on storytelling as a
+
+56
+00:03:29,663 --> 00:03:33,913
+podcast. Rather than like, okay,
+I have this list of questions and
+
+57
+00:03:33,913 --> 00:03:37,152
+we have to hit all the questions.
+Like we have some backup
+
+58
+00:03:37,152 --> 00:03:41,772
+questions, but where is the
+conversation going and how can we
+
+59
+00:03:41,983 --> 00:03:45,673
+keep that up and tell the story
+of the person on the show and
+
+60
+00:03:45,913 --> 00:03:49,752
+think about what, what would
+benefit anyone who's listening to
+
+61
+00:03:49,752 --> 00:03:50,393
+the podcast?
+
+62
+00:03:51,617 --> 00:03:56,027
+Dan: Absolutely. Yeah. From the,
+from the host point of view, I
+
+63
+00:03:56,027 --> 00:03:59,622
+have, uh, I don't know, I felt
+like I've, I've tried to learn a
+
+64
+00:03:59,622 --> 00:04:02,143
+lot too, and I'm at the same
+point where it's like, okay, now
+
+65
+00:04:02,143 --> 00:04:04,782
+I can see the things, you know,
+that I don't quite do well or
+
+66
+00:04:04,782 --> 00:04:09,793
+that I, you know, think I can
+improve on. Um, and you know,
+
+67
+00:04:10,002 --> 00:04:12,252
+some of them it's clear how to
+fix and some of them, some of
+
+68
+00:04:12,252 --> 00:04:14,592
+them, it's not always, but, uh,
+it's, I don't know. It's a
+
+69
+00:04:14,592 --> 00:04:18,583
+journey and, um, it's, it's been
+fun. It's been, and it's also, I
+
+70
+00:04:18,583 --> 00:04:22,333
+mean, everybody that we talk to
+are people that we like and are
+
+71
+00:04:22,362 --> 00:04:25,663
+part of our community and, you
+know, they're friends, some of
+
+72
+00:04:25,663 --> 00:04:28,572
+them close friends, some of them,
+you know, new friends, um, for
+
+73
+00:04:28,572 --> 00:04:31,692
+me. And, uh, it's been just a
+blast to be able to talk to
+
+74
+00:04:32,083 --> 00:04:35,593
+everybody and learn more about
+them personally, too, and hearing
+
+75
+00:04:35,612 --> 00:04:40,942
+everybody's origin stories and,
+um, crazy, uh, boat plane
+
+76
+00:04:41,793 --> 00:04:46,622
+training incidents and, uh, you
+know, just hearing more about
+
+77
+00:04:46,653 --> 00:04:51,062
+from, you know, from people's
+lives. Um, it's one of the things
+
+78
+00:04:51,062 --> 00:04:54,153
+that I like and that I like about
+the, um, in our, in a Virtual
+
+79
+00:04:54,153 --> 00:04:57,023
+Coffee, is when these
+conversations get off track and
+
+80
+00:04:57,052 --> 00:05:01,762
+not off track, but, uh, get
+whatever, you know, that don't
+
+81
+00:05:01,762 --> 00:05:05,153
+have a track. Right. Um, like you
+were saying. And, um, I feel like
+
+82
+00:05:05,153 --> 00:05:07,452
+those always ended up being the
+most valuable conversation. So
+
+83
+00:05:07,927 --> 00:05:08,737
+Bekah: Yeah, I love it.
+
+84
+00:05:08,973 --> 00:05:10,452
+Dan: And it's been cool trying to
+apply it here.
+
+85
+00:05:12,463 --> 00:05:16,153
+Bekah: I love chasing a tangent.
+It's a good time. And usually
+
+86
+00:05:16,153 --> 00:05:17,862
+come out with something
+interesting, at least.
+
+87
+00:05:18,312 --> 00:05:20,353
+Dan: Yes. Yeah, absolutely.
+
+88
+00:05:21,473 --> 00:05:25,072
+Bekah: And it has been fun. You
+know, getting to know people a
+
+89
+00:05:25,072 --> 00:05:28,403
+lot better and to learn about
+their lives and the things that
+
+90
+00:05:28,403 --> 00:05:33,142
+they've gone through. It's really
+been great for me. Like you said,
+
+91
+00:05:33,173 --> 00:05:36,627
+there, there are things that you
+take away from. Every episode and
+
+92
+00:05:36,627 --> 00:05:40,918
+every person that we talked to.
+And I just love that after we're
+
+93
+00:05:40,918 --> 00:05:46,228
+done recording a podcast for
+every season where we've recorded
+
+94
+00:05:46,257 --> 00:05:51,117
+almost all of the third season,
+but there's always been something
+
+95
+00:05:51,117 --> 00:05:54,478
+in every episode that I've taken
+away and just thought about for
+
+96
+00:05:54,478 --> 00:05:58,048
+the rest of the week. And it's
+really helped to inform the way
+
+97
+00:05:58,048 --> 00:06:00,778
+that I've done things and the
+approaches I take. So it's been
+
+98
+00:06:00,778 --> 00:06:04,237
+great to be able to have that
+live learning experience.
+
+99
+00:06:05,398 --> 00:06:10,752
+Dan: Yeah, I agree. And they, uh,
+it's just been like little tiny
+
+100
+00:06:10,752 --> 00:06:15,103
+breakout rooms with just you and
+me and one other person. Um, and,
+
+101
+00:06:15,973 --> 00:06:19,012
+uh, it's, it's been really very
+cool, very cool experience. And
+
+102
+00:06:19,023 --> 00:06:20,382
+I'm excited about season three.
+
+103
+00:06:21,612 --> 00:06:24,372
+Bekah: Yeah, we're really excited
+to be sharing this season with
+
+104
+00:06:24,372 --> 00:06:27,492
+you all too. Um, we're going to
+be talking about recognizing your
+
+105
+00:06:27,492 --> 00:06:32,502
+potential, navigating interviews,
+overcoming career stagnation, how
+
+106
+00:06:32,502 --> 00:06:35,653
+to do a proper Tim Tam Slam, and
+a lot more.
+
+107
+00:06:36,937 --> 00:06:40,358
+Dan: That's right. So kicking off
+season three, episode one, we
+
+108
+00:06:40,358 --> 00:06:43,918
+have Jono Yeong. Jono is a senior
+software engineer. He's
+
+109
+00:06:43,918 --> 00:06:47,487
+originally from Australia. I is
+currently based in Seattle, um,
+
+110
+00:06:47,608 --> 00:06:51,822
+USA. And he. Okay. So he's
+primarily a backend developer,
+
+111
+00:06:51,822 --> 00:06:54,673
+but is enjoying re-entering the
+crazy world of front end
+
+112
+00:06:54,673 --> 00:06:58,423
+development. He loves giving back
+to communities and empowering
+
+113
+00:06:58,423 --> 00:07:01,963
+others on their developer
+journeys and, um, without such a
+
+114
+00:07:01,963 --> 00:07:06,793
+supportive community, he wouldn't
+be where he is today. Uh, and he
+
+115
+00:07:06,793 --> 00:07:11,543
+says, hashbrowns are his guilty
+pleasure food. Um, and so, yes,
+
+116
+00:07:11,543 --> 00:07:13,872
+so today he'll be talking to us
+about, digital gardening,
+
+117
+00:07:13,923 --> 00:07:17,512
+learning elixir, and how to do a
+proper Tim Tam Slam.
+
+118
+00:07:19,517 --> 00:07:21,918
+Bekah: We start every episode of
+the podcast. Like we start every
+
+119
+00:07:21,918 --> 00:07:24,918
+Virtual Coffee. We introduce
+ourselves with our name where
+
+120
+00:07:24,918 --> 00:07:29,088
+we're from, what we do and a
+random check-in question. Today's
+
+121
+00:07:29,088 --> 00:07:33,978
+random check-in question is if
+you could have one person narrate
+
+122
+00:07:33,978 --> 00:07:45,093
+your life, who would it be? Hey,
+I'm Bekah. I'm a front end
+
+123
+00:07:45,093 --> 00:07:51,454
+developer from a small town in
+Ohio. And I am going to change
+
+124
+00:07:51,454 --> 00:07:57,848
+the question a little bit, cause
+I feel like it. I am. I decided I
+
+125
+00:07:57,848 --> 00:08:02,889
+didn't want a narrator, I wanted
+a musical background and I would
+
+126
+00:08:02,949 --> 00:08:07,569
+just like to choose everyone that
+sing in Frozen 2 musical
+
+127
+00:08:07,569 --> 00:08:13,689
+background to just sing my life
+story for me, because that seemed
+
+128
+00:08:14,559 --> 00:08:15,158
+more fun.
+
+129
+00:08:16,744 --> 00:08:21,244
+Dan: Sure. That would be cool. So
+is. It makes me think of Monty
+
+130
+00:08:21,244 --> 00:08:25,283
+Python. Like the, uh, the, the
+guy, what is his name, Sir Robin?
+
+131
+00:08:25,283 --> 00:08:27,324
+you know, the guy following
+around Sir Robin: "so boldly
+
+132
+00:08:27,324 --> 00:08:30,863
+goes, Sir Bekah, she's doing
+something. I don't know. I can't
+
+133
+00:08:30,863 --> 00:08:33,833
+think of it, but like, yeah, I
+like that musical narration I can
+
+134
+00:08:33,984 --> 00:08:39,384
+get by that. Um, hi, I'm Dan. I
+do front-end development. Um, I'm
+
+135
+00:08:39,384 --> 00:08:44,349
+in Cleveland, Ohio, and if I had
+to pick a narrator. I was
+
+136
+00:08:44,349 --> 00:08:46,869
+thinking for a couple of minutes
+about this. And, uh, honestly,
+
+137
+00:08:46,928 --> 00:08:50,649
+Sean Connery is who I landed on.
+Um, I think it'd be pretty cool.
+
+138
+00:08:50,708 --> 00:08:53,528
+I, and I just listened to a
+podcast about, um, The Rock, the
+
+139
+00:08:53,528 --> 00:08:58,448
+movie and, um, w which of course
+he's, he's in it. And that made
+
+140
+00:08:58,448 --> 00:09:02,188
+me think, oh, man, what about
+Nick Cage narrating your life?
+
+141
+00:09:02,219 --> 00:09:06,808
+Which, um, would be, uh, would
+be, it could be pretty
+
+142
+00:09:06,808 --> 00:09:09,178
+interesting too. Um, I'm sticking
+with it. I'm sticking with, uh,
+
+143
+00:09:09,208 --> 00:09:12,774
+Sean Connery, but I, I. I would
+like to know what that would
+
+144
+00:09:12,774 --> 00:09:15,384
+sound like, Nick Cage just kind
+of narrating somebodies life in
+
+145
+00:09:15,384 --> 00:09:15,563
+their head.
+
+146
+00:09:17,943 --> 00:09:20,073
+Jono: I feel like that's like two
+very opposing voices
+
+147
+00:09:20,083 --> 00:09:22,453
+Dan: Right, right. Yeah. Right.
+Which is why that movie is so
+
+148
+00:09:22,453 --> 00:09:22,903
+good, you know?
+
+149
+00:09:23,283 --> 00:09:29,364
+Jono: Yeah. Oh, amazing. Um, hi,
+I'm Jonathan. Uh, I am a senior
+
+150
+00:09:29,364 --> 00:09:34,594
+developer at Shopify currently
+based in Seattle and jeez, Bekah
+
+151
+00:09:34,594 --> 00:09:37,583
+threw the curveball and with a
+musical number. I am not that
+
+152
+00:09:37,583 --> 00:09:41,964
+musical, so you're totally fine.
+Um, I, you know, I think I would
+
+153
+00:09:41,964 --> 00:09:45,624
+get a fictional character being
+Yoda potentially could get
+
+154
+00:09:45,624 --> 00:09:48,443
+annoying after a while, but, you
+know, I think there would be like
+
+155
+00:09:48,504 --> 00:09:53,183
+wisdom. Right there. And then a
+real person, Nick Offerman. I
+
+156
+00:09:53,183 --> 00:09:56,453
+just hope he laughs at some point
+during my life story. Just to get
+
+157
+00:09:56,453 --> 00:09:58,104
+that sound clipping
+
+158
+00:09:58,374 --> 00:10:02,583
+Dan: Yeah. Yeah. He's he has an
+excellent laugh, um, with the
+
+159
+00:10:02,583 --> 00:10:06,004
+Yoda. yeah, It be worth even. I'd
+be, I mean, it would be like
+
+160
+00:10:06,033 --> 00:10:11,599
+great, you know, um, sound wise.
+That Yoda would be, just be
+
+161
+00:10:11,599 --> 00:10:12,349
+judging me all the time.
+
+162
+00:10:13,214 --> 00:10:13,573
+Jono: yeah,
+
+163
+00:10:13,874 --> 00:10:15,943
+Bekah: I feel like you'd really
+have to pay attention. Like you
+
+164
+00:10:15,943 --> 00:10:18,224
+have to think. Cause he wouldn't
+straight forward narrate what
+
+165
+00:10:18,224 --> 00:10:22,754
+would happen? He would just be
+dropping Yoda wisdom about what
+
+166
+00:10:22,754 --> 00:10:23,354
+happened
+
+167
+00:10:23,908 --> 00:10:26,668
+Jono: Yeah, I think he'd make my
+life sound
+
+168
+00:10:26,744 --> 00:10:27,163
+Bekah: I don't know.
+
+169
+00:10:27,989 --> 00:10:28,379
+Jono: Yeah.
+
+170
+00:10:30,303 --> 00:10:35,778
+Bekah: I have enough of those
+already. Um, so welcome, Jono,
+
+171
+00:10:35,798 --> 00:10:38,879
+we're very happy to have you here
+on this third season of the
+
+172
+00:10:38,879 --> 00:10:44,668
+virtual PA Virtual Coffee podcast
+and doing an excellent job
+
+173
+00:10:44,668 --> 00:10:49,589
+already. Um, so we really like to
+start with a little bit of the
+
+174
+00:10:49,589 --> 00:10:54,089
+background, your origin story. So
+if you could give us your short
+
+175
+00:10:54,089 --> 00:10:58,038
+version of how you got to this
+point in your.
+
+176
+00:10:59,219 --> 00:11:03,389
+Jono: yeah. Um, I have a pretty
+boring or I guess standard
+
+177
+00:11:03,389 --> 00:11:06,938
+technical background. Um, so I
+did a four year degree at
+
+178
+00:11:06,938 --> 00:11:10,644
+university, um, interned at a
+company. Um, but during that
+
+179
+00:11:10,644 --> 00:11:15,583
+time, and then at the company, I
+was doing iOS work initially, um,
+
+180
+00:11:15,583 --> 00:11:18,134
+for a few months, and then they
+got me on a Ruby on Rails
+
+181
+00:11:18,134 --> 00:11:21,134
+project. And that's really when I
+really fell in love with web
+
+182
+00:11:21,134 --> 00:11:24,494
+development and decided to kind
+of pursue that route. So from
+
+183
+00:11:24,494 --> 00:11:28,094
+there went to kind of be another
+kind of Ruby on Rails shop in
+
+184
+00:11:28,094 --> 00:11:31,244
+Sydney. So I'm originally from
+Australia. Uh, and then I
+
+185
+00:11:31,244 --> 00:11:34,033
+actually moved to the States. Um,
+so working with Rails all the way
+
+186
+00:11:34,033 --> 00:11:37,453
+through and uh, yeah, now I'm in
+Seattle and now on Shopify.
+
+187
+00:11:39,438 --> 00:11:42,229
+Bekah: I don't feel like I could
+have you narrate my life, you and
+
+188
+00:11:42,229 --> 00:11:44,928
+Mike Rogers, like can we go back
+and forth between the two. It
+
+189
+00:11:44,928 --> 00:11:46,428
+would be a very happy time for
+me.
+
+190
+00:11:48,134 --> 00:11:49,124
+Jono: just so much happiness.
+
+191
+00:11:51,408 --> 00:11:55,668
+Bekah: Um, well that, that is
+awesome. And we are glad to have
+
+192
+00:11:55,668 --> 00:11:58,969
+you at Virtual Coffee. I don't
+remember when you joined Virtual
+
+193
+00:11:58,969 --> 00:11:59,958
+Coffee do you?
+
+194
+00:12:00,913 --> 00:12:05,864
+Jono: Um, I, I D I remember, I
+remember the circumstances. I was
+
+195
+00:12:05,864 --> 00:12:10,283
+in a Code Newbie chat. And I was
+talking about seeing Virtual
+
+196
+00:12:10,283 --> 00:12:12,984
+Coffee and I tweeted about it.
+They're like, Hey, this seems
+
+197
+00:12:12,984 --> 00:12:15,864
+like a really cool community. And
+then I think you mentioned, you
+
+198
+00:12:15,864 --> 00:12:19,474
+tweet at me saying like, Hey,
+come join at this time. And, and
+
+199
+00:12:19,583 --> 00:12:23,693
+let's yeah, I think it all kicked
+off and spent almost maybe like
+
+200
+00:12:23,693 --> 00:12:27,053
+six months, maybe more. I don't
+know. I can't, but it's time.
+
+201
+00:12:27,224 --> 00:12:27,524
+Bekah: Right.
+
+202
+00:12:28,864 --> 00:12:32,884
+Dan: Yeah. we were, we, we just,
+uh, recorded our podcast episode,
+
+203
+00:12:32,884 --> 00:12:35,528
+wrapping up, um, season two,
+right. We're talking about that
+
+204
+00:12:35,528 --> 00:12:37,778
+too. Like looking back on time.
+And I was just, I just kept
+
+205
+00:12:37,778 --> 00:12:41,408
+throwing out random numbers of
+months. Cause I literally, I have
+
+206
+00:12:41,408 --> 00:12:44,889
+no idea. I have no idea. It was,
+uh, you know, it was after the
+
+207
+00:12:44,889 --> 00:12:46,989
+pandemic started. I know that
+much. And then after that, I'm
+
+208
+00:12:46,989 --> 00:12:49,678
+just like, I don't know. It's all
+just a big cloud.
+
+209
+00:12:51,533 --> 00:12:55,943
+Bekah: Yeah. Um, so one of the
+things that I think would be cool
+
+210
+00:12:55,943 --> 00:13:01,494
+to talk about, I know you updated
+your site yesterday or sometime,
+
+211
+00:13:01,494 --> 00:13:03,683
+and it looks really awesome. So
+we'll post that in the show
+
+212
+00:13:03,683 --> 00:13:08,124
+notes, but you, um, there's this
+concept of digital gardening that
+
+213
+00:13:08,124 --> 00:13:11,994
+you talk about, and I think you
+practice, so I'd love to start
+
+214
+00:13:11,994 --> 00:13:16,793
+there. First of all, what is,
+what, what does that even mean?
+
+215
+00:13:16,823 --> 00:13:17,573
+Digital gardening.
+
+216
+00:13:18,313 --> 00:13:22,484
+Jono: Yeah. Um, so digital
+gardening is really about
+
+217
+00:13:22,634 --> 00:13:27,673
+curating your posts. Like you
+don't need to have fully formed
+
+218
+00:13:27,734 --> 00:13:32,918
+or finished. Um, written work.
+It's, it's really about having a
+
+219
+00:13:32,918 --> 00:13:37,869
+thought and then building on that
+thought over time. Um, and it's
+
+220
+00:13:38,019 --> 00:13:42,038
+kind of the opposite of a blog,
+which is almost like a feed with
+
+221
+00:13:42,068 --> 00:13:45,068
+that sorted in chronological
+order. Um, so with your digital
+
+222
+00:13:45,068 --> 00:13:47,469
+garden, you kind of pick and
+choose what you want to present
+
+223
+00:13:47,469 --> 00:13:51,448
+up front. And it's really about
+that curation. Um, I definitely.
+
+224
+00:13:51,693 --> 00:13:54,754
+Got heavily inspired by Maggie
+Appleton. So definitely go check
+
+225
+00:13:54,754 --> 00:13:59,283
+out her blog as well, which is
+also a digital garden. Um, her
+
+226
+00:13:59,403 --> 00:14:01,533
+artwork is beautiful and she
+explains it really well over
+
+227
+00:14:01,533 --> 00:14:01,774
+there.
+
+228
+00:14:03,989 --> 00:14:06,389
+Dan: Yeah. I've seen a couple
+other examples like that and
+
+229
+00:14:06,489 --> 00:14:09,048
+Maggie Appleton site that is the
+first one I, I think I saw too,
+
+230
+00:14:09,099 --> 00:14:11,798
+um, they don't let it out of this
+whole concept. I think that's
+
+231
+00:14:11,798 --> 00:14:16,323
+really cool. So do you, um, And
+this is something I've been sort
+
+232
+00:14:16,323 --> 00:14:18,484
+of interested in for a while too,
+but, um, haven't really, you
+
+233
+00:14:18,484 --> 00:14:23,014
+know, my blog is old and I don't
+update it that often. Um, but it
+
+234
+00:14:23,014 --> 00:14:26,494
+is still like old, you know, that
+regular style. Um, so when you're
+
+235
+00:14:26,494 --> 00:14:30,274
+doing like the curation process,
+right, for older posts, do you
+
+236
+00:14:30,274 --> 00:14:34,604
+just re like remove them or what,
+like, or do you tuck them away
+
+237
+00:14:34,604 --> 00:14:37,153
+somewhere or, uh, you know, like,
+can you explain a little more
+
+238
+00:14:37,153 --> 00:14:39,614
+about how you handle like that
+sort of stuff that maybe isn't
+
+239
+00:14:39,614 --> 00:14:42,364
+super relevant anymore, but, you
+did write it, you know, five
+
+240
+00:14:42,364 --> 00:14:43,203
+years ago or something.
+
+241
+00:14:43,303 --> 00:14:47,024
+Jono: Yeah. Yeah, absolutely. Um,
+so I think the curation in my
+
+242
+00:14:47,024 --> 00:14:50,114
+mind, uh, yes, to some posts
+going away. So I actually removed
+
+243
+00:14:50,114 --> 00:14:53,533
+a bunch of posts that, um, when I
+was migrating over to this new
+
+244
+00:14:53,594 --> 00:14:59,379
+site redesign. And then also, um,
+being okay with putting a big
+
+245
+00:14:59,379 --> 00:15:03,129
+"work in progress" box. So it
+actually on the, uh, I have a
+
+246
+00:15:03,129 --> 00:15:07,839
+post about GitHub and Notion and
+notion this was pre Notions API,
+
+247
+00:15:07,839 --> 00:15:11,288
+and this was really just about
+how I organize our projects. Um,
+
+248
+00:15:11,349 --> 00:15:15,399
+but. Now that Notion has an API,
+it would make a lot of sense to
+
+249
+00:15:15,428 --> 00:15:17,889
+make something, wake it up and
+nurse, and actually talk to each
+
+250
+00:15:17,889 --> 00:15:20,859
+other. So I put it like a big
+alert and box saying like, Hey, I
+
+251
+00:15:20,859 --> 00:15:24,489
+am going to be working on this.
+Um, you expect things to change
+
+252
+00:15:24,948 --> 00:15:28,578
+Dan: So as you update that post
+and I did I read that post, I
+
+253
+00:15:28,589 --> 00:15:33,249
+really enjoyed it. Um, as you
+update it, plan is what will be
+
+254
+00:15:33,249 --> 00:15:36,849
+to literally update that post as
+opposed to doing a part two or
+
+255
+00:15:36,908 --> 00:15:39,818
+see this or whatever. Um, things
+like that.
+
+256
+00:15:40,379 --> 00:15:41,639
+Jono: Yeah, exactly.
+
+257
+00:15:42,668 --> 00:15:44,979
+Dan: That's, that's pretty
+interesting. And it is, and like
+
+258
+00:15:45,278 --> 00:15:50,094
+I have seen other people do it.
+It's it's, uh, There's the
+
+259
+00:15:50,094 --> 00:15:52,874
+question of like time with
+regards to technical content,
+
+260
+00:15:52,874 --> 00:15:55,153
+especially, it's always sort of
+interested in to try to handle,
+
+261
+00:15:55,214 --> 00:15:59,323
+right. And I have, um, one of my
+...and I mean, a lot of this is
+
+262
+00:15:59,323 --> 00:16:02,653
+because I don't write that often,
+but still one of the posts on my
+
+263
+00:16:02,653 --> 00:16:06,703
+site that gets the most traffic
+is, um, some old CSS like float
+
+264
+00:16:06,774 --> 00:16:09,104
+hack thing, you know? And it's
+still like, I mean, it still
+
+265
+00:16:09,104 --> 00:16:12,073
+works, but it's like, you know,
+not at all anything, I would tell
+
+266
+00:16:12,073 --> 00:16:17,594
+somebody to do now. You know what
+I mean? Um, and yeah. I've
+
+267
+00:16:17,594 --> 00:16:21,644
+thought about, I've thought about
+how to handle that or, um, so,
+
+268
+00:16:21,884 --> 00:16:25,274
+so, so if this was a digital
+garden, I suppose the answer
+
+269
+00:16:25,274 --> 00:16:29,624
+would be to, uh, well, either
+toss it and just point them back
+
+270
+00:16:29,624 --> 00:16:34,783
+to the main page. Right. Or just
+rewrite the whole article at that
+
+271
+00:16:34,783 --> 00:16:36,823
+same URL or something like that.
+
+272
+00:16:37,533 --> 00:16:40,354
+Jono: Yeah, I mean, you, um, I
+mean, you can keep that old posts
+
+273
+00:16:40,354 --> 00:16:42,693
+around, like it's, it's really
+your playground. You can really
+
+274
+00:16:42,693 --> 00:16:44,734
+do whatever you want with it. Um,
+there's no really hard and fast
+
+275
+00:16:44,734 --> 00:16:48,573
+rules. Um, I think like if you
+wanted to toss it or update it
+
+276
+00:16:48,573 --> 00:16:51,004
+and utility could, you could also
+write like, uh, a new update
+
+277
+00:16:51,004 --> 00:16:54,634
+paste. I think the key idea is
+really just not waiting for
+
+278
+00:16:54,634 --> 00:16:58,563
+perfect to publish. So you don't
+need to, you can just publish a
+
+279
+00:16:58,563 --> 00:17:02,599
+thought. And it will be okay. Um,
+and I think this reminds me of
+
+280
+00:17:02,599 --> 00:17:05,898
+someone in Virtual Coffee, maybe
+it was Vic, who just did a timer
+
+281
+00:17:05,959 --> 00:17:08,388
+and was like, I'm just gonna
+write what I can. And by the end
+
+282
+00:17:08,388 --> 00:17:10,699
+of the time, I'm just gonna
+publish this. I think that like,
+
+283
+00:17:10,729 --> 00:17:13,098
+feels like that digital garden
+essence to me,
+
+284
+00:17:13,288 --> 00:17:16,108
+Dan: Yeah, Vic has been doing a
+lot of that kind of stuff. And
+
+285
+00:17:16,288 --> 00:17:18,929
+he's been someone that I've
+admired his work with that too,
+
+286
+00:17:18,929 --> 00:17:22,348
+that the not perfect. The, uh,
+get, get it out the door kind of
+
+287
+00:17:22,378 --> 00:17:26,219
+get published. Um, thing has
+been, has been really cool. Um, I
+
+288
+00:17:26,219 --> 00:17:28,409
+would say inspirational. I don't
+know if you can be inspired if
+
+289
+00:17:28,409 --> 00:17:31,068
+you haven't actually gone and
+done it. I mean, I haven't
+
+290
+00:17:31,068 --> 00:17:35,148
+actually gone, um, done anything
+with it, but it is, uh, it is
+
+291
+00:17:35,148 --> 00:17:39,344
+cool to see. I do like that
+attitude, you know? Um,
+
+292
+00:17:40,513 --> 00:17:43,513
+Bekah: I mean, for me, the hard
+part would be going back and
+
+293
+00:17:43,544 --> 00:17:48,973
+updating things. Like I get them
+out and then I don't, this is, I
+
+294
+00:17:48,973 --> 00:17:52,094
+mean, I have a master's in
+English and it was the same
+
+295
+00:17:52,094 --> 00:17:56,848
+thing. Like I, I got excited. I
+wrote the paper and then. Like to
+
+296
+00:17:56,999 --> 00:18:04,048
+go back and edit was the worst.
+So I don't know, like how do you
+
+297
+00:18:04,138 --> 00:18:06,959
+motivate yourself to do that? Or
+are you like, well, I'm not
+
+298
+00:18:06,959 --> 00:18:10,798
+motivated. So then this isn't
+something that I need and you can
+
+299
+00:18:11,068 --> 00:18:14,759
+take it away or just say, like,
+this is a weed,
+
+300
+00:18:15,634 --> 00:18:18,364
+Jono: Yeah. Yeah. That's a great
+question. I think it's, it's
+
+301
+00:18:18,364 --> 00:18:21,548
+definitely going to be. A work in
+progress as in like, I'm still
+
+302
+00:18:21,548 --> 00:18:26,019
+trying to figure out that, um,
+process a little bit more. Um, I
+
+303
+00:18:26,019 --> 00:18:29,169
+know that when I was trying to
+write like a blog post every week
+
+304
+00:18:29,169 --> 00:18:30,848
+or every two weeks, and just
+trying to like push out a new
+
+305
+00:18:30,848 --> 00:18:34,739
+content, it became. Really hard.
+And I was in a bit of a rut.
+
+306
+00:18:34,769 --> 00:18:36,989
+Like, it just felt like I was
+going from deadline to deadline.
+
+307
+00:18:37,439 --> 00:18:41,818
+So like giving space to not need
+to write a new post every single
+
+308
+00:18:41,818 --> 00:18:45,419
+week, but be okay with like
+updating whole pace, mainly just
+
+309
+00:18:45,479 --> 00:18:47,939
+also I'm lazy. So like, it'd be
+nice if we could just tell you
+
+310
+00:18:47,939 --> 00:18:50,009
+something that's already rating
+and then just add a little bit to
+
+311
+00:18:50,009 --> 00:18:52,229
+it as, okay. So like writing a
+whole thing thing.
+
+312
+00:18:52,709 --> 00:18:57,673
+Dan: Yeah, I was. You know,
+speaking of doing that, you know,
+
+313
+00:18:57,673 --> 00:19:00,344
+lots of people will make a goal
+like that, of a blog post or
+
+314
+00:19:00,344 --> 00:19:03,284
+whatever. I think that, you know,
+thinking about it, it seems to me
+
+315
+00:19:03,284 --> 00:19:05,084
+like the most important part is
+actually just writing, like the
+
+316
+00:19:05,084 --> 00:19:10,453
+habit of writing and publishing
+something every week is, uh, you
+
+317
+00:19:10,453 --> 00:19:13,334
+know, sort of a straightforward
+goal right. To do. But I was
+
+318
+00:19:13,334 --> 00:19:16,334
+listening to podcasts, uh, maybe
+the indie hackers one a while
+
+319
+00:19:16,334 --> 00:19:19,423
+ago. And, uh, they're talking
+about, I don't remember who the
+
+320
+00:19:19,423 --> 00:19:22,003
+guest was, but he was talking
+about, um, like long form writing
+
+321
+00:19:22,034 --> 00:19:25,844
+instead of, um, instead of lots
+of lots. Posts, you know, one
+
+322
+00:19:25,844 --> 00:19:28,423
+post that takes them months to
+do, and it's long, you know, a
+
+323
+00:19:28,423 --> 00:19:31,034
+long read or whatever, but that
+they found it to be much more,
+
+324
+00:19:31,034 --> 00:19:35,384
+um, for himself like writing, uh,
+to be, to be much more enjoyable,
+
+325
+00:19:35,384 --> 00:19:38,473
+which I, which I've been
+interested in too recently. And I
+
+326
+00:19:38,473 --> 00:19:41,203
+th I feel like that could fit
+really well into the digital
+
+327
+00:19:41,203 --> 00:19:43,874
+garden model, because you could
+even do your drafts if you wanted
+
+328
+00:19:43,874 --> 00:19:49,483
+to, um, or parts or whatever, you
+know, and keep it going. Uh, like
+
+329
+00:19:49,483 --> 00:19:52,634
+that'd be kind of cool to see. It
+would be cool to see it like. To
+
+330
+00:19:53,023 --> 00:19:55,634
+like, watch it grow. You know, if
+we're going to keep down the,
+
+331
+00:19:55,634 --> 00:19:57,374
+the, like the metaphor, the
+garden metaphor.
+
+332
+00:19:57,798 --> 00:20:00,528
+Jono: Yeah, I really liked that
+point of, um, you know, doing
+
+333
+00:20:00,528 --> 00:20:04,729
+what you enjoy, because I think
+that is really the key to it all.
+
+334
+00:20:04,729 --> 00:20:07,338
+Like you could write deadlines,
+you could have deadlines and
+
+335
+00:20:07,338 --> 00:20:09,979
+write blog posts, but like, if
+there's no way or like, you're
+
+336
+00:20:09,979 --> 00:20:12,348
+just doing it because you have
+to, it's not that fun, then
+
+337
+00:20:12,348 --> 00:20:13,368
+you're not going to keep doing
+it.
+
+338
+00:20:13,874 --> 00:20:16,574
+Dan: Right, right. I mean, that's
+been my that's my, my personal
+
+339
+00:20:16,574 --> 00:20:21,763
+experiences a lot of times. Yeah.
+Things. And like, that's what,
+
+340
+00:20:21,794 --> 00:20:24,523
+that's one of the reasons why
+it's good to build habits, you
+
+341
+00:20:24,523 --> 00:20:29,173
+know, because the, sometimes it's
+just over, it's hard to sit down
+
+342
+00:20:29,173 --> 00:20:31,483
+and write, you know, but if it's
+like a thing you're used to
+
+343
+00:20:31,483 --> 00:20:37,288
+doing, then. Then that part is
+not hard anymore. And then it's
+
+344
+00:20:37,288 --> 00:20:40,199
+like, well then it's actually
+writing that you have to deal
+
+345
+00:20:40,199 --> 00:20:44,519
+with, but it's your mind makes it
+not as big of a deal. At least
+
+346
+00:20:44,519 --> 00:20:44,759
+for me.
+
+347
+00:20:45,733 --> 00:20:48,044
+Bekah: And I liked the point
+about like, writing what you
+
+348
+00:20:48,044 --> 00:20:50,923
+enjoy, because I also see a lot
+of people that are writing things
+
+349
+00:20:50,923 --> 00:20:54,223
+that they don't enjoy and they
+hate doing it, but they just keep
+
+350
+00:20:54,223 --> 00:20:56,743
+doing it. Cause they think that
+they need to do it, which just,
+
+351
+00:20:57,253 --> 00:21:02,144
+um, just sounds really miserable.
+So how do you find w okay, one,
+
+352
+00:21:02,173 --> 00:21:05,864
+what do you enjoy writing about,
+like, how do you go after that?
+
+353
+00:21:05,864 --> 00:21:06,493
+When you're writing.
+
+354
+00:21:07,594 --> 00:21:11,913
+Jono: Yeah. Um, man, that is a
+great question. So I've figured
+
+355
+00:21:11,913 --> 00:21:15,723
+out that I really don't enjoy
+writing tutorials. Um, they take
+
+356
+00:21:15,723 --> 00:21:21,574
+me a lot of time and I feel like
+I don't do it very well, so
+
+357
+00:21:21,784 --> 00:21:24,153
+there's that. Um, but I think
+like, what am I most enjoy is
+
+358
+00:21:24,153 --> 00:21:27,693
+really just exploring new tech
+and then just kind of getting
+
+359
+00:21:27,693 --> 00:21:31,979
+into like, How I align and what
+my process is. So I really like
+
+360
+00:21:31,979 --> 00:21:35,969
+writing about personal stuff as
+opposed to like technological
+
+361
+00:21:35,969 --> 00:21:36,298
+stuff.
+
+362
+00:21:38,884 --> 00:21:41,074
+Bekah: Do you think that you
+write, or would you say that.
+
+363
+00:21:41,503 --> 00:21:46,874
+Right, because you think you
+should be writing as a developer
+
+364
+00:21:46,874 --> 00:21:50,653
+just to kind of, um, extend
+yourself into the community or
+
+365
+00:21:50,653 --> 00:21:54,013
+it's just something that, that
+you want to.
+
+366
+00:21:55,398 --> 00:21:58,308
+Jono: yeah, it actually started
+off being like, oh, I should be
+
+367
+00:21:58,308 --> 00:22:00,769
+doing this. You know, I should be
+writing. You should have a blog,
+
+368
+00:22:00,798 --> 00:22:04,548
+just so you get the exposure and
+you can tweet about something.
+
+369
+00:22:04,969 --> 00:22:08,028
+Um, but it's kind of
+transitioning a bit more into
+
+370
+00:22:08,028 --> 00:22:10,848
+like, I'm trying to find the
+enjoyment out of writing and like
+
+371
+00:22:10,848 --> 00:22:15,138
+figuring out like why I like
+doing this and then realizing
+
+372
+00:22:15,138 --> 00:22:18,388
+that. Writing or getting better
+at writing and reading
+
+373
+00:22:18,388 --> 00:22:20,638
+communication, just kind of
+everywhere. Like it's pervasive.
+
+374
+00:22:20,669 --> 00:22:24,358
+It's not just in a blog post. Um,
+but like, I'll do this at work
+
+375
+00:22:24,358 --> 00:22:26,459
+where I'm writing documentation
+and like emails and stuff like
+
+376
+00:22:26,459 --> 00:22:29,159
+that. Like that's all really
+important. And I've only really
+
+377
+00:22:29,159 --> 00:22:31,888
+just started realizing that a
+year ago or something
+
+378
+00:22:33,963 --> 00:22:37,163
+Bekah: Yeah. So I talked to the
+tech interview study group a
+
+379
+00:22:37,163 --> 00:22:40,943
+couple of months ago, and we, I
+was talking about networking and
+
+380
+00:22:40,943 --> 00:22:45,249
+one of the things that I said was
+that. A lot of times we have this
+
+381
+00:22:45,249 --> 00:22:49,719
+very, um, narrow idea of what
+networking is, but in our
+
+382
+00:22:49,719 --> 00:22:52,868
+industry and the things that we
+do, we can create a wider
+
+383
+00:22:52,868 --> 00:22:57,669
+network. So networking can be
+writing a blog post or tweeting,
+
+384
+00:22:57,669 --> 00:23:01,298
+or, you know, like curating that
+digital garden. And so that
+
+385
+00:23:01,328 --> 00:23:03,818
+allows you to have a community
+that you don't know. And
+
+386
+00:23:03,818 --> 00:23:06,219
+sometimes it's really fun to
+like, especially at virtual.
+
+387
+00:23:07,148 --> 00:23:09,398
+Someone will come and be like,
+oh, I read your post this one
+
+388
+00:23:09,398 --> 00:23:13,088
+time. You're like, oh, that's
+cool. Um, so it was really nice
+
+389
+00:23:13,088 --> 00:23:17,469
+to kind of extend yourself out
+there and in kind of meet people
+
+390
+00:23:17,469 --> 00:23:18,429
+without even knowing it.
+
+391
+00:23:19,559 --> 00:23:20,130
+Jono: totally agree.
+
+392
+00:23:20,553 --> 00:23:23,502
+Dan: I was just looking back at
+your blog posts. So in your, for
+
+393
+00:23:23,502 --> 00:23:25,992
+the readers, I will obviously
+post this, but, um, the blog
+
+394
+00:23:25,992 --> 00:23:29,032
+posts you were talking about how
+you use Notion and, um, GitHub
+
+395
+00:23:29,053 --> 00:23:34,333
+Projects together right. To, to,
+to track side projects. So, um,
+
+396
+00:23:34,873 --> 00:23:37,603
+so one thing I was, I was just
+like, kind of curious about was,
+
+397
+00:23:37,603 --> 00:23:40,692
+um, what, like what you like to
+do with side projects or what
+
+398
+00:23:40,692 --> 00:23:42,932
+kind of things do you have going
+on? Are they, I don't are they,
+
+399
+00:23:43,323 --> 00:23:46,022
+are they just like fun? Are they
+like hobbies? Are they, um, you
+
+400
+00:23:46,022 --> 00:23:48,712
+know, possible revenue sources
+like that sort of thing. Um, I
+
+401
+00:23:48,722 --> 00:23:51,542
+was wondering kind of how you
+approach, um, the side project
+
+402
+00:23:51,573 --> 00:23:51,992
+life.
+
+403
+00:23:52,097 --> 00:23:55,998
+Jono: Yeah. Yeah. That's uh,
+yeah. I have a lot of, I think,
+
+404
+00:23:55,998 --> 00:23:59,567
+fun side projects and there's a
+lot that I've just started and
+
+405
+00:23:59,567 --> 00:24:03,317
+like have never like finished or
+touched after the initial start.
+
+406
+00:24:03,678 --> 00:24:07,337
+Um, as I'm sure a lot of
+developers do. Um, but yeah, most
+
+407
+00:24:07,337 --> 00:24:10,397
+of them are around like how, how
+can I learn this thing? So we'll
+
+408
+00:24:10,397 --> 00:24:12,627
+have a sub project around like a
+concept or something like that.
+
+409
+00:24:12,637 --> 00:24:16,603
+Want to learn. Um, I hate, so
+this is where, cause I am on a
+
+410
+00:24:16,603 --> 00:24:19,153
+visa, so it's kind of weird. I
+don't know if I can actually add
+
+411
+00:24:19,153 --> 00:24:21,553
+another revenue stream. So I
+haven't really been pushing
+
+412
+00:24:21,553 --> 00:24:25,992
+towards like doing that stuff.
+Um, but yeah, that's, that's
+
+413
+00:24:25,992 --> 00:24:26,353
+where I am.
+
+414
+00:24:26,563 --> 00:24:30,103
+Dan: That is interesting. I have
+no idea. I mean, I have no idea
+
+415
+00:24:30,103 --> 00:24:32,232
+how that works. Probably a good
+thing to check out, I suppose, if
+
+416
+00:24:32,232 --> 00:24:35,143
+you were going to, if you were
+going to step into that, but, um,
+
+417
+00:24:35,173 --> 00:24:37,182
+honestly, maybe it might, that
+might make, uh, some of your
+
+418
+00:24:37,182 --> 00:24:38,982
+decision-making easier could,
+right? Cause you don't have to
+
+419
+00:24:38,982 --> 00:24:41,442
+think about it. Don't have to,
+don't have to worry about that
+
+420
+00:24:41,442 --> 00:24:44,502
+part. Uh, you know, for awhile
+that's kind of fun. Is there any
+
+421
+00:24:44,593 --> 00:24:47,323
+specific one that you've been
+into recently? Any of your side
+
+422
+00:24:47,323 --> 00:24:47,682
+projects?
+
+423
+00:24:48,393 --> 00:24:51,736
+Jono: Yeah. So, um, well this
+personal website was, I guess a
+
+424
+00:24:51,736 --> 00:24:54,472
+side project, just because like I
+was building svelte kit, um,
+
+425
+00:24:54,472 --> 00:24:57,413
+something that I've never really
+built before I'll use before. Um,
+
+426
+00:24:57,563 --> 00:25:01,282
+and then on the other side, I'm
+learning a bit more about Lixa
+
+427
+00:25:01,353 --> 00:25:04,923
+ElixirPhoenix. So I've been
+building. This thing that I'm
+
+428
+00:25:04,923 --> 00:25:08,913
+trying to document on YouTube,
+which is a, uh, like a, a social
+
+429
+00:25:08,913 --> 00:25:11,923
+media app for, for puppies. I
+don't know if that makes sense,
+
+430
+00:25:11,972 --> 00:25:15,182
+not, but essentially it's like,
+you can, you have like a bunch of
+
+431
+00:25:15,393 --> 00:25:18,303
+puppies that you add to the side
+and you can follow dogs and you
+
+432
+00:25:18,303 --> 00:25:20,792
+can have like little meetups and
+stuff. That's, that's the grand
+
+433
+00:25:20,792 --> 00:25:23,192
+idea, but it's really just about
+a learning project.
+
+434
+00:25:23,952 --> 00:25:24,613
+Dan: That's that's
+
+435
+00:25:24,762 --> 00:25:29,022
+Bekah: Can you just talk a little
+bit about what elixir is? Just
+
+436
+00:25:29,053 --> 00:25:32,563
+give some definitions for the
+things that you talked about.
+
+437
+00:25:33,218 --> 00:25:36,067
+Jono: Yeah, no, that's great. Um,
+so Elixir is a functional
+
+438
+00:25:36,067 --> 00:25:40,478
+programming language. Um, it's
+written by José Valim and it has
+
+439
+00:25:40,478 --> 00:25:45,843
+a lot of. Um, Ruby ish syntax. So
+if you come from Ruby, you kinda,
+
+440
+00:25:46,143 --> 00:25:49,323
+you feel like that initial layer
+feels a little like Ruby, um, but
+
+441
+00:25:49,323 --> 00:25:51,482
+then when you really dig down
+into it, it's all about
+
+442
+00:25:51,482 --> 00:25:54,853
+functional programming languages.
+So, uh, immutability is kind of
+
+443
+00:25:54,853 --> 00:25:57,567
+like a, a big component of it.
+Yeah, there's all these like
+
+444
+00:25:57,567 --> 00:26:01,377
+little extra features. Um, and
+the language itself is an
+
+445
+00:26:01,377 --> 00:26:05,637
+interpreted language. So it's
+built on top of Erlang. Um, so
+
+446
+00:26:05,637 --> 00:26:09,988
+think like Ruby is kind of built
+on top of C almost. Um, so
+
+447
+00:26:10,048 --> 00:26:11,758
+everything can compile as down to
+Erlang.
+
+448
+00:26:13,452 --> 00:26:15,883
+Dan: That's pretty cool. Yeah.
+There's a lot of, a lot of
+
+449
+00:26:15,883 --> 00:26:18,702
+interest in the functional
+programming languages, you know,
+
+450
+00:26:18,823 --> 00:26:22,998
+uh, space, you know, these days,
+which, which I enjoy. You know,
+
+451
+00:26:23,147 --> 00:26:26,688
+on a nerd level, I haven't really
+dug into any of them. Um, you
+
+452
+00:26:26,688 --> 00:26:30,738
+know, I know Kirk is into shoot.
+I can't remember it was called,
+
+453
+00:26:30,857 --> 00:26:31,278
+um,
+
+454
+00:26:31,893 --> 00:26:37,472
+Jono: uh, F no, no shop hassle.
+No, throwing out
+
+455
+00:26:37,498 --> 00:26:37,768
+Dan: uh,
+
+456
+00:26:37,942 --> 00:26:38,182
+Bekah: No.
+
+457
+00:26:39,242 --> 00:26:39,692
+Jono: Nice.
+
+458
+00:26:41,337 --> 00:26:43,678
+Dan: it's just silly because I
+actually like contributed to it.
+
+459
+00:26:44,337 --> 00:26:47,337
+Project and I can't, I'm totally
+blank on the name. I'm sorry.
+
+460
+00:26:47,337 --> 00:26:51,117
+I'll come up with it. Um, but
+anyway, it's, it's, uh, I don't
+
+461
+00:26:51,117 --> 00:26:53,758
+know. It's neat. The functional
+stuff I really enjoyed when I, I
+
+462
+00:26:53,758 --> 00:26:56,698
+did computer science for a couple
+of years in, um, in college and
+
+463
+00:26:57,298 --> 00:27:00,178
+enjoyed it. There was a language
+called scheme that we used, um,
+
+464
+00:27:00,478 --> 00:27:03,178
+in school and it was just fun. I
+don't know. It's neat. It's a,
+
+465
+00:27:03,178 --> 00:27:07,077
+it's a cool little, uh, paradigm.
+Um, I ended up, I ended up, uh,
+
+466
+00:27:07,167 --> 00:27:11,817
+in JavaScript. JavaScript itself
+is not functional, like strictly,
+
+467
+00:27:11,817 --> 00:27:15,403
+but you can. You can like lean
+that way pretty hard, you know,
+
+468
+00:27:15,712 --> 00:27:18,133
+it's, it's fun. It's kind of fun
+to, to do that.
+
+469
+00:27:18,948 --> 00:27:22,157
+Jono: Yeah, absolutely. I think
+those, like, I see the whole
+
+470
+00:27:22,157 --> 00:27:25,228
+reason why I moved. Like started
+learning about Elixir was, cause
+
+471
+00:27:25,327 --> 00:27:29,577
+I kinda was burned by, by few
+things in Ruby and JavaScript
+
+472
+00:27:29,577 --> 00:27:32,157
+where it was mutable, but it
+wasn't obvious that it was
+
+473
+00:27:32,157 --> 00:27:35,428
+mutable. Um, like the example
+comes to mind, which is I was
+
+474
+00:27:35,428 --> 00:27:38,928
+working on my personal site. Um,
+was the JavaScript Sort(), it
+
+475
+00:27:39,208 --> 00:27:42,718
+like sorts in place and it
+changes the underlying object and
+
+476
+00:27:42,867 --> 00:27:44,387
+it just like break everything.
+Yes.
+
+477
+00:27:46,682 --> 00:27:50,053
+Dan: Yep. Yep. Uh, yeah. Thank
+you, Bekah Elm. It was, uh, it
+
+478
+00:27:50,053 --> 00:27:54,073
+was Elm. That was the language I
+was talking about. Um, the, Yes.
+
+479
+00:27:54,133 --> 00:27:58,182
+uh, I came up with, uh, on PHP,
+uh, and it's even more absurd
+
+480
+00:27:58,182 --> 00:28:00,673
+than JavaScript in that regard.
+It's got a lot better, but, um,
+
+481
+00:28:00,702 --> 00:28:04,333
+yeah. Uh, you know, the, you
+never really know if it's going
+
+482
+00:28:04,333 --> 00:28:07,992
+to be like, if it's gonna mutate.
+Object and place or return a new
+
+483
+00:28:07,992 --> 00:28:11,383
+on it. It does both really. And
+so, yeah, I see you like you get,
+
+484
+00:28:11,442 --> 00:28:14,952
+you get the new one and you think
+in cool, but you know, you go
+
+485
+00:28:14,952 --> 00:28:17,952
+back to the old one, it turns out
+that one's changed. It's not fun.
+
+486
+00:28:19,452 --> 00:28:23,982
+Uh, PHP also has like, they, I
+mean, they, like I said, they've,
+
+487
+00:28:24,103 --> 00:28:27,272
+they've improved a lot, but, um,
+you know, all these different
+
+488
+00:28:27,272 --> 00:28:29,803
+array functions, some of them
+came from Perl and some came from
+
+489
+00:28:29,803 --> 00:28:33,492
+like, C, and so named, like,
+there was like, you never knew if
+
+490
+00:28:33,492 --> 00:28:37,647
+it was gonna be array underscore
+sort or like. With no array and,
+
+491
+00:28:37,857 --> 00:28:42,298
+you know, like all this nonsense,
+uh, that I loved, but, um, it was
+
+492
+00:28:42,298 --> 00:28:44,057
+very hard to deal with it as
+well. Sometimes. Yes.
+
+493
+00:28:44,958 --> 00:28:47,048
+Jono: How do people write
+programs back then? Like, I don't
+
+494
+00:28:47,057 --> 00:28:47,508
+understand.
+
+495
+00:28:48,137 --> 00:28:52,248
+Dan: Yeah. Um, like lots of, lots
+of, you know, trying and failing
+
+496
+00:28:52,248 --> 00:28:55,698
+and lots of bugs that nobody
+knows about until it's so much
+
+497
+00:28:55,698 --> 00:28:59,768
+later and you know, all that sort
+of stuff, no tests, FTP, you
+
+498
+00:28:59,768 --> 00:29:01,907
+know, hit save, and then FTP up
+to the server and see if It.
+
+499
+00:29:01,907 --> 00:29:06,343
+works. Uh, that's how I did it.
+Anyway. I don't know.
+
+500
+00:29:07,383 --> 00:29:10,292
+Bekah: When I was first building
+my blog, I didn't know that you
+
+501
+00:29:10,292 --> 00:29:15,063
+could run things locally. And I
+also didn't know, like, so I was
+
+502
+00:29:15,063 --> 00:29:19,262
+just like committing things and
+seeing if they worked or not. So
+
+503
+00:29:19,502 --> 00:29:23,702
+I don't even want to go back to
+when I first started that repo
+
+504
+00:29:23,702 --> 00:29:27,303
+because all of the stuff in there
+is just me making like these
+
+505
+00:29:27,303 --> 00:29:31,907
+minor tweaks or seriously messing
+things up. Oh, how do you want to
+
+506
+00:29:31,907 --> 00:29:34,877
+do that? Because I also didn't
+know that you could take back to
+
+507
+00:29:34,877 --> 00:29:40,038
+meds. You can change things. It
+was a, it was a wild time, I
+
+508
+00:29:40,038 --> 00:29:40,607
+think back then.
+
+509
+00:29:42,212 --> 00:29:45,333
+Jono: Yeah, I still make those
+kinds of commits. Like I made a
+
+510
+00:29:45,333 --> 00:29:47,972
+bunch of commits where I'm just
+like removing a trailing slash
+
+511
+00:29:48,002 --> 00:29:51,542
+just to see if like my HTML tag
+is working properly. I'm like,
+
+512
+00:29:51,603 --> 00:29:54,002
+okay, well this isn't working, I
+have no idea what I'm doing.
+
+513
+00:29:55,772 --> 00:29:57,482
+Dan: Yeah. That's all right.
+That's what like squash merges
+
+514
+00:29:57,482 --> 00:30:02,952
+before, right. Just hide all that
+stuff. Yeah, no, I was, um, I was
+
+515
+00:30:02,952 --> 00:30:08,593
+working on the, um, um, get up
+our, uh, I mean, I'm sorry, our
+
+516
+00:30:08,593 --> 00:30:13,782
+co-working sort of room, um, and
+involves, uh, like a slack app
+
+517
+00:30:13,843 --> 00:30:19,063
+and a zoom app and Netlify
+functions, um, up until a point
+
+518
+00:30:19,063 --> 00:30:21,792
+you can kind of point it to local
+your local stuff. Um, but
+
+519
+00:30:21,913 --> 00:30:25,182
+eventually you have to like point
+it to a server that you have to
+
+520
+00:30:25,182 --> 00:30:28,587
+point the, the zoom app or the
+Slack App, to a server. And that
+
+521
+00:30:28,587 --> 00:30:30,837
+was incredibly hard to test. I
+was, I ended up doing. the same
+
+522
+00:30:30,837 --> 00:30:33,627
+thing. I was just like, I was
+sending stuff up and have it, you
+
+523
+00:30:33,627 --> 00:30:36,928
+know, deploy and then see if it
+works. Um, I have A I have a
+
+524
+00:30:36,928 --> 00:30:39,837
+slack, like a test slack
+workspace, you know, that's just
+
+525
+00:30:39,837 --> 00:30:45,178
+like, Dan's whatever test Slack
+and, uh, there's like 4,000 Dan's
+
+526
+00:30:45,178 --> 00:30:49,498
+in there. Cause I was testing a
+new, you know, like what happens
+
+527
+00:30:49,498 --> 00:30:53,248
+when a member joins, you know?
+And um, if I didn't get it right
+
+528
+00:30:53,278 --> 00:30:57,163
+then I had. Make the change,
+commit it, let it build and then
+
+529
+00:30:57,222 --> 00:31:00,133
+join again, you know, with the
+new account and see if it works.
+
+530
+00:31:02,083 --> 00:31:05,022
+It's like the matrix with Agent
+Smith is like, uh, it's just like
+
+531
+00:31:05,022 --> 00:31:09,373
+a slack that's just full of a
+thousand mes. Don't go there.
+
+532
+00:31:09,373 --> 00:31:18,732
+It's frightening. I'll say I'll
+send you an invite. You uh, yeah.
+
+533
+00:31:19,663 --> 00:31:19,752
+Oh
+
+534
+00:31:19,917 --> 00:31:24,597
+Bekah: So you also talked about,
+um, doing videos. And so I wonder
+
+535
+00:31:24,928 --> 00:31:29,847
+like one does, can you digital
+garden videos? Is that a thing?
+
+536
+00:31:30,087 --> 00:31:31,468
+Is that like Instagram live? I
+don't know.
+
+537
+00:31:33,627 --> 00:31:34,258
+Jono: Maybe.
+
+538
+00:31:34,317 --> 00:31:37,048
+Bekah: how does that like play
+into this role of content
+
+539
+00:31:37,048 --> 00:31:37,407
+creation?
+
+540
+00:31:38,928 --> 00:31:44,417
+Jono: Yeah. Oh man. Interesting.
+I, I would say digitally
+
+541
+00:31:44,417 --> 00:31:49,407
+gardening videos is harder. Then
+writing because you have to do a
+
+542
+00:31:49,407 --> 00:31:52,617
+lot more editing in the video.
+Um, you can't really just cut a
+
+543
+00:31:52,617 --> 00:31:55,317
+piece out and then like add a new
+piece in it. Wouldn't like tend
+
+544
+00:31:55,317 --> 00:31:57,448
+to make sense or missed, um,
+
+545
+00:31:57,498 --> 00:32:00,137
+Dan: Have you tried, have you
+tried, uh, have you
+
+546
+00:32:00,137 --> 00:32:01,968
+tried,Descript yet for video
+editing
+
+547
+00:32:02,577 --> 00:32:05,367
+Jono: I haven't. No, I've been
+sticking with a
+
+548
+00:32:06,317 --> 00:32:09,377
+Dan: you can literally copy and
+paste like text and it'll do the
+
+549
+00:32:09,377 --> 00:32:11,867
+video and the audio and
+everything like really well. I'm
+
+550
+00:32:12,438 --> 00:32:14,448
+sorry. They don't, they don't
+sponsor us or anything. I just,
+
+551
+00:32:15,018 --> 00:32:16,458
+I've just been excited about it
+
+552
+00:32:16,458 --> 00:32:17,178
+Jono: wondering. Yeah.
+
+553
+00:32:18,317 --> 00:32:21,798
+Dan: Sorry, I didn't mean to, um,
+while I did, I guess I did mean
+
+554
+00:32:21,798 --> 00:32:23,067
+to interrupt, but, uh, I didn't
+want,
+
+555
+00:32:23,097 --> 00:32:23,188
+Bekah: Okay.
+
+556
+00:32:24,798 --> 00:32:27,107
+Dan: I didn't, I don't know why I
+said, I don't know why like
+
+557
+00:32:27,107 --> 00:32:28,847
+interrupt on purpose and then
+say, sorry, I didn't mean to
+
+558
+00:32:28,847 --> 00:32:31,577
+interrupt. Uh, anyway, um,
+
+559
+00:32:31,847 --> 00:32:35,712
+Jono: okay. No. You're good.
+Yeah. I mean, yeah. I think
+
+560
+00:32:35,742 --> 00:32:38,323
+that's a really, there's so many
+tools out there, which is great.
+
+561
+00:32:38,383 --> 00:32:40,722
+And like, I think Bekah mentioned
+live streaming as well, which I
+
+562
+00:32:40,722 --> 00:32:43,732
+guess like you can kind of pick
+and choose Nicky T is doing a
+
+563
+00:32:43,732 --> 00:32:46,462
+really great job with live
+streaming and he's kind of like
+
+564
+00:32:46,462 --> 00:32:49,012
+rolling with the punches and
+learning Rust, which I think is
+
+565
+00:32:49,012 --> 00:32:54,202
+really cool. Um, I do think like
+where, where I see video, because
+
+566
+00:32:54,202 --> 00:32:56,242
+it is completely different
+platform. It's kind of like
+
+567
+00:32:56,272 --> 00:33:01,597
+YouTube, so that. You can't
+really curate YouTube videos as
+
+568
+00:33:01,597 --> 00:33:04,357
+easily. It's like that they own
+that platform. So they tend to
+
+569
+00:33:04,357 --> 00:33:08,198
+show it how they want to show it.
+Um, so it is a little bit harder
+
+570
+00:33:08,258 --> 00:33:08,917
+in that sense,
+
+571
+00:33:09,042 --> 00:33:11,383
+Dan: Yeah. Yeah. And I think with
+YouTube, you can't change them
+
+572
+00:33:11,383 --> 00:33:13,303
+either. Right? I mean, if you
+change them and then, then it's a
+
+573
+00:33:13,303 --> 00:33:17,202
+new, you have to create a new
+video and delete the old on or so
+
+574
+00:33:17,262 --> 00:33:17,833
+you know, something like
+
+575
+00:33:18,087 --> 00:33:20,817
+Jono: right? Yeah. Although yeah,
+exactly.
+
+576
+00:33:22,073 --> 00:33:22,313
+Dan: yeah.
+
+577
+00:33:22,538 --> 00:33:23,587
+Bekah: Create new ones.
+
+578
+00:33:23,813 --> 00:33:24,593
+Dan: That's interesting though.
+
+579
+00:33:25,258 --> 00:33:25,528
+Jono: Yeah.
+
+580
+00:33:26,357 --> 00:33:29,387
+Bekah: Now we're going to invent
+digital gardening for videos
+
+581
+00:33:30,202 --> 00:33:31,073
+Jono: That would be cool.
+
+582
+00:33:32,587 --> 00:33:40,508
+Bekah: or it wouldn't at all. So,
+okay. So you're doing these
+
+583
+00:33:40,508 --> 00:33:44,347
+videos and is this just kind of
+along the same lines as what
+
+584
+00:33:44,347 --> 00:33:48,458
+you're doing with your digital
+garden, your. Working on these
+
+585
+00:33:48,458 --> 00:33:51,968
+things, learning them, and then
+just providing another avenue for
+
+586
+00:33:51,968 --> 00:33:53,738
+people to kind of learn along
+with you.
+
+587
+00:33:54,718 --> 00:33:57,837
+Jono: yeah, I think like, yeah,
+exactly that, and it was also a
+
+588
+00:33:57,837 --> 00:34:00,837
+challenge for me, cause I'd never
+really done video stuff as well.
+
+589
+00:34:00,837 --> 00:34:03,597
+So at the start of the year, I
+really wanted to kind of explore
+
+590
+00:34:03,597 --> 00:34:07,942
+it a little bit more. Um, and
+then. Um, I kinda, uh, realized
+
+591
+00:34:07,942 --> 00:34:10,822
+that I really enjoy doing it. I
+don't enjoy actually filming the
+
+592
+00:34:10,822 --> 00:34:13,282
+videos. It's really hard, or I
+can't speak in front of a camera.
+
+593
+00:34:13,313 --> 00:34:16,552
+Like, I don't know how people do
+it. Um, but the whole process of
+
+594
+00:34:16,552 --> 00:34:19,282
+like editing and like getting all
+the music and all that stuff is,
+
+595
+00:34:19,592 --> 00:34:24,563
+is really fun. Um, so yeah, it's,
+it's been a goal and a lot of the
+
+596
+00:34:24,563 --> 00:34:29,242
+content is pretty similar to what
+I would put in. The blog, but it
+
+597
+00:34:29,512 --> 00:34:33,413
+does go through more in-depth
+tutorials because I hate writing
+
+598
+00:34:33,413 --> 00:34:35,782
+about tutorials, but I think
+showing is just a lot easier to
+
+599
+00:34:35,782 --> 00:34:37,822
+follow and a lot easier to
+explain in my mind,
+
+600
+00:34:38,438 --> 00:34:41,588
+Dan: Yeah, that's, that's pretty
+cool. and so you can I suppose,
+
+601
+00:34:41,588 --> 00:34:43,628
+yeah, you don't have to like
+create all the screenshots or
+
+602
+00:34:43,628 --> 00:34:47,619
+the, uh, you know, grab the code
+examples perfectly if you're just
+
+603
+00:34:47,619 --> 00:34:49,719
+showing, you know, when you're
+doing like a screen-share and
+
+604
+00:34:49,719 --> 00:34:54,458
+showing the, um, the app like in
+place, right. Just take somebody
+
+605
+00:34:54,458 --> 00:34:57,219
+for a tour. I can totally see. I
+can totally see how that it, that
+
+606
+00:34:57,219 --> 00:34:57,518
+would be.
+
+607
+00:34:57,673 --> 00:35:01,264
+Jono: Yeah, and you can go on
+like tangents and you can get
+
+608
+00:35:01,264 --> 00:35:03,844
+lost a little bit, and it's all
+easy to come back to the main
+
+609
+00:35:03,844 --> 00:35:06,463
+thread. Then it isn't like a
+blog, like you can't just write
+
+610
+00:35:06,483 --> 00:35:10,353
+like an extra thousand words on a
+tangent and then expect them to
+
+611
+00:35:10,353 --> 00:35:13,034
+like keep reading after that.
+Okay.
+
+612
+00:35:13,668 --> 00:35:14,838
+Dan: You could, but, uh,
+
+613
+00:35:14,909 --> 00:35:18,778
+Bekah: I think I just, uh, wait,
+I have to go back and delete some
+
+614
+00:35:18,778 --> 00:35:19,409
+of my blog posts.
+
+615
+00:35:22,239 --> 00:35:25,358
+Dan: um, have you been doing, I'm
+sorry if I might have already
+
+616
+00:35:25,358 --> 00:35:27,759
+answered this, have you been
+doing much streaming as well? Um,
+
+617
+00:35:27,818 --> 00:35:29,798
+aside from the produced months,
+have you dug into that?
+
+618
+00:35:30,813 --> 00:35:35,043
+Jono: no, I haven't. Um, I've
+been thinking about it. I don't,
+
+619
+00:35:35,764 --> 00:35:41,704
+uh, we come back to Nick. Um, I
+can't speak and like learn or
+
+620
+00:35:41,704 --> 00:35:45,333
+like do something at the same
+time. So it really just be like,
+
+621
+00:35:45,364 --> 00:35:48,543
+it would just be silence. He used
+to be watching me on my computer.
+
+622
+00:35:49,293 --> 00:35:50,824
+It's a skill. I don't know how
+you do that.
+
+623
+00:35:50,954 --> 00:35:53,623
+Dan: Yeah, no, it is. I've been,
+I've been have been wondering
+
+624
+00:35:53,623 --> 00:35:55,753
+about that. too. I've been
+thinking about, you know, digging
+
+625
+00:35:55,753 --> 00:36:00,224
+a little bit, and this is paying
+attention to myself. Coding, not,
+
+626
+00:36:00,224 --> 00:36:02,353
+I wasn't streaming, you know, but
+I was just like, oh, I haven't
+
+627
+00:36:02,353 --> 00:36:06,583
+like talked to moved for like
+three hours. Like this is not
+
+628
+00:36:06,583 --> 00:36:07,724
+going to be fun for anybody.
+
+629
+00:36:08,204 --> 00:36:10,244
+Bekah: I think, I think one of
+the things that's about it is
+
+630
+00:36:10,244 --> 00:36:12,914
+it's nice if you can do with a
+partner, because then they can
+
+631
+00:36:12,914 --> 00:36:16,693
+kind of fill in, like, Nick does
+it with Christina and Seth and I
+
+632
+00:36:16,693 --> 00:36:20,954
+are going to be doing it in a
+couple of weeks. Um, and the
+
+633
+00:36:20,954 --> 00:36:23,143
+first time Seth and I did it, it
+was like I had not ever
+
+634
+00:36:23,143 --> 00:36:26,353
+live-streamed and I'm, I'm
+terrified of it. Like it's not
+
+635
+00:36:26,353 --> 00:36:30,673
+something that I feel comfortable
+doing and immediately I froze up.
+
+636
+00:36:30,673 --> 00:36:33,418
+And Seth was right there, kind of
+like talking through it, like,
+
+637
+00:36:33,418 --> 00:36:35,018
+okay, well, this is what we're
+going to do. And this is where
+
+638
+00:36:35,108 --> 00:36:38,188
+I'm like, okay, now I feel
+comfortable and I can kind of go
+
+639
+00:36:38,188 --> 00:36:41,458
+along with it. And so to be able
+to have that conversation, I
+
+640
+00:36:41,458 --> 00:36:44,608
+think makes it a little bit
+easier because then you have way
+
+641
+00:36:44,608 --> 00:36:47,059
+less pressure on yourself to be
+doing all of this.
+
+642
+00:36:49,324 --> 00:36:51,934
+Jono: 100%. That that makes a lot
+of sense.
+
+643
+00:36:52,579 --> 00:36:55,789
+Dan: Yeah. I've, I've enjoyed
+times when we just jump on a zoom
+
+644
+00:36:55,789 --> 00:36:59,679
+or whatever, and, and people, you
+know, like,if somebody posts in
+
+645
+00:36:59,679 --> 00:37:01,739
+help and pairing or something. It
+has a problem. Right. And pairing
+
+646
+00:37:01,739 --> 00:37:03,688
+up, like doing the pair
+programming and just sort of
+
+647
+00:37:03,688 --> 00:37:06,989
+recording it. I think that's,
+you're talking about Bekah and
+
+648
+00:37:07,009 --> 00:37:10,278
+like, it's easier for me to ask
+questions or to answer questions
+
+649
+00:37:10,309 --> 00:37:13,878
+then to like on a, don't think of
+all possible questions and then
+
+650
+00:37:13,878 --> 00:37:17,358
+produce content, you know, like
+that, the, uh, the thought
+
+651
+00:37:17,358 --> 00:37:21,768
+process for me. Um, it's like,
+um, I don't know, you know, you
+
+652
+00:37:21,768 --> 00:37:23,748
+just like answer what's in front
+of you. Right. And then, and then
+
+653
+00:37:23,748 --> 00:37:29,514
+just talk, but the, I feel like
+when you're streaming, it's. Um,
+
+654
+00:37:29,543 --> 00:37:31,943
+the expectation is maybe it's a
+little more okay. If you make a
+
+655
+00:37:31,943 --> 00:37:35,873
+mistake or if you, you know, um,
+start saying something and then
+
+656
+00:37:35,873 --> 00:37:37,793
+you're like, oh, wait a minute. I
+just remembered this other thing.
+
+657
+00:37:37,793 --> 00:37:42,204
+Or, you know, something like
+that. Um, a little more, like, I
+
+658
+00:37:42,204 --> 00:37:45,869
+don't know if it's a little more
+into that. The it's okay to make
+
+659
+00:37:45,869 --> 00:37:48,539
+mistakes mindsets, right. It's
+like not perfect mindset is the
+
+660
+00:37:48,539 --> 00:37:52,619
+streaming. Um, which I try to
+remember to when I, when I
+
+661
+00:37:52,619 --> 00:37:55,259
+consider it and right, is, um,
+it's like the work in progress
+
+662
+00:37:55,259 --> 00:37:58,228
+kind of thing. Um, I could see
+how it could all fit, fit, fit
+
+663
+00:37:58,228 --> 00:37:58,889
+together, you know?
+
+664
+00:37:59,594 --> 00:38:01,664
+Jono: Yeah, I think that's the
+beauty of live streaming as well
+
+665
+00:38:01,664 --> 00:38:06,253
+as the fact that you can kind of
+make these mistakes and like let
+
+666
+00:38:06,253 --> 00:38:09,614
+other people see how you kind of
+move on from there. Um, I think
+
+667
+00:38:09,943 --> 00:38:13,333
+with videos, um, I'm actually
+trying to do a video where I'm
+
+668
+00:38:13,333 --> 00:38:16,483
+trying to show that process a bit
+more. Um, but with videos it is
+
+669
+00:38:16,483 --> 00:38:17,114
+very edited.
+
+670
+00:38:17,353 --> 00:38:17,713
+Dan: Right,
+
+671
+00:38:17,833 --> 00:38:19,003
+Jono: Um, so you don't see that.
+
+672
+00:38:19,583 --> 00:38:23,224
+Dan: right. Well, yes. If you
+went onto YouTube and push play
+
+673
+00:38:23,224 --> 00:38:26,103
+on somebody's video, you wouldn't
+want to see them saying, um, you
+
+674
+00:38:26,103 --> 00:38:29,554
+know, I'm not really sure how to
+do this, but like watching the
+
+675
+00:38:29,554 --> 00:38:31,713
+thought process in a stream, the
+expectations a little bit, like
+
+676
+00:38:31,713 --> 00:38:34,594
+you go into a stream knowing that
+it's live right. And knowing
+
+677
+00:38:34,594 --> 00:38:37,349
+that. Probably going to be doing
+that sort of thing. You know what
+
+678
+00:38:37,349 --> 00:38:39,449
+I mean? Figuring it out in front
+of you. And that's part of the,
+
+679
+00:38:39,599 --> 00:38:41,998
+part of the draw, I suppose. I
+mean, definitely part of the
+
+680
+00:38:41,998 --> 00:38:45,809
+draw, but, um, a little bit
+different mindset, I suppose,
+
+681
+00:38:45,809 --> 00:38:49,246
+when you're creating, you know,
+as a creator. Right. Are you
+
+682
+00:38:49,295 --> 00:38:52,626
+going to add your videos to your
+site, to the, to the digital
+
+683
+00:38:52,626 --> 00:38:54,516
+garden. Um, and in some way
+
+684
+00:38:54,846 --> 00:38:59,655
+Jono: Yeah. I, um, I had a, like
+a fleeting thought about adding
+
+685
+00:38:59,655 --> 00:39:05,135
+like the most recent video. Um, I
+think like, ultimately I'd love
+
+686
+00:39:05,135 --> 00:39:09,661
+to create like a, a platform
+where I can add tutorials like my
+
+687
+00:39:09,661 --> 00:39:13,291
+own course platform kind of
+thing, then have everything just,
+
+688
+00:39:13,920 --> 00:39:15,570
+you know, work in one place,
+
+689
+00:39:16,840 --> 00:39:19,311
+Dan: Yeah, sure. Sure, sure. So
+you have like a collection of,
+
+690
+00:39:19,400 --> 00:39:21,650
+uh, yeah. Step one, step two,
+step three kind of thing. Yeah.
+
+691
+00:39:21,840 --> 00:39:22,291
+Jono: Yeah.
+
+692
+00:39:22,880 --> 00:39:26,311
+Dan: Um, that, well, I mean,
+there's, I mean, I could, I could
+
+693
+00:39:26,320 --> 00:39:28,891
+see that being fitting pretty
+well into the digital garden. You
+
+694
+00:39:28,891 --> 00:39:32,190
+know, I idea I could also see it,
+you know, there's lots of
+
+695
+00:39:32,550 --> 00:39:36,121
+obviously lots of different, uh,
+approaches to that, to that, um,
+
+696
+00:39:36,181 --> 00:39:38,280
+that that people have done. So
+that's pretty cool.
+
+697
+00:39:39,945 --> 00:39:43,155
+Bekah: So for these, it seems
+like you have a lot of you're
+
+698
+00:39:43,155 --> 00:39:45,916
+working on a lot of things that
+you are learning about
+
+699
+00:39:45,945 --> 00:39:52,036
+personally. Um, and then when you
+are, are working in your day job,
+
+700
+00:39:52,065 --> 00:39:57,315
+you're working with rails, right?
+And so how do you just kind of
+
+701
+00:39:57,315 --> 00:40:01,876
+like make that jump back and
+forth or, you know, are there
+
+702
+00:40:01,876 --> 00:40:05,266
+things that you're learning from
+what you're learning that you can
+
+703
+00:40:05,356 --> 00:40:07,186
+apply to your day job?
+
+704
+00:40:08,940 --> 00:40:14,181
+Jono: Yeah. I think like both of
+that is like totally valid point.
+
+705
+00:40:14,181 --> 00:40:17,300
+It's like jumping back and forth
+between functional to like object
+
+706
+00:40:17,541 --> 00:40:21,860
+paradigm is, is really hard
+sometimes. Um, I'm not very good
+
+707
+00:40:21,860 --> 00:40:23,771
+at functional language, I guess
+that helps, you know, like I
+
+708
+00:40:23,771 --> 00:40:27,740
+gotta have those like muscle
+memory, um, yet. Um, but yeah,
+
+709
+00:40:27,740 --> 00:40:30,710
+there's definitely things you can
+learn from all these different
+
+710
+00:40:30,710 --> 00:40:37,170
+sources that, um, You can bring
+into any new project, um, had
+
+711
+00:40:37,300 --> 00:40:39,271
+there a quote somewhere where
+it's like, you never starting
+
+712
+00:40:39,751 --> 00:40:41,670
+anything from scratch. Like you
+always taking those past
+
+713
+00:40:41,670 --> 00:40:44,940
+experiences with you. And I think
+that's very true. Um, whenever
+
+714
+00:40:44,940 --> 00:40:48,561
+I'm learning any of these new
+things, is that from Vic as well?
+
+715
+00:40:48,746 --> 00:40:49,436
+Bekah: I was going to say,
+
+716
+00:40:49,820 --> 00:40:50,541
+Jono: I'm like, gosh,
+
+717
+00:40:50,815 --> 00:40:53,056
+Bekah: I remember Vic talking
+about that.
+
+718
+00:40:53,445 --> 00:40:55,465
+Dan: Yep. And we talked about
+that with Sara, a bunch too, on,
+
+719
+00:40:55,465 --> 00:40:58,775
+on when, when she came on the pod
+is, you know, I mean, she came
+
+720
+00:40:58,775 --> 00:41:02,585
+from, you know, the agriculture
+tech field and, uh, you know, was
+
+721
+00:41:02,896 --> 00:41:06,606
+able to apply a lot of that, Um,
+to her current. yeah. It's moved
+
+722
+00:41:06,606 --> 00:41:11,226
+from that to, well, FinTech, I
+guess. But, um, I do like that
+
+723
+00:41:11,226 --> 00:41:15,706
+idea. We've talked about it
+before, you know, it's that idea
+
+724
+00:41:15,706 --> 00:41:18,525
+of leaning on your past
+experiences, you know, and how it
+
+725
+00:41:18,525 --> 00:41:22,846
+can all be relevant, um, relevant
+to you or to your current, um,
+
+726
+00:41:22,876 --> 00:41:25,726
+platform. It's funny thinking
+about that switch in between,
+
+727
+00:41:26,626 --> 00:41:29,445
+like when you're learning a new
+paradigm sort of, and you have an
+
+728
+00:41:29,445 --> 00:41:33,195
+old one, it's like that balance
+point of when your muscle memory
+
+729
+00:41:33,195 --> 00:41:36,166
+tips over and you start actually
+like reaching for functional
+
+730
+00:41:36,166 --> 00:41:39,315
+things when you're in back in
+Ruby or, you know, uh, vice
+
+731
+00:41:39,315 --> 00:41:44,311
+versa. Um, When you're so when
+you're learning, um, so this is,
+
+732
+00:41:44,670 --> 00:41:48,990
+uh, wait, I'm sorry. Oh, Elixir.
+Right. Um, so you're learning
+
+733
+00:41:48,990 --> 00:41:53,460
+elixir. Do you find yourself
+doing things like, um, how do I
+
+734
+00:41:53,460 --> 00:41:56,971
+do some Ruby thing in elixir like
+that kind of Google, Google
+
+735
+00:41:56,971 --> 00:42:01,710
+search, a thought process, or, or
+do you try to, um, sort of erase
+
+736
+00:42:01,710 --> 00:42:03,871
+your mind for, for, for the
+moment, you know, when you're
+
+737
+00:42:03,871 --> 00:42:07,471
+trying to learn a new thing, uh,
+and, and do the, you know, pure
+
+738
+00:42:07,650 --> 00:42:09,661
+like elixir way or whatever, if
+that exists.
+
+739
+00:42:10,635 --> 00:42:15,360
+Jono: Yeah. Um, Definitely have a
+bad habit of like, how do I do
+
+740
+00:42:15,360 --> 00:42:19,681
+Ruby in X? Um, cause I'm just so
+used to Ruby and Ruby and rails
+
+741
+00:42:19,681 --> 00:42:24,240
+and stuff. Um, but I think
+they're getting into the weeds of
+
+742
+00:42:24,240 --> 00:42:26,731
+the language is really important.
+So like I'm trying to like switch
+
+743
+00:42:26,731 --> 00:42:29,521
+our mindset to like, be more of
+like, okay, how do I do this in a
+
+744
+00:42:29,521 --> 00:42:32,521
+functional language rather than
+how do I do it in Ruby and then
+
+745
+00:42:32,550 --> 00:42:33,331
+transport it over.
+
+746
+00:42:33,820 --> 00:42:34,110
+Dan: Yeah.
+
+747
+00:42:34,335 --> 00:42:38,536
+Jono: Um, yeah, and I, and I know
+like in the Elixir slack, people
+
+748
+00:42:38,536 --> 00:42:41,445
+talk about it a little bit, where
+you run into a lot of issues when
+
+749
+00:42:41,445 --> 00:42:44,175
+you try and just like port over
+Ruby, into Elixir, like a lot of
+
+750
+00:42:44,175 --> 00:42:47,715
+things just don't make sense and
+don't work. Like anti-patterns
+
+751
+00:42:47,715 --> 00:42:48,135
+almost
+
+752
+00:42:48,610 --> 00:42:52,610
+Dan: Yeah. Yeah. That's
+interesting. Have you, uh, has
+
+753
+00:42:52,610 --> 00:42:54,891
+there been any like specific
+things that you can think of that
+
+754
+00:42:54,891 --> 00:42:58,550
+like you approaches you can take
+when like back into the Ruby
+
+755
+00:42:58,550 --> 00:42:59,811
+world from, from the new stuff?
+
+756
+00:43:01,141 --> 00:43:04,981
+Jono: Yeah. Um, great question. I
+think the biggest thing is really
+
+757
+00:43:04,981 --> 00:43:08,371
+just the immutability aspect of
+it. So like, you know, making
+
+758
+00:43:08,371 --> 00:43:13,501
+sure, like I am being really
+explicit with what is changing
+
+759
+00:43:13,501 --> 00:43:17,010
+under the hood in Ruby has really
+helped. And the Elixir
+
+760
+00:43:17,030 --> 00:43:22,471
+concurrency model is, um, I would
+say like is built a little bit
+
+761
+00:43:22,471 --> 00:43:25,501
+differently than how Rudy's
+concurrency model work. So it's
+
+762
+00:43:25,501 --> 00:43:29,340
+all about passing messages and
+not about changing the data that.
+
+763
+00:43:29,715 --> 00:43:33,346
+Threads share. So kind of taking
+that functionality into review as
+
+764
+00:43:33,346 --> 00:43:36,315
+well. Um, at least on an
+architectural level has really
+
+765
+00:43:36,315 --> 00:43:36,525
+helped.
+
+766
+00:43:36,965 --> 00:43:38,585
+Dan: Nice. That's cool.
+
+767
+00:43:40,266 --> 00:43:42,876
+Bekah: You are, you also
+mentioned you had done some iOS
+
+768
+00:43:42,876 --> 00:43:44,376
+development early on,
+
+769
+00:43:44,385 --> 00:43:44,916
+Jono: yes. Yeah.
+
+770
+00:43:49,775 --> 00:43:52,771
+Bekah: have you, how has that,
+okay, so you've done it. So you
+
+771
+00:43:52,771 --> 00:43:57,510
+did iOS and then Ruby, and now
+you're learning Elixir. So is
+
+772
+00:43:57,510 --> 00:44:01,561
+there like a pattern that you've
+seen that you've worked through
+
+773
+00:44:01,561 --> 00:44:06,001
+those changes or as you've grown
+or things that you've learned and
+
+774
+00:44:06,001 --> 00:44:09,331
+can apply as you learn the new
+things?
+
+775
+00:44:10,206 --> 00:44:16,411
+Jono: Yeah. Um, well, I. Have not
+touched iOS since late 2015. And
+
+776
+00:44:16,411 --> 00:44:20,041
+that was like on the cusp of like
+Objective C switching over to
+
+777
+00:44:20,041 --> 00:44:25,141
+Swift. So I didn't even know what
+the new IRS languages, um, so I
+
+778
+00:44:25,141 --> 00:44:28,561
+think like I remember early on
+the way I learned was really just
+
+779
+00:44:28,561 --> 00:44:32,521
+about repetition. So it was like,
+how many times can I run rails
+
+780
+00:44:32,521 --> 00:44:36,090
+new and just like, understand how
+all of that works. And then I
+
+781
+00:44:36,090 --> 00:44:39,541
+remember having just so many
+rails new projects with just like
+
+782
+00:44:39,570 --> 00:44:43,335
+one model in there just to kind
+of. Well, because I just never
+
+783
+00:44:43,335 --> 00:44:45,496
+finished some projects, but also
+I felt like it helped build that
+
+784
+00:44:45,496 --> 00:44:48,735
+muscle memory of like what a
+model looks like, where it goes,
+
+785
+00:44:48,916 --> 00:44:53,356
+how will this fits in? And now
+I've started thinking about how
+
+786
+00:44:53,356 --> 00:44:56,775
+can I like shorts. I taught that
+because it takes a really long
+
+787
+00:44:56,775 --> 00:44:59,985
+time. You just doing a lot of
+repetition. Um, so really
+
+788
+00:44:59,985 --> 00:45:02,956
+thinking about how the pieces fit
+together and making those
+
+789
+00:45:02,956 --> 00:45:06,106
+analogies from like previous
+experiences. Um, like with
+
+790
+00:45:06,106 --> 00:45:10,621
+Elixir, obviously Ruby doesn't
+always fit, but I, how. How would
+
+791
+00:45:10,621 --> 00:45:13,831
+this look in object oriented and
+what the differences are, has
+
+792
+00:45:13,891 --> 00:45:17,731
+really helped. Um, and then
+finding the naming of things has
+
+793
+00:45:17,731 --> 00:45:20,880
+been really useful, both with
+like onboarding, um, a new job,
+
+794
+00:45:20,911 --> 00:45:23,251
+just understanding what the
+definitions are, and then also
+
+795
+00:45:23,251 --> 00:45:26,101
+with like learning languages,
+because there's things you can
+
+796
+00:45:26,550 --> 00:45:29,371
+there's things I want to Google,
+but cause I don't know the name
+
+797
+00:45:29,460 --> 00:45:33,990
+of the thing I'll be like, okay.
+So question mark.in JavaScript,
+
+798
+00:45:33,990 --> 00:45:35,221
+like, which is that.
+
+799
+00:45:36,766 --> 00:45:40,876
+Dan: Um, yes, that syntax,
+especially so hard to Google for.
+
+800
+00:45:40,965 --> 00:45:45,106
+Um, wait, is that, see, now I
+can't even remember. Is that the
+
+801
+00:45:45,106 --> 00:45:49,635
+newest one or is that. the, this
+is every time I, I, I, I, uh,
+
+802
+00:45:51,436 --> 00:45:54,916
+Yes, learning new languages is
+hard learning old, keeping up to
+
+803
+00:45:54,916 --> 00:45:56,445
+date with, um, you know,
+languages that you've been
+
+804
+00:45:56,445 --> 00:45:59,956
+writing in for a long time. It
+turns out also hard sometimes.
+
+805
+00:46:00,710 --> 00:46:00,951
+Jono: Just
+
+806
+00:46:01,635 --> 00:46:05,596
+Dan: Right? Learning, learning is
+hard, but Yeah. that idea of, um,
+
+807
+00:46:05,746 --> 00:46:13,815
+like learning the, the Google
+language for language, um, it's,
+
+808
+00:46:13,815 --> 00:46:16,396
+I feel like a very interesting
+concept and something that, um,
+
+809
+00:46:17,536 --> 00:46:22,050
+it's something that sort of. Uh,
+the, the way that people who are
+
+810
+00:46:22,050 --> 00:46:27,030
+experienced with a language or a
+concept, um, the way that they
+
+811
+00:46:27,030 --> 00:46:29,280
+Google for things is different
+right. Than, than the way it's
+
+812
+00:46:29,280 --> 00:46:31,050
+somebody who's, who's learning
+from scratch, you know, for
+
+813
+00:46:31,050 --> 00:46:34,110
+learning for the first time does.
+And, um, I feel like that's one
+
+814
+00:46:34,110 --> 00:46:39,135
+of the things that is cool. Um,
+Show in like pairing or, or, um,
+
+815
+00:46:39,195 --> 00:46:41,956
+streaming, uh, is those Google
+searches, you know, what are the
+
+816
+00:46:41,956 --> 00:46:45,195
+kinds of things I searched for?
+Cause I, you know, in JavaScript
+
+817
+00:46:45,255 --> 00:46:49,056
+I'm like a pretty effective
+Googler, you know what I mean?
+
+818
+00:46:49,056 --> 00:46:53,405
+And it's not, um, and I've done
+this where, uh, I have in slack,
+
+819
+00:46:53,646 --> 00:46:56,195
+you know, if somebody is asking
+for help, you know, and I've
+
+820
+00:46:56,195 --> 00:46:59,610
+tried to. Um, well, you know, I
+find the answer pretty quickly.
+
+821
+00:46:59,731 --> 00:47:03,331
+Um, and then I'm like, here is
+what I searched for to like, find
+
+822
+00:47:03,331 --> 00:47:05,221
+that, I don't know. I never know
+if that's helped like that. It's,
+
+823
+00:47:06,030 --> 00:47:08,791
+it's probably not that, I mean,
+seeing the process is probably
+
+824
+00:47:08,791 --> 00:47:10,561
+kind of helpful. I don't think
+you can just like teach yourself
+
+825
+00:47:10,561 --> 00:47:14,221
+how to Google and JavaScript
+before you, before you know it,
+
+826
+00:47:14,251 --> 00:47:17,130
+you know, I think it just comes
+along with learning, but, um, it
+
+827
+00:47:17,130 --> 00:47:19,141
+is a, it is an interesting thing
+that I don't think you think
+
+828
+00:47:19,141 --> 00:47:22,170
+about, um, often when you're,
+when you're in the middle of it
+
+829
+00:47:22,170 --> 00:47:24,916
+or when you're trying to. You
+know, trying to help somebody
+
+830
+00:47:24,936 --> 00:47:29,505
+learn, you know, things like
+that. It's, uh, the, I wonder if
+
+831
+00:47:29,505 --> 00:47:33,106
+there's a phrase for that because
+the Google language is not that
+
+832
+00:47:33,106 --> 00:47:35,115
+doesn't like this, right. Not
+very clear, but,
+
+833
+00:47:36,065 --> 00:47:37,286
+Jono: like how to Google that
+
+834
+00:47:37,576 --> 00:47:39,106
+Dan: how to Google and
+JavaScript, you know, like,
+
+835
+00:47:39,306 --> 00:47:39,635
+Jono: Yeah.
+
+836
+00:47:41,175 --> 00:47:43,606
+Dan: um, but it is, uh, um,
+
+837
+00:47:43,896 --> 00:47:44,135
+Jono: Yeah.
+
+838
+00:47:44,655 --> 00:47:46,425
+Dan: I don't know. It is cool
+that you mentioned that cause
+
+839
+00:47:46,425 --> 00:47:50,235
+it's a, you know, it is like an
+important piece of of learning I
+
+840
+00:47:50,235 --> 00:47:54,365
+think is. Is finding out how to
+find things out.
+
+841
+00:47:55,505 --> 00:47:58,686
+Jono: yeah. And it's, it's hard
+to think about that sometimes as
+
+842
+00:47:58,686 --> 00:48:01,175
+well, because once you've done
+it, a bunch of times, it becomes
+
+843
+00:48:01,505 --> 00:48:04,896
+almost like you just do it. It's
+like a thing you're even thinking
+
+844
+00:48:04,896 --> 00:48:08,945
+about. Um, but yeah. And then
+trying to explain that to someone
+
+845
+00:48:08,945 --> 00:48:11,615
+who's just starting, it's like,
+there's a bit of a disconnect
+
+846
+00:48:11,615 --> 00:48:13,956
+that sometimes, um, it can be
+really hard to explain.
+
+847
+00:48:14,286 --> 00:48:17,675
+Dan: Yeah. Yeah, absolutely. And
+you know, when you're coming from
+
+848
+00:48:18,215 --> 00:48:22,231
+a place where you. You know,
+pretty experienced with some
+
+849
+00:48:22,231 --> 00:48:25,891
+language, right? I, uh, you know,
+I feel like it makes learning new
+
+850
+00:48:25,891 --> 00:48:29,731
+languages a little easier because
+you have some, there is like some
+
+851
+00:48:29,791 --> 00:48:32,581
+shared vocabulary across pretty
+much all programming languages.
+
+852
+00:48:32,610 --> 00:48:37,291
+And so if you can remember some
+of them, uh, the, you know, the
+
+853
+00:48:37,291 --> 00:48:40,681
+syntax will be different, but
+the, the concepts, lots of times
+
+854
+00:48:40,681 --> 00:48:44,010
+will be the same, but you know,
+like string string interpretation
+
+855
+00:48:44,041 --> 00:48:47,356
+for, for instance, is, is a
+thing. You know, what that means
+
+856
+00:48:47,356 --> 00:48:50,626
+in JavaScript is basically you
+have one string and you can stick
+
+857
+00:48:50,626 --> 00:48:53,476
+variables inside of it. Um, I
+mean, that's what it means
+
+858
+00:48:53,476 --> 00:48:55,786
+everywhere. Right? And JavaScript
+does it one way and other
+
+859
+00:48:55,786 --> 00:48:59,206
+languages do a different way. But
+if you Google, you know, string
+
+860
+00:48:59,266 --> 00:49:02,295
+interpolation, elixir, you'll
+probably find the answer right
+
+861
+00:49:02,295 --> 00:49:07,271
+away. And if you. But if you
+can't remember that phrase, which
+
+862
+00:49:07,271 --> 00:49:10,391
+is what happens to me a lot, you
+know, then it's like, Okay. uh,
+
+863
+00:49:10,420 --> 00:49:13,451
+put two strings together with
+variable, you know, it looks
+
+864
+00:49:13,451 --> 00:49:15,340
+there or whatever, and that
+Google search will not be as
+
+865
+00:49:15,340 --> 00:49:18,490
+good, you know? And it's it's an,
+I mean, this happens to me
+
+866
+00:49:18,490 --> 00:49:21,940
+because these phrases, as you've
+seen during this, uh, pocket's
+
+867
+00:49:21,940 --> 00:49:24,581
+recording these phrases,
+disappear from my brain, um, very
+
+868
+00:49:24,581 --> 00:49:28,090
+quickly, uh, you know, and then
+they come back, but. And it's
+
+869
+00:49:28,090 --> 00:49:32,260
+it's um, it's another thing
+that's hard. I feel hard to when
+
+870
+00:49:32,260 --> 00:49:36,340
+you're learning, especially as a
+beginner, um, that you don't
+
+871
+00:49:36,340 --> 00:49:38,740
+think about it as, you know, like
+you have a power as an
+
+872
+00:49:38,740 --> 00:49:41,231
+experienced developer that you,
+you know, you probably don't
+
+873
+00:49:41,231 --> 00:49:41,681
+realize.
+
+874
+00:49:43,190 --> 00:49:46,221
+Jono: Yeah. And it also Oak
+place. Good.
+
+875
+00:49:46,365 --> 00:49:48,016
+Bekah: I was going to say, this
+goes back to your point about
+
+876
+00:49:48,016 --> 00:49:51,376
+communication and you know,
+you're writing and that's part of
+
+877
+00:49:51,376 --> 00:49:54,195
+communication and learning how to
+do that. But like even Googling
+
+878
+00:49:54,195 --> 00:49:58,186
+is part of communicating, um,
+being able to speak into the
+
+879
+00:49:58,186 --> 00:50:01,786
+world, what you need or what you
+want. Right. And so sometimes.
+
+880
+00:50:02,286 --> 00:50:06,155
+It's easier just to go to a group
+of people. Or I know like
+
+881
+00:50:06,155 --> 00:50:10,056
+yesterday I was working on how do
+I get a slack reminder to this
+
+882
+00:50:10,056 --> 00:50:12,425
+channel every single day? And I'm
+like, well, I know Marie did
+
+883
+00:50:12,425 --> 00:50:15,606
+that. So I'm just going to ask
+her first because it's late and I
+
+884
+00:50:15,606 --> 00:50:18,545
+need to get right to the source.
+And I know that she can point me
+
+885
+00:50:18,545 --> 00:50:21,005
+in the right direction. And she
+did, she was like, this is what I
+
+886
+00:50:21,005 --> 00:50:24,726
+look for. And it took me right to
+where I needed to be. And so
+
+887
+00:50:24,726 --> 00:50:29,940
+sometimes, you know, knowing who
+to ask the questions to. That can
+
+888
+00:50:29,940 --> 00:50:34,561
+help you understand how to ask
+them. The next time is a really
+
+889
+00:50:34,561 --> 00:50:38,521
+good step in communication and in
+learning or, you know, writing
+
+890
+00:50:38,521 --> 00:50:41,911
+whatever. But all of these things
+are ultimately skills that we all
+
+891
+00:50:41,911 --> 00:50:42,541
+need to be using.
+
+892
+00:50:44,541 --> 00:50:47,661
+Jono: yeah. Asking for help is so
+hard as well. When you're first
+
+893
+00:50:47,661 --> 00:50:50,630
+starting. I remember I did not
+ask enough questions when I was
+
+894
+00:50:50,661 --> 00:50:53,931
+signed to learn Ruby on Rails.
+And I felt like there was almost
+
+895
+00:50:53,931 --> 00:50:57,141
+this like stigma of like, it felt
+bad to ask questions. Like I had
+
+896
+00:50:57,141 --> 00:51:00,920
+to struggle with Google for a bit
+before I did. Um, and yeah, it
+
+897
+00:51:00,920 --> 00:51:04,351
+just, it's a terrible way to
+learn. Like, just ask someone.
+
+898
+00:51:04,706 --> 00:51:04,976
+Dan: Yeah,
+
+899
+00:51:06,181 --> 00:51:08,911
+Bekah: it is really hard. Well,
+and you went to university, so
+
+900
+00:51:08,940 --> 00:51:13,860
+you had the traditional English
+classroom experience. And so I'm
+
+901
+00:51:13,860 --> 00:51:16,920
+curious, cause I'm a bootcamp
+grad and I learned by myself. So
+
+902
+00:51:16,920 --> 00:51:20,101
+I don't, I didn't really have
+that experience of people asking
+
+903
+00:51:20,101 --> 00:51:25,380
+questions around me. Did, did
+that happen there? Maybe I'm
+
+904
+00:51:25,380 --> 00:51:27,960
+imagining in my head what, what I
+think it would be.
+
+905
+00:51:29,451 --> 00:51:32,780
+Jono: Yeah. Uh, yeah, I mean,
+people definitely ask questions
+
+906
+00:51:32,780 --> 00:51:35,806
+and those plenty of people that
+are just like, Very, I guess,
+
+907
+00:51:36,525 --> 00:51:40,036
+questions with answers that just
+went out of my head. Um, so
+
+908
+00:51:40,065 --> 00:51:44,746
+there's definitely a lot of
+courses in uni that I have not
+
+909
+00:51:44,775 --> 00:51:50,686
+found that useful in real life.
+Um, so yeah, it's both. It is
+
+910
+00:51:50,686 --> 00:51:53,835
+like, I guess it is time of told
+him that, that, um, ability to
+
+911
+00:51:53,835 --> 00:51:55,275
+ask the right question.
+
+912
+00:51:56,445 --> 00:51:59,365
+Bekah: Yeah. I mean, I guess, I
+mean, it's very different being
+
+913
+00:51:59,365 --> 00:52:02,655
+a, being in a university where
+you're expected to ask questions
+
+914
+00:52:02,686 --> 00:52:06,976
+versus like in a job, it seems
+like the stakes are a little bit
+
+915
+00:52:06,976 --> 00:52:10,695
+steeper or something. You know, I
+know that a lot of bootcamp grads
+
+916
+00:52:10,695 --> 00:52:13,096
+are like, yeah, I'm done with
+bootcamp. Like finally, this is,
+
+917
+00:52:13,516 --> 00:52:15,865
+I can breathe in like No.
+
+918
+00:52:16,081 --> 00:52:17,731
+Jono: Please. Did you ask all the
+questions?
+
+919
+00:52:19,030 --> 00:52:21,641
+Bekah: No. I mean, I didn't have
+the opportunity to ask a lot of
+
+920
+00:52:21,641 --> 00:52:25,811
+questions, um, because it was a
+self paced thing and there were
+
+921
+00:52:25,840 --> 00:52:30,070
+some opportunities for meeting
+with people, but there weren't
+
+922
+00:52:30,070 --> 00:52:34,090
+that many, and I just didn't
+really know about expectations.
+
+923
+00:52:34,090 --> 00:52:38,681
+Like, should I be working with
+others, students on things? And I
+
+924
+00:52:38,681 --> 00:52:41,351
+don't know, as a mom of four
+kids. So some people would be
+
+925
+00:52:41,351 --> 00:52:43,530
+like, yeah, we're getting
+together for five hours. Come.
+
+926
+00:52:44,731 --> 00:52:50,070
+No, I can't do that. Or that's
+late and I wake up early because
+
+927
+00:52:50,070 --> 00:52:54,931
+I've got kids. So I just never
+really kind of found, I think
+
+928
+00:52:54,931 --> 00:52:58,710
+maybe the group of people I could
+have learned from in that
+
+929
+00:52:58,710 --> 00:53:04,141
+situation. Um, but I mean, we, I
+talk about this all the time.
+
+930
+00:53:04,141 --> 00:53:07,621
+I've gotten a lot better with
+communicating. I don't usually
+
+931
+00:53:07,621 --> 00:53:11,701
+spend. Many hours on the same
+problem without asking a
+
+932
+00:53:11,701 --> 00:53:15,661
+question. And if I do, it's only
+because of my stubbornness, like
+
+933
+00:53:15,661 --> 00:53:19,530
+I know I can get this, you know,
+so that's, that's more of a me
+
+934
+00:53:19,530 --> 00:53:20,581
+problem, I think.
+
+935
+00:53:22,050 --> 00:53:22,201
+Dan: Okay.
+
+936
+00:53:22,740 --> 00:53:26,371
+Jono: Um, I think like you also
+touched on a really great point
+
+937
+00:53:26,371 --> 00:53:28,710
+where it's like, you didn't
+couldn't find the right people. I
+
+938
+00:53:28,710 --> 00:53:31,260
+think finding a community,
+especially when you're like just
+
+939
+00:53:31,260 --> 00:53:34,231
+starting out that really made a
+lot of difference. Um, in my
+
+940
+00:53:34,231 --> 00:53:37,231
+learning journey was finding like
+the code VB community and then
+
+941
+00:53:37,231 --> 00:53:39,570
+getting a bit more involved with
+like Ruby meetups and stuff, just
+
+942
+00:53:39,570 --> 00:53:41,880
+so I can have the people around
+me to actually also ask
+
+943
+00:53:41,880 --> 00:53:42,331
+questions.
+
+944
+00:53:44,561 --> 00:53:48,251
+Bekah: Yeah, and I love the Ruby
+community. I really thought after
+
+945
+00:53:48,251 --> 00:53:51,041
+boot camp, we did Ruby and rails
+and I thought, well, that's what
+
+946
+00:53:51,041 --> 00:53:55,391
+I'm going to get a job in because
+everybody was so nice. And I
+
+947
+00:53:55,451 --> 00:53:59,891
+liked it and I understood it and
+JavaScript and react. I was like,
+
+948
+00:54:00,311 --> 00:54:04,931
+oh, this is awful. Um, and, and
+here we are.
+
+949
+00:54:09,045 --> 00:54:10,155
+Dan: Yeah, JavaScript is awesome.
+
+950
+00:54:13,701 --> 00:54:14,331
+Jono: here's a thing.
+
+951
+00:54:15,561 --> 00:54:15,681
+Bekah: it,
+
+952
+00:54:17,695 --> 00:54:21,295
+Dan: I feel it, JavaScript fits
+my, you know, my way of doing
+
+953
+00:54:21,295 --> 00:54:25,681
+things, which is. Which is, you
+know, out whatever.
+
+954
+00:54:27,391 --> 00:54:31,050
+Bekah: I mean, I really enjoy it
+now. I like to be able to.
+
+955
+00:54:32,115 --> 00:54:34,815
+Problem solving the ways that I'm
+doing and think about things
+
+956
+00:54:34,815 --> 00:54:38,476
+differently. It just, I think a
+lot of it was, it just took me
+
+957
+00:54:38,476 --> 00:54:41,536
+time to understand all of the
+things that we're talking about,
+
+958
+00:54:41,536 --> 00:54:45,885
+like how to communicate it and
+how to understand it. And I don't
+
+959
+00:54:45,885 --> 00:54:49,815
+know, people just seem less
+friendly and JavaScript.
+
+960
+00:54:51,201 --> 00:54:53,840
+Jono: I think there's just a lot
+more JavaScript developers and no
+
+961
+00:54:53,840 --> 00:54:56,090
+knocking javascript, javascript
+is a great language to use
+
+962
+00:54:56,090 --> 00:54:58,911
+everywhere. Um, but yeah, there's
+just a lot of people using it. So
+
+963
+00:54:58,911 --> 00:55:01,670
+you get a much wider range of
+characters.
+
+964
+00:55:01,746 --> 00:55:04,476
+Dan: Yeah. And I think, uh, the
+full stack nature of JavaScript.
+
+965
+00:55:04,485 --> 00:55:06,666
+So you can write in, you know,
+Node and you can write in
+
+966
+00:55:07,085 --> 00:55:09,965
+whatever browser, you know, or
+react to it. Everything is like
+
+967
+00:55:10,865 --> 00:55:13,536
+you say, you write JavaScript and
+that doesn't even mean anything
+
+968
+00:55:13,565 --> 00:55:16,326
+anymore. I mean, it means it
+doesn't really tell you a lot of
+
+969
+00:55:16,326 --> 00:55:18,666
+information about what they're
+actually doing. Whereas, you
+
+970
+00:55:18,666 --> 00:55:22,005
+know, if somebody is doing rails.
+I can imagine pretty much what
+
+971
+00:55:22,005 --> 00:55:25,846
+they're doing, you know, uh, like
+from on a day to day, you know,
+
+972
+00:55:26,356 --> 00:55:30,525
+uh, basis, you know what I mean?
+It's like, if somebody says, oh,
+
+973
+00:55:30,525 --> 00:55:32,596
+I write Node, you know, okay,
+that's cool. Like that means
+
+974
+00:55:32,596 --> 00:55:35,326
+you're doing some backend stuff.
+Um, but maybe just, you know,
+
+975
+00:55:35,356 --> 00:55:38,085
+there's all those people are
+writing in JavaScript as well,
+
+976
+00:55:38,115 --> 00:55:39,976
+you know? And all of the people
+are writing reacts and all the
+
+977
+00:55:39,976 --> 00:55:43,876
+people writing Vue and just
+writing vanilla JavaScript on,
+
+978
+00:55:44,056 --> 00:55:49,456
+you know, on simple webpages, uh,
+In the same pool of people.
+
+979
+00:55:49,585 --> 00:55:53,416
+Right. So, um, and Java
+JavaScript doesn't have like,
+
+980
+00:55:55,396 --> 00:55:59,356
+well, I don't know. The, you
+know, Ruby started with at least,
+
+981
+00:55:59,356 --> 00:56:02,175
+uh, or rails started with, you
+know, that the, this sort of
+
+982
+00:56:02,175 --> 00:56:04,996
+community lead around rails, um,
+that built up as well. I know
+
+983
+00:56:04,996 --> 00:56:08,206
+they had some struggles recently,
+but, um, I feel like that's, I
+
+984
+00:56:08,206 --> 00:56:12,016
+feel like, honestly, that's part
+of the, um, and I'm not deep in
+
+985
+00:56:12,016 --> 00:56:14,206
+the Ruby community, so you can
+correct me if I'm wrong, but I do
+
+986
+00:56:14,206 --> 00:56:19,215
+feel like that was part of the
+community. They. Back in, um,
+
+987
+00:56:19,246 --> 00:56:22,485
+when was that? 15 years ago or
+something like that, uh, around
+
+988
+00:56:22,485 --> 00:56:23,985
+rails, you know, cause that's
+when that's when I started
+
+989
+00:56:23,985 --> 00:56:27,525
+hearing about Ruby was when
+rails, you know, um, got going
+
+990
+00:56:27,525 --> 00:56:30,615
+and, um, a lot of people just
+kind of excited about the same
+
+991
+00:56:30,615 --> 00:56:32,266
+thing all at once, you know, in a
+positive way.
+
+992
+00:56:33,510 --> 00:56:36,735
+Jono: yeah, a hundred percent.
+Yeah. I mean, Yeah. Obviously
+
+993
+00:56:36,735 --> 00:56:40,126
+there's definitely some topics to
+be discussed around rails and the
+
+994
+00:56:40,126 --> 00:56:43,306
+community. But I think like a lot
+of that started to, because
+
+995
+00:56:43,365 --> 00:56:47,416
+everyone wanted something better
+than PHB. And I think it was
+
+996
+00:56:47,416 --> 00:56:50,146
+really groundbreaking at the
+time. Um, and it still is like
+
+997
+00:56:50,146 --> 00:56:52,096
+everyone, there's still big
+companies like Shopify. So you
+
+998
+00:56:52,126 --> 00:56:57,045
+still use as rails. Um, so yeah,
+there's, I think a lot of people
+
+999
+00:56:57,045 --> 00:57:00,315
+kind of wanted that change,
+especially from the Ruby
+
+1000
+00:57:00,315 --> 00:57:00,795
+community.
+
+1001
+00:57:02,451 --> 00:57:05,481
+Bekah: So I going to back up
+maybe a little bit, just a second
+
+1002
+00:57:05,510 --> 00:57:10,070
+too. So we talked about, you
+know, you're doing rails and
+
+1003
+00:57:10,221 --> 00:57:15,016
+there's an expectation maybe of
+what that looks like, but. Can
+
+1004
+00:57:15,016 --> 00:57:18,016
+you walk us through what that
+does look like, like practically,
+
+1005
+00:57:18,016 --> 00:57:23,085
+like what are you doing at work?
+What does your day-to-day look.
+
+1006
+00:57:24,471 --> 00:57:28,501
+Jono: Yeah. So I think the
+day-to-day really is around. Um,
+
+1007
+00:57:29,851 --> 00:57:32,280
+I think it's pretty similar to
+most other jobs where you take an
+
+1008
+00:57:32,280 --> 00:57:37,291
+issue and you, you pick it up.
+And, um, a lot of the rail stuff
+
+1009
+00:57:37,411 --> 00:57:41,521
+is really just about connecting
+with all our different, um,
+
+1010
+00:57:42,001 --> 00:57:45,331
+Components. So we have kind of
+this rails engine type
+
+1011
+00:57:45,451 --> 00:57:48,751
+architecture. So just making sure
+that and rails engine is really
+
+1012
+00:57:48,751 --> 00:57:50,880
+just like a library that you can
+just like plug into your
+
+1013
+00:57:50,880 --> 00:57:54,751
+application. Um, so making sure
+those connections work, um, and
+
+1014
+00:57:54,751 --> 00:57:59,101
+then using, we use graph QL a lot
+Shopify. So I'm just like
+
+1015
+00:57:59,121 --> 00:58:02,010
+learning about that aspect too,
+and how everything kind of fits
+
+1016
+00:58:02,010 --> 00:58:04,260
+together. I'm not sure if I
+answered the question though,
+
+1017
+00:58:05,550 --> 00:58:09,780
+Bekah: Um, I think that's, that's
+a good way to think about how,
+
+1018
+00:58:09,860 --> 00:58:17,356
+how you're approaching your day
+to day and what's going on. So I
+
+1019
+00:58:17,356 --> 00:58:22,215
+feel like I don't want to leave
+this podcast without giving you a
+
+1020
+00:58:22,215 --> 00:58:25,606
+huge shout out for sending me Tim
+Tams,
+
+1021
+00:58:27,570 --> 00:58:28,351
+Jono: You're welcome.
+
+1022
+00:58:28,695 --> 00:58:35,746
+Bekah: changing experience. So
+can you explain to everyone what
+
+1023
+00:58:35,746 --> 00:58:36,916
+a Tim Tam is?
+
+1024
+00:58:37,791 --> 00:58:42,561
+Jono: sure I can. They are an
+Australian chocolate biscuit that
+
+1025
+00:58:42,561 --> 00:58:45,920
+is covered in chocolate. And the
+two layers of the biscuit also
+
+1026
+00:58:45,920 --> 00:58:50,541
+has chocolate in between the two
+layers. Um, so it's pretty
+
+1027
+00:58:50,541 --> 00:58:53,391
+amazing. And there's different
+flavors in Australia where you
+
+1028
+00:58:53,391 --> 00:58:57,650
+can get different stuffings in
+the middle. Um, you get double
+
+1029
+00:58:57,650 --> 00:58:59,181
+coat. I think I sent you a double
+coat
+
+1030
+00:58:59,246 --> 00:59:00,025
+Bekah: did send me a double.
+Okay.
+
+1031
+00:59:00,081 --> 00:59:03,286
+Jono: Yeah. Okay. Which is like,
+Just a thick layer of chocolate.
+
+1032
+00:59:03,885 --> 00:59:07,155
+It's yeah. It's, uh, it's been
+really good. I've been rationing
+
+1033
+00:59:07,155 --> 00:59:09,885
+them out as well. We've like,
+we're almost out
+
+1034
+00:59:10,210 --> 00:59:14,530
+Bekah: Which I should have ration
+them out. I will not tell you how
+
+1035
+00:59:14,530 --> 00:59:16,871
+many of them I ate for breakfast
+every
+
+1036
+00:59:17,106 --> 00:59:17,525
+Jono: Yeah.
+
+1037
+00:59:18,130 --> 00:59:21,371
+Bekah: Okay. So do you prefer the
+double dip tip and Tams or the
+
+1038
+00:59:21,371 --> 00:59:22,121
+single
+
+1039
+00:59:23,016 --> 00:59:25,835
+Jono: the double K for sure um,
+but
+
+1040
+00:59:26,081 --> 00:59:27,280
+Bekah: enjoyed the single here.
+
+1041
+00:59:27,666 --> 00:59:32,010
+Jono: Ooh, interesting. I just
+love the more chocolate to swing
+
+1042
+00:59:32,010 --> 00:59:34,490
+one chocolate. Um, sorry, Dan.
+I'll just send you something
+
+1043
+00:59:34,641 --> 00:59:35,751
+Dan: Yeah, no, I'm just, uh,
+
+1044
+00:59:36,786 --> 00:59:37,175
+Bekah: missing
+
+1045
+00:59:37,400 --> 00:59:38,990
+Dan: Tim, Tim Tam -less over
+here.
+
+1046
+00:59:39,735 --> 00:59:42,615
+Bekah: glad there are not Tim
+Tams and Kroger because
+
+1047
+00:59:42,621 --> 00:59:43,431
+Dan: sounds dangerous.
+
+1048
+00:59:43,786 --> 00:59:44,925
+Bekah: they are very dangerous.
+
+1049
+00:59:46,041 --> 00:59:48,530
+Jono: it was so easy and it's not
+that many in a pack.
+
+1050
+00:59:50,456 --> 00:59:50,516
+Dan: Yeah.
+
+1051
+00:59:50,931 --> 00:59:52,130
+Bekah: there were not enough
+
+1052
+00:59:53,210 --> 00:59:53,710
+Jono: Yeah.
+
+1053
+00:59:53,840 --> 00:59:58,041
+Bekah: simultaneously asleep too
+much. Do you now, do you eat your
+
+1054
+00:59:58,041 --> 01:00:02,300
+Tim Tams with tea? Because I
+heard that's how you should do
+
+1055
+01:00:02,300 --> 01:00:03,650
+it, but I had mine with coffee.
+
+1056
+01:00:04,235 --> 01:00:08,545
+Jono: Yeah. Um, so I think tea's
+the way you go. You probably have
+
+1057
+01:00:08,556 --> 01:00:11,076
+the coffee. I just not sure. I
+guess coffee chocolate would be a
+
+1058
+01:00:11,076 --> 01:00:14,766
+pretty nice flavor combination.
+Um, but there's a thing called
+
+1059
+01:00:14,766 --> 01:00:19,271
+the Tim Tam Slam where you bite
+it, like each end of the Tim Tam
+
+1060
+01:00:19,411 --> 01:00:23,070
+and you like suck the tea or
+coffee through the Tim-Tam like a
+
+1061
+01:00:23,070 --> 01:00:25,800
+straw and it like melts the
+chocolate a little bit. And then
+
+1062
+01:00:25,800 --> 01:00:27,780
+you just like shove the whole
+thing, your mouth, and you just
+
+1063
+01:00:27,780 --> 01:00:30,271
+have like a multiple and
+chocolate with some crunchy
+
+1064
+01:00:30,271 --> 01:00:32,911
+texture and also the flavor of
+the tea or coffee.
+
+1065
+01:00:33,581 --> 01:00:34,041
+Dan: Sounds amazing.
+
+1066
+01:00:34,800 --> 01:00:36,090
+Jono: Yeah. It's very messy.
+
+1067
+01:00:37,476 --> 01:00:37,835
+Bekah: I feel
+
+1068
+01:00:38,041 --> 01:00:38,661
+Jono: You have to find that
+
+1069
+01:00:38,826 --> 01:00:41,166
+Bekah: stream coming up or where
+you're going to be trying out
+
+1070
+01:00:41,166 --> 01:00:41,315
+some
+
+1071
+01:00:41,376 --> 01:00:44,405
+Dan: Yeah, we gotta, we gotta, we
+gotta, get some to some people
+
+1072
+01:00:44,405 --> 01:00:45,666
+and we'll do a group, you know?
+
+1073
+01:00:47,235 --> 01:00:50,356
+Bekah: wasn't like I fully
+intended to save them for virtual
+
+1074
+01:00:50,356 --> 01:00:54,255
+coffees and have them a little
+bit at a time just going to do
+
+1075
+01:00:54,255 --> 01:00:54,405
+it.
+
+1076
+01:00:54,936 --> 01:00:57,786
+Jono: that they're just too good.
+Yeah. There's a balance with Tim
+
+1077
+01:00:57,786 --> 01:01:01,896
+Tam slams. I've definitely waited
+too long in the toughie, in the
+
+1078
+01:01:01,896 --> 01:01:05,826
+tea dunk and the whole Tim Tam
+just like slid off and I've been
+
+1079
+01:01:05,826 --> 01:01:08,556
+like, well, now I just have a
+Tim-Tam in my, and that's less
+
+1080
+01:01:08,885 --> 01:01:09,485
+delicious.
+
+1081
+01:01:12,626 --> 01:01:14,335
+Dan: Oh, practice. Right. And
+practice a little,
+
+1082
+01:01:14,360 --> 01:01:15,260
+Jono: Yeah, exactly.
+
+1083
+01:01:15,295 --> 01:01:16,346
+Bekah: I've got a practice.
+
+1084
+01:01:16,371 --> 01:01:17,990
+Jono: It's like the best practice
+you could do.
+
+1085
+01:01:20,905 --> 01:01:22,226
+Dan: a man. That sounds really
+good.
+
+1086
+01:01:23,096 --> 01:01:24,956
+Bekah: We're going to do that at
+our conference. We'll do some
+
+1087
+01:01:24,956 --> 01:01:26,396
+Tim-Tam slams. That'll be a
+
+1088
+01:01:27,226 --> 01:01:29,686
+Dan: Yeah, can we get, uh, I
+mean, we should reach out it's
+
+1089
+01:01:29,686 --> 01:01:34,695
+Tim-Tam um, sorry, a brand or, or
+like a, you know, a product that
+
+1090
+01:01:34,695 --> 01:01:35,326
+a brand makes.
+
+1091
+01:01:36,081 --> 01:01:39,860
+Jono: it's a product that a brand
+makes so on. It is the brand, um,
+
+1092
+01:01:40,226 --> 01:01:42,235
+Dan: So that's what we should
+reach out to you for a sponsor.
+
+1093
+01:01:42,661 --> 01:01:43,260
+Jono: Exactly.
+
+1094
+01:01:44,996 --> 01:01:47,695
+Dan: Either get the podcast
+sponsored by we'll just start it
+
+1095
+01:01:47,695 --> 01:01:49,436
+start every podcast episode with
+the Tim Tams.
+
+1096
+01:01:49,766 --> 01:01:51,626
+Bekah: they don't have to give us
+money. They just need to
+
+1097
+01:01:51,840 --> 01:01:52,231
+Jono: Yeah.
+
+1098
+01:01:52,771 --> 01:01:53,490
+Dan: Yeah, no, no, no.
+
+1099
+01:01:56,065 --> 01:01:56,425
+Bekah: that's it.
+
+1100
+01:01:59,490 --> 01:02:02,610
+Jono: Oh yeah. That'd be amazing.
+I could be, yeah, Tim Tams
+
+1101
+01:02:02,760 --> 01:02:05,835
+little. They also have. So, if
+you take a flight back to
+
+1102
+01:02:05,835 --> 01:02:09,706
+Australia, they'll have like
+little single pack, Tim Tams that
+
+1103
+01:02:09,706 --> 01:02:12,286
+they give you as like, you know,
+the plane snack food. So we'll
+
+1104
+01:02:12,286 --> 01:02:14,596
+have that in the VC swag bag.
+
+1105
+01:02:14,840 --> 01:02:14,960
+Dan: Oh
+
+1106
+01:02:15,036 --> 01:02:15,695
+Bekah: Yes,
+
+1107
+01:02:17,501 --> 01:02:17,800
+Dan: Yep.
+
+1108
+01:02:17,885 --> 01:02:18,905
+Bekah: so many great ideas.
+
+1109
+01:02:20,181 --> 01:02:20,521
+Dan: Good.
+
+1110
+01:02:22,335 --> 01:02:26,115
+Bekah: Okay. So I feel like
+that's a, a really, oh man. I was
+
+1111
+01:02:26,115 --> 01:02:31,396
+going to punt so bad right there.
+I'm not going to do it. Nope. Not
+
+1112
+01:02:31,396 --> 01:02:35,175
+doing it. It's a really great way
+to wrap up the podcast. I think,
+
+1113
+01:02:35,505 --> 01:02:40,365
+um, with something, Nope. Still
+somebody stopped me from putting,
+
+1114
+01:02:43,900 --> 01:02:47,110
+Dan: need more puns on this
+podcast. I'm I'm pro I'm pro pro
+
+1115
+01:02:47,201 --> 01:02:48,041
+pro pun.
+
+1116
+01:02:48,420 --> 01:02:54,300
+Bekah: I could embrace that. No.
+Did you just say no?
+
+1117
+01:02:54,735 --> 01:02:57,135
+Dan: I did not. I, I was I'm in
+favor, as I said,
+
+1118
+01:02:57,510 --> 01:02:58,621
+Bekah: Okay. All right.
+
+1119
+01:02:59,235 --> 01:03:01,606
+Dan: a bus just drove. I don't
+know if that's what you heard.
+
+1120
+01:03:02,251 --> 01:03:05,311
+Bekah: the bus said no, the
+universe has
+
+1121
+01:03:05,556 --> 01:03:07,775
+Dan: I just ignore it. I just
+ignore what the, what the bus
+
+1122
+01:03:07,775 --> 01:03:09,065
+says outside it's you know?
+
+1123
+01:03:09,130 --> 01:03:09,190
+Bekah: Yeah.
+
+1124
+01:03:09,695 --> 01:03:09,786
+Dan: Okay.
+
+1125
+01:03:10,246 --> 01:03:13,786
+Bekah: That seems like the right
+thing to do. Um, anyway, thank
+
+1126
+01:03:13,786 --> 01:03:17,025
+you for the Tim Tams and thank
+you for being on the podcast. I
+
+1127
+01:03:17,025 --> 01:03:22,186
+feel like, uh, this was a really
+good exploration of the digital
+
+1128
+01:03:22,215 --> 01:03:25,396
+gardening and learning and
+growing, and this was a lot of
+
+1129
+01:03:25,396 --> 01:03:26,476
+fun. So thanks for
+
+1130
+01:03:26,481 --> 01:03:27,771
+Jono: Yeah, thanks so much for
+having me.
+
+1131
+01:03:28,335 --> 01:03:31,215
+Dan: Yeah. Um, yeah, I'll also
+add my thanks. It was fun.
+
+1132
+01:03:34,208 --> 01:03:36,518
+Bekah: Thank you for listening to
+this episode of the Virtual
+
+1133
+01:03:36,518 --> 01:03:40,797
+Coffee Podcast. This episode was
+produced by Dan Ott and Bekah
+
+1134
+01:03:40,797 --> 01:03:45,097
+Hawrot Weigel and edited by Dan
+Ott. If you have questions or
+
+1135
+01:03:45,097 --> 01:03:49,347
+comments, you can hit us up on
+Twitter at VirtualCoffeeIO, or
+
+1136
+01:03:49,347 --> 01:03:53,978
+you can email us at
+podcast@virtualcoffee.io. You can
+
+1137
+01:03:53,978 --> 01:03:56,918
+find the show notes, plus you can
+sign up for our newsletter to
+
+1138
+01:03:56,918 --> 01:04:00,737
+find out what Virtual Coffee's
+been up to on our website at
+
+1139
+01:04:00,737 --> 01:04:02,338
+virtualcoffee.io.
+
+1140
+01:04:03,052 --> 01:04:05,782
+Dan: Please subscribe to our
+podcast and be sure to leave us a
+
+1141
+01:04:05,782 --> 01:04:08,963
+review. Thanks for listening. And
+we'll see you next week.

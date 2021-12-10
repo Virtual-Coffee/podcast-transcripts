@@ -1,0 +1,4496 @@
+1
+00:00:14,039 --> 00:00:17,640
+Bekah Hawrot Weigel: Hello, and
+welcome to season two, Episode
+
+2
+00:00:17,640 --> 00:00:22,440
+Four of the Virtual Coffee
+podcast. I'm Bekah, and this is
+
+3
+00:00:22,440 --> 00:00:25,679
+a podcast that features members
+of the Virtual Coffee community.
+
+4
+00:00:26,339 --> 00:00:29,250
+Virtual Coffee is an intimate
+group of developers at all
+
+5
+00:00:29,250 --> 00:00:32,670
+stages of their coding journey.
+And they're here on this podcast
+
+6
+00:00:32,670 --> 00:00:35,490
+sharing their stories and what
+they've learned. And we're here
+
+7
+00:00:35,520 --> 00:00:39,299
+to share it with you. Here with
+me today is my co host, Dan.
+
+8
+00:00:40,380 --> 00:00:42,780
+Dan Ott: Thanks, Bekah. Today,
+we're joined by Debra-Kaye
+
+9
+00:00:42,810 --> 00:00:46,140
+Elliott. Debra-Kaye is a front
+end developer going through a
+
+10
+00:00:46,140 --> 00:00:48,630
+bootcamp on she's adding a
+community learning to her
+
+11
+00:00:48,630 --> 00:00:51,659
+learning process. And she's a
+career changer from the
+
+12
+00:00:51,659 --> 00:00:56,310
+administrative field, and has
+always wanted to be in tech. And
+
+13
+00:00:56,310 --> 00:00:59,579
+we talked about what it's like
+to be on the self taught
+
+14
+00:00:59,670 --> 00:01:04,079
+developer journey, which I can
+tell you is a long one. We
+
+15
+00:01:04,079 --> 00:01:07,469
+talked about imposter syndrome.
+And also some of the key things
+
+16
+00:01:07,680 --> 00:01:09,480
+that Debra-Kaye has learned
+along the way.
+
+17
+00:01:10,109 --> 00:01:11,939
+Bekah Hawrot Weigel: We start
+every episode of the podcast
+
+18
+00:01:11,939 --> 00:01:15,209
+like we start every Virtual
+Coffee, we introduce ourselves
+
+19
+00:01:15,209 --> 00:01:19,019
+with our name, where we're from
+what we do, and a random check
+
+20
+00:01:19,019 --> 00:01:23,010
+in question. Today's random
+checking question is, if you
+
+21
+00:01:23,010 --> 00:01:26,790
+were famous, what would you be
+famous for? We hope you enjoy
+
+22
+00:01:26,790 --> 00:01:39,540
+this episode.
+Hey, I'm Bekah, I'm a front end
+
+23
+00:01:35,879 --> 00:01:46,650
+developer from a small town in
+Ohio. And if I could be famous
+
+24
+00:01:39,540 --> 00:01:51,540
+for anything, I think--I like
+approach this in two ways, like
+
+25
+00:01:46,650 --> 00:01:51,540
+one: like what might be possible
+
+26
+00:01:51,569 --> 00:01:56,010
+or like two: anything? So I
+really like the superhero, the
+
+27
+00:01:56,010 --> 00:02:03,629
+flash, and so I would like to be
+famous for being the flash. And,
+
+28
+00:02:04,079 --> 00:02:06,659
+Dan Ott: like the flash
+specifically, or just very, very
+
+29
+00:02:06,659 --> 00:02:07,319
+fast?
+
+30
+00:02:07,950 --> 00:02:09,599
+Bekah Hawrot Weigel: I don't
+know. I think I think I would
+
+31
+00:02:09,599 --> 00:02:19,740
+like to be Barry Allen. If but,
+if I had to do something that is
+
+32
+00:02:19,740 --> 00:02:24,479
+more practical than that, I
+would want to be the strongest
+
+33
+00:02:24,479 --> 00:02:27,900
+mom in the world. I think I was
+telling someone earlier today. I
+
+34
+00:02:27,900 --> 00:02:32,280
+like weight lifting, heavy
+things. So I will be the
+
+35
+00:02:32,280 --> 00:02:35,370
+strongest mom, because that
+that's realistic too.
+
+36
+00:02:38,550 --> 00:02:41,729
+Dan Ott: Hi, I'm Dan. I'm a
+front end developer from
+
+37
+00:02:41,909 --> 00:02:48,990
+Lakewood, Ohio. I am not going
+practical at all. I my first
+
+38
+00:02:49,319 --> 00:02:53,159
+instinct was you know, spaceship
+flying. So like, like, you know,
+
+39
+00:02:53,189 --> 00:02:55,289
+the the Millennium Falcon or
+whatever, you know, doing the
+
+40
+00:02:55,289 --> 00:02:57,960
+Kessel Run. I basically like
+that'd be my famous you know,
+
+41
+00:02:58,139 --> 00:03:00,780
+out Dan. Oh, man. He's thinking
+he's the fastest you know,
+
+42
+00:03:00,960 --> 00:03:04,830
+spaceship flyer there is so
+that's that's that's what that's
+
+43
+00:03:04,830 --> 00:03:05,250
+my choice,
+
+44
+00:03:05,639 --> 00:03:06,479
+Bekah Hawrot Weigel: spaceship
+flyer?
+
+45
+00:03:06,479 --> 00:03:09,270
+Dan Ott: --spaceship pilot I
+realized flyers are silly way to
+
+46
+00:03:09,270 --> 00:03:13,830
+say. But, you know, so be it.
+That's what it is: Dan, the
+
+47
+00:03:13,830 --> 00:03:14,729
+spaceship flyer.
+
+48
+00:03:17,030 --> 00:03:20,479
+Debra-Kaye: Hi, I am Debra-Kaye,
+front end developer from
+
+49
+00:03:20,479 --> 00:03:28,250
+Jamaica. If I was to be famous
+for anything. Um, my first
+
+50
+00:03:28,340 --> 00:03:32,270
+answer would be like, fiction
+novels, because I am a sucker
+
+51
+00:03:32,270 --> 00:03:37,069
+for fiction. And I tend to put a
+book down when I start to read
+
+52
+00:03:37,069 --> 00:03:40,909
+it. And I have a really long
+book list of books to read. And
+
+53
+00:03:40,909 --> 00:03:44,270
+then my second answer would be
+I'm so happy to pick a superhero
+
+54
+00:03:44,270 --> 00:03:49,789
+because my favorite superheroes
+are Captain Marvel and Deadpool.
+
+55
+00:03:49,789 --> 00:03:54,199
+So like if I could combine their
+two powers into one like that
+
+56
+00:03:54,199 --> 00:03:57,770
+would be because like I'm a
+little bit obsessed with
+
+57
+00:03:57,770 --> 00:04:02,419
+Deadpool. I don't know why I
+love Ryan Reynolds. So yeah, so
+
+58
+00:04:02,599 --> 00:04:04,729
+I have two answers for those
+surprisingly so I'm so happy
+
+59
+00:04:04,729 --> 00:04:08,150
+that it's not, like practical
+because I always go for
+
+60
+00:04:08,150 --> 00:04:10,039
+superhero and books first.
+
+61
+00:04:10,789 --> 00:04:12,889
+Dan Ott: That's sweet. That's
+pretty awesome. What are you
+
+62
+00:04:12,889 --> 00:04:13,789
+what are you reading right now?
+
+63
+00:04:14,909 --> 00:04:20,759
+Debra-Kaye: Um, so I'm reading
+its title-- let me, one sec
+
+64
+00:04:20,819 --> 00:04:27,899
+sorry cuz. Yeah, cuz I am almost
+halfway, Well, I'm past halfway
+
+65
+00:04:27,899 --> 00:04:34,500
+through the book. And it's by
+Estella Vasquez Perez in her
+
+66
+00:04:34,500 --> 00:04:38,459
+last name is. And it's a
+series. So I'm on the second
+
+67
+00:04:38,459 --> 00:04:45,300
+book. And it's called Dark
+Serenade. Yeah, so it's
+
+68
+00:04:45,300 --> 00:04:48,990
+Montenegro Book Two dark
+serenade by Estella Vasquez
+
+69
+00:04:48,990 --> 00:04:49,620
+Perez.
+
+70
+00:04:50,310 --> 00:04:52,110
+Dan Ott: Well you're on Book
+Two, then you must have like the
+
+71
+00:04:52,110 --> 00:04:52,350
+first.
+
+72
+00:04:52,350 --> 00:04:54,899
+Debra-Kaye: Yes, there's three
+books so yeah, actually bought
+
+73
+00:04:54,899 --> 00:04:58,529
+this one because the first one
+was free, I know they knew what
+
+74
+00:04:58,529 --> 00:05:01,589
+to do series first And then see
+f you like, it sounds like you
+
+75
+00:05:01,589 --> 00:05:04,709
+eed to finish series. So two or
+three now.
+
+76
+00:05:05,220 --> 00:05:09,540
+Dan Ott: That's awesome. Nice.
+I've gotten into a bad habit of
+
+77
+00:05:09,600 --> 00:05:11,699
+getting the first book of a
+series on the library or
+
+78
+00:05:11,699 --> 00:05:14,490
+whatever. And then just like the
+second one isn't available, and
+
+79
+00:05:14,490 --> 00:05:18,750
+I need it and just buy it, or if
+I can find the set, because I'm
+
+80
+00:05:18,750 --> 00:05:20,550
+just like, Alright, well, I
+know, I'm just gonna do this
+
+81
+00:05:20,550 --> 00:05:21,449
+with the third one or whatever.
+
+82
+00:05:22,709 --> 00:05:24,629
+Bekah Hawrot Weigel: Yeah, I
+always make the mistake of
+
+83
+00:05:24,629 --> 00:05:27,298
+waiting for it to come in from
+the library. And then by the
+
+84
+00:05:27,298 --> 00:05:30,509
+time it comes in, I'm like, what
+happened in book one?
+
+85
+00:05:32,699 --> 00:05:36,389
+Debra-Kaye: Like, what I've been
+trying to do now is if I see
+
+86
+00:05:36,389 --> 00:05:39,658
+that the book is a series, after
+like, decide, okay, I'm either
+
+87
+00:05:39,658 --> 00:05:42,629
+gonna read through the entire
+series before I take up any
+
+88
+00:05:42,629 --> 00:05:47,459
+other book, or leave that until
+like the very end, because if I
+
+89
+00:05:47,459 --> 00:05:50,548
+started series, I don't want to
+be like, okay, read book one,
+
+90
+00:05:51,178 --> 00:05:53,579
+then start something and then
+forgot what happened in that
+
+91
+00:05:53,579 --> 00:05:56,309
+book, one would have to meet
+over so Yeah, totally.
+
+92
+00:05:57,120 --> 00:05:59,310
+Bekah Hawrot Weigel: It's a good
+strategy. Alright, Debra-Kaye,
+
+93
+00:05:59,310 --> 00:06:02,790
+we are super happy to have you
+here with us today. And we
+
+94
+00:06:02,790 --> 00:06:06,839
+always like to get started with
+what brought a person to this
+
+95
+00:06:06,839 --> 00:06:10,019
+place in their life. So if you
+want to give us the Debra-Kaye
+
+96
+00:06:10,050 --> 00:06:12,480
+origin story, we would love to
+hear it.
+
+97
+00:06:13,588 --> 00:06:20,399
+Debra-Kaye: Oh, I could talk
+about this all day. Oh, I'm so
+
+98
+00:06:20,699 --> 00:06:23,608
+actually studied information
+technology. I did my degree in
+
+99
+00:06:23,608 --> 00:06:28,499
+information technology, like
+seven years ago, eight years
+
+100
+00:06:28,499 --> 00:06:33,028
+ago. Um, because I always like
+to take always like the web--I
+
+101
+00:06:33,059 --> 00:06:37,858
+taught myselt to use a computer
+when I was like 16. But just
+
+102
+00:06:37,858 --> 00:06:41,788
+didn't really have any sense of
+direction and didn't know what
+
+103
+00:06:41,788 --> 00:06:45,749
+development was, I think so just
+didn't really know how to get
+
+104
+00:06:45,749 --> 00:06:51,959
+into the field. So I studied IT,
+did a degree and just never got
+
+105
+00:06:51,959 --> 00:06:55,019
+a job in it. Because that is
+wasn't able to when there was no
+
+106
+00:06:55,019 --> 00:07:01,319
+guidance, no anything. And where
+I'm from in Jamaica, it's mostly
+
+107
+00:07:01,408 --> 00:07:06,869
+always system admins, network
+admins, and I dislike hardware.
+
+108
+00:07:06,869 --> 00:07:10,408
+I did not like hardware. But
+I'll play it with software all
+
+109
+00:07:10,408 --> 00:07:15,809
+day. So I just didn't know what
+to do, how to get in it. And it
+
+110
+00:07:15,809 --> 00:07:20,309
+always seemed like programming
+was this rocket science thing
+
+111
+00:07:20,309 --> 00:07:24,778
+that only certain people could
+do. So I was like, Okay, I don't
+
+112
+00:07:24,778 --> 00:07:28,649
+know what to do with. So I
+discovered I like design too. So
+
+113
+00:07:28,649 --> 00:07:31,678
+I did like a couple of courses
+in graphic design. And then I
+
+114
+00:07:31,678 --> 00:07:35,579
+was like, Okay, I'll go to that.
+But then after a year, I was
+
+115
+00:07:35,579 --> 00:07:40,108
+like, No, I really don't like it
+as much. I like it, but not as
+
+116
+00:07:40,108 --> 00:07:45,629
+much as I did. And then in 2019,
+I was like, wait, it's time to
+
+117
+00:07:45,629 --> 00:07:48,329
+be active on Twitter again
+because I had an account, but
+
+118
+00:07:48,329 --> 00:07:51,088
+just didn't do anything with it.
+And I kept seeing people talk
+
+119
+00:07:51,088 --> 00:07:54,869
+about this thing. I was like,
+wait, this is a thing. And then
+
+120
+00:07:54,869 --> 00:08:01,738
+I got the courage to dm somebody
+and ask them like, how do you go
+
+121
+00:08:01,738 --> 00:08:04,408
+about this? What is it, and they
+were like, what do you what do
+
+122
+00:08:04,408 --> 00:08:07,649
+you like? And they're announced,
+like saying like, okay, you
+
+123
+00:08:07,649 --> 00:08:11,369
+could do UX UI. And I was like,
+Okay, then I went down that
+
+124
+00:08:11,369 --> 00:08:14,338
+rabbit hole of research for
+months and months and months.
+
+125
+00:08:14,968 --> 00:08:17,819
+And that's an aside to realize,
+like, oh, but development is a
+
+126
+00:08:17,819 --> 00:08:22,798
+thing. People actually do this.
+And it can be done. I don't have
+
+127
+00:08:22,798 --> 00:08:27,178
+to go back to university for it.
+Okay, how do I do this? So I
+
+128
+00:08:27,178 --> 00:08:31,019
+went down the rabbit hole and
+bookmarked all the courses and
+
+129
+00:08:31,199 --> 00:08:34,288
+enrolled in lots of things that
+I to this day haven't gotten
+
+130
+00:08:34,288 --> 00:08:37,948
+back to. But when I actually
+started to realize that there
+
+131
+00:08:37,948 --> 00:08:42,958
+was actually a way a path to
+actually do it. I was like,
+
+132
+00:08:42,958 --> 00:08:46,499
+Okay, yeah, this is a, this is a
+side of things to figure out how
+
+133
+00:08:46,499 --> 00:08:49,408
+to do it. But this is the this
+is what I've been searching for.
+
+134
+00:08:49,438 --> 00:08:53,249
+And when I was always I don't
+have to know, every single
+
+135
+00:08:53,249 --> 00:08:59,519
+thing. And there are certain
+things that you should know. But
+
+136
+00:08:59,519 --> 00:09:02,908
+then there are other paths in
+tech that you really don't need
+
+137
+00:09:02,908 --> 00:09:07,889
+to get into. Like, okay, I can
+do this. So I'm probably going
+
+138
+00:09:07,889 --> 00:09:13,109
+to need some some help, but it
+can be done. So that's a long
+
+139
+00:09:13,109 --> 00:09:18,479
+winded we have over the course
+of several years. Yeah.
+
+140
+00:09:19,980 --> 00:09:21,389
+Bekah Hawrot Weigel: I think
+that's so great. And I think
+
+141
+00:09:21,389 --> 00:09:23,730
+that so many of us, like, I
+know, I've been down that rabbit
+
+142
+00:09:23,730 --> 00:09:28,529
+hole a number of times, right?
+And there is so much out there
+
+143
+00:09:28,529 --> 00:09:31,950
+to try and figure out like what
+everybody will say like, Well,
+
+144
+00:09:31,950 --> 00:09:34,470
+what do you like doing? And
+sometimes you don't even know
+
+145
+00:09:34,470 --> 00:09:37,620
+what you like doing because you
+don't know what's available and
+
+146
+00:09:37,000 --> 00:09:40,149
+Debra-Kaye: And sometimes it's
+more than one thing too.
+
+147
+00:09:40,240 --> 00:09:41,230
+Dan Ott: Yeah, for sure.
+
+148
+00:09:42,220 --> 00:09:43,899
+Bekah Hawrot Weigel: Yeah. And
+figuring out how those work
+
+149
+00:09:43,899 --> 00:09:46,690
+together. I think it's really
+great that you dm somebody and
+
+150
+00:09:46,690 --> 00:09:49,690
+ask for help because I think
+that can be a struggle just to
+
+151
+00:09:49,690 --> 00:09:53,080
+get to that place and to know
+that you know you were willing
+
+152
+00:09:53,080 --> 00:09:56,470
+to put yourself out there is
+such a great first step.
+
+153
+00:09:57,269 --> 00:10:01,049
+Debra-Kaye: Yeah, and funny
+thing too when I did that  I DM
+
+154
+00:10:01,080 --> 00:10:05,789
+is this guy that I have been
+following for a while on
+
+155
+00:10:05,789 --> 00:10:10,350
+Twitter, but he is a, I think
+he's a Ruby on Rails developer,
+
+156
+00:10:10,350 --> 00:10:16,590
+if I'm not mistaken. And he has
+been doing it for like, over 10
+
+157
+00:10:16,590 --> 00:10:22,230
+years because he like taught
+himself. And he, I sent him this
+
+158
+00:10:22,230 --> 00:10:25,169
+long message. And I was like,
+you know, and he'll never see
+
+159
+00:10:25,169 --> 00:10:28,440
+this, and he'll never respond.
+And he actually responded, I was
+
+160
+00:10:28,440 --> 00:10:32,340
+like, Oh, my god. And he's like,
+yeah, you can do this, just
+
+161
+00:10:32,340 --> 00:10:36,360
+like, Look, look into this
+avenue, since you like design.
+
+162
+00:10:36,360 --> 00:10:39,659
+And I was like, Oh, my god,
+somebody responded, and from him
+
+163
+00:10:39,659 --> 00:10:43,710
+telling me that you can do it.
+And he was also self taught, I
+
+164
+00:10:43,710 --> 00:10:46,980
+was like, Oh, my god, it's
+actually a thing. Like, there's
+
+165
+00:10:46,980 --> 00:10:50,519
+actually some kind of path here,
+some kind of Avenue, there's a
+
+166
+00:10:50,519 --> 00:10:53,730
+way to actually get into this
+field, because I always wanted
+
+167
+00:10:53,730 --> 00:10:58,740
+to be in tech, but I just never
+got an opportunity to. And
+
+168
+00:10:58,740 --> 00:11:01,529
+actually, for someone to
+actually who's been doing it for
+
+169
+00:11:01,529 --> 00:11:06,720
+a while, and encouraging people
+to get into tech and tell you
+
+170
+00:11:06,720 --> 00:11:09,870
+that, hey, it can be done.
+There's actually a way they seem
+
+171
+00:11:09,870 --> 00:11:14,039
+to figure out what works for
+you. But it can be done. So that
+
+172
+00:11:14,039 --> 00:11:14,970
+was really cool.
+
+173
+00:11:17,090 --> 00:11:21,259
+Dan Ott: I love that. I was
+wondering like how he said, find
+
+174
+00:11:21,259 --> 00:11:25,250
+out which ways work for you. So
+what have you found to be the
+
+175
+00:11:25,250 --> 00:11:28,669
+most like personally useful, you
+know, tools to learn other
+
+176
+00:11:28,669 --> 00:11:32,090
+courses or tutorials? Or, you
+know, what kind of what kind of
+
+177
+00:11:32,090 --> 00:11:33,500
+strategies, or have you been
+using?
+
+178
+00:11:34,649 --> 00:11:37,379
+Debra-Kaye: I have been in--No,
+I won't, I won't say another
+
+179
+00:11:37,379 --> 00:11:41,159
+tutoria hell- I'm not saying
+tutorial hell. But I, when I
+
+180
+00:11:41,159 --> 00:11:45,149
+started, I was enrolling in
+every free course that I could
+
+181
+00:11:45,149 --> 00:11:48,509
+find. Because you know, there's
+a treehouse, and there's Udemy.
+
+182
+00:11:48,509 --> 00:11:52,649
+And there's everything. So I
+have like a bookmark folder full
+
+183
+00:11:52,679 --> 00:11:56,820
+of courses that I could sign up
+for. And then I signed up for a
+
+184
+00:11:56,820 --> 00:12:01,110
+bunch of Udemy courses, never
+took them, but like I signed up
+
+185
+00:12:01,110 --> 00:12:05,700
+for them. And then I bought like
+one or two Udemy courses, that
+
+186
+00:12:05,700 --> 00:12:10,139
+recommended ones. And I still
+haven't gotten to those that I
+
+187
+00:12:10,139 --> 00:12:13,289
+bought yet. And then I started a
+Free Code Camp. And then I was
+
+188
+00:12:13,289 --> 00:12:18,690
+doing I'm currently doing front
+end masters. And then I was like
+
+189
+00:12:18,720 --> 00:12:22,860
+10 attorneys do two three at the
+same time. And it took me like,
+
+190
+00:12:23,429 --> 00:12:26,909
+four months to realize that
+Okay, one of them is not
+
+191
+00:12:26,909 --> 00:12:30,779
+sticking with information. And
+it just wasn't understanding.
+
+192
+00:12:31,470 --> 00:12:34,379
+And it's like, okay, trying to
+juggle too many courses at the
+
+193
+00:12:34,379 --> 00:12:38,820
+same time. They're all the
+basically the fundamentals of
+
+194
+00:12:38,820 --> 00:12:42,570
+HTML, CSS, I haven't gotten to
+JavaScript yet. But I was trying
+
+195
+00:12:42,570 --> 00:12:48,120
+to like balance. What I was
+learning from one boot camp, to
+
+196
+00:12:48,120 --> 00:12:50,129
+what I was doing with the other
+I was like, wait, but they
+
+197
+00:12:50,129 --> 00:12:52,889
+didn't show me this one in this
+boot camp. So this doesn't make
+
+198
+00:12:52,889 --> 00:12:58,019
+sense. And I had to just decide
+like, okay, pick one. Job, the
+
+199
+00:12:58,019 --> 00:13:04,679
+others, try to finish this one,
+and then maybe pick up another
+
+200
+00:13:04,679 --> 00:13:09,809
+one afterwards. So I was, so I
+mainly use some front end
+
+201
+00:13:09,809 --> 00:13:14,190
+masters, and of course, YouTube.
+And I haven't even gotten to the
+
+202
+00:13:14,190 --> 00:13:18,570
+Udemy ones yet. But I have like,
+one boot camp with me because I
+
+203
+00:13:18,570 --> 00:13:21,929
+did buy the cold Steel's boot
+camp last year, but I still
+
+204
+00:13:21,929 --> 00:13:28,230
+haven't gotten to it yet. So
+main sources, front end masters.
+
+205
+00:13:29,580 --> 00:13:33,480
+Free Code Camp here for some
+little things like piece of code
+
+206
+00:13:33,480 --> 00:13:37,620
+that I know that I honestly
+better than and Udemy and
+
+207
+00:13:37,620 --> 00:13:42,389
+YouTube.  Yeah. Those are the
+main ones.
+
+208
+00:13:44,039 --> 00:13:45,990
+Bekah Hawrot Weigel: I think it
+can be super hard as you're
+
+209
+00:13:45,990 --> 00:13:48,360
+trying to figure that out, too.
+Right? Like you're seeing there
+
+210
+00:13:48,360 --> 00:13:53,519
+can be conflicting material or
+one teaches one approach. And
+
+211
+00:13:53,549 --> 00:13:57,990
+there's, it just makes it really
+hard to kind of learn. But also,
+
+212
+00:13:57,990 --> 00:14:02,759
+if you can find something that's
+good, I was doing a boot camp
+
+213
+00:14:02,820 --> 00:14:07,470
+before I went to flat iron that
+I just dreaded opening up every
+
+214
+00:14:07,470 --> 00:14:12,240
+morning. Because the material
+was just so hard for me. It was
+
+215
+00:14:12,240 --> 00:14:16,110
+a lot of videos, and I struggle
+with videos. And they just kept
+
+216
+00:14:16,110 --> 00:14:19,980
+trying to make jokes in the
+videos. And I was so frustrated
+
+217
+00:14:19,980 --> 00:14:24,750
+with it. Like just just tell me
+what I need to do. And then just
+
+218
+00:14:24,840 --> 00:14:28,230
+deciding I'm not doing this,
+it's not worth it. If it's gonna
+
+219
+00:14:28,230 --> 00:14:31,620
+make me frustrated and hate what
+I'm doing, then I need to find
+
+220
+00:14:31,620 --> 00:14:34,200
+something better. And that works
+for me. And so I think that
+
+221
+00:14:34,200 --> 00:14:37,590
+sometimes exactly what you did
+is a good path, like look at
+
+222
+00:14:37,590 --> 00:14:40,740
+these things, and then kind of
+figure out what you need to
+
+223
+00:14:40,740 --> 00:14:41,399
+focus on.
+
+224
+00:14:42,210 --> 00:14:46,679
+Debra-Kaye: Yeah, and the funny
+thing is like I was doing and
+
+225
+00:14:46,710 --> 00:14:50,820
+granted, granted. Free Code Camp
+is a great resource, like that's
+
+226
+00:14:50,820 --> 00:14:54,360
+the first thing I tell everybody
+to go to. And like for the first
+
+227
+00:14:54,360 --> 00:14:58,440
+like couple sections. I was like
+okay, yeah, I understand this,
+
+228
+00:14:58,769 --> 00:15:03,179
+but I got like, half Through
+CSS, and I was like, I don't
+
+229
+00:15:03,179 --> 00:15:06,480
+know what I'm doing. And it will
+say things like, you know,
+
+230
+00:15:06,480 --> 00:15:10,169
+remember so and so I was like, I
+would have to literally go back
+
+231
+00:15:10,169 --> 00:15:13,500
+to that read the thing again, do
+the little exercise again,
+
+232
+00:15:13,500 --> 00:15:17,159
+because I just wasn't getting
+it. And then I kept switching
+
+233
+00:15:17,159 --> 00:15:19,889
+between that and something else.
+And that's important in frontend
+
+234
+00:15:19,889 --> 00:15:23,940
+masters. I was like, I need to
+pick one. And when I started
+
+235
+00:15:23,940 --> 00:15:27,539
+frontend Masters again, for
+like, the third time, I was
+
+236
+00:15:27,539 --> 00:15:31,740
+like, Oh, wait, this makes
+sense. No. And it took me like
+
+237
+00:15:31,740 --> 00:15:36,960
+partway through to realize that
+I wasn't learning inline CSS for
+
+238
+00:15:37,559 --> 00:15:41,970
+one boot camp, and external CSS
+for the other one. And that's
+
+239
+00:15:41,970 --> 00:15:47,009
+why it wasn't clicking. Because
+I despise inline CSS, like, I
+
+240
+00:15:47,009 --> 00:15:49,649
+just don't read the code. I was
+like, I don't know what this is
+
+241
+00:15:49,649 --> 00:15:52,919
+saying. But it is the external
+stylesheet what I can see
+
+242
+00:15:52,919 --> 00:15:58,860
+everything like, lined up. I was
+like, oh, and that's when he
+
+243
+00:15:58,860 --> 00:16:01,529
+starts to click. And I was like,
+okay, yep, jump in this one for
+
+244
+00:16:01,529 --> 00:16:03,720
+now, because I don't understand
+anything here. And let me go do
+
+245
+00:16:03,720 --> 00:16:06,570
+this one, because I understand
+this one better. And I also
+
+246
+00:16:06,570 --> 00:16:10,710
+like, boot camps or tutorials
+where you get like little
+
+247
+00:16:10,710 --> 00:16:14,340
+exercises to do on your own. And
+you actually have to write the
+
+248
+00:16:14,340 --> 00:16:18,210
+code or to yourself, that you
+have to type it from beginning
+
+249
+00:16:18,210 --> 00:16:21,720
+from your h1, and you have to
+like everything on your own,
+
+250
+00:16:21,720 --> 00:16:25,919
+because it helps us do better
+than when a tutorial gives you a
+
+251
+00:16:25,919 --> 00:16:29,220
+part of the code. And you have
+to like change a little one lane
+
+252
+00:16:29,220 --> 00:16:33,179
+or a little change a color. So
+for me, it worked better, where
+
+253
+00:16:33,179 --> 00:16:37,830
+I had to, like, type everything
+out myself, because it helped it
+
+254
+00:16:37,830 --> 00:16:38,429
+stick out.
+
+255
+00:16:40,279 --> 00:16:44,840
+Dan Ott: Yeah, I'm the same way
+I am. I don't know, I don't ever
+
+256
+00:16:44,870 --> 00:16:47,960
+remember anything from like
+reading or watching videos or
+
+257
+00:16:47,960 --> 00:16:50,929
+anything like that until I until
+I can actually, you know, write
+
+258
+00:16:50,929 --> 00:16:55,220
+it or apply it or whatever.
+Whether it's exercise, you know,
+
+259
+00:16:55,220 --> 00:16:58,309
+at the end of a course, or, you
+know, actually trying to do a
+
+260
+00:16:58,309 --> 00:17:02,360
+project that uses whatever I
+learned that kind of thing. For
+
+261
+00:17:02,360 --> 00:17:05,900
+me, that is always it's always a
+way to make it actually stick in
+
+262
+00:17:05,900 --> 00:17:08,750
+my brain and if I'm going to be
+honest, to actually understand
+
+263
+00:17:08,750 --> 00:17:11,029
+it, you know, I'll sit there not
+through a video or a talk or
+
+264
+00:17:11,029 --> 00:17:15,109
+something, and I won't ever if
+somebody asked me a question at
+
+265
+00:17:15,109 --> 00:17:19,849
+the end, I'd be like, I'm not
+really sure. Until I, it's I sit
+
+266
+00:17:19,849 --> 00:17:22,369
+there and use it, you know? And
+I'm like, okay, yes, yeah.
+
+267
+00:17:23,869 --> 00:17:26,480
+Debra-Kaye: Yeah, and one of the
+things that I found that work
+
+268
+00:17:26,480 --> 00:17:30,230
+for me too, is like, shorter
+videos, because there are some
+
+269
+00:17:30,230 --> 00:17:35,180
+tutorials that are like, an hour
+long, four hours long, like 20
+
+270
+00:17:35,210 --> 00:17:39,710
+hours, this and you know, and I,
+like I can't, my attention span
+
+271
+00:17:39,710 --> 00:17:43,789
+is like really short. So like,
+with the front end masters
+
+272
+00:17:43,789 --> 00:17:46,549
+videos, they're all like really
+short, like a minute, four
+
+273
+00:17:46,549 --> 00:17:50,299
+minutes, five minutes. But for
+me watching a video is actually
+
+274
+00:17:50,990 --> 00:17:54,950
+like, the instructor will say
+one thing and be like, to do
+
+275
+00:17:54,950 --> 00:17:57,950
+this, you do this, and I hit
+pause, and I'll just start to
+
+276
+00:17:57,950 --> 00:18:04,910
+try to do it. So for me watching
+a video is like me spending two
+
+277
+00:18:04,910 --> 00:18:07,880
+hours trying to get through one
+video, because I will just hit
+
+278
+00:18:07,880 --> 00:18:13,670
+pause and try to do it, and
+rewind and try it again. So a
+
+279
+00:18:13,670 --> 00:18:15,829
+one hour video for me could
+probably take like, I don't
+
+280
+00:18:15,829 --> 00:18:18,680
+know, five hours because I don't
+like to make plays through I
+
+281
+00:18:18,680 --> 00:18:22,309
+will just, stop trying to do it.
+Didn't get that. Okay, and then
+
+282
+00:18:22,309 --> 00:18:24,890
+play it again. Try to do it.
+Yeah.
+
+283
+00:18:26,339 --> 00:18:27,930
+Bekah Hawrot Weigel: I think
+that's a really great point.
+
+284
+00:18:28,170 --> 00:18:32,190
+Like you just said, a one hour
+video can take me five hours,
+
+285
+00:18:32,400 --> 00:18:35,339
+right? Because sometimes when
+you're learning something, you
+
+286
+00:18:35,339 --> 00:18:37,380
+think like, Okay, well, I'm
+gonna sit here for an hour, I
+
+287
+00:18:37,380 --> 00:18:41,069
+have an hour. But that's not
+practical application of what
+
+288
+00:18:41,069 --> 00:18:43,680
+you're learning. And so as
+you're going through those
+
+289
+00:18:43,680 --> 00:18:46,680
+things, actually doing them,
+it's going to take more time,
+
+290
+00:18:46,680 --> 00:18:49,380
+but you're going to learn more
+in the long run. And so thinking
+
+291
+00:18:49,380 --> 00:18:54,390
+about it like that, in terms of
+I remember when I was in boot
+
+292
+00:18:54,390 --> 00:19:01,529
+camp, I had maybe complain that
+it wasn't clear how long each
+
+293
+00:19:01,529 --> 00:19:05,519
+lesson was going to take or
+exercise. And then somebody
+
+294
+00:19:05,519 --> 00:19:09,119
+responded, and they said, Well,
+you know, part of it is learning
+
+295
+00:19:09,119 --> 00:19:12,960
+how long it is going to take you
+because it will be different for
+
+296
+00:19:12,960 --> 00:19:16,349
+everyone else. And that was a
+lesson that didn't really click
+
+297
+00:19:16,349 --> 00:19:19,500
+with me until later. But, you
+know, depending on where you're
+
+298
+00:19:19,500 --> 00:19:24,450
+at, and how you approach it, and
+how much you've taken and
+
+299
+00:19:24,450 --> 00:19:27,809
+understood from the previous
+lessons, it's going to affect
+
+300
+00:19:27,809 --> 00:19:31,079
+how long that thing is going to
+take you. And don't judge
+
+301
+00:19:31,230 --> 00:19:35,099
+yourself based on how long it
+takes you judge how much
+
+302
+00:19:35,099 --> 00:19:37,920
+progress you've made and think
+about like how much you've
+
+303
+00:19:37,920 --> 00:19:41,309
+learned through doing that. It's
+not it's not a race, right?
+
+304
+00:19:42,410 --> 00:19:47,299
+Debra-Kaye: And something that
+you also realize, too, there are
+
+305
+00:19:47,299 --> 00:19:50,420
+some things that even though
+you've done it to through the
+
+306
+00:19:50,420 --> 00:19:53,809
+video, so you may you know, stop
+and code it. There's some things
+
+307
+00:19:53,809 --> 00:19:57,859
+that you just can't remember to
+do. Or something that you kind
+
+308
+00:19:57,859 --> 00:20:00,230
+of can't figure out why it's not
+working but they didn't Realize
+
+309
+00:20:00,230 --> 00:20:03,259
+that you didn't do something or
+you missed something in the
+
+310
+00:20:03,259 --> 00:20:05,539
+code. And then there are other
+things that you'd have to think
+
+311
+00:20:05,539 --> 00:20:08,240
+about you just type it because
+it's just there in your brain
+
+312
+00:20:08,240 --> 00:20:10,160
+and some things just don't stick.
+
+313
+00:20:12,929 --> 00:20:15,868
+Dan Ott: Yeah, yeah. And that's,
+I mean, that's like part of
+
+314
+00:20:15,868 --> 00:20:18,298
+learning how to code, right? You
+know, and trying to do that,
+
+315
+00:20:18,298 --> 00:20:21,388
+while you're watching a video,
+watching it in the middle of an
+
+316
+00:20:21,388 --> 00:20:27,868
+hour long video seems
+challenging, the best as egghead
+
+317
+00:20:27,868 --> 00:20:33,358
+has their courses. So it's like
+a course on a topic, but it's a
+
+318
+00:20:33,358 --> 00:20:37,199
+series of, you know, of short
+videos, like you're saying, you
+
+319
+00:20:37,199 --> 00:20:40,769
+know, and so they have like
+broken up, you know, built in
+
+320
+00:20:40,769 --> 00:20:42,898
+pauses. So it's like, one,
+you're gonna learn and like a
+
+321
+00:20:42,898 --> 00:20:46,828
+large thing, and it's how, you
+know, an hour long, an hour's
+
+322
+00:20:46,828 --> 00:20:49,528
+worth of content, but you just
+see that it's broken up. This is
+
+323
+00:20:49,528 --> 00:20:52,409
+like, a minute and a half
+chapter or whatever it is,
+
+324
+00:20:52,439 --> 00:20:55,078
+whatever they call it, but I
+like the way that they they
+
+325
+00:20:55,078 --> 00:20:58,919
+organize that because they kind
+of realize that nobody is going
+
+326
+00:20:58,919 --> 00:21:01,888
+to really learn anything
+sitting, consuming for an hour,
+
+327
+00:21:01,919 --> 00:21:06,148
+you know? or not, I shouldn't
+say nobody. But you know, it's,
+
+328
+00:21:06,148 --> 00:21:08,368
+it's probably challenging for a
+lot of people to do that. Do it
+
+329
+00:21:08,368 --> 00:21:08,699
+that way.
+
+330
+00:21:09,630 --> 00:21:11,880
+Debra-Kaye: And then some things
+you will still have to Google.
+
+331
+00:21:12,119 --> 00:21:15,480
+Oh, yeah. Because some things
+you just can't remember.
+
+332
+00:21:17,579 --> 00:21:21,869
+Dan Ott: on that, that's also
+always true. I don't know, I've
+
+333
+00:21:21,869 --> 00:21:24,660
+been you know, I've been a
+developer for for a while now.
+
+334
+00:21:24,660 --> 00:21:28,710
+And I google that mean, I google
+things every, every day as that
+
+335
+00:21:28,710 --> 00:21:31,079
+I don't know, multiple times a
+day, if you know, if I'm going,
+
+336
+00:21:31,799 --> 00:21:34,529
+I can't, I can't recover.
+There's one. There's like an
+
+337
+00:21:34,529 --> 00:21:37,529
+array method that just a
+JavaScript thing. That is just
+
+338
+00:21:37,529 --> 00:21:40,380
+like been the same for 100
+years. And I, I literally just
+
+339
+00:21:40,380 --> 00:21:44,430
+can't remember the order of you
+know how things go in. I look it
+
+340
+00:21:44,430 --> 00:21:46,559
+up every single time. I don't
+know, I don't know what it is
+
+341
+00:21:46,619 --> 00:21:52,230
+mental block, but that Google is
+top top developer tool.
+
+342
+00:21:54,599 --> 00:21:57,569
+Bekah Hawrot Weigel: That's,
+I've been writing my blog with
+
+343
+00:21:57,569 --> 00:22:00,420
+markdown for a couple of years
+now. And I can never remember
+
+344
+00:22:00,420 --> 00:22:03,450
+the right format for the link.
+Like I googled it every single
+
+345
+00:22:03,450 --> 00:22:06,630
+time every years, right, and it
+just wouldn't stick. And then I
+
+346
+00:22:06,630 --> 00:22:09,539
+had tweeted about it. And people
+like offered me all of these
+
+347
+00:22:09,539 --> 00:22:12,960
+different ways to remember it.
+And finally one of them clicked
+
+348
+00:22:12,960 --> 00:22:17,099
+and now now I don't have to
+Google it, the brackets, the
+
+349
+00:22:17,339 --> 00:22:20,519
+brackets come first and the
+parentheses come second, like a
+
+350
+00:22:20,519 --> 00:22:23,430
+function. I think that's what
+they were kind of saying,
+
+351
+00:22:23,700 --> 00:22:27,029
+anyway, doesn't matter. It makes
+sense to me. And now I don't
+
+352
+00:22:27,029 --> 00:22:33,839
+need to give up. But I did for
+like two years straight. And I
+
+353
+00:22:33,839 --> 00:22:36,180
+think that's kind of part of the
+other thing, too, right? Like,
+
+354
+00:22:36,210 --> 00:22:39,839
+sometimes you'll be presented
+the information and somebody,
+
+355
+00:22:39,869 --> 00:22:41,849
+there will be 12 people that
+give you a different
+
+356
+00:22:41,849 --> 00:22:45,180
+explanation. And that one
+explanation will fit. And I
+
+357
+00:22:45,180 --> 00:22:49,470
+think there's a tendency for new
+developers or people who are
+
+358
+00:22:49,470 --> 00:22:53,789
+learning to think about, well, I
+can't get this in this other
+
+359
+00:22:53,789 --> 00:22:57,420
+person got it. And so I must not
+be good enough for this, right.
+
+360
+00:22:57,809 --> 00:23:02,460
+And that's not true. It's just
+not presented in a way that
+
+361
+00:23:02,579 --> 00:23:06,630
+makes sense to your brain or
+something that's easily usable.
+
+362
+00:23:06,660 --> 00:23:09,329
+But that's why it's great to
+have so many different people
+
+363
+00:23:09,329 --> 00:23:11,970
+writing blogs or creating
+content, because there's more
+
+364
+00:23:12,000 --> 00:23:15,210
+options for you to kind of
+search out and, and figure out
+
+365
+00:23:15,210 --> 00:23:16,289
+what works for you.
+
+366
+00:23:17,470 --> 00:23:21,190
+Debra-Kaye: That took me a while
+to understand that and took me a
+
+367
+00:23:21,190 --> 00:23:26,440
+while to accept to because I was
+like I sorted it, this should be
+
+368
+00:23:26,440 --> 00:23:28,900
+easy for me. And I kind of
+thought going into this that it
+
+369
+00:23:28,900 --> 00:23:33,069
+would be so easy because I did a
+degree in it. And when I did my
+
+370
+00:23:33,069 --> 00:23:39,700
+degree I did Java and c++. And
+granted, I didn't understand a
+
+371
+00:23:39,700 --> 00:23:44,890
+thing in Java. Like, I just
+couldn't get it. I mean that I
+
+372
+00:23:44,890 --> 00:23:50,529
+had to get so much help with
+that course. And I did. c++, did
+
+373
+00:23:50,529 --> 00:23:57,009
+discrete maths and started
+thinking called I can't remember
+
+374
+00:23:57,009 --> 00:23:59,799
+the name of the other course.
+And I was like, Okay, I managed
+
+375
+00:23:59,799 --> 00:24:03,490
+to get through those granted a
+lot of help because they were
+
+376
+00:24:03,490 --> 00:24:07,480
+just, it wasn't clicking. And my
+issue was she loved programming.
+
+377
+00:24:07,480 --> 00:24:09,609
+Like she's like a hardcore
+programmer. And she's like, you
+
+378
+00:24:09,609 --> 00:24:16,630
+should do this. And you should
+go to your masters now. But I
+
+379
+00:24:16,630 --> 00:24:20,319
+just it just wasn't clicking.
+And when I found out about web
+
+380
+00:24:20,319 --> 00:24:23,680
+development, I was like, Okay,
+this should be easy for me to be
+
+381
+00:24:23,680 --> 00:24:27,549
+able to catch on because I
+started it and I Tinker in it
+
+382
+00:24:27,549 --> 00:24:31,000
+all the time, but it just wasn't
+clicking. And that kind of
+
+383
+00:24:31,000 --> 00:24:35,529
+starts to feel like, maybe it's
+me. And especially when you see
+
+384
+00:24:35,529 --> 00:24:38,470
+so many other developers out
+there who've been doing this for
+
+385
+00:24:38,470 --> 00:24:42,700
+five years, 10 years, 20 years,
+and they make everything so
+
+386
+00:24:42,700 --> 00:24:47,529
+easy. You start to feel like
+okay, maybe you're not just cut
+
+387
+00:24:47,529 --> 00:24:50,440
+up, maybe you're not cut out for
+it. Maybe you're just this is
+
+388
+00:24:50,440 --> 00:24:57,309
+not for you. And it really took
+me a while to realize that,
+
+389
+00:24:57,400 --> 00:25:00,339
+okay, I'm not the only person
+who struggles with someone These
+
+390
+00:25:00,339 --> 00:25:05,440
+things like, it's actually not
+as easy as people make it look,
+
+391
+00:25:05,740 --> 00:25:09,400
+for some people, it may click
+quicker than some, but it's, if
+
+392
+00:25:09,400 --> 00:25:13,839
+it was kind of easy, everybody
+would do it took me a while to
+
+393
+00:25:13,869 --> 00:25:15,220
+get to that place.
+
+394
+00:25:16,109 --> 00:25:19,500
+Dan Ott: Yeah, I think that's
+really important. And I mean,
+
+395
+00:25:19,500 --> 00:25:24,089
+I'm glad to have gotten to that
+realization, because it comes up
+
+396
+00:25:24,089 --> 00:25:28,349
+a lot. And I've been thinking
+about this, I've been thinking
+
+397
+00:25:28,349 --> 00:25:32,549
+about this recently about how
+everybody is, I keep saying
+
+398
+00:25:32,549 --> 00:25:35,880
+everybody, but lots of people
+learn in ways similar to you,
+
+399
+00:25:35,880 --> 00:25:41,279
+right? Sort of on their own
+different courses, you know,
+
+400
+00:25:41,309 --> 00:25:44,640
+maybe boot camps or whatever,
+but much different than sort of
+
+401
+00:25:44,670 --> 00:25:49,410
+in school, right. And so, if you
+were going in school, you'd be
+
+402
+00:25:49,470 --> 00:25:53,579
+in a class with other people.
+And you're not following 7000
+
+403
+00:25:53,579 --> 00:25:55,680
+people who are already experts
+at what you're learning. And so,
+
+404
+00:25:56,279 --> 00:26:00,809
+you know, and I've been thinking
+about how to, like, approach
+
+405
+00:26:00,809 --> 00:26:04,140
+that, right? Because, on one
+hand, I like following people
+
+406
+00:26:04,140 --> 00:26:09,059
+who are, you know, domain
+experts in whatever it is I want
+
+407
+00:26:09,059 --> 00:26:11,910
+to learn about, but at the same
+time, that that sort of
+
+408
+00:26:11,910 --> 00:26:15,450
+pressure, external pressure, and
+it's not even the it's not even
+
+409
+00:26:15,450 --> 00:26:21,269
+those, anybody's fault, right.
+But once you know, something,
+
+410
+00:26:22,289 --> 00:26:26,880
+you probably like to talk about
+it. Right? But coming from when
+
+411
+00:26:26,880 --> 00:26:29,819
+you don't know it, you know,
+it's just like you're saying, it
+
+412
+00:26:29,819 --> 00:26:32,789
+can seem it can seem like they
+make it seem easy, you know, and
+
+413
+00:26:33,180 --> 00:26:36,089
+how to how to approach that like
+learning process, when you're
+
+414
+00:26:36,119 --> 00:26:40,710
+when you're starting out. How to
+avoid falling, falling into that
+
+415
+00:26:40,710 --> 00:26:43,019
+trap, you know, of like,
+following all those people,
+
+416
+00:26:43,019 --> 00:26:45,000
+because you're like, Okay, let's
+have developers to follow, you
+
+417
+00:26:45,000 --> 00:26:48,450
+know, like, follow these
+different, different Twitter
+
+418
+00:26:48,450 --> 00:26:52,619
+accounts, and, or whatever it is
+blog posts. And meanwhile,
+
+419
+00:26:52,619 --> 00:26:55,589
+there's like 1000s and 1000s
+people in the exact same boat,
+
+420
+00:26:55,619 --> 00:27:00,150
+you know, struggling and, you
+know, trying to push through
+
+421
+00:27:00,150 --> 00:27:02,400
+everything and trying to figure
+out what to learn next, and
+
+422
+00:27:04,829 --> 00:27:07,680
+they're not on all the top
+developers to follow lists, you
+
+423
+00:27:07,680 --> 00:27:10,619
+know, you know what I mean?
+It's, I know, it's an
+
+424
+00:27:10,619 --> 00:27:17,730
+interesting problem. And I don't
+have any solutions or anything,
+
+425
+00:27:17,730 --> 00:27:19,950
+but you know, it's an
+interesting problem to think
+
+426
+00:27:19,950 --> 00:27:26,430
+about. And you're not like, I
+just lots of people we talk to
+
+427
+00:27:26,430 --> 00:27:29,609
+here at Virtual Coffee, on the
+podcast or in, you know, Virtual
+
+428
+00:27:29,609 --> 00:27:34,319
+Coffee proper, I guess, around
+the table and then have the same
+
+429
+00:27:34,319 --> 00:27:36,930
+sort of realizations, you know,
+that, like, it's a struggle,
+
+430
+00:27:36,930 --> 00:27:39,960
+it's hard. It's hard to learn.
+And it's hard to learn anything
+
+431
+00:27:39,960 --> 00:27:48,269
+new. And I don't know, I have
+been. Yep, I don't know. That's
+
+432
+00:27:48,269 --> 00:27:51,660
+the end of my thing. I don't
+have any further, I don't really
+
+433
+00:27:51,660 --> 00:27:54,150
+have a question or a statement,
+you know, but it's a very
+
+434
+00:27:54,150 --> 00:27:55,170
+interesting topic to me.
+
+435
+00:27:56,220 --> 00:27:59,789
+Debra-Kaye: It's something that
+I also realized too, like, and
+
+436
+00:27:59,819 --> 00:28:02,880
+honestly, Virtual Coffee is the
+committee that has made me feel
+
+437
+00:28:02,880 --> 00:28:06,210
+more comfortable asking
+questions. But it is something
+
+438
+00:28:06,210 --> 00:28:10,920
+that I noticed too. You know,
+even on Twitter, right? Even if
+
+439
+00:28:10,920 --> 00:28:13,259
+you decide to ask for some
+wherever you ask questions,
+
+440
+00:28:13,500 --> 00:28:18,390
+especially as a newbie, like, I
+am so good at overwhelming
+
+441
+00:28:18,390 --> 00:28:21,420
+myself with like, all the things
+to learn all these things. But
+
+442
+00:28:21,420 --> 00:28:25,380
+sometimes when you ask like a
+really a question that you think
+
+443
+00:28:25,380 --> 00:28:29,519
+in your head is really simple.
+And I mean, it's not overly
+
+444
+00:28:29,519 --> 00:28:32,369
+complicated, but it's just, it
+hasn't clicked for you yet. And
+
+445
+00:28:32,369 --> 00:28:35,759
+you may ask somebody who is an
+experienced developer, and they
+
+446
+00:28:35,759 --> 00:28:39,539
+give you this really advanced
+answer. And, you know, you do
+
+447
+00:28:39,539 --> 00:28:41,880
+this and you do this. And this,
+like, I don't even know what
+
+448
+00:28:41,970 --> 00:28:47,130
+that is. And because they have
+been doing this for a while,
+
+449
+00:28:47,519 --> 00:28:52,619
+they kind of don't really know
+how to explain something in like
+
+450
+00:28:52,619 --> 00:28:56,759
+layman's terms to a beginner
+where it like it will connect
+
+451
+00:28:56,789 --> 00:29:03,539
+the dots for you. And because I
+even I'm learning it, and I'm,
+
+452
+00:29:03,569 --> 00:29:07,740
+like, a little bit more
+comfortable with it now. But as
+
+453
+00:29:07,740 --> 00:29:10,559
+asking someone a person about
+it, and they gave me like, this
+
+454
+00:29:10,559 --> 00:29:13,170
+answer was like, Oh, my god, I
+don't even know what to do with
+
+455
+00:29:13,170 --> 00:29:17,339
+that. So is there any way to
+like, avoid that right now?
+
+456
+00:29:17,339 --> 00:29:19,890
+Because I don't know how to do
+that. And I'm gonna mess up
+
+457
+00:29:19,890 --> 00:29:25,470
+something if I try it. So it's
+like also realizing for yourself
+
+458
+00:29:26,819 --> 00:29:34,230
+how you learn, and also to not
+try to grab everything because
+
+459
+00:29:34,230 --> 00:29:38,579
+you need to learn everything. So
+I like and I mean, even when you
+
+460
+00:29:38,579 --> 00:29:42,089
+Google stuff, too, like I said,
+yesterday evening, reading a
+
+461
+00:29:42,089 --> 00:29:45,900
+blog post trying to fix
+something in CSS, and I read the
+
+462
+00:29:45,900 --> 00:29:49,019
+article just like, I don't know,
+five minutes long, and I still
+
+463
+00:29:49,019 --> 00:29:55,109
+didn't understand what to do. So
+it's it's really, it's a tricky
+
+464
+00:29:55,109 --> 00:29:59,579
+kind of thing. Because some
+people we don't know how to
+
+465
+00:29:59,609 --> 00:30:04,680
+break down the answer on your
+level because they've been doing
+
+466
+00:30:04,680 --> 00:30:07,170
+it for so long, it's so natural
+for them. And for you, it's not
+
+467
+00:30:07,170 --> 00:30:12,119
+really natural. So it's, it's,
+it's a tricky, it's a, it's like
+
+468
+00:30:12,119 --> 00:30:13,019
+dicey. It's tricky.
+
+469
+00:30:13,390 --> 00:30:17,529
+Dan Ott: It is. And it can be,
+it can even be not so much that
+
+470
+00:30:17,529 --> 00:30:21,970
+they don't know how but they
+haven't. Like, maybe they don't
+
+471
+00:30:21,970 --> 00:30:24,759
+know you, personally very well
+yet, or they don't know where
+
+472
+00:30:24,759 --> 00:30:27,430
+you are on your journey or any
+person, you know. So if you're
+
+473
+00:30:27,430 --> 00:30:31,509
+answering a question, it's hard
+to, like, intuitively calibrate,
+
+474
+00:30:31,509 --> 00:30:36,039
+you know, your, your answer, you
+know what I mean, for a given
+
+475
+00:30:36,039 --> 00:30:38,410
+person, other than just talking
+to them, which is what I do,
+
+476
+00:30:38,410 --> 00:30:41,619
+like when I'm when I'm like,
+starting a pairing session with
+
+477
+00:30:41,619 --> 00:30:45,460
+somebody who I haven't worked
+with before. Like, if they're,
+
+478
+00:30:45,460 --> 00:30:49,299
+if they're trying to solve a
+specific problem, you know, the
+
+479
+00:30:49,299 --> 00:30:51,819
+first questions I sort of gauge
+I like, I just try to gauge
+
+480
+00:30:51,819 --> 00:30:55,690
+like, where, you know, what,
+like, where, what things they do
+
+481
+00:30:55,690 --> 00:30:57,369
+know, and what things they
+don't, so that we can, like,
+
+482
+00:30:57,369 --> 00:30:59,589
+talk in the language that like,
+both of us understand, you know,
+
+483
+00:30:59,589 --> 00:31:06,460
+because in a couple years, you
+know, you're going to be, you're
+
+484
+00:31:06,460 --> 00:31:08,170
+just gonna have all that good
+stuff under your belt, and
+
+485
+00:31:08,170 --> 00:31:11,559
+you're gonna forget about how
+hard it was, you know? And then
+
+486
+00:31:13,539 --> 00:31:16,569
+and your answers, if somebody
+asks the same question, we'll be
+
+487
+00:31:16,569 --> 00:31:19,569
+okay, we'll just do this. And
+this, you know, and then it's
+
+488
+00:31:19,569 --> 00:31:21,279
+very easy, like, because that's
+the process that's in your
+
+489
+00:31:21,279 --> 00:31:24,279
+brain, right? So like, Okay, how
+do I do this? Oh, well, what I
+
+490
+00:31:24,279 --> 00:31:29,410
+would what Dan would do is, you
+know, x y&z except if I don't
+
+491
+00:31:29,410 --> 00:31:32,769
+have, you know, if the person
+doesn't know, at what x it means
+
+492
+00:31:32,769 --> 00:31:36,160
+that answer is useless. Right?
+So calibrating like, trying to
+
+493
+00:31:36,160 --> 00:31:38,500
+figure out how to how to
+calibrate those answers is
+
+494
+00:31:38,500 --> 00:31:42,430
+complicated, it doesn't fit
+everybody, you know? Because if
+
+495
+00:31:42,430 --> 00:31:47,259
+they're answering that good
+question. I don't know. Like,
+
+496
+00:31:47,289 --> 00:31:52,750
+like, there are ways, you know,
+you could just write a book on
+
+497
+00:31:52,750 --> 00:31:55,059
+pretty much any question about
+get, like, you know, what I
+
+498
+00:31:55,059 --> 00:31:58,329
+mean? Like, the answer to any
+question on get, if you get all
+
+499
+00:31:58,329 --> 00:32:02,079
+the way down to it is like very
+complicated, you know, and, and
+
+500
+00:32:02,079 --> 00:32:04,180
+same with react, and same with
+JavaScript is all just a bunch
+
+501
+00:32:04,180 --> 00:32:08,890
+of House of Cards of different,
+you know, different pieces of
+
+502
+00:32:09,039 --> 00:32:12,759
+data, you know, and it's just, I
+feel, I feel, it's, it's, I
+
+503
+00:32:12,759 --> 00:32:16,089
+feel, I was gonna say feel bad,
+it's not quite right. But like,
+
+504
+00:32:16,450 --> 00:32:19,509
+I can understand the struggle of
+trying to learn all this stuff,
+
+505
+00:32:19,720 --> 00:32:23,710
+you know, at once, all at once,
+you know, early, because when I
+
+506
+00:32:23,710 --> 00:32:28,960
+learned there was none of when I
+was learning HTML and CSS there,
+
+507
+00:32:28,990 --> 00:32:35,470
+like, it didn't, it didn't even
+exist. Yes, exactly. You know,
+
+508
+00:32:35,559 --> 00:32:38,380
+like, I didn't have to learn
+git, or version control or
+
+509
+00:32:38,380 --> 00:32:42,400
+whatever, because we were just
+like cobbling files up to like a
+
+510
+00:32:42,400 --> 00:32:45,369
+server, you know, it was bad.
+Like, I'm glad that it exists
+
+511
+00:32:45,369 --> 00:32:48,309
+now. But it's complicated on its
+own, you know, and it's this
+
+512
+00:32:48,309 --> 00:32:51,640
+whole, this whole thing, I
+always try to tell people to
+
+513
+00:32:52,690 --> 00:32:55,599
+just learn one thing at once,
+you know,
+
+514
+00:32:56,640 --> 00:33:00,329
+Debra-Kaye: it's kind of hard to
+like, it's tricky, because like,
+
+515
+00:33:00,329 --> 00:33:03,809
+on one hand, like in your head,
+you know, you need to focus on
+
+516
+00:33:03,809 --> 00:33:07,559
+one thing. So you can, like be
+good at something. But at the
+
+517
+00:33:07,559 --> 00:33:12,900
+same time, with tech, you kind
+of have to know how to do one or
+
+518
+00:33:12,900 --> 00:33:16,259
+two things at least. So you can
+never really be learning one
+
+519
+00:33:16,259 --> 00:33:20,670
+thing alone, at whatever, at one
+point in time, you kind of have
+
+520
+00:33:20,670 --> 00:33:24,839
+to know how to do at least two
+things to go because they are
+
+521
+00:33:24,869 --> 00:33:29,039
+they connect somehow. So it's
+kind of hard to just focus on
+
+522
+00:33:29,039 --> 00:33:33,480
+one thing. So it's, and that's
+why people will get trapped into
+
+523
+00:33:33,480 --> 00:33:36,869
+whole learning to three
+different languages at the same
+
+524
+00:33:36,869 --> 00:33:40,259
+time. Like, I'm not even trying
+to learn frameworks yet. Because
+
+525
+00:33:40,259 --> 00:33:43,829
+like, I want to get really good
+at JavaScript, cuz like, the
+
+526
+00:33:43,829 --> 00:33:47,309
+advice that I keep getting is,
+if you get good at JavaScript,
+
+527
+00:33:47,339 --> 00:33:50,490
+or you can handle yourself with
+it, then everything else will
+
+528
+00:33:50,490 --> 00:33:53,009
+come a little bit easier. So I'm
+not really worried about
+
+529
+00:33:53,009 --> 00:33:55,950
+frameworks. I kind of already
+know which framework I want to
+
+530
+00:33:55,950 --> 00:34:00,210
+learn first, which is view but
+looks like down the road. And I
+
+531
+00:34:00,240 --> 00:34:02,400
+probably will learn react, of
+course, because I noticed the
+
+532
+00:34:02,400 --> 00:34:05,819
+demand and everything. But
+people will get caught up in the
+
+533
+00:34:05,849 --> 00:34:09,269
+all in the Buddhist framework is
+hot right now, that is hot right
+
+534
+00:34:09,269 --> 00:34:11,969
+now. And people will be trying
+to learn two, three at the same
+
+535
+00:34:11,969 --> 00:34:17,250
+time. And then there are really
+an ad from what I have learned.
+
+536
+00:34:17,280 --> 00:34:21,449
+And I'm constantly being told,
+like, get your basics, right.
+
+537
+00:34:21,510 --> 00:34:24,809
+And like once you get your
+foundation set, then everything
+
+538
+00:34:24,809 --> 00:34:28,559
+else will come. And I'm trying
+to get the foundation set. So
+
+539
+00:34:29,639 --> 00:34:32,760
+but it's really easy to get
+caught up in the whole, you
+
+540
+00:34:32,760 --> 00:34:39,179
+know, hot new thing, and also
+learning more than one thing at
+
+541
+00:34:39,329 --> 00:34:43,079
+a time because tech changes so
+quickly, too. So it's kind of a
+
+542
+00:34:43,079 --> 00:34:44,250
+tricky balance.
+
+543
+00:34:45,179 --> 00:34:47,070
+Bekah Hawrot Weigel: It is
+really tricky. And I think what
+
+544
+00:34:47,070 --> 00:34:49,679
+works for one person doesn't
+work for every person to write,
+
+545
+00:34:49,679 --> 00:34:53,429
+like we've been saying. And I
+think, you know, sometimes
+
+546
+00:34:53,489 --> 00:34:57,030
+jumping into a framework might
+be the way to go and like not
+
+547
+00:34:57,030 --> 00:35:00,210
+mastering all those things. I
+know I think it was when I Went
+
+548
+00:35:00,210 --> 00:35:05,130
+from Ruby to rails. Ruby, like I
+was kind of getting it. And but
+
+549
+00:35:05,130 --> 00:35:08,940
+then I hit rails. And I was
+like, oh, okay, now suddenly,
+
+550
+00:35:08,940 --> 00:35:13,230
+this makes sense. And I'm not
+sure what made it click, but
+
+551
+00:35:13,230 --> 00:35:16,889
+jumping into the framework
+helped me to understand things a
+
+552
+00:35:16,889 --> 00:35:21,750
+lot better than I had before.
+And so it was, you know, kind of
+
+553
+00:35:21,750 --> 00:35:24,900
+this backwards way of doing
+things, but hearing other people
+
+554
+00:35:24,900 --> 00:35:28,650
+say like, Oh, yeah, I've done
+that, too. There weren't as many
+
+555
+00:35:28,650 --> 00:35:31,380
+people saying that there were a
+lot of people saying that's not
+
+556
+00:35:31,380 --> 00:35:34,769
+the right way to go. But it
+there's not a right way and a
+
+557
+00:35:34,769 --> 00:35:39,389
+wrong way. There's the way that
+works for you. And, you know,
+
+558
+00:35:39,389 --> 00:35:42,389
+it's great to be able to
+recognize what those things are.
+
+559
+00:35:44,880 --> 00:35:49,980
+Yeah. No, deprecate. I know,
+like learning on your own, I
+
+560
+00:35:50,039 --> 00:35:53,760
+went to a boot camp. And I feel
+like that was challenging. I was
+
+561
+00:35:53,760 --> 00:35:57,539
+online, and I didn't have a
+sense of community. But I'm sure
+
+562
+00:35:57,539 --> 00:36:02,070
+learning on your own is maybe
+extra challenging, because you
+
+563
+00:36:02,070 --> 00:36:07,260
+are trying to like, find good
+resources, and maybe find
+
+564
+00:36:07,260 --> 00:36:11,039
+communities. So I, you know, can
+you talk a little bit about what
+
+565
+00:36:11,190 --> 00:36:13,139
+has been most challenging for
+you?
+
+566
+00:36:14,949 --> 00:36:19,360
+Debra-Kaye: Yeah, so I have been
+like trying to learn on my own
+
+567
+00:36:19,360 --> 00:36:22,960
+well this year would make it two
+years. But they found that
+
+568
+00:36:22,960 --> 00:36:28,690
+before I found Virtual Coffee, I
+was, I started to like, do a
+
+569
+00:36:28,690 --> 00:36:33,519
+little rabbit hole research. But
+I was just like, trying to look
+
+570
+00:36:33,519 --> 00:36:37,960
+at too many things at once. And
+I never had any one of I could
+
+571
+00:36:37,960 --> 00:36:42,699
+ask questions. And I was just
+struggling because I would, I
+
+572
+00:36:42,699 --> 00:36:48,639
+was going through one free boot
+camp. And I was even trying to
+
+573
+00:36:48,639 --> 00:36:53,530
+do the 100 days of code thing.
+And if I missed the day, I would
+
+574
+00:36:53,530 --> 00:36:58,780
+just be like, okay, I messed up,
+I'm gonna start over because I
+
+575
+00:36:58,780 --> 00:37:04,480
+wasn't really consistent. And I
+wasn't really focused. And I had
+
+576
+00:37:04,480 --> 00:37:07,599
+no way to talk to about what I
+was struggling with. So it was
+
+577
+00:37:07,599 --> 00:37:11,710
+just difficult. So I would start
+and stop and start and stop. And
+
+578
+00:37:11,710 --> 00:37:15,849
+if I did good for a week, and I
+missed two days, because I just
+
+579
+00:37:16,960 --> 00:37:19,840
+was too burnt out to do it. I
+was like, Okay, let's start
+
+580
+00:37:19,840 --> 00:37:24,849
+over. No, because I kind of
+messed it up and had no way to
+
+581
+00:37:24,849 --> 00:37:27,670
+keep me accountable as couldn't
+ask the questions, I will be
+
+582
+00:37:27,670 --> 00:37:30,820
+like, going through the bootcamp
+didn't understand what I was
+
+583
+00:37:30,820 --> 00:37:35,829
+doing, and had nobody to ask and
+felt like, okay, it's not for
+
+584
+00:37:35,829 --> 00:37:38,949
+me, because it's not clicking,
+why is it not clicking? Now get
+
+585
+00:37:38,949 --> 00:37:42,280
+frustrated, and the frustration
+would just cause me to be like,
+
+586
+00:37:43,659 --> 00:37:48,489
+okay, it's not working. And then
+when I would see like, someone
+
+587
+00:37:48,489 --> 00:37:52,179
+tweet, like, Hey, I'm struggling
+with this. And I'm like, okay,
+
+588
+00:37:52,179 --> 00:37:57,400
+it's not me alone. So maybe I
+should try again. And then I
+
+589
+00:37:57,400 --> 00:37:59,829
+will try again, then get
+frustrated at some point and
+
+590
+00:37:59,829 --> 00:38:04,570
+stop again. So that was really
+like actually actively looking
+
+591
+00:38:04,570 --> 00:38:10,090
+for a community that I felt
+comfortable in. And when I
+
+592
+00:38:10,090 --> 00:38:14,079
+finally found Virtual Coffee,
+and I was like, Oh, my god. But
+
+593
+00:38:14,110 --> 00:38:17,079
+it really took me a while
+because studying on your own
+
+594
+00:38:17,079 --> 00:38:24,190
+like, on one hand, self paced,
+boot camps are great. But if you
+
+595
+00:38:24,190 --> 00:38:30,070
+have no one who is in it with
+you, and you have no one to ask
+
+596
+00:38:30,070 --> 00:38:35,289
+questions, or be like, Hey, I'm
+not getting this is it me. And
+
+597
+00:38:35,289 --> 00:38:38,619
+for someone to tell you that
+it's not you, it's actually
+
+598
+00:38:38,619 --> 00:38:42,130
+normal to struggle through this
+process. And it's like a long
+
+599
+00:38:42,130 --> 00:38:46,239
+journey. Like, I have no problem
+with learning forever because I
+
+600
+00:38:46,570 --> 00:38:50,019
+constant learner. So I have no
+problem learning forever. Like,
+
+601
+00:38:50,019 --> 00:38:54,340
+that's my thing. But when you
+have when you know that there
+
+602
+00:38:54,340 --> 00:38:57,849
+are people who are also
+struggling, and can help you to
+
+603
+00:38:57,849 --> 00:39:01,449
+get through those rough patches,
+and encourage you, it is not
+
+604
+00:39:01,449 --> 00:39:05,289
+you, you're going to get it.
+It's okay. It's not getting it
+
+605
+00:39:05,289 --> 00:39:10,329
+today, but you will get it Don't
+worry about it. And to kind of
+
+606
+00:39:10,329 --> 00:39:14,139
+talk you out of procrastinating
+and talk to you all itself,
+
+607
+00:39:14,469 --> 00:39:18,940
+talking yourself, although
+stuff. That's a great thing took
+
+608
+00:39:18,940 --> 00:39:23,139
+me a while to find that space.
+But that was me that I was just
+
+609
+00:39:23,139 --> 00:39:29,440
+like, up and down, up and down.
+Start today start next week,
+
+610
+00:39:29,619 --> 00:39:36,039
+frustrated, okay? I have no one
+to talk to about it. And more so
+
+611
+00:39:36,039 --> 00:39:41,380
+me it's not really you, it's
+normal and you won't get it in a
+
+612
+00:39:41,380 --> 00:39:45,219
+month. You won't get it in a
+day. So it was that was really
+
+613
+00:39:45,219 --> 00:39:48,159
+instrumental for me because I
+when you study on your own, it's
+
+614
+00:39:48,159 --> 00:39:52,900
+just not. And we don't really
+even even without the pandemic
+
+615
+00:39:52,900 --> 00:39:56,769
+like I don't really have anyone
+who like is like really Intertek
+
+616
+00:39:56,769 --> 00:40:00,550
+or wants to learn this thing. So
+to find a community where You
+
+617
+00:40:00,639 --> 00:40:05,289
+people have the same interest as
+you. And they actually went
+
+618
+00:40:05,289 --> 00:40:07,239
+through it. So they kind of know
+what you're struggling with and
+
+619
+00:40:07,239 --> 00:40:12,280
+understand like, hey, this was
+shiny for me too. Or maybe you
+
+620
+00:40:12,280 --> 00:40:15,369
+could think about it this way,
+like some suggestions, anything,
+
+621
+00:40:15,369 --> 00:40:20,650
+but just something to help you
+realize that it's, it's normal
+
+622
+00:40:20,650 --> 00:40:23,889
+for you to struggle through this
+because the learning curve is
+
+623
+00:40:24,219 --> 00:40:27,730
+steep, and you're not going to
+get it overnight.
+
+624
+00:40:28,989 --> 00:40:30,250
+Bekah Hawrot Weigel: I think
+like That's it. That's it,
+
+625
+00:40:30,250 --> 00:40:33,219
+right? It's normal for you to
+struggle through this because
+
+626
+00:40:33,219 --> 00:40:35,829
+there's so much I don't know if
+I would call it imposter
+
+627
+00:40:35,829 --> 00:40:39,280
+syndrome or whatever. doubts
+that comes when you're like, I'm
+
+628
+00:40:39,280 --> 00:40:42,190
+struggling, that must mean I'm
+not good at this, or I'm not
+
+629
+00:40:42,400 --> 00:40:45,369
+meant to do this. And that's not
+true at all. Right? we all
+
+630
+00:40:45,369 --> 00:40:47,619
+struggle through it, or most of
+us.
+
+631
+00:40:46,880 --> 00:40:51,710
+Debra-Kaye: That's exactly it,
+like the imposter syndrome is is
+
+632
+00:40:51,710 --> 00:40:55,219
+real. Like, I know, people talk
+about this, I know that there's
+
+633
+00:40:55,219 --> 00:40:58,969
+so many articles I have read
+them, I have watched the videos,
+
+634
+00:40:59,000 --> 00:41:04,940
+but when you're trying to learn
+something, and when you're like,
+
+635
+00:41:04,969 --> 00:41:09,349
+why is it not easy for me? Or as
+easy for me? Or why is it that
+
+636
+00:41:09,349 --> 00:41:13,789
+this person like gets it and I'm
+not getting it, the imposter
+
+637
+00:41:13,789 --> 00:41:17,929
+syndrome will be like, it will
+tell you stuff that it will
+
+638
+00:41:17,929 --> 00:41:21,050
+really make you procrastinate.
+And I spent a lot of time
+
+639
+00:41:21,050 --> 00:41:24,440
+procrastinating too, because I
+just like I'm not getting it. So
+
+640
+00:41:25,280 --> 00:41:28,429
+it's me, I'm not getting it. And
+then we're taught myself how to
+
+641
+00:41:28,429 --> 00:41:33,650
+stop because this like, it's not
+for me, it's not cooking. So
+
+642
+00:41:33,980 --> 00:41:38,150
+maybe I'm not cut out for this.
+So imposter syndrome is so real.
+
+643
+00:41:38,179 --> 00:41:43,880
+And like, I know, maybe even
+last year, developers may think
+
+644
+00:41:43,909 --> 00:41:47,360
+Oh, these your developers talk
+about imposter syndrome, they
+
+645
+00:41:47,360 --> 00:41:50,360
+didn't know that I still have
+it. Or maybe as a senior, you
+
+646
+00:41:50,360 --> 00:41:54,349
+may not have it as much because
+you have some experience. But as
+
+647
+00:41:54,349 --> 00:42:00,050
+a junior with where and how tech
+is now 2021, a lot of things
+
+648
+00:42:00,050 --> 00:42:03,889
+have changed. And you know,
+tools and all these things will
+
+649
+00:42:03,889 --> 00:42:07,489
+always be coming Oh, but when
+you're just starting to learn
+
+650
+00:42:07,489 --> 00:42:13,820
+something, and you have to try
+to get up to par with where the
+
+651
+00:42:13,820 --> 00:42:19,760
+text base is today. And you have
+such a long way to go. Seniors
+
+652
+00:42:19,760 --> 00:42:23,599
+don't really think because they
+have already passed that stage.
+
+653
+00:42:23,599 --> 00:42:27,980
+And I really understand that
+imposter syndrome for a junior
+
+654
+00:42:28,340 --> 00:42:33,079
+s probably even more than wh
+t they feel now, because they
+
+655
+00:42:33,079 --> 00:42:37,130
+ve been doing it for 5-10 years
+So you know, you can have an
+
+656
+00:42:37,130 --> 00:42:39,949
+dea of what you're doing. You k
+ow, you don't know everything,
+
+657
+00:42:39,949 --> 00:42:42,769
+but you kind of know what yo
+'re doing to a point. But a ju
+
+658
+00:42:42,769 --> 00:42:47,150
+ior who has no clue what the
+'re doing, has like 1000 times
+
+659
+00:42:47,150 --> 00:42:50,179
+the imposter syndrome, becaus
+we don't know what we're do
+
+660
+00:42:52,289 --> 00:42:54,599
+Bekah Hawrot Weigel: I think
+that senior devs are just better
+
+661
+00:42:54,599 --> 00:42:57,900
+at hiding their imposter
+syndrome. And like over the last
+
+662
+00:42:57,900 --> 00:43:02,340
+year, I have been surprised at
+so many of our members who I
+
+663
+00:43:02,340 --> 00:43:05,940
+would have expected to be super
+confident in things say that
+
+664
+00:43:05,940 --> 00:43:09,300
+they're nervous about doing it,
+or they don't know if they're
+
+665
+00:43:09,300 --> 00:43:13,679
+good enough to be doing this
+thing. And that was so eye
+
+666
+00:43:13,679 --> 00:43:16,769
+opening for me because I thought
+like, wow, you know, they're
+
+667
+00:43:16,769 --> 00:43:20,909
+here. They're doing great.
+They've had this amazing career.
+
+668
+00:43:21,150 --> 00:43:25,650
+But it was it was just like
+this, this hidden thing, where I
+
+669
+00:43:25,650 --> 00:43:29,820
+think people on this journey
+where a lot of us are openly
+
+670
+00:43:29,820 --> 00:43:32,579
+talking about it, which is
+great. And I think that that
+
+671
+00:43:32,579 --> 00:43:37,530
+should happen more. But it's
+been, you know, like we're all
+
+672
+00:43:37,530 --> 00:43:41,400
+here in tech grows and moves so
+quickly that it makes sense that
+
+673
+00:43:41,400 --> 00:43:44,639
+we frequently don't feel like we
+know what we're doing. Because
+
+674
+00:43:44,699 --> 00:43:45,960
+we can't it just keeps moving.
+
+675
+00:43:47,489 --> 00:43:52,199
+Dan Ott: Yeah, yeah. I mean, I I
+don't know, it's one of those
+
+676
+00:43:52,199 --> 00:43:58,949
+things where it for me, I it
+makes sense that a person would
+
+677
+00:43:58,949 --> 00:44:01,260
+struggle with learning, like
+learning to be a developer,
+
+678
+00:44:01,530 --> 00:44:06,840
+like, for the first time,
+because I can't remember if I
+
+679
+00:44:06,840 --> 00:44:09,929
+can actually remember it being
+very hard. You know, it's hard.
+
+680
+00:44:10,949 --> 00:44:17,219
+And I think, as somebody who
+like in a senior developer role
+
+681
+00:44:17,219 --> 00:44:22,110
+I, it's the imposter syndrome
+rears its head all the time, but
+
+682
+00:44:24,300 --> 00:44:26,699
+sort of different, right?
+Because, like, not different.
+
+683
+00:44:27,449 --> 00:44:30,030
+It's in different spots, right?
+Because I do like, I'm not like,
+
+684
+00:44:31,230 --> 00:44:34,320
+it's more like, Okay, well, what
+if, I don't know, I don't know
+
+685
+00:44:34,320 --> 00:44:36,030
+how to phrase this. Like, what
+if everybody finds out, you
+
+686
+00:44:36,030 --> 00:44:42,000
+know, like, that's the thing,
+you know, like, it's, I'm not
+
+687
+00:44:42,000 --> 00:44:43,980
+finding trying to find a job for
+the first time and I'm not
+
+688
+00:44:43,980 --> 00:44:48,809
+trying to, like learn this whole
+new thing, you know, but so
+
+689
+00:44:48,809 --> 00:44:51,900
+it's, I don't know, if it's
+like, just not as sharply like
+
+690
+00:44:51,900 --> 00:44:53,820
+you were saying, like, maybe
+when you're learning for the
+
+691
+00:44:53,820 --> 00:44:56,309
+first time it's, it happens more
+often or something and that
+
+692
+00:44:56,309 --> 00:45:00,179
+might be true, you know? Right.
+Right. Right. But yeah, You
+
+693
+00:45:00,179 --> 00:45:04,440
+know, and I feel like once
+you're there, and also back to
+
+694
+00:45:04,440 --> 00:45:09,360
+what you said, we never like,
+it's it's the this sort of
+
+695
+00:45:09,389 --> 00:45:12,059
+feeling, I feel like once you
+are more experienced, like, once
+
+696
+00:45:12,059 --> 00:45:16,949
+you've been doing I think for a
+long time is a little bit more
+
+697
+00:45:16,949 --> 00:45:20,039
+under the surface, even under
+your own like, like
+
+698
+00:45:20,039 --> 00:45:25,050
+subconscious, you know,
+sometimes I'm like, I don't have
+
+699
+00:45:25,050 --> 00:45:30,659
+imposter syndrome, I just
+embedded This is like what I say
+
+700
+00:45:30,659 --> 00:45:33,389
+to myself, like, oh, wait a
+minute, that's, you know, like,
+
+701
+00:45:33,389 --> 00:45:36,150
+those are like feelings that I
+have. Often even, you know,
+
+702
+00:45:36,659 --> 00:45:39,239
+like, trying to push through
+these things, it still happens.
+
+703
+00:45:39,929 --> 00:45:42,420
+I think it happens to a lot of
+people. And you know, some
+
+704
+00:45:42,420 --> 00:45:45,539
+people don't talk about it, some
+people don't realize that it is
+
+705
+00:45:45,539 --> 00:45:50,219
+happening or you know. And then
+and then some people do talk
+
+706
+00:45:50,219 --> 00:45:50,820
+about it, but--
+
+707
+00:45:52,349 --> 00:45:57,329
+Debra-Kaye: And then too, sorry,
+and then also, as a junior, I
+
+708
+00:45:57,329 --> 00:46:01,230
+guess, because while you have
+some senior developers who are
+
+709
+00:46:01,230 --> 00:46:03,809
+more open about talking about
+the imposter syndrome, and then
+
+710
+00:46:03,809 --> 00:46:06,690
+there are others who, you know,
+you don't really see that, you
+
+711
+00:46:06,690 --> 00:46:10,079
+know, they cannot make it look
+like Oh, I'm so good at this not
+
+712
+00:46:10,079 --> 00:46:14,579
+been doing this for 20 years.
+But as a junior, because we
+
+713
+00:46:14,579 --> 00:46:19,380
+don't really see seniors talk
+about that they haven't pursued
+
+714
+00:46:19,380 --> 00:46:24,840
+and we think, you know, they're
+so good at this, like, they know
+
+715
+00:46:24,840 --> 00:46:28,800
+it, because they've been doing
+this for so long. So we're like,
+
+716
+00:46:29,610 --> 00:46:35,460
+when are we ever going to feel
+comfortable knowing enough? and
+
+717
+00:46:35,460 --> 00:46:38,909
+be able to show that we know
+enough? Because and like no
+
+718
+00:46:38,909 --> 00:46:42,570
+enough is like a relative of
+course, because you know, this
+
+719
+00:46:42,570 --> 00:46:46,440
+space is like so crazy, where
+you know, there are always new
+
+720
+00:46:46,440 --> 00:46:50,639
+things to learn. And I love
+that. But also, it's almost
+
+721
+00:46:50,639 --> 00:46:56,550
+like, from a newbie you you kind
+of feel like, when will I apart
+
+722
+00:46:56,550 --> 00:46:59,039
+from trying to actually learn
+the things? I'm going to do it?
+
+723
+00:46:59,429 --> 00:47:05,250
+It's almost like, when will I
+ever feel like I know enough?
+
+724
+00:47:05,280 --> 00:47:10,530
+And how can I show someone, you
+know, a company, a contractor,
+
+725
+00:47:10,530 --> 00:47:15,539
+whatever, that I know enough to
+do this. And because we don't
+
+726
+00:47:15,539 --> 00:47:21,210
+really see the senior developers
+openly showing that, hey, you
+
+727
+00:47:21,210 --> 00:47:25,500
+kind of won't know everything,
+and it's okay. And you may see
+
+728
+00:47:25,500 --> 00:47:30,960
+me here 20 years later, but I
+was at the same point you were
+
+729
+00:47:30,989 --> 00:47:34,349
+and when I started, things were
+much different. Things have
+
+730
+00:47:34,349 --> 00:47:38,639
+changed a lot now. So it's okay,
+you will get there. And you
+
+731
+00:47:38,639 --> 00:47:45,329
+don't have to try to get to my
+20 year veteran, but just get
+
+732
+00:47:45,630 --> 00:47:50,579
+comfortable with enough things
+that you can do whatever you're
+
+733
+00:47:50,579 --> 00:47:53,429
+required to do, or you know how
+to go about learning how to do
+
+734
+00:47:53,429 --> 00:47:54,960
+it? Yeah,
+
+735
+00:47:54,989 --> 00:47:58,829
+Bekah Hawrot Weigel: I think we
+were just in the book club
+
+736
+00:47:58,829 --> 00:48:02,309
+meeting. And somebody there has
+been a developer for 15 years.
+
+737
+00:48:02,309 --> 00:48:04,619
+But as a freelance developer,
+and one of the things they were
+
+738
+00:48:04,619 --> 00:48:07,889
+talking about was, they don't
+have feedback from anyone,
+
+739
+00:48:07,889 --> 00:48:11,460
+because they take on freelance
+clients. And so they don't ever
+
+740
+00:48:11,460 --> 00:48:14,849
+really know how they're doing
+right. And I think that's also
+
+741
+00:48:14,849 --> 00:48:18,539
+plays into this role of
+learning, especially on your
+
+742
+00:48:18,570 --> 00:48:22,199
+own, or in a place where you're
+not getting feedback from people
+
+743
+00:48:22,199 --> 00:48:26,460
+because you are kind of your own
+reference point. And you're you
+
+744
+00:48:26,460 --> 00:48:29,039
+are looking like Dan was saying,
+you follow all these people on
+
+745
+00:48:29,039 --> 00:48:32,010
+Twitter, right, who have been
+doing this for years. And so
+
+746
+00:48:32,010 --> 00:48:34,980
+then it becomes you and these
+people that you're looking at,
+
+747
+00:48:35,219 --> 00:48:39,059
+and you have no one to kind of
+look at what you're doing and
+
+748
+00:48:39,059 --> 00:48:42,480
+say like, Look, you're doing a
+great job. And this is amazing.
+
+749
+00:48:42,480 --> 00:48:45,269
+And hey, I didn't know that
+thing. And I've been doing it
+
+750
+00:48:45,269 --> 00:48:50,460
+this long rate. And so that lack
+of community response or
+
+751
+00:48:50,460 --> 00:48:55,409
+feedback can be really
+challenging to gauge where you
+
+752
+00:48:55,440 --> 00:48:56,010
+are.
+
+753
+00:48:57,329 --> 00:49:01,409
+Debra-Kaye: Yeah, yeah. And they
+did to me a while to like,
+
+754
+00:49:01,920 --> 00:49:04,920
+connect those dots too. Because
+when you're learning on your
+
+755
+00:49:04,920 --> 00:49:10,019
+own, you really don't have
+anyone to bypass ideas have to
+
+756
+00:49:10,050 --> 00:49:13,559
+be like, Hey, I don't know what
+this means. Can you walk me
+
+757
+00:49:13,559 --> 00:49:19,889
+through this? And also, as a new
+person, one of the things that I
+
+758
+00:49:20,070 --> 00:49:24,210
+learned the hard way is asking
+for help. Because you don't want
+
+759
+00:49:24,210 --> 00:49:26,579
+to look like I mean, you don't
+know what you're doing. But you
+
+760
+00:49:26,579 --> 00:49:28,650
+kind of don't want anyone to
+know that you don't know what
+
+761
+00:49:28,650 --> 00:49:33,869
+you're doing. So it took me a
+while to ask questions. And
+
+762
+00:49:34,650 --> 00:49:38,489
+sometimes it's also a case of
+finding the right people to ask
+
+763
+00:49:38,489 --> 00:49:41,369
+those questions, because not
+everyone will be willing to
+
+764
+00:49:41,369 --> 00:49:44,820
+assist you. But find the right
+people who are willing to help
+
+765
+00:49:45,570 --> 00:49:48,480
+and would actually encourage you
+to ask questions. That was a big
+
+766
+00:49:48,480 --> 00:49:52,650
+thing for me because I don't
+like to ask for help. It kind of
+
+767
+00:49:52,650 --> 00:49:56,880
+sounds weird, but you don't want
+to seem like you have no clue
+
+768
+00:49:56,880 --> 00:50:00,539
+what you're doing. But you also
+what I've learned is that It is
+
+769
+00:50:00,539 --> 00:50:05,699
+better to ask questions than to
+sit there and struggle and you
+
+770
+00:50:05,699 --> 00:50:07,650
+know, doing the wrong thing, and
+you have no idea that you're
+
+771
+00:50:07,650 --> 00:50:11,400
+doing the wrong thing, or you're
+going about it the wrong way. So
+
+772
+00:50:11,400 --> 00:50:16,019
+asking for help is really
+important. And when you find a
+
+773
+00:50:16,019 --> 00:50:19,530
+great community that you can ask
+for help, or the person that
+
+774
+00:50:19,530 --> 00:50:23,219
+that you know, who is willing to
+assist you. And they will
+
+775
+00:50:23,219 --> 00:50:27,090
+actually walk you through
+something, you realize, Oh, so I
+
+776
+00:50:27,090 --> 00:50:31,800
+kind of got a but I just went
+wrong, right here. Or I could
+
+777
+00:50:31,800 --> 00:50:35,670
+think about it this way. So
+asking practice are really is a
+
+778
+00:50:35,670 --> 00:50:39,960
+really big thing. But new people
+are suppose as newbies, we don't
+
+779
+00:50:39,960 --> 00:50:44,489
+like to ask for help, because we
+just don't want to look like we
+
+780
+00:50:44,489 --> 00:50:47,070
+have no clue what we're doing.
+We don't but we don't want
+
+781
+00:50:47,070 --> 00:50:51,269
+anyone to know that. So, yeah,
+that's my focus really, really a
+
+782
+00:50:51,269 --> 00:50:51,989
+big thing, too.
+
+783
+00:50:54,059 --> 00:50:56,519
+Dan Ott: Yeah. I mean, I don't
+really have anything to add,
+
+784
+00:50:56,519 --> 00:50:58,710
+other than I love that if I
+think it's great advice. I think
+
+785
+00:50:58,710 --> 00:51:00,809
+asking questions is important.
+And I think it's a burden for
+
+786
+00:51:00,809 --> 00:51:04,170
+everybody at every level, you
+know, but just like you're
+
+787
+00:51:04,170 --> 00:51:07,710
+saying, you know, you're saying
+you didn't want to, I don't
+
+788
+00:51:07,710 --> 00:51:10,349
+know, appear like you didn't
+know anything, or whatever. But
+
+789
+00:51:10,380 --> 00:51:12,750
+the fact that you're working on
+anything, have a question to ask
+
+790
+00:51:12,750 --> 00:51:15,869
+even as evidence enough, that,
+that you that you do know,
+
+791
+00:51:15,869 --> 00:51:21,269
+things, you know what I mean?
+And I don't know, it's, it's
+
+792
+00:51:21,269 --> 00:51:23,820
+possible to struggle through
+everything all by yourself, you
+
+793
+00:51:23,820 --> 00:51:27,989
+know, it is possible, but it's
+much easier with, with people,
+
+794
+00:51:28,139 --> 00:51:32,550
+and it's not even just like
+learning how to be a dev or
+
+795
+00:51:32,550 --> 00:51:36,300
+whatever, you know, any problem
+you're struggling with, you
+
+796
+00:51:36,300 --> 00:51:40,260
+know, is, is at some point going
+to be better if you can get
+
+797
+00:51:40,260 --> 00:51:43,289
+somebody else to, like, look at
+it, or, you know, talk through
+
+798
+00:51:43,289 --> 00:51:47,880
+your, your mental process, or
+whatever it is, you know, asking
+
+799
+00:51:47,880 --> 00:51:53,010
+questions is just, it's just
+such a useful tool, you know, an
+
+800
+00:51:53,010 --> 00:51:55,139
+important important thing to
+keep in mind.
+
+801
+00:51:56,469 --> 00:51:58,750
+Bekah Hawrot Weigel: Yeah, I
+think, to go along with that,
+
+802
+00:51:58,900 --> 00:52:02,409
+you call it a useful tool. And I
+think that's a good way to frame
+
+803
+00:52:02,409 --> 00:52:06,820
+it, right, because it is
+something that we need to
+
+804
+00:52:06,820 --> 00:52:09,519
+develop. And it's something that
+we need to use often. And I
+
+805
+00:52:09,519 --> 00:52:13,329
+think if you could learn that
+while you're learning, it's so
+
+806
+00:52:13,329 --> 00:52:17,230
+important, because it took me a
+lot longer to learn about asking
+
+807
+00:52:17,230 --> 00:52:20,380
+questions, and when to ask
+questions. for a lot of reasons
+
+808
+00:52:20,380 --> 00:52:23,559
+you said, Debra-Kaye, you know,
+I was like working, but I didn't
+
+809
+00:52:23,559 --> 00:52:26,679
+want anybody to think I didn't
+know what I was doing. And so
+
+810
+00:52:26,679 --> 00:52:32,920
+then I just like, I don't know,
+I was trying to, you know, carve
+
+811
+00:52:32,980 --> 00:52:36,550
+a mountain and no that I was
+just gonna go and do this
+
+812
+00:52:36,550 --> 00:52:39,340
+analogy. And it's just not not
+gonna work.=
+
+813
+00:52:41,920 --> 00:52:44,860
+So the point is, ask questions
+early.
+
+814
+00:52:47,320 --> 00:52:48,940
+Dan Ott: No, no, I want to know
+what it was.
+
+815
+00:52:52,840 --> 00:52:55,360
+Bekah Hawrot Weigel: Like, I can
+see the image in my head too, of
+
+816
+00:52:55,360 --> 00:52:58,900
+like, where it was going and how
+it would play out.It looks cool,
+
+817
+00:52:58,900 --> 00:53:02,860
+but doesn't translate.
+
+818
+00:53:06,420 --> 00:53:10,739
+Dan Ott: There's a podcast, I
+listened to that. They've built
+
+819
+00:53:10,739 --> 00:53:15,119
+up this very complicated
+metaphor for like brain
+
+820
+00:53:15,119 --> 00:53:19,949
+processes. And like it's, it's
+it's a it's a, it's complicated,
+
+821
+00:53:19,949 --> 00:53:22,230
+and they built it up in like,
+the first couple episodes, and
+
+822
+00:53:22,230 --> 00:53:25,530
+then they just use it the rest
+of the time. And so they're
+
+823
+00:53:25,530 --> 00:53:29,159
+like, referring to these weird
+things. Like, I think if you
+
+824
+00:53:29,159 --> 00:53:31,380
+jump in the middle of like, if
+you just listen to the most
+
+825
+00:53:31,380 --> 00:53:33,510
+recent podcast episode, you have
+no idea what they're talking
+
+826
+00:53:33,510 --> 00:53:35,429
+about. But I
+
+827
+00:53:35,630 --> 00:53:36,860
+Bekah Hawrot Weigel: -- that's
+what I was trying to avoid.
+
+828
+00:53:36,860 --> 00:53:49,340
+Exactly. Okay, so we're like,
+trying to see what we have.
+
+829
+00:53:49,369 --> 00:53:53,840
+We're just about at time. So I
+just want to know before, I
+
+830
+00:53:53,840 --> 00:53:55,820
+don't want to wrap up if there's
+something else that you want to
+
+831
+00:53:55,820 --> 00:53:59,389
+talk about. So if there's
+anything else that you want to
+
+832
+00:53:59,389 --> 00:54:00,559
+cover, we can go ahead.
+
+833
+00:54:02,059 --> 00:54:07,099
+Debra-Kaye: No, I mean, I just
+want to say that I encourage
+
+834
+00:54:07,099 --> 00:54:12,590
+people to play me encouraging
+someone to ask questions and to
+
+835
+00:54:13,099 --> 00:54:18,500
+not be afraid to put yourself
+out there that took me a long
+
+836
+00:54:18,500 --> 00:54:23,360
+time to get comfortable doing
+that. still working on it. But
+
+837
+00:54:26,599 --> 00:54:31,639
+you have to get to a point where
+you're willing to take a little
+
+838
+00:54:31,639 --> 00:54:38,210
+tiny step and ask a question and
+ask for help and share something
+
+839
+00:54:38,210 --> 00:54:41,239
+that you think you don't know,
+but can actually help someone
+
+840
+00:54:41,239 --> 00:54:47,780
+else. And it took me a long time
+to get there. Because I even
+
+841
+00:54:47,780 --> 00:54:52,280
+like just started blogging, not
+just started but last year, late
+
+842
+00:54:52,280 --> 00:54:55,340
+last year, and I was like, you
+know how to write about tech and
+
+843
+00:54:55,340 --> 00:54:59,420
+I don't know anything about
+tech, but I've just been like
+
+844
+00:54:59,420 --> 00:55:01,579
+trying to write about My
+experience in learning my
+
+845
+00:55:01,579 --> 00:55:05,780
+learning journey, and the way
+that I saw it resonate with
+
+846
+00:55:05,780 --> 00:55:10,429
+other people. I was like, No,
+some are the only one who feels
+
+847
+00:55:10,429 --> 00:55:16,730
+this way. Cool. And that kind of
+helps show me that I'm not alone
+
+848
+00:55:16,730 --> 00:55:20,119
+in in the struggle, and like, I
+knew I was ventually getting,
+
+849
+00:55:20,150 --> 00:55:26,269
+but when I saw other people
+responding like, this is me to a
+
+850
+00:55:26,269 --> 00:55:30,260
+team and was like, Okay, cool.
+So it's not only me, that's
+
+851
+00:55:30,260 --> 00:55:34,309
+really cool. Like, that was like
+the highlight of my day when I
+
+852
+00:55:34,309 --> 00:55:38,059
+read that feedback. Like, okay,
+cool. That means I'm on the
+
+853
+00:55:38,059 --> 00:55:41,119
+right track. It's not only me,
+this is kind of cool.
+
+854
+00:55:42,710 --> 00:55:46,940
+Dan Ott: Yeah, I love that. I, I
+don't know, that's always a
+
+855
+00:55:46,940 --> 00:55:51,079
+piece of advice I give to
+everybody to is is writing at
+
+856
+00:55:51,079 --> 00:55:53,659
+any point, any point in your in
+your journey, you know what I
+
+857
+00:55:53,659 --> 00:55:57,170
+mean? But like the those, it's
+so valuable to share those
+
+858
+00:55:57,170 --> 00:56:01,099
+experiences, you know, I get
+appreciate it down the road to
+
+859
+00:56:01,099 --> 00:56:04,519
+when, when you're, you know, was
+an old developer who's been
+
+860
+00:56:04,519 --> 00:56:09,079
+around the road and, you know,
+reading back, I mean, I mean, I
+
+861
+00:56:09,079 --> 00:56:13,219
+had I have blog posts from, you
+know, early in my career, I
+
+862
+00:56:13,219 --> 00:56:18,679
+guess, but they're not. I was in
+college when I was learning for
+
+863
+00:56:18,679 --> 00:56:21,139
+the first time, I was still on
+my own. I wasn't learning in
+
+864
+00:56:21,139 --> 00:56:24,260
+college. But But like, I didn't
+mean, I wasn't writing any of
+
+865
+00:56:24,260 --> 00:56:28,460
+this down. And I do wish I had
+even just for myself records,
+
+866
+00:56:28,489 --> 00:56:30,889
+you know, of this sort of thing.
+I think it's I think it's very
+
+867
+00:56:30,889 --> 00:56:34,219
+cool. And a very good idea. for
+a lot of reasons.
+
+868
+00:56:36,019 --> 00:56:40,909
+Debra-Kaye: Yeah. Someone wrote
+a blog post about that. I think
+
+869
+00:56:40,909 --> 00:56:47,030
+it was I can't remember if it
+was swyx, on Twitter, Shawn,
+
+870
+00:56:47,960 --> 00:56:52,190
+somebody who I think it was him,
+but just the idea of like
+
+871
+00:56:52,190 --> 00:56:56,780
+documenting your journey,
+because not really for anyone's
+
+872
+00:56:56,780 --> 00:57:00,469
+benefit, per se, but for your
+own benefit. Because I've seen a
+
+873
+00:57:00,469 --> 00:57:04,429
+lot of developers see that the
+maybe solve a problem. And they
+
+874
+00:57:04,429 --> 00:57:06,980
+wrote about it. And then when
+they forgot how to do it, they
+
+875
+00:57:06,980 --> 00:57:10,309
+would search and find by their
+own blogs and be like, Oh,
+
+876
+00:57:10,309 --> 00:57:14,539
+actually, what about this, to
+remind themselves how to do that
+
+877
+00:57:14,539 --> 00:57:18,739
+thing or help solve that
+problem. So I and I like to
+
+878
+00:57:18,739 --> 00:57:22,070
+write and but I'm always
+something like what I write
+
+879
+00:57:22,070 --> 00:57:25,610
+about. So like, my job is always
+what am I What am I going to
+
+880
+00:57:25,610 --> 00:57:29,269
+write about? Because I don't
+know it yet. But writing is
+
+881
+00:57:29,269 --> 00:57:36,139
+something that I definitely want
+to continue when, like, have it
+
+882
+00:57:36,139 --> 00:57:39,440
+be a part of my thing, because I
+always did like to write I did
+
+883
+00:57:39,440 --> 00:57:43,909
+my blog before but not tech
+blogs. Because I always had the
+
+884
+00:57:44,030 --> 00:57:50,570
+thinking that I have to actually
+be an expert in it before I can
+
+885
+00:57:50,570 --> 00:57:54,590
+write about it. So and that's
+why I always procrastinated on
+
+886
+00:57:54,590 --> 00:57:57,380
+trying to blog because I'm like,
+I don't know enough to write
+
+887
+00:57:57,380 --> 00:58:02,329
+about it yet. So what am I going
+to write? Yeah. So it's, it's
+
+888
+00:58:02,360 --> 00:58:03,800
+it's a it's a journey.
+
+889
+00:58:05,010 --> 00:58:08,550
+Bekah Hawrot Weigel: That's for
+sure. Okay, you have given us so
+
+890
+00:58:08,550 --> 00:58:11,369
+much great information. And
+thank you so much for being with
+
+891
+00:58:11,369 --> 00:58:14,130
+us here today. We are very
+excited to be able to share
+
+892
+00:58:14,130 --> 00:58:15,210
+this. Thank you.
+
+893
+00:58:15,510 --> 00:58:19,170
+Debra-Kaye: Thank you for having
+me. This was great. This was fun.
+
+894
+00:58:20,219 --> 00:58:22,079
+Bekah Hawrot Weigel: All right.
+Well, we will talk to you soon.
+
+895
+00:58:23,280 --> 00:58:23,730
+Bye.
+
+896
+00:58:24,539 --> 00:58:24,719
+Debra-Kaye: Bye.
+
+897
+00:58:28,710 --> 00:58:30,599
+Bekah Hawrot Weigel: Thank you
+for listening to this episode of
+
+898
+00:58:30,599 --> 00:58:34,800
+the Virtual Coffee podcast. This
+episode was produced by Dan Ott
+
+899
+00:58:34,800 --> 00:58:39,030
+and Bekah Hawrot Weigel, and
+edited by Dan Ott. If you have
+
+900
+00:58:39,030 --> 00:58:41,820
+questions or comments, you can
+hit us up on Twitter at
+
+901
+00:58:41,849 --> 00:58:46,710
+@VirtualCoffeeIO. Or you can
+email us at podcast at Virtual
+
+902
+00:58:46,739 --> 00:58:50,639
+coffee.io. You can find the show
+notes. Plus you can sign up for
+
+903
+00:58:50,639 --> 00:58:53,880
+our newsletter to find out what
+Virtual Coffee has been up to on
+
+904
+00:58:53,880 --> 00:58:56,429
+our website at Virtualcoffee.io.
+
+905
+00:58:57,539 --> 00:59:00,269
+Dan Ott: Please subscribe to our
+podcast and be sure to leave us
+
+906
+00:59:00,269 --> 00:59:03,480
+a review. Thanks for listening
+and we'll see you next week.

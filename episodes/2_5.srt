@@ -1,0 +1,4526 @@
+1
+00:00:14,429 --> 00:00:17,068
+Bekah Hawrot Weigel: Hello, and
+welcome to season two, Episode
+
+2
+00:00:17,068 --> 00:00:19,318
+Five of the Virtual Coffee
+podcast.
+
+3
+00:00:21,309 --> 00:00:24,579
+I'm Bekah, and this is a podcast
+that features members of the
+
+4
+00:00:24,579 --> 00:00:28,239
+Virtual Coffee community.
+Virtual Coffee is an intimate
+
+5
+00:00:28,239 --> 00:00:31,089
+group of developers at all
+stages of their coding journey.
+
+6
+00:00:31,420 --> 00:00:34,390
+And they're here on this podcast
+sharing their stories and what
+
+7
+00:00:34,390 --> 00:00:38,020
+they've learned. And we're here
+to share it with you. Here with
+
+8
+00:00:38,020 --> 00:00:40,119
+me today is my co host, Dan.
+
+9
+00:00:40,899 --> 00:00:43,750
+Dan Ott: Thanks, Bekah. Today we
+talk with Tom Cudd, a systems
+
+10
+00:00:43,750 --> 00:00:47,799
+architect and 20 year veteran in
+technology. We talked about his
+
+11
+00:00:47,799 --> 00:00:51,969
+experiences with DevOps and how
+it changed over the years about
+
+12
+00:00:51,969 --> 00:00:55,359
+psychological safety. What that
+means to Tom and how important
+
+13
+00:00:55,359 --> 00:00:58,899
+it is to build into your team
+and workflows, and about the
+
+14
+00:00:58,899 --> 00:01:02,020
+dangers of hero culture in the
+workplace.
+
+15
+00:01:02,829 --> 00:01:04,750
+Bekah Hawrot Weigel: We start
+every episode of the podcast
+
+16
+00:01:04,750 --> 00:01:08,200
+like we start every Virtual
+Coffee, we introduce ourselves
+
+17
+00:01:08,200 --> 00:01:11,409
+with our name, where we're from
+what we do, and a random
+
+18
+00:01:11,409 --> 00:01:15,370
+checking question. Today's
+question is, if you could start
+
+19
+00:01:15,370 --> 00:01:19,780
+a collection of one kind of
+item, what would it be? We hope
+
+20
+00:01:19,780 --> 00:01:34,480
+you enjoyed this episode.
+Hey, I'm Bekah, I'm a front end
+
+21
+00:01:30,010 --> 00:01:39,519
+developer from a small town in
+Ohio. And if I could start a
+
+22
+00:01:34,510 --> 00:01:44,109
+collection of one type of item,
+one kind of item. I don't know
+
+23
+00:01:39,549 --> 00:01:48,640
+what it would be. But when I was
+a kid, I used to collect tree
+
+24
+00:01:44,109 --> 00:01:52,480
+fungus. And that's one type of
+item. So there you go.
+
+25
+00:01:52,659 --> 00:01:55,120
+Dan Ott: Wow, I think a million
+guesses and I wouldn't have
+
+26
+00:01:55,120 --> 00:01:55,629
+guessed though.
+
+27
+00:01:56,560 --> 00:01:57,879
+Bekah Hawrot Weigel: Also,
+cicada shells. I had a
+
+28
+00:01:57,879 --> 00:02:03,159
+collection of shells. Yeah. But
+tree fungus is very serious.
+
+29
+00:02:03,370 --> 00:02:06,700
+Dan Ott: This year is one of the
+17 year, cicadas years.
+
+30
+00:02:06,730 --> 00:02:09,009
+Bekah Hawrot Weigel: I think
+it's missing us. So it's gonna
+
+31
+00:02:09,009 --> 00:02:14,500
+hit like Pittsburgh, it's
+looking to go around, so...
+
+32
+00:02:15,219 --> 00:02:20,020
+Dan Ott: Fair enough. Hi, I'm
+Dan. I'm a front end developer
+
+33
+00:02:20,050 --> 00:02:27,849
+from Lakewood, Ohio.
+So if I could start a collection
+
+34
+00:02:23,800 --> 00:02:32,110
+of one item, what would it be?
+And I feel like this implies
+
+35
+00:02:27,849 --> 00:02:34,810
+that I can't I can't like, say
+anything that I've already
+
+36
+00:02:32,110 --> 00:02:41,469
+collected, you know, that I have
+a collection currently have. And
+
+37
+00:02:34,810 --> 00:02:44,020
+I like I said, so I'm going with
+something brand new, but I feel
+
+38
+00:02:41,469 --> 00:02:46,810
+like I could get into like
+shoes, you know, like I could
+
+39
+00:02:44,020 --> 00:02:50,110
+see, you know, again into the
+sneakers, you know what I mean?
+
+40
+00:02:46,810 --> 00:02:52,300
+Like that, that I try to stay
+really far away from it so that
+
+41
+00:02:50,110 --> 00:02:56,439
+I don't like, you know,
+accidentally get sucked into it.
+
+42
+00:02:52,300 --> 00:02:59,949
+I can get carried away with
+like, collecting pretty much
+
+43
+00:02:56,439 --> 00:03:01,659
+anything, you know, very easily.
+So I tried really, really hard
+
+44
+00:02:59,949 --> 00:03:01,659
+not.
+
+45
+00:03:01,870 --> 00:03:05,229
+Bekah Hawrot Weigel: Not trying
+really hard not to collect
+
+46
+00:03:05,229 --> 00:03:05,680
+fungus.
+
+47
+00:03:07,060 --> 00:03:08,650
+Dan Ott: Yes. Including that.
+
+48
+00:03:13,270 --> 00:03:17,139
+Tom Cudd: So I'm Tom Cudd. I'm a
+systems architect in the Kansas
+
+49
+00:03:17,139 --> 00:03:23,469
+City, Missouri area. Yeah, I'm a
+reformed hoarder, I think so
+
+50
+00:03:23,469 --> 00:03:26,469
+like I have a lot of collections
+that I've had to like get rid of
+
+51
+00:03:26,469 --> 00:03:29,379
+over the years. So I'll say
+something that I have not
+
+52
+00:03:29,379 --> 00:03:33,340
+collected before. I would
+collect exotic supercars
+
+53
+00:03:33,370 --> 00:03:36,280
+because, you know, oh, that'd be
+pretty awesome. Except, you
+
+54
+00:03:36,280 --> 00:03:42,219
+know, you'd have to actually pay
+for them. But I do like cars. I
+
+55
+00:03:42,370 --> 00:03:45,879
+I'm not like a car person. I
+just really think that fast cars
+
+56
+00:03:45,879 --> 00:03:46,419
+are awesome.
+
+57
+00:03:47,439 --> 00:03:49,330
+Dan Ott: Yeah, that'd be cool.
+That'd be cool thing to have a
+
+58
+00:03:49,330 --> 00:03:50,469
+collection of for sure.
+
+59
+00:03:53,500 --> 00:03:56,289
+Bekah Hawrot Weigel: Nice. Well,
+welcome, Tom. we're really,
+
+60
+00:03:56,289 --> 00:03:59,860
+really excited to be talking to
+you today. So thanks for being
+
+61
+00:03:59,860 --> 00:04:05,229
+here. And the way we normally
+get started is we ask all of our
+
+62
+00:04:05,229 --> 00:04:08,259
+guests, kind of how they got
+into tech or where they are now.
+
+63
+00:04:08,259 --> 00:04:12,490
+So if you can give us your
+origin story we would like to
+
+64
+00:04:12,490 --> 00:04:12,759
+hear
+
+65
+00:04:13,090 --> 00:04:18,250
+Tom Cudd: Yeah, absolutely. I
+think I took more of the
+
+66
+00:04:18,250 --> 00:04:22,300
+traditional approach if you
+would call it that. To get into
+
+67
+00:04:22,300 --> 00:04:26,860
+tech I graduated from University
+of Nebraska Lincoln with a
+
+68
+00:04:26,889 --> 00:04:32,410
+computer engineering degree.
+That meant I focused a lot on
+
+69
+00:04:32,410 --> 00:04:35,620
+like hardware and electrical
+engineering in some of my
+
+70
+00:04:35,620 --> 00:04:39,490
+classes. But by the time I
+rolled around the end, I was
+
+71
+00:04:39,490 --> 00:04:44,050
+like, I don't want to like
+design chips or anything like
+
+72
+00:04:44,050 --> 00:04:49,870
+that. So I started looking
+around for for it was pretty bad
+
+73
+00:04:49,870 --> 00:04:52,870
+job market when I when I
+graduated. So I just tried to
+
+74
+00:04:52,870 --> 00:04:55,629
+find whatever I could that was
+remotely related to tech and
+
+75
+00:04:55,660 --> 00:05:02,470
+ended up doing like desktop
+support and For a small mom and
+
+76
+00:05:02,470 --> 00:05:06,009
+pop shop, which, which most
+people would actually call a
+
+77
+00:05:06,009 --> 00:05:10,449
+startup now. So like we did like
+dial up internet for people in
+
+78
+00:05:10,449 --> 00:05:15,699
+rural, we did wireless internet,
+like off of wireless towers to
+
+79
+00:05:15,699 --> 00:05:20,079
+get more high speed and I fix
+people's computers I installed,
+
+80
+00:05:20,170 --> 00:05:23,800
+you know, modems and desktops
+and sent people on their way. So
+
+81
+00:05:23,800 --> 00:05:27,970
+I did that for a few years and
+eventually moved into sort of
+
+82
+00:05:28,389 --> 00:05:34,600
+the more enterprise space. So
+now, after years of kind of
+
+83
+00:05:34,600 --> 00:05:38,709
+building up moving on from
+desktops to data centers, now
+
+84
+00:05:38,709 --> 00:05:42,939
+I'm, I guess, I work a lot in
+the cloud space. So I'm kind of
+
+85
+00:05:42,939 --> 00:05:46,449
+a cloud engineer, cloud
+architect, right? I do work in
+
+86
+00:05:46,449 --> 00:05:50,410
+Azure and AWS to build out
+infrastructure, with
+
+87
+00:05:50,439 --> 00:05:54,970
+infrastructures, code, and
+whatever new technologies come
+
+88
+00:05:54,970 --> 00:05:55,509
+about.
+
+89
+00:05:56,980 --> 00:06:00,730
+Bekah Hawrot Weigel: Nice. So
+one of the things we wanted to
+
+90
+00:06:00,730 --> 00:06:05,769
+talk about today was DevOps. And
+before I ask any questions, can
+
+91
+00:06:05,769 --> 00:06:08,829
+you give us a definition of
+DevOps?
+
+92
+00:06:09,379 --> 00:06:15,379
+Tom Cudd: Yes, there are many
+definitions of DevOps. It's sort
+
+93
+00:06:15,379 --> 00:06:19,339
+of like asking people what agile
+is, you'll get a lot of
+
+94
+00:06:19,339 --> 00:06:23,449
+different answers, depending on
+what people's experiences are. I
+
+95
+00:06:23,480 --> 00:06:30,230
+look at DevOps from a cultural
+and professional perspective. So
+
+96
+00:06:30,230 --> 00:06:35,750
+like, it's more about a culture
+and mentality, one where there's
+
+97
+00:06:35,750 --> 00:06:42,379
+an emphasis on, on collaborating
+and working together with
+
+98
+00:06:42,379 --> 00:06:45,920
+different parts of the
+organization. It's it's sort of
+
+99
+00:06:45,920 --> 00:06:50,870
+misnamed, because DevOps implies
+that there's just two pieces
+
+100
+00:06:50,870 --> 00:06:55,220
+that would be working together,
+we're really it's like, Bus,
+
+101
+00:06:55,220 --> 00:07:01,339
+Dev, Sec, QA, Ops, you know,
+like, it's like, trying to bring
+
+102
+00:07:01,339 --> 00:07:05,240
+everybody to the table. So yeah,
+I look at it from the
+
+103
+00:07:05,240 --> 00:07:09,769
+perspective of it's a, it's a
+cultural movement, that
+
+104
+00:07:10,759 --> 00:07:14,870
+encourages collaboration across
+what were previously known as
+
+105
+00:07:14,870 --> 00:07:19,339
+silos within organizations or
+experiences.
+
+106
+00:07:20,769 --> 00:07:21,970
+Bekah Hawrot Weigel: I think
+that's a really great
+
+107
+00:07:21,970 --> 00:07:26,589
+definition. And when I was
+looking for a job, when I lost
+
+108
+00:07:26,589 --> 00:07:29,050
+my job, at the beginning of the
+pandemic, someone reached out to
+
+109
+00:07:29,050 --> 00:07:32,139
+me to apply for a DevOps job.
+And they asked me what my
+
+110
+00:07:32,139 --> 00:07:36,160
+definition was. And it was,
+like, I had a very little
+
+111
+00:07:36,160 --> 00:07:40,420
+understanding. And so my
+homework for the next interview
+
+112
+00:07:40,420 --> 00:07:44,079
+was to read the Phoenix Project
+in the Unicorn Project, and then
+
+113
+00:07:44,079 --> 00:07:48,250
+come back with a definition of
+what DevOps was. But I wish I
+
+114
+00:07:48,250 --> 00:07:50,860
+could have just asked you then,
+but I don't think I knew you
+
+115
+00:07:50,860 --> 00:07:51,040
+then.
+
+116
+00:07:51,040 --> 00:07:54,519
+Tom Cudd: I would have gladly
+given the answer. Yeah. I mean,
+
+117
+00:07:54,519 --> 00:07:59,500
+a lot of people think it's, it's
+like, I might apply for this
+
+118
+00:07:59,500 --> 00:08:04,180
+like DevOps job, it's people who
+were--I call them reformed
+
+119
+00:08:04,180 --> 00:08:08,680
+systems administrators often
+really have just titled change
+
+120
+00:08:08,680 --> 00:08:15,009
+to kind of DevOps engineers. And
+so, a, there's a certain set of
+
+121
+00:08:15,009 --> 00:08:19,420
+experiences around operational
+tools and techniques, like
+
+122
+00:08:19,449 --> 00:08:25,449
+deployments, you know, Jenkins
+builds and, and doing releases,
+
+123
+00:08:25,839 --> 00:08:29,680
+that's sort of traditional what
+used to be, when the developers
+
+124
+00:08:29,680 --> 00:08:34,899
+are done coding, they throw a
+tarball over the over the wall
+
+125
+00:08:34,899 --> 00:08:37,870
+and expect an operations person
+had to deploy it out onto the
+
+126
+00:08:37,870 --> 00:08:44,200
+server. So that's sort of what
+many people consider the
+
+127
+00:08:44,200 --> 00:08:49,629
+mechanics, the actual tactics of
+a lot of DevOps, folks, but
+
+128
+00:08:49,899 --> 00:08:52,419
+it's, it's more than that. Now,
+it takes a little bit of
+
+129
+00:08:52,570 --> 00:08:55,419
+experiences from all sorts of
+technology areas.
+
+130
+00:08:55,990 --> 00:08:59,350
+Dan Ott: It's interesting, the
+rise of DevOps, and you were
+
+131
+00:08:59,350 --> 00:09:02,889
+touching on this, it's been
+interesting to watch. Because I,
+
+132
+00:09:02,919 --> 00:09:07,269
+my experience, for a large
+portion of my career was the
+
+133
+00:09:07,269 --> 00:09:09,309
+same, right, like, I kind of
+finished my coding thing, and
+
+134
+00:09:09,309 --> 00:09:13,659
+then I'm like, okay, make it so.
+Right. Like, you know, somebody
+
+135
+00:09:13,659 --> 00:09:16,779
+put this up on the internet, you
+know, and, and there's so many
+
+136
+00:09:16,779 --> 00:09:19,960
+tools now available, you know,
+that, like the cloud services
+
+137
+00:09:19,960 --> 00:09:25,480
+and everything, you know, that
+some barriers have been lowered,
+
+138
+00:09:25,570 --> 00:09:31,690
+right. But that means, but also,
+like, lots of times, somebody
+
+139
+00:09:31,690 --> 00:09:33,820
+who traditionally would never
+have to even think about that
+
+140
+00:09:33,820 --> 00:09:38,289
+sort of thing has to think about
+a lot of it. Now, as more with
+
+141
+00:09:38,289 --> 00:09:44,169
+smaller, you know, with smaller
+outfits, probably, but I guess,
+
+142
+00:09:44,169 --> 00:09:47,529
+I guess I was wondering if,
+like, if you talk more like how
+
+143
+00:09:47,529 --> 00:09:49,809
+you've seen that, that's sort of
+like the DevOps, you know,
+
+144
+00:09:50,080 --> 00:09:53,679
+things change and last, you
+know, however, a lot like last
+
+145
+00:09:53,679 --> 00:09:57,490
+couple years, even, you know, as
+far as the definition or even
+
+146
+00:09:57,490 --> 00:10:01,539
+the roles, you know, what kind
+of what kind of different
+
+147
+00:10:01,570 --> 00:10:03,580
+interactions are using things
+like that.
+
+148
+00:10:04,090 --> 00:10:08,259
+Tom Cudd: Yeah, I have seen
+changes over the last 10 years
+
+149
+00:10:08,259 --> 00:10:11,980
+when I didn't know I was doing
+kind of DevOps work 10 years
+
+150
+00:10:11,980 --> 00:10:16,809
+ago, really, I really read the
+Phoenix project, I think, six or
+
+151
+00:10:16,809 --> 00:10:20,470
+seven years ago, which really
+introduced me to the methods of,
+
+152
+00:10:21,009 --> 00:10:24,580
+of how we deliver code to the
+world.
+
+153
+00:10:25,240 --> 00:10:26,950
+Dan Ott: Could--I'm sorry to
+interrupt--but could you...I
+
+154
+00:10:27,129 --> 00:10:28,570
+don't know what the Phoenix
+project is.
+
+155
+00:10:29,019 --> 00:10:32,470
+Tom Cudd: Oh, yeah, the Phoenix
+project. Yeah, the Phoenix
+
+156
+00:10:32,470 --> 00:10:39,250
+project is a great book that
+really widely presented DevOps
+
+157
+00:10:39,250 --> 00:10:45,669
+in a, in a story format, to to
+the world. I don't remember, all
+
+158
+00:10:45,669 --> 00:10:48,309
+of the authors, there's couple
+authors that work with Jean Kim,
+
+159
+00:10:48,309 --> 00:10:51,850
+who is the main author, and he
+he's an excellent speaker, and
+
+160
+00:10:51,850 --> 00:10:57,909
+an excellent contributor to the
+DevOps landscape. And he, the
+
+161
+00:10:57,909 --> 00:11:03,039
+book was a lot of people's first
+introduction to what DevOps is
+
+162
+00:11:03,070 --> 00:11:07,330
+in, in how it can be used to
+correct problematic behaviors
+
+163
+00:11:07,330 --> 00:11:13,059
+within an organization. And, and
+so when I read that, I like it,
+
+164
+00:11:13,059 --> 00:11:16,090
+like blew my mind, I read
+through it in a day, I didn't
+
+165
+00:11:16,090 --> 00:11:19,809
+sleep until I finished that
+book. And I came back to work
+
+166
+00:11:19,809 --> 00:11:23,259
+the next day, and I was like, we
+have to do this for everything.
+
+167
+00:11:23,289 --> 00:11:27,639
+And yeah, my boss was like,
+okay, chill for a second. And
+
+168
+00:11:27,639 --> 00:11:30,429
+then let's like break this down
+and analyze what what it is that
+
+169
+00:11:30,429 --> 00:11:37,210
+we can we can do. There are a
+few things that we learned right
+
+170
+00:11:37,210 --> 00:11:40,179
+off the bat, we were already
+doing right, like emphasizing
+
+171
+00:11:41,259 --> 00:11:44,350
+our ability to empathize with
+the people we're working with
+
+172
+00:11:44,350 --> 00:11:48,309
+and understand the problems and
+meet people at least at least in
+
+173
+00:11:48,309 --> 00:11:50,889
+the middle. And sometimes more
+than halfway, we would, we would
+
+174
+00:11:50,889 --> 00:11:55,870
+try to reach across the aisle to
+get the problem solved. But what
+
+175
+00:11:56,740 --> 00:12:01,059
+what's really changed, I think,
+over the last five years is that
+
+176
+00:12:01,480 --> 00:12:08,080
+we've seen other areas of
+technology developer is QA,
+
+177
+00:12:08,620 --> 00:12:12,279
+infosec, they all have kind of
+embraced more of an emphasis on
+
+178
+00:12:12,309 --> 00:12:18,159
+on that empathy with other parts
+of the organization. Mainly,
+
+179
+00:12:18,159 --> 00:12:21,549
+because I think people are
+realizing there's only so many
+
+180
+00:12:21,580 --> 00:12:25,360
+abstractions about technology
+that you can hold in your head
+
+181
+00:12:25,720 --> 00:12:30,100
+at the same time. So what I mean
+by that, like, I have an
+
+182
+00:12:30,100 --> 00:12:36,759
+understanding of hardware, and
+then how the cloud you know,
+
+183
+00:12:36,759 --> 00:12:39,519
+system sit on top of that
+hardware, and then how we
+
+184
+00:12:39,519 --> 00:12:44,799
+present that clouds systems to
+the the developers and to the
+
+185
+00:12:44,799 --> 00:12:49,629
+end users. If you have to
+understand like, at some point,
+
+186
+00:12:49,629 --> 00:12:52,269
+you have to go, Oh, I need to
+understand what exactly is
+
+187
+00:12:52,269 --> 00:12:55,720
+happening in the networking
+layer here. If you have no
+
+188
+00:12:55,720 --> 00:12:58,029
+familiarity with that, you're
+going to have to ask somebody.
+
+189
+00:12:58,059 --> 00:13:02,860
+And so what is the the
+abstractions that people are
+
+190
+00:13:02,860 --> 00:13:05,559
+understanding kind of overlap?
+It's like a Venn diagram of
+
+191
+00:13:05,710 --> 00:13:10,090
+DevOps is really like the
+intersection of, I'm working
+
+192
+00:13:10,090 --> 00:13:13,690
+with a developer who understands
+how a Spring Boot application
+
+193
+00:13:13,750 --> 00:13:18,100
+works on top of an application
+server. And I understand how an
+
+194
+00:13:18,100 --> 00:13:22,059
+application server worked on top
+of an OS. And so we're meeting
+
+195
+00:13:22,059 --> 00:13:26,440
+in that. That middle, it used to
+be, there was a job title, a lot
+
+196
+00:13:26,440 --> 00:13:29,950
+of people had called middleware
+application developer. And they
+
+197
+00:13:29,950 --> 00:13:34,149
+had, that was sort of like,
+instead of finding a way to
+
+198
+00:13:34,149 --> 00:13:36,340
+collaborate, they just found
+someone who understood both
+
+199
+00:13:36,340 --> 00:13:41,740
+parts of those abstractions. And
+that making another team for
+
+200
+00:13:41,740 --> 00:13:44,409
+something where you really
+shouldn't have just found a way
+
+201
+00:13:44,409 --> 00:13:47,169
+to collaborate and work together
+isn't the way to solve the
+
+202
+00:13:47,169 --> 00:13:47,710
+problem.
+
+203
+00:13:48,879 --> 00:13:50,889
+Bekah Hawrot Weigel: Yeah,
+that's, you keep saying the word
+
+204
+00:13:50,889 --> 00:13:52,990
+collaboration. And I think
+that's great. And I also think
+
+205
+00:13:52,990 --> 00:13:55,720
+it's, it can be super hard,
+right? Especially when you have
+
+206
+00:13:55,720 --> 00:14:00,340
+two teams that are two or more
+used to communicating in certain
+
+207
+00:14:00,340 --> 00:14:03,730
+ways with each other. And I
+imagine that sometimes there can
+
+208
+00:14:03,730 --> 00:14:09,610
+be friction or challenges to,
+you know, make it a space where
+
+209
+00:14:09,610 --> 00:14:12,070
+everybody can talk together.
+
+210
+00:14:13,990 --> 00:14:19,509
+Tom Cudd: Yeah, in, in, like the
+enterprise 10 years ago, in sort
+
+211
+00:14:19,509 --> 00:14:25,570
+of larger enterprise
+organizations. The needs of
+
+212
+00:14:25,870 --> 00:14:29,980
+developers and the business
+working with developers was
+
+213
+00:14:29,980 --> 00:14:34,809
+different than that of the
+operational groups. developers
+
+214
+00:14:34,809 --> 00:14:40,990
+were tasked with releasing
+features and getting code pushed
+
+215
+00:14:40,990 --> 00:14:46,690
+out. And operations groups were
+put into the place where they
+
+216
+00:14:46,690 --> 00:14:51,700
+had to ensure the stability of
+an application, make sure that
+
+217
+00:14:51,700 --> 00:14:54,940
+things stayed running, the
+safety and security and
+
+218
+00:14:54,940 --> 00:14:58,750
+stability was of utmost
+importance. You know, uptime was
+
+219
+00:14:58,750 --> 00:15:03,429
+a big deal. For operational
+groups and developers were like,
+
+220
+00:15:04,090 --> 00:15:06,460
+you know, I don't care about
+uptime, I have a new feature
+
+221
+00:15:06,460 --> 00:15:12,279
+that has to get out to the end
+users. And so that collaboration
+
+222
+00:15:12,279 --> 00:15:14,860
+wasn't happening, because we
+were all coming from a different
+
+223
+00:15:14,860 --> 00:15:18,129
+place a different perspective
+of, we had to figure out how to
+
+224
+00:15:18,129 --> 00:15:23,470
+align the needs of each
+organization, to to solve
+
+225
+00:15:23,470 --> 00:15:24,190
+problems.
+
+226
+00:15:27,389 --> 00:15:33,360
+Dan Ott: Did that sort of, you
+know...like, everything you
+
+227
+00:15:33,360 --> 00:15:37,740
+said, may made sense, and so
+trying to, like, where were you
+
+228
+00:15:37,740 --> 00:15:40,289
+in that process of trying to,
+like figure that that out, like,
+
+229
+00:15:40,409 --> 00:15:43,950
+figure out how to make new
+communication channels or new,
+
+230
+00:15:43,980 --> 00:15:45,840
+you know, decision making
+processes, stuff like that?
+
+231
+00:15:46,600 --> 00:15:53,409
+Tom Cudd: Well, it, it's kind of
+fun to talk to people. For me, I
+
+232
+00:15:53,409 --> 00:15:58,600
+love talking to people. And I
+had been working or I'm at now,
+
+233
+00:15:58,600 --> 00:16:03,490
+I've been there for 10 years
+now. And when I started to take
+
+234
+00:16:03,490 --> 00:16:06,100
+some of these DevOps approaches,
+I had been there for about four
+
+235
+00:16:06,100 --> 00:16:12,370
+years. So I had inroads. I had
+trusting relationships built
+
+236
+00:16:12,370 --> 00:16:15,220
+with certain people in the
+organization, because you know,
+
+237
+00:16:15,220 --> 00:16:19,149
+you get, you're getting a cup of
+coffee, and you talk about, oh,
+
+238
+00:16:19,149 --> 00:16:23,679
+hey, this person also plays the
+electric bass like me. So like,
+
+239
+00:16:23,679 --> 00:16:29,350
+let's talk about that. One, one
+person on my team said a couple
+
+240
+00:16:29,350 --> 00:16:34,090
+years ago, they're like, trust
+takes time. It takes time, you
+
+241
+00:16:34,090 --> 00:16:37,240
+can't I couldn't have just come
+to a new person and come into a
+
+242
+00:16:37,240 --> 00:16:40,480
+new job and go, Okay, we're
+gonna DevOps everything around
+
+243
+00:16:40,480 --> 00:16:43,600
+here. And I'm gonna do things
+this way. And you're just gonna
+
+244
+00:16:43,600 --> 00:16:47,289
+have to deal with it. Because I
+think I know what's best. No, it
+
+245
+00:16:47,289 --> 00:16:50,559
+doesn't, it doesn't work, I got
+to know the people that I was
+
+246
+00:16:50,559 --> 00:16:55,720
+working with certain trusted,
+valued partners in the
+
+247
+00:16:55,720 --> 00:17:00,549
+development organization that
+realized, hey, nobody wants to
+
+248
+00:17:00,549 --> 00:17:04,960
+be up at 3am trying to press a
+button to make this code end up
+
+249
+00:17:04,960 --> 00:17:09,579
+on production. So let's work
+together to it. It started with
+
+250
+00:17:09,609 --> 00:17:14,019
+we created custom scripts that
+people would just be able to
+
+251
+00:17:14,019 --> 00:17:17,589
+trigger with a, you know, a new
+code build would be triggered by
+
+252
+00:17:17,589 --> 00:17:23,019
+a commit. So something like that
+kind of opened up a whole new
+
+253
+00:17:23,019 --> 00:17:29,079
+world of realization that no one
+has to throw code over a wall,
+
+254
+00:17:29,829 --> 00:17:34,690
+we can actually work together to
+automate systems can do what
+
+255
+00:17:34,690 --> 00:17:40,029
+systems are good at, which is
+save people time to do more deep
+
+256
+00:17:40,029 --> 00:17:44,440
+level thinking about problems.
+Because that's what we that's
+
+257
+00:17:44,440 --> 00:17:48,970
+the ultimate goal, you pay
+people to solve unique and
+
+258
+00:17:48,970 --> 00:17:53,140
+interesting problems not to
+press buttons all day that an
+
+259
+00:17:53,140 --> 00:17:54,609
+automated system can handle.
+
+260
+00:17:56,640 --> 00:17:59,940
+Bekah Hawrot Weigel: Yeah, so it
+sounds like a lot of the job
+
+261
+00:17:59,940 --> 00:18:04,200
+too, is creating an environment
+where there's psychological
+
+262
+00:18:04,200 --> 00:18:09,240
+safety, right, where you have
+this trust, where you are
+
+263
+00:18:09,240 --> 00:18:14,670
+thinking about the people who
+are working? And is that
+
+264
+00:18:14,670 --> 00:18:19,079
+something that you're
+consciously thinking about as
+
+265
+00:18:19,079 --> 00:18:21,390
+you're creating these
+relationships? Or I don't know,
+
+266
+00:18:21,390 --> 00:18:24,390
+how does the role of
+psychological safety fit in
+
+267
+00:18:24,390 --> 00:18:24,750
+there?
+
+268
+00:18:25,589 --> 00:18:29,279
+Tom Cudd: For a person who's a
+team lead or manager or
+
+269
+00:18:29,279 --> 00:18:34,680
+supervisor like myself, and also
+doing the technology work, it's
+
+270
+00:18:35,190 --> 00:18:39,119
+the most important thing to me
+is to create a, you know,
+
+271
+00:18:39,119 --> 00:18:47,190
+trusted, safe environment. The
+big thing I found, started doing
+
+272
+00:18:47,190 --> 00:18:51,359
+research after reading Phoenix
+project, a couple other books,
+
+273
+00:18:52,230 --> 00:18:56,220
+Lean Enterprise and Accelerate
+are two other books that I found
+
+274
+00:18:56,220 --> 00:19:03,089
+very powerful in, in my journey
+to to optimize our DevOps,
+
+275
+00:19:03,119 --> 00:19:11,579
+DevOps experiences, and our team
+capabilities. Google did a, a
+
+276
+00:19:11,579 --> 00:19:17,519
+huge research project on what
+made teams successful. And they
+
+277
+00:19:17,519 --> 00:19:22,559
+found that optimizing for like
+individual contributions to be
+
+278
+00:19:22,559 --> 00:19:27,450
+better, didn't ultimately bring
+about success. So you can you
+
+279
+00:19:27,450 --> 00:19:32,640
+can train people individually as
+much as you can, but that, that
+
+280
+00:19:33,150 --> 00:19:37,950
+only unlock so much potential.
+When they, when they figured out
+
+281
+00:19:37,980 --> 00:19:40,920
+what made certain teams more
+successful by doing you know,
+
+282
+00:19:40,920 --> 00:19:44,009
+observational analysis and
+surveys across their whole
+
+283
+00:19:44,009 --> 00:19:48,569
+organization, they found that
+the idea of psychological safety
+
+284
+00:19:48,569 --> 00:19:54,509
+was the most important factor to
+successful teams. So that means
+
+285
+00:19:55,349 --> 00:20:02,009
+giving everybody an opportunity
+to speak knowing that you can
+
+286
+00:20:02,009 --> 00:20:06,630
+take risks without the, you
+know, embarrassment of things
+
+287
+00:20:06,630 --> 00:20:10,589
+failing, like, I have a person
+on my team that they deployed a
+
+288
+00:20:10,589 --> 00:20:13,740
+config that accidentally broke
+prod one time and it was there.
+
+289
+00:20:13,799 --> 00:20:16,799
+They're a junior person. And
+there's the first time they did
+
+290
+00:20:16,799 --> 00:20:21,180
+something that broke prod and
+another person on the team went
+
+291
+00:20:21,180 --> 00:20:23,640
+out and bought champagne and
+brought it back to the office
+
+292
+00:20:23,640 --> 00:20:26,759
+and was like, congratulations,
+it's your first time breaking
+
+293
+00:20:26,759 --> 00:20:30,089
+fraud, it won't be the last. So
+let's celebrate it and learn
+
+294
+00:20:30,089 --> 00:20:35,220
+from it. So knowing that, that
+you can do risky things without
+
+295
+00:20:35,220 --> 00:20:40,710
+penalty, in order to try and
+learn it's, it's, it's how we
+
+296
+00:20:41,069 --> 00:20:45,000
+learn from the mistakes, that's
+important. And so making a safe
+
+297
+00:20:45,000 --> 00:20:51,029
+environment for your team to be
+able to try new things and have
+
+298
+00:20:51,029 --> 00:20:55,799
+that growth and learning mindset
+is, I think the only way that
+
+299
+00:20:55,799 --> 00:20:59,069
+we're going to make our teams
+better and our organization
+
+300
+00:20:59,069 --> 00:21:04,470
+better. So that's, it is really
+important to me to create that
+
+301
+00:21:04,470 --> 00:21:06,990
+kind of safe area to do that
+work in it.
+
+302
+00:21:07,029 --> 00:21:08,799
+Dan Ott: Can you talk a little
+bit more about some specific
+
+303
+00:21:08,799 --> 00:21:12,519
+techniques you use to foster
+psychological, psychological
+
+304
+00:21:12,519 --> 00:21:16,720
+safety within your team? you'd
+mentioned that, you know, making
+
+305
+00:21:16,750 --> 00:21:20,799
+failures explicitly. Okay,
+right, and risk. But what are
+
+306
+00:21:20,799 --> 00:21:24,819
+some other like techniques that
+you use to help your team feel
+
+307
+00:21:24,819 --> 00:21:25,869
+safe all together.
+
+308
+00:21:26,529 --> 00:21:31,329
+Tom Cudd: So I, as a person who
+has been technology person most
+
+309
+00:21:31,329 --> 00:21:34,690
+of their life, and who's been
+mainly focused on development
+
+310
+00:21:34,690 --> 00:21:37,960
+and experiences like that, I had
+to kind of learn a little bit
+
+311
+00:21:37,960 --> 00:21:42,460
+more about what it is to be a
+manager and to manage people. So
+
+312
+00:21:42,490 --> 00:21:46,420
+I know this month that Virtual
+Coffee, were reading Radical
+
+313
+00:21:46,420 --> 00:21:50,289
+Candor, which is a really
+excellent book for learning how
+
+314
+00:21:50,289 --> 00:21:53,680
+to have conversations with
+people that are helpful to them.
+
+315
+00:21:54,279 --> 00:21:57,819
+I used to be, if you've read
+that book, you'll you'll
+
+316
+00:21:57,819 --> 00:22:01,779
+understand the term ruinous
+empathy, like I felt bad for
+
+317
+00:22:01,779 --> 00:22:05,650
+people, all the time, people
+that I worked with that I you
+
+318
+00:22:05,650 --> 00:22:09,160
+know, that were having troubles
+with things. But instead of
+
+319
+00:22:09,759 --> 00:22:13,960
+politely and directly giving
+them the feedback and criticism
+
+320
+00:22:13,960 --> 00:22:18,250
+that they need, I would just be
+saying, "Oh, it's okay. Well,
+
+321
+00:22:18,250 --> 00:22:20,920
+we'll try to, we'll, we'll try
+to fix it together." And then
+
+322
+00:22:20,920 --> 00:22:24,009
+I'd go back and fix their,
+whatever was broken, that didn't
+
+323
+00:22:24,009 --> 00:22:27,009
+help them improve. It didn't
+give them the opportunity to to
+
+324
+00:22:27,009 --> 00:22:33,609
+learn. It was it was, it was a
+problem for everyone to kind of
+
+325
+00:22:33,609 --> 00:22:37,390
+cover that pain. And that that
+goes back to like DevOps is an
+
+326
+00:22:37,390 --> 00:22:41,589
+important part of DevOps is that
+shared pain, like you don't hide
+
+327
+00:22:42,099 --> 00:22:48,490
+the pain, that one process or
+area or effort brings you, you
+
+328
+00:22:48,670 --> 00:22:52,660
+expose it and bring it out,
+bring it up and say, Hey, this
+
+329
+00:22:52,660 --> 00:22:55,779
+is something that's causing
+people problems, let's work
+
+330
+00:22:55,779 --> 00:23:02,740
+together to fix it. We have to
+have to be professionally direct
+
+331
+00:23:03,099 --> 00:23:08,740
+in those times. Because if we're
+if we're not, we're not
+
+332
+00:23:08,980 --> 00:23:15,609
+improving the space that we're
+in. I mean, I work at an ad
+
+333
+00:23:15,609 --> 00:23:20,769
+agency. So it's, it's it can be
+hectic at times, and it even 10
+
+334
+00:23:20,769 --> 00:23:24,910
+years ago, it used to be like,
+hey, we'd get a project started
+
+335
+00:23:24,910 --> 00:23:27,730
+on Monday might have to have
+something launched by Saturday
+
+336
+00:23:27,730 --> 00:23:30,160
+night, and it would just be work
+all hours until it's done.
+
+337
+00:23:31,450 --> 00:23:35,470
+Bringing up those types of
+things is difficult. But we
+
+338
+00:23:35,470 --> 00:23:39,250
+built up the trust with people
+to recognize, hey, maybe a 40
+
+339
+00:23:39,250 --> 00:23:42,160
+Hour Workweek is better for us
+in the long term. Well, how do
+
+340
+00:23:42,160 --> 00:23:45,579
+we get to that point? Well, for
+one thing, we can automate more
+
+341
+00:23:45,579 --> 00:23:50,170
+so that we don't have to keep
+wasting two hours rolling code,
+
+342
+00:23:50,170 --> 00:23:53,380
+we can press a button and go to
+sleep, or press a button and
+
+343
+00:23:53,380 --> 00:23:57,789
+give the output to someone else.
+So working, working together in
+
+344
+00:23:57,789 --> 00:24:02,589
+that space, is how we got there.
+And the only way to do that is
+
+345
+00:24:02,589 --> 00:24:06,039
+to just say, Hey, this is a
+problem. We need to fix it
+
+346
+00:24:06,039 --> 00:24:11,829
+together. And say it over and
+over again, in as polite and
+
+347
+00:24:11,829 --> 00:24:14,710
+professional manner as you can
+and hopefully, someone will
+
+348
+00:24:14,710 --> 00:24:18,640
+eventually pay attention. And if
+if they don't, you know, maybe
+
+349
+00:24:18,640 --> 00:24:22,660
+it's not the best culture or the
+best place. There are things you
+
+350
+00:24:22,660 --> 00:24:26,859
+can do to help improve it, but
+for some, some places, there's
+
+351
+00:24:26,859 --> 00:24:28,779
+only so much you can do. I'll
+I'll tell you that.
+
+352
+00:24:29,740 --> 00:24:32,319
+Dan Ott: Yeah, I'm sure that's
+true. I was going to ask like
+
+353
+00:24:32,319 --> 00:24:38,349
+how, how, I mean, this sort of
+thing has to come down from you
+
+354
+00:24:38,349 --> 00:24:41,650
+know, like, has to have support,
+you know, further up the
+
+355
+00:24:41,680 --> 00:24:44,470
+management tree, for instance,
+you know, I was just like
+
+356
+00:24:44,470 --> 00:24:47,740
+wondering how far up you feel
+like this, this sort of
+
+357
+00:24:47,829 --> 00:24:53,440
+approach, you know, is directed
+in your organization.
+
+358
+00:24:54,549 --> 00:24:58,390
+Tom Cudd: Now, at this moment,
+yeah, everything around the idea
+
+359
+00:24:58,390 --> 00:25:04,750
+of DevOps is embraced And Heck,
+it's used as a selling point for
+
+360
+00:25:04,750 --> 00:25:09,009
+clients that we're, we work in
+this manner. And it's to the
+
+361
+00:25:09,009 --> 00:25:14,019
+benefit of everybody, including
+the teams we're working with.
+
+362
+00:25:14,019 --> 00:25:17,019
+And, and eventually, the end
+user and customer that we're
+
+363
+00:25:17,019 --> 00:25:23,650
+dealing with. We took it as a
+bottom up kind of approach, I
+
+364
+00:25:23,650 --> 00:25:27,700
+didn't ask for management buy in
+to start doing these things, we
+
+365
+00:25:27,700 --> 00:25:35,079
+found areas where we could eke
+into improvements. I've always
+
+366
+00:25:36,069 --> 00:25:40,480
+leaned towards the ask for
+forgiveness rather than
+
+367
+00:25:40,480 --> 00:25:47,289
+permission. When I when I'm
+doing work, mainly because I, I
+
+368
+00:25:47,289 --> 00:25:49,690
+figure, the worst that can
+happen is someone just fires me
+
+369
+00:25:49,690 --> 00:25:54,549
+and I go find a new job. But I
+have that kind of like risk. I'm
+
+370
+00:25:54,549 --> 00:25:57,910
+normally risk averse in my
+personal life. But like, in my
+
+371
+00:25:57,910 --> 00:26:02,200
+professional life, I'm like YOLO
+pride, you know, let's, let's
+
+372
+00:26:02,200 --> 00:26:04,059
+go, let's go get this done.
+
+373
+00:26:04,779 --> 00:26:07,269
+Dan Ott: So an example of
+something like that would be,
+
+374
+00:26:07,420 --> 00:26:11,079
+you have a project and you could
+like power through it quickly.
+
+375
+00:26:11,109 --> 00:26:13,480
+But if you spend a little more
+time, you know, working through
+
+376
+00:26:13,480 --> 00:26:16,930
+some automations, or some some
+of the things like that, the
+
+377
+00:26:16,930 --> 00:26:19,869
+product will be different, like,
+it might take a little bit
+
+378
+00:26:19,900 --> 00:26:22,990
+longer to get out the door, like
+the first time or something, but
+
+379
+00:26:22,990 --> 00:26:27,910
+then the full product will be
+much more valuable. Right. Is
+
+380
+00:26:27,910 --> 00:26:30,190
+that? Am I mistaken? That kind
+of correctly?
+
+381
+00:26:30,220 --> 00:26:33,789
+Tom Cudd: Yeah, that's exactly
+what I mean. Investing some time
+
+382
+00:26:33,789 --> 00:26:41,259
+up front to save you long run.
+Time is the way we mentally
+
+383
+00:26:41,259 --> 00:26:45,970
+operates. Right now. I'm
+thinking of my future self is my
+
+384
+00:26:45,970 --> 00:26:48,819
+future self going to be happy
+that I created this build
+
+385
+00:26:48,819 --> 00:26:54,160
+pipeline, so that I can give
+developer a button to press when
+
+386
+00:26:54,160 --> 00:26:57,970
+they need it? Yeah, my future
+self is going to be really happy
+
+387
+00:26:57,970 --> 00:27:02,829
+that my past self did that, that
+work ahead of time, it does take
+
+388
+00:27:04,359 --> 00:27:07,750
+you know, I talked about
+building those relationships up,
+
+389
+00:27:08,410 --> 00:27:12,250
+I had to start making sure that
+people who were going in on
+
+390
+00:27:12,250 --> 00:27:18,250
+like, client pitches and people
+who were working directly with
+
+391
+00:27:18,250 --> 00:27:22,930
+clients and creating scopes to
+work off of understood the lead
+
+392
+00:27:22,930 --> 00:27:26,769
+time we needed in order to make
+the project successful. That
+
+393
+00:27:26,769 --> 00:27:30,220
+also took that kind of like,
+hey, let's have a cup of coffee.
+
+394
+00:27:30,220 --> 00:27:33,700
+And I can explain, this is how
+we work. And this is what we're
+
+395
+00:27:33,700 --> 00:27:38,349
+trying to do. And if you you
+know, redline this line item in
+
+396
+00:27:38,349 --> 00:27:41,710
+the scope, you're actually going
+to cost yourself more money in
+
+397
+00:27:41,710 --> 00:27:46,269
+this time period in the future,
+because you didn't invest this
+
+398
+00:27:46,269 --> 00:27:51,220
+time up front. So you can either
+invest front heavy on our sort
+
+399
+00:27:51,220 --> 00:27:53,950
+of building the automated
+processes, or you're going to
+
+400
+00:27:53,950 --> 00:27:57,579
+pay more over the entire life of
+the project to have someone
+
+401
+00:27:57,640 --> 00:28:02,230
+available all hours of the day
+to get this work done. So it
+
+402
+00:28:02,230 --> 00:28:05,380
+does require a little bit of
+storytelling to make sure people
+
+403
+00:28:05,380 --> 00:28:10,150
+understand, hey, this, this is
+why we're doing this. You can't
+
+404
+00:28:11,079 --> 00:28:15,039
+build the landing gear while the
+plane is flying. You should have
+
+405
+00:28:15,039 --> 00:28:17,559
+done that, you know, before you
+even took off, right?
+
+406
+00:28:18,519 --> 00:28:22,779
+Bekah Hawrot Weigel: Yeah. So it
+sounds like you are also
+
+407
+00:28:22,779 --> 00:28:26,109
+investing time in the people,
+right? Because you have to have
+
+408
+00:28:26,109 --> 00:28:31,690
+those relationships, and try and
+get people to trust you. And
+
+409
+00:28:31,690 --> 00:28:34,240
+that's gonna save you time in
+the long run, right? Because I
+
+410
+00:28:34,240 --> 00:28:38,170
+find that, you know, avoiding
+hard conversations are trying to
+
+411
+00:28:38,170 --> 00:28:43,329
+work around them, they have a
+way of coming back and creating
+
+412
+00:28:43,329 --> 00:28:46,089
+something that's much more
+challenging to deal with rather
+
+413
+00:28:46,089 --> 00:28:49,269
+than, like, okay, let's get this
+out now, or let's talk about
+
+414
+00:28:49,269 --> 00:28:52,180
+this, or let's grab a cup of
+coffee and get to know each
+
+415
+00:28:52,180 --> 00:28:55,390
+other a little bit. Because then
+you have a relationship where
+
+416
+00:28:55,390 --> 00:28:57,160
+you can be more honest with that
+person.
+
+417
+00:28:57,910 --> 00:29:03,430
+Tom Cudd: Absolutely. It's, it's
+the part of the job that I like
+
+418
+00:29:03,430 --> 00:29:08,619
+the most is to, to foster that
+kind of friendship, work,
+
+419
+00:29:08,980 --> 00:29:15,670
+friendship with people to
+understand what they're doing,
+
+420
+00:29:15,940 --> 00:29:19,839
+and how it applies to the
+problems I'm trying to solve.
+
+421
+00:29:20,650 --> 00:29:28,059
+And then and in telling them how
+look, Okay, I see I see here,
+
+422
+00:29:28,420 --> 00:29:31,329
+when you're when you're selling
+the client this, here's what you
+
+423
+00:29:31,329 --> 00:29:35,349
+want to tell them so that they
+don't like cross off this line
+
+424
+00:29:35,349 --> 00:29:38,680
+in the scope thing. I'm not
+paying for that. Like No, it's
+
+425
+00:29:38,680 --> 00:29:41,769
+built in to the kind of agile
+work that we're doing in order
+
+426
+00:29:41,769 --> 00:29:46,690
+to save you like how we used to
+sell agile and working in
+
+427
+00:29:46,690 --> 00:29:49,359
+Sprint's to clients is
+completely different now than it
+
+428
+00:29:49,359 --> 00:29:53,230
+was even a couple of years ago.
+How many clients wanted to say,
+
+429
+00:29:53,259 --> 00:29:57,400
+oh, you're going to pay for a
+team of this size for this long
+
+430
+00:29:57,400 --> 00:30:00,009
+and we're not going to commit to
+saying we'll get this done.
+
+431
+00:30:00,279 --> 00:30:03,819
+We're just going to say how many
+points during this sprint, we're
+
+432
+00:30:03,819 --> 00:30:06,009
+going to get done, and then this
+sprint, and then this sprint,
+
+433
+00:30:06,579 --> 00:30:09,430
+but we can't exactly tell you
+what releases are going to be
+
+434
+00:30:09,430 --> 00:30:12,039
+out the door, like, what
+features are going to be done,
+
+435
+00:30:12,400 --> 00:30:15,880
+you, you're buying out a team
+for this loan, that didn't work,
+
+436
+00:30:15,910 --> 00:30:19,240
+even three or four years ago, no
+one, no one would buy out a team
+
+437
+00:30:19,240 --> 00:30:23,440
+to work on projects like that. I
+mean, a handful of larger
+
+438
+00:30:23,440 --> 00:30:26,470
+organizations may have
+understood the value. But DevOps
+
+439
+00:30:26,470 --> 00:30:29,049
+is sort of like that, it's like,
+oh, you're going to pay for this
+
+440
+00:30:29,049 --> 00:30:33,519
+up front, so that you save
+yourself, the time and the money
+
+441
+00:30:33,519 --> 00:30:37,630
+in the long run, being able to
+tell that story through, you
+
+442
+00:30:37,630 --> 00:30:41,079
+know, creating slides and
+visualization for teams, you
+
+443
+00:30:41,079 --> 00:30:43,960
+know, selling our services,
+that's, that's an area where
+
+444
+00:30:43,960 --> 00:30:47,859
+I've had to learn, you know,
+some new skills. But again, I
+
+445
+00:30:47,859 --> 00:30:51,039
+fostered the right kind of
+friendship inside the office to
+
+446
+00:30:51,039 --> 00:30:54,190
+say, hey, this person actually
+works in the creative department
+
+447
+00:30:54,190 --> 00:30:56,829
+and has a bunch of slides that
+we can use, and then I can just
+
+448
+00:30:56,829 --> 00:31:02,170
+layer some stuff on top of so
+that Kismet of like randomly
+
+449
+00:31:02,170 --> 00:31:05,049
+running into people in the
+office is still something that I
+
+450
+00:31:05,170 --> 00:31:08,799
+hope I eventually get back to,
+so that I can still foster those
+
+451
+00:31:08,799 --> 00:31:13,420
+relationships a little bit more
+challenging. In a kind of remote
+
+452
+00:31:13,420 --> 00:31:17,890
+world, but I it's, it's still
+important, there's ways to do
+
+453
+00:31:17,890 --> 00:31:23,380
+it. And we're still trying to
+reach reach the reach the parts
+
+454
+00:31:23,380 --> 00:31:25,690
+of the organizations, we're
+still trying to learn more about
+
+455
+00:31:25,690 --> 00:31:30,579
+how to interact with and how to
+engage with, even in the even in
+
+456
+00:31:30,579 --> 00:31:31,960
+the remote sense.
+
+457
+00:31:33,849 --> 00:31:38,259
+Dan Ott: That's cool, it's cool
+that you have, I don't know that
+
+458
+00:31:38,259 --> 00:31:40,990
+the freedom to be able to do
+that, right, that you're not
+
+459
+00:31:40,990 --> 00:31:44,380
+like stuck and stuck in silos or
+being told to you know, stay in
+
+460
+00:31:44,380 --> 00:31:47,410
+your, your zone or whatever, you
+know, in your organization.
+
+461
+00:31:47,440 --> 00:31:50,170
+Tom Cudd: I've been told to stay
+in my zone a couple of times and
+
+462
+00:31:50,170 --> 00:31:51,430
+stay in my lane a couple of
+times.
+
+463
+00:31:51,460 --> 00:31:56,829
+Dan Ott: Well sure, but, but you
+didn't get fired, right. So...
+
+464
+00:31:57,220 --> 00:31:58,059
+Tom Cudd: no, I did not.
+
+465
+00:31:59,619 --> 00:32:00,549
+Dan Ott: I think that's really
+cool.
+
+466
+00:32:01,539 --> 00:32:05,200
+Bekah Hawrot Weigel: So how do
+you deal with challenges or
+
+467
+00:32:05,200 --> 00:32:08,170
+pushback on the things that
+you're trying to do? I guess,
+
+468
+00:32:08,170 --> 00:32:13,359
+like, Is there an approach to?
+Well, I guess I don't I don't
+
+469
+00:32:13,359 --> 00:32:15,190
+want to lead the question. So if
+you...
+
+470
+00:32:16,029 --> 00:32:18,910
+Tom Cudd: Oh, how do I deal with
+the challenges of it? Well,
+
+471
+00:32:18,940 --> 00:32:26,049
+there are, there definitely is
+pushback. And there's some I
+
+472
+00:32:26,049 --> 00:32:28,930
+want to say Old Guard mentality,
+I think that's probably the
+
+473
+00:32:28,930 --> 00:32:34,299
+closest way to describe it.
+People who are coming from their
+
+474
+00:32:34,299 --> 00:32:38,079
+industry experience was 1520
+years ago. And that's kind of
+
+475
+00:32:38,079 --> 00:32:42,910
+what they stuck with. Changing
+that kind of mindset. As proven
+
+476
+00:32:42,910 --> 00:32:47,829
+to be very difficult. I, we
+sometimes bring in senior
+
+477
+00:32:47,829 --> 00:32:53,769
+engineers, for a specific client
+project technology stack needs,
+
+478
+00:32:54,460 --> 00:32:58,150
+and changing how they think has
+been more challenging than then
+
+479
+00:32:59,049 --> 00:33:04,990
+maybe hiring more junior entry
+level boot camp type grads, so
+
+480
+00:33:04,990 --> 00:33:09,400
+we have a tech apprenticeship
+program now that we're, we we've
+
+481
+00:33:09,400 --> 00:33:12,099
+brought in some apprentices that
+are coming from, you know,
+
+482
+00:33:12,130 --> 00:33:18,490
+career switching and their the
+fact that they're learning
+
+483
+00:33:18,490 --> 00:33:23,380
+something like technology, after
+another career has proven to be
+
+484
+00:33:23,410 --> 00:33:29,650
+invaluable to, to bring in and
+they're more flexible and
+
+485
+00:33:29,650 --> 00:33:33,009
+understanding Oh, well, this
+person, just, you know, they
+
+486
+00:33:33,009 --> 00:33:35,559
+don't want to do it this way,
+that's fine. We'll just we'll do
+
+487
+00:33:35,559 --> 00:33:39,579
+it their way, and then show them
+and explain to them and train
+
+488
+00:33:39,579 --> 00:33:46,599
+them. It's it's a more patient
+approach. It's what I end up
+
+489
+00:33:46,599 --> 00:33:49,299
+doing. A lot of times when I get
+pushback of I want to spend the
+
+490
+00:33:49,299 --> 00:33:52,660
+time upfront to automate this, I
+want to build this
+
+491
+00:33:52,779 --> 00:33:58,660
+infrastructure using terraform,
+or something like that. I, I
+
+492
+00:33:59,019 --> 00:34:02,680
+actually show and explain. If I
+build it with terraform versus
+
+493
+00:34:02,680 --> 00:34:05,170
+build it by hand, it's going to
+take this amount of time for
+
+494
+00:34:05,380 --> 00:34:09,219
+this amount of time. But if I
+need to scale up this
+
+495
+00:34:09,219 --> 00:34:13,389
+environment, to like 10, times
+the number of systems very
+
+496
+00:34:13,389 --> 00:34:17,230
+quickly, because you said there
+was a possibility, this may have
+
+497
+00:34:17,230 --> 00:34:21,130
+to scale very quickly. I just
+changed, increment this number,
+
+498
+00:34:21,280 --> 00:34:24,909
+and boom, we have 10 systems.
+Whereas here, I would have to do
+
+499
+00:34:24,909 --> 00:34:29,110
+that one time, effort 10 more
+times. So like being able to
+
+500
+00:34:29,139 --> 00:34:34,150
+like just instead of getting
+frustrated and saying, No, you
+
+501
+00:34:34,150 --> 00:34:36,489
+have to do it my way. Why are
+you arguing with me? I tried to
+
+502
+00:34:36,489 --> 00:34:40,179
+understand, like, it's really
+hard to just sit and go, Okay,
+
+503
+00:34:40,389 --> 00:34:42,460
+what is it that you're actually
+complaining about? are you
+
+504
+00:34:42,460 --> 00:34:44,889
+complaining because it's going
+to take me two weeks longer?
+
+505
+00:34:45,429 --> 00:34:49,090
+Well, okay, let's bring in
+another resource. I can borrow
+
+506
+00:34:49,090 --> 00:34:52,570
+one of your developers, I can a
+developer can learn you know,
+
+507
+00:34:52,570 --> 00:34:57,460
+some YAML configuration based
+language like terraform and and
+
+508
+00:34:57,460 --> 00:35:02,349
+help me out here. So We try to
+find, you know, unique solutions
+
+509
+00:35:02,349 --> 00:35:07,150
+that way. It's it's active
+listening, you know that the
+
+510
+00:35:07,150 --> 00:35:10,869
+whole, like, back to thinking
+about communication studies
+
+511
+00:35:12,010 --> 00:35:15,849
+being an active listener and
+actually trying to Okay, let me
+
+512
+00:35:15,849 --> 00:35:20,139
+let me rephrase what you're
+telling me. And sometimes that's
+
+513
+00:35:20,500 --> 00:35:23,769
+the simplest way to get back to
+the solutions where people are.
+
+514
+00:35:23,949 --> 00:35:25,599
+People are really pushing back
+against you.
+
+515
+00:35:27,159 --> 00:35:33,519
+Dan Ott: Yeah, I like that.
+Colleen's podcast, social, man.
+
+516
+00:35:33,519 --> 00:35:37,239
+I'm blanking on the name.
+Colleen has a podcast--Yeah,
+
+517
+00:35:37,300 --> 00:35:39,219
+yeah--Software Social sorry,
+she, she has a podcast, and they
+
+518
+00:35:39,219 --> 00:35:44,199
+just did user interview with it.
+Like they did a two parter where
+
+519
+00:35:44,199 --> 00:35:47,980
+they interviewed Drew actually
+from Virtual Coffee, but for
+
+520
+00:35:47,980 --> 00:35:52,539
+Colleen's app, and then as the
+host, Michelle, is that her
+
+521
+00:35:52,539 --> 00:35:56,559
+name? Yeah. So she did the
+interview. And then the second
+
+522
+00:35:56,889 --> 00:36:01,090
+part was, Colleen, like,
+reacting to it or whatever. And
+
+523
+00:36:01,090 --> 00:36:03,579
+Michelle was talking a lot about
+that active listening, and that
+
+524
+00:36:03,579 --> 00:36:07,690
+technique of rephrasing
+something that somebody said, or
+
+525
+00:36:07,690 --> 00:36:13,480
+like, to get them to, you know,
+sort of talk more about it. And
+
+526
+00:36:13,480 --> 00:36:16,510
+she said, she actually will do
+this, or maybe she used to
+
+527
+00:36:16,510 --> 00:36:18,489
+because she didn't use her
+interviews for like, you know,
+
+528
+00:36:18,670 --> 00:36:24,579
+for work and would rephrase
+something, but Excuse me, but,
+
+529
+00:36:24,610 --> 00:36:28,510
+um, intentionally mess it up a
+little bit, you know, and to get
+
+530
+00:36:28,510 --> 00:36:31,809
+them to get a person, and this
+wasn't even tech, this is like,
+
+531
+00:36:32,289 --> 00:36:35,320
+any, any user, you know, but
+like to get them to talk up,
+
+532
+00:36:35,349 --> 00:36:37,659
+like, explain why, you know,
+like, talk more about their,
+
+533
+00:36:37,960 --> 00:36:41,530
+their, whatever was, you know,
+their farm or whatever it was,
+
+534
+00:36:41,530 --> 00:36:43,030
+you know, that she's
+interviewing, I thought that was
+
+535
+00:36:43,599 --> 00:36:44,800
+a cool, cool idea.
+
+536
+00:36:45,409 --> 00:36:47,570
+Tom Cudd: That is a really good
+technique. I'm gonna have to
+
+537
+00:36:47,570 --> 00:36:50,480
+remember that. Yeah, yeah. You
+mean to say sort of like a
+
+538
+00:36:50,480 --> 00:36:53,900
+really annoying clipping like,
+Did you mean to? Did you mean to
+
+539
+00:36:53,900 --> 00:36:57,409
+say this? No, that's not what I
+said at all. Let me explain it
+
+540
+00:36:57,409 --> 00:37:00,110
+better. Oh, that would be great.
+I would love it, if you would
+
+541
+00:37:00,110 --> 00:37:01,010
+explain it better.
+
+542
+00:37:01,510 --> 00:37:03,670
+Dan Ott: Yeah, yeah, exactly.
+That's pretty much exactly it.
+
+543
+00:37:03,730 --> 00:37:07,480
+You know, she, I mean, she, she
+was talking about how she would
+
+544
+00:37:07,480 --> 00:37:10,900
+lean on because she was younger,
+I think and would lean on, you
+
+545
+00:37:10,900 --> 00:37:13,599
+know, people's, she's
+interviewing men and would lean
+
+546
+00:37:13,599 --> 00:37:17,559
+on the assumptions, you know,
+sort of, of talking to a young
+
+547
+00:37:17,559 --> 00:37:21,159
+woman, you know, we're like,
+and, like, let the but like, but
+
+548
+00:37:21,190 --> 00:37:24,159
+her job was at the time was
+getting the person to talk, you
+
+549
+00:37:24,159 --> 00:37:27,789
+know what I mean? And so she
+would sort of make mistakes on
+
+550
+00:37:27,789 --> 00:37:30,760
+purpose. Just to get them to do
+exactly what he said, No, no,
+
+551
+00:37:30,760 --> 00:37:34,570
+that's not it at all. Let me
+explain it. I thought that was
+
+552
+00:37:34,570 --> 00:37:35,019
+really great.
+
+553
+00:37:35,530 --> 00:37:39,579
+Tom Cudd: I seen that technique
+in action. My wife is actually a
+
+554
+00:37:39,610 --> 00:37:42,880
+broadcast journalism major, and
+was in the field for a few
+
+555
+00:37:42,880 --> 00:37:47,590
+years. And I'm like, every once
+in a while, like, Are you
+
+556
+00:37:47,590 --> 00:37:51,159
+trying? Are you trying to get me
+to say more about what I mean?
+
+557
+00:37:51,190 --> 00:37:54,699
+Like, like that, that's a pretty
+interesting technique right
+
+558
+00:37:54,699 --> 00:37:59,469
+there. So yeah, it's, it's a
+good tool in the belt to have in
+
+559
+00:37:59,469 --> 00:38:04,210
+the building relationships with
+people that you work with. So I
+
+560
+00:38:04,570 --> 00:38:06,550
+love it, I need to use it more.
+
+561
+00:38:08,530 --> 00:38:12,789
+Dan Ott: That's awesome. I like
+I like coming to it with that,
+
+562
+00:38:13,000 --> 00:38:18,400
+that sort of attitude, right?
+Like that. You know, I mean, I
+
+563
+00:38:18,400 --> 00:38:20,769
+think of active when I hear
+active listening, I think of
+
+564
+00:38:21,280 --> 00:38:24,460
+interviews and stuff like that,
+but you know, even doing it with
+
+565
+00:38:24,460 --> 00:38:27,250
+your with teammates, and trying
+to try to just like dig into,
+
+566
+00:38:27,489 --> 00:38:30,460
+like, what problem we're trying
+to solve, you know, like, or why
+
+567
+00:38:30,460 --> 00:38:34,179
+we're trying to, like, somebody
+comes and asks you for some
+
+568
+00:38:34,179 --> 00:38:37,510
+pipeline or, or whatever, but
+digging in and finding like,
+
+569
+00:38:37,510 --> 00:38:39,820
+what the root of the thing that
+they actually want is, you know,
+
+570
+00:38:40,239 --> 00:38:43,750
+is, is like an interesting
+skill, it's something I'm always
+
+571
+00:38:43,750 --> 00:38:48,519
+trying to practice by Vince,
+the, the guy I work with, is
+
+572
+00:38:48,519 --> 00:38:54,519
+like a master at that, of, of
+like, somebody will come and one
+
+573
+00:38:54,519 --> 00:38:58,179
+of our one of our clients have a
+long term client. They are they
+
+574
+00:38:58,179 --> 00:39:00,670
+do deck construction, and came
+in and said, they want a
+
+575
+00:39:00,670 --> 00:39:03,460
+website, you know, and they had
+gotten quotes around other
+
+576
+00:39:03,460 --> 00:39:07,960
+places or whatever, and then
+talked to the owner for like, a
+
+577
+00:39:07,960 --> 00:39:11,349
+solid day. And out of that came
+a contract to redesign their
+
+578
+00:39:11,349 --> 00:39:15,190
+logo and not nothing about
+websites, redesign their logo
+
+579
+00:39:15,190 --> 00:39:18,190
+and and create truck decals, you
+know, because, like, they're,
+
+580
+00:39:18,429 --> 00:39:22,389
+like, they had some small
+website, like some, you know,
+
+581
+00:39:22,420 --> 00:39:25,599
+whatever website, you know, but
+like, their main thing, it
+
+582
+00:39:25,599 --> 00:39:27,369
+wasn't that they needed a
+website is that they needed more
+
+583
+00:39:27,369 --> 00:39:31,059
+customers, you know, like, and
+like, they're, like prospective
+
+584
+00:39:31,059 --> 00:39:34,840
+customers for them are people
+like next door to the brand new
+
+585
+00:39:34,840 --> 00:39:37,119
+deck that they just installed
+for, like the neighbors and you
+
+586
+00:39:37,119 --> 00:39:39,340
+know, things like that. So it's
+like getting a website that can
+
+587
+00:39:39,340 --> 00:39:42,639
+serve all the world not very
+helpful for a local construction
+
+588
+00:39:42,639 --> 00:39:45,579
+company, necessarily. You know
+what I mean? At least that is
+
+589
+00:39:45,579 --> 00:39:46,389
+step one, you know,
+
+590
+00:39:46,929 --> 00:39:51,550
+Tom Cudd: yeah, I see that
+happen a lot. Like, I get a lot
+
+591
+00:39:51,550 --> 00:39:55,570
+of JIRA tickets handed over to
+me or the people on my team that
+
+592
+00:39:55,570 --> 00:40:05,019
+are Hey, can you put this config
+out on this server for us. And I
+
+593
+00:40:05,019 --> 00:40:08,469
+see those types of things right
+away. And I go, No, no, no, no,
+
+594
+00:40:08,469 --> 00:40:11,230
+tell me what to do, tell me what
+it is you're trying to
+
+595
+00:40:11,230 --> 00:40:15,099
+accomplish, and I'll be happy.
+If it ends up being that all I
+
+596
+00:40:15,099 --> 00:40:18,820
+have to do is put that config
+out there, that's great. I can
+
+597
+00:40:18,820 --> 00:40:22,090
+also provide you the system for
+you and your team to do that
+
+598
+00:40:22,090 --> 00:40:26,230
+yourself, rather than handing a
+ticket over to me. But if if all
+
+599
+00:40:26,230 --> 00:40:29,170
+you need is the config, great if
+what you're needing is a method
+
+600
+00:40:29,170 --> 00:40:33,219
+to deploy that config regularly.
+Let's talk about that. If that's
+
+601
+00:40:33,219 --> 00:40:36,099
+not what you're meeting, needing
+at all, if, if you're just
+
+602
+00:40:36,460 --> 00:40:38,889
+having a troubleshooting
+session, because you're running
+
+603
+00:40:38,889 --> 00:40:42,070
+into a problem, we'll just
+invite me to that, and I'll help
+
+604
+00:40:42,070 --> 00:40:44,800
+you figure it out. I'll get
+online with you and help you
+
+605
+00:40:44,800 --> 00:40:49,179
+solve the problem. So getting
+other people to recognize that
+
+606
+00:40:49,179 --> 00:40:55,539
+sort of that same sort of issue
+that pops up in a ticketing
+
+607
+00:40:55,539 --> 00:40:59,199
+system or request where, or
+someone who may not be familiar
+
+608
+00:40:59,199 --> 00:41:02,349
+with, like the abstractions I
+talked about earlier, if
+
+609
+00:41:02,349 --> 00:41:04,960
+they're, they're not familiar
+with that, they may say, Hey,
+
+610
+00:41:04,960 --> 00:41:10,690
+can you do this one thing for
+me? But really, it's what is it
+
+611
+00:41:10,690 --> 00:41:13,000
+that you're actually trying to
+accomplish? What What is it you
+
+612
+00:41:13,000 --> 00:41:16,269
+want to solve here? And let's
+work together to do that.
+
+613
+00:41:17,530 --> 00:41:21,039
+Dan Ott: Totally. There was an
+anecdote in our latest developer
+
+614
+00:41:21,039 --> 00:41:24,909
+tea podcast actually, for and I
+didn't really look up, this is
+
+615
+00:41:24,909 --> 00:41:28,360
+true or not, but Henry Ford was
+saying, you know, if, you know,
+
+616
+00:41:28,389 --> 00:41:32,559
+it's the, if he just did what
+users asked, they would have
+
+617
+00:41:32,559 --> 00:41:35,380
+just made like a faster horse,
+you know, instead of like
+
+618
+00:41:35,380 --> 00:41:36,849
+building a car, you know, like,
+
+619
+00:41:36,909 --> 00:41:39,099
+Tom Cudd: that's a good
+paraphrase of that. Yes.
+
+620
+00:41:39,400 --> 00:41:40,989
+Dan Ott: Whatever it was sorry.
+Yeah. I don't know what the
+
+621
+00:41:40,989 --> 00:41:41,230
+quote is
+
+622
+00:41:41,230 --> 00:41:44,289
+Tom Cudd: It is Henry Ford,
+though. I I've worked a lot with
+
+623
+00:41:44,289 --> 00:41:48,070
+that particular client for
+years. So I've heard a lot of
+
+624
+00:41:48,070 --> 00:41:49,030
+the Henry Ford quotes.
+
+625
+00:41:49,900 --> 00:41:52,150
+Dan Ott: Well, there you go. But
+yeah, right. So I mean, like
+
+626
+00:41:52,179 --> 00:41:55,239
+that, the what they want is to
+get to another place faster, you
+
+627
+00:41:55,239 --> 00:41:58,570
+know, or easier, or whatever. I
+guess in that situation, you
+
+628
+00:41:58,570 --> 00:42:02,739
+know, digging into, like, what
+people are really like, wanting
+
+629
+00:42:02,769 --> 00:42:07,420
+is, is a skill, but also is
+like, going to be much easier if
+
+630
+00:42:07,420 --> 00:42:11,139
+people feel safe, you know,
+communicating and like, both
+
+631
+00:42:11,139 --> 00:42:14,320
+ways, right? Like, the person
+asking feels safe. And the
+
+632
+00:42:14,320 --> 00:42:19,869
+person, you know, on the other
+end feels safe digging in, you
+
+633
+00:42:19,869 --> 00:42:22,239
+know, I mean, I do it all the
+time. And I like it work. And I
+
+634
+00:42:22,239 --> 00:42:25,030
+know that I bother some people
+sometimes. I mean, I'm not like
+
+635
+00:42:25,030 --> 00:42:27,849
+being annoying, but like, I know
+that some people are like, why
+
+636
+00:42:27,849 --> 00:42:31,420
+can't Can you just Could you
+just do the thing? I'm like,
+
+637
+00:42:31,420 --> 00:42:34,750
+Listen, you know, it'll be it. I
+promise. It'll be better this
+
+638
+00:42:34,750 --> 00:42:38,079
+way. Like, let's just talk a
+little bit, you know? I don't
+
+639
+00:42:38,079 --> 00:42:42,760
+know, it's, I like talking about
+it. It's a cool, it's a it's a
+
+640
+00:42:42,760 --> 00:42:45,250
+cool way to approach you know,
+
+641
+00:42:46,869 --> 00:42:50,800
+Tom Cudd: I sometimes get like
+people send me the GIF of like,
+
+642
+00:42:50,829 --> 00:42:57,190
+why are you the way you are? I
+get it. I'm like, I'm stubborn.
+
+643
+00:42:57,190 --> 00:43:00,250
+And I'm like, I really should do
+it. This we should really should
+
+644
+00:43:00,250 --> 00:43:03,610
+do it. There's no we should
+really like, like trying to get
+
+645
+00:43:03,610 --> 00:43:08,800
+more. I can't just yell louder
+at at people to try to get them
+
+646
+00:43:08,800 --> 00:43:14,349
+to accomplish what I want it. It
+requires a little bit more
+
+647
+00:43:14,349 --> 00:43:19,090
+effort on my part to try to
+understand and then maybe, maybe
+
+648
+00:43:19,090 --> 00:43:22,809
+I didn't do a good enough job
+educating or training or
+
+649
+00:43:22,809 --> 00:43:28,449
+explaining like, what, what
+happened that broke down in what
+
+650
+00:43:28,449 --> 00:43:31,210
+I thought we all agreed upon was
+the right way to do things and
+
+651
+00:43:31,210 --> 00:43:35,650
+then suddenly isn't so totally,
+totally understand that a
+
+652
+00:43:35,650 --> 00:43:38,559
+digging in the heels. situation.
+
+653
+00:43:39,719 --> 00:43:41,519
+Bekah Hawrot Weigel: Yeah, I
+think that's so important. And
+
+654
+00:43:41,550 --> 00:43:45,630
+so overlooked, especially
+because things move so fast. And
+
+655
+00:43:45,630 --> 00:43:49,679
+there's this sense of urgency
+like everything has to be done,
+
+656
+00:43:49,679 --> 00:43:53,280
+right. So let's find the
+quickest path there. But it
+
+657
+00:43:53,280 --> 00:43:58,260
+sounds really methodical and
+deliberate. And this this
+
+658
+00:43:58,260 --> 00:44:02,489
+process that gets developed, but
+I'm definitely something that
+
+659
+00:44:02,519 --> 00:44:04,440
+that pays off in the end.
+
+660
+00:44:06,909 --> 00:44:09,820
+Tom Cudd: It does it, trust me,
+it does pay off in the end. I
+
+661
+00:44:09,820 --> 00:44:15,460
+mean, I could have said, you
+know, four or five years ago,
+
+662
+00:44:15,460 --> 00:44:18,070
+well, this Job's never gonna
+change, I go find something
+
+663
+00:44:18,070 --> 00:44:22,480
+else. And the problems that I
+had with myself and how I worked
+
+664
+00:44:22,480 --> 00:44:30,159
+would have followed me there.
+This was I really, let's see,
+
+665
+00:44:30,159 --> 00:44:33,460
+what's the Tolstoy quote? It's
+like everyone thinks of changing
+
+666
+00:44:33,460 --> 00:44:38,110
+the world, but no one thinks of
+changing themselves. That's
+
+667
+00:44:38,139 --> 00:44:42,429
+that's sort of what hit me that,
+okay, maybe I can make some
+
+668
+00:44:42,429 --> 00:44:45,519
+changes in how I operate around
+people and how I work with
+
+669
+00:44:45,519 --> 00:44:52,300
+people. And that will help more
+than just the work. They'll make
+
+670
+00:44:52,300 --> 00:44:57,789
+the work environment better,
+because there are some places
+
+671
+00:44:57,789 --> 00:44:59,650
+where the culture may be
+irredeemable.
+
+672
+00:44:59,679 --> 00:45:01,900
+Bekah Hawrot Weigel: Yeah.
+That's it was gonna be my next
+
+673
+00:45:01,900 --> 00:45:05,110
+question like, where do you draw
+the line? Right?
+
+674
+00:45:05,980 --> 00:45:07,960
+Tom Cudd: Where do I draw the
+line is probably different where
+
+675
+00:45:07,960 --> 00:45:11,829
+other people draw the line. I,
+like I said, I dig my heels in,
+
+676
+00:45:11,829 --> 00:45:19,929
+I see, oh, we can, we can change
+everything about this place. I'm
+
+677
+00:45:20,019 --> 00:45:24,550
+more patient than others, I
+jokingly tell some of my co
+
+678
+00:45:24,550 --> 00:45:28,900
+workers, I will outlast all my
+enemies. So like, if there's
+
+679
+00:45:28,900 --> 00:45:33,159
+someone I don't like working
+with, I'm like, well, maybe
+
+680
+00:45:33,190 --> 00:45:36,489
+maybe I should change how I work
+with this person not expecting
+
+681
+00:45:36,519 --> 00:45:41,769
+the other people to change. And
+it goes back to, you know, you
+
+682
+00:45:41,769 --> 00:45:46,630
+mentioned earlier, like, how
+much buy in do you get from
+
+683
+00:45:46,690 --> 00:45:50,559
+management and upper management
+on DevOps? Well, sometimes you
+
+684
+00:45:50,559 --> 00:45:53,289
+may not get any buy in. But that
+doesn't mean that you shouldn't
+
+685
+00:45:53,860 --> 00:45:58,599
+adhere to some of those like
+positive practices. In your own
+
+686
+00:45:58,599 --> 00:46:02,440
+experience, there are things
+every individual contributor can
+
+687
+00:46:02,440 --> 00:46:10,539
+do to improve their working
+situation. And sometimes you
+
+688
+00:46:10,539 --> 00:46:13,750
+can't change the culture, just
+like expecting the culture
+
+689
+00:46:13,750 --> 00:46:16,989
+check, like, hey, this culture
+should change. Well, what brings
+
+690
+00:46:16,989 --> 00:46:20,889
+about cultural changes is
+specific behavioural change, you
+
+691
+00:46:20,889 --> 00:46:24,940
+have to actually change what
+you're doing. in your day to day
+
+692
+00:46:24,969 --> 00:46:28,480
+how you work, how you interact
+with people, we used to have a
+
+693
+00:46:28,480 --> 00:46:32,980
+huge problem with, I call it
+hero culture, where people just
+
+694
+00:46:32,980 --> 00:46:36,489
+work themselves until they
+collapse. And burnout and
+
+695
+00:46:36,489 --> 00:46:40,869
+fatigue were really big
+problems. I started setting a
+
+696
+00:46:40,869 --> 00:46:45,099
+good example, I worked 40 hours
+a week, I'm not doing that right
+
+697
+00:46:45,099 --> 00:46:48,760
+now. But I know I have a
+specific, like deadline. And
+
+698
+00:46:48,760 --> 00:46:51,699
+once I'm, once I'm past that, I
+know I'm gonna have some like,
+
+699
+00:46:52,389 --> 00:46:55,900
+some time to relax some time to
+take it easy. Back to my like,
+
+700
+00:46:55,900 --> 00:47:00,849
+sort of 40 Hour Workweek, I was
+really strict about making sure
+
+701
+00:47:00,849 --> 00:47:05,440
+that I put in just the amount of
+time that I needed, I used my
+
+702
+00:47:05,440 --> 00:47:11,320
+vacation time accordingly. If I
+didn't feel mentally well, even,
+
+703
+00:47:11,320 --> 00:47:15,190
+we would use sick days for like
+mental well being days like and
+
+704
+00:47:15,190 --> 00:47:19,389
+that was totally fine. And by
+being a good example, other
+
+705
+00:47:19,389 --> 00:47:24,280
+people on the team started doing
+that same thing. Now, some
+
+706
+00:47:24,280 --> 00:47:26,889
+people were sort of addicted to
+that superhero culture and
+
+707
+00:47:27,579 --> 00:47:29,619
+didn't like some of the changes
+that were happening, and they
+
+708
+00:47:29,619 --> 00:47:34,630
+left and that's their
+prerogative. But more people
+
+709
+00:47:34,630 --> 00:47:38,829
+stayed, then left when I started
+saying, hey, maybe we should
+
+710
+00:47:38,829 --> 00:47:43,480
+work only 40 hours a week, for
+the most part. That seems like a
+
+711
+00:47:43,480 --> 00:47:44,619
+reasonable thing to do.
+
+712
+00:47:46,179 --> 00:47:48,280
+Bekah Hawrot Weigel: Now, what
+if somebody higher up in your
+
+713
+00:47:48,280 --> 00:47:51,250
+company said no, that's not
+acceptable, you need to put in
+
+714
+00:47:51,250 --> 00:47:52,750
+at least 50 hours a week?
+
+715
+00:47:52,750 --> 00:47:56,469
+Tom Cudd: That's a good
+question. And like I said, I, I
+
+716
+00:47:56,469 --> 00:48:00,579
+am more willing to take risks
+with my professional career
+
+717
+00:48:00,579 --> 00:48:04,989
+there my personal life, my
+mentality is I'm going to work
+
+718
+00:48:04,989 --> 00:48:07,929
+what I think is going to be best
+for everybody in the long run.
+
+719
+00:48:08,500 --> 00:48:11,679
+And that means I'm going to put
+in a 40 hour a week for the most
+
+720
+00:48:11,679 --> 00:48:16,659
+part. And if that led to people
+realizing, hey, maybe this is a
+
+721
+00:48:16,659 --> 00:48:21,940
+good idea, or maybe we should
+get rid of this guy, the the
+
+722
+00:48:21,969 --> 00:48:24,699
+cultural things are going to
+take care of themselves one way
+
+723
+00:48:24,699 --> 00:48:28,150
+or another. And if and if it led
+to my having to go find someone
+
+724
+00:48:28,150 --> 00:48:32,170
+else, I would have done that.
+But it led to a lot of people
+
+725
+00:48:32,170 --> 00:48:38,409
+realizing, hey, when this team
+works, sane, solid hours, they
+
+726
+00:48:38,409 --> 00:48:44,139
+do high quality output of work.
+And so it was encouraged. And it
+
+727
+00:48:44,139 --> 00:48:47,769
+was celebrated, that we were
+doing the right thing, kind of
+
+728
+00:48:47,769 --> 00:48:52,239
+like we accidentally broke prod,
+hey, that's a that's a behavior,
+
+729
+00:48:52,239 --> 00:48:55,210
+because we took took an
+acceptable level of risk and
+
+730
+00:48:55,210 --> 00:48:57,699
+recovered from it quickly.
+Because we had built all the
+
+731
+00:48:57,699 --> 00:49:02,019
+right things, let's celebrate
+that not, you know, harass
+
+732
+00:49:02,019 --> 00:49:03,940
+somebody about the fact that
+they broke prod.
+
+733
+00:49:07,599 --> 00:49:10,269
+Bekah Hawrot Weigel: So do you
+think that you would say if you
+
+734
+00:49:10,269 --> 00:49:12,610
+were in a working condition
+where you felt like
+
+735
+00:49:13,030 --> 00:49:18,099
+psychological safety was
+something that wasn't valued? At
+
+736
+00:49:18,099 --> 00:49:21,940
+what point do you walk away from
+that? Right?
+
+737
+00:49:22,389 --> 00:49:28,059
+Tom Cudd: Um, that that's a
+really good question to me. I
+
+738
+00:49:28,090 --> 00:49:31,269
+may have mentioned it already.
+It's number one, for me the
+
+739
+00:49:31,269 --> 00:49:35,170
+psychological safety, being able
+to feel safe in a work
+
+740
+00:49:35,170 --> 00:49:41,739
+environment. I don't tolerate
+low psychological safety very
+
+741
+00:49:41,739 --> 00:49:46,989
+well, like the one of the jobs I
+left a long time ago. This was
+
+742
+00:49:47,349 --> 00:49:50,320
+like I think I wasn't even
+graduated college. I was like
+
+743
+00:49:50,349 --> 00:49:53,800
+building computers on a line for
+a company that doesn't even
+
+744
+00:49:53,800 --> 00:49:58,420
+exist anymore. They asked me to,
+I had already worked 70 hours a
+
+745
+00:49:58,420 --> 00:50:02,079
+week they asked me to come in
+the next day, which was also my
+
+746
+00:50:02,079 --> 00:50:06,820
+birthday, which my girlfriend
+was coming in from out of town,
+
+747
+00:50:06,820 --> 00:50:09,820
+who's now my wife, but she was
+coming in from out of town. And
+
+748
+00:50:09,820 --> 00:50:11,829
+they were like, No, you have to
+come in tomorrow. I'm like, No,
+
+749
+00:50:11,829 --> 00:50:16,690
+I'm leaving right now. I never
+and I'm just like, you can mail
+
+750
+00:50:16,690 --> 00:50:22,179
+me my last paycheck, I'm done. I
+don't tolerate that. But like I
+
+751
+00:50:22,179 --> 00:50:25,750
+said, I'm also have a high
+threshold for what I consider
+
+752
+00:50:25,780 --> 00:50:30,670
+safe and unsafe. But you know,
+something like that. I just, I'm
+
+753
+00:50:30,670 --> 00:50:34,900
+not going to just don't
+understand. I won't put up with
+
+754
+00:50:36,849 --> 00:50:40,659
+kind of the BS that sometimes
+happens when people think that
+
+755
+00:50:40,659 --> 00:50:45,519
+their, their method of working
+people to death is the only way.
+
+756
+00:50:49,119 --> 00:50:51,610
+I'm trying to dance around the
+issue that I know, we've heard
+
+757
+00:50:51,610 --> 00:50:55,719
+people in Virtual Coffee have
+very specific problems with bad
+
+758
+00:50:55,719 --> 00:50:59,349
+bosses and bad behaviors. And
+it's like, I would have left a
+
+759
+00:50:59,349 --> 00:51:03,400
+long time ago, you have more
+power and will then I do it. And
+
+760
+00:51:03,400 --> 00:51:09,280
+that's amazing. But yeah, I
+bosses yelling aren't exactly my
+
+761
+00:51:09,280 --> 00:51:12,280
+favorite thing. But I I've been
+able to put up with that because
+
+762
+00:51:12,280 --> 00:51:17,949
+I can kind of get around it and
+get to the point of it. And you
+
+763
+00:51:17,949 --> 00:51:21,219
+know, it's, it's, it's something
+that happens every once in a
+
+764
+00:51:21,219 --> 00:51:25,480
+while, like I said, I worked in
+a mom and pop shop, I saw a
+
+765
+00:51:25,750 --> 00:51:28,360
+husband and wife team yell at
+each other every once in a while
+
+766
+00:51:28,360 --> 00:51:31,539
+and maybe sometimes yell at the
+staff. And I was like, when that
+
+767
+00:51:31,539 --> 00:51:34,570
+started getting directed towards
+me, I was like, I'm out of here.
+
+768
+00:51:35,739 --> 00:51:41,110
+So like, you know, I don't you
+know, if it's abusive behavior
+
+769
+00:51:41,110 --> 00:51:44,650
+and bordering on, like, hey,
+this might be something that
+
+770
+00:51:44,650 --> 00:51:47,199
+people could get sued for. I'm
+usually out the door.
+
+771
+00:51:48,340 --> 00:51:50,889
+Dan Ott: That's actually an
+interesting part about radical
+
+772
+00:51:50,889 --> 00:51:55,360
+candor. Was was some of the,
+some of the examples she talked
+
+773
+00:51:55,360 --> 00:51:57,909
+about where people would get
+like, he did indiscretions.
+
+774
+00:51:57,940 --> 00:52:03,460
+Like, like, like, yell, you
+know, but it was, you know, it
+
+775
+00:52:03,460 --> 00:52:06,969
+was not unsafe, you know, if
+that makes sense. And like, that
+
+776
+00:52:06,969 --> 00:52:10,539
+was kind of a revelation for me.
+Because, you know, I don't know,
+
+777
+00:52:10,539 --> 00:52:14,199
+I'm not like, I don't, if I'm
+yelling, I'm probably like,
+
+778
+00:52:14,230 --> 00:52:17,320
+upset, like, not, you know,
+like, probably not feeling very
+
+779
+00:52:17,320 --> 00:52:19,420
+good. You know, I mean, but
+there there are definitely times
+
+780
+00:52:19,420 --> 00:52:24,070
+where I have with people I work
+with, and, you know, respect,
+
+781
+00:52:24,070 --> 00:52:27,579
+like, we have, like, gotten
+heated at about because we're
+
+782
+00:52:27,579 --> 00:52:31,150
+like, it's not like we are
+yelling at each other, you know,
+
+783
+00:52:31,150 --> 00:52:34,210
+we're like yelling to each other
+about a thing that we're arguing
+
+784
+00:52:34,210 --> 00:52:38,409
+about, you know, like, an
+approach or something. And it's
+
+785
+00:52:38,409 --> 00:52:41,409
+an interesting like, that the
+the raised voices sort of
+
+786
+00:52:41,409 --> 00:52:45,369
+situation is like, it's always
+an interesting topic for me,
+
+787
+00:52:45,369 --> 00:52:47,320
+because I don't do I don't do
+pretty well with confrontation.
+
+788
+00:52:48,579 --> 00:52:51,010
+Like, I also would, like, just
+be peacing out as soon as
+
+789
+00:52:51,010 --> 00:52:53,380
+somebody was yelling at me, like
+a boss was yelling at me, you
+
+790
+00:52:53,380 --> 00:52:56,199
+know, I mean, my personal
+experience was with a colleague,
+
+791
+00:52:56,199 --> 00:52:59,559
+you know, it wasn't like, it
+wasn't like, a higher up
+
+792
+00:52:59,619 --> 00:53:01,809
+dealing, you know, so. I don't
+know.
+
+793
+00:53:02,650 --> 00:53:05,019
+Tom Cudd: I mean, arguing is
+something I'm fine with, but
+
+794
+00:53:05,019 --> 00:53:08,590
+like the actual, like, directed,
+like, we're, it's just, it
+
+795
+00:53:08,590 --> 00:53:11,320
+doesn't even make sense. If
+people are just yelling to yell,
+
+796
+00:53:11,349 --> 00:53:15,789
+that's no good. I have like a
+one situation where like, I got
+
+797
+00:53:15,789 --> 00:53:20,679
+really mad, or call. And I like,
+like, slant, like, I picked up
+
+798
+00:53:20,679 --> 00:53:23,710
+my keyboard and I just slammed
+it down, and like, broke the
+
+799
+00:53:23,710 --> 00:53:27,550
+little like feet thingies off of
+it. And I'm like, Okay, well,
+
+800
+00:53:27,550 --> 00:53:30,760
+that violence in the workplace
+is never accepted. Like, I came
+
+801
+00:53:30,760 --> 00:53:34,329
+back an hour later, like, Okay,
+I'm sorry, everybody for doing
+
+802
+00:53:34,329 --> 00:53:38,079
+that. Like, like, I actually
+still have that keyboard. Like,
+
+803
+00:53:38,079 --> 00:53:40,570
+that was eight years ago. And I
+taped it back up, and I still
+
+804
+00:53:40,570 --> 00:53:43,869
+use that keyboard as a reminder,
+don't slam stuff in the office.
+
+805
+00:53:44,469 --> 00:53:47,469
+Like, that's just not okay.
+Like, there's some lines that
+
+806
+00:53:47,500 --> 00:53:51,969
+you know, I my boss likes to
+joke, everyone so well, he tells
+
+807
+00:53:51,969 --> 00:53:57,130
+people you know, we broke Tom
+once. Because he was it was like
+
+808
+00:53:57,130 --> 00:54:01,179
+three in the morning on the day,
+something was supposed to launch
+
+809
+00:54:01,179 --> 00:54:04,510
+and it just completely
+collapsed. And nobody else was
+
+810
+00:54:04,510 --> 00:54:07,780
+online. And you can just see his
+frantic messages in slack
+
+811
+00:54:07,780 --> 00:54:12,639
+getting more and more until he
+was like, I'm done. And, you
+
+812
+00:54:12,639 --> 00:54:18,250
+know, I felt safe enough to go,
+I just give up. I'm gonna go to
+
+813
+00:54:18,250 --> 00:54:20,920
+sleep for eight hours. And
+whatever happens over that next
+
+814
+00:54:20,920 --> 00:54:23,769
+eight hours, I leave it to the
+rest of you to deal with so
+
+815
+00:54:24,130 --> 00:54:28,659
+like, it's, it's sort of you
+have to know, I may not have
+
+816
+00:54:28,659 --> 00:54:32,409
+known my break point then. But
+like, I know now what my limits
+
+817
+00:54:32,409 --> 00:54:36,369
+are. And I I'm do a good job of
+staying within that. And
+
+818
+00:54:37,090 --> 00:54:41,019
+understanding that about
+yourself is important. But when
+
+819
+00:54:41,019 --> 00:54:43,510
+you start to understand
+yourself, you can say, Okay, I'm
+
+820
+00:54:43,510 --> 00:54:46,780
+seeing where this person on my
+team has a limit that they don't
+
+821
+00:54:46,780 --> 00:54:49,929
+even recognize and I'm like, you
+need to go home. Well, I know
+
+822
+00:54:49,929 --> 00:54:53,199
+you are home, you need to turn
+off your computer, or I'm going
+
+823
+00:54:53,199 --> 00:54:55,869
+to send it a message to change
+your password without telling
+
+824
+00:54:55,869 --> 00:55:01,059
+you so like, so you can't log in
+until it's Till I say it's okay.
+
+825
+00:55:02,889 --> 00:55:07,809
+It's, it's, as a manager team
+lead, you sort of become a
+
+826
+00:55:07,809 --> 00:55:10,449
+little bit of a psychological
+safety net for the people that
+
+827
+00:55:10,449 --> 00:55:15,010
+are around you. And it's a, it's
+a different skill. But I like
+
+828
+00:55:15,010 --> 00:55:18,369
+doing it, I like helping the
+people that I work with and hope
+
+829
+00:55:18,369 --> 00:55:19,480
+that I'm doing a good job.
+
+830
+00:55:21,159 --> 00:55:24,070
+Bekah Hawrot Weigel: I think too
+knowing the people and having
+
+831
+00:55:24,070 --> 00:55:27,219
+that relationship also can
+determine how you're
+
+832
+00:55:27,219 --> 00:55:30,610
+communicating with them, right,
+and understanding what their
+
+833
+00:55:30,610 --> 00:55:34,630
+limits are. Because sometimes, I
+always like to think about this,
+
+834
+00:55:34,690 --> 00:55:37,989
+even in terms of what a good
+trainer is, right? Because a
+
+835
+00:55:37,989 --> 00:55:40,719
+good trainer knows how to
+motivate each person there,
+
+836
+00:55:40,900 --> 00:55:43,599
+because they have some type of
+relationship. So sometimes you
+
+837
+00:55:43,599 --> 00:55:46,510
+might need them to say like,
+okay, you need to stop, it's
+
+838
+00:55:46,510 --> 00:55:49,480
+time to do something else. Or
+sometimes you give gentle
+
+839
+00:55:49,480 --> 00:55:52,659
+encouragement. And then there is
+times when, when you know, some
+
+840
+00:55:52,659 --> 00:55:56,409
+people need a specific type of
+encouragement, and maybe that's
+
+841
+00:55:56,409 --> 00:56:00,670
+going to be loud. Or maybe it's
+going to be a different approach
+
+842
+00:56:00,670 --> 00:56:04,570
+that you take with someone else.
+But recognizing how to motivate
+
+843
+00:56:04,570 --> 00:56:09,760
+that person. And that it's not a
+blanket approach for everyone is
+
+844
+00:56:09,760 --> 00:56:15,429
+what's going to create, like a
+solid culture of respect, and a
+
+845
+00:56:15,429 --> 00:56:18,880
+place where somebody can grow
+and take risks, like you're
+
+846
+00:56:18,880 --> 00:56:19,659
+talking about.
+
+847
+00:56:20,380 --> 00:56:23,679
+Tom Cudd: Yeah, I have learned a
+lot from the manager, manager,
+
+848
+00:56:23,679 --> 00:56:26,980
+tools, website and podcast,
+about some of those
+
+849
+00:56:26,980 --> 00:56:29,650
+communication methods, I do one
+on ones with the people on my
+
+850
+00:56:29,650 --> 00:56:32,949
+team, that's a good way to build
+up rapport and build up that
+
+851
+00:56:32,949 --> 00:56:35,800
+kind of that all that
+relationship building that I
+
+852
+00:56:35,800 --> 00:56:40,480
+talked about happens in there,
+especially now virtually, like
+
+853
+00:56:40,480 --> 00:56:42,849
+the one on ones are the way I
+can engage with people on a
+
+854
+00:56:42,849 --> 00:56:47,679
+regular basis. I've learned a
+lot of skills from that in terms
+
+855
+00:56:47,679 --> 00:56:52,030
+of I, like I said, I have true,
+I have had trouble giving direct
+
+856
+00:56:52,030 --> 00:56:54,519
+criticism and feedback to people
+that I'm working with in the
+
+857
+00:56:54,519 --> 00:57:00,849
+past. So like that, some of
+those tools gave me techniques
+
+858
+00:57:00,849 --> 00:57:04,989
+like, find a very small thing
+that you want someone to do that
+
+859
+00:57:04,989 --> 00:57:08,110
+you need them to do directly.
+And you may know they're not
+
+860
+00:57:08,110 --> 00:57:10,360
+going to do it, even though you
+may ask them directly so that
+
+861
+00:57:10,360 --> 00:57:13,210
+you keep following up and like
+you sort of show how you're
+
+862
+00:57:13,210 --> 00:57:17,170
+going to escalate through the
+like, okay, I asked you to
+
+863
+00:57:17,170 --> 00:57:22,750
+submit this report last week to
+this thing. What prevented you
+
+864
+00:57:22,750 --> 00:57:25,869
+from doing that? And then the
+next time you can you just add
+
+865
+00:57:25,869 --> 00:57:28,900
+more emphasis and say, Look,
+this is a part of your job. And
+
+866
+00:57:28,900 --> 00:57:32,170
+this is a job expectation that I
+expect from you. So learning
+
+867
+00:57:32,170 --> 00:57:36,429
+some of those techniques is, you
+know, like I said, I'm a
+
+868
+00:57:36,519 --> 00:57:40,599
+individual contributor,
+technologist in training, but
+
+869
+00:57:40,630 --> 00:57:45,250
+like, retooling my sort of
+managerial capabilities and team
+
+870
+00:57:45,250 --> 00:57:49,210
+lead capabilities over the last
+like two, three years, has been
+
+871
+00:57:49,239 --> 00:57:53,050
+a new and interesting set of
+challenges. It's also
+
+872
+00:57:53,050 --> 00:57:57,250
+interesting to see how many of
+the same lessons in tech apply
+
+873
+00:57:57,250 --> 00:58:01,780
+to dealing with people and
+systems of people. So it's not
+
+874
+00:58:02,050 --> 00:58:05,650
+it's it's more one to one than I
+think most people realize doing
+
+875
+00:58:05,650 --> 00:58:10,750
+that the tech to lead kind of
+sideways shift.
+
+876
+00:58:11,909 --> 00:58:15,539
+Bekah Hawrot Weigel: Well, I
+feel like I could talk to you
+
+877
+00:58:15,539 --> 00:58:17,730
+about this stuff for at least
+another hour.
+
+878
+00:58:19,059 --> 00:58:20,110
+Tom Cudd: I probably could too,
+
+879
+00:58:20,590 --> 00:58:22,480
+Bekah Hawrot Weigel: I mean,
+this hour is gone by so fast. I
+
+880
+00:58:22,480 --> 00:58:24,940
+just looked up like wow, we've
+been doing this for a while. But
+
+881
+00:58:24,940 --> 00:58:27,849
+this has been really, really
+great. So thank you so much for
+
+882
+00:58:27,849 --> 00:58:31,300
+being here with us today. If
+there's like a top Do you have a
+
+883
+00:58:31,300 --> 00:58:34,420
+top resource that you recommend
+for people to get started?
+
+884
+00:58:36,070 --> 00:58:40,570
+Tom Cudd: So if it's for DevOps,
+I would definitely start with
+
+885
+00:58:40,869 --> 00:58:45,429
+the Phoenix project, or the
+unicorn project as a follow up
+
+886
+00:58:45,460 --> 00:58:48,250
+that has like additional
+learnings from over the years,
+
+887
+00:58:48,309 --> 00:58:52,000
+one of those two is a good way
+to really focus on that kind of
+
+888
+00:58:52,000 --> 00:58:56,530
+DevOps. What DevOps is
+culturally? And what can can it
+
+889
+00:58:56,530 --> 00:58:59,500
+do for the actual technology
+that you're working with and the
+
+890
+00:58:59,500 --> 00:59:02,019
+teams that you're working with.
+So Phoenix project is sort of
+
+891
+00:59:02,019 --> 00:59:10,300
+the big unlock there. If, if
+you're looking for how to be
+
+892
+00:59:10,300 --> 00:59:13,420
+dealing with people and
+fostering that psychological
+
+893
+00:59:13,420 --> 00:59:18,699
+safety, radical candor is still
+my favorite resource for that. I
+
+894
+00:59:19,119 --> 00:59:22,150
+have got a copy from the library
+because I think I load my copy
+
+895
+00:59:22,150 --> 00:59:25,539
+up to someone back when we
+actually were in offices, so
+
+896
+00:59:25,599 --> 00:59:29,079
+have to dig that up eventually.
+But yeah, radical candor is just
+
+897
+00:59:29,619 --> 00:59:33,429
+an excellent resource for that.
+Fostering those good
+
+898
+00:59:33,429 --> 00:59:37,300
+relationships and trusting
+relationships in a safe way.
+
+899
+00:59:38,679 --> 00:59:40,539
+Bekah Hawrot Weigel: Great.
+Well, thank you so much for
+
+900
+00:59:40,539 --> 00:59:44,739
+sharing that and everything else
+with us today. This has been a
+
+901
+00:59:44,739 --> 00:59:49,510
+really great learning experience
+for me. Thanks for being here.
+
+902
+00:59:50,079 --> 00:59:50,769
+Tom Cudd: Glad I can join.
+
+903
+00:59:52,380 --> 00:59:53,010
+Dan Ott: Thanks, Tom.
+
+904
+00:59:55,900 --> 00:59:57,820
+Bekah Hawrot Weigel: Thank you
+for listening to this episode of
+
+905
+00:59:57,820 --> 01:00:02,019
+the Virtual Coffee podcast. This
+Episode was produced by Dan Ott
+
+906
+01:00:02,019 --> 01:00:06,250
+and Bekah Hawrot Weigel, and
+edited by Dan Ott. If you have
+
+907
+01:00:06,250 --> 01:00:09,460
+questions or comments, you can
+hit us up on Twitter at Virtual
+
+908
+01:00:09,460 --> 01:00:14,380
+Coffee io. Or you can email us
+at podcast at Virtual coffee.io.
+
+909
+01:00:15,400 --> 01:00:18,010
+You can find the show notes plus
+you can sign up for our
+
+910
+01:00:18,010 --> 01:00:21,099
+newsletter to find out what
+Virtual Coffee has been up to on
+
+911
+01:00:21,099 --> 01:00:23,650
+our website at Virtual coffee.io.
+
+912
+01:00:24,789 --> 01:00:27,489
+Dan Ott: Please subscribe to our
+podcast and be sure to leave us
+
+913
+01:00:27,519 --> 01:00:30,699
+a review. Thanks for listening
+and we'll see you next week.
