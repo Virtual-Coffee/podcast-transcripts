@@ -1,27 +1,27 @@
 1
 00:00:13,980 --> 00:00:16,829
 Bekah Hawrot Weigel: Hello, and
-welcome to season one, Episode
+welcome to season 1 episode
 
 2
 00:00:16,829 --> 00:00:23,699
-Four of the virtual coffee
+4 of the Virtual Coffee
 podcast. I'm Bekah, and this is
 
 3
 00:00:23,699 --> 00:00:26,670
 a podcast that features members
-of the virtual coffee community.
+of the Virtual Coffee community.
 
 4
 00:00:27,329 --> 00:00:30,449
-Virtual coffee is an intimate
+Virtual Coffee is an intimate
 group of developers at all
 
 5
 00:00:30,449 --> 00:00:33,990
 stages of their coding journey.
-And they're here on this podcast
+And they're here, on this podcast,
 
 6
 00:00:33,990 --> 00:00:37,079
@@ -31,7 +31,7 @@ they've learned. And we're here
 7
 00:00:37,079 --> 00:00:41,070
 to share it with you. Here with
-me today is my co host, Dan.
+me today is my co-host, Dan.
 
 8
 00:00:41,960 --> 00:00:45,079
@@ -46,12 +46,12 @@ software engineer at Research
 10
 00:00:49,130 --> 00:00:53,299
 Square, a preprint platform.
-When he's not at his day job. He
+When he's not at his day job, he
 
 11
 00:00:53,299 --> 00:00:56,659
-works on his bootstrap startup
-EveryOak school management
+works on his bootstrap startup,
+Everyoak school management
 
 12
 00:00:56,659 --> 00:01:00,409
@@ -66,16 +66,16 @@ experiences with indie hacking,
 14
 00:01:03,079 --> 00:01:06,650
 and gave us his take on when to
-ship what to focus on and the
+ship, what to focus on, and the
 
 15
 00:01:06,650 --> 00:01:10,189
 value of diverse opinions in
-your community, among many other
+your community among many other
 
 16
 00:01:10,189 --> 00:01:13,849
-things, it was a really great
+things. It was a really great
 conversation. And I personally
 
 17
@@ -110,13 +110,13 @@ every episode of the podcast
 
 23
 00:01:34,829 --> 00:01:37,680
-like we start every virtual
-coffee, we introduce ourselves
+like we start every Virtual
+Coffee. We introduce ourselves
 
 24
 00:01:37,680 --> 00:01:41,849
-with our name, where we're from
-what we do and a random check in
+with our name, where we're from,
+what we do, and a random check-in
 
 25
 00:01:41,879 --> 00:01:46,859
@@ -144,7 +144,7 @@ power, I would add telepathy.
 
 30
 00:02:14,939 --> 00:02:19,830
-Dan Ott: telepathy is dangerous.
+Dan Ott: Telepathy is dangerous.
 Hi, I'm Dan. I'm a front end
 
 31
@@ -160,7 +160,7 @@ teleportation, that always
 33
 00:02:26,939 --> 00:02:28,949
 seemed like a good and handy one
-to have
+to have.
 
 34
 00:02:29,069 --> 00:02:29,789
@@ -169,7 +169,7 @@ choice.
 
 35
 00:02:29,819 --> 00:02:31,469
-Vic Vijayakumar: you would save
+Vic Vijayakumar: You would save
 so much time.
 
 36
@@ -180,7 +180,7 @@ principal engineer from Raleigh,
 37
 00:02:38,610 --> 00:02:43,560
 North Carolina. I'm also an
-indie maker, my preferred
+indie maker. My preferred
 
 38
 00:02:43,560 --> 00:02:47,129
@@ -189,21 +189,21 @@ probably be to be right the
 
 39
 00:02:47,129 --> 00:02:48,449
-first time every time
+first time, every time.
 
 40
 00:02:49,650 --> 00:02:51,360
-Bekah Hawrot Weigel: also would
-save you time,
+Bekah Hawrot Weigel: Also would
+save you time.
 
 41
 00:02:51,780 --> 00:02:52,680
-Vic Vijayakumar: so much time.
+Vic Vijayakumar: So much time.
 
 42
 00:02:53,909 --> 00:02:55,650
 Bekah Hawrot Weigel: All of
-these this is this is what it
+these, this is, this is what it
 
 43
 00:02:55,680 --> 00:02:58,319
@@ -217,16 +217,17 @@ saves us the most time.
 45
 00:02:59,430 --> 00:03:02,280
 Dan Ott: It's really just
-telling honestly. We're just
+telling honestly (laugh). We're 
+
 
 46
 00:03:02,280 --> 00:03:03,120
-telling on ourselves.
+just telling on ourselves.
 
 47
 00:03:05,490 --> 00:03:07,949
-Bekah Hawrot Weigel: Awesome.
-Well, thank you, Vic for being
+Bekah Hawrot Weigel: (laugh) Awesome.
+Well, thank you, Vic, for being
 
 48
 00:03:07,949 --> 00:03:14,729
@@ -245,7 +246,7 @@ you got into tech.
 
 51
 00:03:22,889 --> 00:03:27,569
-Vic Vijayakumar: Sure. Okay, so
+Vic Vijayakumar: Sure. Okay. So
 I actually have kind of a
 
 52
@@ -261,26 +262,26 @@ Engineering from Iowa State
 54
 00:03:35,340 --> 00:03:40,830
 University. But before that,
-probably. So we we used to own a
+probably, so we, we used to own a
 
 55
 00:03:40,830 --> 00:03:46,560
-computer when not like when I
-was super young. But when I was
+computer when, not like when I
+was super young, but when I was
 
 56
 00:03:46,560 --> 00:03:49,979
-in high school, and then
+in high school. And then
 probably the first like
 
 57
 00:03:49,979 --> 00:03:53,729
 programming thing I did was that
-in high school, one of my
+in high school one of my
 
 58
 00:03:53,729 --> 00:03:57,419
-parents friends, actually, they
+parents friends actually, they
 invited me to come do like a
 
 59
@@ -290,23 +291,23 @@ So I wrote software for them the
 
 60
 00:04:02,159 --> 00:04:05,189
-very first time like I'd never
-written code before, but they
+very first time. Like I'd never
+written code before. But they
 
 61
 00:04:05,189 --> 00:04:10,469
 helped me kind of write code for
-the Kenya duty free shopping
+the Kenya duty-free shopping
 
 62
 00:04:10,469 --> 00:04:16,800
 network. So I've worked in
-Visual Basic and Visual Basic
+Visual Basic and, Visual Basic
 
 63
 00:04:16,800 --> 00:04:19,860
-and like access or something
-like that. And for that they
+and like Access or something
+like that. And for that, they
 
 64
 00:04:19,860 --> 00:04:23,399
@@ -315,12 +316,12 @@ modem. So that was my very first
 
 65
 00:04:23,430 --> 00:04:29,970
-quote unquote, paid project for
-writing code. And then let's see
+quote, unquote paid project for
+writing code. And then let's see.
 
 66
 00:04:30,000 --> 00:04:32,220
-and then really I didn't do
+And then really I didn't do
 anything else kind of like
 
 67
@@ -350,7 +351,7 @@ else. And the Office of
 
 72
 00:04:55,110 --> 00:04:58,470
-Admissions at the university
+Admissions at the university,
 they were looking for an entry
 
 73
@@ -371,7 +372,7 @@ applied for this job. And they
 76
 00:05:10,379 --> 00:05:13,410
 pretty much told me that they
-said, You are not qualified for
+said, you are not qualified for
 
 77
 00:05:13,410 --> 00:05:18,629
@@ -414,18 +415,18 @@ that. And there are so many hot
 
 85
 00:05:41,660 --> 00:05:45,290
-tips dropped there: apply for
+tips dropped there, apply for
 jobs that you are not qualified
 
 86
 00:05:45,290 --> 00:05:54,740
-for. Sound confident.
+for. Sound confident. Who knows (laugh).
 Alright, so that is how you got
 
 87
 00:05:50,569 --> 00:05:56,089
 into tech. Now. How did you come
-to find virtual coffee?
+to find Virtual Coffee?
 
 88
 00:05:57,149 --> 00:05:59,790
@@ -434,7 +435,7 @@ fun one, too. So I think I saw
 
 89
 00:05:59,790 --> 00:06:04,529
-one of your tweets, because it
+one of your tweets, Bekah. It
 was April last year, everything
 
 90
@@ -455,12 +456,12 @@ February or so actually. And
 93
 00:06:17,699 --> 00:06:21,000
 then I saw your tweet, I think
-it was in a code newbies thread
+it was in a CodeNewbie's thread
 
 94
 00:06:21,000 --> 00:06:23,399
-or something like that, where he
-talked about virtual coffee. And
+or something like that, where you
+talked about Virtual Coffee. And
 
 95
 00:06:23,399 --> 00:06:28,470
@@ -469,7 +470,7 @@ some new friends. So that was
 
 96
 00:06:28,470 --> 00:06:31,529
-probably I can I remember
+probably, I, no, I remember
 responding to your tweet and
 
 97
@@ -494,7 +495,7 @@ is awesome. You have been here
 101
 00:06:42,029 --> 00:06:45,779
 for almost the entirety of
-virtual coffee. Because we did I
+Virtual Coffee. Because we did, I
 
 102
 00:06:45,779 --> 00:06:49,019
@@ -503,8 +504,8 @@ April, we're coming up on our
 
 103
 00:06:49,019 --> 00:06:52,019
-one year, birthday or
-anniversary or whatever, very
+one year birthday, or
+anniversary, or whatever, very
 
 104
 00:06:52,019 --> 00:06:52,439
@@ -520,17 +521,17 @@ Bekah Hawrot Weigel: Right?
 
 107
 00:06:54,189 --> 00:06:54,759
-Vic Vijayakumar: Virtual Party.
+Vic Vijayakumar: Virtual party.
 
 108
 00:06:56,250 --> 00:06:58,319
-Bekah Hawrot Weigel: It's like,
+Bekah Hawrot Weigel: (laugh) It's like,
 literally, I have an issue open
 
 109
 00:06:58,319 --> 00:07:06,360
 in a repo that's like birthday
-party. Okay, so we are talking
+party (laugh). Okay, so we are talking
 
 110
 00:07:06,360 --> 00:07:11,490
@@ -569,13 +570,13 @@ is probably a better term than
 
 117
 00:07:32,100 --> 00:07:36,089
-indie hacking that, but I think
+indie hacking, but I think
 right now, it's used kind of
 
 118
 00:07:36,089 --> 00:07:40,620
-synonymously with the indie
-hackers.com community, which is
+synonymously with the indiehackers.com 
+community, which is
 
 119
 00:07:40,620 --> 00:07:45,600
@@ -584,7 +585,7 @@ community of indie makers. But
 
 120
 00:07:45,629 --> 00:07:48,240
-it you know, oftentimes refers
+it, you know, oftentimes refers
 to people that are just
 
 121
@@ -595,12 +596,12 @@ like bootstrap developers that
 122
 00:07:51,720 --> 00:07:55,800
 are kind of making and pushing
-out various products. You know,
+out various products, you know?
 
 123
 00:07:55,800 --> 00:07:58,889
-sometimes you do it for money, a
-lot of times you just do it,
+Sometimes you do it for money, a
+lot of times you just do it
 
 124
 00:07:58,889 --> 00:08:03,329
@@ -619,7 +620,7 @@ let's talk about some of those
 127
 00:08:07,139 --> 00:08:09,238
 things, because you're making
-lots of them, right?
+lots of them, right? (laugh)
 
 128
 00:08:11,009 --> 00:08:14,220
@@ -639,7 +640,7 @@ this year. So I built a lot of
 131
 00:08:22,259 --> 00:08:27,240
 stuff. And then I used to kind
-of have this outlook of, Oh, I
+of have this outlook of, oh, I
 
 132
 00:08:27,240 --> 00:08:29,339
@@ -649,7 +650,7 @@ perfect. And I'm just going to
 133
 00:08:29,339 --> 00:08:33,149
 kind of, you know, not let it go
-out. And my my thing now has
+out. And my, my thing now has
 
 134
 00:08:33,149 --> 00:08:35,580
@@ -664,22 +665,22 @@ know who is going to be
 136
 00:08:38,850 --> 00:08:42,779
 interested in the thing you're
-building. Let's see one of my
+building. Let's see. One of my
 
 137
 00:08:42,809 --> 00:08:47,039
 biggest projects, and it's
-actually used. It's called every
+actually used, it's called Everyoak.
 
 138
 00:08:47,039 --> 00:08:51,570
-oak set every oak.com. It's a
+It's at everyoak.com. It's a
 preschool management software.
 
 139
 00:08:51,960 --> 00:08:57,629
-And it's used by my kids school,
-actually, I was really sick of
+And it's used by my kids' school
+actually. I was really sick of
 
 140
 00:08:57,629 --> 00:09:00,809
@@ -694,11 +695,11 @@ right now they do COVID
 142
 00:09:04,080 --> 00:09:07,320
 screening, they don't use paper,
-because they use you know, every
+because they use you know, Everyoak.
 
 143
 00:09:07,320 --> 00:09:10,980
-oak. When you're applying, you
+When you're applying, you
 have to fill out all these
 
 144
@@ -738,8 +739,8 @@ biggest one. I've dealt a few
 
 151
 00:09:36,000 --> 00:09:42,629
-other things that so I run this
-ran ran this beer festival for
+other things that, so I run this,
+ran, ran this beer festival for
 
 152
 00:09:42,629 --> 00:09:46,889
@@ -762,12 +763,12 @@ just want to pause for a second
 
 156
 00:09:53,909 --> 00:09:58,169
-and touch on every meal because
+and touch on Everyoak, because
 I've got four kids. So filling
 
 157
 00:09:58,200 --> 00:10:03,870
-out those forms requires In
+out those forms requires an
 incredible amount of time and
 
 158
@@ -777,7 +778,7 @@ doing it every single year, the
 
 159
 00:10:07,559 --> 00:10:11,850
-same forms right? Like there,
+same forms, right? Like there,
 why do we have to continually do
 
 160
@@ -792,11 +793,11 @@ book, like the best thing ever.
 162
 00:10:18,359 --> 00:10:21,298
 Vic Vijayakumar: And a lot of
-parents think that to like this.
+parents think that too. Like this,
 
 163
 00:10:21,719 --> 00:10:24,178
-So usually what happens, right
+so usually what happens, right,
 is the schools open up
 
 164
@@ -806,7 +807,7 @@ goes on for like, a month or so.
 
 165
 00:10:27,839 --> 00:10:31,318
-And then the school, the schools
+And then the schools, the schools
 take another like, I don't know,
 
 166
@@ -847,11 +848,11 @@ out, even if you're not lazy, I
 173
 00:10:59,788 --> 00:11:03,509
 still don't want to come drop
-out forms, and then their class
+off forms. And then their class
 
 174
 00:11:03,509 --> 00:11:07,589
-assignment takes so long anyway,
+assignment takes so long. Anyway,
 it's, the parents love it, the
 
 175
@@ -862,16 +863,16 @@ it's going decently. You know, I
 176
 00:11:11,609 --> 00:11:14,938
 don't expect to get rich off of
-the awful what preschool
+what the preschool
 
 177
 00:11:14,938 --> 00:11:18,479
-screaming, but it makes me
+square me (??), but it makes me
 really happy to be able to do
 
 178
 00:11:18,479 --> 00:11:20,788
-this, and it makes me especially
+this. And it makes me especially
 happy that I don't have to fill
 
 179
@@ -880,8 +881,8 @@ out forms.
 
 180
 00:11:21,779 --> 00:11:25,860
-Dan Ott: So so with with
-EveryOak, in particular, I, I
+Dan Ott: So, so with, with
+Everyoak in particular, I, I
 
 181
 00:11:25,860 --> 00:11:30,000
@@ -896,22 +897,22 @@ of something either in your life
 183
 00:11:34,259 --> 00:11:37,379
 or something that like you are
-excited about, or would like,
+excited about, or would like
 
 184
 00:11:37,409 --> 00:11:41,549
 make your life easier, and just
-kind of go for it right? With
+kind of go for it, right? With
 
 185
 00:11:41,850 --> 00:11:45,779
-EveryOak, there's, like, the
-motivation from your side, as a
+Everyoak, there's, like, the
+motivation from your side as a
 
 186
 00:11:45,779 --> 00:11:51,779
-parent is clear, you know, the
-ad, it seems like a cool problem
+parent is clear, you know? The,
+and it seems like a cool problem
 
 187
 00:11:51,779 --> 00:11:56,009
@@ -926,7 +927,7 @@ vacuum, or you said you actually
 189
 00:11:59,370 --> 00:12:04,200
 worked with your school to
-figure it out, especially with
+figure it out. Especially with,
 
 190
 00:12:04,230 --> 00:12:07,230
@@ -960,17 +961,17 @@ said the right thing there,
 
 196
 00:12:23,580 --> 00:12:26,549
-which is that it so it
+which is that it, so it
 definitely is easier to work on
 
 197
 00:12:26,549 --> 00:12:29,340
 things that scratch your own
-itch, because you just have to
+itch. Because you just have to
 
 198
 00:12:29,340 --> 00:12:33,960
-talk to fewer people, right. But
+talk to fewer people, right? But
 in order for something to be, I
 
 199
@@ -991,7 +992,7 @@ that muscle memory working, of
 202
 00:12:42,360 --> 00:12:47,940
 just building things and getting
-them out. You know, maybe you
+them out, you know? Maybe you
 
 203
 00:12:47,940 --> 00:12:51,269
@@ -1040,17 +1041,17 @@ And they just, they kind of just
 
 212
 00:13:18,000 --> 00:13:21,450
-once once they realized that I
+once, once they realized that I
 was making their process better
 
 213
 00:13:21,450 --> 00:13:25,200
-for them. They just let me just
+for them, they just let me just
 do the things that I thought
 
 214
 00:13:25,200 --> 00:13:31,230
-were good ideas. And, and then
+were good ideas. And (laugh), and then
 when the next school joined up,
 
 215
@@ -1060,7 +1061,7 @@ works really well for school
 
 216
 00:13:34,679 --> 00:13:38,070
-one. And they said, Great, if it
+one. And they said, great, if it
 works for them, it'll probably
 
 217
@@ -1071,11 +1072,11 @@ I'm basically, you know,
 218
 00:13:42,929 --> 00:13:46,830
 becoming an expert in building
-workflows for for preschools,
+workflows for, for preschools.
 
 219
 00:13:47,429 --> 00:13:50,639
-and they trust that I know what
+And they trust that I know what
 I'm doing because some other
 
 220
@@ -1086,31 +1087,30 @@ like, I don't know what to call
 221
 00:13:54,960 --> 00:13:59,309
 it. It's kind of just like, I
-don't know what to call it cloud
+don't know what you call it, cloud
 
 222
 00:13:59,340 --> 00:14:02,970
-by by just faking it, I guess.
-Yeah.
+by, by just faking it, I guess.
 
 223
 00:14:03,090 --> 00:14:05,279
 Dan Ott: Yeah. No, that's,
-that's really interesting. And
+that's really interesting. And,
 
 224
 00:14:05,309 --> 00:14:08,250
 and, yeah, I don't know, I lost
-my I lost my train of thought
+my, I lost my train of thought there (laugh).
 
 225
 00:14:08,000 --> 00:14:10,610
 Vic Vijayakumar: I mean, I've
-worked on a few other things,
+worked on a few other things
 
 226
 00:14:08,250 --> 00:14:13,789
-there. too, that like, don't
+there too, that like, don't
 necessarily kind of are not that
 
 227
@@ -1148,22 +1148,22 @@ learn something there as well.
 
 234
 00:14:30,299 --> 00:14:34,320
-So I built something called.
-Well, it was it was called dog
+So I built something called,
+well, it was, it was called Dog
 
 235
 00:14:34,320 --> 00:14:37,649
-ears because I found this
-picture of this dog. I really
+Ears because I found this
+picture of this dog I really
 
 236
 00:14:37,649 --> 00:14:40,019
-liked droopy ears. And I was
+liked with droopy ears and I was
 like, that's a good name for
 
 237
 00:14:40,080 --> 00:14:42,779
-this thing. So it was just a
+this thing. So it was just a,
 it's just a product that would
 
 238
@@ -1194,12 +1194,12 @@ like, an hour a day. For 12 days
 243
 00:15:01,350 --> 00:15:07,139
 is what it took. And ultimately,
-it failed. Because I was using
+it failed because I was using
 
 244
 00:15:07,139 --> 00:15:10,110
-like a trial version of algo,
-Leah and I realized that if I
+like a trial version of Algolia
+and I realized that if I
 
 245
 00:15:10,110 --> 00:15:13,139
@@ -1208,7 +1208,7 @@ just not sustainable at the
 
 246
 00:15:13,139 --> 00:15:17,460
-price that I could charge for.
+price that I could charged for.
 And so I just let it die. So the
 
 247
@@ -1218,13 +1218,13 @@ there, but you can't really sign
 
 248
 00:15:19,769 --> 00:15:23,490
-up. And but I learned like a ton
-of stuff I learned about, like,
+up. And, but I learned like a ton
+of stuff. I learned about, like,
 
 249
 00:15:23,850 --> 00:15:27,480
 all the wrong things you could
-choose, I learned about, like,
+choose. I learned about, like,
 
 250
 00:15:27,480 --> 00:15:30,179
@@ -1243,12 +1243,12 @@ even like something that scratch
 
 253
 00:15:36,539 --> 00:15:39,120
-my own itch, because ultimately,
+my own itch because ultimately,
 I didn't care about this
 
 254
 00:15:39,120 --> 00:15:43,679
-problem. Yeah, you know, so I
+problem, you know? So I
 just let that one die. But I
 
 255
@@ -1283,11 +1283,11 @@ that to a different project,
 261
 00:16:04,740 --> 00:16:09,090
 maybe it's not going to be the
-same product that you're making.
+same product to that you're making.
 
 262
 00:16:09,090 --> 00:16:13,169
-But now you have experience that
+But now you have experience that,
 that guides the next thing
 
 263
@@ -1297,16 +1297,16 @@ if it's something that you're
 
 264
 00:16:15,720 --> 00:16:17,549
-interested in then great.
+interested in, then, great.
 
 265
 00:16:18,298 --> 00:16:20,818
 Vic Vijayakumar: Yeah, exactly.
-Yeah, I have a lot of things
+Yeah, and I have a lot of things
 
 266
 00:16:20,818 --> 00:16:23,938
-like that, right, where the next
+like that, right? Where the next
 thing I build, I'm not going to
 
 267
@@ -1317,7 +1317,7 @@ going to take whatever, you
 268
 00:16:26,969 --> 00:16:30,479
 know, all the failed parts, all
-the good parts of dog ears that
+the good parts of Dog Ears that
 
 269
 00:16:30,479 --> 00:16:32,818
@@ -1331,7 +1331,7 @@ site, I already have a way to
 
 271
 00:16:35,818 --> 00:16:39,568
-charge people I already have,
+charge people, I already have,
 you know, all of that going. And
 
 272
@@ -1342,7 +1342,7 @@ of time. And I think it
 273
 00:16:42,808 --> 00:16:47,399
 definitely is helpful like that
-way to have like a framework, a,
+way to have like a framework, 
 
 274
 00:16:47,458 --> 00:16:50,458
@@ -1366,13 +1366,13 @@ focusing just on like, what
 
 278
 00:17:01,229 --> 00:17:05,128
-problem Am I going to solve?
+problem am I going to solve?
 It's been helpful for me anyway.
 
 279
 00:17:05,848 --> 00:17:07,499
-I don't know if I like said that
-clearly. But
+I don't know if I, like, said that
+clearly. But (laugh)
 
 280
 00:17:08,190 --> 00:17:10,680
@@ -1381,8 +1381,8 @@ learned so much from everything
 
 281
 00:17:10,680 --> 00:17:14,670
-that you just said, I love that
-like and starting with, you
+that you just said. I love that.
+Like it's starting with, you
 
 282
 00:17:14,670 --> 00:17:18,569
@@ -1392,7 +1392,7 @@ starting at zero the next time,
 283
 00:17:18,569 --> 00:17:21,779
 right? Because there's this like
-sense of like, Oh, I failed at
+sense of like, oh, I failed at
 
 284
 00:17:21,779 --> 00:17:25,200
@@ -1401,12 +1401,12 @@ start over. But you're not
 
 285
 00:17:25,259 --> 00:17:29,579
-starting over at zero. Yeah,
+starting over at zero. 
 
 286
 00:17:29,579 --> 00:17:33,779
-Dan Ott: I think another. Sorry,
-I was gonna say I think another
+Dan Ott: Yeah, I think another. 
+Sorry, I was gonna say I think another
 
 287
 00:17:33,779 --> 00:17:38,400
@@ -1420,13 +1420,13 @@ at least as a negative thing,
 
 289
 00:17:42,539 --> 00:17:48,599
-right. But knowing when to pull
+right? But knowing when to pull
 the plug or stop, you know, stop
 
 290
 00:17:48,599 --> 00:17:52,410
 putting effort or money or time
-into into into a thing. I think
+into a thing. I think
 
 291
 00:17:52,410 --> 00:17:55,769
@@ -1436,12 +1436,12 @@ Do you have like a, you
 292
 00:17:55,769 --> 00:17:58,259
 mentioned you had sort of lost
-interest in the problem itself?
+interest in the problem itself,
 
 293
 00:17:58,259 --> 00:18:01,319
-Which is, I'm sure a big warning
-sign. But do you have like a
+which is, I'm sure a big warning
+sign, but do you have like a
 
 294
 00:18:01,319 --> 00:18:05,849
@@ -1451,12 +1451,12 @@ side projects of when to leave?
 295
 00:18:05,849 --> 00:18:07,259
 Or is it just like when it feels
-like?
+like I've done this?
 
 296
 00:18:07,650 --> 00:18:10,650
 Vic Vijayakumar: Yeah, so this
-is? that's a that's a very good
+is, that's a, that's a very good
 
 297
 00:18:10,650 --> 00:18:15,990
@@ -1465,33 +1465,33 @@ of deep, right? It's, so I have
 
 298
 00:18:15,990 --> 00:18:19,470
-this problem had have i i don't
-know if i still have it or not.
+this problem. Had, have, I don't
+know if I still have it or not.
 
 299
 00:18:19,619 --> 00:18:24,480
 But it's, it's this thing of
-like, I like I like starting new
+like, I like, I like starting new
 
 300
 00:18:24,480 --> 00:18:29,970
-things, far more than I like to.
-So I like starting new things.
+things, far more than I like to,
+so I like starting new things.
 
 301
 00:18:30,269 --> 00:18:32,730
-And that's, you know, that's the
+And that, you know, that's the
 kind of like the most exciting
 
 302
 00:18:32,730 --> 00:18:35,789
-part of it for me, right? But it
-but it's but it's a bit of a
+part of it for me, right? But it,
+but it's, but it's a bit of a
 
 303
 00:18:35,880 --> 00:18:41,430
-like a negative addiction, right
-to start new things, but to not
+like a negative addiction, right,
+to start new things. But to not
 
 304
 00:18:41,430 --> 00:18:45,509
@@ -1501,7 +1501,7 @@ them. So I have to kind of plan
 305
 00:18:45,509 --> 00:18:49,410
 for the possibility that I'm
-going to lose interest in that
+going to lose the interest in that
 
 306
 00:18:49,410 --> 00:18:57,059
@@ -1510,17 +1510,17 @@ work to mitigate that is that I
 
 307
 00:18:57,059 --> 00:19:00,150
-start to I have started to
+start to, I have to start
 launch things as soon as
 
 308
 00:19:00,150 --> 00:19:04,470
-possible. And if I use the the
+possible. And if I use the, the
 preschool management thing as an
 
 309
 00:19:04,470 --> 00:19:09,210
-example, right, so the moment I
+example, right? So the moment I
 launched it, and rail people
 
 310
@@ -1535,18 +1535,18 @@ shut this down and move on to
 
 312
 00:19:14,910 --> 00:19:18,660
-something else. Yeah. Now there.
-Now first of all, I have proved
+something else. Now there,
+now first of all, I have proved
 
 313
 00:19:18,660 --> 00:19:23,279
 that someone wanted to use it,
-you know, and there are real
+you know, and the real
 
 314
 00:19:23,279 --> 00:19:25,470
 consequences to me, I'd be
-ending it and not working
+ending it and not working on it
 
 315
 00:19:25,710 --> 00:19:29,849
@@ -1556,21 +1556,21 @@ someone was using it then made
 316
 00:19:29,849 --> 00:19:34,349
 it a lot more fun to like keep
-working on it. So it kind of
+working on it, so it kind of
 
 317
 00:19:34,349 --> 00:19:40,319
-like kind of it kind of helped
-that situation, but not using
+like kind of, it kind of helped
+that situation. But (laugh) not using
 
 318
 00:19:40,319 --> 00:19:43,920
-that example. When do I know
-when to stop working on a thing
+that example, when do I know
+when to stop working on a thing,
 
 319
 00:19:43,920 --> 00:19:47,490
-when I'm not having fun with it?
+when I'm not having fun with it.
 Because if I'm not having fun
 
 320
@@ -1586,32 +1586,32 @@ choose a problem to work on? And
 322
 00:19:57,059 --> 00:20:00,000
 so there's several schools of
-thought on this one is that you
+thought on this. One is that, you
 
 323
 00:20:00,000 --> 00:20:03,599
-No work on something that is
-going to like, make you rich,
+know, work on something that is
+going to like, make you rich
 
 324
 00:20:03,599 --> 00:20:05,940
-for example, I don't know
-that's, that's a, that's an
+for example. I don't know.
+That's, that's a, that's an
 
 325
 00:20:05,940 --> 00:20:09,720
-actual rubric. Some people go
-with, or work on something that
+actual rubric some people go
+with. Or work on something that
 
 326
 00:20:09,720 --> 00:20:13,230
 like you're passionate about.
-Maybe that works for you, or
+Maybe that works for you. Or
 
 327
 00:20:13,230 --> 00:20:16,859
-like work on something that I
-don't know, some other some
+like work on something that, I
+don't know, some other, some
 
 328
 00:20:16,859 --> 00:20:19,980
@@ -1645,31 +1645,31 @@ that if you stopped working on
 
 334
 00:20:38,130 --> 00:20:41,730
-it will just die off? I don't
-know, maybe you should have
+it will just die off, I don't
+know. Maybe you should have
 
 335
 00:20:41,730 --> 00:20:45,180
-launched earlier or I don't
-know, it's totally fine. Right?
+launched earlier or, I don't
+know. It's totally fine, right?
 
 336
 00:20:45,180 --> 00:20:48,240
 It's totally fine to just stop
-working on the thing that makes
+working on the thing. If that's 
 
 337
 00:20:48,240 --> 00:20:48,809
-you happy.
+what makes you happy.
 
 338
 00:20:49,170 --> 00:20:52,170
 Dan Ott: Yeah, that's, that's a
-struggle that I've had with
+struggle that I have had with
 
 339
 00:20:52,200 --> 00:20:56,910
-things like this is sort of
+things like this. It's sort of
 guilt, you know, I mean, like
 
 340
@@ -1679,17 +1679,18 @@ automatically stop working on
 
 341
 00:20:59,910 --> 00:21:00,660
-something if nobody else
+something if nobody else is 
+asked me to.
 
 342
 00:21:00,000 --> 00:21:02,009
 Vic Vijayakumar: My abandoned
-projects need friends,
+projects need friends.
 
 343
 00:21:02,069 --> 00:21:04,769
-Dan Ott: right? Like, I don't
-know, or guilt or shame. I don't
+Dan Ott: Right? Like, I don't
+know, or guilt or, I don't
 
 344
 00:21:04,769 --> 00:21:07,230
@@ -1719,7 +1720,7 @@ or embarrassed of a thing where
 349
 00:21:24,000 --> 00:21:26,880
 you can clearly look at this and
-say, Oh, this is a failed side
+say, oh, this is a failed side
 
 350
 00:21:26,880 --> 00:21:30,210
@@ -1752,7 +1753,7 @@ that figured out pretty well.
 
 356
 00:21:47,730 --> 00:21:48,240
-Vic Vijayakumar: I hope. So.
+Vic Vijayakumar: I hope so.
 
 357
 00:21:49,710 --> 00:21:52,529
@@ -1761,7 +1762,7 @@ touch back on this idea of when
 
 358
 00:21:52,529 --> 00:21:54,750
-to launch, you said well, like
+to launch, you said well like
 maybe you didn't launch early
 
 359
@@ -1781,22 +1782,22 @@ out? Or have you completed most
 
 362
 00:22:07,049 --> 00:22:11,130
-of the features on your list. So
+of the features on your list? So
 I want to know, what is your
 
 363
 00:22:11,130 --> 00:22:15,089
 personal take on, on process and
-when to launch,
+when to launch?
 
 364
 00:22:16,440 --> 00:22:19,049
-Vic Vijayakumar: you should
+Vic Vijayakumar: You should
 launch as soon as you feel
 
 365
 00:22:19,049 --> 00:22:21,809
-ready, that's the thing. But
+ready. That's the thing. But
 sometimes you have to force
 
 366
@@ -1812,11 +1813,11 @@ waiting and waiting. And it's
 368
 00:22:30,089 --> 00:22:32,730
 possible, you might lose the
-motivation to launch it right.
+motivation to launch it, right?
 
 369
 00:22:33,089 --> 00:22:36,539
-So and the thing is, I think
+So, and the thing is, I think
 when I say the word launch,
 
 370
@@ -1826,12 +1827,12 @@ release, or like tweet about it,
 
 371
 00:22:40,289 --> 00:22:42,960
-it doesn't have to be that you
+it doesn't have to be that. You
 could silently quietly launch
 
 372
 00:22:42,960 --> 00:22:47,819
-and until nobody. But it might
+and tell nobody. But it might
 just be a psychological win for
 
 373
@@ -1842,12 +1843,12 @@ thing is on, you know, on
 374
 00:22:51,630 --> 00:22:54,630
 production on a secret URL, but
-I can access it and works and I
+I can access it and it works and I
 
 375
 00:22:54,630 --> 00:22:58,559
 can log into it and I can use it
-might be the psychological wind
+might be the psychological win
 
 376
 00:22:58,559 --> 00:23:03,119
@@ -1857,7 +1858,7 @@ it. And that's totally fine. Or
 377
 00:23:03,119 --> 00:23:06,779
 sometimes you can just launch
-something with just a signup URL
+something with just a sign up URL
 
 378
 00:23:06,779 --> 00:23:10,440
@@ -1866,7 +1867,7 @@ up for this, which is good
 
 379
 00:23:10,440 --> 00:23:13,859
-enough, right for you to for at
+enough, right, for you to, for at
 least like drum up some
 
 380
@@ -1887,7 +1888,7 @@ iterating on that as opposed to
 383
 00:23:25,920 --> 00:23:28,859
 waiting a long time and then
-like ending up with you know,
+like ending up with, you know,
 
 384
 00:23:28,890 --> 00:23:30,359
@@ -1915,12 +1916,12 @@ quietly launched it just so I
 
 389
 00:23:46,920 --> 00:23:50,970
-knew about it and one other
-person and I had said like you
+knew about it, and one other
+person, and I had said like you
 
 390
 00:23:50,970 --> 00:23:53,640
-know I'll probably put this out
+know, I'll probably put this out
 to the public in about a month
 
 391
@@ -1940,13 +1941,13 @@ diving board and and now I'm
 
 394
 00:24:05,220 --> 00:24:08,099
-going for this which in that
-sense like was really good the
+going for this. Which in that
+sense like was really good. The
 
 395
 00:24:08,099 --> 00:24:13,019
-project wasn't done I scrambled
-for a couple of days but also I
+project wasn't done, I scrambled
+for a couple of days, but also, I
 
 396
 00:24:13,019 --> 00:24:18,329
@@ -1955,11 +1956,11 @@ project had somebody not been
 
 397
 00:24:18,329 --> 00:24:19,170
-talking about it
+talking about it.
 
 398
 00:24:20,230 --> 00:24:25,029
-Vic Vijayakumar: you know if if
+Vic Vijayakumar: You know, if, if,
 if you push something out and if
 
 399
@@ -1969,71 +1970,71 @@ their feedback to you is this is
 
 400
 00:24:28,900 --> 00:24:32,289
-good but it could use more
+good but it could use more,
 that's good feedback. I would
 
 401
 00:24:32,289 --> 00:24:37,210
-rather that then no one use it
-you know it's Yeah, I would
+rather that then no one use it,
+you know? It's, yeah, I would
 
 402
 00:24:37,210 --> 00:24:41,140
-totally I would totally get
+totally, I would totally get
 negative attention then like
 
 403
 00:24:41,140 --> 00:24:44,650
-none at all for you know,
-something that I launched but
+none at all for, you know,
+something that I launched. But
 
 404
 00:24:44,799 --> 00:24:47,200
 I'm glad you were able to do
-that like that would probably
+that. Like that would probably,
 
 405
 00:24:47,200 --> 00:24:49,660
 that situation would probably
-stressed me out if someone did a
+stressed me out if someone did a,
 
 406
 00:24:50,079 --> 00:24:51,970
-an announcement. It was
+an announcement about
 something that I built but I
 
 407
 00:24:51,970 --> 00:24:52,869
-wasn't ready for it yet
+wasn't ready for it yet.
 
 408
 00:24:52,869 --> 00:24:53,950
 Bekah Hawrot Weigel: It stressed
-me out. It did.
+me out. It did. (laugh)
 
 409
 00:24:57,309 --> 00:25:00,880
 Dan Ott: Can you talk a little
-bit about Like some tools you
+bit about, like some tools you
 
 410
 00:25:00,880 --> 00:25:04,990
-use to make to make this process
+use to make, to make this process
 easier, you know, when you're
 
 411
 00:25:04,990 --> 00:25:06,640
 working on side projects, things
-like that.
+like that?
 
 412
 00:25:07,170 --> 00:25:11,430
 Vic Vijayakumar: Yeah, so I use
-a lot of no-code tools actually
+a lot of no-code tools actually.
 
 413
 00:25:11,460 --> 00:25:15,210
-low-code tools, I should say. So
+Low-code tools, I should say. So
 I'm not one of those people that
 
 414
@@ -2043,7 +2044,7 @@ no-code stuff. But I do use
 
 415
 00:25:20,309 --> 00:25:23,369
-like, air table and Zapier are
+like, Airtable and Zapier are
 probably like my two biggest
 
 416
@@ -2064,11 +2065,11 @@ know, I, I thought of this joke.
 419
 00:25:35,579 --> 00:25:39,420
 And it was kind of a really
-silly joke. And I and I told
+silly joke. And I, and I told
 
 420
 00:25:39,420 --> 00:25:44,039
-you, Dan, or I said, it's a it's
+you, Dan, or I said, it's a, it's
 a community for people who are
 
 421
@@ -2079,7 +2080,7 @@ each other. And then there's
 422
 00:25:46,890 --> 00:25:50,789
 sweat pants, it can be called
-meat sweats dot com, and then I
+meetsweats.com, and then I
 
 423
 00:25:50,849 --> 00:25:52,799
@@ -2087,22 +2088,22 @@ laughed about it for so long.
 
 424
 00:25:54,069 --> 00:25:57,339
-Dan Ott: Because Vic Vic slacked
+Dan Ott: (laugh) Because Vic, Vic Slacked
 me this on a Friday night, I was
 
 425
 00:25:57,339 --> 00:26:02,019
-watching TV with, with my wife
+watching TV with, with my wife,
 with Emily. And she had to pause
 
 426
 00:26:02,170 --> 00:26:06,910
 what we were watching because I
-was laughing so hard. And then I
+was laughing so hard (laugh). And then I
 
 427
 00:26:06,910 --> 00:26:09,640
-shared it with her to which she
+shared it with her too, which she
 also laughed, but I was just
 
 428
@@ -2112,7 +2113,8 @@ my phone laughing and it was
 
 429
 00:26:12,759 --> 00:26:14,140
-just about meetsweats.com.
+just about meetsweats.com 
+(laugh).
 
 430
 00:26:15,289 --> 00:26:18,079
@@ -2127,17 +2129,17 @@ exist, and the domain was
 432
 00:26:21,259 --> 00:26:25,400
 available. So I bought, you
-know, meat, like m-e-e-t,
+know, meet, like M-E-E-T,
 
 433
 00:26:25,910 --> 00:26:29,539
-sweats, like, you know, sweat
-pants, so I bought meats, what's
+sweats, like, you know, sweatpants, 
+so I bought meetsweats.com
 
 434
 00:26:29,569 --> 00:26:34,789
-calm for $4? Because I was like,
-this is like, $4 is gonna be
+for $4 because I was like,
+this is, like $4 is gonna be
 
 435
 00:26:34,789 --> 00:26:38,299
@@ -2156,23 +2158,23 @@ their teeth, and they're like,
 
 438
 00:26:44,809 --> 00:26:49,670
-what is it, I was like, nothing,
-nothing will get it, I put them
+what is it? I was like, nothing.
+Nothing will get it. I put them
 
 439
 00:26:49,670 --> 00:26:54,049
-to bed and and it feels like
+to bed and, and it feels like
 forever, but it was just last
 
 440
 00:26:54,049 --> 00:26:57,859
-week. And while they were while
-they were while they were
+week. And while they were, while
+they were, while they were
 
 441
 00:26:57,859 --> 00:27:01,789
 falling asleep, I just sat in a
-room with my laptop. And I built
+room with my laptop and I built
 
 442
 00:27:01,789 --> 00:27:04,759
@@ -2186,8 +2188,8 @@ like an hour and a half or so.
 
 444
 00:27:07,460 --> 00:27:12,170
-And for that so I just you know,
-I went on card CRD, ko and I so
+And for that, so I just, you know, 
+I went on Carrd, C-A-R-R-D dot co, and I so,
 
 445
 00:27:12,170 --> 00:27:15,859
@@ -2196,8 +2198,8 @@ use for this, where I push out a
 
 446
 00:27:15,859 --> 00:27:20,240
-site. And I built a form on the
-site and it uses air table and
+site, and I built a form on the
+site, and it uses Airtable and
 
 447
 00:27:20,240 --> 00:27:24,829
@@ -2217,36 +2219,37 @@ joke is forcing any more than
 450
 00:27:31,309 --> 00:27:34,880
 like the airtime we're already
-got. And whether or not the
+got. And whether or not, the
 
 451
 00:27:34,880 --> 00:27:37,819
-thing is the funny thing is like
+thing is, the funny thing is like
 something like 15 people signed
 
 452
 00:27:37,819 --> 00:27:40,069
-up to be early notified, it's
-made up.
+up to be early notified after
+it's made up.
 
 453
 00:27:41,039 --> 00:27:41,549
-Bekah Hawrot Weigel: Number one.
+Bekah Hawrot Weigel: It's me.
+Number one (laugh).
 
 454
 00:27:44,069 --> 00:27:45,359
-Vic Vijayakumar: You were the f
-rst sig
+Vic Vijayakumar: You were the
+first sign up.
 
 455
 00:27:46,049 --> 00:27:47,039
-Bekah Hawrot Weigel: founding
+Bekah Hawrot Weigel: Founding
 member.
 
 456
 00:27:48,299 --> 00:27:50,759
-Vic Vijayakumar: So this is
-probably a really good example
+Vic Vijayakumar: So this gonna be 
+a good example
 
 457
 00:27:50,819 --> 00:27:56,220
@@ -2281,22 +2284,22 @@ like building in public, right?
 463
 00:28:15,089 --> 00:28:18,359
 You don't really know what it
-should be. But you take ideas
+should be yet, but you take ideas
 
 464
 00:28:18,359 --> 00:28:23,220
 from the community. And you
-know, this whole thing. So was
+know, this whole thing, so was
 
 465
 00:28:23,220 --> 00:28:28,769
-card plus air table. And I think
-that's pretty much all it was
+Carrd plus Airtable, and I think
+that's pretty much all it was.
 
 466
 00:28:29,309 --> 00:28:34,619
-and went out there. But a few
-other tools or users Zapier like
+And it went out there. But a few
+other tools I use are Zapier like
 
 467
 00:28:34,619 --> 00:28:38,549
@@ -2310,13 +2313,14 @@ stuff. But otherwise, I have a
 
 469
 00:28:42,690 --> 00:28:46,410
-pretty traditional, just a non
-traditional, I guess I should
+pretty traditional, just to, not 
+traditional, I guess. I should
 
 470
 00:28:46,410 --> 00:28:52,529
-say, I have like a skeleton of a
-skeleton project, that I just
+say, I have like a skeleton, I 
+have a skeleton project, that 
+I just
 
 471
 00:28:52,529 --> 00:28:56,339
@@ -2345,7 +2349,7 @@ removes the excitement of it.
 
 476
 00:29:10,200 --> 00:29:13,680
-Like, I used to be like, Oh, I'm
+Like, I used to be like, oh, I'm
 going to do this thing. And then
 
 477
@@ -2371,7 +2375,7 @@ just start off. And I know that
 481
 00:29:27,119 --> 00:29:32,609
 at like minute one, it can
-already charge people which
+already charge people, which
 
 482
 00:29:32,609 --> 00:29:36,539
@@ -2395,21 +2399,22 @@ come up with like what I'm going
 
 486
 00:29:47,400 --> 00:29:49,440
-to do before I start on it.
+to do before, you know, I start 
+on it.
 
 487
 00:29:51,358 --> 00:29:55,378
-Dan Ott: I think that i think
+Dan Ott: I think that, I think
 that's great. I think that's a
 
 488
 00:29:55,378 --> 00:29:58,348
 great and sort of newer way to
-think about a lot of this stuff
+think about a lot of this stuff.
 
 489
 00:29:59,519 --> 00:30:02,249
-and As a I mean, I, you know, as
+And as a, I mean, I, you know, as
 I've been a developer for a long
 
 490
@@ -2419,18 +2424,18 @@ you know, think of a problem and
 
 491
 00:30:06,239 --> 00:30:11,159
-say, Okay, I'm going to start
-writing react from scratch, and
+say, okay, I'm going to start
+writing React from scratch, and
 
 492
 00:30:11,159 --> 00:30:15,868
 you know, or whatever it is.
-Because Because I don't know,
+Because, because I don't know,
 
 493
 00:30:15,898 --> 00:30:21,028
 because that's what my job was,
-you know, or is and sometimes is
+you know, or is. And sometimes it's
 
 494
 00:30:21,209 --> 00:30:27,028
@@ -2464,13 +2469,13 @@ like, I was hoping to start a
 
 500
 00:30:45,450 --> 00:30:50,069
-new project every month. Or I
-don't know, I don't I haven't
+new project every month. Or, I
+don't know. I don't, I haven't
 
 501
 00:30:50,069 --> 00:30:53,339
-yet decided, but it's January
-28. And I think meat, so this is
+yet decided, but it's January 28th 
+that I think meetsweats so this is
 
 502
 00:30:53,339 --> 00:30:58,019
@@ -2508,8 +2513,8 @@ would like one, I will let you
 
 509
 00:31:19,710 --> 00:31:28,049
-do it for February. Um, yeah,
-that's the point Dan was making
+do it for February. Um, yeah.
+The point Dan was making
 
 510
 00:31:28,049 --> 00:31:35,099
@@ -2523,7 +2528,7 @@ if you could use something
 
 512
 00:31:41,400 --> 00:31:45,720
-harder, like react, right? or
+harder, like React, right? Or
 building a site from scratch,
 
 513
@@ -2539,12 +2544,12 @@ these things to spin up
 515
 00:31:56,130 --> 00:31:58,890
 projects, like what you're doing
-or saying, like, Look, this is
+or saying, like, look, this is
 
 516
 00:31:58,890 --> 00:32:03,000
 just as valuable as a site
-that's done in react, because
+that's done in React because
 
 517
 00:32:03,480 --> 00:32:06,869
@@ -2573,7 +2578,7 @@ making their life easier. You
 
 522
 00:32:18,630 --> 00:32:21,539
-know, it does, I don't think I
+know, it does, I don't think, I
 don't believe that, like, you
 
 523
@@ -2594,11 +2599,11 @@ entirely only in your head as to
 526
 00:32:31,589 --> 00:32:34,619
 you know, what mode you were
-playing it on, it really doesn't
+playing it on. It really doesn't
 
 527
 00:32:34,619 --> 00:32:38,640
-matter. Ultimately, I think I
+matter ultimately. I think I
 think I like just thought of
 
 528
@@ -2613,13 +2618,13 @@ right now. I mean, I use lots of
 
 530
 00:32:44,339 --> 00:32:47,369
-low code or no code things all
+low-code or no-code things all
 over the place. It's, and you
 
 531
 00:32:47,369 --> 00:32:50,730
 know, it's not even just for
-starting right, sometimes. So
+starting, right? Sometimes, so
 
 532
 00:32:50,730 --> 00:32:53,309
@@ -2634,16 +2639,16 @@ remember what it used to be at
 534
 00:32:56,400 --> 00:32:58,859
 the very beginning, but it's
-been running on air table for
+been running on Airtable for
 
 535
 00:32:58,859 --> 00:33:03,059
 like, I don't know, like four or
-five years now. works just fine.
+five years now. It works just fine,
 
 536
 00:33:03,809 --> 00:33:07,710
-You know, yeah, I and I will
+you know? I, and I will
 never replace it. I'm not going
 
 537
@@ -2658,17 +2663,17 @@ or whatever. It works.
 539
 00:33:13,349 --> 00:33:17,970
 Dan Ott: Yeah, absolutely. We,
-we, in Virtual Coffee...one of
+we, in Virtual Coffee, one of
 
 540
 00:33:17,970 --> 00:33:22,470
 the Virtual Coffees last week,
-or maybe Tuesday. We were
+or maybe Tuesday. We were,
 
 541
 00:33:22,529 --> 00:33:27,809
 somebody was asking about, like,
-if if they were freelancing, and
+if, if they were freelancing, and
 
 542
 00:33:27,809 --> 00:33:29,910
@@ -2678,7 +2683,7 @@ site, you know, like, what,
 543
 00:33:29,970 --> 00:33:35,160
 what, what they should do,
-right. And, and some of the
+right? And, and some of the
 
 544
 00:33:35,160 --> 00:33:37,589
@@ -2687,7 +2692,7 @@ oh, just write it in, you know,
 
 545
 00:33:37,680 --> 00:33:40,470
-I don't know, reactor Gatsby or
+I don't know, React or Gatsby or
 something, or, you know, even
 
 546
@@ -2712,136 +2717,136 @@ able to stand up a site, like
 
 550
 00:33:54,210 --> 00:33:57,630
-you have that like using card,
-for example, right, for a LAN
+you have that like using Caard,
+for example, right, for a
 
 551
 00:33:57,660 --> 00:34:00,599
-card is a service that is
+Caard is a service that is
 basically a landing page
 
 552
 00:34:00,599 --> 00:34:04,259
 service, right, and you can add
-a form to it, I think, and maybe
+a form to it, I think, and maybe,
 
 553
 00:34:05,069 --> 00:34:05,730
-something else.
+maybe something else?
 
 554
 00:34:05,730 --> 00:34:07,650
-Vic Vijayakumar: But so I have
+Vic Vijayakumar: So I have
 an example about this, actually.
 
 555
 00:34:08,250 --> 00:34:13,199
-Where, so when I started Every
-ak, it used to be just in the
+Where, so when I started Everyoak,
+it used to be just in the
 
 556
 00:34:13,199 --> 00:34:18,090
-ir table form. Were so it was
-ust, it was a so it was a react
+Airtable form. Where, so it was
+just, it was a, so it was a React
 
 557
 00:34:18,090 --> 00:34:20,940
-age. It was a it was a react
-orm, but then it's submitted to
+page. It was a, it was React form,
+but then it's submitted to
 
 558
 00:34:20,940 --> 00:34:25,440
-ir table. And that was actually
-t. Because it there was no
+Airtable, and that was actually
+it. Because it, there was no
 
 559
 00:34:25,440 --> 00:34:29,699
-ogin or anything like that, you
-now, parents would come like
+login or anything like that, you
+know. Parents would come like
 
 560
 00:34:29,699 --> 00:34:32,909
-ill out their application. And
-hen the rest of it kind of got
+fill out their application. And
+then the rest of it kind of got
 
 561
 00:34:32,909 --> 00:34:37,110
-uilt around that. And like it
-an that way for two years,
+built around that. And like it
+ran that way for two years,
 
 562
 00:34:37,110 --> 00:34:39,960
-here all it did was submit to
-n air table. Like I didn't move
+where all it did was submit to
+an Airtable. Like I didn't move
 
 563
 00:34:39,960 --> 00:34:43,559
-t over to like MySQL or
-nything like that for a good
+it over to like MySQL or
+anything like that for a good
 
 564
 00:34:43,559 --> 00:34:47,309
-olid two years, and it would
-ork just fine. You know, the
+solid two years, and it would
+work just fine, you know. The
 
 565
 00:34:47,309 --> 00:34:51,420
-arents don't care, it still
-akes their lives easier. And
+parents don't care, it still
+makes their lives easier. And
 
 566
 00:34:51,449 --> 00:34:53,909
-hen the reason why I moved it
-as ultimately because I
+then the reason why I moved it
+was ultimately because I
 
 567
 00:34:53,909 --> 00:34:56,820
-xceeded error tables like free
-imits, not because I thought
+exceeded Airtable like free
+limits. Not because I thought
 
 568
 00:34:56,820 --> 00:35:00,570
-ike, Oh, I'm like I'm doing
-omething that you know Like,
+like, oh, I'm like, I'm doing
+something that you know, like,
 
 569
 00:35:00,599 --> 00:35:03,389
-ou know, really good
-rogrammers don't do or anything
+you know, really good
+programmers don't do or anything
 
 570
 00:35:03,389 --> 00:35:06,570
-ike that, you know, I moved it
-ecause I just didn't want to
+like that, you know. I moved it
+because I just didn't want to
 
 571
 00:35:06,570 --> 00:35:11,760
-ay money for, for what I was
-oing, that's fine. And I don't
+pay money for, for what I was
+doing. That's fine with it. And I don't
 
 572
 00:35:11,760 --> 00:35:15,869
-hink people should be like, Oh,
-f I use a, you know, low code
+think people should be like, oh,
+if I use a, you know, low-code
 
 573
 00:35:15,869 --> 00:35:18,960
-r no code tool, I'm not a good
-rogrammer or something like
+or no-code tool, I'm not a good
+programmer or something like
 
 574
 00:35:18,960 --> 00:35:23,159
-hat. That's, if, you know, if
-omeone is telling you that they
+that. That's, if, you know, if
+someone is telling you that, they
 
 575
 00:35:23,309 --> 00:35:24,300
-on't know they're talking bout.
+don't know they're talking about.
 
 576
 00:35:24,690 --> 00:35:30,869
-Dan Ott: Yeah, I mean, I agree,
-and the framing of, of how a
+Dan Ott: Yeah. I mean, I agree.
+And the framing of, of how a
 
 577
 00:35:30,869 --> 00:35:36,269
@@ -2865,27 +2870,27 @@ I mean, I'm independent
 
 581
 00:35:46,800 --> 00:35:50,280
-developer, so clients are the
+developer. So clients are the
 way I think about a lot of this
 
 582
 00:35:50,280 --> 00:35:52,829
-stuff, right. But if a client is
+stuff, right? But if a client is
 paying, like is paying you,
 
 583
 00:35:52,920 --> 00:35:57,239
 they're not paying you for code
-or, you know, react or whatever,
+or, you know, React or whatever,
 
 584
 00:35:57,239 --> 00:36:00,630
 right? They're paying you to get
-the thing that they want, right,
+the thing that they want, right?
 
 585
 00:36:00,630 --> 00:36:03,989
-they're paying you to have the
+They're paying you to have the
 daycare, like management
 
 586
@@ -2895,31 +2900,31 @@ the most, you know, detailed way
 
 587
 00:36:09,480 --> 00:36:12,869
-that some other judging person
-will judge you for. Right. They
+that some other judgy person
+will judge you for, right? They
 
 588
 00:36:12,869 --> 00:36:18,000
-don't care. Exactly. And so, you
+don't care. And so, you
 know, my point is just like to
 
 589
 00:36:18,000 --> 00:36:21,329
-provide value is the thing is
-the thing that you're working on
+provide value is the thing, is
+the thing that you're working on.
 
 590
 00:36:21,329 --> 00:36:25,619
-not not that you're working on
-becoming like a ranked expert,
+Not, not that you're working on
+becoming like a great expert,
 
 591
 00:36:25,619 --> 00:36:26,969
-or whatever, you know,
+or whatever, you know.
 
 592
 00:36:27,179 --> 00:36:29,190
-Vic Vijayakumar: right. And, you
+Vic Vijayakumar: Right. And, you
 know, it depends, of course,
 
 593
@@ -2930,17 +2935,17 @@ job or, but actually even at my
 594
 00:36:34,170 --> 00:36:38,820
 day job, we actually use a lot
-of Zapier and an air table, like
+of Zapier and Airtable. Like
 
 595
 00:36:38,820 --> 00:36:41,610
 we had, we're on the enterprise
-levels of both Zapier and air
+levels of both Zapier and Airtable,
 
 596
 00:36:41,610 --> 00:36:46,110
-table, because like you got to
-maximize, you know your value.
+because like, you got to maximize,
+you know, your value.
 
 597
 00:36:47,039 --> 00:36:50,400
@@ -2950,7 +2955,7 @@ all these. So this is just going
 598
 00:36:50,400 --> 00:36:53,190
 to come off as like product
-placement for Zapier. neotel,
+placement for Zapier or Neotel
 
 599
 00:36:53,190 --> 00:36:58,110
@@ -2974,7 +2979,7 @@ like building all the plumbing.
 
 603
 00:37:09,840 --> 00:37:12,929
-Yep, that's all I'll say about
+That's all I'll say about
 that. So this doesn't become a
 
 604
@@ -2983,13 +2988,13 @@ huge, like, endorsement or
 
 605
 00:37:14,969 --> 00:37:16,920
-Dan Ott: no, it's true, though
-and cheaper. Like if you build
+Dan Ott: No, it's true though.
+And cheaper. Like if you build
 
 606
 00:37:16,920 --> 00:37:20,550
 for the hour or if your employee
-or whatever, like your anybody's
+or whatever, like your, anybody's
 
 607
 00:37:20,550 --> 00:37:22,289
@@ -3004,12 +3009,12 @@ you can save yourself time and
 609
 00:37:25,710 --> 00:37:29,880
 you know, a productive way that
-it's like easy to it's an easy
+it's like easy to, it's an easy
 
 610
 00:37:29,880 --> 00:37:36,900
-win. It's easy decision. I love
-it I Zapier for like, I have
+win. It's an easy decision. I love
+it. I, Zapier for like, I have
 
 611
 00:37:36,960 --> 00:37:40,110
@@ -3018,13 +3023,13 @@ surface of Zapier over the last
 
 612
 00:37:40,110 --> 00:37:43,860
-couple months, I think based on
-your recommendation, but it's
+couple months. I think based on
+your recommendation. But it's
 
 613
 00:37:43,860 --> 00:37:45,840
-just been on it's been a
-revelation.
+just been, I don't know, it's been
+a revelation.
 
 614
 00:37:46,289 --> 00:37:49,050
@@ -3033,8 +3038,8 @@ it all over the place. I have
 
 615
 00:37:49,050 --> 00:37:52,739
-some zaps that just told me like
-Okay, so this is a pre 2020
+some zaps that just told me like,
+okay. So this is a pre-2020
 
 616
 00:37:52,739 --> 00:37:56,250
@@ -3044,7 +3049,7 @@ that's that just tells me like
 617
 00:37:56,250 --> 00:37:59,340
 it monitors there is like
-racists that I used to run like
+races that I used to run, like
 
 618
 00:37:59,369 --> 00:38:03,059
@@ -3058,7 +3063,7 @@ create a certain good bid number
 
 620
 00:38:05,550 --> 00:38:08,880
-one, that's all I just have like
+one. So I just have like
 a bunch of random automations
 
 621
@@ -3077,17 +3082,17 @@ Zapier is?
 624
 00:38:16,199 --> 00:38:23,070
 Vic Vijayakumar: Sure. It's
-plumbing. So okay, so let's see,
+plumbing. So okay. So, let's see.
 
 625
 00:38:23,400 --> 00:38:27,630
-what's the best way to describe
-zap here. So let's see. So I
+What's the best way to describe
+Zapier? So let's see. So I
 
 626
 00:38:27,630 --> 00:38:32,130
 have a, it ties together various
-services, it takes events from
+services. It takes events from
 
 627
 00:38:32,130 --> 00:38:35,250
@@ -3097,7 +3102,7 @@ pipes them into another. So as
 628
 00:38:35,250 --> 00:38:40,110
 an example, let's say that I
-have, okay, this is a real one.
+have, okay. This is a real one.
 
 629
 00:38:40,409 --> 00:38:44,579
@@ -3106,7 +3111,7 @@ calendar, I have Zapier watch
 
 630
 00:38:44,579 --> 00:38:47,670
-for that, and three minutes
+for that. And three minutes
 before that event starts it
 
 631
@@ -3117,11 +3122,11 @@ like and then three minutes
 632
 00:38:52,110 --> 00:38:56,010
 after the event ends, it like
-changes my status back on slack
+changes my status back on Slack
 
 633
 00:38:56,070 --> 00:39:00,659
-to you know, to clear, I have
+to you know, to clear. I have
 some like a lot more complicated
 
 634
@@ -3131,7 +3136,7 @@ know, I run a little script that
 
 635
 00:39:05,489 --> 00:39:10,199
-watches the, the the race
+watches the, the, the race
 website, and it looks for like a
 
 636
@@ -3141,13 +3146,13 @@ That word was found. It sends me
 
 637
 00:39:14,400 --> 00:39:18,539
-a message on slack and sends me
+a message on Slack and sends me
 a text message and lets me know
 
 638
 00:39:18,539 --> 00:39:21,239
-that I should go register but
-you can like have this you can
+that I should go register. But
+you can like have this, you can
 
 639
 00:39:21,239 --> 00:39:25,139
@@ -3157,12 +3162,12 @@ can have it say that anytime
 640
 00:39:25,139 --> 00:39:27,809
 someone fills out this form and
-a new record appears in an air
+a new record appears in an Airtable,
 
 641
 00:39:27,809 --> 00:39:31,650
-table. I want you to do like
-these 15 other things like maybe
+I want you to do like these
+15 other things like maybe
 
 642
 00:39:31,920 --> 00:39:36,239
@@ -3182,7 +3187,7 @@ minutes or something like that.
 645
 00:39:42,539 --> 00:39:45,750
 Bekah Hawrot Weigel: So it is a
-time saving superpower.
+time saving superpower?
 
 646
 00:39:46,949 --> 00:39:48,869
@@ -3191,7 +3196,7 @@ time saving superpower.
 
 647
 00:39:48,869 --> 00:39:52,829
-Dan Ott: Yeah, and the for me I
+Dan Ott: Yeah, and the, for me, I
 found that once I started like
 
 648
@@ -3201,8 +3206,8 @@ and been like that sounds cool,
 
 649
 00:39:57,179 --> 00:39:59,400
-but you know not really dug into
-it. But once you start using it
+but you know, not really dug into
+it. But once you start using it,
 
 650
 00:39:59,670 --> 00:40:03,510
@@ -3211,72 +3216,72 @@ like it changes how your brain
 
 651
 00:40:03,510 --> 00:40:06,719
-thinks about everything. It's
-really it's it's pretty crazy to
+thinks about everything (laugh). It's
+really, it's, it's pretty crazy to
 
 652
 00:40:06,719 --> 00:40:11,219
 think about the, what we're
-using on virtual coffee, virtual
+using on Virtual Coffee, Virtual
 
 653
 00:40:11,219 --> 00:40:14,730
-coffee site, we have some random
+Coffee's site, we have some random
 forms that collect information
 
 654
 00:40:14,730 --> 00:40:18,389
-in various places, for example,
-and those forms are submitted on
+in various places for example.
+And those forms are submitted on
 
 655
 00:40:18,389 --> 00:40:23,699
-netlify. And so now Zapier is
+Netlify, and so now Zapier is
 getting notified when that
 
 656
 00:40:23,699 --> 00:40:27,239
-happens, right. So the forum
-goes to Zapier. And then, for
+happens, right? So the form
+goes to Zapier, and then, for
 
 657
 00:40:27,239 --> 00:40:30,750
 instance, we are saving the
-record in a right now in a in a
+record in a right now in a, in
 
 658
 00:40:30,750 --> 00:40:34,860
-Google Sheets row, and also
+a Google sheets row, and also
 submitting an issue on GitHub
 
 659
 00:40:34,920 --> 00:40:38,730
-for it or whatever to that.
-Like, that's just one way that
+for it or whatever to. That,
+like, that's just one way that
 
 660
 00:40:38,730 --> 00:40:43,530
 we're using those. We're using
-Zapier right now. It's I don't
+Zapier right now. It's, I don't
 
 661
 00:40:43,530 --> 00:40:49,139
 know, it's very cool. Could you
-tell us about air table as well,
+tell us about Airtable as well?
 
 662
 00:40:49,469 --> 00:40:50,039
-you've talked about
+You've talked about it a lot.
 
 663
 00:40:50,000 --> 00:40:52,789
-Vic Vijayakumar: air table is
-just I mean, it's it's very much
+Vic Vijayakumar: Airtable is
+just, I mean, it's it's very much
 
 664
 00:40:52,789 --> 00:40:56,059
 like Google sheets or any other
-spreadsheet. You know, there are
+spreadsheet, you know, there are
 
 665
 00:40:56,059 --> 00:41:00,500
@@ -3286,7 +3291,7 @@ sort them. But once again, it
 666
 00:41:00,500 --> 00:41:04,940
 allows you to like do things
-based on rows changing. And it
+based on row's changing. And it
 
 667
 00:41:04,940 --> 00:41:08,659
@@ -3301,16 +3306,16 @@ end for a lot of stuff. There's
 669
 00:41:13,340 --> 00:41:17,000
 a site that I built recently
-like to allow parents to buy t
+like to allow parents to buy t-shirts
 
 670
 00:41:17,000 --> 00:41:20,900
-shirts for their kids, and then
-pay the invoices. And then I was
+for their kids, and then
+pay the invoices, and then I was
 
 671
 00:41:20,900 --> 00:41:25,219
-using the air table for that.
+using the Airtable for that.
 Yeah, there's not really much of
 
 672
@@ -3335,12 +3340,12 @@ a service where you had to store
 676
 00:41:35,340 --> 00:41:39,239
 content, basically, in any way,
-at the beginning of it as an
+at the beginning of it, 
 
 677
 00:41:39,239 --> 00:41:41,280
-API, the first thing you reach
-for Yeah.
+it's the first thing you reach
+for? Yeah.
 
 678
 00:41:43,860 --> 00:41:46,320
@@ -3349,12 +3354,12 @@ back to indie hacking for a
 
 679
 00:41:46,320 --> 00:41:51,840
-second? Cuz? Yeah, talk a little
+second? Coz I want to talk a little
 bit about what the community is
 
 680
 00:41:51,840 --> 00:41:57,000
-like, and kind of how you found
+like, and the kind of how you found
 a place in that community?
 
 681
@@ -3374,18 +3379,18 @@ name for this thing. And like,
 
 684
 00:42:08,010 --> 00:42:11,039
-Oh, it's like, I shouldn't just
+oh, it's like, I shouldn't just
 like, hide the things that I do.
 
 685
 00:42:11,039 --> 00:42:13,800
 Like, it's actually good to, you
-know, like, share it in public.
+know, like, share it in public,
 
 686
 00:42:13,800 --> 00:42:16,590
-Right? Then I found indie
-hackers calm, which is probably
+right? Then I found indiehackers.com,
+which is probably
 
 687
 00:42:16,590 --> 00:42:18,960
@@ -3395,32 +3400,32 @@ I'm in a few other communities
 688
 00:42:18,960 --> 00:42:25,019
 like that. They're all like
-slack communities. Let's see,
+Slack communities. Let's see.
 
 689
 00:42:26,519 --> 00:42:28,289
-wait what was the rest of your
-question?
+Wait. (laugh) What was the rest 
+of your question?
 
 690
 00:42:28,710 --> 00:42:30,869
-Bekah Hawrot Weigel: And just
+Bekah Hawrot Weigel: It's just
 kind of like how you found your
 
 691
 00:42:30,869 --> 00:42:33,690
 place in the community, or like,
-what the community is, like,
+what the community is like?
 
 692
 00:42:35,219 --> 00:42:37,949
-Vic Vijayakumar: it's, I find it
-to be like, very welcoming,
+Vic Vijayakumar: It's, I find it
+to be like, very welcoming
 
 693
 00:42:37,949 --> 00:42:42,210
-honestly, it's there, there are,
-of course, a lot of very, very
+honestly. It's, there, there are,
+of course, a lot of very very
 
 694
 00:42:42,210 --> 00:42:46,110
@@ -3434,7 +3439,7 @@ people that are, you know,
 
 696
 00:42:48,630 --> 00:42:52,769
-slightly out of your slightly
+slightly out of yours, slightly
 below you, as opposed to just
 
 697
@@ -3454,7 +3459,7 @@ know, making tons of money or
 
 700
 00:43:04,650 --> 00:43:06,719
-have very, very successful
+have very very successful
 products, and you don't really
 
 701
@@ -3499,7 +3504,7 @@ you know, what it is they're
 
 709
 00:43:36,000 --> 00:43:41,250
-building on. And a lot of them
+building, and a lot of them
 share their learnings like
 
 710
@@ -3534,23 +3539,23 @@ enjoy doing that. So I'm in the
 
 716
 00:44:03,869 --> 00:44:06,599
-slack community called micro
-b2c, where it's a bunch of
+Slack community called Micro
+B2C, where it's a bunch of
 
 717
 00:44:06,599 --> 00:44:14,369
 people that build micro business
-to consumer products. So let's
+to consumer products. So, let's
 
 718
 00:44:14,369 --> 00:44:16,619
 see. So they like, you know,
-lunch money as an example.
+Lunch Money as an example there,
 
 719
 00:44:16,619 --> 00:44:21,179
-They're, like, GG app is another
-example. There's lots of
+like, GG app is another example. 
+There's lots of
 
 720
 00:44:21,179 --> 00:44:25,710
@@ -3559,8 +3564,8 @@ just, it's just great to, like,
 
 721
 00:44:26,070 --> 00:44:28,800
-it's great to be able to pose
-questions to them, for example,
+it's great to be able to post
+questions to them for example,
 
 722
 00:44:28,800 --> 00:44:31,800
@@ -3569,7 +3574,7 @@ changed some policy, like, you
 
 723
 00:44:31,800 --> 00:44:34,650
-know, and they say, Oh, you need
+know, and they say, oh, you need
 to write your terms of service
 
 724
@@ -3584,7 +3589,7 @@ this stuff on your own. It's,
 
 726
 00:44:41,940 --> 00:44:45,030
-they're good places, they're
+they're good places. They're
 also some paid communities. I'm
 
 727
@@ -3605,7 +3610,7 @@ we grow so much, but also, it
 730
 00:44:57,719 --> 00:45:05,159
 helps with our time saving
-superpowers. Right, like you get
+superpowers, right? Like you (laugh) get
 
 731
 00:45:05,159 --> 00:45:09,719
@@ -3615,7 +3620,7 @@ knowledge and understanding that
 732
 00:45:09,719 --> 00:45:14,280
 you might not get in any other
-place. Right. And so some of my
+place, right? And so, some of my
 
 733
 00:45:14,280 --> 00:45:19,019
@@ -3629,7 +3634,7 @@ those. That's one of my first
 
 735
 00:45:21,510 --> 00:45:24,239
-questions like, Okay, can you
+questions like, okay, can you
 talk about like your failure
 
 736
@@ -3649,7 +3654,7 @@ like, really painful process.
 
 739
 00:45:34,980 --> 00:45:39,480
-Vic Vijayakumar: Exactly. Right.
+Vic Vijayakumar: Exactly, right?
 So I, I love those people who
 
 740
@@ -3674,22 +3679,22 @@ not a fan of the people that are
 
 744
 00:45:52,619 --> 00:45:57,300
-like, oh, you'll find out? No, I
-don't want to. I want you to
+like, oh, you'll find out. No, I
+don't want to (laugh). I want you to
 
 745
 00:45:57,300 --> 00:46:01,739
-tell me what you like. And so I
+tell me, I want, and so I
 bias a little bit towards the
 
 746
 00:46:01,739 --> 00:46:03,150
-oversharing. And failures.
+oversharing and failures.
 
 747
 00:46:04,650 --> 00:46:09,000
 Dan Ott: One of the one of the
-things that he said, sort of in
+things that you said, sort of in
 
 748
 00:46:09,000 --> 00:46:12,869
@@ -3699,7 +3704,7 @@ people that are on your,
 749
 00:46:12,900 --> 00:46:17,610
 basically, on your level of
-learning, indie hacking, I think
+learning in indie hacking, I think
 
 750
 00:46:17,610 --> 00:46:18,690
@@ -3707,18 +3712,18 @@ is really good advice.
 
 751
 00:46:18,000 --> 00:46:21,480
-Vic Vijayakumar: I mean, to say
-you should follow wildly
+Vic Vijayakumar: I mean, that's not 
+to say you shouldn't follow wildly
 
 752
 00:46:21,480 --> 00:46:24,210
-successful people, right, right.
-Just have to take their
+successful people, right? You
+just have to take their
 
 753
 00:46:24,210 --> 00:46:28,769
 learnings with a mountain of
-salt. And be like, I don't know,
+salt. And like, I don't know,
 
 754
 00:46:28,769 --> 00:46:31,619
@@ -3733,16 +3738,16 @@ journey is completely different.
 756
 00:46:33,840 --> 00:46:39,389
 Dan Ott: Oh, absolutely. I, I
-was going to say it. I feel like
+was going to say, it, I feel like
 
 757
 00:46:39,389 --> 00:46:42,869
 it's very good advice. Just, I
-don't learning anything really,
+don't, learning anything really,
 
 758
 00:46:43,110 --> 00:46:46,019
-or not just any hacking, right.
+or not just indie hacking, right?
 I mean, I would give you the
 
 759
@@ -3752,13 +3757,13 @@ don't think I had framed it that
 
 760
 00:46:49,170 --> 00:46:52,829
-quite the way you did it. But it
-made me It made me think that I
+quite the way you did. But it
+made me, it made me think that I
 
 761
 00:46:52,829 --> 00:46:56,130
 should start framing it that
-way. Right. Because when people,
+way, right? Because when people,
 
 762
 00:46:56,610 --> 00:46:59,010
@@ -3767,7 +3772,7 @@ phase, their perspective is
 
 763
 00:46:59,010 --> 00:47:01,949
-different, even you know, so if
+different even, you know? So if
 somebody, it's not just that
 
 764
@@ -3798,7 +3803,7 @@ the beginning. It's something
 769
 00:47:16,710 --> 00:47:20,130
 I've been working on a lot with
-virtual coffee, you know, and
+Virtual Coffee, you know? And
 
 770
 00:47:20,159 --> 00:47:25,110
@@ -3818,11 +3823,11 @@ journey, like, you know,
 773
 00:47:31,739 --> 00:47:35,610
 everything. And I just think
-it's such good advice. You know,
+it's such good advice, you know.
 
 774
 00:47:35,639 --> 00:47:38,130
-it's don't just always pay
+It's don't just always pay
 attention to the people with the
 
 775
@@ -3837,7 +3842,7 @@ probably have valuable things to
 
 777
 00:47:42,460 --> 00:47:46,300
-say, it's just that not all of
+say. It's just that not all of
 it is going to work out for you.
 
 778
@@ -3861,8 +3866,8 @@ sure. We talked about that in my
 
 782
 00:47:56,309 --> 00:48:01,469
-breakout room today in virtual
-coffee, this idea of processes
+breakout room today in Virtual
+Coffee, this idea of processes
 
 783
 00:48:01,469 --> 00:48:05,849
@@ -3872,11 +3877,11 @@ you might have a blind spot,
 784
 00:48:05,849 --> 00:48:09,239
 especially like, you know, if
-you haven't been there recently,
+you haven't been there recently.
 
 785
 00:48:09,568 --> 00:48:13,168
-and so, you know, being able to
+And so, you know, being able to
 fill in those blind spots are
 
 786
@@ -3896,7 +3901,7 @@ Vic Vijayakumar: Totally agree.
 789
 00:48:25,590 --> 00:48:28,590
 Dan Ott: I mean, I could talk
-about this the low-code services
+about this, the low-code, the services
 
 790
 00:48:28,590 --> 00:48:31,170
@@ -3909,23 +3914,23 @@ Vic Vijayakumar: What services?
 
 792
 00:48:32,099 --> 00:48:39,659
-air table, and just like the way
-different ways to heck like hook
+The low-code services. Airtable and Zapier, 
+and just like the way different ways to hack like hook
 
 793
 00:48:35,579 --> 00:48:44,219
 all this stuff together. Are
-there any other notable locode
+there any other notable low-code
 
 794
 00:48:39,659 --> 00:48:48,989
-services that you like to use?
-Besides we have mentioned so far
+services that you like to use
+besides we have mentioned so far
 
 795
 00:48:44,219 --> 00:48:51,630
-card and air table and Zapier,
-are there any any other
+Caard and Airtable and Zapier?
+Are there any, any other
 
 796
 00:48:49,409 --> 00:48:52,739
@@ -3940,7 +3945,7 @@ probably use those more than
 798
 00:48:55,650 --> 00:49:04,110
 anything else. Trying to think,
-but I mean, see? No, I think I
+but I mean, let's see. No, I think I
 
 799
 00:49:04,110 --> 00:49:07,739
@@ -3960,7 +3965,7 @@ there are there people that use
 802
 00:49:15,329 --> 00:49:17,579
 like, you know, something like,
-I think it's called bubble or
+I think it's called Bubble or
 
 803
 00:49:18,030 --> 00:49:20,909
@@ -3970,40 +3975,40 @@ that let you like, build a whole
 804
 00:49:20,909 --> 00:49:24,420
 app with just like, you know, in
-no code, local stuff, but I
+no-code local stuff, but I
 
 805
 00:49:24,420 --> 00:49:27,900
 actually have them as part of my
-react app. So I'll do like, you
+React app. So I'll do like, you
 
 806
 00:49:27,900 --> 00:49:31,380
-know, an x j. s page that just
-happens to use, you know, air
+know, a NextJS page that just
+happens to use, you know, Airtable
 
 807
 00:49:31,380 --> 00:49:35,099
-table as a as a thing. And I
-actually have a have a lightning
+as a, as a thing. And I actually 
+have a, have a lightning
 
 808
 00:49:35,099 --> 00:49:42,539
 talk on, you know, building an
-air table back app next month.
+Airtable backed app next month in
 
 809
 00:49:43,199 --> 00:49:44,039
-The virtual coffee.
+the Virtual Coffee.
 
 810
 00:49:44,068 --> 00:49:47,128
-Bekah Hawrot Weigel: Yeah.
-Probably drop in February on
+Bekah Hawrot Weigel: Oh. This will
+probably drop in February, on
 
 811
 00:49:47,128 --> 00:49:48,298
-February 26.
+February 26th.
 
 812
 00:49:49,139 --> 00:49:53,519
@@ -4018,11 +4023,11 @@ hook up next. And you know, that
 814
 00:49:58,110 --> 00:50:01,530
 side of it as well. Again, I
-could talk about this stuff for
+could talk about this stuff for,
 
 815
 00:50:02,039 --> 00:50:02,699
-four hours.
+for hours.
 
 816
 00:50:03,570 --> 00:50:05,940
@@ -4036,13 +4041,13 @@ the journey that you can learn
 
 818
 00:50:09,780 --> 00:50:18,179
-from too. And so I'm curious to
-know how close to your projects,
+from too. And so I'm curious to, you
+know, how close to your projects,
 
 819
 00:50:18,179 --> 00:50:21,300
 are they in terms of the things
-that they're making? Like so are
+that they're making? Like, so are
 
 820
 00:50:21,300 --> 00:50:24,750
@@ -4065,12 +4070,12 @@ like, the specific niche I'm in?
 
 824
 00:50:33,780 --> 00:50:34,500
-niche? niche?
+Nich? Niche? I don't know.
 
 825
 00:50:34,739 --> 00:50:36,929
 Bekah Hawrot Weigel: Yeah, I
-know, I say it both ways.
+know. I say it both ways.
 
 826
 00:50:37,380 --> 00:50:39,030
@@ -4080,21 +4085,21 @@ all over the place. Actually, I
 827
 00:50:39,030 --> 00:50:42,960
 follow several people that are
-like, making candles, you know,
+like, making candles, you know?
 
 828
 00:50:43,019 --> 00:50:46,079
-or, but like, you learn
-something from that too, right.
+Or, but like, you learn
+something from that too, right?
 
 829
 00:50:46,079 --> 00:50:50,010
-So this person makes candles.
-And, you know, they happen to
+So this person makes candles,
+and you know, they happen to
 
 830
 00:50:50,010 --> 00:50:53,400
-use card and Shopify to put
+use Caard and Shopify to put
 together a site really quickly.
 
 831
@@ -4104,7 +4109,7 @@ example of like, shipping
 
 832
 00:50:56,760 --> 00:50:58,980
-quickly, right. And I don't
+quickly, right? And I don't
 mean, like literally shipping
 
 833
@@ -4119,7 +4124,7 @@ is very similar. So like, in the
 
 835
 00:51:06,690 --> 00:51:11,219
-candlemaking example, you could
+candle making example, you could
 decide to build a whole business
 
 836
@@ -4134,13 +4139,13 @@ out that no one cares. Or you
 
 838
 00:51:19,710 --> 00:51:24,420
-could announce that Hi, is small
+could announce that, hi, I a small
 business solo founder, I'm
 
 839
 00:51:24,480 --> 00:51:30,090
 thinking about, you know, making
-hand pouring candles. And you
+hand pouring candles. And it
 
 840
 00:51:30,090 --> 00:51:32,670
@@ -4149,12 +4154,12 @@ then you know, you launch a
 
 841
 00:51:32,670 --> 00:51:36,179
-little site on like card, or
+little site on like Caard, or
 Shopify or whatever, and 100
 
 842
 00:51:36,179 --> 00:51:39,300
-people have pre signed up, and
+people have pre-sign up, and
 it tells you that this, you
 
 843
@@ -4169,8 +4174,8 @@ and this particular one, so,
 
 845
 00:51:45,269 --> 00:51:49,380
-Terra Simply is the Candle
-Company I'm talking about, but
+Terra Simply is the candle
+company I'm talking about, but
 
 846
 00:51:49,380 --> 00:51:52,500
@@ -4185,7 +4190,7 @@ and it's like, really, really,
 848
 00:51:55,920 --> 00:51:58,889
 so, you know, I learned a ton of
-stuff from this, even though it
+stuff from this. Even though it
 
 849
 00:51:58,889 --> 00:52:02,280
@@ -4194,7 +4199,7 @@ like, building software
 
 850
 00:52:02,280 --> 00:52:08,460
-products, right. And I follow,
+products, right? And I follow
 like, some people that, that
 
 851
@@ -4204,7 +4209,7 @@ direct to consumer stuff, like
 
 852
 00:52:11,670 --> 00:52:14,820
-printing t shirts on demand, you
+printing t-shirts on demand, you
 know, and I learned, you learn,
 
 853
@@ -4214,8 +4219,8 @@ to learn when you start
 
 854
 00:52:18,389 --> 00:52:22,289
-following someone, and then you
-do and you realize that, you
+following someone. And then you
+do when you realize that, you
 
 855
 00:52:22,289 --> 00:52:26,250
@@ -4229,12 +4234,12 @@ I just like learning random
 
 857
 00:52:30,000 --> 00:52:32,610
-things, like I'm super good at
-trig. He didn't write me up on
+things. Like I'm super good at
+triage if you [unintelligible]
 
 858
 00:52:32,610 --> 00:52:36,570
-your trivia team. I just know,
+your team. I just know,
 random factoids that I shove in
 
 859
@@ -4264,7 +4269,7 @@ bunch of podcasts that I learned
 
 864
 00:52:54,329 --> 00:52:55,260
-a lot of stuff from,
+a lot of stuff from.
 
 865
 00:52:56,050 --> 00:52:59,889
@@ -4274,7 +4279,7 @@ and just the diversity of since
 866
 00:52:59,889 --> 00:53:02,619
 it's not all around a
-technology, right, it's not,
+technology, right? It's not,
 
 867
 00:53:02,949 --> 00:53:06,219
@@ -4283,7 +4288,7 @@ solutions and all the different
 
 868
 00:53:06,219 --> 00:53:09,909
-problems, you know, it's, that's
+problems, you know? It's, that's
 seems like a very cool community
 
 869
@@ -4312,7 +4317,7 @@ preschool thing, or whatever.
 874
 00:53:22,769 --> 00:53:24,599
 Bekah Hawrot Weigel: Alright,
-Vic, I think this has been a
+Vic, I think this is been a
 
 875
 00:53:24,599 --> 00:53:29,309
@@ -4321,7 +4326,7 @@ so glad that you came here to
 
 876
 00:53:29,309 --> 00:53:32,250
-have this with us. where can our
+have this with us. Where can our
 listeners find you?
 
 877
@@ -4331,7 +4336,7 @@ on twitter at twitter.com slash
 
 878
 00:53:37,670 --> 00:53:43,639
-Vic V-I-C Vijayakumar
+Vic, V-I-C, Vijayakumar,
 V-I-J-A-Y-A-K-U-M-A-R. Or you
 
 879
@@ -4351,8 +4356,8 @@ be sending out my first
 
 882
 00:53:56,030 --> 00:54:01,159
-newsletter this month. I think
-that to a bunch of people that
+newsletter this month, I think.
+A bunch of people that
 
 883
 00:54:01,159 --> 00:54:02,840
@@ -4376,8 +4381,8 @@ because he's super awesome. So I
 
 887
 00:54:09,969 --> 00:54:15,190
-can't wait until meet sweats
-drops. Because it's gonna be
+can't wait until meetsweats drops. 
+Because you know, it's gonna be,
 
 888
 00:54:15,190 --> 00:54:17,590
@@ -4386,16 +4391,16 @@ matter. You made it. I'll be
 
 889
 00:54:17,590 --> 00:54:17,920
-there.
+there (laugh).
 
 890
 00:54:18,969 --> 00:54:20,530
 Vic Vijayakumar: It's gonna be
-the fyre fest of our day.
+the Fire Fest of our day.
 
 891
 00:54:24,550 --> 00:54:25,030
-Dan Ott: Amazing.
+Dan Ott: (laugh) Amazing.
 
 892
 00:54:25,780 --> 00:54:27,909
@@ -4442,12 +4447,12 @@ for listening to this episode of
 
 901
 00:54:48,130 --> 00:54:52,389
-the virtual coffee podcast. This
+the Virtual Coffee podcast. This
 episode was produced by Dan Ott
 
 902
 00:54:52,389 --> 00:54:56,650
-and Bekah Hawrot Weigel and
+and Bekah Hawrot Weigel, and
 edited by Dan Ott. If you have
 
 903
@@ -4457,13 +4462,13 @@ can hit us up on Twitter at
 
 904
 00:54:59,530 --> 00:55:04,329
-virtual Coffee IO, or you can
-email us at podcast at virtual
+VirtualCoffeeIO, or you can
+email us at podcast@virtualcoffee.io
 
 905
 00:55:04,329 --> 00:55:09,159
-coffee.io. You can find the show
-notes at virtual coffee.io.
+You can find the show
+notes at virtualcoffee.io.
 
 906
 00:55:09,400 --> 00:55:12,070
@@ -4477,12 +4482,12 @@ we've been up to.
 908
 00:55:13,440 --> 00:55:16,320
 Dan Ott: Please make sure to
-subscribe to the virtual coffee
+subscribe to the Virtual Coffee
 
 909
 00:55:16,320 --> 00:55:19,769
 podcast if you haven't already.
-And if you feel like reading
+And if you feel like writing a
 
 910
 00:55:19,769 --> 00:55:23,760
