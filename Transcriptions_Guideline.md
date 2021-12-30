@@ -132,7 +132,7 @@ Those utterances are:
 - Use [crosstalk 00:00:00] when two speakers are talking over one another. Try to get as much from each speaker as possible.
 
   ```text
-  Host: I think another- [crosstalk 00:31:28] -perspective is that we can learn something from it.
+  Host: I think another [crosstalk 00:31:28] perspective is that we can learn something from it.
   Guest: Well, that’s my opinion.
   ```
 
