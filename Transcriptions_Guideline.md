@@ -157,3 +157,13 @@ Those utterances are:
 - Never change spoken contractions (e.g. y’all, ain’t, don’t, can’t, it’s, et cetera.)
 - Try to best guess words that are unintelligible, and use [unintelligible] when you are not able to guess it in any way.
 - **When in doubt, transcribe exactly!**
+
+---
+
+## Resources
+- [Software Engineering Unlocked Podcast repo](https://github.com/mgreiler/se-unlocked/blob/master/Transcription_Guidelines.md)
+- [#causeascene](https://hashtagcauseascene.com/community-transcription-guide/)
+- [GoTranscript](https://gotranscript.com/transcription-guidelines)
+- [OneSpace](http://support.onespace.com/training-resources/transcription-style-guide)
+- [Punctuation Marks](https://punctuationmarks.org/em-dash/)
+- [CC TRANSCRIBERS](https://cctranscribers.wordpress.com/2016/12/22/four-rules-of-verbatim-transcription/)
