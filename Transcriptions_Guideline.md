@@ -4,12 +4,12 @@ Virtual Coffee podcast transcription is transcribed **exactly** as it sounds and
 
 Those utterances are:
 
-- **Speech errors**: `I went to the bank on Thursday- no, Friday.`
-- **False starts**: `Oh, I didn't… this thing is not perfect.`
+- **Speech errors**: `I went to the bank on Thursday -- no, Friday.`
+- **False starts**: `Oh, I didn't -- this thing is not perfect.`
 - **Filler words**: kind of, sort of, I mean, you know… (**Exception**: uh, um)
 - **Slang words**: Kinda, gotta, gotcha, betcha, wanna, dunno…
 - **Stutters**: `I-I bought that ch-ch-ch-chair yesterday.`
-- **Repetitions**: `I went, I went to the bank last Friday.`
+- **Repetitions**: `I went- I went to the bank last Friday.`
 - **Use these forms for the affirmative/negative**:
   - Mm-hmm, Mm (affirmative) or Mm-mm (negative)
   - Uh-huh (affirmative) or Uh-uh (negative)
@@ -60,31 +60,32 @@ Those utterances are:
 - When quoting, the first word of a complete sentence should be capitalized.
 - Use quotation marks for book titles, movie titles, song titles, etc.
 
-    `My favorite movie is definitely "Moana".`
+  `My favorite movie is definitely "Moana".`
 
 ### Comma (,)
 
-- Repetitions:
+- Repetition that gives emphasize to the word.
 
-  `I went, I went to the bank last Friday.`
+  `I really, really love that book.`
 
 ### Single dash (-)
 
 - Stutters:
 
   `I-I bought that ch-ch-ch-chair yesterday.`
-- Speech errors:
 
-  `I went to the bank on Thursday- no, Friday.`
-- Incomplete sentence:
+- Repetitions:
 
-  `I wanted to say something but-`
+  `I went- I went to the bank last Friday.`
+
 - Spelling:
 
   `My name is Anna, A-N-N-A.`
+
 - Unfinished words:
 
   `Whenev- I can never visit them alone.`
+
 - When the speech is interrupted in a conversation, but the speaker continues his thought:
 
   ```text
@@ -92,6 +93,26 @@ Those utterances are:
   Speaker 2: Yeah.
   Speaker 1: -gone.
   ```
+
+- Do not give space before and after the single dash, except for repetitions and unfinished words.
+- In the case of severe stuttering, type a maximum of three stuttered sounds.
+
+### Double dash (--)
+
+- Use it for false starts or when there is a change of thoughts.
+
+  `Oh, I didn't -- this thing is not perfect.`
+
+- Speech errors:
+
+  `I went to the bank on Thursday -- no, Friday.`
+
+- Incomplete sentence:
+
+  `I wanted to say something but --`
+
+- Give space before and after the double dash.
+- Use lowercase for the sentence that follows the double dash.
 
 ### Em dash –
 
@@ -102,6 +123,7 @@ Those utterances are:
 - Use it to insert an explanation, an example, or added information in the middle of a sentence.
 
   `We used to own a computer when — not like when I was super young — but when I was in high school.`
+
 - Separate words before and after em dash with a space.
 
 [How to create em dash on Windows or Mac](https://www.techtoolsforwriters.com/how-to-create-an-em-dash/).
@@ -110,10 +132,9 @@ Those utterances are:
 
 - Use it to describe a short pause; not longer than 4 seconds.
 
-  `Anyway, it's... one of the things that I most proud of.`  
-- Use it for false starts or when there is a change of thoughts.
+  `Anyway, it's ... one of the things that I most proud of.`
 
-  `Oh, I didn't… this thing is not perfect.`
+- Separate words before and after ellipsis with a space.
 
 ### Capitalization
 
@@ -127,8 +148,9 @@ Those utterances are:
 
 ### Non-text audio
 
-- Sound events that are significant to the audio should also be noted by using brackets [ ]. The notes are always written in lowercase.
+- Sound events that are significant to the audio should also be noted by using brackets [ ].
 `e.g., [laughs] [chuckles] [giggles] [gasp]`. [laughs] is a normal laugh; [chuckles] is a soft laugh.
+
 - Use [crosstalk 00:00:00] when two speakers are talking over one another. Try to get as much from each speaker as possible.
 
   ```text
@@ -137,15 +159,16 @@ Those utterances are:
   ```
 
   The guest interjected before the host finished, but we do not want to split the sentence into two paragraphs. Therefore, the host’s sentence is completed, and then the guest's sentence is inserted into a new paragraph.
+
 - Use [silence] to demonstrate a short pause in speech; not less than 4 seconds but not longer than 10 seconds.
 
   `Anyway [silence], I think I will do that next time.`
 
-- Use [??] for unintelligible audio, when you have an idea what it says, but aren't completely sure.
+- Use [??] for unintelligible audio after the word or sentence, when you have an idea what it says, but aren't completely sure.
 
   `We have an entire thread [??] in basecamp.`
 
-- Use [unintelligible] if speech can be heard but it cannot be understood due to background noise or muffled voice, or when you are not able to guess what was said.
+- Use [unintelligible] after the word or sentence if speech can be heard but it cannot be understood due to background noise or muffled voice, or when you are not able to guess what was said.
 
   `Yeah, there's not really much of [unintelligible].`
 
@@ -153,6 +176,7 @@ Those utterances are:
 
 - Do not correct grammatical errors made by the speakers.
 - Strictly transcribe what the speakers actually say, except for ‘uh’ and ‘um’.
+- False starts, filler, repetitive phrasing and slang should be included in the transcripts. If the speaker clearly says "cuz," then write "cuz" and not "cause".
 - Do not censor hosts or the guest(s). If they say “shit”, write “shit”.
 - Never change spoken contractions (e.g. y’all, ain’t, don’t, can’t, it’s, et cetera.)
 - Try to best guess words that are unintelligible, and use [unintelligible] when you are not able to guess it in any way.
@@ -161,9 +185,10 @@ Those utterances are:
 ---
 
 ## Resources
-- [Software Engineering Unlocked Podcast repo](https://github.com/mgreiler/se-unlocked/blob/master/Transcription_Guidelines.md)
-- [#causeascene](https://hashtagcauseascene.com/community-transcription-guide/)
 - [GoTranscript](https://gotranscript.com/transcription-guidelines)
+- [#causeascene](https://hashtagcauseascene.com/community-transcription-guide/)
 - [OneSpace](http://support.onespace.com/training-resources/transcription-style-guide)
+- [Software Engineering Unlocked Podcast repo](https://github.com/mgreiler/se-unlocked/blob/master/Transcription_Guidelines.md)
+- [Anecdote style](https://sites.google.com/site/anecdotestyle/style-guides/general-transcription-style-guide)
 - [Punctuation Marks](https://punctuationmarks.org/em-dash/)
 - [CC TRANSCRIBERS](https://cctranscribers.wordpress.com/2016/12/22/four-rules-of-verbatim-transcription/)
