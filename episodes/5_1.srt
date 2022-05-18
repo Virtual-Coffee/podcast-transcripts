@@ -1,0 +1,3846 @@
+1
+00:00:04,801 --> 00:00:08,340
+Bekah: Hello, and welcome to
+Season Five, Episode One of the
+
+2
+00:00:08,340 --> 00:00:13,801
+Virtual Coffee Podcast. I'm
+Bekah, and this is a podcast that
+
+3
+00:00:13,801 --> 00:00:18,062
+features members of the Virtual
+Coffee community. Virtual Coffee
+
+4
+00:00:18,062 --> 00:00:20,521
+is an intimate group of
+developers at all stages of their
+
+5
+00:00:20,521 --> 00:00:23,371
+coding journey. And they're here
+on this podcast, sharing their
+
+6
+00:00:23,371 --> 00:00:26,582
+stories and what they've learned
+and we're here to share it with
+
+7
+00:00:26,582 --> 00:00:29,202
+you here with me. Today is my
+cohost, Dan.
+
+8
+00:00:29,722 --> 00:00:34,601
+Dan: Yo what's up. We are back
+season five, took a little break
+
+9
+00:00:34,601 --> 00:00:37,902
+off a couple of months off there.
+Um, but now we're back. We're
+
+10
+00:00:37,902 --> 00:00:41,082
+ready to get going again with the
+new season, we have a bunch of
+
+11
+00:00:41,231 --> 00:00:45,322
+great guests lined up and. I
+don't know. I'm excited.
+
+12
+00:00:45,491 --> 00:00:47,832
+Bekah: Yeah. And it's not just
+season five of the podcast, we're
+
+13
+00:00:47,832 --> 00:00:53,472
+also rolling into year three of
+Virtual Coffee, so I feel like
+
+14
+00:00:53,531 --> 00:00:57,042
+this is not only to be a fun
+season, but a fun year for
+
+15
+00:00:57,042 --> 00:00:57,792
+Virtual Coffee.
+
+16
+00:00:58,152 --> 00:01:05,162
+Dan: Absolutely. Uh, three years
+is a long time. I don't know.
+
+17
+00:01:05,162 --> 00:01:07,731
+We've been through a lot. I feel
+like, I feel like I'm still
+
+18
+00:01:07,731 --> 00:01:09,742
+excited about the whole thing, so
+I don't know.
+
+19
+00:01:10,046 --> 00:01:13,796
+Bekah: Yeah, I think, see, I
+think the third year of Virtual
+
+20
+00:01:13,796 --> 00:01:21,027
+Coffee is really exciting because
+we're kind of established, we
+
+21
+00:01:21,027 --> 00:01:23,876
+know what we're doing, we know
+who we are and now there's space
+
+22
+00:01:23,876 --> 00:01:29,816
+to grow and innovate and do new,
+cool things. And I'm really
+
+23
+00:01:29,816 --> 00:01:34,591
+excited to be able to do that and
+keep talking with the members of
+
+24
+00:01:34,591 --> 00:01:38,251
+our community as we do that. And
+a lot of the people that we have
+
+25
+00:01:38,251 --> 00:01:42,542
+on the podcast this season are
+people who've been around a
+
+26
+00:01:42,542 --> 00:01:46,201
+while. Um, We, we have some newer
+members too, but it's, it's cool
+
+27
+00:01:46,201 --> 00:01:50,072
+to have that balance where
+there's a different history of
+
+28
+00:01:50,072 --> 00:01:51,871
+Virtual Coffee that we're talking
+about.
+
+29
+00:01:52,352 --> 00:01:57,322
+Dan: Yeah, absolutely. Yeah, I
+agree. And it's cool to have all
+
+30
+00:01:57,322 --> 00:02:02,572
+of that mix going on at Virtual
+Coffee as well. That's cool. So,
+
+31
+00:02:02,602 --> 00:02:07,072
+yeah, we're gonna kick off season
+five of the podcast with, uh,
+
+32
+00:02:07,102 --> 00:02:12,382
+Brian Rinaldi. Um, Brian is a
+developer experience engineer at
+
+33
+00:02:12,382 --> 00:02:15,502
+LaunchDarkly, um, and he's also
+actively involved in the
+
+34
+00:02:15,502 --> 00:02:19,227
+community. He runs to some
+developer meetups. One is called
+
+35
+00:02:19,227 --> 00:02:24,507
+cfe.dev. And he also runs a local
+meetup, uh, Orlando Devs. Um, he
+
+36
+00:02:24,507 --> 00:02:27,896
+edits newsletters. He authors, he
+has co coauthored a book about
+
+37
+00:02:27,896 --> 00:02:31,437
+JAMstack. Um, and he's just, he's
+been around for a long time and
+
+38
+00:02:31,467 --> 00:02:33,257
+it was a really great time
+talking with him.
+
+39
+00:02:34,086 --> 00:02:37,137
+Bekah: I'm, I really enjoyed this
+conversation with Brian because I
+
+40
+00:02:37,137 --> 00:02:42,747
+use it as like my personal
+mentoring session of how do you
+
+41
+00:02:42,747 --> 00:02:46,646
+DevRel, how has it changed? How
+has community changed? And so,
+
+42
+00:02:46,977 --> 00:02:50,067
+um, really, we always start with
+a list of questions, but I'm not
+
+43
+00:02:50,067 --> 00:02:53,877
+sure that I really looked at my
+list as much as I was like, I
+
+44
+00:02:53,877 --> 00:02:56,637
+want to know more about this
+thing. Please, please tell me
+
+45
+00:02:56,637 --> 00:03:02,081
+about it. So, uh, we, we cover
+all of those fun topics of
+
+46
+00:03:02,081 --> 00:03:06,792
+DevRel, what it is, how it's
+changed and, uh, getting his
+
+47
+00:03:06,792 --> 00:03:11,201
+advice as an expert in the field
+was really awesome.
+
+48
+00:03:11,456 --> 00:03:14,336
+Dan: Yeah, absolutely. Okay,
+we're going to take a quick
+
+49
+00:03:14,336 --> 00:03:16,917
+sponsor break and then we'll hear
+from Brian Rinaldi.
+
+50
+00:03:17,774 --> 00:03:21,044
+Bekah: Looking for developer
+centered online events? Want to
+
+51
+00:03:21,044 --> 00:03:24,433
+share your knowledge with the
+developer community? Attend and
+
+52
+00:03:24,433 --> 00:03:29,413
+host online events at
+codementor.io/events. That's
+
+53
+00:03:29,413 --> 00:03:35,747
+codementor.io/events. We start
+every episode of the podcast like
+
+54
+00:03:35,747 --> 00:03:38,957
+we start every Virtual Coffee. We
+introduce ourselves with our
+
+55
+00:03:38,957 --> 00:03:42,288
+name, where we're from, what we
+do and a random check-in
+
+56
+00:03:42,288 --> 00:03:54,348
+question. We hope you enjoy this
+episode. Today's random check-in
+
+57
+00:03:54,348 --> 00:03:59,868
+question is: what is your
+favorite genre of movie? My name
+
+58
+00:03:59,868 --> 00:04:04,729
+is Bekah. I am a technical
+community builder from a small
+
+59
+00:04:04,729 --> 00:04:11,149
+town in Ohio. And my favorite
+genre of movie. It's probably
+
+60
+00:04:11,508 --> 00:04:15,679
+action superhero movie. I feel
+like those are the things that
+
+61
+00:04:15,679 --> 00:04:21,528
+can keep my attention long enough
+to get to the end. Um, uh, I like
+
+62
+00:04:21,528 --> 00:04:25,399
+a lot of TV shows and that, that
+would be comedy, but that's not
+
+63
+00:04:25,399 --> 00:04:26,869
+the question. So.
+
+64
+00:04:28,778 --> 00:04:35,348
+Dan: Um, hi, I'm Dan. I do
+computers. I was trying to think
+
+65
+00:04:35,348 --> 00:04:38,319
+of a new thing to say this this
+season. And, uh, I didn't come up
+
+66
+00:04:38,319 --> 00:04:42,249
+with anything. So I generally do
+front-end stuff and I am in
+
+67
+00:04:42,249 --> 00:04:46,269
+Cleveland and, uh, yeah, I'd say
+action-y you know, with, with
+
+68
+00:04:46,269 --> 00:04:52,139
+like, uh, like with the little
+sci-fi touch, I think is my, my
+
+69
+00:04:52,139 --> 00:04:55,439
+sweet spot. You know, so not the
+hard scifi stuff, but like Star
+
+70
+00:04:55,439 --> 00:04:58,319
+Wars even, you know, is like,
+it's not really scifi it's, it's
+
+71
+00:04:58,319 --> 00:05:02,879
+more action in space, you know?
+And like superheroes are cool. I
+
+72
+00:05:02,908 --> 00:05:04,889
+go along the same, same lines as
+Bekah.
+
+73
+00:05:05,473 --> 00:05:10,273
+Brian: And hi, I'm Brian Rinaldi.
+I'm based in Orlando, Florida. I
+
+74
+00:05:10,273 --> 00:05:14,923
+am a developer experience
+engineer at LaunchDarkly. And
+
+75
+00:05:15,192 --> 00:05:18,132
+this is a tough question for me
+to answer, because like I was
+
+76
+00:05:18,132 --> 00:05:21,947
+thinking about it, I'm like, The
+probably the best way to answer
+
+77
+00:05:21,947 --> 00:05:25,007
+is like, okay, what are my
+favorite movies? And like all
+
+78
+00:05:25,007 --> 00:05:28,548
+time, it would be like, um,
+Raiders of the lost Ark,
+
+79
+00:05:28,757 --> 00:05:35,267
+Ghostbusters, of the Rings
+series. And, uh, and, um, well,
+
+80
+00:05:35,267 --> 00:05:39,737
+the Batman, one's not then more
+recent Batman stuff. The, the,
+
+81
+00:05:40,817 --> 00:05:40,937
+uh,
+
+82
+00:05:41,067 --> 00:05:41,617
+Dan: Burton ones?
+
+83
+00:05:42,572 --> 00:05:47,103
+Brian: No, no, no, no. The Batman
+Begins, and, uh, and, uh, what
+
+84
+00:05:47,103 --> 00:05:50,252
+was it? Dark Knight, Dark Knight.
+Christopher Nolan ones. Yes,
+
+85
+00:05:50,252 --> 00:05:54,273
+exactly. I guess a lot of those
+are action, but like Ghostbusters
+
+86
+00:05:54,273 --> 00:05:59,163
+is comedy. I mean, Lord of the
+Rings is kind of fantasy, so I
+
+87
+00:05:59,163 --> 00:06:01,983
+don't know. That's where I'm
+like, okay. I don't really know
+
+88
+00:06:01,983 --> 00:06:03,392
+if I have a genre
+
+89
+00:06:03,557 --> 00:06:08,237
+Dan: How about adventure movies?
+Like you said, a
+
+90
+00:06:08,567 --> 00:06:09,798
+Brian: Indiana Jones.
+
+91
+00:06:10,038 --> 00:06:11,418
+Dan: Jones made me think of that.
+And then, you
+
+92
+00:06:11,478 --> 00:06:12,197
+Brian: Yeah.
+
+93
+00:06:12,677 --> 00:06:14,208
+Dan: maybe it doesn't quite fit
+in there, but like
+
+94
+00:06:15,007 --> 00:06:15,067
+Bekah: of
+
+95
+00:06:15,197 --> 00:06:15,798
+Dan: it kind of, you
+
+96
+00:06:15,892 --> 00:06:17,963
+Bekah: we'll have those common
+themes.
+
+97
+00:06:18,137 --> 00:06:18,798
+Dan: all good movies.
+
+98
+00:06:19,372 --> 00:06:19,642
+Bekah: Yeah.
+
+99
+00:06:20,377 --> 00:06:22,148
+Brian: So anyway, um,
+
+100
+00:06:22,552 --> 00:06:22,913
+Bekah: movies.
+
+101
+00:06:23,197 --> 00:06:24,968
+Brian: I think, I think, you
+know, nowadays I ended up
+
+102
+00:06:24,968 --> 00:06:29,017
+watching a lot of action in
+movies. but that's, I feel like
+
+103
+00:06:29,017 --> 00:06:32,288
+that's partly cause like That's.
+almost all there is.
+
+104
+00:06:33,468 --> 00:06:34,817
+Dan: That's. Yeah, that's our
+only choice.
+
+105
+00:06:35,478 --> 00:06:37,788
+Bekah: Well, welcome Brian. We
+are very, very excited to have
+
+106
+00:06:37,788 --> 00:06:41,867
+you here with us today. I'm
+talking about developer advocacy,
+
+107
+00:06:42,077 --> 00:06:46,278
+advocacy, um, fostering
+community, what you're doing with
+
+108
+00:06:46,278 --> 00:06:51,557
+cfe.dev, we always want to start
+with origin stories here. So why
+
+109
+00:06:51,557 --> 00:06:55,812
+don't you give us your, how you
+got to this point in your life.
+
+110
+00:06:56,398 --> 00:07:03,608
+Brian: Hmm. Well, um, I'm old,
+first of all. So I got my, I got
+
+111
+00:07:03,608 --> 00:07:10,408
+started in web development, uh,
+in like the mid nineties and, um,
+
+112
+00:07:11,307 --> 00:07:15,778
+and this was during the dot com
+boom. And I started, I think, uh,
+
+113
+00:07:15,848 --> 00:07:20,548
+started messing around with flash
+early flash and, and, uh, cold
+
+114
+00:07:20,548 --> 00:07:25,737
+fusion and in stuff like that.
+And a buddy of mine helped me get
+
+115
+00:07:25,737 --> 00:07:31,353
+a job at a startup. Cold Fusion
+development and kind of went from
+
+116
+00:07:31,353 --> 00:07:36,663
+there. Um, but how I got into
+like developer advocacy is, is I
+
+117
+00:07:36,663 --> 00:07:41,523
+was, I was started writing
+articles and running user groups
+
+118
+00:07:41,552 --> 00:07:44,072
+and meetups while we didn't call
+them meet ups back then, which is
+
+119
+00:07:44,072 --> 00:07:47,793
+called the user groups. But I ran
+user groups and, and I ran
+
+120
+00:07:47,793 --> 00:07:51,572
+conferences and stuff like that.
+Most of them around like Adobe
+
+121
+00:07:51,572 --> 00:07:57,252
+products. And then I got hired by
+Adobe to do community management
+
+122
+00:07:57,252 --> 00:08:03,132
+and, and, uh, well, call it
+evangelism, I guess back then,
+
+123
+00:08:03,432 --> 00:08:05,942
+uh, we kind of dropped that term,
+which I think is for the best.
+
+124
+00:08:06,452 --> 00:08:06,913
+Um,
+
+125
+00:08:07,273 --> 00:08:08,737
+Dan: I haven't heard that one for
+a, but
+
+126
+00:08:09,343 --> 00:08:13,723
+Brian: Yeah. So that was like,
+12, 13 years ago, something like
+
+127
+00:08:13,723 --> 00:08:19,692
+that. I don't know. Um, and I've
+been doing devrel-ish jobs ever
+
+128
+00:08:19,692 --> 00:08:23,283
+since I, cause you know, devrel's
+one of those areas where like
+
+129
+00:08:24,168 --> 00:08:27,898
+everybody has a different take on
+it and everybody's role is kind
+
+130
+00:08:27,898 --> 00:08:31,737
+of different. So I've had very
+different roles. Some of them are
+
+131
+00:08:31,737 --> 00:08:35,097
+straight devrel of like, you
+know, you're kind of speaking at
+
+132
+00:08:35,097 --> 00:08:39,057
+conferences, writing blog posts,
+and some of them were more behind
+
+133
+00:08:39,057 --> 00:08:43,408
+the scenes, like handling content
+and stuff like that, but always
+
+134
+00:08:43,498 --> 00:08:48,778
+in a very similar, Um, devrel
+adjacent kind of role.
+
+135
+00:08:50,067 --> 00:08:54,177
+Bekah: It seems like you've been
+in devrel since the beginning of
+
+136
+00:08:54,177 --> 00:08:58,258
+devrel, right. Like right as that
+started to pick up and I'm sure
+
+137
+00:08:58,258 --> 00:09:01,258
+it's changed a lot. What do you
+think the biggest changes have
+
+138
+00:09:01,258 --> 00:09:01,557
+been.
+
+139
+00:09:02,663 --> 00:09:06,352
+Brian: Oh, God. Yeah, I mean, I
+guess it was very early days of
+
+140
+00:09:06,352 --> 00:09:08,873
+devrel at the time that I got
+into it. It was like, it was
+
+141
+00:09:08,873 --> 00:09:11,663
+like, Okay. there's a handful of
+companies. And most of them were
+
+142
+00:09:11,663 --> 00:09:17,432
+big. Um, you know, Microsoft,
+Google, uh, I had like some
+
+143
+00:09:17,432 --> 00:09:21,452
+devrel folks, but like most
+companies did not have several
+
+144
+00:09:21,452 --> 00:09:27,182
+folks. Um, I think it was, seems
+kind of superfluous. Uh, and now
+
+145
+00:09:27,212 --> 00:09:30,482
+I, one of the big things that's
+changed is you see companies
+
+146
+00:09:30,663 --> 00:09:33,332
+they're startups and there, they
+don't even have a marketing
+
+147
+00:09:33,332 --> 00:09:35,702
+department yet. They don't,
+haven't even done their first
+
+148
+00:09:35,702 --> 00:09:38,513
+marketing hire. Their first
+marketing hire is a devrel
+
+149
+00:09:38,533 --> 00:09:41,253
+person, right. They're like,
+Okay. This person can handle all
+
+150
+00:09:41,253 --> 00:09:47,202
+the community things and can be.
+Nope, authentic voice is this
+
+151
+00:09:47,212 --> 00:09:51,432
+kind of, you know, the, the term
+that's used. And, and so like,
+
+152
+00:09:51,462 --> 00:09:54,883
+I've even had some of those roles
+where I'm sending email campaigns
+
+153
+00:09:54,883 --> 00:09:57,493
+and stuff like that, which would
+normally be a marketing person's
+
+154
+00:09:57,493 --> 00:10:02,623
+job. But, but we don't have a
+marketing person yet. So, um,
+
+155
+00:10:02,832 --> 00:10:05,832
+that's definitely a big change.
+So like every company seems to
+
+156
+00:10:05,832 --> 00:10:08,712
+kind of come out the gate. If
+they're focused on developers,
+
+157
+00:10:08,802 --> 00:10:15,163
+they want to have a devrel person
+right off the bat. And so lots of
+
+158
+00:10:15,163 --> 00:10:19,692
+jobs in it, whereas before it was
+very hard to break into. Um, and,
+
+159
+00:10:19,863 --> 00:10:22,873
+and one of the great things about
+that is there's a lot of room for
+
+160
+00:10:22,873 --> 00:10:26,682
+varied levels of experience.
+Because back when I got into it,
+
+161
+00:10:26,682 --> 00:10:30,793
+you had to already be kind of
+like a known entity and have been
+
+162
+00:10:30,883 --> 00:10:35,712
+around for a long time. And, and,
+and this kind of limited
+
+163
+00:10:35,743 --> 00:10:40,363
+opportunities, I think for it was
+a very well, the industry as a
+
+164
+00:10:40,363 --> 00:10:45,357
+whole was. White male centric.
+It's still is unfortunately, but,
+
+165
+00:10:45,798 --> 00:10:49,618
+but even more so like that
+limited opportunities, I think
+
+166
+00:10:49,618 --> 00:10:55,857
+for lots of people who, you know,
+it basically leaned very heavily
+
+167
+00:10:55,857 --> 00:11:00,883
+towards um, white males because
+that what they were looking for
+
+168
+00:11:00,883 --> 00:11:04,873
+was people who are already
+well-known in that field. And it
+
+169
+00:11:04,873 --> 00:11:10,003
+was very hard to find women and
+who were known. So I think
+
+170
+00:11:10,363 --> 00:11:15,597
+having, having it opened up to
+different experiences and. The
+
+171
+00:11:15,597 --> 00:11:20,488
+types of people, not just the
+road warrior as I call them who
+
+172
+00:11:20,488 --> 00:11:23,248
+would go to conferences and
+conference to conference, to
+
+173
+00:11:23,248 --> 00:11:27,807
+conference and speak, which is
+also a hard life that only fits
+
+174
+00:11:27,807 --> 00:11:32,217
+certain people. So, um, you know,
+that's changed. And so I think
+
+175
+00:11:32,217 --> 00:11:35,307
+we've, we've now opened it up to
+like, it's a, it's a completely
+
+176
+00:11:35,307 --> 00:11:39,418
+different field, um, in many
+ways. And, and, and for the
+
+177
+00:11:39,418 --> 00:11:39,748
+better.
+
+178
+00:11:41,977 --> 00:11:44,317
+Bekah: Yeah, that's great. And I
+mean, the pandemic of course has
+
+179
+00:11:44,317 --> 00:11:47,738
+had a big impact on what it looks
+like too. It's just constantly
+
+180
+00:11:47,738 --> 00:11:48,248
+shifting.
+
+181
+00:11:48,768 --> 00:11:52,518
+Brian: Absolutely right. I mean,
+you know, especially for those
+
+182
+00:11:52,518 --> 00:11:55,248
+people who, whose job was to go
+from conference to conference
+
+183
+00:11:55,248 --> 00:11:58,727
+conference, like it didn't, it
+wasn't even there. It's still
+
+184
+00:11:58,727 --> 00:12:02,538
+really, isn't, there's very few
+in-person conferences. So you had
+
+185
+00:12:02,538 --> 00:12:03,378
+to kind of adjust.
+
+186
+00:12:04,857 --> 00:12:08,548
+Bekah: Yeah, somebody online
+who's in devrel was saying it was
+
+187
+00:12:08,648 --> 00:12:13,197
+a tweet that DevRel people in
+devrel need to really focus on
+
+188
+00:12:13,227 --> 00:12:16,977
+upping their video game because
+they thought that was going to be
+
+189
+00:12:16,977 --> 00:12:20,817
+the next big thing. like, how do
+I, I don't want to learn how to
+
+190
+00:12:20,817 --> 00:12:27,238
+edit a video. I just figured out
+how to. Use a microphone and have
+
+191
+00:12:27,238 --> 00:12:31,557
+a camera that's not connected to
+my laptop. So I feel like there's
+
+192
+00:12:31,557 --> 00:12:34,408
+just always so much to learn,
+which makes it simultaneously
+
+193
+00:12:34,408 --> 00:12:37,827
+fun. But also like there are all
+these other skills that you have
+
+194
+00:12:37,827 --> 00:12:38,187
+to bring with.
+
+195
+00:12:39,177 --> 00:12:42,118
+Brian: Yeah. And, but I think,
+you know, the good companies that
+
+196
+00:12:42,118 --> 00:12:46,677
+do this, understand that not
+everybody has, like, you can't
+
+197
+00:12:46,677 --> 00:12:50,832
+find very many people. I mean,
+there are people. Seemingly good
+
+198
+00:12:50,832 --> 00:12:55,273
+at everything. Um, and you know,
+and I love those people and hate
+
+199
+00:12:55,273 --> 00:12:59,623
+those people at the same time.
+But, uh, but you know, it's
+
+200
+00:12:59,623 --> 00:13:02,472
+really hard to find somebody
+who's like good at writing. Good
+
+201
+00:13:02,472 --> 00:13:07,462
+at video. Good at public
+speaking, you know, Um, And so I
+
+202
+00:13:07,462 --> 00:13:12,743
+think that the companies that do
+this right. what you're, you
+
+203
+00:13:12,743 --> 00:13:16,493
+know, kind of build on your
+strengths. Right. me personally,
+
+204
+00:13:16,732 --> 00:13:20,393
+I'm also not, I can do videos. I
+don't consider myself a
+
+205
+00:13:20,393 --> 00:13:25,187
+particularly good at video
+person. I, it, it drives me
+
+206
+00:13:25,187 --> 00:13:29,327
+crazy. I love to write, uh, and I
+love to run events and things
+
+207
+00:13:29,327 --> 00:13:32,837
+like that. And so like, you know,
+when I've had the roles I've had
+
+208
+00:13:32,837 --> 00:13:35,868
+played to those strengths,
+particularly when I'm at a
+
+209
+00:13:35,868 --> 00:13:39,827
+company that knows how I, I feel
+like does differ. All right. Then
+
+210
+00:13:39,918 --> 00:13:43,307
+they play to your strengths and
+don't necessarily feel like,
+
+211
+00:13:43,307 --> 00:13:47,268
+okay, you can't do video. You're
+failing in some way. And, um,
+
+212
+00:13:47,447 --> 00:13:51,488
+because you can't get everything
+out of a single person. That's
+
+213
+00:13:51,488 --> 00:13:55,087
+why you have, you have a team and
+different people have those
+
+214
+00:13:55,087 --> 00:13:57,337
+different strengths and we play
+to those strengths.
+
+215
+00:13:57,979 --> 00:14:01,339
+Bekah: Yeah, so, okay. So I'm
+going to back up kind of a little
+
+216
+00:14:01,339 --> 00:14:07,068
+bit five years ago, maybe now.
+Um, you, so in the midst of all
+
+217
+00:14:07,068 --> 00:14:11,658
+of this, you also started
+cfe.dev. So why don't you talk a
+
+218
+00:14:11,658 --> 00:14:15,678
+little bit about what that is and
+why you started doing that?
+
+219
+00:14:16,969 --> 00:14:21,469
+Brian: Yeah. So cfe.dev, uh it's
+yeah. It's about five years ago.
+
+220
+00:14:21,469 --> 00:14:28,114
+I started it. And it's all
+virtual events. Um, it's we run
+
+221
+00:14:28,653 --> 00:14:34,894
+two virtual meetups a month. Uh,
+and then I also run obviously
+
+222
+00:14:34,894 --> 00:14:38,104
+virtual conferences and stuff
+like thejam.dev, which has
+
+223
+00:14:38,104 --> 00:14:44,224
+finished yesterday, um, and moar
+serverless and, and other, I have
+
+224
+00:14:44,224 --> 00:14:48,364
+flashback conference as well,
+which was. Well, that one wasn't
+
+225
+00:14:48,364 --> 00:14:52,653
+person, but, Um, what's my one in
+person events running under
+
+226
+00:14:52,874 --> 00:14:58,264
+cfe.dev. But anyway, uh, and
+yeah, so this was before pandemic
+
+227
+00:14:58,293 --> 00:15:04,024
+forced us to go virtual. Uh, I, I
+was, uh, I love running events
+
+228
+00:15:04,114 --> 00:15:08,283
+and I wanted to do some more of
+it and I just kind of like,
+
+229
+00:15:09,874 --> 00:15:12,604
+honestly, it was initially
+supposed to be in-person events
+
+230
+00:15:12,754 --> 00:15:17,014
+and then the in-person events
+are. They're a heavy lift and
+
+231
+00:15:17,014 --> 00:15:21,693
+they're expensive and, and risky.
+And so I was like, oh, you know
+
+232
+00:15:21,693 --> 00:15:25,264
+what, I'll start running some
+virtual events and like in build
+
+233
+00:15:25,264 --> 00:15:30,183
+an audience and then run, uh, an
+in-person event, you know, Um,
+
+234
+00:15:30,394 --> 00:15:33,063
+using, you know, kind of, I
+already have an audience and then
+
+235
+00:15:33,063 --> 00:15:36,394
+I'll maybe they'll come to my
+in-person event. And it
+
+236
+00:15:36,394 --> 00:15:40,083
+transitioned to be like, okay,
+you know, virtual events actually
+
+237
+00:15:40,083 --> 00:15:42,484
+aren't that bad. I was not a
+believer. I was like, I'll do
+
+238
+00:15:42,484 --> 00:15:45,948
+them just because. And then
+there, there are things that
+
+239
+00:15:45,948 --> 00:15:49,788
+virtual events are great at. Um,
+they're not great at everything
+
+240
+00:15:50,058 --> 00:15:54,438
+and you know, that interpersonal
+react interaction. They're not
+
+241
+00:15:54,769 --> 00:15:59,719
+right. Although you all run one
+that does do that well, uh, which
+
+242
+00:15:59,719 --> 00:16:02,688
+goes to show you can do it, but
+it's hard to do. It's, it's hard
+
+243
+00:16:02,688 --> 00:16:05,928
+to get everything out of one
+event, like to get great speakers
+
+244
+00:16:06,259 --> 00:16:10,653
+and interpersonal reaction, like
+interactions and stuff like. Um,
+
+245
+00:16:10,683 --> 00:16:13,203
+but they are good. Like for
+instance, one of the things I
+
+246
+00:16:13,203 --> 00:16:16,894
+love about running the online
+conferences is people get to
+
+247
+00:16:16,894 --> 00:16:19,413
+interact with the speaker, even
+if it's via chat and ask their
+
+248
+00:16:19,413 --> 00:16:22,083
+questions. But like asking
+questions in an in real life
+
+249
+00:16:22,443 --> 00:16:27,583
+event is super, like, it just
+never works out well. Right?
+
+250
+00:16:28,004 --> 00:16:30,734
+people start leaving at the end
+when the speakers taking
+
+251
+00:16:30,734 --> 00:16:35,264
+questions and it's, you can't
+hear the questioner and things
+
+252
+00:16:35,264 --> 00:16:39,703
+like that, like it's just never
+really worked out. Um, But you
+
+253
+00:16:39,703 --> 00:16:43,274
+can get, you know, kind of
+directly with the speaker in the
+
+254
+00:16:43,274 --> 00:16:46,754
+virtual event. Like ask, get your
+question to answer it and have a
+
+255
+00:16:46,754 --> 00:16:52,303
+good conversation. Um, when it's
+not prerecorded, um, open it up
+
+256
+00:16:52,303 --> 00:16:55,124
+to speakers who are anywhere in
+everywhere and get speakers who
+
+257
+00:16:55,264 --> 00:16:59,394
+you might otherwise get, because
+it would be too, or complicated,
+
+258
+00:16:59,394 --> 00:17:05,183
+or they can't travel. Um, You
+know, or, you know, and you can
+
+259
+00:17:05,183 --> 00:17:08,153
+get attendees from anywhere,
+right? Like if they don't have to
+
+260
+00:17:08,153 --> 00:17:12,939
+travel, they can the events are
+free. So there's a lot of great
+
+261
+00:17:12,939 --> 00:17:16,808
+things about them. I, and, and
+this is coming from somebody who
+
+262
+00:17:16,808 --> 00:17:20,378
+started this as a complete
+skeptic. I was like, yeah,
+
+263
+00:17:20,409 --> 00:17:23,709
+virtual events suck. But, uh, you
+know, I'll run, I'll run some
+
+264
+00:17:23,709 --> 00:17:28,459
+and, you know, cause it's, it's a
+way to get started. And then now
+
+265
+00:17:28,459 --> 00:17:29,219
+I'm fully committed.
+
+266
+00:17:30,597 --> 00:17:33,813
+Dan: That's that's it's really
+cool. I mean, it's, it's really,
+
+267
+00:17:33,843 --> 00:17:36,242
+I've been a fan of, uh, what
+you've been doing at CFE for
+
+268
+00:17:36,242 --> 00:17:41,482
+awhile. And obviously we do a lot
+of virtual events well. Um, I
+
+269
+00:17:41,492 --> 00:17:45,482
+kind of actually, it was going to
+swing back. I had a question
+
+270
+00:17:45,482 --> 00:17:48,813
+stick in my head. I want to ask
+it before I forget, but, um, so
+
+271
+00:17:48,843 --> 00:17:53,143
+it's. When you were telling me,
+um, your origin story, you were
+
+272
+00:17:53,143 --> 00:17:55,393
+talking about how you've had
+these communities that you
+
+273
+00:17:55,403 --> 00:17:58,692
+created your user groups, um, way
+back, you know, when they were
+
+274
+00:17:58,692 --> 00:18:03,553
+still user groups. Right. And,
+um, and I think that's really
+
+275
+00:18:03,553 --> 00:18:05,712
+interesting. I mean, I, I,
+haven't heard of a lot of, um,
+
+276
+00:18:07,633 --> 00:18:10,633
+You know, current devrels that
+have that sort of experience, you
+
+277
+00:18:10,633 --> 00:18:13,482
+know? And so I, I guess one of
+the things I was wondering was
+
+278
+00:18:13,482 --> 00:18:17,022
+like, what, you know, Bekah
+asked, what, what changed? Um, I
+
+279
+00:18:17,022 --> 00:18:19,903
+was wondering like, what what has
+stayed the same? Like what are
+
+280
+00:18:19,903 --> 00:18:24,192
+some through lines you've seen,
+um, from running communities, you
+
+281
+00:18:24,192 --> 00:18:27,792
+know, over however long, that's
+been 20, 30 years not to put a
+
+282
+00:18:27,792 --> 00:18:28,542
+number on it, but
+
+283
+00:18:28,923 --> 00:18:30,553
+Brian: not quite 30 yet.
+
+284
+00:18:31,123 --> 00:18:31,303
+Dan: Yeah.
+
+285
+00:18:32,982 --> 00:18:37,303
+Brian: Um, so, you know, luckily
+people can't see me and tell me
+
+286
+00:18:37,363 --> 00:18:46,752
+the hell. Wow. Yeah. he's old.
+But, uh, um, you know, well that
+
+287
+00:18:46,752 --> 00:18:50,833
+part of it hasn't changed like,
+like the, the need for like
+
+288
+00:18:50,863 --> 00:18:56,113
+local, you know, for developers
+to kind of meet up in person. Um,
+
+289
+00:18:56,143 --> 00:19:00,553
+we, we don't call it. User groups
+so much anymore. We, we call them
+
+290
+00:19:00,553 --> 00:19:04,452
+meetups, but like, would they
+still exist? And they're still, I
+
+291
+00:19:04,452 --> 00:19:09,163
+think, an important part of, of
+building a developer communities,
+
+292
+00:19:09,163 --> 00:19:14,278
+particularly. Uh, on a more like
+local level, like, you know, I
+
+293
+00:19:14,278 --> 00:19:20,458
+run one here called Orlando devs.
+Um, and, and we're probably the
+
+294
+00:19:20,458 --> 00:19:22,887
+biggest, we're the biggest
+developer group here. I think
+
+295
+00:19:22,887 --> 00:19:26,907
+we're like 6,000 members, which
+surprises people when they hear
+
+296
+00:19:27,327 --> 00:19:30,538
+Orlando, they don't think like we
+have a big developer community.
+
+297
+00:19:31,167 --> 00:19:37,948
+Um, but, uh, But yet it's, it's
+very different because while I
+
+298
+00:19:37,948 --> 00:19:41,998
+love the virtual events, I think
+we still need to kind of meet up
+
+299
+00:19:41,998 --> 00:19:46,018
+in person. Right. And, and so
+like I started running when
+
+300
+00:19:46,137 --> 00:19:49,438
+pandemic came, I ran some virtual
+events for Orlando devs, and I
+
+301
+00:19:49,438 --> 00:19:53,698
+was like, it's weird. Cause I
+love virtual events, but like
+
+302
+00:19:53,728 --> 00:19:57,478
+this doesn't work for, for
+meetup, for my meet local meetup,
+
+303
+00:19:57,508 --> 00:19:58,557
+because these are people I just,
+
+304
+00:19:58,928 --> 00:19:59,048
+Dan: Yeah.
+
+305
+00:19:59,067 --> 00:20:02,472
+Brian: want to meet in person. I
+mean, the speaker is. I love the
+
+306
+00:20:02,472 --> 00:20:06,373
+speakers, but like, I go there to
+see the people then they hit the
+
+307
+00:20:06,373 --> 00:20:09,282
+speaker, the speaker. Whereas I
+go to the online event to hear
+
+308
+00:20:09,282 --> 00:20:12,163
+the speaker and then, hopefully
+meet some people it's kind of
+
+309
+00:20:12,163 --> 00:20:15,722
+like flipping it. So I think
+that's a through line that, that
+
+310
+00:20:15,732 --> 00:20:23,157
+has stuck. Um, You know, I think,
+know, we, a lot of, a lot of it,
+
+311
+00:20:23,188 --> 00:20:26,637
+things haven't really changed
+that much in the fact that like,
+
+312
+00:20:26,667 --> 00:20:31,468
+you know, the in-person events
+for devrel stuff is still
+
+313
+00:20:31,468 --> 00:20:37,407
+important. I think, you know, Um,
+there's developers have, I think,
+
+314
+00:20:37,438 --> 00:20:40,887
+as a community, have a real need
+to kind of connect, I think,
+
+315
+00:20:40,887 --> 00:20:45,718
+because this is a hard job and as
+Bekah noted takes constant
+
+316
+00:20:45,718 --> 00:20:49,377
+learning. Um, and so like we're
+always connecting to try and
+
+317
+00:20:49,377 --> 00:20:54,028
+learn from each other and, and
+get new techniques and learn
+
+318
+00:20:54,028 --> 00:20:58,093
+about new tools. And because. You
+know, it's not the kind of job
+
+319
+00:20:58,123 --> 00:21:03,073
+you can rest on your laurels, as
+I say. Um, so, so all of that's
+
+320
+00:21:03,073 --> 00:21:07,952
+kind of the same. Um, the
+technology has changed and, and
+
+321
+00:21:07,952 --> 00:21:11,843
+it's expanded, but, but it's not
+that different. I mean,
+
+322
+00:21:12,448 --> 00:21:15,688
+Dan: Yeah. Yeah. That's that's
+interesting. Yeah. I, I noticed
+
+323
+00:21:15,688 --> 00:21:20,982
+the same thing. We had, I run a
+react meetup in Cleveland and
+
+324
+00:21:21,012 --> 00:21:24,823
+it's pretty new, you know, but it
+was in person and we did the same
+
+325
+00:21:24,823 --> 00:21:27,843
+thing. We started trying to do
+virtual events. Um, yeah, never,
+
+326
+00:21:27,913 --> 00:21:32,323
+never had the same feel. You
+know? The, the people that would
+
+327
+00:21:32,323 --> 00:21:34,482
+show up were we're the diff we're
+different people. I think, you
+
+328
+00:21:34,482 --> 00:21:40,067
+know, some people want to have
+the in-person stuff and. You
+
+329
+00:21:40,067 --> 00:21:43,428
+know, it was, yeah. It never, um,
+never felt right now. That's
+
+330
+00:21:43,567 --> 00:21:45,887
+interesting. And then you're
+going to, you can find good
+
+331
+00:21:45,887 --> 00:21:51,018
+virtual events. Uh, but I feel
+like the ones that have the ones
+
+332
+00:21:51,018 --> 00:21:53,807
+that have started fresh during
+the pandemic are almost almost a
+
+333
+00:21:53,807 --> 00:21:57,198
+better, uh, in better shape, just
+because, um, they start with that
+
+334
+00:21:57,198 --> 00:21:59,627
+in mind, you know, if that makes
+sense, um,
+
+335
+00:22:00,032 --> 00:22:04,188
+Brian: Absolutely. I've watched,
+cause one of the goals of, of
+
+336
+00:22:04,188 --> 00:22:08,952
+Orlando Devs is for actually a
+not not-for-profit. um, Like we,
+
+337
+00:22:09,133 --> 00:22:13,992
+when we fund other local groups.
+And so, like, I kind of have my,
+
+338
+00:22:14,682 --> 00:22:18,462
+know, kind of eye on all the
+local groups and a lot of the
+
+339
+00:22:18,462 --> 00:22:22,212
+other local meetups went away
+completely. Like they tried to do
+
+340
+00:22:22,212 --> 00:22:27,313
+the virtual thing when this went
+on much longer, that it just was
+
+341
+00:22:27,313 --> 00:22:29,952
+hard to kind of keep that
+momentum going. And so
+
+342
+00:22:30,153 --> 00:22:30,363
+Bekah: Okay.
+
+343
+00:22:30,403 --> 00:22:32,722
+Brian: hard to run the meetup.
+Number one, like, I mean, it's,
+
+344
+00:22:32,722 --> 00:22:37,258
+it's a lot of effort. Um, and
+yeah. To run a meetup and try and
+
+345
+00:22:37,258 --> 00:22:40,827
+keep that momentum virtually, uh,
+when you really just want to meet
+
+346
+00:22:40,827 --> 00:22:43,678
+the people in person is,
+difficult.
+
+347
+00:22:44,667 --> 00:22:47,758
+Bekah: Um, I, I'm going to circle
+back a little bit to when I met
+
+348
+00:22:47,758 --> 00:22:52,167
+you, Brian, um, as you're talking
+about this idea of developers,
+
+349
+00:22:52,198 --> 00:22:56,097
+they need community, they need
+support. Right. And I had, I
+
+350
+00:22:56,097 --> 00:22:58,887
+don't know when we first met
+Virtual Coffee had been going on
+
+351
+00:22:58,887 --> 00:23:03,268
+for awhile. And, you know, if you
+know about Virtual Coffee, it was
+
+352
+00:23:03,268 --> 00:23:07,948
+not an intentional group or
+community that started it just of
+
+353
+00:23:07,948 --> 00:23:11,518
+started from tweet and went from
+there and we just kept doing it.
+
+354
+00:23:11,518 --> 00:23:15,718
+Right. And so it was all of his
+learning as I was going along.
+
+355
+00:23:15,778 --> 00:23:18,057
+And people were like, well, why
+don't you do this? I'm like,
+
+356
+00:23:18,057 --> 00:23:22,317
+well, okay, we'll do that too.
+Um, but then at some point I
+
+357
+00:23:22,317 --> 00:23:26,577
+think it Meg Gutshall going to be
+on this season of the podcast to
+
+358
+00:23:27,157 --> 00:23:31,627
+Hey, there's a meetup that's
+awesome. It happens on Thursdays
+
+359
+00:23:31,718 --> 00:23:35,228
+at the same time as Virtual
+Coffee and, and we can't ever,
+
+360
+00:23:35,468 --> 00:23:39,307
+like, I can't do both. So why
+don't you figure something out?
+
+361
+00:23:39,367 --> 00:23:45,788
+And I'm like, oh, okay. so you
+and I met up and I just remember
+
+362
+00:23:45,788 --> 00:23:49,087
+it being such a good meeting for
+me because I'd been going through
+
+363
+00:23:49,087 --> 00:23:51,798
+all of this community building
+and didn't really know exactly
+
+364
+00:23:51,798 --> 00:23:54,978
+what I was doing. And, you know,
+there were good things that were
+
+365
+00:23:54,978 --> 00:23:57,827
+happening. There were things that
+were frustrating or felt
+
+366
+00:23:57,827 --> 00:24:00,768
+overwhelming. And you were the
+first person that I really got to
+
+367
+00:24:00,768 --> 00:24:05,357
+talk to about that. I talking to
+you, like, why, why are you doing
+
+368
+00:24:05,468 --> 00:24:09,107
+cfe.dev? Cause I was still like
+trying to figure out, like, why
+
+369
+00:24:09,107 --> 00:24:12,137
+am I doing Virtual Coffee? I
+mean, it made sense, right?
+
+370
+00:24:12,137 --> 00:24:15,557
+Because I love the community and
+I loved being able to learn and
+
+371
+00:24:15,557 --> 00:24:19,712
+grow with. But so many people
+kept telling you, they're like,
+
+372
+00:24:19,833 --> 00:24:23,492
+it is not reasonable for you to
+be doing Virtual Coffee. And I'm
+
+373
+00:24:23,492 --> 00:24:30,663
+like, is it? Like, who can I talk
+to about this? And so I very much
+
+374
+00:24:30,843 --> 00:24:36,163
+appreciated being able to have
+that support and talk openly with
+
+375
+00:24:36,163 --> 00:24:38,653
+you about that. I don't know how
+I came off in that meeting,
+
+376
+00:24:39,913 --> 00:24:42,712
+probably came off like I was
+falling off the deep end a little
+
+377
+00:24:42,712 --> 00:24:46,583
+bit, but, but I, I appreciate it,
+like being able to have that
+
+378
+00:24:46,583 --> 00:24:49,732
+support as a community builder
+with someone else that had, you
+
+379
+00:24:49,732 --> 00:24:51,623
+know, talked about those things.
+
+380
+00:24:53,012 --> 00:24:56,163
+Brian: Thanks. I, I mean, I don't
+recall it being, I remember it
+
+381
+00:24:56,163 --> 00:24:59,913
+being a great conversation, so,
+you know, it's nice for me. Cause
+
+382
+00:24:59,913 --> 00:25:02,313
+I honestly like, even though I've
+been doing this a long time, I
+
+383
+00:25:02,313 --> 00:25:04,563
+don't have a lot of people I
+could talk to about it. Most of
+
+384
+00:25:04,563 --> 00:25:08,163
+the people really, you know, I
+don't know a lot of people who
+
+385
+00:25:08,163 --> 00:25:12,603
+run communities like Virtual
+Coffee or like CFE dev or even,
+
+386
+00:25:12,633 --> 00:25:16,448
+even meetups. I mean, it's a
+small. Group of people often,
+
+387
+00:25:16,867 --> 00:25:20,498
+even your local meetups are often
+like run by like the same handful
+
+388
+00:25:20,498 --> 00:25:24,877
+of people who run multiples.
+Right. Because they just, um, and
+
+389
+00:25:24,877 --> 00:25:28,238
+it's people who are passionate
+about communities because you
+
+390
+00:25:28,238 --> 00:25:33,367
+certainly don't do it for the
+glory or the money. Um, because
+
+391
+00:25:34,238 --> 00:25:38,123
+if you're waiting for those,
+those. They don't really come
+
+392
+00:25:38,123 --> 00:25:43,432
+with with that. Um, you know, so
+you just really gotta, you gotta
+
+393
+00:25:43,432 --> 00:25:47,603
+love doing it. I mean, every time
+I ran, for instance, every time I
+
+394
+00:25:47,603 --> 00:25:50,992
+ran a conference, you know, I'd
+be like, why do I put myself
+
+395
+00:25:50,992 --> 00:25:54,653
+through this? Why do I do this?
+It's so stressful. It's so, and
+
+396
+00:25:54,653 --> 00:25:57,502
+then, uh, and then it was like
+the, it came in. It's like, Oh,
+
+397
+00:25:57,502 --> 00:26:01,012
+my God, this is so awesome. I
+loved seeing everybody. I loved
+
+398
+00:26:01,012 --> 00:26:06,603
+hearing the speakers and, you
+know, um, And so, so then, then
+
+399
+00:26:06,843 --> 00:26:09,232
+I'll do it all over again and
+I'll go through that same
+
+400
+00:26:09,232 --> 00:26:11,992
+process, even though I've been
+doing it, like for like 15 years,
+
+401
+00:26:11,992 --> 00:26:15,202
+it's the same process. Why did I
+do this? Why did I get myself
+
+402
+00:26:15,202 --> 00:26:20,363
+into it? Um, so it's, I think,
+you know, being a community
+
+403
+00:26:20,363 --> 00:26:26,123
+organizer like that, like is, is,
+uh, involves feeling like you're
+
+404
+00:26:26,123 --> 00:26:28,103
+going to quit, all the time-
+
+405
+00:26:28,857 --> 00:26:29,248
+Bekah: Yeah.
+
+406
+00:26:29,272 --> 00:26:35,752
+Brian: -had it, this is too much.
+And, know, and I think people
+
+407
+00:26:35,758 --> 00:26:39,778
+also don't realize like kind of
+the demands put, you know, they,
+
+408
+00:26:39,778 --> 00:26:42,288
+they want to share their ideas
+and they're passionate about your
+
+409
+00:26:42,288 --> 00:26:42,678
+community
+
+410
+00:26:42,928 --> 00:26:43,048
+Bekah: Yeah.
+
+411
+00:26:43,157 --> 00:26:45,948
+Brian: then you have all these
+input coming as the community
+
+412
+00:26:45,948 --> 00:26:48,948
+grows, like from all over the
+place. And it's like, okay, I
+
+413
+00:26:48,948 --> 00:26:54,798
+can't, I can't please, everybody.
+Um, so. Yeah, it's, it's not
+
+414
+00:26:54,798 --> 00:27:01,607
+easy. and so I, I totally, I
+totally get you. And I'm amazed
+
+415
+00:27:01,607 --> 00:27:05,897
+by what you all have done with
+Virtual Coffee. I mean, you know,
+
+416
+00:27:05,897 --> 00:27:09,498
+the you've got a really, really
+great community there. I think
+
+417
+00:27:09,518 --> 00:27:09,667
+Bekah: Oh,
+
+418
+00:27:10,067 --> 00:27:12,917
+Brian: it feels, uh, you clearly
+found.
+
+419
+00:27:14,347 --> 00:27:14,498
+Bekah: yeah.
+
+420
+00:27:14,542 --> 00:27:18,472
+Brian: A kind of gap in what
+people needed, right? Like in,
+
+421
+00:27:18,833 --> 00:27:21,982
+especially during the pandemic,
+but obviously I think you're
+
+422
+00:27:22,252 --> 00:27:27,403
+going to live well beyond the
+pandemic, which is just. An easy
+
+423
+00:27:27,403 --> 00:27:31,363
+way to kind of connect with other
+developers. And it's a very
+
+424
+00:27:31,873 --> 00:27:37,032
+casual kind of friendly
+atmosphere. And, and I, you know,
+
+425
+00:27:37,093 --> 00:27:40,903
+and nobody's afraid to kind of
+share their struggles or, you
+
+426
+00:27:40,903 --> 00:27:45,008
+know, talk about, Um, you know,
+the they're working on and be
+
+427
+00:27:45,008 --> 00:27:49,208
+open with with everybody else. I
+mean, and that's very, very rare.
+
+428
+00:27:49,208 --> 00:27:55,057
+I mean, Um, You know, even, even
+when, when I've run, like the
+
+429
+00:27:55,057 --> 00:27:58,178
+in-person ones, right? Like, and
+we all kind of know each other
+
+430
+00:27:58,178 --> 00:28:01,538
+right. In, it's just like, I'm
+running this thing. And I got
+
+431
+00:28:02,208 --> 00:28:04,778
+speaker lined up and everybody
+comes in this room and it's like
+
+432
+00:28:05,522 --> 00:28:09,292
+sitting there and I'm like, you
+all talk to each other? Please
+
+433
+00:28:09,383 --> 00:28:13,282
+just can somebody just, you know,
+speak to another person here
+
+434
+00:28:13,403 --> 00:28:16,163
+instead of sitting in the chair,
+waiting for the speaker to come.
+
+435
+00:28:16,823 --> 00:28:22,613
+I mean, that's the point of this
+you know, Um, so, so find that
+
+436
+00:28:22,613 --> 00:28:25,792
+you've created a space where
+people feel open to talk like,
+
+437
+00:28:25,823 --> 00:28:30,653
+Nope, I've never been there where
+like people don't share. Um, so
+
+438
+00:28:30,712 --> 00:28:34,462
+that's honestly, that's amazing,
+you know, you've done something
+
+439
+00:28:34,462 --> 00:28:34,823
+special.
+
+440
+00:28:36,357 --> 00:28:37,857
+Bekah: Thank you means a lot.
+
+441
+00:28:41,303 --> 00:28:44,452
+Dan: Oh, no, I was just, I was
+still just laughing about the,
+
+442
+00:28:44,833 --> 00:28:49,012
+the, you wanting to scream at
+people to talk to each other. I
+
+443
+00:28:49,042 --> 00:28:52,792
+tried to solve that with a pizza
+and would just come and get
+
+444
+00:28:52,833 --> 00:28:55,173
+pizza, and then sit back down
+their seat.
+
+445
+00:28:55,583 --> 00:28:56,103
+Brian: I know.
+
+446
+00:28:56,913 --> 00:29:00,002
+Dan: just, just I'm putting all
+the chairs away. Just talk.
+
+447
+00:29:02,728 --> 00:29:06,607
+Bekah: I, I've gone to a couple
+of in-person conferences in the
+
+448
+00:29:06,607 --> 00:29:10,178
+last couple of months. And you
+know, that idea of meeting people
+
+449
+00:29:10,178 --> 00:29:14,798
+in person and talking about that
+being important. I like, I very
+
+450
+00:29:14,798 --> 00:29:19,268
+much felt that at one of the
+conferences, for sure, because I
+
+451
+00:29:19,298 --> 00:29:22,147
+met other people who were doing
+like small community building,
+
+452
+00:29:22,178 --> 00:29:27,157
+like we're doing, and to be able
+to talk to them and hear, you
+
+453
+00:29:27,157 --> 00:29:29,798
+know, what they're going through.
+And that really resonated
+
+454
+00:29:29,798 --> 00:29:34,752
+because. We are all feeling the
+same thing. And I continually try
+
+455
+00:29:34,752 --> 00:29:38,292
+and go back to the spot of like,
+how do we all figure out how to
+
+456
+00:29:38,292 --> 00:29:42,012
+support each other? Because I
+think small communities are
+
+457
+00:29:42,163 --> 00:29:45,583
+really important because you get
+to have those open conversations,
+
+458
+00:29:45,583 --> 00:29:49,782
+like rather than jumping into a
+slack of 6,000 people or, you
+
+459
+00:29:49,782 --> 00:29:54,623
+know, whatever that.
+Automatically overwhelming, but
+
+460
+00:29:54,653 --> 00:29:57,292
+you know, finding, trying to
+figure out these ways. I haven't,
+
+461
+00:29:57,353 --> 00:29:59,992
+uh, haven't figured it out yet.
+So if anyone has ideas, let me
+
+462
+00:29:59,992 --> 00:30:05,452
+know. Uh, but it is nice to be
+able to have those conversations
+
+463
+00:30:05,542 --> 00:30:10,762
+openly with people that, that you
+wouldn't see normally, or, you
+
+464
+00:30:10,762 --> 00:30:14,573
+know, I met someone. One of the
+things that he does best is
+
+465
+00:30:14,573 --> 00:30:16,972
+connect other people at
+conferences. He's not running the
+
+466
+00:30:16,972 --> 00:30:20,962
+conference, he's just making sure
+people meet each other and can
+
+467
+00:30:20,962 --> 00:30:23,903
+have those important and
+pertinent conversations. And
+
+468
+00:30:24,113 --> 00:30:29,153
+that's allowed for a ton of
+growth and in a way that I would
+
+469
+00:30:29,153 --> 00:30:33,863
+be hard to have somewhere else
+because you're just spending so
+
+470
+00:30:33,863 --> 00:30:37,673
+much time with people over a
+period of 48 hours or whatever,
+
+471
+00:30:37,972 --> 00:30:43,942
+um, that it just like, I dunno,
+There's a different energy and
+
+472
+00:30:43,942 --> 00:30:45,413
+investment into it. I think
+
+473
+00:30:45,968 --> 00:30:49,877
+Brian: yeah. Yeah. Couple of
+in-person conferences too. Um,
+
+474
+00:30:50,147 --> 00:30:55,488
+since things have eased up and
+how so think when, when you go to
+
+475
+00:30:55,488 --> 00:30:59,357
+these, they're not, they're
+smaller than they were before,
+
+476
+00:30:59,928 --> 00:31:03,258
+which isn't necessarily bad. I
+mean, it's tougher on the
+
+477
+00:31:03,258 --> 00:31:05,117
+conference organizers because,
+you
+
+478
+00:31:05,153 --> 00:31:05,452
+Bekah: yeah.
+
+479
+00:31:05,597 --> 00:31:09,198
+Brian: they still need to kind
+of, uh, you know, keep
+
+480
+00:31:09,242 --> 00:31:09,423
+Bekah: know.
+
+481
+00:31:09,647 --> 00:31:15,603
+Brian: the black, you know, not
+lose, lose their shirts. Um, but
+
+482
+00:31:15,603 --> 00:31:19,502
+it's, it's kinda good for, for
+the attendees because like, you
+
+483
+00:31:19,502 --> 00:31:24,482
+know, everybody there is like
+there because they are eager meet
+
+484
+00:31:24,482 --> 00:31:27,903
+and talk to people. And so, like,
+I found it to be different, like
+
+485
+00:31:28,022 --> 00:31:31,022
+conferences before, especially as
+there were bigger, it's like, oh,
+
+486
+00:31:31,022 --> 00:31:34,952
+I go with a group, maybe a couple
+of colleagues I kind of stick
+
+487
+00:31:34,952 --> 00:31:38,073
+with that group and I never
+really get to interact with other
+
+488
+00:31:38,073 --> 00:31:40,563
+people outside of that. And it's
+hard to kind of break people out
+
+489
+00:31:40,563 --> 00:31:45,557
+of those little groups that they
+came in. Um, but the people at
+
+490
+00:31:46,067 --> 00:31:49,337
+events I've gone to, like more
+recently, like they were there
+
+491
+00:31:49,337 --> 00:31:52,847
+because they're the kind of
+people like first is a minute, it
+
+492
+00:31:52,847 --> 00:31:55,728
+opens up even a little bit. I
+want to go out and meet people.
+
+493
+00:31:56,478 --> 00:32:00,077
+so it was, it was kind of, you
+know, it was neat to be able to
+
+494
+00:32:00,077 --> 00:32:03,817
+kind of in a small group and be
+with people who like really.
+
+495
+00:32:04,972 --> 00:32:08,752
+wanted to kind of get out and,
+and meet other people and we're
+
+496
+00:32:08,752 --> 00:32:12,833
+open to new conversations. Um,
+but I think, you know, as we open
+
+497
+00:32:12,833 --> 00:32:16,282
+up more, we're going to have to
+find ways to kind of keep that
+
+498
+00:32:16,282 --> 00:32:21,262
+connection going as the events
+bigger. And, and, and that's
+
+499
+00:32:21,262 --> 00:32:25,202
+always the tough part, right?
+Like every community. That starts
+
+500
+00:32:25,202 --> 00:32:28,083
+small. And it's like, this is so
+awesome. I'm meeting so many
+
+501
+00:32:28,083 --> 00:32:30,542
+great people. And then the bigger
+and the bigger it gets, it's
+
+502
+00:32:30,542 --> 00:32:34,952
+like, oh wow. Now it's gotten to
+be a lot of noise. And it's hard
+
+503
+00:32:34,952 --> 00:32:38,553
+to like, know, I don't know as
+many people and the people I used
+
+504
+00:32:38,553 --> 00:32:43,353
+to know don't show up anymore.
+And, you know, it's, it's the
+
+505
+00:32:43,353 --> 00:32:46,863
+hard part about keeping a
+community going for a long time,
+
+506
+00:32:46,893 --> 00:32:51,173
+like in and growing it without
+losing. What it was that made it
+
+507
+00:32:51,173 --> 00:32:56,063
+special, um, that, you know, I've
+seen, I've seen a lot of
+
+508
+00:32:56,063 --> 00:32:59,032
+communities kind of struggle with
+that and I've even struggled with
+
+509
+00:32:59,032 --> 00:33:02,792
+it myself. Um, you know, like
+particularly the Orlando Devs
+
+510
+00:33:02,813 --> 00:33:08,423
+that got, it's gotten really big,
+like it's, it's hard. Um, and so,
+
+511
+00:33:08,603 --> 00:33:13,762
+yeah. Um, I guess I don't have
+any, any special answers I
+
+512
+00:33:13,762 --> 00:33:15,952
+sympathize with-- I'm always
+figuring it out myself.
+
+513
+00:33:17,123 --> 00:33:19,702
+Dan: Ah, it's really hoping
+you're about to solve all of our
+
+514
+00:33:19,702 --> 00:33:20,542
+problems.
+
+515
+00:33:24,008 --> 00:33:26,438
+Brian: I think we, you know, we
+solve it together, right. Like,
+
+516
+00:33:26,438 --> 00:33:29,708
+you know, we all know each other
+and we share our struggles and
+
+517
+00:33:29,708 --> 00:33:31,688
+like, you know, we can help solve
+it together.
+
+518
+00:33:32,123 --> 00:33:34,702
+Bekah: So I was talking to some
+other small, uh, community
+
+519
+00:33:34,702 --> 00:33:38,153
+organizers, and I said, you know,
+what, if we all just get into a
+
+520
+00:33:38,153 --> 00:33:40,613
+meeting and we talk this out and
+they're like, that sounds
+
+521
+00:33:40,613 --> 00:33:41,633
+dangerous. Like,
+
+522
+00:33:41,758 --> 00:33:41,877
+Brian: Yeah.
+
+523
+00:33:42,607 --> 00:33:42,728
+Dan: Okay.
+
+524
+00:33:43,192 --> 00:33:46,252
+Bekah: all right, maybe we need
+an agenda. Uh, I think, you know,
+
+525
+00:33:46,252 --> 00:33:48,923
+the other, the other thing that I
+see with communities that have
+
+526
+00:33:48,923 --> 00:33:53,123
+been around for a long time, they
+can be really great. But I think
+
+527
+00:33:53,123 --> 00:33:57,682
+sometimes you have those groups
+of people that are always there
+
+528
+00:33:57,682 --> 00:34:00,593
+and they continue to come to
+those things. And if you're a new
+
+529
+00:34:00,593 --> 00:34:04,782
+person, You don't feel like you
+belong in those situations or,
+
+530
+00:34:04,813 --> 00:34:07,512
+you know, there's there's
+assumptions. They, there's almost
+
+531
+00:34:07,512 --> 00:34:15,148
+a, uh, They're not able to look
+at the thing that they've built
+
+532
+00:34:15,148 --> 00:34:19,077
+the community and say, you know,
+how are we welcoming new people
+
+533
+00:34:19,077 --> 00:34:22,438
+who don't feel like they're part
+of this club? Because so many of
+
+534
+00:34:22,438 --> 00:34:26,277
+the people that are there are
+part of that club. And for me,
+
+535
+00:34:26,277 --> 00:34:29,217
+like that's really hard,
+especially in person conferences.
+
+536
+00:34:29,427 --> 00:34:33,478
+I am afraid of strangers. And so
+I don't talk to anyone unless
+
+537
+00:34:33,478 --> 00:34:36,612
+they talk to me first. So I just
+like, sit there. And try and make
+
+538
+00:34:36,612 --> 00:34:39,523
+eye contact with people and like,
+hope someone takes pity on me and
+
+539
+00:34:39,523 --> 00:34:44,293
+they talk to me. Uh, but, but
+when everybody is all in their
+
+540
+00:34:44,293 --> 00:34:49,722
+own groups and there's not an
+opening for you to kind of step
+
+541
+00:34:49,722 --> 00:34:53,202
+into, there are a couple of times
+I like tried to jump in and eat
+
+542
+00:34:53,202 --> 00:34:56,262
+like lunch with people at a
+conference recently. And they're
+
+543
+00:34:56,262 --> 00:34:59,322
+like, got up two minutes later,
+like, all right, see you later.
+
+544
+00:34:59,353 --> 00:35:04,913
+And then I was like, At my table
+by myself, I guess I think that
+
+545
+00:35:04,913 --> 00:35:07,012
+there are ways around that. And
+like, I've talked to a couple of
+
+546
+00:35:07,012 --> 00:35:10,882
+conference organizers now about
+like, how do we make it welcoming
+
+547
+00:35:10,882 --> 00:35:15,682
+for new people in these spaces?
+But I think it's that you just
+
+548
+00:35:15,682 --> 00:35:20,452
+have to constantly be evaluating,
+you know, w what is it like to be
+
+549
+00:35:20,452 --> 00:35:23,992
+a new person? And it's not just
+conferences and communities, you
+
+550
+00:35:23,992 --> 00:35:29,527
+know, it's jobs and, and school
+groups or whatever else. It can
+
+551
+00:35:29,527 --> 00:35:30,427
+always be hard.
+
+552
+00:35:31,362 --> 00:35:34,242
+Brian: Yeah. Absolutely. And
+there's, I don't know that
+
+553
+00:35:34,242 --> 00:35:37,813
+there's any magic solution. I
+think think organizers have to,
+
+554
+00:35:39,012 --> 00:35:42,402
+you know, as an organizer, you,
+you try to create spaces that in
+
+555
+00:35:42,432 --> 00:35:46,693
+opportunities that give people
+room to meet other people when,
+
+556
+00:35:46,722 --> 00:35:51,172
+if they, um, And then I think
+people like the person you met,
+
+557
+00:35:51,262 --> 00:35:54,413
+you need kind of people there
+who, and often the conference
+
+558
+00:35:54,413 --> 00:35:57,773
+organizer is that person as well.
+Like you can know all the
+
+559
+00:35:57,773 --> 00:36:01,402
+different people in like, oh,
+Bekah, you should meet so-and-so.
+
+560
+00:36:01,762 --> 00:36:06,893
+Um, come here and join us for,
+you know, uh, whatever coffee or
+
+561
+00:36:06,893 --> 00:36:12,023
+a drink or whatever it is. Yeah.
+You know, so that you, and then,
+
+562
+00:36:12,262 --> 00:36:15,773
+you know, cause oftentimes all it
+takes is that first introduction.
+
+563
+00:36:15,862 --> 00:36:18,202
+And then that person introduces
+you to other people who
+
+564
+00:36:18,202 --> 00:36:20,302
+introduced the other people. And
+then all of a sudden it's like,
+
+565
+00:36:20,842 --> 00:36:25,702
+Okay. I met so many new people,
+but um, but you need to have
+
+566
+00:36:26,652 --> 00:36:31,043
+people there who can kind of
+help. And I don't want to, I
+
+567
+00:36:31,043 --> 00:36:35,722
+think it's it's you gotta there's
+people like you who, who want to
+
+568
+00:36:35,722 --> 00:36:40,583
+meet people, but are. A little
+shy about doing it. And then
+
+569
+00:36:40,583 --> 00:36:44,032
+there's people who like, you
+know, aren't really, so you got
+
+570
+00:36:44,032 --> 00:36:47,632
+to kind of know that they've not,
+they, they, they're not as
+
+571
+00:36:47,632 --> 00:36:50,572
+comfortable in those situations
+and they're not, you know, so
+
+572
+00:36:50,572 --> 00:36:53,483
+maybe they don't actually want to
+meet people. So you have to kind
+
+573
+00:36:53,483 --> 00:36:58,193
+of gauge what the person's
+looking for. But there are people
+
+574
+00:36:58,193 --> 00:37:03,262
+who I think are kind of natural
+connectors and can, can do that
+
+575
+00:37:03,262 --> 00:37:07,867
+and have a good sense. Um, what
+that, what, what you, what you're
+
+576
+00:37:07,867 --> 00:37:08,498
+looking for.
+
+577
+00:37:10,402 --> 00:37:13,583
+Bekah: Uh, so I have this idea. I
+don't know if it's a good idea,
+
+578
+00:37:13,583 --> 00:37:18,172
+but I keep telling people, so
+hopefully it's kind of good. So
+
+579
+00:37:18,172 --> 00:37:21,233
+have you ever been to a, I think
+it's called like a Brazilian
+
+580
+00:37:21,233 --> 00:37:24,563
+barbecue where they have like
+those big things of meat and then
+
+581
+00:37:24,563 --> 00:37:28,222
+you have these like chips on the
+table and you put up green, if
+
+582
+00:37:28,222 --> 00:37:32,688
+you want some. Or if you don't
+want some me. Right. And so like,
+
+583
+00:37:32,688 --> 00:37:35,387
+what if we take that to the
+conference experience? Right.
+
+584
+00:37:35,387 --> 00:37:38,478
+Because it's always like a thing.
+If you're there by yourself,
+
+585
+00:37:38,478 --> 00:37:41,628
+like, who do you eat lunch with?
+If you don't know anybody and
+
+586
+00:37:41,628 --> 00:37:44,777
+sometimes people don't want to
+talk. Right. They just want to
+
+587
+00:37:44,777 --> 00:37:50,163
+sit there by themselves. So when
+we have chips that are green or
+
+588
+00:37:50,163 --> 00:37:52,893
+red, and if you're sitting at a
+table and you're open to other
+
+589
+00:37:52,893 --> 00:37:56,193
+people and talking, then you have
+a green chip on your table or a
+
+590
+00:37:56,193 --> 00:37:59,943
+red chip, like I just want to eat
+quiet lunch by myself, but I feel
+
+591
+00:37:59,943 --> 00:38:05,958
+like that reduces a barrier for
+people to come in. Um, or my
+
+592
+00:38:06,047 --> 00:38:09,168
+second idea along with that was
+like, what if there are topics on
+
+593
+00:38:09,168 --> 00:38:12,527
+tables and then you have a person
+kind of like a Virtual Coffee. We
+
+594
+00:38:12,527 --> 00:38:16,367
+always have a room leader. So you
+designate people for that table.
+
+595
+00:38:16,367 --> 00:38:19,788
+And like, maybe one table says
+like front end developer or
+
+596
+00:38:19,818 --> 00:38:24,347
+another table says like community
+and you know that those people
+
+597
+00:38:24,378 --> 00:38:27,407
+want to talk about those things
+at that table. So then it's like
+
+598
+00:38:27,527 --> 00:38:31,762
+welcoming and you get. A teaser
+into what the conversation
+
+599
+00:38:31,762 --> 00:38:34,972
+already is. And then you can kind
+of like, oh, okay. That seems
+
+600
+00:38:34,972 --> 00:38:37,882
+like it would be a good pet fit.
+And that person is safe because
+
+601
+00:38:38,182 --> 00:38:43,012
+their job is to talk to me. So
+those are, those are my ideas. I
+
+602
+00:38:43,012 --> 00:38:45,472
+keep telling people about, I
+don't know. I still don't know if
+
+603
+00:38:45,472 --> 00:38:46,163
+they're good, but.
+
+604
+00:38:47,253 --> 00:38:52,503
+Brian: First of all, I love a
+Brazilian barbecue. I actually,
+
+605
+00:38:52,592 --> 00:38:56,072
+the first time I went to one was
+like, I was still in high school
+
+606
+00:38:56,282 --> 00:38:59,253
+and this was in the nineties, but
+it was literally in Brazil. So.
+
+607
+00:39:00,503 --> 00:39:05,663
+It was called El por cow, which
+is like the pig. Um, and you sat
+
+608
+00:39:05,663 --> 00:39:09,443
+at these giant tables, like pig.
+They were like huge picnic
+
+609
+00:39:09,443 --> 00:39:13,012
+tables. The place was massive.
+And just like the amount of meat
+
+610
+00:39:13,012 --> 00:39:18,818
+coming through there. Crazy.
+Anyway, so that's a whole side
+
+611
+00:39:18,818 --> 00:39:26,668
+issue, but yeah. You got me
+thinking about that meat. Um, but
+
+612
+00:39:26,938 --> 00:39:31,168
+I think those are great ideas and
+actually I've seen similar ideas
+
+613
+00:39:31,197 --> 00:39:35,277
+done at conferences. I think it's
+just not consistent. Like I I've
+
+614
+00:39:35,277 --> 00:39:37,858
+seen ones where they have like,
+you know, you can put, if you
+
+615
+00:39:37,858 --> 00:39:41,038
+have your, your badge and you
+have the little badge, like the
+
+616
+00:39:41,038 --> 00:39:43,547
+flags or whatever, I don't know
+what they call them. You can put
+
+617
+00:39:43,557 --> 00:39:47,353
+there someday. I I've seen, I
+know I've seen conferences that,
+
+618
+00:39:47,353 --> 00:39:51,643
+that like have kind of, you can
+that almost like the green
+
+619
+00:39:51,643 --> 00:39:55,663
+indicator, like, yes. I want to
+meet people. Um, I don't I don't
+
+620
+00:39:55,663 --> 00:39:58,032
+know that it's always like
+obvious or that people really
+
+621
+00:39:58,032 --> 00:40:00,222
+participate and that's the hard
+part. I like.
+
+622
+00:40:00,353 --> 00:40:02,032
+Bekah: yeah. Or you're like
+staring at someone's chest,
+
+623
+00:40:02,032 --> 00:40:05,362
+trying to figure out, like, do
+you have a green thing on your
+
+624
+00:40:05,362 --> 00:40:05,693
+tag?
+
+625
+00:40:06,452 --> 00:40:10,503
+Brian: Yeah. So, and, and even
+like, O'Reilly, uh, used to run
+
+626
+00:40:10,503 --> 00:40:13,922
+this conference call, uh, fluent,
+which is like a web call in the
+
+627
+00:40:13,922 --> 00:40:16,563
+conference. I mean, it's not the
+only conference that did this,
+
+628
+00:40:16,563 --> 00:40:19,842
+but they, they would have at
+lunch, they would have. Uh, I
+
+629
+00:40:19,842 --> 00:40:21,943
+don't remember what they called
+them. I was like, maybe it was
+
+630
+00:40:21,943 --> 00:40:25,092
+birds of a feather kind of thing
+or something where it's like and
+
+631
+00:40:25,092 --> 00:40:28,422
+they would usually be like
+speaker who had agreed to like
+
+632
+00:40:28,422 --> 00:40:29,353
+sit and be
+
+633
+00:40:29,458 --> 00:40:29,938
+Bekah: I like that.
+
+634
+00:40:30,643 --> 00:40:33,612
+Brian: so that. at least there
+was somebody there who was
+
+635
+00:40:33,612 --> 00:40:35,773
+talking about that topic, because
+that's the hard part. Like you
+
+636
+00:40:35,773 --> 00:40:38,563
+can put a topic on the table, but
+if nobody's there, I'm not going
+
+637
+00:40:38,563 --> 00:40:41,713
+to be the first one to say, so
+they would have like the speaker
+
+638
+00:40:41,713 --> 00:40:45,643
+go. And usually I know I got
+picked for that before, like as a
+
+639
+00:40:45,643 --> 00:40:49,603
+speaker and I go grab like a
+couple of people so that, you
+
+640
+00:40:49,603 --> 00:40:52,603
+know, it's not even just me,
+cause even that can be awkward.
+
+641
+00:40:52,603 --> 00:40:55,722
+Right. Like you have what looks
+like a small group already going.
+
+642
+00:40:56,382 --> 00:40:59,833
+Um, and then, and then you start
+those discussions. So I think
+
+643
+00:40:59,833 --> 00:41:02,833
+those are, so those are great
+ideas that like, you know, it's
+
+644
+00:41:02,833 --> 00:41:07,992
+just, um, know, uh, I, I
+definitely think could be
+
+645
+00:41:08,023 --> 00:41:12,313
+implemented more consistently as
+we get back to in-person events,
+
+646
+00:41:12,402 --> 00:41:14,222
+um, to help.
+
+647
+00:41:16,882 --> 00:41:19,583
+Bekah: it's interesting because I
+think every conference I've been
+
+648
+00:41:19,583 --> 00:41:25,313
+to has had some place for speaker
+feedback, but I don't know that
+
+649
+00:41:25,313 --> 00:41:31,643
+there's a conference feedback,
+right? Like how did we do as a
+
+650
+00:41:31,643 --> 00:41:37,402
+conference or, you know, what
+could we do to create a safer
+
+651
+00:41:37,402 --> 00:41:42,217
+space or a more welcoming space?
+And it's hard, you know, I mean,
+
+652
+00:41:42,248 --> 00:41:47,257
+we both know like taking feedback
+is a challenge because you get so
+
+653
+00:41:47,257 --> 00:41:50,407
+much of it and you have to try
+and figure out what to do with
+
+654
+00:41:50,407 --> 00:41:55,807
+it. So, um, I don't know if
+there's a, maybe there's some
+
+655
+00:41:55,807 --> 00:41:59,708
+kind of space for doing that more
+effectively.
+
+656
+00:42:02,483 --> 00:42:08,072
+Brian: Yeah. that is tough often.
+You know, I think even the
+
+657
+00:42:08,072 --> 00:42:12,873
+speaker feedback, like often
+times it was like, Hmm, it
+
+658
+00:42:12,873 --> 00:42:16,293
+wasn't, it wasn't always that
+valuable. Usually it was only the
+
+659
+00:42:16,293 --> 00:42:18,842
+people who, who really just
+wanted to complain about
+
+660
+00:42:18,842 --> 00:42:22,382
+something who actually submitted
+something or was actually was
+
+661
+00:42:22,592 --> 00:42:27,032
+very, it was either the people
+who like just gave to every five
+
+662
+00:42:27,032 --> 00:42:32,652
+stars across the board. Cause
+either. Whatever, and or they are
+
+663
+00:42:32,652 --> 00:42:35,563
+they wanting to complain about
+something and, you know, I think
+
+664
+00:42:35,563 --> 00:42:40,963
+the valuable, most valuable stuff
+kind of sits in the middle there.
+
+665
+00:42:40,963 --> 00:42:44,773
+It's like, yeah, I enjoyed that.
+But here's some ways to improve
+
+666
+00:42:44,802 --> 00:42:47,983
+like constructive criticism as
+opposed to like, yeah. The
+
+667
+00:42:48,003 --> 00:42:56,233
+speaker sucks... for reasons. Um,
+So same thing on the conferences.
+
+668
+00:42:56,233 --> 00:43:00,222
+It's it's, you know, so I've seen
+some that do have more of a
+
+669
+00:43:00,222 --> 00:43:03,342
+general, but I don't think
+they've asked about what you're
+
+670
+00:43:03,342 --> 00:43:06,612
+looking for, which is like, did
+we help you connect with other
+
+671
+00:43:06,612 --> 00:43:09,282
+people if that's what you're
+looking for.
+
+672
+00:43:10,172 --> 00:43:14,793
+Bekah: Right. I, the best
+feedback I ever got in a talk as
+
+673
+00:43:14,793 --> 00:43:19,202
+somebody fell asleep. And so then
+I knew I needed to do something
+
+674
+00:43:19,242 --> 00:43:21,452
+to take that talk to a different
+level.
+
+675
+00:43:24,492 --> 00:43:28,193
+Brian: I don't, I don't recall,
+like when I I've seen, I've
+
+676
+00:43:28,193 --> 00:43:32,693
+gotten lots of feedback over the
+years, but maybe once or twice
+
+677
+00:43:32,693 --> 00:43:36,443
+there was something actionable,
+but I mean, generally
+
+678
+00:43:37,367 --> 00:43:43,396
+Bekah: So you just, so you just
+wrapped up thejam.dev, right. Um,
+
+679
+00:43:43,697 --> 00:43:46,666
+and I, I made it to the first
+day, didn't make it to the second
+
+680
+00:43:46,666 --> 00:43:51,257
+day, but it's really great. And
+you do a really good job of, um,
+
+681
+00:43:51,317 --> 00:43:54,916
+you know, like emceeing or
+facilitating those conversations
+
+682
+00:43:54,916 --> 00:43:57,286
+and like bringing the questions
+through and asking things, which,
+
+683
+00:43:57,447 --> 00:44:01,681
+which provides like a really more
+of a sense of community, then I
+
+684
+00:44:01,681 --> 00:44:05,942
+think some of those other online
+events that I've seen. So, you
+
+685
+00:44:05,942 --> 00:44:10,382
+know, what is the thought process
+that you have going into that?
+
+686
+00:44:10,382 --> 00:44:12,961
+And do you organize that all
+yourself or do you have support
+
+687
+00:44:13,547 --> 00:44:18,226
+Brian: So, um, so to answer your
+second question, first, I
+
+688
+00:44:18,257 --> 00:44:22,637
+partnered with the folks at FITC,
+who I've known for a long time.
+
+689
+00:44:23,177 --> 00:44:27,436
+Um, and that is fantastic. Cause
+I mean, I run all the meetups
+
+690
+00:44:27,436 --> 00:44:31,577
+myself, but like, this is a whole
+other level where like now, you
+
+691
+00:44:31,577 --> 00:44:34,606
+know, you have sponsors and all
+kinds of stuff and you know, the
+
+692
+00:44:34,697 --> 00:44:38,001
+video, the quality of the video
+feed has to be super and you have
+
+693
+00:44:38,001 --> 00:44:41,331
+speakers coming in and out during
+the, you know, throughout the
+
+694
+00:44:41,331 --> 00:44:46,041
+day. And. The a lot of the
+logistics involved that. Um, so I
+
+695
+00:44:46,041 --> 00:44:49,371
+handle all of like the website
+and the, and the, and all of the
+
+696
+00:44:49,371 --> 00:44:52,581
+speakers, like getting all the
+speakers and choosing the content
+
+697
+00:44:52,581 --> 00:44:56,931
+and building a schedule and
+emceeing obviously. Um, and then
+
+698
+00:44:56,931 --> 00:45:02,001
+they handle like the video and
+other like speaker logistics and
+
+699
+00:45:02,001 --> 00:45:07,161
+sponsor logistics and stuff like
+that. So like, that is amazing
+
+700
+00:45:07,161 --> 00:45:12,802
+because it's a lot. Um, and I
+don't know that. You know, I'm
+
+701
+00:45:12,802 --> 00:45:15,981
+sure I could do it by myself. It
+would not be as good an event.
+
+702
+00:45:16,251 --> 00:45:21,052
+Um, and, or as polished and I
+think maybe not as great for the
+
+703
+00:45:21,052 --> 00:45:23,572
+attendees as well. And then he
+sets his, so I think the
+
+704
+00:45:23,572 --> 00:45:29,661
+combination works. um, but you
+know, in terms of how I think
+
+705
+00:45:29,661 --> 00:45:32,782
+about the event, I mean, I think
+you're right. Like, I try to
+
+706
+00:45:32,782 --> 00:45:38,166
+think about what makes virtual.
+Better in ways that then, then,
+
+707
+00:45:38,197 --> 00:45:42,577
+you know, not better. Okay. I
+love in-person events, but like
+
+708
+00:45:42,606 --> 00:45:46,867
+what, what things are virtual
+events better at? And, and so,
+
+709
+00:45:46,867 --> 00:45:50,827
+like, I can't stand virtual
+events that are like, I call them
+
+710
+00:45:50,896 --> 00:45:52,407
+glorified YouTube playlists.
+
+711
+00:45:53,137 --> 00:45:53,317
+Bekah: Yeah.
+
+712
+00:45:53,427 --> 00:45:56,101
+Brian: It's like, if I could go
+to your YouTube, play to a
+
+713
+00:45:56,101 --> 00:45:59,461
+YouTube playlist and get the same
+basic effect, because it goes
+
+714
+00:45:59,461 --> 00:46:03,271
+from recorded session to recorded
+session. And like, you know,
+
+715
+00:46:03,362 --> 00:46:06,121
+other than adding that little
+chat or something like that. And
+
+716
+00:46:06,121 --> 00:46:09,541
+it's like, that's, that's not an,
+that's not an event to me. the
+
+717
+00:46:09,541 --> 00:46:12,661
+event has to be like, has to be
+about the community that's there.
+
+718
+00:46:12,692 --> 00:46:15,871
+Right? Like it's about the people
+that's there, there. So, you
+
+719
+00:46:15,871 --> 00:46:21,117
+know, um, I think. Those live.
+Even when we have recorded
+
+720
+00:46:21,117 --> 00:46:25,467
+sessions, they always have, like,
+we have a significant amount of
+
+721
+00:46:25,467 --> 00:46:31,436
+time dedicated to that live Q and
+A. Um, so like we have like was
+
+722
+00:46:31,436 --> 00:46:35,967
+30 minute presentation and then
+15 minutes of live Q and A. It
+
+723
+00:46:35,967 --> 00:46:39,047
+gives everybody an opportunity to
+their questions and get them
+
+724
+00:46:39,047 --> 00:46:42,376
+answered by the speaker, which is
+kind of the critical piece to me,
+
+725
+00:46:42,376 --> 00:46:47,117
+because I could watch your video
+on YouTube, but I can't directly
+
+726
+00:46:47,117 --> 00:46:50,956
+ask you questions. Right. Um, and
+get those questions answered. So.
+
+727
+00:46:52,336 --> 00:46:57,257
+So that that part I think is, is
+great. Um, we try and throw in
+
+728
+00:46:57,257 --> 00:47:00,106
+like, you know, we try and bring
+in speakers from all over the
+
+729
+00:47:00,106 --> 00:47:03,016
+place, which I think is great,
+which would be difficult. I mean,
+
+730
+00:47:03,016 --> 00:47:07,726
+we had speakers from, um, you
+know, every, almost every part of
+
+731
+00:47:07,726 --> 00:47:12,376
+the world. Yesterday, uh, you
+know, we had attendees from
+
+732
+00:47:12,376 --> 00:47:18,137
+almost everywhere. Um, so, those
+are things that, that, can be
+
+733
+00:47:18,257 --> 00:47:22,427
+great at. Um, it was free, which
+is, been, I've been pushing to
+
+734
+00:47:22,427 --> 00:47:25,666
+kind of make these free because
+there's a lot of costs involved,
+
+735
+00:47:25,697 --> 00:47:29,297
+like I think, you know, I finally
+was able to win over and make
+
+736
+00:47:29,297 --> 00:47:34,862
+this free, which to me makes,
+opens it up to everybody. Um, So,
+
+737
+00:47:34,891 --> 00:47:38,822
+I mean, those are the things, um,
+that the me are important to make
+
+738
+00:47:38,822 --> 00:47:43,141
+it, not just like, I want to make
+it fun. I try to keep them
+
+739
+00:47:43,172 --> 00:47:46,052
+somewhat lighthearted, which is
+why, like, all my events have
+
+740
+00:47:46,052 --> 00:47:48,822
+like weird names and stuff like
+that. Like, like the moar
+
+741
+00:47:48,871 --> 00:47:53,072
+serverless or jammed dot dev I ha
+I go off with the themes. Like
+
+742
+00:47:53,101 --> 00:47:59,452
+this was a kind of eighties rock
+band theme. last year was.
+
+743
+00:48:00,001 --> 00:48:02,942
+Wasn't, it was also like
+eighties, nineties, hip hop
+
+744
+00:48:02,972 --> 00:48:08,101
+themes. So, you know, it's like
+it has, I just try to keep the
+
+745
+00:48:08,112 --> 00:48:13,501
+stuff lighthearted and fun and,
+know, um, and hopefully people
+
+746
+00:48:13,501 --> 00:48:17,552
+enjoy it. it seemed like people
+did. So I'm happy about that.
+
+747
+00:48:19,902 --> 00:48:23,442
+Bekah: That's awesome. Um, we're
+at about time here, but is there
+
+748
+00:48:23,442 --> 00:48:27,251
+anything else that you'd like to
+anything that's coming up for you
+
+749
+00:48:27,251 --> 00:48:31,211
+that you want to share or any
+last bits of advice for other
+
+750
+00:48:31,211 --> 00:48:34,871
+people maybe working on
+communities right now?
+
+751
+00:48:36,811 --> 00:48:41,552
+Brian: Um, you know, I I'd say
+I'd love for people to join
+
+752
+00:48:41,831 --> 00:48:46,681
+cfe.dev, We obviously we run
+after the afternoon crowd, uh,
+
+753
+00:48:46,731 --> 00:48:47,012
+Bekah: Thank you.
+
+754
+00:48:47,012 --> 00:48:50,521
+Brian: Virtual Coffee. So you can
+go to Virtual Coffee and then
+
+755
+00:48:50,521 --> 00:48:54,391
+come join a session. Um, I'd love
+for people to join that. We have
+
+756
+00:48:54,391 --> 00:49:00,242
+a, um, you know, uh, one a second
+and fourth, Thursday at 1:00 PM
+
+757
+00:49:00,271 --> 00:49:04,652
+eastern is when we run those. Um,
+and then trying to expand to do
+
+758
+00:49:04,652 --> 00:49:09,197
+some more stuff on the. I also
+have a book I wrote with Raymond
+
+759
+00:49:09,197 --> 00:49:12,677
+Camden, that's come. We finally
+finished. It should be it's
+
+760
+00:49:12,677 --> 00:49:16,246
+already available. And like, you
+can download it, but like actual
+
+761
+00:49:16,246 --> 00:49:21,197
+print book out print book,
+imagine that, um, we'll be out in
+
+762
+00:49:21,197 --> 00:49:25,726
+the next few weeks. it's called
+the JAMstack book if you're
+
+763
+00:49:25,726 --> 00:49:31,757
+interested in jam stack stuff. So
+obviously I am. Uh, and yeah, I
+
+764
+00:49:31,757 --> 00:49:35,297
+mean, I'm in, of course for you.
+to check out LaunchDarkly cause I
+
+765
+00:49:35,297 --> 00:49:36,766
+think it's awesome. And that's
+why I work there.
+
+766
+00:49:38,713 --> 00:49:42,753
+Bekah: All right. Thanks so much,
+Brian. We are very, very happy to
+
+767
+00:49:42,753 --> 00:49:44,224
+have had this conversation
+
+768
+00:49:44,273 --> 00:49:44,994
+Dan: Thank you Brian
+
+769
+00:49:45,594 --> 00:49:46,599
+Brian: thanks. Thanks so much.
+
+770
+00:49:46,909 --> 00:49:47,329
+Bekah: Bye.
+
+771
+00:49:50,398 --> 00:49:52,978
+Dan: Thank you for listening to
+this episode of the Virtual
+
+772
+00:49:52,978 --> 00:49:56,739
+Coffee Podcast. This episode was
+produced by Dan Ott and Bekah
+
+773
+00:49:56,739 --> 00:49:59,969
+Hawrot Weigel. If you have
+questions or comments, you can
+
+774
+00:49:59,969 --> 00:50:03,889
+hit us up on Twitter at
+VirtualCoffeeIO, or email us at
+
+775
+00:50:04,039 --> 00:50:07,918
+podcast@virtualcoffee.io. You can
+find the show notes, sign up for
+
+776
+00:50:07,949 --> 00:50:10,259
+newsletter, check out any of our
+other resources on our website,
+
+777
+00:50:10,389 --> 00:50:13,559
+virtualcoffee.io. If you're
+interested in sponsoring Virtual
+
+778
+00:50:13,588 --> 00:50:17,128
+Coffee, you can find out more
+information on our website at
+
+779
+00:50:17,128 --> 00:50:21,898
+virtualcoffee.io/sponsorship.
+Please subscribe to our podcast
+
+780
+00:50:21,898 --> 00:50:25,199
+and be sure to leave us a review.
+Thanks for listening and we'll
+
+781
+00:50:25,199 --> 00:50:25,889
+see you next week!

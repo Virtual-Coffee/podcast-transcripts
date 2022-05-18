@@ -1,0 +1,4739 @@
+1
+00:00:05,181 --> 00:00:09,560
+Dan: Hello, and welcome to a
+special Kirk Day Bonus Episode of
+
+2
+00:00:09,560 --> 00:00:15,528
+the Virtual Coffee podcast. I'm
+Dan and this is a podcast that
+
+3
+00:00:15,528 --> 00:00:18,559
+features members of the Virtual
+Coffee community. Virtual Coffee
+
+4
+00:00:18,559 --> 00:00:21,498
+is an intimate group of
+developers at all stages of their
+
+5
+00:00:21,498 --> 00:00:25,368
+coding journey. And they're here
+on this podcast usually sharing
+
+6
+00:00:25,368 --> 00:00:28,189
+their stories and what they've
+learned uh today we had a little
+
+7
+00:00:28,189 --> 00:00:31,428
+bit of a different time, Bekah
+actually it came up to Cleveland
+
+8
+00:00:31,489 --> 00:00:35,959
+uh where i work And uh we
+actually met in person for the
+
+9
+00:00:35,959 --> 00:00:38,929
+first time ever after knowing
+each other for over three years
+
+10
+00:00:39,259 --> 00:00:42,859
+and it was fun and today is also
+a Kirk Day which you will hear
+
+11
+00:00:42,859 --> 00:00:47,058
+about uh A little bit later in
+the episode and uh also Kirk.
+
+12
+00:00:47,448 --> 00:00:50,959
+Joins us as well and it was
+really fun and it was a fun
+
+13
+00:00:50,959 --> 00:00:53,058
+little thing we streamed it live
+we had some people sharing in the
+
+14
+00:00:53,088 --> 00:00:56,149
+comments And we thought we would
+share it on the podcast stream as
+
+15
+00:00:56,149 --> 00:01:00,649
+well so enjoy and uh next week we
+will get back to our regular
+
+16
+00:01:00,649 --> 00:01:14,766
+schedule Hey, we were muted the
+whole time. Why did you do it? I
+
+17
+00:01:14,766 --> 00:01:17,867
+was just thinking in my head. Oh,
+I hope the sound sounds good. It
+
+18
+00:01:17,867 --> 00:01:20,537
+was like, I looked at the mute
+thing and
+
+19
+00:01:21,496 --> 00:01:25,307
+Bekah: just so everybody knows, I
+just did the most amazing intro
+
+20
+00:01:25,367 --> 00:01:26,266
+that I've ever done.
+
+21
+00:01:27,076 --> 00:01:28,367
+Dan: It's good.
+
+22
+00:01:30,257 --> 00:01:34,156
+Bekah: So here's my not so great
+intro. We are coming from
+
+23
+00:01:34,156 --> 00:01:37,816
+Lakewood, Ohio. We are
+celebrating national Kirk day or
+
+24
+00:01:37,816 --> 00:01:40,757
+international Kirk day. As we
+more fondly, know it at Virtual
+
+25
+00:01:40,757 --> 00:01:41,236
+Coffee,
+
+26
+00:01:41,596 --> 00:01:42,337
+Dan: inner galactic
+
+27
+00:01:43,996 --> 00:01:47,147
+Bekah: galactic, inter I was
+gonna say disciplinary. That is
+
+28
+00:01:47,147 --> 00:01:50,057
+not the right word dimensional
+interdimensional Kirk day,
+
+29
+00:01:50,656 --> 00:01:53,027
+because it is preserved
+everywhere because perk is
+
+30
+00:01:53,027 --> 00:01:56,266
+awesome and amazing. And we like
+to celebrate Kirk as much as we
+
+31
+00:01:56,266 --> 00:02:01,186
+can. Dan, would you like to
+introduce what international
+
+32
+00:02:01,277 --> 00:02:03,917
+dimensional disciplinary Kirk
+date is?
+
+33
+00:02:05,027 --> 00:02:10,727
+Dan: Um, so was it just a year
+ago or a year ago today? Yes,
+
+34
+00:02:10,757 --> 00:02:16,481
+Kirk, um, had a tweet. Where he
+showed me that I should read
+
+35
+00:02:16,481 --> 00:02:24,521
+that. I feel like I should have
+read the, the right text. This is
+
+36
+00:02:24,521 --> 00:02:30,372
+it, right? Yeah. So Kirk tweeted
+today, we achieved the dream. My
+
+37
+00:02:30,412 --> 00:02:32,801
+made a function called Missy
+Elliott. That takes data
+
+38
+00:02:32,981 --> 00:02:37,572
+structure, flips it and reverses
+it. I have ascended. And then,
+
+39
+00:02:37,662 --> 00:02:43,002
+um, very shortly after that, uh,
+Missy Elliott responded, replied
+
+40
+00:02:43,002 --> 00:02:46,241
+on Twitter, um, actual Missy
+Elliott, not, not a fake Missy
+
+41
+00:02:46,241 --> 00:02:50,592
+Elliott and, and said something
+like, yeah, she said, wow, I'm
+
+42
+00:02:50,592 --> 00:02:56,141
+humbly I'm. So humbly grateful,
+much love to y'all. And, um, that
+
+43
+00:02:56,141 --> 00:02:59,981
+was the beginning of a legend. It
+was, it was really, really
+
+44
+00:02:59,981 --> 00:03:03,822
+awesome. And, uh, everybody saw
+it and perks, you know, Twitter.
+
+45
+00:03:04,542 --> 00:03:12,342
+Uh, let's see what the, uh, It,
+it Kirk's sweet, got a one 13,300
+
+46
+00:03:12,342 --> 00:03:18,282
+retweets. Uh, and it's really
+good stuff.
+
+47
+00:03:18,882 --> 00:03:23,352
+Bekah: Yeah. But not only that,
+not only was it just YouTube, but
+
+48
+00:03:23,352 --> 00:03:27,521
+it expanded. So this was not a
+one day event. It was, it was on
+
+49
+00:03:27,822 --> 00:03:32,891
+Twitter. It was on LinkedIn. It
+was on Reddit. Everybody loves
+
+50
+00:03:32,891 --> 00:03:37,151
+Dan: Kirk. Yes. And we all are
+already loved Kirk. And this is
+
+51
+00:03:37,151 --> 00:03:40,122
+just a sort of celebration of,
+of, uh, the rest of the world.
+
+52
+00:03:40,181 --> 00:03:41,801
+Right. Becoming aware
+
+53
+00:03:42,312 --> 00:03:45,312
+Bekah: of, of the Kirk. So maybe
+we should tell our Kirk origin
+
+54
+00:03:45,312 --> 00:03:45,822
+story.
+
+55
+00:03:47,771 --> 00:03:51,611
+Dan: Um, I think that's a great
+idea. Do you want me to go first?
+
+56
+00:03:51,611 --> 00:03:55,122
+Do you want to go first? You go
+first. I mean, I don't have a
+
+57
+00:03:55,122 --> 00:03:58,812
+specific, I don't remember the
+like moment right. Of, of meeting
+
+58
+00:03:58,812 --> 00:04:03,056
+her. Cause that was back in the
+time of. Virtual Coffee being,
+
+59
+00:04:03,146 --> 00:04:08,097
+uh, a little it's a little
+smaller, you know? And so we had
+
+60
+00:04:08,097 --> 00:04:16,226
+slack, we had, um, the coffees
+obviously. Um, but, and I'm not a
+
+61
+00:04:16,226 --> 00:04:20,786
+person who, I don't know, I don't
+know a lot of people, I don't
+
+62
+00:04:20,786 --> 00:04:23,307
+really like people don't stick in
+my brain until, until we like
+
+63
+00:04:23,307 --> 00:04:27,357
+interact. You know what I mean?
+And so my thing with Kirk was,
+
+64
+00:04:27,387 --> 00:04:29,786
+was really the heck Tober
+festivals really like leading up
+
+65
+00:04:29,786 --> 00:04:35,076
+to October Fest that year. So it
+was two years ago. And, um, Bekah
+
+66
+00:04:35,096 --> 00:04:38,997
+and I, you know, we worked
+together and I had known Sarah
+
+67
+00:04:38,997 --> 00:04:43,031
+because she was. You know, like
+she was already like helping them
+
+68
+00:04:43,031 --> 00:04:47,201
+with virtual profit and all that
+stuff. And, um, I could just
+
+69
+00:04:47,201 --> 00:04:49,062
+kinda wrote me in for Oktoberfest
+
+70
+00:04:49,182 --> 00:04:52,451
+Bekah: to like help. Okay. And to
+be fair, you were like, if you
+
+71
+00:04:52,451 --> 00:04:56,831
+need help with anything, let me
+know. I may have said that. So if
+
+72
+00:04:56,831 --> 00:04:57,851
+you offer to help,
+
+73
+00:04:58,661 --> 00:05:03,252
+Dan: you will. Uh, it's true. Um,
+yes, most people find that out
+
+74
+00:05:03,252 --> 00:05:08,172
+about eventually. Um, but yeah,
+so Kirk was there too. Right. And
+
+75
+00:05:08,172 --> 00:05:10,541
+I have, like, I like, you know,
+I'd heard his name or whatever.
+
+76
+00:05:10,541 --> 00:05:16,091
+I, you know, we had been, he was
+still TK that's right. He was
+
+77
+00:05:16,091 --> 00:05:21,132
+just the mysterious TK, which
+made me, you know, what to know
+
+78
+00:05:21,132 --> 00:05:24,132
+him more, you know, because
+anyway, that has a mysterious
+
+79
+00:05:24,132 --> 00:05:25,161
+Bekah: name, you know?
+
+80
+00:05:27,672 --> 00:05:29,831
+Dan: And, uh, yeah. And then
+that, so that it was like that
+
+81
+00:05:29,831 --> 00:05:35,307
+September leading up to, uh, That
+October, it was a lot of Kirk and
+
+82
+00:05:35,307 --> 00:05:37,976
+I were, I mean, I was working on
+the site and that's when the
+
+83
+00:05:37,976 --> 00:05:40,437
+first like this, the current
+version of the site happened, you
+
+84
+00:05:40,437 --> 00:05:43,107
+know, we made the leap like that.
+We should probably have a site
+
+85
+00:05:43,107 --> 00:05:45,357
+for Virtual Coffee where we're
+doing all that stuff. And so I
+
+86
+00:05:45,357 --> 00:05:50,607
+would be up in the middle of the
+night. Uh, and Kirk was usually
+
+87
+00:05:50,607 --> 00:05:53,877
+there too. And we would like talk
+and, you know, throw ideas back
+
+88
+00:05:53,877 --> 00:05:56,786
+and forth and think about things.
+And then he was doing a lot of
+
+89
+00:05:56,786 --> 00:06:02,607
+the work on the, I dunno, more
+social aspect of it, the
+
+90
+00:06:02,607 --> 00:06:04,497
+documentation, you know, thinking
+about how like people are going
+
+91
+00:06:04,497 --> 00:06:07,976
+to interact with Virtual Coffee
+and like how, uh, we need
+
+92
+00:06:08,307 --> 00:06:11,156
+resources for maintainers and
+what those could look like and
+
+93
+00:06:11,156 --> 00:06:14,637
+things like that. And so I gained
+a lot of like both, it was like
+
+94
+00:06:14,637 --> 00:06:16,947
+fun to hang out with them. And
+again, a lot of like respect for
+
+95
+00:06:16,947 --> 00:06:21,086
+him, you know, at the same time.
+So, um, so yeah, and then after
+
+96
+00:06:21,086 --> 00:06:23,906
+that, it was just like, we're
+just talking every day and had
+
+97
+00:06:24,237 --> 00:06:28,526
+been doing that for. The last
+million years, I don't, it feels
+
+98
+00:06:28,526 --> 00:06:31,226
+like I don't, I don't know all
+the dimensions, you know, in, in
+
+99
+00:06:31,226 --> 00:06:34,916
+multiple dimensions, I'd say, uh,
+if we're gonna use MCU
+
+100
+00:06:35,807 --> 00:06:39,086
+terminology though, Kirk would be
+like an XSP, right. So there's
+
+101
+00:06:39,086 --> 00:06:47,096
+only like one Kirk yes. Across
+the dimensions. Yes. He's Arco is
+
+102
+00:06:47,096 --> 00:06:47,757
+prime Kirkland.
+
+103
+00:06:48,226 --> 00:06:51,716
+Bekah: Yeah. That's what I mean.
+Yeah, for sure. He's the right
+
+104
+00:06:51,716 --> 00:06:52,076
+Kirk.
+
+105
+00:06:53,547 --> 00:06:54,146
+Dan: Exactly.
+
+106
+00:06:56,427 --> 00:07:01,557
+Bekah: I will tell my Kirk origin
+story. I don't remember it
+
+107
+00:07:01,557 --> 00:07:05,637
+exactly, but I have known Curt
+longer than most of the people
+
+108
+00:07:05,637 --> 00:07:08,786
+I've known at Virtual Coffee. But
+back when I knew Kirk, he was
+
+109
+00:07:08,786 --> 00:07:15,146
+like a DVO Python image or a
+snake. I caught, he was not, I
+
+110
+00:07:15,146 --> 00:07:18,836
+didn't know his face. And then he
+started coming to Virtual Coffee
+
+111
+00:07:19,286 --> 00:07:25,646
+and. I am really, um, like
+nervous when I meet new people.
+
+112
+00:07:26,036 --> 00:07:30,716
+And then I was like, I think this
+person knows me and I had to try
+
+113
+00:07:30,716 --> 00:07:33,206
+and figure it out. And he would
+sit in this office, like with a
+
+114
+00:07:33,206 --> 00:07:38,966
+slag behind him and everybody's
+wearing masks back then when you
+
+115
+00:07:38,966 --> 00:07:43,317
+were on zoom. And so I'm like,
+who is this person that is
+
+116
+00:07:43,317 --> 00:07:47,127
+coming? I'm very nervous about
+them. Um, and then Kirk kept
+
+117
+00:07:47,127 --> 00:07:50,786
+showing up. I'm like, okay, this
+is like, this, this person might
+
+118
+00:07:50,786 --> 00:07:54,567
+be my friend. I think maybe we're
+moving into friendship right now.
+
+119
+00:07:54,987 --> 00:07:59,276
+And then when we were moving into
+heck Tober vest, I was like, Hmm,
+
+120
+00:08:01,286 --> 00:08:05,007
+I don't know who suggested it.
+Somehow. Kirk ended up on the HEC
+
+121
+00:08:05,007 --> 00:08:10,766
+Tober Fest team and it was, um,
+me Dan, Sarah, Brian, and Kirk.
+
+122
+00:08:11,276 --> 00:08:15,536
+And I feel like me, Sarah, Dan
+and Ryan were like talk dot, dot,
+
+123
+00:08:15,536 --> 00:08:20,187
+dot, dot, dot, dot. Why don't we
+think about this for a second,
+
+124
+00:08:21,987 --> 00:08:29,156
+like you used to be probably
+shed. So Kirk was, uh, always
+
+125
+00:08:29,156 --> 00:08:34,466
+doing a great job of, um, roping
+us all back to having productive
+
+126
+00:08:34,466 --> 00:08:37,797
+conversations and making progress
+on all the things that we were
+
+127
+00:08:37,797 --> 00:08:41,336
+really excited about doing and
+making sure that they happen. And
+
+128
+00:08:41,726 --> 00:08:46,486
+like, for me, I had not really. I
+ever heard about documentation.
+
+129
+00:08:46,486 --> 00:08:49,697
+Like you talk about
+documentation, put like, what is
+
+130
+00:08:49,697 --> 00:08:52,456
+that thing? And then like, Kirk
+was like, breaking it down. This
+
+131
+00:08:52,456 --> 00:08:54,826
+is why documentation is
+important. And then, you know,
+
+132
+00:08:54,826 --> 00:08:58,037
+Kirk has a teaching background
+too. And so it was like, okay,
+
+133
+00:08:58,037 --> 00:09:00,256
+this is starting to click a
+little bit more for me. And to
+
+134
+00:09:00,256 --> 00:09:04,366
+like, show how you can help more
+people through the documentation
+
+135
+00:09:04,636 --> 00:09:08,836
+became, um, something that was
+like a change in my life, you
+
+136
+00:09:08,836 --> 00:09:16,246
+know, like no big deal, but
+that's all. Um, so all right, I'm
+
+137
+00:09:16,246 --> 00:09:19,067
+going to check out the chat now.
+That's my, my Kirk origin story,
+
+138
+00:09:19,067 --> 00:09:22,336
+and this is how he's become to be
+my best friend ever
+
+139
+00:09:22,336 --> 00:09:27,047
+Dan: since. Yeah. Uh, so we just
+got a comment from David saying,
+
+140
+00:09:27,057 --> 00:09:28,876
+so cool to see you in the same
+place, physical physically, yet.
+
+141
+00:09:28,907 --> 00:09:31,216
+This is the first time that we
+have like actually met in real
+
+142
+00:09:31,216 --> 00:09:34,226
+life. And we started working
+with. When did we start
+
+143
+00:09:34,226 --> 00:09:36,567
+Bekah: working together? July?
+This will be, so it would,
+
+144
+00:09:36,567 --> 00:09:37,496
+would've been three years
+
+145
+00:09:37,496 --> 00:09:40,437
+Dan: in July before Virtual
+Coffee. Like we were working
+
+146
+00:09:40,437 --> 00:09:41,726
+together before it started
+
+147
+00:09:42,356 --> 00:09:44,746
+Bekah: Dan fired me. And that's
+how Virtual Coffee started
+
+148
+00:09:44,746 --> 00:09:47,037
+Dan: As soon as I said that, I
+knew you were going to say that I
+
+149
+00:09:47,037 --> 00:09:47,486
+did not
+
+150
+00:09:48,386 --> 00:09:52,346
+Bekah: fire. My kids got sent
+home from school and then I came
+
+151
+00:09:52,346 --> 00:09:54,716
+home and Dan was like, sorry,
+you're fired. Good luck.
+
+152
+00:09:58,736 --> 00:10:03,761
+Dan: I mean, sometimes you have
+to fire. I didn't fire you. Okay.
+
+153
+00:10:03,761 --> 00:10:07,201
+You were a contractor, so I just
+stopped paying you and you
+
+154
+00:10:07,211 --> 00:10:12,101
+stopped doing work. You're the
+worst. Uh, in my defense, I
+
+155
+00:10:12,101 --> 00:10:15,522
+didn't have any money to pay you
+with. I didn't
+
+156
+00:10:15,522 --> 00:10:17,991
+Bekah: have any work for you to
+do all right. Five minutes. Fine.
+
+157
+00:10:18,491 --> 00:10:24,402
+I'll be fair. It was pandemic.
+And there was no work. So he
+
+158
+00:10:24,491 --> 00:10:26,022
+fired me on accident.
+
+159
+00:10:26,022 --> 00:10:28,902
+Dan: Apparently Nick knew you're
+going to say that as well. You're
+
+160
+00:10:28,902 --> 00:10:29,892
+becoming predictable,
+
+161
+00:10:31,601 --> 00:10:34,001
+Bekah: but I feel like we've had
+a lot of new members that might
+
+162
+00:10:34,241 --> 00:10:37,001
+not have known that you fired me
+many times ago.
+
+163
+00:10:39,731 --> 00:10:45,432
+Dan: Um, so, uh, any way. Yes.
+Um, so I don't know about you,
+
+164
+00:10:45,432 --> 00:10:51,072
+Bekah. I spent a lot of time. I'm
+like, okay. So what do I wear
+
+165
+00:10:51,072 --> 00:10:54,011
+when I meet a person for the
+first time that I've like worked
+
+166
+00:10:54,011 --> 00:10:56,682
+closely with for three years,
+obviously virtual, probably
+
+167
+00:10:56,682 --> 00:11:01,481
+stuff. I wore the t-shirt and the
+hoodie. I just wear
+
+168
+00:11:01,572 --> 00:11:01,741
+Bekah: the
+
+169
+00:11:02,412 --> 00:11:04,721
+Dan: assignment. Yeah. Well, we
+didn't talk about it ahead of
+
+170
+00:11:04,721 --> 00:11:08,772
+time. I almost like texted you. I
+almost asked you and I should
+
+171
+00:11:08,772 --> 00:11:10,751
+have, because then we could have
+just been totally,
+
+172
+00:11:10,841 --> 00:11:13,152
+Bekah: you know, oh, wait, Arjun
+joined and wants to know who
+
+173
+00:11:13,152 --> 00:11:14,532
+fired me. Dan fired
+
+174
+00:11:14,532 --> 00:11:21,011
+Dan: me. No, I did not fire you.
+I hate this. I'm shutting this
+
+175
+00:11:21,011 --> 00:11:21,491
+stream down,
+
+176
+00:11:24,131 --> 00:11:27,731
+Bekah: so, okay. So maybe let's
+go back a little bit so I can
+
+177
+00:11:27,731 --> 00:11:31,182
+tell the full story and give Dan
+the credit that he is owed. Um,
+
+178
+00:11:31,211 --> 00:11:34,422
+I'm a career changer. I spent 10
+years teaching college, English,
+
+179
+00:11:34,782 --> 00:11:38,922
+and I went to bootcamp. And when
+I graduated, I put out a tweet
+
+180
+00:11:38,922 --> 00:11:42,761
+saying that I was looking for a
+job and Dan responded
+
+181
+00:11:46,312 --> 00:11:49,062
+Dan: not really, but seriously.
+
+182
+00:11:53,682 --> 00:11:58,961
+Bekah: So I did not. Um, I didn't
+take any coding tests or have to
+
+183
+00:11:58,961 --> 00:12:03,201
+do any. Strange problems that
+make no difference in the world.
+
+184
+00:12:03,591 --> 00:12:08,542
+And so, uh, we worked together
+until the pandemic hit and then
+
+185
+00:12:09,231 --> 00:12:12,172
+everything shut down. So, yeah.
+So then
+
+186
+00:12:13,251 --> 00:12:16,131
+Dan: as soon as I had worked
+coming back in that you had
+
+187
+00:12:16,131 --> 00:12:26,211
+worked coming back in to, you
+never say thank you. Um, yeah, it
+
+188
+00:12:26,211 --> 00:12:27,351
+was a re it was a rough summer.
+
+189
+00:12:27,381 --> 00:12:29,392
+Bekah: It was a weird summer. It
+was really rough. And that's how
+
+190
+00:12:29,392 --> 00:12:32,991
+Virtual Coffee started too,
+because I was getting signed with
+
+191
+00:12:32,991 --> 00:12:37,491
+interviews with kids at home and
+trying to figure out like what
+
+192
+00:12:37,491 --> 00:12:43,371
+life was like. And then I put out
+this week, does anybody want to
+
+193
+00:12:43,371 --> 00:12:45,831
+meet up for Virtual Coffee? And
+we just kept going with it. And,
+
+194
+00:12:46,341 --> 00:12:52,131
+and somewhere along the line I
+pulled Dan in to cause he owed me
+
+195
+00:12:52,131 --> 00:12:52,942
+for firing me.
+
+196
+00:12:59,397 --> 00:13:05,096
+Dan: So here's the one thing I'm
+so used to, uh, like talking to
+
+197
+00:13:05,096 --> 00:13:07,197
+you on zoom, we're sitting right
+next to each other, but we have
+
+198
+00:13:07,197 --> 00:13:11,547
+the like zoom monitor on the
+screen. And so I have been like
+
+199
+00:13:11,547 --> 00:13:14,157
+looking at, I keep looking at you
+on the screen instead of, instead
+
+200
+00:13:14,157 --> 00:13:15,626
+of like you next to me, I don't
+even
+
+201
+00:13:15,626 --> 00:13:16,047
+Bekah: understand.
+
+202
+00:13:19,346 --> 00:13:21,807
+Dan: Right. Exactly. Yeah. Right.
+Do I look to camera? Yeah. No,
+
+203
+00:13:21,807 --> 00:13:25,677
+it's weird. Um, good, weird. But
+it's, it's weird, you know?
+
+204
+00:13:27,567 --> 00:13:34,616
+Bekah: Yeah. Okay. Let's see. Let
+me look at this chat. Um, Yes,
+
+205
+00:13:34,647 --> 00:13:37,797
+Nick. Exactly. Dan responded. I'm
+looking for someone to fire
+
+206
+00:13:37,797 --> 00:13:40,447
+eventually. Yes, I am totally
+
+207
+00:13:41,366 --> 00:13:42,297
+Dan: wired eventually.
+
+208
+00:13:45,626 --> 00:13:48,476
+Bekah: No, I had no coding tests.
+We had a conversation. I don't
+
+209
+00:13:48,476 --> 00:13:50,486
+know if Dan remembers it, but I
+remember,
+
+210
+00:13:51,326 --> 00:13:55,706
+Dan: um, I mean, I didn't know
+what I was doing either. I mean,
+
+211
+00:13:55,706 --> 00:13:59,846
+this is the first time I ever,
+and to be clear, like you weren't
+
+212
+00:13:59,846 --> 00:14:03,506
+an employee, so, you know, my
+whole thing was contractor, you
+
+213
+00:14:03,506 --> 00:14:06,386
+know, cause I'm a contractor too,
+but, uh, yeah, I'd never done
+
+214
+00:14:06,386 --> 00:14:10,767
+that before. And like, I really
+jumped into like very ADHD style,
+
+215
+00:14:10,767 --> 00:14:16,407
+like no real plan, no real, you
+know, guidelines for myself or
+
+216
+00:14:16,407 --> 00:14:20,126
+for anybody else or anything like
+that. And it worked out very
+
+217
+00:14:20,126 --> 00:14:27,267
+well, but, um, yeah, it was, it
+was, it was, it was fun. Um, uh,
+
+218
+00:14:28,317 --> 00:14:31,772
+haven't missed any, uh, you know,
+uh, I
+
+219
+00:14:31,772 --> 00:14:32,042
+Bekah: dunno.
+
+220
+00:14:35,522 --> 00:14:41,371
+Dan: Uh, yeah. So, um, you know,
+with like insurance, I've heard
+
+221
+00:14:41,371 --> 00:14:41,611
+is
+
+222
+00:14:41,611 --> 00:14:44,322
+Bekah: a good thing to know.
+Insurance is nice. It's useful.
+
+223
+00:14:46,111 --> 00:14:51,692
+Didn't have that for awhile. So,
+yeah. So I've been working a new
+
+224
+00:14:51,692 --> 00:14:55,892
+full-time job, um, and Dan has
+been,
+
+225
+00:14:57,361 --> 00:15:01,412
+Dan: thank you. If I didn't fire
+you there'll be no Virtual
+
+226
+00:15:01,412 --> 00:15:02,912
+Coffee. I didn't fire you
+
+227
+00:15:10,802 --> 00:15:12,272
+Bekah: so I can play it over and
+over.
+
+228
+00:15:14,412 --> 00:15:18,192
+Dan: I blamed melts, honestly,
+for that, for that one, we went
+
+229
+00:15:18,192 --> 00:15:22,871
+to a mill in here in Lakewood and
+it's, I, we walked past the first
+
+230
+00:15:22,871 --> 00:15:25,841
+place. I wanted to go found out,
+close for lunch on the weekdays,
+
+231
+00:15:26,022 --> 00:15:29,142
+which I didn't know. Um, but as
+we were walking past Milt, I was
+
+232
+00:15:29,142 --> 00:15:31,751
+like, this place makes you want
+to go take a nap after like,
+
+233
+00:15:31,782 --> 00:15:36,642
+after. And it's, it's true. Yeah.
+I mean the two years probably
+
+234
+00:15:37,991 --> 00:15:40,991
+probably didn't help that either.
+But, uh, I blame, yeah. I blame
+
+235
+00:15:41,471 --> 00:15:45,162
+that on that and the mental
+lapse. But once you stand from
+
+236
+00:15:45,162 --> 00:15:46,451
+that, I did not fire anybody.
+
+237
+00:15:47,201 --> 00:15:49,991
+Bekah: I mean, what is your
+definition of fire? Okay. He was
+
+238
+00:15:49,991 --> 00:15:54,131
+like, I'm no longer going to
+employ you or give you work or
+
+239
+00:15:54,131 --> 00:16:04,961
+money. So anybody out there
+please let me know. So now he's
+
+240
+00:16:04,961 --> 00:16:07,961
+roped into Virtual Coffee
+forever.
+
+241
+00:16:11,981 --> 00:16:18,861
+Dan: Anyway. Let's go back to, I
+was saying that I was right and
+
+242
+00:16:21,412 --> 00:16:25,912
+that everything that I did was
+good. I'm pretty sure that's what
+
+243
+00:16:25,912 --> 00:16:26,451
+she said.
+
+244
+00:16:29,211 --> 00:16:31,341
+Bekah: Well, Dan, it sucks that
+you fired back and that was
+
+245
+00:16:31,341 --> 00:16:37,131
+pretty awful, but at least we got
+Virtual Coffee out of it and you
+
+246
+00:16:37,131 --> 00:16:47,782
+can fire me any day. I don't even
+know what that means. Sometimes I
+
+247
+00:16:47,782 --> 00:16:50,241
+like very frequently will spit
+out water when I drink it. So I
+
+248
+00:16:50,241 --> 00:16:53,751
+need to try very hard to not
+drink and laugh at
+
+249
+00:16:53,751 --> 00:16:59,966
+Dan: the same time. Yeah.
+Somebody's episode. That was a
+
+250
+00:16:59,966 --> 00:17:04,767
+really good one to that. Oh yeah.
+I watched you do it. I watched
+
+251
+00:17:04,767 --> 00:17:07,287
+you swallow or like, you know,
+start drink water. And then Helen
+
+252
+00:17:07,287 --> 00:17:17,787
+said something hilarious and, uh,
+yeah, we, uh, both have a problem
+
+253
+00:17:17,787 --> 00:17:20,517
+with, sometimes we, you know, I
+don't know if you could get this
+
+254
+00:17:20,517 --> 00:17:23,876
+in zoom where you, why you're not
+like making, I kind of take
+
+255
+00:17:23,876 --> 00:17:26,727
+what's a real person, you know,
+but, but like, you almost can,
+
+256
+00:17:26,727 --> 00:17:29,307
+like sometimes you know, where,
+like, you know, you're looking at
+
+257
+00:17:29,307 --> 00:17:31,047
+that person that, you know,
+they're looking at you, you know,
+
+258
+00:17:31,616 --> 00:17:34,846
+and, uh, you know, we've had
+some, we've had some meltdowns in
+
+259
+00:17:34,846 --> 00:17:39,086
+the past. We try to keep it on
+the podcast, but there's been
+
+260
+00:17:39,086 --> 00:17:41,666
+some. There's been some moments.
+
+261
+00:17:42,477 --> 00:17:45,207
+Bekah: Yeah. Yeah. There are many
+moments on the podcast we've
+
+262
+00:17:45,207 --> 00:17:48,086
+progressed so much. When we first
+started the podcast, I would
+
+263
+00:17:48,086 --> 00:17:50,997
+laugh uncontrollably for the
+first five minutes. I could never
+
+264
+00:17:50,997 --> 00:17:54,446
+do the introduction. I maybe
+there's. I don't know if there's
+
+265
+00:17:54,446 --> 00:17:54,567
+any,
+
+266
+00:17:55,797 --> 00:17:58,346
+Dan: for sure. We sure have it
+all recorded. I don't know if,
+
+267
+00:17:58,346 --> 00:18:02,787
+yeah. I don't know how much video
+we have of it, but like, uh, we
+
+268
+00:18:02,787 --> 00:18:05,727
+have a lot of views of, of like
+trying to do the intros and
+
+269
+00:18:05,727 --> 00:18:09,326
+stuff. It's so funny. Cause
+you're so good at it. Like you're
+
+270
+00:18:09,326 --> 00:18:12,896
+so good at like this stuff most
+of the time and like it's the
+
+271
+00:18:12,896 --> 00:18:15,057
+recorded nature of it. It's like
+the reading, the script
+
+272
+00:18:15,057 --> 00:18:18,836
+Bekah: part. It was like, I was
+so nervous. Like I was like
+
+273
+00:18:18,866 --> 00:18:22,076
+nervousness decided to turn
+itself into laughters and like I
+
+274
+00:18:22,076 --> 00:18:25,676
+could not stop, which I guess is
+like better than crying or
+
+275
+00:18:25,676 --> 00:18:29,067
+sweating, which I have also gone
+through those phases as well.
+
+276
+00:18:29,217 --> 00:18:32,547
+Dan: Yeah, definitely one of my
+main skills.
+
+277
+00:18:34,317 --> 00:18:38,231
+Bekah: Um, just checking out the
+chat. Promoted to customer.
+
+278
+00:18:41,741 --> 00:18:48,392
+Dan: Yes. Congratulations. I
+don't know pressure valves.
+
+279
+00:18:50,432 --> 00:18:52,652
+Bekah: Yeah. As soon as he
+probably would fire me for all of
+
+280
+00:18:52,652 --> 00:18:58,922
+this it's okay. Oh my sure. I'm
+an introvert. I dunno. I feel
+
+281
+00:18:58,922 --> 00:19:03,541
+like maybe I'm an ambivert
+ambivert. I am especially like
+
+282
+00:19:03,541 --> 00:19:07,862
+intensely nervous and shy and
+exhausted when I'm around people
+
+283
+00:19:07,862 --> 00:19:11,612
+that I don't know. But like when
+I'm around people that I know or
+
+284
+00:19:11,612 --> 00:19:16,291
+people that I'm friends with and,
+um, I can often like find that
+
+285
+00:19:16,291 --> 00:19:18,241
+energy. I think that extroverts
+
+286
+00:19:18,241 --> 00:19:24,692
+Dan: have, for me, it's, for me,
+it's um, sort of knowing exactly
+
+287
+00:19:24,692 --> 00:19:28,862
+what, like I was supposed to do
+in a situation. That's what I'm
+
+288
+00:19:28,862 --> 00:19:32,922
+comfortable. Right. And so like
+the. This is just you and me
+
+289
+00:19:32,922 --> 00:19:35,261
+chatting, you know, and like,
+we've practiced this obviously.
+
+290
+00:19:35,261 --> 00:19:36,192
+So it's like, you
+
+291
+00:19:36,192 --> 00:19:36,342
+Bekah: know,
+
+292
+00:19:38,771 --> 00:19:43,061
+Dan: can't you tell we did, like,
+we did like, uh, this is yeah.
+
+293
+00:19:43,092 --> 00:19:46,872
+Very polished, uh, you know,
+thing. No. Um, but what I mean is
+
+294
+00:19:46,872 --> 00:19:52,211
+like, uh, I know what socially is
+expected of me in this situation.
+
+295
+00:19:52,241 --> 00:19:56,471
+You know what I mean? And so if
+I'm in coffee, like one of our
+
+296
+00:19:56,471 --> 00:20:00,402
+coffee chats and in a room with a
+whole bunch of people, I don't
+
+297
+00:20:00,402 --> 00:20:02,832
+know. I'm not like I don't have a
+problem. Like I don't, I don't
+
+298
+00:20:02,832 --> 00:20:09,491
+get like, awkward like that, but,
+um, but when I go to like go to a
+
+299
+00:20:09,491 --> 00:20:12,162
+conference, right. And then
+there's like a social hour or
+
+300
+00:20:12,162 --> 00:20:15,162
+lunch or whatever, and I don't
+know people, and I don't know
+
+301
+00:20:15,162 --> 00:20:18,192
+exactly what I'm supposed to do
+or my role in, you know, that's
+
+302
+00:20:18,192 --> 00:20:20,832
+when I get like, that's when I
+get like super and I just go and
+
+303
+00:20:20,832 --> 00:20:22,662
+sit down by myself and put my
+headphones on or something, or I
+
+304
+00:20:22,662 --> 00:20:24,821
+don't put my headphones on, but
+like, cause I'm fine. If somebody
+
+305
+00:20:24,821 --> 00:20:26,892
+comes and talks to me, like,
+that's cool. Cause that's like a.
+
+306
+00:20:27,672 --> 00:20:29,442
+Hey, this is what you're supposed
+to do now, you know, but like
+
+307
+00:20:29,471 --> 00:20:33,842
+walking up to somebody and trying
+to like, that's, that's what I,
+
+308
+00:20:34,001 --> 00:20:36,221
+like. I really struggled with
+that. That's the kind of stuff
+
+309
+00:20:36,221 --> 00:20:38,922
+that I struggled with, you know,
+is those, those like situations,
+
+310
+00:20:39,672 --> 00:20:45,011
+uh, Where it's an unfamiliar
+territory or like, you know, I
+
+311
+00:20:45,011 --> 00:20:45,112
+don't know.
+
+312
+00:20:45,612 --> 00:20:48,311
+Bekah: Yeah. So it's like that.
+So my dad was just telling my
+
+313
+00:20:48,551 --> 00:20:52,031
+oldest, my 12 year old, he was
+talking about how great it is to
+
+314
+00:20:52,031 --> 00:20:55,662
+talk to random people in the garb
+and talking to them like that is
+
+315
+00:20:56,142 --> 00:20:58,511
+a terrible thing. My dad loves
+it. Like he will go up to any
+
+316
+00:20:58,511 --> 00:21:01,541
+person and he will probably try
+and say what their name, he'll
+
+317
+00:21:01,541 --> 00:21:04,031
+ask them their name and hope
+continually try and repeat that
+
+318
+00:21:04,061 --> 00:21:06,551
+throughout the conversation, but
+then forget their name and use a
+
+319
+00:21:06,551 --> 00:21:11,711
+different name. That's wrong. He
+tries very hard to be personal.
+
+320
+00:21:12,221 --> 00:21:16,362
+Um, but that was like, um, my
+worst nightmare talking to a
+
+321
+00:21:16,362 --> 00:21:18,521
+stranger that I don't know about
+things.
+
+322
+00:21:19,241 --> 00:21:22,961
+Dan: Yeah. No, my father-in-law
+is huge big on that. And he was a
+
+323
+00:21:22,961 --> 00:21:25,571
+bartender and stuff and like, he
+just doesn't naturally, like, he
+
+324
+00:21:25,571 --> 00:21:29,382
+doesn't almost like impulsively,
+you know, but like, like, uh, in
+
+325
+00:21:29,382 --> 00:21:32,172
+an elevator or something, he'll
+just like chat up and they
+
+326
+00:21:32,172 --> 00:21:34,541
+probably don't want to talk to
+him. I mean, like not like he's
+
+327
+00:21:34,541 --> 00:21:36,942
+not being creepy. Right. And he's
+not like hitting on anybody or
+
+328
+00:21:36,942 --> 00:21:37,662
+anything like that, but he's.
+
+329
+00:21:38,741 --> 00:21:39,281
+Bekah: Talking to them.
+
+330
+00:21:42,791 --> 00:21:45,011
+Dan: great guy. You know what I
+mean? And like, but that's just
+
+331
+00:21:45,071 --> 00:21:51,132
+how he is, you know? Uh, yeah.
+Uh, somebody said something about
+
+332
+00:21:52,031 --> 00:21:54,192
+Joe said, so what do I do with my
+hands? That's a big thing with me
+
+333
+00:21:54,192 --> 00:21:57,701
+too. And honestly that's like
+what I, one of the things I like
+
+334
+00:21:57,701 --> 00:22:01,541
+about the, this, this phase in
+our collective lives of the zoom
+
+335
+00:22:01,541 --> 00:22:04,481
+stuff is that most times, so
+right now my camera's like
+
+336
+00:22:04,481 --> 00:22:06,821
+scooted back a little bit so that
+we can both fit in. Most time you
+
+337
+00:22:06,821 --> 00:22:10,332
+can see my hands. And I've
+honestly, like during this thing
+
+338
+00:22:10,602 --> 00:22:14,652
+had been like seeing my hands in
+the video and been like, oh God,
+
+339
+00:22:14,682 --> 00:22:16,811
+get these out of here. You know?
+Cause I'm just like, like, I
+
+340
+00:22:16,811 --> 00:22:19,061
+don't know, what do I do with my
+hands? Big problem. Yeah. What do
+
+341
+00:22:19,061 --> 00:22:23,922
+I do with my whole body? Like
+standing in a group of people.
+
+342
+00:22:24,807 --> 00:22:28,047
+How do I stay? You know, like
+seriously, like I I've struggled
+
+343
+00:22:28,047 --> 00:22:31,076
+with that. You know, like I do
+just put my hands in my pockets
+
+344
+00:22:31,136 --> 00:22:31,977
+or, you know, I don't
+
+345
+00:22:31,977 --> 00:22:34,616
+Bekah: know. I like pockets and I
+just don't make enough pockets
+
+346
+00:22:34,616 --> 00:22:37,826
+for women. It's like, even
+earlier, Dan and I were like
+
+347
+00:22:37,826 --> 00:22:41,247
+sitting at this conference table
+talking like I move around a lot
+
+348
+00:22:41,247 --> 00:22:45,416
+and I've like recently become
+more aware of how much I move by
+
+349
+00:22:45,416 --> 00:22:48,297
+seeing other people on camera.
+And then I'm like constantly, I
+
+350
+00:22:48,297 --> 00:22:50,247
+think someone once gave me like
+feedback, don't move your hands
+
+351
+00:22:50,247 --> 00:22:53,487
+so much. It's distracting. Like
+whatever, like I'm gonna move my
+
+352
+00:22:53,487 --> 00:22:56,967
+hands as much as I want it
+because I can't. I said, we've
+
+353
+00:22:56,967 --> 00:23:00,356
+got spinny, Dan's got so many
+chairs. So I got to do a lot of
+
+354
+00:23:00,356 --> 00:23:05,997
+spinning. This is, this is what I
+do. I move all the time. But like
+
+355
+00:23:05,997 --> 00:23:09,817
+when I'm in front of the camera
+in my office, like I very much, I
+
+356
+00:23:09,836 --> 00:23:14,997
+have to try very hard to sit
+still and not move my hands
+
+357
+00:23:14,997 --> 00:23:17,757
+everywhere because that is not my
+natural state of.
+
+358
+00:23:23,136 --> 00:23:25,747
+Dan: I ended there. Yes. Um,
+
+359
+00:23:26,497 --> 00:23:29,467
+Bekah: we do the wave one time at
+Virtual Coffee in my breakout
+
+360
+00:23:29,467 --> 00:23:33,457
+room. We like, we, we
+alphabetized everybody and then
+
+361
+00:23:33,576 --> 00:23:35,946
+everybody went, it was very
+exciting
+
+362
+00:23:39,997 --> 00:23:48,156
+Dan: to Minnesota. Marie had to
+go um, yeah,
+
+363
+00:23:49,017 --> 00:23:53,307
+Bekah: we should. Um, is, is Kirk
+around? Can we bring Kirk on?
+
+364
+00:23:54,326 --> 00:24:02,547
+Dan: I dunno, it is, uh, Kirk
+day, which is where we started.
+
+365
+00:24:02,606 --> 00:24:08,007
+He responded well, that was 20
+minutes ago, I guess. Are you
+
+366
+00:24:08,007 --> 00:24:11,547
+dealing in, should I give him
+okay. We'll see if I can get
+
+367
+00:24:11,547 --> 00:24:14,396
+Bekah: her on him. Our celebrity,
+our resident celebrity.
+
+368
+00:24:15,416 --> 00:24:20,027
+Dan: It'll be funny. Uh, because
+once we get another person on
+
+369
+00:24:20,027 --> 00:24:26,781
+this call, You and me we'll be in
+one box and, oh man, this
+
+370
+00:24:26,791 --> 00:24:31,342
+Bekah: is crazy. Rick is at work.
+What's word two people do
+
+371
+00:24:31,342 --> 00:24:31,761
+Kirk: that.
+
+372
+00:24:32,662 --> 00:24:37,192
+Dan: Don't they know it's Kirk
+day. I'm pretty sure they do
+
+373
+00:24:37,192 --> 00:24:37,642
+because,
+
+374
+00:24:38,342 --> 00:24:40,981
+Bekah: well, I mean, maybe we
+could have any Kirk, Nick has
+
+375
+00:24:40,981 --> 00:24:44,071
+asked. That's a good question. So
+in our slack right now, most of
+
+376
+00:24:44,071 --> 00:24:49,422
+us have. Put our profile down,
+flipped it and reversed it. But
+
+377
+00:24:49,422 --> 00:24:50,082
+with Kirk's
+
+378
+00:24:50,561 --> 00:24:57,971
+Dan: I see him Kirk, or we're
+going to try to get Kirk in to
+
+379
+00:24:59,291 --> 00:25:06,402
+Bekah: join. Remember how to we
+are, sorry. We're doing our best
+
+380
+00:25:06,402 --> 00:25:11,612
+to bring our celebrity on the
+stream. At least take 10 fakes in
+
+381
+00:25:11,622 --> 00:25:14,801
+the chat as well. I want to shout
+out to Abby Perini because she
+
+382
+00:25:14,801 --> 00:25:18,731
+DME last night, she was like,
+after midnight, put up this in
+
+383
+00:25:18,731 --> 00:25:23,862
+your profile. So Abby has been an
+amazing observer of Kirk day, and
+
+384
+00:25:23,862 --> 00:25:29,416
+I could not have asked for
+anything better. We don't want
+
+385
+00:25:29,426 --> 00:25:36,086
+break. Where are we breaking out
+to turn off the world, please
+
+386
+00:25:36,086 --> 00:25:40,707
+stand up. Yes. Oh my goodness. We
+definitely need to, um, find more
+
+387
+00:25:40,707 --> 00:25:42,686
+ways to put Kirk into music.
+
+388
+00:25:43,106 --> 00:25:50,067
+Dan: All right. Kirk said he can
+join in three minutes. So we just
+
+389
+00:25:50,067 --> 00:25:52,436
+talked about this book for, I
+don't know, jokes. I can't really
+
+390
+00:25:52,586 --> 00:25:56,457
+Bekah: all right. I'll tell my
+joke. Um, have you all one about
+
+391
+00:25:56,457 --> 00:25:57,146
+pizza?
+
+392
+00:25:59,916 --> 00:26:00,936
+Dan: Nope. I haven't heard that
+one.
+
+393
+00:26:03,817 --> 00:26:05,616
+Bekah: Nevermind. It's cheesy.
+
+394
+00:26:09,717 --> 00:26:10,106
+Dan: Man.
+
+395
+00:26:11,247 --> 00:26:14,517
+Bekah: Well, we do the podcast.
+Dan always wants me to adjust my
+
+396
+00:26:14,517 --> 00:26:18,537
+microphone. And so then I try and
+tell him jokes, which he ignores
+
+397
+00:26:18,537 --> 00:26:22,676
+all of the time. And then some of
+our guests are nice enough to
+
+398
+00:26:22,676 --> 00:26:26,336
+laugh. So if you come on the
+podcast, please laugh at my jokes
+
+399
+00:26:26,906 --> 00:26:33,116
+and roll your eyes that day.
+Please encourage me in my keynote
+
+400
+00:26:33,116 --> 00:26:36,596
+talk that I'm giving in July. I'm
+just telling jokes for 15 minutes
+
+401
+00:26:36,596 --> 00:26:38,606
+straight because I can do
+whatever I want.
+
+402
+00:26:39,176 --> 00:26:41,817
+Dan: That's true. You're the
+keynote speaker. So that'll be
+
+403
+00:26:41,817 --> 00:26:49,076
+your first and only time being a
+key Joseph's to get away. I did
+
+404
+00:26:49,076 --> 00:26:55,257
+not fight. I rejected God to keep
+trying to trick
+
+405
+00:26:55,257 --> 00:27:02,227
+Bekah: me. Can't fire me anymore.
+All right. But if anybody else
+
+406
+00:27:02,227 --> 00:27:05,646
+has jokes, please put them in the
+chat and then I will deliver them
+
+407
+00:27:05,646 --> 00:27:07,567
+because she needs
+
+408
+00:27:07,567 --> 00:27:11,166
+Dan: to deliver them because you
+are the worst joke receiver in
+
+409
+00:27:11,166 --> 00:27:13,146
+the world. You know what she
+does. Yeah. You know what you do
+
+410
+00:27:13,146 --> 00:27:15,906
+when you, what I ask you, Joe,
+when I like, I have, there's been
+
+411
+00:27:15,906 --> 00:27:20,346
+times where I've like pulled out
+some jokes. Oh yeah. Yeah.
+
+412
+00:27:20,376 --> 00:27:23,406
+Because I know that you
+appreciate them, but she guesses
+
+413
+00:27:23,406 --> 00:27:27,217
+the answers. She like, she didn't
+say, I don't know what she like
+
+414
+00:27:27,936 --> 00:27:33,606
+tries to like it's a riddle. No,
+
+415
+00:27:34,836 --> 00:27:39,037
+Bekah: no. Oh no. Dan, I don't
+know. Can you tell me the answer?
+
+416
+00:27:40,626 --> 00:27:46,297
+Dan: No, that's not. What are you
+doing? You're fired again. Not
+
+417
+00:27:46,297 --> 00:27:47,436
+again for the first time.
+
+418
+00:27:53,557 --> 00:27:56,257
+Bekah: C. Exactly. Thank you,
+Joe. Joe knows. It's not joke.
+
+419
+00:27:56,257 --> 00:27:57,366
+It's a challenge. Every joke is
+the.
+
+420
+00:27:59,297 --> 00:28:02,477
+Dan: That's not a, it's not a
+joke,
+
+421
+00:28:02,656 --> 00:28:05,777
+Bekah: but a joke then is like a
+story that you tell with a
+
+422
+00:28:05,777 --> 00:28:07,517
+punchline at the end in
+
+423
+00:28:08,846 --> 00:28:20,656
+Dan: your oh, weird Kirk here.
+Um, okay. Well, according to
+
+424
+00:28:20,656 --> 00:28:25,997
+Kirk, one minute left, so we'll
+see, Kirk was not consulted at
+
+425
+00:28:25,997 --> 00:28:30,166
+all for any of this. Uh, that is
+true. I try not to consult Kirk
+
+426
+00:28:30,797 --> 00:28:32,326
+at a time on things where
+
+427
+00:28:32,656 --> 00:28:33,136
+Bekah: we need
+
+428
+00:28:36,767 --> 00:28:40,366
+Dan: right, exactly. Or, uh, you
+know, where he might have time to
+
+429
+00:28:40,366 --> 00:28:44,416
+think about whether he wants to
+engage with us. We try to try to
+
+430
+00:28:44,416 --> 00:28:47,862
+pull him in, you know, before he
+has a channel. You know? Yeah,
+
+431
+00:28:47,951 --> 00:28:48,221
+Bekah: no,
+
+432
+00:28:48,221 --> 00:28:48,971
+Dan: we avoid my
+
+433
+00:28:48,971 --> 00:28:52,842
+Bekah: ridiculousness, Joe. Yes,
+we do need a scoreboard. Maybe
+
+434
+00:28:52,842 --> 00:28:58,872
+that will be next month. Monthly
+challenge, 97 and counting.
+
+435
+00:29:01,061 --> 00:29:05,231
+Dan: Oh God. How did I not see
+that coming? Honestly,
+
+436
+00:29:05,741 --> 00:29:08,442
+Bekah: I don't know. I didn't
+even think about it. And so we
+
+437
+00:29:08,442 --> 00:29:17,321
+started talking and you brought
+it up. Yes. A slack channel or a
+
+438
+00:29:17,321 --> 00:29:20,352
+slack bot that posts every time
+that Dan fires
+
+439
+00:29:20,352 --> 00:29:24,001
+Dan: me. Um, how about a select
+button that just announces the
+
+440
+00:29:24,001 --> 00:29:24,571
+Bekah is fire.
+
+441
+00:29:25,922 --> 00:29:28,201
+Bekah: Everybody just
+continuously buyers' me over and
+
+442
+00:29:28,201 --> 00:29:37,106
+over. It's okay. Just keep firing
+me. It's fine. Just preparing to
+
+443
+00:29:37,106 --> 00:29:40,616
+be up here. Yeah, he probably,
+sorry, Kirk, we're sorry that you
+
+444
+00:29:40,616 --> 00:29:44,277
+have to prepare for us. We were
+trying to send a drone that would
+
+445
+00:29:44,277 --> 00:29:47,067
+just go scoop up Kirk and bring
+him to Cleveland.
+
+446
+00:29:47,817 --> 00:29:51,686
+Dan: Well, maybe it's you will
+cut out the echo. I was just
+
+447
+00:29:51,686 --> 00:29:56,426
+thinking I have headphones and
+then I was, I don't know how to
+
+448
+00:29:56,426 --> 00:30:01,086
+do that. Really. We're just going
+to try it. And I'm going to count
+
+449
+00:30:01,086 --> 00:30:05,826
+on you guys to tell us if there's
+a bad echo, cause I'm just going
+
+450
+00:30:05,826 --> 00:30:07,926
+to play it over the speakers. And
+because zoom is actually usually
+
+451
+00:30:07,926 --> 00:30:11,737
+pretty good at that. Like, I
+mean, if that's all we have to
+
+452
+00:30:11,737 --> 00:30:15,247
+do, uh, you know, we can do
+AirPods or something, but like,
+
+453
+00:30:15,247 --> 00:30:19,507
+that'll be annoying. I have, I'm
+trying to think if there's any
+
+454
+00:30:19,507 --> 00:30:27,446
+other solution, literally this is
+the first time I've ever. Sat
+
+455
+00:30:27,446 --> 00:30:31,047
+next to somebody and try to be
+beyond, uh,
+
+456
+00:30:31,166 --> 00:30:35,696
+Bekah: you know, I mean, if I
+have my computer, I can, yeah.
+
+457
+00:30:35,696 --> 00:30:35,997
+And then like
+
+458
+00:30:35,997 --> 00:30:38,727
+Dan: you could go over the other
+fucking room and do that like,
+
+459
+00:30:38,936 --> 00:30:42,146
+oh, sorry. Uh, I did not mean to
+curse, but she made me have two
+
+460
+00:30:42,146 --> 00:30:47,366
+beers and she, you know, she
+forced me to do it and, um, which
+
+461
+00:30:47,366 --> 00:30:49,196
+I've been meaning to talk to HR
+about. And they said you're
+
+462
+00:30:49,196 --> 00:30:56,366
+fired. The reason I swerve is
+because like you going out
+
+463
+00:30:56,366 --> 00:30:58,586
+somewhere else sounds not nothing
+is my
+
+464
+00:30:58,586 --> 00:31:02,636
+Bekah: point. I meant just have
+my computer and log on and I
+
+465
+00:31:02,636 --> 00:31:06,116
+would sit here, but just so I
+could put the sound in my ear,
+
+466
+00:31:06,477 --> 00:31:08,366
+Dan: I feel like you'd get a
+delay, plus you'd hear me through
+
+467
+00:31:08,366 --> 00:31:17,007
+there too. And through here too.
+So we're going to try.
+
+468
+00:31:19,257 --> 00:31:21,477
+Bekah: Do they have like covers
+for your air positive. You're
+
+469
+00:31:21,477 --> 00:31:24,116
+sharing them for someone else.
+Like, you know how like they have
+
+470
+00:31:24,116 --> 00:31:27,987
+like the tongue depressor and
+they cover it or like the ear
+
+471
+00:31:27,987 --> 00:31:30,176
+thing, they put a little thing.
+Do they have one of those for
+
+472
+00:31:30,176 --> 00:31:30,747
+your AirPods?
+
+473
+00:31:31,977 --> 00:31:37,317
+Dan: The, uh, that's as soon as I
+thought that that's where like my
+
+474
+00:31:37,317 --> 00:31:39,926
+AirPods or like grocery now, I
+wouldn't want to share that with
+
+475
+00:31:39,926 --> 00:31:42,567
+anybody. So that would be an
+embarrassing thing to do as well.
+
+476
+00:31:43,767 --> 00:31:50,156
+Um, there has to be some sort of
+like, I don't know. I feel like
+
+477
+00:31:50,156 --> 00:31:52,797
+back in the day they used to have
+a lot of cool things where you'd
+
+478
+00:31:52,797 --> 00:31:57,356
+split the, you know, I probably
+honestly, yeah, where they'd have
+
+479
+00:31:57,356 --> 00:32:00,057
+a little splitter. So you have
+your iPod and the cord with the
+
+480
+00:32:00,057 --> 00:32:04,586
+two things, and then you could
+sit next to your friend in the,
+
+481
+00:32:04,707 --> 00:32:09,116
+or in the bus or the car and both
+of them the same thing. Yeah. But
+
+482
+00:32:09,116 --> 00:32:13,287
+those were recorded, you know,
+they were like, no, I feel like
+
+483
+00:32:13,287 --> 00:32:17,291
+cool. Kids in high school that
+listened to cool music and had
+
+484
+00:32:17,291 --> 00:32:23,382
+cool friends. I didn't have it
+either. It just seemed cool.
+
+485
+00:32:27,281 --> 00:32:30,701
+Bekah: Kirk is talking. It's set
+up there. Where is he? Kirk,
+
+486
+00:32:31,271 --> 00:32:31,362
+are
+
+487
+00:32:31,362 --> 00:32:38,652
+Kirk: you here? I mean, I can see
+you. I want you to know, I just
+
+488
+00:32:38,652 --> 00:32:44,501
+shouted watching the stream while
+I was getting ready. And then
+
+489
+00:32:45,071 --> 00:32:47,531
+there, wasn't a moment where I'm
+like, this is there's a lot going
+
+490
+00:32:47,531 --> 00:32:54,582
+on here. I don't know where I fit
+in. Um, don't have any jokes and
+
+491
+00:32:54,582 --> 00:33:05,547
+I don't have any jokes, rule
+formats. So, you know, Bekah. I
+
+492
+00:33:05,547 --> 00:33:07,977
+feel like, what do you think are
+jokes and not what other people
+
+493
+00:33:16,497 --> 00:33:19,467
+put them together and said, that
+is all of jokes.
+
+494
+00:33:25,017 --> 00:33:30,326
+Dan: I'm so glad you're here.
+Says that was decades ago. I know
+
+495
+00:33:30,326 --> 00:33:33,626
+it was because it was high
+school. Thank you for putting
+
+496
+00:33:33,626 --> 00:33:40,017
+that out there. I appreciate
+that. All right. Everybody else
+
+497
+00:33:40,017 --> 00:33:43,916
+has said there's no audio issues.
+We are good.
+
+498
+00:33:44,277 --> 00:33:48,386
+Bekah: And we got the celebrity
+of the year here. Welcome. It's
+
+499
+00:33:48,386 --> 00:33:48,896
+been a great
+
+500
+00:33:48,896 --> 00:33:50,396
+Dan: year. The multi-verse
+
+501
+00:33:51,547 --> 00:33:55,346
+Kirk: yeah, this entire day, I've
+just been seeing threats and
+
+502
+00:33:55,346 --> 00:33:57,507
+going. I don't remember talking
+about,
+
+503
+00:34:00,557 --> 00:34:02,576
+Dan: I've been having the
+opposite problem where I read as
+
+504
+00:34:02,576 --> 00:34:05,467
+reading through a thread and was
+like, Oh, who wrote that? Oh,
+
+505
+00:34:05,467 --> 00:34:05,757
+that was
+
+506
+00:34:05,757 --> 00:34:08,876
+Bekah: me. Dad said, I think
+we're at lunches.
+
+507
+00:34:11,126 --> 00:34:15,536
+Kirk: Yes. This is again, I just
+want to make the record clear
+
+508
+00:34:15,536 --> 00:34:21,297
+that I was not consulted about
+any of this mocha I saw, I just
+
+509
+00:34:21,297 --> 00:34:23,186
+assumed slack. Wasn't working.
+
+510
+00:34:24,746 --> 00:34:27,567
+Bekah: Nick Taylor, like somebody
+would maybe read out was like,
+
+511
+00:34:28,266 --> 00:34:30,746
+I'm seeing pictures of Kirk and
+Nick is like, it happens
+
+512
+00:34:30,746 --> 00:34:33,777
+sometimes. And it does like
+sometimes slack put other
+
+513
+00:34:33,777 --> 00:34:34,737
+people's pictures
+
+514
+00:34:36,447 --> 00:34:37,976
+Dan: upside down, you know, and
+
+515
+00:34:38,007 --> 00:34:38,336
+Bekah: flipped it.
+
+516
+00:34:39,896 --> 00:34:42,567
+Kirk: Okay. So I'm going to be
+clear. I was very dense. It took
+
+517
+00:34:42,567 --> 00:34:46,297
+me way too long to figure out
+that's what that was. Again, I'm
+
+518
+00:34:46,516 --> 00:34:50,567
+probably just not working. And
+then I thought it was like, oh,
+
+519
+00:34:50,567 --> 00:34:54,597
+okay. Let's add a one way for
+Kirk to distinguish himself and
+
+520
+00:34:54,597 --> 00:34:57,597
+other people. But it wasn't even
+about me, which I feel like is
+
+521
+00:34:57,597 --> 00:35:01,436
+Bekah: the perfect
+
+522
+00:35:01,436 --> 00:35:05,336
+Kirk: days about. That's really
+what, it's a, it's a VC event.
+
+523
+00:35:05,427 --> 00:35:05,847
+I'm just
+
+524
+00:35:07,376 --> 00:35:09,626
+Bekah: celebrating how much we
+love Kurt.
+
+525
+00:35:12,146 --> 00:35:12,356
+Kirk: We're
+
+526
+00:35:12,356 --> 00:35:14,876
+Bekah: lucky that Missy Elliott
+responded to you. So we can
+
+527
+00:35:14,876 --> 00:35:18,507
+remember every day it's like
+Valentine's day because some
+
+528
+00:35:18,507 --> 00:35:21,027
+people don't like Valentine's
+day. Cause they're like, what is
+
+529
+00:35:21,027 --> 00:35:24,657
+this? It's a commercial holiday
+too. So us chocolate and flowers
+
+530
+00:35:24,717 --> 00:35:29,217
+and cars. And, but it's also a
+day to like remind you to stop
+
+531
+00:35:29,217 --> 00:35:33,507
+and think like, oh, I am going
+to, um, tell this person that I
+
+532
+00:35:33,507 --> 00:35:38,217
+love them today. Right? And so
+like, we often forget to tell you
+
+533
+00:35:38,217 --> 00:35:42,056
+every single day that we love
+you, Kirk. So this is our Kirk
+
+534
+00:35:42,086 --> 00:35:45,836
+Valentine's day slash Missy
+Elliot day. We do
+
+535
+00:35:45,836 --> 00:35:49,137
+Kirk: love you. We love you. Uh,
+let's see, I wasn't prepared for
+
+536
+00:35:49,137 --> 00:35:49,706
+this either, but
+
+537
+00:35:53,967 --> 00:35:55,586
+Dan: since it's Kirk day, do you
+want to back.
+
+538
+00:35:56,786 --> 00:36:05,637
+Kirk: No. I mean, I feel like I
+have to be the one person who
+
+539
+00:36:05,637 --> 00:36:06,416
+doesn't fight.
+
+540
+00:36:08,246 --> 00:36:08,936
+Dan: Tell me if people
+
+541
+00:36:08,936 --> 00:36:10,646
+Bekah: need to think of me.
+
+542
+00:36:10,947 --> 00:36:13,677
+Kirk: I mean, just based on the
+chat response, people seem to be
+
+543
+00:36:13,677 --> 00:36:21,507
+really into UV as much as like on
+their tier list of events, Kirk
+
+544
+00:36:21,507 --> 00:36:25,617
+day, back of being fired. That's
+what the people want.
+
+545
+00:36:26,967 --> 00:36:32,126
+Bekah: The people want me to be
+fine. I don't even know what to
+
+546
+00:36:32,126 --> 00:36:35,487
+do. I'm going to have to like,
+think about this very hard on my
+
+547
+00:36:35,487 --> 00:36:39,927
+two and a half hour, drive out.
+Why everybody loves me fired.
+
+548
+00:36:40,677 --> 00:36:43,976
+Kirk: Well, you seem to be like
+really enthused about it too,
+
+549
+00:36:45,356 --> 00:36:47,306
+because you're the one who brings
+it up. Dan, doesn't
+
+550
+00:36:47,306 --> 00:36:47,786
+Bekah: bring it up.
+
+551
+00:36:50,367 --> 00:36:52,646
+Kirk: It's like your origin
+story. It is,
+
+552
+00:36:53,007 --> 00:36:54,626
+Bekah: it is my origin story.
+
+553
+00:36:58,407 --> 00:37:01,467
+Kirk: Not the teaching, not the
+women who is it's like it all
+
+554
+00:37:01,467 --> 00:37:08,967
+started when Dan fire and then a
+passion live inside, less
+
+555
+00:37:08,967 --> 00:37:13,016
+Bekah: fire. My other origin
+story is not, uh, it's. It's not,
+
+556
+00:37:13,077 --> 00:37:19,916
+um, it's rated PG 13 decoding.
+
+557
+00:37:21,117 --> 00:37:26,657
+Kirk: Oh, why did I get into
+coding? I didn't, you
+
+558
+00:37:26,657 --> 00:37:29,146
+Bekah: can tell that one, but
+then people always feel awkward.
+
+559
+00:37:29,146 --> 00:37:32,027
+Cause like when someone asks you
+how you got into coding and you
+
+560
+00:37:32,027 --> 00:37:34,757
+use the word vagina, they're
+suddenly like, oh, weird about
+
+561
+00:37:34,757 --> 00:37:40,097
+it. Yeah, for sure. I don't think
+you can say that in a PG movie,
+
+562
+00:37:43,007 --> 00:37:46,666
+you can drop one. F-bomb in a PG
+13 movie. So we're still a PG 13
+
+563
+00:37:46,666 --> 00:37:48,407
+here. We're good, Dan.
+
+564
+00:37:50,456 --> 00:37:50,697
+Dan: What's
+
+565
+00:37:53,637 --> 00:37:55,166
+Kirk: it because
+
+566
+00:37:55,166 --> 00:37:58,166
+Bekah: he already dropped one
+today. He thought her one and
+
+567
+00:37:58,166 --> 00:38:01,106
+only he was like, I'm going to be
+the one that hit the
+
+568
+00:38:01,106 --> 00:38:02,577
+Dan: truck. Cause I was worried
+about you leaving.
+
+569
+00:38:04,706 --> 00:38:07,016
+Kirk: Okay. Yeah. I know you're
+in Dan's house now. So you get
+
+570
+00:38:07,016 --> 00:38:09,146
+like what's the body
+
+571
+00:38:10,056 --> 00:38:14,847
+Dan: is my office it's office. Oh
+yeah. It's actually a Sprockets
+
+572
+00:38:14,936 --> 00:38:17,967
+office, which is who I do most of
+the work through. But I have my
+
+573
+00:38:17,967 --> 00:38:22,527
+own like, well, I don't know this
+stuff. You know, I have my own
+
+574
+00:38:22,527 --> 00:38:23,817
+room. That is my office.
+
+575
+00:38:27,577 --> 00:38:28,137
+Kirk: I have like,
+
+576
+00:38:29,786 --> 00:38:31,166
+Dan: there's a suite of offices.
+
+577
+00:38:32,927 --> 00:38:35,987
+Bekah: It's got its own little
+pod. There's a conference in a
+
+578
+00:38:35,987 --> 00:38:36,916
+couple of offices.
+
+579
+00:38:37,487 --> 00:38:39,887
+Kirk: I believe that you are both
+in a tree house. I don't believe
+
+580
+00:38:39,887 --> 00:38:41,297
+anything you say. I
+
+581
+00:38:41,297 --> 00:38:42,226
+Bekah: would like to be in a tree
+
+582
+00:38:42,226 --> 00:38:48,987
+Dan: house. I laid, I went, uh,
+To last week, when was I going? I
+
+583
+00:38:48,987 --> 00:38:52,137
+don't know, two weeks ago,
+whatever it was to Amish country
+
+584
+00:38:52,137 --> 00:38:56,516
+and got a tree house like Airbnb,
+it's like a newly built thing
+
+585
+00:38:56,516 --> 00:38:59,186
+that was like, well, we raised up
+in the trees and stuff. It was
+
+586
+00:38:59,186 --> 00:39:01,646
+really cool. Yeah. Highly
+recommend
+
+587
+00:39:02,666 --> 00:39:05,697
+Bekah: Gemma. And I drove through
+Amish country recently on
+
+588
+00:39:05,697 --> 00:39:09,626
+accident. Cause I made a wrong
+turn and we went for shopping and
+
+589
+00:39:09,626 --> 00:39:12,806
+I, I got some large plastic bins
+for $3, each
+
+590
+00:39:13,916 --> 00:39:14,967
+Kirk: much plastic things.
+
+591
+00:39:15,447 --> 00:39:15,896
+Bekah: No
+
+592
+00:39:17,637 --> 00:39:20,097
+Dan: one thing I learned this
+trip, lots of Amish people now
+
+593
+00:39:20,126 --> 00:39:23,786
+are into e-bikes, which was a
+surprise to me, but it was cool.
+
+594
+00:39:24,266 --> 00:39:27,447
+And it made sense once I thought
+about it. So like lots of, uh,
+
+595
+00:39:27,626 --> 00:39:30,056
+and it was honestly, there was a
+couple of men, mostly a lot of
+
+596
+00:39:30,056 --> 00:39:34,347
+women riding around on the
+country highways. I mean the same
+
+597
+00:39:34,347 --> 00:39:37,706
+house as the buggies are riding
+on, but like, but they're just
+
+598
+00:39:37,706 --> 00:39:40,376
+like, and they usually had a
+little bike trailer, you know,
+
+599
+00:39:40,646 --> 00:39:44,831
+but they're just like fine out.
+Um, I went on. That's
+
+600
+00:39:44,831 --> 00:39:48,911
+Kirk: cool, interesting fun fact.
+Early in the history of bikes,
+
+601
+00:39:49,061 --> 00:39:52,751
+um, there was like a massive
+upsurge in popularity with women
+
+602
+00:39:53,112 --> 00:39:55,811
+because it gave them like assets
+to travel and like see their
+
+603
+00:39:55,811 --> 00:39:59,411
+friends without having to like go
+through their husbands. And so
+
+604
+00:39:59,411 --> 00:40:02,172
+there was like a big like
+reactionary thing so that people
+
+605
+00:40:02,351 --> 00:40:05,862
+there like published articles
+about like the bicycle. Is it
+
+606
+00:40:05,862 --> 00:40:13,322
+ruining your woman to stay home
+again? Is that how that goes? But
+
+607
+00:40:13,322 --> 00:40:17,532
+I just, I used to imagine some
+like do just like these bicycles,
+
+608
+00:40:17,952 --> 00:40:19,541
+they're hanging out with their
+shreds.
+
+609
+00:40:20,621 --> 00:40:23,711
+Bekah: I don't ride a bicycle. I
+don't ride
+
+610
+00:40:23,711 --> 00:40:24,342
+Kirk: bicycles.
+
+611
+00:40:27,251 --> 00:40:28,811
+Dan: Well, both. You don't know
+how to ride a
+
+612
+00:40:28,811 --> 00:40:31,632
+Bekah: bike? Well, I, I did, but
+then I fell off it too many
+
+613
+00:40:31,632 --> 00:40:37,871
+times. So I stopped. I don't
+know. I mean, do you know how, if
+
+614
+00:40:37,871 --> 00:40:41,396
+you keep falling down. I had a
+bunch of stitches in my elbow.
+
+615
+00:40:41,396 --> 00:40:43,677
+See, there's still scar there. I
+don't think you can see that on
+
+616
+00:40:43,677 --> 00:40:49,077
+screen. Thanks for confirming. It
+was larger. Okay. For a long
+
+617
+00:40:49,077 --> 00:40:54,356
+time, I once ran into a pole
+while riding on a bicycle.
+
+618
+00:40:57,327 --> 00:41:06,867
+Dan: I don't ride bicycle as that
+a flat path. I think, I feel
+
+619
+00:41:06,867 --> 00:41:09,567
+like, you know how you're just
+not good at it and that's fine. I
+
+620
+00:41:09,567 --> 00:41:12,686
+mean like you you're allowed to
+be not good at things, but you
+
+621
+00:41:12,686 --> 00:41:15,117
+know how to ride a bike. There's
+my point. You saying I'm not
+
+622
+00:41:15,117 --> 00:41:15,297
+Bekah: good
+
+623
+00:41:15,297 --> 00:41:18,867
+Dan: at riding bikes challenge,
+challenge. I just don't
+
+624
+00:41:18,867 --> 00:41:21,237
+Kirk: know. How can you swim?
+
+625
+00:41:22,166 --> 00:41:23,277
+Bekah: I'm a great swimmer.
+
+626
+00:41:23,907 --> 00:41:26,217
+Kirk: Okay. I'm just trying to
+figure out like in a triathlon,
+
+627
+00:41:26,217 --> 00:41:37,677
+like where are you struggling? So
+it's like swimming, running,
+
+628
+00:41:37,677 --> 00:41:38,067
+cycling.
+
+629
+00:41:39,027 --> 00:41:42,476
+Bekah: Um, yes. Yeah, that's it.
+I don't know. I probably would
+
+630
+00:41:42,476 --> 00:41:45,356
+not ride a skateboard. I tried to
+do that with my child's
+
+631
+00:41:45,356 --> 00:41:49,226
+skateboard and I was like, this
+is going to break my hip. Yeah. I
+
+632
+00:41:49,226 --> 00:41:52,916
+was just worried about my no sled
+riding. I once almost broke my
+
+633
+00:41:52,916 --> 00:41:55,527
+hip sled riding. I had to go to
+the emergency room. It wasn't
+
+634
+00:41:55,527 --> 00:42:00,806
+broken, but gave me lifelong
+problems. I was on a mattress. I
+
+635
+00:42:00,806 --> 00:42:06,686
+sled road on a mattress. That was
+a bad idea. So I was like, not
+
+636
+00:42:06,686 --> 00:42:09,686
+good at sled riding. And so then
+these boys in college, they were
+
+637
+00:42:09,686 --> 00:42:14,277
+like, Hey, let's take this
+mattress and we'll go on it. And
+
+638
+00:42:14,277 --> 00:42:17,487
+you'll land on the mattress and
+it's soft. And that makes sense.
+
+639
+00:42:17,967 --> 00:42:21,686
+Well, okay. So there was a ramp,
+but I was like, don't come over
+
+640
+00:42:21,686 --> 00:42:24,146
+the ring. They promised they
+wouldn't go over the ramp and you
+
+641
+00:42:24,146 --> 00:42:26,907
+know what happened? Everybody
+ditched the mattress except me
+
+642
+00:42:26,907 --> 00:42:30,896
+and one other guy. And he landed
+on top of me and he was 200. I
+
+643
+00:42:30,896 --> 00:42:33,626
+landed on my head on the sound
+good. I
+
+644
+00:42:34,226 --> 00:42:38,336
+Kirk: started with, I'm not good
+at sled writing, but as far as
+
+645
+00:42:38,336 --> 00:42:41,456
+I'm aware, now, I remember where
+I live. So I'm admittedly
+
+646
+00:42:41,456 --> 00:42:45,327
+ignorant of these things, but
+aren't you just, isn't it just
+
+647
+00:42:45,327 --> 00:42:47,277
+like it's happening to you.
+
+648
+00:42:48,027 --> 00:42:50,597
+Dan: It's mostly the ramp. That
+was a problem. I feel like
+
+649
+00:42:51,536 --> 00:42:54,746
+Bekah: it's easiest thing. You're
+totally
+
+650
+00:42:54,746 --> 00:42:58,047
+Dan: right though. You just like
+sit on the sled and then let us
+
+651
+00:42:59,097 --> 00:43:00,536
+Bekah: know sometimes like you
+reckon,
+
+652
+00:43:01,347 --> 00:43:06,356
+Dan: I like the part about sled
+riding is picking your spot. Uh,
+
+653
+00:43:06,387 --> 00:43:09,356
+cause if you go where there's
+like huge ramps or like, I don't
+
+654
+00:43:09,356 --> 00:43:12,447
+know where else you crashed, but
+like trees and stuff. Probably
+
+655
+00:43:12,447 --> 00:43:16,137
+not what slides are hard to
+steal. Like they don't, they
+
+656
+00:43:16,137 --> 00:43:19,586
+don't, they don't, they're not
+going to like do a sharp turn
+
+657
+00:43:19,586 --> 00:43:19,976
+steer.
+
+658
+00:43:20,217 --> 00:43:22,766
+Bekah: I remastered my fear
+though. My brother is down the
+
+659
+00:43:22,766 --> 00:43:27,206
+street and has a great sled
+riding. I have gone down that
+
+660
+00:43:27,206 --> 00:43:27,867
+hill multiple times.
+
+661
+00:43:28,047 --> 00:43:32,936
+Dan: You see them, you can affect
+like, like slow gradual turns on
+
+662
+00:43:32,936 --> 00:43:37,137
+sleds. You know what I mean? But
+like what I'm saying, you can
+
+663
+00:43:37,137 --> 00:43:40,617
+turn slowly while you're going
+fast, straight down, but you have
+
+664
+00:43:40,617 --> 00:43:44,246
+to plan ahead. You have to plan
+ahead or just ditch. It is what I
+
+665
+00:43:44,456 --> 00:43:45,237
+would, I do want to control.
+
+666
+00:43:47,067 --> 00:43:49,137
+Bekah: He says I lift heavy
+things and I flip them down.
+
+667
+00:43:49,137 --> 00:43:51,347
+Dan: Somebody said, we should do
+a challenge, a bike ride shot. It
+
+668
+00:43:51,356 --> 00:43:56,126
+would be it. I can actually sit
+on a bike and not move and not
+
+669
+00:43:56,126 --> 00:43:56,577
+fall over.
+
+670
+00:43:56,907 --> 00:44:00,086
+Bekah: Deanna has a nickname for
+his bike riding.
+
+671
+00:44:01,617 --> 00:44:08,067
+Dan: Yeah. It's all shot. Yeah,
+somebody named, I got it
+
+672
+00:44:08,246 --> 00:44:12,927
+originally from bike riding, but,
+uh, that was, I don't know what
+
+673
+00:44:12,927 --> 00:44:18,567
+all that stuff was with. Yeah.
+Like beg his daughters, uh, sent
+
+674
+00:44:18,567 --> 00:44:23,202
+me a poop emoji drawings because
+every time they come on, Thing.
+
+675
+00:44:23,291 --> 00:44:25,902
+And they always want, you know,
+whatever they're waving and
+
+676
+00:44:25,902 --> 00:44:27,581
+stuff. And so I just started
+sending people from what he's
+
+677
+00:44:27,581 --> 00:44:29,021
+named fight or flights. Well,
+
+678
+00:44:29,021 --> 00:44:32,722
+Kirk: I've always, that's been
+very validating to me. Bekah's
+
+679
+00:44:32,742 --> 00:44:36,672
+family associates being with like
+pancakes and hot sauce and like
+
+680
+00:44:36,702 --> 00:44:37,362
+van kits.
+
+681
+00:44:39,282 --> 00:44:42,612
+Bekah: So I don't think anybody
+knows this story. So one morning,
+
+682
+00:44:42,641 --> 00:44:46,271
+a couple of weeks ago we were
+making pancakes and my daughters
+
+683
+00:44:46,271 --> 00:44:50,561
+decided they were going to make
+pan Kirk's some pancakes that
+
+684
+00:44:50,561 --> 00:44:54,101
+looked like Kirk. Um, and then
+they argued over who would eat
+
+685
+00:44:54,101 --> 00:44:57,072
+the pan Kirk, but then it, we
+only had a little bit of battery
+
+686
+00:44:57,072 --> 00:45:00,641
+life. So there was only one pan
+Kirk and it looked like a tiny
+
+687
+00:45:00,641 --> 00:45:05,621
+baby. So I think Gemma, a baby
+Kirk, Kirk is like, that is
+
+688
+00:45:06,222 --> 00:45:08,202
+strange. And
+
+689
+00:45:08,202 --> 00:45:11,742
+Kirk: she sent me this like,
+look, they made like, there's
+
+690
+00:45:11,742 --> 00:45:18,851
+nothing special about the
+pancakes, small pancake. There's
+
+691
+00:45:18,851 --> 00:45:22,481
+no like chocolate chip face is
+just a pancake.
+
+692
+00:45:22,811 --> 00:45:24,702
+Bekah: We did our best with what
+we had. Okay.
+
+693
+00:45:28,302 --> 00:45:33,222
+Kirk: Don't tell them it's very
+heartwarming, but also quite
+
+694
+00:45:33,222 --> 00:45:36,492
+strange. Um, I only know how to
+make pancakes from scratch, not
+
+695
+00:45:36,492 --> 00:45:39,851
+the mix. And we're like
+proportions. I learned it at, or
+
+696
+00:45:39,851 --> 00:45:42,641
+the only way I can do it. So I
+can only make like enough
+
+697
+00:45:42,641 --> 00:45:48,371
+pancakes, like a full family, but
+my family quickly, like you don't
+
+698
+00:45:48,371 --> 00:45:52,572
+want pancakes. So I would just
+eat like two pounds of pancakes
+
+699
+00:45:52,572 --> 00:45:53,021
+myself.
+
+700
+00:45:53,052 --> 00:45:53,561
+Bekah: Cause I know.
+
+701
+00:45:56,862 --> 00:45:58,032
+Dan: It's true. They're good.
+That way.
+
+702
+00:45:58,961 --> 00:46:01,211
+Kirk: Or I could eat two pounds,
+right.
+
+703
+00:46:01,211 --> 00:46:04,572
+Dan: So yeah, bragging at this
+point is you get to eat two
+
+704
+00:46:04,572 --> 00:46:04,931
+pounds of,
+
+705
+00:46:05,442 --> 00:46:08,202
+Kirk: and then I go up to them
+like you made them do this.
+
+706
+00:46:11,981 --> 00:46:16,331
+Dan: I, uh, so we were talking, I
+mean, we wanted to hang out in
+
+707
+00:46:16,331 --> 00:46:18,552
+the stream or whatever, and just
+hang out with people. We talked
+
+708
+00:46:18,552 --> 00:46:21,311
+about doing a podcast, like
+making this like a live podcast
+
+709
+00:46:21,311 --> 00:46:26,442
+episode. I realized that we
+didn't do a random question or
+
+710
+00:46:26,442 --> 00:46:30,072
+anything like that. So I was
+just, I don't have a plan for
+
+711
+00:46:30,072 --> 00:46:33,041
+this. I was thinking about
+somebody has a as, as a good, you
+
+712
+00:46:33,041 --> 00:46:35,862
+know, random question or Kirk, if
+you, while in
+
+713
+00:46:35,862 --> 00:46:43,211
+Kirk: VC, today or riddle really
+icebreaker was which part of not,
+
+714
+00:46:43,211 --> 00:46:46,092
+which part of your body hurts.
+Cause the answer can be multiple
+
+715
+00:46:46,331 --> 00:46:50,231
+will, like, which is the one
+you've noticed hurting like most
+
+716
+00:46:50,231 --> 00:46:53,922
+recently. Cause somehow we just
+all started talking to you about
+
+717
+00:46:53,922 --> 00:46:54,271
+the parts.
+
+718
+00:46:55,496 --> 00:46:59,257
+Bekah: That's my traps. I trust
+
+719
+00:47:00,447 --> 00:47:01,376
+Dan: which ones are your trucks?
+
+720
+00:47:05,726 --> 00:47:09,777
+Bekah: I have builds up too much
+muscle, and now it's very tight
+
+721
+00:47:10,257 --> 00:47:12,086
+and it hurts every day. No
+problem.
+
+722
+00:47:14,817 --> 00:47:18,567
+Dan: I didn't do many trap
+exercises. So yeah,
+
+723
+00:47:18,927 --> 00:47:21,416
+Kirk: when I was actually in
+school, I did all the triangle
+
+724
+00:47:21,416 --> 00:47:22,186
+workouts I saw
+
+725
+00:47:22,717 --> 00:47:25,617
+Dan: I get in the gym and I think
+geometry I'm like, you know, the
+
+726
+00:47:25,617 --> 00:47:35,157
+strap designs Robinson's and you
+got to get the whole, the acute
+
+727
+00:47:35,336 --> 00:47:39,867
+and the acute and the up twos
+triangles, and then make sure you
+
+728
+00:47:39,867 --> 00:47:46,757
+hit the, uh, what's the what's
+the perfect triangle. Equal equal
+
+729
+00:47:47,036 --> 00:47:50,606
+lateral equal lateral triangle as
+well. Make sure you hit all three
+
+730
+00:47:50,606 --> 00:47:52,976
+of those. If you want to do a
+full workout, then you get into
+
+731
+00:47:52,976 --> 00:47:57,387
+the 3d and you get some cubes and
+you know, you get some, uh, other
+
+732
+00:47:57,387 --> 00:48:00,717
+Hedron oh man, this is where I
+almost had it.
+
+733
+00:48:02,907 --> 00:48:06,387
+Kirk: And this is what we're
+saying. And then someone in the
+
+734
+00:48:06,387 --> 00:48:10,286
+slack was like, who could lift
+more weight? Like who could like
+
+735
+00:48:10,286 --> 00:48:12,717
+deadlift more? I'm like, it's,
+it's definitely that,
+
+736
+00:48:12,746 --> 00:48:15,927
+Dan: um, deadlift, deadlift,
+Bekah would very easily. I mean,
+
+737
+00:48:15,927 --> 00:48:18,447
+most of these probably she would
+anyway, but like a, a deadlift,
+
+738
+00:48:18,956 --> 00:48:21,327
+any of the ones where you need a
+form, you need form and stuff.
+
+739
+00:48:21,327 --> 00:48:24,416
+Like that's all the proper form
+I'm saying I would just kill
+
+740
+00:48:24,416 --> 00:48:27,686
+myself. Like I would like my back
+or something. You know what I
+
+741
+00:48:27,686 --> 00:48:32,157
+mean? I have literally never
+works out. Like I'm fairly
+
+742
+00:48:32,157 --> 00:48:35,876
+strong, but Bekah works out all
+the time. If it is very strong, I
+
+743
+00:48:35,876 --> 00:48:39,831
+feel like a. I feel like a bench
+press is where, like, I feel like
+
+744
+00:48:39,831 --> 00:48:46,371
+a bench press, I probably could
+equal her because I don't have to
+
+745
+00:48:46,371 --> 00:48:49,641
+worry about hurting myself very
+badly because of my back. You
+
+746
+00:48:49,641 --> 00:48:52,791
+know what I mean? Then it's just
+like, and then it's, you know,
+
+747
+00:48:53,632 --> 00:48:57,831
+but like any of the ones that
+like requires skill, I mean,
+
+748
+00:48:58,461 --> 00:49:01,222
+Bekah: Jesse and I talked about
+it last night. I was like, I
+
+749
+00:49:01,222 --> 00:49:02,481
+think Dan could crush me in,
+
+750
+00:49:02,911 --> 00:49:05,541
+Dan: um, I'm like for somebody
+who
+
+751
+00:49:05,541 --> 00:49:09,561
+Kirk: doesn't ever work, but I
+want to know is wins cycling. I
+
+752
+00:49:09,561 --> 00:49:10,882
+think you could have an edge
+there.
+
+753
+00:49:11,722 --> 00:49:17,782
+Bekah: Oh, for sure. I don't know
+how to cycle stationary
+
+754
+00:49:17,782 --> 00:49:22,311
+Kirk: bicycle after like elbow
+scar McGee over there. We've got
+
+755
+00:49:22,311 --> 00:49:22,641
+to change
+
+756
+00:49:23,052 --> 00:49:25,402
+Dan: if we're going to have it.
+So somebody mentioned triathlons
+
+757
+00:49:25,402 --> 00:49:28,731
+and there's like triathlon teams
+too. So like they have like team
+
+758
+00:49:28,731 --> 00:49:31,496
+for competition, you know, as
+well. So. If we did a triathlon,
+
+759
+00:49:31,496 --> 00:49:35,936
+would you do run or swim?
+Probably swim. All right. So
+
+760
+00:49:35,936 --> 00:49:37,617
+Kirk, that means you're on
+running.
+
+761
+00:49:40,797 --> 00:49:49,677
+Kirk: What am I better at than
+the two of you jokes? Oh, be
+
+762
+00:49:49,697 --> 00:49:51,237
+better at sports wise.
+
+763
+00:49:51,806 --> 00:49:54,626
+Dan: No, Joe Bekah, when it
+pushups easily.
+
+764
+00:49:55,496 --> 00:49:58,907
+Bekah: Oh, I don't know. I, my
+shoulder is Kirk is still in the
+
+765
+00:49:58,907 --> 00:50:00,626
+a hundred push-ups challenge,
+right?
+
+766
+00:50:00,987 --> 00:50:03,447
+Kirk: Yeah. But I don't do like
+the full ones I'm doing like
+
+767
+00:50:03,447 --> 00:50:04,016
+incline.
+
+768
+00:50:05,847 --> 00:50:09,746
+Bekah: I, my, I hear my shoulder.
+I have a torn something. Yeah. My
+
+769
+00:50:09,746 --> 00:50:09,896
+thing
+
+770
+00:50:09,896 --> 00:50:12,416
+Dan: with, with pushups,
+honestly, that bothers me is my
+
+771
+00:50:12,416 --> 00:50:13,856
+wrists are flexible for my
+
+772
+00:50:13,856 --> 00:50:14,336
+Bekah: research.
+
+773
+00:50:16,737 --> 00:50:17,007
+Dan: Like they
+
+774
+00:50:17,007 --> 00:50:20,246
+Bekah: don't like my right wrist
+from using the mask all the time
+
+775
+00:50:20,246 --> 00:50:21,597
+is definitely tighter than my
+left
+
+776
+00:50:21,597 --> 00:50:24,146
+Dan: one. I'm sure I could work
+on it if I want it to.
+
+777
+00:50:24,177 --> 00:50:26,456
+Kirk: But yeah, the tunnel, the
+tunnel I traveled through the
+
+778
+00:50:26,456 --> 00:50:30,461
+most as harmful for sure. They
+have those things, like those
+
+779
+00:50:30,461 --> 00:50:33,311
+things you can hold instead of
+pressing your arms flat on the
+
+780
+00:50:33,311 --> 00:50:38,561
+ground, they just, they hurt your
+arm in a different way. So I'm
+
+781
+00:50:38,561 --> 00:50:42,521
+like this just transferred the
+pain from like doing this to like
+
+782
+00:50:42,521 --> 00:50:46,302
+straight through. So it doesn't
+help at all. Yeah. Did
+
+783
+00:50:46,302 --> 00:50:49,931
+Dan: you read next pivot? No.
+Nick just says, I saw someone
+
+784
+00:50:49,931 --> 00:50:52,481
+mountain biking on a unicycle in
+a forest outside of Montreal. I
+
+785
+00:50:52,481 --> 00:51:08,231
+wave to them and they just
+imagine them like doing a jump on
+
+786
+00:51:08,231 --> 00:51:13,452
+a unicycle, waving to Nick, and
+then like seeing them veer off
+
+787
+00:51:13,452 --> 00:51:15,492
+into a tree and yelling soccer,
+light blue or something.
+
+788
+00:51:16,601 --> 00:51:19,001
+Kirk: It's like the office. They
+have to yell our core, our
+
+789
+00:51:19,001 --> 00:51:21,072
+Bekah: core. Oh my gosh. My kids
+love that
+
+790
+00:51:22,512 --> 00:51:23,081
+Kirk: that'll away.
+
+791
+00:51:24,731 --> 00:51:25,001
+Bekah: Yeah.
+
+792
+00:51:26,231 --> 00:51:30,041
+Dan: I've seen those for sure. So
+people do like insane things on
+
+793
+00:51:30,041 --> 00:51:33,731
+them. I've I've seen him. I don't
+think I've seen them in real
+
+794
+00:51:33,731 --> 00:51:37,302
+life, but I've seen them on
+YouTube. Uh, if you want some,
+
+795
+00:51:38,262 --> 00:51:40,722
+Kirk: you know, on Spiderman or
+they tell them, do a flip and
+
+796
+00:51:40,722 --> 00:51:43,931
+then he does the flip and then it
+was like, oh, that's it. I want
+
+797
+00:51:43,931 --> 00:51:46,152
+it to be on like, both ends of
+that. I don't want to be the
+
+798
+00:51:46,152 --> 00:51:49,032
+person saying, do the flip. And
+then someone else does the flip.
+
+799
+00:51:49,331 --> 00:51:52,632
+And someone says to me, I want to
+be able to do the flip in that
+
+800
+00:51:52,632 --> 00:51:56,231
+moment. Um, but that's never
+going to happen. You're
+
+801
+00:51:56,231 --> 00:51:59,172
+terrified. What am I better at
+than the two of you? This is, I
+
+802
+00:51:59,172 --> 00:51:59,831
+gotta figure this
+
+803
+00:51:59,831 --> 00:52:08,952
+Bekah: out. Kindness
+documentation. Um, well, I don't
+
+804
+00:52:08,952 --> 00:52:12,882
+know if Dan's better than you at
+games or not. I like games. I'm
+
+805
+00:52:12,882 --> 00:52:13,692
+very bad at them.
+
+806
+00:52:18,942 --> 00:52:21,431
+Kirk: Not anymore. That's
+
+807
+00:52:21,911 --> 00:52:22,601
+Bekah: have you seen the.
+
+808
+00:52:23,996 --> 00:52:29,907
+Kirk: I would pay money. I would,
+I would donate time and money to
+
+809
+00:52:29,907 --> 00:52:30,237
+make that
+
+810
+00:52:32,246 --> 00:52:35,067
+Bekah: Kurt, Kurt is Kirk day.
+You were allowed to ask him to do
+
+811
+00:52:35,067 --> 00:52:36,447
+whatever you want right now.
+
+812
+00:52:43,226 --> 00:52:46,137
+Dan: I don't know. I just, I'm
+not very flexible at all that
+
+813
+00:52:46,817 --> 00:52:47,757
+it's a known fact.
+
+814
+00:52:48,567 --> 00:52:52,797
+Bekah: Kirk poetry, maybe. I
+don't know.
+
+815
+00:52:53,396 --> 00:52:55,376
+Kirk: Are you you're, you're a
+poet. You poet.
+
+816
+00:52:58,976 --> 00:53:02,697
+Bekah: We have debt. We have all
+three devils in the poetry. You
+
+817
+00:53:02,697 --> 00:53:06,536
+may be able to find all three of
+our poetry online. If you search,
+
+818
+00:53:08,666 --> 00:53:11,456
+Kirk: I used to have a website.
+The first website I ever made was
+
+819
+00:53:11,456 --> 00:53:16,121
+a WordPress site. It was called.
+Shiver sharks. Cause that's a
+
+820
+00:53:16,121 --> 00:53:19,001
+collective noun for sharks. And I
+found out cause everyone does
+
+821
+00:53:19,001 --> 00:53:21,882
+like a pirate bowels or like
+one-on-ones everyone knows. I'm
+
+822
+00:53:21,882 --> 00:53:25,601
+like, give me a weird shiver or
+something like that. And then I
+
+823
+00:53:25,601 --> 00:53:29,771
+met the, I saw someone who had
+the murder of crows and I was
+
+824
+00:53:29,771 --> 00:53:38,351
+like boring them about that. But
+my websites, I don't want to
+
+825
+00:53:38,351 --> 00:53:46,422
+happen to it. WordPress is just
+like, you don't do enough. And I
+
+826
+00:53:46,422 --> 00:53:52,362
+think I saved, I think I saved
+everything from it as a RTF rich
+
+827
+00:53:52,362 --> 00:53:59,141
+text. I'm like, this is great.
+Lost that file. Worthless
+
+828
+00:54:00,702 --> 00:54:05,621
+unhelpful. This was before I knew
+about mark down or anything.
+
+829
+00:54:05,922 --> 00:54:06,371
+Really?
+
+830
+00:54:07,722 --> 00:54:08,112
+Bekah: Yeah.
+
+831
+00:54:10,646 --> 00:54:13,827
+Kirk: Does anyone remember that
+thing we used to use to make
+
+832
+00:54:13,827 --> 00:54:19,376
+websites? My professor in
+university used it. Um, it flips
+
+833
+00:54:19,436 --> 00:54:20,817
+no three waiver.
+
+834
+00:54:23,967 --> 00:54:26,456
+Bekah: That was the first time I
+ever coded was in Dreamweaver.
+
+835
+00:54:26,487 --> 00:54:26,666
+Yeah,
+
+836
+00:54:29,336 --> 00:54:29,757
+Dan: for sure.
+
+837
+00:54:31,947 --> 00:54:37,407
+Bekah: I want to do yoga with the
+goat to Virtual Coffee retreat at
+
+838
+00:54:37,407 --> 00:54:37,797
+Glenn's
+
+839
+00:54:37,797 --> 00:54:42,447
+Kirk: house. I've seen the goat
+yoga videos. And as somebody who
+
+840
+00:54:42,447 --> 00:54:46,257
+like I see goats every day go
+prove it. That's a real
+
+841
+00:54:46,257 --> 00:54:52,467
+Dan: thing. Yeah. It's the go-to
+and yoga tour is to go just like,
+
+842
+00:54:54,327 --> 00:54:56,757
+Kirk: and a bunch of little like
+kid goats, just kind of like
+
+843
+00:54:56,786 --> 00:54:59,666
+amble about, and sometimes they
+just climb you. Cause that's
+
+844
+00:54:59,666 --> 00:55:00,717
+their thing. Oh,
+
+845
+00:55:00,717 --> 00:55:01,286
+Dan: sure. I mean,
+
+846
+00:55:01,556 --> 00:55:04,496
+Bekah: yeah. Can we do a fainting
+goats too? And then we like jump
+
+847
+00:55:04,496 --> 00:55:05,277
+up and scare them.
+
+848
+00:55:08,396 --> 00:55:10,916
+Dan: Yeah, Nick, I use fibers.
+Yeah, dreamer. So that's the
+
+849
+00:55:10,916 --> 00:55:14,367
+Macromedia suite, like
+Dreamweaver fireworks, and then
+
+850
+00:55:14,367 --> 00:55:17,936
+like flash, if you do a flash
+and, uh, there was another one
+
+851
+00:55:17,936 --> 00:55:20,996
+that I didn't use very much, like
+a more, uh, designing one, but,
+
+852
+00:55:21,387 --> 00:55:24,327
+um, yeah, I wasn't doing more
+than farmers and like Dreamweaver
+
+853
+00:55:24,327 --> 00:55:28,436
+was actually really good. Uh,
+even not using the like generated
+
+854
+00:55:28,436 --> 00:55:31,617
+stuff, but it was a good like
+code editor. Like I used it as my
+
+855
+00:55:31,617 --> 00:55:34,856
+like, just code editor for, I
+dunno, I dunno when it stopped,
+
+856
+00:55:34,887 --> 00:55:35,367
+but like a long
+
+857
+00:55:35,367 --> 00:55:39,327
+Bekah: time. Well, my first job
+out of my first full-time job out
+
+858
+00:55:39,327 --> 00:55:41,786
+of college, I was a community
+organizer for an environmental
+
+859
+00:55:41,786 --> 00:55:46,887
+non-profit and the executive
+director, my first week, he was
+
+860
+00:55:46,887 --> 00:55:52,137
+like, do you know. How to use,
+how do you know a code? Like, no,
+
+861
+00:55:52,706 --> 00:55:55,856
+he's like, okay, go home this
+weekend and learn HTML and CSS. I
+
+862
+00:55:55,867 --> 00:56:00,206
+was like, okay, like Jesse was my
+boyfriend at the time. And I went
+
+863
+00:56:00,206 --> 00:56:03,447
+home and he had like textbooks on
+HTML and CSS. So then we went
+
+864
+00:56:03,447 --> 00:56:05,967
+over those things like, all
+right, I know it. I know it now.
+
+865
+00:56:07,657 --> 00:56:10,476
+Kirk: That's awesome. All
+weekend. I'm pretty much an
+
+866
+00:56:10,476 --> 00:56:11,347
+expert. Nailed
+
+867
+00:56:11,347 --> 00:56:11,436
+Dan: it.
+
+868
+00:56:13,146 --> 00:56:16,657
+Kirk: Um, just to say, Jeff, Jeff
+in the chat was like, do pushups
+
+869
+00:56:16,657 --> 00:56:21,487
+on your fists or wristband again,
+like we're just trading problems
+
+870
+00:56:21,487 --> 00:56:29,257
+here. That's not, that's not
+better. Um, yeah. Shout out to
+
+871
+00:56:29,467 --> 00:56:32,077
+that's a Dreamweaver. I remember
+like a lot of purple. It was all
+
+872
+00:56:32,077 --> 00:56:35,257
+like purple involved with
+somebody. Oh, I have a great bad
+
+873
+00:56:35,257 --> 00:56:38,047
+joke. I just heard it. This is
+apparently very popular with the
+
+874
+00:56:38,077 --> 00:56:44,067
+first time I heard it. Bekah
+don't ruin it. Um, which are
+
+875
+00:56:44,067 --> 00:56:50,757
+Kirk's could apply to all Java
+developers wear glasses.
+
+876
+00:56:53,876 --> 00:56:55,527
+Dan: This is where you say, I
+don't know why,
+
+877
+00:57:00,777 --> 00:57:02,757
+Kirk: because they can't see
+sharp.
+
+878
+00:57:04,166 --> 00:57:08,306
+Bekah: Uh, uh, nice. I was not
+going in that direction. I was
+
+879
+00:57:08,306 --> 00:57:08,847
+going more with,
+
+880
+00:57:09,117 --> 00:57:13,106
+Kirk: if, if you were a software
+developer in like 1998, that
+
+881
+00:57:13,106 --> 00:57:17,487
+would have been incredibly like
+back when they were basically
+
+882
+00:57:17,757 --> 00:57:22,706
+Dan: C sharp in 1998. This is
+like C plus plus in that, when
+
+883
+00:57:22,706 --> 00:57:23,967
+did C-sharp become a thing.
+
+884
+00:57:24,356 --> 00:57:29,547
+Kirk: Okay. 2005. That's again,
+back when
+
+885
+00:57:31,697 --> 00:57:31,996
+Bekah: what's that
+
+886
+00:57:31,996 --> 00:57:36,077
+Dan: 13, we don't need to talk
+about how old I was, but, uh, I
+
+887
+00:57:36,077 --> 00:57:38,536
+wasn't, I was a computer science
+in college, which was after that
+
+888
+00:57:38,956 --> 00:57:39,286
+and.
+
+889
+00:57:41,606 --> 00:57:42,177
+Kirk: That's all the
+
+890
+00:57:42,177 --> 00:57:46,556
+Dan: validation, I suppose, does
+not exist anymore.
+
+891
+00:57:47,186 --> 00:57:55,077
+Kirk: Yeah. People use it to
+write. Whoa, whoa, buddy.
+
+892
+00:57:55,387 --> 00:57:58,327
+Dan: I don't know. I'm asking.
+I'm not saying there's no
+
+893
+00:57:58,327 --> 00:58:00,697
+difference. I'm literally asking,
+I don't know. C
+
+894
+00:58:00,697 --> 00:58:04,447
+Kirk: sharp is all.net, right?
+It's all Microsoft, right? That's
+
+895
+00:58:04,447 --> 00:58:08,586
+this, if you're in Microsoft, 90%
+of the time you're writing C
+
+896
+00:58:08,586 --> 00:58:15,067
+sharp, um, and C plus plus is
+not, um, C plus plus is still
+
+897
+00:58:15,067 --> 00:58:22,237
+considered like the Lang for like
+high-performance stuff. If you
+
+898
+00:58:22,237 --> 00:58:27,606
+don't want to get down to see, I
+guess, but I feel like C plus
+
+899
+00:58:27,606 --> 00:58:31,931
+plus dad's favorite thing to do
+is like, complain about. Yeah.
+
+900
+00:58:31,931 --> 00:58:32,621
+Like JavaScript,
+
+901
+00:58:33,461 --> 00:58:35,351
+Dan: if you get to a certain
+level, that's just going to be an
+
+902
+00:58:35,351 --> 00:58:37,871
+Kirk: ally. If it's useful
+enough, like there'll be enough
+
+903
+00:58:37,871 --> 00:58:40,782
+code written that it was like
+something to complain about. Like
+
+904
+00:58:40,782 --> 00:58:46,032
+Dan: Emily tells people, like she
+was on a trip with her grandma
+
+905
+00:58:46,061 --> 00:58:49,092
+and she's like, yeah, Dan hates
+computers. And she knows that
+
+906
+00:58:49,092 --> 00:58:51,822
+like, this is what I do for a
+living, you know, but it's true.
+
+907
+00:58:53,411 --> 00:58:55,692
+You know, she didn't understand,
+you know, she's like, what, what
+
+908
+00:58:55,692 --> 00:58:59,081
+does that mean? Yes. Like, yeah,
+dad hates computers. Cause she
+
+909
+00:58:59,081 --> 00:59:01,961
+told me a story. Cause I was
+like, oh, yesterday I spent like
+
+910
+00:59:01,961 --> 00:59:05,592
+three hours trying to get, I
+wasn't, uh, I almost went over a
+
+911
+00:59:05,592 --> 00:59:11,231
+PG 13 again, uh, Ruby to work
+again on my computer. And um, it
+
+912
+00:59:11,231 --> 00:59:14,112
+was really annoying and it like
+killed my whole day, you know,
+
+913
+00:59:14,411 --> 00:59:18,041
+anywhere else complained about it
+at home and was like, I hate
+
+914
+00:59:18,041 --> 00:59:21,311
+computers. I don't like them. So,
+you know, well
+
+915
+00:59:21,311 --> 00:59:22,961
+Kirk: the first time I learned
+Ruby, it was similar to that
+
+916
+00:59:23,021 --> 00:59:28,121
+Bekah situation. I was in
+internship. Well, we can't any,
+
+917
+00:59:28,181 --> 00:59:30,521
+can't get any developers up in
+this project. So you guys are
+
+918
+00:59:30,521 --> 00:59:32,922
+going to do it yourself and be
+like, okay, any of, you know,
+
+919
+00:59:32,922 --> 00:59:37,572
+Ruby? No, this was back in the
+time. They were like, here's the
+
+920
+00:59:37,572 --> 00:59:41,382
+instructions for how to install
+this on your machine? If you get
+
+921
+00:59:41,382 --> 00:59:45,822
+it wrong, we'll would probably
+break the machine. Good luck. So
+
+922
+00:59:45,882 --> 00:59:52,302
+that's like, and it was super
+painful. And I didn't like, look
+
+923
+00:59:52,362 --> 00:59:56,952
+at a line of Ruby again, what, 10
+years. So, you know, onboarding.
+
+924
+00:59:58,092 --> 01:00:03,012
+Dan: Yeah, no, that's, it's like,
+it doesn't matter every time I
+
+925
+01:00:03,012 --> 01:00:05,621
+have to do something with her and
+I just do it so infrequently that
+
+926
+01:00:05,621 --> 01:00:08,532
+it's, you know, that's why it's a
+problem for me, obviously, to be
+
+927
+01:00:08,532 --> 01:00:11,681
+Kirk: fair. I feel like I do
+Python stuff all the time and I
+
+928
+01:00:11,681 --> 01:00:18,581
+still mess it up. Like getting it
+to work. I'm just, I just want
+
+929
+01:00:18,581 --> 01:00:22,751
+things to work. I just want to
+click work and then they work.
+
+930
+01:00:23,621 --> 01:00:26,382
+Yeah. Specifically the
+installation and running part.
+
+931
+01:00:27,311 --> 01:00:28,302
+Bekah: That's the worst
+
+932
+01:00:30,132 --> 01:00:33,731
+Kirk: I got into Loreal. I'm
+like, oh, I'm going to NPM
+
+933
+01:00:33,731 --> 01:00:38,981
+installed new thing. And bam did
+its thing. Do the thing run
+
+934
+01:00:39,371 --> 01:00:43,061
+didn't work. I Google the air,
+you know, it's bad when you
+
+935
+01:00:43,061 --> 01:00:46,452
+search for an air and it takes
+you to like, be official of like
+
+936
+01:00:46,512 --> 01:00:50,411
+issues on resolved page. Like, oh
+no,
+
+937
+01:00:52,211 --> 01:00:56,811
+Dan: I can't. I was deep into
+that yesterday. It doesn't
+
+938
+01:00:56,811 --> 01:00:59,902
+matter. Yeah. Anyway, uh,
+computers are doing that. I hate
+
+939
+01:00:59,902 --> 01:01:00,112
+them.
+
+940
+01:01:00,592 --> 01:01:01,972
+Bekah: Also. I have to go
+
+941
+01:01:04,371 --> 01:01:06,652
+Dan: to leave at three, not three
+30. Uh,
+
+942
+01:01:08,422 --> 01:01:08,931
+Kirk: the week
+
+943
+01:01:11,362 --> 01:01:15,262
+Bekah: I have children, Bekah
+needs to go clean up the Creek in
+
+944
+01:01:15,271 --> 01:01:15,411
+my.
+
+945
+01:01:17,021 --> 01:01:19,181
+Dan: She needs to go clean up
+smokey
+
+946
+01:01:19,181 --> 01:01:19,632
+Kirk: bear
+
+947
+01:01:20,472 --> 01:01:21,251
+Bekah: birthday
+
+948
+01:01:22,452 --> 01:01:30,702
+Dan: week. Um, Kirk, I just want
+to say a happy Kirk day to us
+
+949
+01:01:30,702 --> 01:01:31,001
+all.
+
+950
+01:01:31,722 --> 01:01:35,952
+Bekah: We're glad to have you
+thank you for joining us and the
+
+951
+01:01:35,952 --> 01:01:36,641
+entire world.
+
+952
+01:01:37,331 --> 01:01:44,172
+Kirk: I am. I'm happy to provide
+me as a catalyst for the pool.
+
+953
+01:01:44,181 --> 01:01:48,282
+People here, Kirk day is weird,
+but the people who like it are
+
+954
+01:01:48,282 --> 01:01:52,452
+great on this,
+
+955
+01:01:54,822 --> 01:01:58,302
+Dan: we didn't plan any of this
+at all. So I appreciate you. If
+
+956
+01:01:58,302 --> 01:01:58,992
+you know, Dan
+
+957
+01:01:58,992 --> 01:02:00,822
+Bekah: was like push to have an
+agenda. And I was like,
+
+958
+01:02:02,862 --> 01:02:05,172
+Dan: we did get a lot of stuff
+done today. It was
+
+959
+01:02:05,512 --> 01:02:09,282
+Bekah: a, but most importantly,
+we saw Kirk on Kirk day and
+
+960
+01:02:09,282 --> 01:02:10,481
+changed our profile pictures.
+
+961
+01:02:12,266 --> 01:02:16,786
+Kirk: Nick Taylor's profile
+picture is sideways. We noticed
+
+962
+01:02:16,786 --> 01:02:17,097
+that
+
+963
+01:02:21,447 --> 01:02:22,347
+Bekah: it all makes sense,
+
+964
+01:02:23,047 --> 01:02:23,666
+Kirk: Don road.
+
+965
+01:02:28,467 --> 01:02:29,876
+Bekah: Well, that seems like a
+great way to end.
+
+966
+01:02:30,927 --> 01:02:35,007
+Dan: That's a good one. Thank you
+everybody for hanging out and I'm
+
+967
+01:02:35,007 --> 01:02:37,947
+happy, corrected and see you
+Thursday.
+
+968
+01:02:38,396 --> 01:02:49,376
+Kirk: No, don't do another one no
+more Kirk days. Yeah, every
+
+969
+01:02:49,376 --> 01:02:57,806
+single collective. It's fun. All
+right, bye.
+
+970
+01:03:01,206 --> 01:03:03,306
+Dan: Thank you for listening to
+this episode of the Virtual
+
+971
+01:03:03,306 --> 01:03:07,052
+Coffee Podcast. This episode was
+produced by Dan Ott and Bekah
+
+972
+01:03:07,052 --> 01:03:09,831
+Hawrot Weigel. If you have
+questions or comments you can hit
+
+973
+01:03:09,831 --> 01:03:12,842
+us up on Twitter at
+VirtualCoffeeIO, or email us at
+
+974
+01:03:12,842 --> 01:03:16,311
+podcast@virtualcoffee.io. You can
+find the show notes, sign up for
+
+975
+01:03:16,311 --> 01:03:18,351
+the newsletter, check out any of
+our other resources on our
+
+976
+01:03:18,351 --> 01:03:21,742
+website VirtualCoffee.io. If
+you're interested in sponsoring
+
+977
+01:03:21,742 --> 01:03:24,141
+virtual coffee you can find out
+more information on our website
+
+978
+01:03:24,411 --> 01:03:28,851
+at VirtualCoffee.io/sponsorship.
+Please subscribe to our podcast
+
+979
+01:03:28,882 --> 01:03:32,092
+and be sure to leave us a review.
+Thanks for listening and we'll
+
+980
+01:03:32,092 --> 01:03:32,931
+see you next week!
