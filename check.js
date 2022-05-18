@@ -23,11 +23,15 @@ function checkFile(file) {
 
     lines[0] = i + 1;
 
-    const tc = lines[1];
-    if (tc.length !== 29) {
-      console.error(`Incorrect timestamp formatting: ${tc}`);
-    }
+    const ts = lines[1];
 
+    if (
+      !/[0-9][0-9]:[0-9][0-9]:[0-9][0-9],[0-9][0-9][0-9] --> [0-9][0-9]:[0-9][0-9]:[0-9][0-9],[0-9][0-9][0-9]/.test(
+        ts
+      )
+    ) {
+      console.error(`Incorrect timestamp formatting: ${ts}`);
+    }
     array[i] = lines.join('\n');
   }
 
