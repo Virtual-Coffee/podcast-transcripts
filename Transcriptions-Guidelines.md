@@ -1,4 +1,4 @@
-# Virtual Coffee Podcast Transcriptions Guideline
+# Virtual Coffee Podcast Transcriptions Guidelines
 
 Virtual Coffee podcast transcription is transcribed **exactly** as it sounds and includes **all** the utterances of the speakers, **except** the filler words of ‘uh’ and ‘um’.
 
