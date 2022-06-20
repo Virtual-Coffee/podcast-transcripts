@@ -18,7 +18,7 @@ function checkFile(file) {
     const lines = element.split('\n');
 
     if (parseInt(lines[0]) !== i + 1) {
-      console.warning(`Index out of order: ${lines[0]} - fixing`);
+      console.warn(`Index out of order: ${lines[0]} - fixing`);
     }
 
     lines[0] = i + 1;
