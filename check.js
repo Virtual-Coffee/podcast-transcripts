@@ -7,7 +7,7 @@ function checkFile(file) {
   var array = fs
     .readFileSync(`${__dirname}/episodes/${file}`)
     .toString()
-    .split(/\r?\n{2}/);
+    .split(/\r?\n\r?\n/);
 
   for (let i = 0; i < array.length; i++) {
     const element = array[i];
