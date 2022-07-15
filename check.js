@@ -13,16 +13,16 @@ function checkFile(file) {
     const element = array[i];
     const lines = element.split('\n');
 
+    const ts = lines[1];
+
     if (parseInt(lines[0]) !== i + 1) {
       console.warn(`Index out of order: ${lines[0]} - fixing`);
     }
 
     lines[0] = i + 1;
 
-    const ts = lines[1];
-
     if (
-      !/[0-9][0-9]:[0-9][0-9]:[0-9][0-9],[0-9][0-9][0-9] --> [0-9][0-9]:[0-9][0-9]:[0-9][0-9],[0-9][0-9][0-9]/.test(
+      !/^[0-9][0-9]:[0-9][0-9]:[0-9][0-9],[0-9][0-9][0-9] --> [0-9][0-9]:[0-9][0-9]:[0-9][0-9],[0-9][0-9][0-9]$/.test(
         ts
       )
     ) {
