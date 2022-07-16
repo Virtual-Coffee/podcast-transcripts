@@ -2,20 +2,18 @@ var fs = require('fs');
 
 const yargs = require('yargs');
 
-const linebreak = `
-
-`;
-
 function checkFile(file) {
   console.log(`checking ${file}`);
   var array = fs
     .readFileSync(`${__dirname}/episodes/${file}`)
     .toString()
-    .split(linebreak);
+    .split(/\r?\n\r?\n/);
 
   for (let i = 0; i < array.length; i++) {
     const element = array[i];
     const lines = element.split('\n');
+
+    const ts = lines[1];
 
     if (parseInt(lines[0]) !== i + 1) {
       console.warn(`Index out of order: ${lines[0]} - fixing`);
@@ -23,10 +21,8 @@ function checkFile(file) {
 
     lines[0] = i + 1;
 
-    const ts = lines[1];
-
     if (
-      !/[0-9][0-9]:[0-9][0-9]:[0-9][0-9],[0-9][0-9][0-9] --> [0-9][0-9]:[0-9][0-9]:[0-9][0-9],[0-9][0-9][0-9]/.test(
+      !/^[0-9][0-9]:[0-9][0-9]:[0-9][0-9],[0-9][0-9][0-9] --> [0-9][0-9]:[0-9][0-9]:[0-9][0-9],[0-9][0-9][0-9]$/.test(
         ts
       )
     ) {
@@ -35,7 +31,7 @@ function checkFile(file) {
     array[i] = lines.join('\n');
   }
 
-  fs.writeFileSync(`${__dirname}/episodes/${file}`, array.join(linebreak));
+  fs.writeFileSync(`${__dirname}/episodes/${file}`, array.join('\n\n'));
 }
 
 const argv = yargs
