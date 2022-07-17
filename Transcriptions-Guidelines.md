@@ -24,9 +24,9 @@ Those utterances are:
 
     Dan Ott: Thanks, Bekah. In this episode, …
 
-    Bekah: We start every episode of the podcast like we start every Virtual Coffee…
+    Bekah: We start every episode of the podcast like we start every Virtual Coffee.
 
-    Dan: Hi, I'm Dan. I'm a frontend developer… 
+    Dan: Hi, I'm Dan. I'm a front-end developer… 
   ```
 
 ## Paragraph
@@ -39,10 +39,16 @@ Those utterances are:
    
     00:49:49,139 --> 00:49:53,519
    
-    Dan: [chuckles] Yeah. I'm looking forward
+    Dan: [Chuckles] Yeah. I'm looking forward
    
     to that talk.
   ```
+
+## Timestamp
+
+- Make sure to always include the three digits after comma. Write `000` if it's unknown.
+
+  `04:05:20,000 --> 04:05:21,638`
 
 ## Formatting
 
@@ -149,12 +155,12 @@ Those utterances are:
 ### Non-text audio
 
 - Sound events that are significant to the audio should also be noted by using brackets [ ].
-`e.g., [laughs] [chuckles] [giggles] [gasp]`. [laughs] is a normal laugh; [chuckles] is a soft laugh.
+`e.g., [laughs] [chuckles] [giggles] [gasp]`. [Laughs] is a normal laugh; [chuckles] is a soft laugh.
 
-- Use [crosstalk 00:00:00] when two speakers are talking over one another. Try to get as much from each speaker as possible.
+- Use [crosstalk] when two speakers are talking over one another. Try to get as much from each speaker as possible.
 
   ```text
-  Host: I think another [crosstalk 00:31:28] perspective is that we can learn something from it.
+  Host: I think another [crosstalk] perspective is that we can learn something from it.
   Guest: Well, that’s my opinion.
   ```
 
@@ -176,7 +182,7 @@ Those utterances are:
 
 - Do not correct grammatical errors made by the speakers.
 - Strictly transcribe what the speakers actually say, except for ‘uh’ and ‘um’.
-- False starts, filler, repetitive phrasing and slang should be included in the transcripts. If the speaker clearly says "cuz," then write "cuz" and not "cause".
+- False starts, filler, repetitive phrasing and slang should be included in the transcripts. If the speaker clearly says "cuz", then write "cuz" and not "because".
 - Do not censor hosts or the guest(s). If they say “shit”, write “shit”.
 - Never change spoken contractions (e.g. y’all, ain’t, don’t, can’t, it’s, et cetera.)
 - Try to best guess words that are unintelligible, and use [unintelligible] when you are not able to guess it in any way.
