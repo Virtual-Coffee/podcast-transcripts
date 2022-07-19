@@ -1,7 +1,7 @@
 1
 00:00:05,858 --> 00:00:09,398
-Bekah: Hello, and welcome to
-season five, episode seven of the
+Bekah Hawrot Weigel: Hello, and
+welcome to Season 5, Episode 7 of the
 
 2
 00:00:09,398 --> 00:00:14,877
@@ -30,18 +30,18 @@ And we are here to share it with
 
 7
 00:00:26,667 --> 00:00:29,277
-you here with me. Today is my
-co-host Dan.
+you. Here with me today is my
+co-host, Dan.
 
 8
 00:00:30,426 --> 00:00:35,167
-Dan: Hey, Bekah today, we're
-talking with Meg Gutshall and Meg
+Dan Ott: Hey, Bekah today, we're
+talking with Meg Gutshall, and Meg
 
 9
 00:00:35,167 --> 00:00:38,737
-is a Ruby on Rails developer. Um,
-she has a passion for opensource
+is a Ruby on Rails developer.
+She has a passion for open-source
 
 10
 00:00:38,826 --> 00:00:43,627
@@ -50,28 +50,28 @@ podcast, talks about community
 
 11
 00:00:43,627 --> 00:00:46,387
-building, um, you know, all the
+building, you know, all the
 stuff that she's done with
 
 12
 00:00:46,387 --> 00:00:49,597
 communities throughout her time
-and, uh, what brought her to her
+and what brought her to her
 
 13
 00:00:49,597 --> 00:00:52,597
-love for Ruby. And, um, also if
+love for Ruby. And, also if
 you know, Meg, you might know
 
 14
 00:00:52,597 --> 00:00:56,082
-that she's from Philly. Uh, is
+that she's from Philly. is
 that came up once or twice in the
 
 15
 00:00:56,082 --> 00:01:02,201
-podcast? Uh, 98 million times,
-um, which was, which was
+podcast? 98 million times,
+which was, which was
 
 16
 00:01:02,201 --> 00:01:04,391
@@ -85,13 +85,13 @@ always, it's always good to hear.
 
 18
 00:01:07,602 --> 00:01:11,861
-Um, also Meg, uh, is another one
+Also Meg, is another one
 of our big volunteers at Virtual
 
 19
 00:01:11,861 --> 00:01:16,662
-Coffee. Um, like Andrew last
-year, last week. Sorry. And, uh,
+Coffee. Like Andrew last
+year, last week. Sorry. And,
 
 20
 00:01:16,712 --> 00:01:19,221
@@ -105,8 +105,8 @@ buddies, group, accountability,
 
 22
 00:01:22,462 --> 00:01:27,171
-buddies, and, um, and, and all of
-the work she's done. Um, making,
+buddies, and, and, and all of
+the work she's done. Making,
 
 23
 00:01:27,231 --> 00:01:29,481
@@ -129,7 +129,7 @@ special announcement.
 
 27
 00:01:39,802 --> 00:01:45,533
-Meg: This episode is dedicated to
+Meg Gutshall: This episode is dedicated to
 our friend, Mike Rogers. We miss
 
 28
@@ -198,17 +198,17 @@ playing Splendor.
 
 41
 00:02:43,126 --> 00:02:49,496
-Dan: Splendor's cool. Um, hi, I'm
+Dan: Splendor's cool. Hi, I'm
 Dan. I do development stuff in
 
 42
 00:02:49,556 --> 00:02:53,596
-Cleveland, Ohio. Um, Know,
+Cleveland, Ohio. Know,
 there's a lot of good board
 
 43
 00:02:53,596 --> 00:02:57,286
-games. Um, do the rules allow for
+games. Do the rules allow for
 expansions, you know, and stuff,
 
 44
@@ -234,7 +234,7 @@ Bekah: All about that
 
 49
 00:03:03,915 --> 00:03:07,876
-Dan: Um, you know, Catan is
+Dan: You know, Catan is
 really good. I don't having to
 
 50
@@ -269,7 +269,7 @@ each one, but I'm not going to do
 
 56
 00:03:29,170 --> 00:03:31,661
-that right now because, uh, you
+that right now because, you
 know, it's, it's late at night
 
 57
@@ -285,7 +285,7 @@ Philly, the home of Gritty. I
 59
 00:03:47,866 --> 00:03:56,507
 would play Yahtzee for the rest
-of my life. Um, Yahtzee's my jam.
+of my life. Yahtzee's my jam.
 
 60
 00:03:57,437 --> 00:03:59,537
@@ -336,7 +336,7 @@ recording in the evening and we
 
 70
 00:04:28,961 --> 00:04:32,651
-normally don't do that. So. um, I
+normally don't do that. So. I
 don't know if I need to apologize
 
 71
@@ -347,7 +347,7 @@ stops working at 3 45 every day.
 72
 00:04:38,812 --> 00:04:45,442
 So welcome. Welcome to the
-evening edition. Um, we're going
+evening edition. We're going
 
 73
 00:04:45,442 --> 00:04:50,632
@@ -366,11 +366,11 @@ that's a, I don't know. That is
 76
 00:05:00,502 --> 00:05:10,752
 kind of a long story, but I'll
-compact it. Um, I, I, uh, Went to
+compact it. I, I, went to
 
 77
 00:05:10,992 --> 00:05:17,232
-school on to college at, uh,
+school on to college at
 Temple University that's in
 
 78
@@ -380,7 +380,7 @@ Gritty, the mascot for the
 
 79
 00:05:21,942 --> 00:05:27,041
-Flyers. Um, Dan earlier said it
+Flyers. Dan earlier said it
 was for the Phillies
 
 80
@@ -391,7 +391,7 @@ As soon as this.
 81
 00:05:29,411 --> 00:05:35,711
 Meg: Yeah. Gritty's, the Flyers
-mascot. Um, and I studied
+mascot. And I studied
 
 82
 00:05:35,711 --> 00:05:42,012
@@ -405,7 +405,7 @@ was like, oh, oh, what am I going
 
 84
 00:05:45,641 --> 00:05:51,552
-to do? Um, translation jobs
+to do? Translation jobs
 didn't come too easily. So I just
 
 85
@@ -420,7 +420,7 @@ training facility for girls 18
 
 87
 00:06:08,471 --> 00:06:14,201
-and under. And, um, it happened
+and under. And, it happened
 to be like the number one
 
 88
@@ -430,12 +430,12 @@ I just knew nothing about field
 
 89
 00:06:19,932 --> 00:06:25,541
-hockey. I still don't. Um, but
+hockey. I still don't. But
 like I just communicated with the
 
 90
 00:06:25,541 --> 00:06:31,586
-parents about. Um, you know,
+parents about. You know,
 having their kids register in the
 
 91
@@ -450,7 +450,7 @@ business and also I did some web
 
 93
 00:06:43,286 --> 00:06:48,086
-development there, uh, just
+development there, just
 because it was me and my boss and
 
 94
@@ -466,11 +466,11 @@ she asked if I was looking for
 96
 00:07:01,841 --> 00:07:08,831
 another place and to work. And
-she, um, worked at a, it
+she, worked at a, it
 
 97
 00:07:08,831 --> 00:07:17,021
-recruiting, uh, place and they
+recruiting, place and they
 were looking for an admin. So
 
 98
@@ -480,7 +480,7 @@ know really anything about. And
 
 99
 00:07:24,797 --> 00:07:34,247
-once again, I, um, their website
+once again, I, their website
 and I saw, you know, what people
 
 100
@@ -500,8 +500,8 @@ I'm not trying this. So I took
 
 103
 00:07:52,882 --> 00:08:04,122
-like a Coursera course, um, and,
-uh, tried it, loved it. The, it
+like a Coursera course, and,
+tried it, loved it. The, it
 
 104
 00:08:04,122 --> 00:08:10,541
@@ -516,7 +516,7 @@ it with the free code camp
 106
 00:08:16,346 --> 00:08:23,367
 bootcamp or no, sorry. Oh my
-gosh. Flat Iron bootcamp. Um, but
+gosh. Flat Iron bootcamp. But
 
 107
 00:08:23,487 --> 00:08:28,216
@@ -525,17 +525,17 @@ free code camps, a free code camp
 
 108
 00:08:28,406 --> 00:08:34,226
-or online, um, Flat Iron boot
+or online, Flat Iron boot
 camp. And that's where Bekah and
 
 109
 00:08:34,226 --> 00:08:41,657
 I met and yeah. That was, that
-was a lot of work. Uh self-paced
+was a lot of work. self-paced
 
 110
 00:08:41,657 --> 00:08:51,226
-online, well working, um, three
+online, well working, three
 jobs, like part-time there. It
 
 111
@@ -551,7 +551,7 @@ job. And then. I have a tenant
 113
 00:09:06,086 --> 00:09:15,326
 and I had a pet sitting business
-for the time, um, COVID and yeah,
+for the time, COVID and yeah,
 
 114
 00:09:15,326 --> 00:09:20,937
@@ -560,7 +560,7 @@ work, but it paid off because now
 
 115
 00:09:20,937 --> 00:09:29,876
-I'm with, uh, I'm a consultant
+I'm with, I'm a consultant
 with Penn medicine and talking to
 
 116
@@ -608,7 +608,7 @@ like you can't like accidentally
 
 125
 00:10:07,451 --> 00:10:14,562
-run into them. And, um, you were
+run into them. And, you were
 running a study group there that
 
 126
@@ -673,12 +673,12 @@ that talk.
 138
 00:11:05,326 --> 00:11:12,027
 Meg: You know, I remember it
-differently. Um, but yet you, so
+differently. But yet you, so
 
 139
 00:11:12,027 --> 00:11:17,517
 you're definitely not the only
-person. I was an instructor. Um,
+person. I was an instructor.
 
 140
 00:11:18,716 --> 00:11:24,086
@@ -697,7 +697,7 @@ week. And I would just tell them,
 
 143
 00:11:35,397 --> 00:11:40,706
-uh, I reached my weekly limit of
+I reached my weekly limit of
 helping people. I'm sorry, but
 
 144
@@ -707,27 +707,27 @@ know they're on that section
 
 145
 00:11:44,547 --> 00:11:53,427
-right now. Um, and the group you
+right now. And the group you
 talked about, I started with
 
 146
 00:11:53,486 --> 00:11:59,427
-another, uh, classmate, uh, her
+another, classmate, her
 name's Sherry Martin, and she
 
 147
 00:11:59,427 --> 00:12:04,677
 came to me with these, this idea.
-Um, we called it co-talk, uh,
+We called it co-talk,
 
 148
 00:12:04,706 --> 00:12:11,861
 cause she said she. Talk to
-someone about, um, at their boot
+someone about, at their boot
 
 149
 00:12:11,861 --> 00:12:19,932
-camp, they had, uh, took turns
+camp, they had, took turns
 presenting code and talking about
 
 150
@@ -743,11 +743,11 @@ helpful. And she wanted someone
 152
 00:12:30,282 --> 00:12:38,351
 to help her start this. And she
-actually, um, Left Flat Iron
+actually, Left Flat Iron
 
 153
 00:12:38,381 --> 00:12:43,812
-early for a job. Uh, she's just
+early for a job. She's just
 like woman on a mission could not
 
 154
@@ -758,7 +758,7 @@ technical challenges. I think it
 155
 00:12:50,772 --> 00:12:58,662
 was every week. And then when I
-found people like you, um, who
+found people like you, who
 
 156
 00:12:59,022 --> 00:13:04,991
@@ -772,7 +772,7 @@ to practice? I don't remember
 
 158
 00:13:09,192 --> 00:13:18,511
-your talk, um, Dean, like good.
+your talk, Dean, like good.
 And it was like you said of
 
 159
@@ -793,7 +793,7 @@ that I need to read off a script.
 162
 00:13:37,341 --> 00:13:44,812
 So that's what did for the
-actual, um, And I went so much
+actual, And I went so much
 
 163
 00:13:44,841 --> 00:13:51,892
@@ -802,7 +802,7 @@ that like you practicing in front
 
 164
 00:13:51,892 --> 00:13:56,991
-of people helped, um, helped you
+of people helped, helped you
 figure that out before the big
 
 165
@@ -846,7 +846,7 @@ now. What am I supposed to do? I
 
 173
 00:14:22,567 --> 00:14:29,736
-go back to that point? Um, but so
+go back to that point? But so
 it was, it was really, really to
 
 174
@@ -929,23 +929,23 @@ through, like you said, it's it,
 
 190
 00:15:36,802 --> 00:15:45,981
-it wasn't like, um, fire a great
+it wasn't like, fire a great
 job of creating a community for
 
 191
 00:15:45,981 --> 00:15:51,302
 the online self-paced students.
-Um, they're just like here's
+They're just like here's
 
 192
 00:15:53,532 --> 00:16:05,351
-Slack. And, um, so I did kind of
+Slack. And, so I did kind of
 what I'm S I started doing with
 
 193
 00:16:05,711 --> 00:16:13,532
 the accountabilibuddies group,
-um, just posting incessantly and
+just posting incessantly and
 
 194
 00:16:13,532 --> 00:16:20,912
@@ -954,7 +954,7 @@ to be my friend in participating.
 
 195
 00:16:22,032 --> 00:16:28,782
-Um, like, oh my gosh. Okay,
+Like, oh my gosh. Okay,
 There. This person's always
 
 196
@@ -970,7 +970,7 @@ job. And there's other people
 198
 00:16:36,552 --> 00:16:45,922
 here. Yeah. That's pretty cool.
-You know? Um, so yeah, I have to
+You know? So yeah, I have to
 
 199
 00:16:45,922 --> 00:16:51,417
@@ -1002,7 +1002,7 @@ bit.
 
 205
 00:17:09,747 --> 00:17:24,037
-Meg: Yeah. Um, okay. So was Sarah
+Meg: Yeah. Okay. So was Sarah
 Strong who put a post on Slack
 
 206
@@ -1037,13 +1037,13 @@ getting rejection letters and all
 
 212
 00:18:05,977 --> 00:18:13,747
-that stuff. Super fun. Um, so you
+that stuff. Super fun. So you
 want to share the fine with other
 
 213
 00:18:13,747 --> 00:18:22,866
 people, right? being sarcastic
-just in case. I can tell, um, But
+just in case. I can tell, But
 
 214
 00:18:22,896 --> 00:18:31,356
@@ -1053,7 +1053,7 @@ of gosh, so many people in tech
 215
 00:18:31,356 --> 00:18:37,957
 now when looking for a job, it's,
-it's a slog. Um, just like going
+it's a slog. Just like going
 
 216
 00:18:37,957 --> 00:18:44,527
@@ -1067,7 +1067,7 @@ another recruiter just. Shooting
 
 218
 00:18:50,211 --> 00:18:58,852
-out emails to whoever. Um, and
+out emails to whoever. And
 it's nice to have other people
 
 219
@@ -1092,8 +1092,8 @@ thing. And so her and I, and,
 
 223
 00:19:23,082 --> 00:19:28,971
-Aditi, um, green, I'm pretty sure
-that's her last name. Um, we
+Aditi, green, I'm pretty sure
+that's her last name. We
 
 224
 00:19:28,971 --> 00:19:34,971
@@ -1118,7 +1118,7 @@ people who have joined our job
 228
 00:19:53,057 --> 00:19:58,067
 seeking accountabilities group,
-um, have since left because
+have since left because
 
 229
 00:19:58,126 --> 00:20:05,146
@@ -1147,7 +1147,7 @@ I've been there, you guys have
 
 234
 00:20:31,142 --> 00:20:38,102
-been there, but, um, just like,
+been there, but, just like,
 okay, you got this, you can keep
 
 235
@@ -1157,8 +1157,8 @@ just drop in, even if they're.
 
 236
 00:20:42,967 --> 00:20:53,467
-Um, job seeking. Um, a lot of
-times, um, Brett will in from
+Job seeking. A lot of
+times, Brett will in from
 
 237
 00:20:53,467 --> 00:21:00,517
@@ -1196,7 +1196,7 @@ different rooms.
 
 244
 00:21:27,372 --> 00:21:33,942
-Meg: Yeah. Yeah. Um, because
+Meg: Yeah. Yeah. Because
 sometimes we have a good amount
 
 245
@@ -1226,13 +1226,13 @@ accountable having someone there.
 
 250
 00:21:59,646 --> 00:22:08,892
-Um, and then, um, since this
+And then, since this
 month we're doing. Like job
 
 251
 00:22:09,071 --> 00:22:16,932
 search tight, monthly challenge.
-Um, I've been adding breakout
+I've been adding breakout
 
 252
 00:22:16,932 --> 00:22:23,442
@@ -1242,7 +1242,7 @@ reviews or who are working on
 253
 00:22:23,442 --> 00:22:32,082
 their cover letters. It's they
-have anything specific, um, and
+have anything specific, and
 
 254
 00:22:33,551 --> 00:22:39,892
@@ -1251,7 +1251,7 @@ they. with reviewed it in a
 
 255
 00:22:39,922 --> 00:22:46,491
-breakout room. Um, and I guess
+breakout room. And I guess
 I'll be adding different monsoon,
 
 256
@@ -1267,7 +1267,6 @@ starts today. I, I was off today,
 258
 00:22:56,122 --> 00:22:58,491
 so I keep forgetting it's Monday.
-Um,
 
 259
 00:23:00,561 --> 00:23:02,961
@@ -1345,16 +1344,16 @@ going to get, you're going to get
 274
 00:24:05,321 --> 00:24:11,761
 supportive response for either.
-Event, um, from Virtual Coffee in
+Event, from Virtual Coffee in
 
 275
 00:24:11,761 --> 00:24:18,751
 general, but you're in the
-accountabilibuddies session. Um,
+accountabilibuddies session.
 
 276
 00:24:20,102 --> 00:24:24,991
-yeah, you can definitely find
+Yeah, you can definitely find
 what you need there. What looking
 
 277
@@ -1440,7 +1439,7 @@ either.
 
 294
 00:25:21,412 --> 00:25:34,942
-Meg: Um, yeah, let's let's um,
+Meg: Yeah, let's let's
 Not touch that one for now. Oh,
 
 295
@@ -1524,11 +1523,11 @@ if he said this on the recording
 312
 00:26:45,771 --> 00:26:49,311
 or not, but Meg asked on Slack,
-uh, for questions, you know, for
+for questions, you know, for
 
 313
 00:26:49,311 --> 00:26:54,321
-her, for, for uh, for this
+her, for, for, for this
 podcast episode. And there was a
 
 314
@@ -1539,12 +1538,12 @@ them were about Philly because
 315
 00:26:57,281 --> 00:27:02,602
 Meg is from Philly. You know,
-Philly is pretty unique. Uh, you
+Philly is pretty unique. You
 
 316
 00:27:02,602 --> 00:27:04,912
 know, I don't know, and, and, and
-awesome, but, um,
+awesome, but,
 
 317
 00:27:06,436 --> 00:27:07,487
@@ -1552,13 +1551,13 @@ Meg: Great question.
 
 318
 00:27:09,711 --> 00:27:14,271
-Dan: I, uh, I have, uh, and you
+Dan: I, I have, and you
 know, I, we Meg and I have talked
 
 319
 00:27:14,271 --> 00:27:17,451
-about this, but, um, I work with
-some people from Philly. Uh, the
+about this, but, I work with
+some people from Philly. The
 
 320
 00:27:17,451 --> 00:27:21,261
@@ -1568,12 +1567,12 @@ based in Philly. And so I get a
 321
 00:27:21,261 --> 00:27:23,692
 little bit of Philly culture just
-from that. And, um, on the
+from that. And, on the
 
 322
 00:27:23,692 --> 00:27:27,832
 favorite words that I've ever
-learned is, uh, the word jawn,
+learned is, the word jawn,
 
 323
 00:27:28,372 --> 00:27:31,491
@@ -1583,7 +1582,7 @@ well, because I'm from Cleveland
 324
 00:27:31,491 --> 00:27:36,307
 and not but can you, can you
-just, uh, Well, I suppose you'll
+just, Well, I suppose you'll
 
 325
 00:27:36,487 --> 00:27:40,477
@@ -1593,7 +1592,7 @@ then you just sort of define it
 326
 00:27:40,477 --> 00:27:43,537
 and then maybe use it in a
-sentence or two? Uh, just as a,
+sentence or two? Just as a,
 
 327
 00:27:43,547 --> 00:27:46,346
@@ -1608,7 +1607,7 @@ feels, it doesn't feel right. Me
 329
 00:27:50,166 --> 00:27:54,207
 talking about it, you know? So
-can can uh, yeah. Can you lay out
+can can, yeah. Can you lay out
 
 330
 00:27:54,207 --> 00:27:55,656
@@ -1617,18 +1616,18 @@ us?
 
 331
 00:27:56,622 --> 00:28:07,221
-Meg: Yes. Um, jawn spelled J A W
+Meg: Yes. Jawn spelled J A W
 N. It has nothing to do with sex
 
 332
 00:28:07,221 --> 00:28:23,362
 work. That's the first thing that
-of hear that word. Um, uh, got in
+of hear that word. Got in
 
 333
 00:28:23,362 --> 00:28:31,491
 that reaction pretty much every
-time that word comes up. Uh, so
+time that word comes up. So
 
 334
 00:28:32,192 --> 00:28:43,797
@@ -1691,7 +1690,7 @@ going to try it out, but you tell
 346
 00:29:37,426 --> 00:29:40,836
 me if it's wrong. It's, you know,
-uh, but like, all right, so today
+but like, all right, so today
 
 347
 00:29:40,836 --> 00:29:45,817
@@ -1782,8 +1781,8 @@ laying that down for us.
 
 366
 00:30:39,355 --> 00:30:48,025
-Bekah: have now filly things. Um,
-and you are still in Philly and
+Bekah: have now filly things.
+And you are still in Philly and
 
 367
 00:30:49,674 --> 00:30:55,734
@@ -1806,12 +1805,12 @@ you're doing now?
 
 371
 00:31:13,329 --> 00:31:21,769
-Meg: Um, that's a great question.
+Meg: That's a great question.
 They make for interesting
 
 372
 00:31:21,769 --> 00:31:32,305
-stories. That's one. Um, for
+stories. That's one. For
 Spanish, it does come up in
 
 373
@@ -1851,7 +1850,7 @@ about like learning Spanish and
 380
 00:32:16,015 --> 00:32:23,634
 learning and how that was.
-Similar. Um, is my little things
+Similar. is my little things
 
 381
 00:32:23,634 --> 00:32:25,194
@@ -1868,7 +1867,7 @@ like, Hey, I forgot a colon or
 
 384
 00:32:36,234 --> 00:32:46,674
-whatever. Um, in coding, uh,
+whatever. in coding,
 makes stuff fail and in Spanish
 
 385
@@ -1887,7 +1886,7 @@ sleeping and married before?
 
 388
 00:32:59,285 --> 00:33:02,825
-Meg: Uh, yeah. Cause, oh
+Meg: Yeah. Cause, oh
 
 389
 00:33:04,545 --> 00:33:05,505
@@ -1895,8 +1894,8 @@ Bekah: No, it's tired.
 
 390
 00:33:05,555 --> 00:33:10,535
-Meg: did. You did tell me. Um,
-but I think you should tell it
+Meg: did. You did tell me.
+But I think you should tell it
 
 391
 00:33:10,535 --> 00:33:10,865
@@ -1949,7 +1948,7 @@ not telling anybody that you're a
 
 401
 00:33:54,565 --> 00:33:58,974
-little bit married. Um, just,
+little bit married. Just,
 just go, go. You can be fully
 
 402
@@ -2025,7 +2024,7 @@ react projects, I thought was
 
 417
 00:34:59,179 --> 00:35:08,358
-never going to happen. Um, you
+never going to happen. You
 have stuck with Ruby. And how
 
 418
@@ -2045,7 +2044,7 @@ that decision?
 
 421
 00:35:24,398 --> 00:35:37,369
-Meg: I, I think, um, you never
+Meg: I, I think, you never
 forget your first.
 
 422
@@ -2055,7 +2054,7 @@ Bekah: Um,
 423
 00:35:41,528 --> 00:35:46,958
 Meg: Yeah, I really, I really
-fell in love with Ruby. Um, and.
+fell in love with Ruby. and.
 
 424
 00:35:49,748 --> 00:35:54,849
@@ -2064,8 +2063,8 @@ taught us, which now is
 
 425
 00:35:55,119 --> 00:36:06,248
-flip-flopped. Um, they did Ruby
-first and then Sinatra and, um,
+flip-flopped. They did Ruby
+first and then Sinatra and,
 
 426
 00:36:06,309 --> 00:36:11,588
@@ -2094,7 +2093,7 @@ Heather Miller she's down in DC.
 
 431
 00:36:41,273 --> 00:36:46,844
-She invited me to this, um,
+She invited me to this,
 conference called Ruby for Good.
 
 432
@@ -2104,7 +2103,7 @@ both of us. And it was like the
 
 433
 00:36:55,208 --> 00:37:01,179
-people there were so nice. Um, it
+people there were so nice. It
 was, I think three days, everyone
 
 434
@@ -2135,7 +2134,7 @@ in love with the Ruby community.
 439
 00:37:35,333 --> 00:37:44,923
 And I found that that's a very
-universal, um, mindset of the
+universal, mindset of the
 
 440
 00:37:44,923 --> 00:37:50,423
@@ -2150,7 +2149,7 @@ that's how the Philly tech
 442
 00:37:56,693 --> 00:38:04,583
 community has been in my personal
-experience. Um, before the
+experience. Before the
 
 443
 00:38:04,583 --> 00:38:11,393
@@ -2170,7 +2169,7 @@ traditional path. And definitely
 446
 00:38:33,628 --> 00:38:42,478
 colorful city, like in different,
-in ways of, um, diversity and
+in ways of, diversity and
 
 447
 00:38:42,478 --> 00:38:48,543
@@ -2179,7 +2178,7 @@ into the tech community heavily.
 
 448
 00:38:48,664 --> 00:38:56,474
-And I think, um, that makes it
+And I think, that makes it
 very welcoming. And I saw just
 
 449
@@ -2189,13 +2188,13 @@ community and Philly tech
 
 450
 00:38:59,353 --> 00:39:04,844
-community. The issue was, um,
+community. The issue was,
 there, there weren't, there
 
 451
 00:39:04,844 --> 00:39:13,539
 wasn't a lot of Ruby on Rails in
-Philly at the time. Um, I was
+Philly at the time. I was
 
 452
 00:39:13,539 --> 00:39:17,588
@@ -2204,7 +2203,7 @@ ready to get a job doing
 
 453
 00:39:17,588 --> 00:39:23,528
-anything. But then, um, once the
+anything. But then, once the
 pandemic happened, like a silver
 
 454
@@ -2219,7 +2218,7 @@ just working from my desk at
 
 456
 00:39:36,579 --> 00:39:41,409
-home. Um, So that definitely,
+home. So that definitely,
 that definitely helped with my
 
 457
@@ -2244,7 +2243,7 @@ and work that's. Meaningful and
 
 461
 00:40:10,429 --> 00:40:19,369
-fulfilling. Um, and that it helps
+fulfilling. And that it helps
 people. So that was like
 
 462
@@ -2293,13 +2292,13 @@ nonprofit and it's volunteer led.
 
 471
 00:41:00,233 --> 00:41:10,164
-Um, Sean Marcia is the founder
-and, um, it's largely it's based
+Sean Marcia is the founder
+and, it's largely it's based
 
 472
 00:41:10,164 --> 00:41:16,974
 in DC. So the membership is
-largely in DC. Um, but definitely
+largely in DC. But definitely
 
 473
 00:41:16,974 --> 00:41:24,744
@@ -2314,11 +2313,11 @@ the tech community. They're
 475
 00:41:31,028 --> 00:41:36,849
 specialized set of skills like
-Liam Neeson. Um, but they do good
+Liam Neeson. But they do good
 
 476
 00:41:36,849 --> 00:41:46,268
-things to them. Um, they build
+things to them. They build
 software for other non-profits
 
 477
@@ -2329,7 +2328,7 @@ website or a sign up. Form or
 478
 00:41:56,833 --> 00:42:05,353
 like an actual software system?
-Um, something that like are
+Something that like are
 
 479
 00:42:06,313 --> 00:42:10,213
@@ -2338,12 +2337,12 @@ project and probably the biggest
 
 480
 00:42:10,244 --> 00:42:17,054
-is called Human Essentials. Um,
+is called Human Essentials.
 it was rebranded from Diaper Base
 
 481
 00:42:17,804 --> 00:42:26,143
-and it had started out as. Uh,
+and it had started out as.
 inventory management system for
 
 482
@@ -2368,13 +2367,13 @@ pantries and homeless shelters
 
 486
 00:42:49,873 --> 00:42:56,083
-who then, uh, distribute the
+who then, distribute the
 products to families. So they
 
 487
 00:42:56,083 --> 00:43:01,873
 wanted a way to, for their
-partners to track, um, what was
+partners to track, what was
 
 488
 00:43:01,873 --> 00:43:07,963
@@ -2393,13 +2392,13 @@ feminine care products, soaps,
 
 491
 00:43:18,268 --> 00:43:26,699
-creams, um, like shampoos, things
+creams, like shampoos, things
 like that. So they kind of merged
 
 492
 00:43:26,699 --> 00:43:34,469
 both of together and called it
-Human Essentials in, um, serving
+Human Essentials in, serving
 
 493
 00:43:35,128 --> 00:43:42,568
@@ -2408,13 +2407,13 @@ there's also stuff like there's,
 
 494
 00:43:42,628 --> 00:43:52,284
-uh, A lending library in Chicago,
+A lending library in Chicago,
 that it's a circulation system
 
 495
 00:43:52,373 --> 00:44:01,786
 for like tools and other types of
-this lending library, um, CASA
+this lending library, CASA
 
 496
 00:44:02,126 --> 00:44:07,139
@@ -2440,7 +2439,7 @@ Dan: Fu there.
 
 501
 00:44:14,400 --> 00:44:22,179
-Meg: Um, and that's just a system
+Meg: And that's just a system
 to track volunteer time. so it,
 
 502
@@ -2471,17 +2470,17 @@ stakeholder meetings and things.
 507
 00:44:53,885 --> 00:44:58,619
 And. Yeah, it's something that
-really spoke to me. And, um, I'm
+really spoke to me. And, I'm
 
 508
 00:44:58,619 --> 00:45:03,210
 a very organized person by
-nature. Uh, since I used to work
+nature. Since I used to work
 
 509
 00:45:03,210 --> 00:45:10,019
 as an admin, so I told Sean, I
-was like, yeah, let me, uh, let
+was like, yeah, let me, let
 
 510
 00:45:10,019 --> 00:45:15,510
@@ -2494,18 +2493,18 @@ Come on.
 
 512
 00:45:17,150 --> 00:45:21,800
-Dan: Yeah, I'm sure. Um, no,
+Dan: Yeah, I'm sure. No,
 that's really great. It, it seems
 
 513
 00:45:21,800 --> 00:45:28,699
 like really organization and that
-sort of I always wonder. Um, you
+sort of I always wonder. You
 
 514
 00:45:28,699 --> 00:45:36,050
 make a product for another
-non-profit right. Does, um, Ruby
+non-profit right. Does, Ruby
 
 515
 00:45:36,050 --> 00:45:39,019
@@ -2524,7 +2523,7 @@ always been curious about it.
 518
 00:45:44,780 --> 00:45:52,244
 Meg: Yeah. I think, I think it
-depends. Um,
+depends.
 
 519
 00:45:55,050 --> 00:45:55,739
@@ -2567,7 +2566,7 @@ updates and stuff like that.
 
 527
 00:46:37,625 --> 00:46:42,704
-Cause it's not like, uh, these
+Cause it's not like, these
 other nonprofits are full.
 
 528
@@ -2592,12 +2591,12 @@ and so th they do a lot of their,
 
 532
 00:47:03,574 --> 00:47:07,039
-um, projects. Sort of open-source
+projects. Sort of open-source
 to, right.
 
 533
 00:47:07,164 --> 00:47:08,934
-Meg: Yeah. Yeah. Um,
+Meg: Yeah. Yeah.
 
 534
 00:47:09,699 --> 00:47:11,289
@@ -2625,7 +2624,7 @@ cool organization.
 
 539
 00:47:24,869 --> 00:47:33,510
-Meg: it makes, um, stuff like
+Meg: it makes, stuff like
 that, like really jazzed up about
 
 540
@@ -2704,7 +2703,7 @@ Coffee and see people
 
 555
 00:49:19,793 --> 00:49:23,784
-contributing. But, um, there's
+contributing. But, there's
 just, there are so many good
 
 556
@@ -2724,7 +2723,7 @@ into open source, but like making
 
 559
 00:49:34,434 --> 00:49:39,579
-that easily accessible. As, uh, a
+that easily accessible. As, a
 goal for this year, sure.
 
 560
@@ -2838,8 +2837,8 @@ we'll it so that we won't, we
 
 584
 00:51:01,476 --> 00:51:09,065
-won't forget. We have, um, I'll
-have to think of some, um, you
+won't forget. We have, I'll
+have to think of some, you
 
 585
 00:51:09,065 --> 00:51:12,606
@@ -2885,11 +2884,11 @@ Dan: Yeah, absolutely.
 594
 00:51:52,664 --> 00:52:02,295
 Meg: We talked about forgetting
-something. Uh, so in May, this
+something. So in May, this
 
 595
 00:52:02,295 --> 00:52:12,014
-thing called, um, Philly Tech
+thing called, Philly Tech
 Week. And this year it's going
 
 596
@@ -2899,7 +2898,7 @@ It's put on by technically
 
 597
 00:52:19,065 --> 00:52:28,724
-Philly. Um, of the events are
+Philly. of the events are
 going to be virtual. I believe.
 
 598
@@ -2915,7 +2914,7 @@ thing. I think it's the 12th
 600
 00:52:38,144 --> 00:52:47,639
 year. This year, I'm not
-positive. Um, but in 2019, Uh, I
+positive. But in 2019, I
 
 601
 00:52:47,909 --> 00:52:55,199
@@ -2930,7 +2929,7 @@ there was just like all day, all
 603
 00:53:03,059 --> 00:53:07,500
 these presentations and it was,
-uh, I'm pretty sure it was at the
+I'm pretty sure it was at the
 
 604
 00:53:07,500 --> 00:53:12,900
@@ -2974,7 +2973,7 @@ put down my backpack on the table
 
 612
 00:54:02,514 --> 00:54:08,780
-came set up and I was. Uh, I
+came set up and I was. I
 don't know, moving things around
 
 613
@@ -2994,7 +2993,7 @@ at the happy hour. And it turned
 
 616
 00:54:19,920 --> 00:54:27,300
-out that, uh, of their C level
+out that, of their C level
 employees was visiting from the
 
 617
@@ -3019,7 +3018,7 @@ parties after party. they had
 
 621
 00:54:48,269 --> 00:54:57,554
-this awesome DJ. Um, and that was
+this awesome DJ. And that was
 like Philly people. Now we can
 
 622
@@ -3057,11 +3056,11 @@ I just walked around Philly. And
 629
 00:55:29,235 --> 00:55:35,114
 so I was like trying to make it
-until, um, the morning when the
+until, the morning when the
 
 630
 00:55:35,114 --> 00:55:39,974
-train station open. Uh, cause I
+train station open. Cause I
 didn't have enough money. It's
 
 631
@@ -3076,7 +3075,7 @@ street, yelling at me, just like,
 
 633
 00:55:59,144 --> 00:56:06,815
-uh, I guess I'm going to have to
+I guess I'm going to have to
 like out the credit card and take
 
 634
@@ -3086,13 +3085,13 @@ night.
 
 635
 00:56:18,809 --> 00:56:23,610
-Bekah: Oh, that is awesome. Um,
+Bekah: Oh, that is awesome.
 man, it's been really great
 
 636
 00:56:23,639 --> 00:56:28,380
 having you on the podcast
-finally. Um, before we go, are
+finally. Before we go, are
 
 637
 00:56:28,380 --> 00:56:33,119
@@ -3106,7 +3105,7 @@ our listeners?
 639
 00:56:35,293 --> 00:56:43,086
 Meg: I would like to say. We have
-food. Um, if you're ever in town,
+food. If you're ever in town,
 
 640
 00:56:44,226 --> 00:56:49,717
@@ -3116,7 +3115,7 @@ Redding Terminal Market.
 641
 00:56:50,246 --> 00:56:58,487
 basically like weekdays are best.
-Uh, because the Mennonite people
+Because the Mennonite people
 
 642
 00:56:58,487 --> 00:57:03,916
@@ -3125,7 +3124,7 @@ home cook, Pennsylvania, Dutch
 
 643
 00:57:03,947 --> 00:57:10,396
-food. Um, and although we've
+food. And although we've
 mentioned Gritty, definitely more
 
 644
@@ -3136,7 +3135,7 @@ also the Philly Phanatic, who is
 645
 00:57:14,717 --> 00:57:21,617
 an amazing mascot. And I, I can't
-leave him out either. Um, yeah.
+leave him out either. Yeah.
 
 646
 00:57:22,907 --> 00:57:26,367
@@ -3164,7 +3163,7 @@ and Bekah Hawrot Weigel. If you
 
 651
 00:57:41,586 --> 00:57:43,836
-have questions or comments you
+have questions or comments, you
 can hit us up on Twitter at
 
 652
@@ -3180,24 +3179,24 @@ the newsletter, check out any of
 654
 00:57:50,617 --> 00:57:53,856
 our other resources on our
-website VirtualCoffee.io. If
+website, virtualcoffee.io. If
 
 655
 00:57:53,856 --> 00:57:56,137
 you're interested in sponsoring
-virtual coffee you can find out
+Virtual Coffee, you can find out
 
 656
 00:57:56,137 --> 00:57:59,916
 more information on our website
-at VirtualCoffee.io/sponsorship.
+at virtualcoffee.io/sponsorship.
 
 657
 00:58:00,336 --> 00:58:03,847
-Please subscribe to our podcast
+Please subscribe to our podcast,
 and be sure to leave us a review.
 
 658
 00:58:04,237 --> 00:58:06,097
-Thanks for listening and we'll
-see you next week!
+Thanks for listening, and we'll
+see you next week.
