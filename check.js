@@ -11,7 +11,7 @@ function checkFile(file) {
 
   for (let i = 0; i < array.length; i++) {
     const element = array[i];
-    const lines = element.split('\n');
+    const lines = element.split('\n').map((l) => l.trim());
 
     const ts = lines[1];
 
