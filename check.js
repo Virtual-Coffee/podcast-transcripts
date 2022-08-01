@@ -132,7 +132,7 @@ if (argv.file && fs.existsSync(`${__dirname}/episodes/${argv.file}`)) {
   });
 
   files.map((file) => {
-    if (file.isFile() && path.extname(file) === '.srt') {
+    if (file.isFile() && path.extname(file.name) === '.srt') {
       checkFile(file.name);
     }
   });
