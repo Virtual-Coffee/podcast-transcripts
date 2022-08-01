@@ -5,8 +5,8 @@ welcome to season 1, episode
 
 2
 00:00:16,829 --> 00:00:23,160
-6 of the Virtual Coffee
-podcast. I'm Bekah, and this is
+6 of the Virtual Coffee podcast.
+I'm Bekah, and this is
 
 3
 00:00:23,160 --> 00:00:26,100
@@ -109,8 +109,8 @@ live? We hope you enjoyed this
 
 23
 00:01:32,909 --> 00:01:44,819
-episode.
-Hey, I'm Bekah, I'm a front end
+episode. Hey, I'm Bekah, I'm a
+front end
 
 24
 00:01:41,609 --> 00:01:49,140
@@ -143,8 +143,8 @@ how everything looks with snow
 
 30
 00:02:01,930 --> 00:02:06,670
-on it. Hi, I'm Dan. I am a
-front end developer from
+on it. Hi, I'm Dan. I am a front
+end developer from
 
 31
 00:02:06,700 --> 00:02:09,370
@@ -152,4065 +152,4424 @@ Cleveland, Ohio. I say Cleveland
 every time I'm actually from
 
 32
-00:02:09,370 --> 00:02:14,439
-Lakewood, which is first city, West
-of Cleveland. And so there is a
+00:02:09,370 --> 00:02:11,904
+Lakewood, which is first city,
+West of Cleveland. And so there
 
 33
+00:02:11,904 --> 00:02:14,438
+is a
+
+34
 00:02:14,469 --> 00:02:18,849
 park called Lakewood Park that's
 on the lake here. And it's very
 
-34
-00:02:18,849 --> 00:02:21,400
-beautiful. There's lots of,
-it's big, and there's lots of
-
 35
+00:02:18,849 --> 00:02:21,400
+beautiful. There's lots of, it's
+big, and there's lots of
+
+36
 00:02:21,430 --> 00:02:24,789
 cool little spots to hang out.
 So that's that.
 
-36
+37
 00:02:26,520 --> 00:02:30,449
 Drew Clements: I'm Drew. I'm a
 front end developer with Foster
 
-37
+38
 00:02:30,449 --> 00:02:36,750
 Commerce. The most beautiful
 place near where I live. I live
 
-38
+39
 00:02:36,750 --> 00:02:42,270
 in the south. So my options are
 limited here. So I'm like five
 
-39
+40
 00:02:42,270 --> 00:02:44,849
 minutes from St. Simons Island.
 But the beaches aren't
 
-40
+41
 00:02:44,849 --> 00:02:48,659
 necessarily pretty. They just
 have expensive resorts. And I'm
 
-41
+42
 00:02:48,659 --> 00:02:51,599
 like, I'm just out to Savannah.
 So they have a pretty rad
 
-42
-00:02:51,599 --> 00:02:56,610
-downtown. But okay, I got one. I
-got one. On the other side of the
-
 43
+00:02:51,599 --> 00:02:54,104
+downtown. But okay, I got one. I
+got one. On the other side of
+
+44
+00:02:54,104 --> 00:02:56,609
+the
+
+45
 00:02:56,610 --> 00:03:00,180
 state from me, which is still
 relatively close compared to you
 
-44
+46
 00:03:00,180 --> 00:03:04,500
 guys. We have, they call it the
 little Grand Canyon. It's a
 
-45
+47
 00:03:04,500 --> 00:03:07,349
 little hiking trail. It really
 does just look like a miniature
 
-46
+48
 00:03:07,349 --> 00:03:08,400
 version of the Grand Canyon.
 
-47
+49
 00:03:08,650 --> 00:03:11,500
 Dan Ott: Nice. That's cool. That
 sounds cool. Yeah.
 
-48
+50
 00:03:11,710 --> 00:03:16,210
 Bekah Hawrot Weigel: Vacation
 2021. Well, welcome, Drew, we
 
-49
+51
 00:03:16,210 --> 00:03:21,370
 are very happy to have you and
 fun fact about Drew, he designed
 
-50
+52
 00:03:21,370 --> 00:03:24,310
 the Virtual Coffee logo. So
 thanks for that.
 
-51
+53
 00:03:24,930 --> 00:03:25,680
 Drew Clements: I do what I can.
 (laugh)
 
-52
+54
 00:03:27,659 --> 00:03:29,819
 Bekah Hawrot Weigel: We always
 like to start off with the
 
-53
+55
 00:03:29,849 --> 00:03:34,530
 origin story of how you got into
 tech. So can you give us a
 
-54
+56
 00:03:34,530 --> 00:03:35,129
 little background?
 
-55
+57
 00:03:37,069 --> 00:03:41,000
 Drew Clements: Yeah, that's, I
 feel like my story into tech is
 
-56
+58
 00:03:41,000 --> 00:03:47,030
 like a story linked to a story
 linked to a story. So growing
 
-57
+59
 00:03:47,030 --> 00:03:50,719
 up, I played in bunch of punk
 rock bands. One of the last
 
-58
+60
 00:03:50,719 --> 00:03:54,770
 bands I played in, I met a guy
 from the local music scene named
 
-59
+61
 00:03:54,770 --> 00:03:58,729
 Sean. Sean moved away to
 California and became a
 
-60
-00:03:58,729 --> 00:04:05,360
-developer. Right before he did
-that, I tattooed him. Me tattooing
-
-61
-00:04:05,479 --> 00:04:10,400
-landed me in apprenticeship as
-a designer a few years later,
-
 62
-00:04:11,270 --> 00:04:15,889
-which then let me, that's where I
-was kind of introduced to like
+00:03:58,729 --> 00:04:02,044
+developer. Right before he did
+that, I tattooed him. Me
 
 63
+00:04:02,044 --> 00:04:05,359
+tattooing
+
+64
+00:04:05,479 --> 00:04:10,400
+landed me in apprenticeship as a
+designer a few years later,
+
+65
+00:04:11,270 --> 00:04:15,889
+which then let me, that's where
+I was kind of introduced to like
+
+66
 00:04:15,889 --> 00:04:20,720
 HTML and CSS. So I was like,
 hey, I'm learning this stuff. I
 
-64
+67
 00:04:20,720 --> 00:04:22,819
 remember Shawn was doing
 something like this. So then I
 
-65
+68
 00:04:22,819 --> 00:04:25,250
 reached back out to him. Me and
 him started kind of talking
 
-66
+69
 00:04:25,250 --> 00:04:32,300
 again. So from there, I was able
 to kind of work into a developer
 
-67
+70
 00:04:32,300 --> 00:04:40,040
 role with that same company. And
 left tattooing. So it's, it's a
 
-68
+71
 00:04:40,040 --> 00:04:44,300
 guy I met through the local
 music scene in 2010 ended up
 
-69
+72
 00:04:44,300 --> 00:04:49,879
 getting me into developing a
 decade later. Yeah, so I spent
 
-70
+73
 00:04:49,879 --> 00:04:53,329
 seven years as a tattoo artist,
 transitioned to graphic design.
 
-71
+74
 00:04:53,329 --> 00:04:56,779
 From graphic design, I used to
 know that Sean, the old
 
-72
+75
 00:04:56,779 --> 00:05:02,930
 connection, to get my way here.
 And I don't think I could have
 
-73
+76
 00:05:02,930 --> 00:05:05,420
 made that happen if I had all
 the money in the world and 10
 
-74
+77
 00:05:05,420 --> 00:05:07,160
 years to plan it, but here I am.
 
-75
+78
 00:05:08,540 --> 00:05:10,939
 Bekah Hawrot Weigel: That's
 awesome. So if we ever have a
 
-76
+79
 00:05:10,939 --> 00:05:14,300
 Virtual Coffee on-site
 conference, are you going to
 
-77
+80
 00:05:14,300 --> 00:05:17,360
 offer tattoos? All Virtual
 Coffee logos?
 
-78
+81
 00:05:18,980 --> 00:05:20,300
-Drew Clements: (laugh) Yes,
-I will do that.
+Drew Clements: (laugh) Yes, I
+will do that.
 
-79
+82
 00:05:20,420 --> 00:05:22,579
 Bekah Hawrot Weigel: All right,
 we have it recorded. So now you
 
-80
+83
 00:05:22,579 --> 00:05:29,300
 can't back out. Okay, so I'm
 also want to know about how you
 
-81
+84
 00:05:29,300 --> 00:05:34,939
 found Virtual Coffee. I feel
 like I have known you longer, a
 
-82
+85
 00:05:34,939 --> 00:05:38,990
 lot longer than Virtual Coffee
 has been going on. So. But how
 
-83
+86
 00:05:38,990 --> 00:05:40,850
-did you end up at Virtual Coffee?
+did you end up at Virtual
+Coffee?
 
-84
+87
 00:05:42,230 --> 00:05:46,459
 Drew Clements: How did I end up
 with Virtual Coffee? It's funny
 
-85
+88
 00:05:46,459 --> 00:05:49,370
 enough that we're recording this
 on a podcast because I met you
 
-86
+89
 00:05:50,089 --> 00:05:52,879
 through reaching out to find
 people to interview for a
 
-87
+90
 00:05:52,879 --> 00:05:57,740
 podcast I was going to start.
 So, so I have the recording
 
-88
+91
 00:05:57,829 --> 00:05:59,720
 actually. I don't know if it, I
 don't know if it ever got
 
-89
-00:05:59,720 --> 00:06:06,000
-editing. I don't (laugh). I just had it right here on the
-desk. No. So, I guess in 2019, I was going to start a
+92
+00:05:59,720 --> 00:06:02,860
+editing. I don't (laugh). I just
+had it right here on the desk.
 
-90
-00:06:06,000 --> 00:06:11,339
-podcast, I reached out to you. We
-connected on Twitter. That never
+93
+00:06:02,860 --> 00:06:06,000
+No. So, I guess in 2019, I was
+going to start a
 
-91
+94
+00:06:06,000 --> 00:06:08,669
+podcast, I reached out to you.
+We connected on Twitter. That
+
+95
+00:06:08,669 --> 00:06:11,338
+never
+
+96
 00:06:06,139 --> 00:06:14,939
 ended up happening. But we, when
 
-92
+97
 00:06:11,339 --> 00:06:18,420
 I saw you posting, so at the
 beginning of 2020, I was, I was
 
-93
-00:06:14,939 --> 00:06:20,939
+98
+00:06:14,939 --> 00:06:17,939
 working two jobs. I was working
-full time as a designer, part-time
+full time as a designer,
 
-94
+99
+00:06:17,939 --> 00:06:20,939
+part-time
+
+100
 00:06:18,420 --> 00:06:23,550
-as a developer. An
-awesome, both of those job
+as a developer. An awesome, both
+of those job
 
-95
+101
 00:06:20,939 --> 00:06:27,839
 within like 24 hours of each
 other. And with a wife that was
 
-96
+102
 00:06:23,550 --> 00:06:31,800
-five months pregnant,
-that was kind of like a gut
+five months pregnant, that was
+kind of like a gut
 
-97
+103
 00:06:27,839 --> 00:06:35,639
 check. But around that same time
 was when you'd posted about
 
-98
+104
 00:06:31,800 --> 00:06:39,329
 Virtual Coffee. So like, you
 know, I have a lot of spare time
 
-99
+105
 00:06:35,639 --> 00:06:41,699
 on my hands, Bekah posts a lot
 of awesome stuff, we had a great
 
-100
+106
 00:06:39,329 --> 00:06:46,649
 conversation when we recorded
 our podcast episode together. So
 
-101
+107
 00:06:41,699 --> 00:06:51,689
 I was like, yeah, let me, let me
 check this out and see what
 
-102
+108
 00:06:46,649 --> 00:07:01,800
 happens. And now you can't get
 rid of me. (laugh)
 
-103
-00:06:59,160 --> 00:07:05,850
-Bekah Hawrot Weigel: I think that podcast
-episode that I recorded with you, I had just
+109
+00:06:59,160 --> 00:07:02,505
+Bekah Hawrot Weigel: I think
+that podcast episode that I
 
-104
+110
+00:07:02,505 --> 00:07:05,850
+recorded with you, I had just
+
+111
 00:07:01,800 --> 00:07:09,029
 been working with Dan for a
 couple of months. And I like was
 
-105
+112
 00:07:05,850 --> 00:07:11,550
 still trying to wrap my head
 around things. And I remember
 
-106
+113
 00:07:09,029 --> 00:07:14,160
-you asking me questions and I were
-like, I don't even know the
+you asking me questions and I
+were like, I don't even know the
 
-107
-00:07:11,550 --> 00:07:16,259
+114
+00:07:11,550 --> 00:07:13,904
 words that I should use to
-answer those questions. So... (laugh)
+answer those questions. So...
 
-108
+115
+00:07:13,904 --> 00:07:16,258
+(laugh)
+
+116
 00:07:17,970 --> 00:07:20,100
 Drew Clements: If it's any
 consolation, there's still a lot
 
-109
-00:07:20,100 --> 00:07:22,709
+117
+00:07:20,100 --> 00:07:21,404
 of times I don't know the words
-I should use to answer questions. (laugh)
+I should use to answer
 
-110
+118
+00:07:21,404 --> 00:07:22,708
+questions. (laugh)
+
+119
 00:07:23,160 --> 00:07:24,449
 Bekah Hawrot Weigel: Yeah,
 that's for sure. Same.
 
-111
-00:07:24,449 --> 00:07:29,100
+120
+00:07:24,449 --> 00:07:26,774
 Same. (laugh) But it was. It was
-like, it was really great podcast
+like, it was really great
 
-112
+121
+00:07:26,774 --> 00:07:29,099
+podcast
+
+122
 00:07:29,100 --> 00:07:34,649
 interview because you're just
 some fun to be around, I guess.
 
-113
+123
 00:07:34,649 --> 00:07:39,300
 So, I'm happy that you are here
 with us today. And at Virtual
 
-114
+124
 00:07:39,300 --> 00:07:39,810
 Coffee.
 
-115
+125
 00:07:40,319 --> 00:07:43,199
 Drew Clements: Happy to be here.
 Like I said you can't get rid of
 
-116
+126
 00:07:43,199 --> 00:07:43,379
 me.
 
-117
-00:07:45,629 --> 00:07:50,040
-Bekah Hawrot Weigel: (laugh) Um, okay,
-so fast forward a little bit,
+127
+00:07:45,629 --> 00:07:47,834
+Bekah Hawrot Weigel: (laugh) Um,
+okay, so fast forward a little
 
-118
-00:07:50,100 --> 00:07:54,660
+128
+00:07:47,834 --> 00:07:50,039
+bit,
+
+129
+00:07:50,100 --> 00:07:52,380
 you got another job, your career
-changer. And you're like, oh hey,
+changer. And you're like, oh
 
-119
+130
+00:07:52,380 --> 00:07:54,660
+hey,
+
+131
 00:07:54,660 --> 00:08:01,139
 I bought this domain called
 protege.dev. So on top of all of
 
-120
+132
 00:08:01,139 --> 00:08:05,069
 the other things that I'm doing,
 I'm, I'm gonna start this
 
-121
+133
 00:08:05,279 --> 00:08:10,230
 community building project. So,
 why and how?
 
-122
-00:08:11,050 --> 00:08:14,949
+134
+00:08:11,050 --> 00:08:12,999
 Drew Clements: Why and how?
-Well, so, I originally bought the
+Well, so, I originally bought
 
-123
-00:08:14,949 --> 00:08:19,720
-Protege domain... To the back up just
-a little bit. I had an old side
+135
+00:08:12,999 --> 00:08:14,948
+the
 
-124
+136
+00:08:14,949 --> 00:08:17,334
+Protege domain... To the back up
+just a little bit. I had an old
+
+137
+00:08:17,334 --> 00:08:19,719
+side
+
+138
 00:08:19,720 --> 00:08:23,290
 project called ColtXP. It's a
 really bad name. Never name
 
-125
+139
 00:08:23,290 --> 00:08:26,800
 anything that ever. But that's
 what the original podcast that I
 
-126
+140
 00:08:26,800 --> 00:08:30,339
 interviewed you for, was going
 to kind of be in parallel with
 
-127
+141
 00:08:30,339 --> 00:08:36,789
 that. And so I, I knew that it
 was a bad name. So I was trying
 
-128
-00:08:36,789 --> 00:08:40,570
+142
+00:08:36,789 --> 00:08:38,679
 to think of something, something
-else I could call it. The idea of
+else I could call it. The idea
 
-129
+143
+00:08:38,679 --> 00:08:40,569
+of
+
+144
 00:08:40,570 --> 00:08:43,840
 that project was that it was
 gonna be pretty much a place
 
-130
+145
 00:08:43,840 --> 00:08:48,429
 where people could connect to
 work on open source issues
 
-131
+146
 00:08:48,429 --> 00:08:51,730
 together, kind of like a junior
 finding a senior willing to, you
 
-132
+147
 00:08:51,730 --> 00:08:56,110
 know, give them some time. So I
 was just trying to think the,
 
-133
+148
 00:08:56,139 --> 00:09:01,929
 the name ColtXP, uhm... I think
 I just used like a Thesaurus or
 
-134
+149
 00:09:01,929 --> 00:09:04,539
 something like, what's another
 word for someone that's learning
 
-135
+150
 00:09:04,539 --> 00:09:08,259
 something or something like
 that. And Colt was somehow on
 
-136
+151
 00:09:08,259 --> 00:09:10,539
 that list. It was like an
 inexperienced person or
 
-137
+152
 00:09:10,539 --> 00:09:15,190
 something like that. Again,
 horrible name. Don't ever call
 
-138
+153
 00:09:15,190 --> 00:09:21,909
 anything yet. So I came across
 the word protege, you know,
 
-139
+154
 00:09:21,940 --> 00:09:25,210
 pretty obvious. I don't know why
 I didn't think of it in the
 
-140
+155
 00:09:25,210 --> 00:09:29,230
 first place. So I was looking
 around on different domains.
 
-141
+156
 00:09:29,259 --> 00:09:32,139
 Actually, no. I went to Netlify.
 And I was like, let me see if
 
-142
+157
 00:09:32,200 --> 00:09:35,769
 protege.com is available.
 Obviously, it wasn't. So I was
 
-143
+158
 00:09:35,769 --> 00:09:39,580
 like, let me see if protege.dev
 is available. It was. For 15
 
-144
+159
 00:09:39,580 --> 00:09:44,590
 bucks. I was like that's not bad
 at all. So I hit the next button
 
-145
+160
 00:09:44,590 --> 00:09:48,460
 expecting there to be like
 insert payment information. And
 
-146
-00:09:48,460 --> 00:09:54,970
+161
+00:09:48,460 --> 00:09:51,715
 it said, congratulations. I was
-like uh... okay. I guess this is a
+like uh... okay. I guess this is
 
-147
+162
+00:09:51,715 --> 00:09:54,970
+a
+
+163
 00:09:54,970 --> 00:09:59,799
 thing now. So I kind of went
 back and forth on do I want to
 
-148
+164
 00:09:59,799 --> 00:10:03,669
 make that something new with
 that name, do I want to rebrand
 
-149
+165
 00:10:03,669 --> 00:10:09,399
 the old project under Protege,
 which was the original idea. But
 
-150
+166
 00:10:09,399 --> 00:10:15,669
 then, but then COVID happened,
 and I lost, I lost both of those
 
-151
+167
 00:10:15,669 --> 00:10:18,340
 jobs. So I think, I think I
 accidentally bought the domain
 
-152
+168
 00:10:19,029 --> 00:10:24,970
 in February and then in March
 was when I lost work. So, you
 
-153
+169
 00:10:24,970 --> 00:10:27,039
 know, I was looking, I lost
 work, so I was looking at all
 
-154
+170
 00:10:27,039 --> 00:10:29,470
-the job boards all the time.
-And it was, you know, you see
+the job boards all the time. And
+it was, you know, you see
 
-155
+171
 00:10:29,470 --> 00:10:33,700
 senior, senior, senior lead,
 tech lead, bla bla bla bla. And
 
-156
+172
 00:10:33,700 --> 00:10:36,700
 I was like, there's like,
 there's nothing, it's so
 
-157
+173
 00:10:36,700 --> 00:10:40,360
 hard to find anything for
 someone at my skill level. So I
 
-158
+174
 00:10:40,360 --> 00:10:42,370
 was like, you know what? I'm
 just gonna build the job board
 
-159
+175
 00:10:42,370 --> 00:10:47,980
 that I wish I had. And that's,
 that's kind of how it ended up
 
-160
+176
 00:10:47,980 --> 00:10:53,710
 getting started. I lost, I lost
 my job and gave myself a new
 
-161
+177
 00:10:53,710 --> 00:10:57,159
 one (laugh). A new one that
 doesn't pay anything.
 
-162
+178
 00:10:58,320 --> 00:11:01,169
 Dan Ott: I love that, I love the
 idea of like, you just, you have
 
-163
+179
 00:11:01,169 --> 00:11:05,669
 a problem, you know, and so you
 just decided to fix it (laugh),
 
-164
+180
 00:11:06,779 --> 00:11:07,529
 to fix it yourself, right?
 
-165
+181
 00:11:07,678 --> 00:11:09,239
 Drew Clements: That's, that's
 pretty much what happened.
 
-166
+182
 00:11:09,568 --> 00:11:12,568
 Dan Ott: Yeah, it's amazing. And
 then on top of that, you know,
 
-167
+183
 00:11:12,568 --> 00:11:14,639
 you know you're going to gain
 experience for yourself, you
 
-168
+184
 00:11:14,639 --> 00:11:20,308
 know? And building it, right? We
 were just talking to Vic. And
 
-169
+185
 00:11:20,339 --> 00:11:23,458
 he's talking about a lot of this
 sort of the same thing, right?
 
-170
+186
 00:11:23,458 --> 00:11:26,519
 Like the, he frames it a little
 differently. But the indie, you
 
-171
+187
 00:11:26,519 --> 00:11:30,418
 know, indie hacking mentality,
 right? Of, you have a problem.
 
-172
+188
 00:11:30,418 --> 00:11:34,019
 And so instead of, I don't know,
 wandering around, or just being
 
-173
+189
 00:11:34,019 --> 00:11:37,288
 sad, you know, right? Like, you
 just kind of go and, go and dive
 
-174
+190
 00:11:37,288 --> 00:11:41,788
 into it, right? And hopefully,
 it becomes a successful product.
 
-175
+191
 00:11:41,788 --> 00:11:44,609
 And also, you know, you're
 giving yourself like, experience
 
-176
+192
 00:11:44,609 --> 00:11:46,828
 and scratching your own itch and
 all that stuff. That's great.
 
-177
+193
 00:11:46,860 --> 00:11:50,549
 Drew Clements: Yeah, the, when I
 first started out on Protege, my
 
-178
+194
 00:11:50,549 --> 00:11:55,110
 mindset was, you know, I'm going
 to build this thing in React, I
 
-179
+195
 00:11:55,110 --> 00:11:59,429
 need, I needed a React project
 on my portfolio. So I told
 
-180
+196
 00:11:59,429 --> 00:12:03,120
 myself, like, I'm gonna, I'm
 gonna build this out. And if it
 
-181
+197
 00:12:03,120 --> 00:12:07,860
 works, awesome. If not, then I
 have something on a resume that
 
-182
+198
 00:12:07,950 --> 00:12:11,460
 will maybe at least helped get
 me hired, which it actually did,
 
-183
+199
 00:12:11,490 --> 00:12:14,129
 fairly, fairly early on. So I
 think I started building it in
 
-184
+200
 00:12:14,129 --> 00:12:19,440
 March. And either at the end of
 March or early April, I was
 
-185
+201
 00:12:19,440 --> 00:12:23,250
 connected with a company called
 Layer Frame out of Florida,
 
-186
+202
 00:12:23,279 --> 00:12:28,740
 super awesome team. And the
 workout done on Protege, even at
 
-187
+203
 00:12:28,740 --> 00:12:33,450
 that point, before it was even
 done. Just the fact that I was
 
-188
+204
 00:12:33,509 --> 00:12:36,870
 doing that, you know, building
 that product, but also the work
 
-189
-00:12:36,870 --> 00:12:43,799
+205
+00:12:36,870 --> 00:12:40,334
 I'd put into it myself, pretty
-much jumping in blind was one of,
+much jumping in blind was one
 
-190
+206
+00:12:40,334 --> 00:12:43,798
+of,
+
+207
 00:12:43,799 --> 00:12:46,529
-one of the reasons that they
-can even consider to bring me on
+one of the reasons that they can
+even consider to bring me on
 
-191
+208
 00:12:46,529 --> 00:12:50,399
 the team. So it saved me almost
 immediately.
 
-192
+209
 00:12:51,840 --> 00:12:53,669
 Bekah Hawrot Weigel: I think
 that's so great. I think there's
 
-193
+210
 00:12:53,730 --> 00:12:58,919
 a tendency when you are starting
 out as an entry level dev to
 
-194
+211
 00:12:58,919 --> 00:13:01,620
 just keep going through the
 tutorials, right? And there's
 
-195
+212
 00:13:01,620 --> 00:13:05,039
 nothing wrong with that. But
 there's so many different people
 
-196
+213
 00:13:05,039 --> 00:13:08,399
 that are doing those same
 projects. So if you're able to
 
-197
+214
 00:13:08,399 --> 00:13:11,309
 do something where you're
 building something that you're
 
-198
+215
 00:13:11,309 --> 00:13:14,279
 interested in, or something that
 solves a problem for you, you're
 
-199
+216
 00:13:14,279 --> 00:13:17,490
 a little bit invested in it, but
 it also shows that, hey, look,
 
-200
+217
 00:13:17,490 --> 00:13:21,360
 you know, I tackled this
 problem, and I kept adding to it
 
-201
+218
 00:13:21,360 --> 00:13:25,259
 and growing with it. And I think
 that really shows, you know, a
 
-202
+219
 00:13:25,259 --> 00:13:28,049
 really good representation of
 who you are as a coder.
 
-203
+220
 00:13:30,639 --> 00:13:35,110
 Dan Ott: Yeah, you mentioned
 like, when you were describing
 
-204
-00:13:35,110 --> 00:13:39,159
+221
+00:13:35,110 --> 00:13:37,134
 talking to the company who hired
-you after that, that you went into
+you after that, that you went
 
-205
+222
+00:13:37,134 --> 00:13:39,158
+into
+
+223
 00:13:39,159 --> 00:13:42,970
 the, the Protege project going
 in blind. And I was, I was
 
-206
+224
 00:13:42,970 --> 00:13:46,360
 wondering, like, what you like,
 in hindsight, like, what do you
 
-207
+225
 00:13:46,809 --> 00:13:48,879
 think of when you say that,
 like, what pieces were you
 
-208
+226
 00:13:48,879 --> 00:13:52,659
 missing, you know? Now that
 you've gone through the whole
 
-209
+227
 00:13:52,659 --> 00:13:56,019
 process, and it's been a
 product, you know, for however
 
-210
-00:13:56,019 --> 00:13:58,929
+228
+00:13:56,019 --> 00:13:57,474
 long, I just looked at my watch
-to see what month it was. I don't know
+to see what month it was. I
 
-211
-00:13:58,929 --> 00:14:01,659
+229
+00:13:57,474 --> 00:13:58,929
+don't know
+
+230
+00:13:58,929 --> 00:14:00,294
 what I'm doing. But, you know,
-it's, it's been a, you know, it's
+it's, it's been a, you know,
 
-212
+231
+00:14:00,294 --> 00:14:01,659
+it's
+
+232
 00:14:01,659 --> 00:14:03,789
 been live for how many months?
 
-213
-00:14:03,789 --> 00:14:05,440
+233
+00:14:03,789 --> 00:14:04,614
 Drew Clements: Coming up on a
-year. I think March will be a year.
+year. I think March will be a
 
-214
+234
+00:14:04,614 --> 00:14:05,439
+year.
+
+235
 00:14:05,440 --> 00:14:11,049
 Dan Ott: Okay, yeah. So I guess
 my question is (laugh), my
 
-215
+236
 00:14:11,049 --> 00:14:13,299
 question is like, what, what do
 you know, now that like, would
 
-216
+237
 00:14:13,299 --> 00:14:16,240
 change your approach, if
 anything, you know? If you would
 
-217
+238
 00:14:16,240 --> 00:14:19,210
 start, if you were starting
 protege.dev right now?
 
-218
-00:14:19,450 --> 00:14:24,940
-Drew Clements: How much time do you
-have? (laugh) It was, so, the initial
+239
+00:14:19,450 --> 00:14:22,195
+Drew Clements: How much time do
+you have? (laugh) It was, so,
 
-219
+240
+00:14:22,195 --> 00:14:24,940
+the initial
+
+241
 00:14:24,940 --> 00:14:29,679
 build was just a regular Create
 React App. That was intentional,
 
-220
+242
 00:14:29,679 --> 00:14:32,110
 because I wanted to force myself
 to learn some of the lower level
 
-221
+243
 00:14:32,110 --> 00:14:40,419
 plumbing. I wish I would have
 known more about state
 
-222
+244
 00:14:40,419 --> 00:14:45,850
 management in React. Like I
 kinda... So, right before this
 
-223
+245
 00:14:45,850 --> 00:14:47,710
 episode, we were talking about
 how some of the, some of the
 
-224
+246
 00:14:47,710 --> 00:14:51,370
 parts of it are really just a
 juggling act until, you know, it
 
-225
+247
 00:14:51,370 --> 00:14:58,419
 either dies or does what it's
 supposed to do. So I think, if I
 
-226
+248
 00:14:58,419 --> 00:15:00,370
 would have known a little bit
 more around that, that could
 
-227
+249
 00:15:00,370 --> 00:15:05,080
 have been, I don't think it's an
 unstable system. But it's not as
 
-228
+250
 00:15:05,080 --> 00:15:07,840
 good as it can be. And I'm
 actually in the process of
 
-229
+251
 00:15:07,840 --> 00:15:14,110
 rewriting some of that work now.
 And I expect I'm going to be
 
-230
+252
 00:15:14,110 --> 00:15:18,250
 able to eliminate probably about
 40% of what's there now, and
 
-231
+253
 00:15:18,250 --> 00:15:22,539
-have something that works
-better in, you know, with better
+have something that works better
+in, you know, with better
 
-232
+254
 00:15:22,539 --> 00:15:26,830
 practices in place at the same
 time. Also I didn't really know
 
-233
-00:15:26,830 --> 00:15:31,539
+255
+00:15:26,830 --> 00:15:29,184
 much about, like component
-systems, like I knew what components
+systems, like I knew what
 
-234
+256
+00:15:29,184 --> 00:15:31,538
+components
+
+257
 00:15:31,539 --> 00:15:35,200
 were, but I didn't really have a
 good idea of how to utilize them
 
-235
+258
 00:15:35,200 --> 00:15:37,539
 correctly, which is another
 thing I've been kind of cleaning
 
-236
+259
 00:15:37,539 --> 00:15:40,779
 up as I've been doing this
 rebuild. We're converting from
 
-237
+260
 00:15:40,899 --> 00:15:47,080
 React, Create React App to Next
 right now. So I mean, even just
 
-238
+261
 00:15:47,080 --> 00:15:49,149
 last night, I was looking at
 some stuff like why didn't I
 
-239
+262
 00:15:49,149 --> 00:15:52,299
 just make this a component
 rather than pasting it seven
 
-240
+263
 00:15:52,330 --> 00:15:57,519
 times in the same place? Yeah.
 So, just, just little stuff like
 
-241
+264
 00:15:57,519 --> 00:15:57,909
 that.
 
-242
+265
 00:15:58,678 --> 00:16:00,568
 Bekah Hawrot Weigel: It's
 interesting. I used to write
 
-243
+266
 00:16:00,568 --> 00:16:03,989
 screenplays with my brother. And
 one of the first bits of advice
 
-244
+267
 00:16:03,989 --> 00:16:07,828
 someone told me or I heard, it
 was write your whole screenplay,
 
-245
+268
 00:16:07,859 --> 00:16:11,818
 and then cut 50% and then
 rewrite it. And like, as you're
 
-246
+269
 00:16:11,818 --> 00:16:15,629
 talking through this, that kind
 of makes sense to me in terms of
 
-247
+270
 00:16:15,629 --> 00:16:18,778
 like, okay, you have something
 down and you learned a lot in
 
-248
+271
 00:16:18,778 --> 00:16:22,078
 that first process. But what you
 learn should enable you to
 
-249
+272
 00:16:22,259 --> 00:16:25,469
 really tighten things up and
 getting it working efficiently
 
-250
+273
 00:16:25,469 --> 00:16:28,649
 or, or making it an effective
 story and codes not that
 
-251
+274
 00:16:28,649 --> 00:16:29,548
 different from that.
 
-252
+275
 00:16:30,980 --> 00:16:34,039
 Drew Clements: Yeah, that was
 what Andy's, the co-founder, he
 
-253
+276
 00:16:34,039 --> 00:16:38,059
 came on really early on with me.
 One, one thing we were very
 
-254
+277
 00:16:38,059 --> 00:16:41,299
 adamant about when we were
 starting up was that we're going
 
-255
+278
 00:16:41,299 --> 00:16:48,470
 to try to build as much of this
 as possible without a library,
 
-256
+279
 00:16:48,470 --> 00:16:52,129
-if we can. So that's why,
-that's why a lot of the state
+if we can. So that's why, that's
+why a lot of the state
 
-257
+280
 00:16:52,129 --> 00:16:55,009
 management with some of the
 forms are a bit of a juggling
 
-258
+281
 00:16:55,009 --> 00:16:57,919
 act, because we knew there was,
 you know, Redux and other things
 
-259
+282
 00:16:57,919 --> 00:17:02,570
 like that out there. But we
 wanted to kind of put ourselves
 
-260
+283
 00:17:02,570 --> 00:17:06,619
-in the uncomfortable position
-of having to build it, the only
+in the uncomfortable position of
+having to build it, the only
 
-261
+284
 00:17:06,859 --> 00:17:10,670
 having to build it with whatever
 we had available to us then,
 
-262
-00:17:11,029 --> 00:17:16,670
+285
+00:17:11,029 --> 00:17:13,849
 without grabbing something off
-the shelf. And... I mean, he would
+the shelf. And... I mean, he
 
-263
+286
+00:17:13,849 --> 00:17:16,669
+would
+
+287
 00:17:16,670 --> 00:17:20,900
-probably agree, we both probably,
-we learned, we learned
+probably agree, we both
+probably, we learned, we learned
 
-264
+288
 00:17:20,900 --> 00:17:24,950
 a lot of wrong ways to handle
 state React. We learned a
 
-265
+289
 00:17:24,950 --> 00:17:27,890
 lot of ways that you can do it,
 but probably aren't ideal. And
 
-266
-00:17:27,890 --> 00:17:34,160
-now we're, now we're getting into
-the phase of, you know, now, now
+290
+00:17:27,890 --> 00:17:31,025
+now we're, now we're getting
+into the phase of, you know,
 
-267
+291
+00:17:31,025 --> 00:17:34,160
+now, now
+
+292
 00:17:34,160 --> 00:17:36,440
 we can do it the right way with
 an understanding of why it's the
 
-268
+293
 00:17:36,440 --> 00:17:36,950
 right way.
 
-269
+294
 00:17:37,799 --> 00:17:43,109
 Dan Ott: Yeah, that enable that,
 that agreement at the beginning,
 
-270
+295
 00:17:43,140 --> 00:17:46,319
 and between you and your partner
 was is like, a very, very cool
 
-271
+296
 00:17:46,319 --> 00:17:49,500
 thing to do. Especially, you
 know, it's nice to have
 
-272
-00:17:50,069 --> 00:17:53,910
-alignment and that sort of thing,
-you know? But I mean, I always,
+297
+00:17:50,069 --> 00:17:51,989
+alignment and that sort of
+thing, you know? But I mean, I
 
-273
+298
+00:17:51,989 --> 00:17:53,909
+always,
+
+299
 00:17:53,940 --> 00:17:57,180
 always, always say the best way
 to learn anything, on any sort
 
-274
+300
 00:17:57,180 --> 00:17:59,970
 of deep level is to do it, just
 like you guys have done. And
 
-275
-00:18:00,150 --> 00:18:03,509
-state management in particular, I
-mean like, a lot of things are like
+301
+00:18:00,150 --> 00:18:01,829
+state management in particular,
+I mean like, a lot of things are
 
-276
-00:18:03,509 --> 00:18:06,930
-this. But state management is one
-of those, where there's a million
+302
+00:18:01,829 --> 00:18:03,508
+like
 
-277
+303
+00:18:03,509 --> 00:18:05,219
+this. But state management is
+one of those, where there's a
+
+304
+00:18:05,219 --> 00:18:06,929
+million
+
+305
 00:18:06,930 --> 00:18:12,750
 ways to do it. None of them are
 right or wrong, really. And the,
 
-278
+306
 00:18:12,900 --> 00:18:16,559
 but you never really, you never
 gonna have actual full insight
 
-279
+307
 00:18:16,559 --> 00:18:20,160
 into why you, why to make one
 choice or the other. Why to use
 
-280
+308
 00:18:20,160 --> 00:18:25,890
 Redux versus, you know, anything
 else. It, by reading tutorials,
 
-281
+309
 00:18:25,920 --> 00:18:27,900
 you're never gonna figure it
 out, right? Like, you're never
 
-282
+310
 00:18:27,900 --> 00:18:30,779
 like, somebody could say use
 Redux for this x, y and z, you
 
-283
+311
 00:18:30,779 --> 00:18:34,769
 know? Don't use Redux here, you
 know, and you could sort of try
 
-284
+312
 00:18:34,769 --> 00:18:37,859
 to follow them. But you're never
 gonna, you don't understand why
 
-285
+313
 00:18:37,920 --> 00:18:42,480
 until you've gone down the road
 of hacking it together, and then
 
-286
+314
 00:18:42,720 --> 00:18:45,180
 getting to the spot where you're
 like, okay, this, I see now.
 
-287
+315
 00:18:45,180 --> 00:18:47,609
 Like, this is not working out,
 or this is like more of a pain
 
-288
+316
 00:18:47,609 --> 00:18:50,400
 than it should be, or, you know,
 or whatever. Or I don't trust it
 
-289
+317
 00:18:50,400 --> 00:18:54,180
 as much, which is, which is one
 of the, like, one of the, one of
 
-290
+318
 00:18:54,180 --> 00:18:57,269
 the things that's hard to
 explain until you feel it,
 
-291
+319
 00:18:57,269 --> 00:18:59,730
 right? So you have that, you're
 talking about that form state.
 
-292
+320
 00:19:00,150 --> 00:19:03,900
 And just not like, you know, it
 can be better, you know, like,
 
-293
+321
 00:19:03,900 --> 00:19:06,180
 it's working and stuff, but you
 know, like, there's some,
 
-294
+322
 00:19:06,660 --> 00:19:09,720
 there's some area where it's not
 exactly sure what's going on or
 
-295
+323
 00:19:09,720 --> 00:19:12,930
 can't track, you know, all the
 different pieces of state or all
 
-296
-00:19:12,960 --> 00:19:16,829
-the different, you know, figures (??)
-that go on. Like, that's really
+324
+00:19:12,960 --> 00:19:14,894
+the different, you know, figures
+(??) that go on. Like, that's
 
-297
+325
+00:19:14,894 --> 00:19:16,828
+really
+
+326
 00:19:16,829 --> 00:19:17,190
 great.
 
-298
-00:19:17,490 --> 00:19:19,410
+327
+00:19:17,490 --> 00:19:18,450
 Drew Clements: Yeah, and even
-when we're, even while I'm coming
+when we're, even while I'm
 
-299
+328
+00:19:18,450 --> 00:19:19,410
+coming
+
+329
 00:19:19,410 --> 00:19:26,880
 through it now, I'm realizing,
 I'm kind of reflecting back on
 
-300
+330
 00:19:26,880 --> 00:19:29,549
 where I was last year, and like
 I can kind of like see the
 
-301
-00:19:29,549 --> 00:19:33,599
+331
+00:19:29,549 --> 00:19:31,574
 growth that I've had over the
-last year. It's like, as I'm, as I
+last year. It's like, as I'm, as
 
-302
+332
+00:19:31,574 --> 00:19:33,599
+I
+
+333
 00:19:33,599 --> 00:19:36,150
 rebuilding part to this, I'm
 looking at, I'm looking at some
 
-303
+334
 00:19:36,150 --> 00:19:38,940
 of the state and I'm like, okay,
 this, this definitely needs to
 
-304
+335
 00:19:38,940 --> 00:19:41,849
 be, you know, handled somewhere
 else in a more safer way. But
 
-305
+336
 00:19:42,390 --> 00:19:45,779
 this is actually perfectly fine
 to just be, you know, in this
 
-306
-00:19:45,779 --> 00:19:50,039
+337
+00:19:45,779 --> 00:19:47,909
 one component, and that's all it
-needs. And it's... I don't know. I,
+needs. And it's... I don't know.
 
-307
+338
+00:19:47,909 --> 00:19:50,039
+I,
+
+339
 00:19:50,369 --> 00:19:54,569
-me a year ago would be like
-so jealous of me right now (laugh),
+me a year ago would be like so
+jealous of me right now (laugh),
 
-308
+340
 00:19:54,569 --> 00:19:59,400
-that I'm like able to set
-them in a position to like to
+that I'm like able to set them
+in a position to like to
 
-309
+341
 00:19:59,400 --> 00:20:01,890
-know the difference of one
-and why.
+know the difference of one and
+why.
 
-310
+342
 00:20:02,099 --> 00:20:03,630
 Bekah Hawrot Weigel: I think
 that's a really good point too,
 
-311
+343
 00:20:03,630 --> 00:20:07,019
 because there's always this
 tricky thing where you feel
 
-312
+344
 00:20:07,019 --> 00:20:10,380
 like, oh, I have not, I haven't
 grown enough. But look, you're
 
-313
+345
 00:20:10,380 --> 00:20:13,349
 talking about this one year
 journey and how much you've
 
-314
+346
 00:20:13,349 --> 00:20:15,569
 learned, you know? You've grown
 a lot through that. And
 
-315
+347
 00:20:15,569 --> 00:20:19,079
 sometimes it feels very slow.
 But really, you're, you're
 
-316
+348
 00:20:19,079 --> 00:20:19,950
 moving a ton.
 
-317
+349
 00:20:21,279 --> 00:20:24,160
 Drew Clements: Yeah, and this is
 actually my, this is my first
 
-318
-00:20:24,160 --> 00:20:29,890
-year as a full time developer. So
-before this, I was either, um... I
+350
+00:20:24,160 --> 00:20:27,025
+year as a full time developer.
+So before this, I was either,
 
-319
+351
+00:20:27,025 --> 00:20:29,890
+um... I
+
+352
 00:20:29,890 --> 00:20:32,380
 was working part time, which
 was, you know, like, maybe 15
 
-320
+353
 00:20:32,410 --> 00:20:35,289
 hours after I got done with a
 full time job. So like, you
 
-321
-00:20:35,289 --> 00:20:38,049
+354
+00:20:35,289 --> 00:20:36,669
 know, I was already probably
-coming in at, like, 60% mental (??)
+coming in at, like, 60% mental
 
-322
+355
+00:20:36,669 --> 00:20:38,049
+(??)
+
+356
 00:20:38,049 --> 00:20:45,940
-capacity. And then the job I
-had in the agency before that,
+capacity. And then the job I had
+in the agency before that,
 
-323
+357
 00:20:45,940 --> 00:20:49,750
 it was a developer role, but it
 was, it was with a bunch of
 
-324
+358
 00:20:49,750 --> 00:20:53,950
 proprietary stuff, and some
 older languages. So like, a lot
 
-325
-00:20:53,950 --> 00:20:57,279
-of it didn't really... So I mean,
-a lot of it was just customer
+359
+00:20:53,950 --> 00:20:55,614
+of it didn't really... So I
+mean, a lot of it was just
 
-326
+360
+00:20:55,614 --> 00:20:57,278
+customer
+
+361
 00:20:57,279 --> 00:21:03,190
 support to begin with. And the
 smaller majority after that was,
 
-327
+362
 00:21:04,089 --> 00:21:09,039
 you know, it was in, in such a
 sandboxed and specific place
 
-328
+363
 00:21:09,039 --> 00:21:14,170
 that a lot of it couldn't really
 translate over. What I, one
 
-329
+364
 00:21:14,170 --> 00:21:16,420
-thing I wanted to double back
-on you said there, the, the
+thing I wanted to double back on
+you said there, the, the
 
-330
+365
 00:21:16,420 --> 00:21:20,829
 alignment between me and Andy, a
 lot of that was able to happen
 
-331
-00:21:20,829 --> 00:21:25,569
-was because, I mean, I was, I was
-very junior when I just decided
+366
+00:21:20,829 --> 00:21:23,199
+was because, I mean, I was, I
+was very junior when I just
 
-332
+367
+00:21:23,199 --> 00:21:25,569
+decided
+
+368
 00:21:25,569 --> 00:21:30,400
 to go full tilt on this, but
 Andy was the same way. Andy
 
-333
+369
 00:21:30,400 --> 00:21:33,549
 was working full time as a
 project manager, you know. He
 
-334
+370
 00:21:33,549 --> 00:21:35,619
 had written some code before, I
 don't know the full extent of
 
-335
+371
 00:21:35,619 --> 00:21:40,750
 his, of his experience before
 that. But when he approached me,
 
-336
+372
 00:21:40,750 --> 00:21:43,150
 he was like, hey, I've had a
 similar idea. I'm kind of in the
 
-337
+373
 00:21:43,150 --> 00:21:48,339
 same spot. So when, when we were
 kind of like spitballing ideas,
 
-338
+374
 00:21:48,339 --> 00:21:51,730
 we were like, you know, let's
 keep it simple, check. Let's
 
-339
+375
 00:21:51,759 --> 00:21:55,450
 build as much as we can without
 libraries, check. So I think, I
 
-340
+376
 00:21:55,450 --> 00:21:59,500
 think part of the reason we were
 able to align on so many things
 
-341
+377
 00:21:59,500 --> 00:22:03,609
 in the beginning is that we
 were, for the most part in
 
-342
+378
 00:22:03,759 --> 00:22:09,400
 pretty much the exact same spot,
 career wise. Shout out to Andy,
 
-343
+379
 00:22:09,400 --> 00:22:11,950
 by the way. He just started full
 time as a developer, I think,
 
-344
+380
 00:22:11,950 --> 00:22:15,250
 within the last few weeks. So
 congrats on that.
 
-345
+381
 00:22:15,509 --> 00:22:16,259
 Bekah Hawrot Weigel: Yeah, for
 sure.
 
-346
+382
 00:22:16,259 --> 00:22:17,009
 Dan Ott: Congrats to Andy.
 
-347
+383
 00:22:17,279 --> 00:22:25,529
 Bekah Hawrot Weigel: Andy is
 also very awesome. Okay, so
 
-348
+384
 00:22:18,119 --> 00:22:29,250
 simultaneously, you are
 establishing a career as an
 
-349
+385
 00:22:25,559 --> 00:22:34,259
 early career developer, and you
 are tackling a big problem in
 
-350
+386
 00:22:29,250 --> 00:22:37,710
 the industry, right? So can we
 talk a little bit about the
 
-351
+387
 00:22:34,259 --> 00:22:38,430
-challenges of balancing both
-of those things?
+challenges of balancing both of
+those things?
 
-352
+388
 00:22:40,789 --> 00:22:44,029
 Drew Clements: Um, I don't know
 if there's a balance as much as
 
-353
-00:22:44,059 --> 00:22:50,779
-I just put as much weight on both
-all the time (laugh). Which is why
+389
+00:22:44,059 --> 00:22:47,419
+I just put as much weight on
+both all the time (laugh). Which
 
-354
-00:22:50,779 --> 00:22:55,069
-I'm probably on like, a beeline to
-burnout at some point (laugh). I
+390
+00:22:47,419 --> 00:22:50,779
+is why
 
-355
+391
+00:22:50,779 --> 00:22:52,924
+I'm probably on like, a beeline
+to burnout at some point
+
+392
+00:22:52,924 --> 00:22:55,069
+(laugh). I
+
+393
 00:22:55,069 --> 00:22:58,849
 don't know. It's, I don't know,
 I haven't really thought about
 
-356
+394
 00:22:58,849 --> 00:23:01,819
 it. There's not much for
 balance. Or I guess I don't
 
-357
+395
 00:23:01,819 --> 00:23:06,349
 really have a process for
 balancing it. So like, I'm
 
-358
+396
 00:23:06,349 --> 00:23:09,289
-really bad about saying yes
-when people ask me for stuff. So
+really bad about saying yes when
+people ask me for stuff. So
 
-359
+397
 00:23:09,650 --> 00:23:14,089
 like, I joined up with Layer
 Frame. And then, thanks to a
 
-360
+398
 00:23:14,089 --> 00:23:17,089
 tweet that you sent out Bekah, I
 was propositioned for some other
 
-361
+399
 00:23:17,089 --> 00:23:20,809
 contract work that ended up
 happening like right alongside
 
-362
+400
 00:23:20,809 --> 00:23:25,700
 that. That turned into the full
 time role that I have now. So
 
-363
+401
 00:23:25,700 --> 00:23:28,730
 I'm like, okay, cool. I won't
 have two jobs anymore. Like a
 
-364
-00:23:28,730 --> 00:23:31,819
-month after that someone else was
-like, hey, I got some contract,
+402
+00:23:28,730 --> 00:23:30,274
+month after that someone else
+was like, hey, I got some
 
-365
-00:23:31,819 --> 00:23:34,819
-or do you want to jump in on? I'm
-like, absolutely (laugh). Let's do it.
+403
+00:23:30,274 --> 00:23:31,818
+contract,
 
-366
+404
+00:23:31,819 --> 00:23:33,319
+or do you want to jump in on?
+I'm like, absolutely (laugh).
+
+405
+00:23:33,319 --> 00:23:34,819
+Let's do it.
+
+406
 00:23:35,930 --> 00:23:42,289
 So. I've had a bad habit of
 keeping two jobs.
 
-367
+407
 00:23:42,359 --> 00:23:45,089
-Bekah Hawrot Weigel: Yeah. It's so
-hard to balance. I'm not, I'm
+Bekah Hawrot Weigel: Yeah. It's
+so hard to balance. I'm not, I'm
 
-368
+408
 00:23:45,089 --> 00:23:47,430
 certainly not good at that
 either. And that's one of the
 
-369
+409
 00:23:47,430 --> 00:23:50,549
 things that I'm working at
 figuring out I like go through
 
-370
+410
 00:23:50,549 --> 00:23:54,900
 these cycles. I'm like, all in
 for six weeks. And then for an
 
-371
+411
 00:23:54,900 --> 00:23:58,950
 entire week I feel like I can't
 move. And that's obviously not
 
-372
-00:23:58,950 --> 00:24:02,279
-healthy (laugh). I'm trying to find
-better ways of doing that. But
+412
+00:23:58,950 --> 00:24:00,614
+healthy (laugh). I'm trying to
+find better ways of doing that.
 
-373
+413
+00:24:00,614 --> 00:24:02,278
+But
+
+414
 00:24:02,279 --> 00:24:05,069
 also, there's just this weird, I
 don't know, tech just move so
 
-374
+415
 00:24:05,069 --> 00:24:09,809
 fast all the time. And you want
 to level up as a new developer.
 
-375
-00:24:09,809 --> 00:24:15,690
+416
+00:24:09,809 --> 00:24:12,749
 And at the same time, you're so
-aware of the problems of, I don't
+aware of the problems of, I
 
-376
+417
+00:24:12,749 --> 00:24:15,689
+don't
+
+418
 00:24:15,690 --> 00:24:20,819
 know, like being an entry level
 developer position that you want
 
-377
+419
 00:24:20,819 --> 00:24:24,539
 to tackle them when you have
 that passion. So there is this
 
-378
+420
 00:24:25,019 --> 00:24:32,910
 weird, you know, how do I do all
 of these things and still take
 
-379
+421
 00:24:32,910 --> 00:24:34,079
 care of myself.
 
-380
+422
 00:24:34,869 --> 00:24:36,579
 Drew Clements: That's, that's
 one thing I've planned to focus
 
-381
+423
 00:24:36,579 --> 00:24:40,450
 on this year is getting the
 stuff done that I want to in a
 
-382
+424
 00:24:40,539 --> 00:24:45,190
 healthy way. I will say one
 silver lining to taking on all
 
-383
-00:24:45,190 --> 00:24:48,849
-that extra contract work is I've,
-I've walked away with probably
+425
+00:24:45,190 --> 00:24:47,019
+that extra contract work is
+I've, I've walked away with
 
-384
+426
+00:24:47,019 --> 00:24:48,848
+probably
+
+427
 00:24:48,849 --> 00:24:52,299
 at least two to three things
 that I didn't know before I
 
-385
+428
 00:24:52,299 --> 00:24:58,720
 started the project. I really
 forget where that sentence was
 
-386
+429
 00:24:58,720 --> 00:25:01,329
-going (laugh). That was gonna
-be a good one too.
+going (laugh). That was gonna be
+a good one too.
 
-387
+430
 00:25:01,329 --> 00:25:04,000
-Bekah Hawrot Weigel: (laugh)
-And that's we, all the time.
+Bekah Hawrot Weigel: (laugh) And
+that's we, all the time.
 
-388
+431
 00:25:04,450 --> 00:25:04,900
 Dan Ott: Yes.
 
-389
-00:25:07,269 --> 00:25:09,190
-Drew Clements: Oh, no, so, it allowed,
-it allowed me to work with a couple
+432
+00:25:07,269 --> 00:25:08,229
+Drew Clements: Oh, no, so, it
+allowed, it allowed me to work
 
-390
+433
+00:25:08,229 --> 00:25:09,189
+with a couple
+
+434
 00:25:09,190 --> 00:25:12,069
 of different or, you know, just
 developers with different
 
-391
+435
 00:25:12,069 --> 00:25:14,740
 styles. So when I was with Layer
 Frame, I was working with Rob.
 
-392
+436
 00:25:16,119 --> 00:25:20,710
 And I feel like Rob was just
 like a mastermind with
 
-393
+437
 00:25:20,710 --> 00:25:24,250
 everything. So like, anytime I
 had a, anytime I had a problem,
 
-394
+438
 00:25:24,250 --> 00:25:27,460
 he had a solution for it. And he
 was really good at walking me
 
-395
+439
 00:25:27,460 --> 00:25:29,500
 through how he got to the
 solution. So I walked away with
 
-396
+440
 00:25:29,500 --> 00:25:31,420
 some really good troubleshooting
 skills from that.
 
-397
-00:25:33,039 --> 00:25:37,539
+441
+00:25:33,039 --> 00:25:35,289
 And then when I, on this last
-contract role that I just, at the
+contract role that I just, at
 
-398
+442
+00:25:35,289 --> 00:25:37,539
+the
+
+443
 00:25:37,539 --> 00:25:39,819
 end of last year, I was working
 with a guy named Nick.
 
-399
+444
 00:25:41,650 --> 00:25:45,759
 And he's just, he's just super
 knowledgeable around React. And
 
-400
+445
 00:25:45,759 --> 00:25:49,569
 like, some of, there's like so
 many tools and methods in React
 
-401
+446
 00:25:49,569 --> 00:25:53,500
 that I didn't even know were a
 thing until I was able to work
 
-402
+447
 00:25:53,500 --> 00:26:01,869
 with him. So it, I overload
 myself a lot, but so far, I've
 
-403
+448
 00:26:01,869 --> 00:26:05,440
-walked away, I've walked away
-in the green from it.
+walked away, I've walked away in
+the green from it.
 
-404
+449
 00:26:07,839 --> 00:26:09,369
 Bekah Hawrot Weigel: I want to
 come back to this idea of
 
-405
+450
 00:26:09,369 --> 00:26:13,960
 talking about Rob and one, just
 like learning in general. So, do
 
-406
+451
 00:26:13,960 --> 00:26:18,849
 you have a measure or a point
 where you think, okay, I have
 
-407
+452
 00:26:18,849 --> 00:26:22,599
 been trying to figure out this
 problem. And I know that this
 
-408
+453
 00:26:22,599 --> 00:26:25,480
 other person knows the answer.
 So at what point do you ask?
 
-409
+454
 00:26:25,480 --> 00:26:29,230
 Like, how far down the rabbit
 hole do you go before you ask
 
-410
+455
 00:26:29,230 --> 00:26:29,680
 for help?
 
-411
+456
 00:26:31,589 --> 00:26:36,779
 Drew Clements: So at my full
 time job, we have a one hour
 
-412
+457
 00:26:36,779 --> 00:26:40,410
 rule, if you get stuck for more
 than an hour, then reach out to
 
-413
+458
 00:26:40,410 --> 00:26:45,089
 someone. And I think that's kind
 of been rubbing off on me, for
 
-414
+459
 00:26:45,089 --> 00:26:49,470
 my side projects. I'm in a
 couple of different communities,
 
-415
+460
 00:26:50,400 --> 00:26:53,609
 that I kind of know which one
 will probably more than likely
 
-416
-00:26:53,609 --> 00:26:57,119
+461
+00:26:53,609 --> 00:26:55,364
 have the answers I need, or will
-be, dependent on the time of day,
+be, dependent on the time of
 
-417
+462
+00:26:55,364 --> 00:26:57,119
+day,
+
+463
 00:26:57,150 --> 00:27:03,210
 may just be more available. So I
 usually try to hit it. If, you
 
-418
+464
 00:27:03,210 --> 00:27:06,569
 know, right at the one hour
 mark, depending on how hard I'm
 
-419
+465
 00:27:06,569 --> 00:27:09,359
 spinning my wheels. Some,
 sometimes, I know there's been a
 
-420
+466
 00:27:09,359 --> 00:27:13,049
 few times, like I just, I hit a
 wall and like I don't even know
 
-421
+467
 00:27:13,079 --> 00:27:15,450
 how to start scaling this thing.
 So I'm just gonna immediately
 
-422
+468
 00:27:15,450 --> 00:27:18,000
 reach out, but then there's
 sometimes like, you know, I go
 
-423
+469
 00:27:18,000 --> 00:27:21,720
 through, I go through my
 troubleshooting process. And if
 
-424
+470
 00:27:21,720 --> 00:27:26,339
 I still can't really get
 anywhere, I have a couple
 
-425
+471
 00:27:26,339 --> 00:27:29,849
 different places I can reach out
 to the... What I love about the
 
-426
+472
 00:27:29,849 --> 00:27:33,869
 communities that I'm in is that
 in most cases, it's rare that
 
-427
+473
 00:27:33,869 --> 00:27:37,380
 they're just gonna give me the
 answer, but they're more so
 
-428
+474
 00:27:37,380 --> 00:27:41,069
 going to work through it with
 me, and almost kind of rubber
 
-429
+475
 00:27:41,069 --> 00:27:45,029
 duck me to the answer. So that's
 always super awesome.
 
-430
+476
 00:27:47,009 --> 00:27:51,299
 Dan Ott: Nice. Yeah. Like, I
 mean, that one hour mark? Seems
 
-431
+477
 00:27:51,299 --> 00:27:54,539
 like a good, like rule of thumb,
 you know, for that sort of
 
-432
+478
 00:27:54,539 --> 00:27:58,529
 thing. That question comes up a
 lot, you know, and with, with
 
-433
+479
 00:27:58,559 --> 00:28:05,009
 newer, early career developers,
 you know, I mean, that exact
 
-434
+480
 00:28:05,009 --> 00:28:06,960
 question comes up a lot. A lot
 of people are wondering it, and
 
-435
+481
 00:28:06,960 --> 00:28:12,480
 it's hard to sort of baseline
 it. I feel like the answer can
 
-436
+482
 00:28:12,509 --> 00:28:15,480
 sometimes change depending on
 the company, if you're, I mean,
 
-437
+483
 00:28:15,480 --> 00:28:17,640
 if you're working like this is
 not for side projects, but you
 
-438
+484
 00:28:17,640 --> 00:28:23,549
 know, at a job. And I've been
 finding it very, like, it seems
 
-439
+485
 00:28:24,059 --> 00:28:27,000
 like a good thing to have an
 actual rule for, like you said,
 
-440
+486
 00:28:27,059 --> 00:28:30,599
 that, that's where you learned
 it from, have it written down,
 
-441
+487
 00:28:30,599 --> 00:28:34,349
 you know, and make it make sure
 it's okay for early career
 
-442
+488
 00:28:34,349 --> 00:28:37,019
 developers to ask questions, you
 know? And like, let them know
 
-443
+489
 00:28:37,019 --> 00:28:40,410
 when to do it, right? Because
 you know what? I mean, nobody
 
-444
+490
 00:28:40,410 --> 00:28:43,200
 wants to ask a question right
 away every time they don't know
 
-445
+491
 00:28:43,200 --> 00:28:49,349
 anything, you know, but it
 always is going to be like,
 
-446
+492
 00:28:49,890 --> 00:28:52,079
 like, doing the rubber ducky
 thing is just like such a useful
 
-447
+493
 00:28:52,079 --> 00:28:56,009
 tool for any developer of any,
 any skill or you know, learning
 
-448
-00:28:56,009 --> 00:29:01,200
-level. It just that one hour mark
-seems, seems cool. I don't know.
+494
+00:28:56,009 --> 00:28:58,604
+level. It just that one hour
+mark seems, seems cool. I don't
 
-449
-00:29:01,470 --> 00:29:04,470
+495
+00:28:58,604 --> 00:29:01,199
+know.
+
+496
+00:29:01,470 --> 00:29:02,970
 Drew Clements: Yeah. Speaking of
-rubber ducks, my, we did uh... Two
+rubber ducks, my, we did uh...
 
-450
+497
+00:29:02,970 --> 00:29:04,470
+Two
+
+498
 00:29:04,470 --> 00:29:07,650
 years ago, we did Secret Santa
 for the family. My sister got
 
-451
+499
 00:29:07,650 --> 00:29:11,190
 me, she didn't know what, she
 didn't know what to get me. So
 
-452
+500
 00:29:11,190 --> 00:29:17,819
 she just googled like, coder
 gift ideas. And she got me this.
 
-453
+501
 00:29:19,410 --> 00:29:22,890
-It says, it says, Hi!
-I'm Stu, your debugging friend.
+It says, it says, Hi! I'm Stu,
+your debugging friend.
 
-454
-00:29:22,890 --> 00:29:26,970
+502
+00:29:22,890 --> 00:29:24,930
 Tell me your steps and we'll
-find the bug together! It's, it's
+find the bug together! It's,
 
-455
+503
+00:29:24,930 --> 00:29:26,970
+it's
+
+504
 00:29:26,970 --> 00:29:28,710
 right here on my desk. And he
 does exactly that.
 
-456
+505
 00:29:30,240 --> 00:29:31,019
 Dan Ott: That's amazing.
 
-457
-00:29:31,319 --> 00:29:36,059
-Bekah Hawrot Weigel: I um, I have
-a problem of, I think, early in
+506
+00:29:31,319 --> 00:29:33,689
+Bekah Hawrot Weigel: I um, I
+have a problem of, I think,
 
-458
+507
+00:29:33,689 --> 00:29:36,059
+early in
+
+508
 00:29:36,059 --> 00:29:39,599
 my career. It was I don't know
 if I should ask a question. And
 
-459
+509
 00:29:39,779 --> 00:29:43,680
 now that I'm a little bit in,
 it's the stubbornness in me that
 
-460
-00:29:43,680 --> 00:29:47,309
+510
+00:29:43,680 --> 00:29:45,494
 I have to tackle like, I can do
-this, you know? (laugh) Like, I don't
+this, you know? (laugh) Like, I
 
-461
-00:29:47,309 --> 00:29:51,119
-have to ask a question. This is a real
-check of, I don't know, what does
+511
+00:29:45,494 --> 00:29:47,308
+don't
 
-462
+512
+00:29:47,309 --> 00:29:49,214
+have to ask a question. This is
+a real check of, I don't know,
+
+513
+00:29:49,214 --> 00:29:51,119
+what does
+
+514
 00:29:51,119 --> 00:29:52,710
-that like hubris or something? (laugh)
+that like hubris or something?
+(laugh)
 
-463
-00:29:53,470 --> 00:29:59,230
-Drew Clements: (laugh) Yeah. No, I
-have uh... The first kind of developer
+515
+00:29:53,470 --> 00:29:56,350
+Drew Clements: (laugh) Yeah. No,
+I have uh... The first kind of
 
-464
+516
+00:29:56,350 --> 00:29:59,230
+developer
+
+517
 00:29:59,230 --> 00:30:04,240
 role I was in, the senior dev I
 worked with, he was, he was very
 
-465
+518
 00:30:04,240 --> 00:30:07,119
 much trained the old-school way
 and brought up with the
 
-466
+519
 00:30:07,119 --> 00:30:12,099
 old-school mentality. So any,
 anytime I would come to
 
-467
+520
 00:30:12,099 --> 00:30:15,190
 questions with him, he would
 assume that like, I got to the
 
-468
+521
 00:30:15,190 --> 00:30:18,190
 question, or I got to the
 problem and immediately ask the
 
-469
+522
 00:30:18,190 --> 00:30:22,210
 question. And that's kind of how
 he would react to me. Like,
 
-470
+523
 00:30:22,930 --> 00:30:26,019
 there's a lot of tension there.
 Like it got to the point where I
 
-471
+524
 00:30:26,019 --> 00:30:29,920
 didn't want to ask him a
 question, because I knew what, I
 
-472
+525
 00:30:29,920 --> 00:30:33,819
 knew the vibe and what the
 response was going to be. What
 
-473
+526
 00:30:33,819 --> 00:30:36,579
 was actually happening is like,
 I was spinning my wheels for
 
-474
+527
 00:30:36,579 --> 00:30:41,170
 like, two hours trying to not
 have to ask him a question. And
 
-475
+528
 00:30:41,170 --> 00:30:44,259
 then when I did ask the
 question, it was like, you know,
 
-476
+529
 00:30:44,259 --> 00:30:50,319
 grief conflict? A whole bunch of
 tension. So it's, I don't know,
 
-477
-00:30:50,319 --> 00:30:55,900
+530
+00:30:50,319 --> 00:30:53,109
 it's, it's been like a breath of
-fresh air, slash a huge relief that,
+fresh air, slash a huge relief
 
-478
+531
+00:30:53,109 --> 00:30:55,899
+that,
+
+532
 00:30:56,890 --> 00:31:01,119
 A, I've found the communities
 that have found and have places
 
-479
+533
 00:31:01,299 --> 00:31:05,349
 that I can ask questions, but B,
 now with a company that like,
 
-480
+534
 00:31:06,430 --> 00:31:08,859
 that had, that has their own
 rule for when you should ask
 
-481
+535
 00:31:08,859 --> 00:31:12,700
 questions, and a lot of times,
 they're, they're gonna chop that
 
-482
+536
 00:31:12,700 --> 00:31:15,490
 hour down to like, 30 minutes,
 or like, any time I'm on a
 
-483
-00:31:15,490 --> 00:31:19,390
-project, they're like, hey, one hour
-rule is actually 10 minutes here,
+537
+00:31:15,490 --> 00:31:17,440
+project, they're like, hey, one
+hour rule is actually 10 minutes
 
-484
+538
+00:31:17,440 --> 00:31:19,390
+here,
+
+539
 00:31:19,420 --> 00:31:21,730
 when our rules actually 20
 minutes here, and they actually
 
-485
-00:31:21,730 --> 00:31:25,119
+540
+00:31:21,730 --> 00:31:23,424
 want you to ask questions they
-have, we have an entire thread (??)
+have, we have an entire thread
 
-486
+541
+00:31:23,424 --> 00:31:25,118
+(??)
+
+542
 00:31:25,119 --> 00:31:27,819
 in basecamp, where it's just
 different developers asking
 
-487
+543
 00:31:27,819 --> 00:31:31,509
 different questions. And
 there's, it's just super awesome
 
-488
+544
 00:31:31,509 --> 00:31:32,380
 thing to be a part of.
 
-489
+545
 00:31:33,039 --> 00:31:34,750
 Dan Ott: That's really, that's
 cool. That's really cool to
 
-490
+546
 00:31:34,750 --> 00:31:38,259
 hear. Like the per project or
 something, they'll, they'll just
 
-491
+547
 00:31:38,259 --> 00:31:40,359
 say, okay, for this project, we
 know it's like new or something,
 
-492
-00:31:40,390 --> 00:31:43,420
-or a lot of moving pieces. So change
-the rule, you know? Based on that.
+548
+00:31:40,390 --> 00:31:41,905
+or a lot of moving pieces. So
+change the rule, you know? Based
 
-493
+549
+00:31:41,905 --> 00:31:43,420
+on that.
+
+550
 00:31:43,589 --> 00:31:45,930
 Drew Clements: Yeah. And they,
 they're, they're really aware of
 
-494
+551
 00:31:45,930 --> 00:31:50,910
 like, skill level and expertise
 with the different, with
 
-495
+552
 00:31:51,180 --> 00:31:55,170
 different tools and stuff. So if
 they're bringing me on to a
 
-496
+553
 00:31:55,170 --> 00:32:00,779
 project that uses you know, like
 a legacy build that they know, I
 
-497
+554
 00:32:00,779 --> 00:32:03,539
 haven't really seen a whole lot,
 then, then that's when they'll
 
-498
+555
 00:32:03,539 --> 00:32:08,730
 say, hey, your, your windows 15
 minutes for this, or if they're
 
-499
+556
 00:32:08,730 --> 00:32:12,059
 moving, in some cases, even some
 of the more experienced devs on
 
-500
+557
 00:32:12,059 --> 00:32:15,509
 to something where it's a little
 more intricate UI work, where
 
-501
+558
 00:32:15,509 --> 00:32:18,630
 they're mostly, you know, data
 backend stuff like, hey, okay,
 
-502
+559
 00:32:18,630 --> 00:32:22,589
 well, now your windows 10
 minutes, and met, but mine will
 
-503
+560
 00:32:22,589 --> 00:32:25,619
 still be the full hour so that
 they're, they're really aware of
 
-504
+561
 00:32:25,619 --> 00:32:29,970
 like where everyone's at? And
 like, adjusting their windows
 
-505
+562
 00:32:29,970 --> 00:32:30,539
 accordingly.
 
-506
+563
 00:32:31,980 --> 00:32:34,380
-Dan Ott: That's really cool
-to hear. I feel like asking
+Dan Ott: That's really cool to
+hear. I feel like asking
 
-507
+564
 00:32:34,380 --> 00:32:38,369
 questions is almost a skill to
 learn as well. Sort of similar
 
-508
-00:32:38,369 --> 00:32:42,960
-to googling (laugh) is a skill as
-a developer, you know? It sounds,
+565
+00:32:38,369 --> 00:32:40,664
+to googling (laugh) is a skill
+as a developer, you know? It
 
-509
+566
+00:32:40,664 --> 00:32:42,959
+sounds,
+
+567
 00:32:43,650 --> 00:32:46,890
 everybody who is been a
 developer for long enough knows
 
-510
+568
 00:32:46,890 --> 00:32:49,230
 what that means, like, knows
 what a person means when they
 
-511
+569
 00:32:49,230 --> 00:32:51,509
 say that googling is a skill,
 and you have to learn how to
 
-512
+570
 00:32:51,509 --> 00:32:55,380
 google. Do you feel like you
 have become better at asking
 
-513
+571
 00:32:55,380 --> 00:32:59,130
 questions? Once like, especially
 once you start working with
 
-514
+572
 00:32:59,160 --> 00:33:02,430
 maybe a company that value that,
 you know, value that
 
-515
+573
 00:33:02,940 --> 00:33:03,630
 interaction?
 
-516
+574
 00:33:04,230 --> 00:33:07,529
 Drew Clements: Yeah, absolutely.
 And, and I would even say, I got
 
-517
+575
 00:33:07,529 --> 00:33:10,440
 better at asking questions, even
 while I was in that environment.
 
-518
-00:33:11,400 --> 00:33:18,150
-Because uh... Well first, I want to
-say, like me and that developer,
+576
+00:33:11,400 --> 00:33:14,775
+Because uh... Well first, I want
+to say, like me and that
 
-519
+577
+00:33:14,775 --> 00:33:18,150
+developer,
+
+578
 00:33:18,960 --> 00:33:24,359
 we, it was a really strange
 relationship. Like, every, every
 
-520
+579
 00:33:24,359 --> 00:33:27,269
 Friday, we would go grab lunch
 together, we were best buds. And
 
-521
-00:33:27,269 --> 00:33:31,140
+580
+00:33:27,269 --> 00:33:29,204
 we liked the same music. We were
-both guitarist, and we would sit,
+both guitarist, and we would
 
-522
+581
+00:33:29,204 --> 00:33:31,139
+sit,
+
+582
 00:33:31,200 --> 00:33:35,549
 we would sit there, you know, we
 shared an office. It feels weird
 
-523
-00:33:35,549 --> 00:33:39,900
-to say that I shared a room with anyone
-right now (laugh). But you know, the
+583
+00:33:35,549 --> 00:33:37,724
+to say that I shared a room with
+anyone right now (laugh). But
 
-524
+584
+00:33:37,724 --> 00:33:39,899
+you know, the
+
+585
 00:33:39,900 --> 00:33:41,819
 entire day, we would just sit
 there and talk back and forth
 
-525
+586
 00:33:41,819 --> 00:33:47,279
 like it was, we really were just
 friends, friends inside, inside
 
-526
+587
 00:33:47,279 --> 00:33:50,910
-the company. But when it, when it
-came to that, that, that was
+the company. But when it, when
+it came to that, that, that was
 
-527
+588
 00:33:50,910 --> 00:33:53,670
 like, that was the only point of
 friction in that relationship.
 
-528
+589
 00:33:53,670 --> 00:33:55,829
 Which was, which was really
 strange to me. But I think it's,
 
-529
+590
 00:33:56,670 --> 00:33:58,920
 the only thing I can chalk it up
 to is that that's just how he
 
-530
+591
 00:33:58,920 --> 00:34:02,039
 was, that was the company
 culture. He was, he was trained
 
-531
+592
 00:34:02,039 --> 00:34:05,910
 in and brought up in himself. So
 that's the only way he knows to
 
-532
+593
 00:34:05,910 --> 00:34:14,010
 try to help others learn. Um,
 but yeah, I think even in that
 
-533
+594
 00:34:14,010 --> 00:34:17,039
 environment, I think I got
 better at asking questions,
 
-534
+595
 00:34:17,039 --> 00:34:21,179
 because I would, I would ask
 something and his response
 
-535
+596
 00:34:21,179 --> 00:34:25,079
 would be like, well, what is,
 what is x mean? What is y mean?
 
-536
-00:34:26,400 --> 00:34:30,090
+597
+00:34:26,400 --> 00:34:28,245
 I would use the wrong words all
-the time, which is very frustrating.
+the time, which is very
 
-537
+598
+00:34:28,245 --> 00:34:30,090
+frustrating.
+
+599
 00:34:30,119 --> 00:34:31,349
 Dan Ott: Can you give an example
 of that?
 
-538
+600
 00:34:31,920 --> 00:34:35,760
 Drew Clements: So like, I would
 say something like, you know,
 
-539
+601
 00:34:35,760 --> 00:34:38,670
 the this, I'm passing this
 argument, but it's not coming
 
-540
+602
 00:34:38,670 --> 00:34:43,889
 out the right way, when what I
 meant was the method. But I was
 
-541
+603
 00:34:43,889 --> 00:34:46,530
 using the word argument and his
 response to be like, well,
 
-542
+604
 00:34:46,559 --> 00:34:48,539
 obviously, that's not gonna
 work. You don't need an argument
 
-543
-00:34:48,539 --> 00:34:53,730
-there. That's the, I'd be pointing at
-it on the screen like, that, right
+605
+00:34:48,539 --> 00:34:51,134
+there. That's the, I'd be
+pointing at it on the screen
 
-544
+606
+00:34:51,134 --> 00:34:53,729
+like, that, right
+
+607
 00:34:53,730 --> 00:34:56,639
 there. That's what I'm trying to
 do. He's like, what? That's not
 
-545
-00:34:56,639 --> 00:35:01,619
-an argument. I'm like, okay. Fair
-enough. So (laugh), like that kind of
+608
+00:34:56,639 --> 00:34:59,129
+an argument. I'm like, okay.
+Fair enough. So (laugh), like
 
-546
+609
+00:34:59,129 --> 00:35:01,619
+that kind of
+
+610
 00:35:01,619 --> 00:35:02,070
 stuff.
 
-547
+611
 00:35:02,519 --> 00:35:02,969
 Dan Ott: (laugh) Yeah.
 
-548
+612
 00:35:03,360 --> 00:35:05,940
 Bekah Hawrot Weigel: Yeah. You
 know, we also see like the issue
 
-549
+613
 00:35:05,940 --> 00:35:11,190
 with entry level devs and the
 problem of comfort level with
 
-550
+614
 00:35:11,190 --> 00:35:14,579
 whoever they're working with.
 And I have a lot of feelings
 
-551
+615
 00:35:14,579 --> 00:35:17,820
 about that. But one of them also
 is that not everybody is meant
 
-552
+616
 00:35:17,820 --> 00:35:21,210
 to be a mentor, right? You know,
 some people have like a natural
 
-553
+617
 00:35:21,210 --> 00:35:24,539
 ability, some people can have
 training and get good at it. But
 
-554
+618
 00:35:24,539 --> 00:35:28,380
 some people, you know, they
 don't desire it, or they feel
 
-555
+619
 00:35:28,380 --> 00:35:31,380
 like it takes away from their
 experience. And so they're
 
-556
+620
 00:35:31,380 --> 00:35:36,420
 aggravated by it. But a company
 not only has to make a space
 
-557
+621
 00:35:36,539 --> 00:35:40,860
 welcoming for new developers,
 but it also has to support the
 
-558
+622
 00:35:40,889 --> 00:35:45,000
 upper level devs, who are
 providing the mentorship and the
 
-559
-00:35:45,000 --> 00:35:48,690
+623
+00:35:45,000 --> 00:35:46,845
 guidance and making sure that,
-you know, that culture shows that
+you know, that culture shows
 
-560
+624
+00:35:46,845 --> 00:35:48,690
+that
+
+625
 00:35:48,690 --> 00:35:50,639
-how you treat people and talk
-to them.
+how you treat people and talk to
+them.
 
-561
-00:35:52,579 --> 00:35:56,119
-Drew Clements: Yeah. That's the, um, so,
-one of, Sean, the guy that I mentioned
+626
+00:35:52,579 --> 00:35:54,349
+Drew Clements: Yeah. That's the,
+um, so, one of, Sean, the guy
 
-562
+627
+00:35:54,349 --> 00:35:56,119
+that I mentioned
+
+628
 00:35:56,119 --> 00:36:00,289
 earlier. He was always really
 good at, if I ever came to him
 
-563
+629
 00:36:00,289 --> 00:36:05,030
 with a question, he was, his
 response was always, you know,
 
-564
+630
 00:36:05,150 --> 00:36:08,480
 well, let's look at it together.
 Or, you know, let's talk me
 
-565
+631
 00:36:08,480 --> 00:36:10,760
 through the steps you're trying
 to do and let's see if we can
 
-566
+632
 00:36:10,760 --> 00:36:14,869
 find the hang up there. So I
 think he's one of those people
 
-567
-00:36:14,869 --> 00:36:19,219
-that just naturally has like, well
-I mean, he's, I know he's been a
+633
+00:36:14,869 --> 00:36:17,044
+that just naturally has like,
+well I mean, he's, I know he's
 
-568
+634
+00:36:17,044 --> 00:36:19,219
+been a
+
+635
 00:36:19,219 --> 00:36:22,070
 guitar teacher for a while. So
 maybe he's just developed those
 
-569
+636
 00:36:22,070 --> 00:36:22,820
 teaching skills.
 
-570
+637
 00:36:23,599 --> 00:36:28,639
 Dan Ott: Yeah. Going back to
 having a company support the
 
-571
+638
 00:36:28,670 --> 00:36:32,239
 senior devs in those roles, I
 feel like that's an important
 
-572
+639
 00:36:32,239 --> 00:36:39,320
 thing. I guess tying it back to
 the framing of making it a rule,
 
-573
+640
 00:36:39,320 --> 00:36:42,769
 like having the rule of the one
 hour thing, for instance, right?
 
-574
-00:36:43,190 --> 00:36:47,900
-That gives the younger developer,
-younger, the, you know, early
+641
+00:36:43,190 --> 00:36:45,545
+That gives the younger
+developer, younger, the, you
 
-575
+642
+00:36:45,545 --> 00:36:47,900
+know, early
+
+643
 00:36:47,900 --> 00:36:53,179
 career, newer developer a
 guideline to follow, right? But
 
-576
+644
 00:36:53,179 --> 00:36:57,590
 it also implies that the
 question should be asked, you
 
-577
+645
 00:36:57,590 --> 00:37:00,320
 know, and that, and that the
 question also should be, you
 
-578
+646
 00:37:00,320 --> 00:37:05,059
 know, answered or whatever. So,
 again, that has to become, I
 
-579
+647
 00:37:05,059 --> 00:37:07,940
 mean, you can just hope that the
 senior developer in whatever
 
-580
+648
 00:37:07,940 --> 00:37:14,929
 position is good at it and
 everything, but having it be
 
-581
+649
 00:37:15,019 --> 00:37:17,659
 part of the company culture,
 having it be expected, you know,
 
-582
+650
 00:37:17,659 --> 00:37:21,860
 that's part of a developer's
 role is supporting a junior
 
-583
+651
 00:37:21,860 --> 00:37:24,980
 developer, or however it works
 out. But that part of the
 
-584
+652
 00:37:24,980 --> 00:37:28,039
 developer's job is doing that.
 Not that answering a question,
 
-585
+653
 00:37:28,039 --> 00:37:34,010
 or helping a developer through a
 problem is taking time away from
 
-586
+654
 00:37:34,010 --> 00:37:37,400
 doing your job, right? I feel
 like that can be something that
 
-587
+655
 00:37:37,400 --> 00:37:41,780
 can come up, right? Where if
 it's not framed correctly, maybe
 
-588
+656
 00:37:42,739 --> 00:37:46,820
 when you were asking a question,
 he was just feeling like he had
 
-589
+657
 00:37:46,820 --> 00:37:49,550
 stuff to do. And this was
 getting in the way of doing his
 
-590
+658
 00:37:49,550 --> 00:37:53,539
-stuff or something, you
-know? And which is not actually
+stuff or something, you know?
+And which is not actually
 
-591
+659
 00:37:53,539 --> 00:37:56,000
 correct, right? Like, it's part
 of his job. I mean, I don't know
 
-592
-00:37:56,000 --> 00:37:58,610
-what the exact situation was there.
-But like, it should be part of...
+660
+00:37:56,000 --> 00:37:57,305
+what the exact situation was
+there. But like, it should be
 
-593
+661
+00:37:57,305 --> 00:37:58,610
+part of...
+
+662
 00:37:58,909 --> 00:38:01,010
 Drew Clements: There was
 definitely a lot a lot of moving
 
-594
+663
 00:38:01,010 --> 00:38:05,630
 projects with only one
 experienced and one learning
 
-595
+664
 00:38:05,719 --> 00:38:06,349
 developer.
 
-596
+665
 00:38:07,139 --> 00:38:10,949
 Dan Ott: Right. Right. Right.
 You know, and not having it
 
-597
+666
 00:38:13,170 --> 00:38:16,980
 explicit, is a recipe for that
 sort of thing to happen, you
 
-598
+667
 00:38:18,059 --> 00:38:21,000
-know? You could maybe have
-be lucky. That's what I mean,
+know? You could maybe have be
+lucky. That's what I mean,
 
-599
-00:38:21,000 --> 00:38:25,710
-like, depending on just hoping (laugh),
-hoping that it works out. It
+668
+00:38:21,000 --> 00:38:23,355
+like, depending on just hoping
+(laugh), hoping that it works
 
-600
+669
+00:38:23,355 --> 00:38:25,710
+out. It
+
+670
 00:38:25,710 --> 00:38:28,800
 doesn't, that doesn't seem like
 the right call. And hiring
 
-601
+671
 00:38:29,550 --> 00:38:34,230
 junior developers is important,
 but they need like, the people
 
-602
-00:38:34,230 --> 00:38:37,050
+672
+00:38:34,230 --> 00:38:35,640
 hiring them need to be, you
-know, prepared, right? Need to be
+know, prepared, right? Need to
 
-603
+673
+00:38:35,640 --> 00:38:37,050
+be
+
+674
 00:38:37,440 --> 00:38:41,550
 prepared to support them, but
 also prepared to, you know, have
 
-604
-00:38:41,550 --> 00:38:44,460
+675
+00:38:41,550 --> 00:38:43,005
 a plan for the senior developers
-too. Because it's hard. It's also
+too. Because it's hard. It's
 
-605
+676
+00:38:43,005 --> 00:38:44,460
+also
+
+677
 00:38:44,460 --> 00:38:51,510
 another whole skill to learn.
 And, you know, having some
 
-606
+678
 00:38:51,510 --> 00:38:54,389
 guidelines like that, I feel
 like is such a good, such a good
 
-607
+679
 00:38:54,599 --> 00:38:57,480
 thing to, and sort of almost
 easy thing to pull off, right?
 
-608
+680
 00:38:57,510 --> 00:38:59,489
 Like an easy way to really
 improve the situation is just
 
-609
-00:38:59,489 --> 00:39:03,210
-like, this is how it works. Ask a
-question, you know? (laugh) Like, ask
+681
+00:38:59,489 --> 00:39:01,349
+like, this is how it works. Ask
+a question, you know? (laugh)
 
-610
+682
+00:39:01,349 --> 00:39:03,209
+Like, ask
+
+683
 00:39:03,210 --> 00:39:06,239
 a question after an hour, you
 know? Answer the question after,
 
-611
+684
 00:39:06,300 --> 00:39:08,460
 you know, that when the junior
 developer helps like it, or
 
-612
+685
 00:39:08,460 --> 00:39:11,909
 asks, you know? I just like
 that. I like the clarity of
 
-613
+686
 00:39:11,909 --> 00:39:12,539
 that, you know? I think that's
 really cool.
 
-614
+687
 00:39:12,000 --> 00:39:15,300
 Drew Clements: Yeah. And that
 actually reminds me one, one
 
-615
+688
 00:39:15,300 --> 00:39:19,019
 thing before I knew about the
 one hour rule, one thing Sean
 
-616
+689
 00:39:19,019 --> 00:39:22,590
 always did to me that I didn't
 know until I, you know, months
 
-617
+690
 00:39:22,590 --> 00:39:26,550
-and months later, is that when
-I would ask him a question, he
+and months later, is that when I
+would ask him a question, he
 
-618
-00:39:26,550 --> 00:39:31,050
-would, he would, he would set like
-a timer, like he'll reply within
+691
+00:39:26,550 --> 00:39:28,800
+would, he would, he would set
+like a timer, like he'll reply
 
-619
+692
+00:39:28,800 --> 00:39:31,050
+within
+
+693
 00:39:31,050 --> 00:39:35,909
-one hour if he doesn't hear
-back from me. And I didn't know
+one hour if he doesn't hear back
+from me. And I didn't know
 
-620
+694
 00:39:35,909 --> 00:39:38,250
 that was the thing. So like, I,
 I just asked him a question, I
 
-621
+695
 00:39:38,250 --> 00:39:40,980
 keep trying to work on it. And
 then there were a lot of times
 
-622
-00:39:40,980 --> 00:39:45,900
-where like, oh, nevermind. Got it.
-And then like, at, what, I think it
+696
+00:39:40,980 --> 00:39:43,440
+where like, oh, nevermind. Got
+it. And then like, at, what, I
 
-623
+697
+00:39:43,440 --> 00:39:45,900
+think it
+
+698
 00:39:45,900 --> 00:39:49,559
 was after I'd left the contract
 role with him, he's like, yeah,
 
-624
+699
 00:39:49,559 --> 00:39:52,679
 I used to give you like an hour
 anytime you ask a question and
 
-625
+700
 00:39:52,710 --> 00:39:55,590
 towards the end you got to where
 you were responding back within
 
-626
+701
 00:39:55,590 --> 00:40:00,570
 like 10 minutes that nevermind,
 you found the answer. But
 
-627
+702
 00:40:02,550 --> 00:40:06,329
 touching back on what you were
 saying about companies needing
 
-628
+703
 00:40:06,329 --> 00:40:09,570
 to, you know, like proactively
 support junior developers.
 
-629
+704
 00:40:09,570 --> 00:40:13,619
 That's one of the things we're
 doing on Protege. So all of our,
 
-630
+705
 00:40:14,130 --> 00:40:18,989
 all the listings there are
 curated and like, approved by
 
-631
+706
 00:40:18,989 --> 00:40:23,400
 us. That's one thing, when, when
 a company lists with us, one
 
-632
+707
 00:40:23,400 --> 00:40:29,460
 thing we gotta do, one thing we
 do is, you know, first we read
 
-633
+708
 00:40:29,460 --> 00:40:31,469
 through the listing and make
 sure it kind of lines up with,
 
-634
+709
 00:40:32,010 --> 00:40:34,260
 with the goals we have for
 Protege. But then we also kind
 
-635
+710
 00:40:34,260 --> 00:40:37,889
 of like dig into the company's
 website, and you know, maybe
 
-636
+711
 00:40:37,889 --> 00:40:41,130
-their LinkedIn to try and get
-an idea of the company culture
+their LinkedIn to try and get an
+idea of the company culture
 
-637
+712
 00:40:41,130 --> 00:40:45,869
-like. Are, are they posting
-this role because they just
+like. Are, are they posting this
+role because they just
 
-638
+713
 00:40:45,869 --> 00:40:47,849
 want to pay someone cheap? Or
 are they posting this role
 
-639
+714
 00:40:47,849 --> 00:40:50,309
 because they genuinely want to
 find someone to build them up
 
-640
+715
 00:40:50,309 --> 00:40:56,550
 into the best version that they
 can be? And we try to, we try to
 
-641
+716
 00:40:56,550 --> 00:41:00,989
 make sure we have a good idea
 of, of, of the answer to that.
 
-642
+717
 00:41:01,800 --> 00:41:02,969
 For, for every listing.
 
-643
+718
 00:41:03,570 --> 00:41:06,030
 Dan Ott: That's really cool. I
 mean, and that's like, I feel
 
-644
+719
 00:41:06,030 --> 00:41:09,960
 like one of, one of the things
 that makes Protege, you know,
 
-645
+720
 00:41:09,960 --> 00:41:15,809
 special is the curation and the
 sort of insight into the, the
 
-646
-00:41:15,809 --> 00:41:21,630
-junior developer mind, if you will
-(laugh), you know? It's, like you
+721
+00:41:15,809 --> 00:41:18,719
+junior developer mind, if you
+will (laugh), you know? It's,
 
-647
+722
+00:41:18,719 --> 00:41:21,629
+like you
+
+723
 00:41:21,630 --> 00:41:26,190
 said, it's not just a, I don't
 know, collection of, of things
 
-648
+724
 00:41:26,190 --> 00:41:29,130
 that people want to find cheap
 worker, you know, something like
 
-649
+725
 00:41:29,130 --> 00:41:29,849
 that, right?
 
-650
+726
 00:41:30,449 --> 00:41:30,960
 Drew Clements: Yeah. I'm a,
 
-651
+727
 00:41:31,230 --> 00:41:31,829
 Dan Ott: It's really cool.
 
-652
+728
 00:41:32,519 --> 00:41:34,559
 Drew Clements: I will always
 refer to myself as perpetually,
 
-653
+729
 00:41:34,590 --> 00:41:38,489
 perpetually junior developer. So
 hopefully, I will always be able
 
-654
+730
 00:41:38,489 --> 00:41:42,570
 to keep that mindset. But we
 have, I was actually just
 
-655
+731
 00:41:42,570 --> 00:41:44,639
 talking to some people in the
 Virtual Coffee group not too
 
-656
+732
 00:41:44,639 --> 00:41:49,619
 long ago about, about some tools
 and features we can add, to
 
-657
+733
 00:41:49,619 --> 00:41:53,760
 hopefully help empower both
 sides of the process in our
 
-658
+734
 00:41:53,820 --> 00:41:55,019
 interface to build.
 
-659
-00:41:55,829 --> 00:41:59,429
-Bekah Hawrot Weigel: So okay. So,
-if you had a magic wand, and you
+735
+00:41:55,829 --> 00:41:57,629
+Bekah Hawrot Weigel: So okay.
+So, if you had a magic wand, and
 
-660
+736
+00:41:57,629 --> 00:41:59,429
+you
+
+737
 00:41:59,429 --> 00:42:01,739
 could get everything you want
 for Protege, what does it look
 
-661
+738
 00:42:01,739 --> 00:42:02,099
 like?
 
-662
-00:42:02,789 --> 00:42:05,820
-Drew Clements: If I get everything
-I want, in terms of features or
+739
+00:42:02,789 --> 00:42:04,304
+Drew Clements: If I get
+everything I want, in terms of
 
-663
+740
+00:42:04,304 --> 00:42:05,819
+features or
+
+741
 00:42:05,820 --> 00:42:06,480
 success?
 
-664
+742
 00:42:07,019 --> 00:42:09,090
 Bekah Hawrot Weigel: Whatever
 you want. Let's do it all.
 
-665
+743
 00:42:09,090 --> 00:42:10,829
 You've got a magic wand. It's
 your choice.
 
-666
-00:42:10,949 --> 00:42:15,239
-Drew Clements: If I had a magic wand,
-there, there'd be accounts for
+744
+00:42:10,949 --> 00:42:13,094
+Drew Clements: If I had a magic
+wand, there, there'd be accounts
 
-667
+745
+00:42:13,094 --> 00:42:15,239
+for
+
+746
 00:42:15,239 --> 00:42:19,829
 both candidates and companies,
 there'd be, there'd be tools on
 
-668
+747
 00:42:19,829 --> 00:42:26,670
 both ends to do both empower and
 protect both sides. I don't
 
-669
+748
 00:42:26,670 --> 00:42:28,349
 really feel like the companies
 would really need much
 
-670
+749
 00:42:28,409 --> 00:42:32,969
 protection. But in some cases,
 like maybe the candidates do,
 
-671
+750
 00:42:32,969 --> 00:42:39,389
 especially from, you know, like
 ageism, or, or something like
 
-672
+751
 00:42:39,389 --> 00:42:43,289
 that. Yeah, so some, some tools
 around like empowering
 
-673
+752
 00:42:43,289 --> 00:42:45,659
 candidates against
 discrimination. So like, maybe
 
-674
+753
 00:42:45,659 --> 00:42:50,369
 there, maybe only like their
 work history and like, some kind
 
-675
+754
 00:42:50,369 --> 00:42:54,630
 of like generic questions they
 answered are available. And the
 
-676
+755
 00:42:54,630 --> 00:42:59,099
 company can't really see what
 their you know, name, name,
 
-677
+756
 00:42:59,099 --> 00:43:03,150
 gender, age, or location or
 anything like that is until, you
 
-678
+757
 00:43:03,150 --> 00:43:06,420
 know, they schedule an interview
 with them and have something
 
-679
+758
 00:43:06,420 --> 00:43:11,099
 kinda like on the books or
 something like that. Or even,
 
-680
+759
 00:43:11,130 --> 00:43:14,940
 even a tool to where maybe
 candidates can say like, you
 
-681
+760
 00:43:14,940 --> 00:43:18,300
 know, I'm in this time zone, but
 I'm willing to work in up to
 
-682
+761
 00:43:18,300 --> 00:43:21,480
 these are you knows different
 stuff like that. I haven't
 
-683
+762
 00:43:21,480 --> 00:43:26,250
 looked at the, like the company
 side of a lot of the job board
 
-684
+763
 00:43:26,250 --> 00:43:29,880
 competitors, which I don't
 really consider them
 
-685
+764
 00:43:29,880 --> 00:43:33,150
 competitors. Because like, they,
 they have their niche. They're
 
-686
+765
 00:43:33,150 --> 00:43:35,250
 doing their thing, we're, we're
 trying to solve a completely
 
-687
+766
 00:43:35,250 --> 00:43:38,219
 different problem. So we'd
 really just like all the tools
 
-688
+767
 00:43:38,219 --> 00:43:40,559
-for everyone (laugh). And
-that's it.
+for everyone (laugh). And that's
+it.
 
-689
+768
 00:43:41,400 --> 00:43:44,429
 Bekah Hawrot Weigel: All right,
 excellent. I mean, it is so hard
 
-690
+769
 00:43:44,429 --> 00:43:48,840
 to search for a job as an entry
 level or junior developer,
 
-691
+770
 00:43:48,900 --> 00:43:51,269
 because they don't make it
 clear. Or you do have those
 
-692
+771
 00:43:51,269 --> 00:43:54,750
 problems where they're like,
 yes, we want an entry level
 
-693
+772
 00:43:54,750 --> 00:43:58,710
 developer, but you have to know
 all of these things just because
 
-694
+773
 00:43:58,860 --> 00:44:02,909
 they want to get you to do work
 for less money. And that's such
 
-695
+774
 00:44:02,909 --> 00:44:05,639
 a problem. And we see people
 over and over going into those
 
-696
+775
 00:44:05,639 --> 00:44:10,650
 environments and just being, you
 know, totally frustrated, and
 
-697
+776
 00:44:10,679 --> 00:44:13,530
 it's affecting their health
 because it's such a terrible
 
-698
+777
 00:44:13,530 --> 00:44:19,170
 place to work. But then it's so
 hard to find another job. But
 
-699
+778
 00:44:19,170 --> 00:44:21,960
 it's jus, I don't know. It's
 just this, this huge problem.
 
-700
+779
 00:44:23,159 --> 00:44:27,358
-Drew Clements: Yeah. Ideally,
-we want to build a network of
+Drew Clements: Yeah. Ideally, we
+want to build a network of
 
-701
+780
 00:44:27,358 --> 00:44:31,259
-companies that we know without
-a shadow of a doubt, like just
+companies that we know without a
+shadow of a doubt, like just
 
-702
+781
 00:44:31,438 --> 00:44:34,949
 support juniors, like from the
 ground up in every direction.
 
-703
+782
 00:44:36,059 --> 00:44:39,958
 And that's, that's really what
 we want for it is just, oh,
 
-704
+783
 00:44:39,958 --> 00:44:42,059
 you're, you're a new candidate,
 you're looking for a job, okay.
 
-705
+784
 00:44:42,059 --> 00:44:46,048
 Well, we know these 15 guys, or,
 you know, these 15 companies
 
-706
+785
 00:44:46,048 --> 00:44:50,159
 are, are hiring and we have a
 good working relationship with
 
-707
+786
 00:44:50,159 --> 00:44:53,458
 all of them. And we know
 regardless of where you end up,
 
-708
+787
 00:44:53,909 --> 00:44:55,289
 any of them are going to take
 care of you.
 
-709
+788
 00:44:56,199 --> 00:44:58,630
 Bekah Hawrot Weigel: Yeah,
 that's so awesome. And it's nice
 
-710
+789
 00:44:58,630 --> 00:45:02,739
 to have connections with
 communities where you can see
 
-711
+790
 00:45:02,949 --> 00:45:05,739
 junior developers who need jobs,
 and you know that you can vouch
 
-712
+791
 00:45:05,739 --> 00:45:09,460
 for them too, right? Like,
 there's a difference. You'll get
 
-713
+792
 00:45:09,460 --> 00:45:12,159
 the, I'll get those Twitter
 messages like, hey, I saw you
 
-714
+793
 00:45:12,159 --> 00:45:15,369
 asked about your friend wanting
 a dotnet job. I want one too.
 
-715
+794
 00:45:15,369 --> 00:45:19,360
 Can you recommend me next? Like,
 no (laugh), I don't know you.
 
-716
-00:45:20,679 --> 00:45:24,369
-Drew Clements: (laugh) I actually
-just had a, I guess was kind of a
+795
+00:45:20,679 --> 00:45:22,524
+Drew Clements: (laugh) I
+actually just had a, I guess was
 
-717
+796
+00:45:22,524 --> 00:45:24,369
+kind of a
+
+797
 00:45:24,369 --> 00:45:30,750
-screening call last week
-with a company that they just
+screening call last week with a
+company that they just
 
-718
+798
 00:45:27,780 --> 00:45:35,489
 like, they hit me up on Twitter,
 like, out of nowhere. And I
 
-719
+799
 00:45:30,750 --> 00:45:39,150
 spent like the last 10 minutes
 of that interview, like talking
 
-720
+800
 00:45:35,489 --> 00:45:42,780
 someone up from Virtual Coffee,
 because that referred them to
 
-721
-00:45:39,150 --> 00:45:47,400
+801
+00:45:39,150 --> 00:45:43,275
 apply to the application. So
-like, the lady I was interviewing
+like, the lady I was
 
-722
+802
+00:45:43,275 --> 00:45:47,400
+interviewing
+
+803
 00:45:42,809 --> 00:45:49,409
-with, she's like, okay,
-she was about to do like her
+with, she's like, okay, she was
+about to do like her
 
-723
+804
 00:45:47,400 --> 00:45:53,159
 little goodbye speech. And I was
 like, wait, before you go. Let
 
-724
+805
 00:45:49,409 --> 00:45:55,409
 me tell you about this person.
 And I was like, they do this,
 
-725
+806
 00:45:53,159 --> 00:45:59,309
 they do this, they have this
 experience. Look at their
 
-726
+807
 00:45:55,409 --> 00:45:59,309
 application. Forget about mine.
 
-727
+808
 00:45:59,369 --> 00:45:59,940
 Dan Ott: Nice.
 
-728
+809
 00:46:02,789 --> 00:46:04,530
 Bekah Hawrot Weigel: Okay, so
 another thing I want to talk
 
-729
+810
 00:46:04,530 --> 00:46:08,159
 about, because you are just
 doing like stacks on stacks of
 
-730
+811
 00:46:08,159 --> 00:46:12,210
 things. Okay, so you're building
 a career, you're building a
 
-731
+812
 00:46:12,239 --> 00:46:17,309
 community slash movement. And
 it's an also an open source
 
-732
+813
 00:46:17,309 --> 00:46:20,369
 project, and you're streaming
 some of this. So you're like,
 
-733
-00:46:20,489 --> 00:46:26,010
+814
+00:46:20,489 --> 00:46:23,249
 okay, let me make this even more
-difficult (laugh). So I'm going to add
+difficult (laugh). So I'm going
 
-734
+815
+00:46:23,249 --> 00:46:26,009
+to add
+
+816
 00:46:26,010 --> 00:46:28,800
 the open source maintainer
 thing, and I'm going to stream
 
-735
+817
 00:46:28,800 --> 00:46:34,590
 it. So what was the idea behind
 adding those components? And,
 
-736
+818
 00:46:34,860 --> 00:46:37,860
 you know, I, both I'm interested
 in like, how has that been
 
-737
+819
 00:46:37,860 --> 00:46:41,880
-challenging? But also like, how has
-that helped you as well?
+challenging? But also like, how
+has that helped you as well?
 
-738
+820
 00:46:42,409 --> 00:46:45,050
 Drew Clements: Well, we decided
 to make an open source, because
 
-739
+821
 00:46:45,050 --> 00:46:49,610
 we wanted a way... Well, one of
 the questions we kept asking
 
-740
+822
 00:46:49,610 --> 00:46:53,690
 ourselves early on was like,
 what can we do to let the
 
-741
+823
 00:46:53,690 --> 00:46:55,849
 companies know that the
 candidates they're considering
 
-742
+824
 00:46:55,849 --> 00:47:01,699
 here are, you know, worth, worth
 the hire, and one of the ways
 
-743
+825
 00:47:01,699 --> 00:47:06,650
 we thought we can do that was
 make it an open source project
 
-744
+826
 00:47:06,650 --> 00:47:09,440
 to where those candidates can
 actually contribute to the
 
-745
+827
 00:47:09,440 --> 00:47:13,519
 platform itself, you know, we,
 we display anyone's who's
 
-746
+828
 00:47:13,789 --> 00:47:18,650
 contributed to the project is on
 our contributors page. And the
 
-747
+829
 00:47:18,650 --> 00:47:22,519
 idea behind that was that
 companies could, ideally in our
 
-748
+830
 00:47:22,519 --> 00:47:25,639
 heads is that played out,
 companies come here, they, they
 
-749
+831
 00:47:25,639 --> 00:47:28,909
 want to post a job. And then
 they see it on the contributors
 
-750
+832
 00:47:28,909 --> 00:47:32,239
 page that, oh, so there's
 actually six applicants here
 
-751
+833
 00:47:32,239 --> 00:47:35,630
 that have actively helped to
 build the platform I'm listing
 
-752
+834
 00:47:35,630 --> 00:47:38,719
 this job on, you know? Maybe,
 maybe that'll help give them
 
-753
+835
 00:47:38,719 --> 00:47:42,440
 some preference or something.
 And even if it doesn't, then,
 
-754
+836
 00:47:42,710 --> 00:47:46,579
 you know, we're doing our best
 to, to help junior developers,
 
-755
+837
 00:47:46,579 --> 00:47:49,519
 so even if it doesn't help in
 that regard, it gives them the
 
-756
+838
 00:47:49,519 --> 00:47:55,369
 opportunity to work on a real
 world app that they can add to
 
-757
+839
 00:47:55,369 --> 00:47:58,820
 their resume. I mean, even if
 it's just, you know, I think
 
-758
+840
 00:47:58,820 --> 00:48:01,610
 there's been some contributions
 that were just accessibility
 
-759
+841
 00:48:01,610 --> 00:48:06,139
 fixes. But, you know, that may
 have just been, you know, from
 
-760
-00:48:06,139 --> 00:48:08,780
+842
+00:48:06,139 --> 00:48:07,459
 code perspective, all they did
-was changed the Tailwind class, but,
+was changed the Tailwind class,
 
-761
+843
+00:48:07,459 --> 00:48:08,779
+but,
+
+844
 00:48:09,110 --> 00:48:13,909
 you know, they also set up the
 project locally, they also, they
 
-762
+845
 00:48:13,909 --> 00:48:16,670
 also, you know, at least have an
 understanding of Git and how
 
-763
+846
 00:48:16,670 --> 00:48:21,920
 that whole process works. So
 that was, that was a lot of the
 
-764
+847
 00:48:21,920 --> 00:48:26,630
 reasons why we decided to do
 that. I decided to stream it,
 
-765
+848
 00:48:26,659 --> 00:48:33,440
 because... Partly because I was
 unemployed and bored, partly
 
-766
+849
 00:48:33,440 --> 00:48:37,610
 because I wanted to force myself
 into some accountability. So
 
-767
+850
 00:48:37,610 --> 00:48:41,150
 like, now, there's a lot of
 people out there that know this
 
-768
+851
 00:48:41,150 --> 00:48:47,869
 is a thing, so I don't want to
 say they're depending on me, but
 
-769
-00:48:47,900 --> 00:48:53,030
-they know it's a thing. And if...
-I'd feel really bad if I started
+852
+00:48:47,900 --> 00:48:50,465
+they know it's a thing. And
+if... I'd feel really bad if I
 
-770
+853
+00:48:50,465 --> 00:48:53,030
+started
+
+854
 00:48:53,030 --> 00:48:55,099
 building this thing that was
 gonna help the community and
 
-771
+855
 00:48:55,099 --> 00:48:59,000
 then just like, let it go. So
 now I have all these people that
 
-772
+856
 00:48:59,000 --> 00:49:01,550
 know it's a thing and they can
 just say, hey, how's, how's that
 
-773
+857
 00:49:01,550 --> 00:49:06,199
 going? And my response can never
 be, oh, I turned it off. So
 
-774
+858
 00:49:06,199 --> 00:49:07,880
-that, that's, that's never
-gonna be a thing.
+that, that's, that's never gonna
+be a thing.
 
-775
+859
 00:49:08,780 --> 00:49:11,780
-Dan Ott: I like that idea of
-the streaming for, for
+Dan Ott: I like that idea of the
+streaming for, for
 
-776
+860
 00:49:11,780 --> 00:49:16,099
 accountability, you know? I
 mean, the side project issue,
 
-777
+861
 00:49:16,130 --> 00:49:19,309
 you know, of abandoning in or
 not, or whatever, and you're
 
-778
+862
 00:49:19,309 --> 00:49:21,440
 right. You're, you already have,
 you have an audience of, you
 
-779
+863
 00:49:21,440 --> 00:49:25,820
 know, you have people coming in,
 but that the, the streaming, I
 
-780
+864
 00:49:25,820 --> 00:49:30,739
 feel like is, is a interesting
 bit to add, just for like the
 
-781
-00:49:30,739 --> 00:49:33,800
+865
+00:49:30,739 --> 00:49:32,269
 accountability, part of it, you
-know? I think that's really cool.
+know? I think that's really
 
-782
+866
+00:49:32,269 --> 00:49:33,799
+cool.
+
+867
 00:49:34,639 --> 00:49:36,409
 Drew Clements: Yeah, and
 there's, there's actually parts
 
-783
+868
 00:49:36,409 --> 00:49:39,260
 of the application now that
 wouldn't exist if it wouldn't
 
-784
+869
 00:49:39,260 --> 00:49:42,829
 have been for, for streaming
 because I'd hit a bug or get
 
-785
+870
 00:49:42,829 --> 00:49:44,840
 hung up on something that I
 probably would have never found,
 
-786
+871
 00:49:44,840 --> 00:49:50,389
 but there have been, there been
 people in the chat that were,
 
-787
+872
 00:49:50,420 --> 00:49:53,420
 you know, helping me debug some
 stuff. And if you look on the
 
-788
+873
 00:49:53,449 --> 00:49:59,150
 contributors page, the last
 three entries on it, it actually
 
-789
+874
 00:49:59,150 --> 00:50:02,150
 just says special commit. Those
 are there because those are,
 
-790
+875
 00:50:02,210 --> 00:50:05,269
 those are three people that were
 consistently there for, I think
 
-791
+876
 00:50:05,269 --> 00:50:07,340
 the first two months, I was
 working on building a stream to
 
-792
+877
 00:50:07,340 --> 00:50:12,409
 pretty much every day. So those
 three people were there for
 
-793
+878
 00:50:13,010 --> 00:50:17,179
 probably 85% of that streaming
 process. And we're doing a lot
 
-794
-00:50:17,179 --> 00:50:21,860
+879
+00:50:17,179 --> 00:50:19,519
 of like, you know, coaching or
-problem solving with me through the
+problem solving with me through
 
-795
+880
+00:50:19,519 --> 00:50:21,859
+the
+
+881
 00:50:21,860 --> 00:50:26,690
 chat. So that's what, that's why
 we put them up there. Yeah, and
 
-796
+882
 00:50:26,690 --> 00:50:30,199
 we've had, we haven't really
 done much marketing for Protege.
 
-797
+883
 00:50:30,199 --> 00:50:34,670
 I feel, I feel weird trying to
 market a thing I built, but it's
 
-798
-00:50:34,699 --> 00:50:36,769
-kind of, kind of through Twitter,
-and through streaming, and
+884
+00:50:34,699 --> 00:50:35,734
+kind of, kind of through
+Twitter, and through streaming,
 
-799
+885
+00:50:35,734 --> 00:50:36,769
+and
+
+886
 00:50:36,769 --> 00:50:40,340
 through a couple of other
 communities, we, we've somehow
 
-800
+887
 00:50:40,340 --> 00:50:45,679
 managed to, we average around
 400 users per month, which, you
 
-801
+888
 00:50:45,679 --> 00:50:49,789
 know, in the, in the larger
 scale of Google Analytics
 
-802
+889
 00:50:49,789 --> 00:50:53,119
 probably isn't a whole lot. But
 for, for something I started
 
-803
+890
 00:50:53,119 --> 00:50:56,869
 building out of nowhere last
 year with no marketing, I think
 
-804
+891
 00:50:56,869 --> 00:51:01,340
 that's pretty good numbers. So
 we're really, we have a phase
 
-805
+892
 00:51:01,340 --> 00:51:03,860
 two, we're kind of like ramping
 up for now, which is part of
 
-806
+893
 00:51:03,920 --> 00:51:10,070
 next, the next migration as part
 of that. So we want, we want to
 
-807
+894
 00:51:10,070 --> 00:51:14,389
-get those numbers up not
-because we want, you know, good
+get those numbers up not because
+we want, you know, good
 
-808
+895
 00:51:14,539 --> 00:51:20,360
 analytic points, or whatever the
 business side of that is, but if
 
-809
+896
 00:51:20,360 --> 00:51:23,000
 we can get that number up, then
 that's more people that are,
 
-810
+897
 00:51:23,719 --> 00:51:26,420
 that's just more people we're
 helping or, you know, maybe it
 
-811
+898
 00:51:26,809 --> 00:51:30,710
 at least giving hope that you
 know, someone's out there doing
 
-812
+899
 00:51:30,710 --> 00:51:33,019
 something on, on the behalf of
 them.
 
-813
+900
 00:51:34,530 --> 00:51:37,710
 Dan Ott: Absolutely. And, you
 know, the bigger community gets
 
-814
+901
 00:51:37,739 --> 00:51:42,449
 like around that or audience or
 whatever, you know, the more,
 
-815
+902
 00:51:42,480 --> 00:51:45,119
 it's sort of exponentially
 increases the exposure without
 
-816
+903
 00:51:45,510 --> 00:51:50,760
 even doing ads, or you know,
 anything specific did grow
 
-817
+904
 00:51:50,760 --> 00:51:53,400
 it, you know, yeah. That's
 really cool.
 
-818
+905
 00:51:54,449 --> 00:51:54,780
 Bekah Hawrot Weigel: All right,
 Drew,
 
-819
+906
 00:51:55,199 --> 00:51:58,739
 thanks for being here with us.
 We really enjoyed having you.
 
-820
+907
 00:51:58,800 --> 00:52:01,739
 And congratulations on
 everything that you've done with
 
-821
+908
 00:52:01,739 --> 00:52:05,369
 Protege and for your one year,
 anniversary, or birthday, or
 
-822
+909
 00:52:05,369 --> 00:52:09,000
 whatever you want to call it
 going up. So where can our
 
-823
+910
 00:52:09,000 --> 00:52:09,900
 listeners find you?
 
-824
+911
 00:52:11,670 --> 00:52:16,409
 Drew Clements: You can find me
 on Twitter @drewclemcr8,
 
-825
-00:52:16,409 --> 00:52:21,119
-drew-clem-c-r-8, because you know,
-all the good handles are taken.
+912
+00:52:16,409 --> 00:52:18,764
+drew-clem-c-r-8, because you
+know, all the good handles are
 
-826
+913
+00:52:18,764 --> 00:52:21,119
+taken.
+
+914
 00:52:22,230 --> 00:52:26,159
 You can find me, I haven't been
 streaming a lot lately, because
 
-827
+915
 00:52:26,159 --> 00:52:31,679
-of, you know, work and two
-kids. But I'm on Twitch at
+of, you know, work and two kids.
+But I'm on Twitch at
 
-828
+916
 00:52:31,710 --> 00:52:36,719
-twitch.tv/ducky_87. I used to
-do some gaming
+twitch.tv/ducky_87. I used to do
+some gaming
 
-829
+917
 00:52:36,719 --> 00:52:39,869
 streaming like, four years ago,
 and I just never changed the
 
-830
+918
 00:52:39,869 --> 00:52:46,559
 handle. And now just kind of
 like it, so... And you can also
 
-831
+919
 00:52:46,559 --> 00:52:51,119
 find me, you can find me in the
 Virtual Coffee sessions. Do you
 
-832
+920
 00:52:51,119 --> 00:52:53,760
 ever want to pop in and join one
 of those? Usually on Tuesdays. I
 
-833
+921
 00:52:53,760 --> 00:52:55,440
-can't make, I usually can't
-make Thursdays.
+can't make, I usually can't make
+Thursdays.
 
-834
+922
 00:52:56,280 --> 00:52:58,679
 Bekah Hawrot Weigel: Yeah. And
 also there's some open issues on
 
-835
+923
 00:52:58,679 --> 00:53:02,429
 Protege. So if you're interested
 in contributing, it's a great
 
-836
+924
 00:53:02,429 --> 00:53:05,730
 project. It's got a great
 community behind it. And there's
 
-837
+925
 00:53:05,730 --> 00:53:09,389
 lots of people there too,
 willing to help and answer
 
-838
+926
 00:53:09,389 --> 00:53:13,889
 questions. So we're very glad
 that you came here on this
 
-839
+927
 00:53:13,889 --> 00:53:16,260
 podcast and that you've been
 working on this project. So
 
-840
+928
 00:53:16,289 --> 00:53:17,909
 thanks, Drew.
 
-841
+929
 00:53:17,909 --> 00:53:18,960
 Drew Clements: Thank you.
 
-842
+930
 00:53:18,960 --> 00:53:19,500
 Dan Ott: Thanks, Drew.
 
-843
+931
 00:53:23,440 --> 00:53:25,329
 Bekah Hawrot Weigel: Thank you
 for listening to this episode of
 
-844
+932
 00:53:25,329 --> 00:53:29,530
 the Virtual Coffee podcast. This
 episode was produced by Dan Ott
 
-845
+933
 00:53:29,530 --> 00:53:33,730
 and Bekah Hawrot Weigel, and
 edited by Dan Ott. If you have
 
-846
-00:53:33,730 --> 00:53:36,940
+934
+00:53:33,730 --> 00:53:35,335
 questions or comments, you can
-hit us up on Twitter @VirtualCoffeeIO.
+hit us up on Twitter
 
-847
+935
+00:53:35,335 --> 00:53:36,940
+@VirtualCoffeeIO.
+
+936
 00:53:36,940 --> 00:53:41,889
-Or you can email us
-at podcast@virtualcoffee.io.
+Or you can email us at
+podcast@virtualcoffee.io.
 
-848
+937
 00:53:42,909 --> 00:53:45,519
 You can find the show notes.
 Plus you can sign up for our
 
-849
+938
 00:53:45,519 --> 00:53:48,579
 newsletter to find out what
 Virtual Coffee has been up to on
 
-850
+939
 00:53:48,579 --> 00:53:50,829
 our website at virtualcoffee.io.
 
-851
+940
 00:53:53,159 --> 00:53:55,858
 Dan Ott: Please subscribe to our
 podcast and be sure to leave us
 
-852
+941
 00:53:55,858 --> 00:53:59,068
 a review. Thanks for listening
 and we'll see you next week.

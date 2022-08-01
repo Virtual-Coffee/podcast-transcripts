@@ -4,5122 +4,6203 @@ Bekah: Hello, and welcome to
 season three, episode two of the
 
 2
-00:00:08,016 --> 00:00:13,305
+00:00:08,016 --> 00:00:10,660
 Virtual Coffee podcast. I'm
-Bekah. And this is a podcast that
+Bekah. And this is a podcast
 
 3
+00:00:10,660 --> 00:00:13,304
+that
+
+4
 00:00:13,305 --> 00:00:17,025
 features members of the Virtual
 Coffee community. Virtual Coffee
 
-4
-00:00:17,025 --> 00:00:19,606
-is an intimate group of
-developers at all stages of their
-
 5
+00:00:17,025 --> 00:00:18,315
+is an intimate group of
+developers at all stages of
+
+6
+00:00:18,315 --> 00:00:19,605
+their
+
+7
 00:00:19,606 --> 00:00:22,216
 coding journey. And they're here
 on this podcast, sharing their
 
-6
-00:00:22,216 --> 00:00:24,975
-stories and what they've learned.
-And we are here to share it with
+8
+00:00:22,216 --> 00:00:23,595
+stories and what they've
+learned. And we are here to
 
-7
+9
+00:00:23,595 --> 00:00:24,974
+share it with
+
+10
 00:00:24,975 --> 00:00:28,185
 you here with me today is my
 cohost Dan.
 
-8
+11
 00:00:28,960 --> 00:00:32,634
 Dan: Thanks Bekah. Today we are
 joined by Abby Perini, a full
 
-9
+12
 00:00:32,634 --> 00:00:36,685
 stack web developer, and a
 delightful human being about the
 
-10
-00:00:36,715 --> 00:00:40,255
+13
+00:00:36,715 --> 00:00:38,485
 impact building and public has
-had on her developer journey. Uh,
+had on her developer journey.
 
-11
+14
+00:00:38,485 --> 00:00:40,255
+Uh,
+
+15
 00:00:40,314 --> 00:00:43,405
 what our experience as a
 recruiter taught her and how
 
-12
+16
 00:00:43,435 --> 00:00:46,545
 rehearsing before an interview
 can actually make a big impact.
 
-13
+17
 00:00:46,926 --> 00:00:49,655
 Bekah: We start every episode of
 the podcast. Like we start every
 
-14
+18
 00:00:49,655 --> 00:00:52,115
 Virtual Virtual Coffee we
 introduce ourselves with our
 
-15
+19
 00:00:52,115 --> 00:00:55,865
 name, where we're from, what we
 do and a random check-in
 
-16
+20
 00:00:55,865 --> 00:01:00,066
 question. Today's question is,
 would you rather be stuck on a
 
-17
+21
 00:01:00,066 --> 00:01:04,665
 broken ski lift or a broken
 elevator? We hope you enjoy this
 
-18
+22
 00:01:04,665 --> 00:01:16,248
 episode. my name's Bekah. I am a
 front end developer from a small
 
-19
+23
 00:01:16,248 --> 00:01:21,798
 town in Ohio. And if I had to be
 stuck on a broken ski lift or
 
-20
-00:01:21,798 --> 00:01:25,998
-broken elevator, it depends if we
-are allowed to add conditions to
+24
+00:01:21,798 --> 00:01:23,898
+broken elevator, it depends if
+we are allowed to add conditions
 
-21
+25
+00:01:23,898 --> 00:01:25,998
+to
+
+26
 00:01:25,998 --> 00:01:29,298
 that, I really do not like
 heights. So I would not want to
 
-22
+27
 00:01:29,298 --> 00:01:31,248
 be stuck up very high.
 
-23
+28
 00:01:31,388 --> 00:01:31,507
 Abbey: Yeah.
 
-24
+29
 00:01:32,358 --> 00:01:36,737
 Bekah: I feel like I've seen
 enough movies where you can
 
-25
-00:01:36,888 --> 00:01:41,962
-escape a broken elevator. So if I
-had to choose between a high ski
+30
+00:01:36,888 --> 00:01:39,425
+escape a broken elevator. So if
+I had to choose between a high
 
-26
+31
+00:01:39,425 --> 00:01:41,962
+ski
+
+32
 00:01:41,962 --> 00:01:47,453
 lift or broken elevator, I would
 MacGyver it out of the elevator.
 
-27
+33
 00:01:48,612 --> 00:01:54,162
 Dan: Um, yeah, that's, that's a
 good point about escaping it.
 
-28
-00:01:54,533 --> 00:01:58,513
-It's like, but I feel like that's
-also like bad guys can come in
+34
+00:01:54,533 --> 00:01:56,523
+It's like, but I feel like
+that's also like bad guys can
 
-29
+35
+00:01:56,523 --> 00:01:58,513
+come in
+
+36
 00:01:58,513 --> 00:02:00,132
-that way too and stuff, you know?
-So you
+that way too and stuff, you
+know? So you
 
-30
+37
 00:02:00,222 --> 00:02:01,843
-Bekah: Are there bad guys in this
-scenario? Because.
+Bekah: Are there bad guys in
+this scenario? Because.
 
-31
+38
 00:02:01,933 --> 00:02:03,703
 Dan: Well, you got to always be
 ready, but I mean, if you're
 
-32
+39
 00:02:03,703 --> 00:02:05,503
 stuck in an elevator, then, you
 know, bad guys are probably
 
-33
+40
 00:02:05,503 --> 00:02:07,112
 coming, you know, that's just
 like one of the things
 
-34
+41
 00:02:07,177 --> 00:02:09,157
 Bekah: I think I still would
 rather be in an elevator than a
 
-35
+42
 00:02:09,157 --> 00:02:11,677
 high ski lift with bad guys. How
 do you get out of that?
 
-36
+43
 00:02:11,978 --> 00:02:15,277
 Dan: Oh, I mean, if you're stuck
 on a ski lift and there's bad
 
-37
+44
 00:02:15,277 --> 00:02:17,587
 guys around, you just stay there
 cause they can't get to you, but
 
-38
+45
 00:02:17,587 --> 00:02:18,997
 the elevator, they can just go
 down
 
-39
+46
 00:02:19,048 --> 00:02:25,587
 Bekah: Why can't bad guys get to
 you on a ski lift climb
 
-40
+47
 00:02:25,598 --> 00:02:27,237
 downloads. You have thing
 
-41
+48
 00:02:27,918 --> 00:02:30,657
 Dan: Uh, oh yeah. You mean like,
 oh, hand over hand, like monkey
 
-42
+49
 00:02:30,657 --> 00:02:33,657
 bars kind of like scoot down.
 Well, you'll be able to see them
 
-43
+50
 00:02:33,657 --> 00:02:34,258
 coming along the way.
 
-44
-00:02:35,078 --> 00:02:37,358
+51
+00:02:35,078 --> 00:02:36,218
 Bekah: I wonder, like if you had
-a shirt and you wrapped it around
+a shirt and you wrapped it
 
-45
+52
+00:02:36,218 --> 00:02:37,358
+around
+
+53
 00:02:37,358 --> 00:02:39,427
-the ski lift thing, can you slide
-down?
+the ski lift thing, can you
+slide down?
 
-46
+54
 00:02:39,633 --> 00:02:40,562
 Abbey: like a zip line.
 
-47
+55
 00:02:40,717 --> 00:02:43,777
-Bekah: Yeah. Yeah. Can you make a
-zip-line that I might
+Bekah: Yeah. Yeah. Can you make
+a zip-line that I might
 
-48
+56
 00:02:43,823 --> 00:02:46,612
 Abbey: that's making your case
 for the escaping the ski lift
 
-49
+57
 00:02:46,612 --> 00:02:46,793
 though.
 
-50
+58
 00:02:47,973 --> 00:02:51,098
 Bekah: Yeah. Well, I might be
 okay if I could make a zip line,
 
-51
+59
 00:02:51,098 --> 00:02:54,217
 then I might be okay with trying
 to escape the ski lift.
 
-52
+60
 00:02:55,112 --> 00:03:00,182
 Dan: Um, all right, we're going
 to move on. Uh, I'm Dan, I am a
 
-53
+61
 00:03:00,182 --> 00:03:03,902
 front end developer from
 Cleveland, Ohio. And, um, yeah,
 
-54
+62
 00:03:03,902 --> 00:03:08,733
 so my answer is ski lift for
 sure. Um, I've actually jumped
 
-55
+63
 00:03:08,733 --> 00:03:12,233
 off a stuck ski lift before, uh,
 when I was snowboarding, um, we,
 
-56
+64
 00:03:12,233 --> 00:03:15,332
-we were like kind of close-ish to
-the thing. And we were in the
+we were like kind of close-ish
+to the thing. And we were in the
 
-57
-00:03:15,842 --> 00:03:19,203
-part where like the snow had been
-it, a big pile of like loose
+65
+00:03:15,842 --> 00:03:17,522
+part where like the snow had
+been it, a big pile of like
 
-58
+66
+00:03:17,522 --> 00:03:19,202
+loose
+
+67
 00:03:19,203 --> 00:03:24,032
 snow. And so we, we just like
 toss our boards off and. Uh, in
 
-59
-00:03:24,032 --> 00:03:28,362
+68
+00:03:24,032 --> 00:03:26,197
 high school. And so I have
-escaped the stuck, stuck ski lift
+escaped the stuck, stuck ski
 
-60
+69
+00:03:26,197 --> 00:03:28,362
+lift
+
+70
 00:03:28,383 --> 00:03:31,693
 before. So, um, that's easy, but
 yeah, I mean, going back to the,
 
-61
-00:03:31,693 --> 00:03:34,112
-the, like the bad guys and stuff,
-it's like the visibility thing is
+71
+00:03:31,693 --> 00:03:32,902
+the, like the bad guys and
+stuff, it's like the visibility
 
-62
+72
+00:03:32,902 --> 00:03:34,111
+thing is
+
+73
 00:03:34,112 --> 00:03:36,992
 really my, you know, if you're
 stuck, you just kind of know
 
-63
-00:03:37,862 --> 00:03:39,663
-what's going on, but you're stuck
-in an elevator. You can't see
+74
+00:03:37,862 --> 00:03:38,762
+what's going on, but you're
+stuck in an elevator. You can't
 
-64
+75
+00:03:38,762 --> 00:03:39,662
+see
+
+76
 00:03:39,663 --> 00:03:41,703
 anything there's just buttons.
 And you don't know if it's a
 
-65
-00:03:41,703 --> 00:03:45,543
+77
+00:03:41,703 --> 00:03:43,623
 computer that's stuck or like a
-mechanical thing or whatever. And
+mechanical thing or whatever.
 
-66
+78
+00:03:43,623 --> 00:03:45,543
+And
+
+79
 00:03:45,752 --> 00:03:49,293
 you're just in a little box. And
 I feel like my guess is that
 
-67
+80
 00:03:49,293 --> 00:03:52,907
-movies have misled all of us. The
-panel that's up there in the
+movies have misled all of us.
+The panel that's up there in the
 
-68
+81
 00:03:52,907 --> 00:03:56,207
 ceiling, you know, in every
 movie. Cause I've looked up, you
 
-69
-00:03:56,207 --> 00:03:59,538
+82
+00:03:56,207 --> 00:03:57,872
 know, sometimes in elevators you
-look up and there's never a panel
+look up and there's never a
 
-70
+83
+00:03:57,872 --> 00:03:59,537
+panel
+
+84
 00:03:59,568 --> 00:04:03,737
 like that. So, I mean, it's
 possible. I'm just going in the
 
-71
+85
 00:04:03,737 --> 00:04:04,427
 wrong elevators,
 
-72
-00:04:04,598 --> 00:04:06,848
+86
+00:04:04,598 --> 00:04:05,723
 Bekah: and elevators. You just
-got to take that drop ceiling and
+got to take that drop ceiling
 
-73
+87
+00:04:05,723 --> 00:04:06,848
+and
+
+88
 00:04:06,867 --> 00:04:10,647
 Dan: maybe, maybe, but also we
 all just know that movies, you
 
-74
+89
 00:04:10,647 --> 00:04:10,888
 know,
 
-75
+90
 00:04:12,272 --> 00:04:12,543
 Abbey: they do
 
-76
+91
 00:04:12,717 --> 00:04:13,828
 Dan: lie about that sort of
 thing.
 
-77
+92
 00:04:14,282 --> 00:04:15,423
 Abbey: They lie about a lot of
 things.
 
-78
+93
 00:04:15,538 --> 00:04:19,468
 Dan: My, uh, Ben asked me like,
 how do people fall on bananas?
 
-79
+94
 00:04:19,617 --> 00:04:19,978
 Because.
 
-80
+95
 00:04:20,288 --> 00:04:20,528
 Bekah: Okay.
 
-81
-00:04:21,408 --> 00:04:25,458
-Dan: He saw it in curious George,
-I think. And I'm like, well, you
+96
+00:04:21,408 --> 00:04:23,433
+Dan: He saw it in curious
+George, I think. And I'm like,
 
-82
-00:04:25,458 --> 00:04:28,158
-know, they're kind of squishy and
-stuff or whatever, but also like,
+97
+00:04:23,433 --> 00:04:25,458
+well, you
 
-83
+98
+00:04:25,458 --> 00:04:26,808
+know, they're kind of squishy
+and stuff or whatever, but also
+
+99
+00:04:26,808 --> 00:04:28,158
+like,
+
+100
 00:04:28,187 --> 00:04:31,788
 literally I've never seen that
 happen in my entire life
 
-84
+101
 00:04:31,812 --> 00:04:35,502
 Bekah: peel, not, not going to
 lie. I've got enough kids that I
 
-85
+102
 00:04:35,533 --> 00:04:38,023
-believe I have fallen on a banana
-peel in is slippery.
+believe I have fallen on a
+banana peel in is slippery.
 
-86
+103
 00:04:38,567 --> 00:04:38,838
 Dan: I'm just
 
-87
+104
 00:04:39,043 --> 00:04:40,752
 Bekah: So can confirm you, just
 let them know.
 
-88
+105
 00:04:41,447 --> 00:04:44,117
 Dan: movies, like bananas. I can
 see bananas being slippery, but
 
-89
+106
 00:04:44,117 --> 00:04:46,908
 just like, as a reg, as like a
 thing that always happens, you
 
-90
+107
 00:04:46,908 --> 00:04:48,108
 know, it's like,
 
-91
+108
 00:04:49,398 --> 00:04:51,757
 Abbey: It's not as frequent as
 movies would leave. You lead you
 
-92
+109
 00:04:51,757 --> 00:04:51,908
 to
 
-93
+110
 00:04:52,177 --> 00:04:52,947
 Dan: Right. Exactly.
 
-94
+111
 00:04:53,348 --> 00:04:56,858
 Abbey: And on that note, I'm
 Abby, I'm from Atlanta. I'm a
 
-95
+112
 00:04:56,858 --> 00:04:59,737
 full stack web developer on
 month, two of my first developer
 
-96
+113
 00:04:59,737 --> 00:05:04,627
 role. And, uh, I have also been
 stuck on a ski lift before, so
 
-97
+114
 00:05:04,627 --> 00:05:08,798
 I'm going to pick ski lift, um,
 and I've seen enough horror
 
-98
+115
 00:05:08,798 --> 00:05:13,088
 movies to never pick elevator
 like that. The whole pregnant
 
-99
-00:05:13,088 --> 00:05:16,208
-lady walks into an elevator she's
-immediately giving birth. That's.
+116
+00:05:13,088 --> 00:05:14,648
+lady walks into an elevator
+she's immediately giving birth.
 
-100
+117
+00:05:14,648 --> 00:05:16,208
+That's.
+
+118
 00:05:17,108 --> 00:05:19,028
 Bekah: I feel like I would Excel
 in that situation. I would
 
-101
+119
 00:05:19,028 --> 00:05:19,898
 deliver that baby.
 
-102
+120
 00:05:20,132 --> 00:05:22,413
 Abbey: You would, I believe it
 you're a champion
 
-103
+121
 00:05:22,892 --> 00:05:26,163
 Dan: if the question is, would
 you rather help a baby be
 
-104
+122
 00:05:26,163 --> 00:05:28,833
 delivered on a stuck ski lift or
 a stuck elevator? I'm going to
 
-105
+123
 00:05:28,913 --> 00:05:31,463
 Abbey: then we're Yeah. we're
 voting elevator because movies
 
-106
+124
 00:05:31,463 --> 00:05:34,192
 have led us to believe, but it
 happens perfectly fine
 
-107
+125
 00:05:34,322 --> 00:05:36,483
 Dan: that'll work out. Yeah,
 right. Um, I would, I don't
 
-108
+126
 00:05:36,528 --> 00:05:39,377
 Bekah: It would be hard to catch
 a baby in a ski lift. Yeah.
 
-109
+127
 00:05:40,577 --> 00:05:41,903
 Abbey: Can confirm..
 
-110
+128
 00:05:42,153 --> 00:05:43,052
 Dan: yeah, that's what I'm
 saying.
 
-111
+129
 00:05:43,523 --> 00:05:45,442
-Abbey: I just, yeah, I also don't
-like Heights, but for some
+Abbey: I just, yeah, I also
+don't like Heights, but for some
 
-112
-00:05:45,442 --> 00:05:47,992
-reason, ski lifts are fine. Cause
-like you're strapped into the
+130
+00:05:45,442 --> 00:05:46,717
+reason, ski lifts are fine.
+Cause like you're strapped into
 
-113
+131
+00:05:46,717 --> 00:05:47,992
+the
+
+132
 00:05:47,992 --> 00:05:52,103
-chair and you're just swinging in
-the cold air. Well, no one is
+chair and you're just swinging
+in the cold air. Well, no one is
 
-114
-00:05:52,103 --> 00:05:56,002
-coming to rescue You It's fine. I
-was not close to the ground and
+133
+00:05:52,103 --> 00:05:54,052
+coming to rescue You It's fine.
+I was not close to the ground
 
-115
+134
+00:05:54,052 --> 00:05:56,001
+and
+
+135
 00:05:56,002 --> 00:05:59,333
 also like eight. So it was not
 happening. We just got to
 
-116
+136
 00:05:59,333 --> 00:06:01,642
 experience the views for a very
 long time.
 
-117
+137
 00:06:02,348 --> 00:06:05,257
 Bekah: It's like, what is a
 Ferris wheel? Right? Like if
 
-118
-00:06:05,257 --> 00:06:08,197
-you're ever on a Ferris wheel and
-then they're unloading the Ferris
+138
+00:06:05,257 --> 00:06:06,727
+you're ever on a Ferris wheel
+and then they're unloading the
 
-119
+139
+00:06:06,727 --> 00:06:08,197
+Ferris
+
+140
 00:06:08,197 --> 00:06:12,278
 wheel and you get stuck at the
 top forever. I don't like that.
 
-120
+141
 00:06:12,278 --> 00:06:15,963
 That's that's enough. I could
 probably climb down a Ferris
 
-121
+142
 00:06:15,963 --> 00:06:16,442
 wheel. I
 
-122
+143
 00:06:16,673 --> 00:06:19,793
 Abbey: I panicked on one of the
 swingy boats one time and like
 
-123
+144
 00:06:19,793 --> 00:06:24,112
-the older I get the closer to the
-ground, my vertigo kicks in,
+the older I get the closer to
+the ground, my vertigo kicks in,
 
-124
+145
 00:06:24,173 --> 00:06:27,713
 which is very unfortunate. And I
 know my aunt has it. So I'm
 
-125
+146
 00:06:27,713 --> 00:06:28,072
 screwed.
 
-126
+147
 00:06:28,562 --> 00:06:29,093
 Bekah: Oh,
 
-127
+148
 00:06:29,528 --> 00:06:29,887
 Dan: no.
 
-128
+149
 00:06:31,012 --> 00:06:31,403
 Abbey: Um,
 
-129
+150
 00:06:31,952 --> 00:06:37,533
 Bekah: well, welcome to the
 podcast. went through 10
 
-130
-00:06:37,533 --> 00:06:41,372
+151
+00:06:37,533 --> 00:06:39,452
 different versions of that
-question. So now everyone is very
+question. So now everyone is
 
-131
+152
+00:06:39,452 --> 00:06:41,371
+very
+
+153
 00:06:41,372 --> 00:06:44,192
 well versed in how we would
 respond to various scenarios of
 
-132
+154
 00:06:44,192 --> 00:06:44,463
 that,
 
-133
+155
 00:06:45,012 --> 00:06:46,163
 Abbey: thought about all the
 angles
 
-134
+156
 00:06:46,512 --> 00:06:52,632
 Bekah: all of them. Um, so we
 would love to start by exploring
 
-135
-00:06:52,632 --> 00:06:57,432
-your origin story, how you got to
-this point, what you have done
+157
+00:06:52,632 --> 00:06:55,032
+your origin story, how you got
+to this point, what you have
 
-136
+158
+00:06:55,032 --> 00:06:57,432
+done
+
+159
 00:06:57,702 --> 00:06:58,723
 and where you're at now.
 
-137
+160
 00:06:59,637 --> 00:07:01,887
 Abbey: This is funny. Cause like
 once a week, Kirk is like your
 
-138
+161
 00:07:01,887 --> 00:07:03,747
 origin story just keeps growing
 because
 
-139
+162
 00:07:03,783 --> 00:07:03,843
 Bekah: Yeah.
 
-140
-00:07:04,858 --> 00:07:07,497
-Abbey: I have a lot of hobbies of
-dabbled in a lot of things. Um,
+163
+00:07:04,858 --> 00:07:06,177
+Abbey: I have a lot of hobbies
+of dabbled in a lot of things.
 
-141
-00:07:07,533 --> 00:07:11,033
+164
+00:07:06,177 --> 00:07:07,496
+Um,
+
+165
+00:07:07,533 --> 00:07:09,283
 Bekah: about being a DJ. And I
-did not see that on anything that
+did not see that on anything
 
-142
+166
+00:07:09,283 --> 00:07:11,033
+that
+
+167
 00:07:11,033 --> 00:07:12,983
 I've seen about you. So that is
 new to me.
 
-143
+168
 00:07:13,358 --> 00:07:16,687
 Abbey: Yeah. I did. Uh, I was on
 WSPF FM, Clemson for about three
 
-144
-00:07:16,687 --> 00:07:20,617
-and a half years. Um, did a bunch
-of cool shows. I have an award.
+169
+00:07:16,687 --> 00:07:18,652
+and a half years. Um, did a
+bunch of cool shows. I have an
 
-145
+170
+00:07:18,652 --> 00:07:20,617
+award.
+
+171
 00:07:21,632 --> 00:07:25,562
 That wall for like most unique
 radio show because we did radio
 
-146
+172
 00:07:25,562 --> 00:07:29,913
 plays, but that's not my origin
 story for programming. Um, so
 
-147
+173
 00:07:30,483 --> 00:07:34,233
 let's see, I had been working in
 recruiting the recruiting
 
-148
+174
 00:07:34,233 --> 00:07:37,142
 industry and for the recruiters
 out there, I did high volume MSP
 
-149
+175
 00:07:37,142 --> 00:07:42,153
 recruiting for five years. Um,
 and about year two or three, I
 
-150
+176
 00:07:42,153 --> 00:07:45,572
 was like, okay, well, it doesn't
 look like I'm going to be the
 
-151
+177
 00:07:45,572 --> 00:07:47,733
 manager of a team anytime soon.
 Cause we're not growing like
 
-152
+178
 00:07:47,733 --> 00:07:53,192
 that. And it also. Doesn't look
 like I'm getting anything I want
 
-153
+179
 00:07:53,223 --> 00:07:57,692
 outside of the company, because
 my resume being a psychology
 
-154
-00:07:57,692 --> 00:08:02,283
+180
+00:07:57,692 --> 00:07:59,987
 major with a minor in economics,
-just kind of sales roles and MLMs
+just kind of sales roles and
 
-155
+181
+00:07:59,987 --> 00:08:02,282
+MLMs
+
+182
 00:08:02,362 --> 00:08:06,062
 is what comes up. So I started
 applying within the company and
 
-156
-00:08:06,062 --> 00:08:09,648
+183
+00:08:06,062 --> 00:08:07,855
 like seeing if I could find
-anything outside the company. And
+anything outside the company.
 
-157
+184
+00:08:07,855 --> 00:08:09,648
+And
+
+185
 00:08:09,677 --> 00:08:15,617
 by March, 2020, um, I had been
 rejected from a role I knew
 
-158
+186
 00:08:15,677 --> 00:08:18,557
 inside the company that I knew
 was like the best way for me to
 
-159
+187
 00:08:18,617 --> 00:08:23,057
 move within the company. And I
 was perfectly qualified and I
 
-160
+188
 00:08:23,057 --> 00:08:25,608
 wasn't getting anything. So it
 had become very clear that I
 
-161
+189
 00:08:25,608 --> 00:08:28,463
 needed to do. Something else,
 like I needed to get training or
 
-162
+190
 00:08:28,463 --> 00:08:31,552
-something. And I had been looking
-at data science and full
+something. And I had been
+looking at data science and full
 
-163
+191
 00:08:31,552 --> 00:08:35,602
-disclosure. I'm not great at math
-that looked like you needed
+disclosure. I'm not great at
+math that looked like you needed
 
-164
+192
 00:08:35,602 --> 00:08:40,462
 another degree. So I got of
 stalled out there. And then my
 
-165
+193
 00:08:40,462 --> 00:08:43,253
 husband said, well, what about
 web development? Like, you're
 
-166
-00:08:43,253 --> 00:08:47,003
-good at making things pretty. You
-like colors, you'll move a box
+194
+00:08:43,253 --> 00:08:45,128
+good at making things pretty.
+You like colors, you'll move a
 
-167
+195
+00:08:45,128 --> 00:08:47,003
+box
+
+196
 00:08:47,003 --> 00:08:51,653
 pixel by pixel. I can tell that
 already. And I was like, yeah,
 
-168
-00:08:51,653 --> 00:08:54,143
-you know, all right. So I started
-looking and there was a bootcamp.
+197
+00:08:51,653 --> 00:08:52,898
+you know, all right. So I
+started looking and there was a
 
-169
+198
+00:08:52,898 --> 00:08:54,143
+bootcamp.
+
+199
 00:08:55,592 --> 00:08:57,482
 That kind of checked all the
 boxes. Cause with the data
 
-170
-00:08:57,482 --> 00:09:00,962
-science boot camps, I already had
-a list of questions that would
+200
+00:08:57,482 --> 00:08:59,222
+science boot camps, I already
+had a list of questions that
 
-171
-00:09:00,962 --> 00:09:04,263
+201
+00:08:59,222 --> 00:09:00,962
+would
+
+202
+00:09:00,962 --> 00:09:02,612
 fail a bootcamp. Like you're not
-getting my money. Do the teachers
+getting my money. Do the
 
-172
+203
+00:09:02,612 --> 00:09:04,262
+teachers
+
+204
 00:09:04,263 --> 00:09:09,332
 care about the students? No. Are
 probably not doing that. And uh,
 
-173
+205
 00:09:09,513 --> 00:09:12,783
 so I, I w I was talking to Dan
 before the podcast started about
 
-174
+206
 00:09:12,783 --> 00:09:17,643
 how I used to be very much a
 planner. So, um, I was like, all
 
-175
+207
 00:09:17,643 --> 00:09:21,243
 Right. well, it's March. I got
 in, I'm going to do this. And.
 
-176
-00:09:21,947 --> 00:09:25,307
-October, I'm gonna start studying
-this pre-work that they gave me,
+208
+00:09:21,947 --> 00:09:23,627
+October, I'm gonna start
+studying this pre-work that they
 
-177
-00:09:25,307 --> 00:09:27,827
-which was like pretty in depth. I
-spent six months doing all of the
+209
+00:09:23,627 --> 00:09:25,307
+gave me,
 
-178
+210
+00:09:25,307 --> 00:09:26,567
+which was like pretty in depth.
+I spent six months doing all of
+
+211
+00:09:26,567 --> 00:09:27,827
+the
+
+212
 00:09:27,827 --> 00:09:31,307
 pre-work, which no one else did
 no one, no one else even looked
 
-179
-00:09:31,307 --> 00:09:36,227
-at the pre-work as far as I know.
-So by the time I walked into the
+213
+00:09:31,307 --> 00:09:33,767
+at the pre-work as far as I
+know. So by the time I walked
 
-180
+214
+00:09:33,767 --> 00:09:36,227
+into the
+
+215
 00:09:36,227 --> 00:09:40,307
 bootcamp, I knew HTML, CSS,
 Python, and synchronous
 
-181
+216
 00:09:40,307 --> 00:09:45,498
 JavaScript. And, uh, we started
 with going back through Python.
 
-182
+217
 00:09:46,263 --> 00:09:50,493
 And then HTML and CSS. And then,
 uh, we started into async
 
-183
+218
 00:09:50,793 --> 00:09:53,793
 JavaScript and then like, you
 know, react. We did some, uh,
 
-184
+219
 00:09:53,822 --> 00:09:59,868
 templating before react, stuff
 like that. Um, And during the
 
-185
+220
 00:09:59,868 --> 00:10:03,138
 bootcamp, when I thought I was
 going to be like, you know, it
 
-186
+221
 00:10:03,138 --> 00:10:05,807
 was it front end and like, you
 know, passable at everything
 
-187
-00:10:05,807 --> 00:10:09,408
-else, I guess. Cause I don't, I'm
-an overachiever. I knew I was
+222
+00:10:05,807 --> 00:10:07,607
+else, I guess. Cause I don't,
+I'm an overachiever. I knew I
 
-188
+223
+00:10:07,607 --> 00:10:09,407
+was
+
+224
 00:10:09,408 --> 00:10:14,567
 going to at least pass. Um, it
 turned out that I just love
 
-189
+225
 00:10:14,628 --> 00:10:17,028
 programming. Like I love
 full-stack. I love everything
 
-190
+226
 00:10:17,028 --> 00:10:20,268
 from back to front I, anything,
 anyone tosses at me is just
 
-191
+227
 00:10:20,268 --> 00:10:25,822
 another puzzle to solve and. I
 just, you know, the relief that
 
-192
-00:10:25,822 --> 00:10:28,852
+228
+00:10:25,822 --> 00:10:27,337
 floods in when you take a leap
-like that. Cause I quit my job in
+like that. Cause I quit my job
 
-193
+229
+00:10:27,337 --> 00:10:28,852
+in
+
+230
 00:10:29,092 --> 00:10:33,263
 August, 2020 after this is not
 the most coherent version of my
 
-194
-00:10:33,263 --> 00:10:37,552
-backstory, but after a man argued
-with me about the date of the day
+231
+00:10:33,263 --> 00:10:35,407
+backstory, but after a man
+argued with me about the date of
 
-195
-00:10:37,552 --> 00:10:41,363
-we were experiencing currently in
-the same time zone, via email,
+232
+00:10:35,407 --> 00:10:37,551
+the day
 
-196
+233
+00:10:37,552 --> 00:10:39,457
+we were experiencing currently
+in the same time zone, via
+
+234
+00:10:39,457 --> 00:10:41,362
+email,
+
+235
 00:10:41,393 --> 00:10:45,263
 which has the date in it, he was
 like, No. you're wrong. Your
 
-197
-00:10:45,263 --> 00:10:47,903
+236
+00:10:45,263 --> 00:10:46,583
 candidates not getting an
-interview. You're you're talking.
+interview. You're you're
 
-198
+237
+00:10:46,583 --> 00:10:47,903
+talking.
+
+238
 00:10:48,677 --> 00:10:50,508
 The wrong day. And I was like,
 no, I'm not,
 
-199
+239
 00:10:51,113 --> 00:10:51,653
 Dan: Oh, no.
 
-200
-00:10:51,738 --> 00:10:55,057
+240
+00:10:51,738 --> 00:10:53,397
 Abbey: I'm really not. And, uh,
-so then I moved the bootcamp up a
+so then I moved the bootcamp up
 
-201
-00:10:55,067 --> 00:11:02,118
-month and quit my job, um, in the
-bootcamp, obviously everything
+241
+00:10:53,397 --> 00:10:55,056
+a
 
-202
+242
+00:10:55,067 --> 00:10:58,592
+month and quit my job, um, in
+the bootcamp, obviously
+
+243
+00:10:58,592 --> 00:11:02,117
+everything
+
+244
 00:11:02,238 --> 00:11:05,837
 loved it. And then, um, the
 founder had actually challenged
 
-203
+245
 00:11:05,837 --> 00:11:09,018
 us to write four blog posts. By
 the time we were done with
 
-204
-00:11:09,018 --> 00:11:14,268
+246
+00:11:09,018 --> 00:11:11,643
 bootcamp, which was four months
-long. And. Again, overachiever. I
+long. And. Again, overachiever.
 
-205
+247
+00:11:11,643 --> 00:11:14,268
+I
+
+248
 00:11:14,268 --> 00:11:17,597
 was like, thank you for
 personally giving me a goal. And
 
-206
+249
 00:11:17,748 --> 00:11:22,128
 I started writing blogs. And the
 first one that I was like, oh,
 
-207
-00:11:22,577 --> 00:11:26,057
+250
+00:11:22,577 --> 00:11:24,317
 people actually seem to like the
-blogs I'm writing was an animated
+blogs I'm writing was an
 
-208
+251
+00:11:24,317 --> 00:11:26,057
+animated
+
+252
 00:11:26,057 --> 00:11:29,927
 CSS button that I was just like,
 oh, I love animated CSS buttons.
 
-209
+253
 00:11:29,957 --> 00:11:32,597
 Look, you click it. It moves.
 Isn't this great everyone. And
 
-210
-00:11:32,597 --> 00:11:34,457
-everyone was like, you know what?
-This actually is kind of great.
+254
+00:11:32,597 --> 00:11:33,527
+everyone was like, you know
+what? This actually is kind of
 
-211
+255
+00:11:33,527 --> 00:11:34,457
+great.
+
+256
 00:11:34,518 --> 00:11:39,378
 And I was like, oh, great. And
 kept running. And then I think
 
-212
+257
 00:11:39,378 --> 00:11:43,217
 around the time that I joined
 Virtual Coffee was when I had my
 
-213
+258
 00:11:43,217 --> 00:11:48,618
 portfolio. I had that blog get
 top seven on dev Tio, all that
 
-214
+259
 00:11:48,618 --> 00:11:51,947
 stuff, and just completely blown
 away because it's just literally
 
-215
+260
 00:11:51,947 --> 00:11:54,798
 just me being like, I love
 programming. Oh, I'm going to
 
-216
+261
 00:11:54,798 --> 00:11:57,918
 write a blog about this thing
 that I like about programming or
 
-217
+262
 00:11:57,947 --> 00:12:01,038
 the one that is, has the most
 like staying power is the one
 
-218
+263
 00:12:01,038 --> 00:12:03,618
 where I was like, there's not a
 straightforward example of this
 
-219
+264
 00:12:04,008 --> 00:12:08,567
 anywhere. It's react. Here have
 an example with Shebaz in it.
 
-220
-00:12:09,498 --> 00:12:18,288
-That's my goal to put more Shebas
-and programming. Uh, it took. Me
+265
+00:12:09,498 --> 00:12:13,893
+That's my goal to put more
+Shebas and programming. Uh, it
 
-221
+266
+00:12:13,893 --> 00:12:18,288
+took. Me
+
+267
 00:12:18,288 --> 00:12:22,577
 about three months to get a job
 after graduating bootcamp. And I
 
-222
+268
 00:12:22,577 --> 00:12:27,648
 did that almost exclusively
 through, uh, networking, um, the
 
-223
+269
 00:12:27,648 --> 00:12:32,748
 blog building in public, um,
 which I recommend. And, uh, mark
 
-224
+270
 00:12:33,077 --> 00:12:36,437
 Noonan who's part of Virtual
 Coffee, looked at my stuff and
 
-225
-00:12:36,437 --> 00:12:39,217
-was like, oh, You're doing great.
-And, um, I went through an
+271
+00:12:36,437 --> 00:12:37,827
+was like, oh, You're doing
+great. And, um, I went through
 
-226
+272
+00:12:37,827 --> 00:12:39,217
+an
+
+273
 00:12:39,217 --> 00:12:43,418
 interview process with him and,
 uh, when I posted my website
 
-227
-00:12:43,418 --> 00:12:46,898
-itself on LinkedIn, that also got
-like 8,000 views on LinkedIn,
+274
+00:12:43,418 --> 00:12:45,158
+itself on LinkedIn, that also
+got like 8,000 views on
 
-228
+275
+00:12:45,158 --> 00:12:46,898
+LinkedIn,
+
+276
 00:12:46,898 --> 00:12:50,048
 which I don't know where that
 stands in ACA in LinkedIn stats.
 
-229
-00:12:50,077 --> 00:12:54,697
+277
+00:12:50,077 --> 00:12:52,387
 But, uh, my old boss saw it and
-that's how I have my current role
+that's how I have my current
 
-230
+278
+00:12:52,387 --> 00:12:54,697
+role
+
+279
 00:12:54,697 --> 00:12:58,957
 because she put my, uh, resume
 back in the cycle of my old
 
-231
+280
 00:12:58,957 --> 00:13:03,378
 company. And now I'm working. I
 quit in August 22. I was a
 
-232
-00:13:03,378 --> 00:13:06,677
+281
+00:13:03,378 --> 00:13:05,027
 recruiting admin. Technically my
-title is talent services manager,
+title is talent services
 
-233
+282
+00:13:05,027 --> 00:13:06,676
+manager,
+
+283
 00:13:06,918 --> 00:13:12,018
 and I joined Ronstadt again in
 April as a software application
 
-234
+284
 00:13:12,018 --> 00:13:14,687
 developer, which is pretty
 awesome.
 
-235
+285
 00:13:15,008 --> 00:13:19,668
 Dan: That that's very awesome.
 It's um, I love that the, the
 
-236
+286
 00:13:19,697 --> 00:13:23,528
 bootcamp was, was helping you
 with the goal of, you know,
 
-237
+287
 00:13:23,528 --> 00:13:26,618
 writing blogs and stuff, because
 I think that's, I don't hear
 
-238
+288
 00:13:26,618 --> 00:13:31,248
 about that very often. And, um,
 some of the. People that I've
 
-239
-00:13:31,427 --> 00:13:34,398
-talked to, um, over the last year
-or whatever that have come out of
+289
+00:13:31,427 --> 00:13:32,912
+talked to, um, over the last
+year or whatever that have come
 
-240
-00:13:34,398 --> 00:13:37,217
-bootcamps. Um, the, the ones that
-I feel like the ones that I've
+290
+00:13:32,912 --> 00:13:34,397
+out of
 
-241
+291
+00:13:34,398 --> 00:13:35,807
+bootcamps. Um, the, the ones
+that I feel like the ones that
+
+292
+00:13:35,807 --> 00:13:37,216
+I've
+
+293
 00:13:37,217 --> 00:13:40,697
 had a lot of success, uh, have
 parents that like a lot of their
 
-242
+294
 00:13:40,697 --> 00:13:44,177
 learning with writing. Um, and
 it's been pretty cool.
 
-243
+295
 00:13:44,883 --> 00:13:47,852
 Abbey: They also did. Um, like
 you had to have your LinkedIn up
 
-244
-00:13:47,852 --> 00:13:50,732
-to date, you had to have a resume
-that was, uh, applicant tracking
+296
+00:13:47,852 --> 00:13:49,292
+to date, you had to have a
+resume that was, uh, applicant
 
-245
+297
+00:13:49,292 --> 00:13:50,732
+tracking
+
+298
 00:13:50,732 --> 00:13:54,812
 system compatible, that kind of
 stuff, which is good. Uh, I wish
 
-246
+299
 00:13:54,812 --> 00:13:58,352
 we had done more algorithms or
 they had told me that I could
 
-247
+300
 00:13:58,352 --> 00:14:02,373
 just not do algorithms for
 interviews. I just turned down
 
-248
+301
 00:14:02,373 --> 00:14:03,243
 interviews with algorithms.
 
-249
+302
 00:14:06,347 --> 00:14:08,658
 Dan: Did you yet? So that was,
 did you run into that a lot when
 
-250
+303
 00:14:08,658 --> 00:14:09,557
 you were interviewing.
 
-251
-00:14:10,148 --> 00:14:12,908
-Abbey: Yeah. I cried every single
-time someone sent me a time
+304
+00:14:10,148 --> 00:14:11,528
+Abbey: Yeah. I cried every
+single time someone sent me a
 
-252
+305
+00:14:11,528 --> 00:14:12,908
+time
+
+306
 00:14:13,447 --> 00:14:17,467
 browser ID algorithm, and like I
 can program, I can build things.
 
-253
+307
 00:14:17,528 --> 00:14:20,077
 I, if you and I, if the three of
 us sat down and you were like,
 
-254
+308
 00:14:20,077 --> 00:14:22,207
 Abby, we need to write an
 algorithm together. I'd be like,
 
-255
+309
 00:14:22,207 --> 00:14:25,778
 yeah. Okay. Let's do it. If you
 send me a link, it has a timer
 
-256
+310
 00:14:26,258 --> 00:14:27,638
 and it's an algorithm. I just
 cry.
 
-257
+311
 00:14:29,158 --> 00:14:32,628
 Dan: Yeah. Yeah, I can totally
 see that. I mean, the, the timer
 
-258
+312
 00:14:32,658 --> 00:14:36,168
 like kicking off of the wrong,
 the wrong chemicals in your
 
-259
+313
 00:14:36,168 --> 00:14:36,557
 brain,
 
-260
-00:14:36,837 --> 00:14:39,717
-Abbey: Yeah. And like, I think we
-did, I think we were supposed to
+314
+00:14:36,837 --> 00:14:38,277
+Abbey: Yeah. And like, I think
+we did, I think we were supposed
 
-261
+315
+00:14:38,277 --> 00:14:39,717
+to
+
+316
 00:14:39,717 --> 00:14:43,288
 do it every Friday and we just
 ended up doing like a handful of
 
-262
-00:14:43,288 --> 00:14:46,048
+317
+00:14:43,288 --> 00:14:44,668
 days. We were supposed to solve
-some algorithms and I was solving
+some algorithms and I was
 
-263
-00:14:46,048 --> 00:14:54,452
-them. Uh, fast. They weren't like
-really good at doing things fast,
+318
+00:14:44,668 --> 00:14:46,048
+solving
 
-264
+319
+00:14:46,048 --> 00:14:50,250
+them. Uh, fast. They weren't
+like really good at doing things
+
+320
+00:14:50,250 --> 00:14:54,452
+fast,
+
+321
 00:14:54,452 --> 00:14:56,552
 but they were solved and I
 thought that was sufficient. And
 
-265
+322
 00:14:56,552 --> 00:14:58,562
-then it would be like, here's the
-first step of an interview
+then it would be like, here's
+the first step of an interview
 
-266
+323
 00:14:58,562 --> 00:15:01,832
 process. You desperately want
 this job for some reason you're
 
-267
+324
 00:15:01,832 --> 00:15:05,102
 terrible at this thing that has
 nothing to do with the job that
 
-268
+325
 00:15:05,102 --> 00:15:09,842
 you're trying to get. Uh, it's
 just, you know, C feel that real
 
-269
+326
 00:15:09,842 --> 00:15:13,413
 hard. And the February, the dark
 February before I found Virtual
 
-270
+327
 00:15:13,413 --> 00:15:15,993
 Coffee and I was just sitting in
 my house unemployed during the
 
-271
+328
 00:15:15,993 --> 00:15:16,592
 pandemic.
 
-272
-00:15:18,937 --> 00:15:21,457
+329
+00:15:18,937 --> 00:15:20,197
 Dan: You mentioned that you wish
-somebody told you, you could just
+somebody told you, you could
 
-273
+330
+00:15:20,197 --> 00:15:21,457
+just
+
+331
 00:15:21,457 --> 00:15:25,327
 turn down interviews that have
 those, is that advice you would
 
-274
+332
 00:15:25,327 --> 00:15:27,187
 give to people like now that
 you've kind of been through it a
 
-275
+333
 00:15:27,187 --> 00:15:27,638
 little bit,
 
-276
-00:15:27,768 --> 00:15:31,548
+334
+00:15:27,768 --> 00:15:29,658
 Abbey: Yeah. definitely. If you,
-if you like, if it's just a cycle
+if you like, if it's just a
 
-277
+335
+00:15:29,658 --> 00:15:31,548
+cycle
+
+336
 00:15:31,548 --> 00:15:35,357
 of you failing, don't engage in
 that cycle. Like, uh, the two
 
-278
+337
 00:15:35,357 --> 00:15:38,418
 offers I got, neither of them
 required me to do a time
 
-279
+338
 00:15:38,477 --> 00:15:42,423
-algorithm and. Like that just may
-be that you do a lot more
+algorithm and. Like that just
+may be that you do a lot more
 
-280
+339
 00:15:42,423 --> 00:15:45,273
 networking than you do, uh,
 throwing your resume into the
 
-281
-00:15:45,273 --> 00:15:49,802
+340
+00:15:45,273 --> 00:15:47,537
 void, which you know, is, you
-know, better. I'm not, I've got a
+know, better. I'm not, I've got
 
-282
+341
+00:15:47,537 --> 00:15:49,801
+a
+
+342
 00:15:49,802 --> 00:15:52,052
 whole blog out there that says
 that you can do the throwing
 
-283
-00:15:52,052 --> 00:15:54,932
-resume into the void thing. It is
-possible. I've seen people get
+343
+00:15:52,052 --> 00:15:53,492
+resume into the void thing. It
+is possible. I've seen people
 
-284
-00:15:55,352 --> 00:15:58,773
+344
+00:15:53,492 --> 00:15:54,932
+get
+
+345
+00:15:55,352 --> 00:15:57,062
 seen many people get jobs that
-way. They also apply to somewhere
+way. They also apply to
 
-285
+346
+00:15:57,062 --> 00:15:58,772
+somewhere
+
+347
 00:15:58,773 --> 00:16:00,842
 between 400 and a thousand jobs.
 So.
 
-286
+348
 00:16:02,562 --> 00:16:03,913
 Dan: Yeah, yeah, absolutely.
 
-287
+349
 00:16:05,023 --> 00:16:07,783
 Bekah: A really good point to
 make, because I think that there
 
-288
+350
 00:16:07,783 --> 00:16:11,023
 are so many different approaches
 and you have so much different
 
-289
-00:16:11,023 --> 00:16:14,263
+351
+00:16:11,023 --> 00:16:12,643
 information coming at you about
-what the interview process should
+what the interview process
 
-290
+352
+00:16:12,643 --> 00:16:14,263
+should
+
+353
 00:16:14,263 --> 00:16:19,413
 look like. And. Plenty of people
 out there that there that say,
 
-291
+354
 00:16:19,442 --> 00:16:21,633
 oh, learn how to code in three
 months and then you'll have a
 
-292
+355
 00:16:21,633 --> 00:16:23,913
 job. Right. And maybe that
 happened for them, but that
 
-293
-00:16:23,913 --> 00:16:27,692
+356
+00:16:23,913 --> 00:16:25,802
 certainly is not the story for
-most people. And so talking about
+most people. And so talking
 
-294
-00:16:27,692 --> 00:16:31,113
-that and talking about, you know,
-turning down interviews, like
+357
+00:16:25,802 --> 00:16:27,691
+about
 
-295
-00:16:31,113 --> 00:16:35,613
+358
+00:16:27,692 --> 00:16:29,402
+that and talking about, you
+know, turning down interviews,
+
+359
+00:16:29,402 --> 00:16:31,112
+like
+
+360
+00:16:31,113 --> 00:16:33,363
 that's scary for a lot of people
-or at least shifting your mindset
+or at least shifting your
 
-296
-00:16:35,643 --> 00:16:42,092
-to, um, it's not. It's a practice
-interview, right? Like, I'm going
+361
+00:16:33,363 --> 00:16:35,613
+mindset
 
-297
+362
+00:16:35,643 --> 00:16:38,867
+to, um, it's not. It's a
+practice interview, right? Like,
+
+363
+00:16:38,867 --> 00:16:42,091
+I'm going
+
+364
 00:16:42,092 --> 00:16:45,302
 to go into this because I need
 practice interviewing and if
 
-298
+365
 00:16:45,302 --> 00:16:48,393
 something happens great, if it
 doesn't I got practice. Right.
 
-299
+366
 00:16:49,057 --> 00:16:53,613
 Abbey: Yeah. One of my mentors,
 Asana was like, it's a. It's
 
-300
+367
 00:16:53,613 --> 00:16:55,802
 every interview is practice for
 the one that works. It's exactly
 
-301
+368
 00:16:55,802 --> 00:16:58,143
 like sports. Like you're just
 like pretend it's the one every
 
-302
+369
 00:16:58,143 --> 00:17:01,472
 time, but this is also practice
 for the time that it actually
 
-303
+370
 00:17:01,472 --> 00:17:06,407
 works. And, uh, I had another
 point about. Oh, Yeah. I had, I
 
-304
+371
 00:17:06,407 --> 00:17:09,887
 had the privilege to go to a
 bootcamp and quit my job. And my
 
-305
+372
 00:17:09,887 --> 00:17:13,397
 husband was like, it's okay if
 you don't get a job immediately.
 
-306
+373
 00:17:13,428 --> 00:17:15,887
 But I was putting a lot of that
 pressure on myself. So I was
 
-307
+374
 00:17:15,917 --> 00:17:18,738
 extremely desperate for jobs. So
 that's coming from someone that
 
-308
+375
 00:17:19,518 --> 00:17:23,028
 knows the pain, but B had the
 option to do it this quickly and
 
-309
+376
 00:17:23,028 --> 00:17:26,897
 do it in this manner. Like if I
 didn't have that, I definitely
 
-310
+377
 00:17:26,897 --> 00:17:29,327
 would be like, okay. Yeah. Just
 start teaching yourself to code,
 
-311
+378
 00:17:29,327 --> 00:17:31,877
-start building, start building in
-public and expect it to take
+start building, start building
+in public and expect it to take
 
-312
-00:17:31,877 --> 00:17:37,722
-years. But I like stuff I put out
-on the internet. I got job offers
+379
+00:17:31,877 --> 00:17:34,799
+years. But I like stuff I put
+out on the internet. I got job
 
-313
+380
+00:17:34,799 --> 00:17:37,721
+offers
+
+381
 00:17:37,722 --> 00:17:40,873
 from startups for that. Knitting
 is programming job or knitting.
 
-314
-00:17:40,873 --> 00:17:44,772
+382
+00:17:40,873 --> 00:17:42,822
 Knitting is programming blog.
-Like you never know it's luck and
+Like you never know it's luck
 
-315
+383
+00:17:42,822 --> 00:17:44,771
+and
+
+384
 00:17:44,772 --> 00:17:45,913
 timing, especially.
 
-316
+385
 00:17:46,607 --> 00:17:48,827
 Bekah: Yeah, I think that's so
 important. Go ahead, Dan.
 
-317
+386
 00:17:49,063 --> 00:17:53,262
 Dan: yeah. Luck in timing. But
 also, I mean, also the, I don't
 
-318
+387
 00:17:53,262 --> 00:17:56,083
 know exactly what the right word
 is, but sort of consistency of,
 
-319
+388
 00:17:56,292 --> 00:18:00,153
 of doing the, like actually
 applying the learning. Um, like
 
-320
-00:18:00,153 --> 00:18:05,363
-you said, and I suspect that some
-people, um, wait on that part,
+389
+00:18:00,153 --> 00:18:02,758
+you said, and I suspect that
+some people, um, wait on that
 
-321
+390
+00:18:02,758 --> 00:18:05,363
+part,
+
+391
 00:18:05,363 --> 00:18:08,303
 wait on blogging because they're
 still learning or because they
 
-322
+392
 00:18:08,333 --> 00:18:12,532
 maybe feel like they don't, um,
 have anything new to, you know,
 
-323
+393
 00:18:13,012 --> 00:18:19,522
-like to talk about or, or, um, or
-whatever. But my, I just love
+like to talk about or, or, um,
+or whatever. But my, I just love
 
-324
+394
 00:18:19,522 --> 00:18:21,742
 seeing people like, like either
 have come through and we're
 
-325
-00:18:21,742 --> 00:18:25,522
-blogging just like from the start
-and. Actually leaning into the
+395
+00:18:21,742 --> 00:18:23,632
+blogging just like from the
+start and. Actually leaning into
 
-326
+396
+00:18:23,632 --> 00:18:25,522
+the
+
+397
 00:18:25,522 --> 00:18:28,073
 learning right. And learning in
 public part. Um, because it's,
 
-327
-00:18:28,462 --> 00:18:33,833
-it's great. And I, it, it expands
-your borders. It helps you learn.
+398
+00:18:28,462 --> 00:18:31,147
+it's great. And I, it, it
+expands your borders. It helps
 
-328
+399
+00:18:31,147 --> 00:18:33,832
+you learn.
+
+400
 00:18:33,863 --> 00:18:37,103
 Um, and like I said, the
 networking and everything like
 
-329
-00:18:37,103 --> 00:18:39,563
-that, it just kind of comes along
-for free. Right. When you're,
+401
+00:18:37,103 --> 00:18:38,333
+that, it just kind of comes
+along for free. Right. When
 
-330
+402
+00:18:38,333 --> 00:18:39,563
+you're,
+
+403
 00:18:39,563 --> 00:18:41,722
 when you're, when you're doing,
 putting the work in. Um,
 
-331
+404
 00:18:41,728 --> 00:18:43,137
 Abbey: And when you joined the
 Virtual Coffee,
 
-332
+405
 00:18:43,583 --> 00:18:45,053
 Dan: And when you joined Virtual
 Coffee,
 
-333
+406
 00:18:46,492 --> 00:18:49,373
 Abbey: The Sheba counter blog. I
 referenced earlier. My thought
 
-334
+407
 00:18:49,373 --> 00:18:52,732
 when I hit publish was man, I
 just really hope I don't sound
 
-335
+408
 00:18:52,732 --> 00:18:56,303
 like a, like a really dumb book
 enter or something. And like,
 
-336
+409
 00:18:56,303 --> 00:18:59,833
 people are learning from that.
 Like, you don't have to be.
 
-337
+410
 00:19:00,653 --> 00:19:03,952
 Perfect. You don't have to be a
 senior. You don't have to be an
 
-338
+411
 00:19:03,982 --> 00:19:07,752
 expert. Just start writing, just
 start putting it out there. And
 
-339
-00:19:07,762 --> 00:19:11,663
-like when, um, I, I struggle with
-confidence. That's the reason
+412
+00:19:07,762 --> 00:19:09,712
+like when, um, I, I struggle
+with confidence. That's the
 
-340
-00:19:11,663 --> 00:19:15,923
+413
+00:19:09,712 --> 00:19:11,662
+reason
+
+414
+00:19:11,663 --> 00:19:13,793
 that I was able to give a whole
-talk and blog on what, like how I
+talk and blog on what, like how
 
-341
-00:19:15,923 --> 00:19:20,813
+415
+00:19:13,793 --> 00:19:15,923
+I
+
+416
+00:19:15,923 --> 00:19:18,368
 built up the confidence for the
-job search. And the first thing I
+job search. And the first thing
 
-342
+417
+00:19:18,368 --> 00:19:20,813
+I
+
+418
 00:19:20,813 --> 00:19:23,423
 did was I applied. I started
 applying to developer jobs. I
 
-343
+419
 00:19:23,423 --> 00:19:25,883
 didn't even have a portfolio. I
 didn't have an ATS compatible
 
-344
+420
 00:19:25,883 --> 00:19:28,492
 resume. I was immediately
 rejected and I was like, oh,
 
-345
+421
 00:19:28,553 --> 00:19:32,212
 that's the worst? Application
 I'll ever do. I was wildly
 
-346
+422
 00:19:32,212 --> 00:19:35,063
 under-qualified. I had no idea
 what I was doing. So now every
 
-347
+423
 00:19:35,063 --> 00:19:38,992
 application after that slightly
 better doing great. And it was
 
-348
-00:19:38,992 --> 00:19:43,732
-the difference I saw between when
-my resume had a portfolio that
+424
+00:19:38,992 --> 00:19:41,362
+the difference I saw between
+when my resume had a portfolio
 
-349
+425
+00:19:41,362 --> 00:19:43,732
+that
+
+426
 00:19:43,732 --> 00:19:47,123
 was a template. And when Myers
 may had a portfolio that I wrote
 
-350
-00:19:47,573 --> 00:19:50,903
+427
+00:19:47,573 --> 00:19:49,238
 was really impressive. And like,
-I've heard that from other people
+I've heard that from other
 
-351
-00:19:50,903 --> 00:19:54,113
-and that doesn't, it doesn't have
-to be a perfect portfolio, but
+428
+00:19:49,238 --> 00:19:50,903
+people
 
-352
+429
+00:19:50,903 --> 00:19:52,508
+and that doesn't, it doesn't
+have to be a perfect portfolio,
+
+430
+00:19:52,508 --> 00:19:54,113
+but
+
+431
 00:19:54,113 --> 00:19:58,238
 they'll look to see whether or
 not you. Built it, if you're a
 
-353
+432
 00:19:58,238 --> 00:20:00,877
-web developer, that's, that's the
-copy. I have, I am my web
+web developer, that's, that's
+the copy. I have, I am my web
 
-354
+433
 00:20:00,877 --> 00:20:01,417
 developer.
 
-355
+434
 00:20:03,482 --> 00:20:03,932
 Dan: Yeah,
 
-356
+435
 00:20:04,488 --> 00:20:09,607
 Bekah: I think that, I don't
 remember. I was going to say.
 
-357
+436
 00:20:12,097 --> 00:20:13,807
-Abbey: I definitely have to like,
-be like, okay, here are my
+Abbey: I definitely have to
+like, be like, okay, here are my
 
-358
+437
 00:20:13,807 --> 00:20:14,377
 points.
 
-359
+438
 00:20:14,663 --> 00:20:17,262
 Dan: So what kind of things did
 you put on your portfolio when
 
-360
+439
 00:20:17,262 --> 00:20:19,992
 you were like, when you were
 first applying when you were
 
-361
+440
 00:20:19,992 --> 00:20:20,742
 applying for jobs?
 
-362
+441
 00:20:22,053 --> 00:20:25,803
 Abbey: So I had four projects
 that I had to do for bootcamp.
 
-363
+442
 00:20:26,133 --> 00:20:29,222
 Um, I S I started seriously
 applying when I had three on
 
-364
+443
 00:20:29,222 --> 00:20:33,573
 their belief. Maybe we did five
 projects. There was one that I
 
-365
+444
 00:20:33,573 --> 00:20:36,032
 didn't include because I wasn't
 happy with the result and it was
 
-366
+445
 00:20:36,032 --> 00:20:43,837
 a group project. Um, so I have.
 For a while until I had my
 
-367
+446
 00:20:43,837 --> 00:20:49,807
 portfolio, I did just a straight
 here's an, uh, an old nineties
 
-368
+447
 00:20:49,928 --> 00:20:57,728
 XML site converted to a HTML CSS
 site, like pixel for per pixel.
 
-369
+448
 00:20:57,788 --> 00:20:59,798
 And then like, here's how I made
 it responsive. Here's how I did
 
-370
-00:20:59,798 --> 00:21:05,867
-this, which was like a side. Like
-a, like an extra assignment that
+449
+00:20:59,798 --> 00:21:02,832
+this, which was like a side.
+Like a, like an extra assignment
 
-371
-00:21:05,867 --> 00:21:08,268
+450
+00:21:02,832 --> 00:21:05,866
+that
+
+451
+00:21:05,867 --> 00:21:07,067
 they had given us that not many
-people did, because I was like, I
+people did, because I was like,
 
-372
+452
+00:21:07,067 --> 00:21:08,267
+I
+
+453
 00:21:08,268 --> 00:21:11,238
 know basic issue your own CSS.
 I'll just do all the fun stuff.
 
-373
+454
 00:21:12,827 --> 00:21:17,958
 It was that, uh, and, uh, then I
 think it was all react to
 
-374
+455
 00:21:17,958 --> 00:21:20,508
 projects. Yeah.
 
-375
+456
 00:21:21,682 --> 00:21:21,952
 Bekah: Yeah.
 
-376
+457
 00:21:22,048 --> 00:21:26,458
 Dan: that's cool. I was just
 asking, because I was, I don't
 
-377
+458
 00:21:26,458 --> 00:21:29,817
 have like a portfolio at all and
 like, I'm not, I'm not applying
 
-378
+459
 00:21:29,817 --> 00:21:34,167
 for jobs or anything right now,
 but I never even know what kinds
 
-379
+460
 00:21:34,167 --> 00:21:35,097
 of things go on them anymore.
 
-380
+461
 00:21:35,442 --> 00:21:37,423
 Abbey: Yeah, I mean, if you've
 built something and you're like
 
-381
+462
 00:21:37,423 --> 00:21:43,782
 this shows, well, I mean, we can
 go into how I pitch your
 
-382
+463
 00:21:43,782 --> 00:21:47,292
 experience to employers, but
 like, uh, yeah. As long as it's
 
-383
+464
 00:21:47,292 --> 00:21:49,992
 something is like, this shows
 that I can do this technological
 
-384
+465
 00:21:49,992 --> 00:21:50,593
 concept,
 
-385
+466
 00:21:50,887 --> 00:21:51,518
 Dan: I guess my,
 
-386
+467
 00:21:51,522 --> 00:21:52,452
 Abbey: go on your portfolio.
 
-387
+468
 00:21:52,657 --> 00:21:56,167
 Dan: point was, was going to be
 if I was, and this is true, the
 
-388
-00:21:56,258 --> 00:22:00,758
+469
+00:21:56,258 --> 00:21:58,508
 first time I hired a junior, um,
-and it was back up, but like the,
+and it was back up, but like
 
-389
+470
+00:21:58,508 --> 00:22:00,758
+the,
+
+471
 00:22:00,877 --> 00:22:03,337
 that I don't, I have no idea if
 he even had a portfolio at that
 
-390
+472
 00:22:03,337 --> 00:22:06,337
 point, or if I looked at it or
 not, but I definitely looked at
 
-391
+473
 00:22:06,428 --> 00:22:09,397
 the blog. This is what I mean,
 like. Projects that you do in
 
-392
+474
 00:22:09,397 --> 00:22:12,248
 school or in boot camp and stuff
 are like good. And, you know,
 
-393
+475
 00:22:12,248 --> 00:22:14,528
 it's good to share, but if you
 have like writing about those
 
-394
-00:22:14,528 --> 00:22:18,698
-projects, that is like, you know,
-tied with the portfolio, um, or
+476
+00:22:14,528 --> 00:22:16,613
+projects, that is like, you
+know, tied with the portfolio,
 
-395
+477
+00:22:16,613 --> 00:22:18,698
+um, or
+
+478
 00:22:18,698 --> 00:22:21,397
 just that are happened to be on
 your blog, you know, that's
 
-396
+479
 00:22:22,663 --> 00:22:24,553
 Abbey: I don't know that my
 current employer even looked at
 
-397
+480
 00:22:24,553 --> 00:22:28,603
 my blog. I got asked in-depth
 questions about every single one
 
-398
+481
 00:22:28,603 --> 00:22:28,722
 of my
 
-399
+482
 00:22:29,127 --> 00:22:29,938
 Dan: your, your current,
 
-400
+483
 00:22:30,073 --> 00:22:31,542
 Abbey: this work? Yeah,
 
-401
-00:22:31,948 --> 00:22:34,048
-Dan: I'm sorry. So they looked at
-the portfolio, but they didn't
+484
+00:22:31,948 --> 00:22:32,998
+Dan: I'm sorry. So they looked
+at the portfolio, but they
 
-402
+485
+00:22:32,998 --> 00:22:34,048
+didn't
+
+486
 00:22:34,113 --> 00:22:35,462
 Abbey: they looked at the
 portfolio, but they didn't look
 
-403
+487
 00:22:35,462 --> 00:22:36,093
 at the. bug. No.
 
-404
+488
 00:22:36,498 --> 00:22:39,018
 Bekah: And I think, I think it
 depends too, because I've
 
-405
+489
 00:22:39,018 --> 00:22:41,597
 certainly been in interviews
 where people have just mentioned
 
-406
+490
 00:22:41,597 --> 00:22:44,988
 my blogs or have just mentioned
 podcast episodes that I've been
 
-407
+491
 00:22:44,988 --> 00:22:48,948
 on that they've listened to. And
 so I think, you know, having a
 
-408
+492
 00:22:48,948 --> 00:22:52,373
 balance or trying to do all of
 those things. Can be really
 
-409
-00:22:52,373 --> 00:22:55,942
-important. And then I know we had
-to write for flat iron school
+493
+00:22:52,373 --> 00:22:54,157
+important. And then I know we
+had to write for flat iron
 
-410
+494
+00:22:54,157 --> 00:22:55,941
+school
+
+495
 00:22:55,942 --> 00:22:59,813
 blog posts, and a lot of people
 were not happy about having to
 
-411
+496
 00:22:59,813 --> 00:23:03,413
 write those posts. And for some
 people it's a, it's a very
 
-412
-00:23:03,413 --> 00:23:06,472
-different skill. It's like, well,
-I'm learning this skill to code.
+497
+00:23:03,413 --> 00:23:04,942
+different skill. It's like,
+well, I'm learning this skill to
 
-413
+498
+00:23:04,942 --> 00:23:06,471
+code.
+
+499
 00:23:06,502 --> 00:23:10,163
 And now you're asking me to do
 this rather than thinking of it
 
-414
-00:23:10,163 --> 00:23:14,962
-as this is a tool for networking,
-or this is to demonstrate how you
+500
+00:23:10,163 --> 00:23:12,562
+as this is a tool for
+networking, or this is to
 
-415
-00:23:14,962 --> 00:23:20,258
-can communicate something. Um, so
-it can be overwhelming. And an
+501
+00:23:12,562 --> 00:23:14,961
+demonstrate how you
 
-416
+502
+00:23:14,962 --> 00:23:17,610
+can communicate something. Um,
+so it can be overwhelming. And
+
+503
+00:23:17,610 --> 00:23:20,258
+an
+
+504
 00:23:20,258 --> 00:23:23,647
 additional skill that you feel
 that you have to learn, but I
 
-417
-00:23:23,647 --> 00:23:28,538
+505
+00:23:23,647 --> 00:23:26,092
 think just trying is worth it
-because it does grow your network
+because it does grow your
 
-418
-00:23:28,538 --> 00:23:32,528
-of people and the people that you
-can talk to about these things.
+506
+00:23:26,092 --> 00:23:28,537
+network
 
-419
+507
+00:23:28,538 --> 00:23:30,533
+of people and the people that
+you can talk to about these
+
+508
+00:23:30,533 --> 00:23:32,528
+things.
+
+509
 00:23:33,452 --> 00:23:38,012
 Abbey: Well, and to that point,
 uh, I w I went to a middle in
 
-420
+510
 00:23:38,012 --> 00:23:40,712
 high school that like, if I
 didn't know how to write, like
 
-421
-00:23:40,833 --> 00:23:45,377
-that was a problem. So. I've I've
-just been like, Hey, people are
+511
+00:23:40,833 --> 00:23:43,105
+that was a problem. So. I've
+I've just been like, Hey, people
 
-422
+512
+00:23:43,105 --> 00:23:45,377
+are
+
+513
 00:23:45,377 --> 00:23:48,228
 actually like interested in my
 writing that I've always had to
 
-423
+514
 00:23:48,228 --> 00:23:50,807
 do for every aspect of my life.
 And I've never been complimented
 
-424
+515
 00:23:50,807 --> 00:23:55,012
 on it before. Um, But the thing
 that we're all ignoring is your
 
-425
-00:23:55,012 --> 00:23:58,313
-GitHub, because that can show all
-of these things. And more like if
+516
+00:23:55,012 --> 00:23:56,662
+GitHub, because that can show
+all of these things. And more
 
-426
+517
+00:23:56,662 --> 00:23:58,312
+like if
+
+518
 00:23:58,313 --> 00:24:00,623
 you're reading, these are
 descriptive and that's just you
 
-427
+519
 00:24:00,623 --> 00:24:03,262
 describing exactly how this
 technology works. That's totally
 
-428
+520
 00:24:03,262 --> 00:24:06,353
 fine. If you've got a bunch of
 projects in there that you
 
-429
-00:24:06,353 --> 00:24:09,833
-haven't blogged about. Like I had
-an interviewer pull up my GitHub
+521
+00:24:06,353 --> 00:24:08,093
+haven't blogged about. Like I
+had an interviewer pull up my
 
-430
+522
+00:24:08,093 --> 00:24:09,833
+GitHub
+
+523
 00:24:09,863 --> 00:24:12,803
 repos and have me walk him
 through step-by-step over the
 
-431
+524
 00:24:12,803 --> 00:24:18,577
-phone, a bunch of those stuff. So
-like, Use the tools you're,
+phone, a bunch of those stuff.
+So like, Use the tools you're,
 
-432
+525
 00:24:18,577 --> 00:24:20,798
 you're fancy you're on the
 internet you're program or use
 
-433
+526
 00:24:20,798 --> 00:24:21,758
 the tools that you have.
 
-434
+527
 00:24:22,718 --> 00:24:22,988
 Dan: Yeah.
 
-435
+528
 00:24:23,097 --> 00:24:25,137
 Bekah: your bootcamp talk about
 writing, read MES.
 
-436
+529
 00:24:26,063 --> 00:24:29,512
 Abbey: Yeah, we were, uh,
 strongly encouraged. It wasn't
 
-437
+530
 00:24:29,512 --> 00:24:31,762
-necessarily required, but like we
-had to have a good get hub
+necessarily required, but like
+we had to have a good get hub
 
-438
+531
 00:24:31,762 --> 00:24:35,932
 profile that had, uh, the, the
 headers were a thing by the time
 
-439
+532
 00:24:35,932 --> 00:24:39,563
 I start. Yeah. Let's talk about
 how, how spoiled I am. There's
 
-440
+533
 00:24:39,563 --> 00:24:44,083
 always been Flexbox there's
 always been. Um, so they're,
 
-441
+534
 00:24:44,083 --> 00:24:46,752
 they're getting hub remains and
 it was like, put like a picture
 
-442
+535
 00:24:46,752 --> 00:24:49,603
 of you and like some description
 of your stuff, bare minimum. And
 
-443
+536
 00:24:49,603 --> 00:24:52,032
 then every single project it
 would end and our teacher would
 
-444
-00:24:52,032 --> 00:24:57,462
-be like, so go make sure you read
-me it's up to her to like And he
+537
+00:24:52,032 --> 00:24:54,747
+be like, so go make sure you
+read me it's up to her to like
 
-445
+538
+00:24:54,747 --> 00:24:57,462
+And he
+
+539
 00:24:57,462 --> 00:25:00,343
 really stressed a lot of things
 like, um, make sure that anyone
 
-446
+540
 00:25:00,343 --> 00:25:04,452
 going to your get hub can
 immediately with like a minute.
 
-447
+541
 00:25:05,117 --> 00:25:08,928
 Or a maximum of two clicks, get
 into your app and play around
 
-448
+542
 00:25:08,928 --> 00:25:12,167
-with it. If it's something that's
-on your portfolio. And he
+with it. If it's something
+that's on your portfolio. And he
 
-449
+543
 00:25:12,167 --> 00:25:15,407
 strongly suggested having like a
 guest login for everything, and
 
-450
+544
 00:25:15,438 --> 00:25:18,557
 you read me, filled out with
 screenshots and walkthroughs so
 
-451
+545
 00:25:18,557 --> 00:25:21,048
 that they didn't even have to go
 to the live app and all that
 
-452
+546
 00:25:21,048 --> 00:25:25,817
 stuff. His was, his whole career
 was built around, like he does
 
-453
+547
 00:25:25,847 --> 00:25:29,563
 Udemy. LinkedIn courses. And at
 this point, people will call him
 
-454
+548
 00:25:29,563 --> 00:25:32,323
 and ask him to do a job, having
 just seen those courses and be
 
-455
+549
 00:25:32,323 --> 00:25:34,843
 like, oh yeah. I mean, I know,
 you know what you're talking
 
-456
+550
 00:25:34,843 --> 00:25:35,413
 about. So.
 
-457
-00:25:35,593 --> 00:25:38,083
+551
+00:25:35,593 --> 00:25:36,838
 Dan: Yeah, I think that's great
-advice if you, I mean, especially
+advice if you, I mean,
 
-458
+552
+00:25:36,838 --> 00:25:38,083
+especially
+
+553
 00:25:38,083 --> 00:25:40,363
 if you have a project like that,
 because lots of times you see.
 
-459
-00:25:41,212 --> 00:25:44,393
-Projects and, you know, I suppose
-this is more of in tutorial and
+554
+00:25:41,212 --> 00:25:42,802
+Projects and, you know, I
+suppose this is more of in
 
-460
+555
+00:25:42,802 --> 00:25:44,392
+tutorial and
+
+556
 00:25:44,393 --> 00:25:49,313
 then in, um, uh, maybe in a boot
 camp, but you see somebody
 
-461
-00:25:49,313 --> 00:25:51,952
-learning and doing a project, you
-know, an example project. And
+557
+00:25:49,313 --> 00:25:50,632
+learning and doing a project,
+you know, an example project.
 
-462
+558
+00:25:50,632 --> 00:25:51,951
+And
+
+559
 00:25:52,163 --> 00:25:55,613
 it's hard to tell sometimes if
 it's just been cloned from the
 
-463
+560
 00:25:55,613 --> 00:25:58,042
 example, or, you know, if
 they've, if a person has just
 
-464
+561
 00:25:58,042 --> 00:26:03,337
 been going through the steps and
 pasting in, um, or if they. Done
 
-465
+562
 00:26:03,337 --> 00:26:06,157
-a lot of the work, you know, and,
-and the steps that you're
+a lot of the work, you know,
+and, and the steps that you're
 
-466
-00:26:06,157 --> 00:26:09,488
-describing, I think go a long way
-towards, um, solving that, you
+563
+00:26:06,157 --> 00:26:07,822
+describing, I think go a long
+way towards, um, solving that,
 
-467
-00:26:09,488 --> 00:26:12,998
+564
+00:26:07,822 --> 00:26:09,487
+you
+
+565
+00:26:09,488 --> 00:26:11,243
 know, and actually displaying
-like that you have done this work
+like that you have done this
 
-468
+566
+00:26:11,243 --> 00:26:12,998
+work
+
+567
 00:26:12,998 --> 00:26:14,978
 and you do understand this
 project and you do understand
 
-469
+568
 00:26:14,978 --> 00:26:18,548
 like why it does what it does.
 Um, et cetera. I like the idea
 
-470
+569
 00:26:18,548 --> 00:26:18,607
 of.
 
-471
+570
 00:26:19,417 --> 00:26:21,698
 Abbey: We keep talking about my
 fancy blog, but let's be clear.
 
-472
-00:26:21,698 --> 00:26:25,298
-That's me being like, oh, I built
-this thing here was my first step
+571
+00:26:21,698 --> 00:26:23,498
+That's me being like, oh, I
+built this thing here was my
 
-473
-00:26:25,357 --> 00:26:30,877
+572
+00:26:23,498 --> 00:26:25,298
+first step
+
+573
+00:26:25,357 --> 00:26:28,117
 code block. Can't my second step
-code block. Like it's. And then I
+code block. Like it's. And then
 
-474
+574
+00:26:28,117 --> 00:26:30,877
+I
+
+575
 00:26:30,877 --> 00:26:32,978
 was like, why are people
 responding to this so much? And
 
-475
+576
 00:26:32,978 --> 00:26:35,498
 then I see other blogs that are
 just like code black code black
 
-476
+577
 00:26:35,498 --> 00:26:41,377
 code block. And I'm like, oh, so
 just say the steps you took and
 
-477
+578
 00:26:41,377 --> 00:26:44,617
 people will believe you I'm like
 your blog. This is the secret to
 
-478
+579
 00:26:44,617 --> 00:26:45,367
 my success.
 
-479
+580
 00:26:49,462 --> 00:26:49,553
 Bekah: Okay.
 
-480
+581
 00:26:50,147 --> 00:26:50,837
 Dan: no, go ahead, Bekah.
 
-481
-00:26:51,113 --> 00:26:54,502
+582
+00:26:51,113 --> 00:26:52,807
 Bekah: I was just going to say
-one of the tips that I got when I
+one of the tips that I got when
 
-482
+583
+00:26:52,807 --> 00:26:54,501
+I
+
+584
 00:26:54,502 --> 00:26:59,333
 was starting to apply for jobs
 was to create, um, a short walk
 
-483
-00:26:59,333 --> 00:27:03,982
-through of each of your projects.
-And actually somebody had told me
+585
+00:26:59,333 --> 00:27:01,657
+through of each of your
+projects. And actually somebody
 
-484
+586
+00:27:01,657 --> 00:27:03,981
+had told me
+
+587
 00:27:04,282 --> 00:27:07,432
 if you're not very confident in
 the code that you wrote
 
-485
+588
 00:27:07,492 --> 00:27:13,238
 sometimes. Linking to the video
 is better because you can talk
 
-486
+589
 00:27:13,238 --> 00:27:16,178
 about it. If you're confident in
 how you talk about it. They're
 
-487
-00:27:16,178 --> 00:27:19,867
+590
+00:27:16,178 --> 00:27:18,022
 probably not going to ask you
-questions about what you did with
+questions about what you did
 
-488
+591
+00:27:18,022 --> 00:27:19,866
+with
+
+592
 00:27:19,867 --> 00:27:23,738
 their code, with your code. So I
 don't know. I mean, it makes it
 
-489
-00:27:23,738 --> 00:27:27,157
-like a quick reference point. You
-can talk through things, but also
+593
+00:27:23,738 --> 00:27:25,447
+like a quick reference point.
+You can talk through things, but
 
-490
+594
+00:27:25,447 --> 00:27:27,156
+also
+
+595
 00:27:27,397 --> 00:27:30,488
 that might be another way to
 communicate what you've been
 
-491
+596
 00:27:30,488 --> 00:27:31,117
 working on.
 
-492
+597
 00:27:32,357 --> 00:27:35,958
 Abbey: Uh, I'm going to go ahead
 and credit my husband with, uh,
 
-493
+598
 00:27:36,048 --> 00:27:40,762
 how good I am at describing my
 projects to people. Not great.
 
-494
+599
 00:27:41,063 --> 00:27:45,173
 Let's be clear. Uh, we had to do
 presentations of all of our
 
-495
+600
 00:27:45,173 --> 00:27:48,022
 projects for the bootcamp. And I
 was the only one that got
 
-496
+601
 00:27:48,022 --> 00:27:51,532
 prompted to like explain the
 business case at night. Like
 
-497
+602
 00:27:51,772 --> 00:27:53,002
 maybe talk slower.
 
-498
+603
 00:27:53,428 --> 00:27:53,607
 Bekah: Right.
 
-499
+604
 00:27:55,643 --> 00:27:58,732
 Abbey: So there were times where
 he like watched the recording or
 
-500
-00:27:58,732 --> 00:28:00,982
+605
+00:27:58,732 --> 00:27:59,857
 something. Cause I'd be like, I
-just like, what am I doing wrong?
+just like, what am I doing
 
-501
+606
+00:27:59,857 --> 00:28:00,982
+wrong?
+
+607
 00:28:01,073 --> 00:28:04,492
 And he was like, so all these
 people are spending five minutes
 
-502
-00:28:04,492 --> 00:28:07,938
-on one. That's like a fraction of
-any of the features that you've
+608
+00:28:04,492 --> 00:28:06,215
+on one. That's like a fraction
+of any of the features that
 
-503
-00:28:07,938 --> 00:28:10,758
+609
+00:28:06,215 --> 00:28:07,938
+you've
+
+610
+00:28:07,938 --> 00:28:09,348
 built in here. And you're going
-through everything, everything in
+through everything, everything
 
-504
+611
+00:28:09,348 --> 00:28:10,758
+in
+
+612
 00:28:10,758 --> 00:28:14,028
-the same amount of time, like you
-need to actually explain how
+the same amount of time, like
+you need to actually explain how
 
-505
+613
 00:28:14,028 --> 00:28:16,998
 difficult things are to like
 figure out and like your process
 
-506
-00:28:17,057 --> 00:28:19,938
-and like aspects of the code that
-you enjoyed writing or didn't
+614
+00:28:17,057 --> 00:28:18,497
+and like aspects of the code
+that you enjoyed writing or
 
-507
-00:28:19,938 --> 00:28:24,167
-enjoy writing or stuff like that.
-And applying that to interviews.
+615
+00:28:18,497 --> 00:28:19,937
+didn't
 
-508
+616
+00:28:19,938 --> 00:28:22,052
+enjoy writing or stuff like
+that. And applying that to
+
+617
+00:28:22,052 --> 00:28:24,166
+interviews.
+
+618
 00:28:25,238 --> 00:28:29,077
 A whole nother step, because if
 by the time I was in my final
 
-509
+619
 00:28:29,077 --> 00:28:31,657
 interviews, like I had rehearsed
 all of my answers so much, which
 
-510
-00:28:31,657 --> 00:28:35,587
+620
+00:28:31,657 --> 00:28:33,622
 is another point, um, that I
-wasn't like, I was like exhausted
+wasn't like, I was like
 
-511
+621
+00:28:33,622 --> 00:28:35,587
+exhausted
+
+622
 00:28:35,587 --> 00:28:40,327
 in my last interview and had all
 the answers and it went fine
 
-512
+623
 00:28:40,807 --> 00:28:45,788
 because I was just not panicked
 and practiced all of this. And.
 
-513
+624
 00:28:46,972 --> 00:28:50,083
 If you, Yeah. Explaining your
 code to people, especially like
 
-514
+625
 00:28:50,133 --> 00:28:52,823
 link, explain your code to your
 dad. Like you don't have to use
 
-515
+626
 00:28:52,823 --> 00:28:55,643
 all of the technical concepts,
 but explain that you wrote, like
 
-516
+627
 00:28:55,643 --> 00:28:58,492
 you had to sit there and write a
 button that would listen for a
 
-517
+628
 00:28:58,492 --> 00:29:01,992
 thing and then do this thing and
 response. And once you can start
 
-518
+629
 00:29:01,992 --> 00:29:04,603
 explaining it to lay medic, it's
 a lot easier to then jump into
 
-519
+630
 00:29:04,603 --> 00:29:08,383
 all of the heavy technical
 concepts. When someone asks you
 
-520
+631
 00:29:08,383 --> 00:29:08,893
 in an interview.
 
-521
-00:29:09,488 --> 00:29:14,103
-Dan: I love that. I, I, uh, I was
-going to say, and this is just
+632
+00:29:09,488 --> 00:29:11,795
+Dan: I love that. I, I, uh, I
+was going to say, and this is
 
-522
-00:29:14,103 --> 00:29:17,313
+633
+00:29:11,795 --> 00:29:14,102
+just
+
+634
+00:29:14,103 --> 00:29:15,708
 going to tie back. Great to, I
-keep saying about how great it is
+keep saying about how great it
 
-523
-00:29:17,313 --> 00:29:22,022
+635
+00:29:15,708 --> 00:29:17,313
+is
+
+636
+00:29:17,313 --> 00:29:19,667
 to write, but somebody, I can't
-remember if it was on our podcast
+remember if it was on our
 
-524
-00:29:22,022 --> 00:29:25,472
+637
+00:29:19,667 --> 00:29:22,021
+podcast
+
+638
+00:29:22,022 --> 00:29:23,747
 or a different one, but it was
-talking about, um, the writing, a
+talking about, um, the writing,
 
-525
-00:29:25,472 --> 00:29:28,383
+639
+00:29:23,747 --> 00:29:25,472
+a
+
+640
+00:29:25,472 --> 00:29:26,927
 blog post about that. Like, if
-you wrote a blog, post explaining
+you wrote a blog, post
 
-526
+641
+00:29:26,927 --> 00:29:28,382
+explaining
+
+642
 00:29:28,442 --> 00:29:32,583
 kind of the steps that you did
 for a project, um, it helps you
 
-527
+643
 00:29:32,583 --> 00:29:34,923
 be prepared for when somebody
 asks you about it, you know, and
 
-528
-00:29:34,923 --> 00:29:37,952
+644
+00:29:34,923 --> 00:29:36,437
 it's just like the, maybe even
-just a script for your answer. It
+just a script for your answer.
 
-529
-00:29:38,163 --> 00:29:42,417
-helps you talk about it more. Um,
-Uh, I dunno, thoroughly and, you
+645
+00:29:36,437 --> 00:29:37,951
+It
 
-530
+646
+00:29:38,163 --> 00:29:40,290
+helps you talk about it more.
+Um, Uh, I dunno, thoroughly and,
+
+647
+00:29:40,290 --> 00:29:42,417
+you
+
+648
 00:29:42,417 --> 00:29:45,958
 know, with more detail, um, and
 probably also help you remember
 
-531
-00:29:45,958 --> 00:29:48,778
-if you have it, you know, helping
-you remember the steps. Cause if
+649
+00:29:45,958 --> 00:29:47,368
+if you have it, you know,
+helping you remember the steps.
 
-532
+650
+00:29:47,368 --> 00:29:48,778
+Cause if
+
+651
 00:29:48,778 --> 00:29:51,508
 I wrote something a year ago and
 somebody asked me to talk about
 
-533
-00:29:51,508 --> 00:29:55,647
-it, I, if I hadn't done any prep,
-I would be like, uh, I don't
+652
+00:29:51,508 --> 00:29:53,577
+it, I, if I hadn't done any
+prep, I would be like, uh, I
 
-534
+653
+00:29:53,577 --> 00:29:55,646
+don't
+
+654
 00:29:55,647 --> 00:29:57,268
 know. Well, let's go look at it
 and see,
 
-535
+655
 00:29:58,032 --> 00:30:00,883
 Abbey: let's be clear in
 interviews. I've been like, uh,
 
-536
-00:30:00,942 --> 00:30:04,512
-that was four months ago. I wrote
-a lot of code in between now. And
+656
+00:30:00,942 --> 00:30:02,727
+that was four months ago. I
+wrote a lot of code in between
 
-537
+657
+00:30:02,727 --> 00:30:04,512
+now. And
+
+658
 00:30:04,512 --> 00:30:06,942
 then can you give me like a
 little bit more specific on your
 
-538
+659
 00:30:06,942 --> 00:30:10,032
 question, please come. What are
 you, what answer are you looking
 
-539
-00:30:10,032 --> 00:30:15,432
-for For me? And I've got what two
-blog posts talk now where pretty
+660
+00:30:10,032 --> 00:30:12,732
+for For me? And I've got what
+two blog posts talk now where
 
-540
+661
+00:30:12,732 --> 00:30:15,432
+pretty
+
+662
 00:30:15,432 --> 00:30:20,107
 much my answer to everything is
 practice. Practicing the thing,
 
-541
+663
 00:30:20,978 --> 00:30:25,147
 practicing the thing without any
 caveats, like you wrote a thing,
 
-542
-00:30:25,147 --> 00:30:27,518
-it doesn't have to be like, oh, I
-didn't write the complete thing
+664
+00:30:25,147 --> 00:30:26,332
+it doesn't have to be like, oh,
+I didn't write the complete
 
-543
-00:30:27,518 --> 00:30:30,008
+665
+00:30:26,332 --> 00:30:27,517
+thing
+
+666
+00:30:27,518 --> 00:30:28,763
 and I didn't write this and I
-didn't write that. Like, you can,
+didn't write that. Like, you
 
-544
-00:30:30,038 --> 00:30:32,557
+667
+00:30:28,763 --> 00:30:30,008
+can,
+
+668
+00:30:30,038 --> 00:30:31,297
 you can have that anxiety
-yourself if you want, but there's
+yourself if you want, but
 
-545
-00:30:32,557 --> 00:30:35,048
+669
+00:30:31,297 --> 00:30:32,556
+there's
+
+670
+00:30:32,557 --> 00:30:33,802
 no point in telling an
-interviewer because he's the only
+interviewer because he's the
 
-546
+671
+00:30:33,802 --> 00:30:35,047
+only
+
+672
 00:30:35,048 --> 00:30:38,377
 person, like the only thing they
 care about is you coming in to
 
-547
+673
 00:30:38,377 --> 00:30:40,508
 the role and being able to do
 that same thing.
 
-548
+674
 00:30:42,103 --> 00:30:42,252
 Dan: For
 
-549
+675
 00:30:42,278 --> 00:30:44,678
 Abbey: And like, at that level,
 so.
 
-550
-00:30:45,702 --> 00:30:51,173
-Dan: I think that's great. I get.
-For me personally having, or even
+676
+00:30:45,702 --> 00:30:48,437
+Dan: I think that's great. I
+get. For me personally having,
 
-551
-00:30:51,173 --> 00:30:55,012
-just outlined having this sort of
-thing down, um, helps me because
+677
+00:30:48,437 --> 00:30:51,172
+or even
 
-552
+678
+00:30:51,173 --> 00:30:53,092
+just outlined having this sort
+of thing down, um, helps me
+
+679
+00:30:53,092 --> 00:30:55,011
+because
+
+680
 00:30:55,042 --> 00:30:57,563
 I just go like galaxy brain
 immediately, you know, and I get
 
-553
+681
 00:30:57,563 --> 00:30:59,752
 caught up, you know, my brain is
 like hopping all over the place
 
-554
+682
 00:30:59,752 --> 00:31:02,813
 and if I'm just, and I'm sure
 packets listeners have heard me
 
-555
+683
 00:31:02,813 --> 00:31:07,643
 do this on the podcast, but, uh,
 my, you know, not having
 
-556
-00:31:07,643 --> 00:31:10,462
-something to follow my brain just
-goes all over the place and with
+684
+00:31:07,643 --> 00:31:09,052
+something to follow my brain
+just goes all over the place and
 
-557
+685
+00:31:09,052 --> 00:31:10,461
+with
+
+686
 00:31:10,462 --> 00:31:15,498
 code in, you know, it's. Uh,
 there can be a logical way to
 
-558
+687
 00:31:15,498 --> 00:31:18,137
 walk somebody through and there,
 but if you just go follow every
 
-559
+688
 00:31:18,137 --> 00:31:20,657
 import or something, and you're
 like, well, this component, you
 
-560
-00:31:20,657 --> 00:31:22,508
+689
+00:31:20,657 --> 00:31:21,582
 know, and then he gets
-sidetracked and blah, blah, blah,
+sidetracked and blah, blah,
 
-561
+690
+00:31:21,582 --> 00:31:22,507
+blah,
+
+691
 00:31:22,508 --> 00:31:24,827
 blah, blah. I don't know. So
 having it all written down and
 
-562
+692
 00:31:24,827 --> 00:31:26,958
 practicing it, it's just such
 great advice.
 
-563
+693
 00:31:27,478 --> 00:31:30,657
-Abbey: Yeah, I uh, I talked about
-being prompted to give the
+Abbey: Yeah, I uh, I talked
+about being prompted to give the
 
-564
+694
 00:31:30,657 --> 00:31:34,587
 business case and that's because
 like very frequently, like on a
 
-565
+695
 00:31:34,587 --> 00:31:38,548
 daily basis, I'll tell a story
 with exactly zero context. I'm
 
-566
+696
 00:31:38,548 --> 00:31:42,448
 just assume people are in my
 brain and know what I'm talking
 
-567
-00:31:42,448 --> 00:31:46,587
+697
+00:31:42,448 --> 00:31:44,517
 about to the point that like our
-friends will just stare at me the
+friends will just stare at me
 
-568
+698
+00:31:44,517 --> 00:31:46,586
+the
+
+699
 00:31:46,587 --> 00:31:51,637
 one that. You know, married to
 someone like me and be like, and
 
-569
-00:31:51,637 --> 00:31:55,897
-Matt will be like, so here's what
-she's trying to say. Here's where
+700
+00:31:51,637 --> 00:31:53,767
+Matt will be like, so here's
+what she's trying to say. Here's
 
-570
+701
+00:31:53,767 --> 00:31:55,897
+where
+
+702
 00:31:55,897 --> 00:32:00,178
 she got the idea from here's
 what's happening. And I learned
 
-571
+703
 00:32:00,248 --> 00:32:04,607
 from interviewers mid interview,
 rant, rant, rant, rant, rant,
 
-572
+704
 00:32:04,607 --> 00:32:08,002
 rant, rant, rant, rant, rant,
 rant, rant, rant, about code. So
 
-573
-00:32:08,002 --> 00:32:13,252
+705
+00:32:08,002 --> 00:32:10,627
 to summarize my top three things
-that I would use in the answer to
+that I would use in the answer
 
-574
+706
+00:32:10,627 --> 00:32:13,252
+to
+
+707
 00:32:13,252 --> 00:32:17,303
 this question, this point, this
 point, and this point, and the
 
-575
+708
 00:32:17,482 --> 00:32:21,022
 level of understanding and
 interviewers faces went up
 
-576
+709
 00:32:21,232 --> 00:32:22,373
 exponentially.
 
-577
+710
 00:32:23,367 --> 00:32:23,488
 Dan: Yeah.
 
-578
+711
 00:32:24,022 --> 00:32:28,432
 Abbey: And there are times where
 very kind interviews. Prompt me
 
-579
-00:32:28,492 --> 00:32:32,153
+712
+00:32:28,492 --> 00:32:30,322
 to be like, and could you, could
-you summarize that answer quickly
+you summarize that answer
 
-580
-00:32:32,153 --> 00:32:35,752
-for me? And then like, I could do
-it totally fine, but like, if in
+713
+00:32:30,322 --> 00:32:32,152
+quickly
 
-581
+714
+00:32:32,153 --> 00:32:33,952
+for me? And then like, I could
+do it totally fine, but like, if
+
+715
+00:32:33,952 --> 00:32:35,751
+in
+
+716
 00:32:35,752 --> 00:32:38,272
 the, with the anxiety and like
 being asked the question and
 
-582
+717
 00:32:38,363 --> 00:32:42,143
 wanting to tell everyone about
 code, I would just rant for like
 
-583
-00:32:42,143 --> 00:32:44,423
-three minutes and they'd be like,
-well clear, clearly she knows
+718
+00:32:42,143 --> 00:32:43,283
+three minutes and they'd be
+like, well clear, clearly she
 
-584
-00:32:44,423 --> 00:32:47,153
-what she's talking about. I'm not
-sure if this was related to my
+719
+00:32:43,283 --> 00:32:44,423
+knows
 
-585
-00:32:47,153 --> 00:32:55,538
-actual question, but here we are.
-So. You can do it. It's really
+720
+00:32:44,423 --> 00:32:45,788
+what she's talking about. I'm
+not sure if this was related to
 
-586
+721
+00:32:45,788 --> 00:32:47,153
+my
+
+722
+00:32:47,153 --> 00:32:51,345
+actual question, but here we
+are. So. You can do it. It's
+
+723
+00:32:51,345 --> 00:32:55,537
+really
+
+724
 00:32:55,807 --> 00:32:58,538
 apparently my point to everyone
 getting a job.
 
-587
+725
 00:32:59,532 --> 00:33:02,202
-Bekah: I'd do the same thing. And
-I think for me, it's such a
+Bekah: I'd do the same thing.
+And I think for me, it's such a
 
-588
+726
 00:33:02,202 --> 00:33:05,803
 challenge when I have been going
 off for a while and I don't
 
-589
+727
 00:33:05,803 --> 00:33:08,863
 realize that I am. And then I
 see, like I noticed their face
 
-590
+728
 00:33:08,863 --> 00:33:14,542
 and I'm like, oh, I need to
 figure out. To bring this back
 
-591
-00:33:14,573 --> 00:33:18,323
+729
+00:33:14,573 --> 00:33:16,448
 or, and, but then it also makes
-me more nervous because I see the
+me more nervous because I see
 
-592
+730
+00:33:16,448 --> 00:33:18,323
+the
+
+731
 00:33:18,323 --> 00:33:21,353
 look on their face and it just
 like has upped the pressure to
 
-593
-00:33:21,353 --> 00:33:25,873
-come back and like be better. And
-I just was for the last three
+732
+00:33:21,353 --> 00:33:23,613
+come back and like be better.
+And I just was for the last
 
-594
+733
+00:33:23,613 --> 00:33:25,873
+three
+
+734
 00:33:25,873 --> 00:33:27,673
 minutes, it's it's a whole
 process.
 
-595
+735
 00:33:28,397 --> 00:33:30,948
 Abbey: It really is. It's all
 practice. Uh, I was in an
 
-596
-00:33:30,948 --> 00:33:36,258
+736
+00:33:30,948 --> 00:33:33,603
 interview process. It was a fee.
-It was the one the cycle before I
+It was the one the cycle before
 
-597
-00:33:36,258 --> 00:33:40,637
+737
+00:33:33,603 --> 00:33:36,258
+I
+
+738
+00:33:36,258 --> 00:33:38,447
 got my job and I made it to the
-final interview for two mid-level
+final interview for two
 
-598
-00:33:40,637 --> 00:33:46,357
-roles. Impressive. Uh, I like the
-second one. The first one had no
+739
+00:33:38,447 --> 00:33:40,636
+mid-level
 
-599
+740
+00:33:40,637 --> 00:33:43,497
+roles. Impressive. Uh, I like
+the second one. The first one
+
+741
+00:33:43,497 --> 00:33:46,357
+had no
+
+742
 00:33:46,357 --> 00:33:51,637
 intention of hiring me at any
 point. Uh, the second one, uh,
 
-600
+743
 00:33:51,667 --> 00:33:55,117
 the hiring manager offered to be
 my reference and I made them
 
-601
-00:33:55,117 --> 00:33:58,498
-think about it for an extra week.
-And accomplishment. It's not the
+744
+00:33:55,117 --> 00:33:56,807
+think about it for an extra
+week. And accomplishment. It's
 
-602
+745
+00:33:56,807 --> 00:33:58,497
+not the
+
+746
 00:33:58,498 --> 00:34:01,377
 job that I wanted, but it's an
 accomplishment. And there was a
 
-603
-00:34:01,377 --> 00:34:04,827
+747
+00:34:01,377 --> 00:34:03,102
 point where I was in, oh my God.
-That was the one where I was in a
+That was the one where I was in
 
-604
+748
+00:34:03,102 --> 00:34:04,827
+a
+
+749
 00:34:04,827 --> 00:34:07,978
 three hours straight of people
 asking me questions. And there
 
-605
-00:34:07,978 --> 00:34:09,717
+750
+00:34:07,978 --> 00:34:08,847
 was one point where they were
-like, here, you could have a five
+like, here, you could have a
 
-606
+751
+00:34:08,847 --> 00:34:09,716
+five
+
+752
 00:34:09,717 --> 00:34:17,818
 minute break to get some water.
 And, um, they, they were trying
 
-607
+753
 00:34:17,818 --> 00:34:20,518
 to see if I was the type of
 person that would go to a star
 
-608
+754
 00:34:20,518 --> 00:34:23,248
 wars movie in the middle of the
 day with them. That's the
 
-609
+755
 00:34:23,248 --> 00:34:27,097
 question they should have asked.
 They asked me. What are your
 
-610
+756
 00:34:27,097 --> 00:34:32,438
 hobbies? And, uh, I saw their
 eyes glaze over as I was
 
-611
-00:34:32,438 --> 00:34:35,257
+757
+00:34:32,438 --> 00:34:33,847
 answering this question because
-it was like, you can't, you can't
+it was like, you can't, you
 
-612
+758
+00:34:33,847 --> 00:34:35,256
+can't
+
+759
 00:34:35,257 --> 00:34:38,257
 ask me that question. Like, let
 me just keep going on for like
 
-613
-00:34:38,288 --> 00:34:42,007
-literally hours. Like I could do,
-if you get me started on one,
+760
+00:34:38,288 --> 00:34:40,147
+literally hours. Like I could
+do, if you get me started on
 
-614
+761
+00:34:40,147 --> 00:34:42,006
+one,
+
+762
 00:34:42,038 --> 00:34:45,538
 like that's just at the end. I
 was like, Yeah. And fantasy. And
 
-615
-00:34:45,538 --> 00:34:51,838
+763
+00:34:45,538 --> 00:34:48,688
 they're like, oh my God. Oh my
-God. I was like, Okay. ask better
+God. I was like, Okay. ask
 
-616
+764
+00:34:48,688 --> 00:34:51,838
+better
+
+765
 00:34:51,838 --> 00:34:52,347
 questions.
 
-617
+766
 00:34:55,353 --> 00:34:56,612
 Bekah: How many interviews did
 you go through?
 
-618
+767
 00:34:57,762 --> 00:35:05,713
 Abbey: Um, I think I got up to
 like 160 something applications.
 
-619
+768
 00:35:05,773 --> 00:35:08,833
 Um, I think that was the final
 number. I can look it up at some
 
-620
+769
 00:35:08,833 --> 00:35:13,722
 point, but, um, I went through
 like getting to the final
 
-621
+770
 00:35:13,722 --> 00:35:19,123
 interview, probably five or six.
 Um, there was one in the very
 
-622
+771
 00:35:19,123 --> 00:35:23,003
 beginning where. I was
 interviewing for a dev ops role
 
-623
+772
 00:35:23,003 --> 00:35:26,632
 because I had applied to the
 company and they saw my resume,
 
-624
+773
 00:35:27,322 --> 00:35:31,012
 uh, like a month later and were
 like, oh, well, she could do a
 
-625
+774
 00:35:31,012 --> 00:35:33,112
 dev ops role, which like,
 honestly, that's what I was
 
-626
+775
 00:35:33,112 --> 00:35:36,293
-expecting to go into, uh, with my
-background. Cause eight and a
+expecting to go into, uh, with
+my background. Cause eight and a
 
-627
-00:35:36,293 --> 00:35:38,393
-half years of customer service, I
-was like, I can break it into the
+776
+00:35:36,293 --> 00:35:37,343
+half years of customer service,
+I was like, I can break it into
 
-628
+777
+00:35:37,343 --> 00:35:38,393
+the
+
+778
 00:35:38,393 --> 00:35:40,612
 Texas tech industry and then
 eventually get into a developer
 
-629
+779
 00:35:40,612 --> 00:35:44,543
 role. And the longer I was not
 doing customer service, the more
 
-630
+780
 00:35:44,543 --> 00:35:48,652
-I was like, I never want to do it
-again. And, uh, In that
+I was like, I never want to do
+it again. And, uh, In that
 
-631
+781
 00:35:48,652 --> 00:35:50,722
 interview. My very first
 technical interview, the hiring
 
-632
+782
 00:35:50,722 --> 00:35:53,123
 manager looked at me and was
 like, yeah, I can't, I can't in
 
-633
+783
 00:35:53,123 --> 00:35:55,432
 good conscience, like recommend
 you for this role. Like,
 
-634
+784
 00:35:55,432 --> 00:35:57,802
 obviously I would hire you for
 this role, but like, you need to
 
-635
+785
 00:35:57,802 --> 00:36:00,652
-hold out for a developer role and
-then like, promise me that
+hold out for a developer role
+and then like, promise me that
 
-636
+786
 00:36:00,652 --> 00:36:03,143
 something would appear. And I
 just never did. And I was like,
 
-637
+787
 00:36:03,143 --> 00:36:06,132
 well, that's unfortunate, but
 yeah. There were other dev ops
 
-638
+788
 00:36:06,132 --> 00:36:09,132
 roles where like, uh, one of my
 friends, I pass the lead on to
 
-639
-00:36:09,132 --> 00:36:12,253
+789
+00:36:09,132 --> 00:36:10,692
 him and he's, he's in it now.
-Cause I was like, look like, this
+Cause I was like, look like,
 
-640
+790
+00:36:10,692 --> 00:36:12,252
+this
+
+791
 00:36:12,253 --> 00:36:15,012
 is a great role. You're not
 wrong. And like looking at my
 
-641
-00:36:15,012 --> 00:36:17,563
-resume and being like, I would be
-a great fit, but I honestly, like
+792
+00:36:15,012 --> 00:36:16,287
+resume and being like, I would
+be a great fit, but I honestly,
 
-642
+793
+00:36:16,287 --> 00:36:17,562
+like
+
+794
 00:36:17,563 --> 00:36:19,992
 I would just be looking for the
 next fill, like the first
 
-643
+795
 00:36:19,992 --> 00:36:23,112
 developer role I could find. And
 he was like, yeah. It's like, he
 
-644
+796
 00:36:23,112 --> 00:36:27,853
 was like, I'll pass your resume
 on. Yeah, sure. Thanks. Um, as
 
-645
-00:36:27,853 --> 00:36:33,253
-far as like not final interviews,
-I probably did a handful more. So
+797
+00:36:27,853 --> 00:36:30,553
+far as like not final
+interviews, I probably did a
 
-646
-00:36:33,253 --> 00:36:40,402
+798
+00:36:30,553 --> 00:36:33,253
+handful more. So
+
+799
+00:36:33,253 --> 00:36:36,827
 let's say. Like 10 to 15 total
-interview processes from like 160
+interview processes from like
 
-647
+800
+00:36:36,827 --> 00:36:40,401
+160
+
+801
 00:36:40,402 --> 00:36:41,483
 plus applications.
 
-648
+802
 00:36:43,163 --> 00:36:45,293
 Bekah: And how many months was
 that?
 
-649
+803
 00:36:45,963 --> 00:36:50,132
 Abbey: Um, I started applying
 seriously and November. I didn't
 
-650
-00:36:50,132 --> 00:36:54,362
+804
+00:36:50,132 --> 00:36:52,247
 get any bites until January. Um,
-and I graduated from the bootcamp
+and I graduated from the
 
-651
+805
+00:36:52,247 --> 00:36:54,362
+bootcamp
+
+806
 00:36:54,362 --> 00:36:55,742
-in January at the very beginning.
+in January at the very
+beginning.
 
-652
-00:36:57,003 --> 00:37:00,003
+807
+00:36:57,003 --> 00:36:58,503
 Bekah: Okay. And this is like in
-the middle of COVID. So there was
+the middle of COVID. So there
 
-653
+808
+00:36:58,503 --> 00:37:00,003
+was
+
+809
 00:37:00,452 --> 00:37:02,342
 hiring freezes everywhere.
 
-654
+810
 00:37:03,088 --> 00:37:09,898
 Abbey: Exploded in like, uh,
 January 20, 21, especially like
 
-655
+811
 00:37:09,898 --> 00:37:14,217
 tech. It was nuts because I had
 been looking since August,
 
-656
+812
 00:37:14,217 --> 00:37:16,978
 September, and then all of a
 sudden it was like daily, like
 
-657
+813
 00:37:16,978 --> 00:37:19,737
-five coming out for junior level.
-So,
+five coming out for junior
+level. So,
 
-658
+814
 00:37:20,878 --> 00:37:21,148
 Dan: Yeah.
 
-659
+815
 00:37:21,748 --> 00:37:22,018
 Abbey: Yeah.
 
-660
-00:37:22,318 --> 00:37:26,847
-Dan: Yeah. I was, I had seen that
-before, too. And was interesting
+816
+00:37:22,318 --> 00:37:24,582
+Dan: Yeah. I was, I had seen
+that before, too. And was
 
-661
-00:37:26,847 --> 00:37:30,518
+817
+00:37:24,582 --> 00:37:26,846
+interesting
+
+818
+00:37:26,847 --> 00:37:28,682
 to see because you know, part of
-it is. New budgets, you know, and
+it is. New budgets, you know,
 
-662
-00:37:30,518 --> 00:37:33,487
-stuff. And then I think companies
-finally figured out like the,
+819
+00:37:28,682 --> 00:37:30,517
+and
 
-663
-00:37:33,487 --> 00:37:36,818
+820
+00:37:30,518 --> 00:37:32,002
+stuff. And then I think
+companies finally figured out
+
+821
+00:37:32,002 --> 00:37:33,486
+like the,
+
+822
+00:37:33,487 --> 00:37:35,152
 the, um, that they are okay with
-the remote stuff, you know, which
+the remote stuff, you know,
 
-664
+823
+00:37:35,152 --> 00:37:36,817
+which
+
+824
 00:37:36,818 --> 00:37:37,177
 has been
 
-665
+825
 00:37:37,222 --> 00:37:41,963
 Abbey: well, Q1, Q too. Like you
 could talk to recruiters. I was
 
-666
+826
 00:37:42,023 --> 00:37:43,932
 in the recruiting industry,
 right. It'd be like everybody.
 
-667
+827
 00:37:43,932 --> 00:37:46,123
 We're going to be Okay. We're
 going to make it through, like,
 
-668
+828
 00:37:46,123 --> 00:37:49,512
 it's gonna, let's just rally
 together. And I don't know, do
 
-669
-00:37:49,512 --> 00:37:53,182
-something with our new free time.
-Honestly, I had eight hours to
+829
+00:37:49,512 --> 00:37:51,347
+something with our new free
+time. Honestly, I had eight
 
-670
-00:37:53,182 --> 00:37:59,092
+830
+00:37:51,347 --> 00:37:53,182
+hours to
+
+831
+00:37:53,182 --> 00:37:56,137
 study programming in like April
-20, 20. I'd answer like two calls
+20, 20. I'd answer like two
 
-671
+832
+00:37:56,137 --> 00:37:59,092
+calls
+
+833
 00:37:59,092 --> 00:38:04,583
 a day. And, uh, by like Q4, uh,
 you could see people were like
 
-672
+834
 00:38:04,583 --> 00:38:06,652
 relaxing a bit. And like
 recruiters were like, oh, I
 
-673
+835
 00:38:06,652 --> 00:38:09,112
-actually have things to do. Cause
-again, like if you want to
+actually have things to do.
+Cause again, like if you want to
 
-674
+836
 00:38:09,112 --> 00:38:11,302
 connect with recruiters, connect
 with me on LinkedIn because
 
-675
+837
 00:38:11,498 --> 00:38:11,708
 Bekah: Hm.
 
-676
+838
 00:38:12,052 --> 00:38:14,842
 Abbey: hundreds, hundreds of
 recruiters in my network. So.
 
-677
-00:38:16,643 --> 00:38:18,802
-Bekah: Were you able to take some
-of the stuff you learned from
+839
+00:38:16,643 --> 00:38:17,722
+Bekah: Were you able to take
+some of the stuff you learned
 
-678
+840
+00:38:17,722 --> 00:38:18,801
+from
+
+841
 00:38:18,802 --> 00:38:21,413
 recruiting and apply it to your
 job search?
 
-679
-00:38:22,068 --> 00:38:27,498
-Abbey: definitely. Um, uh, so my,
-one of the main aspects of my job
+842
+00:38:22,068 --> 00:38:24,783
+Abbey: definitely. Um, uh, so
+my, one of the main aspects of
 
-680
-00:38:27,498 --> 00:38:30,858
+843
+00:38:24,783 --> 00:38:27,498
+my job
+
+844
+00:38:27,498 --> 00:38:29,178
 was breaking down, uh, job
-descriptions and writing them and
+descriptions and writing them
 
-681
-00:38:30,858 --> 00:38:32,478
-so that we could post them on the
-internet and the right people
+845
+00:38:29,178 --> 00:38:30,858
+and
 
-682
+846
+00:38:30,858 --> 00:38:31,668
+so that we could post them on
+the internet and the right
+
+847
+00:38:31,668 --> 00:38:32,478
+people
+
+848
 00:38:32,478 --> 00:38:36,887
 would apply. So from that, I not
 only could pull out and again, I
 
-683
+849
 00:38:36,887 --> 00:38:39,288
-was in engineering. So like there
-was some, there were some
+was in engineering. So like
+there was some, there were some
 
-684
+850
 00:38:39,288 --> 00:38:43,157
 differences, uh, in engineering,
 if you job hop from after, like
 
-685
+851
 00:38:43,157 --> 00:38:46,277
 one year, people are like, is
 something wrong with you? If in
 
-686
+852
 00:38:46,277 --> 00:38:52,483
 Texas, A given. And I was like,
 oh, hello. the other part, the
 
-687
+853
 00:38:52,483 --> 00:38:55,893
-other one that was, I was also in
-frequent calls with hiring
+other one that was, I was also
+in frequent calls with hiring
 
-688
+854
 00:38:55,893 --> 00:38:58,742
 managers, retooling the job
 description that they had given
 
-689
+855
 00:38:58,742 --> 00:39:00,813
 us because they weren't seeing
 the right candidate. So I knew
 
-690
-00:39:00,813 --> 00:39:05,702
-how incredibly frequent it is for
-the job description, not to match
+856
+00:39:00,813 --> 00:39:03,257
+how incredibly frequent it is
+for the job description, not to
 
-691
-00:39:05,702 --> 00:39:08,793
+857
+00:39:03,257 --> 00:39:05,701
+match
+
+858
+00:39:05,702 --> 00:39:07,247
 what the hiring manager is
-looking for. So that made it very
+looking for. So that made it
 
-692
-00:39:08,793 --> 00:39:11,793
-easy for me to take the advice of
-someone saying, well, if you see
+859
+00:39:07,247 --> 00:39:08,792
+very
 
-693
+860
+00:39:08,793 --> 00:39:10,293
+easy for me to take the advice
+of someone saying, well, if you
+
+861
+00:39:10,293 --> 00:39:11,793
+see
+
+862
 00:39:11,793 --> 00:39:15,807
 one book. Go for it. Cause like
 the hiring managers don't know
 
-694
+863
 00:39:15,807 --> 00:39:20,257
 what they want. My current job
 description was. Three years
 
-695
+864
 00:39:20,257 --> 00:39:27,128
 experience CS degree, master's
 preferred, uh, the recruiter
 
-696
+865
 00:39:28,117 --> 00:39:30,697
 that, uh, I worked with heavily
 implied that I would never get
 
-697
+866
 00:39:30,697 --> 00:39:33,367
 the job. And then did the same
 thing to my friend who was in my
 
-698
-00:39:33,367 --> 00:39:37,717
-bootcamp, who has also gotten the
-job. So like, it's a whole thing.
+867
+00:39:33,367 --> 00:39:35,542
+bootcamp, who has also gotten
+the job. So like, it's a whole
 
-699
+868
+00:39:35,542 --> 00:39:37,717
+thing.
+
+869
 00:39:37,748 --> 00:39:41,858
-But, um, the other thing was, uh,
-I was trying to do the math
+But, um, the other thing was,
+uh, I was trying to do the math
 
-700
+870
 00:39:41,887 --> 00:39:47,617
 earlier. Let's say on average, I
 over, I was involved in 12
 
-701
+871
 00:39:47,617 --> 00:39:52,807
 interviews a week, right? And I
 was in that for five years. So
 
-702
-00:39:52,807 --> 00:39:56,108
-like, there was, there were times
-in my own interview process where
+872
+00:39:52,807 --> 00:39:54,457
+like, there was, there were
+times in my own interview
 
-703
+873
+00:39:54,457 --> 00:39:56,107
+process where
+
+874
 00:39:56,108 --> 00:39:59,197
-I'd be like, I'm not getting this
-job just from like the way
+I'd be like, I'm not getting
+this job just from like the way
 
-704
-00:39:59,498 --> 00:40:03,487
-feeling out the way that a hiring
-manager responds, because th the
+875
+00:39:59,498 --> 00:40:01,492
+feeling out the way that a
+hiring manager responds, because
 
-705
+876
+00:40:01,492 --> 00:40:03,486
+th the
+
+877
 00:40:03,487 --> 00:40:05,978
 one where they waited a week to
 tell me that they'd be my
 
-706
+878
 00:40:05,978 --> 00:40:08,588
 reference. Like, I was like, I'm
 not, I really wanted this. And I
 
-707
-00:40:08,588 --> 00:40:11,108
+879
+00:40:08,588 --> 00:40:09,848
 know I didn't get it at this
-point. And everyone was like, no,
+point. And everyone was like,
 
-708
+880
+00:40:09,848 --> 00:40:11,108
+no,
+
+881
 00:40:11,108 --> 00:40:14,108
 you've got to wait. And I was
 like, Hmm, I would have heard on
 
-709
+882
 00:40:14,108 --> 00:40:20,963
 Friday. Uh, but beyond that, You
 hear feedback from the
 
-710
+883
 00:40:20,963 --> 00:40:24,293
 candidates? Cause I was supposed
 to be every single time a
 
-711
+884
 00:40:24,293 --> 00:40:25,612
 candidate went through an
 interview. I was supposed to get
 
-712
+885
 00:40:25,612 --> 00:40:27,862
 on the phone with them and at
 least hear them out about how it
 
-713
-00:40:27,862 --> 00:40:32,603
-went. And you hear about like the
-questions that they got asked and
+886
+00:40:27,862 --> 00:40:30,232
+went. And you hear about like
+the questions that they got
 
-714
-00:40:32,693 --> 00:40:36,742
-like, if we sent three candidates
-through a process, then I would
+887
+00:40:30,232 --> 00:40:32,602
+asked and
 
-715
-00:40:36,742 --> 00:40:41,737
-know. What they had the, like the
-person that got it had versus the
+888
+00:40:32,693 --> 00:40:34,717
+like, if we sent three
+candidates through a process,
 
-716
+889
+00:40:34,717 --> 00:40:36,741
+then I would
+
+890
+00:40:36,742 --> 00:40:39,239
+know. What they had the, like
+the person that got it had
+
+891
+00:40:39,239 --> 00:40:41,736
+versus the
+
+892
 00:40:41,768 --> 00:40:44,677
 two that we sent in previously
 and stuff like that. And there
 
-717
+893
 00:40:44,677 --> 00:40:47,378
 are some things that I highly
 recommend that are very
 
-718
+894
 00:40:47,378 --> 00:40:50,978
 controversial, not because I
 think that the U S hiring
 
-719
-00:40:50,978 --> 00:40:54,458
-process, the way it is, is great,
-or like, has any standards
+895
+00:40:50,978 --> 00:40:52,718
+process, the way it is, is
+great, or like, has any
 
-720
+896
+00:40:52,718 --> 00:40:54,458
+standards
+
+897
 00:40:54,458 --> 00:41:00,188
 whatsoever, but. can use a thank
 you note to push for feedback.
 
-721
+898
 00:41:00,217 --> 00:41:03,878
 Like even if you're not getting
 the job, you are more likely to
 
-722
+899
 00:41:03,878 --> 00:41:07,268
 hear why you didn't get the job.
 If you're emailing someone like
 
-723
-00:41:07,268 --> 00:41:11,588
-politely and asking questions and
-like a thank you note as just a
+900
+00:41:07,268 --> 00:41:09,428
+politely and asking questions
+and like a thank you note as
 
-724
+901
+00:41:09,428 --> 00:41:11,588
+just a
+
+902
 00:41:11,588 --> 00:41:16,282
 wrapper for that, you can be
 like, Hey recruiter. Here. Can
 
-725
-00:41:16,282 --> 00:41:19,163
-you pass this? Thank you. Note on
-for me also, can you answer these
+903
+00:41:16,282 --> 00:41:17,722
+you pass this? Thank you. Note
+on for me also, can you answer
 
-726
+904
+00:41:17,722 --> 00:41:19,162
+these
+
+905
 00:41:19,163 --> 00:41:22,612
 questions for me? And then like,
 I would get, um, my current role
 
-727
+906
 00:41:22,612 --> 00:41:25,072
 with my first interviewer
 responded back with like, oh,
 
-728
-00:41:25,103 --> 00:41:27,172
-thank you for sending this. Like,
-it was so lovely to speak to you
+907
+00:41:25,103 --> 00:41:26,137
+thank you for sending this.
+Like, it was so lovely to speak
 
-729
+908
+00:41:26,137 --> 00:41:27,171
+to you
+
+909
 00:41:27,172 --> 00:41:29,963
 too. I'm I'm that was like, that
 gives you a little confidence as
 
-730
+910
 00:41:29,963 --> 00:41:34,103
 you go into the next interview
 and stuff like that. So, uh, the
 
-731
-00:41:34,163 --> 00:41:38,003
+911
+00:41:34,163 --> 00:41:36,083
 other, what was the other point
-that I had? Oh, I would do hiring
+that I had? Oh, I would do
 
-732
+912
+00:41:36,083 --> 00:41:38,003
+hiring
+
+913
 00:41:38,003 --> 00:41:38,512
 and firing.
 
-733
+914
 00:41:39,512 --> 00:41:39,572
 Bekah: Yeah.
 
-734
-00:41:40,117 --> 00:41:45,458
-Abbey: So I, I would get to like,
-get the feedback as to why they
+915
+00:41:40,117 --> 00:41:42,787
+Abbey: So I, I would get to
+like, get the feedback as to why
 
-735
+916
+00:41:42,787 --> 00:41:45,457
+they
+
+917
 00:41:45,458 --> 00:41:48,307
 wanted to go with the candidate.
 I would do, uh, negotiations on
 
-736
+918
 00:41:48,307 --> 00:41:52,148
 behalf of the candidate. Like I
 would call it laminate and, um,
 
-737
+919
 00:41:52,418 --> 00:41:55,387
 say it's Joe Schmoe, mechanical
 engineer. And he's been doing
 
-738
+920
 00:41:55,387 --> 00:41:57,367
 mechanical engineering for 30
 years and he's been doing
 
-739
+921
 00:41:57,367 --> 00:42:00,367
 contract work for 20 years. And
 he was like, no, where are those
 
-740
+922
 00:42:00,367 --> 00:42:04,057
 places? Uh, the commute I would
 have to do plus this, this, this
 
-741
+923
 00:42:04,057 --> 00:42:08,628
 and this, I need $3 more. Yeah.
 Um, like once you get really
 
-742
+924
 00:42:08,628 --> 00:42:12,617
 comfortable with that kind of
 negotiation and everything on
 
-743
+925
 00:42:12,617 --> 00:42:14,748
 behalf of someone else, it's
 slightly easier to apply to
 
-744
+926
 00:42:14,748 --> 00:42:17,057
 yourself. I still feel like I
 lowballed myself in a couple of
 
-745
-00:42:17,057 --> 00:42:20,148
-interview processes, but that was
-also me being very desperate for
+927
+00:42:17,057 --> 00:42:18,602
+interview processes, but that
+was also me being very desperate
 
-746
-00:42:20,148 --> 00:42:26,302
-my first job in tech. Uh, and me.
-But like, even then I was doing
+928
+00:42:18,602 --> 00:42:20,147
+for
 
-747
-00:42:26,302 --> 00:42:29,842
-it based on like market research.
-Like you go to indeed you do plug
+929
+00:42:20,148 --> 00:42:23,225
+my first job in tech. Uh, and
+me. But like, even then I was
 
-748
-00:42:29,842 --> 00:42:32,302
+930
+00:42:23,225 --> 00:42:26,302
+doing
+
+931
+00:42:26,302 --> 00:42:28,072
+it based on like market
+research. Like you go to indeed
+
+932
+00:42:28,072 --> 00:42:29,842
+you do plug
+
+933
+00:42:29,842 --> 00:42:31,072
 in the job title, you plug in
-your location, and that gives you
+your location, and that gives
 
-749
+934
+00:42:31,072 --> 00:42:32,302
+you
+
+935
 00:42:32,302 --> 00:42:35,782
 the average hourly rate or
 average salary for any job. Uh,
 
-750
-00:42:35,793 --> 00:42:39,443
-it's on the indeed salary tool or
-whatever. And that's how we did
+936
+00:42:35,793 --> 00:42:37,618
+it's on the indeed salary tool
+or whatever. And that's how we
 
-751
+937
+00:42:37,618 --> 00:42:39,443
+did
+
+938
 00:42:39,623 --> 00:42:42,952
 estimating for the rates that we
 were putting out on our job
 
-752
+939
 00:42:42,952 --> 00:42:47,663
 descriptions for. Anytime that
 the client didn't set the rates.
 
-753
+940
 00:42:47,753 --> 00:42:52,402
 So like I knew how to find that
 kind of information to make
 
-754
+941
 00:42:52,402 --> 00:42:56,842
-myself a competitive candidate by
-low-balling myself, or just
+myself a competitive candidate
+by low-balling myself, or just
 
-755
-00:42:56,842 --> 00:43:00,623
-saying that, no, I'm not going to
-accept anything below this. And,
+942
+00:42:56,842 --> 00:42:58,732
+saying that, no, I'm not going
+to accept anything below this.
 
-756
-00:43:00,713 --> 00:43:03,952
+943
+00:42:58,732 --> 00:43:00,622
+And,
+
+944
+00:43:00,713 --> 00:43:02,332
 uh, that ended up being my first
-job doubled my salary after seven
+job doubled my salary after
 
-757
+945
+00:43:02,332 --> 00:43:03,951
+seven
+
+946
 00:43:03,952 --> 00:43:04,733
 months of unemployment.
 
-758
+947
 00:43:05,347 --> 00:43:05,708
 Bekah: Nice.
 
-759
+948
 00:43:05,992 --> 00:43:09,713
 Dan: Yeah, that's awesome. I'm
 sure that sounds like a nice, a
 
-760
+949
 00:43:10,172 --> 00:43:12,052
 bunch of information to have in
 your back pocket when you're
 
-761
+950
 00:43:12,052 --> 00:43:13,532
 going through this process. Um,
 
-762
+951
 00:43:13,538 --> 00:43:16,748
 Abbey: yeah. And like just a lot
 of stuff where like demystifies
 
-763
-00:43:17,108 --> 00:43:20,708
-the whole hiring process, because
-they're all, I mean, I had a
+952
+00:43:17,108 --> 00:43:18,908
+the whole hiring process,
+because they're all, I mean, I
 
-764
+953
+00:43:18,908 --> 00:43:20,708
+had a
+
+954
 00:43:21,097 --> 00:43:23,527
 psych professor who would rant
 about this frequently. Like
 
-765
+955
 00:43:23,557 --> 00:43:27,128
 they're not trained. Like when I
 had to hire people for internal
 
-766
-00:43:27,128 --> 00:43:29,768
+956
+00:43:27,128 --> 00:43:28,448
 roles, they were just like, here
-I are interviewing, hire someone.
+I are interviewing, hire
 
-767
+957
+00:43:28,448 --> 00:43:29,768
+someone.
+
+958
 00:43:30,188 --> 00:43:32,918
 They weren't like ask them these
 questions or here's what we're
 
-768
+959
 00:43:32,918 --> 00:43:35,557
 looking for. And my role was a
 little bit difficult because
 
-769
-00:43:35,557 --> 00:43:39,742
+960
+00:43:35,557 --> 00:43:37,649
 like, we couldn't even do KPIs,
-which are like, uh, Setting goals
+which are like, uh, Setting
 
-770
+961
+00:43:37,649 --> 00:43:39,741
+goals
+
+962
 00:43:39,773 --> 00:43:41,992
 for people to meet so that you
 know, that they're performing
 
-771
+963
 00:43:41,992 --> 00:43:43,672
 well in their role, because it
 would be like, well, a lot of
 
-772
+964
 00:43:43,672 --> 00:43:48,538
 this is dependent on what comes
 in. So. I just asked the same
 
-773
-00:43:48,538 --> 00:43:52,378
+965
+00:43:48,538 --> 00:43:50,458
 questions and we hired a couple
-people and I failed miserably two
+people and I failed miserably
 
-774
+966
+00:43:50,458 --> 00:43:52,378
+two
+
+967
 00:43:52,378 --> 00:43:57,807
 out of three times. Like, and if
 I, someone with experience in a
 
-775
-00:43:57,807 --> 00:44:01,197
-lot of interview processes, can't
-look at another human and be
+968
+00:43:57,807 --> 00:43:59,502
+lot of interview processes,
+can't look at another human and
 
-776
+969
+00:43:59,502 --> 00:44:01,197
+be
+
+970
 00:44:01,197 --> 00:44:03,978
 like, Yeah. you're definitely
 going to write it. In a timely
 
-777
-00:44:03,978 --> 00:44:07,668
+971
+00:44:03,978 --> 00:44:05,823
 manner, like how is someone else
-going to do that? So a lot of it,
+going to do that? So a lot of
 
-778
-00:44:07,757 --> 00:44:11,447
-it turned it into me knowing that
-like a human is sitting on the
+972
+00:44:05,823 --> 00:44:07,668
+it,
 
-779
+973
+00:44:07,757 --> 00:44:09,602
+it turned it into me knowing
+that like a human is sitting on
+
+974
+00:44:09,602 --> 00:44:11,447
+the
+
+975
 00:44:11,447 --> 00:44:15,438
 other side of this call or
 whatever. Uh, and I'm convincing
 
-780
+976
 00:44:15,438 --> 00:44:20,657
 that human, but I will do
 whatever they want me to do for
 
-781
+977
 00:44:20,657 --> 00:44:27,563
 money. Hopefully I'll leave. And
 development related, but like
 
-782
+978
 00:44:27,952 --> 00:44:28,313
 that's a
 
-783
+979
 00:44:28,507 --> 00:44:29,438
 Dan: set of skills.
 
-784
+980
 00:44:30,202 --> 00:44:33,563
 Abbey: exactly like that's a,
 that's a totally different
 
-785
+981
 00:44:33,563 --> 00:44:37,273
 approach than, and who's like,
 obviously this hiring manager
 
-786
-00:44:37,273 --> 00:44:40,302
-knows everything there is to know
-about developing and I'm this
+982
+00:44:37,273 --> 00:44:38,787
+knows everything there is to
+know about developing and I'm
 
-787
+983
+00:44:38,787 --> 00:44:40,301
+this
+
+984
 00:44:40,333 --> 00:44:43,032
 beginner developer trying to
 convince them that I will also
 
-788
+985
 00:44:43,032 --> 00:44:45,492
 know everything about developing
 and that's not at all what you
 
-789
-00:44:45,492 --> 00:44:50,172
-have to do. If, if I haven't very
-fully explained by process, which
+986
+00:44:45,492 --> 00:44:47,832
+have to do. If, if I haven't
+very fully explained by process,
 
-790
+987
+00:44:47,832 --> 00:44:50,172
+which
+
+988
 00:44:50,172 --> 00:44:54,202
 was one bullet point I apply. I
 don't know. I tell him, I study,
 
-791
+989
 00:44:54,202 --> 00:44:57,862
 I rant a lot. Sometimes I
 summarize the rent. Like the
 
-792
-00:44:57,862 --> 00:45:00,773
+990
+00:44:57,862 --> 00:44:59,317
 most, the most positive feedback
-I got was, wow. You're just, your
+I got was, wow. You're just,
 
-793
-00:45:00,773 --> 00:45:04,132
+991
+00:44:59,317 --> 00:45:00,772
+your
+
+992
+00:45:00,773 --> 00:45:02,452
 enthusiasm is really there. Like
-you've got a passion for learning
+you've got a passion for
 
-794
+993
+00:45:02,452 --> 00:45:04,131
+learning
+
+994
 00:45:04,402 --> 00:45:06,202
 and that's what a lot of people
 want to see in these developer
 
-795
-00:45:06,202 --> 00:45:10,012
-roles. And I was just, I was just
-like, I like coat. Here's a Sheba
+995
+00:45:06,202 --> 00:45:08,107
+roles. And I was just, I was
+just like, I like coat. Here's a
 
-796
+996
+00:45:08,107 --> 00:45:10,012
+Sheba
+
+997
 00:45:10,012 --> 00:45:10,342
 counter.
 
-797
+998
 00:45:12,523 --> 00:45:14,623
 Bekah: I really liked that last
 thing that you were talking
 
-798
-00:45:14,623 --> 00:45:18,072
+999
+00:45:14,623 --> 00:45:16,347
 about, about showing the
-enthusiasm, because I was talking
+enthusiasm, because I was
 
-799
-00:45:18,072 --> 00:45:21,733
+1000
+00:45:16,347 --> 00:45:18,071
+talking
+
+1001
+00:45:18,072 --> 00:45:19,902
 about this with a couple of
-different people recently in how.
+different people recently in
 
-800
+1002
+00:45:19,902 --> 00:45:21,732
+how.
+
+1003
 00:45:22,733 --> 00:45:25,762
 When you're interviewing for a
 position, how your personality
 
-801
-00:45:25,762 --> 00:45:30,503
-comes across, whether or not that
-affects, you know, decisions and
+1004
+00:45:25,762 --> 00:45:28,132
+comes across, whether or not
+that affects, you know,
 
-802
+1005
+00:45:28,132 --> 00:45:30,502
+decisions and
+
+1006
 00:45:30,742 --> 00:45:35,422
 whether or not people with
 stronger personalities kind of,
 
-803
+1007
 00:45:35,452 --> 00:45:40,762
 um, get taken out of the
 interview process just because
 
-804
+1008
 00:45:40,793 --> 00:45:45,112
 there are, um, I don't know that
 people just think of them in a
 
-805
+1009
 00:45:45,112 --> 00:45:47,333
 certain way. Like, well, if
 they're responding in this way
 
-806
-00:45:47,333 --> 00:45:50,753
-or, wow, that was really intense,
-you know, maybe this is not the
+1010
+00:45:47,333 --> 00:45:49,043
+or, wow, that was really
+intense, you know, maybe this is
 
-807
+1011
+00:45:49,043 --> 00:45:50,753
+not the
+
+1012
 00:45:50,753 --> 00:45:54,083
-person that we want to be working
-with when, um, you know,
+person that we want to be
+working with when, um, you know,
 
-808
+1013
 00:45:54,083 --> 00:45:57,623
 realistically you don't get a
 full picture of personality in
 
-809
-00:45:57,623 --> 00:46:04,342
-the interview process, but do you
-think that that can be an issue
+1014
+00:45:57,623 --> 00:46:00,982
+the interview process, but do
+you think that that can be an
 
-810
+1015
+00:46:00,982 --> 00:46:04,341
+issue
+
+1016
 00:46:04,612 --> 00:46:07,612
 when you're interviewing, like
 how you present your personnel?
 
-811
+1017
 00:46:09,338 --> 00:46:11,978
-Abbey: So this, this goes back to
-my point that they're bias
+Abbey: So this, this goes back
+to my point that they're bias
 
-812
+1018
 00:46:11,978 --> 00:46:15,338
 written humans. Like you have to
 find the human on the other side
 
-813
+1019
 00:46:15,338 --> 00:46:19,927
 of the table, but like you can,
 you can jive with, because there
 
-814
+1020
 00:46:19,927 --> 00:46:25,177
 were plenty of, there was I'm
 going to remove all identifiable
 
-815
-00:46:25,838 --> 00:46:30,998
-aspects of this story, but I know
-someone that recently got a job
+1021
+00:46:25,838 --> 00:46:28,418
+aspects of this story, but I
+know someone that recently got a
 
-816
+1022
+00:46:28,418 --> 00:46:30,998
+job
+
+1023
 00:46:31,568 --> 00:46:35,228
 with the company that they got a
 job for, because. And I quote,
 
-817
-00:46:35,318 --> 00:46:38,677
-well, we've hired developers with
-strong accents before, and it's
+1024
+00:46:35,318 --> 00:46:36,997
+well, we've hired developers
+with strong accents before, and
 
-818
+1025
+00:46:36,997 --> 00:46:38,676
+it's
+
+1026
 00:46:38,677 --> 00:46:42,728
 worked out totally fine. And
 genuinely, he's one of the
 
-819
+1027
 00:46:42,728 --> 00:46:46,447
 smartest developers I know, and
 wasn't getting a job longer than
 
-820
+1028
 00:46:46,447 --> 00:46:50,168
 the rest of us because he had a
 very thick accent. And that is a
 
-821
+1029
 00:46:50,168 --> 00:46:53,527
 bias that a lot of interviewers
 have. And I've heard it from,
 
-822
-00:46:53,648 --> 00:46:56,527
+1030
+00:46:53,648 --> 00:46:55,087
 I've heard a different version,
-which is like, this is offensive.
+which is like, this is
 
-823
+1031
+00:46:55,087 --> 00:46:56,526
+offensive.
+
+1032
 00:46:56,527 --> 00:47:01,913
 I apologize. But like, That
 hiring manager was Asian. He's
 
-824
+1033
 00:47:01,943 --> 00:47:04,733
 only going to hire Asian
 candidates. That's why I didn't
 
-825
+1034
 00:47:04,733 --> 00:47:10,342
 get the job. And like, I can't
 speak to the reality of whatever
 
-826
+1035
 00:47:10,342 --> 00:47:14,737
 that is in that industry or
 whatever, but yeah. There every
 
-827
+1036
 00:47:14,737 --> 00:47:16,807
 human that you get on the other
 side of the table with is going
 
-828
+1037
 00:47:16,807 --> 00:47:21,097
 to have some sort of bias. And
 like, like, I hate to phrase it
 
-829
+1038
 00:47:21,097 --> 00:47:25,717
 this way, but like your goal is
 to be as vanilla and inoffensive
 
-830
+1039
 00:47:25,717 --> 00:47:28,148
 as possible. So definitely don't
 go in and like curse out your
 
-831
+1040
 00:47:28,148 --> 00:47:28,538
 interviewers.
 
-832
+1041
 00:47:30,172 --> 00:47:33,233
 Bekah: But you want to be like
 vanilla with a little sprinkles,
 
-833
-00:47:33,233 --> 00:47:38,063
+1042
+00:47:33,233 --> 00:47:35,648
 right. So they can remember you.
-So like how, how much is too much
+So like how, how much is too
 
-834
+1043
+00:47:35,648 --> 00:47:38,063
+much
+
+1044
 00:47:38,063 --> 00:47:38,753
 sprinkles?
 
-835
-00:47:38,992 --> 00:47:41,362
+1045
+00:47:38,992 --> 00:47:40,177
 Abbey: I don't know, cause I
-would take notes and then write a
+would take notes and then write
 
-836
+1046
+00:47:40,177 --> 00:47:41,362
+a
+
+1047
 00:47:41,362 --> 00:47:44,092
 thank you note with interesting
 details from our interview in it
 
-837
-00:47:44,543 --> 00:47:47,512
-and send that to the interviewer.
-So I asked every interviewer, uh,
+1048
+00:47:44,543 --> 00:47:46,027
+and send that to the
+interviewer. So I asked every
 
-838
+1049
+00:47:46,027 --> 00:47:47,511
+interviewer, uh,
+
+1050
 00:47:48,532 --> 00:47:50,902
 how did you get your first tech
 role and got some really fun
 
-839
+1051
 00:47:50,902 --> 00:47:53,813
 answers and would work that into
 my thank you note. So like you
 
-840
+1052
 00:47:53,813 --> 00:47:58,012
 want it's you want to be able to
 show that you are someone who
 
-841
+1053
 00:47:58,012 --> 00:48:00,623
 could come into a corporate
 environment or whatever it is
 
-842
-00:48:00,623 --> 00:48:03,773
+1054
+00:48:00,623 --> 00:48:02,198
 like the standards and tech
-interviews are so much lower than
+interviews are so much lower
 
-843
-00:48:03,773 --> 00:48:07,753
+1055
+00:48:02,198 --> 00:48:03,773
+than
+
+1056
+00:48:03,773 --> 00:48:05,763
 they were in injury engineering.
-I had interviews show up, showing
+I had interviews show up,
 
-844
+1057
+00:48:05,763 --> 00:48:07,753
+showing
+
+1058
 00:48:07,753 --> 00:48:09,943
 up in like a baseball hat and a
 t-shirt and I was like, what is
 
-845
+1059
 00:48:09,943 --> 00:48:14,532
 happening? So like present
 yourself. Well, like get up, get
 
-846
+1060
 00:48:14,532 --> 00:48:17,532
 an interview outfit. It doesn't
 have to be a full blown suit. I
 
-847
+1061
 00:48:17,532 --> 00:48:20,802
 don't think. And for tech
 interviews, but like, you know,
 
-848
+1062
 00:48:20,802 --> 00:48:25,512
 present yourself as you want to
 be presented. It's like, bring
 
-849
+1063
 00:48:25,512 --> 00:48:29,873
 your best self, uh, Again, curse
 out your interviewers. Like I
 
-850
+1064
 00:48:29,873 --> 00:48:35,032
 say, this it's happened and, uh,
 answered the questions to the
 
-851
+1065
 00:48:35,032 --> 00:48:38,302
 best of your ability and really
 show that like you're dedicated
 
-852
+1066
 00:48:38,302 --> 00:48:41,003
 and passionate about doing the
 thing that you're trying to do.
 
-853
+1067
 00:48:41,333 --> 00:48:45,293
 Uh, like if you're trying to
 learn something new, so that
 
-854
-00:48:45,293 --> 00:48:48,773
-you'll be better at ramping up or
-anything like that, like, those
+1068
+00:48:45,293 --> 00:48:47,033
+you'll be better at ramping up
+or anything like that, like,
 
-855
+1069
+00:48:47,033 --> 00:48:48,773
+those
+
+1070
 00:48:48,773 --> 00:48:51,172
 are the things that you want to
 talk about. And then you want to
 
-856
+1071
 00:48:51,532 --> 00:48:55,103
 answer every question, like as
 positively as possible. And then
 
-857
-00:48:55,103 --> 00:48:58,597
+1072
+00:48:55,103 --> 00:48:56,850
 if you're not. You're going to
-have to elaborate a little bit on
+have to elaborate a little bit
 
-858
+1073
+00:48:56,850 --> 00:48:58,597
+on
+
+1074
 00:48:58,748 --> 00:49:01,927
 what you mean by strong
 personality, because like I only
 
-859
+1075
 00:49:01,927 --> 00:49:03,998
 think about engineers yelling at
 each other,
 
-860
+1076
 00:49:05,663 --> 00:49:07,793
 Bekah: I don't even think, you
 know, there, there are people
 
-861
-00:49:07,793 --> 00:49:11,083
-that come into a room. Right. And
-they kind of just, they, they
+1077
+00:49:07,793 --> 00:49:09,438
+that come into a room. Right.
+And they kind of just, they,
 
-862
+1078
+00:49:09,438 --> 00:49:11,083
+they
+
+1079
 00:49:11,092 --> 00:49:17,063
 automatically take over the room
 or I'm trying to think of an
 
-863
+1080
 00:49:17,063 --> 00:49:18,983
 example with out, like
 
-864
+1081
 00:49:19,237 --> 00:49:19,717
 Abbey: like giving
 
-865
+1082
 00:49:19,972 --> 00:49:24,052
 Bekah: using a name of a person.
 Um, but, but something, somebody
 
-866
+1083
 00:49:24,052 --> 00:49:27,952
 that comes in and they're ready
 to talk and they're there. Um,
 
-867
+1084
 00:49:30,762 --> 00:49:31,152
 Abbey: Little T
 
-868
+1085
 00:49:31,222 --> 00:49:32,092
 Bekah: really hard.
 
-869
-00:49:32,652 --> 00:49:34,693
+1086
+00:49:32,652 --> 00:49:33,672
 Abbey: like you Keep going You
-keep going too fast and you like,
+keep going too fast and you
 
-870
+1087
+00:49:33,672 --> 00:49:34,692
+like,
+
+1088
 00:49:34,693 --> 00:49:36,523
 talk over people and it's a lot
 of.
 
-871
-00:49:37,068 --> 00:49:41,447
+1089
+00:49:37,068 --> 00:49:39,257
 Bekah: yeah. Or I don't know,
-Dan, come on. Help me out. I know
+Dan, come on. Help me out. I
 
-872
+1090
+00:49:39,257 --> 00:49:41,446
+know
+
+1091
 00:49:41,447 --> 00:49:41,628
 that
 
-873
-00:49:41,842 --> 00:49:44,543
+1092
+00:49:41,842 --> 00:49:43,192
 Dan: um, I'm wondering, I I'm
-actually not sure what, which way
+actually not sure what, which
 
-874
-00:49:44,543 --> 00:49:47,003
+1093
+00:49:43,192 --> 00:49:44,542
+way
+
+1094
+00:49:44,543 --> 00:49:45,773
 you're going here, but like, are
-you, are you saying, are you like
+you, are you saying, are you
 
-875
+1095
+00:49:45,773 --> 00:49:47,003
+like
+
+1096
 00:49:47,032 --> 00:49:49,472
 worried that, uh, strong
 personalities and negative.
 
-876
-00:49:51,367 --> 00:49:54,637
-Bekah: oh, for sure. Right? Like,
-oh, I'm not sure I can work with
+1097
+00:49:51,367 --> 00:49:53,002
+Bekah: oh, for sure. Right?
+Like, oh, I'm not sure I can
 
-877
+1098
+00:49:53,002 --> 00:49:54,637
+work with
+
+1099
 00:49:54,637 --> 00:49:57,818
 this person because they've got,
 they're really
 
-878
-00:49:57,983 --> 00:50:01,463
+1100
+00:49:57,983 --> 00:49:59,723
 Dan: mean, my advice for this is
-it's hard. It's, it's hard for me
+it's hard. It's, it's hard for
 
-879
-00:50:01,463 --> 00:50:06,833
-to nail this down because I think
-that, um, where you are in your
+1101
+00:49:59,723 --> 00:50:01,463
+me
 
-880
+1102
+00:50:01,463 --> 00:50:04,148
+to nail this down because I
+think that, um, where you are in
+
+1103
+00:50:04,148 --> 00:50:06,833
+your
+
+1104
 00:50:06,952 --> 00:50:11,682
 sort of journey and also like,
 depending on, you know, your,
 
-881
-00:50:11,682 --> 00:50:14,182
-your specific like privileges and
-stuff, like, like we were talking
+1105
+00:50:11,682 --> 00:50:12,932
+your specific like privileges
+and stuff, like, like we were
 
-882
+1106
+00:50:12,932 --> 00:50:14,182
+talking
+
+1107
 00:50:14,182 --> 00:50:16,282
 about before, where like where
 you are in life and what's going
 
-883
+1108
 00:50:16,282 --> 00:50:17,262
 on, um,
 
-884
-00:50:17,302 --> 00:50:19,373
+1109
+00:50:17,302 --> 00:50:18,337
 Abbey: lot of the things that I
-ended up talking about were like,
+ended up talking about were
 
-885
+1110
+00:50:18,337 --> 00:50:19,372
+like,
+
+1111
 00:50:19,373 --> 00:50:21,862
 uh, getting back into the
 workforce after being a
 
-886
+1112
 00:50:21,862 --> 00:50:22,583
 stay-at-home parent,
 
-887
+1113
 00:50:23,282 --> 00:50:27,643
-Dan: right. Yeah, yeah. Yeah. So,
-but my, my point is, um, my
+Dan: right. Yeah, yeah. Yeah.
+So, but my, my point is, um, my
 
-888
-00:50:27,643 --> 00:50:31,123
+1114
+00:50:27,643 --> 00:50:29,383
 advice is usually to present
-yourself how you are, um, because
+yourself how you are, um,
 
-889
+1115
+00:50:29,383 --> 00:50:31,123
+because
+
+1116
 00:50:31,152 --> 00:50:35,233
 if, if they're not going to like
 you like that, um, they're not
 
-890
+1117
 00:50:35,233 --> 00:50:41,112
 going to have a good time. Like
 if you, if you, um, sort of act
 
-891
-00:50:41,143 --> 00:50:45,518
+1118
+00:50:41,143 --> 00:50:43,330
 like a different person and they
-hire you and then. Like you can't
+hire you and then. Like you
 
-892
+1119
+00:50:43,330 --> 00:50:45,517
+can't
+
+1120
 00:50:45,518 --> 00:50:49,898
 just act like that forever. Um,
 that's not to say that. That's
 
-893
+1121
 00:50:49,898 --> 00:50:50,797
 not to say that like,
 
-894
+1122
 00:50:51,103 --> 00:50:51,702
 Bekah: a notch
 
-895
+1123
 00:50:51,878 --> 00:50:56,047
 Dan: Well, well, sure. I mean,
 yes. I mean maybe I guess, I
 
-896
-00:50:56,047 --> 00:51:00,728
+1124
+00:50:56,047 --> 00:50:58,387
 mean, and this is where my point
-is like as a junior developer, it
+is like as a junior developer,
 
-897
-00:51:00,728 --> 00:51:04,717
+1125
+00:50:58,387 --> 00:51:00,727
+it
+
+1126
+00:51:00,728 --> 00:51:02,722
 might be more important to get
-the first job regardless of it. I
+the first job regardless of it.
 
-898
+1127
+00:51:02,722 --> 00:51:04,716
+I
+
+1128
 00:51:04,807 --> 00:51:07,418
 like, and this is where I get
 wishy-washy my on advice. You
 
-899
+1129
 00:51:07,418 --> 00:51:11,527
 know what I mean? Because that
 first job interview is not
 
-900
+1130
 00:51:11,527 --> 00:51:14,438
 interview. I'm sorry, but the
 first job, like the first actual
 
-901
+1131
 00:51:14,768 --> 00:51:18,788
 job is like such a big step and,
 and your second job, like the
 
-902
+1132
 00:51:18,788 --> 00:51:21,637
 interview process. He's probably
 still going to do interviews and
 
-903
+1133
 00:51:21,637 --> 00:51:24,847
 all of that stuff, but I like
 coming from a place of
 
-904
-00:51:24,847 --> 00:51:29,137
-experiences is, uh, I imagine the
-experience is much different.
+1134
+00:51:24,847 --> 00:51:26,992
+experiences is, uh, I imagine
+the experience is much
 
-905
+1135
+00:51:26,992 --> 00:51:29,137
+different.
+
+1136
 00:51:29,137 --> 00:51:33,547
 Right. Um, but like me
 personally, and also I'm just, I
 
-906
+1137
 00:51:33,547 --> 00:51:36,878
 I've been a developer for a long
 time. Uh, you know, so I don't,
 
-907
-00:51:37,177 --> 00:51:43,478
-I'm not really worried. I'm also,
-you know, in a spot where I am
+1138
+00:51:37,177 --> 00:51:40,327
+I'm not really worried. I'm
+also, you know, in a spot where
 
-908
+1139
+00:51:40,327 --> 00:51:43,477
+I am
+
+1140
 00:51:43,478 --> 00:51:46,327
 not desperate for a job or I'm
 not, you know, I don't need one.
 
-909
-00:51:46,327 --> 00:51:49,748
+1141
+00:51:46,327 --> 00:51:48,037
 My, if I lost my job or, you
-know, whatever, for every, all of
+know, whatever, for every, all
 
-910
-00:51:49,748 --> 00:51:53,228
+1142
+00:51:48,037 --> 00:51:49,747
+of
+
+1143
+00:51:49,748 --> 00:51:51,488
 my paying work went away, um, my
-wife also works, you know? And so
+wife also works, you know? And
 
-911
+1144
+00:51:51,488 --> 00:51:53,228
+so
+
+1145
 00:51:53,228 --> 00:51:55,628
 it's so like, I'm like in the
 spot of privilege where I don't
 
-912
+1146
 00:51:55,628 --> 00:52:00,168
 have to, um, I dunno, but like,
 we're, we're, I don't like,
 
-913
-00:52:00,168 --> 00:52:02,717
+1147
+00:52:00,168 --> 00:52:01,442
 there's some things that I know
-specifically that I don't have to
+specifically that I don't have
 
-914
+1148
+00:52:01,442 --> 00:52:02,716
+to
+
+1149
 00:52:02,717 --> 00:52:07,878
 worry about, but I, if I'm
 meeting somebody or doing an
 
-915
+1150
 00:52:07,878 --> 00:52:12,318
 interview, stuff like that, I'm
 probably not going to, uh, maybe
 
-916
-00:52:12,318 --> 00:52:15,858
+1151
+00:52:12,318 --> 00:52:14,088
 I'll, uh, you know, like dull
-some edges a little bit, but, um,
+some edges a little bit, but,
 
-917
+1152
+00:52:14,088 --> 00:52:15,858
+um,
+
+1153
 00:52:15,878 --> 00:52:18,557
 I'm just going to try to be
 myself because that's who I am.
 
-918
+1154
 00:52:18,588 --> 00:52:21,077
 Right. And like, I I've, I'm
 starting a relationship with
 
-919
+1155
 00:52:21,077 --> 00:52:23,717
 somebody. I don't like, I'm not
 gonna, I don't know, fake it,
 
-920
+1156
 00:52:24,018 --> 00:52:24,347
 but.
 
-921
+1157
 00:52:24,552 --> 00:52:27,672
 Abbey: your point, your point.
 And, uh, and first I'm going to
 
-922
+1158
 00:52:27,672 --> 00:52:30,583
 phrase it a little bit, a little
 bit differently. Uh, so it's
 
-923
+1159
 00:52:30,583 --> 00:52:32,742
 like, it's like meeting your
 partner's parents for the first
 
-924
-00:52:32,742 --> 00:52:35,382
-time. Like you want to be on your
-best behavior. You want to look
+1160
+00:52:32,742 --> 00:52:34,062
+time. Like you want to be on
+your best behavior. You want to
 
-925
+1161
+00:52:34,062 --> 00:52:35,382
+look
+
+1162
 00:52:35,382 --> 00:52:37,753
 nice. You don't want to be too
 drastically away from your
 
-926
+1163
 00:52:37,753 --> 00:52:40,632
 regular personality, but you
 still want to be like, you know,
 
-927
+1164
 00:52:41,083 --> 00:52:44,652
 a little more palatable than you
 would be like with your friends
 
-928
+1165
 00:52:44,682 --> 00:52:49,362
 out in the backyard or something
 like that. And then not every
 
-929
+1166
 00:52:49,362 --> 00:52:54,128
 interviewer has to, like you
 like. There is someone out there
 
-930
+1167
 00:52:54,128 --> 00:52:56,887
 that will be like, Yeah. I can
 find a spot for you on my team.
 
-931
+1168
 00:52:57,157 --> 00:52:59,918
 And your chances of, if you have
 a strong personality and you're
 
-932
-00:52:59,918 --> 00:53:03,458
-finding that your interviewing is
-not going especially well because
+1169
+00:52:59,918 --> 00:53:01,688
+finding that your interviewing
+is not going especially well
 
-933
-00:53:03,458 --> 00:53:08,347
+1170
+00:53:01,688 --> 00:53:03,458
+because
+
+1171
+00:53:03,458 --> 00:53:05,902
 of your strong personality, then
-it's time to start networking and
+it's time to start networking
 
-934
+1172
+00:53:05,902 --> 00:53:08,346
+and
+
+1173
 00:53:08,347 --> 00:53:11,617
 find someone that you can get
 like a rapport with and
 
-935
+1174
 00:53:11,617 --> 00:53:14,827
 understands that you're not like
 a hundred percent, this person
 
-936
-00:53:14,827 --> 00:53:18,097
+1175
+00:53:14,827 --> 00:53:16,462
 that you are when you're nervous
-and your interview. And then they
+and your interview. And then
 
-937
-00:53:18,097 --> 00:53:21,068
+1176
+00:53:16,462 --> 00:53:18,097
+they
+
+1177
+00:53:18,097 --> 00:53:19,582
 can start taking you through an
-interview process because like we
+interview process because like
 
-938
+1178
+00:53:19,582 --> 00:53:21,067
+we
+
+1179
 00:53:21,068 --> 00:53:23,318
 see time and time again, through
 networking through Twitter,
 
-939
-00:53:23,318 --> 00:53:26,318
-through whatever. Like if someone
-likes you and they find an
+1180
+00:53:23,318 --> 00:53:24,818
+through whatever. Like if
+someone likes you and they find
 
-940
+1181
+00:53:24,818 --> 00:53:26,318
+an
+
+1182
 00:53:26,318 --> 00:53:29,768
 opening and they have enough say
 in the interview process, so
 
-941
+1183
 00:53:29,768 --> 00:53:32,047
 you're going to get much further
 than you would have if you're
 
-942
+1184
 00:53:32,047 --> 00:53:34,478
 just coming in and no one's
 watching for you and you have
 
-943
+1185
 00:53:34,478 --> 00:53:36,967
 this mysterious, strong
 personality that you wouldn't
 
-944
+1186
 00:53:36,967 --> 00:53:38,228
 want to show to your partner's
 parents.
 
-945
-00:53:38,918 --> 00:53:42,038
+1187
+00:53:38,918 --> 00:53:40,478
 Dan: Yeah. And you mentioned
-something in there about, um, uh,
+something in there about, um,
 
-946
+1188
+00:53:40,478 --> 00:53:42,038
+uh,
+
+1189
 00:53:42,038 --> 00:53:44,768
 you know, being anxious, uh,
 during an interview and that
 
-947
+1190
 00:53:44,768 --> 00:53:47,347
 affecting your personality and,
 and that's sort of something
 
-948
-00:53:47,347 --> 00:53:54,157
+1191
+00:53:47,347 --> 00:53:50,752
 different, right? Like, uh, If
-you have an I do, if you struggle
+you have an I do, if you
 
-949
+1192
+00:53:50,752 --> 00:53:54,157
+struggle
+
+1193
 00:53:54,157 --> 00:53:58,177
 with like anxiety and, um, the
 especially anxiety around
 
-950
+1194
 00:53:58,177 --> 00:54:00,998
 performance and stuff like that,
 then that's something that's a
 
-951
+1195
 00:54:00,998 --> 00:54:03,277
 little different than like your
 true personality, right? That's
 
-952
+1196
 00:54:03,277 --> 00:54:07,927
-like, that's like your anxiety or
-other issues affecting. The
+like, that's like your anxiety
+or other issues affecting. The
 
-953
+1197
 00:54:07,927 --> 00:54:09,637
 actual, like the actual
 presentation of your, to
 
-954
+1198
 00:54:09,637 --> 00:54:12,907
 yourself. Right. Um, and getting
 away and getting in the way of
 
-955
+1199
 00:54:12,907 --> 00:54:16,478
 that even. Um, so if you have a
 habit of when you're anxious
 
-956
+1200
 00:54:16,748 --> 00:54:20,768
 over-talking, or, or, or doing
 things like that, um, that is
 
-957
-00:54:20,768 --> 00:54:24,307
-something to just, I would say to
-practice on, you know, um, and do
+1201
+00:54:20,768 --> 00:54:22,537
+something to just, I would say
+to practice on, you know, um,
 
-958
+1202
+00:54:22,537 --> 00:54:24,306
+and do
+
+1203
 00:54:24,518 --> 00:54:27,668
-like Abby was saying, uh, lots of
-practice, I think helps and
+like Abby was saying, uh, lots
+of practice, I think helps and
 
-959
+1204
 00:54:27,697 --> 00:54:32,467
 probably there's other things to
 help too. I, you know, um, and
 
-960
+1205
 00:54:32,887 --> 00:54:35,498
 Abbey: My interviews would have
 gotten so much worse if I had to
 
-961
+1206
 00:54:35,498 --> 00:54:39,427
 drive to the place at a certain
 time. Oh my God. Like all of my
 
-962
-00:54:39,427 --> 00:54:42,637
+1207
+00:54:39,427 --> 00:54:41,032
 interviews are on zoom. And at
-first I was like, this sucks. And
+first I was like, this sucks.
 
-963
+1208
+00:54:41,032 --> 00:54:42,637
+And
+
+1209
 00:54:42,637 --> 00:54:44,168
 then I was like, wait, this is
 amazing.
 
-964
+1210
 00:54:44,228 --> 00:54:47,617
 Dan: Yeah, no, I, and I love
 that. I was thinking about this
 
-965
+1211
 00:54:47,617 --> 00:54:50,858
 the other day with coming out of
 the pandemic. Um, there are
 
-966
+1212
 00:54:50,858 --> 00:54:56,992
 actually things about zoom that.
 Like, and prefer, um, with
 
-967
-00:54:56,992 --> 00:54:59,452
+1213
+00:54:56,992 --> 00:54:58,222
 regards to anxiety and
-performance issues and stuff like
+performance issues and stuff
 
-968
+1214
+00:54:58,222 --> 00:54:59,452
+like
+
+1215
 00:54:59,452 --> 00:55:02,032
 that. I don't have to, when I'm
 on zoom, I don't have to worry
 
-969
+1216
 00:55:02,032 --> 00:55:04,463
 about what I'm doing with my
 hands or my feet or my body
 
-970
+1217
 00:55:04,523 --> 00:55:09,563
 really, you know? Um, and. Let's
 actually think about this with
 
-971
+1218
 00:55:09,592 --> 00:55:12,682
 masks and now like our daycare,
 you don't have to wear masks
 
-972
+1219
 00:55:12,682 --> 00:55:15,652
 anymore if you were vaccinated.
 And, uh, I was walking around.
 
-973
+1220
 00:55:15,652 --> 00:55:17,393
-I'm like, what, what do I do with
-my face?
+I'm like, what, what do I do
+with my face?
 
-974
+1221
 00:55:17,782 --> 00:55:17,902
 Bekah: Okay.
 
-975
+1222
 00:55:18,472 --> 00:55:24,652
 Dan: You know? But like all that
 is to say, like the, um, it's
 
-976
-00:55:24,652 --> 00:55:28,342
+1223
+00:55:24,652 --> 00:55:26,497
 just my, you know, I, I said be
-your true self, um, before, and I
+your true self, um, before, and
 
-977
+1224
+00:55:26,497 --> 00:55:28,342
+I
+
+1225
 00:55:28,342 --> 00:55:32,197
 was specifically. Not that
 doesn't mean, you know, like
 
-978
-00:55:32,257 --> 00:55:37,387
+1226
+00:55:32,257 --> 00:55:34,822
 there aren't, if your true self
-is like, you lose control of some
+is like, you lose control of
 
-979
+1227
+00:55:34,822 --> 00:55:37,387
+some
+
+1228
 00:55:37,387 --> 00:55:39,668
 things because of anxiety and
 thinking like that's something,
 
-980
-00:55:39,668 --> 00:55:44,168
+1229
+00:55:39,668 --> 00:55:41,918
 you know, that is definitely can
-be worked on and you can practice
+be worked on and you can
 
-981
+1230
+00:55:41,918 --> 00:55:44,168
+practice
+
+1231
 00:55:44,168 --> 00:55:47,407
 it and probably get better. Um,
 have an easier time. Um,
 
-982
+1232
 00:55:48,057 --> 00:55:50,438
 Abbey: And I want to be clear. I
 was a puddle of sweat after
 
-983
-00:55:50,438 --> 00:55:55,922
-pretty much all of my interviews.
-yeah. Uh, like I. Recently,
+1233
+00:55:50,438 --> 00:55:53,180
+pretty much all of my
+interviews. yeah. Uh, like I.
 
-984
+1234
+00:55:53,180 --> 00:55:55,922
+Recently,
+
+1235
 00:55:55,922 --> 00:56:00,782
 remember the desperation, the
 anxiety, the everything being
 
-985
+1236
 00:56:00,782 --> 00:56:03,902
 like my one chance. And I'm
 ruining it again in February. It
 
-986
+1237
 00:56:03,902 --> 00:56:09,063
 was a really dark time for me.
 And, uh, like there were, there
 
-987
-00:56:09,063 --> 00:56:12,802
-were things where like my husband
-would have to. Could you be good
+1238
+00:56:09,063 --> 00:56:10,932
+were things where like my
+husband would have to. Could you
 
-988
+1239
+00:56:10,932 --> 00:56:12,801
+be good
+
+1240
 00:56:12,802 --> 00:56:17,362
 at algorithms? Could you just
 study the algorithms alone?
 
-989
+1241
 00:56:17,387 --> 00:56:17,568
 Bekah: Okay.
 
-990
-00:56:18,742 --> 00:56:20,753
-Abbey: There's so anxiety written
-at this point and he was like,
+1242
+00:56:18,742 --> 00:56:19,747
+Abbey: There's so anxiety
+written at this point and he was
 
-991
-00:56:20,753 --> 00:56:25,103
-could they be less anxiety ridden
-if you practice them? And then I
+1243
+00:56:19,747 --> 00:56:20,752
+like,
 
-992
+1244
+00:56:20,753 --> 00:56:22,928
+could they be less anxiety
+ridden if you practice them? And
+
+1245
+00:56:22,928 --> 00:56:25,103
+then I
+
+1246
 00:56:25,103 --> 00:56:28,012
 was doing 30 days of algorithms
 on Twitter and like, people were
 
-993
-00:56:28,012 --> 00:56:32,393
+1247
+00:56:28,012 --> 00:56:30,202
 interacting with that. And you
-know, you see things all the time
+know, you see things all the
 
-994
+1248
+00:56:30,202 --> 00:56:32,392
+time
+
+1249
 00:56:32,422 --> 00:56:36,503
 that are people like, oh, you're
 still looking for a job. So like
 
-995
+1250
 00:56:36,532 --> 00:56:38,572
 the building in public is also
 the practicing.
 
-996
+1251
 00:56:40,237 --> 00:56:43,867
 Dan: I would also say that. I
 think it's fair, to be honest
 
-997
+1252
 00:56:43,867 --> 00:56:46,027
 with your person you're
 interfering with, if, you know,
 
-998
+1253
 00:56:46,027 --> 00:56:49,297
 especially if you have, um, Well
 really about anything, but, you
 
-999
+1254
 00:56:49,297 --> 00:56:52,748
 know, if you're like, I'm very
 nervous and because of this
 
-1000
+1255
 00:56:52,748 --> 00:56:56,288
 interview and I very much want
 this job. Um, so I apologize
 
-1001
-00:56:56,288 --> 00:56:58,628
-because sometimes I talk too fast
-when I'm nervous or something
+1256
+00:56:56,288 --> 00:56:57,458
+because sometimes I talk too
+fast when I'm nervous or
 
-1002
+1257
+00:56:57,458 --> 00:56:58,628
+something
+
+1258
 00:56:58,628 --> 00:57:02,137
-like that. Um, I think that would
-go a long way to, um, to,
+like that. Um, I think that
+would go a long way to, um, to,
 
-1003
-00:57:02,248 --> 00:57:06,068
+1259
+00:57:02,248 --> 00:57:04,158
 Abbey: Yeah. I've been like, can
-you give me a second to formulate
+you give me a second to
 
-1004
-00:57:06,068 --> 00:57:10,958
+1260
+00:57:04,158 --> 00:57:06,068
+formulate
+
+1261
+00:57:06,068 --> 00:57:08,513
 my answers so that it's slightly
-less panicky and Franti. And they
+less panicky and Franti. And
 
-1005
-00:57:10,958 --> 00:57:14,188
-were like, oh Yeah. please. Like,
-and, uh, when I was honest about
+1262
+00:57:08,513 --> 00:57:10,958
+they
 
-1006
+1263
+00:57:10,958 --> 00:57:12,573
+were like, oh Yeah. please.
+Like, and, uh, when I was honest
+
+1264
+00:57:12,573 --> 00:57:14,188
+about
+
+1265
 00:57:14,197 --> 00:57:17,407
 like, Oh, I like, I can't take
 this role cause I'll just be
 
-1007
+1266
 00:57:17,407 --> 00:57:20,047
 wanting to move on immediately.
 Thank you for your honesty. I
 
-1008
+1267
 00:57:20,047 --> 00:57:23,257
 really appreciate that. Let me
 see if I have anyone that has a
 
-1009
-00:57:23,257 --> 00:57:25,777
-developer role for you like that.
-That's the kind of feedback you
+1268
+00:57:23,257 --> 00:57:24,517
+developer role for you like
+that. That's the kind of
 
-1010
-00:57:25,777 --> 00:57:29,768
+1269
+00:57:24,517 --> 00:57:25,777
+feedback you
+
+1270
+00:57:25,777 --> 00:57:27,772
 get from being honest and open
-about all this kind of stuff. And
+about all this kind of stuff.
 
-1011
-00:57:29,768 --> 00:57:33,307
+1271
+00:57:27,772 --> 00:57:29,767
+And
+
+1272
+00:57:29,768 --> 00:57:31,537
 if you do that and I'm proven
-wrong, please give me their names
+wrong, please give me their
 
-1012
+1273
+00:57:31,537 --> 00:57:33,306
+names
+
+1274
 00:57:33,307 --> 00:57:35,068
-so I can yell at them personally.
-Like
+so I can yell at them
+personally. Like
 
-1013
+1275
 00:57:37,322 --> 00:57:37,413
 Bekah: Okay.
 
-1014
+1276
 00:57:39,297 --> 00:57:41,967
 Abbey: you can find a, my handle
 is sorry. Go ahead.
 
-1015
+1277
 00:57:42,327 --> 00:57:44,378
 Bekah: as you say, it's been
 great to have you here. You
 
-1016
-00:57:44,677 --> 00:57:49,088
-talked about so many great things
-and there are so many great tips
+1278
+00:57:44,677 --> 00:57:46,882
+talked about so many great
+things and there are so many
 
-1017
+1279
+00:57:46,882 --> 00:57:49,087
+great tips
+
+1280
 00:57:49,088 --> 00:57:52,898
 here. It's like trying to
 highlight as we went along. All
 
-1018
+1281
 00:57:52,898 --> 00:57:56,677
 of the things that I could say
 were great about this episode,
 
-1019
-00:57:56,677 --> 00:57:59,858
+1282
+00:57:56,677 --> 00:57:58,267
 but there, then I just quit.
-Cause like there were too many of
+Cause like there were too many
 
-1020
+1283
+00:57:58,267 --> 00:57:59,857
+of
+
+1284
 00:57:59,858 --> 00:58:02,617
 them. So thank you so much for
 being here. It's been great
 
-1021
+1285
 00:58:02,617 --> 00:58:03,538
 hearing you talk through this.
 
-1022
-00:58:04,518 --> 00:58:07,038
+1286
+00:58:04,518 --> 00:58:05,778
 Abbey: Of course, I'm like the
-one thing that I really wanted to
+one thing that I really wanted
 
-1023
+1287
+00:58:05,778 --> 00:58:07,038
+to
+
+1288
 00:58:07,038 --> 00:58:09,827
 highlight is I got into this
 because I was good at making
 
-1024
+1289
 00:58:09,827 --> 00:58:14,027
 things pretty. Like if you are
 the person that's like, I don't
 
-1025
-00:58:14,027 --> 00:58:19,222
+1290
+00:58:14,027 --> 00:58:16,624
 know, like if I'm cut out for
-this. or whatever, See, just try,
+this. or whatever, See, just
 
-1026
-00:58:19,282 --> 00:58:26,152
+1291
+00:58:16,624 --> 00:58:19,221
+try,
+
+1292
+00:58:19,282 --> 00:58:22,717
 like, uh, I did not expect to
-have a popular blog or be a great
+have a popular blog or be a
 
-1027
+1293
+00:58:22,717 --> 00:58:26,152
+great
+
+1294
 00:58:26,152 --> 00:58:29,722
 full-stack, uh, person, but
 that's how it happened. And it's
 
-1028
+1295
 00:58:29,722 --> 00:58:32,092
 just because I was like, well, I
 know about pictures and colors
 
-1029
+1296
 00:58:32,123 --> 00:58:36,833
 and let's do this. So thank you
 guys for having me.
 
-1030
+1297
 00:58:38,112 --> 00:58:38,893
 Bekah: Thanks Abby.
 
-1031
+1298
 00:58:38,947 --> 00:58:39,487
 Dan: Thanks Abby.
 
-1032
+1299
 00:58:41,083 --> 00:58:41,532
 Bekah: Bye.
 
-1033
+1300
 00:58:41,643 --> 00:58:43,713
 Abbey: Bye bye.
 
-1034
+1301
 00:58:44,347 --> 00:58:49,208
 Dan: and there's the awkward by
 part. Okay. Bye.
 
-1035
+1302
 00:58:49,672 --> 00:58:49,762
 Abbey: Okay.
 
-1036
+1303
 00:58:52,201 --> 00:58:54,510
-Bekah: Thank you for listening to
-this episode of the Virtual
+Bekah: Thank you for listening
+to this episode of the Virtual
 
-1037
+1304
 00:58:54,510 --> 00:58:59,791
 Coffee Podcast. This episode was
 produced by Dan Ott and Bekah
 
-1038
+1305
 00:58:59,791 --> 00:59:04,090
 Hawrot Weigel and edited by Dan
 Ott. If you have questions or
 
-1039
+1306
 00:59:04,090 --> 00:59:08,340
 comments, you can hit us up on
 Twitter at VirtualCoffeeIO, or
 
-1040
-00:59:08,340 --> 00:59:12,971
+1307
+00:59:08,340 --> 00:59:10,655
 you can email us at
-podcast@virtualcoffee.io. You can
+podcast@virtualcoffee.io. You
 
-1041
-00:59:12,971 --> 00:59:15,911
-find the show notes, plus you can
-sign up for our newsletter to
+1308
+00:59:10,655 --> 00:59:12,970
+can
 
-1042
+1309
+00:59:12,971 --> 00:59:14,441
+find the show notes, plus you
+can sign up for our newsletter
+
+1310
+00:59:14,441 --> 00:59:15,911
+to
+
+1311
 00:59:15,911 --> 00:59:19,731
 find out what Virtual Coffee's
 been up to on our website at
 
-1043
+1312
 00:59:19,731 --> 00:59:21,331
 virtualcoffee.io.
 
-1044
-00:59:22,045 --> 00:59:24,775
+1313
+00:59:22,045 --> 00:59:23,410
 Dan: Please subscribe to our
-podcast and be sure to leave us a
+podcast and be sure to leave us
 
-1045
+1314
+00:59:23,410 --> 00:59:24,775
+a
+
+1315
 00:59:24,775 --> 00:59:27,956
-review. Thanks for listening. And
-we'll see you next week.
+review. Thanks for listening.
+And we'll see you next week.
