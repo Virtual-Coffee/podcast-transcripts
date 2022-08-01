@@ -24,10 +24,12 @@ function srtTimeStampFromMs(ms) {
 
 function checkFile(file) {
   console.log(`checking ${file}`);
+
   const output = [];
   var array = fs
     .readFileSync(`${__dirname}/episodes/${file}`)
     .toString()
+    .trim()
     .split(/\r?\n\r?\n/);
 
   let addedLines = 0;
