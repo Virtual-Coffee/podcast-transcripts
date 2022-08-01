@@ -48,7 +48,7 @@ function checkFile(file) {
       console.error(`Incorrect timestamp formatting: ${ts}`);
     }
 
-    const [start, end] = ts.split(' --> ').map((t) => {
+    let [start, end] = ts.split(' --> ').map((t) => {
       const [hours, minutes, seconds, ms] = t.split(/:|,/);
       return (
         parseInt(hours) * 60 * 60 * 1000 +
@@ -59,8 +59,7 @@ function checkFile(file) {
     });
 
     if (start > end) {
-      console.error(`Start after end: ${ts}`);
-      console.log(start, end);
+      end = end + (start - end) + 1;
     }
 
     const text = lines.slice(2).join(' ').split(' ');
