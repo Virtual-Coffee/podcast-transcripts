@@ -1,0 +1,4820 @@
+1
+00:00:15,260 --> 00:00:18,540
+Bekah: Hello, and welcome to
+season one, episode three of
+
+2
+00:00:18,545 --> 00:00:20,340
+the virtual coffee podcast.
+
+3
+00:00:20,760 --> 00:00:24,210
+I am Bekah and this is a podcast
+that features members of the
+
+4
+00:00:24,210 --> 00:00:25,290
+virtual coffee community.
+
+5
+00:00:26,130 --> 00:00:28,860
+Virtual coffee is an intimate
+group of developers at all
+
+6
+00:00:28,860 --> 00:00:30,540
+stages of their coding journey.
+
+7
+00:00:30,540 --> 00:00:33,420
+And they're here on this
+podcast, sharing their stories
+
+8
+00:00:33,540 --> 00:00:34,440
+and what they've learned.
+
+9
+00:00:35,190 --> 00:00:38,370
+And we are here to share it with
+you here with me.
+
+10
+00:00:38,370 --> 00:00:40,500
+Today is my co-host Dan.
+
+11
+00:00:42,644 --> 00:00:45,224
+Dan: In this episode, Tori
+Crawford joins us to talk
+
+12
+00:00:45,224 --> 00:00:47,324
+about her journey through the
+interview process that
+
+13
+00:00:47,324 --> 00:00:52,214
+included about 53 interviews,
+430 applications in a pandemic
+
+14
+00:00:52,214 --> 00:00:55,035
+offer that ultimately led to her
+being ghosted by the company.
+
+15
+00:00:55,485 --> 00:00:58,334
+She gives her tips and tricks,
+including recognizing that
+
+16
+00:00:58,339 --> 00:01:01,664
+interviews are a two-way street
+and her hope for industry.
+
+17
+00:01:02,450 --> 00:01:04,130
+Bekah: We start every episode of
+the podcast.
+
+18
+00:01:04,130 --> 00:01:05,990
+Like we start every virtual
+coffee.
+
+19
+00:01:06,020 --> 00:01:08,180
+We introduce ourselves with our
+name, where we're
+
+20
+00:01:08,180 --> 00:01:11,750
+from, what we do and a random
+check-in question.
+
+21
+00:01:12,149 --> 00:01:15,119
+Today's question is what is one
+interesting
+
+22
+00:01:15,119 --> 00:01:16,919
+thing about yourself?
+
+23
+00:01:17,369 --> 00:01:18,720
+We hope you enjoy this episode.
+
+24
+00:01:33,890 --> 00:01:35,180
+Hey, I'm Bekah.
+
+25
+00:01:35,210 --> 00:01:38,270
+I am from a small town in Ohio.
+
+26
+00:01:38,270 --> 00:01:39,830
+I'm a front end developer.
+
+27
+00:01:40,220 --> 00:01:46,040
+And one interesting thing about
+me is that my first pet was
+
+28
+00:01:46,040 --> 00:01:49,700
+a hamster and I named it star
+scraper to the highest moon.
+
+29
+00:01:51,270 --> 00:01:52,140
+Dan: Star scraper.
+
+30
+00:01:53,339 --> 00:01:54,990
+Hi, I'm Dan.
+
+31
+00:01:54,990 --> 00:01:57,869
+I am a front end developer from
+Cleveland, Ohio, and
+
+32
+00:01:57,875 --> 00:02:00,780
+an interesting fact about me is
+that I play disc golf.
+
+33
+00:02:00,960 --> 00:02:04,470
+Tori: Hi, I'm Tori I'm from San
+Jose, California.
+
+34
+00:02:04,470 --> 00:02:08,850
+I am currently a back end
+engineer specializing
+
+35
+00:02:08,850 --> 00:02:13,769
+in Ruby on rails and interesting
+a fact about me.
+
+36
+00:02:15,480 --> 00:02:20,370
+Would have to be that I
+hopefully plan to retire
+
+37
+00:02:20,370 --> 00:02:21,870
+in Ireland, someday.
+
+38
+00:02:22,200 --> 00:02:24,270
+So on site.
+
+39
+00:02:25,030 --> 00:02:25,320
+nice.
+
+40
+00:02:25,830 --> 00:02:26,640
+Very, very cool.
+
+41
+00:02:27,435 --> 00:02:27,725
+Bekah: Yeah.
+
+42
+00:02:27,730 --> 00:02:29,895
+Um, thanks for being here with
+us, Tori.
+
+43
+00:02:29,895 --> 00:02:32,985
+We are very, very excited to be
+talking to today.
+
+44
+00:02:33,315 --> 00:02:34,815
+A little background about Tori.
+
+45
+00:02:34,875 --> 00:02:37,545
+She is a software engineer, a
+blogger, and
+
+46
+00:02:37,545 --> 00:02:39,015
+a mental health advocate.
+
+47
+00:02:39,315 --> 00:02:42,645
+She graduated from the flat iron
+school software engineering
+
+48
+00:02:42,650 --> 00:02:45,105
+program in February of 2019.
+
+49
+00:02:46,135 --> 00:02:50,425
+After 14 months and over 15
+interviews landed her first
+
+50
+00:02:50,425 --> 00:02:54,535
+role as a backend engineer in
+June of 2020 since landing her
+
+51
+00:02:54,535 --> 00:02:58,345
+first role, she's gotten married
+and is now an expecting mother
+
+52
+00:02:58,345 --> 00:03:01,885
+with the aspiration of becoming
+a site reliability engineer.
+
+53
+00:03:02,365 --> 00:03:06,895
+Also like to, um, say that Tori
+is a Steelers fan and she knows
+
+54
+00:03:06,895 --> 00:03:08,635
+the value of square pizza.
+
+55
+00:03:08,635 --> 00:03:09,385
+And that's very,
+
+56
+00:03:09,715 --> 00:03:10,905
+Tori: very important to me.
+
+57
+00:03:11,670 --> 00:03:12,510
+Very important.
+
+58
+00:03:13,230 --> 00:03:17,040
+Ohio valley pizza is the best
+pizza  that's right.
+
+59
+00:03:17,160 --> 00:03:17,700
+I,
+
+60
+00:03:18,060 --> 00:03:19,740
+Bekah: um, very much had some
+this weekend.
+
+61
+00:03:19,740 --> 00:03:22,620
+So if you have not had that,
+Google it, you are missing out.
+
+62
+00:03:22,625 --> 00:03:24,600
+And I am sorry for everyone who
+does not
+
+63
+00:03:24,600 --> 00:03:25,590
+live in the Ohio valley.
+
+64
+00:03:27,750 --> 00:03:28,410
+Tori: Um,
+
+65
+00:03:29,100 --> 00:03:31,380
+Bekah: all right, Dan, you're
+missing out.
+
+66
+00:03:31,380 --> 00:03:32,552
+It's mm-hmm  it's.
+
+67
+00:03:34,739 --> 00:03:39,839
+Uh, so Tori, I just love to get
+started with origin stories
+
+68
+00:03:39,839 --> 00:03:43,049
+and I know our paths have
+overlapped in a lot of ways.
+
+69
+00:03:43,049 --> 00:03:46,769
+We both went to flat iron, Ohio
+valley connections,
+
+70
+00:03:46,769 --> 00:03:51,299
+Steelers fans, um, software
+engineers, moms.
+
+71
+00:03:51,540 --> 00:03:54,570
+Um, but I wanna get more details
+about your story.
+
+72
+00:03:54,570 --> 00:03:56,760
+So can you tell us how you got
+
+73
+00:03:56,760 --> 00:03:57,929
+Tori: into software engineering?
+
+74
+00:03:58,829 --> 00:03:59,399
+Yeah.
+
+75
+00:03:59,399 --> 00:04:03,120
+So, um, We'll go back a little
+bit further.
+
+76
+00:04:03,120 --> 00:04:04,590
+I guess I am a career changer.
+
+77
+00:04:04,650 --> 00:04:08,880
+Um, I did go to flat iron
+school, um, as a bootcamp
+
+78
+00:04:08,880 --> 00:04:12,180
+and, uh, previously I was an
+athletic trainer.
+
+79
+00:04:12,270 --> 00:04:15,210
+Um, I went to school for five
+years.
+
+80
+00:04:15,215 --> 00:04:18,060
+I got two bachelor's degrees and
+a master's degree.
+
+81
+00:04:18,150 --> 00:04:19,720
+Um, and.
+
+82
+00:04:21,285 --> 00:04:23,955
+Yeah, I worked for an east coast
+hockey league team called the
+
+83
+00:04:23,955 --> 00:04:26,595
+Wichita thunder for a season.
+
+84
+00:04:26,625 --> 00:04:28,485
+And it was a lot of fun.
+
+85
+00:04:28,965 --> 00:04:32,475
+Um, but I was working like a
+hundred hours a week and
+
+86
+00:04:32,480 --> 00:04:36,165
+it was an insane schedule to
+keep traveling constantly.
+
+87
+00:04:36,165 --> 00:04:39,015
+I kind of learned that that
+isn't really what I
+
+88
+00:04:39,015 --> 00:04:43,470
+wanted and, um, Yeah, it was
+like a hard wake up call.
+
+89
+00:04:43,530 --> 00:04:47,160
+And I had to like reevaluate
+things and discovered that I
+
+90
+00:04:47,160 --> 00:04:49,380
+didn't really have the same
+passion for athletic training.
+
+91
+00:04:49,380 --> 00:04:53,760
+If it wasn't sitting on the
+bench on beside ice, watching
+
+92
+00:04:53,765 --> 00:04:56,400
+hockey players dodging pucks
+sticks, you know?
+
+93
+00:04:56,760 --> 00:05:00,150
+Um, so yeah, I.
+
+94
+00:05:01,005 --> 00:05:03,315
+Reevaluated, everything kind of
+decided what I
+
+95
+00:05:03,315 --> 00:05:04,875
+wanted to move into next.
+
+96
+00:05:04,875 --> 00:05:10,815
+My now husband is a data
+engineer and he suggested,
+
+97
+00:05:10,820 --> 00:05:13,485
+because he knew how creative I
+liked being possibly looking
+
+98
+00:05:13,485 --> 00:05:14,685
+into front end engineering.
+
+99
+00:05:14,690 --> 00:05:18,015
+And I learned HTML and CSS
+started to learn.
+
+100
+00:05:18,015 --> 00:05:21,575
+JavaScript felt like I couldn't
+wrap my head around it at all.
+
+101
+00:05:21,960 --> 00:05:25,469
+So , I tried to look for some
+structure, which landed
+
+102
+00:05:25,469 --> 00:05:27,390
+me at flat iron school.
+
+103
+00:05:27,419 --> 00:05:31,060
+And, um, it was there that I
+fell in love with Ruby and.
+
+104
+00:05:31,920 --> 00:05:37,140
+Decided to completely pivot to
+back end and yeah, it just  fell
+
+105
+00:05:37,140 --> 00:05:42,750
+right into that, that fun spiral
+of then not really liking front
+
+106
+00:05:42,750 --> 00:05:45,870
+end and despising JavaScript.
+
+107
+00:05:45,960 --> 00:05:48,480
+Um, but you know, it's okay.
+
+108
+00:05:48,480 --> 00:05:49,050
+Got through it.
+
+109
+00:05:50,159 --> 00:05:53,670
+And I still, to this day, work
+with our front front
+
+110
+00:05:53,670 --> 00:05:56,640
+end engineers at my company to
+like, keep those skills.
+
+111
+00:05:57,275 --> 00:06:00,275
+Kind of like brushed up on
+because I struggled
+
+112
+00:06:00,275 --> 00:06:01,114
+learning them so much.
+
+113
+00:06:01,114 --> 00:06:02,104
+I'm not gonna lose them.
+
+114
+00:06:02,554 --> 00:06:04,234
+So , yeah.
+
+115
+00:06:05,405 --> 00:06:05,825
+Bekah: I love that.
+
+116
+00:06:05,825 --> 00:06:08,135
+That's just a really great
+attitude to have.
+
+117
+00:06:08,164 --> 00:06:10,984
+Um, I also love that you are a
+collector of degrees.
+
+118
+00:06:12,094 --> 00:06:12,275
+Tori: yep.
+
+119
+00:06:14,160 --> 00:06:15,390
+Um, lots of school
+
+120
+00:06:16,680 --> 00:06:20,100
+Bekah: and also you've been
+coming to virtual coffee since
+
+121
+00:06:20,340 --> 00:06:21,390
+almost the very beginning.
+
+122
+00:06:21,395 --> 00:06:24,240
+I think the first tweet that I
+sent out in the beginning
+
+123
+00:06:24,270 --> 00:06:29,190
+of April, um, you responded to,
+and I don't think maybe
+
+124
+00:06:29,195 --> 00:06:32,220
+you made that one, but you made
+the second one and
+
+125
+00:06:32,250 --> 00:06:33,270
+you've been here for a while.
+
+126
+00:06:33,270 --> 00:06:36,600
+So I'd love to know a little bit
+more about like how you
+
+127
+00:06:36,600 --> 00:06:38,100
+came to find virtual coffee.
+
+128
+00:06:38,580 --> 00:06:39,300
+Tori: Yeah.
+
+129
+00:06:39,650 --> 00:06:42,615
+Um, Obviously like through
+bootcamp, you and I
+
+130
+00:06:42,615 --> 00:06:44,775
+had communicated a few times and
+I was already
+
+131
+00:06:44,775 --> 00:06:45,555
+following you on Twitter.
+
+132
+00:06:45,555 --> 00:06:51,195
+And, um, I feel like with the
+pandemic and everything,
+
+133
+00:06:51,255 --> 00:06:54,045
+obviously the need for community
+was there.
+
+134
+00:06:54,045 --> 00:06:57,015
+And before the pandemic, I
+really tried to go out
+
+135
+00:06:57,015 --> 00:06:58,425
+and do a lot of meetups.
+
+136
+00:06:58,430 --> 00:07:01,365
+And like I was driving an hour
+up to San Francisco to do a
+
+137
+00:07:01,365 --> 00:07:04,395
+few different meetups up there,
+like a month, like once a month.
+
+138
+00:07:04,400 --> 00:07:08,805
+And, um, when the pandemic hit,
+I kind of lost that.
+
+139
+00:07:09,075 --> 00:07:12,540
+Um, And when you mentioned doing
+the virtual coffee
+
+140
+00:07:12,540 --> 00:07:13,980
+stuff, I was like, oh my.
+
+141
+00:07:14,670 --> 00:07:15,690
+This sounds amazing.
+
+142
+00:07:16,110 --> 00:07:20,070
+Um, I was super excited and then
+of course I, I was in California
+
+143
+00:07:20,070 --> 00:07:22,620
+and you're on the east coast and
+you're like, yeah, it's gonna
+
+144
+00:07:22,620 --> 00:07:24,690
+be at 9 AM Eastern time.
+
+145
+00:07:24,690 --> 00:07:26,730
+And I was like, I am not waking
+up at 6 AM.
+
+146
+00:07:28,140 --> 00:07:31,470
+so I was really happy that the
+next time you move, like
+
+147
+00:07:31,470 --> 00:07:34,710
+the Thursday, I think it was a
+Thursday meeting the next time.
+
+148
+00:07:34,770 --> 00:07:36,520
+Um, Was at noon.
+
+149
+00:07:36,520 --> 00:07:38,470
+And I was like, oh, that's
+totally doable.
+
+150
+00:07:38,530 --> 00:07:41,860
+Um, so I started going to those,
+but yeah, it was just
+
+151
+00:07:42,130 --> 00:07:44,620
+that need for community.
+
+152
+00:07:44,620 --> 00:07:51,610
+And also like, while I enjoyed
+going to in person, um, events,
+
+153
+00:07:51,820 --> 00:07:54,700
+it did suck having to drive all
+the way up to San Francisco.
+
+154
+00:07:54,700 --> 00:07:56,020
+Whenever I wanted to do one.
+
+155
+00:07:56,050 --> 00:08:00,400
+Um, while there were some in the
+south bay, they just
+
+156
+00:08:01,660 --> 00:08:03,770
+were more along the lines of.
+
+157
+00:08:04,905 --> 00:08:08,145
+Super educational, like
+technical interviewing, um,
+
+158
+00:08:08,175 --> 00:08:12,795
+prep, which like I went to
+those, but the fun ones,  where
+
+159
+00:08:12,795 --> 00:08:14,955
+they would do like karaoke and
+like really like have
+
+160
+00:08:14,955 --> 00:08:18,375
+like happy hour type things were
+up in San Francisco.
+
+161
+00:08:18,375 --> 00:08:21,075
+And I enjoyed those felt a
+little bit more lax for me.
+
+162
+00:08:21,555 --> 00:08:26,280
+Um, So definitely it was nice to
+be like, okay,
+
+163
+00:08:26,280 --> 00:08:28,770
+well this, I won't have to drive
+an hour to get to.
+
+164
+00:08:28,770 --> 00:08:31,260
+And then an hour back at like
+nine o'clock at night
+
+165
+00:08:31,320 --> 00:08:36,690
+and  so yeah, it was, it was a
+good, a good little
+
+166
+00:08:36,690 --> 00:08:38,220
+like, yeah, I wanna do this.
+
+167
+00:08:38,220 --> 00:08:40,050
+It's gonna be great doing
+something virtual.
+
+168
+00:08:40,470 --> 00:08:44,190
+Um, and then, you know, pandemic
+is still going
+
+169
+00:08:44,280 --> 00:08:47,520
+months later and we can't do
+anything in person yet.
+
+170
+00:08:47,520 --> 00:08:50,970
+So this has become the new
+normal and yeah.
+
+171
+00:08:52,355 --> 00:08:55,815
+It's great to have found my
+community that I really like,
+
+172
+00:08:55,815 --> 00:08:59,805
+and I feel very accepted in, so,
+and I can be myself.
+
+173
+00:09:00,105 --> 00:09:00,525
+It's amazing.
+
+174
+00:09:01,380 --> 00:09:01,670
+Yeah.
+
+175
+00:09:02,760 --> 00:09:03,000
+Bekah: Yeah.
+
+176
+00:09:03,000 --> 00:09:06,690
+It's been great having you here
+and, you know, I so much
+
+177
+00:09:06,690 --> 00:09:10,320
+admire your vulnerability and
+how much you've been able
+
+178
+00:09:10,320 --> 00:09:13,530
+to share with the community,
+because, you know, just to have
+
+179
+00:09:13,530 --> 00:09:18,840
+that, like closeness allows for
+such a stronger, a stronger
+
+180
+00:09:18,840 --> 00:09:21,660
+community, when you can talk
+about things like that, the
+
+181
+00:09:21,660 --> 00:09:22,890
+challenges that you're facing.
+
+182
+00:09:22,890 --> 00:09:23,880
+So it's been
+
+183
+00:09:23,880 --> 00:09:24,840
+Tori: great having you here.
+
+184
+00:09:25,680 --> 00:09:26,280
+Yeah.
+
+185
+00:09:26,340 --> 00:09:27,240
+It's been really nice.
+
+186
+00:09:27,240 --> 00:09:29,260
+Being able to be open and
+vulnerable with a.
+
+187
+00:09:30,135 --> 00:09:31,185
+100%.
+
+188
+00:09:31,215 --> 00:09:37,215
+Like, I really feel like I can
+come to the group with a lot of
+
+189
+00:09:37,215 --> 00:09:41,385
+different problems that I face
+and someone's gonna be there to
+
+190
+00:09:41,955 --> 00:09:45,525
+tell me that it's gonna be okay
+or like help give me advice.
+
+191
+00:09:46,155 --> 00:09:50,595
+Um, so it's, or just like say
+that they relate and
+
+192
+00:09:50,655 --> 00:09:56,385
+like we can discuss our feelings
+together and I.
+
+193
+00:09:58,200 --> 00:10:00,000
+So unique and I really love it.
+
+194
+00:10:01,950 --> 00:10:02,370
+Bekah: Yeah.
+
+195
+00:10:02,370 --> 00:10:05,850
+I, I also love that very much
+about the community.
+
+196
+00:10:05,850 --> 00:10:09,840
+And I think that, you know,
+being able to share these
+
+197
+00:10:09,840 --> 00:10:13,680
+things also, you know, you don't
+feel alone in circumstances
+
+198
+00:10:13,685 --> 00:10:14,970
+where you might feel alone.
+
+199
+00:10:15,030 --> 00:10:15,800
+Um, mm-hmm
+
+200
+00:10:16,100 --> 00:10:16,520
+Tori: that's
+
+201
+00:10:19,560 --> 00:10:20,190
+so
+
+202
+00:10:20,750 --> 00:10:20,970
+Bekah: you.
+
+203
+00:10:21,974 --> 00:10:25,155
+Are maybe a prolific interviewer
+
+204
+00:10:27,765 --> 00:10:28,185
+Tori: um,
+
+205
+00:10:28,515 --> 00:10:32,055
+Bekah: I think probably not by
+choice and I just am
+
+206
+00:10:32,055 --> 00:10:35,385
+was like, remember being so
+surprised at all the stuff
+
+207
+00:10:35,385 --> 00:10:38,535
+that you had to go through as
+you were interviewing.
+
+208
+00:10:38,535 --> 00:10:41,234
+So can you just talk through
+that journey a little bit?
+
+209
+00:10:41,555 --> 00:10:41,844
+Tori: Yeah.
+
+210
+00:10:42,824 --> 00:10:43,454
+yeah.
+
+211
+00:10:43,545 --> 00:10:47,324
+Um,  interviewing was.
+
+212
+00:10:47,865 --> 00:10:49,245
+Crazy for me.
+
+213
+00:10:49,335 --> 00:10:53,865
+Um, when I first graduated from
+flat iron school, I
+
+214
+00:10:53,865 --> 00:11:01,635
+took about a month and a half
+off from when I graduated to
+
+215
+00:11:01,635 --> 00:11:02,895
+when I started my job search.
+
+216
+00:11:02,955 --> 00:11:05,475
+Um, so I started my job search.
+
+217
+00:11:06,584 --> 00:11:09,345
+Late March or early April of
+2019.
+
+218
+00:11:09,405 --> 00:11:13,515
+Um, and it went until June of
+2020.
+
+219
+00:11:13,574 --> 00:11:18,855
+And, uh, I think I went through,
+I have a blog post
+
+220
+00:11:18,855 --> 00:11:22,964
+on all of my stats and I think I
+went through 53 interviews.
+
+221
+00:11:23,084 --> 00:11:25,515
+Um, it was crazy.
+
+222
+00:11:25,515 --> 00:11:28,245
+I was talking to my husband last
+night and he was like, you know,
+
+223
+00:11:28,245 --> 00:11:31,995
+like most people go through
+like, 10 in their lifetime or
+
+224
+00:11:31,995 --> 00:11:34,574
+they like go through like a
+handful in their lifetime and
+
+225
+00:11:34,574 --> 00:11:39,015
+you went through so many and I'm
+like, yeah, it was like
+
+226
+00:11:39,765 --> 00:11:42,854
+quite a struggle at times.
+
+227
+00:11:42,885 --> 00:11:47,295
+Um, I was getting through a lot
+of first round interviews
+
+228
+00:11:47,505 --> 00:11:48,615
+getting through a lot of them.
+
+229
+00:11:48,704 --> 00:11:50,104
+Um, I don't.
+
+230
+00:11:50,685 --> 00:11:52,635
+Think that I have a real issue.
+
+231
+00:11:52,635 --> 00:11:55,275
+Personality wise that like has
+red flags that like
+
+232
+00:11:55,275 --> 00:11:57,825
+recruiters are like, Nope, we're
+not letting them go past.
+
+233
+00:11:58,405 --> 00:12:00,944
+Um, so like that's nice.
+
+234
+00:12:01,035 --> 00:12:03,735
+Um, I got really good at doing
+those interviews,
+
+235
+00:12:04,335 --> 00:12:07,694
+but technical interviews were
+the tough part for me.
+
+236
+00:12:08,025 --> 00:12:17,295
+Um, definitely just like nerve
+wracking at the beginning.
+
+237
+00:12:17,295 --> 00:12:18,045
+I.
+
+238
+00:12:19,470 --> 00:12:21,870
+At some points, like, honestly,
+like I cried
+
+239
+00:12:21,870 --> 00:12:24,060
+before the interview, I was
+like, so stressed out and
+
+240
+00:12:24,060 --> 00:12:26,520
+nervous and just like, felt so
+down on myself, like, I'm
+
+241
+00:12:26,520 --> 00:12:27,600
+not gonna be good at this.
+
+242
+00:12:27,600 --> 00:12:31,170
+Like, this is like, it's so much
+pressure to like
+
+243
+00:12:31,290 --> 00:12:33,030
+one have a time limit.
+
+244
+00:12:33,180 --> 00:12:37,500
+Two have like one to who knows
+how many other people sitting
+
+245
+00:12:37,500 --> 00:12:39,209
+there, like watching you code?
+
+246
+00:12:39,750 --> 00:12:42,209
+Um, I was still.
+
+247
+00:12:43,530 --> 00:12:48,360
+Not confident in speaking out
+loud while coding, like I
+
+248
+00:12:48,360 --> 00:12:52,770
+could do it, but I still like to
+this day, I still feel like
+
+249
+00:12:52,770 --> 00:12:56,310
+I'm not the most technical
+speaker when I'm talking, when
+
+250
+00:12:56,315 --> 00:12:57,180
+I'm going through my code.
+
+251
+00:12:57,180 --> 00:12:58,980
+Like, I feel like I don't say.
+
+252
+00:12:59,515 --> 00:13:01,915
+Technically right thing all the
+time.
+
+253
+00:13:01,974 --> 00:13:04,944
+Um, and a few of my coworkers
+always ensure me now.
+
+254
+00:13:04,944 --> 00:13:08,334
+They're like, no, this is gonna
+come with months of experience.
+
+255
+00:13:08,334 --> 00:13:10,165
+Like, you're gonna get the hang
+of it eventually.
+
+256
+00:13:10,194 --> 00:13:12,234
+Um, this isn't something that
+you have to know right now, but
+
+257
+00:13:12,239 --> 00:13:15,025
+like, you feel that pressure
+when you're in interview.
+
+258
+00:13:15,744 --> 00:13:20,755
+Um, so those, those were where I
+was failing at first.
+
+259
+00:13:21,744 --> 00:13:24,025
+I like would not make it past
+technical interviews.
+
+260
+00:13:24,925 --> 00:13:30,270
+Um, Eventually, I like really
+worked on one.
+
+261
+00:13:30,360 --> 00:13:34,110
+I was getting so many technical
+interviews that I was getting a
+
+262
+00:13:34,110 --> 00:13:35,610
+little less nervous about them.
+
+263
+00:13:35,670 --> 00:13:37,410
+I was feeling more comfortable
+in myself.
+
+264
+00:13:37,410 --> 00:13:39,360
+I was feeling more comfortable
+speaking out loud.
+
+265
+00:13:39,870 --> 00:13:48,765
+I was just like getting used to
+the process and, um, Things
+
+266
+00:13:48,765 --> 00:13:49,785
+got a little bit easier.
+
+267
+00:13:49,785 --> 00:13:53,535
+I felt more lax and you know, it
+was, I was getting
+
+268
+00:13:53,535 --> 00:13:57,314
+past them a little bit more and
+eventually I started
+
+269
+00:13:57,319 --> 00:14:01,275
+making it to final rounds and,
+you know, got ghosted a
+
+270
+00:14:01,280 --> 00:14:07,545
+few times and , you know, it
+happened way more often than
+
+271
+00:14:07,545 --> 00:14:08,895
+I would have expected it to.
+
+272
+00:14:09,495 --> 00:14:13,724
+I got ghosted by a company who
+offered me a job.
+
+273
+00:14:13,775 --> 00:14:15,155
+Mm-hmm  so.
+
+274
+00:14:16,605 --> 00:14:17,475
+That was fun.
+
+275
+00:14:20,235 --> 00:14:26,535
+it was a crazy process going
+through, um, it
+
+276
+00:14:26,535 --> 00:14:27,555
+was a rollercoaster ride.
+
+277
+00:14:27,975 --> 00:14:28,245
+Yeah.
+
+278
+00:14:28,245 --> 00:14:32,955
+And I'm I'm, it was all worth it
+in the end.
+
+279
+00:14:32,960 --> 00:14:34,095
+I love where I work now.
+
+280
+00:14:34,125 --> 00:14:35,325
+I love the people I work with.
+
+281
+00:14:35,805 --> 00:14:41,625
+So, you know, everything I went
+through was completely worth
+
+282
+00:14:41,625 --> 00:14:43,065
+what I'm getting to do now.
+
+283
+00:14:44,325 --> 00:14:48,195
+Dan: Did you find yourself like
+having to, um, with
+
+284
+00:14:48,195 --> 00:14:49,095
+the technical interviews?
+
+285
+00:14:49,095 --> 00:14:51,765
+I mean, having all that practice
+makes sense that you would be
+
+286
+00:14:51,770 --> 00:14:55,695
+more comfortable near the end of
+the process, but, um, as
+
+287
+00:14:55,695 --> 00:15:00,075
+far as like, actually learn,
+like trying to, I don't get
+
+288
+00:15:00,075 --> 00:15:01,785
+better at the technical part or
+anything, like, did you
+
+289
+00:15:01,785 --> 00:15:04,695
+find yourself like trying to
+study or, or do more things
+
+290
+00:15:04,695 --> 00:15:06,735
+or learn more things when you
+were in that, you know, stage.
+
+291
+00:15:07,710 --> 00:15:10,530
+Tori: Yeah, I definitely did.
+
+292
+00:15:10,620 --> 00:15:15,540
+Um, I actually started taking, I
+realized that the questions
+
+293
+00:15:15,545 --> 00:15:19,710
+that were really getting me
+stumped and whatnot was like,
+
+294
+00:15:19,715 --> 00:15:22,440
+I would be able to write out the
+solution, but it
+
+295
+00:15:22,440 --> 00:15:24,420
+wouldn't be super efficient.
+
+296
+00:15:24,560 --> 00:15:28,080
+And like, I would be asked the
+question, like, how
+
+297
+00:15:28,080 --> 00:15:30,210
+would you make this better?
+
+298
+00:15:30,360 --> 00:15:33,330
+Like, how would you decrease
+the, the time
+
+299
+00:15:33,330 --> 00:15:34,710
+that it takes to complete.
+
+300
+00:15:35,635 --> 00:15:37,135
+This algorithm or whatever.
+
+301
+00:15:37,135 --> 00:15:40,944
+And, um, I, I wasn't able to
+answer it.
+
+302
+00:15:41,155 --> 00:15:43,795
+Like I like big O time
+complexity.
+
+303
+00:15:44,334 --> 00:15:47,454
+Like I, I had no idea.
+
+304
+00:15:47,454 --> 00:15:48,775
+I wasn't taught that in
+bootcamp.
+
+305
+00:15:48,805 --> 00:15:51,025
+Um, I didn't do a good job at
+going out and
+
+306
+00:15:51,025 --> 00:15:53,785
+trying to teach myself it either
+at the beginning.
+
+307
+00:15:54,324 --> 00:15:57,855
+Um, I realized that that, that
+was kind of my weakness.
+
+308
+00:15:57,855 --> 00:15:59,415
+It was happening over and over
+again.
+
+309
+00:15:59,415 --> 00:16:01,245
+And, you know, eventually you
+have to look at yourself
+
+310
+00:16:01,250 --> 00:16:03,105
+and be like, okay, well, you
+need to learn this.
+
+311
+00:16:03,195 --> 00:16:05,715
+You keep ask, getting asked
+these types of questions.
+
+312
+00:16:06,285 --> 00:16:09,465
+Um, you're not going, gonna get
+past these types of
+
+313
+00:16:09,915 --> 00:16:11,595
+interviews if you don't learn.
+
+314
+00:16:11,685 --> 00:16:13,365
+Um, so I.
+
+315
+00:16:14,954 --> 00:16:17,594
+Um, bought a U Demi course.
+
+316
+00:16:17,594 --> 00:16:18,765
+I don't know if that's how you
+say it.
+
+317
+00:16:18,765 --> 00:16:24,194
+U Demi, you D me . I bought a
+course on data
+
+318
+00:16:24,194 --> 00:16:25,905
+structures and algorithms.
+
+319
+00:16:26,055 --> 00:16:29,115
+Um, it was like mastering the
+coding interview
+
+320
+00:16:29,895 --> 00:16:31,625
+and I went through.
+
+321
+00:16:33,075 --> 00:16:36,825
+The whole data structures,
+section and big O section.
+
+322
+00:16:36,825 --> 00:16:41,415
+And I learned so much and I was
+like, oh my gosh, this
+
+323
+00:16:41,420 --> 00:16:43,455
+all makes so much more sense.
+
+324
+00:16:43,485 --> 00:16:47,475
+Like, this is why I should be
+writing my code this way.
+
+325
+00:16:47,775 --> 00:16:49,305
+It's so much more efficient.
+
+326
+00:16:49,395 --> 00:16:54,345
+And like, oh, if I like assign
+in a ver a variable here,
+
+327
+00:16:54,345 --> 00:16:56,145
+like that takes up more space.
+
+328
+00:16:56,685 --> 00:16:59,205
+And I  like I had no.
+
+329
+00:16:59,850 --> 00:17:02,189
+Idea of any of those things.
+
+330
+00:17:02,970 --> 00:17:04,589
+When I first started
+interviewing and I went
+
+331
+00:17:04,589 --> 00:17:07,020
+through this course and like, I
+really felt like things
+
+332
+00:17:07,020 --> 00:17:08,160
+were starting to click for me.
+
+333
+00:17:08,700 --> 00:17:11,670
+And I started to get a lot
+better at interviewing
+
+334
+00:17:11,670 --> 00:17:13,500
+being able to answer questions,
+feeling a lot
+
+335
+00:17:13,500 --> 00:17:14,639
+more comfortable speaking.
+
+336
+00:17:15,089 --> 00:17:19,800
+And, um, it was just, I don't
+know, it was like
+
+337
+00:17:20,349 --> 00:17:22,379
+a whole different like
+confidence booster that I
+
+338
+00:17:22,379 --> 00:17:24,270
+was like, this is great.
+
+339
+00:17:24,599 --> 00:17:27,450
+Um, I just.
+
+340
+00:17:28,455 --> 00:17:30,825
+I don't know, I feel like I kind
+of like blossomed and took off
+
+341
+00:17:30,825 --> 00:17:33,585
+at that point that I was able to
+like, learn those small things.
+
+342
+00:17:34,005 --> 00:17:37,425
+And I was starting to get past
+those interviews and
+
+343
+00:17:37,425 --> 00:17:40,935
+I was like, okay, this was
+totally worth the money
+
+344
+00:17:40,935 --> 00:17:42,135
+that I paid for this course.
+
+345
+00:17:42,135 --> 00:17:45,075
+And I've like really starting to
+see progress.
+
+346
+00:17:45,165 --> 00:17:46,645
+Um, and.
+
+347
+00:17:47,925 --> 00:17:50,805
+I finally got an offer and then
+the pandemic hit.
+
+348
+00:17:50,805 --> 00:17:53,175
+And then I got ghosted by the
+company that offered me
+
+349
+00:17:53,205 --> 00:17:59,235
+the job and , um, and like a
+little bit of a confidence,
+
+350
+00:18:00,105 --> 00:18:02,925
+ER, at that point, cause it was
+like interviews basically
+
+351
+00:18:02,925 --> 00:18:04,515
+stopped for a month or two.
+
+352
+00:18:04,520 --> 00:18:07,935
+And I was like, man, I just hit
+my stride.
+
+353
+00:18:08,295 --> 00:18:08,355
+Yeah.
+
+354
+00:18:08,685 --> 00:18:11,385
+I, I had just hit my stride and
+like really felt like
+
+355
+00:18:11,835 --> 00:18:13,215
+things were going well.
+
+356
+00:18:13,665 --> 00:18:17,105
+Um, And kind of got halted, but
+then things started
+
+357
+00:18:17,105 --> 00:18:19,895
+picking back up again, started
+interviewing what the company
+
+358
+00:18:19,895 --> 00:18:20,915
+that I'm working with now.
+
+359
+00:18:20,915 --> 00:18:23,945
+And it was . It was great.
+
+360
+00:18:23,945 --> 00:18:27,245
+And you know, the company that I
+work for now, didn't give me
+
+361
+00:18:27,245 --> 00:18:29,135
+some crazy technical interview.
+
+362
+00:18:29,135 --> 00:18:31,235
+Like a lot of other companies
+did.
+
+363
+00:18:31,685 --> 00:18:34,805
+Um, I got to walk through an old
+project that I created
+
+364
+00:18:34,805 --> 00:18:35,825
+for a different company.
+
+365
+00:18:36,245 --> 00:18:39,635
+Uh  when I interviewed through
+them, something that I was proud
+
+366
+00:18:39,635 --> 00:18:41,254
+of, but I didn't make it past.
+
+367
+00:18:41,455 --> 00:18:43,015
+That interview process.
+
+368
+00:18:43,135 --> 00:18:46,105
+Um, but I was proud of the
+project that I built.
+
+369
+00:18:46,405 --> 00:18:50,395
+I got to walk through it with,
+um, my director
+
+370
+00:18:50,395 --> 00:18:51,475
+of engineering now.
+
+371
+00:18:51,475 --> 00:18:56,545
+And, uh, , it was, it was a
+great thing of like him
+
+372
+00:18:56,545 --> 00:18:58,435
+just like asking me a bunch of
+questions, why I built
+
+373
+00:18:58,435 --> 00:18:59,485
+it the way that I did.
+
+374
+00:18:59,485 --> 00:19:02,785
+And, um, the thought process
+that went into.
+
+375
+00:19:04,155 --> 00:19:09,345
+Like why I chose to use
+technology XYZ and like all
+
+376
+00:19:09,345 --> 00:19:14,325
+of these, like more thoughtful
+technical questions, um, that
+
+377
+00:19:14,325 --> 00:19:18,645
+weren't like solve this crazy
+algorithm because you're
+
+378
+00:19:18,645 --> 00:19:19,814
+totally gonna use this and
+
+379
+00:19:19,814 --> 00:19:20,534
+Dan: work.
+
+380
+00:19:20,540 --> 00:19:20,754
+Right.
+
+381
+00:19:21,915 --> 00:19:23,745
+Was he, wasn't just trying to
+stump you or whatever.
+
+382
+00:19:24,615 --> 00:19:24,885
+Tori: Yeah.
+
+383
+00:19:26,655 --> 00:19:28,455
+Bekah: I also think that's a
+really good indication of
+
+384
+00:19:28,460 --> 00:19:29,985
+the type of workplace too.
+
+385
+00:19:30,780 --> 00:19:34,530
+Um, you just covered so much
+stuff, uh, that I
+
+386
+00:19:34,530 --> 00:19:37,500
+wanna talk about, but I wanna
+back up for a second.
+
+387
+00:19:38,189 --> 00:19:42,210
+Um, so I was talking to some
+people this weekend and one
+
+388
+00:19:42,210 --> 00:19:47,129
+of the things I said is, um,
+when you hear somebody
+
+389
+00:19:47,135 --> 00:19:48,699
+say no so many times.
+
+390
+00:19:50,460 --> 00:19:53,430
+There's I think so many times
+you can hear it before you
+
+391
+00:19:53,430 --> 00:19:54,420
+start to believe it yourself.
+
+392
+00:19:54,420 --> 00:19:54,750
+Right.
+
+393
+00:19:55,140 --> 00:19:58,140
+And I think that we see that
+happening with a lot of
+
+394
+00:19:58,140 --> 00:20:00,090
+people who are interviewing for
+jobs and getting
+
+395
+00:20:00,090 --> 00:20:01,800
+those repeat rejections.
+
+396
+00:20:01,800 --> 00:20:05,670
+And I'm, I am curious like how
+you dealt with
+
+397
+00:20:05,670 --> 00:20:07,350
+that because that's a lot.
+
+398
+00:20:07,355 --> 00:20:10,740
+And I think, you know, that just
+says a lot about
+
+399
+00:20:10,740 --> 00:20:13,200
+you, that you were able to keep
+working through
+
+400
+00:20:13,200 --> 00:20:15,300
+that, but how were you able
+
+401
+00:20:15,300 --> 00:20:15,840
+Tori: to keep working?
+
+402
+00:20:17,220 --> 00:20:18,090
+Yeah.
+
+403
+00:20:18,090 --> 00:20:19,950
+It's oh man, it's crazy.
+
+404
+00:20:20,340 --> 00:20:26,460
+Um, it it's tough.
+
+405
+00:20:26,850 --> 00:20:30,840
+I honestly, at the beginning I
+had a really hard time with it.
+
+406
+00:20:31,050 --> 00:20:35,610
+Um, I think one lesson that I
+had to learn through
+
+407
+00:20:35,640 --> 00:20:38,760
+the process of getting rejected
+so many times was.
+
+408
+00:20:39,810 --> 00:20:41,160
+It's not personal.
+
+409
+00:20:42,000 --> 00:20:44,970
+Um, as much as it's like, yeah,
+they're rejecting you.
+
+410
+00:20:44,970 --> 00:20:45,900
+They're denying you.
+
+411
+00:20:46,230 --> 00:20:48,120
+Um, you're not a good fit.
+
+412
+00:20:48,180 --> 00:20:49,260
+It's like, okay.
+
+413
+00:20:49,260 --> 00:20:53,760
+But you may not be the best fit
+right now for that company
+
+414
+00:20:54,270 --> 00:20:56,610
+that doesn't always necessarily
+mean that you won't always be
+
+415
+00:20:56,615 --> 00:20:57,620
+a good fit for that company.
+
+416
+00:20:58,350 --> 00:21:02,670
+Um, your skills may not be where
+they need to
+
+417
+00:21:02,670 --> 00:21:06,690
+be at that point for the role
+that you applied to.
+
+418
+00:21:08,220 --> 00:21:09,690
+That's that's okay.
+
+419
+00:21:09,990 --> 00:21:15,030
+It's it's not, it's not
+personal.
+
+420
+00:21:15,030 --> 00:21:17,610
+It's, they're looking for
+specific things.
+
+421
+00:21:17,610 --> 00:21:21,570
+You're not really meeting those
+criteria and that's, it's okay.
+
+422
+00:21:21,570 --> 00:21:24,750
+You're not gonna meet the needs
+of every company.
+
+423
+00:21:24,755 --> 00:21:29,130
+You're not gonna, I hate using
+this cultural fit thing, but
+
+424
+00:21:29,130 --> 00:21:31,560
+like, you're not gonna fit the
+culture of every company.
+
+425
+00:21:31,560 --> 00:21:32,880
+You're not it.
+
+426
+00:21:36,000 --> 00:21:37,980
+You just, you can't take it
+personally.
+
+427
+00:21:38,010 --> 00:21:40,830
+Like you really have to detach
+and it.
+
+428
+00:21:42,000 --> 00:21:46,710
+At first, like, I, I cried a lot
+at the rejections.
+
+429
+00:21:46,740 --> 00:21:48,480
+Um,  I struggle.
+
+430
+00:21:48,480 --> 00:21:49,950
+I mean, I'm, I'm open about
+this.
+
+431
+00:21:49,950 --> 00:21:51,210
+I, I struggle with depression.
+
+432
+00:21:51,240 --> 00:21:52,230
+I struggle with anxiety.
+
+433
+00:21:52,230 --> 00:21:55,740
+This is like, that was something
+that like, I ended up going to
+
+434
+00:21:55,745 --> 00:21:58,680
+therapy, like at the beginning
+of my job search because I was
+
+435
+00:21:58,680 --> 00:22:01,920
+having a hard time handling the
+rejection thing and it was like
+
+436
+00:22:01,920 --> 00:22:03,240
+really making my depression bad.
+
+437
+00:22:03,240 --> 00:22:06,690
+And, you know, you just, you
+have to learn to,
+
+438
+00:22:08,190 --> 00:22:10,620
+to kind of detach from it,
+realize that it's.
+
+439
+00:22:11,955 --> 00:22:12,675
+Personal attack.
+
+440
+00:22:12,675 --> 00:22:19,545
+It's not anything really
+against, against you and you
+
+441
+00:22:19,545 --> 00:22:23,865
+kind of just, you, you have to
+like take a moment and reflect
+
+442
+00:22:23,865 --> 00:22:31,005
+and be like, okay, well, why
+could they have rejected me?
+
+443
+00:22:31,005 --> 00:22:34,425
+And, and like, in a way of like
+being detached, like
+
+444
+00:22:34,425 --> 00:22:37,965
+think, okay, was I missing some
+certain skills that they
+
+445
+00:22:37,995 --> 00:22:39,675
+were definitely asking for?
+
+446
+00:22:39,735 --> 00:22:45,660
+Um,  and that kind of gives you
+a moment to like, reflect and
+
+447
+00:22:45,660 --> 00:22:52,680
+be like, okay, well, I didn't
+have skill X, Y, Z, or sometimes
+
+448
+00:22:52,680 --> 00:22:56,130
+like, I even had to like think
+through the interview that I
+
+449
+00:22:56,130 --> 00:23:00,750
+had with the person and be like,
+okay, was there something, was
+
+450
+00:23:00,750 --> 00:23:03,390
+there something that I wouldn't
+have liked about the company?
+
+451
+00:23:03,390 --> 00:23:06,750
+Did they ask me weird questions
+that like, I, that would like
+
+452
+00:23:07,110 --> 00:23:08,850
+raise a little flag in my head.
+
+453
+00:23:10,230 --> 00:23:11,040
+At that point too.
+
+454
+00:23:11,040 --> 00:23:12,510
+Like, I definitely had a lot of
+those.
+
+455
+00:23:12,510 --> 00:23:15,780
+I pulled out of interview
+processes with companies because
+
+456
+00:23:15,780 --> 00:23:17,370
+like I was feeling red flags.
+
+457
+00:23:17,880 --> 00:23:21,600
+Um, and you have to realize that
+the interview
+
+458
+00:23:21,600 --> 00:23:23,070
+process goes both ways.
+
+459
+00:23:23,520 --> 00:23:27,030
+And in that it's like a company
+might not be a good fit for you.
+
+460
+00:23:27,330 --> 00:23:28,920
+You might not be a good fit for
+a company.
+
+461
+00:23:29,280 --> 00:23:30,300
+And like, it's okay.
+
+462
+00:23:30,330 --> 00:23:31,530
+It's nothing against that
+company.
+
+463
+00:23:31,530 --> 00:23:32,250
+It's nothing against.
+
+464
+00:23:33,030 --> 00:23:37,350
+You just like, you kind of have
+to see it from an outside
+
+465
+00:23:37,350 --> 00:23:40,740
+point of view and try not to get
+down on yourself about it.
+
+466
+00:23:40,740 --> 00:23:44,280
+I think it was really tough for
+me to get that into
+
+467
+00:23:44,280 --> 00:23:45,750
+my head for a long time.
+
+468
+00:23:47,745 --> 00:23:50,895
+But it made things a lot better
+when I was able to detach
+
+469
+00:23:50,895 --> 00:23:53,325
+from it a little bit more
+personally and not feel like it
+
+470
+00:23:53,325 --> 00:23:55,004
+was an attack against myself.
+
+471
+00:23:55,725 --> 00:23:57,044
+Um, yeah,
+
+472
+00:23:57,675 --> 00:23:59,294
+Bekah: I think again, like
+you're just dropping
+
+473
+00:23:59,300 --> 00:24:01,095
+every gem out there.
+
+474
+00:24:01,455 --> 00:24:05,274
+Um, I love that you are talking
+about.
+
+475
+00:24:06,195 --> 00:24:07,785
+Pulling out of interviews.
+
+476
+00:24:07,875 --> 00:24:09,855
+I think it can be so hard,
+especially when you're
+
+477
+00:24:09,855 --> 00:24:12,525
+looking for a role and you're
+looking for one so long.
+
+478
+00:24:12,615 --> 00:24:15,255
+And then to think like, man,
+there are a lot
+
+479
+00:24:15,255 --> 00:24:16,545
+of red flags here.
+
+480
+00:24:16,545 --> 00:24:21,345
+What should I, that has to be a
+difficult decision to make.
+
+481
+00:24:21,405 --> 00:24:24,855
+And then, you know, also this
+idea, you are also
+
+482
+00:24:24,855 --> 00:24:26,685
+interviewing them as well.
+
+483
+00:24:26,685 --> 00:24:29,625
+I think that, you know, that is
+something that needs
+
+484
+00:24:29,625 --> 00:24:31,785
+to be really emphasizes.
+
+485
+00:24:31,785 --> 00:24:33,315
+People are going into
+interviews.
+
+486
+00:24:34,290 --> 00:24:39,570
+I know I've done a really bad
+job of like using my gut to
+
+487
+00:24:39,600 --> 00:24:42,630
+check whether or not like, okay,
+this feels really awful.
+
+488
+00:24:42,870 --> 00:24:46,830
+And she's making me feel really
+bad right now, but I, I probably
+
+489
+00:24:46,830 --> 00:24:48,330
+should keep trying anyway.
+
+490
+00:24:48,330 --> 00:24:48,690
+Right.
+
+491
+00:24:48,690 --> 00:24:49,140
+You know?
+
+492
+00:24:49,145 --> 00:24:53,220
+And so, yeah, I think those are
+skills that, that
+
+493
+00:24:53,460 --> 00:24:55,110
+those are skills, right?
+
+494
+00:24:55,110 --> 00:24:56,490
+Those are things that you
+develop and that you
+
+495
+00:24:56,760 --> 00:24:57,000
+Tori: build.
+
+496
+00:24:58,530 --> 00:25:01,919
+And you definitely like build
+them the more you go
+
+497
+00:25:01,919 --> 00:25:03,510
+through the interview process.
+
+498
+00:25:03,510 --> 00:25:06,270
+And that was something that
+like, once I started
+
+499
+00:25:06,270 --> 00:25:08,669
+having interviews, that made me
+feel really good.
+
+500
+00:25:09,629 --> 00:25:12,600
+I started to realize how many
+interviews I had had
+
+501
+00:25:12,629 --> 00:25:14,370
+that made me feel really bad.
+
+502
+00:25:15,360 --> 00:25:21,120
+um, and like made those terrible
+interviews and like a lot of
+
+503
+00:25:21,120 --> 00:25:23,850
+those red flags that like, I
+hadn't really recognized
+
+504
+00:25:23,850 --> 00:25:25,979
+as red flags in the past.
+
+505
+00:25:27,240 --> 00:25:30,570
+As I started having like
+interviews with companies who
+
+506
+00:25:30,570 --> 00:25:33,330
+like genuinely cared about who
+they were, like the person
+
+507
+00:25:33,330 --> 00:25:36,780
+that they were interviewing for,
+like interviewing, um,
+
+508
+00:25:37,020 --> 00:25:41,040
+it wasn't like there are some
+companies that you are just on
+
+509
+00:25:41,340 --> 00:25:47,010
+a line and they're just like
+bringing you through the process
+
+510
+00:25:47,010 --> 00:25:48,210
+and you're just a number.
+
+511
+00:25:48,660 --> 00:25:51,420
+Um, but then there are also
+interviews who care.
+
+512
+00:25:53,115 --> 00:25:55,475
+The candidate and their time,
+there are, there
+
+513
+00:25:55,475 --> 00:25:58,875
+are companies that will pay you
+for trial periods.
+
+514
+00:25:58,875 --> 00:26:00,825
+When I had that happen, I got
+paid for a week of
+
+515
+00:26:00,830 --> 00:26:03,495
+work because the company wanted
+to trial me and, you
+
+516
+00:26:03,495 --> 00:26:04,875
+know, it was, it was great.
+
+517
+00:26:04,965 --> 00:26:07,515
+It was very like breathtaking.
+
+518
+00:26:07,515 --> 00:26:09,945
+It was like, oh my gosh, this
+actually does happen.
+
+519
+00:26:10,395 --> 00:26:15,765
+Um, so, um, yeah, so there
+there're obviously companies.
+
+520
+00:26:16,860 --> 00:26:21,270
+Care about their candidates, um,
+and treat them correctly.
+
+521
+00:26:21,270 --> 00:26:24,720
+There are some companies that
+treat you like you're
+
+522
+00:26:24,720 --> 00:26:26,070
+just another number.
+
+523
+00:26:26,070 --> 00:26:30,840
+And I think that one thing that
+you really have to remember
+
+524
+00:26:30,840 --> 00:26:33,630
+when you're going through the
+interview process is like
+
+525
+00:26:33,635 --> 00:26:36,470
+I said before, and like you just
+said, Bekah is that.
+
+526
+00:26:37,035 --> 00:26:39,615
+The interview process is a two
+way street.
+
+527
+00:26:39,855 --> 00:26:42,645
+Like you are also interviewing
+the company as
+
+528
+00:26:42,645 --> 00:26:43,785
+they are interviewing you.
+
+529
+00:26:44,325 --> 00:26:48,915
+Um, that is one thing that I
+like really, really like drove
+
+530
+00:26:48,915 --> 00:26:51,285
+myself home with all the time.
+
+531
+00:26:51,285 --> 00:26:53,685
+I like prepared questions before
+every interview.
+
+532
+00:26:54,225 --> 00:26:56,775
+I was like, I am going to ask
+them all of the questions
+
+533
+00:26:56,775 --> 00:26:59,205
+that I need to know to know if I
+want to work at
+
+534
+00:26:59,205 --> 00:27:01,245
+this place because yeah.
+
+535
+00:27:01,245 --> 00:27:03,405
+I wanted a job really bad, but
+like, I wasn't
+
+536
+00:27:03,405 --> 00:27:04,755
+gonna put myself in a bad.
+
+537
+00:27:05,240 --> 00:27:08,990
+Work environment just because I
+wanted a job really bad.
+
+538
+00:27:08,990 --> 00:27:16,129
+Like, I, I know that like, it's,
+it's such a, a hard
+
+539
+00:27:16,129 --> 00:27:18,480
+thing, but I, I put myself in.
+
+540
+00:27:19,544 --> 00:27:23,264
+A work environment where I was
+sexually harassed in the past.
+
+541
+00:27:23,294 --> 00:27:27,344
+And that is something that like
+I would ask about diversity.
+
+542
+00:27:27,344 --> 00:27:30,014
+I would ask about like questions
+of how they go
+
+543
+00:27:30,014 --> 00:27:32,445
+about dealing with things like
+that in the workspace.
+
+544
+00:27:32,445 --> 00:27:35,024
+And those are tough questions to
+ask during interviews.
+
+545
+00:27:35,030 --> 00:27:37,935
+But like, if it's something
+that's important to you,
+
+546
+00:27:38,024 --> 00:27:39,405
+like you need to ask them.
+
+547
+00:27:39,405 --> 00:27:42,314
+And if the company like towers
+down, when you ask
+
+548
+00:27:42,314 --> 00:27:44,745
+them those questions, it's not
+somewhere that you wanna work.
+
+549
+00:27:45,314 --> 00:27:47,195
+Um, so like it.
+
+550
+00:27:47,655 --> 00:27:50,235
+It's something that like, you
+have to interview
+
+551
+00:27:50,235 --> 00:27:51,225
+the company too.
+
+552
+00:27:51,735 --> 00:27:55,995
+And, um, at my current job, like
+I, I am interviewing
+
+553
+00:27:55,995 --> 00:28:00,875
+people  to work, to work with us
+and, um, I am.
+
+554
+00:28:01,949 --> 00:28:04,800
+I I'm always thrown when
+candidates don't prepare
+
+555
+00:28:04,800 --> 00:28:08,340
+questions  and they're like,
+yeah, I don't have
+
+556
+00:28:08,340 --> 00:28:09,120
+any questions for you.
+
+557
+00:28:09,120 --> 00:28:11,760
+And I'm like, I literally left
+like 15 minutes for you to
+
+558
+00:28:11,760 --> 00:28:12,959
+like, drill me with questions.
+
+559
+00:28:12,959 --> 00:28:13,860
+I'm ready for them.
+
+560
+00:28:13,865 --> 00:28:14,850
+Like give 'em to me.
+
+561
+00:28:14,879 --> 00:28:18,510
+Like you should also be
+interviewing us.
+
+562
+00:28:18,510 --> 00:28:19,980
+Like, this is very important.
+
+563
+00:28:20,189 --> 00:28:22,110
+Like, you should know that you
+wanna work here.
+
+564
+00:28:22,679 --> 00:28:24,870
+Um, and.
+
+565
+00:28:25,425 --> 00:28:28,965
+Yeah, I think, I think it's so
+important that like, you know,
+
+566
+00:28:28,965 --> 00:28:31,905
+the questions that you wanna ask
+a company, you, you have to
+
+567
+00:28:31,905 --> 00:28:35,265
+know yourself and know what you
+want out of a work environment.
+
+568
+00:28:35,325 --> 00:28:36,975
+And I think that's really
+important in
+
+569
+00:28:36,975 --> 00:28:38,145
+the job search process.
+
+570
+00:28:39,885 --> 00:28:43,965
+Dan: You, um, you mentioned how
+this process kind of a
+
+571
+00:28:43,965 --> 00:28:45,165
+skill that you build up, right?
+
+572
+00:28:45,165 --> 00:28:49,095
+The, the, like the way to be an
+interviewer interviewee.
+
+573
+00:28:49,455 --> 00:28:52,875
+Um, I was wondering if that sort
+of skill changed the way that.
+
+574
+00:28:53,625 --> 00:28:56,175
+Search for jobs or like apply,
+you know, like change, which,
+
+575
+00:28:56,205 --> 00:28:58,155
+which companies you would apply
+or which positions you would
+
+576
+00:28:58,155 --> 00:28:59,475
+apply for things like that.
+
+577
+00:28:59,475 --> 00:29:04,125
+As you sort of went through the
+process, um, you know,
+
+578
+00:29:04,155 --> 00:29:06,645
+if you could talk about like how
+you try to find different
+
+579
+00:29:06,645 --> 00:29:09,195
+positions to apply for, um, or
+if that changed, you know,
+
+580
+00:29:09,225 --> 00:29:10,215
+from the start to the end.
+
+581
+00:29:10,875 --> 00:29:11,175
+Tori: Yeah.
+
+582
+00:29:11,175 --> 00:29:14,925
+It definitely changed from the
+start to the, to the end of it.
+
+583
+00:29:14,985 --> 00:29:19,275
+Um, at the beginning I was kind
+of applying to like everything.
+
+584
+00:29:19,710 --> 00:29:20,880
+Everything that I could find.
+
+585
+00:29:21,660 --> 00:29:24,630
+Honestly, when I first started
+looking for a job,
+
+586
+00:29:24,630 --> 00:29:29,520
+I wasn't, I wasn't being picky
+about working backend.
+
+587
+00:29:29,525 --> 00:29:31,410
+I was like, I'm gonna apply to
+front end positions.
+
+588
+00:29:31,410 --> 00:29:32,490
+I'm gonna apply to full stack.
+
+589
+00:29:32,490 --> 00:29:33,390
+I'm gonna apply to backend.
+
+590
+00:29:33,395 --> 00:29:34,230
+I'm apply to everything.
+
+591
+00:29:34,830 --> 00:29:36,780
+Um,  and.
+
+592
+00:29:38,595 --> 00:29:39,375
+Man.
+
+593
+00:29:39,465 --> 00:29:41,534
+That was, that was a mistake.
+
+594
+00:29:41,834 --> 00:29:42,554
+I think.
+
+595
+00:29:42,615 --> 00:29:45,465
+I mean, like you, you spend so
+much time
+
+596
+00:29:45,465 --> 00:29:47,115
+putting in applications.
+
+597
+00:29:47,595 --> 00:29:50,205
+And I think even at the
+beginning, I wasn't
+
+598
+00:29:50,205 --> 00:29:54,945
+tailoring my resume to meet the
+job application.
+
+599
+00:29:54,945 --> 00:29:57,615
+Like if I would've done that, I
+would've spent like so many more
+
+600
+00:29:57,615 --> 00:30:01,665
+hours because I, it was, it.
+
+601
+00:30:02,625 --> 00:30:05,715
+Ridiculous that I was applying
+to as many companies
+
+602
+00:30:05,985 --> 00:30:07,335
+as I was at the beginning.
+
+603
+00:30:07,395 --> 00:30:12,135
+Um, and towards, I don't know, a
+few months in, I started
+
+604
+00:30:12,135 --> 00:30:17,415
+to realize that I needed to do
+quality of a quantity.
+
+605
+00:30:18,135 --> 00:30:22,515
+And I started tailoring my
+resume and cover letter to the
+
+606
+00:30:22,515 --> 00:30:24,585
+applications I was sending in.
+
+607
+00:30:24,675 --> 00:30:29,145
+Um, I was really trying to make
+contacts with people
+
+608
+00:30:29,205 --> 00:30:30,765
+who worked at the company.
+
+609
+00:30:30,825 --> 00:30:37,590
+Um, I, I really started to, to
+try to like put my best foot
+
+610
+00:30:37,590 --> 00:30:40,650
+forward, rather than just like
+sending in an application to
+
+611
+00:30:42,330 --> 00:30:48,390
+the unknown , um, where like
+hundreds of other applications
+
+612
+00:30:48,395 --> 00:30:52,320
+also go, uh, I started to
+realize when I was applying
+
+613
+00:30:52,350 --> 00:30:56,550
+everywhere that often more often
+than not, I, I wasn't
+
+614
+00:30:56,550 --> 00:30:59,820
+really getting replies back at
+all, rejections or.
+
+615
+00:31:00,435 --> 00:31:02,175
+Like interest for interviews.
+
+616
+00:31:02,805 --> 00:31:07,155
+Um, and I was applying to big
+companies and small companies.
+
+617
+00:31:07,575 --> 00:31:11,535
+I, yeah, I, I was applying to
+everything
+
+618
+00:31:11,540 --> 00:31:12,795
+under the, under the sun.
+
+619
+00:31:12,915 --> 00:31:17,325
+And then eventually I learned
+that, um, I
+
+620
+00:31:17,325 --> 00:31:18,254
+learned what I wanted.
+
+621
+00:31:18,825 --> 00:31:20,535
+I like, I started to realize
+through some of
+
+622
+00:31:20,535 --> 00:31:22,485
+the interview processes that I
+was going through.
+
+623
+00:31:25,035 --> 00:31:28,725
+The bigger companies were the
+companies that did those like
+
+624
+00:31:28,875 --> 00:31:31,305
+crazy technical interviews that
+were like, here's this
+
+625
+00:31:31,305 --> 00:31:32,895
+crazy algorithm solve it.
+
+626
+00:31:32,955 --> 00:31:37,755
+And the startups were more the
+ones of like giving take homes
+
+627
+00:31:37,760 --> 00:31:44,665
+or like walking, like pair
+programming more like Laly I
+
+628
+00:31:44,670 --> 00:31:48,915
+guess, like it wasn't such a
+high stress type of environment.
+
+629
+00:31:49,095 --> 00:31:51,345
+Um, so.
+
+630
+00:31:52,110 --> 00:31:54,870
+I think that like, eventually
+through that, that interview
+
+631
+00:31:54,870 --> 00:31:57,899
+process of like going through
+the interviews with
+
+632
+00:31:57,899 --> 00:31:59,940
+different types of companies, I
+learned that I wanted to
+
+633
+00:31:59,940 --> 00:32:01,470
+stay more towards startup.
+
+634
+00:32:02,070 --> 00:32:04,470
+Um, it seemed like it was more
+the environment of what I
+
+635
+00:32:04,475 --> 00:32:08,700
+would want to work in because I
+mean, I think we all kind
+
+636
+00:32:08,700 --> 00:32:09,899
+of recognize that these crazy
+
+637
+00:32:14,250 --> 00:32:19,740
+algorithm interviews are just,
+they're not applicable to.
+
+638
+00:32:20,534 --> 00:32:23,685
+The daily job that you do there.
+
+639
+00:32:24,195 --> 00:32:29,415
+It's not a, I don't know, it's
+not an indicator.
+
+640
+00:32:29,415 --> 00:32:31,215
+I don't think it's an indicator
+of like how good
+
+641
+00:32:31,215 --> 00:32:32,415
+you're gonna do at this job.
+
+642
+00:32:32,645 --> 00:32:35,445
+I, I really think that it's,
+it's messy.
+
+643
+00:32:35,655 --> 00:32:41,325
+And, um, I think that there are
+startups and smaller
+
+644
+00:32:41,925 --> 00:32:46,095
+companies that are kind of going
+against the grain of what the
+
+645
+00:32:46,095 --> 00:32:47,264
+larger companies are doing.
+
+646
+00:32:47,465 --> 00:32:47,685
+And.
+
+647
+00:32:48,375 --> 00:32:51,405
+I think that I personally made
+the decision that I would rather
+
+648
+00:32:51,405 --> 00:32:52,545
+work for a company like that.
+
+649
+00:32:52,545 --> 00:32:57,405
+So, you know, started tailoring
+my, um, applications
+
+650
+00:32:57,410 --> 00:33:00,375
+towards startups and smaller
+sized companies.
+
+651
+00:33:00,495 --> 00:33:03,075
+And then eventually I made the
+decision.
+
+652
+00:33:03,080 --> 00:33:03,345
+Yeah.
+
+653
+00:33:03,345 --> 00:33:04,365
+I wanna work back end.
+
+654
+00:33:04,575 --> 00:33:05,505
+I don't wanna do full stack.
+
+655
+00:33:05,505 --> 00:33:07,425
+I don't wanna do front end,
+started tailoring
+
+656
+00:33:07,425 --> 00:33:08,325
+them more that way.
+
+657
+00:33:08,805 --> 00:33:13,155
+Um, So I think through the
+process, I started applying
+
+658
+00:33:13,155 --> 00:33:16,725
+to everything and then I like
+funneled down  and
+
+659
+00:33:16,725 --> 00:33:18,915
+eventually like became a little
+bit more specialized
+
+660
+00:33:18,915 --> 00:33:20,324
+in what I was applying to.
+
+661
+00:33:20,330 --> 00:33:23,264
+And I started, I realized that I
+was getting more responses,
+
+662
+00:33:23,294 --> 00:33:25,395
+more interviews that way.
+
+663
+00:33:26,324 --> 00:33:27,004
+So that was.
+
+664
+00:33:27,510 --> 00:33:28,020
+That was great.
+
+665
+00:33:28,920 --> 00:33:29,580
+I think that's so
+
+666
+00:33:29,580 --> 00:33:29,910
+Bekah: great.
+
+667
+00:33:29,910 --> 00:33:33,630
+And I think that especially, uh,
+when you're fresh out of
+
+668
+00:33:33,630 --> 00:33:36,660
+school or bootcamp or whatever,
+when you're first applying,
+
+669
+00:33:36,750 --> 00:33:40,740
+there's this tendency for a lot
+of people just to start learning
+
+670
+00:33:40,740 --> 00:33:42,960
+everything at like a very.
+
+671
+00:33:43,420 --> 00:33:46,600
+Shallow level, because I think
+that's going to make them more,
+
+672
+00:33:46,900 --> 00:33:49,090
+um, relevant in job search.
+
+673
+00:33:49,090 --> 00:33:52,930
+But I think that you're right
+specializing or really
+
+674
+00:33:52,930 --> 00:33:56,590
+understanding yourself and what
+you are interested
+
+675
+00:33:56,590 --> 00:33:58,540
+in can, can be useful.
+
+676
+00:33:58,545 --> 00:34:02,990
+I mean, it also can help you to
+be more excited about what
+
+677
+00:34:02,990 --> 00:34:04,930
+you're doing and more relaxed.
+
+678
+00:34:04,930 --> 00:34:07,180
+And when you're in an interview
+and you can.
+
+679
+00:34:07,735 --> 00:34:12,655
+Act in that way, it definitely
+makes you a, a candidate
+
+680
+00:34:12,655 --> 00:34:13,705
+that seems confident.
+
+681
+00:34:14,015 --> 00:34:14,275
+I think.
+
+682
+00:34:15,780 --> 00:34:18,000
+Tori: I think you definitely
+come off better.
+
+683
+00:34:18,990 --> 00:34:19,830
+Um, so
+
+684
+00:34:19,830 --> 00:34:22,170
+Bekah: you have touched on this
+a couple of times,
+
+685
+00:34:22,170 --> 00:34:24,420
+but like, obviously there's an
+industry problem with
+
+686
+00:34:24,420 --> 00:34:25,380
+interviewing, right.
+
+687
+00:34:25,770 --> 00:34:29,040
+And we see more people talking
+about it.
+
+688
+00:34:29,460 --> 00:34:35,130
+Um, and I wonder what you think
+about, or if you have
+
+689
+00:34:35,130 --> 00:34:39,240
+ideas about how to improve the
+interview process, but
+
+690
+00:34:39,240 --> 00:34:41,250
+like also keeping in mind.
+
+691
+00:34:41,925 --> 00:34:44,595
+Is it an industry problem?
+
+692
+00:34:44,925 --> 00:34:51,075
+Is it a, um, my bootcamp or my
+university didn't train me
+
+693
+00:34:51,075 --> 00:34:55,185
+well enough before going into
+the job market, a combination
+
+694
+00:34:55,185 --> 00:34:59,565
+or, you know, what are your
+thoughts on, you know, this
+
+695
+00:34:59,565 --> 00:35:01,545
+process and making it better?
+
+696
+00:35:02,385 --> 00:35:03,075
+Tori: Yeah.
+
+697
+00:35:03,195 --> 00:35:10,125
+Um, I think, I think first to
+touch on the whole like
+
+698
+00:35:10,305 --> 00:35:15,615
+bootcamp and, um, computer
+science degree thing.
+
+699
+00:35:15,615 --> 00:35:20,685
+I think bootcamps do, um, some
+bootcamps are great.
+
+700
+00:35:20,690 --> 00:35:23,775
+Some bootcamps are not just like
+some computer
+
+701
+00:35:23,865 --> 00:35:26,655
+science degree programs are
+great and some are not.
+
+702
+00:35:27,195 --> 00:35:31,515
+Um, I, I have a friend who got a
+computer science degree.
+
+703
+00:35:32,400 --> 00:35:37,620
+Like he knew a lot of the, the
+theory and principal stuff, but
+
+704
+00:35:38,340 --> 00:35:39,950
+didn't really know how to code.
+
+705
+00:35:40,605 --> 00:35:44,355
+Um, and he struggled to find a
+software engineering job.
+
+706
+00:35:44,355 --> 00:35:48,255
+He ended up finding a support
+job, um, and has
+
+707
+00:35:48,255 --> 00:35:50,445
+kind of been stuck in that.
+
+708
+00:35:50,445 --> 00:35:54,585
+But he's finally got outta
+finally got out of it recently
+
+709
+00:35:54,585 --> 00:35:57,255
+and just moved to Columbus, Ohio
+and is working for a startup
+
+710
+00:35:57,260 --> 00:35:58,365
+and I'm super happy for him.
+
+711
+00:35:58,815 --> 00:36:02,925
+Um, but it took some time for
+him to like pull out of that.
+
+712
+00:36:02,925 --> 00:36:05,505
+And I think.
+
+713
+00:36:07,359 --> 00:36:09,930
+I also struggled with my
+interview process because
+
+714
+00:36:09,930 --> 00:36:12,210
+I came from a bootcamp cuz I
+didn't know the
+
+715
+00:36:12,210 --> 00:36:14,100
+computer science like stuff.
+
+716
+00:36:14,430 --> 00:36:17,850
+I think there's weaknesses in
+both areas.
+
+717
+00:36:18,029 --> 00:36:21,450
+Some bootcamps, maybe great at
+teaching that stuff.
+
+718
+00:36:21,450 --> 00:36:25,230
+And they like the students come
+out well rounded.
+
+719
+00:36:25,830 --> 00:36:28,170
+Some computer science degrees
+are that way.
+
+720
+00:36:28,230 --> 00:36:31,740
+Um, but there's weaknesses in
+everything.
+
+721
+00:36:31,920 --> 00:36:33,720
+Um, and.
+
+722
+00:36:34,395 --> 00:36:42,675
+I think that not everybody comes
+out well rounded and to, as an
+
+723
+00:36:42,675 --> 00:36:51,060
+industry to expect . Brand new,
+like entry level engineers to
+
+724
+00:36:51,060 --> 00:36:53,880
+solve these crazy algorithms.
+
+725
+00:36:54,210 --> 00:36:58,230
+Like, I mean, even senior
+engineers, I've like, I've
+
+726
+00:36:58,440 --> 00:37:01,110
+heard, I've spoken to a few of
+them who are terrified
+
+727
+00:37:01,110 --> 00:37:03,930
+to go back into the job market
+because they would
+
+728
+00:37:03,935 --> 00:37:05,130
+have to do these things.
+
+729
+00:37:05,610 --> 00:37:07,380
+They don't feel comfortable
+doing it either.
+
+730
+00:37:07,410 --> 00:37:11,820
+Which like, I think just that
+fact alone that like, it doesn't
+
+731
+00:37:11,820 --> 00:37:13,290
+matter what level you are.
+
+732
+00:37:13,510 --> 00:37:16,720
+Whether you're entry, you're
+senior you're principal.
+
+733
+00:37:16,720 --> 00:37:18,280
+Like it doesn't matter.
+
+734
+00:37:18,790 --> 00:37:23,110
+Like you can be just as afraid
+of these crazy algorithm
+
+735
+00:37:23,110 --> 00:37:26,500
+questions as anyone else.
+
+736
+00:37:26,920 --> 00:37:30,430
+And I think that that speaks to
+the fact that like somebody
+
+737
+00:37:30,430 --> 00:37:33,120
+with 10 years industry
+experience can't solve it.
+
+738
+00:37:34,550 --> 00:37:34,670
+I.
+
+739
+00:37:35,130 --> 00:37:39,690
+I, why are you giving them if
+it's something that
+
+740
+00:37:39,690 --> 00:37:42,270
+somebody has been working, like
+doing this job for 10
+
+741
+00:37:42,270 --> 00:37:44,790
+years, like you would expect
+them to be able to answer it
+
+742
+00:37:44,820 --> 00:37:45,210
+Bekah: easily.
+
+743
+00:37:46,649 --> 00:37:47,549
+But they can't
+
+744
+00:37:47,879 --> 00:37:52,560
+Tori: and it like it's, I, I
+definitely think it's broken.
+
+745
+00:37:52,799 --> 00:38:00,540
+I think that there's been this
+idea that solving
+
+746
+00:38:00,540 --> 00:38:02,910
+these algorithms is a great way
+to get to know
+
+747
+00:38:02,910 --> 00:38:04,589
+how the candidate thinks.
+
+748
+00:38:05,129 --> 00:38:07,529
+Like, if you wanna know how the
+candidate thinks
+
+749
+00:38:07,529 --> 00:38:10,830
+or plans, then like speak to
+them about planning.
+
+750
+00:38:11,470 --> 00:38:15,820
+Or like, like ask them those
+types of driven questions.
+
+751
+00:38:15,820 --> 00:38:19,090
+Don't try to pull that out by
+asking like some crazy,
+
+752
+00:38:19,090 --> 00:38:23,500
+like, weird question and like
+try to get about it and get
+
+753
+00:38:23,500 --> 00:38:24,700
+to it in a roundabout way.
+
+754
+00:38:24,700 --> 00:38:28,060
+Like that's not, it doesn't seem
+efficient.
+
+755
+00:38:28,480 --> 00:38:32,440
+It doesn't like, I, I don't know
+it to me.
+
+756
+00:38:32,445 --> 00:38:37,540
+It just, everything seems kind
+of broken and I feel like.
+
+757
+00:38:38,640 --> 00:38:41,730
+One day, one of these big tech
+companies was like, we're gonna
+
+758
+00:38:41,730 --> 00:38:44,580
+ask this question and we have a
+great interview process.
+
+759
+00:38:44,580 --> 00:38:45,720
+And like, it's really hard.
+
+760
+00:38:45,720 --> 00:38:48,630
+And then all of these other
+companies were like, oh, we're
+
+761
+00:38:48,630 --> 00:38:49,860
+gonna implement that too.
+
+762
+00:38:50,430 --> 00:38:52,530
+And it's just been like a
+copycat process.
+
+763
+00:38:53,310 --> 00:38:58,230
+And a lot of companies wanna be
+like these big tech companies.
+
+764
+00:38:58,230 --> 00:39:01,560
+So they just, they just copied
+the process and.
+
+765
+00:39:02,580 --> 00:39:04,710
+Whether it's good for their
+company or company
+
+766
+00:39:04,710 --> 00:39:07,140
+or not, whether it's beneficial
+for them or not.
+
+767
+00:39:07,259 --> 00:39:09,029
+And it's, I don't know.
+
+768
+00:39:09,029 --> 00:39:14,220
+I think, I think like a lot of
+things, the head of industries
+
+769
+00:39:14,220 --> 00:39:17,879
+set a lot of standards that they
+kind of like set those
+
+770
+00:39:17,884 --> 00:39:24,149
+standards and everybody follows
+just, it's not necessarily,
+
+771
+00:39:24,149 --> 00:39:31,875
+uh, Not necessarily the best
+thing  and it's tough and it's
+
+772
+00:39:31,875 --> 00:39:33,285
+tough to go against the grain.
+
+773
+00:39:33,285 --> 00:39:37,215
+But I think that there are a lot
+of startups out there and
+
+774
+00:39:37,215 --> 00:39:40,245
+a lot of smaller companies and
+even some like decently
+
+775
+00:39:40,425 --> 00:39:43,395
+large companies that are going
+against the grain.
+
+776
+00:39:43,575 --> 00:39:46,815
+And I think that that's
+wonderful that it's
+
+777
+00:39:46,815 --> 00:39:50,805
+being recognized that our
+interview process is broken.
+
+778
+00:39:51,245 --> 00:39:54,875
+It's great that people are like
+really standing up and being
+
+779
+00:39:54,875 --> 00:39:56,315
+like candidates are people too.
+
+780
+00:39:57,305 --> 00:39:58,835
+you need to respect their time.
+
+781
+00:39:58,835 --> 00:40:02,465
+You need to respect, like giving
+somebody a take
+
+782
+00:40:02,465 --> 00:40:03,515
+home project or something.
+
+783
+00:40:03,520 --> 00:40:05,045
+That's gonna take four to six
+hours.
+
+784
+00:40:05,045 --> 00:40:06,845
+That's a huge chunk of their
+time.
+
+785
+00:40:08,375 --> 00:40:12,515
+I like, I just, if you're not
+gonna pay them for
+
+786
+00:40:12,515 --> 00:40:14,555
+that work, it's crazy.
+
+787
+00:40:14,555 --> 00:40:18,005
+Like doing a two hour, one is
+still a lot, but
+
+788
+00:40:18,005 --> 00:40:19,715
+I that's more reasonable.
+
+789
+00:40:21,060 --> 00:40:22,620
+It's I, it's just tough.
+
+790
+00:40:22,650 --> 00:40:26,460
+I think that there's a lot of, a
+lot of things that are wrong in
+
+791
+00:40:26,460 --> 00:40:30,120
+the interview or yeah, like in
+the interview process right now.
+
+792
+00:40:30,840 --> 00:40:34,890
+Um, and I'm not sure that there
+is a blanket way to fix it.
+
+793
+00:40:35,280 --> 00:40:38,370
+Like it's really gonna be case
+by case company by company.
+
+794
+00:40:38,370 --> 00:40:42,570
+And I think just recognizing
+that there is an issue is the
+
+795
+00:40:42,570 --> 00:40:44,400
+first step to fixing the issue.
+
+796
+00:40:44,670 --> 00:40:48,750
+Um, and I think having more
+people.
+
+797
+00:40:50,235 --> 00:40:53,535
+Being outspoken about it is like
+really important because
+
+798
+00:40:53,535 --> 00:41:01,395
+it's gonna start pushing, um,
+it's gonna start pushing
+
+799
+00:41:01,400 --> 00:41:05,985
+people that are the heads of
+these companies and whatnot
+
+800
+00:41:05,985 --> 00:41:11,295
+to like, kind of look at their
+processes and kind of.
+
+801
+00:41:13,065 --> 00:41:16,365
+Adjust and see what could be
+going wrong and like
+
+802
+00:41:16,425 --> 00:41:20,805
+why people are unhappy and, you
+know, we'll see.
+
+803
+00:41:23,115 --> 00:41:23,505
+Bekah: Yeah.
+
+804
+00:41:23,505 --> 00:41:27,735
+I, um, was talking to somebody
+recently about the situation
+
+805
+00:41:27,740 --> 00:41:34,995
+in this, um, what you said it
+not being a blanket.
+
+806
+00:41:35,565 --> 00:41:38,685
+Um, Like one, one answer for it.
+
+807
+00:41:38,745 --> 00:41:39,194
+Right.
+
+808
+00:41:39,464 --> 00:41:41,714
+And that we're looking at people
+and people are complex.
+
+809
+00:41:41,714 --> 00:41:43,274
+I think really sticks out to me.
+
+810
+00:41:43,665 --> 00:41:47,145
+Um, in finding this idea of like
+a, a person first
+
+811
+00:41:47,145 --> 00:41:48,855
+interview process is important.
+
+812
+00:41:48,884 --> 00:41:52,125
+And, um, one guy was saying,
+well, well like, well, we
+
+813
+00:41:52,125 --> 00:41:54,674
+have to standardize it as best
+as we possibly can.
+
+814
+00:41:54,915 --> 00:41:58,785
+And like, I, anytime that I hear
+that, it just makes me cringe
+
+815
+00:41:58,785 --> 00:42:02,685
+a little bit because you can't
+really standardize the process.
+
+816
+00:42:02,714 --> 00:42:05,145
+And I think if you're trying to
+standardize.
+
+817
+00:42:06,220 --> 00:42:09,960
+Sanitizes things in some way,
+and you don't see the complex
+
+818
+00:42:09,960 --> 00:42:14,160
+person and you're not allowing
+for different perspectives.
+
+819
+00:42:14,160 --> 00:42:17,340
+And in that way, you are
+probably cutting out some really
+
+820
+00:42:17,345 --> 00:42:21,030
+amazing candidates because maybe
+they don't perform well
+
+821
+00:42:21,120 --> 00:42:25,350
+while you're staring at them or
+with a timed test or something,
+
+822
+00:42:25,620 --> 00:42:29,250
+you know, there's all of these
+problems and it's not just in
+
+823
+00:42:29,250 --> 00:42:33,180
+tech, but, um, not allowing for.
+
+824
+00:42:33,990 --> 00:42:39,479
+I think diversity of approach or
+allowing a candidate to
+
+825
+00:42:39,720 --> 00:42:46,049
+fully explore what they would do
+is really not good for
+
+826
+00:42:46,055 --> 00:42:47,609
+the company or the industry
+
+827
+00:42:47,609 --> 00:42:48,149
+Tori: either.
+
+828
+00:42:49,140 --> 00:42:50,520
+No, definitely not.
+
+829
+00:42:50,524 --> 00:42:57,089
+And it feels that would be
+really hindering on some people
+
+830
+00:42:57,095 --> 00:42:58,250
+like you're not letting them.
+
+831
+00:42:59,700 --> 00:43:01,650
+Like show you their full
+potential.
+
+832
+00:43:01,650 --> 00:43:08,640
+You're not letting them have a
+creative mind or like
+
+833
+00:43:09,480 --> 00:43:11,879
+showing you something that you
+wouldn't have thought of.
+
+834
+00:43:11,879 --> 00:43:17,100
+Like, if you're, if you're
+setting a standard, it's you
+
+835
+00:43:17,100 --> 00:43:19,230
+also, you cut people out.
+
+836
+00:43:19,740 --> 00:43:20,580
+Of the process.
+
+837
+00:43:20,640 --> 00:43:24,120
+Like I, when you start setting
+standards, I think that's
+
+838
+00:43:24,120 --> 00:43:30,779
+when you really start to get
+into the issue of like really
+
+839
+00:43:30,779 --> 00:43:36,480
+messing with minority people and
+you start messing with.
+
+840
+00:43:39,180 --> 00:43:39,960
+A lot of stuff.
+
+841
+00:43:40,230 --> 00:43:40,980
+Yeah, go ahead, Dan.
+
+842
+00:43:41,700 --> 00:43:43,890
+Dan: sorry to, I was just gonna
+say, then you just
+
+843
+00:43:43,890 --> 00:43:46,230
+start hiring people that are
+good at the stand getting
+
+844
+00:43:46,230 --> 00:43:47,220
+through the standard process.
+
+845
+00:43:47,280 --> 00:43:49,530
+It's like, this is the same
+problem with the standardized
+
+846
+00:43:49,530 --> 00:43:54,420
+tests in public schools, you
+know, um, all of the, like
+
+847
+00:43:54,480 --> 00:43:57,390
+then all of the learning will be
+about trying to, you know,
+
+848
+00:43:57,885 --> 00:43:59,565
+Get through the standard test or
+whatever it is.
+
+849
+00:43:59,595 --> 00:44:01,755
+I mean, this happens in schools,
+but like, if that was the
+
+850
+00:44:01,755 --> 00:44:04,245
+process with interviews, you
+know, and it already sort of
+
+851
+00:44:04,305 --> 00:44:08,475
+happens, there's so much effort
+gone into, um, like that course
+
+852
+00:44:08,475 --> 00:44:12,435
+you bought was like, you know,
+you used it to learn a specific
+
+853
+00:44:12,440 --> 00:44:15,075
+thing, but it was geared towards
+passing technical interviews.
+
+854
+00:44:15,075 --> 00:44:15,345
+Right.
+
+855
+00:44:15,405 --> 00:44:16,125
+Like that was the whole thing.
+
+856
+00:44:16,125 --> 00:44:16,365
+Yeah.
+
+857
+00:44:16,785 --> 00:44:21,375
+And, uh, and like the there's a
+lot of people, you know,
+
+858
+00:44:21,495 --> 00:44:24,795
+making money on that sort of
+thing anyway, and so
+
+859
+00:44:24,795 --> 00:44:26,865
+much time and effort, and then
+you get your job and.
+
+860
+00:44:27,540 --> 00:44:30,420
+You never use any of, any of
+that stuff ever again.
+
+861
+00:44:30,480 --> 00:44:30,780
+Right?
+
+862
+00:44:30,780 --> 00:44:31,410
+Any of those skills?
+
+863
+00:44:32,010 --> 00:44:35,460
+I mean, obviously not totally
+true, but there's just so
+
+864
+00:44:35,460 --> 00:44:38,280
+much, so much, uh, you know,
+sweat that you put into
+
+865
+00:44:38,700 --> 00:44:39,510
+getting good at something.
+
+866
+00:44:39,510 --> 00:44:43,230
+And then like a lot of that
+isn't transferable or doesn't
+
+867
+00:44:43,230 --> 00:44:45,090
+transfer, you know, to what
+you're actually doing anyway.
+
+868
+00:44:46,235 --> 00:44:47,175
+Um, yeah.
+
+869
+00:44:47,295 --> 00:44:50,325
+Tori: And you hear all these
+like crazy stories of
+
+870
+00:44:50,385 --> 00:44:53,685
+people who essentially train
+themselves for the interview
+
+871
+00:44:53,690 --> 00:44:56,325
+process and then they get in and
+they can't do the job.
+
+872
+00:44:56,655 --> 00:44:56,745
+Yeah.
+
+873
+00:44:57,105 --> 00:44:57,855
+Bekah: 100%.
+
+874
+00:44:58,875 --> 00:44:59,595
+Tori: No it's.
+
+875
+00:44:59,605 --> 00:44:59,895
+Yeah.
+
+876
+00:45:00,075 --> 00:45:02,385
+And like, how are these
+companies filtering for that?
+
+877
+00:45:02,385 --> 00:45:05,055
+You can't, because like you're
+not actually
+
+878
+00:45:05,055 --> 00:45:06,225
+testing for things that.
+
+879
+00:45:07,200 --> 00:45:09,420
+Job applicable , which is
+
+880
+00:45:09,420 --> 00:45:10,050
+Dan: crazy.
+
+881
+00:45:10,110 --> 00:45:10,350
+Yeah.
+
+882
+00:45:10,410 --> 00:45:11,220
+It's a hard problem.
+
+883
+00:45:11,520 --> 00:45:13,200
+And it's, and it's a hard
+problem from the
+
+884
+00:45:13,200 --> 00:45:14,100
+employers side too.
+
+885
+00:45:14,100 --> 00:45:17,790
+You know, the smaller company is
+the easier, I think it is.
+
+886
+00:45:17,790 --> 00:45:20,580
+So the company you started
+working for, you know, you're
+
+887
+00:45:20,580 --> 00:45:23,580
+a man, I don't remember what
+position, but whoever hired
+
+888
+00:45:23,580 --> 00:45:25,560
+you, you know, like sat and like
+worked with you, like
+
+889
+00:45:25,620 --> 00:45:26,730
+talked with you for a while.
+
+890
+00:45:26,730 --> 00:45:30,690
+And that's really, I agree the
+best way to find if a
+
+891
+00:45:30,690 --> 00:45:32,190
+person fits all of that stuff.
+
+892
+00:45:32,250 --> 00:45:33,029
+Um, but.
+
+893
+00:45:33,675 --> 00:45:37,035
+That's time consuming on their
+end, you know, to, and you get
+
+894
+00:45:37,125 --> 00:45:39,075
+a large company where there's
+literally millions of people
+
+895
+00:45:39,075 --> 00:45:43,575
+applying for a position  and
+the, you know, they can kind
+
+896
+00:45:43,575 --> 00:45:46,005
+of see how this stuff happens.
+
+897
+00:45:46,005 --> 00:45:48,015
+Not, not that the solution is
+good, but
+
+898
+00:45:48,020 --> 00:45:50,235
+like how they got there.
+
+899
+00:45:50,295 --> 00:45:50,625
+Right.
+
+900
+00:45:50,655 --> 00:45:53,295
+You know, just because just so
+many people
+
+901
+00:45:53,295 --> 00:45:57,165
+applying and there are
+programmers on the other end.
+
+902
+00:45:58,635 --> 00:46:01,215
+You know, like trying to
+optimize it, like, you know,
+
+903
+00:46:01,215 --> 00:46:03,345
+like Bekah was saying, I'm sure
+the person you were talking
+
+904
+00:46:03,345 --> 00:46:05,865
+to that said that we should
+standardize the process was,
+
+905
+00:46:05,925 --> 00:46:07,605
+uh, in development somewhere.
+
+906
+00:46:07,665 --> 00:46:11,025
+I'm guessing, you know, cuz
+that's the kind of, uh, like
+
+907
+00:46:11,085 --> 00:46:12,975
+that's the kind of answer that
+you jump to first.
+
+908
+00:46:12,975 --> 00:46:13,125
+Right.
+
+909
+00:46:13,125 --> 00:46:16,275
+If I see a problem, I'm like,
+okay, how can like, how can
+
+910
+00:46:16,275 --> 00:46:18,375
+we fix this with my hammer?
+
+911
+00:46:18,405 --> 00:46:20,175
+That is, you know, that is like
+development,
+
+912
+00:46:20,175 --> 00:46:20,745
+you know what I mean?
+
+913
+00:46:21,225 --> 00:46:22,845
+but it's not a development
+problem.
+
+914
+00:46:22,845 --> 00:46:22,995
+Right.
+
+915
+00:46:22,995 --> 00:46:23,685
+It's a people problem.
+
+916
+00:46:23,745 --> 00:46:25,735
+So mm-hmm  I.
+
+917
+00:46:26,375 --> 00:46:27,045
+I don't really have a point
+there.
+
+918
+00:46:27,125 --> 00:46:29,775
+It's just a  it's a very complex
+problem.
+
+919
+00:46:29,895 --> 00:46:33,465
+Tori: Um, yeah, it, it is a very
+complex problem.
+
+920
+00:46:33,555 --> 00:46:35,415
+I absolutely love everything
+that you said.
+
+921
+00:46:35,415 --> 00:46:41,475
+So it's yeah, it's, it's a tough
+topic.
+
+922
+00:46:41,685 --> 00:46:42,695
+It's a really tough topic.
+
+923
+00:46:44,295 --> 00:46:44,625
+Bekah: Yeah.
+
+924
+00:46:44,775 --> 00:46:45,045
+Yeah.
+
+925
+00:46:45,045 --> 00:46:48,765
+I, and I think I step one is
+talking about it, right?
+
+926
+00:46:49,635 --> 00:46:49,875
+yep.
+
+927
+00:46:50,805 --> 00:46:51,615
+Thinking about it.
+
+928
+00:46:51,620 --> 00:46:54,645
+Step one on a larger scale, if
+you can, and just like
+
+929
+00:46:54,650 --> 00:46:57,795
+realizing and identifying.
+
+930
+00:46:58,305 --> 00:46:59,535
+The things that are wrong.
+
+931
+00:46:59,745 --> 00:47:02,265
+And sometimes it's hard to put
+those things
+
+932
+00:47:02,265 --> 00:47:03,825
+into words, I think.
+
+933
+00:47:03,825 --> 00:47:07,095
+Or like, you're not exactly sure
+why they're wrong, but
+
+934
+00:47:07,095 --> 00:47:09,735
+just acknowledging like,
+something feels bad about this.
+
+935
+00:47:09,735 --> 00:47:10,215
+Right.
+
+936
+00:47:10,785 --> 00:47:13,305
+And then kind of building from
+there and talking
+
+937
+00:47:13,305 --> 00:47:14,625
+to other people is.
+
+938
+00:47:15,465 --> 00:47:17,745
+Is moving in the right
+direction.
+
+939
+00:47:17,745 --> 00:47:17,955
+Right.
+
+940
+00:47:17,955 --> 00:47:20,685
+You need to get some momentum,
+so start there and
+
+941
+00:47:20,685 --> 00:47:22,095
+then keep moving forward.
+
+942
+00:47:22,185 --> 00:47:25,005
+And then, you know, definitely
+have a support system as
+
+943
+00:47:25,005 --> 00:47:28,245
+you're going through the
+interview process because it is
+
+944
+00:47:28,245 --> 00:47:31,305
+Tori: hard mm-hmm  yeah, it's
+really hard.
+
+945
+00:47:31,575 --> 00:47:34,965
+And I think honestly, virtual
+coffee kind of
+
+946
+00:47:34,965 --> 00:47:38,355
+came about right at the perfect
+time for me because.
+
+947
+00:47:38,895 --> 00:47:40,634
+Interviewing did slow down a
+ton.
+
+948
+00:47:40,634 --> 00:47:42,945
+And I really felt like I had
+lost my momentum and was
+
+949
+00:47:42,945 --> 00:47:44,355
+feeling kind of down on myself.
+
+950
+00:47:44,355 --> 00:47:49,245
+And when interviews started
+going well again, I was like
+
+951
+00:47:49,695 --> 00:47:53,025
+posting a bit and I was getting
+cheered on and, you know, it was
+
+952
+00:47:53,025 --> 00:47:55,215
+just, it was great at the time.
+
+953
+00:47:55,215 --> 00:47:59,415
+And also when sad things happen,
+like you don't get a job, like
+
+954
+00:48:00,435 --> 00:48:03,555
+you're told, like don't give up
+and, you know, it's, it's a
+
+955
+00:48:03,555 --> 00:48:05,985
+great community to be a part of.
+
+956
+00:48:05,985 --> 00:48:08,055
+And I think.
+
+957
+00:48:09,585 --> 00:48:13,125
+I don't wanna say we're all
+cheerleaders, but like , we're
+
+958
+00:48:13,125 --> 00:48:19,245
+all very positive and, um, very
+much like pushing for one
+
+959
+00:48:19,245 --> 00:48:22,965
+another to do our best and to
+keep our heads held high and
+
+960
+00:48:23,415 --> 00:48:24,975
+not get too down on ourselves.
+
+961
+00:48:24,980 --> 00:48:26,115
+So it's great.
+
+962
+00:48:27,630 --> 00:48:28,470
+Wanna, thank
+
+963
+00:48:28,470 --> 00:48:29,850
+Bekah: you so much for being
+here.
+
+964
+00:48:29,850 --> 00:48:32,610
+Tori, you said so many awesome
+things.
+
+965
+00:48:32,670 --> 00:48:37,260
+Um, what are some things that
+you have coming up or
+
+966
+00:48:37,260 --> 00:48:38,820
+things that you're interested
+
+967
+00:48:38,820 --> 00:48:39,060
+Tori: in?
+
+968
+00:48:39,855 --> 00:48:40,424
+Yeah.
+
+969
+00:48:40,484 --> 00:48:43,875
+Um, well, one huge thing coming
+up.
+
+970
+00:48:43,875 --> 00:48:49,484
+I'm expecting my baby in my .
+Um, but yeah, besides that,
+
+971
+00:48:49,935 --> 00:48:54,134
+I am kind of just trying to get
+used to, you know, working
+
+972
+00:48:54,134 --> 00:48:58,605
+I'm about to hit my six months
+mark of officially working as a
+
+973
+00:48:58,605 --> 00:49:01,694
+software engineer and I'm really
+excited to hit it and I'm.
+
+974
+00:49:02,895 --> 00:49:05,685
+I'm almost getting to like full
+autonomy and working
+
+975
+00:49:05,685 --> 00:49:07,695
+on my own, which is great.
+
+976
+00:49:08,025 --> 00:49:13,455
+Um, my coworkers are great,
+confident, confident boosters.
+
+977
+00:49:13,455 --> 00:49:17,565
+They are like, I'm like, uh, can
+we pair on this ticket?
+
+978
+00:49:17,565 --> 00:49:22,815
+And they're like, you got this,
+you got this, like, okay, that
+
+979
+00:49:22,815 --> 00:49:24,075
+happened this morning again.
+
+980
+00:49:24,560 --> 00:49:25,575
+it keeps happening.
+
+981
+00:49:26,025 --> 00:49:31,215
+Um  but yeah, it's, it's fun.
+
+982
+00:49:31,565 --> 00:49:31,785
+I'm.
+
+983
+00:49:33,210 --> 00:49:35,700
+I'm just excited to continue
+working and building
+
+984
+00:49:35,700 --> 00:49:37,050
+my backend skills and.
+
+985
+00:49:38,160 --> 00:49:41,310
+I am hoping to move into site
+reliability
+
+986
+00:49:41,310 --> 00:49:43,290
+engineering in the future.
+
+987
+00:49:43,290 --> 00:49:45,779
+And I'm like slowly reading
+through the Google
+
+988
+00:49:45,779 --> 00:49:47,339
+site, reliability book.
+
+989
+00:49:47,370 --> 00:49:53,700
+And, uh, I'm working with our
+site reliability engineer
+
+990
+00:49:53,759 --> 00:49:57,630
+and our head of engineering who
+used to be an SRE, um,
+
+991
+00:49:57,690 --> 00:50:00,960
+going through some things, uh,
+on our product and learning
+
+992
+00:50:00,960 --> 00:50:03,569
+a little bit about that stuff as
+well as my backend.
+
+993
+00:50:04,140 --> 00:50:04,529
+So.
+
+994
+00:50:05,265 --> 00:50:05,715
+It's fun.
+
+995
+00:50:05,775 --> 00:50:06,765
+They're grooming me.
+
+996
+00:50:06,855 --> 00:50:09,075
+They're getting me ready and I'm
+really liking it.
+
+997
+00:50:09,585 --> 00:50:10,245
+So it's great.
+
+998
+00:50:11,715 --> 00:50:13,845
+Bekah: that is very awesome.
+
+999
+00:50:13,935 --> 00:50:14,865
+Um, okay.
+
+1000
+00:50:14,865 --> 00:50:18,795
+So if our listeners want to find
+you, how can they do that?
+
+1001
+00:50:20,415 --> 00:50:25,635
+Tori: Yeah, I am over on Twitter
+and I need to look up.
+
+1002
+00:50:25,875 --> 00:50:29,325
+I never remember my username,
+your underscore T O
+
+1003
+00:50:31,505 --> 00:50:32,085
+Bekah: O R R.
+
+1004
+00:50:32,145 --> 00:50:33,675
+We'll include it in the show
+notes.
+
+1005
+00:50:34,005 --> 00:50:34,245
+Yeah.
+
+1006
+00:50:34,635 --> 00:50:36,255
+And then you're also blogging
+
+1007
+00:50:36,375 --> 00:50:38,105
+Tori: over at dev two, right?
+
+1008
+00:50:38,685 --> 00:50:40,515
+Yes, I am.
+
+1009
+00:50:40,515 --> 00:50:43,785
+I've it's, it's been a little
+bit since I've posted on there.
+
+1010
+00:50:43,845 --> 00:50:47,775
+Um, I've been writing on my
+work, uh, on my company's
+
+1011
+00:50:47,780 --> 00:50:54,375
+blog a bit more, um, because
+when  I joined, I was like
+
+1012
+00:50:54,375 --> 00:50:59,395
+super excited to start writing
+for the blog and, um, Yeah.
+
+1013
+00:50:59,395 --> 00:50:59,635
+Yeah.
+
+1014
+00:50:59,640 --> 00:51:00,225
+It's I don't know.
+
+1015
+00:51:00,225 --> 00:51:02,235
+I really enjoy it, but I've got
+a little bit more
+
+1016
+00:51:02,240 --> 00:51:03,645
+technical stuff over there.
+
+1017
+00:51:03,705 --> 00:51:06,225
+Whereas my blog on dev two is
+kind of a mix
+
+1018
+00:51:06,225 --> 00:51:07,005
+of technical stuff.
+
+1019
+00:51:07,005 --> 00:51:11,055
+And then also just like
+interview woes and tips and,
+
+1020
+00:51:11,055 --> 00:51:15,615
+you know,  so if you need any
+help with interviewing,
+
+1021
+00:51:15,655 --> 00:51:19,725
+um, or dealing with like the
+mental aspects of interviewing,
+
+1022
+00:51:19,730 --> 00:51:21,555
+I've got a lot of great blog
+posts over there.
+
+1023
+00:51:21,855 --> 00:51:22,815
+Bekah: Yeah, you definitely do.
+
+1024
+00:51:22,815 --> 00:51:23,955
+And we'll post that too.
+
+1025
+00:51:23,955 --> 00:51:26,355
+So thanks again for being here.
+
+1026
+00:51:27,044 --> 00:51:28,365
+And we'll talk to you soon.
+
+1027
+00:51:29,234 --> 00:51:29,524
+Tori: Yeah.
+
+1028
+00:51:29,529 --> 00:51:30,765
+Thank you for having me.
+
+1029
+00:51:34,095 --> 00:51:35,805
+Bekah: Thank you for listening
+to this episode of
+
+1030
+00:51:35,805 --> 00:51:37,395
+the virtual coffee podcast.
+
+1031
+00:51:37,845 --> 00:51:41,085
+This episode was produced by Dan
+OT and Bekah harra,
+
+1032
+00:51:41,085 --> 00:51:43,245
+Weigel, and edited by Dan OT.
+
+1033
+00:51:44,075 --> 00:51:45,995
+If you have any questions or
+comments, you can hit
+
+1034
+00:51:45,995 --> 00:51:50,315
+us up on Twitter at virtual
+coffee IO, or you can email
+
+1035
+00:51:50,315 --> 00:51:53,225
+us@podcastvirtualcoffee.io.
+
+1036
+00:51:53,615 --> 00:51:57,065
+You can find the show
+notes@virtualcoffee.io.
+
+1037
+00:51:57,215 --> 00:51:59,465
+Plus you can sign up for a
+newsletter to find
+
+1038
+00:51:59,465 --> 00:52:00,455
+out what we've been up
+
+1039
+00:52:00,460 --> 00:52:00,665
+Dan: to.
+
+1040
+00:52:00,825 --> 00:52:03,335
+Please subscribe to our podcast
+and be sure
+
+1041
+00:52:03,335 --> 00:52:04,235
+to leave us a review.
+
+1042
+00:52:04,985 --> 00:52:05,765
+Thanks for listening.
+
+1043
+00:52:05,765 --> 00:52:06,905
+And we'll see you next week.

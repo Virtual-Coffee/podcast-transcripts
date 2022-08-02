@@ -1,0 +1,5052 @@
+1
+00:00:07,050 --> 00:00:10,680
+Bekah: Hello, and welcome to
+season three, episode four of
+
+2
+00:00:10,685 --> 00:00:12,330
+the Virtual Coffee podcast.
+
+3
+00:00:12,930 --> 00:00:13,620
+I'm Bekah.
+
+4
+00:00:13,620 --> 00:00:16,170
+And this is a podcast that
+features members of the
+
+5
+00:00:16,170 --> 00:00:17,370
+Virtual Coffee community.
+
+6
+00:00:18,240 --> 00:00:21,270
+Virtual Coffee is an intimate
+group of developers at all
+
+7
+00:00:21,270 --> 00:00:22,560
+stages of their coding journey.
+
+8
+00:00:22,830 --> 00:00:24,570
+And they're here on this
+podcast, sharing their
+
+9
+00:00:24,570 --> 00:00:26,470
+stories and what they've
+learned, and we are.
+
+10
+00:00:26,615 --> 00:00:29,674
+To share it with you here with
+me today is my co-host.
+
+11
+00:00:29,915 --> 00:00:30,244
+Dan.
+
+12
+00:00:30,814 --> 00:00:31,084
+Thanks
+
+13
+00:00:31,084 --> 00:00:32,225
+Dan: Bekah today.
+
+14
+00:00:32,225 --> 00:00:34,265
+We had a fascinating
+conversation with
+
+15
+00:00:34,265 --> 00:00:35,195
+Joan Marie Verba.
+
+16
+00:00:35,825 --> 00:00:38,644
+Joan shared her long journey
+with us, including her
+
+17
+00:00:38,644 --> 00:00:42,155
+early days in tech using Fortran
+and how refusal to
+
+18
+00:00:42,155 --> 00:00:44,435
+accommodate her allergies has
+prevented her from having
+
+19
+00:00:44,435 --> 00:00:46,114
+a lifelong career in tech.
+
+20
+00:00:46,535 --> 00:00:49,265
+She talks about pushing forward
+and the importance of.
+
+21
+00:00:49,660 --> 00:00:50,949
+Not taking no for an
+
+22
+00:00:50,949 --> 00:00:51,190
+Joan: answer.
+
+23
+00:00:53,319 --> 00:00:55,029
+Bekah: We start every episode of
+the podcast.
+
+24
+00:00:55,029 --> 00:00:56,559
+Like we start every Virtual
+Coffee.
+
+25
+00:00:56,860 --> 00:00:58,720
+We introduce ourselves with our
+name, where we're
+
+26
+00:00:58,724 --> 00:01:02,140
+from, what we do and a random
+check-in question.
+
+27
+00:01:02,684 --> 00:01:07,395
+Today's random question is if
+you could be an expert in
+
+28
+00:01:07,395 --> 00:01:09,164
+one thing, what would it be?
+
+29
+00:01:10,095 --> 00:01:11,565
+We hope you enjoy this episode.
+
+30
+00:01:19,994 --> 00:01:23,054
+Hi, I'm Bekah, I'm a front end
+developer from
+
+31
+00:01:23,054 --> 00:01:24,914
+a small town in Ohio.
+
+32
+00:01:25,185 --> 00:01:29,925
+And if I could be an expert in
+one thing,  can
+
+33
+00:01:29,925 --> 00:01:31,215
+I choose the human person?
+
+34
+00:01:31,215 --> 00:01:33,405
+Is that, is that acceptable?
+
+35
+00:01:33,524 --> 00:01:33,914
+Totally.
+
+36
+00:01:34,005 --> 00:01:36,824
+I was trying to decide if I
+wanted to do like brain or
+
+37
+00:01:36,824 --> 00:01:41,054
+hormone, but if I can just
+totally be an expert in humans.
+
+38
+00:01:41,440 --> 00:01:42,130
+That's where I would go.
+
+39
+00:01:42,610 --> 00:01:42,880
+I think
+
+40
+00:01:42,880 --> 00:01:45,640
+Dan: that's, I think that's
+valid and would be a very
+
+41
+00:01:45,640 --> 00:01:46,690
+cool thing to be an expert in.
+
+42
+00:01:47,350 --> 00:01:50,680
+Hi, I'm Dan I'm from, I don't
+know a medium
+
+43
+00:01:50,680 --> 00:01:52,090
+sized city in Ohio.
+
+44
+00:01:53,440 --> 00:01:54,220
+from Lakewood, Ohio.
+
+45
+00:01:54,520 --> 00:01:57,880
+I do front end development and
+yeah, if I could be an
+
+46
+00:01:57,880 --> 00:02:02,470
+expert in one thing, I, I think
+my answer's going to be
+
+47
+00:02:02,950 --> 00:02:04,000
+what's like plants and stuff.
+
+48
+00:02:04,815 --> 00:02:06,225
+You know, there's, there's,
+Arbery, there's
+
+49
+00:02:06,225 --> 00:02:07,215
+like Arbery botany.
+
+50
+00:02:07,215 --> 00:02:08,324
+Maybe that just covers
+everything.
+
+51
+00:02:08,324 --> 00:02:09,435
+Cause I like the trees, I just
+humans.
+
+52
+00:02:09,435 --> 00:02:10,215
+Bekah: So you can just say
+
+53
+00:02:10,215 --> 00:02:10,634
+Dan: plants.
+
+54
+00:02:10,634 --> 00:02:14,415
+I think I like plants  no, it's,
+you know, and I've, I've
+
+55
+00:02:14,415 --> 00:02:17,115
+learned and forgotten stuff,
+especially tree related,
+
+56
+00:02:17,775 --> 00:02:20,025
+you know, like identifying trees
+based on different
+
+57
+00:02:20,030 --> 00:02:22,365
+properties and nothing like that
+ever sticks in my brain.
+
+58
+00:02:22,365 --> 00:02:23,545
+You know, if I don't use all the
+time, but.
+
+59
+00:02:24,075 --> 00:02:26,775
+We had an abust at our house to
+clips and trees.
+
+60
+00:02:26,775 --> 00:02:30,285
+And I just made him walk around
+in my yard for half an hour.
+
+61
+00:02:31,035 --> 00:02:34,455
+putting a trees and tell, making
+me tell, tell me, you know,
+
+62
+00:02:34,455 --> 00:02:35,385
+what kind of tree this one is?
+
+63
+00:02:35,385 --> 00:02:35,835
+What's that one?
+
+64
+00:02:35,835 --> 00:02:38,355
+What's that one, which he, he,
+he didn't seem to mind
+
+65
+00:02:38,360 --> 00:02:39,465
+too much on, it was fun.
+
+66
+00:02:39,465 --> 00:02:41,685
+So yes, plants, this plants is
+my answer.
+
+67
+00:02:42,305 --> 00:02:47,495
+Joan: My name is, uh, Joan re
+Verba and I'm from Minnesota
+
+68
+00:02:47,555 --> 00:02:49,295
+and I'm a front end developer.
+
+69
+00:02:49,445 --> 00:02:52,685
+And if I wanted to be an expert
+in something, I
+
+70
+00:02:52,685 --> 00:02:55,055
+think I would want to be an
+expert in astronomy.
+
+71
+00:02:55,595 --> 00:03:00,454
+I know enough so that I did
+teach astronomy at Indiana
+
+72
+00:03:00,460 --> 00:03:03,605
+university as an associate
+instructor for one year,
+
+73
+00:03:03,605 --> 00:03:06,125
+but there's a lot more that I
+could know and a lot more
+
+74
+00:03:06,125 --> 00:03:07,625
+that I than I'd want to know.
+
+75
+00:03:07,625 --> 00:03:10,835
+So I'd want to know even more
+than I know now.
+
+76
+00:03:11,135 --> 00:03:11,885
+Dan: That's awesome.
+
+77
+00:03:11,915 --> 00:03:12,995
+Astronomy is so cool.
+
+78
+00:03:13,505 --> 00:03:15,185
+That's another one of those
+things where that's my second.
+
+79
+00:03:15,995 --> 00:03:16,385
+Yeah.
+
+80
+00:03:16,385 --> 00:03:17,705
+I, it was always so interesting.
+
+81
+00:03:17,705 --> 00:03:20,375
+And for me, I could never keep
+any of those, the details,
+
+82
+00:03:20,380 --> 00:03:23,585
+you know, in my mind, but I
+always, I loved going to the
+
+83
+00:03:23,590 --> 00:03:26,225
+planetarium and, you know, I, I
+took a couple astronomy classes,
+
+84
+00:03:26,225 --> 00:03:27,665
+intro classes in undergrad.
+
+85
+00:03:28,445 --> 00:03:30,965
+And actually I saw in your, I
+mean, you just said it,
+
+86
+00:03:30,965 --> 00:03:31,955
+you were from, or you.
+
+87
+00:03:33,150 --> 00:03:34,799
+Was it undergrad at Indiana?
+
+88
+00:03:34,890 --> 00:03:35,640
+Or was it grad school?
+
+89
+00:03:35,640 --> 00:03:36,030
+No, I was
+
+90
+00:03:36,030 --> 00:03:38,190
+Joan: undergrad at the
+university of Minnesota and
+
+91
+00:03:38,190 --> 00:03:42,810
+I took graduate courses at
+Indiana university, but I did
+
+92
+00:03:42,810 --> 00:03:44,100
+not get a master's degree.
+
+93
+00:03:44,100 --> 00:03:45,269
+I did not reach that point.
+
+94
+00:03:45,540 --> 00:03:45,840
+Okay.
+
+95
+00:03:45,840 --> 00:03:46,109
+Were,
+
+96
+00:03:46,115 --> 00:03:47,190
+Dan: were you in Bloomington?
+
+97
+00:03:47,549 --> 00:03:48,900
+Joan: Yes, I was in Bloomington,
+Indiana.
+
+98
+00:03:49,440 --> 00:03:50,130
+Dan: I love Bloomington.
+
+99
+00:03:50,130 --> 00:03:50,910
+I, we lived there.
+
+100
+00:03:50,915 --> 00:03:52,410
+My, my wife went to grad school
+there.
+
+101
+00:03:52,650 --> 00:03:54,660
+We lived there for, I don't
+know, five, five or six years.
+
+102
+00:03:54,900 --> 00:03:56,070
+It's a great, great city.
+
+103
+00:03:56,640 --> 00:03:57,359
+A great, great area.
+
+104
+00:03:57,930 --> 00:04:00,299
+Bekah: Thanks so much for being
+on the podcast with us today.
+
+105
+00:04:00,299 --> 00:04:03,150
+Joan, we're really excited to
+hear more about your story.
+
+106
+00:04:03,480 --> 00:04:05,609
+And we always like to kick it
+off with the origin
+
+107
+00:04:05,614 --> 00:04:08,340
+story, kind of how you got to
+the point where you are
+
+108
+00:04:08,340 --> 00:04:10,980
+now, how you got into tech.
+
+109
+00:04:11,040 --> 00:04:15,299
+And so I know for you, this kind
+of is a long story.
+
+110
+00:04:15,299 --> 00:04:16,469
+So if you just wanna.
+
+111
+00:04:17,060 --> 00:04:20,539
+Talk about up to the point where
+you got your first job in tech.
+
+112
+00:04:20,599 --> 00:04:23,150
+Maybe we can ask some more
+questions and
+
+113
+00:04:23,150 --> 00:04:23,870
+then go from there.
+
+114
+00:04:24,289 --> 00:04:24,860
+Joan: Okay.
+
+115
+00:04:24,865 --> 00:04:25,400
+I'll pause.
+
+116
+00:04:25,400 --> 00:04:28,340
+At that point, then I have been
+interested in
+
+117
+00:04:28,340 --> 00:04:30,680
+tech for quite some time.
+
+118
+00:04:31,070 --> 00:04:36,260
+My dad was a marketing manager,
+a controlled data corporation
+
+119
+00:04:36,760 --> 00:04:41,180
+in the 1960s and seventies and
+eighties and up through the
+
+120
+00:04:41,180 --> 00:04:45,320
+nineties and he sold mainframe
+computers to companies.
+
+121
+00:04:46,490 --> 00:04:51,770
+And when I was in high school,
+the first computers
+
+122
+00:04:52,130 --> 00:04:55,730
+came out and the high school had
+sort of a time share
+
+123
+00:04:55,730 --> 00:04:57,320
+with a mainframe computer.
+
+124
+00:04:57,950 --> 00:05:01,400
+And so there were some after
+school activities for people
+
+125
+00:05:01,405 --> 00:05:03,920
+who were interested in computers
+and I attended those.
+
+126
+00:05:04,995 --> 00:05:08,895
+And the way that we pro
+reprogrammed them in basic, and
+
+127
+00:05:08,895 --> 00:05:13,035
+there was paper tape, we would
+punch holes in a paper tape and
+
+128
+00:05:13,035 --> 00:05:14,685
+then run the paper tape through.
+
+129
+00:05:14,685 --> 00:05:16,245
+And that was the software.
+
+130
+00:05:16,665 --> 00:05:18,435
+And then we would get results.
+
+131
+00:05:18,945 --> 00:05:22,305
+Then from there from high
+school, I went to college.
+
+132
+00:05:23,085 --> 00:05:26,265
+My freshman and sophomore year
+was at the university of Chicago
+
+133
+00:05:26,745 --> 00:05:28,065
+and I had some extra credits.
+
+134
+00:05:28,065 --> 00:05:32,445
+So I took a computer programming
+course, and that was fun
+
+135
+00:05:33,045 --> 00:05:34,815
+with the mainframe computers.
+
+136
+00:05:34,815 --> 00:05:37,395
+At that time, we were not
+punching paper tape anymore.
+
+137
+00:05:37,395 --> 00:05:37,755
+We were PA.
+
+138
+00:05:38,235 --> 00:05:39,195
+Punching cards.
+
+139
+00:05:39,825 --> 00:05:44,025
+And so each line of the code had
+to be on one card.
+
+140
+00:05:44,355 --> 00:05:46,545
+And so if you had a large
+software program, you had
+
+141
+00:05:46,545 --> 00:05:49,935
+pretty much a long box of cards
+to bring in and put through
+
+142
+00:05:49,935 --> 00:05:53,235
+the computer and then the
+computer would read the cards
+
+143
+00:05:53,240 --> 00:05:55,185
+and then give out the results.
+
+144
+00:05:56,280 --> 00:05:58,800
+And then I went to junior and
+senior year.
+
+145
+00:05:58,800 --> 00:06:02,040
+I transferred to the university
+of Minnesota and I got my
+
+146
+00:06:02,040 --> 00:06:05,280
+degree in physics, but I also
+took computer courses.
+
+147
+00:06:05,640 --> 00:06:07,890
+The reason I took computer
+courses was not only because
+
+148
+00:06:07,890 --> 00:06:11,430
+I was interested in them, but
+because at the time they
+
+149
+00:06:11,430 --> 00:06:13,890
+were telling us, well, you know,
+you can get your degree
+
+150
+00:06:13,890 --> 00:06:16,320
+in physics or astronomy or
+whatever, but there aren't
+
+151
+00:06:16,320 --> 00:06:17,490
+a lot of jobs in there.
+
+152
+00:06:17,495 --> 00:06:21,510
+So quite possibly you will have
+a job in another area.
+
+153
+00:06:22,190 --> 00:06:24,830
+So I took computer programming
+interested me.
+
+154
+00:06:24,830 --> 00:06:28,130
+So I was taking computer
+programming courses after I got
+
+155
+00:06:28,130 --> 00:06:31,280
+my degree and went to graduate
+school at Indiana university.
+
+156
+00:06:31,280 --> 00:06:33,770
+I continued to take courses.
+
+157
+00:06:34,875 --> 00:06:37,515
+When I finished at Indiana
+university, I took a couple
+
+158
+00:06:37,515 --> 00:06:41,715
+of more graduate courses in
+computer science at the
+
+159
+00:06:41,715 --> 00:06:43,065
+university of Minnesota.
+
+160
+00:06:43,455 --> 00:06:45,885
+And after that I was ready to
+get a job.
+
+161
+00:06:45,890 --> 00:06:51,615
+So I applied for a job and I got
+a job at, uh uny and the
+
+162
+00:06:51,615 --> 00:06:54,915
+job was in the airline division.
+
+163
+00:06:54,915 --> 00:06:59,835
+And I was in the group that was
+programming flight schedules.
+
+164
+00:07:00,405 --> 00:07:01,815
+That's what I had at first.
+
+165
+00:07:02,235 --> 00:07:04,545
+And then the programming group
+that I was in was
+
+166
+00:07:04,545 --> 00:07:08,865
+expanded to cover also hotel
+reservations for the airlines.
+
+167
+00:07:10,095 --> 00:07:13,365
+By that time we were not using
+cards anymore.
+
+168
+00:07:13,575 --> 00:07:15,105
+We were doing what.
+
+169
+00:07:15,620 --> 00:07:16,700
+Computer program is due.
+
+170
+00:07:16,700 --> 00:07:19,789
+Now we were keyboarding our
+instructions into a computer
+
+171
+00:07:19,789 --> 00:07:21,620
+and, you know, sending it in
+that way and getting
+
+172
+00:07:21,620 --> 00:07:24,890
+it compiled and bug tested and
+all that sort of thing.
+
+173
+00:07:25,340 --> 00:07:26,300
+That was a lot of fun.
+
+174
+00:07:26,990 --> 00:07:30,920
+And so you asked me to stop when
+I got my first job in tech and
+
+175
+00:07:30,920 --> 00:07:32,659
+that was my first job in tech.
+
+176
+00:07:33,170 --> 00:07:35,570
+That was in the late seventies,
+early eighties.
+
+177
+00:07:36,050 --> 00:07:36,440
+Dan: Oh, that's.
+
+178
+00:07:37,260 --> 00:07:40,650
+My dad did just in school, a
+little bit of the, of
+
+179
+00:07:40,650 --> 00:07:42,330
+the program with the cards and
+the whole, you know,
+
+180
+00:07:42,330 --> 00:07:43,409
+punching holes in the cards.
+
+181
+00:07:43,409 --> 00:07:45,960
+And he always talks about, I
+guess he, you know, cuz one of
+
+182
+00:07:45,965 --> 00:07:48,239
+the, one of the things that is
+important is you have to keep
+
+183
+00:07:48,239 --> 00:07:49,380
+them in the right order, right?
+
+184
+00:07:49,710 --> 00:07:49,919
+Oh yes.
+
+185
+00:07:49,919 --> 00:07:51,719
+When you are carrying them
+around and yeah.
+
+186
+00:07:51,719 --> 00:07:54,299
+And so he is at least once,
+maybe more than that.
+
+187
+00:07:54,304 --> 00:07:54,750
+Definitely.
+
+188
+00:07:55,104 --> 00:07:57,114
+Drop the stack of cards and
+still
+
+189
+00:07:57,775 --> 00:08:00,805
+Joan: what was recommended at
+the time is that we take
+
+190
+00:08:01,325 --> 00:08:05,335
+a highlighter and on the top of
+the cards draw a
+
+191
+00:08:05,455 --> 00:08:10,405
+diagonal line so that if the
+cards ever got separated,
+
+192
+00:08:10,435 --> 00:08:13,255
+all we had to do was line them
+up so that the line was
+
+193
+00:08:13,465 --> 00:08:13,825
+Dan: strange.
+
+194
+00:08:13,984 --> 00:08:15,025
+Oh, that's a good
+
+195
+00:08:15,025 --> 00:08:15,474
+Joan: idea.
+
+196
+00:08:15,685 --> 00:08:18,325
+And that, and that would, that
+would mean, you know,
+
+197
+00:08:18,365 --> 00:08:20,575
+if we dropped the cards and they
+got out of order, we
+
+198
+00:08:20,575 --> 00:08:22,974
+could put them back and it was
+easier to do that way.
+
+199
+00:08:23,625 --> 00:08:25,664
+Bekah: What did the industry
+look like for
+
+200
+00:08:25,664 --> 00:08:26,685
+you getting into it?
+
+201
+00:08:26,685 --> 00:08:30,224
+Was it something that was hard
+or did you find that you
+
+202
+00:08:30,224 --> 00:08:34,424
+were at a disadvantage or were
+there challenges that you were
+
+203
+00:08:34,424 --> 00:08:34,934
+Joan: facing?
+
+204
+00:08:35,324 --> 00:08:37,995
+I didn't find a disadvantage at
+all.
+
+205
+00:08:38,265 --> 00:08:42,255
+There were, and you know, other
+people who have studied
+
+206
+00:08:42,284 --> 00:08:44,865
+the history of tech have, have
+also confirmed this.
+
+207
+00:08:45,285 --> 00:08:47,595
+There were quite a lot of women
+in the computer
+
+208
+00:08:47,595 --> 00:08:50,954
+programming field at the time,
+maybe about a third.
+
+209
+00:08:51,680 --> 00:08:54,650
+Of the people who were working
+in the airline division
+
+210
+00:08:54,650 --> 00:09:00,050
+at uny were women had no
+problems there in my group.
+
+211
+00:09:00,050 --> 00:09:02,840
+I was the only woman, but there
+were lots of groups
+
+212
+00:09:02,840 --> 00:09:03,980
+in the airline division.
+
+213
+00:09:04,460 --> 00:09:07,790
+And about, I'd say about a third
+of the, the, the
+
+214
+00:09:07,790 --> 00:09:08,930
+programmers were women.
+
+215
+00:09:08,935 --> 00:09:12,380
+It was not considered unusual to
+be a woman in the field
+
+216
+00:09:12,380 --> 00:09:13,880
+doing programming at the time.
+
+217
+00:09:14,940 --> 00:09:18,330
+Bekah: And so as you moved
+forward in your career,
+
+218
+00:09:18,600 --> 00:09:19,860
+was there a shift at all?
+
+219
+00:09:19,860 --> 00:09:23,160
+Or did you feel like the
+environment started to
+
+220
+00:09:23,160 --> 00:09:26,520
+change or did you kind of leave
+the industry before.
+
+221
+00:09:27,540 --> 00:09:30,660
+Joan: Well, I'll tell you what
+happened with the industry.
+
+222
+00:09:30,720 --> 00:09:34,590
+Uh, what happened in the
+industry in the eighties was
+
+223
+00:09:34,590 --> 00:09:39,800
+that, well, first of all, I
+changed jobs in late 1982
+
+224
+00:09:40,650 --> 00:09:45,930
+because of the recession and my
+group in the airline.
+
+225
+00:09:46,350 --> 00:09:50,400
+Was discontinued, I guess it was
+given to, to somebody else,
+
+226
+00:09:50,400 --> 00:09:54,150
+but I was transferred to a
+financial thing and it was asked
+
+227
+00:09:54,300 --> 00:09:57,660
+I was programming in Fortran and
+I was asked to program in
+
+228
+00:09:57,665 --> 00:10:02,070
+Cobal and I didn't really want
+to do financial programming.
+
+229
+00:10:02,075 --> 00:10:03,930
+It didn't really appeal to me in
+cobalt.
+
+230
+00:10:03,930 --> 00:10:05,520
+Did not appeal to me at all.
+
+231
+00:10:06,245 --> 00:10:09,635
+I mean, there are some people
+who say that, you know, you
+
+232
+00:10:09,635 --> 00:10:12,185
+ought to be able to learn any
+programming language,
+
+233
+00:10:12,185 --> 00:10:13,324
+if you are a programmer.
+
+234
+00:10:13,715 --> 00:10:14,765
+And I learned a lot of 'em.
+
+235
+00:10:14,765 --> 00:10:19,175
+I learned many in college and
+graduate school and I was
+
+236
+00:10:19,535 --> 00:10:22,355
+prepared to do anything, but I
+was not prepared to do cobalt.
+
+237
+00:10:22,360 --> 00:10:26,735
+Somehow cobalt just never fit my
+particular skill.
+
+238
+00:10:27,859 --> 00:10:30,979
+And as I said, though, they say
+that you can learn any
+
+239
+00:10:31,069 --> 00:10:33,890
+programming language cobalt just
+never made sense to
+
+240
+00:10:33,890 --> 00:10:36,800
+me in any way whatsoever.
+
+241
+00:10:37,550 --> 00:10:41,750
+So I went to Republic airlines
+because I was used
+
+242
+00:10:41,750 --> 00:10:43,250
+to doing airline programming.
+
+243
+00:10:43,520 --> 00:10:44,839
+They programmed in.
+
+244
+00:10:45,825 --> 00:10:49,305
+I'm blanking out on the term,
+but it was the, the very
+
+245
+00:10:49,305 --> 00:10:52,365
+basic programming language that
+we, that we had.
+
+246
+00:10:52,365 --> 00:10:54,915
+So I was, I was in another
+programming language.
+
+247
+00:10:54,915 --> 00:10:55,575
+That was fine.
+
+248
+00:10:55,580 --> 00:10:59,925
+I learned it fine that didn't
+work out for various reasons.
+
+249
+00:10:59,925 --> 00:11:04,695
+And so I sort of bounced around
+from job to job until I got to
+
+250
+00:11:04,695 --> 00:11:07,155
+a, uh, tech startup in 1980.
+
+251
+00:11:08,970 --> 00:11:11,550
+And this is where the
+environment changed, but
+
+252
+00:11:11,980 --> 00:11:16,020
+probably not in the way that you
+think, because by that time,
+
+253
+00:11:16,020 --> 00:11:23,130
+Steve jobs and apple were, were
+trying to revolutionize the
+
+254
+00:11:23,160 --> 00:11:27,569
+computer industry and do things
+differently and have a different
+
+255
+00:11:27,569 --> 00:11:29,130
+work environment and have a.
+
+256
+00:11:29,880 --> 00:11:31,229
+Working philosophy.
+
+257
+00:11:31,800 --> 00:11:37,020
+Now I have food allergies up
+until Steve jobs started
+
+258
+00:11:37,680 --> 00:11:43,349
+introducing all of these
+innovations at the workplace.
+
+259
+00:11:43,770 --> 00:11:44,969
+Food was forbidden.
+
+260
+00:11:45,405 --> 00:11:47,084
+You were not to have food.
+
+261
+00:11:47,324 --> 00:11:50,535
+Definitely not to have food in
+the places where you were
+
+262
+00:11:50,535 --> 00:11:53,265
+doing keyboarding, because it
+was felt the chromes
+
+263
+00:11:53,265 --> 00:11:55,935
+would mess up the computers,
+mess up the keyboards,
+
+264
+00:11:55,939 --> 00:11:56,805
+mess up the computers.
+
+265
+00:11:56,810 --> 00:11:58,454
+You weren't supposed to have
+food anywhere
+
+266
+00:11:58,454 --> 00:12:00,104
+at all at your desk.
+
+267
+00:12:00,110 --> 00:12:01,875
+They might look the other way.
+
+268
+00:12:01,880 --> 00:12:02,925
+They looked the other way.
+
+269
+00:12:03,015 --> 00:12:05,474
+Cuz I had tea, you know, I
+brought a Thermo of tea.
+
+270
+00:12:05,834 --> 00:12:07,545
+I, I was looked the other way,
+but otherwise you're
+
+271
+00:12:07,545 --> 00:12:08,444
+supposed to eat in the lunch.
+
+272
+00:12:09,135 --> 00:12:11,954
+You were not supposed to eat in
+the computer areas at all,
+
+273
+00:12:12,135 --> 00:12:17,324
+but when Steve jobs started
+doing things, one of the things
+
+274
+00:12:17,324 --> 00:12:20,985
+that he started doing was
+introducing the fact that you
+
+275
+00:12:20,985 --> 00:12:22,305
+had food all over the place.
+
+276
+00:12:22,935 --> 00:12:26,625
+You had free food for everybody
+at the workplace, and you
+
+277
+00:12:26,625 --> 00:12:27,885
+could have food everywhere.
+
+278
+00:12:27,885 --> 00:12:29,265
+And there was food everywhere.
+
+279
+00:12:29,475 --> 00:12:33,704
+And by the time I got to this
+startup in 1987, there was food.
+
+280
+00:12:33,704 --> 00:12:33,915
+Every.
+
+281
+00:12:34,900 --> 00:12:37,959
+And this was a problem for me,
+you know, I'm definitely
+
+282
+00:12:37,959 --> 00:12:38,920
+allergic to peanuts.
+
+283
+00:12:39,189 --> 00:12:41,290
+They were eating peanuts at the
+keyboards where I was
+
+284
+00:12:41,290 --> 00:12:43,989
+supposed to do programming and I
+got definitely ill.
+
+285
+00:12:44,229 --> 00:12:46,120
+My lung capacity dropped by
+half.
+
+286
+00:12:46,989 --> 00:12:48,489
+I had to go see a doctor.
+
+287
+00:12:48,489 --> 00:12:49,930
+I was ill for an entire year.
+
+288
+00:12:49,930 --> 00:12:54,339
+I had to quit the job because I
+simply just to recover.
+
+289
+00:12:54,400 --> 00:12:57,790
+I, I simply could not work there
+anymore.
+
+290
+00:12:58,599 --> 00:13:02,410
+And that was a big change for
+me.
+
+291
+00:13:03,125 --> 00:13:08,825
+After that I wanted to get back
+into programming, but the
+
+292
+00:13:09,305 --> 00:13:13,745
+personal computer, the mainframe
+was going out of phase.
+
+293
+00:13:13,745 --> 00:13:19,355
+And the startup that I had
+worked for in 1987, went out
+
+294
+00:13:19,355 --> 00:13:23,285
+of business a couple of months
+after I quit, because they
+
+295
+00:13:23,285 --> 00:13:25,835
+were into mainframes and nobody
+wanted mainframes anymore.
+
+296
+00:13:26,715 --> 00:13:29,265
+Everybody wanted personal
+computers.
+
+297
+00:13:29,865 --> 00:13:33,855
+And I did not have the
+instruction to program personal
+
+298
+00:13:33,855 --> 00:13:37,095
+computers and I was broke.
+
+299
+00:13:37,455 --> 00:13:38,565
+I didn't have a job.
+
+300
+00:13:38,565 --> 00:13:41,925
+I had moved back with my parents
+and I was ill.
+
+301
+00:13:42,720 --> 00:13:46,230
+And so I, I couldn't afford to
+go back to college and learn
+
+302
+00:13:46,230 --> 00:13:50,310
+the new PC programming skills.
+
+303
+00:13:51,090 --> 00:13:54,210
+So I went to other jobs, worked
+for a publishing company,
+
+304
+00:13:54,360 --> 00:13:57,960
+trained as an editor, got into
+publishing a little bit.
+
+305
+00:13:58,755 --> 00:14:01,604
+After that I worked as an editor
+for about 15 years,
+
+306
+00:14:01,604 --> 00:14:05,234
+and then I, I also worked for
+another company more or
+
+307
+00:14:05,234 --> 00:14:06,375
+less in customer service.
+
+308
+00:14:07,155 --> 00:14:11,505
+And then in 2015, I learned
+about coding boot camps.
+
+309
+00:14:11,594 --> 00:14:13,905
+And I had never heard about
+coding boot camps before,
+
+310
+00:14:13,910 --> 00:14:16,584
+but someone was starting a
+coding boot camp locally.
+
+311
+00:14:18,125 --> 00:14:24,335
+And I thought, okay, maybe I can
+retrain to do this because
+
+312
+00:14:24,725 --> 00:14:29,615
+I had learned basic HTML by
+myself in the late nineties
+
+313
+00:14:29,945 --> 00:14:31,415
+to build my own websites.
+
+314
+00:14:32,195 --> 00:14:34,325
+And I knew enough to build a
+website, but you know,
+
+315
+00:14:34,325 --> 00:14:37,685
+nothing that would suit me for a
+job, but the, the
+
+316
+00:14:37,685 --> 00:14:41,135
+recruiting boot camps and the
+person who started the coding
+
+317
+00:14:41,135 --> 00:14:45,125
+boot camp was interviewed by the
+local press and said
+
+318
+00:14:45,125 --> 00:14:46,655
+that the reason why he was.
+
+319
+00:14:47,355 --> 00:14:50,795
+A a coding bootcamp was that
+there were so many jobs
+
+320
+00:14:51,185 --> 00:14:54,035
+in web development open, and
+there weren't enough
+
+321
+00:14:54,035 --> 00:14:55,415
+trained people to fill them.
+
+322
+00:14:55,985 --> 00:15:02,165
+And I thought, okay, I should be
+able to learn coding fairly
+
+323
+00:15:02,165 --> 00:15:06,125
+easily because of my computer
+programming background, the
+
+324
+00:15:06,185 --> 00:15:10,655
+bootcamp is not terribly
+expensive and I, and it
+
+325
+00:15:10,655 --> 00:15:12,845
+would be like 16 to 20 weeks.
+
+326
+00:15:12,845 --> 00:15:15,965
+And then I would go to a job and
+then I could get hired.
+
+327
+00:15:17,140 --> 00:15:18,550
+Well, okay.
+
+328
+00:15:18,550 --> 00:15:23,800
+So I applied for this bootcamp
+in 2015, and it was
+
+329
+00:15:24,250 --> 00:15:26,350
+pretty difficult to get in.
+
+330
+00:15:26,740 --> 00:15:28,990
+I had to have two interviews.
+
+331
+00:15:28,990 --> 00:15:32,740
+I had to take some free coding
+classes to prove
+
+332
+00:15:32,740 --> 00:15:33,939
+that I could code.
+
+333
+00:15:34,420 --> 00:15:38,829
+I had to prove that I was, had
+an aptitude for coding, and
+
+334
+00:15:38,829 --> 00:15:43,060
+then I applied for a scholarship
+and I had to pass a number.
+
+335
+00:15:43,680 --> 00:15:47,610
+Various tests to get the
+scholarship, but I finally
+
+336
+00:15:47,610 --> 00:15:50,940
+got accepted and I finally got
+the scholarship and the
+
+337
+00:15:50,940 --> 00:15:53,520
+coding boot camp for me was
+supposed to start at the
+
+338
+00:15:53,520 --> 00:15:57,780
+end of August a couple of weeks
+before the coding boot
+
+339
+00:15:57,780 --> 00:15:58,890
+camp was supposed to start.
+
+340
+00:15:58,890 --> 00:16:00,360
+And I, and I got the
+scholarship.
+
+341
+00:16:00,960 --> 00:16:04,500
+I, um, called the person who was
+in charge of the coding school.
+
+342
+00:16:04,500 --> 00:16:06,270
+And I said, okay, I need
+accommodations.
+
+343
+00:16:06,270 --> 00:16:07,410
+I have food allergies.
+
+344
+00:16:07,740 --> 00:16:09,330
+I would like there not to be
+food in.
+
+345
+00:16:09,930 --> 00:16:11,219
+School room in the classroom.
+
+346
+00:16:11,459 --> 00:16:13,020
+If you have food elsewhere,
+fine.
+
+347
+00:16:13,079 --> 00:16:15,719
+I'll avoid those areas, but I
+can't avoid the classroom.
+
+348
+00:16:15,719 --> 00:16:17,370
+So there has to be no food in
+the classroom.
+
+349
+00:16:18,420 --> 00:16:23,189
+Well, the guy sort of went
+ballistic and we had a half
+
+350
+00:16:23,189 --> 00:16:28,079
+hour conversation in which he
+was just apoplectic.
+
+351
+00:16:28,680 --> 00:16:31,949
+And, and I was trying to explain
+this, this really
+
+352
+00:16:31,949 --> 00:16:34,890
+isn't a big deal, but he was
+still apoplectic.
+
+353
+00:16:34,890 --> 00:16:36,420
+I said, look, let me go to your.
+
+354
+00:16:37,095 --> 00:16:37,875
+Location.
+
+355
+00:16:37,875 --> 00:16:40,845
+And, you know, I'll be able to
+tell pretty easily if, if
+
+356
+00:16:40,845 --> 00:16:42,105
+it's suitable for me or not.
+
+357
+00:16:42,405 --> 00:16:44,955
+And so I did go to the location
+a couple of days
+
+358
+00:16:44,955 --> 00:16:47,895
+after that and looked around and
+I said, look, you know,
+
+359
+00:16:48,194 --> 00:16:49,095
+this looks pretty good.
+
+360
+00:16:49,095 --> 00:16:51,285
+All you have to do is, is make
+sure that there's
+
+361
+00:16:51,285 --> 00:16:52,335
+no food in the classroom.
+
+362
+00:16:52,335 --> 00:16:53,415
+And I think I'll be okay.
+
+363
+00:16:54,285 --> 00:16:57,705
+But no, a couple days later I
+received an email
+
+364
+00:16:57,705 --> 00:17:00,645
+from him saying that my
+enrollment had been canceled.
+
+365
+00:17:01,215 --> 00:17:02,545
+My scholarship had been cancel.
+
+366
+00:17:03,375 --> 00:17:08,295
+And in addition to that, I was
+totally unsuitable to be
+
+367
+00:17:08,295 --> 00:17:09,464
+a student at a code school.
+
+368
+00:17:10,035 --> 00:17:10,635
+Jeez.
+
+369
+00:17:11,220 --> 00:17:11,580
+Okay.
+
+370
+00:17:12,750 --> 00:17:13,950
+Not to be deterred.
+
+371
+00:17:15,660 --> 00:17:17,760
+wait, can we just pause for a
+minute here?
+
+372
+00:17:17,760 --> 00:17:19,320
+There, this is a good place to
+pause.
+
+373
+00:17:19,890 --> 00:17:21,060
+Bekah: I just feel like we've
+covered a
+
+374
+00:17:21,060 --> 00:17:22,050
+couple of decades here.
+
+375
+00:17:22,050 --> 00:17:25,560
+So I wanna, I wanna jump back to
+like your first experience
+
+376
+00:17:25,560 --> 00:17:28,440
+with that, because you talked
+about these environmental
+
+377
+00:17:28,445 --> 00:17:31,110
+changes and it's a lot of things
+that one, I don't think
+
+378
+00:17:31,110 --> 00:17:33,450
+people really think about.
+
+379
+00:17:33,565 --> 00:17:35,995
+Dealing with challenges that
+they're not faced on a day
+
+380
+00:17:35,995 --> 00:17:37,855
+to day basis all the time.
+
+381
+00:17:38,245 --> 00:17:43,795
+And so when you had to quit that
+first job at the startup, did
+
+382
+00:17:43,795 --> 00:17:47,305
+you talk to your employer about
+the situation with the food?
+
+383
+00:17:47,820 --> 00:17:51,570
+Joan: Oh, there were a number of
+conversations.
+
+384
+00:17:52,169 --> 00:17:57,659
+My doctor wrote a two page
+letter to them explaining
+
+385
+00:17:57,665 --> 00:18:00,600
+my food allergies and that I
+couldn't be around nuts
+
+386
+00:18:00,600 --> 00:18:04,709
+and I needed the Nury area and
+all this sort of thing.
+
+387
+00:18:04,770 --> 00:18:08,459
+And they finally got down to
+saying, we're going to offer
+
+388
+00:18:08,459 --> 00:18:10,350
+you a nut free area, your desk.
+
+389
+00:18:11,765 --> 00:18:18,705
+Mm-hmm  and that really was not
+sufficient  yeah, it
+
+390
+00:18:18,705 --> 00:18:19,755
+was, it was not sufficient.
+
+391
+00:18:20,355 --> 00:18:23,085
+So I really had to quit because
+they said, you know,
+
+392
+00:18:23,085 --> 00:18:24,285
+it's it's this or nothing.
+
+393
+00:18:24,675 --> 00:18:25,545
+So I quit.
+
+394
+00:18:25,545 --> 00:18:27,555
+But there were a number of
+conversations.
+
+395
+00:18:27,560 --> 00:18:29,505
+I had conversations with my
+supervisor.
+
+396
+00:18:29,505 --> 00:18:31,065
+I had a conversation with HR.
+
+397
+00:18:31,365 --> 00:18:33,255
+The doctors had conversations
+with them.
+
+398
+00:18:33,255 --> 00:18:35,355
+The doctors wrote letters, you
+know, stuff like that.
+
+399
+00:18:35,355 --> 00:18:35,505
+It.
+
+400
+00:18:36,300 --> 00:18:39,659
+It didn't, we weren't able to,
+to reach an agreement where I
+
+401
+00:18:39,659 --> 00:18:41,040
+thought that I would be safe.
+
+402
+00:18:41,790 --> 00:18:43,439
+So I, I simply quit.
+
+403
+00:18:43,439 --> 00:18:46,139
+And I was, I was so ill by the
+time I quit.
+
+404
+00:18:46,139 --> 00:18:48,510
+Anyway, as I said, my lung
+capacity dropped to
+
+405
+00:18:48,510 --> 00:18:51,030
+half and it stayed that way for
+quite some time.
+
+406
+00:18:51,419 --> 00:18:53,850
+It took me about a year to
+recover from that.
+
+407
+00:18:54,689 --> 00:18:59,939
+So it was, it was a really
+traumatic experience for.
+
+408
+00:19:00,615 --> 00:19:00,945
+Oh, for
+
+409
+00:19:00,945 --> 00:19:01,365
+Bekah: sure.
+
+410
+00:19:01,365 --> 00:19:04,545
+And then the, the traumas
+relived, I think when you
+
+411
+00:19:04,545 --> 00:19:07,605
+were trying to enter that
+bootcamp in the middle, when
+
+412
+00:19:07,605 --> 00:19:10,545
+you were working as an editor
+and the other things you were
+
+413
+00:19:10,545 --> 00:19:12,615
+doing, were they accommodating
+
+414
+00:19:12,615 --> 00:19:13,065
+Joan: to you?
+
+415
+00:19:13,935 --> 00:19:19,845
+The editing job was ahead of its
+time because it was remote work.
+
+416
+00:19:20,235 --> 00:19:23,745
+There wasn't really a lot of
+remote work at that time.
+
+417
+00:19:23,750 --> 00:19:24,645
+That was legitimate.
+
+418
+00:19:25,395 --> 00:19:27,585
+This was legitimate, remote
+work.
+
+419
+00:19:28,005 --> 00:19:30,195
+All I had to do, I, I worked at
+home.
+
+420
+00:19:30,195 --> 00:19:31,665
+They wanted you to work at home.
+
+421
+00:19:32,055 --> 00:19:35,835
+It cut their overhead expenses,
+tremendously for their
+
+422
+00:19:35,835 --> 00:19:37,065
+employees to work at home.
+
+423
+00:19:37,065 --> 00:19:41,775
+All the editors worked at home
+and all I had to do was to.
+
+424
+00:19:42,230 --> 00:19:44,510
+Just go to the pickup area and
+pick up my
+
+425
+00:19:44,510 --> 00:19:45,800
+assignments in the morning.
+
+426
+00:19:46,010 --> 00:19:49,610
+And then the next day I would
+drop off my assignments
+
+427
+00:19:49,610 --> 00:19:51,980
+from the day before and pick up
+my new assignments.
+
+428
+00:19:52,250 --> 00:19:56,389
+So it really, there really was
+very minimal contact there.
+
+429
+00:19:56,780 --> 00:19:58,820
+And so I worked at home where I
+was comfortable.
+
+430
+00:19:59,180 --> 00:20:02,720
+The other job that I had did
+accommodate me.
+
+431
+00:20:03,275 --> 00:20:03,815
+But them.
+
+432
+00:20:03,815 --> 00:20:05,945
+And remember I said, I worked
+for a publishing
+
+433
+00:20:05,945 --> 00:20:07,355
+company too, for a while.
+
+434
+00:20:07,805 --> 00:20:11,555
+They in the publishing company
+did accommodate me, but there
+
+435
+00:20:11,555 --> 00:20:17,255
+was an overall feeling that they
+felt it was a nuisance.
+
+436
+00:20:18,135 --> 00:20:22,005
+And that I was a nuisance and
+that they really would
+
+437
+00:20:22,005 --> 00:20:26,565
+rather not do this, but they
+sort of had to, because I
+
+438
+00:20:26,565 --> 00:20:30,045
+had to be accommodated and they
+sort of had to fill,
+
+439
+00:20:30,255 --> 00:20:33,555
+fulfill the employment law about
+accom because the
+
+440
+00:20:33,555 --> 00:20:35,505
+ADA had not been passed.
+
+441
+00:20:35,595 --> 00:20:38,895
+When I lost my job in 1987, it
+had been by the time I'd
+
+442
+00:20:38,895 --> 00:20:40,005
+gotten these other jobs.
+
+443
+00:20:40,635 --> 00:20:43,425
+And so they accommodated me, but
+it was not a comfortable
+
+444
+00:20:43,425 --> 00:20:44,775
+situation in either of those.
+
+445
+00:20:46,020 --> 00:20:50,460
+Bekah: Okay, so you left tech
+and in this very traumatic
+
+446
+00:20:50,465 --> 00:20:57,330
+experience and then 20 ish years
+later, decide to try tech again.
+
+447
+00:20:57,335 --> 00:21:01,650
+And so I wonder, like what kind
+of inspired you to try for
+
+448
+00:21:01,650 --> 00:21:06,570
+this again, after having such a
+bad experience in tech prior.
+
+449
+00:21:07,305 --> 00:21:10,514
+Joan: I guess I was desperate at
+the time that that I
+
+450
+00:21:10,514 --> 00:21:14,355
+enrolled in the bootcamp, I had
+lost my previous jobs.
+
+451
+00:21:14,955 --> 00:21:19,335
+The editing job came to an end
+and I was told that I
+
+452
+00:21:19,335 --> 00:21:20,895
+was not eligible for rehire.
+
+453
+00:21:20,899 --> 00:21:22,185
+I won't go into the reasons.
+
+454
+00:21:22,965 --> 00:21:26,475
+And then the other job, again,
+as I said, the accommodation
+
+455
+00:21:26,475 --> 00:21:27,855
+was very reluctant.
+
+456
+00:21:28,830 --> 00:21:30,660
+And I felt unwelcome.
+
+457
+00:21:31,050 --> 00:21:33,240
+I just felt that the, the time
+had come for
+
+458
+00:21:33,245 --> 00:21:34,170
+that job to end too.
+
+459
+00:21:34,170 --> 00:21:37,260
+So I didn't have any work and I
+felt that I could,
+
+460
+00:21:37,260 --> 00:21:40,440
+and I thought, you know, if
+there's such a demand for
+
+461
+00:21:40,445 --> 00:21:44,670
+web developers, good, because
+this is a job that I can do.
+
+462
+00:21:44,670 --> 00:21:46,890
+All I need is the instruction on
+the latest techniques.
+
+463
+00:21:47,685 --> 00:21:50,504
+Bekah: So then you're back in
+this situation again, right.
+
+464
+00:21:50,895 --> 00:21:55,564
+And you've kind of are reliving
+this trauma in a
+
+465
+00:21:55,570 --> 00:22:00,615
+new way and you are stuck
+because what you thought was
+
+466
+00:22:00,615 --> 00:22:02,284
+going to happen, just got.
+
+467
+00:22:02,835 --> 00:22:04,755
+Totally taken away from you.
+
+468
+00:22:05,115 --> 00:22:09,105
+And then you decided you were
+gonna keep going forward, right?
+
+469
+00:22:09,435 --> 00:22:09,705
+That
+
+470
+00:22:09,705 --> 00:22:10,305
+Joan: is correct.
+
+471
+00:22:10,485 --> 00:22:11,325
+Shall I go on?
+
+472
+00:22:12,705 --> 00:22:14,815
+Yeah, I wanna know do that.
+
+473
+00:22:15,675 --> 00:22:17,175
+Bekah: You still are looking for
+those jobs.
+
+474
+00:22:17,175 --> 00:22:18,455
+That was still the inspiration
+here.
+
+475
+00:22:19,395 --> 00:22:22,185
+Joan: I still felt that a coding
+boot camp was the way to go.
+
+476
+00:22:22,725 --> 00:22:26,355
+So I kept on researching coding,
+boot camps to see if there was
+
+477
+00:22:26,355 --> 00:22:30,794
+one nearby or one that I could
+take remotely or whatever.
+
+478
+00:22:31,395 --> 00:22:35,774
+And so at the end of 2015, I
+discovered that there
+
+479
+00:22:35,774 --> 00:22:39,254
+was a boot camp network called
+the iron yard.
+
+480
+00:22:39,860 --> 00:22:43,040
+That was all over the country,
+but was just planning to
+
+481
+00:22:43,040 --> 00:22:44,990
+get started in Minneapolis.
+
+482
+00:22:45,560 --> 00:22:47,929
+And I thought, okay, let's get
+on in, on the
+
+483
+00:22:47,929 --> 00:22:49,010
+ground level on that.
+
+484
+00:22:49,010 --> 00:22:49,730
+So I did.
+
+485
+00:22:50,060 --> 00:22:54,169
+So I went and I went to the, get
+acquainted meetings,
+
+486
+00:22:54,175 --> 00:22:58,100
+get acquainted with the iron
+yard meetings and I applied.
+
+487
+00:22:58,129 --> 00:23:00,740
+And again, I took another
+bootcamp later, but
+
+488
+00:23:00,740 --> 00:23:02,750
+we'll get into that, but it
+seems that that the
+
+489
+00:23:02,750 --> 00:23:05,120
+bootcamps have a, um, long.
+
+490
+00:23:05,640 --> 00:23:10,020
+Intake process by which they
+want to make sure that you
+
+491
+00:23:10,020 --> 00:23:13,440
+have the aptitude to do code and
+that you have at least
+
+492
+00:23:13,440 --> 00:23:15,180
+the enthusiasm to do code.
+
+493
+00:23:15,510 --> 00:23:19,620
+So there was a long process by
+which I had to
+
+494
+00:23:19,680 --> 00:23:23,310
+meet these requirements and I
+did fairly easily.
+
+495
+00:23:23,940 --> 00:23:26,520
+And so I was accepted into the
+iron yard.
+
+496
+00:23:27,080 --> 00:23:28,850
+In early 2016.
+
+497
+00:23:29,419 --> 00:23:33,800
+And again, I waited until the
+last minute and I
+
+498
+00:23:33,800 --> 00:23:35,840
+said, I want to meet with the
+campus director.
+
+499
+00:23:36,200 --> 00:23:39,110
+And I met with the campus
+director and I told the campus
+
+500
+00:23:39,110 --> 00:23:40,460
+director of the iron yard.
+
+501
+00:23:40,639 --> 00:23:42,110
+I have food allergies.
+
+502
+00:23:43,390 --> 00:23:44,920
+And I need accommodation.
+
+503
+00:23:44,920 --> 00:23:48,400
+And as soon as those words are
+out, we're out, the campus
+
+504
+00:23:48,400 --> 00:23:51,310
+director said, okay, here is
+what we're going to do for you.
+
+505
+00:23:51,790 --> 00:23:54,610
+We are going to have no food in
+the classroom.
+
+506
+00:23:54,820 --> 00:23:57,310
+We are going to notify all the
+students.
+
+507
+00:23:57,310 --> 00:23:59,710
+They are not to bring any food
+into the classroom.
+
+508
+00:23:59,900 --> 00:24:02,330
+They're not to bring any food in
+any of their backpacks.
+
+509
+00:24:02,750 --> 00:24:05,750
+They're only to eat in a, in
+designated areas,
+
+510
+00:24:05,750 --> 00:24:07,250
+outside the classroom.
+
+511
+00:24:07,640 --> 00:24:10,610
+And she said, and if you have
+any trouble with that or
+
+512
+00:24:10,610 --> 00:24:13,850
+have any problems whatsoever,
+you come and talk to me.
+
+513
+00:24:15,135 --> 00:24:17,595
+That was very different than my
+previous studio.
+
+514
+00:24:17,595 --> 00:24:17,804
+That sounds
+
+515
+00:24:18,074 --> 00:24:18,274
+Dan: better
+
+516
+00:24:20,834 --> 00:24:24,165
+. Joan: So I did go to the iron
+yard and the conditions were, as
+
+517
+00:24:24,165 --> 00:24:27,794
+they said, and again, the campus
+director and the instructor
+
+518
+00:24:27,794 --> 00:24:30,105
+said, you know, we are where you
+have food allergies.
+
+519
+00:24:30,105 --> 00:24:32,235
+If you have any problems, you,
+you, you come to us.
+
+520
+00:24:32,235 --> 00:24:35,774
+I never had any problems because
+the students were very diligent.
+
+521
+00:24:36,110 --> 00:24:39,530
+About observing the rules and
+that was fine and
+
+522
+00:24:39,530 --> 00:24:41,300
+they didn't seem to have any
+problems with it.
+
+523
+00:24:41,300 --> 00:24:41,960
+That was great.
+
+524
+00:24:42,320 --> 00:24:44,990
+So I started the, the iron yard
+in June and
+
+525
+00:24:44,995 --> 00:24:46,520
+graduated in September.
+
+526
+00:24:47,420 --> 00:24:50,180
+Then I started applying for jobs
+and they had, you know,
+
+527
+00:24:50,540 --> 00:24:53,660
+the part of the program was job
+coaching and all this sort
+
+528
+00:24:53,660 --> 00:24:54,530
+of thing, which was great.
+
+529
+00:24:55,615 --> 00:24:59,605
+And then I did apply for a job
+at, at a certain company.
+
+530
+00:24:59,605 --> 00:25:00,475
+I won't name it.
+
+531
+00:25:00,534 --> 00:25:03,055
+I, I applied for a job at a
+certain company.
+
+532
+00:25:03,445 --> 00:25:05,815
+They said it was a front end
+development job.
+
+533
+00:25:05,875 --> 00:25:08,365
+Mine was, I just got a
+certificate in
+
+534
+00:25:08,365 --> 00:25:09,205
+front end development.
+
+535
+00:25:09,205 --> 00:25:09,865
+Wonderful.
+
+536
+00:25:09,865 --> 00:25:10,855
+Let's go for it.
+
+537
+00:25:11,725 --> 00:25:14,185
+All of the intake was remote.
+
+538
+00:25:14,804 --> 00:25:16,665
+Every single bit of the intake
+was remote.
+
+539
+00:25:16,665 --> 00:25:22,125
+I did not see a single employee
+face to face until my first
+
+540
+00:25:22,125 --> 00:25:23,355
+official day at the job.
+
+541
+00:25:24,014 --> 00:25:28,064
+Everything was remote and the
+induction process was long.
+
+542
+00:25:28,064 --> 00:25:29,264
+It was a couple of months.
+
+543
+00:25:29,745 --> 00:25:32,355
+They did a thorough background
+check and I had to pass
+
+544
+00:25:32,355 --> 00:25:34,155
+the background check, which I
+did, but then again,
+
+545
+00:25:34,155 --> 00:25:37,395
+that took a month and then
+finally they gave me an.
+
+546
+00:25:38,350 --> 00:25:39,520
+I accepted the offer.
+
+547
+00:25:39,520 --> 00:25:42,550
+I signed the employment
+contract, and then only
+
+548
+00:25:42,550 --> 00:25:45,429
+after that, I said, I need
+accommodation
+
+549
+00:25:45,429 --> 00:25:46,510
+for my food allergies.
+
+550
+00:25:47,169 --> 00:25:50,379
+So I was put in touch with the
+executive.
+
+551
+00:25:50,470 --> 00:25:53,710
+This, this is a big
+multinational company and
+
+552
+00:25:53,710 --> 00:25:56,710
+I was put in touch with the
+executive in charge of
+
+553
+00:25:56,710 --> 00:25:58,090
+employees with disabilities.
+
+554
+00:25:58,909 --> 00:26:01,070
+And she said, okay, to
+accommodate you.
+
+555
+00:26:01,070 --> 00:26:02,209
+We have to have a doctor's note.
+
+556
+00:26:02,209 --> 00:26:03,260
+We have a certain form.
+
+557
+00:26:03,620 --> 00:26:06,020
+You can have the doctor fill out
+and fax it back to us.
+
+558
+00:26:06,560 --> 00:26:07,250
+That's fine.
+
+559
+00:26:07,250 --> 00:26:08,419
+They emailed me the form.
+
+560
+00:26:08,419 --> 00:26:09,350
+I printed it out.
+
+561
+00:26:09,709 --> 00:26:12,560
+Fortunately, my doctor had an
+appointment on the same day.
+
+562
+00:26:12,919 --> 00:26:15,139
+I went to the doctor, she filled
+out the form.
+
+563
+00:26:15,350 --> 00:26:17,449
+She, she faxed it in.
+
+564
+00:26:17,959 --> 00:26:20,990
+I faxed it in  to, to make sure
+that they got it.
+
+565
+00:26:20,990 --> 00:26:23,870
+I also scanned it and emailed it
+to make sure that they got it.
+
+566
+00:26:24,379 --> 00:26:25,340
+They told me that they got.
+
+567
+00:26:25,975 --> 00:26:27,685
+That the accommodations were
+there.
+
+568
+00:26:27,685 --> 00:26:29,635
+They were going to have signs
+up.
+
+569
+00:26:29,695 --> 00:26:33,145
+They were going to, to put me in
+the place that was the
+
+570
+00:26:33,445 --> 00:26:36,805
+most remote op the most remote
+desk from the lunchroom.
+
+571
+00:26:36,805 --> 00:26:37,945
+That's what they promised me.
+
+572
+00:26:38,155 --> 00:26:40,705
+They said there would be signs
+up for people to, to say,
+
+573
+00:26:40,710 --> 00:26:43,645
+there's someone with food
+allergies here, please confine
+
+574
+00:26:43,645 --> 00:26:47,305
+your food to the lunchroom areas
+and don't bring any nuts
+
+575
+00:26:47,305 --> 00:26:50,635
+and peanuts into the, into the
+AR in the work areas at all.
+
+576
+00:26:50,905 --> 00:26:52,585
+They said, this was all going to
+happen.
+
+577
+00:26:52,985 --> 00:26:57,814
+So I went there and I had a
+week's orientation at
+
+578
+00:26:57,814 --> 00:27:01,445
+the headquarters, which, which
+was fine and the
+
+579
+00:27:01,445 --> 00:27:02,975
+environment was okay.
+
+580
+00:27:02,975 --> 00:27:05,135
+And they did pay attention to my
+allergies though.
+
+581
+00:27:05,139 --> 00:27:06,725
+I had to remind them a couple of
+times.
+
+582
+00:27:07,264 --> 00:27:10,834
+And then I got to the first day
+on the site of the job where I
+
+583
+00:27:10,840 --> 00:27:14,584
+was going to be at and welcome.
+
+584
+00:27:14,584 --> 00:27:15,604
+Got my badge.
+
+585
+00:27:16,320 --> 00:27:17,370
+Showing my desk.
+
+586
+00:27:17,910 --> 00:27:18,330
+Okay.
+
+587
+00:27:18,330 --> 00:27:22,170
+First thing I do is of course I
+wash off the desk in case
+
+588
+00:27:22,170 --> 00:27:24,630
+the, the previous occupant had
+crumbs or anything.
+
+589
+00:27:25,020 --> 00:27:27,750
+So I'm washing off the desk and
+my supervisor comes up to me and
+
+590
+00:27:27,750 --> 00:27:31,800
+says, oh, I need to, to inform
+you that we share desks here.
+
+591
+00:27:31,800 --> 00:27:33,090
+And I said that, well, that's
+fine.
+
+592
+00:27:33,095 --> 00:27:36,120
+But the person who is sharing my
+desk will have to be very
+
+593
+00:27:36,120 --> 00:27:39,060
+diligent because I have food
+allergies and can't have
+
+594
+00:27:39,060 --> 00:27:40,170
+nuts and peanuts in the area.
+
+595
+00:27:40,770 --> 00:27:43,110
+And he said, oh, no one told me
+about that.
+
+596
+00:27:44,265 --> 00:27:46,275
+And also there were no signs up.
+
+597
+00:27:47,115 --> 00:27:49,425
+And also my desk was not the
+farthest one
+
+598
+00:27:49,425 --> 00:27:50,385
+away from the lunchroom.
+
+599
+00:27:51,255 --> 00:27:51,465
+Wow.
+
+600
+00:27:52,035 --> 00:27:53,895
+Bekah: So all of the
+accommodations
+
+601
+00:27:53,900 --> 00:27:56,565
+Joan: that did not happen.
+
+602
+00:27:56,565 --> 00:28:00,855
+And then a week later, my
+supervisor asked me to come
+
+603
+00:28:00,855 --> 00:28:03,345
+into a conference room and meet
+with me privately.
+
+604
+00:28:03,345 --> 00:28:04,845
+So I meet with him privately.
+
+605
+00:28:05,175 --> 00:28:06,825
+And he said you can't work.
+
+606
+00:28:08,054 --> 00:28:13,574
+So basically I was sent home to
+await an assignment.
+
+607
+00:28:14,504 --> 00:28:15,975
+I waited for a year.
+
+608
+00:28:16,514 --> 00:28:19,215
+They did not have an assignment
+for me that they felt that
+
+609
+00:28:19,215 --> 00:28:21,955
+they could put me into, and then
+they laid me off.
+
+610
+00:28:23,040 --> 00:28:27,810
+Dan: Ah,  so they sent you home
+just because they didn't
+
+611
+00:28:27,810 --> 00:28:29,400
+wanna deal with accommodating
+
+612
+00:28:29,400 --> 00:28:30,840
+Joan: you or they didn't wanna
+deal with the food
+
+613
+00:28:30,840 --> 00:28:31,710
+allergies situation.
+
+614
+00:28:31,710 --> 00:28:31,950
+No.
+
+615
+00:28:32,760 --> 00:28:32,850
+Gosh.
+
+616
+00:28:32,850 --> 00:28:33,240
+Is that what
+
+617
+00:28:33,240 --> 00:28:33,990
+Bekah: they said?
+
+618
+00:28:33,990 --> 00:28:34,980
+What was the,
+
+619
+00:28:35,160 --> 00:28:37,860
+Joan: the reason, the reason was
+the food allergies.
+
+620
+00:28:38,340 --> 00:28:38,879
+Oh wow.
+
+621
+00:28:39,120 --> 00:28:40,890
+They said you, you, you can't
+work here.
+
+622
+00:28:40,895 --> 00:28:43,830
+We have food all over the place
+all the time we were, and we're
+
+623
+00:28:43,830 --> 00:28:45,270
+not, that's not gonna change.
+
+624
+00:28:45,870 --> 00:28:48,450
+Bekah: And you know, the thing
+here too, is.
+
+625
+00:28:49,665 --> 00:28:50,415
+First of all.
+
+626
+00:28:50,475 --> 00:28:53,835
+I'm sorry, this is something
+that you should never
+
+627
+00:28:53,835 --> 00:28:55,395
+have to go through at all.
+
+628
+00:28:55,395 --> 00:28:55,995
+Let alone.
+
+629
+00:28:56,550 --> 00:29:01,050
+Over a period of many years to
+have to push
+
+630
+00:29:01,050 --> 00:29:02,010
+through these challenges.
+
+631
+00:29:02,010 --> 00:29:05,400
+But also, you know, I've heard
+other people who need
+
+632
+00:29:05,405 --> 00:29:08,670
+accommodations for health
+reasons who have experienced
+
+633
+00:29:08,670 --> 00:29:12,090
+the same thing where they've
+been told, well, go home
+
+634
+00:29:12,120 --> 00:29:14,460
+and then we'll contact you when
+we have an assignment.
+
+635
+00:29:14,700 --> 00:29:17,580
+And then there's never an
+assignment for them.
+
+636
+00:29:17,580 --> 00:29:20,580
+And it is just, I wanna say a
+shame, but it's, it's,
+
+637
+00:29:20,580 --> 00:29:22,080
+it's, it's terrible, right?
+
+638
+00:29:22,080 --> 00:29:23,310
+It's way worse than a shame.
+
+639
+00:29:24,074 --> 00:29:26,925
+It's not okay at the very least,
+you know?
+
+640
+00:29:27,645 --> 00:29:28,034
+Okay.
+
+641
+00:29:28,034 --> 00:29:33,675
+So now you've navigated through
+yet another challenge and
+
+642
+00:29:33,735 --> 00:29:35,804
+somehow not given up hope.
+
+643
+00:29:35,865 --> 00:29:36,375
+Right.
+
+644
+00:29:37,125 --> 00:29:39,135
+And where does that take you
+next
+
+645
+00:29:39,824 --> 00:29:43,034
+Joan: about the time that I got
+laid off, the university
+
+646
+00:29:43,034 --> 00:29:46,574
+of Minnesota was offering.
+
+647
+00:29:47,400 --> 00:29:51,330
+A bootcamp locally and the price
+was right.
+
+648
+00:29:52,380 --> 00:29:56,310
+So I enrolled in their full
+stack bootcamp thinking
+
+649
+00:29:56,315 --> 00:29:58,770
+that, you know, I have front end
+development experience.
+
+650
+00:29:59,010 --> 00:30:02,190
+If I get full stack experience,
+that will expand the number
+
+651
+00:30:02,190 --> 00:30:03,930
+of jobs I'm able to apply to.
+
+652
+00:30:04,710 --> 00:30:07,350
+So I enrolled in that bootcamp.
+
+653
+00:30:07,765 --> 00:30:09,985
+They did accommodate me.
+
+654
+00:30:10,225 --> 00:30:12,865
+I did have to remind them a few
+times, but you know, they did
+
+655
+00:30:12,865 --> 00:30:15,325
+accommodate me and I graduated.
+
+656
+00:30:15,385 --> 00:30:19,225
+I started that in, uh, March of
+2018, about the
+
+657
+00:30:19,225 --> 00:30:20,515
+time that I was laid off.
+
+658
+00:30:20,515 --> 00:30:24,745
+And then that wa that ended at
+the end of July in 2018.
+
+659
+00:30:25,435 --> 00:30:30,325
+So I graduated from that and all
+the time that I was going
+
+660
+00:30:30,325 --> 00:30:32,875
+through the bootcamp and
+learning through the bootcamp,
+
+661
+00:30:33,445 --> 00:30:35,065
+I was also looking for work.
+
+662
+00:30:35,760 --> 00:30:36,630
+All the time.
+
+663
+00:30:37,500 --> 00:30:42,180
+And I have been looking for work
+ever since I was
+
+664
+00:30:42,180 --> 00:30:45,930
+laid off in March of 2018.
+
+665
+00:30:46,560 --> 00:30:52,200
+And I have kept track of the
+number of jobs that I have
+
+666
+00:30:52,200 --> 00:30:57,030
+been applying to because I was
+sort of curious as to how
+
+667
+00:30:57,420 --> 00:31:00,750
+many jobs or how long that I
+would have to apply before
+
+668
+00:31:00,750 --> 00:31:03,630
+I got a job this morning.
+
+669
+00:31:05,100 --> 00:31:10,590
+I filled out my 532nd job
+application.
+
+670
+00:31:11,370 --> 00:31:14,970
+That's how many jobs that I have
+applied to since I was laid off.
+
+671
+00:31:15,870 --> 00:31:19,620
+So I am still applying for jobs.
+
+672
+00:31:19,625 --> 00:31:21,870
+I have done some freelance work.
+
+673
+00:31:22,710 --> 00:31:27,330
+In between, but when the
+pandemic came last year,
+
+674
+00:31:27,330 --> 00:31:29,220
+those dried up pretty quickly.
+
+675
+00:31:29,220 --> 00:31:34,380
+So I didn't even have any
+freelance work to do so that's
+
+676
+00:31:34,590 --> 00:31:36,570
+pretty much where I am now.
+
+677
+00:31:37,110 --> 00:31:39,210
+I am still applying for jobs.
+
+678
+00:31:40,365 --> 00:31:42,405
+Still hoping that someone will
+hire me.
+
+679
+00:31:43,185 --> 00:31:46,575
+I don't know if you want me to
+go on the podcast
+
+680
+00:31:46,575 --> 00:31:50,655
+and relate my terrible
+experience of last month.
+
+681
+00:31:51,735 --> 00:31:54,345
+which you heard about at the
+Virtual Coffee?
+
+682
+00:31:54,405 --> 00:31:55,754
+I can, if you wish.
+
+683
+00:31:56,030 --> 00:31:58,220
+Bekah: I think that's really a
+part of your story and
+
+684
+00:31:58,220 --> 00:31:59,750
+you face so many challenges.
+
+685
+00:31:59,750 --> 00:32:02,180
+And so if that's something
+you're willing to share,
+
+686
+00:32:02,180 --> 00:32:04,760
+I would love for you to talk
+about that too.
+
+687
+00:32:04,820 --> 00:32:05,090
+I am
+
+688
+00:32:05,090 --> 00:32:07,940
+Joan: certainly willing to share
+this because I was told
+
+689
+00:32:07,945 --> 00:32:11,000
+when I made the call and I'll
+get into that in a moment that
+
+690
+00:32:11,000 --> 00:32:16,760
+this was a very common scam that
+people who are applying
+
+691
+00:32:16,765 --> 00:32:19,790
+for check jobs, run into.
+
+692
+00:32:20,510 --> 00:32:21,170
+So.
+
+693
+00:32:21,405 --> 00:32:28,094
+At my 521st application, I got a
+note saying that they wanted to
+
+694
+00:32:28,094 --> 00:32:30,074
+interview me, which was great.
+
+695
+00:32:30,080 --> 00:32:32,145
+I mean, I've, I've been on your
+interviews.
+
+696
+00:32:32,745 --> 00:32:35,445
+Haven't gotten hired, but I've
+got, I've had some interviews.
+
+697
+00:32:35,925 --> 00:32:39,465
+So they, they asked me to
+interview and I
+
+698
+00:32:39,465 --> 00:32:40,784
+responded to the interview.
+
+699
+00:32:40,814 --> 00:32:43,334
+It was a set of written
+questions, written interview
+
+700
+00:32:43,334 --> 00:32:46,064
+questions that they asked me to
+return and I returned them.
+
+701
+00:32:47,425 --> 00:32:50,215
+And then, then after I returned
+them, you know,
+
+702
+00:32:50,215 --> 00:32:52,225
+there was an interview and then
+they said I was hired
+
+703
+00:32:52,675 --> 00:32:53,785
+and I was just thrilled.
+
+704
+00:32:54,205 --> 00:32:58,435
+I thought I, I was hired now
+this, this job was posted on
+
+705
+00:32:58,555 --> 00:33:02,365
+Glassdoor, which is a reputable
+place for posting jobs.
+
+706
+00:33:03,540 --> 00:33:05,520
+The name of the company was
+genuine.
+
+707
+00:33:05,820 --> 00:33:09,000
+They took the name of a company
+of a genuine company in Austin.
+
+708
+00:33:09,000 --> 00:33:14,190
+Texas gave me the genuine name
+and address the employment
+
+709
+00:33:14,190 --> 00:33:19,140
+contract, which they gave me was
+a standard tech
+
+710
+00:33:19,320 --> 00:33:22,020
+employment contract, looked like
+any other tech employment
+
+711
+00:33:22,020 --> 00:33:23,520
+contract that I had signed.
+
+712
+00:33:23,970 --> 00:33:26,070
+I signed it and sent it back to
+them.
+
+713
+00:33:26,490 --> 00:33:29,880
+By email, all this remote stuff
+was not unusual because I had
+
+714
+00:33:29,880 --> 00:33:32,940
+gone through this with this
+other company where everything
+
+715
+00:33:32,940 --> 00:33:34,500
+in the onboarding was remote.
+
+716
+00:33:35,250 --> 00:33:37,590
+The email address looked like.
+
+717
+00:33:38,385 --> 00:33:42,795
+The email that would be from the
+HR, from this company, uh, no
+
+718
+00:33:42,795 --> 00:33:44,055
+trouble with the email address.
+
+719
+00:33:44,055 --> 00:33:46,995
+Although the person that was
+supposedly my supervisor had
+
+720
+00:33:46,995 --> 00:33:51,045
+a non-company email, but you
+know that I've had freelance
+
+721
+00:33:51,045 --> 00:33:52,425
+jobs where that's happened too.
+
+722
+00:33:52,425 --> 00:33:56,055
+So that, that didn't raise any,
+any alarms with me.
+
+723
+00:33:57,075 --> 00:34:01,125
+So I thought, oh my goodness, I
+am finally hired.
+
+724
+00:34:01,125 --> 00:34:01,755
+Wonderful.
+
+725
+00:34:01,755 --> 00:34:03,285
+I've got an employment contract.
+
+726
+00:34:03,285 --> 00:34:04,185
+They said fine.
+
+727
+00:34:04,605 --> 00:34:06,315
+And it's for a remote job.
+
+728
+00:34:06,315 --> 00:34:07,035
+Great.
+
+729
+00:34:07,035 --> 00:34:08,895
+That's what I need a remote job.
+
+730
+00:34:09,345 --> 00:34:11,175
+And they said, you've gotta set
+up a home office.
+
+731
+00:34:11,175 --> 00:34:11,865
+Fine.
+
+732
+00:34:11,865 --> 00:34:12,915
+That's that's great.
+
+733
+00:34:12,945 --> 00:34:17,205
+And we want you to use company
+equipment that you buy from
+
+734
+00:34:17,205 --> 00:34:18,764
+our designated supplier.
+
+735
+00:34:19,095 --> 00:34:20,565
+That's not unusual either.
+
+736
+00:34:21,255 --> 00:34:24,135
+So they said we will send you a
+check.
+
+737
+00:34:24,900 --> 00:34:28,020
+And you will use that check to
+buy the equipment
+
+738
+00:34:28,020 --> 00:34:29,040
+for your home office.
+
+739
+00:34:29,280 --> 00:34:30,030
+Fine.
+
+740
+00:34:30,750 --> 00:34:34,020
+So they sent me the check and it
+came through the
+
+741
+00:34:34,020 --> 00:34:35,910
+post by priority mail.
+
+742
+00:34:35,940 --> 00:34:38,610
+It looked like a priority mail
+envelope, but the
+
+743
+00:34:38,610 --> 00:34:40,770
+address, the name and address on
+the check was not
+
+744
+00:34:40,775 --> 00:34:41,610
+the one of the companies.
+
+745
+00:34:42,415 --> 00:34:45,295
+So I emailed the person that was
+supposed to be my supervisor.
+
+746
+00:34:45,295 --> 00:34:49,405
+I said, this check is not from
+your company.
+
+747
+00:34:49,735 --> 00:34:51,655
+And he says, oh, that's one of
+our trust vendors.
+
+748
+00:34:51,655 --> 00:34:52,315
+Don't worry about it.
+
+749
+00:34:52,315 --> 00:34:52,915
+It's a good check.
+
+750
+00:34:53,155 --> 00:34:54,054
+I said, okay.
+
+751
+00:34:54,625 --> 00:34:58,855
+But I also looked at the address
+on the envelope and the address
+
+752
+00:34:58,855 --> 00:35:01,855
+on the envelope did not match
+the address on the check.
+
+753
+00:35:02,185 --> 00:35:03,565
+Which did not add none.
+
+754
+00:35:03,685 --> 00:35:05,845
+Neither of them matched the
+address from the company.
+
+755
+00:35:06,625 --> 00:35:10,615
+And I looked up on Google maps,
+the address, the return
+
+756
+00:35:10,615 --> 00:35:13,525
+address on the envelope, and it
+was a vacant lot.
+
+757
+00:35:14,065 --> 00:35:18,535
+And so my supervisor was, was
+saying, my supposed supervisor
+
+758
+00:35:18,540 --> 00:35:21,205
+was saying, okay, we want you to
+take the check to the bank.
+
+759
+00:35:21,715 --> 00:35:24,475
+We want you to email the
+receipt, the deposit receipt
+
+760
+00:35:24,475 --> 00:35:27,385
+to us so that we know that
+you've deposited the check.
+
+761
+00:35:27,955 --> 00:35:28,675
+I said fine.
+
+762
+00:35:29,005 --> 00:35:31,075
+So I went to the bank and I said
+to the banker, I.
+
+763
+00:35:32,145 --> 00:35:35,745
+I've been told trust, but verify
+there's, there's something about
+
+764
+00:35:35,835 --> 00:35:38,025
+this check that I questioned.
+
+765
+00:35:38,025 --> 00:35:40,485
+So what I would like you to do,
+this was on a Friday.
+
+766
+00:35:40,515 --> 00:35:44,535
+I said, what I'd like you to do
+is call the bank and see if
+
+767
+00:35:44,625 --> 00:35:47,505
+it's a legitimate account and
+that the funds are available.
+
+768
+00:35:48,190 --> 00:35:51,250
+And they said, well, this is
+Friday after three o'clock and
+
+769
+00:35:51,250 --> 00:35:55,210
+it was so, so we really don't
+expect a response until Monday.
+
+770
+00:35:55,540 --> 00:35:56,440
+I said, that's fine.
+
+771
+00:35:57,220 --> 00:36:00,490
+So on Saturday my supposed
+supervisor gets back to
+
+772
+00:36:00,490 --> 00:36:02,290
+me and he says, has the check
+been deposited?
+
+773
+00:36:02,290 --> 00:36:03,010
+I said, yes.
+
+774
+00:36:03,010 --> 00:36:04,720
+And I scanned the receipt and
+emailed it.
+
+775
+00:36:05,020 --> 00:36:06,640
+Did not have my full bank
+account number
+
+776
+00:36:06,645 --> 00:36:07,450
+on it, those seats.
+
+777
+00:36:07,450 --> 00:36:08,950
+So like felt safe in that.
+
+778
+00:36:09,850 --> 00:36:12,850
+So he says, well, we want you to
+get started right away.
+
+779
+00:36:12,850 --> 00:36:14,440
+So we want you to buy the
+equipment right away.
+
+780
+00:36:14,440 --> 00:36:14,980
+I said, fine.
+
+781
+00:36:14,980 --> 00:36:17,560
+He says, I'll put you in touch
+with our supplier.
+
+782
+00:36:17,680 --> 00:36:18,130
+Fine.
+
+783
+00:36:18,550 --> 00:36:21,160
+So it was a text message
+conversation.
+
+784
+00:36:21,670 --> 00:36:25,180
+So the text message says, I am
+George or whatever from a
+
+785
+00:36:25,180 --> 00:36:26,860
+one computer supply company.
+
+786
+00:36:27,490 --> 00:36:31,690
+And, uh, we want to deliver the
+equipment to you by 5:00 PM, but
+
+787
+00:36:31,690 --> 00:36:33,190
+we want you to pay for it first.
+
+788
+00:36:33,430 --> 00:36:35,620
+And we want you to withdraw the
+money in cash from
+
+789
+00:36:35,620 --> 00:36:38,590
+your bank, and then deposit it
+into our bank.
+
+790
+00:36:39,814 --> 00:36:43,924
+I said, okay, now I had checked
+my bank account
+
+791
+00:36:43,984 --> 00:36:47,404
+thing and it looked as if the
+check had gone through.
+
+792
+00:36:47,825 --> 00:36:48,964
+So I thought, okay.
+
+793
+00:36:48,970 --> 00:36:50,484
+It looks like the check has gone
+through, so I.
+
+794
+00:36:51,270 --> 00:36:54,570
+I drove to the bank and I said,
+remember that check.
+
+795
+00:36:54,810 --> 00:36:55,890
+I want to withdraw it.
+
+796
+00:36:56,009 --> 00:36:57,450
+She says, you, you can't.
+
+797
+00:36:58,140 --> 00:36:59,370
+I said, uh, why not?
+
+798
+00:36:59,640 --> 00:37:03,090
+It said on my, on your website,
+when I checked my account on
+
+799
+00:37:03,090 --> 00:37:05,880
+your website, that the money was
+available, she says, oh,
+
+800
+00:37:05,884 --> 00:37:07,350
+that that's, that's an error.
+
+801
+00:37:07,680 --> 00:37:08,580
+That was misleading.
+
+802
+00:37:08,580 --> 00:37:10,770
+I'm sorry that it still isn't,
+we're still waiting
+
+803
+00:37:10,770 --> 00:37:11,700
+for it to come through.
+
+804
+00:37:11,700 --> 00:37:13,190
+And we're still waiting to hear
+from the other.
+
+805
+00:37:14,220 --> 00:37:15,360
+And I said, okay.
+
+806
+00:37:15,840 --> 00:37:19,770
+And so I texted the supplier and
+I said, they won't
+
+807
+00:37:19,770 --> 00:37:20,880
+let me take out the money.
+
+808
+00:37:20,880 --> 00:37:22,290
+I'm I'm sorry, I can't do that.
+
+809
+00:37:22,295 --> 00:37:25,110
+And I never heard from the
+supplier or the supposed
+
+810
+00:37:25,110 --> 00:37:29,520
+thing again, Monday I called
+someone who was, who I
+
+811
+00:37:29,520 --> 00:37:33,960
+felt was knowledgeable in these
+sorts of situations.
+
+812
+00:37:34,620 --> 00:37:36,540
+And I said, look, here is what's
+happening.
+
+813
+00:37:36,810 --> 00:37:37,280
+And she.
+
+814
+00:37:38,190 --> 00:37:40,440
+Called the Minnesota attorney
+general right away.
+
+815
+00:37:41,160 --> 00:37:45,960
+And so I did, and I explained my
+situation and he, he
+
+816
+00:37:45,960 --> 00:37:47,069
+said, you've been scammed.
+
+817
+00:37:47,460 --> 00:37:49,080
+He said, this is a common scam.
+
+818
+00:37:49,109 --> 00:37:53,130
+He said, what job title did they
+hire you for?
+
+819
+00:37:53,580 --> 00:37:55,080
+And I said, software engineer.
+
+820
+00:37:55,200 --> 00:37:57,870
+He says, this is a common scam
+for the software engineers.
+
+821
+00:37:58,350 --> 00:38:01,529
+He says you were lucky that the
+bank didn't allow you to
+
+822
+00:38:01,529 --> 00:38:04,680
+take out that money in cash,
+because otherwise you would be
+
+823
+00:38:04,740 --> 00:38:06,209
+held responsible for that money.
+
+824
+00:38:07,049 --> 00:38:11,100
+It was $6,000  he said, and, and
+file a report with the
+
+825
+00:38:11,779 --> 00:38:13,080
+FTC and the FBI, which I did.
+
+826
+00:38:13,830 --> 00:38:14,190
+Did the
+
+827
+00:38:14,190 --> 00:38:16,320
+Dan: FBI have anything to like
+similar things to say,
+
+828
+00:38:16,320 --> 00:38:19,290
+Joan: or I filed the reports
+online and neither of them
+
+829
+00:38:19,290 --> 00:38:20,520
+have gotten back to me.
+
+830
+00:38:21,090 --> 00:38:24,240
+And both sites said, uh, you
+know, when you file a
+
+831
+00:38:24,240 --> 00:38:26,610
+report for us, we might not get
+back to you on this.
+
+832
+00:38:27,210 --> 00:38:29,970
+We'll do our best, but you know,
+don't expect us to,
+
+833
+00:38:30,060 --> 00:38:31,140
+to get back to you, but.
+
+834
+00:38:31,555 --> 00:38:34,525
+Thank you for filing and excuse
+me, here's a copy so that you
+
+835
+00:38:34,525 --> 00:38:37,705
+know that you have a record of
+filing the report with us,
+
+836
+00:38:37,705 --> 00:38:39,205
+but that was pretty much it.
+
+837
+00:38:39,205 --> 00:38:41,125
+And as I said, I never heard
+from them again.
+
+838
+00:38:41,635 --> 00:38:44,755
+So I was all excited to, I
+thought someone was finally
+
+839
+00:38:44,760 --> 00:38:46,195
+going to hire me and then.
+
+840
+00:38:46,680 --> 00:38:49,560
+Someone didn't and I had never
+heard about this scam before.
+
+841
+00:38:49,560 --> 00:38:52,950
+I mean, I've heard of other
+scams, and so I've been aware of
+
+842
+00:38:53,009 --> 00:38:55,860
+people trying to take advantage
+of me, but this one I had
+
+843
+00:38:55,860 --> 00:38:58,200
+not heard of bef ever before.
+
+844
+00:38:58,920 --> 00:39:03,150
+And it was just not something
+that I expected.
+
+845
+00:39:04,335 --> 00:39:05,895
+. Bekah: No, I had never heard
+of that.
+
+846
+00:39:05,895 --> 00:39:10,634
+And I think, you know, as you're
+telling the story, number one, I
+
+847
+00:39:10,634 --> 00:39:15,285
+never would've noticed that the
+addresses were different for me.
+
+848
+00:39:15,285 --> 00:39:17,535
+I just probably would've taken
+it to the bank
+
+849
+00:39:17,535 --> 00:39:18,734
+and did what they said.
+
+850
+00:39:18,734 --> 00:39:22,245
+So, I mean, I think that on top
+of everything else, you
+
+851
+00:39:22,245 --> 00:39:26,025
+took such careful steps, which
+of course you never
+
+852
+00:39:26,025 --> 00:39:27,225
+should even have to do.
+
+853
+00:39:27,225 --> 00:39:27,585
+Right?
+
+854
+00:39:27,585 --> 00:39:30,134
+Like this whole entire story.
+
+855
+00:39:31,425 --> 00:39:38,085
+So much extra work and stress
+and conflict is being put on you
+
+856
+00:39:38,625 --> 00:39:41,535
+as you're trying to get a job.
+
+857
+00:39:41,685 --> 00:39:44,355
+And I just wanna say that, you
+know, I think.
+
+858
+00:39:44,790 --> 00:39:48,540
+Your ability to continue to move
+forward and to talk about
+
+859
+00:39:48,600 --> 00:39:53,790
+it and to openly share it is so
+inspirational, I guess.
+
+860
+00:39:54,100 --> 00:39:58,950
+I mean, to see you moving
+forward is, is something that
+
+861
+00:39:58,950 --> 00:40:00,840
+I really appreciate you talking
+
+862
+00:40:00,845 --> 00:40:00,940
+Joan: about.
+
+863
+00:40:01,725 --> 00:40:02,565
+Well, thank you.
+
+864
+00:40:02,715 --> 00:40:04,215
+I'm happy to share my story.
+
+865
+00:40:04,245 --> 00:40:08,115
+And I hope that the, I hope that
+others are able to get
+
+866
+00:40:08,115 --> 00:40:09,105
+something out of it anyway.
+
+867
+00:40:10,155 --> 00:40:10,905
+Dan: Oh, absolutely.
+
+868
+00:40:10,905 --> 00:40:15,675
+And it's it's I just like this
+approach is just like,
+
+869
+00:40:16,275 --> 00:40:18,345
+so I don't know, evil.
+
+870
+00:40:18,795 --> 00:40:19,965
+I'm trying to think of a good
+word for it.
+
+871
+00:40:19,965 --> 00:40:22,995
+You know, you know, I've, I've
+heard of this scam, not
+
+872
+00:40:22,995 --> 00:40:23,865
+this scam, but I've heard of.
+
+873
+00:40:24,175 --> 00:40:26,005
+The way, the check part of it
+worked, right.
+
+874
+00:40:26,095 --> 00:40:28,795
+You know, deposit a check, take
+the cash out, give it to me.
+
+875
+00:40:28,795 --> 00:40:30,175
+And then they cancel the check
+thing.
+
+876
+00:40:30,595 --> 00:40:33,985
+But targeting people, looking
+for jobs is like,
+
+877
+00:40:34,765 --> 00:40:36,255
+uh, you know, I don't know.
+
+878
+00:40:36,455 --> 00:40:36,815
+I dunno.
+
+879
+00:40:36,820 --> 00:40:38,065
+It's just, uh, shameful
+
+880
+00:40:38,935 --> 00:40:43,075
+Joan: using a legitimate site
+for job postings using the
+
+881
+00:40:43,105 --> 00:40:45,745
+name of a legitimate company.
+
+882
+00:40:46,075 --> 00:40:46,195
+Oh
+
+883
+00:40:46,195 --> 00:40:46,615
+Dan: yeah.
+
+884
+00:40:46,945 --> 00:40:48,445
+I mean, that was going to be
+another question I was
+
+885
+00:40:48,445 --> 00:40:50,605
+going to ask was if you had
+reached out to Glassdoor
+
+886
+00:40:50,610 --> 00:40:53,065
+through all this, or mean after
+it happened at all.
+
+887
+00:40:53,595 --> 00:40:56,415
+Joan: I went to Glassdoor and
+found that the job
+
+888
+00:40:56,415 --> 00:40:58,065
+posting had been taken down.
+
+889
+00:40:58,695 --> 00:41:02,775
+And I felt that they probably
+knew about that from that the,
+
+890
+00:41:02,780 --> 00:41:07,395
+the job posting did, did not
+exist anymore, but I mean, they
+
+891
+00:41:07,395 --> 00:41:11,175
+were slick in the fact that they
+used a legitimate job posting
+
+892
+00:41:11,175 --> 00:41:14,535
+site that they used the name and
+a, the actual name and address
+
+893
+00:41:14,535 --> 00:41:17,805
+of a legitimate company that
+they used a legitimate looking.
+
+894
+00:41:18,315 --> 00:41:22,995
+Employment contract and that at
+least the HR, the
+
+895
+00:41:22,995 --> 00:41:26,475
+supposed HR person seemed to
+have a legitimate
+
+896
+00:41:26,505 --> 00:41:27,995
+company email address.
+
+897
+00:41:28,680 --> 00:41:29,070
+Dan: Wow.
+
+898
+00:41:29,610 --> 00:41:31,590
+Yeah, the criminals, I'm sure
+they're making a lot of money,
+
+899
+00:41:31,620 --> 00:41:35,700
+you know, scamming people like
+this, it's just the emotional
+
+900
+00:41:35,700 --> 00:41:38,880
+place that people who are doing
+the job seeking is in, cause
+
+901
+00:41:38,885 --> 00:41:43,020
+we've talked to people who have
+done a lot of applications
+
+902
+00:41:43,020 --> 00:41:46,050
+and this long process and, you
+know, everyone of them
+
+903
+00:41:46,050 --> 00:41:48,120
+has shared how hard it is, you
+know, how the struggle
+
+904
+00:41:48,120 --> 00:41:50,220
+it is emotionally draining and
+everything like that.
+
+905
+00:41:50,220 --> 00:41:53,850
+And so I would imagine your
+defenses are kind of lower
+
+906
+00:41:53,850 --> 00:41:57,150
+than they would be normally
+anyway, you know, so.
+
+907
+00:41:57,975 --> 00:42:00,285
+It's tough, but I would echo
+what Bekah said is
+
+908
+00:42:00,285 --> 00:42:01,515
+just thank you for sharing.
+
+909
+00:42:01,634 --> 00:42:04,845
+That's this part of the story,
+because, uh, knowing about it is
+
+910
+00:42:04,845 --> 00:42:07,305
+like probably the best defense
+for, for other people at least.
+
+911
+00:42:07,365 --> 00:42:07,485
+Oh yes.
+
+912
+00:42:07,485 --> 00:42:10,935
+You know, I'm spreading the word
+about it, so yeah.
+
+913
+00:42:10,935 --> 00:42:11,595
+It's, it's scary though.
+
+914
+00:42:12,105 --> 00:42:12,675
+Yeah, it is.
+
+915
+00:42:13,215 --> 00:42:13,695
+I don't like it.
+
+916
+00:42:15,405 --> 00:42:15,585
+Bekah: Okay.
+
+917
+00:42:15,765 --> 00:42:18,405
+So now you're here, Joan.
+
+918
+00:42:19,035 --> 00:42:21,105
+And what is your hope
+
+919
+00:42:21,105 --> 00:42:21,935
+Joan: for the future?
+
+920
+00:42:22,470 --> 00:42:23,940
+I'm still applying for jobs.
+
+921
+00:42:24,779 --> 00:42:28,620
+, I'm, I'm hoping that that
+someone will hire me somewhere.
+
+922
+00:42:28,830 --> 00:42:31,440
+It's pretty much all I can do at
+this point,
+
+923
+00:42:31,440 --> 00:42:33,240
+because I, I do need a job.
+
+924
+00:42:33,810 --> 00:42:34,799
+I want a job.
+
+925
+00:42:34,920 --> 00:42:38,129
+I would like to work, but
+because of my limitations,
+
+926
+00:42:38,129 --> 00:42:41,549
+I do need a remote position that
+limits the number of.
+
+927
+00:42:41,940 --> 00:42:46,500
+Jobs that I can apply for, but
+I'm, I'm still applying
+
+928
+00:42:46,710 --> 00:42:49,140
+and that's all I can do is just
+move forward.
+
+929
+00:42:49,980 --> 00:42:51,300
+Bekah: And what kind of keeps
+you going?
+
+930
+00:42:51,300 --> 00:42:55,110
+Is there, like what powers your
+motivation or your perseverance
+
+931
+00:42:55,170 --> 00:42:56,700
+to keep pushing forward?
+
+932
+00:42:57,690 --> 00:43:00,780
+Joan: I'm just that sort of
+person that, you know,
+
+933
+00:43:00,780 --> 00:43:05,040
+if someone says, well, you know,
+you can't do that.
+
+934
+00:43:05,040 --> 00:43:07,860
+And there's a lot of obstacles
+and you know, there's,
+
+935
+00:43:08,520 --> 00:43:09,630
+are you sure you wanna do?
+
+936
+00:43:09,870 --> 00:43:11,880
+I'm just the sort of person who
+says the heck with it.
+
+937
+00:43:13,500 --> 00:43:14,250
+I'm doing it.
+
+938
+00:43:14,250 --> 00:43:15,060
+I wanna do it.
+
+939
+00:43:15,065 --> 00:43:15,900
+I'm going to do it.
+
+940
+00:43:15,940 --> 00:43:17,730
+I'm I'm do it.
+
+941
+00:43:17,730 --> 00:43:18,210
+You know what?
+
+942
+00:43:18,480 --> 00:43:19,980
+A couple, some people have asked
+me.
+
+943
+00:43:20,799 --> 00:43:25,420
+I've gone to events where I have
+re related that, that I got my
+
+944
+00:43:25,420 --> 00:43:28,960
+bachelor's degree in physics,
+that I was the only woman quite
+
+945
+00:43:28,960 --> 00:43:31,210
+often in the, in the classroom.
+
+946
+00:43:31,690 --> 00:43:34,240
+And I've been asked, you know,
+well, you know, how
+
+947
+00:43:34,240 --> 00:43:35,560
+did you feel about that?
+
+948
+00:43:36,225 --> 00:43:39,585
+And I said, well, I thought, you
+know, if they didn't
+
+949
+00:43:39,585 --> 00:43:40,875
+like it, that was tough.
+
+950
+00:43:47,895 --> 00:43:51,345
+I mean, no, I mean, I guess I
+was fortunate in that, that
+
+951
+00:43:51,345 --> 00:43:54,525
+nobody discouraged me from
+getting a bachelor's degree in
+
+952
+00:43:54,525 --> 00:43:57,765
+physics because I was a woman
+or, or looked down down on me
+
+953
+00:43:57,765 --> 00:44:00,255
+while I was getting my degree
+into this because I was a woman.
+
+954
+00:44:00,799 --> 00:44:03,680
+But I, I have heard that other
+women who are trying to get
+
+955
+00:44:03,680 --> 00:44:06,350
+degrees in sciences have had a
+real, really tough time.
+
+956
+00:44:06,740 --> 00:44:08,750
+I didn't, but I was prepared for
+it.
+
+957
+00:44:08,750 --> 00:44:11,120
+And I thought, you know, even if
+they did to heck with
+
+958
+00:44:11,120 --> 00:44:12,680
+them, that's their problem.
+
+959
+00:44:12,919 --> 00:44:13,399
+I don't care.
+
+960
+00:44:13,399 --> 00:44:16,189
+I've always had that, that
+attitude, that if I had
+
+961
+00:44:16,194 --> 00:44:20,629
+a, um, a goal and it was a
+legitimate goal and it
+
+962
+00:44:20,629 --> 00:44:24,350
+was something that didn't
+compromise my moral principles,
+
+963
+00:44:24,500 --> 00:44:25,910
+I was going to go for it.
+
+964
+00:44:26,700 --> 00:44:26,970
+Bekah: Okay.
+
+965
+00:44:26,970 --> 00:44:31,740
+So I know also you're a prolific
+writer, you've done science
+
+966
+00:44:31,740 --> 00:44:33,270
+fiction and some other things.
+
+967
+00:44:33,270 --> 00:44:35,130
+Have you ever written your life
+story?
+
+968
+00:44:35,805 --> 00:44:36,615
+Joan: I have not.
+
+969
+00:44:37,275 --> 00:44:41,325
+What I have written as far as
+life story is concerned.
+
+970
+00:44:41,775 --> 00:44:46,215
+I am a, a star Trek fan and I've
+been a star Trek fan since 1966.
+
+971
+00:44:47,025 --> 00:44:52,185
+And in the 1990s, I wrote a
+history of star Trek fan
+
+972
+00:44:52,185 --> 00:44:53,565
+activity, a fan history.
+
+973
+00:44:54,725 --> 00:44:56,885
+From 1967 to 1987.
+
+974
+00:44:57,935 --> 00:45:00,815
+And this is probably as close to
+a biography as
+
+975
+00:45:00,815 --> 00:45:04,835
+it gets  because I told my
+personal journey through it.
+
+976
+00:45:04,835 --> 00:45:06,335
+But also what was happening.
+
+977
+00:45:06,635 --> 00:45:11,165
+This book has gotten a lot of
+attention, not a lot of
+
+978
+00:45:11,315 --> 00:45:13,505
+public attention, but a lot of
+attention from people
+
+979
+00:45:13,505 --> 00:45:17,075
+who are like, um, scholars in
+the field of popular.
+
+980
+00:45:18,455 --> 00:45:22,325
+And I'm very well recognized in
+the field of popular culture.
+
+981
+00:45:22,625 --> 00:45:25,535
+My star Trek fanzine collection
+is at the university of
+
+982
+00:45:25,535 --> 00:45:27,275
+Iowa special collections.
+
+983
+00:45:27,695 --> 00:45:30,335
+I was interviewed last month and
+the interview was
+
+984
+00:45:30,340 --> 00:45:32,045
+posted Monday about this.
+
+985
+00:45:32,705 --> 00:45:35,795
+So I've gotten a great deal of
+satisfaction from
+
+986
+00:45:35,795 --> 00:45:37,865
+that, but the problem is.
+
+987
+00:45:38,279 --> 00:45:40,470
+Publishing and writing is not a
+very profitable
+
+988
+00:45:40,470 --> 00:45:44,399
+endeavor, unless you're one of
+like the 2% of authors
+
+989
+00:45:44,790 --> 00:45:45,990
+who can make a living at it.
+
+990
+00:45:46,680 --> 00:45:48,720
+But it's something, it's
+something that I do
+
+991
+00:45:48,720 --> 00:45:51,000
+because I enjoy writing.
+
+992
+00:45:51,000 --> 00:45:54,450
+And for people who enjoy
+writing, it's something
+
+993
+00:45:54,450 --> 00:45:55,890
+that you can't not do.
+
+994
+00:45:56,640 --> 00:45:59,100
+So I keep writing I'm writing
+right now.
+
+995
+00:46:00,105 --> 00:46:02,895
+Set aside, my writing for my
+current novel
+
+996
+00:46:03,255 --> 00:46:04,665
+just before this podcast.
+
+997
+00:46:05,235 --> 00:46:09,255
+So it is something that I do and
+it's something that, that keeps
+
+998
+00:46:09,255 --> 00:46:12,975
+me going, but it's not something
+that you can make a living with.
+
+999
+00:46:13,695 --> 00:46:16,755
+And I enjoy, uh, I enjoy, I
+enjoy web development.
+
+1000
+00:46:16,755 --> 00:46:17,175
+I've got.
+
+1001
+00:46:17,549 --> 00:46:20,850
+A dozen sites, dozen life sites
+that I keep
+
+1002
+00:46:20,850 --> 00:46:22,560
+up and keep working on.
+
+1003
+00:46:22,980 --> 00:46:27,509
+And my GitHub repository is
+solid green for this year.
+
+1004
+00:46:28,020 --> 00:46:30,240
+So this is something that I
+enjoy too.
+
+1005
+00:46:30,240 --> 00:46:33,480
+And I'm just going to keep going
+until I can't
+
+1006
+00:46:33,480 --> 00:46:34,020
+anymore.
+
+1007
+00:46:34,350 --> 00:46:37,680
+Bekah: Have you thought about
+going back into freelancing?
+
+1008
+00:46:38,490 --> 00:46:38,640
+Well,
+
+1009
+00:46:38,640 --> 00:46:41,069
+Joan: yes, I'm always available
+for freelance work, but nobody's
+
+1010
+00:46:41,069 --> 00:46:43,620
+calling  that's the problem.
+
+1011
+00:46:44,310 --> 00:46:45,000
+Yeah, that can be hard
+
+1012
+00:46:45,000 --> 00:46:45,120
+Dan: too.
+
+1013
+00:46:48,149 --> 00:46:50,940
+Bekah: so have you thought about
+what your ideal job
+
+1014
+00:46:50,940 --> 00:46:52,710
+or what would it look like?
+
+1015
+00:46:52,859 --> 00:46:52,980
+I
+
+1016
+00:46:52,980 --> 00:46:53,140
+Joan: guess.
+
+1017
+00:46:53,580 --> 00:46:59,220
+Well, if you want to talk about
+ideal job, ideally, I would
+
+1018
+00:46:59,220 --> 00:47:01,770
+like to be one of the 2% of
+authors who makes a living off
+
+1019
+00:47:01,770 --> 00:47:03,840
+of my writing and publishing.
+
+1020
+00:47:04,860 --> 00:47:09,090
+But again, it's so hard to get
+into that 2% of authors.
+
+1021
+00:47:09,780 --> 00:47:10,830
+So failing that.
+
+1022
+00:47:11,505 --> 00:47:14,205
+I really enjoyed my first job as
+an airline
+
+1023
+00:47:14,295 --> 00:47:17,745
+programmer programming, the, the
+hotel reservations
+
+1024
+00:47:17,745 --> 00:47:18,915
+and the flight schedules.
+
+1025
+00:47:19,185 --> 00:47:20,505
+That was a lot of fun.
+
+1026
+00:47:20,655 --> 00:47:22,245
+I enjoyed that so much.
+
+1027
+00:47:22,245 --> 00:47:26,055
+And I was so disappointed when
+the company took
+
+1028
+00:47:26,055 --> 00:47:26,955
+me off that project.
+
+1029
+00:47:27,645 --> 00:47:30,435
+I mean, something like that, a
+web development project,
+
+1030
+00:47:30,765 --> 00:47:34,215
+where I can use my skills, where
+I can make a nice front
+
+1031
+00:47:34,215 --> 00:47:37,095
+end for somebody that would be a
+wonderful job to have.
+
+1032
+00:47:37,905 --> 00:47:40,515
+Dan: Now, what was it about that
+airline project that
+
+1033
+00:47:40,515 --> 00:47:41,005
+Joan: you liked?
+
+1034
+00:47:41,444 --> 00:47:44,354
+First of all, I was programming
+in Fortran, which is, which is a
+
+1035
+00:47:44,384 --> 00:47:46,455
+language that I enjoy very much.
+
+1036
+00:47:46,935 --> 00:47:49,125
+I've forgotten most of it by now
+though.
+
+1037
+00:47:49,665 --> 00:47:50,285
+So I couldn.
+
+1038
+00:47:50,714 --> 00:47:54,045
+Be a suitable fit for a legacy
+Fortran projects.
+
+1039
+00:47:54,045 --> 00:47:56,205
+And I've been told that they're
+out there, but I
+
+1040
+00:47:56,205 --> 00:47:59,685
+was programming Fortran
+programming in Fortran was fun.
+
+1041
+00:48:00,165 --> 00:48:05,025
+The airline scheduling was, was
+a lot of fun because it was
+
+1042
+00:48:05,029 --> 00:48:06,315
+just something that you could.
+
+1043
+00:48:07,290 --> 00:48:10,440
+Put your hands on and look at it
+and, and get satisfaction
+
+1044
+00:48:10,440 --> 00:48:13,380
+out of, you know, people are
+using my stuff every day.
+
+1045
+00:48:13,820 --> 00:48:14,040
+Yes.
+
+1046
+00:48:14,460 --> 00:48:17,130
+And, and, you know, it's, it's,
+it's something that's
+
+1047
+00:48:17,130 --> 00:48:19,890
+useful and it's something that's
+good looking.
+
+1048
+00:48:20,070 --> 00:48:23,370
+And I did it, you know, that,
+that kind of satisfaction
+
+1049
+00:48:23,790 --> 00:48:27,030
+that you get from the job, the
+hotel reservations.
+
+1050
+00:48:27,570 --> 00:48:30,060
+I mean, I actually.
+
+1051
+00:48:30,705 --> 00:48:33,765
+Did a lot of the hotel
+reservation stuff from the
+
+1052
+00:48:33,765 --> 00:48:38,145
+ground up, I designed a hotel
+reservations thing, as well
+
+1053
+00:48:38,145 --> 00:48:39,795
+as wrote the code for it.
+
+1054
+00:48:40,185 --> 00:48:43,305
+I designed the concept, they
+just said, give us a way
+
+1055
+00:48:43,305 --> 00:48:44,715
+to do hotel reservations.
+
+1056
+00:48:44,720 --> 00:48:47,205
+So I did the designing too on
+that one.
+
+1057
+00:48:47,475 --> 00:48:49,395
+And so that, that was something
+that I was proud
+
+1058
+00:48:49,395 --> 00:48:52,545
+of, but yeah, the, the, the
+flight schedule was a, was a
+
+1059
+00:48:52,545 --> 00:48:54,405
+lot of fun and very satisfy.
+
+1060
+00:48:55,410 --> 00:48:55,920
+Dan: That's awesome.
+
+1061
+00:48:56,550 --> 00:48:57,570
+I can totally relate to that.
+
+1062
+00:48:57,570 --> 00:49:00,450
+Especially the, this is actually
+useful and people
+
+1063
+00:49:00,450 --> 00:49:01,230
+are actually using it.
+
+1064
+00:49:01,770 --> 00:49:02,010
+part of it.
+
+1065
+00:49:02,010 --> 00:49:02,160
+Yes.
+
+1066
+00:49:02,160 --> 00:49:05,880
+You know, it doesn't always
+happen, you know, in, in any
+
+1067
+00:49:05,880 --> 00:49:08,070
+particular job, you know, so I
+can totally relate to that.
+
+1068
+00:49:08,925 --> 00:49:10,815
+Bekah: Joan, I wanna say, thank
+you so much again,
+
+1069
+00:49:10,815 --> 00:49:11,715
+for sharing your story.
+
+1070
+00:49:11,715 --> 00:49:14,835
+And for being here with us, it
+was really powerful to
+
+1071
+00:49:14,835 --> 00:49:18,195
+listen to you, talk about it and
+to hear how you're ready
+
+1072
+00:49:18,195 --> 00:49:19,695
+to just keep moving forward.
+
+1073
+00:49:19,695 --> 00:49:23,385
+And I hope, you know, some way
+Virtual Coffee can help
+
+1074
+00:49:23,505 --> 00:49:26,955
+continue to support you in those
+goals and do something
+
+1075
+00:49:26,955 --> 00:49:30,315
+that hopefully we can celebrate
+you getting a job pretty
+
+1076
+00:49:30,315 --> 00:49:30,735
+Joan: soon.
+
+1077
+00:49:31,350 --> 00:49:32,700
+Well, thanks very much for
+interviewing me.
+
+1078
+00:49:32,700 --> 00:49:33,390
+This was fun.
+
+1079
+00:49:33,960 --> 00:49:34,710
+Yeah, I had fun too.
+
+1080
+00:49:34,710 --> 00:49:35,280
+Dan: Thank you, John.
+
+1081
+00:49:36,300 --> 00:49:38,160
+Bekah: Thank you for listening
+to this episode of
+
+1082
+00:49:38,160 --> 00:49:39,750
+the Virtual Coffee podcast.
+
+1083
+00:49:40,020 --> 00:49:43,260
+This episode was produced by Dan
+OT and Bekah harra,
+
+1084
+00:49:43,320 --> 00:49:45,630
+Weigel and edited by Dan OT.
+
+1085
+00:49:46,140 --> 00:49:48,330
+If you have questions or
+comments, you can hit us
+
+1086
+00:49:48,330 --> 00:49:52,260
+up on Twitter at Virtual Coffee
+IO, or you can email
+
+1087
+00:49:52,260 --> 00:49:55,500
+us@podcastvirtualcoffee.io.
+
+1088
+00:49:55,670 --> 00:49:58,340
+You can find the show notes,
+plus you can sign up for our
+
+1089
+00:49:58,340 --> 00:50:01,430
+newsletter to find out what
+Virtual Coffee's been up to on
+
+1090
+00:50:01,430 --> 00:50:04,400
+our website@virtualcoffee.io.
+
+1091
+00:50:05,150 --> 00:50:07,400
+Dan: Please subscribe to our
+podcast and be sure
+
+1092
+00:50:07,400 --> 00:50:08,330
+to leave us a review.
+
+1093
+00:50:09,050 --> 00:50:09,830
+Thanks for listening.
+
+1094
+00:50:09,830 --> 00:50:11,030
+And we'll see you next week.

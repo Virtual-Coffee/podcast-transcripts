@@ -1,0 +1,5063 @@
+1
+00:00:14,560 --> 00:00:17,520
+Bekah: Hello, and welcome to
+season one, episode two of
+
+2
+00:00:17,520 --> 00:00:19,110
+the virtual coffee podcast.
+
+3
+00:00:19,530 --> 00:00:20,250
+I'm Bekah.
+
+4
+00:00:20,250 --> 00:00:23,010
+And this is a podcast that
+features members of the
+
+5
+00:00:23,015 --> 00:00:24,270
+virtual coffee community.
+
+6
+00:00:24,750 --> 00:00:27,690
+Virtual coffee is an intimate
+group of developers at all
+
+7
+00:00:27,690 --> 00:00:29,040
+stages of their coding journey.
+
+8
+00:00:29,945 --> 00:00:32,165
+They're here on this podcast,
+sharing their stories
+
+9
+00:00:32,165 --> 00:00:32,975
+and what they've learned.
+
+10
+00:00:33,575 --> 00:00:36,185
+And we are here to share it with
+you here with me.
+
+11
+00:00:36,185 --> 00:00:38,045
+Today is my co-host Dan.
+
+12
+00:00:38,555 --> 00:00:39,185
+Dan: Hey everyone.
+
+13
+00:00:39,605 --> 00:00:42,155
+Um, we have another great
+episode today.
+
+14
+00:00:42,245 --> 00:00:45,785
+Um, Kirk will be joining us to
+interview Marie Antones
+
+15
+00:00:45,815 --> 00:00:48,935
+about how she went from being a
+chef to a junior developer.
+
+16
+00:00:49,295 --> 00:00:51,035
+Marie is from Cedar rapids,
+Iowa.
+
+17
+00:00:51,065 --> 00:00:53,765
+And she changed careers from the
+culinary industry
+
+18
+00:00:53,765 --> 00:00:57,365
+to software development in 2020,
+after living in
+
+19
+00:00:57,365 --> 00:00:58,475
+Bermuda for four years.
+
+20
+00:00:58,535 --> 00:01:01,445
+Um, she's currently a c.net
+developer, uh, working
+
+21
+00:01:01,445 --> 00:01:02,375
+for a small startup.
+
+22
+00:01:02,915 --> 00:01:06,245
+Um, Marie shared with us, her
+story, how she's used
+
+23
+00:01:06,250 --> 00:01:08,195
+her past experience as a chef to
+help understand
+
+24
+00:01:08,195 --> 00:01:09,335
+coding in her own way.
+
+25
+00:01:09,725 --> 00:01:12,575
+She also talked about the
+challenges of coming into her
+
+26
+00:01:12,575 --> 00:01:15,935
+first job from a bootcamp and
+what she wishes she would've
+
+27
+00:01:15,935 --> 00:01:17,075
+known before starting that.
+
+28
+00:01:18,735 --> 00:01:22,005
+Marie is one of my favorite
+people, uh, in virtual coffee.
+
+29
+00:01:22,035 --> 00:01:25,994
+And I was just very glad that
+she agreed to come and talk with
+
+30
+00:01:25,994 --> 00:01:27,235
+us and, uh, share her story.
+
+31
+00:01:28,290 --> 00:01:30,120
+Bekah: We start every episode of
+the podcast.
+
+32
+00:01:30,120 --> 00:01:31,710
+Like we start every virtual
+coffee.
+
+33
+00:01:32,190 --> 00:01:35,100
+We introduce ourselves with our
+name, where we're
+
+34
+00:01:35,100 --> 00:01:38,340
+from, what we do and a random
+check-in question.
+
+35
+00:01:38,880 --> 00:01:42,420
+Today's question is what are you
+most looking forward to today?
+
+36
+00:01:42,840 --> 00:01:44,400
+We hope you enjoyed this
+episode.
+
+37
+00:01:53,625 --> 00:01:57,525
+Hey, I'm Bekah, I'm a front end
+developer from a small
+
+38
+00:01:57,525 --> 00:02:00,915
+town in Southeastern Ohio.
+
+39
+00:02:00,975 --> 00:02:04,665
+And what I am most looking
+forward to today because we are
+
+40
+00:02:04,665 --> 00:02:08,445
+recording on a Friday is the new
+episode of the Mandalorian.
+
+41
+00:02:09,525 --> 00:02:10,905
+Dan: Hi, I am Dan.
+
+42
+00:02:11,025 --> 00:02:14,295
+I am front end developer from
+Cleveland, Ohio, and
+
+43
+00:02:14,295 --> 00:02:17,025
+the thing I'm most looking
+forward to is the lunch I'm
+
+44
+00:02:17,030 --> 00:02:17,955
+going to have after this.
+
+45
+00:02:20,760 --> 00:02:25,290
+Kirk: Hi, I'm Kirk, I'm a.net
+developer and the Caribbean.
+
+46
+00:02:25,709 --> 00:02:30,000
+The thing I'm most looking
+forward to today is working on
+
+47
+00:02:30,000 --> 00:02:31,829
+a secret project after work.
+
+48
+00:02:34,679 --> 00:02:35,829
+Marie: Hi, I'm Marie Antones.
+
+49
+00:02:36,269 --> 00:02:39,690
+I am from Cedar rapids, Iowa.
+
+50
+00:02:39,899 --> 00:02:42,540
+I am a junior developer for a
+small startup called
+
+51
+00:02:42,540 --> 00:02:46,079
+strata folio and the thing I'm
+most looking forward to.
+
+52
+00:02:46,860 --> 00:02:49,590
+Today is going for a walk on the
+beach.
+
+53
+00:02:50,700 --> 00:02:51,990
+Bekah: That sounds amazing.
+
+54
+00:02:52,320 --> 00:02:55,590
+We are super happy to have you
+here with us today, Marie.
+
+55
+00:02:55,590 --> 00:02:57,900
+Thanks so much for agreeing to
+be on the podcast.
+
+56
+00:02:58,110 --> 00:02:58,950
+Thanks for having me.
+
+57
+00:02:59,100 --> 00:02:59,400
+Yeah.
+
+58
+00:03:00,030 --> 00:03:02,520
+All right, Marie, I think what
+we wanna start off with
+
+59
+00:03:02,550 --> 00:03:05,490
+is finding out a little bit
+about your origin story.
+
+60
+00:03:05,520 --> 00:03:08,100
+So you come from a
+non-traditional
+
+61
+00:03:08,100 --> 00:03:09,270
+path to programming.
+
+62
+00:03:09,630 --> 00:03:11,790
+Can you tell us a little bit
+about how you got.
+
+63
+00:03:12,945 --> 00:03:15,975
+Marie: Yeah, well, I have had
+many different paths in
+
+64
+00:03:15,975 --> 00:03:17,415
+my educational background.
+
+65
+00:03:17,415 --> 00:03:19,964
+I first started off with
+nutrition.
+
+66
+00:03:20,265 --> 00:03:23,084
+I wanted to be a nutritionist,
+but then I
+
+67
+00:03:23,084 --> 00:03:24,285
+moved around quite a bit.
+
+68
+00:03:24,285 --> 00:03:28,575
+And then I got into kinesiology
+and then eventually I got
+
+69
+00:03:28,575 --> 00:03:30,704
+into the culinary industry,
+which I stuck with.
+
+70
+00:03:31,394 --> 00:03:36,554
+Um, and then my husband and I
+actually moved to Bermuda.
+
+71
+00:03:36,554 --> 00:03:40,035
+He, he got a different promotion
+for his job.
+
+72
+00:03:40,035 --> 00:03:41,265
+He works for Transamerica.
+
+73
+00:03:42,105 --> 00:03:46,305
+And he was like, oh, Hey, this
+position opened up in Bermuda.
+
+74
+00:03:46,785 --> 00:03:47,445
+We should go.
+
+75
+00:03:47,445 --> 00:03:50,535
+And I was like, sure, no way
+we're ever gonna get
+
+76
+00:03:50,535 --> 00:03:52,245
+that, but might as well.
+
+77
+00:03:52,725 --> 00:03:55,785
+And then lo and behold, we were
+here.
+
+78
+00:03:56,145 --> 00:04:01,755
+I thought there was gonna be
+like forest, lots of
+
+79
+00:04:01,845 --> 00:04:05,985
+animals, lots of like fruit and
+tropical stuff, but that
+
+80
+00:04:05,985 --> 00:04:07,695
+was not the case, which.
+
+81
+00:04:08,865 --> 00:04:11,205
+Leads me to kind of where I am
+now.
+
+82
+00:04:11,655 --> 00:04:14,895
+Bermuda's quite hard for some
+expats, depending on
+
+83
+00:04:14,895 --> 00:04:18,735
+your industry to have a job
+without work, permits,
+
+84
+00:04:18,740 --> 00:04:20,295
+visas, all of that.
+
+85
+00:04:21,165 --> 00:04:25,695
+And so I really took a four year
+vacation basically, where
+
+86
+00:04:26,235 --> 00:04:28,035
+I didn't really have a job.
+
+87
+00:04:28,035 --> 00:04:32,625
+I, I then spent my time
+volunteering for a
+
+88
+00:04:32,865 --> 00:04:34,215
+international women's club.
+
+89
+00:04:35,210 --> 00:04:39,705
+, which does a lot of like
+marketing and fundraising for
+
+90
+00:04:39,705 --> 00:04:42,135
+local charities on the island.
+
+91
+00:04:42,974 --> 00:04:45,435
+So I really spent all my time
+doing that, which
+
+92
+00:04:46,005 --> 00:04:47,474
+that was, that was fun.
+
+93
+00:04:47,985 --> 00:04:50,985
+But then when he got a new
+position back in
+
+94
+00:04:50,985 --> 00:04:52,635
+Iowa, I was like, perfect.
+
+95
+00:04:52,635 --> 00:04:55,125
+I can get a job thinking I was
+gonna go back to
+
+96
+00:04:55,125 --> 00:04:56,355
+the culinary industry.
+
+97
+00:04:57,135 --> 00:05:01,035
+And then my main idea was to
+build a pasta website so I
+
+98
+00:05:01,035 --> 00:05:04,245
+could sell homemade pastas at
+the local farmer's markets.
+
+99
+00:05:04,245 --> 00:05:08,565
+So like no one sells fresh
+pasta, homemade,
+
+100
+00:05:08,565 --> 00:05:10,125
+fresh pasta anywhere.
+
+101
+00:05:10,215 --> 00:05:11,655
+So I was like, this would be
+perfect.
+
+102
+00:05:12,105 --> 00:05:13,095
+No one does it.
+
+103
+00:05:13,875 --> 00:05:14,865
+Like it would be great.
+
+104
+00:05:15,495 --> 00:05:20,925
+So then I was researching how to
+build a website or to
+
+105
+00:05:20,925 --> 00:05:23,415
+find someone like you guys to
+build a website for me.
+
+106
+00:05:23,415 --> 00:05:23,715
+And I was.
+
+107
+00:05:24,810 --> 00:05:25,380
+Wow.
+
+108
+00:05:25,740 --> 00:05:27,600
+That's a lot of money that I
+don't have.
+
+109
+00:05:28,020 --> 00:05:29,820
+So I was like, I'm just gonna do
+it myself,
+
+110
+00:05:30,240 --> 00:05:31,440
+basically with everything.
+
+111
+00:05:31,890 --> 00:05:35,010
+If I can do it myself, I'm gonna
+do it myself.
+
+112
+00:05:35,820 --> 00:05:37,950
+Anything from like going to get
+a manicure.
+
+113
+00:05:38,190 --> 00:05:41,310
+I just watch the lady take
+notes, go home, buy
+
+114
+00:05:41,310 --> 00:05:42,930
+the stuff, do it myself.
+
+115
+00:05:43,720 --> 00:05:45,060
+save myself some money.
+
+116
+00:05:45,720 --> 00:05:49,530
+But that really led me to
+finding Delta V code
+
+117
+00:05:49,530 --> 00:05:52,020
+school, which is the bootcamp I
+attended.
+
+118
+00:05:52,740 --> 00:05:53,400
+And.
+
+119
+00:05:54,120 --> 00:05:56,880
+It was actually right across the
+street from where I lived.
+
+120
+00:05:57,599 --> 00:05:59,340
+So I was like, this is so
+perfect.
+
+121
+00:05:59,490 --> 00:06:03,630
+And so my husband told me that,
+yeah, you could try the
+
+122
+00:06:03,630 --> 00:06:07,590
+first, first class because I'm
+not a technical person.
+
+123
+00:06:07,590 --> 00:06:09,090
+My background's not technical.
+
+124
+00:06:09,390 --> 00:06:13,860
+I only use a computer when I was
+on social media or looking
+
+125
+00:06:13,860 --> 00:06:19,080
+at the recipe, but that's about
+the extent of my te knowledge.
+
+126
+00:06:19,169 --> 00:06:20,130
+So I took it.
+
+127
+00:06:21,164 --> 00:06:24,994
+The first class was just on
+basic HTML, CSS.
+
+128
+00:06:25,994 --> 00:06:30,914
+They had you build like a 1, 1,
+1 page website.
+
+129
+00:06:31,635 --> 00:06:33,164
+It was one, a one day course.
+
+130
+00:06:33,435 --> 00:06:34,335
+I fell in love with it.
+
+131
+00:06:34,335 --> 00:06:35,474
+I was like, wow, this is great.
+
+132
+00:06:35,474 --> 00:06:36,614
+I can make anything I want.
+
+133
+00:06:37,635 --> 00:06:38,835
+like anything.
+
+134
+00:06:39,465 --> 00:06:43,875
+And then I took one or two to
+really like, make sure.
+
+135
+00:06:44,550 --> 00:06:50,550
+I wanted to do this career path,
+which it was the same story.
+
+136
+00:06:50,700 --> 00:06:51,540
+Still loved it.
+
+137
+00:06:51,540 --> 00:06:52,170
+Still.
+
+138
+00:06:52,530 --> 00:06:54,990
+We had to do some pre-work on
+Khan academy.
+
+139
+00:06:54,990 --> 00:06:57,540
+I don't know if you guys have
+done any Khan
+
+140
+00:06:57,540 --> 00:06:58,890
+academy, but I built this.
+
+141
+00:06:58,920 --> 00:07:01,860
+I spent all week building this
+little pixelated,
+
+142
+00:07:01,865 --> 00:07:03,690
+Mario with animations.
+
+143
+00:07:03,695 --> 00:07:04,380
+That's awesome.
+
+144
+00:07:04,800 --> 00:07:06,990
+And that's, that's all I could
+spend my time on.
+
+145
+00:07:06,990 --> 00:07:09,270
+So I was like, if I, if I could
+get lost spending
+
+146
+00:07:09,270 --> 00:07:12,360
+my time on something, it's
+definitely worth my time.
+
+147
+00:07:13,575 --> 00:07:17,775
+So that's kind of how I got into
+software development.
+
+148
+00:07:19,905 --> 00:07:23,055
+Bekah: I have to say, I love so
+much, um, hearing your
+
+149
+00:07:23,055 --> 00:07:26,505
+story, but also the idea of not
+having a technical
+
+150
+00:07:26,505 --> 00:07:29,835
+background at all, because I
+would say like, my background
+
+151
+00:07:29,835 --> 00:07:31,785
+was not technical at all.
+
+152
+00:07:31,785 --> 00:07:34,965
+I taught college English for 10
+years and I also was not.
+
+153
+00:07:36,405 --> 00:07:39,224
+building my space pages when I'm
+working or whatever, you
+
+154
+00:07:39,224 --> 00:07:44,505
+know,  um, but I think that it's
+really good to hear that
+
+155
+00:07:44,510 --> 00:07:48,224
+because I think sometimes people
+get really nervous about
+
+156
+00:07:48,675 --> 00:07:49,875
+thinking that they can do it.
+
+157
+00:07:49,880 --> 00:07:51,315
+Like, well, I don't have
+background.
+
+158
+00:07:51,315 --> 00:07:53,715
+Like, I don't know what HTML
+means.
+
+159
+00:07:53,719 --> 00:07:57,255
+And I think that you don't have
+to know that.
+
+160
+00:07:57,255 --> 00:07:59,805
+I mean, it's, it's about like,
+exactly what you're saying.
+
+161
+00:07:59,805 --> 00:08:01,635
+It's about the learning process.
+
+162
+00:08:01,635 --> 00:08:07,110
+Marie: Mm-hmm . One thing that a
+lot of times in bootcamp they
+
+163
+00:08:07,140 --> 00:08:11,130
+talked about is your previous
+experience really helps you in
+
+164
+00:08:11,130 --> 00:08:14,130
+software development, because
+think of a recipe as kind
+
+165
+00:08:14,130 --> 00:08:16,500
+of like building a website,
+like, oh, I know I need this
+
+166
+00:08:16,500 --> 00:08:19,260
+piece, but what if I don't know
+how to do this piece?
+
+167
+00:08:20,370 --> 00:08:22,440
+I'll go look it up, go watch a
+YouTube video.
+
+168
+00:08:23,700 --> 00:08:25,919
+Do all the stuff to like, do a
+little research
+
+169
+00:08:25,919 --> 00:08:28,830
+or fiddle with it, play around
+with it experiment.
+
+170
+00:08:29,580 --> 00:08:31,020
+And then eventually you get to a
+place where
+
+171
+00:08:31,020 --> 00:08:32,159
+you're like comfortable.
+
+172
+00:08:32,400 --> 00:08:34,260
+Oh, I can make cookies now
+without looking at the
+
+173
+00:08:34,260 --> 00:08:38,220
+recipe, I can make this, I can,
+I can create a modal.
+
+174
+00:08:38,220 --> 00:08:41,549
+I can do this CSS grid without
+really having to go to the
+
+175
+00:08:41,549 --> 00:08:43,380
+documentation every single time.
+
+176
+00:08:44,159 --> 00:08:46,560
+Cuz it kind of just practice
+and.
+
+177
+00:08:48,465 --> 00:08:50,535
+Enjoying the, the process.
+
+178
+00:08:50,715 --> 00:08:51,255
+Yeah, it's awesome.
+
+179
+00:08:51,255 --> 00:08:54,165
+Dan: I could see a lot of like a
+lot of the thought processes
+
+180
+00:08:54,165 --> 00:08:55,035
+like that are the same.
+
+181
+00:08:55,035 --> 00:08:57,795
+And there's also like with
+cooking there's language
+
+182
+00:08:57,800 --> 00:08:59,445
+stuff that you need to learn,
+there's, you know,
+
+183
+00:08:59,445 --> 00:09:00,795
+terminology and everything.
+
+184
+00:09:00,855 --> 00:09:02,505
+Um, there's, there's a lot of
+like a lot
+
+185
+00:09:02,505 --> 00:09:03,645
+of parallels for sure.
+
+186
+00:09:03,945 --> 00:09:06,825
+I, in the kitchen, when I'm
+cooking, I'm totally lost all
+
+187
+00:09:06,855 --> 00:09:09,105
+the time and I'm looking up
+every single word and, you
+
+188
+00:09:09,105 --> 00:09:10,155
+know, doing that same thing.
+
+189
+00:09:10,335 --> 00:09:13,155
+So it's, I can see a lot of, a
+lot of parallels there.
+
+190
+00:09:13,155 --> 00:09:13,275
+That's.
+
+191
+00:09:14,595 --> 00:09:18,045
+Kirk: So king makes me angry
+because I want the food to be
+
+192
+00:09:18,045 --> 00:09:20,145
+ready immediately and it is not.
+
+193
+00:09:20,205 --> 00:09:22,425
+And I suppose that is the way my
+clients feel when they're
+
+194
+00:09:22,425 --> 00:09:25,005
+like, why isn't the code done?
+
+195
+00:09:25,425 --> 00:09:29,265
+Uh, well it takes time to get it
+right, but I'm hungry now.
+
+196
+00:09:30,735 --> 00:09:34,380
+I will also say when you said
+like, Knowing what HTL means.
+
+197
+00:09:34,380 --> 00:09:35,819
+I did have to do a quick self
+check.
+
+198
+00:09:35,819 --> 00:09:37,260
+Like, do I know what HTML means?
+
+199
+00:09:37,260 --> 00:09:37,740
+I text.
+
+200
+00:09:37,860 --> 00:09:38,160
+Okay.
+
+201
+00:09:38,280 --> 00:09:38,579
+I'm cool.
+
+202
+00:09:39,900 --> 00:09:42,630
+but definitely echoing what
+everyone else is saying.
+
+203
+00:09:42,635 --> 00:09:47,040
+Like at the beginning, there's
+so much, you don't know.
+
+204
+00:09:47,040 --> 00:09:49,230
+And I feel like software is one
+of those spaces.
+
+205
+00:09:50,020 --> 00:09:53,250
+Where's almost like immediately
+obvious how much you don't
+
+206
+00:09:53,250 --> 00:09:55,920
+know, because you're seeing
+everyone's conversations and
+
+207
+00:09:55,920 --> 00:09:57,670
+you can't follow any of them.
+
+208
+00:09:58,545 --> 00:10:01,035
+And like, I suppose the solution
+is just like, kinda
+
+209
+00:10:01,035 --> 00:10:03,195
+like put your head down and like
+focus on what's in front
+
+210
+00:10:03,195 --> 00:10:06,015
+of you, but it's definitely
+daunting at the beginning.
+
+211
+00:10:06,915 --> 00:10:10,905
+Um, and kind of in the middle,
+cuz like, I don't know,
+
+212
+00:10:10,905 --> 00:10:12,045
+like it just never stops.
+
+213
+00:10:12,045 --> 00:10:14,205
+Like you'll go online and used
+to people talk about something,
+
+214
+00:10:14,210 --> 00:10:14,955
+you know, nothing about.
+
+215
+00:10:14,960 --> 00:10:16,515
+And you're like, I really don't
+know anything.
+
+216
+00:10:18,735 --> 00:10:19,035
+Marie: Yeah.
+
+217
+00:10:19,035 --> 00:10:21,075
+Or that's like even being in the
+industry for a
+
+218
+00:10:21,075 --> 00:10:23,835
+long time, you could hear
+something completely new.
+
+219
+00:10:25,155 --> 00:10:28,935
+I think Kirk, when we were
+pairing the other day for
+
+220
+00:10:28,939 --> 00:10:32,385
+the code challenge, you're like,
+oh, dot net has
+
+221
+00:10:32,385 --> 00:10:34,005
+so many new cool things.
+
+222
+00:10:34,935 --> 00:10:38,714
+I was like, yeah, I'm guessing
+most people in.net
+
+223
+00:10:38,745 --> 00:10:40,905
+when something new comes out,
+they're just like, wow.
+
+224
+00:10:41,175 --> 00:10:44,775
+Or something they haven't worked
+with before or a section
+
+225
+00:10:44,775 --> 00:10:45,314
+they haven't worked with.
+
+226
+00:10:45,735 --> 00:10:47,055
+It's really hard to know
+everything.
+
+227
+00:10:47,055 --> 00:10:48,915
+So, yeah.
+
+228
+00:10:49,334 --> 00:10:50,895
+Which is kind of what makes it
+fun.
+
+229
+00:10:51,224 --> 00:10:52,395
+There's a million new recipes.
+
+230
+00:10:52,395 --> 00:10:52,905
+There's a million.
+
+231
+00:10:54,120 --> 00:10:56,700
+Code things, new new
+technologies.
+
+232
+00:10:57,420 --> 00:10:57,690
+Yeah.
+
+233
+00:10:57,870 --> 00:10:59,700
+Bekah: I think you need to start
+a site.
+
+234
+00:10:59,700 --> 00:11:01,020
+That's called code recipes.
+
+235
+00:11:01,020 --> 00:11:03,450
+If there's not one, it would be
+like, so
+
+236
+00:11:03,450 --> 00:11:04,140
+Marie: perfect.
+
+237
+00:11:04,710 --> 00:11:05,760
+That one would be perfect.
+
+238
+00:11:06,180 --> 00:11:06,330
+Dan: Yeah.
+
+239
+00:11:07,200 --> 00:11:07,440
+Sorry.
+
+240
+00:11:07,770 --> 00:11:08,890
+I was just gonna say no, go
+ahead.
+
+241
+00:11:08,890 --> 00:11:11,550
+I was just gonna say recipes has
+become like a language in
+
+242
+00:11:11,550 --> 00:11:14,280
+code documentation that has I
+found actually to be really,
+
+243
+00:11:14,790 --> 00:11:18,060
+um, really helpful, like cuz cuz
+people know what it means.
+
+244
+00:11:18,060 --> 00:11:19,050
+Like what a recipe means.
+
+245
+00:11:19,050 --> 00:11:22,050
+Like this is like a, a set of
+steps and ingredients
+
+246
+00:11:22,050 --> 00:11:22,810
+that you need to.
+
+247
+00:11:23,355 --> 00:11:27,075
+Do this one thing, you know, and
+it's, it's just like
+
+248
+00:11:27,375 --> 00:11:28,305
+that sort of thought process.
+
+249
+00:11:28,305 --> 00:11:31,515
+I've, I've found to be very
+level as a, as a consumer of
+
+250
+00:11:31,875 --> 00:11:34,035
+documentation or whatever, you
+know, it's like a, trying to
+
+251
+00:11:34,035 --> 00:11:36,435
+learn how to do a thing, you
+know, like here's a recipe
+
+252
+00:11:36,435 --> 00:11:38,085
+for whatever, whatever.
+
+253
+00:11:38,235 --> 00:11:38,475
+Marie: Yeah.
+
+254
+00:11:38,475 --> 00:11:43,605
+Like, like wiring up a mole,
+like first you do this and then.
+
+255
+00:11:44,640 --> 00:11:45,510
+What would be great.
+
+256
+00:11:45,510 --> 00:11:47,910
+And like a recipe book would be
+like, oh, here are the
+
+257
+00:11:47,915 --> 00:11:49,110
+problems you could encounter.
+
+258
+00:11:49,230 --> 00:11:51,330
+Mm-hmm  and here's how you solve
+them.
+
+259
+00:11:51,330 --> 00:11:52,199
+Have you checked this?
+
+260
+00:11:54,120 --> 00:11:54,870
+Bekah: That's so awesome.
+
+261
+00:11:54,870 --> 00:11:56,280
+I love that, Marie.
+
+262
+00:11:56,285 --> 00:12:00,840
+I know you have gone through
+such a journey since I've
+
+263
+00:12:00,845 --> 00:12:02,250
+met you at virtual coffee.
+
+264
+00:12:02,685 --> 00:12:05,565
+You know, I think that you are
+still in school and
+
+265
+00:12:05,565 --> 00:12:07,245
+then you got your first job.
+
+266
+00:12:07,305 --> 00:12:10,305
+Um, but one of the things I've
+always been super impressed
+
+267
+00:12:10,305 --> 00:12:12,885
+with is I know that you say that
+you're a junior developer,
+
+268
+00:12:12,890 --> 00:12:15,345
+but you've never felt like a
+junior developer when
+
+269
+00:12:15,345 --> 00:12:19,125
+I'm talking to you, you are just
+very knowledgeable and,
+
+270
+00:12:19,745 --> 00:12:23,955
+um, great at communicating what
+you're talking about.
+
+271
+00:12:24,310 --> 00:12:27,850
+um, but so it's been great to
+see that whole journey
+
+272
+00:12:27,850 --> 00:12:29,380
+through virtual coffee.
+
+273
+00:12:29,380 --> 00:12:32,680
+And just out of curiosity, how
+did you find out
+
+274
+00:12:32,680 --> 00:12:33,910
+about virtual coffee?
+
+275
+00:12:35,290 --> 00:12:37,870
+Marie: I found virtual coffee
+because.
+
+276
+00:12:38,625 --> 00:12:40,335
+In bootcamp, they were like, oh,
+networking,
+
+277
+00:12:40,335 --> 00:12:42,345
+networking, networking, which
+I'm pretty sure.
+
+278
+00:12:42,345 --> 00:12:44,625
+I was the only one who did
+Twitter at that time.
+
+279
+00:12:44,655 --> 00:12:48,555
+Cuz I only got a Twitter to
+follow tech people and your name
+
+280
+00:12:48,555 --> 00:12:52,635
+actually popped up as someone to
+follow Bekah and I saw, oh,
+
+281
+00:12:52,635 --> 00:12:55,245
+she's from Ohio, I'm from Ohio.
+
+282
+00:12:55,365 --> 00:12:56,745
+We're gonna be like the same
+person.
+
+283
+00:12:57,555 --> 00:12:59,595
+So I followed you and then you
+kept tweeting about, and
+
+284
+00:12:59,595 --> 00:13:00,975
+I'm like, Hmm, virtual coffee.
+
+285
+00:13:00,975 --> 00:13:01,875
+That seems is weird.
+
+286
+00:13:02,535 --> 00:13:04,665
+And I'm like, I might as well
+just go.
+
+287
+00:13:05,690 --> 00:13:07,560
+It's just like how I found the
+women's club.
+
+288
+00:13:07,560 --> 00:13:09,000
+If I hear about it enough, I'll
+be like,
+
+289
+00:13:09,450 --> 00:13:10,590
+might as well try it out.
+
+290
+00:13:11,850 --> 00:13:14,670
+And so there I was, I'm like,
+oh, I'm nervous, new people.
+
+291
+00:13:14,760 --> 00:13:16,800
+I'm also not a great public
+speaker.
+
+292
+00:13:17,700 --> 00:13:21,360
+So I was just nervous in
+general, but.
+
+293
+00:13:22,125 --> 00:13:23,985
+It's nice seeing people's faces.
+
+294
+00:13:23,985 --> 00:13:25,425
+Everyone had their cameras on.
+
+295
+00:13:25,425 --> 00:13:27,345
+You're like, oh, these are real
+people.
+
+296
+00:13:27,495 --> 00:13:28,725
+I'm not talking to a wall.
+
+297
+00:13:28,935 --> 00:13:29,895
+They have emotions.
+
+298
+00:13:30,645 --> 00:13:31,964
+And that just makes it more
+comfortable.
+
+299
+00:13:31,964 --> 00:13:36,165
+And then also the icebreakers
+that we do, the random questions
+
+300
+00:13:36,584 --> 00:13:39,944
+that also helps because it kind
+of like lets you know
+
+301
+00:13:40,095 --> 00:13:42,675
+more about the person other than
+just their tech side.
+
+302
+00:13:43,214 --> 00:13:44,985
+And there's not these barriers
+of, oh, you
+
+303
+00:13:44,985 --> 00:13:46,185
+have to speak about tech.
+
+304
+00:13:46,245 --> 00:13:47,415
+When you come to virtual coffee.
+
+305
+00:13:48,390 --> 00:13:51,000
+We talk about so many things
+that it just
+
+306
+00:13:51,000 --> 00:13:52,050
+makes it more personal.
+
+307
+00:13:52,050 --> 00:13:55,260
+And I get to know everyone who
+comes and you get to
+
+308
+00:13:55,260 --> 00:13:56,550
+know like their story.
+
+309
+00:13:57,240 --> 00:14:00,060
+And it really feels like, oh,
+we're actually friends.
+
+310
+00:14:00,060 --> 00:14:03,120
+This is like, I'm going to
+coffee to meet a friend because
+
+311
+00:14:03,120 --> 00:14:07,350
+how many times do you go to a
+meetup and everyone's silent.
+
+312
+00:14:07,770 --> 00:14:09,600
+No one knows what to talk about.
+
+313
+00:14:09,900 --> 00:14:11,880
+You don't really know how to
+introduce yourself, even
+
+314
+00:14:11,880 --> 00:14:15,840
+if I've been to say a meetup
+that I'm consistently at.
+
+315
+00:14:17,204 --> 00:14:20,295
+There's some weird barrier
+communication barrier or
+
+316
+00:14:20,295 --> 00:14:23,594
+something where you're like, I
+don't really know this person.
+
+317
+00:14:24,165 --> 00:14:26,055
+And in virtual coffee, that's
+completely different.
+
+318
+00:14:26,515 --> 00:14:28,125
+Everyone knows everyone's story.
+
+319
+00:14:28,545 --> 00:14:29,865
+Everyone knows your background.
+
+320
+00:14:29,865 --> 00:14:32,385
+Everyone knows what you like,
+what your strengths are.
+
+321
+00:14:32,385 --> 00:14:35,194
+Like every time I see F sharp,
+I'm like, where is Kirk at?
+
+322
+00:14:36,875 --> 00:14:37,185
+Kirk: I like a
+
+323
+00:14:37,435 --> 00:14:37,714
+Marie: brain.
+
+324
+00:14:37,814 --> 00:14:38,474
+We all know.
+
+325
+00:14:39,104 --> 00:14:39,344
+Yeah.
+
+326
+00:14:39,344 --> 00:14:41,474
+We all know like about each
+other.
+
+327
+00:14:41,474 --> 00:14:43,755
+What's which makes it like
+really great
+
+328
+00:14:43,755 --> 00:14:44,925
+to just come back to.
+
+329
+00:14:46,170 --> 00:14:48,570
+And I think you really get a
+sense of community with that.
+
+330
+00:14:49,350 --> 00:14:49,470
+I'm
+
+331
+00:14:49,470 --> 00:14:50,880
+Bekah: just gonna start crying
+over here though.
+
+332
+00:14:52,380 --> 00:14:53,160
+so wonderful.
+
+333
+00:14:54,000 --> 00:14:54,390
+Marie: Thank you.
+
+334
+00:14:54,390 --> 00:14:58,650
+Yeah, but it is great because no
+other meetup and I go
+
+335
+00:14:58,650 --> 00:15:04,380
+to a lot of meetups because
+Delta V really like was like,
+
+336
+00:15:04,440 --> 00:15:08,220
+networking is probably the most
+likely to get you a job.
+
+337
+00:15:08,610 --> 00:15:11,520
+So I'm like, well, looks like
+I'm going to everything now.
+
+338
+00:15:12,060 --> 00:15:12,630
+So.
+
+339
+00:15:13,770 --> 00:15:16,140
+Out of all my meetups, nothing
+has ever felt
+
+340
+00:15:16,140 --> 00:15:18,690
+like a solid community.
+
+341
+00:15:19,950 --> 00:15:20,910
+So it's just great.
+
+342
+00:15:22,770 --> 00:15:22,980
+Kirk: Yeah.
+
+343
+00:15:23,400 --> 00:15:26,910
+I really, as somebody who used
+to go to a lot of meetups, I
+
+344
+00:15:26,910 --> 00:15:30,510
+definitely remember being that
+guy by like the cheese plate.
+
+345
+00:15:30,600 --> 00:15:32,550
+The only I can think of saying
+is like, oh,
+
+346
+00:15:32,550 --> 00:15:33,540
+a lot of cheese today.
+
+347
+00:15:34,200 --> 00:15:37,020
+So, you know, like, I don't know
+what we're supposed to
+
+348
+00:15:37,025 --> 00:15:39,510
+do here until like the main
+presenter starts stalking.
+
+349
+00:15:39,510 --> 00:15:40,680
+So I'll just try and look.
+
+350
+00:15:40,740 --> 00:15:42,540
+Mm-hmm,  intrigued at
+everything.
+
+351
+00:15:42,630 --> 00:15:45,660
+Um, I do definitely also
+appreciate that.
+
+352
+00:15:47,025 --> 00:15:49,005
+The conversation, isn't that
+hard to start here.
+
+353
+00:15:49,005 --> 00:15:51,975
+Like, you know what to do, like
+there's a nice lead in versus
+
+354
+00:15:51,975 --> 00:15:54,435
+just middle about make friends.
+
+355
+00:15:54,435 --> 00:15:58,545
+It seems like between the ages
+of four and like 74,
+
+356
+00:15:58,545 --> 00:16:00,165
+we still have the same advice
+for certain people.
+
+357
+00:16:00,165 --> 00:16:01,425
+Like you just sort of push them
+in a room and
+
+358
+00:16:01,425 --> 00:16:05,775
+say, go, go be yourself, which
+is not as helpful.
+
+359
+00:16:05,805 --> 00:16:06,345
+Terrifying.
+
+360
+00:16:09,660 --> 00:16:11,520
+Bekah: I am very much an
+introvert.
+
+361
+00:16:11,520 --> 00:16:16,650
+So like going to a conference or
+I've, I've never
+
+362
+00:16:16,650 --> 00:16:17,670
+actually been to a meetup.
+
+363
+00:16:18,030 --> 00:16:22,230
+Um, that's not online, but I, I
+will just stand by the
+
+364
+00:16:22,230 --> 00:16:25,455
+wall and then like, Try and make
+eye contact with somebody
+
+365
+00:16:25,455 --> 00:16:26,475
+and hope they're friendly.
+
+366
+00:16:28,245 --> 00:16:29,295
+Marie: I am the same way.
+
+367
+00:16:29,295 --> 00:16:31,155
+And then when they come up to
+you and talk, you're just like,
+
+368
+00:16:32,715 --> 00:16:35,925
+Dan: I actually have been
+running the, the
+
+369
+00:16:35,925 --> 00:16:36,735
+Cleveland react meetup.
+
+370
+00:16:36,740 --> 00:16:38,925
+We started like a, I don't know,
+a year and a half
+
+371
+00:16:38,925 --> 00:16:41,715
+ago or something back when we
+could see people.
+
+372
+00:16:42,194 --> 00:16:44,985
+Uh, but I was also the same way,
+like in general,
+
+373
+00:16:45,525 --> 00:16:47,324
+you know, wanting to like, I
+don't know, just kind
+
+374
+00:16:47,324 --> 00:16:48,194
+of hang back or whatever.
+
+375
+00:16:48,255 --> 00:16:48,615
+And.
+
+376
+00:16:49,440 --> 00:16:51,630
+It was a really hard problem to
+solve for, you
+
+377
+00:16:51,630 --> 00:16:52,560
+know, as an organizer.
+
+378
+00:16:52,560 --> 00:16:55,470
+And I saw it happening and, you
+know, didn't know
+
+379
+00:16:55,470 --> 00:16:56,340
+how to fix it, really.
+
+380
+00:16:57,090 --> 00:17:00,630
+Um, having this sort of
+structure that we have is, I
+
+381
+00:17:00,630 --> 00:17:03,030
+don't know, has been really
+awesome at virtual coffee.
+
+382
+00:17:04,050 --> 00:17:04,740
+Nice way to solve all
+
+383
+00:17:04,740 --> 00:17:04,860
+Bekah: that.
+
+384
+00:17:04,860 --> 00:17:05,040
+Yeah.
+
+385
+00:17:05,040 --> 00:17:09,720
+I, I was talking to a conference
+organizer recently
+
+386
+00:17:10,140 --> 00:17:14,370
+about, you know, the, that idea,
+that same idea, like
+
+387
+00:17:14,370 --> 00:17:15,569
+how do you bring people in?
+
+388
+00:17:15,569 --> 00:17:18,180
+How do you make people feel
+welcome?
+
+389
+00:17:18,810 --> 00:17:21,480
+And one of the things that he
+was talking about was when,
+
+390
+00:17:21,480 --> 00:17:26,160
+you know, the people who are
+there, um, that's how you're
+
+391
+00:17:26,160 --> 00:17:29,880
+able to make the connections and
+with virtual coffee
+
+392
+00:17:29,880 --> 00:17:33,900
+and having these, you know,
+frequent coffees, we, we do
+
+393
+00:17:33,900 --> 00:17:38,280
+get to know each other and, um,
+it makes it easier for all
+
+394
+00:17:38,280 --> 00:17:41,850
+of us to kind of talk to each
+other about different things.
+
+395
+00:17:41,910 --> 00:17:45,360
+Um, and also I think it provides
+a really great environment.
+
+396
+00:17:46,095 --> 00:17:49,695
+People at all levels, um, which
+can be, I think really
+
+397
+00:17:49,695 --> 00:17:53,145
+challenging, but to, you know,
+feel welcome as a
+
+398
+00:17:53,145 --> 00:17:56,445
+new developer and to feel like
+you have a place here.
+
+399
+00:17:56,445 --> 00:18:00,135
+If you've been doing this for
+your whole career is just
+
+400
+00:18:00,135 --> 00:18:01,605
+something that is, I don't know.
+
+401
+00:18:01,605 --> 00:18:03,345
+I really value it about this
+community.
+
+402
+00:18:07,155 --> 00:18:11,115
+Um, Marie I, one of the
+questions that I, I love
+
+403
+00:18:11,445 --> 00:18:17,880
+to hear people answer is, um,
+Finding that transition
+
+404
+00:18:17,880 --> 00:18:22,680
+period from going to bootcamp
+into your first job and
+
+405
+00:18:22,680 --> 00:18:25,230
+how, how does that play out?
+
+406
+00:18:25,230 --> 00:18:27,120
+So I know for everybody it's
+different, but it
+
+407
+00:18:27,120 --> 00:18:28,770
+can be really challenging.
+
+408
+00:18:28,770 --> 00:18:32,400
+So can you talk a little bit
+about that experience and
+
+409
+00:18:32,400 --> 00:18:34,560
+maybe some of the challenges you
+didn't anticipate?
+
+410
+00:18:36,720 --> 00:18:40,380
+Marie: So I think the biggest
+challenge with transitioning
+
+411
+00:18:40,380 --> 00:18:43,320
+from bootcamp to my job.
+
+412
+00:18:44,115 --> 00:18:49,095
+I assumed a lot of things would
+be similar to how we
+
+413
+00:18:49,635 --> 00:18:52,935
+structured, like the code base
+or laid things out
+
+414
+00:18:53,025 --> 00:18:56,715
+because we did C sharp the last
+six weeks of bootcamp.
+
+415
+00:18:57,165 --> 00:19:01,695
+And the project I'm on now works
+as C sharp, but things
+
+416
+00:19:01,695 --> 00:19:05,415
+are completely different how
+they're laid out, which going
+
+417
+00:19:05,415 --> 00:19:08,235
+into a really huge code base.
+
+418
+00:19:08,655 --> 00:19:11,205
+I didn't really learn how to
+navigate through.
+
+419
+00:19:13,365 --> 00:19:15,225
+Something with hundreds of
+files.
+
+420
+00:19:16,065 --> 00:19:20,205
+So I'm also lucky that my
+instructor, Keith,
+
+421
+00:19:20,475 --> 00:19:23,325
+which you guys have met, he also
+consults for us.
+
+422
+00:19:23,325 --> 00:19:28,665
+So he is in with me most days,
+teaching me how to navigate,
+
+423
+00:19:28,670 --> 00:19:34,035
+how to just like go from one
+part of the project to the next
+
+424
+00:19:34,035 --> 00:19:38,055
+or little tips like, oh, this is
+like, look, look for this.
+
+425
+00:19:38,055 --> 00:19:39,495
+Or you can tell why this.
+
+426
+00:19:40,889 --> 00:19:45,389
+Which is nice because I'm not
+sure how other teams are, cuz
+
+427
+00:19:45,389 --> 00:19:50,850
+I only have this experience with
+a very small team, but I'm
+
+428
+00:19:50,850 --> 00:19:53,340
+guessing on a bigger team you'll
+you would have someone pairing
+
+429
+00:19:53,345 --> 00:19:58,050
+with you showing you kind of the
+ropes of, oh, here's the project
+
+430
+00:19:58,680 --> 00:20:03,120
+you might run into this or like
+here's how we, I personally
+
+431
+00:20:03,120 --> 00:20:04,649
+get from file to file.
+
+432
+00:20:05,490 --> 00:20:09,524
+Um, But I think that was the
+hardest transition was, wow,
+
+433
+00:20:09,554 --> 00:20:11,564
+this there's a lot of files.
+
+434
+00:20:11,655 --> 00:20:14,115
+This isn't just like 10 files.
+
+435
+00:20:14,715 --> 00:20:18,794
+And then just all of the, the
+new things of adapting to
+
+436
+00:20:18,794 --> 00:20:23,594
+people you don't know, like, of
+course, like I've been
+
+437
+00:20:23,594 --> 00:20:27,794
+there since July, whenever you,
+you start something new
+
+438
+00:20:27,794 --> 00:20:29,834
+or go to a new school or go.
+
+439
+00:20:31,225 --> 00:20:33,524
+Anywhere new you're very like
+closed off.
+
+440
+00:20:33,915 --> 00:20:36,645
+You don't really wanna tell them
+like, oh, I'm
+
+441
+00:20:36,645 --> 00:20:38,205
+not really sure about this.
+
+442
+00:20:38,415 --> 00:20:43,235
+You just wing it until you're
+like, okay, I
+
+443
+00:20:43,241 --> 00:20:44,235
+actually need help now.
+
+444
+00:20:46,095 --> 00:20:51,044
+so it's just like, uh, and then
+Keith is always like,
+
+445
+00:20:51,105 --> 00:20:52,544
+no, just ask right away.
+
+446
+00:20:53,205 --> 00:20:54,044
+It's just better.
+
+447
+00:20:56,250 --> 00:21:00,000
+Yeah, probably just adapt
+adapting to new the new
+
+448
+00:21:00,000 --> 00:21:02,639
+code base and new structure.
+
+449
+00:21:04,080 --> 00:21:05,450
+That's not the same as.
+
+450
+00:21:06,284 --> 00:21:07,965
+The day to day bootcamp life.
+
+451
+00:21:09,075 --> 00:21:09,885
+Bekah: Yeah, for sure.
+
+452
+00:21:09,885 --> 00:21:12,345
+I'll echo that as a bootcamp,
+grad myself.
+
+453
+00:21:12,345 --> 00:21:13,935
+I mean exactly what you're
+saying.
+
+454
+00:21:13,935 --> 00:21:17,655
+Like you go from working with 10
+files and then you're like, what
+
+455
+00:21:17,659 --> 00:21:23,264
+is this even, um, how do these
+things connect and why and what?
+
+456
+00:21:23,865 --> 00:21:26,865
+Um, and then it is that, that.
+
+457
+00:21:27,764 --> 00:21:28,814
+Time period.
+
+458
+00:21:28,814 --> 00:21:31,304
+You have to figure out how to
+communicate.
+
+459
+00:21:31,304 --> 00:21:33,824
+And this is why I har on
+communication being like
+
+460
+00:21:33,824 --> 00:21:36,195
+one of the most important skills
+all of the time.
+
+461
+00:21:36,585 --> 00:21:38,745
+Um, especially as a new
+developer, because it's
+
+462
+00:21:38,745 --> 00:21:41,925
+hard, like one, you don't know
+when to ask, right?
+
+463
+00:21:41,929 --> 00:21:44,054
+Because certainly you need to
+dig in and you need
+
+464
+00:21:44,054 --> 00:21:46,034
+to learn things yourself.
+
+465
+00:21:46,544 --> 00:21:49,185
+Um, and there's not really a
+hard and fast role.
+
+466
+00:21:49,185 --> 00:21:51,764
+I know some people say, well,
+like look at it for 15 minutes
+
+467
+00:21:51,764 --> 00:21:53,175
+and if you don't know, then.
+
+468
+00:21:53,909 --> 00:21:57,300
+Ask, but when you have a huge
+code base, I think
+
+469
+00:21:57,300 --> 00:22:02,129
+that maybe is not, at least for
+me, it's not a, a good
+
+470
+00:22:02,129 --> 00:22:03,930
+tool for judging one to ask.
+
+471
+00:22:05,340 --> 00:22:08,129
+If you're going from piece to
+piece, just trying to
+
+472
+00:22:08,129 --> 00:22:10,379
+track down where all of this
+stuff is coming from,
+
+473
+00:22:10,379 --> 00:22:13,350
+it's gonna take you longer than
+15 minutes and that's
+
+474
+00:22:13,350 --> 00:22:15,750
+still valuable time spent.
+
+475
+00:22:16,169 --> 00:22:20,040
+Um, but it is that like, okay, I
+need to learn these new things
+
+476
+00:22:20,040 --> 00:22:22,409
+and I need to learn how to
+communicate with these people.
+
+477
+00:22:22,980 --> 00:22:25,830
+And, and basically, you know,
+how to trust the people
+
+478
+00:22:25,830 --> 00:22:26,730
+that you're working with.
+
+479
+00:22:26,730 --> 00:22:30,090
+That's super important to, I
+think, growing as a develop.
+
+480
+00:22:32,145 --> 00:22:32,445
+Marie: Yeah.
+
+481
+00:22:32,445 --> 00:22:35,895
+And trying to, um, kind of make
+the connection between,
+
+482
+00:22:35,925 --> 00:22:40,544
+oh, let me just look at this
+file and piece things together
+
+483
+00:22:40,725 --> 00:22:43,125
+and see if I can figure that
+much out by myself so I can
+
+484
+00:22:43,125 --> 00:22:45,465
+explain kind of where I'm going.
+
+485
+00:22:46,095 --> 00:22:49,845
+Um, I keep mentioning Keith, but
+he's very big on, you
+
+486
+00:22:49,845 --> 00:22:50,985
+should probably draw it out.
+
+487
+00:22:51,014 --> 00:22:54,075
+Can you just draw it out or
+explain.
+
+488
+00:22:54,735 --> 00:22:57,195
+Just earlier today, he was like,
+explain to me what
+
+489
+00:22:57,200 --> 00:22:58,304
+you were trying to do.
+
+490
+00:22:58,635 --> 00:23:01,544
+Mm-hmm  because usually that
+gives you a hint to where
+
+491
+00:23:01,544 --> 00:23:03,165
+you're going in the first place.
+
+492
+00:23:03,195 --> 00:23:03,254
+Yeah.
+
+493
+00:23:04,245 --> 00:23:07,274
+And if you're writing it wrong,
+then you're like, oh, could
+
+494
+00:23:07,274 --> 00:23:08,504
+you read that code out to me?
+
+495
+00:23:08,565 --> 00:23:09,465
+What is that doing?
+
+496
+00:23:09,794 --> 00:23:11,804
+Oh, that's not even what I said
+in the first place.
+
+497
+00:23:12,585 --> 00:23:16,065
+So just trying to figuring out
+how to communicate that
+
+498
+00:23:16,065 --> 00:23:18,465
+way as well, I think is very.
+
+499
+00:23:19,725 --> 00:23:23,715
+Kirk: That, um, that I, I'm
+starting to think
+
+500
+00:23:23,715 --> 00:23:25,455
+about that concept.
+
+501
+00:23:25,455 --> 00:23:28,065
+I feel like a lot of people,
+almost everyone from boot
+
+502
+00:23:28,070 --> 00:23:32,625
+camps could probably echo the,
+I, I had very small
+
+503
+00:23:32,625 --> 00:23:37,755
+projects in boot camp and then
+IL, they are not so small.
+
+504
+00:23:37,935 --> 00:23:43,065
+Mm-hmm  and it sort of makes me
+wonder if that's there's
+
+505
+00:23:43,125 --> 00:23:45,675
+is there a way to like, work
+that into curriculums?
+
+506
+00:23:45,675 --> 00:23:47,235
+Like maybe like part of the
+process, like.
+
+507
+00:23:48,044 --> 00:23:52,395
+This section, we're working on a
+large established code base
+
+508
+00:23:52,695 --> 00:23:56,205
+where obviously as the bootcamp
+student, like you're not
+
+509
+00:23:56,504 --> 00:23:59,655
+building it from scratch, but
+it's like this already exists.
+
+510
+00:24:00,044 --> 00:24:02,534
+And some part of the learning is
+like, okay, how do you
+
+511
+00:24:02,534 --> 00:24:05,655
+integrate into like an already
+existing system that feels
+
+512
+00:24:05,655 --> 00:24:09,014
+like something that can be
+really valuable for people?
+
+513
+00:24:09,264 --> 00:24:09,764
+Or maybe
+
+514
+00:24:09,770 --> 00:24:15,284
+Marie: even like, yeah, I think
+even just, um,
+
+515
+00:24:15,435 --> 00:24:16,635
+maybe boot camps could.
+
+516
+00:24:17,820 --> 00:24:20,910
+I guess talking from my bootcamp
+experience, maybe,
+
+517
+00:24:21,450 --> 00:24:25,320
+um, have you tried to work on an
+open source project?
+
+518
+00:24:25,350 --> 00:24:30,300
+Because even just trying to work
+through that, because usually
+
+519
+00:24:30,305 --> 00:24:33,060
+those projects are big anyways.
+
+520
+00:24:34,920 --> 00:24:40,410
+Um, like the forum project,
+there's so many files in that,
+
+521
+00:24:41,460 --> 00:24:46,260
+that, so you could even pair up
+with another boot grant boot.
+
+522
+00:24:47,145 --> 00:24:51,645
+Person in your class and just
+try to pair on it, figure it out
+
+523
+00:24:52,335 --> 00:24:53,505
+and walk through it that way.
+
+524
+00:24:53,895 --> 00:24:54,075
+Dan: Yeah.
+
+525
+00:24:54,075 --> 00:24:54,675
+That's interesting.
+
+526
+00:24:54,915 --> 00:24:58,035
+There's a lot of different, like
+ways to that, that sort of
+
+527
+00:24:58,665 --> 00:25:01,485
+how to make a small change in a
+large code base, I feel like
+
+528
+00:25:01,490 --> 00:25:05,025
+is an important skill and seems
+like a solvable one from like a
+
+529
+00:25:05,025 --> 00:25:07,665
+bootcamp's perspective, whether
+it's open source thing or just
+
+530
+00:25:07,665 --> 00:25:10,845
+like, I dunno, just like they
+just have a large app that they
+
+531
+00:25:10,845 --> 00:25:13,875
+use, you know, like the open
+source stuff is, is important
+
+532
+00:25:13,875 --> 00:25:17,550
+and, but it has its own whole
+set of, you know, Whatever.
+
+533
+00:25:17,550 --> 00:25:19,560
+And then also, if it's not your
+open source project,
+
+534
+00:25:19,560 --> 00:25:24,030
+then you, you know, have to hope
+that there's just issues
+
+535
+00:25:24,240 --> 00:25:26,790
+that are appropriate to work on,
+you know, but yeah,
+
+536
+00:25:26,790 --> 00:25:27,870
+just having some huge app.
+
+537
+00:25:27,870 --> 00:25:28,020
+Yeah.
+
+538
+00:25:28,230 --> 00:25:31,470
+That, and you're like, okay,
+your next assignment is fix
+
+539
+00:25:31,470 --> 00:25:32,850
+this bug, you know, whatever.
+
+540
+00:25:32,855 --> 00:25:35,820
+But in this huge app, you know,
+that, that's
+
+541
+00:25:35,825 --> 00:25:37,030
+interesting to think.
+
+542
+00:25:38,370 --> 00:25:40,260
+Marie: I don't know if, uh,
+bootcamps can
+
+543
+00:25:40,260 --> 00:25:41,790
+pair with like local.
+
+544
+00:25:42,000 --> 00:25:44,370
+I don't know if flat iron has
+sponsors, but
+
+545
+00:25:44,370 --> 00:25:45,900
+Delta V has sponsors may.
+
+546
+00:25:45,960 --> 00:25:50,670
+Maybe they could for a week out
+of the, out of the, uh,
+
+547
+00:25:50,730 --> 00:25:55,920
+curriculum pair with those
+sponsors and have students work
+
+548
+00:25:55,925 --> 00:25:59,820
+on a small feature, like, oh,
+get to know our, our product.
+
+549
+00:25:59,880 --> 00:26:01,800
+I know a lot of companies are
+private.
+
+550
+00:26:02,774 --> 00:26:06,330
+but even just like looking,
+looking at sign some consent
+
+551
+00:26:06,330 --> 00:26:10,139
+form or something, but looking
+at a large company's
+
+552
+00:26:10,139 --> 00:26:12,480
+code base and being like, oh,
+maybe partner or pair
+
+553
+00:26:12,480 --> 00:26:15,720
+with one of the employees,
+because that even will give
+
+554
+00:26:15,720 --> 00:26:18,870
+them an insight to how like day
+to day jobs are as well.
+
+555
+00:26:20,160 --> 00:26:20,610
+Bekah: Yeah.
+
+556
+00:26:20,610 --> 00:26:26,235
+I think, um,  there's a program
+called collab lab.
+
+557
+00:26:26,355 --> 00:26:30,615
+Um, and they are doing something
+similar because they're working
+
+558
+00:26:30,615 --> 00:26:35,280
+with a lot of people who, um,
+Are from nontraditional
+
+559
+00:26:35,280 --> 00:26:38,909
+backgrounds, but they're finding
+that the issue when they go
+
+560
+00:26:38,909 --> 00:26:41,250
+to interview is, well, you don't
+have enough experience
+
+561
+00:26:41,250 --> 00:26:44,969
+or you, the way that you talk
+about code, isn't clear.
+
+562
+00:26:44,969 --> 00:26:47,250
+I mean, a lot of us aren't used
+to talking about it.
+
+563
+00:26:47,250 --> 00:26:49,290
+If we're coming from
+nontraditional backgrounds, if
+
+564
+00:26:49,290 --> 00:26:52,320
+you're teaching yourself, who
+are you talking to about code?
+
+565
+00:26:52,679 --> 00:26:55,379
+If you're in a bootcamp or
+you're working self-paced,
+
+566
+00:26:55,439 --> 00:26:58,860
+um, remotely, then it's the,
+it's the same issue.
+
+567
+00:26:59,810 --> 00:27:03,740
+So they pair up teams to work on
+a project.
+
+568
+00:27:03,740 --> 00:27:08,210
+And I, I don't wanna say exactly
+what it is cuz I can't remember,
+
+569
+00:27:08,210 --> 00:27:10,040
+but it's a larger project.
+
+570
+00:27:10,070 --> 00:27:15,050
+It helps 'em to develop skills,
+um, team building communication.
+
+571
+00:27:15,050 --> 00:27:17,240
+They're using GitHub for the
+project.
+
+572
+00:27:17,240 --> 00:27:19,550
+So really developing a lot of
+the skills that I think
+
+573
+00:27:19,550 --> 00:27:22,280
+that boot camps miss out on.
+
+574
+00:27:22,490 --> 00:27:24,830
+So that's, you know, certainly
+helpful.
+
+575
+00:27:25,485 --> 00:27:28,245
+And I think like for me, one of
+my favorite things that we've
+
+576
+00:27:28,245 --> 00:27:31,004
+done at virtual coffee is the
+hack Tober Fest initiative.
+
+577
+00:27:31,065 --> 00:27:36,014
+Mm-hmm  um, and that was just a
+really great way to learn about.
+
+578
+00:27:37,045 --> 00:27:40,560
+um, working on different
+people's projects, how different
+
+579
+00:27:40,560 --> 00:27:45,180
+people communicate, um, how to
+work with contributors and then
+
+580
+00:27:45,180 --> 00:27:49,950
+just have a wide variety of
+both, um, open source projects,
+
+581
+00:27:49,950 --> 00:27:51,660
+but support of the community.
+
+582
+00:27:52,050 --> 00:27:55,680
+So, you know, having that there
+as well was, was really
+
+583
+00:27:55,680 --> 00:27:58,260
+fruitful, um, for me anyway.
+
+584
+00:27:58,260 --> 00:28:00,780
+And I think that, you know,
+you're definitely on the right
+
+585
+00:28:00,780 --> 00:28:04,440
+track of terms of like, kind of
+thinking through some of
+
+586
+00:28:04,440 --> 00:28:08,105
+the issues, um,  and I love too
+how you were describing
+
+587
+00:28:08,105 --> 00:28:12,875
+like different how learning a
+process almost for what you're
+
+588
+00:28:12,875 --> 00:28:18,605
+doing and how you're doing it,
+um, is, is super valuable too.
+
+589
+00:28:19,475 --> 00:28:19,685
+Marie: Yeah.
+
+590
+00:28:19,685 --> 00:28:22,625
+One thing I liked about Heto
+Fest is I worked with
+
+591
+00:28:22,625 --> 00:28:26,274
+a lot of people's projects who
+weren't my language
+
+592
+00:28:26,585 --> 00:28:27,905
+that I was comfortable with.
+
+593
+00:28:28,054 --> 00:28:30,125
+So I'm most comfortable with C.
+
+594
+00:28:31,650 --> 00:28:34,740
+I worked with Kirk quite a bit
+on his Elm project.
+
+595
+00:28:35,280 --> 00:28:39,570
+And we could talk about like
+similarities between what I know
+
+596
+00:28:39,810 --> 00:28:41,490
+and what he knows through Elm.
+
+597
+00:28:41,940 --> 00:28:45,690
+I'm like, oh, I like, I can, I
+can basically understand this
+
+598
+00:28:45,695 --> 00:28:46,920
+or get where this is going.
+
+599
+00:28:46,920 --> 00:28:48,870
+Even though I don't know the
+language.
+
+600
+00:28:48,875 --> 00:28:52,500
+And this is the first time I've
+ever worked in Elm before.
+
+601
+00:28:53,160 --> 00:28:56,550
+So it's kind of nice just
+knowing that, oh, I know
+
+602
+00:28:56,550 --> 00:28:59,820
+the basic core concept of like
+JavaScript C sharp.
+
+603
+00:29:01,905 --> 00:29:03,375
+HTML all that.
+
+604
+00:29:03,855 --> 00:29:07,125
+And then I could translate it
+into how to help Kirk
+
+605
+00:29:07,125 --> 00:29:12,495
+with his Elm project, which is
+nice to know like, oh,
+
+606
+00:29:13,125 --> 00:29:17,385
+or nice to gain experience,
+knowing like, oh, even though
+
+607
+00:29:17,390 --> 00:29:20,925
+I don't know this language or
+know this, this project
+
+608
+00:29:20,925 --> 00:29:26,415
+or no, like this library, I know
+I can at least figure
+
+609
+00:29:26,415 --> 00:29:29,475
+out some pieces to make the
+connection between what I know.
+
+610
+00:29:30,074 --> 00:29:34,094
+And the new project language or
+anything new
+
+611
+00:29:34,094 --> 00:29:35,445
+that I might be working on.
+
+612
+00:29:36,645 --> 00:29:40,425
+Kirk: What also Marie did not
+mention was that while
+
+613
+00:29:40,429 --> 00:29:44,024
+she was pairing with me, we
+totally found a weird
+
+614
+00:29:44,024 --> 00:29:45,614
+thing that VSCO does.
+
+615
+00:29:45,614 --> 00:29:48,945
+And I had no idea what was going
+on and I was panicking
+
+616
+00:29:48,945 --> 00:29:51,975
+and I'm like, I've ruined her
+hack, Tober Fest experience.
+
+617
+00:29:52,425 --> 00:29:55,094
+Everything is terrible now, but
+she was very, she was
+
+618
+00:29:55,094 --> 00:29:57,584
+very pleasant about it and she
+told me it was fine.
+
+619
+00:29:58,155 --> 00:29:59,235
+And we eventually figured it.
+
+620
+00:30:00,105 --> 00:30:03,014
+, um, which is one of the fun
+things about, about pairing,
+
+621
+00:30:03,824 --> 00:30:07,334
+but yeah, I, I do, cuz I
+remember when we, we spoke about
+
+622
+00:30:07,455 --> 00:30:09,435
+Octoberfest and how we wanted to
+do it, we spent a lot of
+
+623
+00:30:09,435 --> 00:30:12,135
+time thinking, well, do we wanna
+reach out to different groups?
+
+624
+00:30:12,135 --> 00:30:13,875
+And should we source like good
+projects?
+
+625
+00:30:13,875 --> 00:30:18,135
+And then we realized it was so
+hard to sort of do quality
+
+626
+00:30:18,135 --> 00:30:22,344
+control on like the wider open
+source universe that.
+
+627
+00:30:22,920 --> 00:30:26,130
+We just, oh, we should probably
+just like do our own thing at
+
+628
+00:30:26,130 --> 00:30:28,920
+least make sure, like, we have
+one established project that
+
+629
+00:30:28,920 --> 00:30:33,120
+like, we know will provide like
+a good experience for people
+
+630
+00:30:33,120 --> 00:30:36,060
+because like we made it and
+we're the ones maintaining it.
+
+631
+00:30:36,870 --> 00:30:39,300
+Um, and I think that actually
+turned out pretty well.
+
+632
+00:30:39,305 --> 00:30:42,090
+And then, you know, everybody
+who participated kind of
+
+633
+00:30:42,090 --> 00:30:42,990
+like fed off each other.
+
+634
+00:30:42,990 --> 00:30:44,100
+So someone had a good read me.
+
+635
+00:30:44,100 --> 00:30:44,640
+I'm like, oh, okay.
+
+636
+00:30:44,640 --> 00:30:45,810
+I'm gonna use a read me like
+that.
+
+637
+00:30:45,810 --> 00:30:48,810
+Oh, you have good, um,
+templates.
+
+638
+00:30:48,810 --> 00:30:49,740
+I'll borrow your templates.
+
+639
+00:30:49,740 --> 00:30:49,860
+So.
+
+640
+00:30:51,435 --> 00:30:53,264
+and the projects are still the
+projects they're still, you
+
+641
+00:30:53,264 --> 00:30:55,395
+know, like unique in different
+languages and wonderful, but
+
+642
+00:30:55,395 --> 00:31:02,205
+at least the approach and the
+user friendliness for newer
+
+643
+00:31:02,205 --> 00:31:05,685
+developers was like something we
+could try and standardize.
+
+644
+00:31:05,690 --> 00:31:08,085
+And I'm, I'm really happy with
+how that turned out.
+
+645
+00:31:08,845 --> 00:31:13,485
+Um, you know, even, even for me,
+like, I, I didn't have that much
+
+646
+00:31:13,485 --> 00:31:16,815
+experience contributing to other
+people's projects before this.
+
+647
+00:31:18,075 --> 00:31:19,635
+Um, it was fun.
+
+648
+00:31:19,825 --> 00:31:22,305
+That was, that was really, that
+was really cool.
+
+649
+00:31:22,305 --> 00:31:27,255
+And I, I, I also wish, like I'd
+had more chances to do that way
+
+650
+00:31:27,255 --> 00:31:30,015
+earlier in my career than now.
+
+651
+00:31:30,285 --> 00:31:32,325
+I wish I had just been doing
+that from the start, cuz that
+
+652
+00:31:32,325 --> 00:31:34,185
+is the majority of people.
+
+653
+00:31:34,185 --> 00:31:36,495
+When you work in software, like
+you're not fielding
+
+654
+00:31:36,495 --> 00:31:39,405
+up something from scratch,
+you're working on something
+
+655
+00:31:39,405 --> 00:31:40,425
+already established, right.
+
+656
+00:31:43,350 --> 00:31:46,770
+Marie: One of the aspects of
+Octoberfest that I really
+
+657
+00:31:46,770 --> 00:31:53,219
+enjoyed was, um, Nick helped me
+set up, um, forums, project,
+
+658
+00:31:53,219 --> 00:31:57,870
+which you get to learn about how
+to be taught by someone
+
+659
+00:31:57,870 --> 00:32:00,419
+else, because how many times are
+you on a new job?
+
+660
+00:32:00,419 --> 00:32:04,260
+And then you have to work with a
+new developer or a
+
+661
+00:32:04,260 --> 00:32:07,199
+new senior developer, or just
+someone new on your team.
+
+662
+00:32:07,199 --> 00:32:09,659
+And you have to like try to find
+a way to.
+
+663
+00:32:11,100 --> 00:32:15,270
+Discuss your problems or like
+collaborate with them and figure
+
+664
+00:32:15,270 --> 00:32:16,379
+out what they're trying to say.
+
+665
+00:32:16,410 --> 00:32:18,360
+Cuz everyone explains things
+differently.
+
+666
+00:32:18,990 --> 00:32:22,530
+But I think having virtual
+coffees hack Octoberfest,
+
+667
+00:32:23,340 --> 00:32:25,980
+we, most of you guys had smaller
+projects.
+
+668
+00:32:26,670 --> 00:32:29,760
+And that even helps people with
+an introductory
+
+669
+00:32:29,760 --> 00:32:32,970
+project because it's like, oh,
+here's my project.
+
+670
+00:32:32,970 --> 00:32:37,020
+I have like five to 10 files,
+maybe a few more.
+
+671
+00:32:37,620 --> 00:32:39,960
+And then you guys are like, oh
+no, I'm trying to
+
+672
+00:32:39,960 --> 00:32:41,700
+build this feature in this
+feature and this feature.
+
+673
+00:32:41,700 --> 00:32:47,370
+So we have quite a bit more code
+and then you could go to even
+
+674
+00:32:47,550 --> 00:32:53,129
+bigger open source projects like
+forum and then, and then work.
+
+675
+00:32:53,460 --> 00:32:54,420
+Like my work has.
+
+676
+00:32:55,410 --> 00:32:56,250
+A ton of files.
+
+677
+00:32:57,240 --> 00:33:01,139
+So it's just like more steps, I
+guess.
+
+678
+00:33:02,760 --> 00:33:03,210
+Bekah: Dot net.
+
+679
+00:33:03,240 --> 00:33:03,420
+Yeah.
+
+680
+00:33:03,425 --> 00:33:04,080
+I wanna touch.
+
+681
+00:33:04,754 --> 00:33:10,125
+Something that you said, um, the
+ability to be able
+
+682
+00:33:10,125 --> 00:33:12,555
+to dive into code bases with
+different languages.
+
+683
+00:33:12,945 --> 00:33:14,805
+And one of the things that I
+heard pretty
+
+684
+00:33:14,805 --> 00:33:16,365
+early on was, well, okay.
+
+685
+00:33:16,365 --> 00:33:19,125
+You learned Ruby in bootcamp and
+you learned JavaScript, but that
+
+686
+00:33:19,125 --> 00:33:21,254
+doesn't mean that you should
+limit yourself to applying for
+
+687
+00:33:21,254 --> 00:33:23,325
+jobs with just those languages.
+
+688
+00:33:23,745 --> 00:33:25,544
+And I had heard that, but I
+didn't.
+
+689
+00:33:25,960 --> 00:33:27,220
+Quite understand it.
+
+690
+00:33:27,220 --> 00:33:30,400
+And I think that you did a
+really good, I, uh, good job of
+
+691
+00:33:30,400 --> 00:33:33,970
+kind of talking through how that
+works, because so much of it
+
+692
+00:33:33,970 --> 00:33:35,770
+is the thought process, right?
+
+693
+00:33:35,775 --> 00:33:37,510
+It's problem solving.
+
+694
+00:33:37,510 --> 00:33:37,600
+Yep.
+
+695
+00:33:37,900 --> 00:33:40,750
+Um, and it's just, you know, you
+have, there are gonna be
+
+696
+00:33:40,750 --> 00:33:43,660
+different terms and there are
+going to be different patterns
+
+697
+00:33:43,665 --> 00:33:46,000
+with different languages that
+you have to learn.
+
+698
+00:33:46,350 --> 00:33:49,740
+But essentially, if you have
+that problem solving down,
+
+699
+00:33:49,740 --> 00:33:53,580
+and if you could do a good
+analysis of what you're looking
+
+700
+00:33:53,580 --> 00:33:57,689
+at, then, then that does open
+doors for you to move
+
+701
+00:33:57,689 --> 00:34:00,870
+to projects with different
+languages or to apply for a
+
+702
+00:34:00,870 --> 00:34:03,570
+much wider variety of positions.
+
+703
+00:34:05,250 --> 00:34:08,400
+Marie: One thing we did at
+bootcamp at Delvy is we had
+
+704
+00:34:08,400 --> 00:34:10,529
+mock interviews on Fridays.
+
+705
+00:34:11,190 --> 00:34:11,969
+So.
+
+706
+00:34:12,884 --> 00:34:15,270
+um, one of our sponsors actually
+came into interview us.
+
+707
+00:34:15,270 --> 00:34:19,020
+They, he got a huge like
+question packet and one
+
+708
+00:34:19,020 --> 00:34:22,529
+of my questions was about a
+Python dictionary.
+
+709
+00:34:23,460 --> 00:34:26,610
+I don't, I know a little Python,
+but I don't know Python,
+
+710
+00:34:27,120 --> 00:34:28,710
+but I know C has dictionary.
+
+711
+00:34:28,710 --> 00:34:29,759
+So I explained it.
+
+712
+00:34:29,820 --> 00:34:33,690
+Oh, I'm, I'm not familiar with
+Python as much as I am C sharp
+
+713
+00:34:33,690 --> 00:34:37,860
+and I know C has dictionaries,
+then I want to explain how I
+
+714
+00:34:37,860 --> 00:34:41,219
+know dictionaries and I'm like,
+I'm assuming it's like Python.
+
+715
+00:34:41,790 --> 00:34:44,129
+They might not be exactly the
+same, but here's what I know
+
+716
+00:34:44,129 --> 00:34:47,639
+about dictionaries, which I
+think that like, anytime you're
+
+717
+00:34:47,639 --> 00:34:49,889
+in an interview and you don't
+exactly know, but you've heard
+
+718
+00:34:49,889 --> 00:34:52,049
+something that could tie in.
+
+719
+00:34:52,529 --> 00:34:55,080
+I think that that is just really
+good.
+
+720
+00:34:55,799 --> 00:34:57,899
+Just to know, oh, you might not
+know the answer, but if
+
+721
+00:34:57,899 --> 00:35:00,419
+you can make connection to
+something that, you know,
+
+722
+00:35:01,620 --> 00:35:04,410
+that really will benefit you in
+the long run and even make
+
+723
+00:35:04,410 --> 00:35:06,750
+you possibly stand out, cuz some
+people will just say.
+
+724
+00:35:07,859 --> 00:35:08,190
+Sorry.
+
+725
+00:35:08,190 --> 00:35:09,089
+I don't know Python.
+
+726
+00:35:09,089 --> 00:35:12,569
+I can't answer the question, but
+maybe elaborate a bit more and
+
+727
+00:35:12,569 --> 00:35:13,859
+be like, oh, well, I don't know.
+
+728
+00:35:13,859 --> 00:35:17,400
+However, I am familiar with C
+sharp and they have have a
+
+729
+00:35:17,400 --> 00:35:21,750
+dictionary and here's how I
+would use a C sharp dictionary.
+
+730
+00:35:21,779 --> 00:35:23,520
+Python might be similar, but I
+know I have
+
+731
+00:35:23,520 --> 00:35:24,540
+enough information to.
+
+732
+00:35:26,669 --> 00:35:28,709
+Find out how a Python dictionary
+works.
+
+733
+00:35:29,790 --> 00:35:30,810
+Dan: I think that's great
+advice.
+
+734
+00:35:31,259 --> 00:35:34,290
+Just like the, I think the thing
+that people are looking
+
+735
+00:35:34,290 --> 00:35:36,990
+for when they're hiring,
+especially, um, you know,
+
+736
+00:35:36,990 --> 00:35:40,169
+earlier career developers is, is
+not so much the knowledge
+
+737
+00:35:40,174 --> 00:35:43,020
+of everything, but just the
+ability to maybe connect the
+
+738
+00:35:43,020 --> 00:35:44,399
+dots and willingness to learn.
+
+739
+00:35:44,419 --> 00:35:44,640
+And.
+
+740
+00:35:45,825 --> 00:35:48,315
+Maybe some evidence that they
+have learned things , you know,
+
+741
+00:35:48,765 --> 00:35:52,005
+and it's like, cause you know,
+if you're hiring somebody, uh,
+
+742
+00:35:52,065 --> 00:35:54,884
+you know, in a, I don't know,
+junior or whatever, that sort
+
+743
+00:35:54,890 --> 00:35:58,035
+of role you're expecting them to
+be learning, you know, I
+
+744
+00:35:58,035 --> 00:35:59,835
+mean expecting everybody to be
+learning on the job, but
+
+745
+00:35:59,924 --> 00:36:02,835
+you know, I, I think that just
+great advice is like connecting
+
+746
+00:36:02,835 --> 00:36:06,045
+mm-hmm  like going into an
+interview knowing like, I know
+
+747
+00:36:06,075 --> 00:36:09,345
+I'm not gonna know everything in
+the world cuz nobody can,
+
+748
+00:36:09,345 --> 00:36:13,185
+you know, but um, the, the like
+practicing and connecting the.
+
+749
+00:36:14,790 --> 00:36:17,339
+There are questions to your
+knowledge, you know, uh,
+
+750
+00:36:17,339 --> 00:36:19,470
+is, is like a great, I think
+that's some great insight.
+
+751
+00:36:22,710 --> 00:36:23,000
+Marie: Yeah.
+
+752
+00:36:25,500 --> 00:36:29,280
+Bekah: Um, one of the things I
+also wanted to ask, I know,
+
+753
+00:36:29,340 --> 00:36:33,990
+um, it, in tech, there's so much
+to learn and so much to
+
+754
+00:36:33,990 --> 00:36:36,540
+be excited about, like all the
+shiny things are out there
+
+755
+00:36:36,600 --> 00:36:40,020
+and like, how do you figure out
+what you wanna learn next?
+
+756
+00:36:40,025 --> 00:36:43,560
+So I just am curious, you know,
+what are things that you are
+
+757
+00:36:43,560 --> 00:36:48,300
+interested in learning about in
+the future and kind of how, how.
+
+758
+00:36:49,095 --> 00:36:51,375
+Or why you decided on those
+things
+
+759
+00:36:52,634 --> 00:36:53,835
+Marie: right now?
+
+760
+00:36:54,075 --> 00:37:01,605
+I am one of my, uh, tasks or
+requirements in my contract.
+
+761
+00:37:01,605 --> 00:37:05,415
+When I, when I started work with
+strata, folio is creating
+
+762
+00:37:05,419 --> 00:37:09,044
+a dashboard using D three JS.
+
+763
+00:37:09,555 --> 00:37:12,944
+So I actually started the
+interview process
+
+764
+00:37:12,944 --> 00:37:15,524
+with strata folio before I
+graduated bootcamp.
+
+765
+00:37:16,935 --> 00:37:18,255
+And they told me about this.
+
+766
+00:37:18,255 --> 00:37:22,815
+So I did a bit of research and
+in our bootcamp we spend
+
+767
+00:37:22,815 --> 00:37:26,775
+a week doing self-learning so
+teach yourself something new.
+
+768
+00:37:27,435 --> 00:37:28,785
+So I got to play around with it.
+
+769
+00:37:28,785 --> 00:37:33,195
+So I am really trying to learn
+more D three ass and create
+
+770
+00:37:33,200 --> 00:37:39,375
+more graphs and charts and just
+really cool things with it.
+
+771
+00:37:40,155 --> 00:37:43,905
+Um, even just trying to do that
+in my free time,
+
+772
+00:37:43,905 --> 00:37:44,805
+or at least reading about.
+
+773
+00:37:45,960 --> 00:37:49,770
+I don't really have too much
+free time, but when I do
+
+774
+00:37:49,770 --> 00:37:52,350
+finally get the free time,
+that's what I would like to
+
+775
+00:37:52,350 --> 00:37:56,339
+work on just to play around with
+it and see, see some
+
+776
+00:37:56,345 --> 00:37:57,480
+cool things I can do with it.
+
+777
+00:37:57,690 --> 00:38:01,200
+Cause you always on, I think D
+three has a website called
+
+778
+00:38:01,200 --> 00:38:04,200
+observable, which you can like
+look at all the different,
+
+779
+00:38:04,500 --> 00:38:10,230
+um, like implementations of, of
+the library.
+
+780
+00:38:12,254 --> 00:38:14,805
+I think just playing around with
+it and learning about
+
+781
+00:38:14,805 --> 00:38:17,085
+it is just gonna be fun.
+
+782
+00:38:17,205 --> 00:38:17,775
+That sounds awesome.
+
+783
+00:38:18,194 --> 00:38:20,415
+I was just thinking about like,
+oh, maybe, maybe I
+
+784
+00:38:20,415 --> 00:38:24,674
+could use one of my cookbooks
+and like, try to like chart
+
+785
+00:38:24,674 --> 00:38:25,964
+something from a cookbook.
+
+786
+00:38:27,674 --> 00:38:31,845
+Oh, wine regions verse like, oh,
+this said it
+
+787
+00:38:32,085 --> 00:38:33,305
+could pair with this.
+
+788
+00:38:34,335 --> 00:38:39,615
+This like type of dish or some,
+some sort of graphic
+
+789
+00:38:39,615 --> 00:38:43,875
+I could make just to be fun or
+different, I guess.
+
+790
+00:38:44,685 --> 00:38:47,265
+And just to, just to keep
+learning fun.
+
+791
+00:38:47,775 --> 00:38:47,955
+That's
+
+792
+00:38:47,960 --> 00:38:48,225
+Dan: awesome.
+
+793
+00:38:48,225 --> 00:38:49,995
+D three D three's really cool.
+
+794
+00:38:50,325 --> 00:38:51,435
+There's some really cool stuff.
+
+795
+00:38:51,465 --> 00:38:52,455
+I think you can do with it.
+
+796
+00:38:52,815 --> 00:38:55,785
+I've only like you just
+scratched the surface of it,
+
+797
+00:38:55,785 --> 00:38:59,055
+but I always keep trying, I'm
+like, oh wait, let's use that.
+
+798
+00:38:59,265 --> 00:39:01,245
+You know, everyone's like, no,
+no, it's not.
+
+799
+00:39:01,245 --> 00:39:02,395
+It's not about yet, but.
+
+800
+00:39:03,715 --> 00:39:06,105
+Marie: I'm not, I'm not into
+like physics or anything
+
+801
+00:39:06,105 --> 00:39:08,455
+like that, but they have that
+like force mm-hmm
+
+802
+00:39:08,925 --> 00:39:11,055
+force, layout, or force.
+
+803
+00:39:11,355 --> 00:39:14,205
+And so like playing with the
+bubbles and like pulling
+
+804
+00:39:14,205 --> 00:39:17,565
+the bubbles and yeah, it's
+really interesting.
+
+805
+00:39:17,565 --> 00:39:19,755
+And I would definitely like
+playing with that a bit
+
+806
+00:39:19,755 --> 00:39:22,195
+more just to tinker and.
+
+807
+00:39:23,009 --> 00:39:24,240
+Like have fun with it.
+
+808
+00:39:24,240 --> 00:39:25,080
+I guess I'm it's
+
+809
+00:39:25,080 --> 00:39:26,040
+Bekah: on my list too.
+
+810
+00:39:26,040 --> 00:39:28,950
+So we should like get something
+going so we
+
+811
+00:39:28,950 --> 00:39:30,360
+can all do fun stuff.
+
+812
+00:39:30,360 --> 00:39:31,049
+I feel like there's gotta
+
+813
+00:39:31,049 --> 00:39:33,840
+Dan: be something, something we
+can put on the website.
+
+814
+00:39:33,840 --> 00:39:35,040
+So on the VC website,
+
+815
+00:39:35,340 --> 00:39:38,130
+Marie: one of, one of my
+thoughts for next year
+
+816
+00:39:38,130 --> 00:39:40,980
+is Octoberfest, which I know a
+bunch of people.
+
+817
+00:39:41,009 --> 00:39:44,370
+I just know everyone's gonna
+love it is creating
+
+818
+00:39:44,370 --> 00:39:48,210
+something for students, for data
+structures.
+
+819
+00:39:48,990 --> 00:39:52,529
+Because D three uses can use a
+lot of animations.
+
+820
+00:39:52,529 --> 00:39:54,810
+So like, as you scroll through
+the page, like maybe like
+
+821
+00:39:54,810 --> 00:39:58,980
+building like link list or going
+through different, um,
+
+822
+00:39:59,070 --> 00:40:01,890
+data structures and explaining
+how they work and different
+
+823
+00:40:01,980 --> 00:40:06,180
+problems that go along with them
+as using D three.
+
+824
+00:40:06,180 --> 00:40:08,160
+And just like, as you scroll
+through the page, like, oh,
+
+825
+00:40:08,160 --> 00:40:11,430
+this is how you go through a
+binary tree or reverse
+
+826
+00:40:11,430 --> 00:40:14,370
+a binary tree or anything.
+
+827
+00:40:15,180 --> 00:40:17,069
+It would just be really cool to
+build something out like that.
+
+828
+00:40:17,069 --> 00:40:19,529
+As you scroll through the page,
+you just see like the data
+
+829
+00:40:19,529 --> 00:40:24,090
+structures being like built or
+like going through a array or
+
+830
+00:40:24,090 --> 00:40:27,660
+a multi-dimensional array or
+something like that would be, I
+
+831
+00:40:27,660 --> 00:40:31,200
+think that would be really fun
+to do as like a group project.
+
+832
+00:40:31,205 --> 00:40:35,100
+Cuz we do the exorcism or
+different like advent of
+
+833
+00:40:35,100 --> 00:40:40,290
+code, just like then you would
+have to like the, the.
+
+834
+00:40:41,385 --> 00:40:46,245
+Code recipes is kind of
+explaining in more basic
+
+835
+00:40:46,245 --> 00:40:50,535
+terminology, how to work through
+like data structures
+
+836
+00:40:50,540 --> 00:40:52,875
+or different challenges.
+
+837
+00:40:53,955 --> 00:40:58,695
+Dan: There is somebody's I'm
+man, there's a woman who has
+
+838
+00:40:58,695 --> 00:41:01,365
+a blog that she does kind of
+like what you're talking about.
+
+839
+00:41:01,365 --> 00:41:03,765
+And I cannot remember what her
+name is, but I will,
+
+840
+00:41:03,825 --> 00:41:04,635
+I will send you the link.
+
+841
+00:41:04,965 --> 00:41:05,595
+I'll share the link.
+
+842
+00:41:06,540 --> 00:41:08,700
+As soon as I find it, cause she
+has done, she's done
+
+843
+00:41:08,700 --> 00:41:11,340
+some they're mostly front end
+tutorials, I think.
+
+844
+00:41:11,340 --> 00:41:14,820
+But, um, mm-hmm,  uses D three
+and uses animation
+
+845
+00:41:14,820 --> 00:41:16,890
+as you scroll and like all this
+really cool stuff.
+
+846
+00:41:16,895 --> 00:41:19,530
+I, I haven't, it's spoken me
+that I can't remember her
+
+847
+00:41:19,530 --> 00:41:21,660
+name, but I will, I will, uh, I
+will send it to you.
+
+848
+00:41:21,660 --> 00:41:23,880
+And I'll if I remember it, I'll,
+I'll put in the show
+
+849
+00:41:23,880 --> 00:41:24,960
+notes as well, so yeah.
+
+850
+00:41:25,830 --> 00:41:26,010
+Marie: Yeah.
+
+851
+00:41:26,010 --> 00:41:28,590
+Cuz that, just doing that, like.
+
+852
+00:41:29,460 --> 00:41:32,129
+Is exciting because you get to
+build something cool.
+
+853
+00:41:32,339 --> 00:41:34,740
+And then you're like learning in
+the process like, oh, I'm
+
+854
+00:41:34,740 --> 00:41:36,569
+not like awesome at DSAs.
+
+855
+00:41:36,779 --> 00:41:39,900
+But if I get to like fiddle
+around with something, pick
+
+856
+00:41:39,900 --> 00:41:44,279
+apart something, and then show
+you this website I
+
+857
+00:41:44,285 --> 00:41:48,480
+built that shows you this cool
+DSA  using D three.
+
+858
+00:41:49,470 --> 00:41:52,049
+It kinda like solidifies your
+knowledge while keeping
+
+859
+00:41:52,290 --> 00:41:56,580
+totally like how kids play with
+like fun, like little.
+
+860
+00:41:56,910 --> 00:41:58,710
+Little things and they still
+learn from it.
+
+861
+00:41:58,710 --> 00:41:59,129
+So
+
+862
+00:42:00,480 --> 00:42:03,089
+Kirk: that's, um, there's
+another project you might
+
+863
+00:42:03,089 --> 00:42:04,379
+be interested in Marie.
+
+864
+00:42:04,920 --> 00:42:09,450
+Uh, one of the folks in the Elm
+community, he does touch
+
+865
+00:42:09,450 --> 00:42:14,790
+dreams and he was working on a
+recipe site for himself in Elm.
+
+866
+00:42:15,060 --> 00:42:15,330
+Yeah.
+
+867
+00:42:15,420 --> 00:42:18,690
+And an interesting thing he was
+doing was trying to make it so.
+
+868
+00:42:19,635 --> 00:42:22,605
+You could adjust, you could
+scale recipes.
+
+869
+00:42:22,635 --> 00:42:25,335
+So like there's the way it's in
+the book, like
+
+870
+00:42:25,335 --> 00:42:26,685
+a slider and like, okay.
+
+871
+00:42:26,685 --> 00:42:29,595
+But what if I actually need more
+servings?
+
+872
+00:42:30,045 --> 00:42:33,675
+Marie: Um, yeah, like for 10
+people or what if I wanna cut
+
+873
+00:42:33,675 --> 00:42:36,465
+it just for date night for 10,
+instead of having to like
+
+874
+00:42:36,470 --> 00:42:39,315
+Kirk: buy hand, figure out, oh,
+how do I trim
+
+875
+00:42:39,315 --> 00:42:40,035
+all these ingredients?
+
+876
+00:42:40,035 --> 00:42:41,445
+And he was working on that, and
+that was really interesting.
+
+877
+00:42:41,955 --> 00:42:44,925
+Because of course, nothing in
+software is ever easy.
+
+878
+00:42:44,925 --> 00:42:48,585
+Like some things don't scale
+linearly.
+
+879
+00:42:48,585 --> 00:42:50,535
+So he would end up with weird
+units, one third of an, a
+
+880
+00:42:50,535 --> 00:42:53,505
+yeah, like 0.01 grams of salt.
+
+881
+00:42:53,510 --> 00:42:55,095
+And it's like, that can't be
+right.
+
+882
+00:42:55,095 --> 00:42:57,285
+So it was just, it was just like
+a really interesting
+
+883
+00:42:57,285 --> 00:42:59,475
+problem space that I think he's
+still working on it.
+
+884
+00:42:59,475 --> 00:43:03,855
+But I'm wondering, I don't know
+when you mentioned, I
+
+885
+00:43:03,855 --> 00:43:05,505
+feel like we still haven't
+established by the way, whether
+
+886
+00:43:05,505 --> 00:43:07,515
+you made the fresh plastic site.
+
+887
+00:43:08,444 --> 00:43:13,665
+Marie: Do I made just like the
+basic like first page,
+
+888
+00:43:13,665 --> 00:43:16,935
+but then from then on, I've just
+been making other things.
+
+889
+00:43:17,115 --> 00:43:21,285
+So it's kind of hard to get back
+and careers have shifted now.
+
+890
+00:43:21,285 --> 00:43:23,955
+I'm like, oh, just focusing on
+software.
+
+891
+00:43:24,765 --> 00:43:27,705
+So maybe in the future, people
+will get fresh
+
+892
+00:43:27,705 --> 00:43:28,964
+pasta, people need fresh
+
+893
+00:43:29,055 --> 00:43:29,625
+Kirk: pasta.
+
+894
+00:43:30,734 --> 00:43:31,915
+Um, yeah.
+
+895
+00:43:32,095 --> 00:43:35,174
+But yeah, I just, I remember
+like I would watch him.
+
+896
+00:43:36,225 --> 00:43:39,885
+that was one of the ways like I
+wanted to learn, not just
+
+897
+00:43:40,335 --> 00:43:43,035
+Elm cuz at that point, like I
+was pretty familiar with the
+
+898
+00:43:43,035 --> 00:43:45,345
+language, but all the stuff you
+were talking about, like how
+
+899
+00:43:45,345 --> 00:43:49,515
+to actually set up a project,
+you know, you know, what,
+
+900
+00:43:49,725 --> 00:43:51,045
+what is his build process?
+
+901
+00:43:51,050 --> 00:43:51,195
+Like?
+
+902
+00:43:51,195 --> 00:43:55,485
+What is his order of operations
+when he is working on
+
+903
+00:43:55,485 --> 00:43:57,495
+something as somebody who's like
+been in the industry
+
+904
+00:43:57,495 --> 00:43:58,455
+for a really long time.
+
+905
+00:43:58,965 --> 00:44:01,695
+Um, so that was really fun to
+watch and even just like how
+
+906
+00:44:01,695 --> 00:44:04,425
+he did his tests and like how he
+iterated through solutions.
+
+907
+00:44:05,655 --> 00:44:06,375
+Bekah: um, okay.
+
+908
+00:44:06,375 --> 00:44:09,375
+Marie, you talked a little bit
+about you're working
+
+909
+00:44:09,375 --> 00:44:12,255
+on different things you started
+with this pasta site.
+
+910
+00:44:12,255 --> 00:44:15,105
+What other fun stuff are you
+working on?
+
+911
+00:44:16,335 --> 00:44:17,025
+Marie: Currently?
+
+912
+00:44:17,025 --> 00:44:19,935
+I'm working still trying to tidy
+up some of my projects
+
+913
+00:44:19,935 --> 00:44:29,505
+from boot camp, but, uh, we made
+this C sharp website called AYQ
+
+914
+00:44:29,510 --> 00:44:34,395
+in and it's just asynchronous.
+
+915
+00:44:34,785 --> 00:44:40,875
+Like adding hotels, deleting ho
+hotels editing, but I am trying
+
+916
+00:44:40,875 --> 00:44:43,845
+to tidy that up and just like
+really build it out into like a
+
+917
+00:44:43,845 --> 00:44:50,265
+whole hotel website, which has
+the backend like administrative
+
+918
+00:44:50,425 --> 00:44:55,005
+section with like permissions
+and then the actual like hotel
+
+919
+00:44:55,005 --> 00:44:59,415
+site where you can go look at
+these fake hotel rooms that
+
+920
+00:44:59,415 --> 00:45:01,035
+I'm gonna put up fake hotels.
+
+921
+00:45:01,035 --> 00:45:03,825
+So like a multi-branch hotel.
+
+922
+00:45:05,220 --> 00:45:10,049
+Um, corporation and then every
+time you click, like,
+
+923
+00:45:10,080 --> 00:45:12,420
+oh, I'm going to go to, well,
+I'm in Bermuda now.
+
+924
+00:45:12,420 --> 00:45:14,580
+So I'm gonna look at hotels in
+Bermuda.
+
+925
+00:45:14,640 --> 00:45:19,830
+It'll show these fake hotels I
+populated or put in the database
+
+926
+00:45:21,029 --> 00:45:24,270
+and then the rooms and, um,
+prices, amenities, all of that.
+
+927
+00:45:24,270 --> 00:45:27,450
+Just building out that kind of
+stuff, because I.
+
+928
+00:45:28,785 --> 00:45:31,785
+Right now we do stuff with like
+permission checks.
+
+929
+00:45:31,785 --> 00:45:35,745
+So just like practicing what I
+know and I'm learning on
+
+930
+00:45:35,745 --> 00:45:39,555
+the job, but applying it to a
+different project that I'm
+
+931
+00:45:39,560 --> 00:45:42,405
+working on to kind of like
+solidify my knowledge, which
+
+932
+00:45:42,465 --> 00:45:45,645
+I'm gonna do it differently in
+my personal project versus
+
+933
+00:45:45,645 --> 00:45:49,125
+work because my personal project
+is set up completely
+
+934
+00:45:49,125 --> 00:45:50,385
+different than work.
+
+935
+00:45:50,895 --> 00:45:59,220
+And, um, Yeah, just, just using
+what I'm learning, like kind of
+
+936
+00:45:59,220 --> 00:46:03,240
+fresh on the job and applying it
+to my like fun side project
+
+937
+00:46:03,240 --> 00:46:07,500
+that I'm, I guess didn't start
+as a fun side project, but it's
+
+938
+00:46:07,500 --> 00:46:12,360
+now a fun side project, but kind
+of just solid solidifying,
+
+939
+00:46:12,360 --> 00:46:14,520
+like what I'm doing.
+
+940
+00:46:15,645 --> 00:46:20,265
+To Ayn, which is gonna be super
+cool when it comes out.
+
+941
+00:46:20,265 --> 00:46:25,215
+Because I think I'm even gonna
+add like, maybe not with D three
+
+942
+00:46:25,335 --> 00:46:31,965
+GS, but like putting in, um, on
+the administrative side, like.
+
+943
+00:46:32,715 --> 00:46:37,905
+Expense reports and salary and
+payroll and all of that
+
+944
+00:46:37,935 --> 00:46:40,455
+to like have some sort of
+dashboard to show, oh, you've
+
+945
+00:46:40,460 --> 00:46:43,215
+paid employees this much, but
+you only made this much or
+
+946
+00:46:43,755 --> 00:46:45,645
+here's where your money's going.
+
+947
+00:46:45,645 --> 00:46:50,055
+Or I, I haven't worked out
+exactly what I wanna do with
+
+948
+00:46:50,060 --> 00:46:55,155
+it, but it's gonna turn into a
+whole work in progress.
+
+949
+00:46:55,355 --> 00:46:58,325
+It's like huge, huge project
+sounds.
+
+950
+00:46:58,385 --> 00:46:59,165
+Dan: Sounds awesome.
+
+951
+00:46:59,515 --> 00:47:01,285
+Kirk: Find someone ambitious,
+but.
+
+952
+00:47:01,815 --> 00:47:03,465
+Like developers look at their
+side projects.
+
+953
+00:47:05,415 --> 00:47:05,865
+Bekah: yeah.
+
+954
+00:47:06,705 --> 00:47:11,025
+I also love how you're talking
+about taking what you are
+
+955
+00:47:11,025 --> 00:47:13,845
+learning at work and applying it
+to a different project,
+
+956
+00:47:13,845 --> 00:47:16,365
+because that does really help to
+solidify your knowledge.
+
+957
+00:47:16,365 --> 00:47:21,585
+Cuz sometimes I find that I can
+do something in one project.
+
+958
+00:47:21,855 --> 00:47:23,985
+And then when I go to transfer
+to the other project, I'm
+
+959
+00:47:23,985 --> 00:47:28,005
+like, wait, why, what, why isn't
+this working?
+
+960
+00:47:28,005 --> 00:47:28,395
+Right.
+
+961
+00:47:28,395 --> 00:47:30,135
+And so to ha to be able to.
+
+962
+00:47:30,855 --> 00:47:35,625
+Skills from one and put them
+into another really does, um,
+
+963
+00:47:35,714 --> 00:47:38,085
+you know, help you to get a well
+rounded understanding
+
+964
+00:47:38,085 --> 00:47:38,895
+of what you're doing.
+
+965
+00:47:38,895 --> 00:47:40,634
+And I think that's really great
+advice.
+
+966
+00:47:42,285 --> 00:47:42,585
+Marie: Yeah.
+
+967
+00:47:42,585 --> 00:47:45,855
+And trying to figure out, oh,
+now these are the differences
+
+968
+00:47:45,859 --> 00:47:52,605
+between my work project and my
+personal project, because we use
+
+969
+00:47:52,964 --> 00:47:55,964
+old.net and my project is new.
+
+970
+00:47:56,640 --> 00:47:58,590
+The new do net core, I think.
+
+971
+00:47:59,250 --> 00:48:02,850
+Um, so there's just little tiny
+little differences that
+
+972
+00:48:02,880 --> 00:48:06,900
+you're just gonna do completely
+differently because there's
+
+973
+00:48:06,905 --> 00:48:13,380
+now new built in features and
+methods, but just, yeah.
+
+974
+00:48:13,385 --> 00:48:16,080
+Learning to translate something
+that.
+
+975
+00:48:16,635 --> 00:48:19,935
+Maybe I watched this on a
+YouTube video or Kirk walked
+
+976
+00:48:19,935 --> 00:48:23,295
+me through this, on his project
+and he set his, his project up
+
+977
+00:48:23,325 --> 00:48:26,235
+one way because we paired the
+other day and I was like, oh
+
+978
+00:48:26,235 --> 00:48:30,105
+Kirk, you you're, you're setting
+your project up this way.
+
+979
+00:48:30,945 --> 00:48:32,535
+And then see him was also there.
+
+980
+00:48:32,535 --> 00:48:34,305
+And she's like, oh, that's not
+how we set it up.
+
+981
+00:48:34,935 --> 00:48:36,405
+But you also did yours
+completely
+
+982
+00:48:36,405 --> 00:48:38,025
+different, which worked.
+
+983
+00:48:38,835 --> 00:48:39,165
+And you.
+
+984
+00:48:40,050 --> 00:48:42,420
+There's a million different ways
+to do the same thing.
+
+985
+00:48:42,420 --> 00:48:43,320
+And it's still right.
+
+986
+00:48:43,320 --> 00:48:46,800
+It still works, but it's just
+figuring out, oh yeah, I
+
+987
+00:48:46,800 --> 00:48:48,120
+can think about it that way.
+
+988
+00:48:48,120 --> 00:48:49,350
+And it still works.
+
+989
+00:48:49,650 --> 00:48:54,630
+And Kirk explained, oh, I did it
+because, because this
+
+990
+00:48:54,630 --> 00:48:55,620
+is how I know how to do it.
+
+991
+00:48:55,620 --> 00:48:57,210
+And I was like, oh, I did it
+because this is
+
+992
+00:48:57,210 --> 00:48:58,080
+how I know how to do it.
+
+993
+00:48:58,080 --> 00:48:58,140
+Yeah.
+
+994
+00:48:58,145 --> 00:48:58,440
+Don't give
+
+995
+00:48:58,440 --> 00:49:00,120
+Kirk: me too much credit and
+they're completely different.
+
+996
+00:49:00,360 --> 00:49:02,400
+I didn't, because that's, I only
+know one away.
+
+997
+00:49:02,400 --> 00:49:03,570
+I'm like, well, this is gonna,
+
+998
+00:49:03,810 --> 00:49:06,840
+Marie: yeah, exactly, exactly
+though.
+
+999
+00:49:06,840 --> 00:49:11,370
+But then you see like, You think
+of it one way.
+
+1000
+00:49:11,370 --> 00:49:12,450
+I think of it this way.
+
+1001
+00:49:13,170 --> 00:49:14,759
+They're both right.
+
+1002
+00:49:14,819 --> 00:49:20,790
+We both got solutions to work
+and like, if you see
+
+1003
+00:49:20,790 --> 00:49:24,690
+someone's stuff, their code and
+it's not how you do it,
+
+1004
+00:49:24,839 --> 00:49:27,000
+just have them walk you through
+it and be like, oh yeah,
+
+1005
+00:49:27,509 --> 00:49:28,890
+that is how it could work.
+
+1006
+00:49:30,870 --> 00:49:32,550
+Bekah: Yeah, I love that so
+much.
+
+1007
+00:49:32,550 --> 00:49:35,700
+And I, uh, with my background
+being in English, I always
+
+1008
+00:49:35,790 --> 00:49:39,600
+like, think about it in terms of
+literature and writing.
+
+1009
+00:49:39,600 --> 00:49:43,530
+And so much of coding is, is
+you're an author of something
+
+1010
+00:49:43,530 --> 00:49:44,670
+that's being written, right.
+
+1011
+00:49:44,670 --> 00:49:46,290
+There are different styles and
+there are different
+
+1012
+00:49:46,295 --> 00:49:49,530
+patterns and ways of doing
+things, um, that give you.
+
+1013
+00:49:50,024 --> 00:49:53,685
+Different feels, um, and can
+provide different things,
+
+1014
+00:49:53,685 --> 00:49:57,915
+but there are many valid ways of
+doing it and also fun.
+
+1015
+00:49:57,915 --> 00:50:02,355
+Like if you've ever written with
+a person, um, if you've
+
+1016
+00:50:02,355 --> 00:50:05,085
+collaborated on a project, like
+there's a negotiation,
+
+1017
+00:50:05,085 --> 00:50:07,035
+like it, it has to flow, right?
+
+1018
+00:50:07,035 --> 00:50:08,595
+Like it all has to sound the
+same.
+
+1019
+00:50:08,595 --> 00:50:11,145
+And I think too, when you're
+diving into a new code base,
+
+1020
+00:50:11,504 --> 00:50:13,245
+you might have come with.
+
+1021
+00:50:13,555 --> 00:50:16,105
+A certain style or even certain
+bad habits.
+
+1022
+00:50:16,105 --> 00:50:16,495
+Right.
+
+1023
+00:50:16,495 --> 00:50:19,345
+And then you're working through
+that like, okay, well, this
+
+1024
+00:50:19,345 --> 00:50:21,955
+is, this is the style of this
+project that I'm working on.
+
+1025
+00:50:21,955 --> 00:50:24,205
+And now I need to figure out how
+to kind of
+
+1026
+00:50:24,205 --> 00:50:26,095
+translate that in my brain.
+
+1027
+00:50:26,185 --> 00:50:29,004
+And when you're looking at
+people doing the same thing in
+
+1028
+00:50:29,004 --> 00:50:32,125
+multiple different approaches, I
+think that can also really
+
+1029
+00:50:32,125 --> 00:50:39,055
+help you to understand, um, how,
+how many different methods
+
+1030
+00:50:39,055 --> 00:50:42,595
+there are and inform your, your
+own understanding and style.
+
+1031
+00:50:43,380 --> 00:50:43,860
+Marie: Yeah.
+
+1032
+00:50:43,865 --> 00:50:48,330
+I, I think like collaborating
+with people, hearing how they
+
+1033
+00:50:48,330 --> 00:50:52,290
+work, seeing how they work and
+just having all of that
+
+1034
+00:50:52,500 --> 00:50:56,670
+knowledge of different ways,
+even not of the same thing,
+
+1035
+00:50:57,420 --> 00:51:00,750
+but like Kirk working on his
+project, you working on your
+
+1036
+00:51:00,755 --> 00:51:05,490
+project and me pairing with Nick
+on forum, seeing all the
+
+1037
+00:51:05,490 --> 00:51:08,220
+different ways you could set
+projects up, it just helps,
+
+1038
+00:51:08,220 --> 00:51:10,440
+you know, that you can adapt.
+
+1039
+00:51:12,030 --> 00:51:17,040
+And learn new styles, learn or
+just read other people's
+
+1040
+00:51:17,040 --> 00:51:20,430
+work and understand it can still
+work, even if it's not
+
+1041
+00:51:20,430 --> 00:51:22,140
+exactly how you would set it up.
+
+1042
+00:51:23,700 --> 00:51:24,630
+Bekah: Yeah, absolutely.
+
+1043
+00:51:25,260 --> 00:51:26,910
+All right, Maria, I wanna thank
+you so much
+
+1044
+00:51:26,910 --> 00:51:28,140
+for being here with us.
+
+1045
+00:51:28,200 --> 00:51:30,300
+Uh, this has been a great
+interview before,
+
+1046
+00:51:30,330 --> 00:51:32,460
+uh, we end the episode.
+
+1047
+00:51:32,460 --> 00:51:35,250
+I just wanna make sure that I
+haven't missed anything
+
+1048
+00:51:35,250 --> 00:51:38,160
+that you wanna talk about or
+anything that you'd like to.
+
+1049
+00:51:40,110 --> 00:51:42,150
+Marie: No, I think, I think we
+discussed it a lot.
+
+1050
+00:51:42,780 --> 00:51:43,800
+Not really sure what else?
+
+1051
+00:51:44,160 --> 00:51:44,610
+That's great.
+
+1052
+00:51:44,610 --> 00:51:45,960
+Bekah: I think this has been
+really fantastic.
+
+1053
+00:51:45,960 --> 00:51:48,000
+So thank you so much for being
+here with us
+
+1054
+00:51:48,000 --> 00:51:49,680
+and sharing your story.
+
+1055
+00:51:49,740 --> 00:51:53,714
+Um, So where can our listeners
+find you?
+
+1056
+00:51:54,435 --> 00:51:57,105
+Marie: You can find me on
+Twitter as Marie.
+
+1057
+00:51:57,105 --> 00:52:00,404
+Antones my, just my full name or
+LinkedIn.
+
+1058
+00:52:01,064 --> 00:52:01,455
+Bekah: Awesome.
+
+1059
+00:52:01,455 --> 00:52:02,174
+Thank you so much.
+
+1060
+00:52:02,174 --> 00:52:03,734
+And we'll link those all in the
+show notes.
+
+1061
+00:52:04,125 --> 00:52:06,194
+Um, so thanks again for being
+here.
+
+1062
+00:52:06,794 --> 00:52:07,365
+Thanks for having
+
+1063
+00:52:07,365 --> 00:52:07,515
+Marie: me.
+
+1064
+00:52:07,515 --> 00:52:08,145
+Thanks Marie.
+
+1065
+00:52:08,355 --> 00:52:09,194
+Thanks everybody.
+
+1066
+00:52:12,404 --> 00:52:14,415
+Bekah: Thank you for listening
+to this episode of
+
+1067
+00:52:14,415 --> 00:52:15,915
+the virtual coffee podcast.
+
+1068
+00:52:16,365 --> 00:52:19,305
+This episode was produced by Dan
+OT and Bekah OT,
+
+1069
+00:52:19,305 --> 00:52:21,435
+Weigel, and edited by Dan OT.
+
+1070
+00:52:21,944 --> 00:52:24,105
+If you have any questions or
+comments, you can
+
+1071
+00:52:24,109 --> 00:52:25,145
+hit us up on Twitter at.
+
+1072
+00:52:25,310 --> 00:52:28,130
+Virtual coffee IO, or you can
+email
+
+1073
+00:52:28,130 --> 00:52:31,370
+us@podcastvirtualcoffee.io.
+
+1074
+00:52:32,029 --> 00:52:34,880
+You can find the show
+notes@virtualcoffee.io.
+
+1075
+00:52:35,360 --> 00:52:37,910
+Plus you can sign up for the
+newsletter to find out what
+
+1076
+00:52:37,915 --> 00:52:39,140
+virtual coffee's been up to.
+
+1077
+00:52:40,370 --> 00:52:43,820
+Dan: Please remember to
+subscribe and leave us a review
+
+1078
+00:52:43,820 --> 00:52:47,060
+on apple podcasts or wherever
+you're getting your podcast.
+
+1079
+00:52:47,690 --> 00:52:52,130
+Next week, we have Tori Crawford
+on the podcast, um, discussing
+
+1080
+00:52:52,130 --> 00:52:54,799
+the problems of interviewing,
+uh, in the tech industry.
+
+1081
+00:52:55,759 --> 00:52:58,730
+Thanks so much for listening and
+we will see you next week.
