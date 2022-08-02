@@ -7,27 +7,27 @@ async function main() {
 
   for (let i = 0; i < episodes.data.length; i++) {
     const episode = episodes.data[i];
-    console.log(
-      `fetching episode ${episode.season_number}_${episode.episode_number}`
-    );
-    try {
-      const transcript = await axios.get(
-        `https://feeds.buzzsprout.com/1558601/${episode.id}/transcript.srt`,
-        { responseType: 'text' }
-      );
-      fs.writeFileSync(
-        `${__dirname}/episodes/${episode.season_number}_${episode.episode_number}.srt`,
-        transcript.data
-      );
+    const path = `${__dirname}/episodes/${episode.season_number}_${episode.episode_number}.srt`;
+    if (!fs.existsSync(path)) {
       console.log(
-        `saved episode ${episode.season_number}_${episode.episode_number}.srt`
+        `fetching episode ${episode.season_number}_${episode.episode_number}`
       );
-    } catch (error) {
-      console.log(
-        `no transcript for ${episode.season_number}_${
-          episode.episode_number
-        } (${error.response ? error.response.status : ''})`
-      );
+      try {
+        const transcript = await axios.get(
+          `https://feeds.buzzsprout.com/1558601/${episode.id}/transcript.srt`,
+          { responseType: 'text' }
+        );
+        fs.writeFileSync(path, transcript.data);
+        console.log(
+          `saved episode ${episode.season_number}_${episode.episode_number}.srt`
+        );
+      } catch (error) {
+        console.log(
+          `no transcript for ${episode.season_number}_${
+            episode.episode_number
+          } (${error.response ? error.response.status : ''})`
+        );
+      }
     }
   }
 }
