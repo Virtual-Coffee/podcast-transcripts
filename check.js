@@ -32,6 +32,8 @@ function checkFile(file) {
     .trim()
     .split(/\r?\n\r?\n/);
 
+  const names = {};
+
   let addedLines = 0;
 
   for (let i = 0; i < array.length; i++) {
@@ -48,68 +50,84 @@ function checkFile(file) {
       )
     ) {
       console.error(`Incorrect timestamp formatting: ${ts}`);
-    }
+      output.push(lines.join('\n'));
+    } else {
+      let [start, end] = ts.split(' --> ').map((t) => {
+        const [hours, minutes, seconds, ms] = t.split(/:|,/);
+        return (
+          parseInt(hours) * 60 * 60 * 1000 +
+          parseInt(minutes) * 60 * 1000 +
+          parseInt(seconds) * 1000 +
+          parseInt(ms)
+        );
+      });
 
-    let [start, end] = ts.split(' --> ').map((t) => {
-      const [hours, minutes, seconds, ms] = t.split(/:|,/);
-      return (
-        parseInt(hours) * 60 * 60 * 1000 +
-        parseInt(minutes) * 60 * 1000 +
-        parseInt(seconds) * 1000 +
-        parseInt(ms)
-      );
-    });
-
-    if (start > end) {
-      end = end + (start - end) + 1;
-    }
-
-    const text = lines.slice(2).join(' ').split(' ');
-    const textLines = [];
-    const maxLength = 32;
-    let curIndex = -1;
-    text.forEach((word) => {
-      if (
-        curIndex >= 0 &&
-        `${textLines[curIndex]} ${word}`.length <= maxLength
-      ) {
-        textLines[curIndex] = `${textLines[curIndex]} ${word}`;
-      } else {
-        curIndex++;
-        textLines[curIndex] = word;
+      if (start > end) {
+        end = end + (start - end) + 1;
       }
-    });
 
-    if (textLines.length > 2) {
-      const numChunks = Math.ceil(textLines.length / 2);
-      const eachChunkLength = Math.floor((end - start) / numChunks);
-      let curStart = start;
-      let baseIndex = lines[0];
-      for (let i = 0; i < numChunks; i++) {
-        if (i !== 0) {
-          addedLines++;
+      if (lines[2].indexOf(':') !== -1) {
+        const name = lines[2].split(':')[0];
+        if (!names[name]) {
+          names[name] = 1;
+        } else {
+          names[name] = names[name] + 1;
         }
+      }
+      let text = lines.slice(2).join(' ').split(' ');
 
+      const textLines = [];
+      const maxLength = 32;
+      let curIndex = -1;
+      text.forEach((word) => {
+        if (
+          curIndex >= 0 &&
+          `${textLines[curIndex]} ${word}`.length <= maxLength
+        ) {
+          textLines[curIndex] = `${textLines[curIndex]} ${word}`;
+        } else {
+          curIndex++;
+          textLines[curIndex] = word;
+        }
+      });
+
+      if (textLines.length > 2) {
+        const numChunks = Math.ceil(textLines.length / 2);
+        const eachChunkLength = Math.floor((end - start) / numChunks);
+        let curStart = start;
+        let baseIndex = lines[0];
+        for (let i = 0; i < numChunks; i++) {
+          if (i !== 0) {
+            addedLines++;
+          }
+
+          output.push(
+            [
+              baseIndex + i,
+              `${srtTimeStampFromMs(curStart)} --> ${srtTimeStampFromMs(
+                curStart + eachChunkLength
+              )}`,
+              ...textLines.slice(i * 2, i * 2 + 2),
+            ].join('\n')
+          );
+          curStart = curStart + eachChunkLength;
+        }
+      } else {
         output.push(
           [
-            baseIndex + i,
-            `${srtTimeStampFromMs(curStart)} --> ${srtTimeStampFromMs(
-              curStart + eachChunkLength
-            )}`,
-            ...textLines.slice(i * 2, i * 2 + 2),
+            lines[0],
+            `${srtTimeStampFromMs(start)} --> ${srtTimeStampFromMs(end)}`,
+            ...textLines,
           ].join('\n')
         );
-        curStart = curStart + eachChunkLength;
       }
-    } else {
-      output.push(
-        [
-          lines[0],
-          `${srtTimeStampFromMs(start)} --> ${srtTimeStampFromMs(end)}`,
-          ...textLines,
-        ].join('\n')
-      );
     }
+  }
+
+  const filteredNames = Object.keys(names).filter((n) => names[n] === 1);
+  if (filteredNames.length) {
+    console.log(`possible bad names / colon error:`);
+    console.log(filteredNames.map((n) => `- ${n}`).join('\n'));
   }
 
   fs.writeFileSync(`${__dirname}/episodes/${file}`, output.join('\n\n'));
