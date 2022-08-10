@@ -1,4982 +1,6968 @@
 1
-00:00:06,200 --> 00:00:10,019
+00:00:06,200 --> 00:00:08,109
 Bekah Hawrot Weigel: Hello, and
-welcome to Season 6, Episode 2 of the
+welcome to Season 6, Episode 2
 
 2
-00:00:10,019 --> 00:00:15,130
-Virtual Coffee podcast. I'm
-Bekah. And this is a podcast that
+00:00:08,109 --> 00:00:10,018
+of the
 
 3
+00:00:10,019 --> 00:00:12,574
+Virtual Coffee podcast. I'm
+Bekah. And this is a podcast
+
+4
+00:00:12,574 --> 00:00:15,129
+that
+
+5
 00:00:15,130 --> 00:00:18,789
 features members of the Virtual
 Coffee community. Virtual Coffee
 
-4
-00:00:18,789 --> 00:00:21,879
-is an intimate group of
-developers at all stages of their
-
-5
-00:00:21,879 --> 00:00:24,789
-coding journey. And they're here,
-on this podcast, sharing their
-
 6
-00:00:24,789 --> 00:00:27,820
-stories and what they've learned.
-And we are here to share it with
+00:00:18,789 --> 00:00:20,334
+is an intimate group of
+developers at all stages of
 
 7
+00:00:20,334 --> 00:00:21,879
+their
+
+8
+00:00:21,879 --> 00:00:23,334
+coding journey. And they're
+here, on this podcast, sharing
+
+9
+00:00:23,334 --> 00:00:24,789
+their
+
+10
+00:00:24,789 --> 00:00:26,304
+stories and what they've
+learned. And we are here to
+
+11
+00:00:26,304 --> 00:00:27,819
+share it with
+
+12
 00:00:27,820 --> 00:00:31,359
 you. Here with me today is my
 co-host, Dan.
 
-8
+13
 00:00:32,609 --> 00:00:34,299
 Dan Ott: Hello! How is it going,
 Bekah?
 
-9
+14
 00:00:34,914 --> 00:00:36,994
 Bekah: It is going fabulous.
 
-10
+15
 00:00:37,765 --> 00:00:39,465
 Dan: That's so much less
 satisfying to say than, 'Waddup,
 
-11
+16
 00:00:39,465 --> 00:00:41,000
 Bek.' [Bekah laughs] I think I'm
 just gonna start saying that in
 
-12
+17
 00:00:41,000 --> 00:00:41,664
 every episode [laughs].
 
-12
+18
 00:00:42,085 --> 00:00:43,884
 Bekah: Fine. It's fine. That's
 cool.
 
-13
+19
 00:00:45,054 --> 00:00:49,314
-Dan: Anyway, yes. Today we
-have another, you know,
+Dan: Anyway, yes. Today we have
+another, you know,
 
-14
+20
 00:00:49,314 --> 00:00:51,984
 awesome, obviously, guest.
 Bogdan --
 
-15
-00:00:52,164 --> 00:00:52,000
+21
+00:00:51,000 --> 00:00:52,000
 Bekah: The theme- theme for-
 
-16
-00:00:52,000 --> 00:00:52,000
+22
+00:00:52,000 --> 00:00:53,000
 Dan: Yes.
 
-17
-00:00:52,000 --> 00:00:54,325
+23
+00:00:53,000 --> 00:00:54,325
 Bekah: -Season 6 is awesomeness.
 
-16
+24
 00:00:54,835 --> 00:00:56,000
 Dan: Yes. And really, for all
 seasons, honestly.
 
-17
-00:00:56,000 --> 00:00:57,000 
+25
+00:00:56,000 --> 00:00:57,000
 Bekah: Every [humming].
 
-18
-00:00:58,000 --> 00:01:03,354
-Dan: But yeah, we have Bogdan Covrig
-here. He is a software developer from
+26
+00:00:58,000 --> 00:01:00,677
+Dan: But yeah, we have Bogdan
+Covrig here. He is a software
 
-19
-00:01:03,354 --> 00:01:08,394
-The Netherlands, and he ... I don't
-know. Yeah, he- he -- it was really
+27
+00:01:00,677 --> 00:01:03,354
+developer from
 
-20
+28
+00:01:03,354 --> 00:01:05,874
+The Netherlands, and he ... I
+don't know. Yeah, he- he -- it
+
+29
+00:01:05,874 --> 00:01:08,394
+was really
+
+30
 00:01:08,394 --> 00:01:11,754
 great to have him on. He- he
 just finished school, like last
 
-21
+31
 00:01:11,754 --> 00:01:14,754
 year, sometime, right? Or this
 year? Last year? I don't know.
 
-22
+32
 00:01:14,754 --> 00:01:15,265
-Recently. In ... The ...
-Nether- ... lands --
+Recently. In ... The ... Nether-
+... lands --
 
-23
+33
 00:01:15,730 --> 00:01:17,319
 Bekah: Time has not exist over
 the last two years. So --
 
-24
+34
 00:01:17,504 --> 00:01:21,715
-Dan: No. Yeah. Yeah. No, I
-have no idea. But he talks
+Dan: No. Yeah. Yeah. No, I have
+no idea. But he talks
 
-25
+35
 00:01:21,715 --> 00:01:23,424
 about that. He talks about
 experience in school, go
 
-26
+36
 00:01:23,424 --> 00:01:27,055
 through school, and- and then,
 you know, his experiences as
 
-27
-00:01:27,055 --> 00:01:29,905
-developer, and it was really fun.
-Really- really good talking to him.
+37
+00:01:27,055 --> 00:01:28,480
+developer, and it was really
+fun. Really- really good talking
 
-28
+38
+00:01:28,480 --> 00:01:29,905
+to him.
+
+39
 00:01:30,594 --> 00:01:34,105
 Bekah: It's always interesting
 to think about the journeys that
 
-29
+40
 00:01:34,105 --> 00:01:38,694
 people take to get them to the
 roles that they're in. And so I
 
-30
+41
 00:01:38,694 --> 00:01:42,295
 think Bogdan is one of the first
 people, or one of the few people
 
-31
+42
 00:01:42,295 --> 00:01:47,140
 that we've talked to who's been
 an educator, as in like, in a
 
-32
+43
 00:01:47,140 --> 00:01:51,000
 university setting, teaching
 people about coding. And-
 
-33
+44
 00:01:51,000 --> 00:01:51,000
 Dan: Yeah.
 
-34
-00:01:51,000 --> 00:01:57,010
-Bekah: -to hear what that was like and
-what he learned from that experience that
+45
+00:01:51,000 --> 00:01:54,005
+Bekah: -to hear what that was
+like and what he learned from
 
-35
+46
+00:01:54,005 --> 00:01:57,010
+that experience that
+
+47
 00:01:57,015 --> 00:01:57,760
-brought him to where he is right now.
+brought him to where he is right
+now.
 
-36
-00:02:00,504 --> 00:02:02,515
-Dan: Yeah, totally. I mean, I was
-very curious to hear about that.
+48
+00:02:00,504 --> 00:02:01,509
+Dan: Yeah, totally. I mean, I
+was very curious to hear about
 
-37
-00:02:02,515 --> 00:02:07,135
+49
+00:02:01,509 --> 00:02:02,514
+that.
+
+50
+00:02:02,515 --> 00:02:04,825
 And I did some computer science
-in s- in-in school, and in college,
+in s- in-in school, and in
 
-38
+51
+00:02:04,825 --> 00:02:07,135
+college,
+
+52
 00:02:07,704 --> 00:02:11,425
 and it was a long time ago. And
 ... I don't know, I was curious
 
-39
-00:02:11,425 --> 00:02:14,275
+53
+00:02:11,425 --> 00:02:12,850
 to see -- hear about -- I'm also
-just curious to hear about what it's
+just curious to hear about what
 
-40
+54
+00:02:12,850 --> 00:02:14,275
+it's
+
+55
 00:02:14,275 --> 00:02:17,830
 like in a classroom right now as
 a developer, as, you know, in a-
 
-41
-00:02:17,830 --> 00:02:21,159
-in a college classroom, as opposed
-to bootcamps, and things like
+56
+00:02:17,830 --> 00:02:19,494
+in a college classroom, as
+opposed to bootcamps, and things
 
-42
+57
+00:02:19,494 --> 00:02:21,158
+like
+
+58
 00:02:21,159 --> 00:02:26,349
 that. And ... yeah. And- and
 also, I don't know. The idea of
 
-43
+59
 00:02:26,354 --> 00:02:28,870
 teaching is just like so beyond
 anything I've ever done, like,
 
-44
+60
 00:02:28,960 --> 00:02:31,479
 you know, teaching at semesters
 of worth of classes, you know?
 
-45
-00:02:32,259 --> 00:02:35,560
-I -- although, I don't know. I was curious
-about it and so it was really nice to
+61
+00:02:32,259 --> 00:02:33,909
+I -- although, I don't know. I
+was curious about it and so it
 
-46
+62
+00:02:33,909 --> 00:02:35,559
+was really nice to
+
+63
 00:02:35,560 --> 00:02:37,159
 hear about it from- from- from
 Bogdan.
 
-47
-00:02:38,080 --> 00:02:40,240
-Bekah: Yeah. And to hear the process
-that he went through as he was
+64
+00:02:38,080 --> 00:02:39,160
+Bekah: Yeah. And to hear the
+process that he went through as
 
-48
+65
+00:02:39,160 --> 00:02:40,240
+he was
+
+66
 00:02:40,659 --> 00:02:44,919
 trying to figure out like what's
 next for him in his career path.
 
-49
+67
 00:02:46,569 --> 00:02:50,710
 And we start every episode of
 this podcast like we start every
 
-50
+68
 00:02:50,710 --> 00:02:53,800
 Virtual Coffee. We introduce
 ourselves with our name, where
 
-51
+69
 00:02:53,849 --> 00:02:58,180
 we're from, what we do, and a
 random check-in question. So, we
 
-52
+70
 00:02:58,180 --> 00:03:09,955
 hope you enjoy this episode.
 Today's random check-in question
 
-53
+71
 00:03:09,955 --> 00:03:15,955
 is, what is your favorite
 condiment? My name is Bekah. I'm
 
-54
+72
 00:03:15,955 --> 00:03:20,846
 a technical community builder,
 and my favorite condiment is hot
 
-55
+73
 00:03:20,850 --> 00:03:22,885
-sauce. Definitely. That goes
-on everything.
+sauce. Definitely. That goes on
+everything.
 
-56
+74
 00:03:24,866 --> 00:03:28,945
 Dan: That's a good one. Yeah.
 All right. Hi, I'm Dan. I do web
 
-57
+75
 00:03:28,945 --> 00:03:33,586
-development in Cleveland. I-
-I don't have a super favorite.
+development in Cleveland. I- I
+don't have a super favorite.
 
-58
-00:03:33,866 --> 00:03:39,836
-I- I'd say -- so there's this taco
-place in ... near where I live,
+76
+00:03:33,866 --> 00:03:36,851
+I- I'd say -- so there's this
+taco place in ... near where I
 
-59
+77
+00:03:36,851 --> 00:03:39,836
+live,
+
+78
 00:03:40,406 --> 00:03:44,366
-called ... what -- Bombas.
-And they -- so when you
+called ... what -- Bombas. And
+they -- so when you
 
-60
-00:03:44,366 --> 00:03:47,786
-could -- they have this, like, sauce.
-And you can -- when you order like
+79
+00:03:44,366 --> 00:03:46,076
+could -- they have this, like,
+sauce. And you can -- when you
 
-61
+80
+00:03:46,076 --> 00:03:47,786
+order like
+
+81
 00:03:47,786 --> 00:03:50,545
 a taco box to go, you know, like
 this, like a family box or
 
-62
+82
 00:03:50,545 --> 00:03:53,605
 whatever, they'll give you just
 like a whole- like a whole thing
 
-63
+83
 00:03:53,605 --> 00:03:55,000
-of it. A whole like bottle of it.
+of it. A whole like bottle of
+it.
 
-64
+84
 00:03:55,000 --> 00:03:56,000
 Bekah: Yes.
 
-65
+85
 00:03:56,000 --> 00:04:59,000
 Dan: And I -- when we do that,
 I- I use it for like the next
 
-66
-00:04:59,000 --> 00:04:01,406
+86
+00:04:59,000 --> 00:04:59,001
 two weeks and -- on the, like,
 everything. So I- I
 
-66
-00:04:01,411 --> 00:04:03,626
-can't really describe it. I think --
-it has garlic in it, certainly. I
+87
+00:04:01,411 --> 00:04:02,518
+can't really describe it. I
+think -- it has garlic in it,
 
-67
+88
+00:04:02,518 --> 00:04:03,625
+certainly. I
+
+89
 00:04:03,626 --> 00:04:06,566
 don't -- it maybe some sort of
 aioli maybe? I don't- I don't
 
-68
+90
 00:04:07,045 --> 00:04:08,725
 actually know, and I don't
 really wa-
 
-69
+91
 00:04:09,056 --> 00:04:09,596
-Bekah: Is it spicy? No, it's
-not spicy.
+Bekah: Is it spicy? No, it's not
+spicy.
 
-70
-00:04:09,716 --> 00:04:10,000
+92
+00:04:09,716 --> 00:04:11,000
 Dan: No, it's not- it's not
 spicy.
 
-71
-00:04:10,000 --> 00:04:11,000
+93
+00:04:10,000 --> 00:04:10,500
 Bekah: Creamy?
 
-72
+94
 00:04:11,000 --> 00:04:14,000
 Dan: You kn- yeah, it's a little
 creamy, I guess. Although saying
 
-73
+95
 00:04:14,000 --> 00:04:17,380
 creamy makes it sound weird
 [chuckles]. I dunno [laughs].
 
-73
-00:04:19,091 --> 00:04:21,790
+96
+00:04:19,091 --> 00:04:20,440
 But- but it's good. And I, like,
-I don't wanna know really. I like
+I don't wanna know really. I
 
-74
-00:04:21,790 --> 00:04:24,190
-the mystery of it, you know what I mean?
-It's just like this magical thing that
+97
+00:04:20,440 --> 00:04:21,789
+like
 
-75
+98
+00:04:21,790 --> 00:04:22,990
+the mystery of it, you know what
+I mean? It's just like this
+
+99
+00:04:22,990 --> 00:04:24,190
+magical thing that
+
+100
 00:04:24,190 --> 00:04:26,800
 shows up, and then it goes away,
 and then a couple months later
 
-76
+101
 00:04:26,805 --> 00:04:29,380+
 we'll order, you know, those
 tacos again, and it'll be back to
 
-77
+102
 00:04:29,386 --> 00:04:32,531
-my life. I don't wanna have
-the mys- like, maybe it's just
+my life. I don't wanna have the
+mys- like, maybe it's just
 
-78
+103
 00:04:32,531 --> 00:04:35,471
 some chunky thing that they buy
 off -- it probably is [chuckles]
 
-79
+104
 00:04:35,831 --> 00:04:37,690
 something that I could just buy
 at the grocery store, you know?
 
-80
+105
 00:04:37,901 --> 00:04:38,680
-But I don't wanna know. It was --
+But I don't wanna know. It was
+--
 
-81
+106
 00:04:39,295 --> 00:04:40,485
-Bekah: Is it like mayonnaisy?
+Bekah: Is it like mayonnaise-y?
 
-82
+107
 00:04:42,161 --> 00:04:43,240
 Dan: I don't know. It's --
 
-83
+108
 00:04:43,255 --> 00:04:44,185
-Bekah: Does it need refrigerated?
+Bekah: Does it need
+refrigerated?
 
-85
+109
 00:04:44,185 --> 00:04:44,831
 Bogdan Covrig: Meal [chuckles].
 
-84
-00:04:44,831 --> 00:04:47,350
+110
+00:04:44,831 --> 00:04:46,090
 Dan: I mean, I put it in the
-refrigerator. I don't -- I assume.
+refrigerator. I don't -- I
 
-85
-00:04:47,350 --> 00:04:51,341
-I don't- I don't ... I don't know.
-Why would you have an open bottle of
+111
+00:04:46,090 --> 00:04:47,349
+assume.
 
-86
+112
+00:04:47,350 --> 00:04:49,345
+I don't- I don't ... I don't
+know. Why would you have an open
+
+113
+00:04:49,345 --> 00:04:51,340
+bottle of
+
+114
 00:04:51,341 --> 00:04:53,290
 some sort of sauce that you
 didn't put in the refrigerator?
 
-87
+115
 00:04:53,935 --> 00:04:55,615
 Bekah: Hot sauce doesn't go in
 the refrigerator.
 
-88
+116
 00:04:55,961 --> 00:04:57,040
 Dan: It doesn't? We keep ours --
 
-89
+117
 00:04:57,055 --> 00:04:58,286
 Bogdan: Some do. I feel like
 some do, right?
 
-90
+118
 00:04:58,451 --> 00:05:00,000
 Dan: Yeah. I don't- I don't
 know. Well, like-
 
-91
+119
 00:05:01,000 --> 00:05:02,000
 Bekah: You need it to hide --
 
-91
+120
 00:05:01,000 --> 00:05:02,471
-Dan: -Tabasco. Do you put Tabasco
-in the --
+Dan: -Tabasco. Do you put
+Tabasco in the --
 
-92
-00:05:03,391 --> 00:05:03,000
+121
+00:05:03,391 --> 00:05:04,000
 Bekah: No. I don't think it
 needs to be-
 
-93
-00:05:03,000 --> 00:05:04,000
+122
+00:05:03,500 --> 00:05:04,000
 Bogdan: I do [??].
 
-94
+123
 00:05:04,000 --> 00:05:04,000
 Dan: Really?
 
-95
-00:05:04,000 --> 00:05:07,735
-Bekah: -there's a lot of vinegar in it
-and that doesn't need to be refrigerated.
+124
+00:05:04,000 --> 00:05:05,867
+Bekah: -there's a lot of vinegar
+in it and that doesn't need to
 
-96
-00:05:08,365 --> 00:05:10,555
-Dan: Huh. We had these refrigerator
-talks before. I- I don't know the
+125
+00:05:05,867 --> 00:05:07,734
+be refrigerated.
 
-97
+126
+00:05:08,365 --> 00:05:09,460
+Dan: Huh. We had these
+refrigerator talks before. I- I
+
+127
+00:05:09,460 --> 00:05:10,555
+don't know the
+
+128
 00:05:10,555 --> 00:05:12,685
 rules. So I just assume
 everything goes in because it
 
-98
+129
 00:05:12,685 --> 00:05:13,646
-seems safer to me [Bogdan chuckles]-
+seems safer to me [Bogdan
+chuckles]-
 
-99
+130
 00:05:14,641 --> 00:05:15,415
 Bekah: Tomatoes do not go in the
 refrigerator. They still do not.
 
-100
-00:05:15,446 --> 00:05:18,045
-Dan: -you know? Right. This is what I'm
-saying. I don't -- I- I know -- I- I
+131
+00:05:15,446 --> 00:05:16,745
+Dan: -you know? Right. This is
+what I'm saying. I don't -- I- I
 
-101
-00:05:18,050 --> 00:05:20,096
-don't have the knowledge to argue
-with you about it. But I just put
+132
+00:05:16,745 --> 00:05:18,044
+know -- I- I
 
-102
+133
+00:05:18,050 --> 00:05:19,073
+don't have the knowledge to
+argue with you about it. But I
+
+134
+00:05:19,073 --> 00:05:20,096
+just put
+
+135
 00:05:20,096 --> 00:05:22,346
 things in the fridge because
 that always seems like the safer
 
-103
+136
 00:05:22,346 --> 00:05:24,026
-option, you know what I mean?
-To me.
+option, you know what I mean? To
+me.
 
-104
+137
 00:05:24,790 --> 00:05:26,831
-Bogdan: Do you- do you
-put your oil in the fridge?
+Bogdan: Do you- do you put your
+oil in the fridge?
 
-105
+138
 00:05:27,295 --> 00:05:27,805
 Dan: No!
 
-106
+139
 00:05:27,295 --> 00:05:27,805
 Bekah: No!
 
-107
+140
 00:05:28,031 --> 00:05:28,391
-Bogdan: Yeah. That would be weird.
+Bogdan: Yeah. That would be
+weird.
 
-108
-00:05:28,646 --> 00:05:31,045
-Dan: No, no. All right. Yeah, that-
-that'd be weird. I actually had a
+141
+00:05:28,031 --> 00:05:29,538
+Dan: No, no. All right. Yeah,
+that- that'd be weird. I
 
-109
+142
+00:05:29,538 --> 00:05:31,045
+actually had a
+
+143
 00:05:31,045 --> 00:05:35,485
 friend ... Emily's brother
 actually, like, got in
 
-110
-00:05:35,485 --> 00:05:39,386
+144
+00:05:35,485 --> 00:05:37,435
 the habit of keeping his cereal,
-like in the fridge. Because he- he
+like in the fridge. Because he-
 
-111
-00:05:39,386 --> 00:05:42,956
-said it- it kept it -- like, it would
-not go stale as- as fast, you know?
+145
+00:05:37,435 --> 00:05:39,385
+he
 
-112
+146
+00:05:39,386 --> 00:05:41,171
+said it- it kept it -- like, it
+would not go stale as- as fast,
+
+147
+00:05:41,171 --> 00:05:42,956
+you know?
+
+148
 00:05:42,956 --> 00:05:43,000
 It would stay fresh longer.
 
-113
+149
 00:05:44,000 --> 00:05:46,000
-Bekah: How long do you keep
-this cereal [chuckles]?
+Bekah: How long do you keep this
+cereal [chuckles]?
 
-114
-00:05:46,000 --> 00:05:48,000
-Dan: I don't know. I mean, he's just
-like liv- living alone, you know?
+150
+00:05:46,000 --> 00:05:47,000
+Dan: I don't know. I mean, he's
+just like liv- living alone, you
 
-115
+151
+00:05:47,000 --> 00:05:48,000
+know?
+
+152
 00:05:49,000 --> 00:05:51,115
-And like ... I don't know.
-But like, we went on
+And like ... I don't know. But
+like, we went on
 
-115
-00:05:51,120 --> 00:05:54,115
-vacation altogether at this little
-cottage with this tiny fridge, and
+153
+00:05:51,120 --> 00:05:52,617
+vacation altogether at this
+little cottage with this tiny
 
-116
-00:05:54,115 --> 00:05:57,836
-the whole f-fridge was full of cereal
-[laughs]. We were like, "No, no. This
+154
+00:05:52,617 --> 00:05:54,114
+fridge, and
 
-117
-00:05:57,836 --> 00:06:01,225
-is not like -- this is not a -- this
-is not -- we're putting this in the
+155
+00:05:54,115 --> 00:05:55,975
+the whole f-fridge was full of
+cereal [laughs]. We were like,
 
-118
-00:06:01,225 --> 00:06:07,151
-cabinet." That's where I draw the line.
-Cereal ... doesn't go in the fridge.
+156
+00:05:55,975 --> 00:05:57,835
+"No, no. This
 
-119
-00:06:06,055 --> 00:06:09,415
-Bekah: That's -- I'm glad [chuckles]
-you draw the line there.
+157
+00:05:57,836 --> 00:05:59,530
+is not like -- this is not a --
+this is not -- we're putting
 
-120
+158
+00:05:59,530 --> 00:06:01,224
+this in the
+
+159
+00:06:01,225 --> 00:06:04,188
+cabinet." That's where I draw
+the line. Cereal ... doesn't go
+
+160
+00:06:04,188 --> 00:06:07,151
+in the fridge.
+
+161
+00:06:06,055 --> 00:06:07,735
+Bekah: That's -- I'm glad
+[chuckles] you draw the line
+
+162
+00:06:07,735 --> 00:06:09,415
+there.
+
+163
 00:06:10,151 --> 00:06:12,281
 Dan: Oil? Yeah, yeah -- no. I- I
 knew -- I know enough not to put
 
-121
+164
 00:06:12,281 --> 00:06:16,091
 oil in the fridge. Other than
 that ... I'll put things in the
 
-122
-00:06:16,091 --> 00:06:18,701
+165
+00:06:16,091 --> 00:06:17,396
 fridge, and then sometimes Emily
-will say, "Hey, that doesn't go in
+will say, "Hey, that doesn't go
 
-123
-00:06:18,701 --> 00:06:22,540
-the fridge, dummy." And I'm like, "Okay
-[chuckles]. Fair enough." But this
+166
+00:06:17,396 --> 00:06:18,701
+in
 
-124
-00:06:22,540 --> 00:06:24,911
-sauce, I don't wanna know whether
-it does or not, you know what I
+167
+00:06:18,701 --> 00:06:20,620
+the fridge, dummy." And I'm
+like, "Okay [chuckles]. Fair
 
-125
+168
+00:06:20,620 --> 00:06:22,539
+enough." But this
+
+169
+00:06:22,540 --> 00:06:23,725
+sauce, I don't wanna know
+whether it does or not, you know
+
+170
+00:06:23,725 --> 00:06:24,910
+what I
+
+171
 00:06:24,911 --> 00:06:26,620
 mean? Cuz I don't wanna know
 anything about it. That's my
 
-126
+172
 00:06:26,625 --> 00:06:28,180
-point. So I'm just putting it
-in the fridge.
+point. So I'm just putting it in
+the fridge.
 
-127
+173
 00:06:28,286 --> 00:06:29,935
 Bekah: You don't wanna know
 about it. That's weird.
 
-128
+174
 00:06:30,011 --> 00:06:32,711
-Dan: Hey, it's a mystery. No,
-I like it. I like -- it tastes-
+Dan: Hey, it's a mystery. No, I
+like it. I like -- it tastes-
 
-129
+175
 00:06:32,000 --> 00:06:34,000
-Bekah: I don't like the dressing [??].
+Bekah: I don't like the dressing
+[??].
 
-129
-00:06:32,711 --> 00:06:37,000
-Dan: -very good. I feel like if I learn
-about it, something will -- it'll
+176
+00:06:32,711 --> 00:06:34,855
+Dan: -very good. I feel like if
+I learn about it, something will
 
-130
+177
+00:06:34,855 --> 00:06:36,999
+-- it'll
+
+178
 00:06:37,000 --> 00:06:38,680
 become ... less good [laughs].
 
-132
+179
 00:06:39,444 --> 00:06:41,124
 Bogdan: Or you'll be- be
 disgusted by it.
 
-133
+180
 00:06:41,000 --> 00:06:42,000
-Bekah: Alright, Bogdan [laughs] --
+Bekah: Alright, Bogdan [laughs]
+--
 
-134
-00:06:43,139 --> 00:06:45,538
-Dan: But, I mean, that is- that is
-a very serious -- that, I mean, that
+181
+00:06:43,139 --> 00:06:44,338
+Dan: But, I mean, that is- that
+is a very serious -- that, I
 
-135
+182
+00:06:44,338 --> 00:06:45,537
+mean, that
+
+183
 00:06:45,543 --> 00:06:47,000
-is an actual possibility too.
-I don't- I don't want that to-
+is an actual possibility too. I
+don't- I don't want that to-
 
-136
+184
 00:06:47,000 --> 00:06:51,509
 to happen either [laughs].
 Alright, I'm done.
 
-136
+185
 00:06:51,509 --> 00:06:55,588
 Bogdan: Okay. Hello, everybody.
 I am Bogdan. I'm from
 
-137
-00:06:55,588 --> 00:06:59,999
+186
+00:06:55,588 --> 00:06:57,793
 Romania, but I am a software
-engineer in The Netherlands. I've
+engineer in The Netherlands.
 
-138
+187
+00:06:57,793 --> 00:06:59,998
+I've
+
+188
 00:06:59,999 --> 00:07:03,869
 been living here for almost five
 years, moved from a tiny city in
 
-139
-00:07:03,874 --> 00:07:07,738
-Romania to a tiny [chuckles] city
-in The Netherlands. And I like it.
+189
+00:07:03,874 --> 00:07:05,806
+Romania to a tiny [chuckles]
+city in The Netherlands. And I
 
-140
+190
+00:07:05,806 --> 00:07:07,738
+like it.
+
+191
 00:07:07,918 --> 00:07:13,053
-And I don't wanna leave. And
-I think -- are we talking about
+And I don't wanna leave. And I
+think -- are we talking about
 
-141
+192
 00:07:13,053 --> 00:07:15,084
 sauces -- sauce or condiments?
 
-142
+193
 00:07:16,379 --> 00:07:20,848
 Bekah: Well, I considers some
 sauce as a condiment, so --
 
-143
+194
 00:07:20,968 --> 00:07:21,238
 Bogdan: Okay.
 
-144
-00:07:21,269 --> 00:07:22,139
-Dan: Oh, oh, like, wait, wait. Pasta-
-pasta sauces are not condiment, right?
+195
+00:07:21,269 --> 00:07:21,704
+Dan: Oh, oh, like, wait, wait.
+Pasta- pasta sauces are not
 
-145
+196
+00:07:21,704 --> 00:07:22,139
+condiment, right?
+
+197
 00:07:22,218 --> 00:07:23,399
 Bogdan: No, no, no. Yeah, yeah,
 yeah. I get it.
 
-146
+198
 00:07:24,658 --> 00:07:25,439
 Bekah: Yeah. Pasta sauce, it
 doesn't count --
 
-147
-00:07:26,189 --> 00:07:29,728
-Bogdan: No, no, no, I get it. I was
-just -- yeah. Cuz one of the best
+199
+00:07:26,189 --> 00:07:27,958
+Bogdan: No, no, no, I get it. I
+was just -- yeah. Cuz one of the
 
-148
+200
+00:07:27,958 --> 00:07:29,727
+best
+
+201
 00:07:29,728 --> 00:07:33,119
 thing that I discovered and ch-
 absolutely changed my life, my
 
-149
+202
 00:07:33,119 --> 00:07:38,084
-friends got me like this jar
-of Chipotle pepper or whatever.
+friends got me like this jar of
+Chipotle pepper or whatever.
 
-150
+203
 00:07:38,384 --> 00:07:41,053
 I don't know how it works. I
 don't know how -- i-i-it's just
 
-151
-00:07:41,053 --> 00:07:45,103
+204
+00:07:41,053 --> 00:07:43,078
 amazing. Cuz then I put it in
-absolutely [chuckles] everything.
+absolutely [chuckles]
 
-152
+205
+00:07:43,078 --> 00:07:45,103
+everything.
+
+206
 00:07:45,103 --> 00:07:46,000
 I mean, not everything.
 
-153
+207
 00:07:46,000 --> 00:07:46,000
 Dan: Nice.
 
-154
-00:07:47,533 --> 00:07:49,000
-Bogdan: Ev- like everything that goes with
-like tomato sauce or tomatoes, I just-
+208
+00:07:47,533 --> 00:07:48,266
+Bogdan: Ev- like everything that
+goes with like tomato sauce or
 
-155
+209
+00:07:48,266 --> 00:07:48,999
+tomatoes, I just-
+
+210
 00:07:49,000 --> 00:07:49,000
 Dan: Yeah.
 
-156
-00:07:50,000 --> 00:07:55,004
-Bogdan: -pour some of those and it's
-just amazing. Like the smokey, everything.
+211
+00:07:50,000 --> 00:07:52,502
+Bogdan: -pour some of those and
+it's just amazing. Like the
 
-157
-00:07:55,004 --> 00:07:57,524
-So, yeah. But otherwise, it's got -- like,
-usually it's got -- like garlic goes into
+212
+00:07:52,502 --> 00:07:55,004
+smokey, everything.
 
-158
+213
+00:07:55,004 --> 00:07:56,264
+So, yeah. But otherwise, it's
+got -- like, usually it's got --
+
+214
+00:07:56,264 --> 00:07:57,524
+like garlic goes into
+
+215
 00:07:57,524 --> 00:07:59,653
 everything, and then --
 
-159
+216
 00:07:59,689 --> 00:08:01,033
 Dan: I mean, garlic's delicious.
 Yeah.
 
-160
+217
 00:08:01,244 --> 00:08:03,793
 Bogdan: Yeah. And smoked paprika
 also. Like, if there's something
 
-161
-00:08:03,793 --> 00:08:07,514
-that needs to be sp- I don't know,
-smoked stuff, it's amazing [chuckles].
+218
+00:08:03,793 --> 00:08:05,653
+that needs to be sp- I don't
+know, smoked stuff, it's amazing
 
-162
+219
+00:08:05,653 --> 00:08:07,513
+[chuckles].
+
+220
 00:08:07,514 --> 00:08:08,593
 And garlic as well. So, yeah.
 
-163
+221
 00:08:10,603 --> 00:08:12,913
-Dan: I like it. I almost said-
-I almost said --
+Dan: I like it. I almost said- I
+almost said --
 
-164
-00:08:12,913 --> 00:08:15,764
-Bekah: I think all those things in
-a sauce together would be great.
+222
+00:08:12,913 --> 00:08:14,338
+Bekah: I think all those things
+in a sauce together would be
 
-165
+223
+00:08:14,338 --> 00:08:15,763
+great.
+
+224
 00:08:15,764 --> 00:08:15,764
 Dan: Yeah.
 
-166
-00:08:15,764 --> 00:08:18,913
-Bogdan: I think, yeah. But I have
--- I- I mean, I have to agree,
+225
+00:08:15,764 --> 00:08:17,338
+Bogdan: I think, yeah. But I
+have -- I- I mean, I have to
 
-167
+226
+00:08:17,338 --> 00:08:18,912
+agree,
+
+227
 00:08:18,913 --> 00:08:23,533
 like, with Dan's friend, like
 living alone, like, it just --
 
-168
-00:08:24,269 --> 00:08:28,559
-there's -- there are no rules. I ... you know?
-[Bogdan and Dan Laugh] I do what I want. I put
+228
+00:08:24,269 --> 00:08:26,414
+there's -- there are no rules. I
+... you know? [Bogdan and Dan
 
-169
-00:08:28,564 --> 00:08:31,468
-everything where I want. And also,
-I'm the only one that needs to
+229
+00:08:26,414 --> 00:08:28,559
+Laugh] I do what I want. I put
 
-170
+230
+00:08:28,564 --> 00:08:30,016
+everything where I want. And
+also, I'm the only one that
+
+231
+00:08:30,016 --> 00:08:31,468
+needs to
+
+232
 00:08:31,468 --> 00:08:34,000
-know where it's placed. So, yeah.
-I don't put my --
+know where it's placed. So,
+yeah. I don't put my --
 
-171
-00:08:32,999 --> 00:08:39,014
-Bekah: So, do- do you put your Chipotle
-... condiment in the refrigerator?
+233
+00:08:32,999 --> 00:08:36,006
+Bekah: So, do- do you put your
+Chipotle ... condiment in the
 
-172
-00:08:40,769 --> 00:08:44,548
-Bogdan: I do. But I'm not sure if
-I have- have to? I don't think it's
+234
+00:08:36,006 --> 00:08:39,013
+refrigerator?
 
-173
-00:08:44,548 --> 00:08:49,139
-forbidden, right [laughs]? But I just --
-I- I- I was just -- it keeps me sane. Cuz
+235
+00:08:40,769 --> 00:08:42,658
+Bogdan: I do. But I'm not sure
+if I have- have to? I don't
 
-174
-00:08:49,139 --> 00:08:53,849
+236
+00:08:42,658 --> 00:08:44,547
+think it's
+
+237
+00:08:44,548 --> 00:08:46,843
+forbidden, right [laughs]? But I
+just -- I- I- I was just -- it
+
+238
+00:08:46,843 --> 00:08:49,138
+keeps me sane. Cuz
+
+239
+00:08:49,139 --> 00:08:51,494
 I had a ti- I had a tiny Tabasco
-bottles, but like, I feel like the
+bottles, but like, I feel like
 
-175
-00:08:53,849 --> 00:08:58,619
-vinegar goes up, and then I try to
-shake it, and it doesn't. And then
+240
+00:08:51,494 --> 00:08:53,849
+the
 
-176
-00:08:58,619 --> 00:09:01,828
-it's oily -- vinegary, and I don't
-like it. So I keep it in the fridge,
+241
+00:08:53,849 --> 00:08:56,234
+vinegar goes up, and then I try
+to shake it, and it doesn't. And
 
-177
+242
+00:08:56,234 --> 00:08:58,619
+then
+
+243
+00:08:58,619 --> 00:09:00,223
+it's all you -- vinegary, and I
+don't like it. So I keep it in
+
+244
+00:09:00,223 --> 00:09:01,827
+the fridge,
+
+245
 00:09:01,828 --> 00:09:02,000
 just to be sure.
 
-178
+246
 00:09:03,000 --> 00:09:03,000
 Dan: Mm-hmm.
 
-179
-00:09:04,000 --> 00:09:04,000
+247
+00:09:04,000 --> 00:09:05,000
 Bekah: That's interesting.
 
-180
-00:09:04,000 --> 00:09:05,000
+248
+00:09:05,000 --> 00:09:05,000
 Bogdan: But I dunno.
 
-181
+249
 00:09:05,000 --> 00:09:06,509
-Bekah: I should try that experiment.
+Bekah: I should try that
+experiment.
 
-180
-00:09:06,509 --> 00:09:11,144
-Bogdan: I dunno. But no, tomatoes
-don't go into fridge. Like, I'm --
+250
+00:09:06,509 --> 00:09:08,826
+Bogdan: I dunno. But no,
+tomatoes don't go into fridge.
 
-181
+251
+00:09:08,826 --> 00:09:11,143
+Like, I'm --
+
+252
 00:09:11,443 --> 00:09:14,173
-it's just nuts. It's the way
-it is, my friends [laughs].
+it's just nuts. It's the way it
+is, my friends [laughs].
 
-182
+253
 00:09:14,428 --> 00:09:16,589
-Bekah: Yes -- no, 100% agree
-with you.
+Bekah: Yes. No, 100% agree with
+you.
 
-183
+254
 00:09:17,624 --> 00:09:17,984
 Bogdan: Yeah.
 
-184
+255
 00:09:18,509 --> 00:09:22,198
 Bekah: Well, thanks for being
 with us here today, Bogdan. And
 
-185
+256
 00:09:22,229 --> 00:09:27,839
 we like to start every podcast
 episode with your origin story.
 
-186
+257
 00:09:27,839 --> 00:09:31,198
 So, talk to us a little bit
 about how you got into tech.
 
-187
+258
 00:09:32,923 --> 00:09:35,533
 Bogdan: Okay. Thank you for
 having me. I just -- I- I mean,
 
-188
+259
 00:09:35,703 --> 00:09:40,364
 I want to start with, like, I
 think it's very unfair how clear
 
-189
-00:09:40,514 --> 00:09:45,000
+260
+00:09:40,514 --> 00:09:42,757
 Dan sound- sounds compared to
-the two of us, Bekah. Cuz do
+the two of us [laughs], Bekah.
 
-190
+261
+00:09:42,757 --> 00:09:45,000
+Cuz do
+
+262
 00:09:45,000 --> 00:09:47,000
 you -- do -- you don't post it
 like this. You don't sound that
 
-190
+263
 00:09:47,000 --> 00:09:50,173
 cool in the actual [laughs]
-talk, I see [??]. Like, there's
+talk, I see. Like, there's
 
-191
+264
 00:09:50,173 --> 00:09:52,874
 some mixing going on, right?
 
-192
-00:09:53,249 --> 00:09:54,808
-Dan: What? Wait. Are you saying --
+265
+00:09:52,874 --> 00:09:54,808
+Dan: What? Wait. Are you saying
+--
 
-193
-00:09:55,063 --> 00:09:55,964
-Bogdan: You s- you sound very cool.
+266
+00:09:54,808 --> 00:09:55,964
+Bogdan: You s- you sound very
+cool.
 
-194
-00:09:56,548 --> 00:09:56,818
+267
+00:09:56,548 --> 00:09:57,224
 Dan: Oh. No idea.
 
-195
+268
 00:09:57,224 --> 00:09:59,624
 Bogdan: And I don't. I- I don't
 know. But I'm looking at those
 
-196
-00:09:59,624 --> 00:10:02,864
+269
+00:09:59,624 --> 00:10:01,244
 things moving on the screen, and
-he -- yours are ... bigger [laughs].
+he -- yours are ... bigger
 
-197
+270
+00:10:01,244 --> 00:10:02,864
+[laughs].
+
+271
 00:10:04,394 --> 00:10:07,964
 Dan: Well, okay. Well, I might
 just be talking louder or
 
-198
-00:10:07,964 --> 00:10:10,933
+272
+00:10:07,964 --> 00:10:09,448
 having way -- that might be too-
-too loud, actually. I wasn't really
+too loud, actually. I wasn't
 
-199
+273
+00:10:09,448 --> 00:10:10,932
+really
+
+274
 00:10:10,933 --> 00:10:13,303
 looking at it until just now.
 This is --
 
-200
-00:10:14,038 --> 00:10:16,019
-Bekah: I think it looks different
-on different screens too.
+275
+00:10:14,038 --> 00:10:15,396
+Bekah: I think it looks
+different on different screens
 
-201
+276
+00:10:15,396 --> 00:10:16,754
+too. Like-
+
+277
 00:10:16,033 --> 00:10:16,754
 Dan: That's probably true too.
 
-202
-00:10:16,754--> 00:10:17,009
+278
+00:10:16,754 --> 00:10:17,009
+Bekah: -mine looks very-
+
+279
+00:10:17,000--> 00:10:17,000
 Bogdan: Ah.
 
-203
+280
 00:10:17,009 --> 00:10:19,149
-Bekah: Like, mine looks very
-tiny, like barely -- so- so,
+Bekah: -tiny, like, barely --
+so- so,
 
-204
+281
 00:10:19,149 --> 00:10:21,000
 okay. If you're listening --
 
-204
-00:10:20,038 --> 00:10:23,548
+282
+00:10:19,149  --> 00:10:23,548
 Dan: Yeah, yours is probably, honestly,
 like [chuckles], I mean, and I try
 
-205
-00:10:23,548 --> 00:10:27,089
-to do this, like I fix this up in
-editing later. I try to, right?
+283
+00:10:23,548 --> 00:10:25,318
+to do this, like I fix this up
+in editing later. I try to,
 
-206
+284
+00:10:25,318 --> 00:10:27,088
+right?
+
+285
 00:10:27,089 --> 00:10:27,479
 Bogdan: Yeah.
 
-207
-00:10:27,479 --> 00:10:30,839
-Dan: So, this is like sound engineering
-stuff that I've been learning on
+286
+00:10:27,479 --> 00:10:29,159
+Dan: So, this is like sound
+engineering stuff that I've been
 
-208
-00:10:30,844 --> 00:10:33,658
+287
+00:10:29,159 --> 00:10:30,839
+learning on
+
+288
+00:10:30,844 --> 00:10:32,251
 the fly since we were started
-working the podcast [chuckles]. So
+working the podcast [chuckles].
 
-209
+289
+00:10:32,251 --> 00:10:33,658
+So
+
+290
 00:10:33,663 --> 00:10:36,658
 I don't, you know, I don't know
 a lot about it. But like, the --
 
-210
+291
 00:10:37,318 --> 00:10:40,589
 trying to get those levels, you
 know, to where it's close to the
 
-211
+292
 00:10:40,589 --> 00:10:44,219
 edges is usually the best. So,
 Bekah is like, I -- yeah, like-
 
-212
-00:10:44,428 --> 00:10:47,668
-like -- what I was saying is you're a
-little quiet, still, you know [chuckles]?
+293
+00:10:44,428 --> 00:10:46,048
+like -- what I was saying is
+you're a little quiet, still,
 
-213
+294
+00:10:46,048 --> 00:10:47,668
+you know [chuckles]?
+
+295
 00:10:48,688 --> 00:10:48,839
 Bekah: I'm quiet?
 
-214
+296
 00:10:48,928 --> 00:10:51,808
 Dan: A little bit. Not a lot.
 
-215
+297
 00:10:51,839 --> 00:10:52,558
-Bekah: I didn't turn up my sound.
-You didn't tell me to.
+Bekah: I didn't turn up my
+sound. You didn't tell me to.
 
-216
-00:10:52,948 --> 00:10:56,729
-Dan: Well, I didn't really notice
-before. And also, in -- so, for those --
+298
+00:10:52,948 --> 00:10:54,838
+Dan: Well, I didn't really
+notice before. And also, in --
 
-217
+299
+00:10:54,838 --> 00:10:56,728
+so, for those --
+
+300
 00:10:56,908 --> 00:10:58,499
 I don't know if we're gonna cut
 this or not, but for people
 
-218
-00:10:58,499 --> 00:11:02,428
-listening, we use Zencastr, and it
-doesn't show you these nice level
+301
+00:10:58,499 --> 00:11:00,463
+listening, we use Zencastr, and
+it doesn't show you these nice
 
-219
+302
+00:11:00,463 --> 00:11:02,427
+level
+
+303
 00:11:02,428 --> 00:11:06,448
 outputs until you're recording.
 Which is-
 
-220
+304
 00:11:06,448 --> 00:11:06,869
 Bogdan: Yeah.
 
-220
-00:11:06,869 --> 00:11:13,124
-Dan: -really obnoxious. It's hard to
-tell. So, I don't know. But, Bogdan, do
+305
+00:11:06,869 --> 00:11:09,996
+Dan: -really obnoxious. It's
+hard to tell. So, I don't know.
 
-221
-00:11:13,129 --> 00:11:16,813
-you have -- is that the Wave- is that
-the Wave:1? Wave:3? [Unintelligible]?
+306
+00:11:09,996 --> 00:11:13,123
+But, Bogdan, do
 
-222
+307
+00:11:13,129 --> 00:11:14,971
+you have -- is that the Wave- is
+that the Wave:1? Wave:3?
+
+308
+00:11:14,971 --> 00:11:16,813
+[Unintelligible]?
+
+309
 00:11:17,864 --> 00:11:19,000
 Bogdan: You are Wave:3.
 
-223
+310
 00:11:19,000 --> 00:11:20,000
 Dan: Wave:3?
 
-224
-00:11:20,000 --> 00:11:22,844
-Bogdan: But no, it was a compliment. We
-don't have to go into it. It's also very --
+311
+00:11:20,000 --> 00:11:21,422
+Bogdan: But no, it was a
+compliment. We don't have to go
 
-225
-00:11:22,874 --> 00:11:26,354
-Dan: Oh, no. It's [unintelligible]. I- I just
-got- I just got the Wave:3, like, last week-
+312
+00:11:21,422 --> 00:11:22,844
+into it. It's also very --
 
-226
+313
+00:11:22,874 --> 00:11:23,437
+Dan: Oh, no. It's -- so, I mean,
+I- I just got- I just got the
+
+314
+00:11:23,437 --> 00:11:24,000
+Wave:3,
+
+315
+like, last week, and it's been like-
+
+316
 00:11:26,443 --> 00:11:27,313
-Bogdan: Yeah, I have ... yeah.
-It's --
+Bogdan: It- it -- yeah. I have
+... yeah. It's --
 
-227
-00:11:27,524 --> 00:11:29,624
-Dan: -and it's like a day getting it set up.
-So I can send you some stuff [chuckles].
+317
+00:11:27,524 --> 00:11:28,574
+Dan: -a day getting it set up.
+So I can send you some stuff
 
-228
+318
+00:11:28,574 --> 00:11:29,624
+[chuckles].
+
+319
 00:11:30,014 --> 00:11:32,000
-Bogdan: It's ... no, it's Wave:3,
-right? It is.
+Bogdan: It's ... no, it's
+Wave:3, right? It is.
 
-229
+320
 00:11:32,000 --> 00:11:33,000
 Dan: It looks like it.
 
-230
-00:11:33,000 --> 00:11:35,683
-Bogdan: Yeah. It's Wave:3. Yeah. Yeah,
-yeah, yeah. I like it. It's nice.
+321
+00:11:33,000 --> 00:11:34,341
+Bogdan: Yeah. It's Wave:3. Yeah.
+Yeah, yeah, yeah. I like it.
 
-231
-00:11:35,833 --> 00:11:38,653
-Dan: Yeah. I got- I got -- I like it too.
-I just got it ... yeah. Two weeks ago.
+322
+00:11:34,341 --> 00:11:35,682
+It's nice.
 
-232
+323
+00:11:35,833 --> 00:11:37,243
+Dan: Yeah. I got- I got -- I
+like it too. I just got it ...
+
+324
+00:11:37,243 --> 00:11:38,653
+yeah. Two weeks ago.
+
+325
 00:11:38,683 --> 00:11:39,703
 Or a week and half ago. So ...
 I'll send you some stuff.
 
-233
-00:11:40,374 --> 00:11:44,653
-Bogdan: It- it -- yeah. But i- is
-your room, like, prepared for this?
+326
+00:11:40,374 --> 00:11:42,513
+Bogdan: It- it -- yeah. But i-
+is your room, like, prepared for
 
-234
+327
+00:11:42,513 --> 00:11:44,652
+this? Cuz you-
+
+328
+00:11:44,653 --> 00:11:44,653
+Dan: No.
+
+329
 00:11:44,653 --> 00:11:46,000
-Dan: No. Nope. It's just --
+Bogdan: -sound insanely good.
 
-235
-00:11:44,953 --> 00:11:48,524
-Bogdan: Cuz you sound insanely good. Like,
-there's no way mine sounds like this.
+330
+Dan: Nope. It's just --
 
-236
-00:11:48,524 --> 00:11:50,000
+331
+Bogdan: Like, there's no way
+mine sounds like this.
+
+332
+00:11:48,524--> 00:11:50,000
+Dan: Yours sounds pretty good.
+
+333
+00:11:49,004  --> 00:11:50,000
 Bekah: You sound really good.
 
-237
-00:11:49,004 --> 00:11:52,543
-Dan: Yours sounds pretty good. I think
-one thing is, you probably could
+334
+00:11:50,000 --> 00:11:53,000
+Dan: I think one thing is, you
+probably could be closer to your
 
-238
-00:11:52,543 --> 00:11:56,114
-be closer to your mic. That's --
-I mean, maybe not. I don't know.
+335
+00:11:53,000 --> 00:11:56,114
+mic? That's -- I mean, maybe
+not. I don't know.
 
-239
-00:11:56,114 --> 00:11:58,663
+336
+00:11:56,114 --> 00:11:57,388
 When you're -- it's when you're
-moving away -- so, like, if I sit
+moving away -- so, like, if I
 
-240
+337
+00:11:57,388 --> 00:11:58,662
+sit
+
+338
 00:11:58,663 --> 00:12:01,933
 back here, does that sound- that
 sounds like noticeably worse?
 
-241
-00:12:02,114 --> 00:12:02,354
+339
+00:12:01,933 --> 00:12:02,354
 More echo-y -- echo thing?
 
-242
-00:12:02,354 --> 00:12:02,548
-Bogdan: Yeah.
-
-243
-00:12:02,548 --> 00:12:04,000
+340
+00:12:02,548 --> 00:12:03,000
 Bekah: So- so for the listeners-
 
-244
-00:12:04,000 --> 00:12:04,000
-Dan: Yeah? [Bogdan and Dan laugh]
+341
+00:12:03,000 --> 00:12:03,000
+Bogdan: Yeah [laughs].
 
-245
+342
+00:12:04,000 --> 00:12:06,000
+Dan: Yeah [laughs]?
+
+343
 00:12:04,000 --> 00:12:08,099
 Bekah: Dan has scooted his seat
 back about four feet.
 
-245
-00:12:06,000 --> 00:12:07,000 
-Dan: All right. 
+344
+00:12:06,000 --> 00:12:07,000
+Dan: All right.
 
-246
+345
 00:12:07,000 --> 00:12:08,000
-Bogdan: Okay, okay, okay [laughs].
+Bogdan: Okay, okay, okay
+[laughs].
 
-247
+346
 00:12:08,099 --> 00:12:13,453
 Dan: So- so that was the one
 thing I- I read about --
 
-246
-00:12:13,484 --> 00:12:16,484
-so they do like- do like the hang
-10 like this, you know, or- or
+347
+00:12:13,484 --> 00:12:14,984
+so they do like- do like the
+hang 10 like this, you know, or-
 
-247
+348
+00:12:14,984 --> 00:12:16,484
+or
+
+349
 00:12:16,484 --> 00:12:19,484
 whatever. And then that's like
-distance from your mouth-
+distance from-
 
-248
-00:12:19,484 --> 00:12:21,000
-Bogdan: Oh, okay. That should
-not move. Which is make sense.
+350
+00:12:19,484 --> 00:12:20,242
+Bogdan: Oh, okay. Than that
+should not move. Which is make
 
-249
-00:12:19,994 --> 00:12:22,813
-Dan: -to the microphone that should be ...
-right. And that's- that's hard. Yeah. It's
+351
+00:12:20,242 --> 00:12:21,000
+sense.
 
-250
+352
+00:12:19,484 --> 00:12:21,148
+Dan: -your mouth to the
+microphone that should be ...
+
+353
+00:12:21,148 --> 00:12:22,812
+right. And that's- that's hard.
+Yeah. It's
+
+354
 00:12:22,813 --> 00:12:26,293
 hard not to- it's hard not to
 move. But like, that gets you
 
-251
-00:12:26,293 --> 00:12:28,604
-picked up more, but then there's a
-bunch of other stuff too, so ... we
+355
+00:12:26,293 --> 00:12:27,146
+picked up more, but then there's
+a bunch of other stuff too, so
 
-252
+356
+00:12:27,146 --> 00:12:27,999
+--
+
+357
+Bogdan: Okay.
+
+358
 00:12:28,604 --> 00:12:29,000
-don't have to get into it on
-that.
+Dan: We don't have to get into
+it on that.
 
-253
+359
 00:12:29,000 --> 00:12:30,000
 Bogdan: Maybe we -- yeah.
 
-254
+360
 00:12:30,000 --> 00:12:31,543
 Dan: Maybe we do a whole episode
 on it sometime [laughs].
 
-255
+361
 00:12:33,178 --> 00:12:34,109
 Bogdan: [Chuckles] Okay. Sorry.
 I'm sorry.
 
-256
+362
 00:12:34,109 --> 00:12:34,303
 Dan: Anyway --
 
-256
-00:12:34,303 --> 00:12:37,063
-Bekah: Maybe- maybe a live stream.
-And then, the visual will be
+363
+00:12:34,303 --> 00:12:35,683
+Bekah: Maybe- maybe a live
+stream. And then, the visual
 
-257
+364
+00:12:35,683 --> 00:12:37,063
+will be
+
+365
 00:12:37,063 --> 00:12:38,908
 easier to the scene.
 
-257
-00:12:38,908 --> 00:12:41,759
-Bogdan: Yeah, screen the sh- screen the
-share -- share the screen [laughs]. Yeah.
+366
+00:12:38,908 --> 00:12:40,333
+Bogdan: Yeah, screen the sh-
+screen the share -- share the
 
-258
+367
+00:12:40,333 --> 00:12:41,758
+screen [laughs]. Yeah.
+
+368
 00:12:44,083 --> 00:12:46,000
-Dan: Okay. Anyway, I don't
-know what you-
+Dan: Okay. Anyway, I don't know
+what you-
 
-260
+369
 00:12:46,000 --> 00:12:47,000
 Bogdan: Origin story.
 
-261
+370
 00:12:47,000 --> 00:12:48,000
 Bekah: Origin story.
 
-00:12:47,000 --> 00:12:48,869
+371
 Dan: -were saying, or you were
 talking -- yes [laughs].
 
-263
-00:12:48,869 --> 00:12:51,509
-Bogdan: Yeah. Yeah, yeah. We were doing
-about origin story. Well, yeah. Yeah. It's
+372
+00:12:48,869 --> 00:12:50,189
+Bogdan: Yeah. Yeah, yeah. We
+were doing about origin story.
 
-264
-00:12:51,509 --> 00:12:57,913
+373
+00:12:50,189 --> 00:12:51,509
+Well, yeah. Yeah. It's
+
+374
+00:12:51,509 --> 00:12:54,711
 very- it's very linear and
-r-r-rather boring, but ... yeah. Cuz
+r-r-rather boring, but ... yeah.
 
-265
-00:12:57,913 --> 00:13:01,634
-I did -- so, in Romania we have high
-schools that are very specialized.
+375
+00:12:54,711 --> 00:12:57,913
+Cuz
 
-266
+376
+00:12:57,913 --> 00:12:59,773
+I did -- so, in Romania we have
+high schools that are very
+
+377
+00:12:59,773 --> 00:13:01,633
+specialized.
+
+378
 00:13:01,964 --> 00:13:05,114
 And I did one of those with
 computer science. So I kind of
 
-267
-00:13:05,114 --> 00:13:10,063
+379
+00:13:05,114 --> 00:13:07,588
 knew I wanted. I- I have -- my
-family is mainly like, musicians.
+family is mainly like,
 
-268
+380
+00:13:07,588 --> 00:13:10,062
+musicians.
+
+381
 00:13:10,063 --> 00:13:12,854
 A lot of them are trained
 musicians, so I didn't wanna do
 
-269
-00:13:12,854 --> 00:13:17,714
-that cuz I thought it's boring, and
-[laughs] fired back to me a few years
+382
+00:13:12,854 --> 00:13:15,284
+that cuz I thought it's boring,
+and [laughs] fired back to me a
 
-270
+383
+00:13:15,284 --> 00:13:17,714
+few years
+
+384
 00:13:17,714 --> 00:13:20,024
 later. But yeah, I thought it's
 boring. So I went straight to
 
-271
-00:13:20,024 --> 00:13:24,494
-like this mathematics computer science
-high school. So I- I kind of knew
+385
+00:13:20,024 --> 00:13:22,259
+like this mathematics computer
+science high school. So I- I
 
-272
-00:13:24,494 --> 00:13:27,134
+386
+00:13:22,259 --> 00:13:24,494
+kind of knew
+
+387
+00:13:24,494 --> 00:13:25,814
 I wanted to do this. I kind of
-hated it at the time as well, you
+hated it at the time as well,
 
-273
+388
+00:13:25,814 --> 00:13:27,134
+you
+
+389
 00:13:27,134 --> 00:13:30,703
-know? The whole C, C++
-things that don't make any sense
+know? The whole C, C++ things
+that don't make any sense
 
-274
+390
 00:13:30,793 --> 00:13:34,244
-when you're young and you
-just wanna make -- was the
+when you're young and you just
+wanna make -- was the
 
-275
+391
 00:13:34,249 --> 00:13:37,004
 rectangle move on the screen,
 right? I don't wanna spend my --
 
-276
-00:13:37,004 --> 00:13:40,543
+392
+00:13:37,004 --> 00:13:38,773
 yeah. Anyways. But yeah, I
-graduated that, and then I moved to
+graduated that, and then I moved
 
-277
+393
+00:13:38,773 --> 00:13:40,542
+to
+
+394
 00:13:40,604 --> 00:13:43,514
 The Netherlands to do applied
 computer science, which was
 
-278
-00:13:43,514 --> 00:13:48,403
-another [chuckles] surprise. Cuz it
-was this program of like computer
+395
+00:13:43,514 --> 00:13:45,958
+another [chuckles] surprise. Cuz
+it was this program of like
 
-279
+396
+00:13:45,958 --> 00:13:48,402
+computer
+
+397
 00:13:48,403 --> 00:13:51,344
 science, of course, but like,
 electrical engineering as well,
 
-280
-00:13:51,793 --> 00:13:55,663
-which, look. I could have [chuckles]
-look it up, and I did look it up. Like,
+398
+00:13:51,793 --> 00:13:53,728
+which, look. I could have
+[chuckles] look it up, and I did
 
-281
-00:13:55,663 --> 00:13:58,453
-I kind of knew what the program was,
-right? But I did -- I wasn't sure
+399
+00:13:53,728 --> 00:13:55,663
+look it up. Like,
 
-282
+400
+00:13:55,663 --> 00:13:57,058
+I kind of knew what the program
+was, right? But I did -- I
+
+401
+00:13:57,058 --> 00:13:58,453
+wasn't sure
+
+402
 00:13:58,453 --> 00:14:00,524
-if this gonna be a lot of --
-I didn't even know what's
+if this gonna be a lot of -- I
+didn't even know what's
 
-283
-00:14:00,524 --> 00:14:04,484
-electrical engineering and turned out
-to be like very ... not cool [laughs].
+403
+00:14:00,524 --> 00:14:02,504
+electrical engineering and
+turned out to be like very ...
 
-284
-00:14:05,264 --> 00:14:08,923
-Like, not- no-not toward the field
-itself. This is just for me, like in
+404
+00:14:02,504 --> 00:14:04,484
+not cool [laughs].
 
-285
-00:14:08,923 --> 00:14:12,688
-university years. It was -- I was
-like, yeah. Still, I wanna make
+405
+00:14:05,264 --> 00:14:07,093
+Like, not- no-not toward the
+field itself. This is just for
 
-286
-00:14:12,839 --> 00:14:17,038
-rectangles move. But then I wa- got
-super, super, super lucky in my
+406
+00:14:07,093 --> 00:14:08,922
+me, like in
 
-287
+407
+00:14:08,923 --> 00:14:10,805
+university years. It was -- I
+was like, yeah. Still, I wanna
+
+408
+00:14:10,805 --> 00:14:12,687
+make
+
+409
+00:14:12,839 --> 00:14:14,938
+rectangles move. But then I wa-
+got super, super, super lucky in
+
+410
+00:14:14,938 --> 00:14:17,037
+my
+
+411
 00:14:17,038 --> 00:14:21,208
 first year of university, I
 think. I got a job — remote
 
-288
-00:14:21,208 --> 00:14:25,078
-job — in Romania for like one of my
-friends' father that had this, like
+412
+00:14:21,208 --> 00:14:23,143
+job — in Romania for like one of
+my friends' father that had
 
-289
+413
+00:14:23,143 --> 00:14:25,078
+this, like
+
+414
 00:14:25,078 --> 00:14:29,188
 e-commerce kind of low key
 business, where I got into
 
-290
-00:14:29,188 --> 00:14:34,889
+415
+00:14:29,188 --> 00:14:32,038
 Node. I did not lie on my
-interview, but something made him
+interview, but something made
 
-291
+416
+00:14:32,038 --> 00:14:34,888
+him
+
+417
 00:14:34,889 --> 00:14:38,879
-think I actually know Node. I-
-I did- I did know about Node,
+think I actually know Node. I- I
+did- I did know about Node,
 
-292
+418
 00:14:38,969 --> 00:14:39,000
 right? I was like [laughs] --
 
-293
+419
 00:14:39,000 --> 00:14:40,889
 Dan: You've heard- you've heard
 of it. Yeah, yeah.
 
-294
-00:14:41,864 --> 00:14:45,494
-Bogdan: Yeah, yeah, yeah. Cuz I did -- so
-I, like, the -- I remember -- so, the very
+420
+00:14:41,864 --> 00:14:43,679
+Bogdan: Yeah, yeah, yeah. Cuz I
+did -- so I, like, the -- I
 
-295
-00:14:45,494 --> 00:14:50,384
-first thing I did, like, web development
-was, back in high school was like
+421
+00:14:43,679 --> 00:14:45,494
+remember -- so, the very
 
-296
+422
+00:14:45,494 --> 00:14:47,939
+first thing I did, like, web
+development was, back in high
+
+423
+00:14:47,939 --> 00:14:50,384
+school was like
+
+424
 00:14:50,384 --> 00:14:53,953
 this pi- p5.js — which is still
 around, they're very much
 
-297
+425
 00:14:53,953 --> 00:14:59,264
 happening — but there was this
 -- people doing this c-c-coding
 
-298
-00:14:59,293 --> 00:15:02,653
-train, they were super into it, and
-I did like -- they did, like, the
+426
+00:14:59,293 --> 00:15:00,973
+train, they were super into it,
+and I did like -- they did,
 
-299
+427
+00:15:00,973 --> 00:15:02,653
+like, the
+
+428
 00:15:02,653 --> 00:15:05,533
 snake, and I did the snake, and
 then I wanted to- to do, like-
 
-300
+429
 00:15:06,823 --> 00:15:11,183
 like a multiplayer thing or like
 a chat room for it, and I- I-
 
-301
-00:15:11,188 --> 00:15:15,734
-I knew that you can use Node to do
-that [laughs]. And that was the only
+430
+00:15:11,188 --> 00:15:13,461
+I knew that you can use Node to
+do that [laughs]. And that was
 
-302
+431
+00:15:13,461 --> 00:15:15,734
+the only
+
+432
 00:15:15,739 --> 00:15:19,423
 information I had. And I was
 like, "Yeah, you can do like,
 
-303
+433
 00:15:19,423 --> 00:15:21,946
 WebsSockets, right?" Yeah. But
 anyways, they were- they were-
 
-304
-00:15:22,244 --> 00:15:25,844
+434
+00:15:22,244 --> 00:15:24,044
 they were very nice to me and
-like, they actually hired me, and I
+like, they actually hired me,
 
-305
-00:15:25,849 --> 00:15:28,514
-learned a lot about like databases,
-and Node, and stuff like
+435
+00:15:24,044 --> 00:15:25,844
+and I
 
-306
+436
+00:15:25,849 --> 00:15:27,181
+learned a lot about like
+databases, and Node, and stuff
+
+437
+00:15:27,181 --> 00:15:28,513
+like
+
+438
 00:15:28,514 --> 00:15:32,953
 that. And then the second year
 of university came in when I was
 
-307
-00:15:33,374 --> 00:15:36,673
+439
+00:15:33,374 --> 00:15:35,023
 actually teaching more
-programming. And I finally kind of
+programming. And I finally kind
 
-308
+440
+00:15:35,023 --> 00:15:36,672
+of
+
+441
 00:15:36,884 --> 00:15:39,344
 overlapped the two, and be like,
 "Oh, okay, I'm doing this for my
 
-309
-00:15:39,344 --> 00:15:42,374
-job. I'm learning about this," you know?
-We're -- even in school, we learned
+442
+00:15:39,344 --> 00:15:40,859
+job. I'm learning about this,"
+you know? We're -- even in
 
-310
-00:15:42,403 --> 00:15:46,153
-a bit like about testing, and CI/CD,
-and things like that. I was like,
+443
+00:15:40,859 --> 00:15:42,374
+school, we learned
 
-311
-00:15:46,153 --> 00:15:51,524
+444
+00:15:42,403 --> 00:15:44,278
+a bit like about testing, and
+CI/CD, and things like that. I
+
+445
+00:15:44,278 --> 00:15:46,153
+was like,
+
+446
+00:15:46,153 --> 00:15:48,838
 "Oh, this is actually cool and
-useful." So I ... yeah ... tried to
+useful." So I ... yeah ... tried
 
-312
-00:15:51,524 --> 00:15:56,714
-[chuckles] finish school, and then [laughs]
-continued, then I got a university job like
+447
+00:15:48,838 --> 00:15:51,523
+to
 
-313
-00:15:56,714 --> 00:16:04,859
-teaching Java, which was- which was
-bad [laughs]. Look, I have this theory
+448
+00:15:51,524 --> 00:15:54,119
+[chuckles] finish school, and
+then [laughs] continued, then I
 
-314
-00:16:04,859 --> 00:16:09,058
-and [laughs] I hope I never have to-
-to get a teaching job again cuz if
+449
+00:15:54,119 --> 00:15:56,714
+got a university job like
 
-315
-00:16:09,058 --> 00:16:11,999
-I say this. No, I don't. No, it's
-not- no, it's not -- it's not a hard
+450
+00:15:56,714 --> 00:16:00,786
+teaching Java, which was- which
+was bad [laughs]. Look, I have
 
-316
-00:16:11,999 --> 00:16:15,149
-day. But it's just like, teaching
-programming, it's so easy. Cuz
+451
+00:16:00,786 --> 00:16:04,858
+this theory
 
-317
-00:16:15,153 --> 00:16:19,798
-you just like -- you just say, like,
-"I -- I'm- I'm- I'm gonna show
+452
+00:16:04,859 --> 00:16:06,958
+and [laughs] I hope I never have
+to- to get a teaching job again
 
-318
-00:16:19,798 --> 00:16:22,229
-you how to Google." And if they have
-questions, you just Google [Dan chuckles]
+453
+00:16:06,958 --> 00:16:09,057
+cuz if
 
-319
-00:16:22,229 --> 00:16:25,828
-in front of them, and I -- and- and-
-and find out things together. Which
+454
+00:16:09,058 --> 00:16:10,528
+I say this. No, I don't. No,
+it's not- no, it's not- it's not
 
-320
-00:16:25,828 --> 00:16:29,188
-is nice, you know? They also do --
-need to know how to Google. But,
+455
+00:16:10,528 --> 00:16:11,998
+a hard
 
-321
-00:16:29,193 --> 00:16:32,369
+456
+00:16:11,999 --> 00:16:13,574
+day. But it's just like,
+teaching programming, it's so
+
+457
+00:16:13,574 --> 00:16:15,149
+easy. Cuz
+
+458
+00:16:15,153 --> 00:16:17,475
+you just like -- you just say,
+like, "I -- I'm- I'm- I'm gonna
+
+459
+00:16:17,475 --> 00:16:19,797
+show
+
+460
+00:16:19,798 --> 00:16:21,013
+you how to Google." And if they
+have questions, you just Google
+
+461
+00:16:21,013 --> 00:16:22,228
+[Dan chuckles]
+
+462
+00:16:22,229 --> 00:16:24,028
+in front of them, and I -- and-
+and- and find out things
+
+463
+00:16:24,028 --> 00:16:25,827
+together. Which
+
+464
+00:16:25,828 --> 00:16:27,508
+is nice, you know? They also do
+-- need to know how to Google.
+
+465
+00:16:27,508 --> 00:16:29,188
+But,
+
+466
+00:16:29,193 --> 00:16:30,781
 yeah. And then I got an
-internship at another university,
+internship at another
 
-322
+467
+00:16:30,781 --> 00:16:32,369
+university,
+
+468
 00:16:32,548 --> 00:16:37,798
 but for research. And then I
 moved here, to another city,
 
-323
+469
 00:16:38,219 --> 00:16:42,543
-while still studying. I did
-my internship, I got a full
+while still studying. I did my
+internship, I got a full
 
-324
+470
 00:16:42,543 --> 00:16:46,413
 contract after, but Corona
 happened. So I was staying here
 
-325
-00:16:46,474 --> 00:16:52,354
+471
+00:16:46,474 --> 00:16:49,414
 working full-time while ...
-finishing my- my- my bachelor basic
+finishing my- my- my bachelor
 
-326
-00:16:52,354 --> 00:16:59,024
-or barely like [chuckles] trying to
-finish my- my bachelor. And then I- I --
+472
+00:16:49,414 --> 00:16:52,354
+basic
 
-327
+473
+00:16:52,354 --> 00:16:55,689
+or barely like [chuckles] trying
+to finish my- my bachelor. And
+
+474
+00:16:55,689 --> 00:16:59,024
+then I- I --
+
+475
 00:16:59,864 --> 00:17:02,803
 the- the Maastricht University
 research position was absolutely
 
-328
+476
 00:17:02,803 --> 00:17:06,554
 amazing. Like, it's -- it was
 academia, which was kind of new
 
-329
-00:17:06,554 --> 00:17:09,403
-to me, cuz I- I always knew I wanna
-be an -- a developer, right? Or
+477
+00:17:06,554 --> 00:17:07,978
+to me, cuz I- I always knew I
+wanna be an -- a developer,
 
-330
-00:17:09,403 --> 00:17:12,614
+478
+00:17:07,978 --> 00:17:09,402
+right? Or
+
+479
+00:17:09,403 --> 00:17:11,008
 an engineer. But I was like,
-"Okay, we can combine this," right?
+"Okay, we can combine this,"
 
-331
-00:17:12,618 --> 00:17:15,284
+480
+00:17:11,008 --> 00:17:12,613
+right?
+
+481
+00:17:12,618 --> 00:17:13,951
 I don't know a- a lot about
-research, but I [chuckles] know about
+research, but I [chuckles] know
 
-332
-00:17:15,284 --> 00:17:18,554
-development, so we can definitely
-overlap. Cuz it was also like a
+482
+00:17:13,951 --> 00:17:15,284
+about
 
-333
-00:17:18,554 --> 00:17:25,499
-legal -- kind of legal tech [silence]
-space, where they had a lot of
+483
+00:17:15,284 --> 00:17:16,919
+development, so we can
+definitely overlap. Cuz it was
 
-334
-00:17:25,499 --> 00:17:29,669
-data where they had a lot of ideas
-about tech, but th-they did
+484
+00:17:16,919 --> 00:17:18,554
+also like a
 
-335
-00:17:29,669 --> 00:17:32,759
-the developers. So, yeah, we kind
-of combined it very nice. But
+485
+00:17:18,554 --> 00:17:22,026
+legal -- kind of legal tech
+[silence] space, where they had
 
-336
-00:17:32,818 --> 00:17:38,519
-things slowly came to an end. And
-finally, two months ago I got a
+486
+00:17:22,026 --> 00:17:25,498
+a lot of
 
-337
+487
+00:17:25,499 --> 00:17:27,584
+data where they had a lot of
+ideas about tech, but th-they
+
+488
+00:17:27,584 --> 00:17:29,669
+did
+
+489
+00:17:29,669 --> 00:17:31,214
+the developers. So, yeah, we
+kind of combined it very nice.
+
+490
+00:17:31,214 --> 00:17:32,759
+But
+
+491
+00:17:32,818 --> 00:17:35,668
+things slowly came to an end.
+And finally, two months ago I
+
+492
+00:17:35,668 --> 00:17:38,518
+got a
+
+493
 00:17:38,759 --> 00:17:44,038
-new software engineering job,
-to a digital creative internet,
+new software engineering job, to
+a digital creative internet,
 
-338
-00:17:44,128 --> 00:17:49,469
-whatever they [chuckles] call it --
-agency, in The Netherlands. So I plan
+494
+00:17:44,128 --> 00:17:46,798
+whatever they [chuckles] call it
+-- agency, in The Netherlands.
 
-339
-00:17:50,294 --> 00:17:54,344
-to- to stay doing Node, basically. Root
-Node, React, TypeScript, things like
+495
+00:17:46,798 --> 00:17:49,468
+So I plan
 
-340
-00:17:54,344 --> 00:18:00,973
-that. So, yeah. I think that's- that's
-it. This is today [laughs]. Just
+496
+00:17:50,294 --> 00:17:52,319
+to- to stay doing Node,
+basically. Root Node, React,
 
-341
+497
+00:17:52,319 --> 00:17:54,344
+TypeScript, things like
+
+498
+00:17:54,344 --> 00:17:57,658
+that. So, yeah. I think that's-
+that's it. This is today
+
+499
+00:17:57,658 --> 00:18:00,972
+[laughs]. Just
+
+500
 00:18:01,094 --> 00:18:02,000
 recently joined a --
 
-342
+501
 00:18:02,000 --> 00:18:03,000
 Bekah: A cool --
 
-343
+502
 00:18:03,000 --> 00:18:03,000
 Bogdan: Yeah.
 
-344
-00:18:04,000 --> 00:18:06,209
+503
+00:18:04,000 --> 00:18:05,104
 Bekah: You recently joined ...
-I'm sorry. I think I cut you off.
+I'm sorry. I think I cut you
 
-343
-00:18:06,374 --> 00:18:09,163
-Bogdan: Yeah, no. That was it. Just
-recently, [chuckles] like two months
+504
+00:18:05,104 --> 00:18:06,208
+off.
 
-344
+505
+00:18:06,374 --> 00:18:07,768
+Bogdan: Yeah, no. That was it.
+Just recently, [chuckles] like
+
+506
+00:18:07,768 --> 00:18:09,162
+two months
+
+507
 00:18:09,163 --> 00:18:11,368
-ago, I think. It was April.
-So, yeah.
+ago, I think. It was April. So,
+yeah.
 
-345
-00:18:11,578 --> 00:18:14,429
+508
+00:18:11,578 --> 00:18:13,003
 Bekah: So I wanna back up a
-little bit and ask some questions
+little bit and ask some
 
-346
-00:18:14,429 --> 00:18:18,659
+509
+00:18:13,003 --> 00:18:14,428
+questions
+
+510
+00:18:14,429 --> 00:18:16,544
 about the schooling that you've
-done. So, it sounds like there was
+done. So, it sounds like there
 
-347
+511
+00:18:16,544 --> 00:18:18,659
+was
+
+512
 00:18:18,689 --> 00:18:22,888
 maybe more practical application
 than I've seen from universities
 
-348
+513
 00:18:22,888 --> 00:18:26,219
 in the United States, which
 computer science degrees have a
 
-349
-00:18:26,219 --> 00:18:31,558
+514
+00:18:26,219 --> 00:18:28,888
 lot of, like, theoretical
-content, algorithms, and that kind
+content, algorithms, and that
 
-350
+515
+00:18:28,888 --> 00:18:31,557
+kind
+
+516
 00:18:31,558 --> 00:18:35,429
 of stuff. Is that- is that
 accurate statement? Or were you
 
-351
+517
 00:18:35,429 --> 00:18:36,269
 doing a lot of that stuff too?
 
-352
-00:18:38,278 --> 00:18:42,209
-Bogdan: Yeah. We- we were doing that
-for sure as well. But yeah, with an
+518
+00:18:38,278 --> 00:18:40,243
+Bogdan: Yeah. We- we were doing
+that for sure as well. But yeah,
 
-353
-00:18:42,209 --> 00:18:46,078
-eye on electrical engineering and
-kind of like -- so, in- in The
+519
+00:18:40,243 --> 00:18:42,208
+with an
 
-354
-00:18:46,078 --> 00:18:49,169
+520
+00:18:42,209 --> 00:18:44,143
+eye on electrical engineering
+and kind of like -- so, in- in
+
+521
+00:18:44,143 --> 00:18:46,077
+The
+
+522
+00:18:46,078 --> 00:18:47,623
 Netherlands, they have this
-system of like universities, what
+system of like universities,
 
-355
-00:18:49,169 --> 00:18:53,098
-they call universities -- research
-universities, which is basically
+523
+00:18:47,623 --> 00:18:49,168
+what
 
-356
-00:18:53,098 --> 00:18:57,028
-like a college university in- in- the
-US as well, right? Where they, you
+524
+00:18:49,169 --> 00:18:51,133
+they call universities --
+research universities, which is
 
-357
-00:18:57,034 --> 00:19:00,479
-know, they teach, you know, like a normal
-[chuckles] university. And they have these
+525
+00:18:51,133 --> 00:18:53,097
+basically
 
-358
-00:19:00,479 --> 00:19:07,078
-things ... this like, just wh-wh-what they
-call 'hogeschool' or like 'HBO's, where-
+526
+00:18:53,098 --> 00:18:55,063
+like a college university in-
+in- the US as well, right? Where
 
-359
+527
+00:18:55,063 --> 00:18:57,028
+they, you
+
+528
+00:18:57,034 --> 00:18:58,756
+know, they teach, you know, like
+a normal [chuckles] university.
+
+529
+00:18:58,756 --> 00:19:00,478
+And they have these
+
+530
+00:19:00,479 --> 00:19:03,778
+things ... this like, just
+wh-wh-what they call
+
+531
+00:19:03,778 --> 00:19:07,077
+'hogeschool' or like 'HBO's,
+where-
+
+532
 00:19:07,259 --> 00:19:10,979
 where like more professional
 schools. In English, they
 
-360
-00:19:10,979 --> 00:19:14,459
-call them Universities of Applied
-Sciences, but it's in- in- in
+533
+00:19:10,979 --> 00:19:12,719
+call them Universities of
+Applied Sciences, but it's in-
 
-361
-00:19:14,459 --> 00:19:18,959
+534
+00:19:12,719 --> 00:19:14,459
+in- in
+
+535
+00:19:14,459 --> 00:19:16,709
 Dutch doesn't really go -- it's
-not ... really -- I think it -- I- I
+not ... really -- I think it --
 
-362
-00:19:18,963 --> 00:19:21,148
+536
+00:19:16,709 --> 00:19:18,959
+I- I
+
+537
+00:19:18,963 --> 00:19:20,055
 think it's a university, but
-like -- yeah, there's a difference.
+like -- yeah, there's a
 
-363
-00:19:21,153 --> 00:19:25,858
-Here's like more of a -- like a very-
-like a very engineering, like kind
+538
+00:19:20,055 --> 00:19:21,147
+difference.
 
-364
-00:19:25,858 --> 00:19:29,894
-of applied -- hands on experience.
-It's also longer. It's four years
+539
+00:19:21,153 --> 00:19:23,505
+Here's like more of a -- like a
+very- like a very engineering,
 
-365
-00:19:29,894 --> 00:19:32,594
-instead of three. And you have to
-do internships, you have to work
+540
+00:19:23,505 --> 00:19:25,857
+like kind
 
-366
+541
+00:19:25,858 --> 00:19:27,876
+of applied -- hands on
+experience. It's also longer.
+
+542
+00:19:27,876 --> 00:19:29,894
+It's four years
+
+543
+00:19:29,894 --> 00:19:31,244
+instead of three. And you have
+to do internships, you have to
+
+544
+00:19:31,244 --> 00:19:32,594
+work
+
+545
 00:19:32,594 --> 00:19:34,814
 with companies, you have to work
 with clients, and things like
 
-367
+546
 00:19:34,814 --> 00:19:37,574
-that, which is for people
-that wanna do, you know, wanna
+that, which is for people that
+wanna do, you know, wanna
 
-368
-00:19:37,574 --> 00:19:40,423
+547
+00:19:37,574 --> 00:19:38,998
 get straight to- to work and
-things like that. Which goes very
+things like that. Which goes
 
-369
+548
+00:19:38,998 --> 00:19:40,422
+very
+
+549
 00:19:40,423 --> 00:19:42,374
 well for like, engineering, and
 things like that.
 
-370
+550
 00:19:43,874 --> 00:19:44,114
 Bekah: Yeah. Interesting.
 
-371
+551
 00:19:44,263 --> 00:19:47,233
 Bogdan: So, it was one of those,
 you know? Where you- where you
 
-372
-00:19:47,233 --> 00:19:53,173
-have like, more like programming,
-but like kind of rather like ... the-
+552
+00:19:47,233 --> 00:19:50,203
+have like, more like
+programming, but like kind of
 
-373
-00:19:53,179 --> 00:19:56,413
-the applied part was like more the
-electrical part rather than web,
+553
+00:19:50,203 --> 00:19:53,173
+rather like ... the-
 
-374
+554
+00:19:53,179 --> 00:19:54,796
+the applied part was like more
+the electrical part rather than
+
+555
+00:19:54,796 --> 00:19:56,413
+web,
+
+556
 00:19:56,534 --> 00:20:00,943
 right? Like we didn't- we didn't
 learn about web development, but
 
-375
-00:20:00,943 --> 00:20:05,054
-we did learn about operating systems
-or microcontrollers or thing that
+557
+00:20:00,943 --> 00:20:02,998
+we did learn about operating
+systems or microcontrollers or
 
-376
+558
+00:20:02,998 --> 00:20:05,053
+thing that
+
+559
 00:20:05,054 --> 00:20:07,000
 go into electrical engineering
 field.
 
-377
+560
 00:20:08,000 --> 00:20:09,000
-Dan: Did you have to do assembly?
+Dan: Did you have to do
+assembly?
 
-378
+561
 00:20:10,000 --> 00:20:11,000
 Bogdan: I think I did not-
 
-379
-00:20:11,000 --> 00:20:12,000 
+562
+00:20:11,000 --> 00:20:12,000
 Dan: Oh, that's good.
 
-380
-00:20:12,000 --> 00:20:16,453
-Bogdan: -unfortunately. No, but we-
-we -- it was- it was insane. Like, I
+563
+00:20:12,000 --> 00:20:14,226
+Bogdan: -unfortunately. No, but
+we- we -- it was- it was insane.
 
-381
-00:20:16,453 --> 00:20:21,824
-absolutely -- it- it- it was insane. And-
-and- and we did microcontrollers, of
+564
+00:20:14,226 --> 00:20:16,452
+Like, I
 
-382
-00:20:21,824 --> 00:20:25,318
+565
+00:20:16,453 --> 00:20:19,138
+absolutely -- it- it- it was
+insane. And- and- and we did
+
+566
+00:20:19,138 --> 00:20:21,823
+microcontrollers, of
+
+567
+00:20:21,824 --> 00:20:23,571
 course, and all that, like, chip
-programming, and things like that,
+programming, and things like
 
-383
-00:20:25,318 --> 00:20:29,848
-which I absolutely dreaded [chuckles]
-and I couldn't wait to be over.
+568
+00:20:23,571 --> 00:20:25,318
+that,
 
-384
-00:20:29,848 --> 00:20:32,699
+569
+00:20:25,318 --> 00:20:27,583
+which I absolutely dreaded
+[chuckles] and I couldn't wait
+
+570
+00:20:27,583 --> 00:20:29,848
+to be over.
+
+571
+00:20:29,848 --> 00:20:31,273
 And although it was interesting,
-right? Like, operating systems was
+right? Like, operating systems
 
-385
+572
+00:20:31,273 --> 00:20:32,698
+was
+
+573
 00:20:32,703 --> 00:20:36,868
 such an interesting thing, but
 it's just like the- the- the
 
-386
+574
 00:20:37,469 --> 00:20:41,939
 whole thing of like patterns,
 and ideas, and things you
 
-387
-00:20:41,939 --> 00:20:47,159
-can have in web development, you --
-I couldn't have in- in operating
+575
+00:20:41,939 --> 00:20:44,549
+can have in web development, you
+-- I couldn't have in- in
 
-388
-00:20:47,159 --> 00:20:50,699
-systems, you know? You- you can't get
-too creative about [chuckles] it. Cuz
+576
+00:20:44,549 --> 00:20:47,159
+operating
 
-389
-00:20:50,699 --> 00:20:53,608
+577
+00:20:47,159 --> 00:20:48,929
+systems, you know? You- you
+can't get too creative about
+
+578
+00:20:48,929 --> 00:20:50,699
+[chuckles] it. Cuz
+
+579
+00:20:50,699 --> 00:20:52,153
 there are -- especially in
-microcontrollers, like, they- they
+microcontrollers, like, they-
 
-390
-00:20:53,608 --> 00:20:57,929
+580
+00:20:52,153 --> 00:20:53,607
+they
+
+581
+00:20:53,608 --> 00:20:55,768
 have this- this huge books and
-guides about- about them, and you
+guides about- about them, and
 
-391
-00:20:57,929 --> 00:21:00,898
-have to know things, and you have
-to look for things that are just
+582
+00:20:55,768 --> 00:20:57,928
+you
 
-392
-00:21:00,903 --> 00:21:05,009
-set, right? Or- or- or, you know, I don't
-know enough to- to- to make this [chuckles]
+583
+00:20:57,929 --> 00:20:59,413
+have to know things, and you
+have to look for things that are
 
-393
-00:21:05,398 --> 00:21:08,159
-conclusion, but it's still like --
-the way I saw it was like, this
+584
+00:20:59,413 --> 00:21:00,897
+just
 
-394
+585
+00:21:00,903 --> 00:21:02,956
+set, right? Or- or- or, you
+know, I don't know enough to-
+
+586
+00:21:02,956 --> 00:21:05,009
+to- to make this [chuckles]
+
+587
+00:21:05,398 --> 00:21:06,778
+conclusion, but it's still like
+-- the way I saw it was like,
+
+588
+00:21:06,778 --> 00:21:08,158
+this
+
+589
 00:21:08,159 --> 00:21:12,898
-is -- I can't- I can't be creative
-here, you know? But I
+is -- I can't- I can't be
+creative here, you know? But I
 
-395
+590
 00:21:12,898 --> 00:21:15,778
-finished it anyways. But,
-yeah [laughs].
+finished it anyways. But, yeah
+[laughs].
 
-396
-00:21:16,394 --> 00:21:18,614
+591
+00:21:16,394 --> 00:21:17,504
 Dan: Yeah. No, I- I love that. I
-love hearing about that, you know?
+love hearing about that, you
 
-397
-00:21:18,614 --> 00:21:22,003
-And you have used this phrase a few
-times when you're telling the story
+592
+00:21:17,504 --> 00:21:18,614
+know?
 
-398
-00:21:22,003 --> 00:21:25,663
+593
+00:21:18,614 --> 00:21:20,308
+And you have used this phrase a
+few times when you're telling
+
+594
+00:21:20,308 --> 00:21:22,002
+the story
+
+595
+00:21:22,003 --> 00:21:23,833
 about ... like, I didn't get to
-move around boxes or like, you know,
+move around boxes or like, you
 
-399
-00:21:25,663 --> 00:21:28,784
-move around boxes [Dan and Bogdan chuckles] like, and
-like, I- I -- and like, it's -- I know that's like a
+596
+00:21:23,833 --> 00:21:25,663
+know,
 
-400
-00:21:28,784 --> 00:21:31,124
+597
+00:21:25,663 --> 00:21:27,223
+move around boxes [Dan and
+Bogdan chuckles] like, and like,
+
+598
+00:21:27,223 --> 00:21:28,783
+I- I -- and like, it's -- I know
+that's like a
+
+599
+00:21:28,784 --> 00:21:29,954
 funny way of saying it, but I- I
-totally connect with that because
+totally connect with that
 
-401
+600
+00:21:29,954 --> 00:21:31,124
+because
+
+601
 00:21:31,124 --> 00:21:34,784
-that's- that's something that
-I personally, like ... I don't
+that's- that's something that I
+personally, like ... I don't
 
-402
-00:21:34,784 --> 00:21:37,003
-think -- I mean, I never- I never put
-it exactly like that, but it's the
+602
+00:21:34,784 --> 00:21:35,893
+think -- I mean, I never- I
+never put it exactly like that,
 
-403
+603
+00:21:35,893 --> 00:21:37,002
+but it's the
+
+604
 00:21:37,003 --> 00:21:40,784
 same thing of that -- the thing
 that drew me to programming was
 
-404
-00:21:40,814 --> 00:21:45,013
-the -- was that. Was moving around
-boxes. Or like doing a thing, like,
+605
+00:21:40,814 --> 00:21:42,913
+the -- was that. Was moving
+around boxes. Or like doing a
 
-405
-00:21:45,314 --> 00:21:48,584
-doing a thing, and then getting to
-see it, like, move or happen or ...
+606
+00:21:42,913 --> 00:21:45,012
+thing, like,
 
-406
+607
+00:21:45,314 --> 00:21:46,949
+doing a thing, and then getting
+to see it, like, move or happen
+
+608
+00:21:46,949 --> 00:21:48,584
+or ...
+
+609
 00:21:49,663 --> 00:21:52,814
 just see it in front of me,
 right? And- and while, like
 
-407
+610
 00:21:52,814 --> 00:21:55,483
 academically, some of the more
 like the operating -- the lower
 
-408
-00:21:55,483 --> 00:22:00,084
-level stuff is, you know, interesting,
-maybe [chuckles], you know? I lo-
+611
+00:21:55,483 --> 00:21:57,783
+level stuff is, you know,
+interesting, maybe [chuckles],
 
-409
-00:22:00,314 --> 00:22:03,044
-I totally lost my connection to all
-of it. Like, I- I -- like -- and I --
+612
+00:21:57,783 --> 00:22:00,083
+you know? I lo-
 
-410
-00:22:03,433 --> 00:22:05,653
+613
+00:22:00,314 --> 00:22:01,679
+I totally lost my connection to
+all of it. Like, I- I -- like --
+
+614
+00:22:01,679 --> 00:22:03,044
+and I --
+
+615
+00:22:03,433 --> 00:22:04,543
 like I said this before, that's-
-that's when I switched majors out of
+that's when I switched majors
 
-411
-00:22:05,653 --> 00:22:09,523
-computer sciences was, I was deep
-into that- that ... like, section, you
+616
+00:22:04,543 --> 00:22:05,653
+out of
 
-412
+617
+00:22:05,653 --> 00:22:07,588
+computer sciences was, I was
+deep into that- that ... like,
+
+618
+00:22:07,588 --> 00:22:09,523
+section, you
+
+619
 00:22:09,523 --> 00:22:11,294
 know what I mean? As, you know,
 assembling, and I was doing -- I
 
-413
-00:22:11,294 --> 00:22:15,223
-wasn't ... yeah, I don't know. I don't
-think I was -- that semester, had
+620
+00:22:11,294 --> 00:22:13,258
+wasn't ... yeah, I don't know. I
+don't think I was -- that
 
-414
-00:22:15,223 --> 00:22:20,114
-even done anything where I got to like
-hit save or compile and see something
+621
+00:22:13,258 --> 00:22:15,222
+semester, had
 
-415
-00:22:20,683 --> 00:22:23,503
-happen, you know what I mean [chuckles]?
-And it- and it was just like --
+622
+00:22:15,223 --> 00:22:17,668
+even done anything where I got
+to like hit save or compile and
 
-416
-00:22:23,503 --> 00:22:28,753
-and I lost my interest, you know?
-And I think the -- it seems
+623
+00:22:17,668 --> 00:22:20,113
+see something
 
-417
+624
+00:22:20,683 --> 00:22:22,093
+happen, you know what I mean
+[chuckles]? And it- and it was
+
+625
+00:22:22,093 --> 00:22:23,503
+just like --
+
+626
+00:22:23,503 --> 00:22:26,128
+and I lost my interest, you
+know? And I think the -- it
+
+627
+00:22:26,128 --> 00:22:28,753
+seems
+
+628
 00:22:28,759 --> 00:22:33,104
 like you have acknowledged that
 in, you know, yourself and use
 
-418
+629
 00:22:33,104 --> 00:22:35,953
 that as — maybe whether it was
 consciously or not — use that as
 
-419
+630
 00:22:35,953 --> 00:22:38,773
 like a sort of driving force in-
 in finding, you know, your path,
 
-420
-00:22:38,923 --> 00:22:42,433
+631
+00:22:38,923 --> 00:22:40,678
 and- and like your happiness.
-Like, you could have, possibly, and
+Like, you could have, possibly,
 
-421
-00:22:42,433 --> 00:22:45,163
-maybe -- I mean, some people, I guess,
-could have forced themselves down the
+632
+00:22:40,678 --> 00:22:42,433
+and
 
-422
-00:22:45,163 --> 00:22:50,624
-line of, you know, the electrical
-engineering and gotten a job ... I
+633
+00:22:42,433 --> 00:22:43,798
+maybe -- I mean, some people, I
+guess, could have forced
 
-423
-00:22:50,624 --> 00:22:54,614
-don't know, soldering things [chuckles] or
-something. I dunno [laughs]. But- but-
+634
+00:22:43,798 --> 00:22:45,163
+themselves down the
 
-424
-00:22:54,644 --> 00:22:58,064
-but, you know, but like you ... I
-don't know. It- it's -- I- I just
+635
+00:22:45,163 --> 00:22:47,893
+line of, you know, the
+electrical engineering and
 
-425
-00:22:58,068 --> 00:23:00,104
-connect with that. I- I just wanted
-to like, kind of highlight that
+636
+00:22:47,893 --> 00:22:50,623
+gotten a job ... I
 
-426
-00:23:00,108 --> 00:23:04,423
-because it's -- it- it -- finding
-what makes you happy in a- in a field
+637
+00:22:50,624 --> 00:22:52,619
+don't know, soldering things
+[chuckles] or something. I dunno
 
-427
-00:23:04,423 --> 00:23:06,794
-is- is important. Especially com-
-field like computer science,
+638
+00:22:52,619 --> 00:22:54,614
+[laughs]. But- but-
 
-428
-00:23:06,794 --> 00:23:11,023
+639
+00:22:54,644 --> 00:22:56,354
+but, you know, but like you ...
+I don't know. It- it's -- I- I
+
+640
+00:22:56,354 --> 00:22:58,064
+just
+
+641
+00:22:58,068 --> 00:22:59,086
+connect with that. I- I just
+wanted to like, kind of
+
+642
+00:22:59,086 --> 00:23:00,104
+highlight that
+
+643
+00:23:00,108 --> 00:23:02,265
+because it's -- it- it --
+finding what makes you happy in
+
+644
+00:23:02,265 --> 00:23:04,422
+a- in a field
+
+645
+00:23:04,423 --> 00:23:05,608
+is- is important. Especially
+com- field like computer
+
+646
+00:23:05,608 --> 00:23:06,793
+science,
+
+647
+00:23:06,794 --> 00:23:08,908
 because there are gonna be some
-people that ... will get into those
+people that ... will get into
 
-429
+648
+00:23:08,908 --> 00:23:11,022
+those
+
+649
 00:23:11,054 --> 00:23:13,874
 microcontrollers and be totally
 hooked, you know? And-
 
-430
+650
 00:23:14,429 --> 00:23:14,743
 Bogdan: Yeah, of course. Some
 find it cool [??], right? Yeah.
 
-431
-00:23:14,743 --> 00:23:17,173
+651
+00:23:14,743 --> 00:23:15,958
 Dan: -some people- some people
-not, you know? And ... right. Yeah.
+not, you know? And ... right.
 
-432
+652
+00:23:15,958 --> 00:23:17,173
+Yeah.
+
+653
 00:23:17,743 --> 00:23:19,804
-No. So, I- I think that's
-great.
+No. So, I- I think that's great.
 
-433
-00:23:21,568 --> 00:23:23,638
+654
+00:23:21,568 --> 00:23:22,603
 Bogdan: Yeah, no, for sure. I
-mean, I'm not- I'm not- I'm not ...
+mean, I'm not- I'm not- I'm not
 
-434
-00:23:23,818 --> 00:23:26,999
-yeah. It's just like -- also, like,
-I remember since I was younger
+655
+00:23:22,603 --> 00:23:23,638
+...
 
-435
-00:23:26,999 --> 00:23:30,538
+656
+00:23:23,818 --> 00:23:25,408
+yeah. It's just like -- also,
+like, I remember since I was
+
+657
+00:23:25,408 --> 00:23:26,998
+younger
+
+658
+00:23:26,999 --> 00:23:28,768
 from high school, like, people
-had a thing for Arduinos, which I
+had a thing for Arduinos, which
 
-436
-00:23:30,544 --> 00:23:34,469
+659
+00:23:28,768 --> 00:23:30,537
+I
+
+660
+00:23:30,544 --> 00:23:32,506
 think that- I- I think that- I
-think that's what -- I think that's
+think that's what -- I think
 
-437
-00:23:34,469 --> 00:23:37,378
-why I thought it's gonna be cool.
-Cuz like everybody was like, "Oh
+661
+00:23:32,506 --> 00:23:34,468
+that's
 
-438
-00:23:37,378 --> 00:23:40,888
-my god. Arduino. Like, you -- we have
-to do this," and things like that. And
+662
+00:23:34,469 --> 00:23:35,923
+why I thought it's gonna be
+cool. Cuz like everybody was
 
-439
-00:23:41,259 --> 00:23:44,699
-I'm like, "I do -- okay [chuckles]." I-
-I loved it, right? I think it's cool.
+663
+00:23:35,923 --> 00:23:37,377
+like, "Oh
 
-440
-00:23:44,699 --> 00:23:49,328
-Like, Raspberry Pis and things like
-that is fun. But ... yeah. Yeah. I
+664
+00:23:37,378 --> 00:23:39,133
+my god. Arduino. Like, you -- we
+have to do this," and things
 
-441
+665
+00:23:39,133 --> 00:23:40,888
+like that. And
+
+666
+00:23:41,259 --> 00:23:42,979
+I'm like, "I do -- okay
+[chuckles]." I- I loved it,
+
+667
+00:23:42,979 --> 00:23:44,699
+right? I think it's cool.
+
+668
+00:23:44,699 --> 00:23:47,013
+Like, Raspberry Pis and things
+like that is fun. But ... yeah.
+
+669
+00:23:47,013 --> 00:23:49,327
+Yeah. I
+
+670
 00:23:49,334 --> 00:23:52,058
-think, I ... yeah. Like,
-there where I agree with you.
+think, I ... yeah. Like, there
+where I agree with you.
 
-442
+671
 00:23:52,058 --> 00:23:55,568
 Like, I need to see immediate
 change, and I- I need a reaction
 
-443
-00:23:55,568 --> 00:23:58,209
+672
+00:23:55,568 --> 00:23:56,888
 from things I'm doing cuz
-otherwise, I feel like I spend the
+otherwise, I feel like I spend
 
-444
+673
+00:23:56,888 --> 00:23:58,208
+the
+
+674
 00:23:58,209 --> 00:24:00,000
 whole day doing nothing. That's
 not super-
 
-445
+675
 00:24:00,000 --> 00:24:01,000
 Dan: Yeah.
 
-446
+676
 00:24:01,000 --> 00:24:03,348
 Bogdan: -productive [chuckles].
 
-447
-00:24:03,348 --> 00:24:08,778
-Bekah: So, when you were doing the
-research part of things, was that
+677
+00:24:03,348 --> 00:24:06,063
+Bekah: So, when you were doing
+the research part of things, was
 
-448
+678
+00:24:06,063 --> 00:24:08,778
+that
+
+679
 00:24:08,999 --> 00:24:14,028
 more ... data sciencey or what
 were you doing there?
 
-449
-00:24:16,048 --> 00:24:19,348
+680
+00:24:16,048 --> 00:24:17,698
 Bogdan: Yeah. Kind of. Yeah. We
-had a lot of ... yeah. There was-
+had a lot of ... yeah. There
 
-450
-00:24:19,378 --> 00:24:24,088
-there- there was data science part,
-and again, diving in with little
+681
+00:24:17,698 --> 00:24:19,348
+was-
 
-451
+682
+00:24:19,378 --> 00:24:21,733
+there- there was data science
+part, and again, diving in with
+
+683
+00:24:21,733 --> 00:24:24,088
+little
+
+684
 00:24:24,094 --> 00:24:27,269
 data science knowledge, cuz I
 didn't -- yeah, I didn't study
 
-452
-00:24:27,269 --> 00:24:32,499
+685
+00:24:27,269 --> 00:24:29,884
 that. I had ideas. I- I knew
-Python, for example. But I got --
+Python, for example. But I got
 
-453
-00:24:32,503 --> 00:24:37,999
-I- I- I got very -- I got- I gotten -- [chuckles]
-get very lucky to- to find this amazing
+686
+00:24:29,884 --> 00:24:32,499
+--
 
-454
+687
+00:24:32,503 --> 00:24:35,251
+I- I- I got very -- I got- I
+gotten -- [chuckles] get very
+
+688
+00:24:35,251 --> 00:24:37,999
+lucky to- to find this amazing
+
+689
 00:24:38,058 --> 00:24:40,699
 person that really, really took
 care of everything, like my
 
-455
-00:24:40,699 --> 00:24:44,219
+690
+00:24:40,699 --> 00:24:42,459
 mentor, and one of my manager,
-bosses, whatever. The person that
+bosses, whatever. The person
 
-456
-00:24:44,219 --> 00:24:47,578
-I actually got a job through. And
-she was super amazing. And she
+691
+00:24:42,459 --> 00:24:44,219
+that
 
-457
+692
+00:24:44,219 --> 00:24:45,898
+I actually got a job through.
+And she was super amazing. And
+
+693
+00:24:45,898 --> 00:24:47,577
+she
+
+694
 00:24:47,578 --> 00:24:49,558
 found all these cool
 opportunities, and all these
 
-458
+695
 00:24:49,558 --> 00:24:53,578
 relations, and connections, and
 papers we wrote, and projects we
 
-459
-00:24:53,578 --> 00:24:58,798
-got in. So, I had the time to- to
-learn it on- on the way, right?
+696
+00:24:53,578 --> 00:24:56,188
+got in. So, I had the time to-
+to learn it on- on the way,
 
-460
-00:24:58,798 --> 00:25:01,979
-Like, I didn't have to worry like,
-"Oh, what am I gonna do now?" I'm
+697
+00:24:56,188 --> 00:24:58,798
+right?
 
-461
-00:25:01,979 --> 00:25:04,858
+698
+00:24:58,798 --> 00:25:00,388
+Like, I didn't have to worry
+like, "Oh, what am I gonna do
+
+699
+00:25:00,388 --> 00:25:01,978
+now?" I'm
+
+700
+00:25:01,979 --> 00:25:03,418
 always just like, I knew what I
-have to do, but I also knew what-
+have to do, but I also knew
 
-462
+701
+00:25:03,418 --> 00:25:04,857
+what-
+
+702
 00:25:05,038 --> 00:25:09,644
 what I have to learn. So there
 was amazing. But then we also
 
-463
+703
 00:25:09,644 --> 00:25:13,064
 did APIs, for example, which was
 my previous job as well. And I
 
-464
-00:25:13,064 --> 00:25:18,179
+704
+00:25:13,064 --> 00:25:15,621
 think this is one of the things
-that ... kind of help them make the
+that ... kind of help them make
 
-465
+705
+00:25:15,621 --> 00:25:18,178
+the
+
+706
 00:25:18,179 --> 00:25:21,209
 decision to hire me cuz they
 were working already on these
 
-466
-00:25:21,209 --> 00:25:25,078
+707
+00:25:21,209 --> 00:25:23,143
 APIs. But again, related data,
-like, they had -- we had a lot of
+like, they had -- we had a lot
 
-467
+708
+00:25:23,143 --> 00:25:25,077
+of
+
+709
 00:25:25,078 --> 00:25:28,169
 data. We needed to serve it to
 different sources, to different
 
-468
+710
 00:25:28,259 --> 00:25:31,739
 other universities, for example,
 create some user interfaces, and
 
-469
+711
 00:25:31,739 --> 00:25:37,169
 stuff like that. So we created
 this APIs ... for them.
 
-470
-00:25:37,348 --> 00:25:40,199
+712
+00:25:37,348 --> 00:25:38,773
 Which was more engineering, but
-then, yeah. The data science part,
+then, yeah. The data science
 
-471
-00:25:40,199 --> 00:25:43,739
-we did a lot of machine learning,
-and analysis, and NLP for the papers
+713
+00:25:38,773 --> 00:25:40,198
+part,
 
-472
-00:25:43,743 --> 00:25:49,259
-we were- we were writing. It's very
-[chuckles] different and definitely
+714
+00:25:40,199 --> 00:25:41,969
+we did a lot of machine
+learning, and analysis, and NLP
 
-473
+715
+00:25:41,969 --> 00:25:43,739
+for the papers
+
+716
+00:25:43,743 --> 00:25:46,501
+we were- we were writing. It's
+very [chuckles] different and
+
+717
+00:25:46,501 --> 00:25:49,259
+definitely
+
+718
 00:25:49,259 --> 00:25:52,078
 some- something that I really
 enjoy doing, but I- I knew it --
 
-474
-00:25:52,259 --> 00:25:56,219
-the- the- the whole- the whole way
--- and it was almost three years,
+719
+00:25:52,259 --> 00:25:54,239
+the- the- the whole- the whole
+way -- and it was almost three
 
-475
+720
+00:25:54,239 --> 00:25:56,219
+years,
+
+721
 00:25:56,219 --> 00:25:59,368
 right? I knew the whole time, I
 don't wanna do that. I really
 
-476
-00:25:59,374 --> 00:26:02,338
+722
+00:25:59,374 --> 00:26:00,856
 much enjoyed it. And I really
-much loved working with all these
+much loved working with all
 
-477
+723
+00:26:00,856 --> 00:26:02,338
+these
+
+724
 00:26:02,344 --> 00:26:05,909
 people, but I- I knew for sure,
 it's- it's not something I'm
 
-478
-00:26:05,909 --> 00:26:09,929
-gonna spend my, you know, my next,
-whatever, years doing. So it was like --
+725
+00:26:05,909 --> 00:26:08,646
+gonna spend my, you know, my
+next, whatever years doing. So
 
-479
+726
+00:26:08,646 --> 00:26:11,383
+it was like --
+
+727
 00:26:11,384 --> 00:26:14,743
 Bekah: Was there- was there like
 a moment that you realized that?
 
-480
+728
 00:26:14,749 --> 00:26:19,094
 Or it was just kind of like, "I
 can do this, but I'm not super
 
-481
+729
 00:26:19,094 --> 00:26:19,933
 interested in it."?
 
-482
-00:26:21,614 --> 00:26:24,763
-Bogdan: Yeah ... We-well [laughs], I
-kind of learned on the job, right? So I
+730
+00:26:21,614 --> 00:26:23,188
+Bogdan: Yeah ... We-well
+[laughs], I kind of learned on
 
-483
+731
+00:26:23,188 --> 00:26:24,762
+the job, right? So I
+
+732
 00:26:24,763 --> 00:26:28,064
 didn't have a moment to actually
 reflect, but it was keep on
 
-484
+733
 00:26:28,068 --> 00:26:33,314
-coming, keep on coming. I am talking
-about moving [chuckles] rectangles
+coming, keep on coming. I am
+talking about moving rectangles
 
-485
+734
 00:26:33,318 --> 00:26:35,923
-again. This is very serious,
-so don't- don't take it too
+again [chuckles]. This is very
+serious, so don't- don't take it
 
-486
-00:26:35,923 --> 00:26:40,753
-seriously, but it is. And I -- it's not
-that [chuckles] seriously. But I ... so,
+735
+00:26:35,923 --> 00:26:38,338
+too seriously, but it is. And I
+-- it's not that [chuckles]
 
-487
-00:26:41,209 --> 00:26:47,239
-look. I like ... I like things to-
-to- to look good. It's- it's very
+736
+00:26:38,338 --> 00:26:40,753
+seriously. But I ... so,
 
-488
+737
+00:26:41,209 --> 00:26:44,224
+look. I like ... I like things
+to- to- to look good. It's- it's
+
+738
+00:26:44,224 --> 00:26:47,239
+very
+
+739
 00:26:47,239 --> 00:26:50,058
 silly, but I like the tools that
 I use to look very good.
 
-489
+740
 00:26:51,318 --> 00:26:53,000
 And Jupyter notebooks are not
 [laughs]. And of course, you can
 
-490
+741
 00:26:53,000 --> 00:26:55,818
 load them in VSCode, and things
 like that. But the whole
 
-490
+742
 00:26:55,818 --> 00:26:59,778
 concept of like staring the
 whole day at those notebooks was
 
-491
-00:26:59,778 --> 00:27:03,769
+743
+00:26:59,778 --> 00:27:01,773
 something ... it was something
-weird for me. I was like, it's not
+weird for me. I was like, it's
 
-492
-00:27:03,769 --> 00:27:06,979
-supposed to be like that. I don't
-know if you ever worked wi-with data,
+744
+00:27:01,773 --> 00:27:03,768
+not
 
-493
-00:27:06,979 --> 00:27:11,548
-or with people that are doing data
-stuff, but those notebooks are
+745
+00:27:03,769 --> 00:27:05,374
+supposed to be like that. I
+don't know if you ever worked
 
-494
+746
+00:27:05,374 --> 00:27:06,979
+wi-with data,
+
+747
+00:27:06,979 --> 00:27:09,263
+or with people that are doing
+data stuff, but those notebooks
+
+748
+00:27:09,263 --> 00:27:11,547
+are
+
+749
 00:27:11,548 --> 00:27:15,269
 getting extremely messy. I don't
 know if it's for everybody or it
 
-495
-00:27:15,269 --> 00:27:19,588
+750
+00:27:15,269 --> 00:27:17,428
 was- it was just for us, it was
-insanely messy. Like there's -- there-
+insanely messy. Like there's --
 
-496
-00:27:20,429 --> 00:27:24,328
-there's -- there was impossible to, like,
-pick up a notebook I wrote, you know,
+751
+00:27:17,428 --> 00:27:19,587
+there- there's --
 
-497
-00:27:24,388 --> 00:27:26,878
+752
+00:27:20,429 --> 00:27:22,378
+there was impossible to, like,
+pick up a notebook I wrote, you
+
+753
+00:27:22,378 --> 00:27:24,327
+know,
+
+754
+00:27:24,388 --> 00:27:25,633
 three weeks ago, and I still
-understand it. Like, it was- it was
+understand it. Like, it was- it
 
-498
+755
+00:27:25,633 --> 00:27:26,878
+was
+
+756
 00:27:26,878 --> 00:27:29,489
 insane. So I was like, I don't
 know for how long I can, like,
 
-499
-00:27:29,999 --> 00:27:36,223
-guessing my, you know, my- my thoughts
-[chuckles], you know? So, of course,
+757
+00:27:29,999 --> 00:27:33,111
+guessing my, you know, my- my
+thoughts [chuckles], you know?
 
-500
-00:27:36,223 --> 00:27:39,463
-I mean, there's -- there are ways
-to do it better. It's not like I
+758
+00:27:33,111 --> 00:27:36,223
+So, of course,
 
-501
-00:27:39,463 --> 00:27:43,723
-tried everything. It was just like
-... the comfort of like working,
+759
+00:27:36,223 --> 00:27:37,843
+I mean, there's -- there are
+ways to do it better. It's not
 
-502
+760
+00:27:37,843 --> 00:27:39,463
+like I
+
+761
+00:27:39,463 --> 00:27:41,593
+tried everything. It was just
+like ... the comfort of like
+
+762
+00:27:41,593 --> 00:27:43,723
+working,
+
+763
 00:27:43,729 --> 00:27:47,144
 and things like that. I think
 more. And also, I didn't know,
 
-503
-00:27:47,144 --> 00:27:50,578
-and I still don't know, and I'm not
-at all interested in statistics,
+764
+00:27:47,144 --> 00:27:48,861
+and I still don't know, and I'm
+not at all interested in
 
-504
+765
+00:27:48,861 --> 00:27:50,578
+statistics,
+
+766
 00:27:50,578 --> 00:27:54,328
 which ... of course we can argue
 if that's important or not. But
 
-505
-00:27:54,328 --> 00:27:57,598
-I felt like I should. Like, we are
-talking -- we were always talking
+767
+00:27:54,328 --> 00:27:55,963
+I felt like I should. Like, we
+are talking ab- we were always
 
-506
-00:27:57,604 --> 00:28:03,959
-about this models, and probab- probabilities,
-and numbers, and constants, and things
+768
+00:27:55,963 --> 00:27:57,598
+talking
 
-507
+769
+00:27:57,604 --> 00:28:00,781
+about this models, and probab-
+probabilities, and numbers, and
+
+770
+00:28:00,781 --> 00:28:03,958
+constants, and things
+
+771
 00:28:03,959 --> 00:28:06,838
 like that, that I never had an
 idea about, which I was
 
-508
+772
 00:28:06,844 --> 00:28:09,689
 trying to, but like, it seemed
 like I'm really, really, really
 
-509
+773
 00:28:09,689 --> 00:28:13,588
 like behind all of this. And I
 don't have the- the- the passion
 
-510
+774
 00:28:13,588 --> 00:28:14,608
 to- to learn it.
 
-511
+775
 00:28:14,989 --> 00:28:19,638
 Bekah: So it's ... oh, it sounds
 like you kind of knew what you
 
-512
+776
 00:28:19,638 --> 00:28:24,048
 wanted to be doing and you did
 kind of enjoy that research
 
-513
+777
 00:28:24,048 --> 00:28:28,068
 aspect of things, but you knew
 that was not gonna be like the
 
-514
-00:28:28,068 --> 00:28:33,903
+778
+00:28:28,068 --> 00:28:30,985
 place that you -- your ideal job
-or what you wanted to be doing. So,
+or what you wanted to be doing.
 
-515
-00:28:34,284 --> 00:28:40,463
-how did you make that decision to
-move from that research position
+779
+00:28:30,985 --> 00:28:33,902
+So,
 
-516
+780
+00:28:34,284 --> 00:28:37,373
+how did you make that decision
+to move from that research
+
+781
+00:28:37,373 --> 00:28:40,462
+position
+
+782
 00:28:40,624 --> 00:28:43,503
 and do something that you would
 rather be doing?
 
-517
-00:28:45,078 --> 00:28:50,148
-Bogdan: So I- I never really knew what I
-wanted to do af- i-i-in- in the time --
+783
+00:28:45,078 --> 00:28:47,613
+Bogdan: So I- I never really
+knew what I wanted to do af-
 
-518
-00:28:51,019 --> 00:28:57,364
-the -- wh-what -- all I wanted to- to do --
-no. All I knew was, so we- we were- we were
+784
+00:28:47,613 --> 00:28:50,148
+i-i-in- in the time --
 
-519
-00:28:57,364 --> 00:29:02,614
-doing a lot of programming by the
-end of my employment list. So on
+785
+00:28:51,019 --> 00:28:54,191
+the -- wh-what -- all I wanted
+to- to do -- no. All I knew was,
 
-520
-00:29:02,614 --> 00:29:06,723
-the way ... after the last summer
--- so, basically last summer,
+786
+00:28:54,191 --> 00:28:57,363
+so we- we were- we were
 
-521
-00:29:06,753 --> 00:29:10,773
-cuz I left in February, right? So,
-after the last summer, a lot of
+787
+00:28:57,364 --> 00:28:59,989
+doing a lot of programming by
+the end of my employment list.
 
-522
-00:29:10,983 --> 00:29:14,868
-other -- not a lot. Like, important
-people that I was working close
+788
+00:28:59,989 --> 00:29:02,614
+So on
 
-523
-00:29:14,868 --> 00:29:22,308
+789
+00:29:02,614 --> 00:29:04,668
+the way ... after the last
+summer -- so, basically last
+
+790
+00:29:04,668 --> 00:29:06,722
+summer,
+
+791
+00:29:06,753 --> 00:29:08,763
+cuz I left in February, right?
+So, after the last summer, a lot
+
+792
+00:29:08,763 --> 00:29:10,773
+of
+
+793
+00:29:10,983 --> 00:29:12,925
+other -- not a lot. Like,
+important people that I was
+
+794
+00:29:12,925 --> 00:29:14,867
+working close
+
+795
+00:29:14,868 --> 00:29:18,588
 with -- seniors, left. So I was
-kind of around, trying stuff. And
+kind of around, trying stuff.
 
-524
-00:29:22,608 --> 00:29:26,088
-having another -- other people, like
-on the same level with me, and
+796
+00:29:18,588 --> 00:29:22,308
+And
 
-525
-00:29:26,088 --> 00:29:32,118
-things like that, it's really became
-... not, you know ... productive.
+797
+00:29:22,608 --> 00:29:24,348
+having another -- other people,
+like on the same level with me,
 
-526
-00:29:32,479 --> 00:29:34,759
-And I'm not- and I'm not saying it's a
-bad thing. I think it's a- it's a- it's
+798
+00:29:24,348 --> 00:29:26,088
+and
 
-527
+799
+00:29:26,088 --> 00:29:29,103
+things like that, it's really
+became ... not, you know ...
+
+800
+00:29:29,103 --> 00:29:32,118
+productive.
+
+801
+00:29:32,479 --> 00:29:33,619
+And I'm not- and I'm not saying
+it's a bad thing. I think it's
+
+802
+00:29:33,619 --> 00:29:34,759
+a- it's a- it's
+
+803
 00:29:34,759 --> 00:29:38,148
-a great thing for them to kind of
-have the- the, you know, this
+a great thing for them to kind
+of have the- the, you know, this
 
-528
-00:29:38,358 --> 00:29:40,818
+804
+00:29:38,358 --> 00:29:39,588
 growing experience, and maybe
-growing pains, cuz it was still a
+growing pains, cuz it was still
 
-529
+805
+00:29:39,588 --> 00:29:40,818
+a
+
+806
 00:29:40,818 --> 00:29:44,959
 very young lab, right? Kind of
 understand th-th-that seniorship
 
-530
-00:29:45,078 --> 00:29:47,628
-matters, and things like that. And
-you need mentorship, and you need
+807
+00:29:45,078 --> 00:29:46,353
+matters, and things like that.
+And you need mentorship, and you
 
-531
-00:29:47,628 --> 00:29:50,598
-seniors, and things like that. So
-there was a thing. So I was- I
+808
+00:29:46,353 --> 00:29:47,628
+need
 
-532
-00:29:50,598 --> 00:29:53,929
+809
+00:29:47,628 --> 00:29:49,113
+seniors, and things like that.
+So there was a thing. So I was-
+
+810
+00:29:49,113 --> 00:29:50,598
+I
+
+811
+00:29:50,598 --> 00:29:52,263
 was slacking a little bit behind
-because I had a- I had a very weird
+because I had a- I had a very
 
-533
+812
+00:29:52,263 --> 00:29:53,928
+weird
+
+813
 00:29:53,929 --> 00:29:59,959
-period after I got COVID.
-Even a year after, I was still
+period after I got COVID. Even a
+year after, I was still
 
-534
+814
 00:29:59,959 --> 00:30:02,358
 very sick and things like that.
 So they were very, very nice and
 
-535
+815
 00:30:02,358 --> 00:30:07,278
 kind to allow me to- to- to work
 as- as- as much as I can. Which
 
-536
-00:30:07,278 --> 00:30:12,409
+816
+00:30:07,278 --> 00:30:09,843
 was [chuckles] not a lot, right?
-So I- I- I did the work that I had
+So I- I- I did the work that I
 
-537
+817
+00:30:09,843 --> 00:30:12,408
+had
+
+818
 00:30:12,409 --> 00:30:15,169
 to do as- as- as much as I can,
 and then when I got a little bit
 
-538
+819
 00:30:15,169 --> 00:30:19,713
 better, I started looking for
 jobs. And I wasn't sure what I
 
-539
-00:30:19,713 --> 00:30:25,384
-want to do. I- I- I was ... I think
-in -- by the end of the year, I
+820
+00:30:19,713 --> 00:30:22,548
+want to do. I- I- I was ... I
+think in -- by the end of the
 
-540
-00:30:25,384 --> 00:30:28,878
-think it was November or whatever,
-I've been to web summit in
+821
+00:30:22,548 --> 00:30:25,383
+year, I
 
-541
+822
+00:30:25,384 --> 00:30:27,131
+think it was November or
+whatever, I've been to web
+
+823
+00:30:27,131 --> 00:30:28,878
+summit in
+
+824
 00:30:28,878 --> 00:30:33,499
-Lisbon. And I've seen all
-these companies, and all these
+Lisbon. And I've seen all these
+companies, and all these
 
-542
+825
 00:30:33,729 --> 00:30:36,919
 hot apps, and all these software
 engineers doing a lot of cool
 
-543
-00:30:36,923 --> 00:30:39,288
+826
+00:30:36,923 --> 00:30:38,105
 things. And I was like, "I wanna
-do cool things, but I didn't know
+do cool things, but I didn't
 
-544
-00:30:39,294 --> 00:30:43,278
-what a cool thing is [chuckles]." But
-I just wanted to, you know, I just
+827
+00:30:38,105 --> 00:30:39,287
+know
 
-545
+828
+00:30:39,294 --> 00:30:41,286
+what a cool thing is
+[chuckles]." But I just wanted
+
+829
+00:30:41,286 --> 00:30:43,278
+to, you know, I just
+
+830
 00:30:43,284 --> 00:30:45,709
 wanted to feel like I'm doing
 very cool things, which I was
 
-546
-00:30:45,709 --> 00:30:47,868
+831
+00:30:45,709 --> 00:30:46,788
 doing at the moment, but in a
-different way. Not in an academic
+different way. Not in an
 
-547
-00:30:47,868 --> 00:30:52,943
-[chuckles] way, right? Yeah. And I
-just- I just applied to the startups
+832
+00:30:46,788 --> 00:30:47,867
+academic
 
-548
-00:30:52,943 --> 00:30:56,394
-that I knew there are in Netherlands,
-that kind of met there a bunch to
+833
+00:30:47,868 --> 00:30:50,405
+[chuckles] way, right? Yeah. And
+I just- I just applied to the
 
-549
-00:30:56,394 --> 00:31:00,828
-another companies, and a bunch of agencies.
-Cuz I have a f- a friend that is very
+834
+00:30:50,405 --> 00:30:52,942
+startups
 
-550
-00:31:00,828 --> 00:31:05,209
-much into, like, agencies. He also
-has this very tiny agency, doing
+835
+00:30:52,943 --> 00:30:54,668
+that I knew there are in
+Netherlands, that kind of met
 
-551
+836
+00:30:54,668 --> 00:30:56,393
+there a bunch to
+
+837
+00:30:56,394 --> 00:30:58,611
+another companies, and a bunch
+of agencies. Cuz I have a f- a
+
+838
+00:30:58,611 --> 00:31:00,828
+friend that is very
+
+839
+00:31:00,828 --> 00:31:03,018
+much into, like, agencies. He
+also has this very tiny agency,
+
+840
+00:31:03,018 --> 00:31:05,208
+doing
+
+841
 00:31:05,209 --> 00:31:08,439
 like branding and marketing for
 people, and things like that.
 
-552
+842
 00:31:08,778 --> 00:31:13,249
 And he was living with me at the
 moment. And -- but he was away,
 
-553
-00:31:13,308 --> 00:31:16,818
-and I was start to apply for jobs,
-and randomly told him like, "Hey,
+843
+00:31:13,308 --> 00:31:15,063
+and I was start to apply for
+jobs, and randomly told him
 
-554
-00:31:16,824 --> 00:31:20,538
-dude. I applied for this creative
-agencies -- creative agency in
+844
+00:31:15,063 --> 00:31:16,818
+like, "Hey,
 
-555
-00:31:20,538 --> 00:31:24,409
-Amsterdam. What do you think about it?"
-And then the flood gets over [??] --
+845
+00:31:16,824 --> 00:31:18,681
+dude. I applied for this
+creative agencies -- creative
 
-556
-00:31:25,219 --> 00:31:28,969
-and he showed me, and told me, and sent
-me all I could know about [chuckles]
+846
+00:31:18,681 --> 00:31:20,538
+agency in
 
-557
-00:31:29,598 --> 00:31:32,298
-agencies in The Netherlands, which
-is very cool. Cuz I wasn't sure
+847
+00:31:20,538 --> 00:31:22,473
+Amsterdam. What do you think
+about it?" And then the flood
 
-558
-00:31:32,298 --> 00:31:34,848
+848
+00:31:22,473 --> 00:31:24,408
+gets over [??] --
+
+849
+00:31:25,219 --> 00:31:27,094
+and he showed me, and told me,
+and sent me all I could know
+
+850
+00:31:27,094 --> 00:31:28,969
+about [chuckles]
+
+851
+00:31:29,598 --> 00:31:30,948
+agencies in The Netherlands,
+which is very cool. Cuz I wasn't
+
+852
+00:31:30,948 --> 00:31:32,298
+sure
+
+853
+00:31:32,298 --> 00:31:33,573
 if I wanted to do that, but it
-sta- finally started to make sense.
+sta- finally started to make
 
-559
+854
+00:31:33,573 --> 00:31:34,848
+sense.
+
+855
 00:31:34,854 --> 00:31:38,088
 Like, I need- I need something
 very dynamic, and I need to move
 
-560
+856
 00:31:38,088 --> 00:31:41,959
 around. But I also need a
 structure which you sometimes,
 
-561
+857
 00:31:42,019 --> 00:31:45,739
 arguably, don't get in startups
 and things like that. So
 
-562
-00:31:45,739 --> 00:31:50,659
-yeah, like, an agency seemed like
-a- like a- like a good place.
+858
+00:31:45,739 --> 00:31:48,199
+yeah, like, an agency seemed
+like a- like a- like a good
 
-563
-00:31:50,689 --> 00:31:54,898
-But then I realized that ev- all of
-that is project dependent or client
+859
+00:31:48,199 --> 00:31:50,659
+place.
 
-564
-00:31:54,898 --> 00:31:58,288
-dependent, right? Like, you really
-need to- to match with- with the
+860
+00:31:50,689 --> 00:31:52,793
+But then I realized that ev- all
+of that is project dependent or
 
-565
-00:31:58,288 --> 00:32:02,338
-client -- the right clients, and,
-yeah, to have the ability to-
+861
+00:31:52,793 --> 00:31:54,897
+client
 
-566
-00:32:02,608 --> 00:32:05,249
-to be as flexible as I want to be
-and things like that, which of
+862
+00:31:54,898 --> 00:31:56,593
+dependent, right? Like, you
+really need to- to match with-
 
-567
+863
+00:31:56,593 --> 00:31:58,288
+with the
+
+864
+00:31:58,288 --> 00:32:00,313
+client -- the right clients,
+and, yeah, to have the ability
+
+865
+00:32:00,313 --> 00:32:02,338
+to-
+
+866
+00:32:02,608 --> 00:32:03,928
+to be as flexible as I want to
+be and things like that, which
+
+867
+00:32:03,928 --> 00:32:05,248
+of
+
+868
 00:32:05,249 --> 00:32:11,878
 course they could offer. So it's
 going ... well [chuckles]. Yeah.
 
-568
+869
 00:32:11,939 --> 00:32:13,558
 Still not sure what I wanna do.
 I'm just around doing [laughs]
 
-569
+870
 00:32:14,189 --> 00:32:15,028
 programming.
 
-570
+871
 00:32:15,693 --> 00:32:16,324
 Bekah: Same.
 
-571
+872
 00:32:17,000 --> 00:32:18,000
 Bogdan: Yeah [laughs].
 
-572
+873
 00:32:18,896 --> 00:32:22,557
 Dan: Oh man. I- I actually
 wanted to swing back to sort of
 
-573
+874
 00:32:22,557 --> 00:32:24,987
 change topics, but, you were
 talking about teaching, I
 
-574
+875
 00:32:24,987 --> 00:32:28,856
 think, when you were doing your
 master's, right? And you made a
 
-575
+876
 00:32:28,856 --> 00:32:32,027
 joke about teaching -- you're
 basically teaching people how to
 
-576
-00:32:32,027 --> 00:32:40,781
-Google. But I- I wa- like, I feel like ...
-that's ... that it [clear throat] excuse me.
+877
+00:32:32,027 --> 00:32:36,404
+Google. But I- I wa- like, I
+feel like ... that's ... that it
 
-577
-00:32:40,781 --> 00:32:43,182
-Maybe that- that's not what you expect
-from a professor, but like, that
+878
+00:32:36,404 --> 00:32:40,781
+[clear throat] excuse me.
 
-578
-00:32:43,182 --> 00:32:45,701
-is like the right way to learn [chuckles]
--- that's what we try to teach
+879
+00:32:40,781 --> 00:32:41,981
+Maybe that- that's not what you
+expect from a professor, but
 
-579
-00:32:45,701 --> 00:32:52,451
+880
+00:32:41,981 --> 00:32:43,181
+like, that
+
+881
+00:32:43,182 --> 00:32:44,441
+is like the right way to learn
+[chuckles] -- that's what we try
+
+882
+00:32:44,441 --> 00:32:45,700
+to teach
+
+883
+00:32:45,701 --> 00:32:49,076
 everybody. Not profess- like,
-whatever. I don't know what you ...
+whatever. I don't know what you
 
-580
+884
+00:32:49,076 --> 00:32:52,451
+...
+
+885
 00:32:54,356 --> 00:32:56,666
-amateur teach? I- I don't
-know [laughs].
+amateur teach? I- I don't know
+[laughs].
 
-581
+886
 00:32:56,922 --> 00:32:57,761
-Bogdan: No, no, no. For sure.
-I know what you mean. Yeah.
+Bogdan: No, no, no. For sure. I
+know what you mean. Yeah.
 
-582
-00:32:57,807 --> 00:32:59,636
-Dan: Like the ... you know? But when
-I'm trying to help somebody learn,
+887
+00:32:57,807 --> 00:32:58,721
+Dan: Like the ... you know? But
+when I'm trying to help somebody
 
-583
-00:32:59,636 --> 00:33:01,886
-you know, one of the- one of the, like,
-learning how to Google things and
+888
+00:32:58,721 --> 00:32:59,635
+learn,
 
-584
-00:33:01,886 --> 00:33:04,707
-figure things out for yourself is
-like one of the biggest skills to
+889
+00:32:59,636 --> 00:33:00,761
+you know, one of the- one of
+the, like, learning how to
 
-585
+890
+00:33:00,761 --> 00:33:01,886
+Google things and
+
+891
+00:33:01,886 --> 00:33:03,296
+figure things out for yourself
+is like one of the biggest
+
+892
+00:33:03,296 --> 00:33:04,706
+skills to
+
+893
 00:33:04,707 --> 00:33:08,037
 learn when you're becoming a
 developer, right? Especially for
 
-586
+894
 00:33:08,037 --> 00:33:12,446
 the first time. So I just
 wondered if you could tell me a
 
-587
+895
 00:33:12,446 --> 00:33:14,906
 little bit more about like that
 experience of teaching in that
 
-588
+896
 00:33:14,906 --> 00:33:19,346
 structured, you know, in a, like
 a structured way as a- as a-
 
-589
+897
 00:33:19,346 --> 00:33:22,991
 as a ... what- what do you call
 yourself? A professor? A- a ...
 
-590
+898
 00:33:22,991 --> 00:33:24,221
 I don't know what the right
 term, just --
 
-591
+899
 00:33:24,432 --> 00:33:25,211
 Bogdan: No. Teaching- teaching-
 teaching assistant, whatever.
 
-592
-00:33:25,422 --> 00:33:28,241
-Dan: Teaching assistant. Yeah. So as a TA,
-like -- but like, what -- can you just
+900
+00:33:25,422 --> 00:33:26,831
+Dan: Teaching assistant. Yeah.
+So as a TA, like -- but like,
 
-593
-00:33:28,571 --> 00:33:32,382
+901
+00:33:26,831 --> 00:33:28,240
+what -- can you just
+
+902
+00:33:28,571 --> 00:33:30,476
 describe a little bit more about
-that? From like -- cuz I've watched
+that? From like -- cuz I've
 
-594
+903
+00:33:30,476 --> 00:33:32,381
+watched
+
+904
 00:33:32,382 --> 00:33:36,132
 and been on both sides of, you
 know, learning from sort of
 
-595
+905
 00:33:36,136 --> 00:33:39,432
 independent online version,
 right? But I don't think
 
-596
+906
 00:33:39,432 --> 00:33:42,791
 we've had anybody on the podcast
 who has, like, taught in that --
 
-597
+907
 00:33:43,392 --> 00:33:47,201
-taught computer science in
-this structured way.
+taught computer science in this
+structured way.
 
-598
+908
 00:33:47,906 --> 00:33:48,386
-Bogdan: Yeah, it was -- it-
-it- it --
+Bogdan: Yeah, it was -- it- it-
+it --
 
-599
-00:33:48,432 --> 00:33:50,741
-Dan: I know I might be misremembering
-this, Bekah, but [chuckles] ... I'm pretty
+909
+00:33:48,432 --> 00:33:49,586
+Dan: I know I might be
+misremembering this, Bekah, but
 
-600
+910
+00:33:49,586 --> 00:33:50,740
+[chuckles] ... I'm pretty
+
+911
 00:33:50,741 --> 00:33:51,000
 sure -- so I'd like to hear
 about it. Could you just tell me
 
-601
+912
 00:33:51,000 --> 00:33:52,781
 more about that experience?
 
-602
-00:33:53,217 --> 00:33:56,067
+913
+00:33:53,217 --> 00:33:54,642
 Bogdan: No, for sure. But also,
-like, they take it with a grain of
+like, they take it with a grain
 
-603
-00:33:56,067 --> 00:33:59,186
+914
+00:33:54,642 --> 00:33:56,067
+of
+
+915
+00:33:56,067 --> 00:33:57,626
 salt. Like, I've been a -- I was
-a TA. Like, I was still a student,
+a TA. Like, I was still a
 
-604
+916
+00:33:57,626 --> 00:33:59,185
+student,
+
+917
 00:33:59,186 --> 00:34:00,836
 right? So I also being --
 
-605
+918
 00:34:01,031 --> 00:34:03,102
 Dan: Sure, sure. So you- so you
 weren't doing the lesson plans
 
-606
-00:34:03,106 --> 00:34:03,000
+919
+00:34:03,106 --> 00:34:03,107
 and stuff, but-
 
-607
+920
 00:34:03,000 --> 00:34:04,000
 Bogdan: Yeah, yeah, yeah.
 
-608
-00:34:04,000 --> 00:34:06,000
-Dan: -still you were -- I- I just
-would like to hear about it. Cuz it's-
+921
+00:34:04,000 --> 00:34:05,000
+Dan: -still you were -- I- I
+just would like to hear about
 
-609
+922
+00:34:05,000 --> 00:34:06,000
+it. Cuz it's-
+
+923
 00:34:06,000 --> 00:34:07,000
 Bogdan: Yeah [laughs].
 
-610
-00:34:07,000 --> 00:34:10,000
+924
+00:34:07,000 --> 00:34:08,500
 Dan: -it's like the- the process
-of learning this stuff is endlessly
+of learning this stuff is
 
-611
+925
+00:34:08,500 --> 00:34:10,000
+endlessly
+
+926
 00:34:10,000 --> 00:34:12,641
-fascinating to me and ... you know?
+fascinating to me and ... you
+know?
 
-611
-00:34:12,672 --> 00:34:15,612
+927
+00:34:12,672 --> 00:34:14,142
 Bogdan: It is. I think it's very
-... yeah, I think it's -- I think
+... yeah, I think it's -- I
 
-612
-00:34:15,612 --> 00:34:18,431
-education, especially in computer
-science is very fascinating.
+928
+00:34:14,142 --> 00:34:15,612
+think
 
-613
-00:34:18,431 --> 00:34:23,262
-Because it's so ... it's so, I don't know.
-It's -- yeah. Anyways, [laughs] we'll
+929
+00:34:15,612 --> 00:34:17,021
+education, especially in
+computer science is very
 
-614
-00:34:23,262 --> 00:34:26,802
+930
+00:34:17,021 --> 00:34:18,430
+fascinating.
+
+931
+00:34:18,431 --> 00:34:20,846
+Because it's so ... it's so, I
+don't know. It's -- yeah.
+
+932
+00:34:20,846 --> 00:34:23,261
+Anyways, [laughs] we'll
+
+933
+00:34:23,262 --> 00:34:25,032
 get in. Yeah, I think that ac-
-actually helped a lot. Like, being
+actually helped a lot. Like,
 
-615
+934
+00:34:25,032 --> 00:34:26,802
+being
+
+935
 00:34:26,802 --> 00:34:29,862
 a TA helped a lot because I
 don't think people have too many
 
-616
-00:34:29,862 --> 00:34:33,911
-[chuckles] expectations, I think.
-I don't know. They didn't. I had
+936
+00:34:29,862 --> 00:34:31,886
+[chuckles] expectations, I
+think. I don't know. They
 
-617
+937
+00:34:31,886 --> 00:34:33,910
+didn't. I had
+
+938
 00:34:33,911 --> 00:34:38,757
 great students, two times, cuz
 there were two periods. And
 
-618
-00:34:38,757 --> 00:34:45,476
-it was- i-i-it was interesting cuz the --
-that- that- that's why I think it's very
+939
+00:34:38,757 --> 00:34:42,116
+it was- i-i-it was interesting
+cuz the -- that- that- that's
 
-619
+940
+00:34:42,116 --> 00:34:45,475
+why I think it's very
+
+941
 00:34:45,476 --> 00:34:50,547
 fascinating. Like, we had
 different people of different,
 
-620
-00:34:50,876 --> 00:34:54,237
-like, levels, right? Like it happened
--- they were all in the first
+942
+00:34:50,876 --> 00:34:52,556
+like, levels, right? Like it
+happened -- they were all in the
 
-621
-00:34:54,237 --> 00:34:57,657
-year, most probably. Well, I think
-it was first year. Yeah. But
+943
+00:34:52,556 --> 00:34:54,236
+first
 
-622
-00:34:57,657 --> 00:35:00,657
-some of them had some mathematics
-experience, some programming,
+944
+00:34:54,237 --> 00:34:55,947
+year, most probably. Well, I
+think it was first year. Yeah.
 
-623
+945
+00:34:55,947 --> 00:34:57,657
+But
+
+946
+00:34:57,657 --> 00:34:59,157
+some of them had some
+mathematics experience, some
+
+947
+00:34:59,157 --> 00:35:00,657
+programming,
+
+948
 00:35:00,657 --> 00:35:04,947
 some none, and things like that,
 but they- they all seemed to- to
 
-624
-00:35:05,007 --> 00:35:09,632
-kind of like get stuck in the same
-kind of places, which I think
+949
+00:35:05,007 --> 00:35:07,319
+kind of like get stuck in the
+same kind of places, which I
 
-625
+950
+00:35:07,319 --> 00:35:09,631
+think
+
+951
 00:35:09,632 --> 00:35:11,521
 it's- it's -- I think it's
 interesting. Like, I don't- I
 
-626
+952
 00:35:11,521 --> 00:35:15,572
 don't know much about [chuckles]
 education. But I think it's very
 
-627
+953
 00:35:15,572 --> 00:35:19,561
 interesting to kind of see how
 they deal in different ways
 
-628
-00:35:19,802 --> 00:35:25,411
-w-with that. And what I used to do
-and I thought it was very funny —
+954
+00:35:19,802 --> 00:35:22,606
+w-with that. And what I used to
+do and I thought it was very
 
-629
-00:35:25,442 --> 00:35:28,862
-not funny in a mean way [laughs] —
-it's just funny to- to just observe
+955
+00:35:22,606 --> 00:35:25,410
+funny —
 
-630
-00:35:28,862 --> 00:35:32,581
-it. It's just like, s-see how they
-deal with it. And then like, let
+956
+00:35:25,442 --> 00:35:27,152
+not funny in a mean way [laughs]
+— it's just funny to- to just
 
-631
-00:35:32,586 --> 00:35:37,302
-them deal with the -- in the way of like
--- I was like, "Oh, yeah. Look, your
+957
+00:35:27,152 --> 00:35:28,862
+observe
 
-632
-00:35:37,302 --> 00:35:41,021
-colleague did it that way. Why don't
-you like ... go around this way," and
+958
+00:35:28,862 --> 00:35:30,721
+it. It's just like, s-see how
+they deal with it. And then
 
-633
+959
+00:35:30,721 --> 00:35:32,580
+like, let
+
+960
+00:35:32,586 --> 00:35:34,944
+them deal with the -- in the way
+of like -- I was like, "Oh,
+
+961
+00:35:34,944 --> 00:35:37,302
+yeah. Look, your
+
+962
+00:35:37,302 --> 00:35:39,161
+colleague did it that way. Why
+don't you like ... go around
+
+963
+00:35:39,161 --> 00:35:41,020
+this way," and
+
+964
 00:35:41,021 --> 00:35:44,202
 things like that, which I think
 it was a nice- it was a nice,
 
-634
-00:35:44,202 --> 00:35:47,831
-like, not bonding experience, but
-kind of in a way of like level it
+965
+00:35:44,202 --> 00:35:46,016
+like, not bonding experience,
+but kind of in a way of like
 
-635
-00:35:47,831 --> 00:35:51,521
-down, especially cuz for some of-
-some of -- it was in my ear as well.
+966
+00:35:46,016 --> 00:35:47,830
+level it
 
-636
-00:35:51,527 --> 00:35:56,262
-Like, for some of us, it was so, so
-like intimidating to know that we
+967
+00:35:47,831 --> 00:35:49,676
+down, especially cuz for some
+of- some of -- it was in my ear
 
-637
+968
+00:35:49,676 --> 00:35:51,521
+as well.
+
+969
+00:35:51,527 --> 00:35:53,894
+Like, for some of us, it was so,
+so like intimidating to know
+
+970
+00:35:53,894 --> 00:35:56,261
+that we
+
+971
 00:35:56,262 --> 00:35:59,922
-had this people in the class that
-were, you know, having
+had this people in the class
+that were, you know, having
 
-638
+972
 00:35:59,922 --> 00:36:02,231
 experienced in programming and
 things like that. I don't know
 
-639
-00:36:02,231 --> 00:36:06,081
+973
+00:36:02,231 --> 00:36:04,156
 why. Cuz this is -- it's never a
-competition [chuckles], right? But it
+competition [chuckles], right?
 
-640
-00:36:06,081 --> 00:36:08,811
-was just weird. It was like, "Oh my
-god. They know everything and I don't
+974
+00:36:04,156 --> 00:36:06,081
+But it
 
-641
-00:36:08,811 --> 00:36:11,871
-know nothing [laughs]," and things
-like that. And then, yeah, later it
+975
+00:36:06,081 --> 00:36:07,446
+was just weird. It was like, "Oh
+my god. They know everything and
 
-642
+976
+00:36:07,446 --> 00:36:08,811
+I don't
+
+977
+00:36:08,811 --> 00:36:10,341
+know nothing [laughs]," and
+things like that. And then,
+
+978
+00:36:10,341 --> 00:36:11,871
+yeah, later it
+
+979
 00:36:11,871 --> 00:36:15,771
 happened for me to be in that
 position and, you know, showing
 
-643
-00:36:15,771 --> 00:36:20,092
-people -- or students, as a TA, like
-to ask those stupid question is
+980
+00:36:15,771 --> 00:36:17,931
+people -- or students, as a TA,
+like to ask those stupid
 
-644
+981
+00:36:17,931 --> 00:36:20,091
+question is
+
+982
 00:36:20,092 --> 00:36:22,882
-very important. And to
-Google everything is very
+very important. And to Google
+everything is very
 
-645
-00:36:22,887 --> 00:36:29,021
+983
+00:36:22,887 --> 00:36:25,954
 important. Cuz I also never
-understood ... why it was seen so f-
+understood ... why it was seen
 
-646
+984
+00:36:25,954 --> 00:36:29,021
+so f-
+
+985
 00:36:30,581 --> 00:36:32,891
 it- it was not seen as like, you
 know, frowned upon. It's just
 
-647
+986
 00:36:32,891 --> 00:36:36,552
 like a thing of like the- the
 stigma of like, 'Oh, I need to
 
-648
-00:36:36,552 --> 00:36:41,291
-know things.' It's just like, you don't
-know Java ... words or whatever, you-
+987
+00:36:36,552 --> 00:36:38,921
+know things.' It's just like,
+you don't know Java ... words or
 
-649
-00:36:41,291 --> 00:36:45,942
-you know how to- to think [laughs], you
-know? So, yeah. I think it was very
+988
+00:36:38,921 --> 00:36:41,290
+whatever, you-
 
-650
-00:36:46,362 --> 00:36:49,001
-cul- cultivating for me as well. And
-also Googling in front of people
+989
+00:36:41,291 --> 00:36:43,616
+you know how to- to think
+[laughs], you know? So, yeah. I
 
-651
+990
+00:36:43,616 --> 00:36:45,941
+think it was very
+
+991
+00:36:46,362 --> 00:36:47,681
+cul- cultivating for me as well.
+And also Googling in front of
+
+992
+00:36:47,681 --> 00:36:49,000
+people
+
+993
 00:36:49,001 --> 00:36:50,172
-is cool cuz, you know, it's like --
+is cool cuz, you know, it's like
+--
 
-652
+994
 00:36:51,146 --> 00:36:52,106
 Dan: Yeah, yeah. So --
 
-653
-00:36:52,181 --> 00:36:55,782
-Bogdan: I, especially -- I'm- I'm good at
-Googling. So [all laugh] I think, I- I like
+995
+00:36:52,181 --> 00:36:53,981
+Bogdan: I, especially -- I'm-
+I'm good at Googling. So [all
 
-654
+996
+00:36:53,981 --> 00:36:55,781
+laugh] I think, I- I like
+
+997
 00:36:55,782 --> 00:36:56,952
 to show off my skills as well.
 
-655
-00:36:57,056 --> 00:37:00,536
-Dan: Oh, and it is a skill, you know? I
-mean, like, way -- a-and i-it's that --
+998
+00:36:57,056 --> 00:36:58,796
+Dan: Oh, and it is a skill, you
+know? I mean, like, way -- a-and
 
-656
+999
+00:36:58,796 --> 00:37:00,536
+i-it's that --
+
+1000
 00:37:00,541 --> 00:37:03,836
 it's about like crafting the
 right, you know, like, figure
 
-657
+1001
 00:37:03,836 --> 00:37:05,000
 out what to Google, you know
 what I mean, is- is-
 
-658
+1002
 00:37:05,000 --> 00:37:06,000
 Bogdan: Yeah. It's hard.
 
-658
+1003
 00:37:06,000 --> 00:37:07,000
-Dan: -is hard. And- and
-that's like -- that's something
+Dan: -is hard. And- and that's
+like -- that's something
 
-659
+1004
 00:37:07,000 --> 00:37:11,000
 I try to do some- some, you
 know, when people ask questions
 
-660
+1005
 00:37:11,000 --> 00:37:18,056
 is if it's something that was an
 e-e-easy like ... Google search
 
-661
-00:37:18,061 --> 00:37:19,000
+1006
+00:37:18,061 --> 00:37:18,530
 for me, I will try to share what
-I searched for [chuckles], you know?
+I searched for [chuckles], you
 
-662
+1007
+00:37:18,530 --> 00:37:18,999
+know?
+
+1008
 00:37:19,000 --> 00:37:20,000
 Bogdan: Yeah. For sure, for
 sure. Yeah.
 
-663
+1009
 00:37:19,000 --> 00:37:22,000
 Dan: Like- like not -- I don't,
 like, claim that I knew this
 
-664
+1010
 00:37:22,000 --> 00:37:26,396
 off the top of my head, you
 know, but like, I also wanna
 
-664
-00:37:26,396 --> 00:37:29,666
-try to, like -- I don't mean to do
-that to be like, "You could have
+1011
+00:37:26,396 --> 00:37:28,031
+try to, like -- I don't mean to
+do that to be like, "You could
 
-665
+1012
+00:37:28,031 --> 00:37:29,666
+have
+
+1013
 00:37:29,672 --> 00:37:31,000
 just Googled this," you know?
 You know what I mean? Like-
 
-666
+1014
 00:37:31,000 --> 00:37:32,000
 Bogdan: Sure.
 
-667
-00:37:32,000 --> 00:37:34,646
-Dan: -cuz that's not like -- there's
-that- that -- anytime you're using that
+1015
+00:37:32,000 --> 00:37:33,323
+Dan: -cuz that's not like --
+there's that- that -- anytime
 
-668
-00:37:34,646 --> 00:37:38,621
-'just' word, like the word 'just',
-it's probably a bad, like a- like a --
+1016
+00:37:33,323 --> 00:37:34,646
+you're using that
 
-669
+1017
+00:37:34,646 --> 00:37:36,633
+'just' word, like the word
+'just', it's probably a bad,
+
+1018
+00:37:36,633 --> 00:37:38,620
+like a- like a --
+
+1019
 00:37:38,621 --> 00:37:42,851
 you wanna rethink what you're
 thinking because the -- I knew
 
-670
-00:37:43,001 --> 00:37:45,552
-the right terms to search for, to
-find that answer, you know what I
+1020
+00:37:43,001 --> 00:37:44,276
+the right terms to search for,
+to find that answer, you know
 
-671
+1021
+00:37:44,276 --> 00:37:45,551
+what I
+
+1022
 00:37:45,552 --> 00:37:49,032
 mean? But not everybody does.
 And, you know, you -- that's
 
-672
+1023
 00:37:49,032 --> 00:37:51,612
 something you learn over time.
 And it's- it's an important
 
-673
+1024
 00:37:51,612 --> 00:37:53,862
-skill. With computer science,
-a lot of the answers are out
+skill. With computer science, a
+lot of the answers are out
 
-674
+1025
 00:37:53,862 --> 00:37:57,000
 there ... if you can find them,
 you know [chuckles]?
 
-675
+1026
 00:37:58,000 --> 00:37:58,000
 Bogdan: Yeah.
 
-676
-00:37:58,000 --> 00:38:02,831
-Dan: I've also been trying to do that on-
-on our- on our stream sometimes is- is just
+1027
+00:37:58,000 --> 00:38:00,415
+Dan: I've also been trying to do
+that on- on our- on our stream
 
-677
+1028
+00:38:00,415 --> 00:38:02,830
+sometimes is- is just
+
+1029
 00:38:02,862 --> 00:38:06,192
 Google things. The same thing,
 you know? Cuz we're- we're just
 
-678
-00:38:06,192 --> 00:38:09,072
-like learning at -- you know, Kirk
-and I are doing that TypeScript
+1030
+00:38:06,192 --> 00:38:07,632
+like learning at -- you know,
+Kirk and I are doing that
 
-679
+1031
+00:38:07,632 --> 00:38:09,072
+TypeScript
+
+1032
 00:38:09,072 --> 00:38:12,192
 Tuesdays and so, I'm learn- Kirk
 is mostly teaching, I'm mostly
 
-680
-00:38:12,192 --> 00:38:15,282
-learning [chuckles]. But it's like ...
-yeah, we just didn't know something. So we
+1033
+00:38:12,192 --> 00:38:13,737
+learning [chuckles]. But it's
+like ... yeah, we just didn't
 
-681
-00:38:15,282 --> 00:38:19,211
-looked it up and there's no -- I don't
-feel bad about that [chuckles] at all,
+1034
+00:38:13,737 --> 00:38:15,282
+know something. So we
 
-682
-00:38:19,211 --> 00:38:22,032
-you know? And- and nor should I, you
-know? I- I think that's a great ...
+1035
+00:38:15,282 --> 00:38:17,246
+looked it up and there's no -- I
+don't feel bad about that
 
-683
+1036
+00:38:17,246 --> 00:38:19,210
+[chuckles] at all,
+
+1037
+00:38:19,211 --> 00:38:20,621
+you know? And- and nor should I,
+you know? I- I think that's a
+
+1038
+00:38:20,621 --> 00:38:22,031
+great ...
+
+1039
 00:38:22,061 --> 00:38:25,331
-I dunno. That's a great
-attitude to have. I- I would
+I dunno. That's a great attitude
+to have. I- I would
 
-684
+1040
 00:38:25,336 --> 00:38:28,302
 love to see that as a- as a TA,
 you know? Cuz I think it's -- it
 
-685
-00:38:28,811 --> 00:38:33,041
-can be easy to -- when you are ...
-when you're teaching or in that
+1041
+00:38:28,811 --> 00:38:30,926
+can be easy to -- when you are
+... when you're teaching or in
 
-686
-00:38:33,222 --> 00:38:37,541
-position of like ... I dunno, teaching
-somebody [chuckles]. It could be
+1042
+00:38:30,926 --> 00:38:33,041
+that
 
-687
-00:38:37,541 --> 00:38:41,711
+1043
+00:38:33,222 --> 00:38:35,381
+position of like ... I dunno,
+teaching somebody [chuckles]. It
+
+1044
+00:38:35,381 --> 00:38:37,540
+could be
+
+1045
+00:38:37,541 --> 00:38:39,626
 easy to like, wanna ... know the
-answers or wanna like -- I, like -- seem
+answers or wanna like -- I, like
 
-688
+1046
+00:38:39,626 --> 00:38:41,711
+-- seem
+
+1047
 00:38:41,711 --> 00:38:44,411
 like, you know the answers so
 that people trust you more or
 
-689
-00:38:44,411 --> 00:38:47,382
-something like — no, not in like a
-nefarious way, but just as a ... as
+1048
+00:38:44,411 --> 00:38:45,896
+something like — no, not in like
+a nefarious way, but just as a
 
-690
-00:38:47,387 --> 00:38:50,891
+1049
+00:38:45,896 --> 00:38:47,381
+... as
+
+1050
+00:38:47,387 --> 00:38:49,139
 like a ... I don't know. For me.
-This is my personal speaking. It-
+This is my personal speaking.
 
-691
-00:38:50,891 --> 00:38:53,922
-it's like I- I can fall into that
-trap. And I- and I try not -- like,
+1051
+00:38:49,139 --> 00:38:50,891
+It-
 
-692
-00:38:54,661 --> 00:38:58,496
+1052
+00:38:50,891 --> 00:38:52,406
+it's like I- I can fall into
+that trap. And I- and I try not
+
+1053
+00:38:52,406 --> 00:38:53,921
+-- like,
+
+1054
+00:38:54,661 --> 00:38:56,578
 I- I- I -- it takes effort to,
-sometimes for me, to like, not do that,
+sometimes for me, to like, not
 
-693
+1055
+00:38:56,578 --> 00:38:58,495
+do that,
+
+1056
 00:38:59,126 --> 00:39:00,000
 you know [chuckles]?
 
-694
+1057
 00:39:00,000 --> 00:39:00,000
 Bogdan: Yeah. [Unintelligible].
 
-695
-00:39:00,000 --> 00:39:03,000
-Dan: Because I don't, obviously, know
-everything and ... I don't know.
+1058
+00:39:00,000 --> 00:39:01,500
+Dan: Because I don't, obviously,
+know everything and ... I don't
 
-696
+1059
+00:39:01,500 --> 00:39:03,000
+know.
+
+1060
 00:39:03,000 --> 00:39:04,000
 Bekah: I think --
 
-697
+1061
 00:39:04,000 --> 00:39:05,652
 Dan: And it's okay, you know?
 It's like --
 
-698
+1062
 00:39:05,652 --> 00:39:09,012
 Bekah: So much of it is based on
 our education, right? Because
 
-699
+1063
 00:39:09,012 --> 00:39:12,822
 like you're tested, and you're
 expected to know information,
 
-700
+1064
 00:39:12,882 --> 00:39:16,452
 right? You're not expected to
 look up information and find the
 
-701
+1065
 00:39:16,452 --> 00:39:21,552
 answers. And so then going on
 through years of doing that,
 
-702
-00:39:21,552 --> 00:39:26,021
-there's -- it- it feels like it's
-not successful to have to look
+1066
+00:39:21,552 --> 00:39:23,786
+there's -- it- it feels like
+it's not successful to have to
 
-703
+1067
+00:39:23,786 --> 00:39:26,020
+look
+
+1068
 00:39:26,021 --> 00:39:29,081
 something up like, "Oh, you
 failed. You should already know
 
-704
-00:39:29,081 --> 00:39:33,072
-this." But it's -- that's not the
-case, especially with this now.
+1069
+00:39:29,081 --> 00:39:31,076
+this." But it's -- that's not
+the case, especially with this
 
-705
+1070
+00:39:31,076 --> 00:39:33,071
+now.
+
+1071
 00:39:33,077 --> 00:39:37,572
-So, you know, it's always how
-to find the answer is more
+So, you know, it's always how to
+find the answer is more
 
-706
+1072
 00:39:37,572 --> 00:39:42,222
 important. And I read a tweet. I
 don't know who tweeted it out,
 
-707
+1073
 00:39:42,222 --> 00:39:45,161
 but it was like, the difference
 between a junior developer and a
 
-708
+1074
 00:39:45,166 --> 00:39:49,646
 senior developer is they're more
 effective. Senior developers are
 
-709
+1075
 00:39:49,646 --> 00:39:51,000
 more effective at Googling. You
 just get-
 
-710
+1076
 00:39:51,000 --> 00:39:53,000
 Bogdan: It's true. For sure.
 
-711
-00:39:52,000 --> 00:39:58,257
-Bekah: -faster, you know more words that you
-can use, you can narrow it down more quickly.
+1077
+00:39:52,000 --> 00:39:55,128
+Bekah: -faster, you know more
+words that you can use, you can
 
-712
-00:39:58,317 --> 00:40:03,641
-And- and I think that that- that's ... a
-lot of what it is [chuckles], right? Like,
+1078
+00:39:55,128 --> 00:39:58,256
+narrow it down more quickly.
 
-713
-00:40:03,911 --> 00:40:08,262
-knowing what to look for and what
-the approach is because you ha- you
+1079
+00:39:58,317 --> 00:40:00,979
+And- and I think that that-
+that's ... a lot of what it is
 
-714
+1080
+00:40:00,979 --> 00:40:03,641
+[chuckles], right? Like,
+
+1081
+00:40:03,911 --> 00:40:06,086
+knowing what to look for and
+what the approach is because you
+
+1082
+00:40:06,086 --> 00:40:08,261
+ha- you
+
+1083
 00:40:08,262 --> 00:40:12,612
 have to figure it out. And tech
 moves too quickly to memorize
 
-715
-00:40:12,672 --> 00:40:18,041
+1084
+00:40:12,672 --> 00:40:15,356
 everything that you're doing. So
-kn-knowing how to Google and knowing
+kn-knowing how to Google and
 
-716
-00:40:18,041 --> 00:40:23,112
-that that's what's expected of you,
-I -- is really important. It's a --
+1085
+00:40:15,356 --> 00:40:18,040
+knowing
 
-717
+1086
+00:40:18,041 --> 00:40:20,576
+that that's what's expected of
+you, I -- is really important.
+
+1087
+00:40:20,576 --> 00:40:23,111
+It's a --
+
+1088
 00:40:23,112 --> 00:40:27,461
 you are should not be asking for
 the answers every time you hit a
 
-718
-00:40:27,461 --> 00:40:30,942
+1089
+00:40:27,461 --> 00:40:29,201
 roadblock. You should be looking
-things up and figuring out how to
+things up and figuring out how
 
-719
+1090
+00:40:29,201 --> 00:40:30,941
+to
+
+1091
 00:40:30,942 --> 00:40:33,851
-do them. And that's, Nick and I --
-Nick Taylor and I did a Lunch
+do them. And that's, Nick and I
+-- Nick Taylor and I did a Lunch
 
-720
-00:40:33,851 --> 00:40:38,262
-and Learn ... last week? Where we kind
-of talked about like, what do you
+1092
+00:40:33,851 --> 00:40:36,056
+and Learn ... last week? Where
+we kind of talked about like,
 
-721
+1093
+00:40:36,056 --> 00:40:38,261
+what do you
+
+1094
 00:40:38,262 --> 00:40:40,632
 do? How do you navigate those
 challenges? How do you ask
 
-722
+1095
 00:40:40,637 --> 00:40:44,052
 questions? That kind of thing.
 Cuz it's important.
 
-723
-00:40:44,097 --> 00:40:48,086
-Bogdan: Yeah, it is. I- I- I, yeah.
-I think that's great, the- the- the
+1096
+00:40:44,097 --> 00:40:46,091
+Bogdan: Yeah, it is. I- I- I,
+yeah. I think that's great, the-
 
-724
+1097
+00:40:46,091 --> 00:40:48,085
+the- the
+
+1098
 00:40:48,086 --> 00:40:51,086
-way you put it. Because I find --
-so what I think about is
+way you put it. Because I find
+-- so what I think about is
 
-725
-00:40:51,117 --> 00:40:55,197
-[unintelligible] that [chuckles] I find, with
-all due respect and love for my parents,
+1099
+00:40:51,117 --> 00:40:53,157
+[unintelligible] that [chuckles]
+I find, with all due respect and
 
-726
+1100
+00:40:53,157 --> 00:40:55,197
+love for my parents,
+
+1101
 00:40:55,197 --> 00:40:58,246
 for example, that call me every
 time their phone doesn't work,
 
-727
+1102
 00:40:58,246 --> 00:41:00,987
 right? And I'm thinking about
 this. Cuz it's like, look, what
 
-728
-00:41:00,987 --> 00:41:04,632
-I'm doing is just goo- I don't know
-your phone by heart, you know?
+1103
+00:41:00,987 --> 00:41:02,809
+I'm doing is just goo- I don't
+know your phone by heart, you
 
-729
-00:41:04,751 --> 00:41:08,831
-You -- they also have Android phone [laughs].
-So, I'm like -- no, I'm not saying it is
+1104
+00:41:02,809 --> 00:41:04,631
+know?
 
-730
+1105
+00:41:04,751 --> 00:41:06,791
+You -- they also have Android
+phone [laughs]. So, I'm like --
+
+1106
+00:41:06,791 --> 00:41:08,831
+no, I'm not saying it is
+
+1107
 00:41:08,831 --> 00:41:11,862
 a weird thing. I just like, I
 didn't use an Android for eight
 
-731
-00:41:11,867 --> 00:41:14,501
+1108
+00:41:11,867 --> 00:41:13,184
 years now. I'm like -- I'm not
-gonna- I'm not gonna know what you do-
+gonna- I'm not gonna know what
 
-732
-00:41:15,132 --> 00:41:17,262
-what do you have to press. I'm just
-gonna Google it and things like
+1109
+00:41:13,184 --> 00:41:14,501
+you do-
 
-733
+1110
+00:41:15,132 --> 00:41:16,197
+what do you have to press. I'm
+just gonna Google it and things
+
+1111
+00:41:16,197 --> 00:41:17,262
+like
+
+1112
 00:41:17,262 --> 00:41:22,061
 that. But then I kind of took
 one step back and realized like
 
-734
+1113
 00:41:22,152 --> 00:41:25,211
 what- what happened with me at
 least? And I don't know, I'm not
 
-735
-00:41:25,211 --> 00:41:28,931
-sure for how many other, like, people
-Eastern Europeans [chuckles], is that
+1114
+00:41:25,211 --> 00:41:27,071
+sure for how many other, like,
+people Eastern Europeans
 
-736
-00:41:28,931 --> 00:41:32,952
+1115
+00:41:27,071 --> 00:41:28,931
+[chuckles], is that
+
+1116
+00:41:28,931 --> 00:41:30,941
 relatable? Not the Eastern
-Europeans. Everybody that doesn't
+Europeans. Everybody that
 
-737
-00:41:33,431 --> 00:41:36,672
-speak natively English, I believe.
-Like, we didn't -- I didn't have a
+1117
+00:41:30,941 --> 00:41:32,951
+doesn't
 
-738
-00:41:36,677 --> 00:41:40,797
+1118
+00:41:33,431 --> 00:41:35,051
+speak natively English, I
+believe. Like, we didn't -- I
+
+1119
+00:41:35,051 --> 00:41:36,671
+didn't have a
+
+1120
+00:41:36,677 --> 00:41:38,737
 computer for a very long time,
-right? And when I had it f-for the
+right? And when I had it f-for
 
-739
+1121
+00:41:38,737 --> 00:41:40,797
+the
+
+1122
 00:41:40,797 --> 00:41:44,007
 first time, I was young -- still
 young, but like, I didn't know
 
-740
-00:41:44,007 --> 00:41:47,606
-English. But [chuckles] until once I
-started to learn English, I realized how
+1123
+00:41:44,007 --> 00:41:45,806
+English. But [chuckles] until
+once I started to learn English,
 
-741
+1124
+00:41:45,806 --> 00:41:47,605
+I realized how
+
+1125
 00:41:47,606 --> 00:41:50,967
 much -- how many things you can
 Google, and how many YouTube
 
-742
-00:41:50,967 --> 00:41:55,047
-videos you can watch. It was insane
-[laughs]. It was like the- the
+1126
+00:41:50,967 --> 00:41:53,007
+videos you can watch. It was
+insane [laughs]. It was like
 
-743
+1127
+00:41:53,007 --> 00:41:55,047
+the- the
+
+1128
 00:41:55,047 --> 00:41:57,597
-whole world open. And finally,
-I started to Google everything.
+whole world open. And finally, I
+started to Google everything.
 
-744
-00:41:57,717 --> 00:42:00,746
-Like ... even for my mom, like, I
-was like, "Hey, do you need this?"
+1129
+00:41:57,717 --> 00:41:59,231
+Like ... even for my mom, like,
+I was like, "Hey, do you need
 
-745
+1130
+00:41:59,231 --> 00:42:00,745
+this?"
+
+1131
 00:42:00,746 --> 00:42:03,146
-And na, na, na. Yeah. And
-then, I think that's a thing.
+And na, na, na. Yeah. And then,
+I think that's a thing.
 
-746
+1132
 00:42:03,146 --> 00:42:05,757
 Like, I think that's where they-
 they- they draw the line,
 
-747
+1133
 00:42:05,757 --> 00:42:09,222
 you know? It's just like ...
 navigating the internet to- to
 
-748
-00:42:09,222 --> 00:42:13,871
-finances and things like that. Which
-of course, it learn -- i-it's a skill,
+1134
+00:42:09,222 --> 00:42:11,546
+finances and things like that.
+Which of course, it learn --
 
-749
+1135
+00:42:11,546 --> 00:42:13,870
+i-it's a skill,
+
+1136
 00:42:13,871 --> 00:42:16,722
-right? Like, you have to learn it.
-They didn't take the time to
+right? Like, you have to learn
+it. They didn't take the time to
 
-750
-00:42:16,722 --> 00:42:20,262
+1137
+00:42:16,722 --> 00:42:18,492
 do it, so that's okay. I'm gonna
-do it for them [laughs]. But yeah,
+do it for them [laughs]. But
 
-751
+1138
+00:42:18,492 --> 00:42:20,262
+yeah,
+
+1139
 00:42:20,382 --> 00:42:23,081
 like, I think that's- that's-
 that's, yeah. That's like, yeah.
 
-752
+1140
 00:42:23,222 --> 00:42:27,282
 How- how you're supposed to- to-
 to think about things. Like,
 
-753
+1141
 00:42:27,282 --> 00:42:30,012
-am I supposed to know my phone by
-heart? No, of course not. Cuz
+am I supposed to know my phone
+by heart? No, of course not. Cuz
 
-754
+1142
 00:42:30,012 --> 00:42:32,681
 it has ... thousands of menus.
 
-755
-00:42:34,106 --> 00:42:36,117
-Bekah: Well, it's not necessary, you
-know? Like the other thing. We need to --
+1143
+00:42:34,106 --> 00:42:35,111
+Bekah: Well, it's not necessary,
+you know? Like the other thing.
 
-756
-00:42:36,461 --> 00:42:39,311
-Bogdan: Exactly. Why would you add --
-exactly. Yeah. Why would you adding
+1144
+00:42:35,111 --> 00:42:36,116
+We need to --
 
-757
-00:42:39,311 --> 00:42:44,757
-all of that if you do it once a year
-or whatever [chuckles]? Which happened
+1145
+00:42:36,461 --> 00:42:37,886
+Bogdan: Exactly. Why would you
+add -- exactly. Yeah. Why would
 
-758
-00:42:44,757 --> 00:42:49,257
-to me, by the way, about -- talking
-about phone. I'm sorry [laughs]. I was-
+1146
+00:42:37,886 --> 00:42:39,311
+you adding
 
-759
-00:42:49,257 --> 00:42:53,606
+1147
+00:42:39,311 --> 00:42:42,034
+all of that if you do it once a
+year or whatever [chuckles]?
+
+1148
+00:42:42,034 --> 00:42:44,757
+Which happened
+
+1149
+00:42:44,757 --> 00:42:47,007
+to me, by the way, about --
+talking about phone. I'm sorry
+
+1150
+00:42:47,007 --> 00:42:49,257
+[laughs]. I was-
+
+1151
+00:42:49,257 --> 00:42:51,431
 I was coming back from a concert
-the other week. And it was like a
+the other week. And it was like
 
-760
-00:42:53,666 --> 00:42:59,277
-three hours train ride, and my phone
-just froze. And it was- it was not
+1152
+00:42:51,431 --> 00:42:53,605
+a
 
-761
+1153
+00:42:53,666 --> 00:42:56,471
+three hours train ride, and my
+phone just froze. And it was- it
+
+1154
+00:42:56,471 --> 00:42:59,276
+was not
+
+1155
 00:42:59,277 --> 00:43:02,277
 dead, but it was just like, the
 screen was open, but I couldn't
 
-762
-00:43:02,277 --> 00:43:06,686
-click anything. And I tried to restarted
-it the way I know it [chuckles] and
+1156
+00:43:02,277 --> 00:43:04,481
+click anything. And I tried to
+restarted it the way I know it
 
-763
-00:43:06,686 --> 00:43:09,842
+1157
+00:43:04,481 --> 00:43:06,685
+[chuckles] and
+
+1158
+00:43:06,686 --> 00:43:08,264
 things like that. And it didn't
-work. And I s- I didn't have anything
+work. And I s- I didn't have
 
-764
-00:43:09,842 --> 00:43:12,601
+1159
+00:43:08,264 --> 00:43:09,842
+anything
+
+1160
+00:43:09,842 --> 00:43:11,221
 on me. Like, all it was just my
-phone and my wallet. So I sit on a
+phone and my wallet. So I sit on
 
-765
-00:43:12,601 --> 00:43:17,461
-train for three hours doing nothing.
-Which was a new experience [laughs], you
+1161
+00:43:11,221 --> 00:43:12,600
+a
 
-766
+1162
+00:43:12,601 --> 00:43:15,031
+train for three hours doing
+nothing. Which was a new
+
+1163
+00:43:15,031 --> 00:43:17,461
+experience [laughs], you
+
+1164
 00:43:17,461 --> 00:43:21,211
 know? I never- I never get to do
 that. Also in the middle of the
 
-767
+1165
 00:43:21,211 --> 00:43:23,911
 night. But then I got home,
 Google it from my laptop, and
 
-768
+1166
 00:43:23,911 --> 00:43:27,362
 there is a second way to restart
 your phone, you know? And that
 
-769
-00:43:27,362 --> 00:43:31,291
+1167
+00:43:27,362 --> 00:43:29,326
 worked actually. And I was like,
-"Wow, should I know this? I don't-
+"Wow, should I know this? I
 
-770
+1168
+00:43:29,326 --> 00:43:31,290
+don't-
+
+1169
 00:43:31,291 --> 00:43:32,251
 I don't think so [laughs]."
 
-771
-00:43:32,396 --> 00:43:33,987
-Dan: Why didn't you just look it up on
-your phone [Dan and Bekah chuckle]?
+1170
+00:43:32,396 --> 00:43:33,191
+Dan: Why didn't you just look it
+up on your phone [Dan and Bekah
 
-772
-00:43:34,181 --> 00:43:38,891
-Bogdan: Yeah, exactly. Why, right?
-Yeah [laughs]. Exactly. Yeah.
+1171
+00:43:33,191 --> 00:43:33,986
+chuckle]?
 
-773
+1172
+00:43:34,181 --> 00:43:36,536
+Bogdan: Yeah, exactly. Why,
+right? Yeah [laughs]. Exactly.
+
+1173
+00:43:36,536 --> 00:43:38,891
+Yeah.
+
+1174
 00:43:39,356 --> 00:43:39,806
 Dan: Yeah.
 
-774
-00:43:40,032 --> 00:43:43,422
-Bogdan: Yeah. No, but it was a nice three
-hours of ... thinking [unintelligible].
+1175
+00:43:40,032 --> 00:43:41,727
+Bogdan: Yeah. No, but it was a
+nice three hours of ... thinking
 
-775
+1176
+00:43:41,727 --> 00:43:43,422
+[unintelligible].
+
+1177
 00:43:43,422 --> 00:43:44,000
 Dan: Wow. So did you like-
 
-776
+1178
 00:43:44,000 --> 00:43:45,000
 Bekah: It was tough.
 
-777
-00:43:45,000 --> 00:43:49,751
-Dan: -did you like, go into alternate dimensions
-or something [all laugh]? You do a zen, you know?
+1179
+00:43:45,000 --> 00:43:47,375
+Dan: -did you like, go into
+alternate dimensions or
 
-778
+1180
+00:43:47,375 --> 00:43:49,750
+something [all laugh]? You do a
+zen, you know?
+
+1181
 00:43:49,751 --> 00:43:53,652
 Bogdan: Yeah. Yeah. Yeah. No, it
 was weird. I wished- I wished
 
-779
+1182
 00:43:53,652 --> 00:43:56,501
 people would just sit in the
 same, like kind of train
 
-780
+1183
 00:43:56,501 --> 00:43:59,141
 compartment with me, and speak
 English, cuz everybody was
 
-781
+1184
 00:43:59,141 --> 00:44:01,961
 speaking Dutch around me. And I
 was like, "Please someone speak
 
-782
-00:44:01,961 --> 00:44:05,262
-English. So --" I just- I just wanted
-to hear it. I didn't [laughs]- I didn't
+1185
+00:44:01,961 --> 00:44:03,611
+English. So --" I just- I just
+wanted to hear it. I didn't
 
-783
-00:44:05,262 --> 00:44:08,262
-wanna talk with them. I just wanted
-to hear so I haven't to like think
+1186
+00:44:03,611 --> 00:44:05,261
+[laughs]- I didn't
 
-784
+1187
+00:44:05,262 --> 00:44:06,762
+wanna talk with them. I just
+wanted to hear so I haven't to
+
+1188
+00:44:06,762 --> 00:44:08,262
+like think
+
+1189
 00:44:08,262 --> 00:44:10,000
 about ... it's weird. I never
 get to do that.
 
-785
+1190
 00:44:09,000 --> 00:44:10,000
 Bekah: Do you speak Dutch?
 
-786
-00:44:11,000 --> 00:44:16,722
-Bogdan: No [laughs]. No, I don't. So that's why.
-But yeah, I don't -- I never get to- to- to
+1191
+00:44:11,000 --> 00:44:13,861
+Bogdan: No [laughs]. No, I
+don't. So that's why. But yeah,
 
-787
-00:44:16,726 --> 00:44:20,771
-think [chuckles] on my own. I always
-have music playing in a background or
+1192
+00:44:13,861 --> 00:44:16,722
+I don't -- I never get to- to-
+to
 
-788
+1193
+00:44:16,726 --> 00:44:18,748
+think [chuckles] on my own. I
+always have music playing in a
+
+1194
+00:44:18,748 --> 00:44:20,770
+background or
+
+1195
 00:44:20,771 --> 00:44:22,152
 something. It's very weird.
 
-789
-00:44:23,411 --> 00:44:27,072
-Bekah: Yeah. It's interesting how
-much time we occupy our brains
+1196
+00:44:23,411 --> 00:44:25,241
+Bekah: Yeah. It's interesting
+how much time we occupy our
 
-790
-00:44:27,311 --> 00:44:32,202
-constantly. Like there's a- a need
--- I read this book, I -- "Bored and
+1197
+00:44:25,241 --> 00:44:27,071
+brains
 
-791
+1198
+00:44:27,311 --> 00:44:29,756
+constantly. Like there's a- a
+need -- I read this book, I --
+
+1199
+00:44:29,756 --> 00:44:32,201
+"Bored and
+
+1200
 00:44:32,202 --> 00:44:35,652
 Brilliant" maybe? Somebody
 recommended it to me. And it was
 
-792
+1201
 00:44:35,652 --> 00:44:39,311
 really good. Like, your brain
 needs time to be able to process
 
-793
-00:44:39,311 --> 00:44:44,751
-different things, to be creative to,
-you know, like store knowledge that
+1202
+00:44:39,311 --> 00:44:42,031
+different things, to be creative
+to, you know, like store
 
-794
-00:44:44,757 --> 00:44:50,661
-you have accumulated. And I think
-that we don't do that. I mean, I --
+1203
+00:44:42,031 --> 00:44:44,751
+knowledge that
 
-795
-00:44:50,961 --> 00:44:54,922
+1204
+00:44:44,757 --> 00:44:47,709
+you have accumulated. And I
+think that we don't do that. I
+
+1205
+00:44:47,709 --> 00:44:50,661
+mean, I --
+
+1206
+00:44:50,961 --> 00:44:52,941
 like, I'm in the car, I have a
-podcast on. I'm going for a run, I
+podcast on. I'm going for a run,
 
-796
+1207
+00:44:52,941 --> 00:44:54,921
+I
+
+1208
 00:44:54,922 --> 00:44:58,282
 have a podcast on. I'm in my
 house, I have four kids. Nobody
 
-797
-00:44:58,282 --> 00:45:02,572
-[chuckles] ever stops. Like, I feel
-like I might be afraid of silence at
+1209
+00:44:58,282 --> 00:45:00,427
+[chuckles] ever stops. Like, I
+feel like I might be afraid of
 
-798
-00:45:02,722 --> 00:45:06,771
-this point. Like, what- what will
-happen if I spend 10 minutes
+1210
+00:45:00,427 --> 00:45:02,572
+silence at
 
-799
+1211
+00:45:02,722 --> 00:45:04,746
+this point. Like, what- what
+will happen if I spend 10
+
+1212
+00:45:04,746 --> 00:45:06,770
+minutes
+
+1213
 00:45:06,771 --> 00:45:08,661
 being silent? Let alone three
 hours. Like --
 
-800
-00:45:09,356 --> 00:45:12,536
-Bogdan: I- I think I am. But I don't
-know. I never re- I never- I never
+1214
+00:45:09,356 --> 00:45:10,946
+Bogdan: I- I think I am. But I
+don't know. I never re- I never-
 
-801
+1215
+00:45:10,946 --> 00:45:12,536
+I never
+
+1216
 00:45:12,536 --> 00:45:15,416
 got the time to actually think
 about it. I- I bet I am, right?
 
-802
-00:45:15,416 --> 00:45:19,016
+1217
+00:45:15,416 --> 00:45:17,216
 Like, I can -- I should be able
-to go on a walk and not listen to
+to go on a walk and not listen
 
-803
-00:45:19,021 --> 00:45:23,067
-music, right? Like, that's- that's
-what I was sup- but I can't, and I
+1218
+00:45:17,216 --> 00:45:19,016
+to
 
-804
+1219
+00:45:19,021 --> 00:45:21,044
+music, right? Like, that's-
+that's what I was sup- but I
+
+1220
+00:45:21,044 --> 00:45:23,067
+can't, and I
+
+1221
 00:45:23,067 --> 00:45:26,277
 think it's weird. Like, I- I
 don't know. It's a very weird
 
-805
+1222
 00:45:26,282 --> 00:45:27,297
-thing. And I don't wanna ...
-I don't know.
+thing. And I don't wanna ... I
+don't know.
 
-806
-00:45:27,331 --> 00:45:29,036
-Dan: Yeah. I have the same thing.
-I have- I have [unintelligible] --
+1223
+00:45:27,331 --> 00:45:28,183
+Dan: Yeah. I have the same
+thing. I have- I have
 
-807
-00:45:29,126 --> 00:45:30,896
-Bekah: So none of us up meditating
-then, we're not [chuckles], like --
+1224
+00:45:28,183 --> 00:45:29,035
+[unintelligible] --
 
-808
+1225
+00:45:29,126 --> 00:45:30,011
+Bekah: So none of us up
+meditating then, we're not
+
+1226
+00:45:30,011 --> 00:45:30,896
+[chuckles], like --
+
+1227
 00:45:31,166 --> 00:45:31,586
 Dan: Oh god.
 
-809
-00:45:31,766 --> 00:45:33,806
-Bogdan: No way. There's no way it's gonna work.
-Tr- [chuckles] yeah. Try [unintelligible] --
+1228
+00:45:31,766 --> 00:45:32,786
+Bogdan: No way. There's no way
+it's gonna work. Tr- [chuckles]
 
-810
-00:45:35,367 --> 00:45:39,567
-Dan: I ... yeah. No, I have the -- so
-I have the AirPods Pro, and so like
+1229
+00:45:32,786 --> 00:45:33,806
+yeah. Try [unintelligible] --
 
-811
-00:45:39,567 --> 00:45:42,416
-to push play, you- you squeeze the
-thing that sticks down, you know?
+1230
+00:45:35,367 --> 00:45:37,467
+Dan: I ... yeah. No, I have the
+-- so I have the AirPods Pro,
 
-812
+1231
+00:45:37,467 --> 00:45:39,567
+and so like
+
+1232
+00:45:39,567 --> 00:45:40,991
+to push play, you- you squeeze
+the thing that sticks down, you
+
+1233
+00:45:40,991 --> 00:45:42,415
+know?
+
+1234
 00:45:42,867 --> 00:45:45,972
 And the other day I walked outta
 my office and I didn't have them
 
-813
-00:45:45,972 --> 00:45:48,101
-in, but I thought I had them in, and I
-squeezed my ear a little [Dan and Bekah laugh]-
+1235
+00:45:45,972 --> 00:45:47,036
+in, but I thought I had them in,
+and I squeezed my ear a little
 
-814
-00:45:49,141 --> 00:45:52,481
+1236
+00:45:47,036 --> 00:45:48,100
+[Dan and Bekah laugh]-
+
+1237
+00:45:49,141 --> 00:45:50,811
 a little, and I'm like, "Well,
-that was- that was really weird."
+that was- that was really
 
-815
+1238
+00:45:50,811 --> 00:45:52,481
+weird."
+
+1239
 00:45:53,277 --> 00:45:53,817
 Bogdan: Wow.
 
-816
+1240
 00:45:54,041 --> 00:45:55,751
 Dan: I'm just so used to having
 them in my ears [laughs].
 
-817
+1241
 00:45:57,597 --> 00:45:57,597
 Bogdan: Wow.
 
-818
+1242
 00:45:57,597 --> 00:45:58,000
 Bekah: Are you --
 
-819
+1243
 00:45:58,000 --> 00:45:59,000
-Bogdan: That's embarrassing [laughs].
+Bogdan: That's embarrassing
+[laughs].
 
-820
-00:46:01,000 --> 00:46:01,001
+1244
+00:46:00,000 --> 00:46:01,001
 Bekah: So now --
 
-821
-00:46:01,000 --> 00:46:03,072
-Dan: Like, yeah. I need to listen
-to my podcast for 30 seconds
+1245
+00:46:01,000 --> 00:46:02,036
+Dan: Like, yeah. I need to
+listen to my podcast for 30
 
-822
+1246
+00:46:02,036 --> 00:46:03,072
+seconds
+
+1247
 00:46:03,077 --> 00:46:04,302
 while I go get water. Like --
 
-824
+1248
 00:46:04,302 --> 00:46:05,000
 Bekah: Yeah.
 
-823
+1249
 00:46:05,382 --> 00:46:06,000
 Bogdan: Yeah, exactly [laughs].
 
-824
+1250
 00:46:05,382 --> 00:46:07,481
-Bekah: Yeah. No, it's true. Yeah.
+Bekah: Yeah. No, it's true!
+Yeah.
 
-825
-00:46:08,217 --> 00:46:10,646
-Bogdan: I do that. Yeah. Or on the toilet.
-Like, I- I got to going to the toilet. I
+1251
+00:46:08,217 --> 00:46:09,431
+Bogdan: I do that. Yeah. Or on
+the toilet. Like, I- I got to
 
-826
+1252
+00:46:09,431 --> 00:46:10,645
+going to the toilet. I
+
+1253
 00:46:10,646 --> 00:46:14,456
 can't just like ... peeing [??].
 That's weird.
 
-827
-00:46:15,387 --> 00:46:19,737
-Bekah: Yeah. Have to be occupied [laughs].
-I will say it's- it's nice weather
+1254
+00:46:15,387 --> 00:46:17,562
+Bekah: Yeah. Have to be occupied
+[laughs]. I will say it's- it's
 
-828
+1255
+00:46:17,562 --> 00:46:19,737
+nice weather
+
+1256
 00:46:19,737 --> 00:46:22,646
 here. Like very spring weather,
 and my kids like to swing on the
 
-829
-00:46:22,646 --> 00:46:26,456
-swings, and I like to swing on the
-swings, and that is like maybe the
+1257
+00:46:22,646 --> 00:46:24,551
+swings, and I like to swing on
+the swings, and that is like
 
-830
-00:46:26,456 --> 00:46:31,577
+1258
+00:46:24,551 --> 00:46:26,456
+maybe the
+
+1259
+00:46:26,456 --> 00:46:29,016
 only time that I can just -- I'm
-still, like, moving and ... my brother
+still, like, moving and ... my
 
-831
+1260
+00:46:29,016 --> 00:46:31,576
+brother
+
+1261
 00:46:31,577 --> 00:46:34,067
 was telling me ... I can't
 remember. I think it was a
 
-832
-00:46:34,067 --> 00:46:38,387
-neurologist that- that was saying,
-"To improve your memory, you
+1262
+00:46:34,067 --> 00:46:36,227
+neurologist that- that was
+saying, "To improve your memory,
 
-833
+1263
+00:46:36,227 --> 00:46:38,387
+you
+
+1264
 00:46:38,387 --> 00:46:42,106
 should try thinking in complete
 sentences for like 10 minutes a
 
-834
-00:46:42,106 --> 00:46:45,376
-day," or something. And so [chuckles]
-the other day I was like practicing
+1265
+00:46:42,106 --> 00:46:43,741
+day," or something. And so
+[chuckles] the other day I was
 
-835
-00:46:45,376 --> 00:46:48,942
+1266
+00:46:43,741 --> 00:46:45,376
+like practicing
+
+1267
+00:46:45,376 --> 00:46:47,159
 that as I was swinging on the
-swing next to my kid, like, "There
+swing next to my kid, like,
 
-836
-00:46:48,942 --> 00:46:52,481
-is a tree and the leaves on the tree
-are very greenly [chuckles]," I didn't
+1268
+00:46:47,159 --> 00:46:48,942
+"There
 
-837
-00:46:52,481 --> 00:46:55,541
-say it out loud. It was just in my head
-[Bogdan laughs], and I'm ike, "This is ridiculous."
+1269
+00:46:48,942 --> 00:46:50,711
+is a tree and the leaves on the
+tree are very greenly
 
-838
-00:46:55,541 --> 00:47:00,581
-I never talk in complete sentences, first
-of all. But- but also, it was really
+1270
+00:46:50,711 --> 00:46:52,480
+[chuckles]," I didn't
 
-839
+1271
+00:46:52,481 --> 00:46:54,011
+say it out loud. It was just in
+my head [Bogdan laughs], and I'm
+
+1272
+00:46:54,011 --> 00:46:55,541
+ike, "This is ridiculous."
+
+1273
+00:46:55,541 --> 00:46:58,061
+I never talk in complete
+sentences, first of all. But-
+
+1274
+00:46:58,061 --> 00:47:00,581
+but also, it was really
+
+1275
 00:47:00,581 --> 00:47:05,112
 hard. I was like, I was shocked
 at how much my mind wondered
 
-840
+1276
 00:47:05,202 --> 00:47:09,132
 while I was trying to stay
 focused. It was like, "Wait a
 
-841
-00:47:09,132 --> 00:47:13,211
-minute." I've just like, "Where --
-how did I get to this to-do list
+1277
+00:47:09,132 --> 00:47:11,171
+minute." I've just like, "Where
+-- how did I get to this to-do
 
-842
-00:47:13,211 --> 00:47:15,791
-that I'm rattling off in my head?
-Because I was just talking to
+1278
+00:47:11,171 --> 00:47:13,210
+list
 
-843
+1279
+00:47:13,211 --> 00:47:14,501
+that I'm rattling off in my
+head? Because I was just talking
+
+1280
+00:47:14,501 --> 00:47:15,791
+to
+
+1281
 00:47:15,791 --> 00:47:17,592
 myself about tree leaves," you
 know?
 
-844
-00:47:19,226 --> 00:47:22,077
-Bogdan: That's -- that -- like, yeah.
-Exactly. The w- the way the brain
+1282
+00:47:19,226 --> 00:47:20,651
+Bogdan: That's -- that -- like,
+yeah. Exactly. The w- the way
 
-845
-00:47:22,106 --> 00:47:26,306
-just like, worked, when- when you
-don't do -- like, my -- so my- my
+1283
+00:47:20,651 --> 00:47:22,076
+the brain
 
-846
-00:47:26,306 --> 00:47:29,396
+1284
+00:47:22,106 --> 00:47:24,206
+just like, worked, when- when
+you don't do -- like, my -- so
+
+1285
+00:47:24,206 --> 00:47:26,306
+my- my
+
+1286
+00:47:26,306 --> 00:47:27,851
 therapist told me, like, when I
-used to have this anxiety things,
+used to have this anxiety
 
-847
+1287
+00:47:27,851 --> 00:47:29,396
+things,
+
+1288
 00:47:29,396 --> 00:47:33,447
-like, whatever moments, like, my-
-my super plan, which I 100%
+like, whatever moments, like,
+my- my super plan, which I 100%
 
-848
+1289
 00:47:33,447 --> 00:47:36,461
 thought it- it's working, cuz it
 made me feel better, was just
 
-849
-00:47:36,461 --> 00:47:40,692
-like, if I- if I feel weird, I'll
-just like straight up, like put on
+1290
+00:47:36,461 --> 00:47:38,576
+like, if I- if I feel weird,
+I'll just like straight up, like
 
-850
+1291
+00:47:38,576 --> 00:47:40,691
+put on
+
+1292
 00:47:40,692 --> 00:47:44,351
 something ... something that I
 can hear and go for a walk, for
 
-851
-00:47:44,351 --> 00:47:47,081
-example and things like that. Which
-turns out it's not good [laughs].
+1293
+00:47:44,351 --> 00:47:45,716
+example and things like that.
+Which turns out it's not good
 
-852
+1294
+00:47:45,716 --> 00:47:47,081
+[laughs].
+
+1295
 00:47:47,771 --> 00:47:51,431
-Cuz, no. Cuz at the end, she
-was like, "Why don't you just
+Cuz, no. Cuz at the end, she was
+like, "Why don't you just
 
-853
-00:47:51,431 --> 00:47:56,067
-like ... sit down, and like, think
-about what's happening? Or like,
+1296
+00:47:51,431 --> 00:47:53,749
+like ... sit down, and like,
+think about what's happening? Or
 
-854
-00:47:56,067 --> 00:47:59,487
+1297
+00:47:53,749 --> 00:47:56,067
+like,
+
+1298
+00:47:56,067 --> 00:47:57,777
 let your- your- your mind
-understand like what's happening,
+understand like what's
 
-855
-00:47:59,487 --> 00:48:03,117
-and why you feel that way, and things
-like that." Which ... I'm gonna
+1299
+00:47:57,777 --> 00:47:59,487
+happening,
 
-856
-00:48:03,117 --> 00:48:07,436
-give it to her [Bogdan and Bekah laugh], in a ways.
-It worked for me. In a- in a very weird way. It's
+1300
+00:47:59,487 --> 00:48:01,302
+and why you feel that way, and
+things like that." Which ... I'm
 
-857
-00:48:07,436 --> 00:48:11,891
-just like -- but then you start to,
-like -- I start to like, you know,
+1301
+00:48:01,302 --> 00:48:03,117
+gonna
 
-858
-00:48:11,891 --> 00:48:16,362
-like, as you said, like realize, oh,
-that's -- those leaves there, they're
+1302
+00:48:03,117 --> 00:48:05,276
+give it to her [Bogdan and Bekah
+laugh], in a ways. It worked for
 
-859
-00:48:16,362 --> 00:48:19,121
-actually very nice [chuckles], you
-know, and things like that. Which-
+1303
+00:48:05,276 --> 00:48:07,435
+me. In a- in a very weird way.
+It's
 
-860
-00:48:19,152 --> 00:48:22,572
-which never happens when- when ...
-yeah. I even, yeah. Like I, even
+1304
+00:48:07,436 --> 00:48:09,663
+just like -- but then you start
+to, like -- I start to like, you
 
-861
-00:48:22,577 --> 00:48:26,442
-before sleep, I like to- to- to do
-this, and to hear something, and
+1305
+00:48:09,663 --> 00:48:11,890
+know,
 
-862
-00:48:26,447 --> 00:48:31,461
+1306
+00:48:11,891 --> 00:48:14,126
+like, as you said, like realize,
+oh, that's -- those leaves
+
+1307
+00:48:14,126 --> 00:48:16,361
+there, they're
+
+1308
+00:48:16,362 --> 00:48:17,741
+actually very nice [chuckles],
+you know, and things like that.
+
+1309
+00:48:17,741 --> 00:48:19,120
+Which-
+
+1310
+00:48:19,152 --> 00:48:20,862
+which never happens when- when
+... yeah. I even, yeah. Like I,
+
+1311
+00:48:20,862 --> 00:48:22,572
+even
+
+1312
+00:48:22,577 --> 00:48:24,509
+before sleep, I like to- to- to
+do this, and to hear something,
+
+1313
+00:48:24,509 --> 00:48:26,441
+and
+
+1314
+00:48:26,447 --> 00:48:28,954
 things like that. I had a- I had
-a friend coming into my room. And
+a friend coming into my room.
 
-863
-00:48:31,461 --> 00:48:34,072
+1315
+00:48:28,954 --> 00:48:31,461
+And
+
+1316
+00:48:31,461 --> 00:48:32,766
 I was listening to music, and he
-was like, "Do you listen music in
+was like, "Do you listen music
 
-864
-00:48:34,072 --> 00:48:39,000
-your bed?" I was like, "What [laughs]?
-Of course I do. Why don't you?"
+1317
+00:48:32,766 --> 00:48:34,071
+in
 
-865
-00:48:39,000 --> 00:48:40,972
-And it [Dan chuckles] turns out not
-a lot of people do that [chuckles].
+1318
+00:48:34,072 --> 00:48:36,536
+your bed?" I was like, "What
+[laughs]? Of course I do. Why
 
-865
+1319
+00:48:36,536 --> 00:48:39,000
+don't you?"
+
+1320
+00:48:39,000 --> 00:48:39,986
+And it [Dan chuckles] turns out
+not a lot of people do that
+
+1321
+00:48:39,986 --> 00:48:40,972
+[chuckles].
+
+1322
 00:48:42,802 --> 00:48:45,952
 Yeah. It's weird. The brain is
 weird.
 
-866
+1323
 00:48:47,411 --> 00:48:47,802
 Bekah: Yeah. I --
 
-867
+1324
 00:48:47,802 --> 00:48:48,282
 Dan: The brain is weird.
 
-868
-00:48:49,121 --> 00:48:51,791
-Bekah: I mean, I even -- like, I have
-a fan running when I'm sleeping.
+1325
+00:48:49,121 --> 00:48:50,456
+Bekah: I mean, I even -- like, I
+have a fan running when I'm
 
-869
-00:48:51,791 --> 00:48:57,251
-Because I can't ... take the silence,
-ever. Ugh, sleeping in hotels is
+1326
+00:48:50,456 --> 00:48:51,791
+sleeping.
 
-870
+1327
+00:48:51,791 --> 00:48:54,521
+Because I can't ... take the
+silence, ever. Ugh, sleeping in
+
+1328
+00:48:54,521 --> 00:48:57,251
+hotels is
+
+1329
 00:48:57,257 --> 00:48:59,000
 like the- the worst. I hate
 sleeping in hotels.
 
-871
+1330
 00:48:59,000 --> 00:49:01,000
 Bogdan: I hate it. Yeah.
 
-872
-00:49:00,000 --> 00:49:02,000
+1331
+00:49:00,000 --> 00:49:01,500
 Bekah: They're so quiet. Or
-they're really noisy. We-
+they're really noisy. We stayed
 
-873
+1332
+00:49:01,500 --> 00:49:03,000
+in a-
+
+1333
 00:49:03,000 --> 00:49:03,000
 Dan: Yes.
 
-874
-00:49:03,000 --> 00:49:06,851
-Bekah: -stayed in a hotel this weekend. And there
-were people out in the hallway until like, 2:00 AM.
+1334
+00:49:03,000 --> 00:49:04,925
+Bekah: -hotel this weekend. And
+there were people out in the
 
-875
+1335
+00:49:04,925 --> 00:49:06,850
+hallway until like, 2:00 AM.
+
+1336
 00:49:07,391 --> 00:49:07,751
 Dan: Ugh.
 
-876
+1337
 00:49:07,867 --> 00:49:08,246
 Bogdan: Oh, no.
 
-877
-00:49:08,532 --> 00:49:11,411
-Bekah: That wasn't ideal. Cuz ...
-well, I couldn't understand what
+1338
+00:49:08,532 --> 00:49:09,971
+Bekah: That wasn't ideal. Cuz
+... well, I couldn't understand
 
-878
-00:49:11,416 --> 00:49:14,141
-they were saying because it was a different
-language [Bogdan chuckles]. So then it
+1339
+00:49:09,971 --> 00:49:11,410
+what
 
-879
+1340
+00:49:11,416 --> 00:49:12,778
+they were saying because it was
+a different language [Bogdan
+
+1341
+00:49:12,778 --> 00:49:14,140
+chuckles]. So then it
+
+1342
 00:49:14,141 --> 00:49:14,411
 was like less fine.
 
-880
+1343
 00:49:14,577 --> 00:49:16,302
 Bogdan: I'm staying with Dutch
 [Bekah chuckles]. Well, I --
 
-881
+1344
 00:49:16,302 --> 00:49:19,032
 Dan: Were they happy? Were they
 happy, or they angry, or --
 
-882
+1345
 00:49:19,032 --> 00:49:20,322
 Bekah: I am --
 
-883
+1346
 00:49:20,322 --> 00:49:21,000
 Dan: Medium?
 
-884
+1347
 00:49:21,000 --> 00:49:24,896
 Bekah: I- I'm not sure. I feel
 like all of the above. But
 
-885
-00:49:24,896 --> 00:49:28,436
-at one point there was like, this
-wasn't -- this was during the
+1348
+00:49:24,896 --> 00:49:26,666
+at one point there was like,
+this wasn't -- this was during
 
-886
+1349
+00:49:26,666 --> 00:49:28,436
+the
+
+1350
 00:49:28,436 --> 00:49:33,657
 day. There were two young boys,
 like wondering down the hallway.
 
-887
-00:49:33,657 --> 00:49:36,447
+1351
+00:49:33,657 --> 00:49:35,052
 And you can tell their mom was
-the one that came outta the room,
+the one that came outta the
 
-888
+1352
+00:49:35,052 --> 00:49:36,447
+room,
+
+1353
 00:49:36,447 --> 00:49:39,536
-because like, she had a total mom
-face on. Those kids were not
+because like, she had a total
+mom face on. Those kids were not
 
-889
+1354
 00:49:39,536 --> 00:49:42,177
 supposed to be wondering in the
 hallway. And she walked with
 
-890
-00:49:42,177 --> 00:49:46,737
-like, "You are in big trouble [chuckles]."
-It was like maybe my favorite part of
+1355
+00:49:42,177 --> 00:49:44,457
+like, "You are in big trouble
+[chuckles]." It was like maybe
 
-891
-00:49:46,947 --> 00:49:49,376
-the entire hotel stay. Like, I feel you.
-I've been there [Bekah and Bogdan chuckle].
+1356
+00:49:44,457 --> 00:49:46,737
+my favorite part of
 
-892
-00:49:50,786 --> 00:49:55,000
-Dan: U-universal- universal language.
+1357
+00:49:46,947 --> 00:49:48,161
+the entire hotel stay. Like, I
+feel you. I've been there [Bekah
+
+1358
+00:49:48,161 --> 00:49:49,375
+and Bogdan chuckle].
+
+1359
+00:49:50,786 --> 00:49:52,893
+Dan: U-universal- universal
+language.
+
+1360
+00:49:52,893 --> 00:49:55,000
 [Unintelligible][laughs].
 
-893
+1361
 00:49:53,000 --> 00:49:53,000
 Bekah: Mm-hmm.
 
-894
+1362
 00:49:53,782 --> 00:49:54,431
 Bogdan: Yeah. Yeah, yeah, yeah
 [laughs].
 
-895
+1363
 00:49:54,431 --> 00:50:01,902
-Yeah. I used to -- I- I- I
-used to live on a moderately
+Yeah. I used to -- I- I- I used
+to live on a moderately
 
-896
+1364
 00:50:01,961 --> 00:50:05,231
 crowded city -- street, for
 Maastricht, I mean, where there
 
-897
+1365
 00:50:05,231 --> 00:50:07,211
 were a bunch of bars, and cafes,
 and things like that. And every
 
-898
-00:50:07,217 --> 00:50:11,742
+1366
+00:50:07,217 --> 00:50:09,479
 single night, people would ...
-fight? But it would fight in Dutch,
+fight? But it would fight in
 
-899
+1367
+00:50:09,479 --> 00:50:11,741
+Dutch,
+
+1368
 00:50:11,771 --> 00:50:15,702
 which was so frustrating. Cuz I
 was so curious. Like, no. Like,
 
-900
-00:50:15,702 --> 00:50:19,782
-seriously. They f- they- they were
-fighting so mm- first of all, so
+1369
+00:50:15,702 --> 00:50:17,742
+seriously. They f- they- they
+were fighting so mm- first of
 
-901
-00:50:19,782 --> 00:50:23,831
-long. Like, you know, you- you- you scream
-at each other for a few seconds [chuckles]
+1370
+00:50:17,742 --> 00:50:19,782
+all, so
 
-902
+1371
+00:50:19,782 --> 00:50:21,806
+long. Like, you know, you- you-
+you scream at each other for a
+
+1372
+00:50:21,806 --> 00:50:23,830
+few seconds [chuckles]
+
+1373
 00:50:23,831 --> 00:50:25,931
 and it go -- but they were
 fighting for so long, and every
 
-903
-00:50:25,931 --> 00:50:30,521
-single night I was so -- that was my main
-motivation to learn Dutch [laughs]. Just
+1374
+00:50:25,931 --> 00:50:28,226
+single night I was so -- that
+was my main motivation to learn
 
-904
+1375
+00:50:28,226 --> 00:50:30,521
+Dutch [laughs]. Just
+
+1376
 00:50:30,521 --> 00:50:33,402
 to understand what- what are
 they fighting about? What is --
 
-905
+1377
 00:50:33,431 --> 00:50:33,972
 Dan: To understand the drama
 [chuckles]?
 
-906
+1378
 00:50:34,331 --> 00:50:35,000
 Bogdan: Yeah. Like, exactly.
 Like [chuckles] --
 
-907
+1379
 00:50:35,000 --> 00:50:36,000
 Dan: All of that.
 
-908
-00:50:36,000 --> 00:50:38,262
-Bogdan: Yeah. But then I moved. So I don't
-have that excitement in my life anymore.
+1380
+00:50:36,000 --> 00:50:37,131
+Bogdan: Yeah. But then I moved.
+So I don't have that excitement
 
-909
-00:50:40,077 --> 00:50:43,137
-Bekah: I feel like I would be tempted
-to record it. And then trying and get
+1381
+00:50:37,131 --> 00:50:38,262
+in my life anymore.
 
-910
+1382
+00:50:40,077 --> 00:50:41,607
+Bekah: I feel like I would be
+tempted to record it. And then
+
+1383
+00:50:41,607 --> 00:50:43,137
+trying and get
+
+1384
 00:50:43,137 --> 00:50:43,827
 it translated [laughs].
 
-911
-00:50:44,322 --> 00:50:46,931
-Bogdan: Translate it after [laughs]?
-Never do that. Maybe I should [chuckles].
+1385
+00:50:44,322 --> 00:50:45,626
+Bogdan: Translate it after
+[laughs]? Never do that. Maybe I
 
-912
+1386
+00:50:45,626 --> 00:50:46,930
+should [chuckles].
+
+1387
 00:50:49,061 --> 00:50:51,161
 I tried that with the doctor's
 office a bunch of times
 
-913
+1388
 00:50:51,161 --> 00:50:53,981
 when they have the number
 pressing things, but it didn't
 
-914
+1389
 00:50:53,981 --> 00:50:54,851
 work that well.
 
-915
+1390
 00:50:55,947 --> 00:50:56,817
 Bekah: Ugh. That's frustrating.
 
-916
+1391
 00:50:57,222 --> 00:50:57,851
 Bogdan: Robot voices, maybe. I
 dunno [chuckles]. Yeah.
 
-917
+1392
 00:50:59,943 --> 00:51:04,653
-Bekah: Okay. So, you've kind
-of like, navigated all over this
+Bekah: Okay. So, you've kind of
+like, navigated all over this
 
-918
+1393
 00:51:04,653 --> 00:51:07,954
 career path. I feel like you've
 done a lot of different things
 
-919
+1394
 00:51:07,954 --> 00:51:11,914
-and have a lot of knowledge.
-And it seems like you're on a
+and have a lot of knowledge. And
+it seems like you're on a
 
-920
-00:51:11,914 --> 00:51:18,378
-path that you're enjoying now. What
-advice do you have for anybody
+1395
+00:51:11,914 --> 00:51:15,146
+path that you're enjoying now.
+What advice do you have for
 
-921
-00:51:18,378 --> 00:51:21,469
+1396
+00:51:15,146 --> 00:51:18,378
+anybody
+
+1397
+00:51:18,378 --> 00:51:19,923
 else that's kind of like
-navigating where they wanna go? I
+navigating where they wanna go?
 
-922
+1398
+00:51:19,923 --> 00:51:21,468
+I
+
+1399
 00:51:21,469 --> 00:51:24,708
-especially think like, there's so
-many people coming into tech
+especially think like, there's
+so many people coming into tech
 
-923
-00:51:24,708 --> 00:51:30,318
+1400
+00:51:24,708 --> 00:51:27,513
 right now. And I think that
-there's this focus on ... you have
+there's this focus on ... you
 
-924
-00:51:30,318 --> 00:51:35,628
+1401
+00:51:27,513 --> 00:51:30,318
+have
+
+1402
+00:51:30,318 --> 00:51:32,973
 to do this one thing. Like, you
-have to do wh-whatever program or
+have to do wh-whatever program
 
-925
+1403
+00:51:32,973 --> 00:51:35,628
+or
+
+1404
 00:51:35,628 --> 00:51:38,599
 whatever self-taught path you
 went on, but there are a lot of
 
-926
-00:51:38,599 --> 00:51:44,434
-different jobs in tech, you know?
-So, what advice — like, based on
+1405
+00:51:38,599 --> 00:51:41,516
+different jobs in tech, you
+know? So, what advice — like,
 
-927
+1406
+00:51:41,516 --> 00:51:44,433
+based on
+
+1407
 00:51:44,434 --> 00:51:47,224
 your journey — would you give to
 people who are like doing that
 
-928
+1408
 00:51:47,224 --> 00:51:49,173
 exploration and trying to break
 in right now?
 
-929
+1409
 00:51:50,978 --> 00:51:54,369
 Bogdan: So, I mean ... without
 adding to the gatekeeping, cuz
 
-930
-00:51:54,373 --> 00:51:57,818
-you know, everybody -- I feel like,
-we all have our ways and things
+1410
+00:51:54,373 --> 00:51:56,095
+you know, everybody -- I feel
+like, we all have our ways and
 
-931
+1411
+00:51:56,095 --> 00:51:57,817
+things
+
+1412
 00:51:57,818 --> 00:52:00,909
 like that. I'm not gatekeeping
 it, but I can- I can talk about
 
-932
-00:52:00,909 --> 00:52:04,958
+1413
+00:52:00,909 --> 00:52:02,933
 like what worked and -- which is
-very tricky as well. Cuz I was- I
+very tricky as well. Cuz I was-
 
-933
-00:52:04,958 --> 00:52:08,498
+1414
+00:52:02,933 --> 00:52:04,957
+I
+
+1415
+00:52:04,958 --> 00:52:06,728
 was actually talking a few days
-ago with someone -- with a person
+ago with someone -- with a
 
-934
+1416
+00:52:06,728 --> 00:52:08,498
+person
+
+1417
 00:52:08,498 --> 00:52:11,708
 that also just started — switch
 from physics to computer science
 
-935
+1418
 00:52:11,708 --> 00:52:16,454
 and now they got an internship.
 And I think it's hard. I --
 
-936
-00:52:16,454 --> 00:52:18,974
+1419
+00:52:16,454 --> 00:52:17,714
 it's hard for me to be in that
-position. And also, I think I ask
+position. And also, I think I
 
-937
+1420
+00:52:17,714 --> 00:52:18,974
+ask
+
+1421
 00:52:18,974 --> 00:52:24,014
-a question about this the
-other day at Virtual Coffee.
+a question about this the other
+day at Virtual Coffee.
 
-938
+1422
 00:52:24,043 --> 00:52:28,724
 Because I- I still feel like,
 everything is so overwhelming
 
-939
+1423
 00:52:28,728 --> 00:52:33,313
-already, and it's so hard to find
-ways to do things. Like, me
+already, and it's so hard to
+find ways to do things. Like, me
 
-940
-00:52:33,313 --> 00:52:38,474
-chipping in with [laughs] things would
-add to that. But I mean, it's- it's-
+1424
+00:52:33,313 --> 00:52:35,893
+chipping in with [laughs] things
+would add to that. But I mean,
 
-941
+1425
+00:52:35,893 --> 00:52:38,473
+it's- it's-
+
+1426
 00:52:38,478 --> 00:52:42,853
-it's very interesting. So
-like my- my- my advice in
+it's very interesting. So like
+my- my- my advice in
 
-942
-00:52:42,858 --> 00:52:47,958
+1427
+00:52:42,858 --> 00:52:45,408
 that regard was -- what I was
-thinking at the moment ... based on
+thinking at the moment ... based
 
-943
-00:52:47,958 --> 00:52:52,773
+1428
+00:52:45,408 --> 00:52:47,958
+on
+
+1429
+00:52:47,958 --> 00:52:50,365
 my school experience and my jobs
-that I had on the way ... is -- and
+that I had on the way ... is --
 
-944
-00:52:52,773 --> 00:52:56,884
-I'm not sure exactly [chuckles] how valid
-it is -- not valid. It's just like, we-
+1430
+00:52:50,365 --> 00:52:52,772
+and
 
-945
-00:52:57,034 --> 00:52:59,373
+1431
+00:52:52,773 --> 00:52:54,828
+I'm not sure exactly [chuckles]
+how valid it is -- not valid.
+
+1432
+00:52:54,828 --> 00:52:56,883
+It's just like, we-
+
+1433
+00:52:57,034 --> 00:52:58,203
 we already have arguments about
-this, right? Like, the way -- the
+this, right? Like, the way --
 
-946
-00:52:59,373 --> 00:53:02,373
+1434
+00:52:58,203 --> 00:52:59,372
+the
+
+1435
+00:52:59,373 --> 00:53:00,873
 right way to start to- to learn
-programming and things like that.
+programming and things like
 
-947
+1436
+00:53:00,873 --> 00:53:02,373
+that.
+
+1437
 00:53:02,373 --> 00:53:05,284
 Oh, should you learn ... React,
 although you don't know
 
-948
+1438
 00:53:05,284 --> 00:53:08,403
 JavaScript or whatever. But what
 I- what I find very interesting
 
-949
-00:53:08,403 --> 00:53:12,213
-about my- my experience is that I
-spent so much time trying to learn
+1439
+00:53:08,403 --> 00:53:10,308
+about my- my experience is that
+I spent so much time trying to
 
-950
-00:53:12,813 --> 00:53:16,143
-things -- fundamental things, which
-of course are very important. I'm
+1440
+00:53:10,308 --> 00:53:12,213
+learn
 
-951
-00:53:16,143 --> 00:53:20,914
-not gonna argue that, will helps us in-
-in- in many, many ways to- to do our
+1441
+00:53:12,813 --> 00:53:14,478
+things -- fundamental things,
+which of course are very
 
-952
+1442
+00:53:14,478 --> 00:53:16,143
+important. I'm
+
+1443
+00:53:16,143 --> 00:53:18,528
+not gonna argue that, will helps
+us in- in- in many, many ways
+
+1444
+00:53:18,528 --> 00:53:20,913
+to- to do our
+
+1445
 00:53:20,918 --> 00:53:25,443
 day jobs, but I didn't have time
 to- to focus, you know, like
 
-953
-00:53:25,443 --> 00:53:30,094
+1446
+00:53:25,443 --> 00:53:27,768
 profess- not professionally, but
-like academically ... on things that
+like academically ... on things
 
-954
-00:53:30,099 --> 00:53:35,284
-I'm actually using at my job. So,
-look. You do need Java- you do-
+1447
+00:53:27,768 --> 00:53:30,093
+that
 
-955
+1448
+00:53:30,099 --> 00:53:32,691
+I'm actually using at my job.
+So, look. You do need Java- you
+
+1449
+00:53:32,691 --> 00:53:35,283
+do-
+
+1450
 00:53:35,434 --> 00:53:38,403
 you do need to know- to know
 JavaScript to- to- to work in
 
-956
+1451
 00:53:38,403 --> 00:53:40,594
 React and things like that. But
 if you spend too much time on
 
-957
-00:53:40,594 --> 00:53:44,224
-that, you'll never -- y-y-you'll-
-you'll get a little bit later to these
+1452
+00:53:40,594 --> 00:53:42,409
+that, you'll never --
+y-y-you'll- you'll get a little
 
-958
-00:53:44,224 --> 00:53:48,664
-things. And y-y-you might, as I did
-it with electrical engineering, I-
+1453
+00:53:42,409 --> 00:53:44,224
+bit later to these
 
-959
+1454
+00:53:44,224 --> 00:53:46,444
+things. And y-y-you might, as I
+did it with electrical
+
+1455
+00:53:46,444 --> 00:53:48,664
+engineering, I-
+
+1456
 00:53:48,664 --> 00:53:51,784
 I- I missed- I missed the
 opportunity to get excited about
 
-960
+1457
 00:53:51,784 --> 00:53:56,974
 it. So I feel like, if we would
 spend so much time on learning
 
-961
-00:53:56,974 --> 00:54:00,949
-the basis of- of JavaScript, and this is not
-[chuckles] advocating me -- this is not me
+1458
+00:53:56,974 --> 00:53:58,961
+the basis of- of JavaScript, and
+this is not [chuckles]
 
-962
-00:54:00,949 --> 00:54:05,298
-advocating for people not to [laughs] learn
-the basics. I'm just saying like, the
+1459
+00:53:58,961 --> 00:54:00,948
+advocating me -- this is not me
 
-963
-00:54:05,298 --> 00:54:10,018
-division of time is very important.
-So, I think ... do-doing --
+1460
+00:54:00,949 --> 00:54:03,123
+advocating for people not to
+[laughs] learn the basics. I'm
 
-964
-00:54:10,248 --> 00:54:14,748
-mainly doing ... I don't know. For
-example, frameworks, and then
+1461
+00:54:03,123 --> 00:54:05,297
+just saying like, the
 
-965
+1462
+00:54:05,298 --> 00:54:07,658
+division of time is very
+important. So, I think ...
+
+1463
+00:54:07,658 --> 00:54:10,018
+do-doing --
+
+1464
+00:54:10,248 --> 00:54:12,498
+mainly doing ... I don't know.
+For example, frameworks, and
+
+1465
+00:54:12,498 --> 00:54:14,748
+then
+
+1466
 00:54:15,438 --> 00:54:19,458
 picking up as a hobby or as a
 second thing, learning the
 
-966
-00:54:19,518 --> 00:54:24,094
-fundamentals that you don't know ...
-would accelerate it a little bit
+1467
+00:54:19,518 --> 00:54:21,806
+fundamentals that you don't know
+... would accelerate it a little
 
-967
-00:54:24,423 --> 00:54:27,094
-more. In the way of -- cuz at the
-end of the day, as- as, you know, as
+1468
+00:54:21,806 --> 00:54:24,094
+bit
 
-968
-00:54:27,094 --> 00:54:30,903
-developers, as engineers, we have
-to- to find solutions and to
+1469
+00:54:24,423 --> 00:54:25,758
+more. In the way of -- cuz at
+the end of the day, as- as, you
 
-969
+1470
+00:54:25,758 --> 00:54:27,093
+know, as
+
+1471
+00:54:27,094 --> 00:54:28,998
+developers, as engineers, we
+have to- to find solutions and
+
+1472
+00:54:28,998 --> 00:54:30,902
+to
+
+1473
 00:54:30,909 --> 00:54:34,954
 build things, right? And we're
 gonna- we're gonna, eventually,
 
-970
-00:54:35,264 --> 00:54:39,784
-in wha- in some setups, you- you get paid
-[chuckles] to- to use the best tools you
+1474
+00:54:35,264 --> 00:54:37,524
+in wha- in some setups, you- you
+get paid [chuckles] to- to use
 
-971
-00:54:39,784 --> 00:54:44,628
-have to build the best things you
-can build. And ... how you get
+1475
+00:54:37,524 --> 00:54:39,784
+the best tools you
 
-972
-00:54:44,634 --> 00:54:47,809
-there, like the- the tools you use
-to get there, I feel like they're
+1476
+00:54:39,784 --> 00:54:42,206
+have to build the best things
+you can build. And ... how you
 
-973
+1477
+00:54:42,206 --> 00:54:44,628
+get
+
+1478
+00:54:44,634 --> 00:54:46,221
+there, like the- the tools you
+use to get there, I feel like
+
+1479
+00:54:46,221 --> 00:54:47,808
+they're
+
+1480
 00:54:47,809 --> 00:54:51,559
 more important than the things
 that I spent a lot of time
 
-974
+1481
 00:54:51,739 --> 00:54:55,909
 learning in, you know, all these
 formal setups, which was great.
 
-975
-00:54:55,909 --> 00:54:59,059
-I'm not [chuckles] denying that. But I
-just thinking out loud. I think that
+1482
+00:54:55,909 --> 00:54:57,484
+I'm not [chuckles] denying that.
+But I just thinking out loud. I
 
-976
-00:54:59,063 --> 00:55:05,358
-was the things focusing on tools, and
-then learning the- the- the basics
+1483
+00:54:57,484 --> 00:54:59,059
+think that
 
-977
-00:55:05,358 --> 00:55:09,619
-and fundamentals as- as we go. Cuz
-I think that would help us, you
+1484
+00:54:59,063 --> 00:55:02,210
+was the things focusing on
+tools, and then learning the-
 
-978
-00:55:09,623 --> 00:55:14,583
-know, get a little bit more creative
-[chuckles]. I think. I dunno. I
+1485
+00:55:02,210 --> 00:55:05,357
+the- the basics
 
-979
-00:55:14,583 --> 00:55:18,273
-dunno if it makes sense [laughs].
-But that's what I was thinking about
+1486
+00:55:05,358 --> 00:55:07,488
+and fundamentals as- as we go.
+Cuz I think that would help us,
 
-980
+1487
+00:55:07,488 --> 00:55:09,618
+you
+
+1488
+00:55:09,623 --> 00:55:12,103
+know, get a little bit more
+creative [chuckles]. I think. I
+
+1489
+00:55:12,103 --> 00:55:14,583
+dunno. I
+
+1490
+00:55:14,583 --> 00:55:16,428
+dunno if it makes sense
+[laughs]. But that's what I was
+
+1491
+00:55:16,428 --> 00:55:18,273
+thinking about
+
+1492
 00:55:18,273 --> 00:55:18,724
 the other day.
 
-981
-00:55:19,548 --> 00:55:22,188
+1493
+00:55:19,548 --> 00:55:20,868
 Bekah: No, I think that makes
-total sense. And I think that's a
+total sense. And I think that's
 
-982
-00:55:22,193 --> 00:55:25,518
-great way to end the episode. So,
-I wanna thank you, Bogdan, for
+1494
+00:55:20,868 --> 00:55:22,188
+a
 
-983
+1495
+00:55:22,193 --> 00:55:23,855
+great way to end the episode.
+So, I wanna thank you, Bogdan,
+
+1496
+00:55:23,855 --> 00:55:25,517
+for
+
+1497
 00:55:25,523 --> 00:55:28,639
 being here with us today. We
 really enjoyed having this
 
-984
+1498
 00:55:28,639 --> 00:55:29,418
 conversation with you.
 
-985
+1499
 00:55:30,454 --> 00:55:31,000
-Bogdan: Thank you. Very --
-thank you very much-
+Bogdan: Thank you. Very -- thank
+you very much-
 
-986
+1500
 00:55:31,000 --> 00:55:32,000
 Dan: Thanks, Bogdan.
 
-987
-00:55:32,000 --> 00:55:36,603
-Bogdan: -for having me. And it's very --
-yeah. Very nice to- to be here. Thank you.
+1501
+00:55:32,000 --> 00:55:34,301
+Bogdan: -for having me. And it's
+very -- yeah. Very nice to- to
 
-988
+1502
+00:55:34,301 --> 00:55:36,602
+be here. Thank you.
+
+1503
 00:55:40,567 --> 00:55:42,666
 Dan: Thank you for listening to
 this episode of the Virtual
 
-989
+1504
 00:55:42,666 --> 00:55:46,413
 Coffee podcast. This episode was
 produced by Dan Ott and Bekah
 
-990
-00:55:46,413 --> 00:55:49,193
+1505
+00:55:46,413 --> 00:55:47,803
 Hawrot Weigel. If you have
-questions or comments, you can hit
+questions or comments, you can
 
-991
+1506
+00:55:47,803 --> 00:55:49,193
+hit
+
+1507
 00:55:49,193 --> 00:55:52,202
 us up on Twitter at
 VirtualCoffeeIO, or email us at
 
-992
-00:55:52,202 --> 00:55:55,672
-podcast@virtualcoffee.io. You can
-find the show notes, sign up for
+1508
+00:55:52,202 --> 00:55:53,937
+podcast@virtualcoffee.io. You
+can find the show notes, sign up
 
-993
+1509
+00:55:53,937 --> 00:55:55,672
+for
+
+1510
 00:55:55,672 --> 00:55:57,713
-the newsletter, check out any
-of our other resources on our
+the newsletter, check out any of
+our other resources on our
 
-994
+1511
 00:55:57,713 --> 00:56:01,103
 website, virtualcoffee.io. If
 you're interested in sponsoring
 
-995
+1512
 00:56:01,103 --> 00:56:03,503
 Virtual Coffee, you can find out
 more information on our website
 
-996
+1513
 00:56:03,773 --> 00:56:08,213
 at virtualcoffee.io/sponsorship.
 Please subscribe to our podcast
 
-997
-00:56:08,242 --> 00:56:11,452
-and be sure to leave us a review.
-Thanks for listening and we'll
+1514
+00:56:08,242 --> 00:56:09,847
+and be sure to leave us a
+review. Thanks for listening and
 
-998
+1515
+00:56:09,847 --> 00:56:11,452
+we'll
+
+1516
 00:56:11,452 --> 00:56:12,293
 see you next week!
