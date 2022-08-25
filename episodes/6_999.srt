@@ -1,7 +1,7 @@
 1
 00:00:08,294 --> 00:00:11,925
-Bekah: Hello and welcome
-to Season 6 of the
+Bekah Hawrot Weigel: Hello and
+welcome to Season 6 of the
 
 2
 00:00:11,925 --> 00:00:15,824
@@ -10,142 +10,244 @@ We are live and in person
 
 3
 00:00:13,214 --> 00:00:21,089
-at Kansas city developers.
-This should be our 50th 50th
+at Kansas City Developers
+Conference. This should be our
 
 4
-00:00:16,739 --> 00:00:24,089
-episode of the podcast, but we
-had some technical difficulties
+00:00:16,739 --> 00:00:21,000
+50th- 50th episode of the
+podcast, but we had some
+
+4
+00:00:21,000 --> 00:00:23,000
+technical difficulties and-
 
 5
-00:00:21,089 --> 00:00:27,149
-and this is the 49th.
-This is the 49th, but we're
+00:00:23,000 --> 00:00:24,089
+Dan Ott: This is the 49th.
+
+5
+00:00:24,089 --> 00:00:27,149
+Bekah: This is the 49th. But
+we're
 
 6
-00:00:24,629 --> 00:00:28,559
+00:00:24,629 --> 00:00:27,000
 gonna pretend like it's very
-special and that it is the 50th.
+special-
+
+7
+00:00:27,000 --> 00:00:27,000
+Dan: I mean --
+
+8
+00:00:27,000 --> 00:00:28,559
+Bekah: -and that it is the 50th.
 
 7
 00:00:28,559 --> 00:00:30,719
-Dan: Sure. Yeah.
-Well, if we publish it, yeah.
+Dan Ott: Sure. Yeah.
+Well, if we publish it-
+
+8
+00:00:30,719 --> 00:00:30,725
+Bekah: Yeah.
 
 8
 00:00:30,725 --> 00:00:31,230
-After then it
+Dan: -after, then it will --
 
 9
 00:00:31,230 --> 00:00:33,570
-Bekah: will.
-So this is definitely
+Bekah: So this is definitely
 
 10
 00:00:31,530 --> 00:00:36,990
-the 50th episode of the
-Virtual Coffee podcast. And
+the 50th episode of the Virtual
+Coffee podcast [laughs]. And --
 
 11
 00:00:39,659 --> 00:00:40,320
-Dan: here with me today,
+Dan: Here with me today --
 
 12
-00:00:41,054 --> 00:00:45,390
-Bekah: here with me
-today is my cohost. Wuddup, Bek?
+00:00:41,054 --> 00:00:43,000
+Bekah: [Laughs] Here with me
+today is my cohost, Dan.
+
+00:00:44,000 --> 00:00:45,659
+Dan: Wwwuddup, Bek? How's it
+going?
 
 13
-00:00:45,659 --> 00:00:47,729
-How's it going? Hey, it's going?
-Yeah, it's going good.
+00:00:45,659 --> 00:00:46,700
+Bekah: Hey, it's going --
 
 14
-00:00:47,729 --> 00:00:50,130
-Done with my talk and I'm
-very happy to, she did great.
+00:00:47,000 --> 00:00:47,200
+Dan: Yeah?
 
 15
-00:00:50,310 --> 00:00:52,679
-I, it wasn't my best performance.
+00:00:47,200 --> 00:00:47,729
+Bekah: It's going good.
+
+14
+00:00:47,729 --> 00:00:49,000
+Done with my talk, and I'm
+very happy to --
+
+15
+00:00:49,000 --> 00:00:50,130
+Dan: She did great.
+
+15
+00:00:50,310 --> 00:00:52,000
+Bekah: I -- it [crosstalk]
+wasn't my best [crosstalk]
 
 16
-00:00:52,710 --> 00:00:54,659
-Dan: No, it was good. No, I saw
+00:00:52,000 --> 00:00:52,679
+performance.
 
 17
-00:00:54,664 --> 00:00:56,939
-Bekah: it. It happened.
-You didn't see it. It was okay.
+00:00:51,000 --> 00:00:53,700
+Dan: Yeah. Yeah. No, it was
+good.
+
+17
+00:00:53,700 --> 00:00:54,000
+Bekah: No.
 
 18
-00:00:57,570 --> 00:00:59,700
-You can't.
-So people got up and left
+00:00:54,000 --> 00:00:54,659
+Dan: I saw it. You didn't-
+
+17
+00:00:54,664 --> 00:00:55,000
+Bekah: It happened.
+
+18
+00:00:55,000 --> 00:00:56,000
+Dan: -you didn't see it.
+
+19
+00:00:56,000 --> 00:00:56,939
+Bekah: It was okay.
+
+18
+00:00:57,570 --> 00:00:58,000
+Dan: You can't --
+
+19
+00:00:58,000 --> 00:00:59,700
+Bekah: So people got up and left
 
 19
 00:00:57,780 --> 00:01:01,590
 during my talk and then
-I, it was very thrown off.
+I -- it was very thrown off.
 
 20
-00:01:01,594 --> 00:01:02,729
-I feel like they just,
-and I said something that
+00:01:01,594 --> 00:01:02,000
+Dan: I feel like they just --
 
 21
-00:01:02,729 --> 00:01:07,140
-was funny and nobody left.
-I left and then I was
+00:01:02,000 --> 00:01:03,300
+Bekah: And I said something that
+was funny and nobody laughed.
+
+22
+00:01:03,300 --> 00:01:04,000 
+Dan: I laughed.
+
+23
+00:01:04,000 --> 00:01:04,219
+Bekah: And then I was
 
 22
 00:01:04,219 --> 00:01:07,439
-like, I'm not really. funny.
+like, "Oh. I'm not really
+funny [chuckles]."
 
 23
 00:01:10,980 --> 00:01:13,319
-Dan: Yeah, Bekah did a
+Dan: Yeah. Bekah did a
 great job at her at talk.
 
 24
-00:01:13,469 --> 00:01:15,659
-Todd, I did an okay.
-Talk another Virtual
+00:01:13,469 --> 00:01:13,900
+Todd, we-
+
+24
+00:01:13,900 --> 00:01:14,370
+Bekah: I did an okay talk.
 
 25
-00:01:14,370 --> 00:01:17,609
-Coffee member. Todd.
-I saw his talk
+00:01:14,370 --> 00:01:16,019
+Dan: -another Virtual Coffee
+member, Todd, I saw his talk
 
 26
 00:01:16,019 --> 00:01:18,900
 right before yours.
 That was also really good.
 
+00:01:18,900 --> 00:01:19,790
+Bekah: Yeah.
+
 27
-00:01:19,790 --> 00:01:23,819
-But Tom cud is
-Tom's is tomorrow.
+00:01:19,790 --> 00:01:22,000
+Dan: But Tom Cudd is-
 
 28
-00:01:23,825 --> 00:01:30,420
-I think Who else? Krista Mars.
-Chris is now I think
+00:01:22,000 --> 00:01:23,000
+Bekah: Tom is --
 
 29
-00:01:27,930 --> 00:01:35,250
-actually, yeah. Sorry Chris.
-Yeah. Yeah,
+00:01:23,000 --> 00:01:23,825
+Dan: -to- tomorrow, I think.
 
 30
-00:01:35,549 --> 00:01:39,599
-Bekah: Hmm. this has been good.
-We got up and got to do in
+00:01:23,825 --> 00:01:24,700
+Bekah: Tomorrow.
+
+28
+00:01:24,700 --> 00:01:25,000
+Dan: Who else?
+
+00:01:26,000 --> 00:01:27,000
+Bekah: Chris DeMars.
+
+00:01:27,930 --> 00:01:29,000
+Dan: Chris is now, I think,
+
+29
+00:01:29,000 --> 00:01:30,420
+actually [chuckles].
+
+30
+00:01:30,420 --> 00:01:30,700
+Bekah: Yeah.
 
 31
-00:01:36,510 --> 00:01:40,620
-person coffee this morning,
+00:01:30,700 --> 00:01:31,200
+Dan: Sorry, Chris.
+
+32
+00:01:31,500 --> 00:01:32,000
+Bekah: Yeah.
+
+00:01:34,000 --> 00:01:34,000
+Dan: Yeah.
+
+30
+00:01:35,549 --> 00:01:38,000
+Bekah: Yeah. This has been good.
+We got up and got to do
+
+31
+00:01:38,000 --> 00:01:40,620
+in-person coffee this morning,
 which was a lot of fun.
 
 32
@@ -154,72 +256,106 @@ And now we're gonna be answering
 some of the questions that
 
 33
-00:01:44,310 --> 00:01:48,750
-you all submitted and I think,
-yeah, we'll do it start. Yeah,
+00:01:44,310 --> 00:01:47,300
+you all submitted. And I think-
+
+00:01:47,000 --> 00:01:47,300
+Dan: Yeah!
+
+00:01:47,700 --> 00:01:48,750
+Bekah: -we'll do it soon.
 
 34
-00:01:48,750 --> 00:01:52,650
-Dan: we
-were supposed to do this live,
+00:01:48,750 --> 00:01:49,700
+Dan: Yeah! We
+were supposed to do this live.
 
 35
-00:01:48,840 --> 00:01:53,909
-but there's no wifi here.
+00:01:49,700 --> 00:01:53,909
+But ... there's no wifi here.
 That's good. So we're recording.
 
 36
-00:01:53,909 --> 00:01:55,680
-and We're gonna publish it. Yes.
-In a little bit.
+00:01:53,909 --> 00:01:54,000
+We're gonna publish it.
 
 37
-00:01:56,459 --> 00:02:01,349
-Bekah: Yeah. So sometime.
-Ready to get started with
+00:01:54,000 --> 00:01:55,000
+Bekah: Yes.
 
 38
-00:01:59,340 --> 00:02:03,540
-some questions, I guess.
-So, so we've got some
+00:01:55,000 --> 00:01:55,680
+Dan: In a little bit.
+
+37
+00:01:56,459 --> 00:01:57,300
+Bekah: Yeah. So --
+
+38
+00:01:57,300 --> 00:01:58,000
+Dan: Some time.
 
 39
-00:02:01,489 --> 00:02:06,120
-anonymous questions.
-I've only viewed one of
+00:01:58,000 --> 00:01:59,000
+Bekah: Alright.
 
 40
-00:02:03,540 --> 00:02:07,530
-them and the others we
+00:01:59,000 --> 00:01:59,500
+Dan: Alright.
+
+41
+00:01:59,500 --> 00:02:01,349
+Bekah: Ready to get started
+with some questions?
+
+38
+00:02:01,349 --> 00:02:01,800
+Dan: I guess so.
+
+00:02:01,800 --> 00:02:03,540
+Bekah: So, so we've got some
+anonymous questions.
+
+39
+00:02:03,540 --> 00:02:05,000
+I've only viewed one of them
+
+40
+00:02:05,000 --> 00:02:07,530
+and the others we
 have not viewed at all.
 
 41
-00:02:07,534 --> 00:02:12,270
+00:02:07,534 --> 00:02:10,000
 So we'll see what those are.
 And we have some that are
 
 42
-00:02:09,000 --> 00:02:14,009
+00:02:10,000 --> 00:02:13,500
 not anonymous and we'll
-go through those as well. okay.
+go through those as well.
 
 43
-00:02:14,639 --> 00:02:19,289
-The, the first question is
-an anonymous one and it is
+00:02:13,500 --> 00:02:15,000
+Dan: Okay. Sounds good.
+
+43
+00:02:14,009 --> 00:02:19,289
+Bekah: The- the first question
+is an anonymous one. And it is,
 
 44
 00:02:19,710 --> 00:02:21,060
 what time do you go to sleep?
 
 45
-00:02:21,930 --> 00:02:27,030
+00:02:21,930 --> 00:02:25,000
 Dan: Hmm.
 I try to go to sleep like
 
 46
-00:02:23,159 --> 00:02:27,030
-10 ish most days, you know,
+00:02:25,000 --> 00:02:27,030
+10-ish most days, you know?
 
 47
 00:02:28,004 --> 00:02:31,724
@@ -228,117 +364,149 @@ that's also what I go for.
 
 48
 00:02:31,814 --> 00:02:36,465
-Last night we said we
+Last night, we said we
 would go to sleep at 11.
 
 49
 00:02:36,469 --> 00:02:37,995
-Well, you said that I
-never promised that. Okay.
+Dan: Well, you said that. I
+never promised anything.
 
 50
 00:02:38,000 --> 00:02:41,115
-Well, I said, Dan, I'll
-meet you from 10 to 11 mm-hmm
+Bekah: Okay. Well, I said, Dan,
+I'll meet you from 10 to 11-
 
 51
-00:02:41,594 --> 00:02:42,854
-and then we stayed up
+00:02:41,115 --> 00:02:41,594
+Dan: Mm-hmm.
+
+51
+00:02:41,594 --> 00:02:43,000
+Bekah: -and then we stayed up
+later.
 
 52
-00:02:42,854 --> 00:02:46,125
-Dan: later.
-Yeah, well, we had catching
+00:02:43,000 --> 00:02:44,500
+Dan:  Yep. Well, we had
+catching
 
 53
-00:02:43,395 --> 00:02:49,604
+00:02:44,500 --> 00:02:47,700
 up to do and my plane
-got delayed to infinity
+got delayed to infinity.
 
 54
-00:02:46,125 --> 00:02:51,314
-and so I finally made it. Yeah.
-And
+00:02:47,700 --> 00:02:49,700
+And so, I finally made it.
 
 55
-00:02:51,314 --> 00:02:53,775
-Bekah: bekah,
-and then somebody challenged
+00:02:50,000 --> 00:02:51,314
+Bekah: Yeah.
+
+55
+00:02:51,314 --> 00:02:51,700
+Dan: And Bekah --
+
+00:02:51,700 --> 00:02:53,775
+Bekah: And then somebody
+challenged
 
 56
-00:02:51,675 --> 00:02:56,205
+00:02:53,775 --> 00:02:56,205
 my ability to weight lift.
-then I, I had to take
+And ... then I- I had to take
 
 57
 00:02:56,205 --> 00:02:56,715
-care of that. Was
+care of that.
 
 58
-00:02:56,805 --> 00:02:59,205
-Dan: it challenging your ability.
-He was challenging, like
+00:02:56,805 --> 00:02:57,000
+Dan: Well, he wasn't
+challenging your ability.
+
+00:02:57,000 --> 00:02:57,900
+He was challenging, like,
 
 59
-00:02:57,405 --> 00:03:00,854
+00:02:57,900 --> 00:02:59,500
 your form, which is, I
-think even more ridiculous. is
+think even more-
 
 60
-00:03:00,854 --> 00:03:05,294
-Bekah: this, how do you show
-me how you, how dare you, first
+00:02:59,500 --> 00:02:59,700
+Bekah: Yeah!
+
+61
+00:02:59,700 --> 00:03:00,854
+Dan: -ridiculous. He was
+like [inaudible] --
+
+60
+00:03:00,854 --> 00:03:02,500
+Bekah: He was like, "Is this --
+how do you -- show me how
+
+61
+00:03:02,500 --> 00:03:05,294
+you..." How dare you? First
+of all [chuckles] --
 
 61
 00:03:05,294 --> 00:03:07,514
-Dan: of all,
-I just don't think he knew who
+Dan: [Laughs] I just don't
+think he knew who
 
 62
-00:03:05,625 --> 00:03:08,365
-he was talking to, you know? No.
-Yeah,
+00:03:05,625 --> 00:03:07,500
+he was talking to, you know?
+
+63
+00:03:07,500 --> 00:03:07,800
+Bekah: No.
+
+64
+00:03:08,000 --> 00:03:08,365
+Dan: Yeah.
 
 63
 00:03:08,985 --> 00:03:11,115
-Bekah: yeah. Don't challenge my
-weightlift form.
+Bekah: Yeah. Don't challenge
+my weightlift form.
 
 64
 00:03:11,115 --> 00:03:12,604
 Don't mansplain my
+deadlift.
 
 65
 00:03:12,645 --> 00:03:15,854
-Dan: especially not
-at 1145 a night at a, at a bar.
-
-66
-00:03:16,004 --> 00:03:16,335
-Yeah.
+Dan: Especially not at 11.45
+a night at a- at a- at a bar.
 
 67
-00:03:16,634 --> 00:03:18,944
-Bekah: Yeah.
+00:03:16,004 --> 00:03:18,944
+Bekah: Yeah. Yeah.
 It all ended peacefully though.
 
 68
 00:03:18,944 --> 00:03:20,985
-I am happy to report. I She
+I am happy to report. I did --
 
 69
-00:03:20,985 --> 00:03:24,615
-Dan: deadlifted that guy.
-And then, You know,
+00:03:20,985 --> 00:03:23,000
+Dan: Yep. She deadlifted that
+guy. And then, you know,
 
 70
-00:03:22,335 --> 00:03:24,615
-threw him into the
+00:03:23,000 --> 00:03:25,000
+threw him into the street? I
+don't know [laughs].
 
 71
-00:03:24,615 --> 00:03:26,354
-Bekah: street. out her Uhhuh.
-Yep, exactly.
+00:03:25,000 --> 00:03:26,354
+Bekah: Uh-huh. Yep, exactly.
 
 72
 00:03:26,354 --> 00:03:28,694
@@ -348,94 +516,131 @@ I did not.
 73
 00:03:28,694 --> 00:03:33,074
 I was very kind to him.
-Maybe I can't promise. Okay.
+Maybe. I can't promise. Okay.
 
 74
-00:03:33,224 --> 00:03:38,655
+00:03:33,224 --> 00:03:36,000
 All right. Alright.
-Let me, let's go with the
+Let me -- let's go with the
 
 75
-00:03:33,974 --> 00:03:38,715
-anonymous questions first. who
+00:03:36,000 --> 00:03:38,715
+anonymous questions first.
 
 76
-00:03:38,925 --> 00:03:40,455
-Dan: wait, was that
+00:03:38,715 --> 00:03:40,455
+Dan: Wait. Who? Wait. Was that
 first one anonymous?
 
 77
-00:03:40,460 --> 00:03:44,699
+00:03:40,460 --> 00:03:41,300
 Bekah: That was an anonymous one.
-It was in your Yeah, because I
 
-78
-00:03:43,110 --> 00:03:47,430
-wrote it down before. Okay.
-Oh, you looked at, because I was
+00:03:41,300 --> 00:03:42,000
+Dan: It was in your notebook?
+
+00:03:42,000 --> 00:03:44,600
+Bekah: Yeah, because I
+wrote it down before, okay?
+
+00:03:44,600 --> 00:03:46,000
+Dan: Oh, you looked and-
+
+00:03:46,000 --> 00:03:46,500
+Bekah: Cuz I was-
+
+00:03:46,000 --> 00:03:47,000
+Dan: -wrote it down. Okay.
 
 79
-00:03:45,069 --> 00:03:49,800
-afraid it was gonna disappear.
-I never used this
+00:03:46,500 --> 00:03:47,430
+Bekah: -afraid it was gonna
+disappear. I never used this
 
 80
-00:03:47,430 --> 00:03:51,659
+00:03:47,430 --> 00:03:50,600
 anonymous app thing before.
 And so I wasn't sure,
 
 81
-00:03:49,800 --> 00:03:52,800
-like I opened it now,
+00:03:50,600 --> 00:03:52,800
+like, I opened it, now,
 is this like Snapchat?
 
 82
 00:03:52,800 --> 00:03:55,949
 And it goes away after
-50 seconds or something.
+50 seconds or something?
 
 83
-00:03:56,460 --> 00:03:58,560
+00:03:56,460 --> 00:03:57,000
 I'm not sure how Snapchat works.
-Yeah. Technology. I have no idea.
+
+84
+00:03:57,000 --> 00:03:58,560
+Dan: Yeah. Technology. I have
+no idea.
 
 84
 00:03:59,129 --> 00:04:02,219
-All right. So I hope that these
-are all appropriate.
+Bekah: All right. So I hope that
+these are all ... appropriate.
 
 85
-00:04:04,110 --> 00:04:09,930
-well that one says Netflix
-and chill, so, well, Hey,
+00:04:04,110 --> 00:04:09,000
+Well, that one says Netflix
+and chill, so --
 
 86
-00:04:10,169 --> 00:04:15,224
-that's just, there we go.
-Please give me pickup lines.
+00:04:09,000 --> 00:04:09,930
+Dan: Well, hey.
+
+86
+00:04:10,169 --> 00:04:10,700
+Bekah: That's --
 
 87
-00:04:15,224 --> 00:04:16,454
-That always work
+00:04:10,700 --> 00:04:11,000
+Dan: Just --
 
 88
-00:04:18,165 --> 00:04:20,954
-Dan: well, that's not a question.
-So that's a demand.
+00:04:11,000 --> 00:04:12,000
+Bekah: There we go.
+
+00:04:12,000 --> 00:04:12,300
+Dan: Nope.
+
+00:04:13,000 --> 00:04:16,454
+Bekah: Please give me pickup
+lines that always work [laughs].
+
+88
+00:04:18,165 --> 00:04:20,000
+Dan: Well, that's not a
+question. So --
 
 89
-00:04:20,954 --> 00:04:24,404
-We don't, they failed, they
-failed the, we don't negotiate.
+00:04:20,000 --> 00:04:21,000
+Bekah: That's a demand. We
+don't-
+
+90
+00:04:21,000 --> 00:04:23,000
+Dan: They failed- they
+failed the --
+
+91
+00:04:23,000 --> 00:04:24,404
+Bekah: We don't negotiate.
 
 90
 00:04:25,875 --> 00:04:27,254
-I mean, just read
-the instructions. People.
+Dan: I mean, just read
+the instructions, people.
 
 91
-00:04:27,254 --> 00:04:30,194
-It's not hard.
+00:04:27,254 --> 00:04:28,245
+[Bekah chuckles] It's not hard.
 We were looking for
 
 92
@@ -443,23 +648,23 @@ We were looking for
 questions, not demands.
 
 93
-00:04:30,675 --> 00:04:35,355
-Bekah: All right, here we go.
+00:04:30,675 --> 00:04:33,700
+Bekah: All right. Here we go.
 What extra work goes
 
 94
-00:04:32,324 --> 00:04:38,774
+00:04:33,700 --> 00:04:37,000
 into landing a full-time
 international remote role
 
 95
-00:04:35,384 --> 00:04:42,689
+00:04:37,000 --> 00:04:40,500
 as a first role out of
-web dev bootcamp, with no
+webdev bootcamp, with no
 
 96
-00:04:38,774 --> 00:04:44,399
-prior developer experience.
+00:04:40,500 --> 00:04:44,399
+prior developer experience?
 That's a really good question.
 
 97
@@ -468,58 +673,58 @@ I feel like this is
 something that we talk a
 
 98
-00:04:46,110 --> 00:04:51,240
+00:04:46,110 --> 00:04:49,700
 lot about at Virtual Coffee.
-Maybe not so much the landing,
+Maybe not so much the landing
 
 99
-00:04:47,490 --> 00:04:54,089
+00:04:49,700 --> 00:04:52,700
 an international remote
 role, because that's a
 
 100
-00:04:51,300 --> 00:04:57,329
+00:04:52,700 --> 00:04:56,000
 little bit more challenging.
 Not all companies can work
 
 101
-00:04:54,089 --> 00:05:01,290
-internationally, so you really
+00:04:56,000 --> 00:04:58,700
+internationally. So you really
 need to narrow it down to
 
 102
-00:04:57,329 --> 00:05:03,720
+00:04:58,700 --> 00:05:03,720
 see what companies allow for
-international remote work. Right.
+international remote work.
 
 103
-00:05:05,279 --> 00:05:07,889
-Dan: yeah.
-And, and, and those points
+00:05:03,720 --> 00:05:07,000
+Dan: Right. Yeah.
+And- and- and those points
 
 104
-00:05:05,490 --> 00:05:11,579
-you're gonna have to start.
-looking And see if the companies
+00:05:07,000 --> 00:05:09,700
+you're gonna have to start
+looking and see if the companies
 
 105
-00:05:07,889 --> 00:05:13,800
-have like supported visa stuff
+00:05:09,700 --> 00:05:12,800
+have, like, supported visa stuff
 and, you know, lawyers to
 
 106
-00:05:11,579 --> 00:05:17,850
+00:05:12,800 --> 00:05:15,800
 help you, things like that.
-There's a lot of like laws
+There's a lot of like ... laws
 
 107
-00:05:14,100 --> 00:05:20,310
+00:05:15,800 --> 00:05:19,000
 and rules and things that
-can come into play, I think
+can come into play, I think,
 
 108
-00:05:17,850 --> 00:05:20,550
-with international stuff. Right.
+00:05:19,000 --> 00:05:20,550
+with international stuff, right?
 
 109
 00:05:20,670 --> 00:05:21,540
@@ -527,22 +732,22 @@ Bekah: Yeah, for sure.
 
 110
 00:05:22,050 --> 00:05:25,319
-Dan: But if you set that,
+Dan: But if you set that-
 that part of it aside
 
 111
-00:05:25,319 --> 00:05:28,350
-a little bit, right.
+00:05:25,319 --> 00:05:26,800
+a little bit, right?
 What kind of stuff can we
 
 112
-00:05:26,129 --> 00:05:30,254
-do coming out of bootcamp
-to like land your first job?
+00:05:26,800 --> 00:05:30,254
+do, coming out of bootcamp,
+to, like, land your first job?
 
 113
 00:05:30,435 --> 00:05:33,045
-Bekah: Yeah, I was just talking
+Bekah: Yeah. I was just talking
 to someone about this recently.
 
 114
@@ -551,44 +756,56 @@ She's gonna be learning how
 to code in a couple of months.
 
 115
-00:05:35,685 --> 00:05:42,884
-She's a mom of a couple of. kids.
-And I, I think that once you're
+00:05:35,685 --> 00:05:41,000
+She's a- a mom of a couple of
+kids. And I- I think that once
 
 116
-00:05:38,175 --> 00:05:45,464
-getting close to applying
+00:05:41,000 --> 00:05:44,000
+you're getting close to applying
 for jobs, working with other
 
 117
-00:05:42,884 --> 00:05:47,564
+00:05:44,000 --> 00:05:46,500
 people and building projects
 together is something that
 
 118
-00:05:45,464 --> 00:05:49,964
+00:05:46,500 --> 00:05:47,700
 can really help you stand
-apart because there's a lot
+apart-
 
 119
-00:05:47,564 --> 00:05:53,399
-of people coming out of boot
-camps right But a lot of them
+00:05:47,700 --> 00:05:48,000
+Dan: Yeah.
 
 120
-00:05:49,964 --> 00:05:55,319
+00:05:48,000 --> 00:05:49,000
+Bekah: -because there's a lot
+
+119
+00:05:49,000 --> 00:05:51,700
+of people coming out of
+bootcamps right now. But a lot
+
+120
+00:05:51,700 --> 00:05:52,000
+of them
+
+120
+00:05:52,000 --> 00:05:55,319
 have experience where they've
 just worked on their own stuff.
 
 121
 00:05:55,319 --> 00:05:57,060
 They haven't worked
-collaboratively.
+collaboratively,
 
 122
 00:05:57,269 --> 00:06:00,120
-They don't communicate
-aloud with other. developers.
+they don't communicate
+aloud with other developers.
 
 123
 00:06:00,360 --> 00:06:02,310
@@ -596,19 +813,19 @@ And when you're going into those
 interviews, you're going to have
 
 124
-00:06:02,310 --> 00:06:06,180
+00:06:02,310 --> 00:06:04,700
 to communicate aloud about code.
 And that can be, I know
 
 125
-00:06:04,019 --> 00:06:06,990
+00:06:04,700 --> 00:06:06,990
 for me, that was a really
 hard learning curve.
 
 126
 00:06:06,995 --> 00:06:11,220
 I was not good at speaking
-code words out loud,
+code words out loud.
 
 127
 00:06:11,220 --> 00:06:12,540
@@ -616,68 +833,70 @@ Dan: Speaking code
 words out loud. Yeah.
 
 128
-00:06:12,610 --> 00:06:14,519
-Bekah: Mm-hmm ,
-Dan: I mean, that's a
+00:06:12,610 --> 00:06:13,000
+Bekah: Mm-hmm.
+
+00:06:13,000 --> 00:06:14,519
+Dan: I mean, that's a silly way
+to say that.
 
 129
-00:06:14,519 --> 00:06:16,769
-but like, I think that
-so I told you
+00:06:14,519 --> 00:06:15,000
+But like, I think that --
 
-130
-00:06:15,629 --> 00:06:16,769
-I wasn't good at it.
+00:06:15,000 --> 00:06:16,769
+Bekah: So I told you I wasn't
+good at it.
 
 131
 00:06:17,129 --> 00:06:18,899
-Dan: I, I mean, I
+Dan: I- I mean, I
 totally agree with that.
 
 132
 00:06:18,899 --> 00:06:22,050
-I, I, mean, I'm always a
-proponent building things,
+I- I mean, I- I'm always a
+proponent of like building things,
 
 133
-00:06:22,110 --> 00:06:25,560
+00:06:22,110 --> 00:06:24,500
 you know, as a way to learn.
 And I think, yeah, I think
 
 134
-00:06:23,459 --> 00:06:28,439
+00:06:24,500 --> 00:06:26,500
 building something with
 other people is also very
 
 135
-00:06:25,560 --> 00:06:31,370
-important, skill.
-to like Start to it.
+00:06:26,500 --> 00:06:31,370
+important ... skill to like --
+start to -- it-
 
 136
 00:06:31,375 --> 00:06:33,269
-It Doesn't always like,
-isn't always taught, right.
+it doesn't always like --
+isn't always taught, right?
 
 137
 00:06:33,269 --> 00:06:34,259
-It Isn't always
+It isn't always
 taught in a classroom.
 
 138
 00:06:34,379 --> 00:06:37,139
-I know that like, lots of
+I- I know that, like, lots of
 bootcamps do have collaborative
 
 139
 00:06:37,144 --> 00:06:40,439
-projects It's part of their
-curriculum, but, it's a
+projects. It's part of their
+curriculum. But it's a
 
 140
 00:06:40,439 --> 00:06:42,300
 little different, I suppose,
-when it's not a school
+when it's not a school-
 
 141
 00:06:43,040 --> 00:06:43,170
@@ -685,58 +904,58 @@ Bekah: Yeah.
 
 142
 00:06:43,170 --> 00:06:44,639
-Dan: Project or, you
-know, bootcamp, whatever
+Dan: -project or, you
+know, bootcamp, whatever --
 
 143
-00:06:44,639 --> 00:06:49,500
+00:06:44,639 --> 00:06:48,000
 a classroom situation.
-But yeah, like learning
+But yeah, like, learning --
 
 144
-00:06:46,740 --> 00:06:51,839
-that that's like one of the,
+00:06:48,000 --> 00:06:50,000
+that- that's like one of the --
 especially if you're hiring a
 
 145
-00:06:49,500 --> 00:06:53,399
+00:06:50,000 --> 00:06:52,000
 junior role like that, where
-you're gonna be interviewing
+you're gonna be interviewing --
 
 146
-00:06:51,839 --> 00:06:55,800
+00:06:52,000 --> 00:06:55,800
 where you're expecting to
-hire somebody, at that.
+hire somebody ... at that
 
 147
 00:06:55,800 --> 00:06:58,709
-level, those sorts of
+level. Those sorts of
 skills are something they
 
 148
 00:06:58,709 --> 00:07:01,949
-can set you as like far
-apart from, from other
+can set you as -- like, far
+apart from- from other
 
 149
 00:07:01,949 --> 00:07:04,290
-people from in the same boat.
-Right.
+people from -- in the same
+boat, right?
 
 150
 00:07:04,529 --> 00:07:09,404
-You know, they all like
-the the, the, like breadth
+You know, so, they all -- like
+the- the- the, like, breadth
 
 151
 00:07:09,464 --> 00:07:11,894
 of technical skills at that
-level will be like pretty
+level will be, like, pretty
 
 152
 00:07:11,894 --> 00:07:15,435
-tight and so ways to ways
-to like set yourself apart.
+tight. And so, ways to- ways
+to, like, set yourself apart.
 
 153
 00:07:15,644 --> 00:07:17,925
@@ -745,27 +964,31 @@ is like a huge one, right?
 
 154
 00:07:17,925 --> 00:07:20,204
-I mean, if I, if I have if
-I'm interviewing with somebody
+I mean, if I- if I have -- if
+I'm interviewing with somebody,
 
 155
 00:07:20,204 --> 00:07:22,495
-and they can, they can sort
-of speak well and have.
+and they can- they can sort
+of speak well and have
 
 156
 00:07:22,495 --> 00:07:26,949
-some like, I mean, speak
-well about, about code, like
+some, like ... I mean, speak
+well about- about code. Like
 
 157
-00:07:26,949 --> 00:07:29,740
+00:07:26,949 --> 00:07:29,000
 you were saying, use code
-words, like whatever that sort
+words. Like, whatever. All of
+
+158
+00:07:29,000 --> 00:07:29,740
+that- that sort
 
 158
 00:07:29,740 --> 00:07:31,839
-of thing are used to, like
+of thing are- are used to, like,
 talking out loud or explaining
 
 159
@@ -774,49 +997,65 @@ some processes, or even just
 explaining how a thing works
 
 160
-00:07:36,129 --> 00:07:40,810
-that you built, you know? Yeah.
-Even if it's a thing that's
+00:07:36,129 --> 00:07:37,000
+that you built, you know?
 
 161
-00:07:37,689 --> 00:07:44,129
-for bootcamp, maybe lots of
-times, I've never been to do
+00:07:37,000 --> 00:07:37,300
+Bekah: Yeah.
 
 162
-00:07:40,810 --> 00:07:45,180
-bootcamp, so I don't know, you
-would turn in the assignment.
+00:07:37,500 --> 00:07:38,500
+Dan: Even if it's a thing
+that's --
+
+161
+00:07:38,500 --> 00:07:42,000
+for bootcamp. Maybe lots of
+times -- well, I've never been
+
+162
+00:07:42,000 --> 00:07:42,300
+to do
+
+162
+00:07:42,300 --> 00:07:44,000
+bootcamp, so I- I don't know.
+But like, you would turn in
 
 163
-00:07:45,180 --> 00:07:46,800
-I don't know.
-Do you do like presentations
+00:07:44,000 --> 00:07:46,000
+the assignment. I don't know.
+Do you do like presentations,
 
 164
-00:07:46,920 --> 00:07:51,060
-Bekah: After you. We did.
-So for each of our, we
+00:07:46,300 --> 00:07:47,000
+after you finish?
+
+164
+00:07:47,000 --> 00:07:49,000
+Bekah: We did.
+So for each of our -- we
 
 165
-00:07:47,699 --> 00:07:52,259
+00:07:49,000 --> 00:07:52,259
 had like a series of
 projects that we had to do.
 
 166
 00:07:52,259 --> 00:07:56,189
-And so after each one we had
-to walk through the code and
+And so, after each one, we had
+to walk through the code. And
 
 167
 00:07:56,189 --> 00:07:59,850
 then for the last one, they
-asked us questions and we had
+asked us questions. And we had
 
 168
 00:07:59,850 --> 00:08:03,240
 to add on a feature depending
-on what the interviewer,
+on what the interviewer
 
 169
 00:08:04,274 --> 00:08:07,845
@@ -824,39 +1063,55 @@ felt would work for the
 application that you created.
 
 170
-00:08:07,875 --> 00:08:11,024
-Okay. So there was live coding
-that was involved in that. Nice.
+00:08:07,875 --> 00:08:08,000
+Dan: Okay.
 
 171
-00:08:11,084 --> 00:08:14,204
-That's cool. Yeah.
+00:08:08,000 --> 00:08:10,000
+Bekah: So there was live coding
+that was involved in that.
+
+172
+00:08:09,600 --> 00:08:11,024
+Dan: Nice. That's cool.
+
+171
+00:08:11,084 --> 00:08:11,865
+Bekah: Yeah.
 And I feel like you
 
 172
-00:08:11,865 --> 00:08:17,115
-can get somebody who.
+00:08:11,865 --> 00:08:15,800
+can get somebody who
 is experienced in the industry
 
 173
-00:08:14,209 --> 00:08:20,324
+00:08:15,800 --> 00:08:18,000
 to do the same thing with you.
-So if you have sure, a project
+So if you have-
 
 174
-00:08:17,115 --> 00:08:23,504
+00:08:18,000 --> 00:08:18,300
+Dan: Sure.
+
+175
+00:08:18,300 --> 00:08:19,000
+Bekah: -a project
+
+174
+00:08:19,000 --> 00:08:21,900
 that you're using as a portfolio
 project, then what you can do
 
 175
-00:08:20,329 --> 00:08:24,764
-is say like, Hey, would you mind
-walking through this with me?
+00:08:22,000 --> 00:08:24,764
+is say like, "Hey, would you
+mind walking through this with
 
 176
 00:08:24,764 --> 00:08:27,915
-Suggest like what I can
-do, do a code review with
+me? Suggest, like, what I can
+do?" Do a code review with
 
 177
 00:08:27,915 --> 00:08:31,665
@@ -864,175 +1119,210 @@ somebody, just so you get an
 understanding of like whether
 
 178
-00:08:31,670 --> 00:08:38,129
-or not your code is written.
-Well, I think that you'll always
+00:08:31,670 --> 00:08:35,000
+or not your code is written
+well. I think that you'll always
 
 179
-00:08:34,139 --> 00:08:42,539
+00:08:35,000 --> 00:08:39,800
 be able to improve on your code.
-but When you're doing it
+But when you're doing it
 
 180
-00:08:38,129 --> 00:08:45,299
+00:08:39,800 --> 00:08:43,500
 in isolation and you're
 often just trying to see,
 
 181
-00:08:42,539 --> 00:08:48,299
-like, does this work right?
-You know, there's more that goes
+00:08:43,500 --> 00:08:44,800
+like, does this work-
 
 182
-00:08:45,419 --> 00:08:51,389
-into coding than does this work.
-Yeah. Is it, is it written
+00:08:44,800 --> 00:08:45,000
+Dan: Right.
 
 183
+00:08:45,000 --> 00:08:46,000
+Bekah: -you know, there's more
+that goes
+
+182
+00:08:46,000 --> 00:08:48,000
+into coding than does this work.
+
+183
+00:08:48,000 --> 00:08:48,300
+Dan: Yeah.
+
+184
 00:08:48,419 --> 00:08:51,389
+Bekah: Is it- is it written
 well or efficiently?
 
 184
 00:08:51,629 --> 00:08:53,309
 Dan: Yeah.
-Oh, I, think that's great.
+Oh, I- I think that's great.
 
 185
 00:08:53,309 --> 00:08:56,355
-And I think, another path
-to practice, that sort of
+And- and I think, another path
+to practice that sort of
 
 186
 00:08:56,355 --> 00:08:58,044
 thing is open source as well.
-Yeah.
+
+187
+00:08:58,044 --> 00:08:58,304
+Bekah: Yeah.
 
 187
 00:08:58,304 --> 00:09:00,674
-And another thing that we talk
-about a lot, in Virtual
+Dan: And another thing that we
+talk about a lot, in Virtual
 
 188
 00:09:00,674 --> 00:09:04,544
-Coffee at this podcast,
-is it's another great way.
+Coffee, at -- in this podcast,
+is it's another great way
 
 189
 00:09:04,544 --> 00:09:08,085
-to Practice those skills
-and prac, you know, see
+to practice those skills
+and prac- you know, see
 
 190
 00:09:08,085 --> 00:09:12,945
-what works and, and,
+what works and- and-
 and join other code bases.
 
 191
 00:09:12,945 --> 00:09:16,875
 And like, that's another skill
-that is, is, sometimes
+that is- is ... sometimes
 
 192
 00:09:16,875 --> 00:09:19,460
-maybe a harder one to not harder
-one to learn, but maybe not
+maybe a harder one learn -- not
+harder one to learn, but maybe
 
 193
-00:09:19,460 --> 00:09:24,710
-an obvious one to learn Yeah.
-is like how to dig into a,
+00:09:19,460 --> 00:09:20,000
+not an obvious one to learn-
 
 194
-00:09:20,269 --> 00:09:28,700
-an unfamiliar code base. Right.
-And there's like, there's,
+00:09:20,000 --> 00:09:20,300
+Bekah: Yeah.
 
 195
-00:09:25,070 --> 00:09:31,370
+00:09:20,000 --> 00:09:24,600
+Dan: -is like how to dig into 
+... an unfamiliar code base,
+
+195
+00:09:24,600 --> 00:09:24,710
+right?
+
+195
+00:09:25,000 --> 00:09:25,000
+Bekah: Yeah.
+
+196
+00:09:25,000 --> 00:09:27,300
+Dan: And there's like --
+[chuckles] there's-
+
+195
+00:09:27,300 --> 00:09:29,500
 there's some things that you
 can do to make it easier, but
 
 196
-00:09:28,700 --> 00:09:31,879
-in general, it's very much just.
+00:09:29,500 --> 00:09:31,879
+in general, it's very much just
 practice.
 
 197
 00:09:32,690 --> 00:09:34,549
 It will, you know, like if
-you practice it, it will,
+you practice it, it will --
 
 198
-00:09:34,549 --> 00:09:38,389
-you'll get better at it.
-And so there's a million billion
+00:09:34,549 --> 00:09:37,000
+you'll get better at it. And
+so, there's a million, billion
 
 199
-00:09:35,299 --> 00:09:39,980
-projects out there on ghetto
-that all are looking for help.
+00:09:37,000 --> 00:09:39,000
+projects [chuckles] out there
+on GitHub that all are looking
 
 200
-00:09:40,340 --> 00:09:44,690
-And, you know, I
-don't know, jump in. Yeah.
+00:09:39,000 --> 00:09:44,690
+for help. And ... you know, I
+don't know. Jump in.
+
+201
+00:09:44,690 --> 00:09:44,779
+Bekah: Yeah.
 
 201
 00:09:44,779 --> 00:09:46,879
-I, we have a lot of episodes
-where we've talked about
+Dan: I -- we have a lot of
+episodes where we've talked
 
 202
 00:09:46,879 --> 00:09:49,575
-like all, the reasons why
-it's a good idea to do it.
+about, like, all- all the
+reasons why it's a good idea to
 
 203
 00:09:49,575 --> 00:09:56,205
-And like also like the,
-things to do to, to get over
+do it. And like, also like, the
+... things to do to- to get over
 
 204
 00:09:56,355 --> 00:09:58,995
-some anxiety you might, may
-have about, about doing that
+some anxiety you might -- may
+have about- about doing that
 
 205
-00:09:59,000 --> 00:10:04,725
-as a, as a junior developer.
-Like just jump in or,
+00:09:59,000 --> 00:10:03,000
+as a- as a junior developer.
+Like, just jump in or,
 
 206
-00:10:00,705 --> 00:10:06,945
-you know, do some peer
-poor requests on, just
+00:10:03,000 --> 00:10:06,000
+[chuckles] you know, do some
+peer -- pull requests on just
 
 207
-00:10:04,754 --> 00:10:07,784
+00:10:06,000 --> 00:10:07,784
 documentation or whatever,
 just to get your feet wet.
 
 208
 00:10:07,784 --> 00:10:10,004
-Like that kind of thing.
-There's like a
+Like, that kind of thing.
+There's like -- a
 
 209
-00:10:08,684 --> 00:10:10,514
-lot of stuff like that. So,
+00:10:10,004 --> 00:10:10,514
+lot of stuff like that. So --
 
 210
-00:10:10,519 --> 00:10:13,394
-Bekah: yeah.
-And I think also it's a
+00:10:10,519 --> 00:10:11,600
+Bekah: Yeah.
+And I think, also, it's a
 
 211
-00:10:10,634 --> 00:10:16,394
+00:10:11,600 --> 00:10:14,000
 pretty easy ask to say like,
-Hey, I really wanna get
+"Hey, I really wanna get
 
 212
-00:10:13,394 --> 00:10:17,759
+00:10:14,000 --> 00:10:17,759
 started in open source, I'm
 a little nervous about this.
 
@@ -1043,18 +1333,22 @@ there that would be up for
 
 214
 00:10:20,850 --> 00:10:23,730
-mentoring me through it?
-If I'm struggling. Yeah.
+mentoring me through it
+if I'm struggling?"
+
+215
+00:10:23,730 --> 00:10:24,149
+Dan: Yeah.
 
 215
 00:10:24,149 --> 00:10:26,070
-And then that way, you
+Bekah: And then that way, you
 know, you can pair up with
 
 216
 00:10:26,075 --> 00:10:28,259
 someone, you can work on those
-communication skills and then
+communication skills, and then
 
 217
 00:10:28,259 --> 00:10:30,779
@@ -1063,17 +1357,20 @@ about what you're doing.
 
 218
 00:10:30,784 --> 00:10:31,799
-You have that support
+You have that support.
 
 219
 00:10:31,860 --> 00:10:35,700
-Dan: agreed and, absolutely
-agreed and like join Virtual
+Dan: Agreed. And ... absolutely
+agreed. And, like, join Virtual
 
 220
-00:10:35,700 --> 00:10:38,580
-Coffee, you know, it's,
-there's a lot of people
+00:10:35,700 --> 00:10:38,000
+Coffee [chuckles], you know
+what I mean? It's -- there's a
+
+00:10:38,000 --> 00:10:38,580
+lot of people
 
 221
 00:10:38,580 --> 00:10:41,370
@@ -1089,43 +1386,62 @@ And it's good.
 Bekah: Yeah.
 
 224
-00:10:45,570 --> 00:10:48,960
+00:10:45,570 --> 00:10:47,500
 Dan: All right.
 Before we go on, I'm getting
 
 225
-00:10:46,169 --> 00:10:50,009
+00:10:47,500 --> 00:10:49,800
 really nervous that I forgot to
 hit record or it didn't work.
 
 226
-00:10:50,009 --> 00:10:51,539
+00:10:49,800 --> 00:10:51,000
 So I'm just gonna go look
-at Go check it really quick.
+at-
 
 227
-00:10:56,080 --> 00:10:56,669
-Yeah, no, we're good.
+00:10:50,009 --> 00:10:51,000
+Bekah: Yep. Go check it
+[laughs].
 
 228
-00:10:56,909 --> 00:10:59,490
+00:10:51,000 --> 00:10:56,669
+Dan: -really quick.
+Yeah. No, we're good.
+
+228
+00:10:56,909 --> 00:10:58,800
 Bekah: We're good. We're good.
-We've been recording. Excellent.
+We've been recording. Per-
+
+229
+00:10:59,000 --> 00:10:59,490
+excellent.
+
+230
+00:10:59,000 --> 00:11:00,000
+Dan: We're good. Everything
+is okay.
 
 229
 00:10:59,495 --> 00:11:01,350
-Cause I was gonna make you
-do the whole thing over.
+Bekah: Cuz I was gonna make
+you do the whole thing over.
 
 230
 00:11:01,379 --> 00:11:02,639
-Yeah, that would be okay.
-So let's see.
+Dan: Yeah, that would be
+[inaudible].
+
+231
+00:11:02,000 --> 00:11:02,639
+Bekah: Okay. So, let's see.
 
 231
 00:11:02,639 --> 00:11:06,870
-Did we, so your first role,
-and, and along with landing
+Did we -- so your first role --
+and- and along with landing
 
 232
 00:11:06,870 --> 00:11:10,169
@@ -1134,67 +1450,78 @@ always finding community,
 
 233
 00:11:10,169 --> 00:11:13,259
-finding people and remembering
-that like your network is
+finding people. And remembering
+that, like, your network is
 
 234
 00:11:13,259 --> 00:11:15,330
-not just the people, you
+not just the people you
 know, it's the network of the
 
 235
-00:11:15,330 --> 00:11:19,230
-people, you know, so yeah.
-making connections that
+00:11:15,330 --> 00:11:16,000
+people you know. So-
 
 236
-00:11:16,679 --> 00:11:22,875
-are not transactional.
-Hey, I want to know
+00:11:16,000 --> 00:11:16,500
+Dan: Yeah.
 
 237
-00:11:19,815 --> 00:11:29,085
-you so I can get a job. Right?
-Like get to know people and
+00:11:16,500 --> 00:11:17,600
+Bekah: -making connections that
+
+236
+00:11:17,600 --> 00:11:21,000
+are not transactional, and like,
+"Hey, I want to know
+
+237
+00:11:21,000 --> 00:11:26,000
+you so I can get a job," right?
+Like, get to know people and
 
 238
-00:11:23,475 --> 00:11:31,065
-be their friends be kind don't
-criticize their deadlift form.
+00:11:26,000 --> 00:11:31,065
+be their friends, be kind, don't
+criticize their deadlift form,
 
 239
-00:11:31,575 --> 00:11:33,945
-and then you you'll have
-a better shot at finding
+00:11:31,575 --> 00:11:33,500
+[Dan laughs] and then you-
+you'll have a better shot at
 
 240
-00:11:33,945 --> 00:11:38,865
-Dan: a job. Yeah, yeah, yeah.
-Probably, probably just
+00:11:33,500 --> 00:11:33,945
+finding a job.
+
+240
+00:11:33,945 --> 00:11:37,300
+Dan: Yeah, yeah, yeah. Yeah.
+Probably- probably just
 
 241
-00:11:35,595 --> 00:11:40,725
-in general, not giving UN
+00:11:37,300 --> 00:11:39,800
+in general, not giving an,
 you know, giving advice to
 
 242
-00:11:38,965 --> 00:11:43,065
+00:11:39,800 --> 00:11:42,600
 people who didn't ask for
-it, you know, especially
+it, you know? Especially
 
 243
-00:11:40,725 --> 00:11:43,065
+00:11:42,600 --> 00:11:43,065
 people you don't know.
 
 244
-00:11:43,424 --> 00:11:44,835
+00:11:43,424 --> 00:11:45,000
 Bekah: I mean,
-like generally speaking.
+like, generally speaking, I
 
 245
-00:11:46,125 --> 00:11:48,975
-Like it, when people give me
-advice, I know that that's
+00:11:45,000 --> 00:11:48,975
+like it when people give me
+advice. I know that that's
 
 246
 00:11:48,975 --> 00:11:51,345
@@ -1203,12 +1530,12 @@ cuz a lot of people are
 
 247
 00:11:51,345 --> 00:11:53,955
-like, don't give me advice.
-I didn't ask for it.
+like, "Don't give me advice.
+I didn't ask for it."
 
 248
-00:11:54,254 --> 00:11:57,884
-But I, I don't know.
+00:11:54,254 --> 00:11:56,054
+But I- I don't know.
 I like to hear what
 
 249
@@ -1219,22 +1546,26 @@ And I often ask for advice a lot.
 250
 00:11:59,389 --> 00:12:03,434
 I guess that's another bit of
-advice is ask, ask for advice
+advice is ask- ask for advice
 
 251
 00:12:03,434 --> 00:12:06,735
 because not everybody's just
-going, to give it to you. Also.
+gonna give it to you. Also,
 
 252
-00:12:06,735 --> 00:12:09,615
-Sometimes advice is bad.
-People get bad advice also true.
+00:12:06,735 --> 00:12:09,000
+sometimes advice is bad.
+People get bad advice.
+
+253
+00:12:09,000 --> 00:12:09,615
+Dan: That's not true.
 
 253
 00:12:09,620 --> 00:12:11,924
-Like also his deadlift
-stance yesterday.
+Bekah: Like, also his deadlift
+stance [Dan chuckles] yesterday.
 
 254
 00:12:12,615 --> 00:12:14,235
@@ -1242,22 +1573,30 @@ I'll get over that
 in a couple of weeks.
 
 255
-00:12:14,985 --> 00:12:19,424
-Dan: Yeah.
-I'm personally shocked
+00:12:14,985 --> 00:12:14,000
+Dan: Yeah, right?
 
 256
-00:12:16,485 --> 00:12:21,855
+00:12:16,000 --> 00:12:17,000
+Bekah: I'm --
+
+257
+00:12:17,000 --> 00:12:18,000
+Dan: I'm personally shocked
+
+256
+00:12:18,000 --> 00:12:20,000
 that the drunk guy at the
 bar last night didn't have
 
 257
-00:12:19,424 --> 00:12:21,855
-perfect, deadlift form.
+00:12:20,000 --> 00:12:21,855
+perfect deadlift form
+[chuckles].
 
 258
 00:12:24,284 --> 00:12:25,965
-Bekah: All right, let's
+Bekah: All right. Let's
 go to the next one.
 
 259
@@ -1267,12 +1606,20 @@ Dan: Okay. Next question.
 260
 00:12:27,585 --> 00:12:29,924
 Bekah: I don't know what
-that says and what happened?
+that says. And, what happened?
 
 261
-00:12:30,975 --> 00:12:33,735
-Oh, no, I don't know.
-It might not. Let me answer.
+00:12:30,975 --> 00:12:31,000
+Oh, no.
+
+262
+00:12:31,300 --> 00:12:32,000
+Dan: I- I don't know.
+
+263
+00:12:32,000 --> 00:12:33,735
+Bekah: It might not let me
+answer.
 
 262
 00:12:33,884 --> 00:12:36,825
@@ -1281,7 +1628,8 @@ I don't wanna do that.
 
 263
 00:12:42,375 --> 00:12:44,384
-How does a computer get drunk?
+[Chuckles] How does a computer
+get drunk?
 
 264
 00:12:45,575 --> 00:12:46,679
@@ -1290,7 +1638,7 @@ do you know the answer?
 
 265
 00:12:46,950 --> 00:12:47,610
-Bekah: No
+Bekah: No.
 
 266
 00:12:48,269 --> 00:12:49,080
@@ -1298,46 +1646,58 @@ Dan: Screenshots.
 
 267
 00:12:50,639 --> 00:12:51,929
-Bekah: did you
+Bekah: [Chuckles] Did you
 submit that question?
 
 268
-00:12:52,059 --> 00:12:57,720
-Dan: I, did. I did. That was me.
-this is a good one.
+00:12:52,059 --> 00:12:53,000
+Dan: I- I did. I did. That
+was me.
+
+00:12:53,000 --> 00:12:58,289
+[All laugh] This is a good one,
+right?
 
 269
 00:12:58,289 --> 00:13:00,840
-Bekah: Right?
-Who was the last dude? You texted
+Bekah: Who was the last dude
+you texted?
 
 270
 00:13:01,289 --> 00:13:02,220
-Dan: Jesus Christ people.
+Dan: Jesus Christ, people.
 
 271
 00:13:04,320 --> 00:13:10,335
-Bekah: Let's see,
-probably Dan, probably
+Bekah: Let's see.
+Probably Dan. Probably
 
 272
 00:13:10,335 --> 00:13:12,225
-you, you were the last one.
-I texted,
+you. You were the- the last
+one I texted.
 
 273
-00:13:12,225 --> 00:13:16,725
-Dan: Yes. I don't know.
-I mean, are you asking me
+00:13:12,225 --> 00:13:15,554
+Dan: Yes. I don't know. I mean
+... are- are you asking me?
 
 274
 00:13:15,554 --> 00:13:16,725
-cuz I don't know.
+Cuz I don't know-
 
 275
-00:13:17,215 --> 00:13:18,615
+00:13:16,725 --> 00:13:17,000
 Bekah: I don't know.
-who you texted. I, I didn't.
+
+276
+00:13:17,000 --> 00:13:18,000
+Dan: I don't know who you
+texted.
+
+277
+00:13:18,000 --> 00:13:18,615
+Bekah: I- I didn't --
 
 276
 00:13:18,615 --> 00:13:19,875
@@ -1346,17 +1706,20 @@ Dan: You did text me recently.
 277
 00:13:19,875 --> 00:13:22,514
 Bekah: I did recently text
-you about this conference.
+you. About this conference.
 
 278
 00:13:23,475 --> 00:13:25,014
 Who was the last dude you texted?
-Mm,
 
 279
-00:13:27,304 --> 00:13:31,004
-Dan: I dunno, My, one of my
-friends, one of my friends
+00:13:27,304 --> 00:13:29,000
+Dan: Mm ... I dunno. My --
+one of my friends? One of
+
+280
+00:13:29,000 --> 00:13:31,004
+my friends
 
 280
 00:13:31,004 --> 00:13:32,745
@@ -1366,11 +1729,11 @@ canoe for the first time.
 281
 00:13:32,745 --> 00:13:35,144
 And so he was sharing
-pictures of that and I said,
+pictures of that. And I said,
 
 282
 00:13:35,325 --> 00:13:35,945
-that's cool.
+"That's cool."
 
 283
 00:13:36,375 --> 00:13:36,664
@@ -1378,60 +1741,67 @@ Bekah: Nice.
 
 284
 00:13:37,014 --> 00:13:37,304
-Dan: Yeah,
+Dan: Yeah.
 
 285
 00:13:37,495 --> 00:13:39,825
 Bekah: That was excellent.
-So, so there, there you have it.
+So- so there- there you have it.
 
 286
-00:13:39,825 --> 00:13:42,585
+00:13:39,825 --> 00:13:41,000
 We did really well.
 Those anonymous
 
 287
-00:13:40,759 --> 00:13:45,524
+00:13:41,000 --> 00:13:43,700
 questions were fantastic.
 Thank you all for doing such
 
 288
-00:13:42,585 --> 00:13:51,065
-a good job of sending them.
-We do have a handful
+00:13:43,700 --> 00:13:48,600
+a good job of sending them [all
+chuckle]. We do have a handful
 
 289
-00:13:47,235 --> 00:13:54,600
-of non-anonymous question.
-anonymous, unanimous question
+00:13:48,600 --> 00:13:54,000
+of non-anonymous questions.
+Un-anonymous, unanimous
+
+290
+00:13:54,000 --> 00:13:54,600
+question.
 
 290
 00:13:54,659 --> 00:13:55,139
-Dan: unanimous?
+Dan: Unanimous?
 
 291
 00:13:55,139 --> 00:13:56,519
-Bekah: Mm-hmm  I think that's
+Bekah: Mm-hmm. I think that's
 the right word.
 
 292
 00:13:57,509 --> 00:13:59,100
-Dan: Un-Anonymous. I think
+Dan: Un-anonymous, I think.
 
 293
 00:13:59,659 --> 00:14:05,340
-Bekah: un-anonymous.
+Bekah: Un-anonymous.
 I wrote one of 'em down.
 
+00:14:06,120 --> 00:14:06,300
+Dan: Oh.
+
 294
-00:14:06,120 --> 00:14:09,970
-Oh, So I wouldn't forget. Okay.
-This one comes from Meg
+00:14:06,300 --> 00:14:09,970
+Bekah: So I wouldn't forget.
+Okay. This one comes from Meg.
 
 295
 00:14:09,970 --> 00:14:12,029
 Dan: Is this notebook from
-like 1920 or something.
+like, 1920 or something?
 
 296
 00:14:12,299 --> 00:14:14,340
@@ -1440,8 +1810,8 @@ buying these notebooks.
 
 297
 00:14:14,340 --> 00:14:16,500
-They sell them at TJ,
-max in a pack of three.
+They sell them at T.J. Maxx
+in a pack of three.
 
 298
 00:14:16,710 --> 00:14:19,559
@@ -1451,39 +1821,41 @@ I like these notebooks.
 299
 00:14:19,565 --> 00:14:20,519
 Dan: Look at the inside though.
-Show them the
+Show them the inside.
 
 300
 00:14:21,404 --> 00:14:22,544
 Bekah: What's wrong
-with the inside.
+with the inside?
 
 301
 00:14:22,544 --> 00:14:26,684
 Dan: It looks like it's,
-you know, paper from the
+you know, paper from ... the
 
 302
 00:14:26,684 --> 00:14:27,644
-civil war or something.
+civil war or something
+[laughs].
 
 303
 00:14:29,565 --> 00:14:31,004
-Bekah: is that what civil
-war paper looked like?
+Bekah: [Chuckles] Is that what
+civil war paper looked like?
 
 304
 00:14:31,105 --> 00:14:32,424
-Dan: I don't know, but probably
+Dan: I don't know. But,
+probably.
 
 305
 00:14:32,625 --> 00:14:35,475
 Bekah: I think you're wrong.
-And a. liar.
+And a liar.
 
 306
 00:14:35,884 --> 00:14:36,884
-Dan: Oh, and here we go.
+Dan: Oh, I and ... here we go.
 
 307
 00:14:37,514 --> 00:14:38,325
@@ -1498,117 +1870,147 @@ would've done differently
 309
 00:14:40,934 --> 00:14:44,355
 when it comes to Virtual
-Coffee, setup, organization,
+Coffee's setup, organization,
 
 310
 00:14:44,384 --> 00:14:47,565
-time, commitment, et cetera.
+time commitment, et cetera.
 You go first.
 
 311
-00:14:47,565 --> 00:14:50,745
-Dan: I mean, that's a
-really good question, it's
+00:14:47,565 --> 00:14:49,800
+Dan: I mean, that's a really
+good question. But, like, it's
 
 312
-00:14:48,014 --> 00:14:53,174
+00:14:49,800 --> 00:14:51,800
 hard to have an answer for
-it because, everything
+it because everything
 
 313
-00:14:50,745 --> 00:14:54,825
-that like has happened has
-been so organic, you know? Yeah.
+00:14:51,800 --> 00:14:54,600
+that, like, has happened has
+been so organic, you know?
 
 314
-00:14:54,825 --> 00:14:58,379
-And you you like you think
-about all the things that
+00:14:54,600 --> 00:14:54,825
+Bekah: Yeah.
+
+314
+00:14:54,825 --> 00:14:58,000
+Dan: And you- you, like, you
+think about, like, all the 
 
 315
-00:14:58,384 --> 00:15:02,519
-we have going on right now.
-Like everything that's
+00:14:58,000 --> 00:14:58,379
+things that
+
+315
+00:14:58,384 --> 00:15:00,000
+we have going on right now,
+like, everything that's
 
 316
-00:14:59,730 --> 00:15:05,429
-in play and, and. like, Yeah.
-Like I can think of a
+00:15:00,000 --> 00:15:04,000
+in play and- and, like, yeah.
+Like, I can think of a
 
 317
-00:15:03,629 --> 00:15:07,710
+00:15:04,000 --> 00:15:06,500
 lot of things that could
 be better or, you know,
 
 318
-00:15:05,429 --> 00:15:11,909
+00:15:06,500 --> 00:15:10,800
 right now, or whatever.
-But, I think if we had
+But ... I think if we had
 
 319
-00:15:07,799 --> 00:15:16,004
-started from scratch in like,
-we're like, let's try to build
+00:15:10,800 --> 00:15:14,500
+started from scratch in, like --
+we're like, "Let's try to build
 
 320
-00:15:13,455 --> 00:15:19,965
-this community, but like start,
-you know, I don't know who
+00:15:14,500 --> 00:15:18,800
+this community, but like
+start..." you know, I- I don't
 
 321
-00:15:16,095 --> 00:15:20,475
+00:15:18,800 --> 00:15:19,300
+know. Who
+
+321
+00:15:19,300 --> 00:15:20,475
 knows what we would've done.
 You know what I mean?
 
 322
 00:15:20,475 --> 00:15:22,845
 And it probably, I don't
-know It's a good chance.
+know. It's a good chance
 
 323
 00:15:22,850 --> 00:15:24,254
-It wouldn't have worked.
-Maybe, you know what I mean?
+it wouldn't have worked
+maybe. You know what I mean?
 
 324
-00:15:24,259 --> 00:15:27,764
-Like, yeah.
-Like I'd like to think it
+00:15:24,259 --> 00:15:24,400
+Like-
 
 325
-00:15:24,855 --> 00:15:30,445
-would've, but the, the.
-One of the beauties of the, of
+00:15:24,400 --> 00:15:24,600
+Bekah: Yeah.
 
 326
-00:15:27,975 --> 00:15:33,164
-the community of the  Virtual
-Coffee community is, is the
+00:15:24,600 --> 00:15:25,700
+Dan: Like, I'd like to think it
+
+325
+00:15:25,700 --> 00:15:29,000
+would've, but the- the --
+one of the beauties of the- of
+
+326
+00:15:29,000 --> 00:15:31,000
+the community -- of the Virtual
+Coffee community is- is the
 
 327
-00:15:30,445 --> 00:15:34,184
-sort of organic, like nature
-of how all that started.
+00:15:31,000 --> 00:15:34,184
+sort of organic, like, nature
+of how all that starting it.
 
 328
-00:15:34,184 --> 00:15:36,644
-And Of course, all that was
-like around you, but like
+00:15:34,184 --> 00:15:36,000
+And of course, all that was,
+like, around you [chuckles].
+
+329
+00:15:36,000 --> 00:15:36,644
+But, like,
 
 329
 00:15:37,095 --> 00:15:41,514
-it's, and it's like, one of the
-reasons Virtual Coffee is sort
+it's -- and it's, like, one of
+the reasons why Virtual Coffee
 
 330
-00:15:41,514 --> 00:15:43,195
-of different and successful.
-Yeah.
+00:15:41,514 --> 00:15:42,000
+is sort of different and-
 
 331
-00:15:43,195 --> 00:15:48,504
-I feel like, as opposed,
-to, like, I'm trying to think
+00:15:42,000 --> 00:15:42,300
+Bekah: Yeah.
+
+331
+00:15:42,300 --> 00:15:46,000
+Dan: -successful. I've -- I
+feel it. As opposed, to, like
+
+332
+00:15:46,000 --> 00:15:48,504
+... I'm trying to think
 
 332
 00:15:48,504 --> 00:15:51,414
@@ -1617,23 +2019,23 @@ I suppose there's people who
 
 333
 00:15:51,414 --> 00:15:53,575
-are like, I'm gonna start
-a community or something,
+are like, "I'm gonna start
+a community," or something.
 
 334
 00:15:53,605 --> 00:15:56,784
-and sometimes they're cool
-and sometimes they're not. but.
+And sometimes they're cool,
+and sometimes they're not, but
 
 335
 00:15:57,240 --> 00:15:59,039
-You never know what it's
+you never know what it's --
 like, you never know what's
 
 336
 00:15:59,039 --> 00:16:02,070
-gonna happen until it
-happens with, with like
+gonna happen un- until it
+happens. With- with, like,
 
 337
 00:16:02,070 --> 00:16:03,090
@@ -1644,37 +2046,43 @@ groups of people, you know?
 Bekah: Yeah.
 
 339
-00:16:03,629 --> 00:16:08,389
-Dan: So I don't know.
+00:16:03,629 --> 00:16:06,899
+Dan: So, I don't know ... I
 mean, I could think
 
 340
-00:16:06,899 --> 00:16:11,250
+00:16:06,899 --> 00:16:08,389
 of, I don't know.
 I could think of like a lot
 
 341
-00:16:08,389 --> 00:16:14,399
-of like little instant, like
+00:16:08,389 --> 00:16:13,000
+of -- like little instant, like
 instances of times that like,
 
 342
-00:16:11,250 --> 00:16:18,769
-okay, I wish I made a different
-decision there, you know, but
+00:16:13,000 --> 00:16:14,800
+okay, I wish I made a
+di-different decision there,
+
+00:16:14,800 --> 00:16:15,700
+you know, but
 
 343
-00:16:14,404 --> 00:16:23,570
-that's, that's less like, that's
-more just like I make mistakes,
+00:16:15,700 --> 00:16:19,800
+that's- that's less like ...
+that's more just like I make 
+
+00:16:19,800 --> 00:16:20,000
+mistakes,
 
 344
-00:16:18,769 --> 00:16:26,149
-not, not so much like, you
-know, tactical, like planning
+00:16:20,000 --> 00:16:25,000
+not- not so much like, you
+know, tactical, like, planning
 
 345
-00:16:23,570 --> 00:16:26,149
+00:16:25,000 --> 00:16:26,149
 stuff, you know what I mean?
 
 346
@@ -1683,12 +2091,12 @@ Bekah: Yeah.
 
 347
 00:16:26,950 --> 00:16:27,750
-Dan: I dunno. what about you?
+Dan: I dunno. What about you?
 
 348
 00:16:27,750 --> 00:16:29,690
 Bekah: Well, I think it's nice
-because, because of like the
+because- because of like the
 
 349
 00:16:29,690 --> 00:16:33,889
@@ -1698,7 +2106,7 @@ evolution of Virtual Coffee,
 350
 00:16:34,129 --> 00:16:38,120
 that we have more freedom
-to make mistakes almost. Right.
+to make mistakes almost, right?
 
 351
 00:16:38,120 --> 00:16:38,179
@@ -1712,27 +2120,27 @@ the people who are coming
 353
 00:16:41,000 --> 00:16:43,519
 to Virtual Coffee are okay
-with that because they know
+with that. Because they know
 
 354
 00:16:43,519 --> 00:16:46,470
-that we're human beings
-we do get things wrong.
+that we're human beings, and
+we, like, we do get things
 
 355
 00:16:46,470 --> 00:16:49,980
-Sometimes I for sure have
-gotten things wrong on a number
+wrong sometimes. I, for sure,
+have gotten things wrong on a
 
 356
-00:16:50,190 --> 00:16:54,870
-of things at Virtual Coffee.
-And you. know, You, you try
+00:16:50,190 --> 00:16:53,044
+number of things at Virtual
+Coffee. And, you know, you-
 
 357
-00:16:53,044 --> 00:16:57,269
-and get 'em right.
-The next time you learn
+00:16:53,044 --> 00:16:54,870
+you try and get 'em right.
+The next time, you learn
 
 358
 00:16:54,870 --> 00:16:58,110
@@ -1741,7 +2149,7 @@ when you need to.
 
 359
 00:16:58,470 --> 00:17:04,480
-And I, I think a lot about
+And I- I think a lot about
 what I would do differently,
 
 360
@@ -1759,22 +2167,22 @@ doing in the beginning.
 Dan: Yeah.
 
 363
-00:17:11,849 --> 00:17:13,920
-Bekah: Because you know,
-now that I'm community
+00:17:11,849 --> 00:17:14,730
+Bekah: Because, you know,
+now that I'm community building
 
 364
 00:17:14,730 --> 00:17:19,079
-professionally, I'm like
+professionally, I'm, like,
 diving into things like
 
 365
-00:17:19,150 --> 00:17:25,710
-metrics and planning.
-and a lot of different like
+00:17:19,150 --> 00:17:24,000
+metrics, and planning.
+And a lot of different, like,
 
 366
-00:17:21,960 --> 00:17:27,960
+00:17:24,000 --> 00:17:27,960
 processes and procedures that I
 wouldn't have considered before.
 
@@ -1794,29 +2202,29 @@ what everybody else is doing.
 And it feels like these are
 
 370
-00:17:35,880 --> 00:17:40,259
+00:17:37,740 --> 00:17:39,000
 the things that you should
 be doing if you're building
 
 371
-00:17:37,740 --> 00:17:41,460
+00:17:39,000 --> 00:17:41,460
 a community, because this
 is what the experts say.
 
 372
 00:17:41,759 --> 00:17:45,180
-And I'm like, sometimes
+And I'm like -- sometimes
 I get caught in it, like
 
 373
 00:17:45,180 --> 00:17:47,369
-thinking about Virtual Coffee
-and I'm like, no, you know,
+thinking about Virtual Coffee.
+And I'm like, "No," you know,
 
 374
 00:17:47,369 --> 00:17:52,920
-this is, that's not true.
-to Who we are as a community.
+"This is -- that's not true
+to who we are as a community."
 
 375
 00:17:52,920 --> 00:17:53,009
@@ -1824,76 +2232,82 @@ Dan: Right.
 
 376
 00:17:53,670 --> 00:17:56,519
-Bekah: But I'm like
-trying to think too,
+Bekah: But I'm, like,
+trying to think too [silence]
 
 377
-00:18:01,079 --> 00:18:08,619
+00:18:01,079 --> 00:18:05,500
 what I would do differently.
-I, I think I would find more
+I- I think I would find more
 
 378
-00:18:03,619 --> 00:18:12,315
+00:18:05,500 --> 00:18:10,700
 ways early on to allow people
 to support the efforts of
 
 379
-00:18:08,690 --> 00:18:14,775
+00:18:10,700 --> 00:18:13,700
 Virtual Coffee, to provide
 more autonomy for members
 
 380
-00:18:12,315 --> 00:18:18,644
+00:18:13,700 --> 00:18:16,000
 to do their own things.
-Like I'm really enjoying
+Like, I'm really enjoying
 
 381
-00:18:14,775 --> 00:18:20,954
-seeing the coffee table groups.
-grow And the different
+00:18:16,000 --> 00:18:20,954
+seeing the coffee table groups
+grow, and the different
 
 382
-00:18:18,674 --> 00:18:24,045
-things that we're doing,
+00:18:20,954 --> 00:18:22,500
+things that we're doing.
 Ray is doing the Virtual
 
 383
-00:18:20,954 --> 00:18:27,974
+00:18:22,500 --> 00:18:26,700
 Coffee speech club now.
-And like, I love that that's
+And, like, I love that. That's
 
 384
-00:18:24,049 --> 00:18:31,875
-one of my favorite things,
-but like finding more ways
+00:18:26,700 --> 00:18:29,800
+one of my favorite things.
+But, like, finding more ways
 
 385
-00:18:28,275 --> 00:18:34,394
+00:18:29,800 --> 00:18:33,000
 to empower people to do that.
 Like, honestly, I wish that
 
 386
-00:18:32,295 --> 00:18:38,535
+00:18:33,000 --> 00:18:35,000
 I had more time in the day
 because I think that we have
 
 387
-00:18:34,394 --> 00:18:42,914
-so great people at Virtual
+00:18:35,000 --> 00:18:39,700
+so many great people at Virtual
 Coffee that are willing to
 
 388
-00:18:38,535 --> 00:18:47,174
-provide support for yeah.
-A lot of different
+00:18:39,700 --> 00:18:42,000
+provide support for-
 
 389
-00:18:43,605 --> 00:18:53,325
-things and finding.
-More ways to empower them to do
+00:18:42,700 --> 00:18:43,000
+Dan: Yeah.
+
+00:18:43,300 --> 00:18:44,700
+Bekah: -a lot of different
+
+389
+00:18:44,700 --> 00:18:50,700
+things and finding ...
+more ways to empower them to do
 
 390
-00:18:48,674 --> 00:18:55,335
+00:18:50,700 --> 00:18:55,335
 that is one of those things that
 I still wish that I could do
 
@@ -1903,23 +2317,23 @@ better.
 
 392
 00:18:55,904 --> 00:19:00,434
-Dan: Yeah. Yeah.
-I mean, that's a hard problem.
+Dan: Yeah. Yeah. I mean, that's
+... that's a hard problem.
 
 393
 00:19:00,440 --> 00:19:05,144
-And, you know, I, I know of
+And, you know, I- I know of --
 both from my experience and
 
 394
 00:19:05,144 --> 00:19:07,994
-from like talking to other
+from, like, talking to other
 people, it's very hard to find
 
 395
 00:19:07,994 --> 00:19:10,755
-people that are willing to
-like put time and effort into
+people that are willing to,
+like, put time and effort into
 
 396
 00:19:10,759 --> 00:19:12,585
@@ -1927,92 +2341,100 @@ something like a volunteer
 thing like that, you know?
 
 397
-00:19:12,589 --> 00:19:17,234
-And I think that just.
-goes To show how awesome
+00:19:12,589 --> 00:19:16,000
+And I think that just
+goes ... to show how awesome
 
 398
-00:19:13,759 --> 00:19:18,615
-Virtual Coffee is that we
+00:19:16,000 --> 00:19:17,500
+Virtual Coffee is. That we
 have all these people that are
 
 399
-00:19:17,240 --> 00:19:21,795
-doing this stuff, you know,
-and the, the coffee table
+00:19:17,500 --> 00:19:20,000
+doing this stuff, you know?
+And the- the to- coffee table
 
 400
-00:19:18,615 --> 00:19:25,119
-groups, all, almost all of
-them started before we like,
+00:19:20,000 --> 00:19:23,000
+groups, all -- almost all of
+them started before we, like --
 
 401
-00:19:21,795 --> 00:19:25,599
+00:19:24,000 --> 00:19:25,300
 just on their own, you know?
-Right. Yeah.
+Right?
 
 402
-00:19:25,630 --> 00:19:27,910
-Like before we had anything
-around them, like we are
+00:19:25,300 --> 00:19:25,599
+Bekah: Yeah.
+
+402
+00:19:25,630 --> 00:19:27,300
+Dan: Like, before we had
+anything around them.
+
+403
+00:19:27,300 --> 00:19:27,910
+Like, we are
 
 403
 00:19:27,910 --> 00:19:31,424
 building stuff to support them
-because they exist already,
+now because they exist already,
 
 404
 00:19:31,424 --> 00:19:35,055
-you know, as opposed to, like,
+you know? As opposed to, like,
 we had some idea for coffee
 
 405
 00:19:35,055 --> 00:19:37,194
 table groups, and then we're
-trying to find people to, to
+trying to find people to- to
 
 406
 00:19:37,200 --> 00:19:40,815
-do them or something like that.
-Right. And that's, you know, it
+do them or something like that,
+right? And that's, you know, it
 
 407
-00:19:38,535 --> 00:19:42,944
+00:19:40,815 --> 00:19:42,944
 just goes back to the,
-you know, the organic.
+you know, the organic
 
 408
-00:19:42,950 --> 00:19:50,265
-nature of, of Virtual Coffee.
-And if we were planning
+00:19:42,950 --> 00:19:48,700
+nature of- of Virtual Coffee.
+And ... if we were planning
 
 409
-00:19:45,194 --> 00:19:54,315
-this, I mean, you could
+00:19:48,700 --> 00:19:51,000
+this -- I mean, you could
 see like special interest
 
 410
-00:19:50,265 --> 00:19:56,204
-groups being a thing to plan.
-, you know, if you're trying
+00:19:51,000 --> 00:19:54,800
+groups being a thing to plan
+[chuckles], you know, if
 
 411
-00:19:54,555 --> 00:19:57,795
-to plan a group ahead
-of time or a community.
+00:19:54,800 --> 00:19:57,795
+you're trying to plan a group
+ahead of time, or a community.
 
 412
-00:19:57,914 --> 00:20:02,684
-But I don't know.
-It's, it's hard to imagine,
+00:19:57,914 --> 00:20:01,000
+But, I don't know.
+It's- it's hard to imagine,
 
 413
-00:20:00,704 --> 00:20:06,045
-like trying to do all this
-stuff, ahead of time or
+00:20:01,000 --> 00:20:05,000
+like, trying to do all this
+stuff a-ahead of time, or
 
 414
-00:20:02,690 --> 00:20:06,045
+00:20:05,000 --> 00:20:06,045
 whatever, you know what I mean?
 
 415
@@ -2025,246 +2447,297 @@ Dan: Also, that's not
 usually how my brain works
 
 417
-00:20:09,480 --> 00:20:12,539
-that well anyway, I, I mean
-the, way that things have.
+00:20:09,480 --> 00:20:12,300
+that well anyway. I- I mean 
+[chuckles] the- the way that
+
+418
+00:20:12,300 --> 00:20:12,539
+things have
 
 418
 00:20:12,539 --> 00:20:15,869
-gone is What you know, is
-obviously like it's more how
+gone is what, you know, is
+obviously, like, it's more how
 
 419
-00:20:15,869 --> 00:20:18,509
+00:20:15,869 --> 00:20:18,000
 my brain works anyway, you
-know, kind of like along with
+know? Kind of like-
+
+420
+00:20:18,000 --> 00:20:18,300
+Bekah: Same.
+
+421
+00:20:18,300 --> 00:20:18,509
+Dan: -along with
 
 420
 00:20:18,509 --> 00:20:20,670
-things and trying to make
-things better, but I don't know
+things and trying to make things
+better, but, I don't know.
 
 421
 00:20:21,119 --> 00:20:23,970
-it's well, it is what it is.
-I don't know.
+It's ... well, it is what it
+is. I don't know.
 
 422
-00:20:24,150 --> 00:20:29,549
-Bekah: Yeah.
-I mean, I I'm like super proud
+00:20:24,150 --> 00:20:27,800
+Bekah: Yeah. I mean, I ...
+I'm, like, super proud of
 
 423
-00:20:25,269 --> 00:20:35,160
-of us for early on getting a
-lot of documentation because
+00:20:27,800 --> 00:20:29,800
+us for early on getting
+a lot of documentation in
 
 424
-00:20:29,549 --> 00:20:36,809
-that has helped to provide
-a better space for people. Yeah.
+00:20:29,800 --> 00:20:33,000
+place because that-
 
 425
-00:20:37,019 --> 00:20:42,000
-I, I would.
-like, I would like to do
+00:20:33,100 --> 00:20:33,300
+Dan: Yes.
 
 426
-00:20:37,740 --> 00:20:44,369
-a better job of onboarding
-new community members. Yep.
+00:20:33,300 --> 00:20:36,809
+Bekah: -has helped to provide
+a better space for people.
 
 427
-00:20:44,400 --> 00:20:46,769
-And I feel like that, that
-from the beginning, so I
+00:20:36,000 --> 00:20:36,300
+Dan: Yeah.
+
+425
+00:20:36,809 --> 00:20:40,000
+Bekah: I- I would
+like- I would like to do
+
+426
+00:20:40,000 --> 00:20:43,900
+a better job of onboarding
+new community members.
+
+427
+00:20:44,000 --> 00:20:44,200
+Dan: Yep.
+
+427
+00:20:44,300 --> 00:20:46,769
+Bekah: And I feel like that-
+that from the beginning. So I
 
 428
 00:20:46,769 --> 00:20:49,380
 feel like a lot of the, like,
-would you do differently
+would you do differently is --
 
 429
 00:20:49,500 --> 00:20:53,670
-are still things that like I
-would like to do more of now?
+are still things that, like, I
+would like to do more of, now?
 
 430
-00:20:53,750 --> 00:20:57,240
-Yeah, sure. Yeah.
-Especially now that we have
+00:20:53,750 --> 00:20:54,750
+Dan: Yeah, sure. Yeah.
+
+00:20:55,000 --> 00:20:56,000
+Bekah: Especially now that
+we have
 
 431
-00:20:55,410 --> 00:21:00,180
-new members coming in, it's
+00:20:56,000 --> 00:20:58,600
+new members coming in. It's
 so great to see new faces
 
 432
-00:20:57,240 --> 00:21:00,180
+00:20:58,600 --> 00:21:00,180
 at Virtual Coffee again.
 
 433
 00:21:00,569 --> 00:21:01,240
-Dan: Absolutely.
+Dan: Yeah, absolutely.
 
 434
 00:21:01,380 --> 00:21:04,259
-Bekah: that's been a,
+Bekah: That's been a- a
 really bright side of
 
 435
-00:21:04,265 --> 00:21:08,700
+00:21:04,265 --> 00:21:06,800
 the last couple of weeks.
-but, I just wanna make sure
+But I just wanna make sure
 
 436
-00:21:05,369 --> 00:21:08,700
+00:21:06,800 --> 00:21:08,700
 that everybody's taken care of.
 
 437
-00:21:08,940 --> 00:21:13,680
+00:21:08,940 --> 00:21:12,700
 Dan: Yep. Yeah, I agree.
 And that's like, you know, so
 
 438
-00:21:11,789 --> 00:21:15,329
-there's like technology stuff
-that I, I just wanna change now.
+00:21:12,700 --> 00:21:15,329
+there's, like, technology stuff
+that I- I just wanna change now.
 
 439
 00:21:15,509 --> 00:21:18,210
-It's it's not even, it's not
-even like, a, oh, I wish we
+It's- it's not even- it's not
+even like, "Oh, I wish we
 
 440
 00:21:18,210 --> 00:21:21,390
-had done this differently.
-It's just, well, now we need it.
+had done this differently." It's
+just ... well, now we need it.
 
 441
 00:21:21,450 --> 00:21:23,190
-Like now we need things
-like there's things
+Like, now we need things.
+Like, there's things
 
 442
-00:21:23,190 --> 00:21:26,730
-we need, you know?
-So let's change them the the
+00:21:23,190 --> 00:21:25,500
+we need, you know? So
+let's change them. The- the
 
 443
-00:21:23,789 --> 00:21:30,720
-new member thing, especially, is
-especially cuz it's built like
+00:21:25,500 --> 00:21:27,500
+new member thing, especially.
+It's especially cuz it's built,
 
 444
-00:21:26,759 --> 00:21:32,220
-originally around slack, Yeah.
-And that's That sounds
+00:21:27,500 --> 00:21:30,000
+like, originally around Slack [chuckles], you know?
+
+445
+00:21:30,000 --> 00:21:30,300
+Bekah: Yeah.
+
+446
+00:21:30,700 --> 00:21:32,220
+Dan: And that's ... that
+sounds --
 
 445
 00:21:32,220 --> 00:21:33,750
-Bekah: that maybe is something I
-would change.
+Bekah: That, maybe, is
+something I would change.
 
 446
-00:21:33,809 --> 00:21:38,400
-Dan: I don't know. Yeah. I.
-mean, like Maybe, but like,
+00:21:33,809 --> 00:21:36,000
+Dan: I don't know. Yeah. I
+mean, like, maybe. But, like,
 
 447
-00:21:34,529 --> 00:21:41,759
-it was really before discord,
-like took off, like took off
+00:21:36,000 --> 00:21:40,500
+it was really before Discord,
+like, took off- like, took off
 
 448
-00:21:38,730 --> 00:21:45,569
+00:21:40,500 --> 00:21:41,700
 for people outside of gaming,
-you know, mm-hmm  and I don't
+you know?
+
+00:21:41,700 --> 00:21:42,000
+Bekah: Mm-hmm.
+
+00:21:42,500 --> 00:21:44,500 
+Dan: And ... I don't know.
 
 449
-00:21:41,819 --> 00:21:48,079
-know that there's any better
-option and like created the
+00:21:44,500 --> 00:21:46,700
+That -- there's any better
+option and it, like, created the
 
 450
-00:21:45,569 --> 00:21:49,039
-community, honestly, like it,
-like, you know what I mean?
+00:21:46,700 --> 00:21:49,039
+community, honestly. Like, it
+-- like, you know what I mean?
 
 451
 00:21:49,039 --> 00:21:52,069
-It's, I mean, the, zooms in
-the slack, it's like, it's,
+It's -- I mean, the, Zooms and
+the- and the Slack, it's like,
 
 452
-00:21:52,069 --> 00:21:57,049
-what was, it was the whole
-thing for first, however long.
+00:21:52,069 --> 00:21:56,000
+it's what was -- it was the
+whole thing for first ...
 
 453
-00:21:57,049 --> 00:22:02,539
-I don't know.
-I dunno, whatever, however
+00:21:56,000 --> 00:22:01,000
+however long. I don't know.
+I dunno. Whatever. However
 
 454
-00:22:00,589 --> 00:22:07,630
+00:22:01,000 --> 00:22:07,000
 many months or whatever it
-was, you know, So, so yeah.
+was, you know? So- so yeah.
 
 455
-00:22:07,640 --> 00:22:09,769
-there's things that like, I'd
-like to see improved and stuff,
+00:22:07,000 --> 00:22:09,769
+Yeah. There's things that, like,
+I'd like to see improved and
 
 456
 00:22:09,769 --> 00:22:12,920
-but it's, I don't look at
-them as, as, you know, regrets
+stuff. But it's -- I don't look
+at them as- as, you know,
 
 457
 00:22:12,980 --> 00:22:13,970
-or whatever, if that makes sense.
+regrets or whatever, if that
+makes sense.
 
 458
-00:22:14,329 --> 00:22:24,434
-Bekah: Yeah. Let me, okay.
-So the next question is what's
+00:22:14,329 --> 00:22:20,800
+Bekah: Yeah. Let me ... okay.
+So the next question is, what's
 
 459
-00:22:18,734 --> 00:22:24,434
-the hardest part of community
+00:22:20,800 --> 00:22:24,434
+the hardest part ...
+of community?
 
 460
 00:22:26,714 --> 00:22:29,295
-Dan: of like running a community
+Dan: Of, like, run- running a
+community?
 
 461
 00:22:30,345 --> 00:22:33,345
-Bekah: just of community.
-So you can take it as you, as.
+Bekah: Just of community.
+So you can take it as you- as
 
 462
 00:22:33,345 --> 00:22:35,039
-you. See fit.
+you ... see fit.
 
 463
 00:22:37,230 --> 00:22:39,029
 Dan: I don't know, man.
-I like, alright.
+I -- like, alright.
 
 464
-00:22:39,029 --> 00:22:44,430
-So for me, part of, as a member
-of communities is just like,
+00:22:39,029 --> 00:22:43,700
+So, for me, part of -- as a
+member of communities is- is
+
+00:22:43,700 --> 00:22:44,430
+just like ...
 
 465
-00:22:46,319 --> 00:22:51,000
-it, it takes, like emotional
+00:22:46,319 --> 00:22:50,800
+it- it takes, like, emotional
 energy for me to engage with
 
 466
-00:22:51,000 --> 00:22:53,099
-things, engage with people
+00:22:50,800 --> 00:22:53,099
+things, engage with people,
 and do things or whatever.
 
 467
@@ -2274,81 +2747,84 @@ myself like just falling
 
 468
 00:22:57,190 --> 00:22:59,944
-out of communities or, or
-just like not whatever.
+out of communities or- or
+just like not -- whatever.
 
 469
 00:22:59,944 --> 00:23:01,595
-And it even happens in
+And it- it even happens in
 Virtual Coffee sometimes.
 
 470
-00:23:01,775 --> 00:23:07,204
-I mean, you.
-and I I mean, we talk all the
+00:23:02,000 --> 00:23:05,600
+I mean, you and I ... I mean,
+we talk all the
 
 471
-00:23:03,035 --> 00:23:10,505
-time, like doing management
-side, but like, I I'll
+00:23:05,600 --> 00:23:08,000
+time, like, doing management
+side. But, like, I- I'll
 
 472
-00:23:07,210 --> 00:23:14,650
-miss like coffees for weeks
-because it's like eight 50
+00:23:08,000 --> 00:23:13,800
+miss, like, coffees for weeks
+because it's like ... 8.50
 
 473
-00:23:10,505 --> 00:23:16,329
+00:23:13,800 --> 00:23:15,700
 in the morning, you know?
-And, and it's not, I'm
+And- and it's not -- I'm
 
 474
-00:23:14,650 --> 00:23:19,539
+00:23:15,700 --> 00:23:18,500
 not tired or anything.
-It's just like, I need, I
+It's just like, I need- I
 
 475
-00:23:16,329 --> 00:23:21,789
-needed a certain amount of a
+00:23:18,500 --> 00:23:20,700
+needed a certain amount of -- a
 store of energy to be able to
 
 476
-00:23:19,539 --> 00:23:22,869
-like talk to people, you know,
-especially people I don't know.
+00:23:20,700 --> 00:23:22,869
+like, talk to people, you know?
+Especially people I don't know.
 
 477
 00:23:23,140 --> 00:23:25,630
-And I love it, but
-like sometimes it's
+And I love it. But,
+like, sometimes it's-
 
 478
-00:23:25,660 --> 00:23:30,644
-sometimes it's hard. And so, I.
-Yeah. although I will say, I
+00:23:25,660 --> 00:23:29,000
+sometimes it's hard. And so ...
+I -- although that will say --
 
 479
-00:23:28,875 --> 00:23:31,545
-will say like every time
-that I've felt that.
+00:23:29,000 --> 00:23:31,545
+I will say, like, every time
+that I've felt that
 
 480
 00:23:31,545 --> 00:23:35,144
-way, But then still gone.
-I've been very glad that I went.
+way, but then still gone,
+I've been very glad that I went-
 
 481
+00:23:35,144 --> 00:23:35,204
+Bekah: Yeah.
+
 00:23:35,204 --> 00:23:37,625
-Yeah. You know what I mean?
-Like it's, it's one of
+Dan: -you know what I mean?
+Like, it's- it's one of
 
 482
-00:23:35,805 --> 00:23:39,224
-those like Catch 22s where
-my brain is like, fooling
+00:23:37,625 --> 00:23:38,300
+those, like, "Catch-22" where
+my brain is, like, fooling
 
 483
-00:23:37,625 --> 00:23:39,224
+00:23:38,300 --> 00:23:39,224
 me about it, you know?
 
 484
@@ -2357,8 +2833,8 @@ Bekah: Yeah.
 
 485
 00:23:39,944 --> 00:23:41,714
-Dan: But like overcoming that
-that's, that can be hard.
+Dan: But, like, overcoming that,
+that's -- that can be hard.
 
 486
 00:23:41,954 --> 00:23:45,545
@@ -2368,65 +2844,84 @@ for me is, my memory's
 487
 00:23:45,545 --> 00:23:47,674
 really bad, especially
-with like names and stuff
+with like names and stuff,
 
 488
 00:23:48,065 --> 00:23:51,305
-and like, and so, you know,
+and, like -- a-and so, you know,
 remembering people that I met
 
 489
-00:23:51,335 --> 00:23:54,214
+00:23:51,335 --> 00:23:53,500
 or like that I'm supposed to
-know, or you know, I'll, I
+know or let- you know,
+
+490
+00:23:53,500 --> 00:23:54,214
+I'll- I'll --
 
 490
 00:23:54,214 --> 00:23:57,214
-sensibly do know, but have
+I sensibly do know, but have
 forgotten who they are or what
 
 491
 00:23:57,214 --> 00:23:59,555
-their name is, or, you know,
-that happens to me like a lot.
+their name is or, you know,
+that happens to me, like, a lot.
 
 492
-00:23:59,555 --> 00:24:03,664
-And it's much easier.
-online Because you can kind
+00:23:59,555 --> 00:24:02,000
+And it's much easier
+online because you can kinda
 
 493
-00:24:00,670 --> 00:24:04,414
-of like, look, try to Google
-them or something, you know?
+00:24:02,000 --> 00:24:04,000
+like, look -- try to Google
+them or something [chuckles],
 
 494
-00:24:04,565 --> 00:24:07,535
-Yeah. Harder in person.
-Like it's more, more
+00:24:04,000 --> 00:24:04,414
+you know?
+
+494
+00:24:04,414 --> 00:24:04,565
+Bekah: Yeah.
+
+00:24:05,000 --> 00:24:06,700
+Dan: Harder in person.
+Like, it's more- more
 
 495
-00:24:05,944 --> 00:24:09,484
+00:24:06,700 --> 00:24:08,700
 embarrassing for me in person.
-So it's, that's my other, yeah.
+So it's -- that's my other-
+
+796
+00:24:08,700 --> 00:24:09,484
+Bekah: Yeah.
 
 496
-00:24:10,174 --> 00:24:15,025
-Struggle. What about you?
+00:24:10,174 --> 00:24:11,200
+Dan: -struggle. What about you?
 
 497
-00:24:15,184 --> 00:24:17,805
-Bekah: I guess the, the thing
-that I never would've thought
+00:24:12,300 --> 00:24:16,700
+Bekah: Well ... I guess the-
+the thing that I never
+
+498
+00:24:17,000 --> 00:24:17,805
+would've thought
 
 498
 00:24:17,805 --> 00:24:22,875
-about before this community was,
-last year when Mike passed
+about, before this community,
+was last year, when Mike passed
 
 499
 00:24:22,880 --> 00:24:28,505
-away, that was like, obviously
+away. That was, like, obviously
 a really hard experience.
 
 500
@@ -2435,54 +2930,85 @@ He was an active
 community member.
 
 501
-00:24:30,795 --> 00:24:36,525
-Like everybody loved him.
-But then like
+00:24:30,795 --> 00:24:34,600
+Like, everybody loved him.
+But then, like,
 
 502
-00:24:33,164 --> 00:24:37,484
-making decisions yeah.
-About that. Yep.
+00:24:34,600 --> 00:24:36,000
+making decisions-
 
 503
-00:24:37,845 --> 00:24:43,355
-And having to tell people
-over and over, Yeah.
+00:24:36,000 --> 00:24:36,300
+Dan: Yeah.
 
 504
-00:24:43,434 --> 00:24:46,724
-I, I like something that you
-can't ever be prepared for.
+00:24:36,300 --> 00:24:37,000
+Bekah: -about that-
+
+505
+00:24:37,000 --> 00:24:37,484
+Dan: Yep.
+
+503
+00:24:37,845 --> 00:24:41,500
+Bekah: -and having to tell
+people over and over was --
+
+504
+00:24:43,000 --> 00:24:43,434
+Dan: Yeah?
+
+504
+00:24:43,434 --> 00:24:45,900
+Bekah: I- I -- like, something
+that you can't ever be
+
+505
+00:24:46,000 --> 00:24:46,724
+prepared for.
 
 505
 00:24:46,724 --> 00:24:52,335
-And so like experiencing the
+And so, like, experiencing the
 losses of community members
 
 506
-00:24:53,204 --> 00:24:58,964
+00:24:53,204 --> 00:24:56,800
 and with community members.
-And like trying to leave
+And, like, trying to leave
 
 507
-00:24:55,545 --> 00:25:01,234
+00:24:56,800 --> 00:25:00,000
 space for people to experience
-grief in different ways. Yeah.
+grief in different ways-
 
 508
-00:25:01,244 --> 00:25:08,714
-Is just, I, I don't know.
-I felt like I was stretched
+00:25:00,900 --> 00:25:01,234
+Dan: Yeah.
+
+508
+00:25:01,244 --> 00:25:05,000
+Bekah: -is just ... I- I don't
+know. I felt like, I was
 
 509
-00:25:03,555 --> 00:25:10,914
-beyond my limits of human being.
-Like yeah.
+00:25:05,000 --> 00:25:10,914
+stretched beyond my limits of
+human being. Like, I-
 
 510
-00:25:11,115 --> 00:25:15,164
-Went through and, and, you know,
-it was hard with Mike, but like
+00:25:10,914 --> 00:25:11,115
+Dan: Yeah.
+
+510
+00:25:11,115 --> 00:25:14,000
+Bekah: -went through -- and-
+and, you know, it was hard
+
+511
+00:25:14,000 --> 00:25:15,164
+with Mike, but like
 
 511
 00:25:15,164 --> 00:25:17,325
@@ -2491,48 +3017,70 @@ in the communities, right?
 
 512
 00:25:17,325 --> 00:25:20,325
-Like there have been
+Like, there have been
 miscarriages, there
 
 513
 00:25:20,325 --> 00:25:23,625
-have been jobs lost.
-There have been relationships.
+have been jobs lost,
+there have been relationships
 
 514
-00:25:23,625 --> 00:25:29,894
-that Are no longer.
-And when people like confide
+00:25:23,625 --> 00:25:27,800
+that are no longer.
+And when people, like, confide
 
 515
-00:25:25,305 --> 00:25:34,305
-in you and talk to you about
-that, it's just one of those.
+00:25:27,800 --> 00:25:34,000
+in you, and talk to you about
+that, it's just ... one of
 
 516
-00:25:34,605 --> 00:25:40,799
-It is definitely the hardest
-Emotional labor that, that
+00:25:34,000 --> 00:25:34,305
+those --
+
+516
+00:25:34,605 --> 00:25:36,700
+it is definitely the hardest-
+
+00:25:37,000 --> 00:25:37,500
+Dan: Yeah.
+
+00:25:37,500 --> 00:25:40,799
+Bekah: -emotional labor that-
+that
 
 517
-00:25:40,799 --> 00:25:48,539
-I have ever had to put in.
-anywhere. It , it's like a
+00:25:40,799 --> 00:25:45,000
+I have ever had to put in
+anywhere. It- [chuckles]
 
 518
-00:25:43,500 --> 00:25:51,579
-catch 22 though, right?
-mm-hmm,  you have to experience.
+00:25:46,700 --> 00:25:48,500
+it's like a "Catch-22" though,
+right? Like-
+
+00:25:48,500 --> 00:25:49,000
+Dan: Mm-hmm.
+
+00:25:49,700 --> 00:25:51,579
+Bekah: -you have to ...
+experience ...
 
 519
 00:25:53,009 --> 00:25:58,470
-like the, the full humanness
+like, the- the full humanness
 to really be close and
 
 520
-00:25:58,700 --> 00:26:01,140
-supportive to the, yeah.
-the people around you.
+00:25:58,700 --> 00:26:59,500
+supportive to the-
+
+00:26:59,300 --> 00:26:59,500
+Dan: Yeah.
+
+00:26:00,500 --> 00:26:01,140
+Bekah: -the people around you.
 
 521
 00:26:01,140 --> 00:26:06,029
@@ -2540,138 +3088,169 @@ So like, would I love to
 not ever have to experience
 
 522
-00:26:06,035 --> 00:26:13,259
-any of those things? Sure. Yeah.
-I think it's a key part
+00:26:06,035 --> 00:26:07,000
+any of those things?
+
+00:26:07,000 --> 00:26:07,200
+Dan: Sure.
+
+00:26:07,600 --> 00:26:11,300
+Bekah: Yeah. But I think it's
+the -- a key part
 
 523
-00:26:09,390 --> 00:26:16,890
+00:26:11,300 --> 00:26:14,000
 of understanding the
 people in front of us
 
 524
-00:26:13,259 --> 00:26:17,400
-to be there through it. So
+00:26:14,000 --> 00:26:17,400
+to be there through it. So --
 
 525
-00:26:18,299 --> 00:26:21,720
-Dan: No, I, I, I mean, I totally
-agree and that's like, It
+00:26:17,400 --> 00:26:21,720
+Dan: Yeah. No, I- I- I mean, I 
+totally agree. And that's like,
 
 526
-00:26:21,720 --> 00:26:27,599
-was, it was incredibly hard.
-And, but I just, I was
+00:26:21,720 --> 00:26:26,700
+it was- it was incredibly hard.
+A- and ... but I just -- I was,
 
 527
-00:26:23,099 --> 00:26:30,990
+00:26:26,700 --> 00:26:28,500
 like, while you were talking
-just now, I was just like,
+just now, I was just, like,
 
 528
-00:26:27,599 --> 00:26:33,599
-thinking of how, thankful
-I am that like Virtual
+00:26:28,500 --> 00:26:31,700
+thinking of how ... thankful
+I am that, like, Virtual
 
 529
-00:26:30,990 --> 00:26:37,109
-Coffee is, is what it is.
-And like it's a place where
+00:26:31,700 --> 00:26:35,000
+Coffee is- is what it is.
+And, like, it's a place where
 
 530
-00:26:33,630 --> 00:26:40,680
-people can come to share
-this horrible, thing, like
+00:26:35,000 --> 00:26:39,500
+people can come to, like, share
+... this- this horrible thing --
 
 531
-00:26:38,730 --> 00:26:46,230
-the heavy feelings or, you
-know, it's obviously is
+00:26:39,500 --> 00:26:40,000
+like, the heavy feelings or-
+
+00:26:40,000 --> 00:26:40,200
+Bekah: Yeah.
+
+00:26:40,300 --> 00:26:44,700
+Dan: -you know, it's -- it
+obviously is
 
 532
-00:26:40,900 --> 00:26:52,349
-hard, but I think like my,
+00:26:44,700 --> 00:26:47,500
+hard. But I think, like, my --
 I guess my point is just
 
 533
-00:26:46,920 --> 00:26:54,569
-like, that It's worth it.
-I guess is my point.
+00:26:47,500 --> 00:26:53,300
+like ... that it's worth it.
+Like [laughs]-
+
+00:26:53,300 --> 00:26:53,500
+Bekah: Yeah.
+
+00:26:53,500 --> 00:26:54,569
+Dan: -I guess it- it's my
+point.
 
 534
-00:26:54,569 --> 00:26:59,505
+00:26:54,569 --> 00:26:55,000
 You know what I mean?
-Like the, like, it is
+
+00:26:55,000 --> 00:26:55,300
+Bekah: Yeah.
+
+00:26:55,300 --> 00:26:56,000
+Dan: Like, the -- like, it is
+like,
 
 535
-00:26:55,049 --> 00:27:02,025
-like it, it it's yeah.
-It's that it's, it's just, it's
+00:26:56,000 --> 00:27:01,000
+it- it- it's ... yeah. It's
+that. It's- it's just -- it's
 
 536
-00:26:59,775 --> 00:27:05,025
-hard, but like, it's also like,
-it's what makes Virtual Coffee,
+00:27:01,000 --> 00:27:03,000
+hard, but like, it's also like
+-- it's what makes Virtual
 
 537
-00:27:02,025 --> 00:27:09,974
-like what it is, you know?
-I mean, the that's, that's
+00:27:03,000 --> 00:27:07,000
+Coffee, like, what it is, you
+know? I mean, the -- that's-
 
 538
-00:27:05,085 --> 00:27:12,315
-sort of like connection.
-The, you know, the,
+00:27:07,000 --> 00:27:11,000
+that's sort of, like,
+connection. The, you know, the-
 
 539
-00:27:10,005 --> 00:27:17,930
-intimate connection right.
-Is, is I started noticing it
+00:27:11,000 --> 00:27:14,000
+the intimate connection, right?
+Is- is -- I started noticing it
 
 540
-00:27:12,315 --> 00:27:20,869
-even before, maybe right around
-like our, our like original
+00:27:14,000 --> 00:27:18,000
+even before ... maybe right
+around, like, our- our,
+
+00:27:18,000 --> 00:27:19,000
+like, original
 
 541
-00:27:17,930 --> 00:27:23,299
-Hacktoberfest time, you know,
-like when we all started like
+00:27:19,000 --> 00:27:21,000
+Hacktoberfest time, you know?
+Like, when we all started like
 
 542
-00:27:20,869 --> 00:27:27,500
-really doing that, but like just
-the, I this is gonna like sound,
+00:27:21,000 --> 00:27:26,000
+really doing that, but like,
+just the -- I this is gonna,
+
+00:27:26,000 --> 00:27:26,300
+like, sound --
 
 543
-00:27:23,299 --> 00:27:30,049
-it might sound like silly, but
-like the fact that like, people
+00:27:26,300 --> 00:27:29,000
+it might sound like silly. But,
+like, the fact that like, people
 
 544
-00:27:27,500 --> 00:27:31,039
-would just like throw around
+00:27:29,000 --> 00:27:31,039
+would just, like, throw around
 the heart emoji, you know?
 
 545
 00:27:31,099 --> 00:27:34,240
-And like, just to people, you
-know, like not, not your best
+And like ... just to people, you
+know? Like, not- not your best
 
 546
 00:27:34,240 --> 00:27:36,369
-friends or not, but just like
-people like in the community,
+friends or not -- but just like
+people, like, in the community,
 
 547
 00:27:36,369 --> 00:27:38,440
 you know, made me feel good.
-I don't, I don't know why.
+I don't- I don't know why.
 
 548
 00:27:38,470 --> 00:27:44,019
-Like, and, and, and to be
-able to also like also start
+Like -- and- and- and to be able
+to also -- like, also start
 
 549
 00:27:44,025 --> 00:27:45,789
@@ -2680,41 +3259,47 @@ emoji, or whatever, you
 
 550
 00:27:45,789 --> 00:27:47,710
-know, like, I it's like a,
+know? Like, I -- it's like a --
 it's like kind of a silly
 
 551
-00:27:47,710 --> 00:27:52,329
-way to say it, but like, to.
-to both, share, you
+00:27:47,710 --> 00:27:51,500
+way to say it. But, like, to-
+to both share ... you
 
 552
-00:27:49,450 --> 00:27:54,009
-know, I guess sharing. it, Right.
-Like both like two ways. Right.
+00:27:51,500 --> 00:27:54,009
+know, I guess sharing it, right?
+Like, both -- like, two ways,
 
 553
-00:27:54,009 --> 00:27:56,259
-You know, there's like,
-there's, there's, good
+00:27:54,009 --> 00:27:54,700
+right? You know what I mean?
+
+00:27:54,700 --> 00:27:55,000
+Bekah: Yeah.
+
+00:27:55,000 --> 00:27:56,259
+Dan: There's like --
+there's- there's good
 
 554
-00:27:56,259 --> 00:28:01,690
-feelings coming, both ways.
-And I, from everybody
+00:27:56,259 --> 00:28:00,500
+feelings coming ... both ways,
+and I -- from everybody
 
 555
-00:27:59,410 --> 00:28:04,089
-in the community and
-like, I dunno, this it's good.
+00:28:00,500 --> 00:28:04,089
+in the community. And, like,
+I dunno. This -- it's good.
 
 556
-00:28:04,720 --> 00:28:10,200
-Bekah: Yeah.
-I think when you can share
+00:28:04,720 --> 00:28:06,900
+Bekah: Yeah. I think when you
+can eg- share
 
 557
-00:28:04,930 --> 00:28:12,269
+00:28:07,000 --> 00:28:12,269
 your losses openly like that,
 then you celebrate your wins.
 
@@ -2729,7 +3314,7 @@ strongly in the other direction.
 
 560
 00:28:15,660 --> 00:28:19,289
-So it. it is Definitely one of
+So it- it is definitely one of
 the hardest, but one of the
 
 561
@@ -2754,131 +3339,162 @@ are gonna be people there too.
 
 565
 00:28:31,680 --> 00:28:35,174
-And I know my empathy and
+And I know that my empathy and
 understanding of other people
 
 566
 00:28:35,174 --> 00:28:38,204
-has definitely, I feel like,
-like the Grinch, right?
+has definitely, I feel like-
+like "The Grinch", right?
 
 567
-00:28:38,204 --> 00:28:43,335
-Like  yeah.
-I was a little bit of the
+00:28:38,204 --> 00:28:39,000
+Like [chuckles]-
+
+00:28:39,700 --> 00:28:40,000
+Dan: Yeah [laughs].
+
+00:28:41,234 --> 00:28:42,000
+Bekah: I was a little bit of
+"The Grinch"
 
 568
-00:28:41,234 --> 00:28:43,335
-Grinch before Virtual Coffee.
+00:28:42,000 --> 00:28:43,335
+before Virtual Coffee [laughs].
 
 569
-00:28:44,444 --> 00:28:48,750
-Dan: three sizes. Yeah.
-No, that's a great call
+00:28:43,335 --> 00:28:45,500
+Dan: [Inaudible] Two- two --
+three- three sizes. It's --
+
+00:28:45,500 --> 00:28:46,000
+Bekah: Yeah.
+
+00:28:47,000 --> 00:28:47,900
+Dan: No, that's a great call.
 
 570
-00:28:46,619 --> 00:28:51,690
-and that's a good point.
+00:28:48,000 --> 00:28:49,500
+And that's a good point.
 Like, I mean, I have learned
 
 571
-00:28:48,750 --> 00:28:55,470
-so much just about like yeah.
-Expressing myself and talking to
+00:28:49,500 --> 00:28:52,600
+so much just about like ...
+yeah. Expressing myself and
+
+00:28:52,600 --> 00:28:53,000
+talking to --
 
 572
-00:28:51,690 --> 00:29:01,019
-connecting with people and,
-yeah, my, I was gonna say like
+00:28:53,000 --> 00:29:59,000
+connecting with people and ...
+yeah. My ... I was gonna say,
 
 573
-00:28:57,150 --> 00:29:02,940
-my, my like emotional literacy,
-I feel like has exploded
+00:29:59,000 --> 00:29:01,000
+like, my- my, like, emotional
+literacy, I feel like has
 
 574
-00:29:01,019 --> 00:29:08,491
-over the last few years.
-It, it reminds me of,
+00:29:01,019 --> 00:29:05,000
+exploded over the last few
+years. It- it reminds me of s-
 
 575
-00:29:03,059 --> 00:29:11,255
-I forget what we were
+00:29:07,500--> 00:29:09,000
+... I forget what we were
 talking about, but I was
 
 576
-00:29:08,497 --> 00:29:14,914
+00:29:09,000 --> 00:29:13,000
 talking with somebody and I
-was, I was like, they were
+was- I was like -- they were
 
 577
-00:29:11,255 --> 00:29:16,775
-like, this was earlier in.
-pandemic When things were
+00:29:13,000 --> 00:29:15,000
+like -- this was earlier in
+pandemic when things were
 
 578
-00:29:14,914 --> 00:29:18,095
+00:29:15,000 --> 00:29:18,095
 like, still like a lot
 more shut down, you know?
 
 579
 00:29:18,095 --> 00:29:20,464
 And they were talking about
-how they hadn't like, they
+how they hadn't, like, they
 
 580
 00:29:20,464 --> 00:29:22,115
-hadn't like many new people
+hadn't, like, meeting new people
 or they haven't talked, you
 
 581
-00:29:22,115 --> 00:29:25,595
+00:29:22,115 --> 00:29:23,000
 know, like all this stuff.
-And I'm like, I've actually
+And I'm like, I've actually,
 
 582
-00:29:22,835 --> 00:29:28,069
-like made more friends. Yeah.
-I mean, it's because of Virtual
+00:29:23,000 --> 00:29:26,000
+like, made more friends.
+
+00:29:26,000 --> 00:29:26,200
+Bekah: Yeah.
+
+00:29:26,200 --> 00:29:27,000
+Dan: I mean, it is because of
+Virtual
 
 583
-00:29:26,549 --> 00:29:30,900
-Coffee started or once Virtual
-Coffee started, but like made
+00:29:27,000 --> 00:29:28,000
+Coffee -- or once Virtual
+Coffee started, but like, made
 
 584
-00:29:28,069 --> 00:29:34,140
+00:29:28,069 --> 00:29:32,000
 more friends, new friends in
 that time, in the last three
 
 585
-00:29:30,900 --> 00:29:36,359
+00:29:32,000 --> 00:29:34,700
 years than I had in the last
-10 years before that I think,
+10 years before that [chuckles]
 
 586
-00:29:34,140 --> 00:29:39,539
-you know, like put together,
-and like, and like good
+00:29:34,700 --> 00:29:35,000
+I think,
+
+586
+00:29:35,000 --> 00:29:38,000
+you know? Like, put together.
+And like- and like good
 
 587
-00:29:36,839 --> 00:29:41,369
-friends, not, you know,
+00:29:38,000 --> 00:29:38,500
+friends. Not-
+
+00:29:39,000 --> 00:29:39,200
+Bekah: Yeah.
+
+00:29:39,000 --> 00:29:40,000
+Dan: -you know,
 not just like random Twitter
 
 588
-00:29:39,539 --> 00:29:42,210
+00:29:40,000 --> 00:29:42,210
 followers or something,
-you know, you know what I. mean?
+you know- you know what I mean?
 
 589
 00:29:42,214 --> 00:29:46,529
-Like, and, and yeah, I
-mean, it's all, that's all
+Like ... and- and, yeah. I
+mean, that's all- that's all
 
 590
 00:29:46,529 --> 00:29:49,470
-Virtual Coffee, you know, it's,
+Virtual Coffee, you know? It's-
 it's just like, you know, it's
 
 591
@@ -2886,98 +3502,156 @@ it's just like, you know, it's
 good stuff.
 
 592
-00:29:50,099 --> 00:29:54,674
-Bekah: Yeah. Yeah.
-And it's we get to
+00:29:50,099 --> 00:29:52,900
+Bekah: Yeah. Yeah. And
+it's great. Like, we get to
 
 593
-00:29:51,059 --> 00:29:56,234
-meet up some of us. I know.
-Well, this is, which
+00:29:53,000 --> 00:29:54,000
+meet up some of us.
+
+594
+00:29:54,000 --> 00:29:54,765
+Dan: I know.
+Well, this is [inaudible] --
 
 594
 00:29:54,765 --> 00:29:56,234
-is really, really nice.
+Bekah: Which is really, really
+nice.
 
 595
-00:29:56,234 --> 00:29:59,204
+00:29:56,234 --> 00:29:57,500
 Dan: Yeah.
 This is the second time that
 
 596
-00:29:56,355 --> 00:30:01,875
+00:29:57,500 --> 00:30:01,875
 Bekah and I have met in person.
-cuz And when, when did we meet?
+Cuz -- and when- when did we
 
 597
 00:30:01,875 --> 00:30:03,434
-When did, when did we like
-start working together
+meet? When did- when did we,
+like, start working together?
+
+00:30:03,434 --> 00:30:04,500
+Is 2019 [??] ... June [??] --
 
 598
-00:30:03,434 --> 00:30:10,134
-Bekah: is 20 July of 2018.
-18, 18, I think. Okay. Yeah.
+00:30:04,000 --> 00:30:07,000
+Bekah: July of two thousand --
+
+00:30:07,000 --> 00:30:07,300
+Dan: 18?
+
+00:30:07,300 --> 00:30:07,600
+Bekah: 18.
+
+00:30:08,000 --> 00:30:08,500
+Dan: 18?
+
+00:30:08,500 --> 00:30:09,000
+Bekah: I think.
+
+00:30:09,000 --> 00:30:12,500
+Dan: Okay. Yeah. So --
 
 599
-00:30:10,994 --> 00:30:16,184
-Dan: So yeah, two times
-every What year is it now?
+00:30:12,500 --> 00:30:13,000
+Bekah: Yeah.
+
+00:30:13,000 --> 00:30:16,000
+Dan: Two times every ... four
+-- what year is it now?
 
 600
-00:30:16,964 --> 00:30:21,224
-22 So two times.
-Every three years. See each other
+00:30:16,964 --> 00:30:17,200
+Bekah: 22.
+
+00:30:17,200 --> 00:30:21,500
+Dan: 22? So it ... two times
+every three years s-see each
+
+00:30:21,500 --> 00:30:21,800
+other in person?
 
 601
-00:30:21,224 --> 00:30:24,289
-Bekah: in Yeah, right. Yeah.
-And we're in Kansas city. So
+00:30:21,800 --> 00:30:22,000
+Bekah: Yeah.
+
+00:30:22,000 --> 00:30:22,500
+Dan: Right?
+
+00:30:22,500 --> 00:30:24,289
+Bekah: Yeah. And we're
+in Kansas City. So --
 
 602
 00:30:24,289 --> 00:30:25,019
-Dan: we're in Kansas
-city right now.
+Dan: We're in Kansas
+city right now. Make sense.
 
 603
 00:30:25,019 --> 00:30:27,000
-Bekah: We live like two
-hours from each other,
+Bekah: We live like two hours
+from each other, like [laughs]
 
 604
-00:30:28,170 --> 00:30:30,150
-but this is the only place
-that would take us really.
+00:30:28,170 --> 00:30:28,500
+... but --
+
+00:30:28,500 --> 00:30:30,150
+Dan: This is the only place
+that would take us really. So --
 
 605
-00:30:30,150 --> 00:30:32,849
-So, yeah. Yeah.
-I guess that's understandable.
+00:30:30,150 --> 00:30:30,800
+Bekah: Yeah.
+
+00:30:31,000 --> 00:30:31,200
+Dan: Yeah.
+
+00:30:31,200 --> 00:30:32,849
+Bekah: I guess that's
+understandable.
 
 606
-00:30:35,400 --> 00:30:38,099
+00:30:35,400 --> 00:30:37,700
 All right.
 Let's see what other questions.
 
 607
-00:30:38,105 --> 00:30:40,710
-time over. We still got, oh,
-we got some time
+00:30:36,000 --> 00:30:38,500
+Dan: [Inaudible] time over
+ahead [??].
+
+00:30:38,500 --> 00:30:39,000
+Bekah: We still got-
+
+00:30:39,000 --> 00:30:39,500
+Dan: Oh, we got-
+
+00:30:39,500 --> 00:30:40,710
+Bekah: -some time.
 
 608
 00:30:41,160 --> 00:30:44,609
-Dan: 20 minutes-ish
+Dan: -twenty minutes-ish
 before hours up. I dunno.
 
 609
-00:30:46,319 --> 00:30:50,190
-Oh, Okay.
-I suppose we should have
+00:30:46,319 --> 00:30:48,000
+Bekah: Um ... oh, okay.
 
 610
-00:30:48,480 --> 00:30:51,410
-said something on slack about
-how we aren't going live
+00:30:48,000 --> 00:30:49,000
+Dan: I suppose we should have
+
+610
+00:30:49,000 --> 00:30:51,410
+said something on Slack about
+how we are going live.
 
 611
 00:30:51,789 --> 00:30:52,059
@@ -3004,100 +3678,105 @@ on Twitter though. Sorry.
 616
 00:30:57,690 --> 00:31:05,369
 Can't cover all the spaces.
-Oh, what did you do? Did it.
+Uh-oh. What did you do? Did it
 
 617
-00:31:05,369 --> 00:31:05,640
-pause
+00:31:05,369 --> 00:31:05,644
+pause it?
 
 618
-00:31:05,644 --> 00:31:10,650
-Dan: it?
-I don't know if it did for that
+00:31:08,000 --> 00:31:08,900
+Dan: I don't- I don't know if
+it did for that
 
 619
-00:31:08,339 --> 00:31:11,759
+00:31:09,000 --> 00:31:11,759
 moment, but it is going again.
-So we're in good shape.
+So ... we're in good shape.
 
 620
 00:31:13,329 --> 00:31:15,119
-The recording of the
-technical issues.
+The recording [inaudible]
+several technical issues.
 
 621
 00:31:15,809 --> 00:31:16,559
 We've been recording for
+like half an hour.
 
 622
-00:31:16,559 --> 00:31:18,960
-Bekah: like half an hour. You
-need to sit, be
+00:31:16,559 --> 00:31:18,000
+Bekah:  You need to sit -- be
 
 623
-00:31:17,255 --> 00:31:19,529
-closer to your mic.
-Cause I can't hear
+00:31:18,000 --> 00:31:19,529
+in -- closer to your mic.
+Cuz I can't hear you.
 
 624
 00:31:21,244 --> 00:31:22,845
-Dan: Has that been true
-the full time or just now?
+Dan: Has it -- that been true
+the full time? Or just now,
+
+00:31:22,845 --> 00:31:23,500
+since I got up?
 
 625
-00:31:22,845 --> 00:31:24,855
-Bekah: Since I got up,
-it was like, just
+00:31:23,500 --> 00:31:24,855
+Bekah: It was like, just
+since you got up.
 
-626
-00:31:23,505 --> 00:31:25,845
-since you got up. Okay. Good.
-All right.
+00:31:24,855 --> 00:31:25,000
+Dan: Okay, good.
+
+00:31:25,000 --> 00:31:26,000
+Bekah: All right.
+Where are the questions?
 
 627
-00:31:25,849 --> 00:31:27,555
-Where are the questions?
-I don't know.
+00:31:26,000 --> 00:31:27,555
+Dan: I don't know.
 
 628
 00:31:28,484 --> 00:31:29,384
-There was another one. and,
+Bekah: There was another one.
+And --
 
 629
-00:31:29,835 --> 00:31:31,664
+00:31:29,384 --> 00:31:30,000
 Dan: Oh, Ayu
-had a question that was,
+had a question that was --
 
 630
-00:31:29,894 --> 00:31:31,664
+00:31:30,000 --> 00:31:31,664
 I know it was a trap.
 
 631
 00:31:32,535 --> 00:31:33,555
-Bekah: It was a trap.
+Bekah: It was a trap?
 
 632
 00:31:33,559 --> 00:31:33,855
-Dan: Yeah, for me
+Dan: Yeah. For me.
 
 633
 00:31:34,275 --> 00:31:37,065
-Bekah: it was a trap for. you.
-Okay, wait, let me,
+Bekah: It was a trap for you?
+Okay, wait. Let me --
 
 634
 00:31:39,345 --> 00:31:41,384
-Dan: I think it was on Twitter,
+Dan: I think it was on Twitter.
 
 635
-00:31:42,674 --> 00:31:45,585
-Bekah: Thanks.
-Barrett Blake for saying
+00:31:41,384 --> 00:31:44,000
+Bekah: Twitter. Thanks,
+Barrett Blake, for saying
 
 636
-00:31:43,664 --> 00:31:47,234
+00:31:44,000 --> 00:31:47,234
 the Virtual Coffee
-podcast is a must. Listen.
+podcast is a must listen.
 
 637
 00:31:48,029 --> 00:31:49,170
@@ -3109,65 +3788,74 @@ Bekah: We love it.
 
 639
 00:31:51,420 --> 00:31:52,079
-Dan: we love it.
+Dan: [Chuckles] We love it.
 
 640
 00:31:53,460 --> 00:31:57,329
-Bekah: Why can't I find it?
-Okay.
+Bekah: Um ... why can't I find
+it? Okay.
 
 641
 00:31:57,329 --> 00:31:59,890
 Maybe it's the history of how
-Virtual Coffee was founded.
+Virtual Coffee was found.
 
 642
 00:31:59,910 --> 00:32:00,900
-Oh yes. Yes.
+Oh yes.
 
 643
-00:32:01,410 --> 00:32:01,619
-Dan: See,
+00:32:00,900 --> 00:32:01,619
+Dan: Yes. See?
 
 644
 00:32:02,849 --> 00:32:03,240
-Bekah: go. ahead.
+Bekah: Go ahead.
 
 645
 00:32:03,779 --> 00:32:04,890
-Dan: What I didn't found it.
+Dan: What? I didn't found it.
 
 646
 00:32:06,779 --> 00:32:10,829
-Bekah: Well, you fired me and
+Bekah: Well, you fired me,
+and --
 
 647
 00:32:10,829 --> 00:32:13,601
-Dan: see, Ayu
-is just . This is this is it.
+Dan: See? Ayu is just -- [Bekah
+laughs] this is, like --
 
 648
-00:32:13,605 --> 00:32:20,055
-Every, starts like
-that, I didn't fire you. Yeah.
+00:32:13,605 --> 00:32:16,000
+this is it. Every- every time.
+Starts like that. I didn't
+
+00:32:16,000 --> 00:32:19,800
+fire you. Yeah.
 
 649
 00:32:20,234 --> 00:32:21,194
-You heard it here, folks.
+You heard it here, folks
+[chuckles].
 
 650
 00:32:22,424 --> 00:32:27,404
-Bekah: Dan said, I will no
-longer pay you to do work. Yes.
+Bekah: Dan said, "I will no
+longer pay you to do work."
+
+651
+00:32:27,404 --> 00:32:27,704
+Dan: Yes.
 
 651
 00:32:27,704 --> 00:32:32,015
-So you all are welcome to
-define that as you see.
+Bekah: So you all are welcome
+to define that as you see
 
 652
 00:32:32,075 --> 00:32:37,454
-fit, We should, have them
+fit. We should have them
 vote for their favorite Virtual
 
 653
@@ -3177,34 +3865,43 @@ Coffee host and see who wins.
 654
 00:32:40,484 --> 00:32:41,934
 Dan: That doesn't sound very fun
-for me.
+for me [chuckles].
 
 655
 00:32:43,559 --> 00:32:44,970
-Bekah: I mean, you,
-you're probably lot
+Bekah: [Laughs] I mean, you mi-
+you're probably a lot
 
 656
 00:32:44,970 --> 00:32:45,839
 of people's favorites.
 
 657
-00:32:45,859 --> 00:32:50,579
-Dan: Mm-hmm I doubt it.
-it'll probably be like,
+00:32:45,859 --> 00:32:48,000
+Dan: Hmm ... I doubt it.
+It'll probably be like,
 
 658
-00:32:47,730 --> 00:32:50,670
-just one of our guests. win
+00:32:48,000 --> 00:32:51,660
+just one of our guests would
+win [chuckles].
 
 659
-00:32:51,660 --> 00:32:54,000
-Bekah: One of our Kirk Kirk
-is gonna be the one that win.
+00:32:51,660 --> 00:32:52,000
+Bekah: One of our gue- Kirk.
+
+660
+00:32:52,000 --> 00:32:53,000
+Dan: Yeah. It's gonna be Kirk!
+
+661
+00:32:52,000 --> 00:32:54,000
+Bekah: Kirk is gonna be the
+one that win.
 
 660
 00:32:54,005 --> 00:32:55,410
-Dan: It would be, he would
+Dan: It would be -- he would
 get my vote, honestly.
 
 661
@@ -3218,26 +3915,30 @@ Everybody vote for Kirk.
 
 663
 00:32:58,414 --> 00:33:01,799
-Dan: All right.
-It is decided Kirk's favorite.
+Dan: All right. It is decided.
+[Chuckles] K-kirk is favorite.
 
 664
 00:33:02,130 --> 00:33:04,230
-Oh, I mean, should we
-like finish the story if
+Oh, I mean, sh-should we,
+like, finish the story if
 
 665
 00:33:04,230 --> 00:33:05,250
 people haven't heard this?
 
 666
-00:33:06,930 --> 00:33:10,440
-Bekah: I guess so. Okay.
-So, Dan and I work together.
+00:33:06,930 --> 00:33:10,000
+Bekah: [Laughs] I guess so.
+Okay. So, Dan and I
+
+667
+00:33:10,000 --> 00:33:10,440
+work together.
 
 667
 00:33:11,880 --> 00:33:14,880
-Dan: And then the shutdown
+Dan: Yes. And then the shutdown
 happened and all of my clients
 
 668
@@ -3247,57 +3948,70 @@ And so I had to stop
 
 669
 00:33:17,430 --> 00:33:22,319
-giving Bekah work and then
-something, ended. I dunno.
+giving Bekah work. And then
+something happened. I dunno.
 
 670
 00:33:22,380 --> 00:33:24,900
 Bekah: Yeah.
-Well the, the day that I
+Well the- the day that I
 
 671
-00:33:22,680 --> 00:33:27,839
+00:33:24,900 --> 00:33:26,000
 went and picked up my kids'
 schoolwork, cuz they said,
 
 672
-00:33:24,900 --> 00:33:29,160
-oh, you're going home.
-They're going home
+00:33:26,000 --> 00:33:28,000
+"Oh, you're going home --
+they're going home
 
 673
-00:33:27,930 --> 00:33:30,720
-for three weeks. Which they never
-went back that year. Yeah.
+00:33:28,000 --> 00:33:30,500
+for three weeks," which they
+never went back that year.
 
 674
-00:33:30,960 --> 00:33:36,359
-Dan was like, Hey, wanna
-catch up  and I was like, oh no.
+00:33:30,500 --> 00:33:30,720
+Dan: Yeah.
+
+674
+00:33:30,960 --> 00:33:33,000
+Bekah: Dan was like, "Hey,
+wanna catch up?"
 
 675
-00:33:36,420 --> 00:33:43,454
-And it was, oh no.
-So when Dan hired me right
+00:33:33,000 --> 00:33:36,359
+[Laughs] And I was like,
+"Oh, no."
+
+675
+00:33:36,420 --> 00:33:41,000
+And it was, "Oh, no."
+So I -- when Dan hired me right
 
 676
-00:33:37,769 --> 00:33:45,375
-outta bootcamp, I hadn't had,
+00:33:41,000 --> 00:33:45,375
+outta bootcamp, I hadn't had --
 we didn't do an interview.
 
 677
-00:33:45,375 --> 00:33:48,075
-Like we just had a conversation.
-Yeah.
+00:33:45,375 --> 00:33:47,000
+Like, we just have a
+conversation.
+
+678
+00:33:47,600 --> 00:33:48,075
+Dan: Yeah.
 
 678
 00:33:48,285 --> 00:33:52,125
-And so I was now interviewing
-for the first time, really
+Bekah: And so, I was now
+interviewing for the first time,
 
 679
 00:33:52,125 --> 00:33:55,305
-ever with four kids at
+really ever, with four kids at
 home that were trying to
 
 680
@@ -3307,138 +4021,158 @@ And it was just miserable.
 
 681
 00:33:58,575 --> 00:34:01,575
-Like the interview
-process is so crushing
+Like, the interview
+process is soul crushing.
 
 682
-00:34:01,934 --> 00:34:05,684
-and I just found myself.
+00:34:01,934 --> 00:34:03,000
+And I just found myself --
 I was like crying all
 
 683
-00:34:02,924 --> 00:34:07,065
-the time every night,
-I'm like this is awful.
+00:34:03,000 --> 00:34:07,065
+the time, every night.
+I'm like, "This is awful."
 
 684
 00:34:07,515 --> 00:34:12,480
-And so I finally like
-remembered like everything I
+And so, I finally like,
+remembered ... like, everything
 
 685
 00:34:12,480 --> 00:34:14,190
-had gone through in trauma.
-And I was like, I.
+I had gone through in trauma.
+And I was like, "I
 
 686
 00:34:14,190 --> 00:34:17,760
-know You shouldn't be alone
+know you shouldn't be alone
 and isolated in your feelings.
 
 687
 00:34:17,760 --> 00:34:19,530
 Does anybody wanna meet
-up for Virtual Coffee?
+up for a virtual coffee?"
 
 688
-00:34:20,159 --> 00:34:26,505
+00:34:20,159 --> 00:34:24,000
 And then people did.
-So I was doing it like one
+So I was doing it, like, one
 
 689
-00:34:22,289 --> 00:34:28,125
-day a week, and then it
-was at east coast time.
+00:34:24,000 --> 00:34:28,125
+day a week. And then, it
+was at East Coast time.
 
 690
 00:34:28,125 --> 00:34:30,465
 And then people were like,
-what about west coast time?
+"What about West Coast time?"
 
 691
 00:34:30,465 --> 00:34:32,474
-So then I added, I was like
+So then I added -- I was like
 doing double sessions at
 
 692
-00:34:32,474 --> 00:34:36,405
-one point, like Fridays.
-I was doing in the morning
+00:34:32,474 --> 00:34:35,000
+one point. Like, Fridays,
+I was doing in the morning,
 
 693
-00:34:33,795 --> 00:34:38,715
+00:34:35,000 --> 00:34:37,000
 taking a break for an
-hour or two and then
+hour or two, and then
 
 694
-00:34:36,405 --> 00:34:41,925
+00:34:37,000 --> 00:34:40,000
 doing in the afternoon.
-And it was, it was not
+And it was- it was not,
 
 695
-00:34:38,985 --> 00:34:43,425
-like I'm an introvert.
-I, I say I'm an introvert.
+00:34:40,000 --> 00:34:43,425
+like, I'm an introvert.
+I- I- I say I'm an introvert.
 
 696
 00:34:43,664 --> 00:34:46,905
-But I like by that, I was
-like, I don't, I enjoyed
+But I -- like, by that, I was
+like, I don't -- I enjoyed
 
 697
 00:34:46,905 --> 00:34:49,664
-it, but I didn't like wanna
+it, but I didn't, like, wanna
 people anymore for like
 
 698
-00:34:49,875 --> 00:34:54,900
+00:34:49,875 --> 00:34:51,500
 the rest of the weekend.
-That was just too but
+That was just-
+
+00:34:51,500 --> 00:34:51,800
+Dan: Yeah, yeah.
+
+00:34:52,000 --> 00:34:53,700
+Bekah: -too intense. But
 
 699
-00:34:51,074 --> 00:34:57,719
-then we just kept going and
-like, people were like, Hey,
+00:34:53,700 --> 00:34:56,700
+then, we just kept going. And,
+like, people were like, "Hey,
 
 700
-00:34:54,900 --> 00:35:01,199
-why don't you have a slack?
-And so I think Bryan, initially
+00:34:56,700 --> 00:35:00,000
+why don't you have a Slack?" And
+so, I think Brian, initially, is
 
 701
-00:34:57,719 --> 00:35:04,829
-he was like, here's a slack.
-Okay. And then he was like,
+00:35:00,000 --> 00:35:02,000
+-- he was like, "Here's a
+Slack." I'm like [chuckles],
 
 702
-00:35:02,789 --> 00:35:09,210
-let's do lunch and learns. Okay.
-Then we did a newsletter
+00:35:02,000 --> 00:35:03,000
+"Okay." [Dan chuckles] And then
+he was like,
+
+702
+00:35:03,000 --> 00:35:08,000
+"Let's do lunch and learns."
+Okay. Then we did a newsletter,
 
 703
-00:35:07,110 --> 00:35:10,199
+00:35:08,000 --> 00:35:10,199
 and then I've always
 wanted a podcast.
 
 704
 00:35:10,619 --> 00:35:12,599
-And Cameron, I think
-was like, when are we
+And Cameron, I think,
+was like, "When are we
 
 705
-00:35:12,599 --> 00:35:15,929
-gonna do the podcast?
+00:35:12,599 --> 00:35:14,000
+gonna do the podcast?"
 And you were like,
 
 706
-00:35:13,769 --> 00:35:19,590
-let's do a podcast.
-So we just kept going with it.
+00:35:14,000 --> 00:35:17,300
+"Let's do a podcast."
+So we just-
+
+00:35:17,700 --> 00:35:18,000 
+Dan: Yeah.
+
+00:35:18,000 --> 00:35:19,590
+Bekah: -kept going with it.
 
 707
-00:35:19,679 --> 00:35:23,340
-Yep. And Dan, Dan did
-hire me for a while.
+00:35:19,679 --> 00:35:20,000
+Dan: Yep.
+
+00:35:20,000 --> 00:35:23,340
+Bekah: And Dan- Dan did
+hire me back for a while.
 
 708
 00:35:23,519 --> 00:35:23,699
@@ -3446,12 +4180,21 @@ Dan: Yeah.
 
 709
 00:35:24,210 --> 00:35:24,690
-Bekah: So
+Bekah: So --
 
 710
-00:35:25,079 --> 00:35:29,949
-Dan: as soon as I was able to, I
-, Bekah: he only fired Oh my God,
+00:35:25,079 --> 00:35:27,000
+Dan: As soon as I was able to,
+I [inaudible]
+
+711
+00:35:27,000 --> 00:35:29,500
+Bekah: [Giggles] He only fired
+me for a little bit.
+
+712
+00:35:29,500 --> 00:35:29,949
+Dan: Oh my god.
 
 711
 00:35:29,989 --> 00:35:32,190
@@ -3465,110 +4208,124 @@ word incorrectly. I feel like,
 
 713
 00:35:34,829 --> 00:35:35,710
-Bekah: oh, what
+Bekah: Oh. What
 is the definition?
 
 714
 00:35:36,914 --> 00:35:38,925
-Dan: I feel like if you're
+Dan: I feel like, if you're
 gonna fire somebody, it has to
 
 715
 00:35:38,925 --> 00:35:45,074
-be for like, a reason, Like a
-it's laid off is maybe what?
+be for, like, a reason. Like ...
+it's -- laid off is maybe what
 
 716
-00:35:45,585 --> 00:35:47,864
-probably doesn't really apply
-to contractors, but like
+00:35:45,074 --> 00:35:46,000
+-- other -- like, probably
+doesn't really apply to
 
 717
-00:35:48,644 --> 00:35:52,844
-that's closer to what it is.
-Right. Laid off means the company
+00:35:46,000 --> 00:35:47,864
+contractors, but like,
+
+717
+00:35:48,644 --> 00:35:51,000
+that's closer to what it is,
+right? Laid off means the company
 
 718
-00:35:50,204 --> 00:35:53,625
+00:35:51,000 --> 00:35:53,625
 has to stop, you know,
 can't pay you anymore.
 
 719
 00:35:53,894 --> 00:35:55,875
-Bekah: However. you wanna justify
-it in your head Dan.
+Bekah: However you wanna justify
+it in your head, Dan.
 
 720
-00:35:55,994 --> 00:36:03,855
-Dan: Oh God Whatever.
-You better watch or you
+00:35:55,994 --> 00:36:02,000
+Dan: Oh, god. Whatever. [Bekah
+chuckles] You better watch or
 
 721
-00:36:01,125 --> 00:36:04,385
-were gonna get fired again. cuz.
+00:36:02,000 --> 00:36:04,385
+you're gonna get fired
+again, cuz --
 
 722
-00:36:04,829 --> 00:36:08,070
-Bekah: you can't fire me.
-I don't work for you anymore.
+00:36:04,829 --> 00:36:07,800
+Bekah: You can't fire me
+[chuckles]. I don't work for
+
+723
+00:36:07,800 --> 00:36:08,070
+you anymore.
 
 723
 00:36:09,039 --> 00:36:11,219
-Dan: I Definitely can and I will.
+Dan: I definitely can, and
+I will.
 
 724
 00:36:11,760 --> 00:36:14,070
 Bekah: You can't fire
-me if I don't work for you,
+me if I don't work for you.
 
 725
 00:36:14,070 --> 00:36:16,380
-Dan: you can't tell me,
-don't tell me my truth. Okay.
+Dan: You can't tell me --
+don't tell me my truth, okay.
 
 726
-00:36:19,079 --> 00:36:22,409
-Bekah: all right.
-You go ahead and you try and
+00:36:19,079 --> 00:36:20,500
+Bekah: [All laugh] All right.
+You go ahead, and you try and
 
 727
-00:36:19,440 --> 00:36:25,769
-fire me and see how that goes.
-Are you, are you firing me
+00:36:20,500 --> 00:36:24,000
+fire me, and see how that goes.
+Are you- are you firing me
 
 728
-00:36:22,920 --> 00:36:26,489
-as part of the pod as your
-podcast co.
+00:36:24,000 --> 00:36:26,489
+as part of the pod- as your
+podcast co-host?
 
 729
 00:36:29,885 --> 00:36:32,324
-Dan: No, I don't think a
+Dan: No. I don't think a
 lot of people tune into
 
 730
 00:36:32,324 --> 00:36:35,925
-the just Dan podcast.
+the "Just Dan" podcast.
 Dan talks to himself podcast.
 
 731
 00:36:36,585 --> 00:36:38,684
-Bekah: I would tune
-into Dan talk to himself podcast.
+Bekah: I would tune into
+Dan talks to himself podcast.
 
 732
 00:36:39,675 --> 00:36:41,114
 Dan: Yeah, but you
-just heckle me. So
+just heckle me. So --
 
 733
-00:36:41,804 --> 00:36:44,025
-Bekah: yeah, I would
-probably heckle you. Yeah.
+00:36:41,804 --> 00:36:43,600
+Bekah: Yeah. I would
+probably heckle you.
+
+735
+00:36:43,600 --> 00:36:44,025
+Dan: Yeah.
 
 734
 00:36:44,655 --> 00:36:46,485
-Well, tomorrow when I
+Bekah: Well, tomorrow, when I
 speak at PubConf, you're
 
 735
@@ -3577,110 +4334,139 @@ allowed to heckle me though.
 
 736
 00:36:47,775 --> 00:36:48,135
-Dan: Yes,
+Dan: Yes.
 
 737
 00:36:48,614 --> 00:36:49,695
-Bekah: please heckle
+Bekah: Please ... heckle ...
+me.
 
 738
-00:36:50,804 --> 00:37:00,554
-Dan: I, yes, I will. All right.
-I, are you glad or sad
+00:36:50,804 --> 00:36:53,000
+Dan: I ... yes, I will.
+
+739
+00:36:55,000 --> 00:36:55,500
+Bekah: All right.
+
+740
+00:36:55,500 --> 00:37:00,554
+Dan: I -- are you glad or sad
 
 739
 00:36:56,364 --> 00:37:02,474
-that I didn't say yell.
-"wuddup Bek" at the
+that I didn't say -- yell
+"Wuddup, Bek" at the
 
 740
 00:37:00,554 --> 00:37:03,914
 beginning of your talk
-this morning, I thought.
+this morning? I- I thought
 
 741
 00:37:03,914 --> 00:37:04,184
 about it.
 
 742
-00:37:06,675 --> 00:37:10,724
-Bekah: I, I, I think I'm
-glad that you did not do that.
+00:37:06,675 --> 00:37:10,000
+Bekah: [Laughs] I- I- I think
+I'm glad that you did not
+
+743
+00:37:10,000 --> 00:37:10,724
+do that.
 
 743
 00:37:10,784 --> 00:37:11,565
-Dan: All right.
+Dan: Okay. All right.
 I made the right choice.
 
 744
-00:37:11,625 --> 00:37:13,695
+00:37:11,625 --> 00:37:12,500
 Bekah: I was already
-super nervous. that's And then I,
+super nervous.
+
+00:37:12,500 --> 00:37:12,800
+Dan: Well, that's why --
+
+00:37:12,800 --> 00:37:13,695
+Bekah: And then I --
 
 745
-00:37:13,784 --> 00:37:15,045
-Dan: that's why I didn't do
-it, you know, I didn't wanna,
+00:37:13,784 --> 00:37:14,300
+Dan: That's- that's why I
+didn't do it, you know?
+
+00:37:14,300 --> 00:37:15,045
+I didn't wanna --
 
 746
 00:37:15,045 --> 00:37:18,360
-Bekah: would've been very,
-I'm not really sure how, what
+Bekah: Would've been very --
+I'm not really sure how -- what
 
 747
 00:37:18,360 --> 00:37:18,989
 would have happened.
 
 748
-00:37:18,989 --> 00:37:21,119
-Dan: Yeah.
-I, just like, well, I mean, I
+00:37:18,989 --> 00:37:19,600
+Dan: Yeah. I- I just, like, well,
+I mean, I
 
 749
-00:37:19,050 --> 00:37:25,110
+00:37:19,600 --> 00:37:22,000
 figured you would just break
 into a laughing thing where you
 
 750
-00:37:21,119 --> 00:37:27,630
+00:37:22,000 --> 00:37:26,000
 couldn't stop laughing and which
 would've been entertaining for
 
 751
-00:37:25,110 --> 00:37:27,630
+00:37:26,000 --> 00:37:27,630
 me, but probably not for you.
 
 752
 00:37:27,929 --> 00:37:28,150
-Bekah: No,
+Bekah: No.
 
 753
-00:37:28,409 --> 00:37:30,719
-Dan: that's the way I made.
-the right choice. And then I
+00:37:28,409 --> 00:37:29,000
+Dan: I -- that's the way I made
+the right choice.
 
 754
-00:37:30,719 --> 00:37:31,889
-Bekah: would've
-just hidden a hole.
+00:37:29,000 --> 00:37:31,889
+Bekah: And then I would've
+just hid in a hole.
 
 755
 00:37:31,894 --> 00:37:32,550
-Dan: Just wanted, do you know?
+Dan: I just wanted you to
+know, I --
 
 756
-00:37:32,710 --> 00:37:35,369
+00:37:32,710 --> 00:37:33,000
 Bekah: I would've just like
-stood behind the screen and then.
+stood behind-
+
+00:37:33,000 --> 00:37:35,000
+Dan: I ... considered it.
 
 757
-00:37:35,969 --> 00:37:37,949
-Dan: I considered it
-and then chose not to. And, you
+00:37:33,000 --> 00:37:35,369
+Bekah: -the screen and then --
+
+757
+00:37:35,369 --> 00:37:37,949
+Dan: I considered it and
+then chose not to, you know?
 
 758
 00:37:37,949 --> 00:37:38,489
-Bekah: know, thank you.
+Bekah: Thank you.
 
 759
 00:37:38,739 --> 00:37:39,030
@@ -3688,54 +4474,59 @@ Dan: Yeah.
 
 760
 00:37:39,929 --> 00:37:40,889
-Bekah: Thanks for being there.
+Bekah: And thanks for being
+there.
 
 761
 00:37:40,949 --> 00:37:43,949
 Dan: Yeah. I feel like 10 years
-ago me would've done it.
+ago, me would've done it.
 
 762
 00:37:43,949 --> 00:37:45,960
-And then, I mean, and then
-realized it was a bad idea
+And then -- I mean, and then
+realized it was a bad idea,
 
 763
 00:37:45,960 --> 00:37:49,500
-after, you know, but like,
-like wouldn't have put
+after, you know? But like-
+like ... wouldn't have put
 
 764
 00:37:49,500 --> 00:37:52,469
-it together beforehand.
-You know, that, that was a bad
+it together beforehand,
+you know? That that was a bad
 
 765
 00:37:52,469 --> 00:37:52,679
-idea.
+idea?
 
 766
 00:37:52,889 --> 00:37:54,900
-Bekah: I feel like that
+Bekah: I feel like the --
 my brothers definitely
 
 767
-00:37:54,900 --> 00:37:58,469
-would have done. that.
-That's what I'm saying. Yeah.
+00:37:54,900 --> 00:37:55,000
+would have done that [chuckles].
+
+00:37:57,000 --> 00:37:58,469
+Dan: That's what I'm saying.
+Yeah.
 
 768
 00:37:58,800 --> 00:37:59,789
-All right. We have more questions
+Bekah: All right. We have
+more questions.
 
 769
 00:38:00,179 --> 00:38:00,489
-Dan: learning. We do?
+Dan: I'm learning. We do?
 
 770
 00:38:01,050 --> 00:38:02,730
-Bekah: What does
-community mean to you?
+Bekah: What does community
+mean to you [laughs]?
 
 771
 00:38:06,760 --> 00:38:09,494
@@ -3744,126 +4535,141 @@ Dan: Community? I don't know.
 772
 00:38:10,155 --> 00:38:12,735
 Bekah: I think community
-is a group, a group of
+is a group- a group of
 
 773
 00:38:12,735 --> 00:38:15,554
 people that have some
-shared sense of belonging
+shared sense of belonging.
 
 774
 00:38:15,885 --> 00:38:17,985
-and there can be different
+And there can be different
 degrees of that, right?
 
 775
 00:38:17,985 --> 00:38:21,195
-Like you, you all might like
-to go hiking and that can be a
+Like, you- you all might, like,
+to go hiking. And that can be a
 
 776
 00:38:21,195 --> 00:38:25,335
-sense of community, or it can
-be people that are, you know, I.
+sense of community. Or it can be
+people that are ... you know, I
 
 777
 00:38:25,335 --> 00:38:30,510
 love true crime podcasts.
-So, and actually my favorite
+So -- and actually my favorite
 
 778
 00:38:27,284 --> 00:38:32,309
 podcasters, true crime
-podcasters live in Kansas city.
+podcasters, live in Kansas city.
 
 779
-00:38:32,309 --> 00:38:35,460
-Whoa. So I like thought about
-trying to get them to come.
+00:38:32,309 --> 00:38:32,600
+Dan: Whoa.
+
+780
+00:38:32,600 --> 00:38:35,460
+Bekah: So I like the thought
+about trying to get them to
 
 780
 00:38:35,460 --> 00:38:37,650
-Like, can you come be part
-of our life podcast, but I
+come, like, "Can you come be
+part of our live podcast?" But
 
 781
 00:38:37,650 --> 00:38:40,110
-wasn't sure how we were gonna
+I wasn't sure how we were gonna
 talk about murder and Virtual
 
 782
-00:38:40,110 --> 00:38:45,000
+00:38:40,110 --> 00:38:43,000
 Coffee at the same time.
-Although I have some,
+Although I have some --
 
 783
-00:38:41,909 --> 00:38:45,840
-no, I'm not gonna take
+00:38:44,000 --> 00:38:45,840
+no. I'm not gonna take
 you down that tangent.
 
 784
-00:38:46,050 --> 00:38:51,539
-Oh, No, Sorry.
-So yeah, so some sense
+00:38:45,840 --> 00:38:46,050
+Dan: Oh, no.
+
+00:38:46,050 --> 00:38:49,800
+Bekah: Sorry [chuckles].
+So, yeah. So, some sense
 
 785
-00:38:46,980 --> 00:38:53,820
-of belonging and then there's
-different degrees and ways.
+00:38:49,800 --> 00:38:53,820
+of belonging. And then there's
+different degrees and ... ways
 
 786
-00:38:55,664 --> 00:38:56,835
-Expressing that
+00:38:53,820 --> 00:38:57,000
+of ... expressing that sense
+of belonging.
 
 787
-00:38:56,835 --> 00:38:58,724
-Dan: sense of belonging.
-Yeah, I think that's great. Yeah.
+00:38:57,000 --> 00:38:58,724
+Dan: Yeah. I think that's
+great. Yeah.
 
 788
 00:38:58,875 --> 00:39:01,304
-And the other word that I
-would use is connection, right?
+And the other word that I would
+use is connection, right?
 
 789
-00:39:01,335 --> 00:39:02,985
-Yeah. Is like belonging
-and connection.
+00:39:01,304 --> 00:39:01,700
+It is, like-
+
+789
+00:39:01,700 --> 00:39:02,000
+Bekah: Yeah.
+
+790
+00:39:02,000 --> 00:39:02,985
+Dan: -belonging and connection.
 
 790
 00:39:02,985 --> 00:39:05,925
-And maybe those maybe
+And maybe those -- maybe
 you can't feel belonging
 
 791
 00:39:05,925 --> 00:39:09,690
-without connection.
-I don't know  but like, you
+without connection. I don't know
+[chuckles]. But like, you
 
 792
 00:39:06,465 --> 00:39:14,280
-know, the, the that's the
-other side of it is, is the, is
+know, the- the -- that's the
+other side of it is- is the --
 
 793
 00:39:09,690 --> 00:39:14,940
-connecting with people, right?
-Like, okay.
+is connecting with people,
+right? Like, okay.
 
 794
 00:39:14,940 --> 00:39:21,300
-So like I'm a guardians
-fan, you know, and I.
+So, like, I'm a Guardians
+fan, you know? And ... I
 
 795
 00:39:21,300 --> 00:39:22,769
-don't know, We were talking
+don't know. We were talking
 about this last night,
 
 796
 00:39:22,775 --> 00:39:24,150
-which which is why it's
-in my head, but like, you
+which- which is why it's
+in my head. But like, you
 
 797
 00:39:24,150 --> 00:39:25,860
@@ -3871,53 +4677,58 @@ know, your regional sports
 team, lots of times, you're
 
 798
-00:39:25,860 --> 00:39:30,030
-a fan of or whatever.
-And you like some, some sense
+00:39:25,860 --> 00:39:28,000
+a fan of or whatever. And it --
+the -- you, like, some- some
 
 799
-00:39:26,579 --> 00:39:32,500
-of belonging from that, right?
-It's like whatever
+00:39:28,000 --> 00:39:30,000
+sense of belonging from that,
+right? It's like-
 
 800
-00:39:32,500 --> 00:39:33,489
-you have the hat or
-whatever, you know?
+00:39:30,000 --> 00:39:30,300
+Bekah: Yeah.
+
+800
+00:39:30,300 --> 00:39:33,489
+Dan: -a ... whatever. You have
+the hat or whatever, you know?
 
 801
-00:39:33,489 --> 00:39:36,010
-Bekah: Yeah.
-When I was in the airport,
+00:39:33,489 --> 00:39:34,000
+Bekah: Yeah. And
+when I was in the airport,
 
 802
-00:39:33,550 --> 00:39:37,239
+00:39:34,000 --> 00:39:37,239
 there was somebody wearing WVU
 tennis shoes in front of me.
 
 803
 00:39:37,239 --> 00:39:41,860
-And like, I graduated from WVU.
+And, like, I graduated from WVU.
 I taught there and it
 
 804
-00:39:39,014 --> 00:39:43,780
-was like, oh, like that
-guy's my friend, I don't
+00:39:39,014 --> 00:39:43,000
+was like, "Oh," like, "That
+guy's my friend."
 
 805
-00:39:43,780 --> 00:39:44,440
-know that guy.
+00:39:43,000 --> 00:39:44,440
+[Chuckles] I don't know that
+guy.
 
 806
 00:39:44,445 --> 00:39:48,159
-Dan: Right. Right.
-And You might connect like yeah.
+Dan: Right. Right. Right. And
+you might connect, like, yeah.
 
 807
 00:39:48,429 --> 00:39:49,719
 And that like creates
-a connect, you know?
+a connect- you know?
 
 808
 00:39:50,019 --> 00:39:52,329
@@ -3926,146 +4737,167 @@ I mean, you were the
 
 809
 00:39:50,829 --> 00:39:52,960
-only one cuz you didn't
-probably say
+only one. Cuz you didn't
+probably say --
 
 810
-00:39:52,960 --> 00:39:55,030
-Bekah: yeah, no, I thought about
-saying, let's go mountaineers,
+00:39:52,960 --> 00:39:54,500
+Bekah: Yeah. No. I would thought
+about saying, "Let's go,
 
 811
-00:39:55,030 --> 00:39:56,980
-but then I got a little
-embarrassed, so I didn't,
+00:39:54,500 --> 00:39:56,980
+Mountaineers," but then I got a
+little embarrassed. So I didn't.
 
 812
 00:39:57,159 --> 00:39:58,119
-that's probably the right call.
-So
+Dan: That's probably the right
+call. So [laughs] --
+
+00:39:57,600 --> 00:39:58,449
+Bekah: Yeah. Yeah.
 
 813
-00:39:58,449 --> 00:40:03,675
-Dan: yeah, my mom does stuff
-like that, you I would like
+00:39:59,000 --> 00:40:03,675
+Dan: My mom does stuff like
+that, you know? I would like --
 
 814
 00:40:03,675 --> 00:40:06,735
-the like, with, with the
+the -- like, with- with the
 Ohio state people, you know?
 
 815
 00:40:06,914 --> 00:40:07,364
-Bekah: Yeah.
+Bekah: Yeah!
 
 816
 00:40:07,844 --> 00:40:09,195
-Dan: It's not, it's
-never fun for me anyway.
+Dan: It's not -- it's never fun
+for me anyway [Bekah laughs].
 
 817
 00:40:10,815 --> 00:40:14,414
-but yeah, I mean
-that, that's it. like, right.
+[Chuckles] But ... yeah, I mean
+that- that's it. Like, right.
 
 818
-00:40:14,420 --> 00:40:16,485
-The Belonging is a great, like,
-I think that's a great, I think
+00:40:14,420 --> 00:40:16,000
+The belonging is a great --
+like, I think that's a great,
+
+819
+00:40:16,000 --> 00:40:16,485
+I think
 
 819
 00:40:16,485 --> 00:40:19,545
-that's like the, the, the real
-key, you know, and then, yeah.
+that's like the- the- the real
+key, you know? And then, yeah.
 
 820
 00:40:19,545 --> 00:40:21,824
 And then that sense of
-connection is, also, so
+connection is a-also of --
 
 821
 00:40:22,905 --> 00:40:25,005
 Bekah: I was getting off
-the escalator here earlier.
+the escalator here, earlier.
 
 822
 00:40:25,065 --> 00:40:27,945
-And some guy was waving and I
+And some guy was waving, and I
 thought he was waving at me.
 
 823
-00:40:27,974 --> 00:40:31,965
-And then Way back wholeheartedly
-Adam was like, was actually
+00:40:27,974 --> 00:40:30,500
+And then I, like, waved back
+wholehartedly at him [laughs],
+
+823
+00:40:30,500 --> 00:40:32,800
+he was, like, was actually
+waving at the guy behind me.
 
 824
-00:40:31,965 --> 00:40:35,894
-waving at the guy behind me.
-Yeah. Then I didn't feel
+00:40:32,800 --> 00:40:33,000
+Dan: Yeah.
+
+00:40:33,000 --> 00:40:35,000
+Bekah: Then I didn't feel like
+I belonged.
 
 825
-00:40:33,795 --> 00:40:37,275
-like I belonged.
-I felt very embarrassed for
-
-826
-00:40:37,280 --> 00:40:37,695
-myself.
+00:40:35,000 --> 00:40:37,695
+I felt very embarrassed
+for myself [laughs].
 
 827
 00:40:38,204 --> 00:40:40,784
-Dan: You were not in his
-community of, of waving people.
+Dan: You- you were not in his
+community of- of waving people.
 
 828
 00:40:40,994 --> 00:40:43,184
-Bekah: I, I was not, not part of.
-that.
+Bekah: I- I was not- not part
+of that.
 
 829
 00:40:43,635 --> 00:40:46,664
-Dan: I it happens to me.
-Like once a year, I'd
+Dan: I -- it happens to me like
+once a year [Bekah laughs] I'd
 
 830
-00:40:44,324 --> 00:40:49,755
-say really bad, you know?
-Like, just like Yeah. Yeah.
+00:40:44,324 --> 00:40:47,500
+say. It's really bad, you
+know? Like, just like that?
+
+00:40:47,500 --> 00:40:48,000
+Yeah.
+
+00:40:49,000 --> 00:40:49,755
+Bekah: Yeah.
 
 831
 00:40:50,414 --> 00:40:53,295
-There's a lot of people here, so
-it's, it's easy to,
+Dan: There's a lot of people
+here. So, it's- it's easy to --
 
 832
 00:40:53,295 --> 00:40:57,855
-Bekah: yeah. I hope he forgets
-my Let's see here. Okay.
+Bekah: Yeah. I hope he forgets
+my face. Let's see here. Okay.
 
 833
-00:40:57,855 --> 00:40:59,264
+00:40:57,855 --> 00:40:58,000
 Here's another question.
-That's my face.
+
+834
+00:40:57,800 --> 00:40:59,264
+Dan: [Chuckles] I hope he
+forgets my face.
 
 834
 00:41:00,284 --> 00:41:03,675
-At in-person events,
+Bekah: At in-person events,
 what are some techniques or
 
 835
 00:41:03,675 --> 00:41:07,635
-tactics you used for starting
+tactics you use for starting
 a conversation with a stranger?
 
 836
 00:41:08,625 --> 00:41:11,235
-I, I am like terrified of
-talking with strangers and I'm
+I- I am, like, terrified of
+talking with strangers. And I'm
 
 837
 00:41:11,235 --> 00:41:14,704
-on booth duty while I'm here
-for, work at DeepGram.
+on booth duty while I'm here,
+for work at DeepGram.
 
 838
 00:41:14,804 --> 00:41:14,864
@@ -4078,35 +4910,37 @@ almost makes it a little
 
 840
 00:41:16,875 --> 00:41:19,195
-bit easier cuz I'm like,
-I'm deep part of DeepGram.
+bit easier, cuz I'm like,
+"I'm deep- part of DeepGram.
 
 841
 00:41:19,215 --> 00:41:23,085
-We're a speech text API company.
-So at least like I
+We're a speech to text API
+company." So at least, like, I
 
 842
 00:41:20,925 --> 00:41:28,215
-can do the spiel.
-but sometimes I don't, I told
+can do the spiel. But
+sometimes I don't -- I told
 
 843
 00:41:24,344 --> 00:41:28,215
-a woman, I liked her glasses.
+a woman I liked her glasses
+[chuckles].
 
 844
 00:41:29,545 --> 00:41:30,364
-Dan: what's wrong with that?
+Dan: What's wrong with that?
 
 845
 00:41:30,644 --> 00:41:32,534
-Bekah: No, that's how I
+Bekah: No. That's how I
 get to talk to people.
 
 846
 00:41:32,539 --> 00:41:33,164
-Dan: Oh, sure. Yeah. Oh yeah.
+Dan: Oh, sure. Yeah. Oh, yeah,
+yeah.
 
 847
 00:41:33,164 --> 00:41:34,125
@@ -4114,118 +4948,133 @@ Bekah: Give them a compliment.
 
 848
 00:41:34,125 --> 00:41:36,735
-Dan: Sure. Yeah. Yeah.
+Dan: Sure. Yeah, yeah.
 But I would say only
 
 849
 00:41:35,295 --> 00:41:38,835
-compliment yeah. clothes and
-stuff, right?
+compliment, yeah, clothes
+and- and stuff, right? Like --
 
 850
-00:41:38,925 --> 00:41:40,724
-Bekah: Yeah.
-You have to be careful with what
+00:41:38,925 --> 00:41:41,175
+Bekah: Yeah. You have to be
+careful what you compliment.
 
 851
-00:41:41,175 --> 00:41:42,585
-Dan: especially if
-you're not a woman, if
+00:41:41,175 --> 00:41:42,000
+Dan: Especially -- I mean,
+especially if you're not a
 
 852
-00:41:42,585 --> 00:41:43,394
-you're not a woman.
+00:41:42,000 --> 00:41:43,394
+wom- if you're not a woman.
 
 853
-00:41:43,835 --> 00:41:46,005
-Bekah: Yeah.
-Don't be like, it's just like,
+00:41:43,835 --> 00:41:43,700
+Bekah: Yeah. Don't be like --
+
+00:41:43,700 --> 00:41:44,125
+Dan: It's just like, don't --
 
 854
-00:41:44,125 --> 00:41:47,985
-don't you have really nice
-eyes  no, yeah, that will get
+00:41:44,125 --> 00:41:46,000
+Bekah: You have really nice
+eyes.
 
-855
-00:41:47,985 --> 00:41:48,494
-creepy. That's
+00:41:46,000 --> 00:41:47,000
+Dan: [Chuckles] No, yeah.
 
-856
-00:41:48,795 --> 00:41:52,155
-Dan: okay.
-yeah, no, I don't have
+00:41:47,000 --> 00:41:48,000
+Bekah: That will get creepy.
+
+00:41:48,000 --> 00:41:51,000
+Dan: That's ... yeah. Yeah, no.
+I don't have
 
 857
-00:41:50,025 --> 00:41:52,994
-any good strategies cause
-I'm really bad at it.
+00:41:51,000 --> 00:41:52,994
+any good strategies cuz I'm
+really bad at it [laughs] also.
 
 858
 00:41:54,030 --> 00:41:55,349
-I'd say one, one stretch.
+I'd say, one- one strategy --
 
 859
-00:41:55,349 --> 00:41:57,630
-Bekah: you talk
-to people at the table lunch
+00:41:55,349 --> 00:41:57,000
+Bekah: You talk to
+people at the table --
 
 860
-00:41:57,630 --> 00:41:57,929
-table.
+00:41:57,000 --> 00:41:57,630
+lunch table.
 
 861
-00:41:58,679 --> 00:42:05,639
-Dan: sure. Sort of, yeah.
-I mean, they were talking
+00:41:42,000 --> 00:41:42,900
+Dan: Sure. Sort of. 
+
+00:42:01,500 --> 00:42:02,000
+Bekah: Yeah.
+
+00:42:02,000 --> 00:42:03,000
+Dan: I mean, they were talking
 
 862
-00:42:02,309 --> 00:42:08,369
-to me . What I was gonna
-say was, if you go with
+00:42:03,000 --> 00:42:06,700
+to me [laughs]. Alright. What I
+was gonna say was, if you go
 
 863
-00:42:05,639 --> 00:42:10,469
-a friend, you know, yeah.
-It's much easier to actually
+00:42:06,700 --> 00:42:08,000
+with a friend, you know?
+
+00:42:08,000 --> 00:42:08,300
+Bekah: Yeah.
+
+00:42:08,500 --> 00:42:09,000
+Dan: It's much easier to
+actually
 
 864
-00:42:08,639 --> 00:42:12,539
-talk to other people.
-If you already have somebody
+00:42:09,000 --> 00:42:11,000
+talk to other people if you ha-
+already have somebody
 
 865
-00:42:10,469 --> 00:42:15,840
-that you're like with that
-you do know, because like we
+00:42:11,000 --> 00:42:14,500
+that you're, like, with -- you
+do know, because, like, we
 
 866
-00:42:12,539 --> 00:42:17,670
-sat Bekah and I sat next to
+00:42:14,500 --> 00:42:16,000
+sat -- Bekah and I sat next to
 each other at the lunch table
 
 867
-00:42:15,840 --> 00:42:18,420
-and then like other people
+00:42:16,000 --> 00:42:18,420
+and then, like, other people
 just sat down, you know?
 
 868
 00:42:18,425 --> 00:42:21,329
-And we weren't
-like, I don't know.
+And we weren't ...
+like ... I don't know.
 
 869
 00:42:21,809 --> 00:42:23,019
-We just like started
-chatting, you know?
+And then they -- we just, like,
+started chat, you know?
 
 870
 00:42:23,070 --> 00:42:26,190
-And, and that's cool.
-It's again also hard for me.
+And- and that's cool. It's ...
+again, also hard for me
 
 871
 00:42:26,730 --> 00:42:27,269
-I'm not, I'm not good at it.
+[chuckles]. I'm not- I'm not
+good at it.
 
 872
 00:42:27,570 --> 00:42:27,719
@@ -4233,41 +5082,41 @@ Bekah: Yeah.
 
 873
 00:42:27,750 --> 00:42:30,405
-Dan: They're at this
-conference they're doing,
+Dan: I -- they're -- here, at
+this conference, they're doing,
 
 874
 00:42:30,405 --> 00:42:33,405
-like a Bingo thing where
+like, a Bingo thing where
 they're trying to get you to
 
 875
 00:42:33,405 --> 00:42:36,224
-go to all the speaker table
-or the sponsor booths, you
+go to all the speaker table --
+or the sponsor booths, that you
 
 876
 00:42:36,224 --> 00:42:39,704
-can see somebody's behind us.
-And, so you have like
+can see some of them is behind
+us. And -- so you have like
 
 877
-00:42:37,335 --> 00:42:41,324
-this little card and you get
+00:42:39,704 --> 00:42:40,000
+this little card, and you get
 little stamps, you know, and
 
 878
-00:42:39,704 --> 00:42:44,775
+00:42:40,000 --> 00:42:42,500
 if you get 'em all, you get
-entered in something raffle
+entered in something. Raffle
 
 879
-00:42:41,324 --> 00:42:44,775
-for, I don't know what,
+00:42:42,500 --> 00:42:44,775
+for ... I don't know what.
 
 880
 00:42:44,835 --> 00:42:45,255
-Bekah: yeah, I don't know.
+Bekah: Yeah, I don't know.
 
 881
 00:42:45,284 --> 00:42:47,614
@@ -4275,34 +5124,40 @@ Dan: But, anyway, so
 now I'm going to all these
 
 882
-00:42:47,614 --> 00:42:50,085
+00:42:47,614 --> 00:42:49,000
 booths that I don't have any
-interest in going to and trying
+interest [chuckles] in going
 
 883
-00:42:50,085 --> 00:42:55,664
-to like make conversations.
-Like I feel bad just
+00:42:49,000 --> 00:42:50,085
+to and trying
+
+883
+00:42:50,085 --> 00:42:54,300
+to, like, make conversations.
+Like, I feel bad just
 
 884
-00:42:52,094 --> 00:42:56,175
-being like stamp my thing.
-Okay, bye.
+00:42:54,300 --> 00:42:56,500
+being, like, stamp my thing,
+okay, bye, you know?
 
 885
-00:42:56,204 --> 00:42:59,295
-You know, and so I'm always
-so what do you guys. do?
+00:42:56,500 --> 00:42:59,295
+And so, I'm always like, "So,
+what do you guys do [laughs]?"
 
 886
 00:42:59,804 --> 00:43:01,605
-Bekah: Yeah.
-Yeah, we got a lot of
+Bekah: Yeah. Yeah, we got a lot
+of that in our booth.
 
 887
-00:43:00,105 --> 00:43:02,474
-that our you're like,
-I'm like, it's okay.
+00:43:01,605 --> 00:43:02,000
+Dan: I'm like- I'm like --
+
+00:43:02,000 --> 00:43:02,474
+Bekah: It's okay.
 
 888
 00:43:02,474 --> 00:43:04,034
@@ -4311,39 +5166,40 @@ me if you don't want to.
 
 889
 00:43:04,034 --> 00:43:05,355
-Dan: with the people was
-like, have you heard of us?
+Dan: Yeah. Well, one of the
+people was like, "Have you heard
 
 890
 00:43:05,355 --> 00:43:10,065
-I'm like, no, I haven't, I,
+of us?" I'm like, "No,
+[inaudible] I haven't." I --
 
 891
 00:43:10,155 --> 00:43:10,815
-Bekah: that's awkward.
+Bekah: That's awkward.
 
 892
 00:43:10,994 --> 00:43:13,769
-Dan: And like also I'm not
-looking for a job and that's
+Dan: And like, also, I'm not
+looking for a job. And that's
 
 893
 00:43:13,769 --> 00:43:15,630
-one of the, like a lot of
-these people are here to hire,
+one of the, like, a lot of
+these people are here to hire.
 
 894
-00:43:15,630 --> 00:43:21,659
-which makes a lot of sense.
-But like, I probably
+00:43:15,630 --> 00:43:19,000
+Which makes a lot of sense.
+But like ... I probably
 
 895
-00:43:16,679 --> 00:43:23,909
-wouldn't, I don't know if
-this is a common thing to
+00:43:19,000 --> 00:43:22,000
+wouldn't -- I don't know if
+this is a common thing to,
 
 896
-00:43:21,659 --> 00:43:25,380
+00:43:22,000 --> 00:43:25,380
 like, get your thing stamped
 at every booth thing.
 
@@ -4359,42 +5215,42 @@ the people that are looking for
 
 899
 00:43:30,510 --> 00:43:32,429
-jobs, because that's the reason
-they're they're here, you know?
+jobs. Because that's the reason
+they're- they're here, you know?
 
 900
-00:43:32,429 --> 00:43:37,829
-And I'm like, no, I don't.
-They're like, whoa, we have some
+00:43:32,429 --> 00:43:36,000
+And I'm like, "No, I don't."
+They're like, "Whoa, we have
 
 901
-00:43:35,519 --> 00:43:39,614
-positions available in front end
-and I'm like, yeah, I'm good.
+00:43:36,000 --> 00:43:38,000
+some positions available in
+front-end." And I'm like, "Yeah,
 
 902
-00:43:41,324 --> 00:43:42,525
-you know, like, I
-don't know what to say.
+00:43:38,000 --> 00:43:42,525
+I'm good," [laughs] you know?
+Like, I don't know what to say.
 
 903
 00:43:42,974 --> 00:43:47,565
-I don't, I'm like I don't
-have the, I dunno, I could
+I don't -- I'm like, I don't
+have the ... I dunno. I could
 
 904
 00:43:47,565 --> 00:43:51,764
-feel like a lot of people
-are just good saying things
+feel like a lot of people are
+just good at ... saying things
 
 905
 00:43:51,824 --> 00:43:54,135
-in ways that make sense to.
-people.
+in ways that make sense to
+people [chuckles]? I dunno.
 
 906
 00:43:55,005 --> 00:43:56,684
-Bekah: My dad, like loves
+Bekah: My dad, like, loves
 talking to strangers.
 
 907
@@ -4404,84 +5260,90 @@ airport and I texted him like,
 
 908
 00:43:58,695 --> 00:44:02,775
-dad, you'll be so proud of me.
-This, this guy used
+"Dad, you'll be so proud of me.
+This- this guy used
 
 909
 00:44:00,375 --> 00:44:04,815
-to live in Pittsburgh. Now.
-He lives in Atlanta and
+to live in Pittsburgh, now
+he lives in Atlanta, and
 
 910
 00:44:02,954 --> 00:44:07,244
 he's been there for 10
-years and I had that whole
+years, and I had that whole
 
 911
-00:44:04,815 --> 00:44:07,844
-conversation all by myself.
-That's impressive. Yeah.
+00:44:04,815 --> 00:44:07,000
+conversation all by myself."
+
+00:44:07,000 --> 00:44:07,844
+Dan: That's impressive, yeah.
 
 912
 00:44:07,875 --> 00:44:09,614
-And he was like,
-isn't that amazing?
+Bekah: And he was like,
+"Isn't that amazing?"
 
 913
 00:44:09,619 --> 00:44:11,954
-And I was like, no, dad,
-it's not, I don't wanna
+And I was like, "No, Dad. [Dan
+laughs] It's not. I don't wanna
 
 914
 00:44:11,954 --> 00:44:15,255
-do that all the time.
+do that all the time."
 I mean, the guy was really
 
 915
 00:44:13,005 --> 00:44:17,355
-nice and, and I would've had
-a more conversation with him,
+nice, and- and I would've had
+of more conversation with him,
+
+916
+00:44:17,000 --> 00:44:17,355
+but --
 
 916
 00:44:18,159 --> 00:44:19,059
-Dan: no, I I didn't.
+Dan: No, I- I didn't --
 
 917
 00:44:19,059 --> 00:44:21,030
-Bekah: hear, I think like
-getting involved too, like if
+Bekah: I think, like,
+getting involved too. Like, if
 
 918
 00:44:21,030 --> 00:44:24,329
-you're a speaker, then people.
-will talk to you.
+you're a speaker, then people
+will talk to you?
 
 919
 00:44:24,599 --> 00:44:26,550
-So that's a good way to do it.
+So, that's a good way to do it?
 
 920
-00:44:26,969 --> 00:44:31,559
+00:44:26,969 --> 00:44:30,600
 Dan: Yeah. I mean like, yeah.
-And that's, I'd say the
+And that's -- I'd say, the
 
 921
-00:44:28,320 --> 00:44:33,809
+00:44:30,600 --> 00:44:33,809
 other times that I've
-had fun at conferences.
+had fun at conferences,
 
 922
-00:44:33,809 --> 00:44:37,019
+00:44:33,809 --> 00:44:36,000
 I've been with the speakers.
 Not because I was a speaker
 
 923
-00:44:35,219 --> 00:44:39,059
-necessarily, but like
+00:44:36,000 --> 00:44:38,000
+necessarily, but like,
 I just either knew the
 
 924
-00:44:37,019 --> 00:44:39,059
+00:44:38,000 --> 00:44:39,059
 organizers or whatever.
 
 925
@@ -4490,53 +5352,59 @@ Bekah: Yeah.
 
 926
 00:44:39,119 --> 00:44:41,489
-Dan: And like, or just, there
+Dan: And like -- or just, there-
 there was one event in Florida
 
 927
 00:44:41,489 --> 00:44:44,534
-that I went to where they just
+that I went to, where they just
 had their after party, whatever.
 
 928
 00:44:44,534 --> 00:44:47,414
-And all of course, all the
-speakers were there and I, I
+And all -- of course, all the
+speakers were there, and I- I
 
 929
-00:44:47,414 --> 00:44:51,224
-just kind of like tagged along.
-You. know, and ended up
+00:44:47,414 --> 00:44:50,000
+just kinda, like, tagged along,
+[chuckles], you know? And
 
 930
-00:44:48,675 --> 00:44:53,684
-at a smaller thing.
-And that's like, for me, I,
+00:44:50,000 --> 00:44:52,000
+ended up at a smaller thing.
+And that's like, for me, I-
 
 931
-00:44:51,525 --> 00:44:57,195
-I always, I do much better
-in smaller like settings,
+00:44:52,000 --> 00:44:55,000
+I always -- I do much better
+in smaller, like, settings,
 
 932
-00:44:53,690 --> 00:44:58,215
-you know, like, smaller
+00:44:55,000 --> 00:44:58,215
+you know? Like, smaller
 groups of people or whatever.
 
 933
 00:44:58,215 --> 00:45:03,295
-And so, yeah, I'd say,
-you know, to go back to the
+And so ... yeah. I'd- I'd say
+... to go back to the
 
 934
-00:45:03,300 --> 00:45:06,045
+00:45:03,300 --> 00:45:05,500
 original question, right?
 Your strategies for
 
 935
-00:45:04,005 --> 00:45:07,275
-this sort of thing. Yeah.
-My main strategy is bring
+00:45:05,500 --> 00:45:06,000
+this sort of thing.
+
+00:45:06,000 --> 00:45:06,300
+Bekah: Yeah.
+
+00:45:06,300 --> 00:45:07,275
+Dan: My main strategy is bring-
+bring your friend.
 
 936
 00:45:08,114 --> 00:45:09,284
@@ -4545,27 +5413,28 @@ It is really good.
 
 937
 00:45:09,284 --> 00:45:13,184
-Last year at KC C James quick
-was here and I just like
+Last year, at KCDC, James Quick
+was here. And I just like,
 
 938
 00:45:13,635 --> 00:45:15,735
-followed him around everywhere's
+followed him around, like,
+everywhere. With --
 
 939
 00:45:16,094 --> 00:45:18,585
-Dan: That's
-what I told Bekah I was gonna
+Dan: Yeah. That's what I- that's
+what I told Bekah, I was gonna
 
 940
 00:45:16,275 --> 00:45:20,025
-do Bekah except that she's.
+do to Bekah. Except that she's
 just sitting in this
 
 941
 00:45:18,590 --> 00:45:21,045
-booth the whole time.
-and that's less fun.
+booth the whole time [chuckles].
+And that's less fun.
 
 942
 00:45:21,125 --> 00:45:21,784
@@ -4573,186 +5442,238 @@ Bekah: Not the whole time.
 
 943
 00:45:22,085 --> 00:45:22,664
-Dan: No, not the, whole time.
+Dan: No, not the whole time.
 
 944
-00:45:22,670 --> 00:45:25,155
-Bekah: some of the time.
-I'm not obviously now,
+00:45:22,670 --> 00:45:23,000
+Bekah: Some of the time
+I'm not.
 
-945
-00:45:23,204 --> 00:45:25,155
-my podcasting right here,
+00:45:23,000 --> 00:45:23,700
+Dan: Obviously right now-
+
+00:45:23,700 --> 00:45:24,500
+Bekah: And now I'm podcasting.
+
+00:45:24,500 --> 00:45:25,155
+Dan: -you're sitting right here-
+
+00:45:25,155 --> 00:45:25,695
+Bekah: Yeah.
 
 946
 00:45:25,695 --> 00:45:26,204
-Dan: which is cool.
+Dan: -which is cool.
 
 947
 00:45:26,324 --> 00:45:27,855
 Bekah: I gotta go back to
 the booth after this though.
 
+00:45:27,855 --> 00:45:28,605
+Dan: Right. Yes. Yep.
+
 948
 00:45:28,605 --> 00:45:31,545
-But then tomorrow I'm
+Bekah: But then tomorrow, I'm
 free in the afternoon.
 
 949
 00:45:31,574 --> 00:45:33,454
-Dan: Yeah.
+Dan: Yeah. What was that?
 
 950
-00:45:35,159 --> 00:45:38,280
+00:45:35,159 --> 00:45:37,000
 Bekah: Yeah.
 So, I would say bringing
 
 951
-00:45:35,400 --> 00:45:40,949
-a friend is nice and it, or
-it doesn't even have to be
+00:45:37,000 --> 00:45:39,000
+your friend is nice. And it --
+or it doesn't even have to be
 
 952
-00:45:38,280 --> 00:45:43,409
-like a friend friend, just
+00:45:39,000 --> 00:45:41,500
+like a 'friend' friend. Just
 put it out there on Twitter
 
 953
-00:45:40,980 --> 00:45:44,820
-or whatever, social media
-like, Hey, is anybody going?
+00:45:41,500 --> 00:45:44,820
+or whatever, social media,
+like, "Hey, is anybody going?
 
 954
 00:45:44,820 --> 00:45:45,690
-Want to meet up?
+Want to meet up?"
 
 955
-00:45:45,780 --> 00:45:50,639
+00:45:45,780 --> 00:45:48,600
 Dan: Yeah. Yep.
 That's another
 
 956
-00:45:47,800 --> 00:45:54,150
+00:45:48,600 --> 00:45:54,150
 good strategy as well.
-Yeah, I did the same thing.
+Yeah, I did the same thing-
 
 957
-00:45:54,179 --> 00:45:56,969
-Yeah.
-With Rizél was trying to get
+00:45:54,179 --> 00:45:54,500
+Bekah: Yeah.
+
+00:45:54,600 --> 00:45:56,969
+Dan: -with Rizél. I was trying
+to get
 
 958
-00:45:55,019 --> 00:46:00,000
-her to come find us as lunch
-cuz she was, yeah, she was at
+00:45:55,019 --> 00:45:57,000
+her to come find us as lunch.
+Cuz she was-
+
+00:45:57,700 --> 00:45:58,000
+Bekah: Yeah.
+
+00:45:58,000 --> 00:45:46,000
+Dan: -she was at your talk,
+and I didn't know that.
 
 959
-00:45:57,000 --> 00:46:00,869
-your talk and I didn't know that
-I missed her, but
+00:45:46,000 --> 00:46:01,600
+And I probably
+missed her, but anyway --
 
 960
 00:46:01,920 --> 00:46:03,389
-Bekah: it is hard when
+Bekah: It- it is hard when
 you're by yourself.
 
 961
-00:46:03,449 --> 00:46:05,070
-I, I mean, I've been to
+00:46:03,449 --> 00:46:04,000
+I- I mean-
+
+00:46:04,000 --> 00:46:04,300
+Dan: Yeah. I --
+
+00:46:04,000 --> 00:46:05,070
+Bekah: I've been to
 conferences that were
 
 962
 00:46:05,070 --> 00:46:09,809
 terrible experiences.
-Because like there one, I
+Because like, there one -- I
 
 963
 00:46:06,300 --> 00:46:11,039
 can't remember which one it
-was within the last year.
+was. Within the last year.
 
 964
 00:46:11,190 --> 00:46:13,079
-Like I would go sit down at
-the lunch table and people
+Like, I would go sit down at
+the lunch table, and people
 
 965
 00:46:13,085 --> 00:46:15,179
-would just like stand up and
-walk away and then I'd just
+would just like [laughs] stand
+up and walk away. And then I'd
 
 966
-00:46:15,179 --> 00:46:18,960
-be sitting there by myself. Yeah.
-I'm like. oh, all right.
+00:46:15,179 --> 00:46:16,500
+just be sitting there by
+myself.
+
+00:46:16,500 --> 00:46:17,000
+Dan: Yeah.
+
+00:46:17,000 --> 00:46:18,960
+Bekah: I'm like, "Oh ... all
+right.
 
 967
-00:46:19,050 --> 00:46:21,090
+00:46:19,050 --> 00:46:20,800
 I'm just gonna
-continue to sit here. Yeah.
+continue to sit here-
+
+00:46:20,800 --> 00:46:21,090
+Dan: Yeah.
 
 968
 00:46:21,199 --> 00:46:21,739
-By myself.
+Bekah: -by myself."
 
 969
-00:46:21,769 --> 00:46:24,570
-Dan: Yeah.
-Yeah, no, I, when I'm, when I
+00:46:21,769 --> 00:46:23,000
+Dan: Yeah, yeah. No. I -- when
+I'm -- when I-
 
 970
-00:46:22,065 --> 00:46:27,780
-I've, I think I've only gone
-to one, like being conferenced
+00:46:23,000 --> 00:46:27,780
+I've -- I think I've only gone
+to one, like, big conference
 
 971
 00:46:24,570 --> 00:46:28,710
-by myself and I just turned
-into like a Mo person.
+by myself. And I just turned
+into like a bold [??] person.
 
 972
 00:46:28,829 --> 00:46:31,199
-Like, I honestly like put my
-headphones on I read my book,
+Like, I honestly, like, put my
+headphones on, I'd read my book,
 
 973
 00:46:31,469 --> 00:46:33,719
-or something, you know, put
-my, like open my computer.
+like, or something, you know?
+Put my, like, op- open my
 
 974
 00:46:33,809 --> 00:46:38,010
-I, I'm not good at it.
+computer. I- I'm not good at it.
 That's why it's nice
 
 975
 00:46:36,510 --> 00:46:38,010
-to have a friend.
+to have a friend, you know?
 
 976
 00:46:38,239 --> 00:46:40,619
-Bekah: You know, The
-other thing would be, talk
+Bekah: The other thing would
+be, you can talk
 
 977
-00:46:40,619 --> 00:46:44,639
-to speakers, you know? Yeah.
-So if you are there by yourself,
+00:46:40,619 --> 00:46:41,600
+to speakers, you know?
 
 978
-00:46:42,030 --> 00:46:47,909
-then go up to the speaker.
-and Talk or like are,
+00:46:41,600 --> 00:46:41,800
+Dan: Yeah.
 
 979
-00:46:44,639 --> 00:46:50,070
-are badges say if we're
-speakers or, or not.
+00:46:41,700 --> 00:46:43,000
+Bekah: So if you are there
+by yourself,
+
+978
+00:46:43,000 --> 00:46:44,700
+then go up to the speaker
+and-
+
+00:46:44,700 --> 00:46:45,000
+Dan: Yeah.
+
+00:46:45,000 --> 00:46:46,500
+Bekah: -talk or, like, what
+-- our-
+
+979
+00:46:46,500 --> 00:46:50,070
+our badges say if we're
+speakers or- or not,
 
 980
 00:46:50,070 --> 00:46:53,730
-And what company? Oh, mine.
-Doesn't say what
+and what company ... oh, mine
+doesn't say what
 
 981
 00:46:52,469 --> 00:46:56,670
@@ -4760,43 +5681,52 @@ company I'm with.
 Maybe cuz I'm a speaker.
 
 982
-00:46:56,699 --> 00:47:00,929
-I'm not really sure does yours?
-No, no. Yours says attendee.
+00:46:56,699 --> 00:46:59,000
+I'm not really sure. Does
+yours?
+
+00:46:59,000 --> 00:46:59,300
+Dan: No.
+
+00:46:59,300 --> 00:47:00,929
+Bekah: No. Yours says attendee.
+
+00:47:00,929 --> 00:47:02,000
+Dan: I'm an attendee --
 
 983
 00:47:01,800 --> 00:47:04,050
-Well you can just go up
-to and be like, so I see
+Bekah: Well, you can just go up
+to him and be like, "So, I see
 
 984
 00:47:04,050 --> 00:47:05,099
-you're an attendee too.
+you're an attendee too
+[laughs]."
 
 985
-00:47:07,619 --> 00:47:09,300
-Dan: yeah.
+00:47:07,619 --> 00:47:08,000
+Dan: [Laughs] Yeah.
 That's the kind of thing
 
 986
-00:47:07,739 --> 00:47:11,730
+00:47:08,000 --> 00:47:10,000
 that I imagine saying.
 And then, you know,
 
 987
-00:47:09,300 --> 00:47:12,090
-realize it's a bad idea.
-and then, you
+00:47:10,000 --> 00:47:12,179
+realize it's a bad idea,
+and then, you know --
 
 988
 00:47:12,179 --> 00:47:13,769
-Bekah: know, Jokes
-are a good way.
+Bekah: Jokes are a good way.
 
 989
 00:47:13,769 --> 00:47:16,079
-Just go up to so many random.
-and Tell them a joke.
+Just go up to somebody random
+and tell them a joke.
 
 990
 00:47:16,139 --> 00:47:17,280
@@ -4804,128 +5734,147 @@ I think that's a good idea.
 
 991
 00:47:17,699 --> 00:47:23,280
-Dan: I, my, my,
+Dan: I -- my- my-
 father-in-law is the same
 
 992
 00:47:23,280 --> 00:47:25,349
-way I think is your Dad but,
+way I think i-is your Dad but --
 and he'll do the same thing.
 
 993
 00:47:25,349 --> 00:47:27,449
 He'll do drop a joke or
-like just random, you know,
+like, just random, you know,
 
 994
-00:47:27,449 --> 00:47:32,639
+00:47:27,449 --> 00:47:31,000
 thing, or make a comment.
-And like one time he, one
+And like -- one time, he- one
 
 995
-00:47:28,349 --> 00:47:36,000
-time he was, this is on, we
-were on vacation, heard a
+00:47:31,000 --> 00:47:34,000
+time, he was -- this is on --
+we were on vacation, heard a
 
 996
-00:47:32,639 --> 00:47:38,639
+00:47:34,000 --> 00:47:37,000
 lady talking to her friend
-at the grocery store and was
+at the grocery store. And was
 
 997
-00:47:36,059 --> 00:47:40,769
-like, she was telling some
-it wasn't like a Personal.
+00:47:37,000 --> 00:47:40,769
+like, she was telling some --
+it wasn't like a personal --
 
 998
 00:47:40,769 --> 00:47:42,449
-It was a personal story,
-but not like a, not like
+it was a personal story,
+but not like a- not like
 
 999
-00:47:42,449 --> 00:47:48,795
-a, you know, private story. Yeah.
-But like, and saw her at some
+00:47:42,449 --> 00:47:44,000
+a, you know, private story.
+
+00:47:44,000 --> 00:47:44,300
+Bekah: Yeah.
+
+00:47:44,300 --> 00:47:47,500
+Dan: But like -- and then saw
+her at some other
 
 1000
-00:47:44,534 --> 00:47:50,175
-other store like later and was
-like, Hey, how about that thing?
+00:47:47,500 --> 00:47:50,175
+store, like, later, and he was
+like, "Hey, how about that thingy
 
 1001
 00:47:50,175 --> 00:47:50,744
-You Think, you know,
+thing?" You know?
 
 1002
 00:47:50,925 --> 00:47:51,585
-Bekah: oh, that's creepy.
+Bekah: Oh, that's creepy!
+[Laughs]
 
 1003
 00:47:52,344 --> 00:47:53,925
-Dan: I know. I'm like, that's
-a horrible idea.
+Dan: Oh, yeah, I know. I'm
+like, "That's a horrible act."
 
 1004
 00:47:54,224 --> 00:47:56,905
-And he's like, yeah.
-And she, she acted kind
+And he's like, "Yeah.
+And she- she acted kind
 
 1005
 00:47:55,034 --> 00:47:59,715
-of weird about that.
-I'm like, yeah, no kidding, man.
+of weird about it." [All laugh]
+I'm like, "Yeah, no kidding,
 
 1006
-00:48:01,994 --> 00:48:04,275
-So, don't do that. No. Yeah.
+00:48:01,994 --> 00:48:03,000
+man." So, don't do that.
+
+00:48:03,000 --> 00:48:03,500
+Bekah: No.
+
+00:48:03,500 --> 00:48:04,635
+Dan: Yeah. I mean --
 
 1007
 00:48:04,635 --> 00:48:08,505
-Bekah: That's why. I.
-Bolt my door shut in
+Bekah: That's why I
+bolt my door shut-
+
+00:48:08,505 --> 00:48:06,105
+Dan: Right [laughs].
 
 1008
 00:48:06,105 --> 00:48:09,795
-the hotel and stack up
-furniture against the door.
+Bekah: -in the hotel. And stack
+up furniture against the door.
 
 1009
 00:48:09,795 --> 00:48:12,045
 Dan: And he's not creepy.
-That's the, that's the
+That's the- that's the
 
 1010
 00:48:10,635 --> 00:48:14,744
-thing, you know, he's
-just like, he thought it
+thing, you know? He's
+just like ... he thought it
 
 1011
-00:48:12,045 --> 00:48:19,695
+00:48:12,045 --> 00:48:16,000
 would be funny, you know?
-And, it wasn't, that's not,
+And ... it wasn't.
+
+00:48:16,000 --> 00:48:18,000
+Bekah: That's not.
 
 1012
-00:48:15,375 --> 00:48:20,094
-he didn't keep following her. So
+00:48:18,000 --> 00:48:20,094
+Dan: He didn't keep following
+her. So --
 
 1013
-00:48:21,644 --> 00:48:23,804
-Bekah: sorry again, a year
-later and brought it up again,
+00:48:21,644 --> 00:48:23,000
+Bekah: [Laughs] Start again,
+a year later and brought
+
+00:48:23,000 --> 00:48:23,804
+it up again?
 
 1014
 00:48:24,755 --> 00:48:25,784
-Dan: right?
+Dan: Right.
 Showed up at her house.
 
 1015
 00:48:26,835 --> 00:48:31,815
-Anyway, sorry, Phil.
-. I love you.
-
-1016
-00:48:32,985 --> 00:48:33,764
-Bekah: Um,
+Anyway ... sorry, Phil. [Bekah
+laughs] That was -- I love you.
 
 1017
 00:48:35,190 --> 00:48:36,179
@@ -4935,7 +5884,7 @@ any more questions?
 1018
 00:48:36,269 --> 00:48:39,989
 Bekah: Okay.
-Travis followed up, but I
+Travis followed up, "But I
 
 1019
 00:48:36,780 --> 00:48:42,809
@@ -4949,7 +5898,7 @@ for keeping the conversation
 
 1021
 00:48:42,809 --> 00:48:48,389
-going than starting it. Yeah.
+going than starting it." Yeah.
 That can be a good way to do it.
 
 1022
@@ -4958,70 +5907,88 @@ Dan: What?
 
 1023
 00:48:49,710 --> 00:48:54,210
-Bekah: Like language or
-framework stickers, like talking
+Bekah: Like, language or
+framework stickers? Like, talking
 
 1024
 00:48:54,210 --> 00:48:58,619
-about those things that you
-do, as a conversation starter,
+about those things that you do?
+Like, as a conversation starter.
 
 1025
 00:48:58,619 --> 00:49:00,539
-like if my water bottle had. a,
+Like, if my water bottle had
+a-
 
 1026
 00:49:01,019 --> 00:49:01,239
-Dan: Oh,
+Dan: Oh --
 
 1027
-00:49:01,409 --> 00:49:05,219
-Bekah: React sticker on it.
-Talk to me about, oh,
+00:49:01,409 --> 00:49:03,000
+Bekah: -React sticker on it --
+
+00:49:03,000 --> 00:49:04,000
+Dan: Talk to me about --
 
 1028
-00:49:03,239 --> 00:49:07,769
-you know, React too. Hey, okay.
-Okay. Yeah, that's cool.
+00:49:04,000 --> 00:49:06,000
+Bekah: "Oh, you know React too.
+Hey."
+
+00:49:06,000 --> 00:49:06,800
+Dan: Yeah, yeah. Okay, okay.
+
+00:49:07,000 --> 00:49:07,200
+Bekah: Yeah.
+
+00:49:07,500 --> 00:49:07,769
+Dan: That's cool.
 
 1029
 00:49:08,429 --> 00:49:12,554
-Dan: Yeah, I, yeah,
-that's a good idea.
+Yeah. I -- yeah.
+That's a good idea.
 
 1030
 00:49:13,364 --> 00:49:19,905
-I was, I started talking
-about Tailwind to one of the
+I was -- [chuckles] I started
+talking about Tailwind to one of
 
 1031
 00:49:19,905 --> 00:49:21,735
-sponsor booths that I was
+the sponsor booths that I was
 having random conversations
 
 1032
 00:49:21,735 --> 00:49:25,574
-with and, I'm pretty sure
-I bored them cause I like saw
+with, and I- I -- pretty sure
+I bored them cuz I just, like,
 
 1033
-00:49:25,574 --> 00:49:28,394
-their eyes crossing, not bored
-them, but like I went off on a
+00:49:25,574 --> 00:49:27,000
+saw their eyes crossing
+[laughs]. Not bored them, but,
+
+00:49:27,000 --> 00:49:28,394
+like, I went off on a
 
 1034
-00:49:28,394 --> 00:49:31,425
-Tailwind tangent And they were
-not interested in that content.
+00:49:28,394 --> 00:49:31,000
+Tailwind tangent. And they
+were not interested in
+
+00:49:31,000 --> 00:49:31,425
+that content [laughs].
 
 1035
 00:49:33,195 --> 00:49:35,235
-Bekah: you can also go up
+Bekah: You can also go up
 to each of the booths and
 
 1036
 00:49:35,235 --> 00:49:37,155
-practice a different accent
+practice a different accent.
 
 1037
 00:49:37,605 --> 00:49:37,695
@@ -5029,88 +5996,103 @@ Dan: Ooh.
 
 1038
 00:49:38,284 --> 00:49:40,304
-Bekah: So try the
-same conversation.
+Bekah: So, try the
+same conversation-
 
 1039
 00:49:40,394 --> 00:49:40,824
-Dan: Oh ja.
+Dan: [With thick accent] Oh,
+yeah.
 
 1040
 00:49:40,905 --> 00:49:43,094
-Bekah: In a different
-accent every time.
+Bekah: in a different
+accent every time [laughs].
 
 1041
 00:49:43,755 --> 00:49:45,284
-Dan: how many accents?
-What, accent do you got?
+Dan: How- how many accents?
+What ac- what accent do you got?
 
 1042
 00:49:45,284 --> 00:49:46,244
-What's your, oh,
+What's your --
 
 1043
 00:49:46,244 --> 00:49:48,315
-Bekah: I don't do, I
+Bekah: Oh, I don't do -- I
 can't do any accents.
 
 1044
-00:49:48,324 --> 00:49:50,954
-Dan: You can't Do any accents?
-No, You can't do a German accent.
+00:49:48,324 --> 00:49:49,000
+Dan: [With accent] You can't
+do any accents?
+
+00:49:49,000 --> 00:49:49,200
+Bekah: No.
+
+00:49:49,200 --> 00:49:50,954
+Dan: [With accent] You can't
+do a German accent?
 
 1045
-00:49:51,184 --> 00:49:54,525
-No. what about,
+00:49:51,184 --> 00:49:52,000
+Bekah: No!
+
+00:49:52,000 --> 00:49:54,525
+Dan: What about --
 
 1046
 00:49:56,125 --> 00:49:58,244
 Bekah: Ambrose is really good.
-He's been practicing his British.
+He's been practicing his British
 
 1047
 00:49:58,244 --> 00:49:58,724
-accent
+accent.
 
 1048
 00:49:59,105 --> 00:50:02,644
-Dan: At the,
-get to the chopper, you know,
+Dan: At the, "[With accent] Get
+to the chopper," you know?
 
 1049
-00:49:59,625 --> 00:50:03,914
-we need to do the, we need to
-add the react to the remix.
+00:49:59,625 --> 00:50:02,000
+"[With accent] We need to do
+the -- we need to add the
+
+00:50:02,000 --> 00:50:09,210
+React to the Remix. Now!
+Bekah!" [Laughs]
 
 1050
 00:50:09,210 --> 00:50:10,170
-Bekah: I'm not,
+Bekah: I'm not-
 I'm not gonna try.
 
 1051
 00:50:10,170 --> 00:50:11,699
-I'm not even, I was
+I'm not even. I was
 thinking about it.
 
 1052
 00:50:11,699 --> 00:50:14,159
-Like I think I can do that.
-I can't do that
+Like, "I think I can do that."
+I can't do that.
 
 1053
 00:50:14,639 --> 00:50:16,889
-Dan: every time.
+Dan: Every time
 I think I can speak
 
 1054
 00:50:14,969 --> 00:50:18,090
-in a British accent.
-It does not go well.
+in a British accent,
+it does not go well.
 
 1055
 00:50:18,094 --> 00:50:19,800
-I, I feel like I need
+I- I feel like I need
 to get warmed up on a British
 
 1056
@@ -5118,103 +6100,120 @@ to get warmed up on a British
 accent.
 
 1057
-00:50:20,099 --> 00:50:23,130
+00:50:20,099 --> 00:50:22,000
 Bekah: I like mixed British
-and Australian, but I
+and Australian-
+
+00:50:21,800 --> 00:50:23,000
+Dan: Well- well, I'm not
+saying --
 
 1058
-00:50:23,130 --> 00:50:30,554
-hear that that is not. uncommon.
-like my coworker, my teammate
+00:50:22,000 --> 00:50:25,000
+Bekah: -but I hear that that
+is not uncommon.
 
-1059
-00:50:25,994 --> 00:50:33,614
-is, he is from England Uhhuh
-and he said, whenever he's in
+00:50:25,000 --> 00:50:30,000
+Like, my coworker, my teammate
+is ... he is from England.
+
+00:50:30,000 --> 00:50:30,300
+Dan: Uh-huh.
+
+00:50:30,300 --> 00:50:32,000
+Bekah: And he said, whenever
+he's in
 
 1060
-00:50:30,644 --> 00:50:35,565
-the us, people either think
+00:50:32,000 --> 00:50:35,565
+the US, people either think
 he's from Australia or England.
 
 1061
-00:50:35,565 --> 00:50:39,344
+00:50:35,565 --> 00:50:38,000
 They're not usually really sure.
-And he asked the, one of
+And he asked the -- one of
 
 1062
-00:50:37,304 --> 00:50:41,505
+00:50:38,000 --> 00:50:40,000
 the people when we were
 together, she was like,
 
 1063
-00:50:39,344 --> 00:50:42,315
-oh, that accent he's like,
-where do you think I'm from?
+00:50:40,000 --> 00:50:42,315
+"Oh, that accent." He was like,
+"Where do you think I'm from?"
 
 1064
 00:50:42,315 --> 00:50:45,525
-And she was like, it's
-either British or Australia.
+And she was like, "It's
+either British or Australian."
 
 1065
 00:50:45,525 --> 00:50:47,385
-And it was like, yep.
+[Dan laughs] I was like,
+"Yep."
 
 1066
 00:50:48,945 --> 00:50:51,885
-Dan: Yeah, I
-had, when I went to.
+Dan: Yeah. I had -- when I --
+when -- I went to
 
 1067
 00:50:51,885 --> 00:50:58,275
-Scotland, Like a long
-time ago before kids.
+Scotlands, like, a long
+time ago ... before kids.
 
 1068
 00:50:59,324 --> 00:51:01,545
-So more than six years
-ago, I don't know.
+So, more than six years
+ago [chuckles], I don't know.
 
 1069
 00:51:01,550 --> 00:51:04,414
-I don't know how much more.
-but, no, I really
+I don't know how much more --
+but -- no, I really
 
 1070
 00:51:02,644 --> 00:51:07,054
 practiced it when I was there.
-I had, I felt like I had a
+I had -- I felt like I had a
 
 1071
-00:51:04,414 --> 00:51:14,224
-pretty good Scottish boot. Oh no.
-It's pass it, I think
+00:51:04,414 --> 00:51:08,000
+pretty good Scottish -- go --
+oh, no. It's pass the thing.
 
 1072
-00:51:08,105 --> 00:51:15,335
-it keeps recording.
-I think it's just a screensaver.
+00:51:12,000 --> 00:51:15,000
+I think- I think it keeps
+recording. I think it's just
+
+00:51:15,000 --> 00:51:15,335
+a screensaver.
 
 1073
 00:51:15,335 --> 00:51:16,835
 I think it keeps recording
-when it does that, but,
+when it does that but
 
 1074
-00:51:17,824 --> 00:51:20,974
+00:51:17,824 --> 00:51:20,000
 I didn't wanna risk it.
-anyway. Yeah, I had a good
+Anyway ... yeah, I had a good
 
 1075
-00:51:19,715 --> 00:51:21,275
-Scottish accent going for.
+00:51:20,000 --> 00:51:21,275
+Scottish accent going for
 a while.
 
 1076
-00:51:21,635 --> 00:51:24,034
+00:51:21,635 --> 00:51:23,500
 Learned some good words here.
-Have you heard the word shuggled?
+Have you heard the
+
+00:51:23,500 --> 00:51:24,034
+word 'shuggled'?
 
 1077
 00:51:24,784 --> 00:51:25,114
@@ -5222,59 +6221,71 @@ Bekah: What?
 
 1078
 00:51:25,155 --> 00:51:28,715
-Dan: Shuggled Shuggled
-is like shaken, you know?
+Dan: Shuggled. Shuggled
+is like ... shaken, you know?
 
 1079
 00:51:28,894 --> 00:51:28,954
-Bekah: Oh,
+Bekah: Oh.
 
 1080
 00:51:28,954 --> 00:51:31,934
-Dan: like, like shook up,
-you as a bus driver was
+Dan: Like- like shooken up,
+you know? As a bus driver was
 
 1081
 00:51:31,940 --> 00:51:34,545
 driving over some bumpy stuff
-and, and, and she was like
+and then -- and- and she was
 
 1082
-00:51:34,905 --> 00:51:37,275
-something about sorry, you
-all Shuggled or something.
+00:51:34,905 --> 00:51:37,000
+like -- something about, "Sorry
+to keep you all shuggled,"
+
+00:51:37,000 --> 00:51:37,275
+or something. [Laughs]
 
 1083
 00:51:38,894 --> 00:51:40,574
-It was, a, it was really fun.
+It was- it was really fun.
 I like accents.
 
 1084
 00:51:40,605 --> 00:51:42,195
-I'm not like good at
-practicing them, but,
+I'm not, like, good at
+practicing them, but ...
 
 1085
-00:51:42,344 --> 00:51:45,284
-that's a good idea. Yeah.
+00:51:42,344 --> 00:51:44,700
+that's a good idea.
 
 1086
-00:51:45,775 --> 00:51:47,054
-Bekah: All Ry
+00:51:44,700 --> 00:51:45,284
+Bekah: Yeah.
+
+00:51:45,775 --> 00:51:46,300
+Dan: All right.
+
+00:51:46,300 --> 00:51:47,059
+Bekah: Practice your accents.
 
 1087
 00:51:47,059 --> 00:51:49,244
-Dan: accents. like the German
-one is my go too.
+Dan: I feel like the German
+one is my go-to.
 
 1088
-00:51:49,514 --> 00:51:52,545
-That's a good one. It's.
-like a Quirky German, you know,
+00:51:49,514 --> 00:51:50,000
+Bekah: That's a good one.
+
+00:51:50,000 --> 00:51:52,545
+Dan: It's like a ... quirky
+German. Do you know it?
 
 1089
 00:51:52,844 --> 00:51:53,465
-Bekah: Quirky German?
+Bekah: Quirky German? [laughs]
 
 1090
 00:51:53,469 --> 00:51:54,614
@@ -5287,17 +6298,18 @@ There's like serious German.
 And there's like, you
 
 1092
-00:51:55,844 --> 00:52:02,505
-know, fun, silly German.
+00:51:55,844 --> 00:52:01,000
+know ... fun, silly German.
 It's like Hans and Franz, you
 
 1093
-00:52:00,635 --> 00:52:02,505
-know, from Saturday Night Live
+00:52:01,000 --> 00:52:02,505
+know, from "Saturday Night
+Live".
 
 1094
 00:52:02,804 --> 00:52:03,224
-Bekah: mm-hmm
+Bekah: Mm-mm.
 
 1095
 00:52:03,224 --> 00:52:03,554
@@ -5305,65 +6317,83 @@ Dan: Bekah.
 
 1096
 00:52:06,324 --> 00:52:08,025
-Bekah: Saturday Night Live is on
-too late.
+Bekah: "Saturday Night Live"
+is on too late.
 
 1097
 00:52:09,315 --> 00:52:12,045
 Dan: I mean, it's from when we
-were like kids, so it's not like
+were like kids. So it's not like
 
 1098
 00:52:12,434 --> 00:52:12,704
-nothing to,
+nothing very much live --
 
 1099
 00:52:13,065 --> 00:52:13,961
-Bekah: I don't know.
-The cheerleaders.
+Bekah: I only know
+the cheerleaders.
 
 1100
-00:52:14,579 --> 00:52:16,050
-Dan: the cheerleaders. Yeah.
-Like,
+00:52:14,579 --> 00:52:15,300
+Dan: The cheerleaders?
+
+00:52:15,300 --> 00:52:15,500
+Bekah: Yeah.
+
+00:52:15,700 --> 00:52:16,050
+Dan: Like [inaudible] --
 
 1101
-00:52:16,380 --> 00:52:19,019
-Bekah: tacos burritos.
-What's coming outta your. speed.
+00:52:16,380 --> 00:52:18,700
+Bekah: [Soft cheering] Tacos.
+Burritos. What's coming outta
+
+00:52:18,700 --> 00:52:19,019
+your speedos. [Dan laughs]
 
 1102
 00:52:21,210 --> 00:52:24,329
-there's Bobby Fisher.
-Where is he? I don't know.
+There's Bobby Fisher. Where is
+he? I don't know.
 
 1103
-00:52:24,329 --> 00:52:27,659
-I don't know. That's good. One.
-that's Those are and
+00:52:24,329 --> 00:52:24,000
+I don't know.
+
+00:52:23,000 --> 00:52:26,000
+Dan: Oh, yeah, yeah. I remember
+that one. That's a good one.
+
+00:52:25,700 --> 00:52:27,000
+Bekah: That's -- those -- and
 
 1104
-00:52:26,320 --> 00:52:28,440
+00:52:27,000 --> 00:52:28,440
 get off the shed.
 I used to like that.
 
 1105
 00:52:30,389 --> 00:52:32,400
-That was Chris Farley. I think.
+That was Chris Farley, I think?
 
 1106
-00:52:33,599 --> 00:52:37,469
+00:52:33,599 --> 00:52:37,000
 Dan: I don't know that one,
-but anyway, we've gone Yes.
+But anyway, we've gone-
+
+00:52:37,000 --> 00:52:37,469
+Bekah: Yes.
 
 1107
 00:52:37,469 --> 00:52:41,369
-Way off the beaten path.
-Thanks Travis. I'm blaming with
+Dan: -way off the beaten path
+here [laughs]. Thanks, Travis.
 
 1108
 00:52:40,469 --> 00:52:41,369
-Travis for that one.
+I'm blaming with Travis for
+that one.
 
 1109
 00:52:41,369 --> 00:52:41,610
@@ -5371,71 +6401,80 @@ Bekah: Yeah.
 
 1110
 00:52:42,239 --> 00:52:44,565
-Dan: Is that the last,
+Dan: Alright. Is that the
+last-
 
 1111
-00:52:44,565 --> 00:52:48,284
-Bekah: I think
-that we're, that we've
+00:52:44,565 --> 00:52:45,000
+Bekah: I think I -- we're-
+
+00:52:45,000 --> 00:52:45,300
+Dan: -question?
 
 1112
-00:52:44,744 --> 00:52:48,284
-covered everything.
+00:52:45,300 --> 00:52:48,284
+Bekah: -that -- we've covered
+everything.
 
 1113
-00:52:48,614 --> 00:52:56,594
-Dan: Okay. All right.
-That's kind of, expecting
+00:52:48,614 --> 00:52:55,000
+Dan: Okay. Alright.
+I was kind of ... expecting
 
 1114
-00:52:52,905 --> 00:52:57,554
+00:52:55,000 --> 00:52:57,554
 some of our friends to stop
-by and say hi, but nobody did
+by and say hi, but nobody did.
 
 1115
 00:52:57,735 --> 00:52:59,655
-Bekah: well.
-It's also really hard to hear.
+Bekah: Well, it's also really
+hard to hear.
 
 1116
-00:53:00,014 --> 00:53:00,344
-Dan: Well, sure.
+00:53:00,014 --> 00:53:01,800
+Dan: Well, sure. But I thought
+they would coming --
 
 1117
 00:53:00,525 --> 00:53:02,894
-Bekah: But I, and I know
-that there at talk number
+Bekah: And I know
+that they're at talk -- number
 
 1118
 00:53:02,894 --> 00:53:04,155
-of them are at talks so.
+of them are at talks. So --
 
 1119
 00:53:05,445 --> 00:53:08,025
-Dan: All right. Cool. Well, fun.
+Dan: Yeah. Alright, cool.
+Well, this was ... fun.
 
 1120
 00:53:08,204 --> 00:53:10,605
 Bekah: This was an
-excellent in person
+excellent in-person-
+
+00:53:10,605 --> 00:53:11,500
+Dan: I hope that the --
 
 1121
 00:53:10,784 --> 00:53:11,864
-podcast experience.
+Bekah: -podcast experience.
 
 1122
-00:53:11,864 --> 00:53:15,315
-Dan: Yes, it was excellent.
+00:53:11,864 --> 00:53:13,500
+Dan: Yes. It was excellent.
 I'm sorry that we weren't
 
 1123
-00:53:12,735 --> 00:53:16,875
-able to live stream it, But,
-well, if you're listening,
+00:53:13,500 --> 00:53:16,875
+able to live stream it. But ...
+well, if you listen to this --
 
 1124
 00:53:16,875 --> 00:53:17,534
-Bekah: we did our best.
+Bekah: We did our best.
 
 1125
 00:53:17,534 --> 00:53:19,065
@@ -5453,32 +6492,38 @@ Bekah: Yes.
 
 1128
 00:53:21,405 --> 00:53:23,445
-Dan: cool. Cool, cool,
-cool, cool, cool. Cool.
+Dan: Cool. Cool, cool.
+Co-cool, cool, cool.
 
 1129
-00:53:23,835 --> 00:53:26,594
-Bekah: And we'll be back
-next week with another
+00:53:23,835 --> 00:53:26,300
+Bekah: All right. And we'll be
+back next week with another
+
+00:53:26,300 --> 00:53:26,594
+podcast [laughs].
 
 1130
-00:53:26,985 --> 00:53:30,614
-Dan: Yeah.
+00:53:26,985 --> 00:53:29,000
+Dan: I don't -- I'm -- yeah.
 I'm having some technical issues
 
 1131
-00:53:27,974 --> 00:53:31,875
+00:53:29,000 --> 00:53:31,000
 with Descript and trying to get
-that last, trying to get Bogden
+that last -- trying to get
+
+00:53:31,000 --> 00:53:32,000
+Bogdan's out. So --
 
 1132
-00:53:31,875 --> 00:53:34,144
-Bekah: out. So yeah.
-So if anybody works at Descript.
+00:53:32,000 --> 00:53:34,144
+Bekah:  Yeah. So if anybody
+works at Descript --
 
 1133
 00:53:34,425 --> 00:53:37,005
-Dan: Yep. Hopefully we'll get
+Dan: Yep. Hopefully, we'll get
 that sorted out soon.
 
 1134
@@ -5496,89 +6541,104 @@ Bekah: All right.
 
 1137
 00:53:42,195 --> 00:53:42,824
-Dan: Have them. call me
+Dan: [Laughs] Have them call
+me.
 
 1138
 00:53:44,625 --> 00:53:47,264
-Bekah: As usual.
-We're very good at concluding
+Bekah: As usual,
+we're very good at concluding
 
 1139
 00:53:45,164 --> 00:53:47,474
-our podcast episode. Yes.
+our podcast episode.
 
 1140
 00:53:47,655 --> 00:53:50,224
-Dan: This has been the Virtual
-Coffee podcast.
+Dan: Yes. This is been the
+Virtual Coffee podcast --
 
 1141
 00:53:50,565 --> 00:53:51,105
-Bekah: edition
+Bekah: Live edition.
 
 1142
 00:53:51,105 --> 00:53:52,844
-Dan: Live edition
+Dan: Live ... edition
 
 1143
-00:53:52,934 --> 00:53:55,144
-Bekah: live from live from Kansas
-city,
+00:53:52,934 --> 00:53:53,700
+Bekah: Live from-
+
+00:53:53,700 --> 00:53:54,500
+Dan: Live from --
+
+00:53:54,500 --> 00:53:55,144
+Bekah: -Kansas City.
 
 1144
-00:53:55,144 --> 00:54:02,280
-Dan: beautiful Kansas city.
-I've seen about two
+00:53:55,144 --> 00:54:01,000
+Dan: Beautiful Kansas City.
+And ... I've seen about two
 
 1145
-00:53:57,710 --> 00:54:04,800
-square feet of it because
-the hotel is right next
+00:54:01,000 --> 00:54:03,000
+square feet of it [laughs]
+because the hotel is right next
 
 1146
-00:54:02,280 --> 00:54:06,599
-to the conference center,
-but it's been cool so far. So
+00:54:03,000 --> 00:54:06,599
+to the conference center, but
+it's been cool so far. So --
 
 1147
 00:54:07,289 --> 00:54:08,070
-Bekah: love Kansas city.
+Bekah: Love Kansas city.
 
 1148
 00:54:08,159 --> 00:54:08,340
-Dan: Yes,
+Dan: Yes.
 
 1149
 00:54:08,340 --> 00:54:09,000
-Bekah: it's a good place.
+Bekah: It's a good place.
 
 1150
-00:54:09,269 --> 00:54:15,000
-Dan: We'll be back Wednesday,
-I'll be back Wednesday night.
+00:54:09,269 --> 00:54:14,000
+Dan: We'll be back ... [whisper]
+tomorrow? No. Wednesday? I'll be
 
 1151
-00:54:16,579 --> 00:54:19,650
-So yeah.
-Is that when you're going
+00:54:14,000 --> 00:54:17,000
+back Wednesday night. So --
+
+00:54:17,700 --> 00:54:18,000
+Bekah: Yeah.
+
+00:54:18,000 --> 00:54:18,269
+Dan: Is that when you're going
 
 1152
 00:54:18,269 --> 00:54:21,840
-back Wednesday early
-or Thurs or Tuesday? I
+back? Wednesday early?
+or Thurs- or Tuesday?
 
 1153
 00:54:21,840 --> 00:54:22,590
-Bekah: leave on Wednesday.
+Bekah: I leave on Wednesday.
 
 1154
-00:54:22,619 --> 00:54:25,994
-Dan: Yeah. Cool.
-All Well, All right. Thank you.
+00:54:22,619 --> 00:54:24,700
+Dan: Yeah. Alright, cool.
+Well --
+
+00:54:24,700 --> 00:54:25,000
+Bekah: All right.
 
 1155
-00:54:25,994 --> 00:54:27,315
-Thank you. Thank you.
+00:54:25,000 --> 00:54:27,315
+Dan: Thank you. Thank you.
+Thank you [laughs].
 
 1156
 00:54:28,574 --> 00:54:28,875
@@ -5586,26 +6646,26 @@ Bekah: Bye.
 
 1157
 00:54:29,054 --> 00:54:34,623
-Dan: bye. Thank you for listening
-to this episode of the
+Dan: Bye. Thank you for
+listening to this episode of the
 
 1158
-00:54:34,623 --> 00:54:39,409
+00:54:34,623 --> 00:54:37,000
 Virtual Coffee Podcast.
 This episode was produced by
 
 1159
-00:54:36,590 --> 00:54:41,389
+00:54:37,000 --> 00:54:40,000
 Dan Ott and Bekah Hawrot Weigel.
 If you have questions
 
 1160
-00:54:39,829 --> 00:54:44,400
+00:54:40,000 --> 00:54:42,000
 or comments, you can
 hit us up on Twitter at
 
 1161
-00:54:41,389 --> 00:54:46,230
+00:54:42,000 --> 00:54:46,230
 VirtualCoffeeIO, or email us
 at podcast@virtualcoffee.io.
 
@@ -5620,13 +6680,13 @@ newsletter, check out any of
 our other resources on our
 
 1164
-00:54:50,030 --> 00:54:54,050
+00:54:50,030 --> 00:54:53,000
 website, virtualcoffee.io.
 If you're interested in
 
 1165
-00:54:52,219 --> 00:54:56,360
-sponsoring virtual coffee,
+00:54:53,000 --> 00:54:54,050
+sponsoring Virtual Coffee,
 you can find out more
 
 1166
@@ -5640,10 +6700,10 @@ Please subscribe to
 our podcast and be sure
 
 1168
-00:55:01,159 --> 00:55:04,610
+00:55:01,159 --> 00:55:03,000
 to leave us a review.
 Thanks for listening, and
 
 1169
-00:55:02,750 --> 00:55:04,610
+00:55:03,000 --> 00:55:04,610
 we'll see you next week!
