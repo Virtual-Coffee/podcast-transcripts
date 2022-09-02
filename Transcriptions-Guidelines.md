@@ -48,7 +48,7 @@ Those utterances are:
 
 ## Timestamp
 
-- Make sure to always include the three digits after comma. Write `000` if it's unknown, but make sure it's after the start time.
+- Make sure to always include the three digits after comma. Write `000` if it's unknown, but make sure that the end time is later than the start time.
 
   `04:05:20,000 --> 04:05:21,638`
 
