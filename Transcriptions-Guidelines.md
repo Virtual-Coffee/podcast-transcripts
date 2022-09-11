@@ -19,34 +19,36 @@ Those utterances are:
 1. Use the full name on first reference
 2. Use the speaker’s first name for the remainder of the transcription.
 
-  ```text
-    Bekah Hawrot Weigel: Hello, and welcome to Season 1, Episode 1 of the Virtual Coffee podcast…
+```text
+  Bekah Hawrot Weigel: Hello, and welcome to Season 1, Episode 1 of the Virtual Coffee podcast…
 
-    Dan Ott: Thanks, Bekah. In this episode, …
+  Dan Ott: Thanks, Bekah. In this episode, …
 
-    Bekah: We start every episode of the podcast like we start every Virtual Coffee.
+  Bekah: We start every episode of the podcast like we start every Virtual Coffee.
 
-    Dan: Hi, I'm Dan. I'm a front-end developer… 
-  ```
+  Dan: Hi, I'm Dan. I'm a front-end developer…
+```
+
+## Colons
+
+**Do not use colons (`:`) anywhere except in the timestamp and directly after the speaker label.** The way that Buzzsprout processes srt files results in errors or mis-parsed speaker names if colons are present in the text. Most times we can use an [em dash](#em-dash-).
 
 ## Paragraph
 
 1. Keep the original one or two lines per number of a range of timestamps.
 2. Make sure that there is no space after the last word of each paragraph.
+3. Each section should be 4 lines (index, timestamp, and two lines of text). The [`check-srt`](https://github.com/Virtual-Coffee/podcast-transcripts#fixing-formatting-issues) command will fix these up for you as well.
 
-  ```text
-    812
-   
-    00:49:49,139 --> 00:49:53,519
-   
-    Dan: [Chuckles] Yeah. I'm looking forward
-   
-    to that talk.
-  ```
+```text
+  812
+  00:49:49,139 --> 00:49:53,519
+  Dan: [Chuckles] Yeah. I'm looking forward
+  to that talk.
+```
 
 ## Timestamp
 
-- Make sure to always include the three digits after comma. Write `000` if it's unknown.
+- Make sure to always include the three digits after comma. Write `000` if it's unknown, but make sure that the end time is later than the start time.
 
   `04:05:20,000 --> 04:05:21,638`
 
@@ -56,11 +58,11 @@ Those utterances are:
 
 - Use it whenever there is a direct quotation.
 
-   `And they told me, "You are not qualified for this role at all.”`
+  `And they told me, "You are not qualified for this role at all.”`
 
 - Internal dialogues are seen as direct quotations.
 
-   `And I figured, "Hey, I should go make some new friends!"`
+  `And I figured, "Hey, I should go make some new friends!"`
 
 - The punctuation at the end of quotations goes inside the quotation marks.
 - When quoting, the first word of a complete sentence should be capitalized.
@@ -155,7 +157,7 @@ Those utterances are:
 ### Non-text audio
 
 - Sound events that are significant to the audio should also be noted by using brackets [ ].
-`e.g., [laughs] [chuckles] [giggles] [gasp]`. [Laughs] is a normal laugh; [chuckles] is a soft laugh.
+  `e.g., [laughs] [chuckles] [giggles] [gasp]`. [Laughs] is a normal laugh; [chuckles] is a soft laugh.
 
 - Use [crosstalk] when two speakers are talking over one another. Try to get as much from each speaker as possible.
 
@@ -191,6 +193,7 @@ Those utterances are:
 ---
 
 ## Resources
+
 - [GoTranscript](https://gotranscript.com/transcription-guidelines)
 - [#causeascene](https://hashtagcauseascene.com/community-transcription-guide/)
 - [OneSpace](http://support.onespace.com/training-resources/transcription-style-guide)
