@@ -4,5798 +4,4688 @@ Bekah: Hello, and welcome to
 season six, episode five of the
 
 2
-00:00:10,691 --> 00:00:13,395
+00:00:10,691 --> 00:00:16,100
 Virtual Coffee podcast. I'm
-Bekah. And this is a podcast
+Bekah. And this is a podcast that
 
 3
-00:00:13,395 --> 00:00:16,099
-that
-
-4
 00:00:16,100 --> 00:00:19,821
 features members of the Virtual
 Coffee community. Virtual Coffee
 
-5
-00:00:19,821 --> 00:00:21,230
+4
+00:00:19,821 --> 00:00:22,640
 is an intimate group of
-developers at all stages of
+developers at all stages of their
 
-6
-00:00:21,230 --> 00:00:22,639
-their
-
-7
+5
 00:00:22,646 --> 00:00:25,850
 coding journey. And they're here
 on this podcast, sharing their
 
-8
-00:00:25,850 --> 00:00:27,140
-stories and what they've
-learned. And we are here to
+6
+00:00:25,850 --> 00:00:28,431
+stories and what they've learned.
+And we are here to share it with
 
-9
-00:00:27,140 --> 00:00:28,430
-share it with
-
-10
+7
 00:00:28,431 --> 00:00:30,830
 you here with me. Today is my
 co-host.
 
-11
+8
 00:00:34,201 --> 00:00:39,831
 Dan: What up Beck? How is it
 going today?
 
-12
+9
 00:00:40,371 --> 00:00:43,191
 Bekah: Just never know, never
 know what, how you're going to
 
-13
+10
 00:00:43,191 --> 00:00:49,070
-deliver that. Um, it is, is
-going amazingly fantastic today.
+deliver that. Um, it is, is going
+amazingly fantastic today.
 
-14
-00:00:50,631 --> 00:00:53,128
+11
+00:00:50,631 --> 00:00:55,625
 Dan: that is impressive. Um,
-That's good. Cuz uh, today we
+That's good. Cuz uh, today we had
 
-15
-00:00:53,128 --> 00:00:55,625
-had
-
-16
+12
 00:00:55,625 --> 00:00:58,295
-an amazingly fantastic guest,
-uh, Chad Stewart.
+an amazingly fantastic guest, uh,
+Chad Stewart.
 
-17
+13
 00:00:58,731 --> 00:00:59,810
 Bekah: Who is also awesome.
 
-18
-00:01:00,276 --> 00:01:01,625
-Dan: He is also awesome. Yeah,
-we that's obvious because he is
+14
+00:01:00,276 --> 00:01:02,975
+Dan: He is also awesome. Yeah, we
+that's obvious because he is on
 
-19
-00:01:01,625 --> 00:01:02,974
-on
-
-20
+15
 00:01:02,975 --> 00:01:04,445
 our podcast. So like,
 
-21
+16
 00:01:04,445 --> 00:01:05,676
 Bekah: Yeah, it was implied.
 
-22
+17
 00:01:05,855 --> 00:01:09,275
-Dan: at this point. Yeah. Uh,
-but yeah, he's a Chad's software
+Dan: at this point. Yeah. Uh, but
+yeah, he's a Chad's software
 
-23
+18
 00:01:09,275 --> 00:01:13,865
 engineer from Kingston, Jamaica,
 and um, yeah, we had a good time
 
-24
+19
 00:01:13,865 --> 00:01:17,135
 talking to him and he talked a
 lot about his experience with
 
-25
-00:01:17,135 --> 00:01:20,135
+20
+00:01:17,135 --> 00:01:23,135
 open source and um, also his. I
-don't know what you call it.
+don't know what you call it. He's
 
-26
-00:01:20,135 --> 00:01:23,135
-He's
-
-27
+21
 00:01:23,135 --> 00:01:25,536
 got a newsletter in his surf
 project. Yeah. Called, uh, Tech
 
-28
-00:01:25,536 --> 00:01:27,920
-is Hiring. And, um, I, he told
-us a lot about, a lot about that
+22
+00:01:25,536 --> 00:01:30,305
+is Hiring. And, um, I, he told us
+a lot about, a lot about that and
 
-29
-00:01:27,920 --> 00:01:30,304
-and
-
-30
+23
 00:01:30,311 --> 00:01:32,585
 how, how he got into that. And
 you know, how it works and stuff
 
-31
+24
 00:01:32,585 --> 00:01:33,066
 is, is very.
 
-32
-00:01:33,756 --> 00:01:34,911
+25
+00:01:33,756 --> 00:01:36,066
 Bekah: Yeah, I love how
-organically it started. You
+organically it started. You know,
 
-33
-00:01:34,911 --> 00:01:36,066
-know,
-
-34
+26
 00:01:36,066 --> 00:01:40,626
 he saw a need for something that
 in the wider tech industry. And
 
-35
+27
 00:01:40,626 --> 00:01:43,715
 then somebody mentioned to him
 like, Hey, what do you think
 
-36
-00:01:43,715 --> 00:01:45,860
+28
+00:01:43,715 --> 00:01:48,006
 about doing something more with
-this? And he just went with
+this? And he just went with that.
 
-37
-00:01:45,860 --> 00:01:48,005
-that.
+29
+00:01:48,006 --> 00:01:50,825
+And I think that's a really great
+way to find inspiration and
 
-38
-00:01:48,006 --> 00:01:49,415
-And I think that's a really
-great way to find inspiration
-
-39
-00:01:49,415 --> 00:01:50,824
-and
-
-40
+30
 00:01:50,831 --> 00:01:52,475
 energy from the things that
 you're doing.
 
-41
-00:01:53,700 --> 00:01:55,495
-Dan: Absolutely. Um, I mean,
-it's always good to talk to
+31
+00:01:53,700 --> 00:01:57,290
+Dan: Absolutely. Um, I mean, it's
+always good to talk to Chad. He's
 
-42
-00:01:55,495 --> 00:01:57,290
-Chad. He's
-
-43
+32
 00:01:57,290 --> 00:02:01,355
 he's very funny. He's, he's one
 of our, uh, main contributors to
 
-44
+33
 00:02:01,355 --> 00:02:06,575
 our humor channel in, in, in our
 slack. Um, and yeah, it was
 
-45
+34
 00:02:07,115 --> 00:02:09,725
 fascinating hearing about his,
 uh, his experience with all that
 
-46
+35
 00:02:09,725 --> 00:02:11,705
 stuff. And with, uh, the Open
 Sauced, that was the other,
 
-47
-00:02:11,705 --> 00:02:13,010
+36
+00:02:11,705 --> 00:02:14,316
 that's the big project that he
-volunteers with contributes
+volunteers with contributes with.
 
-48
-00:02:13,010 --> 00:02:14,315
-with.
-
-49
+37
 00:02:14,915 --> 00:02:18,485
 And, um, he talked a lot about
 how you don't have to be writing
 
-50
+38
 00:02:18,485 --> 00:02:23,015
 code to contribute to an open
 source project. And I both agree
 
-51
-00:02:23,015 --> 00:02:24,665
+39
+00:02:23,015 --> 00:02:26,316
 with that. very much and, and
-appreciate the, the way he
+appreciate the, the way he talked
 
-52
-00:02:24,665 --> 00:02:26,315
-talked
-
-53
+40
 00:02:26,316 --> 00:02:27,366
 about his experiences.
 
-54
-00:02:28,776 --> 00:02:30,380
+41
+00:02:28,776 --> 00:02:31,985
 Bekah: Yeah. Uh, and we start
-this episode of the podcast.
+this episode of the podcast. Like
 
-55
-00:02:30,380 --> 00:02:31,984
-Like
-
-56
+42
 00:02:31,985 --> 00:02:34,866
-we start every Virtual Coffee.
-We introduce ourselves with our
+we start every Virtual Coffee. We
+introduce ourselves with our
 
-57
+43
 00:02:34,866 --> 00:02:37,776
 name, where we're from, what we
 do and a random checking
 
-58
+44
 00:02:37,776 --> 00:02:49,097
 question. We hope you enjoy this
 episode. Our random check-in
 
-59
-00:02:49,097 --> 00:02:50,942
-question is if you could have
-any animal for a pet, what would
+45
+00:02:49,097 --> 00:02:52,787
+question is if you could have any
+animal for a pet, what would it
 
-60
-00:02:50,942 --> 00:02:52,787
-it
-
-61
+46
 00:02:52,787 --> 00:02:52,997
 be?
 
-62
+47
 00:02:53,627 --> 00:02:54,187
 Chad: Uh, Cheetah.
 
-63
+48
 00:02:56,266 --> 00:02:56,956
 Bekah: not yet.
 
-64
+49
 00:02:57,676 --> 00:02:57,977
 Chad: Oh,
 
-65
+50
 00:02:58,847 --> 00:03:00,887
 Bekah: And how is it not a
 penguin? That's what I wanna
 
-66
+51
 00:03:00,887 --> 00:03:01,037
 know.
 
-67
-00:03:01,306 --> 00:03:03,551
+52
+00:03:01,306 --> 00:03:05,796
 Chad: uh, I like Cheetahs. It'd
-be Cheetah or a Peregrine
+be Cheetah or a Peregrine Falcon.
 
-68
-00:03:03,551 --> 00:03:05,796
-Falcon.
-
-69
+53
 00:03:05,796 --> 00:03:07,157
 Those are my favorite animals.
 
-70
-00:03:08,602 --> 00:03:10,597
+54
+00:03:08,602 --> 00:03:12,592
 Bekah: All right. Um, my name is
-Bekah. I am a technical
+Bekah. I am a technical community
 
-71
-00:03:10,597 --> 00:03:12,592
-community
-
-72
+55
 00:03:12,592 --> 00:03:16,372
 builder from a small town in
 Ohio. And if I could have any
 
-73
+56
 00:03:16,372 --> 00:03:24,382
 animal for a pet, I really like,
 um, red pandas and ring-tailed
 
-74
+57
 00:03:24,387 --> 00:03:29,662
 lemurs. So those are on the top
 of the list, but a Falcon seems
 
-75
-00:03:29,662 --> 00:03:31,597
+58
+00:03:29,662 --> 00:03:33,532
 like it would be pretty cool.
-I've already got a skinny pig.
+I've already got a skinny pig. So
 
-76
-00:03:31,597 --> 00:03:33,532
-So
-
-77
+59
 00:03:33,537 --> 00:03:37,252
 I feel like half of my dreams
 have been fulfilled already.
 
-78
+60
 00:03:37,743 --> 00:03:41,373
 Dan: Um, yeah, that thing is
 horrifying.
 
-79
+61
 00:03:41,449 --> 00:03:42,979
 Bekah: cute. It's adorable.
 
-80
+62
 00:03:43,084 --> 00:03:45,334
 Dan: It's not, they're supposed
 to have fur
 
-81
+63
 00:03:46,758 --> 00:03:49,758
-Bekah: uh, it doesn't, it
-doesn't have fur. It's a tiny
+Bekah: uh, it doesn't, it doesn't
+have fur. It's a tiny
 
-82
+64
 00:03:49,758 --> 00:03:52,818
 hippopotamus. So if you're not
 familiar with what a skinny pig
 
-83
+65
 00:03:52,818 --> 00:03:56,299
 is, it is a hairless Guinea pig
 that looks like a tiny hippo.
 
-84
+66
 00:03:57,859 --> 00:04:02,899
 Super cute. Google. It, it is so
 cute. Dan, stop it. Stop hating
 
-85
+67
 00:04:02,903 --> 00:04:03,588
 on my pet
 
-86
+68
 00:04:03,633 --> 00:04:05,824
 Dan: I mean, this is from a
 person who likes the hairless
 
-87
+69
 00:04:05,824 --> 00:04:06,153
 cats
 
-88
+70
 00:04:06,318 --> 00:04:07,188
 Bekah: love hairless
 
-89
+71
 00:04:07,563 --> 00:04:09,183
 Dan: they're like the most
 horrifying thing in the world,
 
-90
-00:04:09,288 --> 00:04:10,113
+72
+00:04:09,288 --> 00:04:10,938
 Bekah: No, they're not. They're
-so great. Especially when
+so great. Especially when they're
 
-91
-00:04:10,113 --> 00:04:10,938
-they're
-
-92
+73
 00:04:10,938 --> 00:04:12,889
 angry looking, they're just like
 great.
 
-93
+74
 00:04:15,183 --> 00:04:24,814
 Dan: that um, okay. Hi, I'm Dan.
 I am a developer of. Computer
 
-94
+75
 00:04:25,084 --> 00:04:31,353
 things. uh, I live in Cleveland,
 Ohio. Um, yeah. So are we
 
-95
+76
 00:04:31,353 --> 00:04:33,064
-sticking with real world
-animals?
+sticking with real world animals?
 
-96
+77
 00:04:33,874 --> 00:04:35,403
-Bekah: if you want a mini
-dragon, you can have one.
+Bekah: if you want a mini dragon,
+you can have one.
 
-97
-00:04:36,514 --> 00:04:38,148
+78
+00:04:36,514 --> 00:04:39,783
 Dan: A mini dragon? I was gonna
-say the dragon guy from The
+say the dragon guy from The Never
 
-98
-00:04:38,148 --> 00:04:39,782
-Never
-
-99
+79
 00:04:39,783 --> 00:04:42,274
-Ending Story, although he is
-like a little
+Ending Story, although he is like
+a little
 
-100
+80
 00:04:43,009 --> 00:04:44,264
 Chad: File core. Falkor.
 
-101
+81
 00:04:44,283 --> 00:04:48,588
 Dan: yeah. Falkor, uh, I was
 gonna say, um, What's the word
 
-102
-00:04:48,588 --> 00:04:50,568
-for like, when you, when a
-person like a, a being can like
+82
+00:04:48,588 --> 00:04:52,548
+for like, when you, when a person
+like a, a being can like talk and
 
-103
-00:04:50,568 --> 00:04:52,548
-talk and
-
-104
+83
 00:04:52,548 --> 00:04:53,238
 think and stuff.
 
-105
+84
 00:04:54,634 --> 00:04:55,434
 Bekah: Amorphism.
 
-106
-00:04:55,579 --> 00:04:58,174
-Dan: no. Like a, like a
-conscious or, you know, like he
+85
+00:04:55,579 --> 00:05:00,769
+Dan: no. Like a, like a conscious
+or, you know, like he has, he's a
 
-107
-00:04:58,174 --> 00:05:00,769
-has, he's a
+86
+00:05:00,769 --> 00:05:04,309
+little too much of a human, not a
+human, but like a thinking thing
 
-108
-00:05:00,769 --> 00:05:02,539
-little too much of a human, not
-a human, but like a thinking
-
-109
-00:05:02,539 --> 00:05:04,309
-thing
-
-110
+87
 00:05:04,309 --> 00:05:05,358
 to be like, have a,
 
-111
+88
 00:05:05,374 --> 00:05:07,274
 Bekah: he's an anthropomorphized
 
-112
+89
 00:05:07,579 --> 00:05:09,978
 Dan: but I'm saying, like, I'm
 saying, like, since
 
-113
+90
 00:05:10,038 --> 00:05:11,869
 Chad: a taxpayer to me, to be
 honest with
 
-114
+91
 00:05:11,899 --> 00:05:13,819
 Dan: there's a word, there's a
 word for what I'm looking for.
 
-115
-00:05:13,819 --> 00:05:15,491
-And I, I can't think of the
-word, but. What I mean is like,
+92
+00:05:13,819 --> 00:05:17,163
+And I, I can't think of the word,
+but. What I mean is like, I would
 
-116
-00:05:15,491 --> 00:05:17,163
-I would
-
-117
+93
 00:05:17,163 --> 00:05:19,803
 feel bad keeping him as a pet
 because he has like too much of
 
-118
-00:05:19,803 --> 00:05:21,318
-his own, you know,
-consciousness, you know what I
+94
+00:05:19,803 --> 00:05:22,834
+his own, you know, consciousness,
+you know what I mean? Like he
 
-119
-00:05:21,318 --> 00:05:22,833
-mean? Like he
-
-120
+95
 00:05:22,834 --> 00:05:25,504
-like talks and he is like his
-own thing. So I don't think he'd
+like talks and he is like his own
+thing. So I don't think he'd
 
-121
+96
 00:05:25,504 --> 00:05:27,454
 wanna be a pet. And that would
 make me sad. Um,
 
-122
-00:05:27,528 --> 00:05:28,563
-Bekah: Well, like what about
-dogs that run away all the time?
+97
+00:05:27,528 --> 00:05:29,598
+Bekah: Well, like what about dogs
+that run away all the time? Did
 
-123
-00:05:28,563 --> 00:05:29,598
-Did
-
-124
+98
 00:05:29,598 --> 00:05:31,608
 they really wanna be pet? Should
 they be free too?
 
-125
+99
 00:05:32,764 --> 00:05:39,004
 Dan: I mean, I don't know. uh, I
 mean, that's a good question.
 
-126
+100
 00:05:39,004 --> 00:05:42,153
 Should any pets be pets? You
 know? Yeah. Yeah.
 
-127
+101
 00:05:42,168 --> 00:05:43,699
 Bekah: one of those moral
 conundrums.
 
-128
+102
 00:05:43,834 --> 00:05:47,644
 Dan: if you truly love it, then
 set it free and it'll come back
 
-129
+103
 00:05:47,704 --> 00:05:48,994
 or something. how does that go?
 
-130
+104
 00:05:49,488 --> 00:05:51,769
 Bekah: if it comes back, it's
 yours and that's how you know
 
-131
+105
 00:05:51,889 --> 00:05:56,149
 that is lyrics in a Christine
 Aguilar song. I refrain from
 
-132
+106
 00:05:56,149 --> 00:05:57,199
 singing it for you.
 
-133
-00:05:57,363 --> 00:05:59,703
+107
+00:05:57,363 --> 00:06:02,043
 Dan: uh, oh man. All right. Um,
-anyway, that's my answer. I'm
+anyway, that's my answer. I'm I'm
 
-134
-00:05:59,703 --> 00:06:02,043
-I'm
-
-135
+108
 00:06:02,043 --> 00:06:04,613
 going, if we have to stick with
 real world, I'd say sloth though
 
-136
+109
 00:06:04,644 --> 00:06:07,983
 sloths are really cool and you
 know, I'd, I'd like, I'd totally
 
-137
-00:06:07,983 --> 00:06:09,708
+110
+00:06:07,983 --> 00:06:11,434
 like just chill in the backyard
-with the. If it's real world
+with the. If it's real world real
 
-138
-00:06:09,708 --> 00:06:11,433
-real
-
-139
+111
 00:06:11,434 --> 00:06:12,874
 world animal. That's that's my
 answer.
 
-140
-00:06:13,384 --> 00:06:14,868
-Bekah: I was in Costa Rica when
-I was like 19 or 20, and that
+112
+00:06:13,384 --> 00:06:16,353
+Bekah: I was in Costa Rica when I
+was like 19 or 20, and that was a
 
-141
-00:06:14,868 --> 00:06:16,352
-was a
-
-142
+113
 00:06:16,358 --> 00:06:19,153
 highlight to get, to see the
 three toed and the two toed
 
-143
+114
 00:06:19,153 --> 00:06:19,483
 sloths.
 
-144
+115
 00:06:19,803 --> 00:06:20,524
 Dan: Oh yeah. Nice.
 
-145
+116
 00:06:21,374 --> 00:06:23,014
 Bekah: just welcome, Chad.
 
-146
+117
 00:06:23,798 --> 00:06:24,423
 Dan: yeah, go ahead, Chad.
 
-147
+118
 00:06:25,024 --> 00:06:28,983
 Chad: Yeah. So I'm Chad Stewart.
 I'm a software engineer, um, in,
 
-148
+119
 00:06:28,983 --> 00:06:32,524
 currently in Kingston, Jamaica,
 uh, mostly do front end
 
-149
+120
 00:06:33,033 --> 00:06:37,084
 engineering stuff. Um, right now
 though, I'm hopefully
 
-150
+121
 00:06:37,088 --> 00:06:40,264
 transitioning to doing more full
 stack stuff. And I guess I
 
-151
+122
 00:06:40,264 --> 00:06:42,634
 answered this earlier, but it
 would be either a Cheetah or
 
-152
-00:06:42,634 --> 00:06:44,599
+123
+00:06:42,634 --> 00:06:46,564
 Peregrine Falcon. Those are my
-favorite animals. They're fast.
+favorite animals. They're fast. I
 
-153
-00:06:44,599 --> 00:06:46,564
-I
-
-154
+124
 00:06:46,564 --> 00:06:51,423
 like fast animals. I don't know.
 Yeah. And I like birds. um,
 
-155
+125
 00:06:51,454 --> 00:06:56,074
 which, uh, Bekah might have,
 Bekah alluded to earlier, um,
 
-156
+126
 00:06:56,074 --> 00:06:58,894
 with a different type of bird.
 Um, but
 
-157
-00:06:59,079 --> 00:07:01,408
-Dan: Yeah. Did you ever read,
-uh, either of you ever read, um,
+127
+00:06:59,079 --> 00:07:03,738
+Dan: Yeah. Did you ever read, uh,
+either of you ever read, um, My
 
-158
-00:07:01,408 --> 00:07:03,737
-My
-
-159
+128
 00:07:03,738 --> 00:07:04,418
 Side of the Mountain.
 
-160
+129
 00:07:05,309 --> 00:07:05,728
 Bekah: Yes.
 
-161
+130
 00:07:06,394 --> 00:07:06,783
 Chad: I, I
 
-162
-00:07:06,843 --> 00:07:08,148
+131
+00:07:06,843 --> 00:07:09,454
 Dan: you read that Chad? So it's
-a, it's like a, it's like a
+a, it's like a, it's like a young
 
-163
-00:07:08,148 --> 00:07:09,453
-young
-
-164
+132
 00:07:09,454 --> 00:07:12,603
 adult book, I think, but it it's
 about a kid who runs away and
 
-165
-00:07:12,723 --> 00:07:14,148
-goes and lives in the woods,
-like with, with nothing, you
+133
+00:07:12,723 --> 00:07:15,574
+goes and lives in the woods, like
+with, with nothing, you know, and
 
-166
-00:07:14,148 --> 00:07:15,573
-know, and
-
-167
+134
 00:07:15,574 --> 00:07:19,144
 teaches himself how to sort of
 forage and hunt and fish or
 
-168
-00:07:19,144 --> 00:07:21,574
+135
+00:07:19,144 --> 00:07:24,004
 whatever. And he eventually like
-goes and get like steals a
+goes and get like steals a Falcon
 
-169
-00:07:21,574 --> 00:07:24,004
-Falcon
-
-170
+136
 00:07:24,004 --> 00:07:27,514
 baby, uh, from a nest and, and
 then like raises it and trains
 
-171
+137
 00:07:27,514 --> 00:07:29,524
 it. And it becomes his like
 friend and stuff. It's really
 
-172
-00:07:29,524 --> 00:07:32,156
+138
+00:07:29,524 --> 00:07:34,788
 cool. Um, That sounds cool. It
-would be, it would be really
+would be, it would be really cool
 
-173
-00:07:32,156 --> 00:07:34,788
-cool
-
-174
+139
 00:07:34,788 --> 00:07:37,968
 to have a Falcon as a pet and
 like, could just like, hang out
 
-175
+140
 00:07:37,968 --> 00:07:41,509
 with you on your shoulder. Is
 that, what do you think you'd do
 
-176
+141
 00:07:41,509 --> 00:07:43,098
 shoulder or just your arm thing?
 I
 
-177
+142
 00:07:43,233 --> 00:07:46,264
 Chad: Uh, depends on the Falcon.
 I'm, you know, considering the
 
-178
-00:07:46,264 --> 00:07:47,794
+143
+00:07:46,264 --> 00:07:49,324
 talent, it would probably not
-necessarily rest on your
+necessarily rest on your shoulder
 
-179
-00:07:47,794 --> 00:07:49,324
-shoulder
-
-180
+144
 00:07:49,324 --> 00:07:50,824
 and rest in your shoulder. You
 know
 
-181
+145
 00:07:50,838 --> 00:07:52,158
 Dan: right, right.
 
-182
+146
 00:07:52,488 --> 00:07:54,918
 Bekah: Like a very leather
 shoulder pad or something.
 
-183
+147
 00:07:55,009 --> 00:07:58,024
 Dan: Yeah. Little contraption
 for, to hang out on. Feel like
 
-184
-00:07:58,024 --> 00:07:59,598
-you'd wanna like, hang, you
-know, keep you, keep him with
+148
+00:07:58,024 --> 00:08:01,173
+you'd wanna like, hang, you know,
+keep you, keep him with you when,
 
-185
-00:07:59,598 --> 00:08:01,172
-you when,
-
-186
+149
 00:08:01,264 --> 00:08:03,274
 uh, when he is not like, when he
 is not cruising around,
 
-187
+150
 00:08:04,338 --> 00:08:07,488
 Bekah: If I am ever famous and I
 go to an award show, I'm gonna
 
-188
+151
 00:08:07,488 --> 00:08:11,569
 come with a Falcon on my
 shoulder. Just decided it seems
 
-189
+152
 00:08:11,574 --> 00:08:11,689
 like
 
-190
+153
 00:08:11,733 --> 00:08:13,564
 Dan: you're keying a conference,
 you should do it there.
 
-191
+154
 00:08:14,689 --> 00:08:17,298
 Bekah: I don't think I have
 enough time to, uh, train a
 
-192
+155
 00:08:17,298 --> 00:08:19,759
 Falcon. I've got like three
 weeks.
 
-193
+156
 00:08:20,173 --> 00:08:21,274
 Dan: that's not enough time.
 
-194
+157
 00:08:21,949 --> 00:08:22,668
 Bekah: I don't know.
 
-195
-00:08:22,908 --> 00:08:24,078
+158
+00:08:22,908 --> 00:08:25,249
 Dan: Well, yeah, this episode
-will come out after that.
+will come out after that. Anyway.
 
-196
-00:08:24,078 --> 00:08:25,248
-Anyway.
-
-197
+159
 00:08:25,249 --> 00:08:29,478
 So, uh, next time you're the
 keynote speaker at a conference.
 
-198
+160
 00:08:30,319 --> 00:08:31,639
 That'll be you just put that.
 
-199
+161
 00:08:33,693 --> 00:08:37,083
 Bekah: be my thing. Kirk says my
 thing is crying while I give
 
-200
+162
 00:08:37,083 --> 00:08:40,203
 talks. And that is the thing I
 would like to not be doing. I
 
-201
+163
 00:08:40,203 --> 00:08:48,504
 would rather be the, the Falcon
 shoulder person. welcome. This
 
-202
+164
 00:08:48,634 --> 00:08:54,288
 is, this is the normal intro for
 us. Um, And it is a Friday that
 
-203
-00:08:54,288 --> 00:08:56,208
+165
+00:08:54,288 --> 00:08:58,129
 we are recording on. So, um,
-brains don't work on Fridays.
+brains don't work on Fridays. Uh,
 
-204
-00:08:56,208 --> 00:08:58,128
-Uh,
-
-205
-00:08:58,129 --> 00:09:00,004
+166
+00:08:58,129 --> 00:09:01,879
 everybody knows that. So you're
-gonna have to bear with us
+gonna have to bear with us today.
 
-206
-00:09:00,004 --> 00:09:01,879
-today.
-
-207
-00:09:02,298 --> 00:09:04,203
+167
+00:09:02,298 --> 00:09:06,109
 Um, but we will, we'll give you
-the mic now, so you don't have
+the mic now, so you don't have to
 
-208
-00:09:04,203 --> 00:09:06,108
-to
-
-209
+168
 00:09:06,109 --> 00:09:09,349
 listen to me talk anymore. We
 always love to hear your origin
 
-210
-00:09:09,354 --> 00:09:11,031
-story. How did you come into
-tech and get to this point in
+169
+00:09:09,354 --> 00:09:12,708
+story. How did you come into tech
+and get to this point in your
 
-211
-00:09:11,031 --> 00:09:12,708
-your
-
-212
+170
 00:09:12,714 --> 00:09:13,249
 tech journey?
 
-213
-00:09:14,433 --> 00:09:17,013
-Chad: Uh, yeah, so, um, I guess
-I give a kind of quick synopsis
+171
+00:09:14,433 --> 00:09:19,594
+Chad: Uh, yeah, so, um, I guess I
+give a kind of quick synopsis of,
 
-214
-00:09:17,013 --> 00:09:19,593
-of,
-
-215
+172
 00:09:19,624 --> 00:09:26,614
 of what I did. Uh, so I moved to
 the United States, um, for some
 
-216
-00:09:26,614 --> 00:09:28,571
-time, uh, To be honest, to, to
-go to art school because I
+173
+00:09:26,614 --> 00:09:30,528
+time, uh, To be honest, to, to go
+to art school because I wanted to
 
-217
-00:09:28,571 --> 00:09:30,528
-wanted to
+174
+00:09:30,528 --> 00:09:34,849
+be a, a game developer and I, but
+I couldn't draw very well at the
 
-218
-00:09:30,528 --> 00:09:32,688
-be a, a game developer and I,
-but I couldn't draw very well at
-
-219
-00:09:32,688 --> 00:09:34,848
-the
-
-220
+175
 00:09:34,849 --> 00:09:38,599
 time. So I ended up into another
 program, which effectively was
 
-221
+176
 00:09:38,604 --> 00:09:42,168
 web design. Um, whatever the, it
 was the art Institute of Fort
 
-222
+177
 00:09:42,168 --> 00:09:45,438
 Lauderdale, it was whatever they
 had kind of called web design.
 
-223
+178
 00:09:45,438 --> 00:09:49,009
 And I did that for some time
 graduated and then phoned. I
 
-224
+179
 00:09:49,009 --> 00:09:53,479
 didn't necessarily like web
 design. Or at least what it was
 
-225
-00:09:53,479 --> 00:09:56,088
+180
+00:09:53,479 --> 00:09:58,698
 at the time. And so I ended up
-going back to another school.
+going back to another school. Uh,
 
-226
-00:09:56,088 --> 00:09:58,697
-Uh,
-
-227
+181
 00:09:58,818 --> 00:10:02,269
 I'm pretty sure the south IANS
 would kind of know the schools
 
-228
+182
 00:10:02,269 --> 00:10:05,389
 that I'm talking about. Well,
 people know art Institute, but,
 
-229
+183
 00:10:05,688 --> 00:10:09,259
 um, for the south IANS, uh, I
 went back to NSU, Nova
 
-230
-00:10:09,259 --> 00:10:11,523
-Southeastern university, got a,
-a software engineering degree
+184
+00:10:09,259 --> 00:10:13,788
+Southeastern university, got a, a
+software engineering degree from
 
-231
-00:10:11,523 --> 00:10:13,787
-from
-
-232
+185
 00:10:14,028 --> 00:10:19,908
 there. And then did some work
 ended up returning home, um, and
 
-233
+186
 00:10:20,269 --> 00:10:24,469
 have been kind of working around
 ever since. Um, during the
 
-234
+187
 00:10:24,469 --> 00:10:29,734
 pandemic I was unemployed. And
 that's how I came across, you
 
-235
+188
 00:10:29,734 --> 00:10:33,933
 know, Bekah and Dan and Virtual
 Coffee, um, when they were, when
 
-236
+189
 00:10:33,933 --> 00:10:37,443
 they were hosting, well, they're
 still hosting. Um, they're still
 
-237
-00:10:37,443 --> 00:10:39,498
-hosting zoom, um, zoom calls,
-but that's how I came across
+190
+00:10:37,443 --> 00:10:41,553
+hosting zoom, um, zoom calls, but
+that's how I came across them.
 
-238
-00:10:39,498 --> 00:10:41,553
-them.
-
-239
+191
 00:10:41,854 --> 00:10:48,423
 And I've mostly been kind of
 active on Twitter. Um, so I, I,
 
-240
+192
 00:10:48,423 --> 00:10:53,076
 you know, I met, I met Dan and,
 and Bekah during 2020, um, 20,
 
-241
+193
 00:10:53,076 --> 00:10:59,614
 20, 20, 21. Um, I decided. To
 start an organization, uh, call
 
-242
+194
 00:10:59,614 --> 00:11:04,984
 Tech is Hiring, um, tech pretty
 much. What I do is I retweet job
 
-243
+195
 00:11:04,984 --> 00:11:10,984
 opportunities as I come across
 them on Twitter. Um, and I re re
 
-244
+196
 00:11:11,073 --> 00:11:15,484
 I also retweet, um, people
 looking for, for opportunities.
 
-245
-00:11:16,024 --> 00:11:18,394
+197
+00:11:16,024 --> 00:11:20,764
 And so. I've been doing that for
-about, for, for a little bit
+about, for, for a little bit over
 
-246
-00:11:18,394 --> 00:11:20,764
-over
+198
+00:11:20,764 --> 00:11:25,923
+a year now. And yeah, like that's
+pretty much it. We, we do have,
 
-247
-00:11:20,764 --> 00:11:23,343
-a year now. And yeah, like
-that's pretty much it. We, we do
-
-248
-00:11:23,343 --> 00:11:25,922
-have,
-
-249
+199
 00:11:26,104 --> 00:11:31,563
 we, uh, have some presence on
 LinkedIn, but mostly still on
 
-250
+200
 00:11:31,563 --> 00:11:36,274
 Twitter, have a newsletter, uh,
 been doing the newsletter thing.
 
-251
-00:11:36,274 --> 00:11:37,338
+201
+00:11:36,274 --> 00:11:38,403
 Haven't missed a week. I'm
-actually pretty happy about
+actually pretty happy about that.
 
-252
-00:11:37,338 --> 00:11:38,402
-that.
-
-253
+202
 00:11:38,403 --> 00:11:43,879
 But, uh, have, have been doing a
 newsletter for. Uh, couple of
 
-254
+203
 00:11:43,879 --> 00:11:47,568
 months now, I think over six
 months now. And yeah, that's
 
-255
+204
 00:11:47,573 --> 00:11:51,769
 pretty much me. I'm, I'm working
 now, you know, thankfully and my
 
-256
+205
 00:11:51,769 --> 00:11:56,089
 opportunities are increasing
 because of the amount of work
 
-257
+206
 00:11:56,089 --> 00:11:59,239
 that I've been doing and people
 I've been reaching out to and so
 
-258
+207
 00:11:59,239 --> 00:12:03,828
 on and so forth. But yeah. Um,
 yeah, it's pretty much me right
 
-259
+208
 00:12:03,828 --> 00:12:04,009
 now.
 
-260
+209
 00:12:05,344 --> 00:12:08,193
 Bekah: That's awesome. And we're
 gonna dive into Tech is Hiring a
 
-261
+210
 00:12:08,193 --> 00:12:11,464
 little bit more, but before we
 jump into that, I know that
 
-262
-00:12:11,464 --> 00:12:12,888
+211
+00:12:11,464 --> 00:12:14,313
 you've been doing, you know, a
-lot of different community
+lot of different community things
 
-263
-00:12:12,888 --> 00:12:14,312
-things
-
-264
+212
 00:12:14,313 --> 00:12:17,494
 and some of that's been open
 source work. Do you wanna talk
 
-265
-00:12:17,494 --> 00:12:19,653
-about what you've been doing
-with open source and how you've,
+213
+00:12:17,494 --> 00:12:21,813
+about what you've been doing with
+open source and how you've, uh,
 
-266
-00:12:19,653 --> 00:12:21,812
-uh,
-
-267
+214
 00:12:21,844 --> 00:12:22,984
 been a contributor as well?
 
-268
+215
 00:12:23,524 --> 00:12:28,833
-Chad: Uh, yes. Uh, yes. So, um,
-I recently started open source
+Chad: Uh, yes. Uh, yes. So, um, I
+recently started open source
 
-269
+216
 00:12:28,864 --> 00:12:33,394
 doing more open source work. Um,
 uh, funny enough, I started with
 
-270
+217
 00:12:33,423 --> 00:12:37,653
 the. The, um, the open source
 project that I had started with,
 
-271
+218
 00:12:38,043 --> 00:12:42,874
 um, which is open source by, uh,
 Brian Douglas, um, at B Dougie
 
-272
-00:12:42,874 --> 00:12:45,949
+219
+00:12:42,874 --> 00:12:49,024
 on, on Twitter. Um, and he
-honestly, he approached me to
+honestly, he approached me to ask
 
-273
-00:12:45,949 --> 00:12:49,024
-ask
-
-274
+220
 00:12:49,024 --> 00:12:53,793
 me to, to, to, to, to contribute
 to his project. And I did. Um,
 
-275
+221
 00:12:53,823 --> 00:13:01,234
 but I didn't stay initially
 mostly because of just all other
 
-276
-00:13:01,234 --> 00:13:04,016
+222
+00:13:01,234 --> 00:13:06,798
 stuff that I kind of had going
-on. At the time. Um, but he
+on. At the time. Um, but he again
 
-277
-00:13:04,016 --> 00:13:06,798
-again
+223
+00:13:06,798 --> 00:13:12,678
+approached me later. Um, he again
+approached me later that year,
 
-278
-00:13:06,798 --> 00:13:09,738
-approached me later. Um, he
-again approached me later that
-
-279
-00:13:09,738 --> 00:13:12,678
-year,
-
-280
-00:13:12,918 --> 00:13:14,643
+224
+00:13:12,918 --> 00:13:16,369
 uh, really late in the year,
-mostly because of Tech is
+mostly because of Tech is Hiring.
 
-281
-00:13:14,643 --> 00:13:16,368
-Hiring.
-
-282
+225
 00:13:16,668 --> 00:13:20,178
 And then he, you know, he wants
 to wanted me to, to come on to,
 
-283
+226
 00:13:20,183 --> 00:13:26,328
 to contribute more, um, More
 again, and that's what I've been
 
-284
+227
 00:13:26,389 --> 00:13:31,249
 kind of doing, um, for the last
 couple of months. And you know,
 
-285
-00:13:31,249 --> 00:13:34,083
+228
+00:13:31,249 --> 00:13:36,918
 his, his project is pretty much
-about kind of having it, it
+about kind of having it, it being
 
-286
-00:13:34,083 --> 00:13:36,917
-being
-
-287
+229
 00:13:36,918 --> 00:13:40,668
 a platform of, of people, you
 know, transitioning into
 
-288
-00:13:40,668 --> 00:13:43,113
-contributing for open source.
-Um, it's in a bit of, uh, I
+230
+00:13:40,668 --> 00:13:45,558
+contributing for open source. Um,
+it's in a bit of, uh, I don't
 
-289
-00:13:43,113 --> 00:13:45,558
-don't
-
-290
+231
 00:13:45,558 --> 00:13:51,739
 wanna call it limbo, but if the
 kind of scope is Evolv. At this
 
-291
+232
 00:13:51,739 --> 00:13:55,548
 point. Um, so, you know, we're,
 we're all kind of trying to
 
-292
+233
 00:13:55,548 --> 00:14:03,318
 figure it OT recently, uh, left
 GitHub to, to work on, on open
 
-293
+234
 00:14:03,318 --> 00:14:09,129
 source fulltime. And so. You
 know, as he does that, and he's
 
-294
+235
 00:14:09,129 --> 00:14:13,359
 putting a lot more like of his
 full, you know, effort into it.
 
-295
-00:14:13,359 --> 00:14:15,549
+236
+00:14:13,359 --> 00:14:17,739
 He's been, uh, he's been kind of
-expanding on that and I've
+expanding on that and I've really
 
-296
-00:14:15,549 --> 00:14:17,739
-really
+237
+00:14:17,739 --> 00:14:21,038
+been helping, uh, here and there.
+So like for instance, one of the
 
-297
-00:14:17,739 --> 00:14:19,388
-been helping, uh, here and
-there. So like for instance, one
-
-298
-00:14:19,388 --> 00:14:21,037
-of the
-
-299
+238
 00:14:21,038 --> 00:14:24,369
 things that I did, I'm pretty
 kind of happy about this is that
 
-300
+239
 00:14:24,428 --> 00:14:27,698
 the, the, the onboarding
 experience for open source was.
 
-301
+240
 00:14:28,129 --> 00:14:33,229
 Was a little bit disjointed and,
 you know, he had managed to, to,
 
-302
+241
 00:14:33,229 --> 00:14:37,249
 to get some designs, um, and to
 just kind of change the
 
-303
+242
 00:14:37,249 --> 00:14:40,969
 onboarding experience. And that
 was like one of the first major
 
-304
+243
 00:14:40,969 --> 00:14:47,688
 things that had helped him with,
 um, when I started contributing
 
-305
+244
 00:14:47,688 --> 00:14:52,609
 more often and, you know, been
 doing it. For I've been working
 
-306
+245
 00:14:52,639 --> 00:14:56,599
-on the project ever since. Uh,
-it there's two projects. There's
+on the project ever since. Uh, it
+there's two projects. There's
 
-307
+246
 00:14:56,899 --> 00:15:01,009
 open source, the, the, the app,
 the, the, the regular app. And
 
-308
+247
 00:15:01,009 --> 00:15:05,089
 then you have hot open source,
 which is like a, a, a, a, a,
 
-309
+248
 00:15:06,528 --> 00:15:10,399
 another, not a child app, but
 just that app alongside of it, I
 
-310
+249
 00:15:10,428 --> 00:15:12,889
 haven't been working with hot
 open sauce, but yeah, that's
 
-311
-00:15:12,889 --> 00:15:15,634
-pretty much what I've been
-doing. And, you know, you
+250
+00:15:12,889 --> 00:15:18,379
+pretty much what I've been doing.
+And, you know, you interact with
 
-312
-00:15:15,634 --> 00:15:18,379
-interact with
-
-313
+251
 00:15:18,379 --> 00:15:23,149
 the community, you know, you get
 to talk to you, you, you talk to
 
-314
-00:15:23,149 --> 00:15:25,218
+252
+00:15:23,149 --> 00:15:27,288
 people here and there, like, so
-it is kind of interesting
+it is kind of interesting because
 
-315
-00:15:25,218 --> 00:15:27,287
-because
+253
+00:15:27,288 --> 00:15:31,609
+he has a, he has a discord, which
+I, I interact with a few times,
 
-316
-00:15:27,288 --> 00:15:29,448
-he has a, he has a discord,
-which I, I interact with a few
-
-317
-00:15:29,448 --> 00:15:31,608
-times,
-
-318
+254
 00:15:31,614 --> 00:15:34,849
 but. To be honest, a lot of the
 interactions kind of come, come
 
-319
-00:15:34,849 --> 00:15:36,799
+255
+00:15:34,849 --> 00:15:38,749
 through his stream. Uh, I feel
-like a lot of people just kind
+like a lot of people just kind of
 
-320
-00:15:36,799 --> 00:15:38,749
-of
+256
+00:15:38,749 --> 00:15:41,658
+come there. And then there's also
+times where he'll have like a
 
-321
-00:15:38,749 --> 00:15:40,203
-come there. And then there's
-also times where he'll have like
-
-322
-00:15:40,203 --> 00:15:41,657
-a
-
-323
+257
 00:15:41,658 --> 00:15:45,769
 call on his discord and, you
 know, that's where you, you have
 
-324
+258
 00:15:45,769 --> 00:15:48,408
 some really interesting
 conversations, you know, about
 
-325
-00:15:48,408 --> 00:15:50,013
-the project and about kind of
-how it's evolving, but just
+259
+00:15:48,408 --> 00:15:51,619
+the project and about kind of how
+it's evolving, but just generally
 
-326
-00:15:50,013 --> 00:15:51,618
-generally
-
-327
+260
 00:15:51,619 --> 00:15:55,339
 about software engineering. I
 think that's like in terms of,
 
-328
+261
 00:15:55,399 --> 00:15:58,369
 um, in terms of open source,
 that's the thing that I kind of
 
-329
+262
 00:15:58,369 --> 00:16:03,349
 want. I I really think is the
 most important is your kind of
 
-330
+263
 00:16:03,349 --> 00:16:07,219
 access to information that you
 wouldn't regularly have, or not
 
-331
+264
 00:16:07,219 --> 00:16:10,788
 even necessarily access, because
 if you've heard these terms,
 
-332
+265
 00:16:10,793 --> 00:16:14,778
 you've heard a lot of the.
 Technologies and stuff. You
 
-333
-00:16:14,778 --> 00:16:16,203
-probably, you can Google them
-or, you know, they're, they're
+266
+00:16:14,778 --> 00:16:17,629
+probably, you can Google them or,
+you know, they're, they're that
 
-334
-00:16:16,203 --> 00:16:17,628
-that
-
-335
+267
 00:16:17,688 --> 00:16:22,308
 open, but like the likelihood of
 you coming across that as
 
-336
+268
 00:16:22,308 --> 00:16:25,578
 somebody who's just not in the
 know, you know, is very
 
-337
+269
 00:16:25,578 --> 00:16:28,759
 difficult. And I think that's
 like the, the key thing that,
 
-338
+270
 00:16:28,999 --> 00:16:33,484
 that open source has been. Um,
 helping me with is just coming
 
-339
+271
 00:16:33,484 --> 00:16:38,104
 across these technologies and
 these people and, you know, just
 
-340
+272
 00:16:38,104 --> 00:16:41,524
 getting to know them, you know,
 even if it's still more of a
 
-341
+273
 00:16:41,583 --> 00:16:45,124
 passive LA, not passive, but as
 a, I don't know the person
 
-342
+274
 00:16:45,124 --> 00:16:47,313
 directly, or I don't know, I
 haven't interacted with the
 
-343
-00:16:47,313 --> 00:16:49,863
+275
+00:16:47,313 --> 00:16:52,413
 technology, but just having them
-as like in your Rolodex of
+as like in your Rolodex of things
 
-344
-00:16:49,863 --> 00:16:52,413
-things
-
-345
+276
 00:16:52,413 --> 00:16:55,293
 that you could leverage, you
 know, is extraordinarily.
 
-346
+277
 00:16:56,854 --> 00:16:59,433
 Bekah: Yeah, absolutely. I love
 that. And I love Brian Douglas
 
-347
-00:16:59,433 --> 00:17:01,098
+278
+00:16:59,433 --> 00:17:02,764
 too. He's pretty awesome. I
-actually, uh, he's gonna be
+actually, uh, he's gonna be doing
 
-348
-00:17:01,098 --> 00:17:02,763
-doing
-
-349
+279
 00:17:02,764 --> 00:17:07,263
 a lunch and learn at Virtual
 Coffee, um, which is super
 
-350
+280
 00:17:07,483 --> 00:17:11,253
 exciting. We're gonna talk about
 open source and open sauce and
 
-351
-00:17:11,253 --> 00:17:13,608
-Octoberfest. So that'll be
-coming up in September. I'm
+281
+00:17:11,253 --> 00:17:15,963
+Octoberfest. So that'll be coming
+up in September. I'm really glad
 
-352
-00:17:13,608 --> 00:17:15,963
-really glad
-
-353
+282
 00:17:15,963 --> 00:17:21,588
 to. Um, have him getting us in
 the, in the mind frame of
 
-354
+283
 00:17:21,709 --> 00:17:26,298
 prepping to do some open source
 contribution because that's I,
 
-355
+284
 00:17:26,358 --> 00:17:29,719
 the beginning kind of, of the
 Virtual Coffee, origin story,
 
-356
+285
 00:17:29,719 --> 00:17:33,558
 maybe. Um, it's not the first
 thing that we did, but, uh, it
 
-357
+286
 00:17:33,558 --> 00:17:38,148
 was the first time I felt like
 Virtual Coffee was gonna be an
 
-358
+287
 00:17:38,148 --> 00:17:42,888
 organization that outlasts the
 pandemic. Um, I thought for a
 
-359
+288
 00:17:42,894 --> 00:17:45,989
 long time that it was like, Hey,
 we're. Get together and
 
-360
+289
 00:17:46,199 --> 00:17:49,949
-everybody's feeling isolated.
-And then we did Oktoberfest, our
+everybody's feeling isolated. And
+then we did Oktoberfest, our
 
-361
-00:17:49,953 --> 00:17:51,931
-first Octoberfest initiative,
-and everybody was just so
+290
+00:17:49,953 --> 00:17:53,909
+first Octoberfest initiative, and
+everybody was just so excited
 
-362
-00:17:51,931 --> 00:17:53,909
-excited
+291
+00:17:53,909 --> 00:17:57,989
+about it and contributing. And we
+had maintainers and contributors
 
-363
-00:17:53,909 --> 00:17:55,949
-about it and contributing. And
-we had maintainers and
-
-364
-00:17:55,949 --> 00:17:57,989
-contributors
-
-365
+292
 00:17:57,989 --> 00:18:02,614
 and lots of mentorship and
 support, and it was. It was fun,
 
-366
+293
 00:18:02,614 --> 00:18:07,233
 but really gratifying to see
 people contributing and learning
 
-367
-00:18:07,233 --> 00:18:08,628
+294
+00:18:07,233 --> 00:18:10,023
 and growing through that
-experience. And, you know, it
+experience. And, you know, it can
 
-368
-00:18:08,628 --> 00:18:10,023
-can
-
-369
+295
 00:18:10,023 --> 00:18:13,173
 be, it can be scary to get
 involved and do your first
 
-370
+296
 00:18:13,173 --> 00:18:16,923
 contribution. Um, even if you've
 been in tech, we had a number of
 
-371
+297
 00:18:16,923 --> 00:18:19,324
 people who have been in tech for
 a while, and I've never done an
 
-372
-00:18:19,328 --> 00:18:20,976
-open source contribution. So,
-you know, what advice do you
+298
+00:18:19,328 --> 00:18:22,624
+open source contribution. So, you
+know, what advice do you have for
 
-373
-00:18:20,976 --> 00:18:22,624
-have for
-
-374
+299
 00:18:22,624 --> 00:18:26,344
 folks who are maybe a little bit
 nervous about entering that open
 
-375
+300
 00:18:26,348 --> 00:18:27,394
 source experience?
 
-376
+301
 00:18:28,669 --> 00:18:32,808
 Chad: Uh, that's a, that's a
 really interesting question. Um,
 
-377
-00:18:33,919 --> 00:18:37,743
-Hmm. What advice would I give?
-So I would say, um, find
+302
+00:18:33,919 --> 00:18:41,568
+Hmm. What advice would I give? So
+I would say, um, find community,
 
-378
-00:18:37,743 --> 00:18:41,567
-community,
+303
+00:18:42,019 --> 00:18:48,304
+you know, like that. So the, the,
+the. The open source projects
 
-379
-00:18:42,019 --> 00:18:45,161
-you know, like that. So the,
-the, the. The open source
-
-380
-00:18:45,161 --> 00:18:48,303
-projects
-
-381
+304
 00:18:48,304 --> 00:18:54,094
 that I would definitely look,
 look to, um, are open source
 
-382
+305
 00:18:54,094 --> 00:18:58,953
 projects that are very much not
 just about the, the, the
 
-383
-00:18:58,959 --> 00:19:01,221
-contributions, but you know,
-like the, the, whatever you kind
+306
+00:18:58,959 --> 00:19:03,483
+contributions, but you know, like
+the, the, whatever you kind of
 
-384
-00:19:01,221 --> 00:19:03,483
-of
-
-385
+307
 00:19:03,513 --> 00:19:07,294
 deliver, whatever you merge, you
 know, but significantly more
 
-386
+308
 00:19:07,294 --> 00:19:12,798
 about the community of people.
 Um, and just kind of the culture
 
-387
+309
 00:19:12,919 --> 00:19:16,909
 around the, the, the open source
 project, like that's really
 
-388
+310
 00:19:16,909 --> 00:19:21,469
 important, you know, like there
 are a lot of there, you know,
 
-389
-00:19:21,469 --> 00:19:24,258
+311
+00:19:21,469 --> 00:19:27,048
 people give the advice of, of,
-you know, contribute to like
+you know, contribute to like you,
 
-390
-00:19:24,258 --> 00:19:27,047
-you,
+312
+00:19:27,054 --> 00:19:30,378
+you, their tools that you use all
+the time, like react and so on
 
-391
-00:19:27,054 --> 00:19:28,716
-you, their tools that you use
-all the time, like react and so
-
-392
-00:19:28,716 --> 00:19:30,378
-on
-
-393
+313
 00:19:30,378 --> 00:19:34,503
 and so forth, you know, you want
 to contribute to those and. You
 
-394
+314
 00:19:34,503 --> 00:19:37,263
 know, some of them are hit and
 miss, but a lot of the times
 
-395
+315
 00:19:37,263 --> 00:19:44,493
 they're so big that they they're
 really hard to get into, you
 
-396
-00:19:44,493 --> 00:19:46,623
-know, like I, I wanted to, I,
-you know, I heard the whole
+316
+00:19:44,493 --> 00:19:48,753
+know, like I, I wanted to, I, you
+know, I heard the whole thing.
 
-397
-00:19:46,623 --> 00:19:48,753
-thing.
+317
+00:19:48,753 --> 00:19:51,094
+It's like, you should, you should
+contribute to open source. It's
 
-398
-00:19:48,753 --> 00:19:49,923
-It's like, you should, you
-should contribute to open
-
-399
-00:19:49,923 --> 00:19:51,093
-source. It's
-
-400
+318
 00:19:51,094 --> 00:19:54,394
 great. And so I was like, okay,
 I'll contribute to open source.
 
-401
+319
 00:19:54,394 --> 00:19:56,824
 You know, which, which product
 I'm going to try, I'm gonna try
 
-402
-00:19:56,824 --> 00:19:58,518
-to contribute to react. There's
-a bunch of good first issues
+320
+00:19:56,824 --> 00:20:00,213
+to contribute to react. There's a
+bunch of good first issues there.
 
-403
-00:19:58,518 --> 00:20:00,212
-there.
-
-404
+321
 00:20:00,213 --> 00:20:04,804
 And I was just. What you know
 what I mean? Like, I couldn't
 
-405
+322
 00:20:04,804 --> 00:20:08,013
 understand anything that they
 were asking, and this was like a
 
-406
+323
 00:20:08,013 --> 00:20:11,614
 couple of years back and I, you
 know, I tried it a few times and
 
-407
+324
 00:20:11,614 --> 00:20:14,703
 I was just like, I'm gonna go do
 something else. You know what I
 
-408
+325
 00:20:14,709 --> 00:20:17,493
 mean? So it's like really
 important to kind of have that
 
-409
+326
 00:20:17,499 --> 00:20:21,663
 community, like have, have those
 people being very welcoming, you
 
-410
+327
 00:20:21,663 --> 00:20:26,068
 know, having the discord, like a
 lot of. The secondary stuff to
 
-411
+328
 00:20:26,068 --> 00:20:31,259
 the, to the, to the actual
 working code and tools is, is
 
-412
-00:20:31,259 --> 00:20:33,448
+329
+00:20:31,259 --> 00:20:35,638
 really important. Um, the second
-thing, and I'm, I'm really
+thing, and I'm, I'm really happy.
 
-413
-00:20:33,448 --> 00:20:35,637
-happy.
+330
+00:20:35,644 --> 00:20:40,709
+I remember this. The second thing
+is that you don't necessarily
 
-414
-00:20:35,644 --> 00:20:38,176
-I remember this. The second
-thing is that you don't
-
-415
-00:20:38,176 --> 00:20:40,708
-necessarily
-
-416
+331
 00:20:40,709 --> 00:20:44,673
 have to contribute code. You
 know, it's not just about code,
 
-417
-00:20:44,673 --> 00:20:46,428
+332
+00:20:44,673 --> 00:20:48,183
 there's a lot of other things
-that you can contribute, and
+that you can contribute, and that
 
-418
-00:20:46,428 --> 00:20:48,183
-that
-
-419
+333
 00:20:48,183 --> 00:20:51,993
 would be a contribution to open
 source, like contributing, uh,
 
-420
-00:20:52,023 --> 00:20:55,923
+334
+00:20:52,023 --> 00:20:59,824
 documentation, you know, like I
-know, uh, uh, Brian for, for
+know, uh, uh, Brian for, for open
 
-421
-00:20:55,923 --> 00:20:59,823
-open
+335
+00:20:59,824 --> 00:21:04,683
+source, he has a triage team for,
+for triaging issues. I believe
 
-422
-00:20:59,824 --> 00:21:02,253
-source, he has a triage team
-for, for triaging issues. I
-
-423
-00:21:02,253 --> 00:21:04,682
-believe
-
-424
+336
 00:21:04,683 --> 00:21:13,384
 that's, um, like. You know, find
 you taking, I'm sorry if I'm, I
 
-425
+337
 00:21:13,384 --> 00:21:17,223
 hope I'm getting this right. But
 like you, you take when, when
 
-426
+338
 00:21:17,223 --> 00:21:20,523
 there's issues, you know, you
 kind of scope them out so that
 
-427
-00:21:20,584 --> 00:21:22,368
+339
+00:21:20,584 --> 00:21:24,153
 there's something that somebody
-can easily take on. And I
+can easily take on. And I believe
 
-428
-00:21:22,368 --> 00:21:24,152
-believe
-
-429
+340
 00:21:24,153 --> 00:21:29,763
 he got that idea from the node,
 from node, which nodes, from my
 
-430
-00:21:29,763 --> 00:21:31,728
+341
+00:21:29,763 --> 00:21:33,693
 understanding. For the longest
-time, I really wanted to join
+time, I really wanted to join the
 
-431
-00:21:31,728 --> 00:21:33,693
-the
-
-432
-00:21:33,693 --> 00:21:36,063
+342
+00:21:33,693 --> 00:21:38,433
 open source community for node
-because they seemed so
+because they seemed so welcoming.
 
-433
-00:21:36,063 --> 00:21:38,433
-welcoming.
+343
+00:21:38,493 --> 00:21:43,233
+You know, they seemed to have all
+of this kind of infrastructure in
 
-434
-00:21:38,493 --> 00:21:40,863
-You know, they seemed to have
-all of this kind of
-
-435
-00:21:40,863 --> 00:21:43,233
-infrastructure in
-
-436
+344
 00:21:43,239 --> 00:21:48,328
-place for a new person to come
-in and. Really be able to
+place for a new person to come in
+and. Really be able to
 
-437
-00:21:48,328 --> 00:21:50,473
+345
+00:21:48,328 --> 00:21:52,618
 contribute, you know, like I
-don't remember exactly
+don't remember exactly everything
 
-438
-00:21:50,473 --> 00:21:52,618
-everything
+346
+00:21:52,618 --> 00:21:55,048
+that they have now, but like they
+have, you know, they have stuff
 
-439
-00:21:52,618 --> 00:21:53,833
-that they have now, but like
-they have, you know, they have
-
-440
-00:21:53,833 --> 00:21:55,048
-stuff
-
-441
+347
 00:21:55,048 --> 00:21:58,019
 on YouTube. They have them weak,
 they have weekly meetings on
 
-442
-00:21:58,019 --> 00:22:00,328
-YouTube, you know, like they
-have like this whole community
+348
+00:21:58,019 --> 00:22:02,638
+YouTube, you know, like they have
+like this whole community around
 
-443
-00:22:00,328 --> 00:22:02,637
-around
+349
+00:22:02,638 --> 00:22:07,499
+joining them. And so I'll try not
+to go into the community thing
 
-444
-00:22:02,638 --> 00:22:05,068
-joining them. And so I'll try
-not to go into the community
-
-445
-00:22:05,068 --> 00:22:07,498
-thing
-
-446
-00:22:07,499 --> 00:22:09,714
+350
+00:22:07,499 --> 00:22:11,929
 again, but like, there are a lot
-of things that you can do to.
+of things that you can do to. You
 
-447
-00:22:09,714 --> 00:22:11,929
-You
-
-448
-00:22:11,929 --> 00:22:13,488
+351
+00:22:11,929 --> 00:22:15,048
 know, like you can contribute
-documentation, like for, for,
+documentation, like for, for, for
 
-449
-00:22:13,488 --> 00:22:15,047
-for
-
-450
+352
 00:22:15,048 --> 00:22:18,618
 the no project. Like, I believe
 you can do something like just
 
-451
+353
 00:22:18,618 --> 00:22:21,288
 kind of help managing the
 meetings that they have because
 
-452
-00:22:21,528 --> 00:22:23,703
-they regularly have meetings,
-but there are a lot of outside
+354
+00:22:21,528 --> 00:22:25,878
+they regularly have meetings, but
+there are a lot of outside things
 
-453
-00:22:23,703 --> 00:22:25,878
-things
+355
+00:22:25,878 --> 00:22:30,499
+outside of like literally writing
+the code that needs to go into
 
-454
-00:22:25,878 --> 00:22:28,188
-outside of like literally
-writing the code that needs to
-
-455
-00:22:28,188 --> 00:22:30,498
-go into
-
-456
+356
 00:22:30,503 --> 00:22:35,209
-the project that can go, that
-can go in there and people have
+the project that can go, that can
+go in there and people have
 
-457
+357
 00:22:35,209 --> 00:22:40,413
 literally gotten opportu. From
 contributing to open source, um,
 
-458
-00:22:40,443 --> 00:22:42,648
+358
+00:22:40,443 --> 00:22:44,854
 open source projects in these
-auxiliary ways, you know? And
+auxiliary ways, you know? And so.
 
-459
-00:22:42,648 --> 00:22:44,853
-so.
-
-460
+359
 00:22:45,229 --> 00:22:47,778
 I would, so the thing that I
 would definitely stress is
 
-461
+360
 00:22:47,778 --> 00:22:50,989
 community. You know, like
 community is extraordinarily
 
-462
+361
 00:22:50,989 --> 00:22:55,219
 important, you know, having
 people to have your back, you
 
-463
+362
 00:22:55,219 --> 00:22:58,578
-know, when you're contributing
-is really important, to be quite
+know, when you're contributing is
+really important, to be quite
 
-464
+363
 00:22:58,584 --> 00:23:02,628
 honest, I would say that it's
 much more important to, to, to
 
-465
+364
 00:23:02,628 --> 00:23:05,358
 build and maintain those
 relationships than it is to
 
-466
-00:23:05,358 --> 00:23:07,211
+365
+00:23:05,358 --> 00:23:09,064
 contribute the code. In my
-opinion. It's much more
+opinion. It's much more important
 
-467
-00:23:07,211 --> 00:23:09,064
-important
-
-468
-00:23:09,064 --> 00:23:10,474
+366
+00:23:09,064 --> 00:23:11,884
 to have those relationships. In
-fact, I would say that's the
+fact, I would say that's the most
 
-469
-00:23:10,474 --> 00:23:11,884
-most
+367
+00:23:11,884 --> 00:23:16,804
+important thing about open source
+and that it's not just about
 
-470
-00:23:11,884 --> 00:23:14,344
-important thing about open
-source and that it's not just
-
-471
-00:23:14,344 --> 00:23:16,804
-about
-
-472
+368
 00:23:16,804 --> 00:23:21,153
-contributing code. You don't
-need to contribute code it. It's
+contributing code. You don't need
+to contribute code it. It's
 
-473
-00:23:21,183 --> 00:23:23,178
+369
+00:23:21,183 --> 00:23:25,173
 about, you can contribute in, in
-your own way, just reach out.
+your own way, just reach out. And
 
-474
-00:23:23,178 --> 00:23:25,173
-And
+370
+00:23:25,179 --> 00:23:28,953
+there might be things that, that,
+you know, that the, the, the
 
-475
-00:23:25,179 --> 00:23:27,066
-there might be things that,
-that, you know, that the, the,
-
-476
-00:23:27,066 --> 00:23:28,953
-the
-
-477
+371
 00:23:29,324 --> 00:23:32,854
 maintainer needs and, you know,
 you may be able to help help
 
-478
-00:23:32,854 --> 00:23:34,878
-there, but just, I guess, to
-kind of sum up at the very least
+372
+00:23:32,854 --> 00:23:36,903
+there, but just, I guess, to kind
+of sum up at the very least the
 
-479
-00:23:34,878 --> 00:23:36,902
-the
-
-480
+373
 00:23:36,909 --> 00:23:39,933
 last part is just be very open
 ended on how you, how you'd like
 
-481
+374
 00:23:39,933 --> 00:23:42,903
 to contribute to the community.
 You know, like you don't
 
-482
+375
 00:23:42,903 --> 00:23:45,153
 necessarily have to contribute
 something that, you know, gets
 
-483
-00:23:45,153 --> 00:23:47,181
-merged into a poll request.
-Yeah, but just be very open
+376
+00:23:45,153 --> 00:23:49,209
+merged into a poll request. Yeah,
+but just be very open minded on
 
-484
-00:23:47,181 --> 00:23:49,209
-minded on
-
-485
+377
 00:23:49,209 --> 00:23:52,749
 how you'd contribute to the
 community, to, to that community
 
-486
-00:23:52,778 --> 00:23:55,088
-and focus on community. You
-know, even if it's a small
+378
+00:23:52,778 --> 00:23:57,398
+and focus on community. You know,
+even if it's a small community,
 
-487
-00:23:55,088 --> 00:23:57,398
-community,
-
-488
+379
 00:23:57,398 --> 00:24:01,598
 just focus on the relationships
 that you're building with with
 
-489
+380
 00:24:01,598 --> 00:24:04,689
 these people. It's not just
 about, you know, you write
 
-490
+381
 00:24:04,719 --> 00:24:08,108
 something and then you merge
 requests and then you, you know,
 
-491
+382
 00:24:08,229 --> 00:24:11,378
 you go off somewhere, you know,
 it's about building those
 
-492
+383
 00:24:11,378 --> 00:24:15,269
 relationships. You know, that,
 that's what I would say. Sorry
 
-493
+384
 00:24:15,269 --> 00:24:15,509
 for cutting.
 
-494
+385
 00:24:16,144 --> 00:24:18,903
 Bekah: no, no. I love that. I
 love focusing, especially for
 
-495
+386
 00:24:18,903 --> 00:24:22,084
 first time contributors on that
 interaction on the community
 
-496
+387
 00:24:22,084 --> 00:24:26,433
 building of things, because
 getting into open source can be
 
-497
+388
 00:24:26,433 --> 00:24:30,574
 really nerve-wracking or seem
 really hard to do, but you're
 
-498
+389
 00:24:30,574 --> 00:24:33,544
 right. If you find that right
 community, it makes it a lot
 
-499
+390
 00:24:33,548 --> 00:24:36,394
 easier for you and you are
 building those relationships.
 
-500
-00:24:36,723 --> 00:24:39,155
-And, you know, if we look at
-even some of the larger. Open
+391
+00:24:36,723 --> 00:24:41,588
+And, you know, if we look at even
+some of the larger. Open source
 
-501
-00:24:39,155 --> 00:24:41,587
-source
-
-502
+392
 00:24:41,588 --> 00:24:45,759
 projects. Sometimes, sometimes
 there's a need for smaller
 
-503
-00:24:45,759 --> 00:24:47,844
+393
+00:24:45,759 --> 00:24:49,929
 contributions or sometimes their
-first time contributor issues
+first time contributor issues are
 
-504
-00:24:47,844 --> 00:24:49,929
-are
-
-505
+394
 00:24:49,959 --> 00:24:52,929
 exactly like what you were
 talking about. Like, I have no
 
-506
+395
 00:24:52,933 --> 00:24:56,499
 idea what you're talking about.
 This is not for me. And then
 
-507
+396
 00:24:56,499 --> 00:24:59,753
 that's okay. You know, there are
 other. Opportunities out there.
 
-508
+397
 00:24:59,993 --> 00:25:02,693
 And this is one of my pet peeves
 where people are like, this is
 
-509
+398
 00:25:02,693 --> 00:25:05,513
 not in the spirit of hack Tober
 Fest. And they wanna say like,
 
-510
-00:25:05,753 --> 00:25:07,733
-oh, you can't make a
-contribution that looks like
+399
+00:25:05,753 --> 00:25:09,713
+oh, you can't make a contribution
+that looks like this or that just
 
-511
-00:25:07,733 --> 00:25:09,713
-this or that just
-
-512
+400
 00:25:09,713 --> 00:25:15,338
 changes one thing. Um, and I, I
 think that. Maybe that's how you
 
-513
-00:25:15,338 --> 00:25:17,453
-feel about your project, but
-that doesn't necessarily apply
+401
+00:25:15,338 --> 00:25:19,568
+feel about your project, but that
+doesn't necessarily apply to
 
-514
-00:25:17,453 --> 00:25:19,568
-to
-
-515
+402
 00:25:19,568 --> 00:25:22,568
 other people's projects. There
 are a lot of projects out there
 
-516
+403
 00:25:22,868 --> 00:25:26,709
 that are community run that are
 people who are trying to
 
-517
-00:25:26,709 --> 00:25:28,489
-collaborate and work together
-and support other people. So
+404
+00:25:26,709 --> 00:25:30,269
+collaborate and work together and
+support other people. So there
 
-518
-00:25:28,489 --> 00:25:30,269
-there
-
-519
+405
 00:25:30,429 --> 00:25:34,118
 are lots of different projects,
 there's different approaches to
 
-520
+406
 00:25:34,118 --> 00:25:38,318
 open source contribution and
 finding that community that's
 
-521
+407
 00:25:38,318 --> 00:25:41,138
 going to support you is going to
 help you to make that
 
-522
+408
 00:25:41,548 --> 00:25:41,949
 contribution.
 
-523
-00:25:43,378 --> 00:25:44,728
+409
+00:25:43,378 --> 00:25:46,078
 Chad: Absolutely. Absolutely
-agree. And I'd like to touch on
+agree. And I'd like to touch on a
 
-524
-00:25:44,728 --> 00:25:46,078
-a
+410
+00:25:46,078 --> 00:25:50,068
+little bit about, you know, there
+are a lot of kind of community
 
-525
-00:25:46,078 --> 00:25:48,073
-little bit about, you know,
-there are a lot of kind of
-
-526
-00:25:48,073 --> 00:25:50,068
-community
-
-527
+411
 00:25:50,074 --> 00:25:56,209
 run projects. Um, I've been
 there. So this is kind of funny.
 
-528
-00:25:56,269 --> 00:25:58,428
+412
+00:25:56,269 --> 00:26:00,588
 Uh, I went through this, looking
-up a lot of interview prep
+up a lot of interview prep stuff.
 
-529
-00:25:58,428 --> 00:26:00,587
-stuff.
+413
+00:26:00,594 --> 00:26:04,398
+Cause to be quite honest, I did a
+lot of that within the last, not
 
-530
-00:26:00,594 --> 00:26:02,496
-Cause to be quite honest, I did
-a lot of that within the last,
+414
+00:26:04,403 --> 00:26:08,148
+within the last couple of months,
+but, um, years prior I was doing
 
-531
-00:26:02,496 --> 00:26:04,398
-not
+415
+00:26:08,148 --> 00:26:14,374
+a lot of interview prep and there
+are so many kind of. You know,
 
-532
-00:26:04,403 --> 00:26:06,275
-within the last couple of
-months, but, um, years prior I
-
-533
-00:26:06,275 --> 00:26:08,147
-was doing
-
-534
-00:26:08,148 --> 00:26:11,261
-a lot of interview prep and
-there are so many kind of. You
-
-535
-00:26:11,261 --> 00:26:14,374
-know,
-
-536
-00:26:14,374 --> 00:26:16,354
+416
+00:26:14,374 --> 00:26:18,334
 thing, I don't know if they're
-necessarily open source
+necessarily open source projects,
 
-537
-00:26:16,354 --> 00:26:18,334
-projects,
-
-538
+417
 00:26:18,334 --> 00:26:21,723
 but they're projects that, you
 know, have a that's, you know,
 
-539
-00:26:21,723 --> 00:26:23,808
-open to the world. And, you
-know, like as far as I know,
+418
+00:26:21,723 --> 00:26:25,894
+open to the world. And, you know,
+like as far as I know, it's not
 
-540
-00:26:23,808 --> 00:26:25,893
-it's not
-
-541
+419
 00:26:25,894 --> 00:26:30,003
 the paid product, you know, I
 thinks, yeah. I don't think it's
 
-542
+420
 00:26:30,009 --> 00:26:33,334
 a paid product. Like for
 instance, there's, there's the
 
-543
+421
 00:26:33,334 --> 00:26:36,483
 algorithms, which is something
 that I just recently found out
 
-544
-00:26:36,753 --> 00:26:39,160
-about, which. Literally a
-project of a bunch of kind of
+422
+00:26:36,753 --> 00:26:41,568
+about, which. Literally a project
+of a bunch of kind of data
 
-545
-00:26:39,160 --> 00:26:41,567
-data
-
-546
+423
 00:26:41,568 --> 00:26:46,788
 structures and algorithms that
 you would see in interviews. Um,
 
-547
+424
 00:26:47,388 --> 00:26:50,689
 and it's like a huge kind of log
 of them in different languages.
 
-548
+425
 00:26:51,108 --> 00:26:54,169
 You know what I mean? And as far
 as I know, that's not a paid
 
-549
-00:26:54,169 --> 00:26:55,638
-product, it's just out there,
-you know, and like I was
+426
+00:26:54,169 --> 00:26:57,108
+product, it's just out there, you
+know, and like I was bookmarking
 
-550
-00:26:55,638 --> 00:26:57,107
-bookmarking
-
-551
+427
 00:26:57,108 --> 00:27:00,019
 a bunch of these things, but
 there's that, there's that like,
 
-552
+428
 00:27:00,019 --> 00:27:04,489
 there's the, the, the, what you
 call it, the tech interview
 
-553
-00:27:04,489 --> 00:27:07,114
-handbook, which kind of gives
-you like a real. You know, it's
+429
+00:27:04,489 --> 00:27:09,739
+handbook, which kind of gives you
+like a real. You know, it's a
 
-554
-00:27:07,114 --> 00:27:09,739
-a
-
-555
+430
 00:27:09,739 --> 00:27:13,429
 great breakdown of how
 interviewing is how you study,
 
-556
+431
 00:27:13,608 --> 00:27:16,939
 you know, what you, what people
 are, are looking funny enough.
 
-557
+432
 00:27:16,969 --> 00:27:21,499
-The thing that I, that draw me
-to that was, you know, what, you
+The thing that I, that draw me to
+that was, you know, what, you
 
-558
+433
 00:27:21,499 --> 00:27:25,159
 know, there, it described like
 how people are, are kind of
 
-559
+434
 00:27:25,163 --> 00:27:28,788
 looking, looking at you at like
 big tech interview group. The
 
-560
+435
 00:27:28,788 --> 00:27:31,368
 point I'm making is all of those
 things. When you look at them on
 
-561
+436
 00:27:31,368 --> 00:27:35,778
 GitHub, they're really just like
 marked on. I think they are, but
 
-562
+437
 00:27:36,019 --> 00:27:38,449
 they're, they're not like
 anything crazy, you know, you're
 
-563
+438
 00:27:38,449 --> 00:27:42,979
 not like using Redux to, to
 display all of this information,
 
-564
+439
 00:27:42,979 --> 00:27:47,884
 you know what I mean? But those
 projects like that. Hundreds of
 
-565
+440
 00:27:47,884 --> 00:27:51,903
 contributors and you know, like
 you can contribute to that
 
-566
+441
 00:27:51,903 --> 00:27:55,233
 project. Say, say for instance,
 you've done a massive amount of
 
-567
+442
 00:27:55,233 --> 00:27:58,384
 interviewing to, to kind of stay
 in context, the ma a massive
 
-568
+443
 00:27:58,384 --> 00:28:02,223
 amount of interviewing and you
 feel like there's an issue here.
 
-569
+444
 00:28:03,233 --> 00:28:06,084
 Issue with some of the
 information here you could most
 
-570
+445
 00:28:06,084 --> 00:28:09,953
 definitely reach out or, or, or
 apply a change. And I mean, even
 
-571
+446
 00:28:09,953 --> 00:28:11,993
 then it's like, all of this is
 kind of talking about
 
-572
-00:28:11,993 --> 00:28:13,808
-information, right? So, you
-know, say there's like typos or
+447
+00:28:11,993 --> 00:28:15,624
+information, right? So, you know,
+say there's like typos or it's
 
-573
-00:28:13,808 --> 00:28:15,623
-it's
-
-574
+448
 00:28:15,624 --> 00:28:19,163
 just not as clear, you can
 definitely just, you know, clear
 
-575
+449
 00:28:19,163 --> 00:28:24,604
 up that information or reach out
 to whoever and, and. That isn't
 
-576
+450
 00:28:24,604 --> 00:28:28,834
 necessarily code in the, in, in
 the sense that most people think
 
-577
+451
 00:28:28,834 --> 00:28:31,804
 of open source projects. When
 people think of open or
 
-578
-00:28:31,804 --> 00:28:33,663
+452
+00:28:31,804 --> 00:28:35,523
 contributing to open source
-projects, they think about
+projects, they think about adding
 
-579
-00:28:33,663 --> 00:28:35,522
-adding
-
-580
+453
 00:28:35,523 --> 00:28:42,213
 a feature or refactoring very
 much like code, you know, very
 
-581
+454
 00:28:42,213 --> 00:28:47,493
 much. Like that very particular
 use case when there's, like I
 
-582
-00:28:47,499 --> 00:28:49,806
+455
+00:28:47,499 --> 00:28:52,114
 said, there's a whole breadth of
-things that you can, you can,
+things that you can, you can, you
 
-583
-00:28:49,806 --> 00:28:52,113
-you
-
-584
+456
 00:28:52,118 --> 00:28:56,284
 can do. And I mean, we're, we're
 even, even this conversation,
 
-585
+457
 00:28:56,284 --> 00:28:59,919
 we're kind of talking about the
 at least. The way I'm kind of
 
-586
+458
 00:28:59,923 --> 00:29:03,038
 thinking about it is like, if
 you're doing open source, you're
 
-587
+459
 00:29:03,098 --> 00:29:06,308
 literally on GitHub, you
 literally go to the project and
 
-588
+460
 00:29:06,308 --> 00:29:09,489
 then it's just like, however,
 right. But, you know, if you're,
 
-589
+461
 00:29:09,759 --> 00:29:13,209
 if the, the open source project
 has a community, you know, you
 
-590
+462
 00:29:13,209 --> 00:29:17,378
 may not necessarily even be on
 GitHub. You know, like you could
 
-591
+463
 00:29:17,384 --> 00:29:20,528
 be, you could be a part of their
 discord and you could be like
 
-592
+464
 00:29:20,528 --> 00:29:23,558
 moderating their discord and
 something like that, you know,
 
-593
+465
 00:29:23,648 --> 00:29:26,648
 like that's still contr, um,
 contributing, you know what I
 
-594
+466
 00:29:26,648 --> 00:29:32,239
 mean? So, I just, I guess I just
 wanted to, to, to, to, again,
 
-595
+467
 00:29:32,239 --> 00:29:36,558
-reemphasize that there's a lot
-of things that you can do to
+reemphasize that there's a lot of
+things that you can do to
 
-596
+468
 00:29:36,564 --> 00:29:40,909
 contribute to community. You
 know, like it's, again, it's not
 
-597
+469
 00:29:40,909 --> 00:29:44,739
 just writing. I want to say
 JavaScripts of that. it's not
 
-598
+470
 00:29:44,929 --> 00:29:47,778
-just writing JavaScript, you
-know what I mean? It's just not
+just writing JavaScript, you know
+what I mean? It's just not
 
-599
+471
 00:29:47,808 --> 00:29:51,949
 writing code. Like there's a lot
 of ways you can, you can
 
-600
-00:29:51,949 --> 00:29:54,266
-contribute and. Keeping that
-open mind of the, the, the, you
+472
+00:29:51,949 --> 00:29:56,584
+contribute and. Keeping that open
+mind of the, the, the, you know,
 
-601
-00:29:54,266 --> 00:29:56,583
-know,
-
-602
+473
 00:29:56,733 --> 00:30:01,094
 the, the needs of the, the, the
 maintainer. That's pretty much
 
-603
+474
 00:30:01,094 --> 00:30:01,294
 it.
 
-604
-00:30:01,443 --> 00:30:03,303
-Dan: Yeah, I love that. You
-know, and, and Virtual Coffee
+475
+00:30:01,443 --> 00:30:05,163
+Dan: Yeah, I love that. You know,
+and, and Virtual Coffee for
 
-605
-00:30:03,303 --> 00:30:05,163
-for
-
-606
+476
 00:30:05,163 --> 00:30:08,344
 example, right. We have lots of
 volunteers that are, that help
 
-607
-00:30:08,344 --> 00:30:10,038
+477
+00:30:08,344 --> 00:30:11,733
 our community. Um, but also like
-our, our site is open source
+our, our site is open source and.
 
-608
-00:30:10,038 --> 00:30:11,732
-and.
-
-609
-00:30:12,483 --> 00:30:13,683
+478
+00:30:12,483 --> 00:30:14,884
 I don't know, like 80% of the
-files are just content, you
+files are just content, you know,
 
-610
-00:30:13,683 --> 00:30:14,883
-know,
-
-611
+479
 00:30:14,884 --> 00:30:19,114
 they're just, uh, and it, I
 suppose it's code technically or
 
-612
+480
 00:30:19,114 --> 00:30:21,663
 something, you know, but it's
 like the, the valuable parts of
 
-613
-00:30:21,663 --> 00:30:23,673
-it are the, are the words,
-right. Other content, you know?
+481
+00:30:21,663 --> 00:30:25,683
+it are the, are the words, right.
+Other content, you know? And, um,
 
-614
-00:30:23,673 --> 00:30:25,683
-And, um,
-
-615
+482
 00:30:26,584 --> 00:30:28,953
 I, I mean, I love that advice. I
 think it's great and very
 
-616
+483
 00:30:28,953 --> 00:30:30,933
 important to keep your mind. And
 also it's like sometimes,
 
-617
-00:30:30,939 --> 00:30:32,451
-especially when you get into
-docs and stuff like that is
+484
+00:30:30,939 --> 00:30:33,963
+especially when you get into docs
+and stuff like that is sometimes
 
-618
-00:30:32,451 --> 00:30:33,963
-sometimes
-
-619
+485
 00:30:33,963 --> 00:30:38,074
 really hard for maintainers to
 keep up to date or to make, you
 
-620
-00:30:38,074 --> 00:30:39,949
+486
+00:30:38,074 --> 00:30:41,824
 know, Uh, like to catch all the
-edge cases, uh, things like
+edge cases, uh, things like that.
 
-621
-00:30:39,949 --> 00:30:41,824
-that.
-
-622
+487
 00:30:41,854 --> 00:30:45,094
 Um, IU from Virtual Coffee is
 really good at this sheet. You
 
-623
+488
 00:30:45,094 --> 00:30:48,243
 know, how many times have you
 done, like some install followed
 
-624
-00:30:48,249 --> 00:30:49,566
+489
+00:30:48,249 --> 00:30:50,884
 the, read me, right. Done some
-install thing and it didn't
+install thing and it didn't work.
 
-625
-00:30:49,566 --> 00:30:50,883
-work.
+490
+00:30:50,884 --> 00:30:53,733
+And you had to like Google around
+and try a couple different things
 
-626
-00:30:50,884 --> 00:30:52,308
-And you had to like Google
-around and try a couple
-
-627
-00:30:52,308 --> 00:30:53,732
-different things
-
-628
+491
 00:30:53,733 --> 00:30:56,554
 to get something to work. Right.
 And then what I do most of the
 
-629
+492
 00:30:56,554 --> 00:30:58,983
 time is just, okay, cool. I got
 working. I'll just move on. You
 
-630
-00:30:58,983 --> 00:31:00,453
+493
+00:30:58,983 --> 00:31:01,923
 know, but how Val, how much,
-like, it would be a very easy
+like, it would be a very easy and
 
-631
-00:31:00,453 --> 00:31:01,923
-and
-
-632
-00:31:01,923 --> 00:31:04,458
+494
+00:31:01,923 --> 00:31:06,993
 valuable contribution to that,
-that project to just go back.
+that project to just go back. Add
 
-633
-00:31:04,458 --> 00:31:06,993
-Add
-
-634
-00:31:07,054 --> 00:31:08,314
+495
+00:31:07,054 --> 00:31:09,574
 like a, a poll request that just
-adds a little note in the read
+adds a little note in the read me
 
-635
-00:31:08,314 --> 00:31:09,574
-me
-
-636
+496
 00:31:09,574 --> 00:31:12,453
 that says, Hey, if you run into
 this error, try this fix, you
 
-637
+497
 00:31:12,453 --> 00:31:16,413
 know what I mean? Um, and, uh, I
 think that's the kind of thing
 
-638
+498
 00:31:16,413 --> 00:31:19,983
 that a lot of people maybe don't
 consider right away. Um, but it,
 
-639
+499
 00:31:20,733 --> 00:31:20,794
 I
 
-640
-00:31:20,808 --> 00:31:21,933
-Bekah: Kinda like that error
-that I have running the Virtual
+500
+00:31:20,808 --> 00:31:23,058
+Bekah: Kinda like that error that
+I have running the Virtual Coffee
 
-641
-00:31:21,933 --> 00:31:23,058
-Coffee
-
-642
+501
 00:31:23,058 --> 00:31:25,098
 site that I still haven't. done
 anything
 
-643
+502
 00:31:25,413 --> 00:31:27,064
 Dan: right. Well, that's a whole
 different yeah.
 
-644
+503
 00:31:27,378 --> 00:31:28,939
 Bekah: no, that's a Netlify CLI
 
-645
-00:31:29,054 --> 00:31:30,549
-Dan: Yeah. Yeah. But, but, but
-it is the same thing. I mean,
+504
+00:31:29,054 --> 00:31:32,044
+Dan: Yeah. Yeah. But, but, but it
+is the same thing. I mean, like
 
-646
-00:31:30,549 --> 00:31:32,044
-like
-
-647
+505
 00:31:32,044 --> 00:31:35,433
 it's, it's the same thing. Like,
 okay. Maybe that is something we
 
-648
+506
 00:31:35,433 --> 00:31:38,013
 need to add. Cuz other people,
 most people don't have the LF I
 
-649
+507
 00:31:38,013 --> 00:31:42,423
-CLI installed, like to start
-and, but you already did. And so
+CLI installed, like to start and,
+but you already did. And so
 
-650
+508
 00:31:42,423 --> 00:31:46,354
 there's something going on and
 maybe there's some note we need
 
-651
-00:31:46,354 --> 00:31:47,959
+509
+00:31:46,354 --> 00:31:49,564
 to add or some parameter to add
-to the install steps, you know,
+to the install steps, you know, I
 
-652
-00:31:47,959 --> 00:31:49,564
-I
-
-653
+510
 00:31:49,564 --> 00:31:51,723
 don't know. I don't know what it
 is, but like even just bringing
 
-654
+511
 00:31:51,723 --> 00:31:54,273
 it up in issue, like even
 honestly writing an issue is
 
-655
+512
 00:31:54,273 --> 00:31:58,084
 contributing to an open source.
 Like not fixing it, not, not
 
-656
-00:31:58,084 --> 00:32:00,506
+513
+00:31:58,084 --> 00:32:02,929
 knowing the solution, but just
-like logging a problem. It can
+like logging a problem. It can be
 
-657
-00:32:00,506 --> 00:32:02,928
-be
-
-658
+514
 00:32:02,989 --> 00:32:06,108
 a very valuable contribution to
 an open source project because,
 
-659
+515
 00:32:06,558 --> 00:32:09,138
 uh, most likely the maintainer
 doesn't know about it. You know,
 
-660
+516
 00:32:09,199 --> 00:32:13,759
 our maintainers don't know about
 it, like the, uh, or they do and
 
-661
+517
 00:32:13,818 --> 00:32:20,209
 they forgot or you know,
 anything. Uh, and I, I, I, uh,
 
-662
+518
 00:32:20,269 --> 00:32:22,548
 yeah, I don't know. I, I think
 everything you said is, is right
 
-663
+519
 00:32:22,548 --> 00:32:26,689
 and I, I think it's great. Um, I
 love that also. I just talk a
 
-664
-00:32:26,689 --> 00:32:28,383
-little bit more. I love that
-idea about, um, helping,
+520
+00:32:26,689 --> 00:32:30,078
+little bit more. I love that idea
+about, um, helping, helping, um,
 
-665
-00:32:28,383 --> 00:32:30,077
-helping, um,
-
-666
+521
 00:32:30,439 --> 00:32:33,618
 Maintainers in areas outside of
 CA hub even, and how valuable
 
-667
-00:32:33,618 --> 00:32:35,508
-that can be. Um, I think, I
-think that's another thing that
+522
+00:32:33,618 --> 00:32:37,398
+that can be. Um, I think, I think
+that's another thing that people
 
-668
-00:32:35,508 --> 00:32:37,398
-people
-
-669
+523
 00:32:37,398 --> 00:32:40,128
 don't maybe always think about,
 but asking maintainers, if they
 
-670
+524
 00:32:40,128 --> 00:32:44,388
 need help outside of writing
 code, uh, it can be nice and it
 
-671
+525
 00:32:44,388 --> 00:32:47,179
 can be nice, nice to like, have
 somebody to reach out, reach out
 
-672
+526
 00:32:47,183 --> 00:32:50,269
 to you too, you know, sometimes
 say, Hey, do you need any help
 
-673
+527
 00:32:50,269 --> 00:32:52,548
 with this? Even if, uh, even if
 they say no, it's, it's like a
 
-674
+528
 00:32:52,548 --> 00:32:54,798
-nice, I don't know, nice
-gesture.
+nice, I don't know, nice gesture.
 
-675
+529
 00:32:55,233 --> 00:32:55,894
 Bekah: Yeah, I,
 
-676
+530
 00:32:56,443 --> 00:32:56,923
 Chad: Oh, go ahead. Go
 
-677
-00:32:57,034 --> 00:32:58,608
+531
+00:32:57,034 --> 00:33:00,183
 Bekah: sorry. I, I gave a talk
-on, um, I think it was called,
+on, um, I think it was called, do
 
-678
-00:32:58,608 --> 00:33:00,182
-do
-
-679
+532
 00:33:00,183 --> 00:33:03,604
 you need community? And it was
 from the perspective of, uh, if
 
-680
+533
 00:33:03,604 --> 00:33:07,354
 you are maybe getting into code
 or if you are in tech and you
 
-681
+534
 00:33:07,354 --> 00:33:10,864
 don't have a community. What
 would be the reasons and the
 
-682
+535
 00:33:10,864 --> 00:33:14,223
 benefits. And part of that, I
 talked about getting involved in
 
-683
-00:33:14,223 --> 00:33:15,963
+536
+00:33:14,223 --> 00:33:17,703
 organizations and sometimes
-people say like, Hey, do you
+people say like, Hey, do you need
 
-684
-00:33:15,963 --> 00:33:17,703
-need
-
-685
+537
 00:33:17,709 --> 00:33:20,374
 any help? And there's so much
 overwhelmed sometimes as a
 
-686
+538
 00:33:20,378 --> 00:33:22,683
 maintainer that it's like, yeah,
 but I don't even know where to
 
-687
+539
 00:33:22,683 --> 00:33:26,673
 start. Right. And so being more
 specific like, Hey, do you need
 
-688
+540
 00:33:26,679 --> 00:33:29,253
 any help? I'm really good at
 building chat bots. And I think
 
-689
+541
 00:33:29,253 --> 00:33:32,104
 this could be really beneficial,
 like giving that specific thing
 
-690
+542
 00:33:32,104 --> 00:33:37,298
 or, Hey, Like to post on social
 media. Can I write some tweets
 
-691
-00:33:37,298 --> 00:33:39,293
-for you? And you know, you're
-not getting a green box for
+543
+00:33:37,298 --> 00:33:41,288
+for you? And you know, you're not
+getting a green box for that. And
 
-692
-00:33:39,293 --> 00:33:41,288
-that. And
-
-693
+544
 00:33:41,318 --> 00:33:45,098
-I know that it can be really
-hard to feel like, oh, there, I
+I know that it can be really hard
+to feel like, oh, there, I
 
-694
+545
 00:33:45,098 --> 00:33:47,739
 haven't accomplished anything,
 but you've supported a community
 
-695
+546
 00:33:47,739 --> 00:33:51,608
 of people that, that is
 supporting other people. So, and
 
-696
-00:33:51,614 --> 00:33:53,306
-I, I think the. One of the
-things I like too about Virtual
+547
+00:33:51,614 --> 00:33:54,999
+I, I think the. One of the things
+I like too about Virtual Coffee,
 
-697
-00:33:53,306 --> 00:33:54,998
-Coffee,
-
-698
+548
 00:33:54,999 --> 00:33:58,838
 our members page just keeps
 evolving into something better
 
-699
-00:33:58,838 --> 00:34:00,668
+549
+00:33:58,838 --> 00:34:02,499
 and better because we have our
-members who have to create a
+members who have to create a pool
 
-700
-00:34:00,668 --> 00:34:02,498
-pool
-
-701
+550
 00:34:02,499 --> 00:34:07,209
 request to get their profile on
 our me members page. But then
 
-702
+551
 00:34:07,568 --> 00:34:12,759
 last year, the issue was you can
 add your social links, um, and
 
-703
+552
 00:34:12,759 --> 00:34:16,478
 we've updated it with all of our
 active volunteers. So, you know,
 
-704
+553
 00:34:16,483 --> 00:34:20,943
 like finding ways to also.
 Support the people who are
 
-705
+554
 00:34:20,943 --> 00:34:24,094
 supporting your project in other
 ways is incredibly important as
 
-706
+555
 00:34:24,094 --> 00:34:24,483
 well.
 
-707
+556
 00:34:25,768 --> 00:34:29,938
 Chad: I agree. I agree. And, uh,
 I also want to kind of reiterate
 
-708
+557
 00:34:29,938 --> 00:34:34,588
 that, like, you know, you, you,
 for, for the people who are
 
-709
-00:34:34,588 --> 00:34:36,508
-actually contributing code,
-they, a lot of those people do
+558
+00:34:34,588 --> 00:34:38,429
+actually contributing code, they,
+a lot of those people do that to
 
-710
-00:34:36,508 --> 00:34:38,428
-that to
-
-711
+559
 00:34:38,458 --> 00:34:41,909
 improve their skills, right. To
 come across problems that they
 
-712
+560
 00:34:41,909 --> 00:34:44,608
-generally wouldn't come across
-or be more difficult for them to
+generally wouldn't come across or
+be more difficult for them to
 
-713
-00:34:44,608 --> 00:34:48,240
-come across. On their own.
-Right. But I think the most
+561
+00:34:44,608 --> 00:34:51,873
+come across. On their own. Right.
+But I think the most important
 
-714
-00:34:48,240 --> 00:34:51,872
-important
-
-715
+562
 00:34:51,873 --> 00:34:57,934
 part of open source as a
 contributor is to, is that
 
-716
-00:34:57,934 --> 00:34:59,839
-interaction, the interaction
-with people, you know what I
+563
+00:34:57,934 --> 00:35:01,744
+interaction, the interaction with
+people, you know what I mean? And
 
-717
-00:34:59,839 --> 00:35:01,744
-mean? And
-
-718
+564
 00:35:01,748 --> 00:35:05,434
 so definitely being, having
 something where it's like, okay,
 
-719
-00:35:05,434 --> 00:35:06,903
-you reach out to the
-maintainers. It's like, Hey, I
+565
+00:35:05,434 --> 00:35:08,373
+you reach out to the maintainers.
+It's like, Hey, I can do this.
 
-720
-00:35:06,903 --> 00:35:08,372
-can do this.
-
-721
+566
 00:35:08,373 --> 00:35:11,344
 You know, like you were saying,
 you know, I can, I can do tweets
 
-722
+567
 00:35:11,344 --> 00:35:16,099
 and so on and so forth. That
 interaction is so valuable. And
 
-723
-00:35:16,099 --> 00:35:18,528
+568
+00:35:16,099 --> 00:35:20,958
 the con that consistency of
-interaction is so valuable.
+interaction is so valuable. Like,
 
-724
-00:35:18,528 --> 00:35:20,957
-Like,
-
-725
+569
 00:35:21,168 --> 00:35:23,958
 you'd be surprised you'd be,
 you'd be maintaining a project
 
-726
-00:35:23,958 --> 00:35:25,248
+570
+00:35:23,958 --> 00:35:26,539
 and there's just somebody who,
-you know, you, you know them,
+you know, you, you know them, you
 
-727
-00:35:25,248 --> 00:35:26,538
-you
+571
+00:35:26,539 --> 00:35:30,893
+know, them casually and then they
+turn out to be well, 50% of the
 
-728
-00:35:26,539 --> 00:35:28,716
-know, them casually and then
-they turn out to be well, 50% of
-
-729
-00:35:28,716 --> 00:35:30,893
-the
-
-730
+572
 00:35:30,893 --> 00:35:35,333
 time they turn on to be, you
 know, your, your next employer,
 
-731
+573
 00:35:35,333 --> 00:35:38,123
 because they're now op offering
 you an opportunity. Uh, I was
 
-732
-00:35:38,123 --> 00:35:39,653
+574
+00:35:38,123 --> 00:35:41,184
 watching a video recently, you
-know, I'm just going to be, I
+know, I'm just going to be, I was
 
-733
-00:35:39,653 --> 00:35:41,183
-was
-
-734
+575
 00:35:41,184 --> 00:35:46,284
 watching a video from recently
 where I don't remember who he
 
-735
-00:35:46,284 --> 00:35:49,103
+576
+00:35:46,284 --> 00:35:51,923
 was, who Brian was talking to,
-but he was talking about, um,
+but he was talking about, um, how
 
-736
-00:35:49,103 --> 00:35:51,922
-how
+577
+00:35:51,923 --> 00:35:56,603
+we had an open source project and
+like, it became more and more of.
 
-737
-00:35:51,923 --> 00:35:54,263
-we had an open source project
-and like, it became more and
+578
+00:35:57,844 --> 00:36:01,414
+Overall. I don't remember exactly
+the, the, the circumstances, but
 
-738
-00:35:54,263 --> 00:35:56,603
-more of.
-
-739
-00:35:57,844 --> 00:35:59,629
-Overall. I don't remember
-exactly the, the, the
-
-740
-00:35:59,629 --> 00:36:01,414
-circumstances, but
-
-741
-00:36:01,594 --> 00:36:03,633
+579
+00:36:01,594 --> 00:36:05,673
 he, and he started hiring a lot
-of people because he had
+of people because he had somebody
 
-742
-00:36:03,633 --> 00:36:05,672
-somebody
-
-743
+580
 00:36:05,679 --> 00:36:08,224
 who was, he had started hiring.
 Not a lot of people. He started
 
-744
+581
 00:36:08,224 --> 00:36:12,603
 hiring from his contributors
 because his contributors were
 
-745
-00:36:12,693 --> 00:36:14,298
+582
+00:36:12,693 --> 00:36:15,903
 very consistent. They were
-excellent, you know, in what
+excellent, you know, in what the,
 
-746
-00:36:14,298 --> 00:36:15,903
-the,
-
-747
+583
 00:36:15,903 --> 00:36:18,903
 in their contributions. And he
 just, he was just like, Hey, you
 
-748
+584
 00:36:18,903 --> 00:36:21,153
 want to, you want a full time
 job? And they were like, yeah,
 
-749
-00:36:21,153 --> 00:36:23,876
+585
+00:36:21,153 --> 00:36:26,599
 sure. And that's how they found
-their next opportu. You know,
+their next opportu. You know, and
 
-750
-00:36:23,876 --> 00:36:26,599
-and
-
-751
+586
 00:36:26,599 --> 00:36:32,119
 so. It's really about those
 relationships, you know, as a
 
-752
-00:36:32,119 --> 00:36:33,693
+587
+00:36:32,119 --> 00:36:35,268
 contributor, as a, as a
-maintainer, you know, like
+maintainer, you know, like that's
 
-753
-00:36:33,693 --> 00:36:35,267
-that's
-
-754
+588
 00:36:35,268 --> 00:36:38,329
 a, I don't want to talk about
 that too much cause that's just
 
-755
-00:36:38,329 --> 00:36:39,994
+589
+00:36:38,329 --> 00:36:41,659
 not, I don't have the experience
-there, but as a contributor,
+there, but as a contributor, it's
 
-756
-00:36:39,994 --> 00:36:41,659
-it's
-
-757
+590
 00:36:41,659 --> 00:36:45,259
 about building those
 relationships and like it's just
 
-758
-00:36:45,259 --> 00:36:47,534
+591
+00:36:45,259 --> 00:36:49,809
 a different avenue. Of, of
-building those relationships
+building those relationships with
 
-759
-00:36:47,534 --> 00:36:49,809
-with
-
-760
+592
 00:36:49,809 --> 00:36:53,228
 people and then, you know,
 showing that, you know, like, I
 
-761
+593
 00:36:53,228 --> 00:36:56,588
 guess going back to, to coding,
 showing that, you know, you can
 
-762
+594
 00:36:56,588 --> 00:37:00,039
 code, that's like one of the big
 issues, the big problems with,
 
-763
-00:37:00,039 --> 00:37:01,958
+595
+00:37:00,039 --> 00:37:03,878
 with junior developers trying to
-get positions is that
+get positions is that effectively
 
-764
-00:37:01,958 --> 00:37:03,877
-effectively
-
-765
+596
 00:37:03,878 --> 00:37:06,849
 they have to prove that they,
 they know how to code and they
 
-766
-00:37:06,849 --> 00:37:08,423
-can just be like, Hey, look at
-my contribution to this open
+597
+00:37:06,849 --> 00:37:09,998
+can just be like, Hey, look at my
+contribution to this open source
 
-767
-00:37:08,423 --> 00:37:09,997
-source
-
-768
+598
 00:37:09,998 --> 00:37:13,119
 project that got, you know, that
 got merged and is being used in
 
-769
+599
 00:37:13,123 --> 00:37:16,864
 the project right now and has my
 name. You know, I can code, you
 
-770
+600
 00:37:16,864 --> 00:37:23,103
 know what I mean? Like, so like,
 it's just, yeah, it's just, it's
 
-771
+601
 00:37:23,103 --> 00:37:25,143
 about building those
 relationships. Those
 
-772
-00:37:25,143 --> 00:37:27,888
+602
+00:37:25,143 --> 00:37:30,634
 relationships will, will
-definitely take you far. At
+definitely take you far. At least
 
-773
-00:37:27,888 --> 00:37:30,633
-least
+603
+00:37:30,634 --> 00:37:33,753
+in my, in my opinion, that's like
+one of the biggest things for,
 
-774
-00:37:30,634 --> 00:37:32,193
-in my, in my opinion, that's
-like one of the biggest things
-
-775
-00:37:32,193 --> 00:37:33,752
-for,
-
-776
+604
 00:37:33,753 --> 00:37:33,903
 for.
 
-777
-00:37:34,324 --> 00:37:35,703
-Dan: And not just proving you
-can code, but proving that you
+605
+00:37:34,324 --> 00:37:37,083
+Dan: And not just proving you can
+code, but proving that you have
 
-778
-00:37:35,703 --> 00:37:37,082
-have
+606
+00:37:37,143 --> 00:37:40,443
+drive and can operate on your own
+and things like that as well. Um,
 
-779
-00:37:37,143 --> 00:37:38,793
-drive and can operate on your
-own and things like that as
-
-780
-00:37:38,793 --> 00:37:40,443
-well. Um,
-
-781
+607
 00:37:41,313 --> 00:37:45,273
 and you're interested in it and,
 you know, I think, I think that,
 
-782
-00:37:45,483 --> 00:37:48,611
+608
+00:37:45,483 --> 00:37:51,739
 uh, sort of. I don't know, a
-full, you know, I don't wanna
+full, you know, I don't wanna say
 
-783
-00:37:48,611 --> 00:37:51,739
-say
-
-784
+609
 00:37:51,739 --> 00:37:54,949
 like, all the green squares are
 green, but like, you know, you
 
-785
+610
 00:37:54,954 --> 00:37:57,228
 know, a full like GitHub profile
 where you have a lot of
 
-786
-00:37:57,228 --> 00:37:59,268
-contributions to some things,
-um, can go a really long way,
+611
+00:37:57,228 --> 00:38:01,309
+contributions to some things, um,
+can go a really long way, uh, to
 
-787
-00:37:59,268 --> 00:38:01,308
-uh, to
-
-788
+612
 00:38:01,309 --> 00:38:05,088
 showing that, you know, even if
 you're not like, right, like you
 
-789
+613
 00:38:05,088 --> 00:38:08,809
 said, like rewriting the react
 code base, you know, like it
 
-790
-00:38:08,809 --> 00:38:09,964
+614
+00:38:08,809 --> 00:38:11,119
 doesn't have to be like that,
-obviously, especially when
+obviously, especially when you're
 
-791
-00:38:09,964 --> 00:38:11,119
-you're
-
-792
+615
 00:38:11,119 --> 00:38:14,778
 starting out. Um, but just like
 connecting with people and, and.
 
-793
-00:38:15,768 --> 00:38:17,388
-Contributing in. I don't know.
-I, I, yeah, I agree. It's can be
+616
+00:38:15,768 --> 00:38:19,009
+Contributing in. I don't know. I,
+I, yeah, I agree. It's can be a
 
-794
-00:38:17,388 --> 00:38:19,008
-a
-
-795
+617
 00:38:19,009 --> 00:38:21,259
 very valuable tool. Um, open
 source contribu.
 
-796
-00:38:21,753 --> 00:38:24,258
+618
+00:38:21,753 --> 00:38:26,764
 Bekah: I know a woman who really
-wanted to work with, um, a
+wanted to work with, um, a pretty
 
-797
-00:38:24,258 --> 00:38:26,763
-pretty
-
-798
+619
 00:38:26,764 --> 00:38:31,293
 notable tech organization, but
 their interview process was
 
-799
-00:38:31,293 --> 00:38:33,588
-notoriously hard and she knew
-she would not be able to pass
+620
+00:38:31,293 --> 00:38:35,884
+notoriously hard and she knew she
+would not be able to pass the
 
-800
-00:38:33,588 --> 00:38:35,883
-the
+621
+00:38:35,884 --> 00:38:40,853
+interview process. And, you know,
+didn't have time to devote hours
 
-801
-00:38:35,884 --> 00:38:38,368
-interview process. And, you
-know, didn't have time to devote
-
-802
-00:38:38,368 --> 00:38:40,852
-hours
-
-803
+622
 00:38:41,103 --> 00:38:44,733
 and months of her life to
 studying for. And so she started
 
-804
-00:38:44,733 --> 00:38:46,923
-contributing to their open
-source project and sure enough,
+623
+00:38:44,733 --> 00:38:49,114
+contributing to their open source
+project and sure enough, she got
 
-805
-00:38:46,923 --> 00:38:49,113
-she got
-
-806
+624
 00:38:49,114 --> 00:38:52,143
 hired without having to go
 through that interview process
 
-807
-00:38:52,143 --> 00:38:53,568
-because she was familiar with
-the code base. They knew that
+625
+00:38:52,143 --> 00:38:54,994
+because she was familiar with the
+code base. They knew that her
 
-808
-00:38:53,568 --> 00:38:54,993
-her
+626
+00:38:54,994 --> 00:38:59,074
+work was good and that she could,
+could be a part of the team
 
-809
-00:38:54,994 --> 00:38:57,034
-work was good and that she
-could, could be a part of the
-
-810
-00:38:57,034 --> 00:38:59,074
-team
-
-811
+627
 00:38:59,074 --> 00:39:01,623
 because of that community
 collaboration that she already
 
-812
-00:39:01,623 --> 00:39:03,408
-had. So, I mean, not,
-everybody's gonna let you, uh,
+628
+00:39:01,623 --> 00:39:05,193
+had. So, I mean, not, everybody's
+gonna let you, uh, navigate
 
-813
-00:39:03,408 --> 00:39:05,193
-navigate
-
-814
+629
 00:39:05,193 --> 00:39:08,344
-around the interview process,
-but it was really, really great
+around the interview process, but
+it was really, really great
 
-815
+630
 00:39:08,344 --> 00:39:12,494
 strategy for. You know, not only
 learning more yourself, but like
 
-816
+631
 00:39:12,494 --> 00:39:16,333
 you're saying, finding new
 avenues to job opportunities.
 
-817
+632
 00:39:17,744 --> 00:39:21,164
 Chad: Agreed. Agreed. I actually
 was, I don't necessarily have a
 
-818
-00:39:21,168 --> 00:39:23,101
-direct story, but I've
-definitely heard of other
+633
+00:39:21,168 --> 00:39:25,034
+direct story, but I've definitely
+heard of other people. Who've had
 
-819
-00:39:23,101 --> 00:39:25,034
-people. Who've had
-
-820
+634
 00:39:25,034 --> 00:39:29,623
 similar experiences who they,
 they contributed to, to large
 
-821
+635
 00:39:29,623 --> 00:39:34,184
 open source projects for pretty
 well known companies and, you
 
-822
+636
 00:39:34,184 --> 00:39:37,818
 know, no interview processes
 like. We see that you're we see
 
-823
+637
 00:39:37,818 --> 00:39:40,909
 that you can code, we, you know,
 we want you to work on this
 
-824
+638
 00:39:40,909 --> 00:39:44,418
 thing, you know, so they just
 brought them on board, you know,
 
-825
+639
 00:39:44,449 --> 00:39:47,688
 it wasn't that it wasn't a big,
 crazy thing, you know, they
 
-826
+640
 00:39:47,688 --> 00:39:51,528
 didn't have to study for, for,
 for months, like you said, you
 
-827
+641
 00:39:51,528 --> 00:39:56,809
 know? Definitely like, and from
 my understanding, that is, that
 
-828
+642
 00:39:56,809 --> 00:40:03,289
 is not uncommon, you know, like
 it's not an uncommon circum. At
 
-829
-00:40:03,289 --> 00:40:05,553
+643
+00:40:03,289 --> 00:40:07,818
 all, you know, so definitely I
-definitely, again, you know,
+definitely, again, you know, it's
 
-830
-00:40:05,553 --> 00:40:07,817
-it's
-
-831
+644
 00:40:07,824 --> 00:40:11,719
 about those relationships. It's
 about, you know, it's about
 
-832
+645
 00:40:12,639 --> 00:40:15,259
 building those relationships
 with, with, with those, with
 
-833
+646
 00:40:15,259 --> 00:40:19,369
 those people, you know, and even
 with other contributors as well,
 
-834
+647
 00:40:19,639 --> 00:40:23,778
 you know, like how, how many
 people have, have kind of come,
 
-835
+648
 00:40:23,809 --> 00:40:26,688
 come to Virtual Coffee and have
 become friends with each other.
 
-836
+649
 00:40:27,173 --> 00:40:31,509
 because of kind of their, their,
 their meeting at Virtual Coffee
 
-837
+650
 00:40:31,509 --> 00:40:34,989
 or doing work with Virtual
 Coffee. You know what I mean? So
 
-838
+651
 00:40:35,139 --> 00:40:38,739
 it's definitely about building
 those relationships again, in my
 
-839
+652
 00:40:38,739 --> 00:40:39,068
 opinion.
 
-840
+653
 00:40:39,829 --> 00:40:41,929
-Bekah: Well, and I think too,
-one of the great things about
+Bekah: Well, and I think too, one
+of the great things about
 
-841
+654
 00:40:41,989 --> 00:40:44,599
 contributing to open source is
 also learning how to take
 
-842
+655
 00:40:44,603 --> 00:40:48,708
 feedback because oftentimes, you
 know, you've got a PR and it's
 
-843
+656
 00:40:48,708 --> 00:40:51,259
 not going to be perfect. So
 you'll be getting some feedback.
 
-844
+657
 00:40:51,528 --> 00:40:54,289
 Do you have any experience with
 that? And, you know, like, has
 
-845
+658
 00:40:54,289 --> 00:40:57,108
 that helped you develop. As a
 developer
 
-846
+659
 00:40:58,233 --> 00:41:01,353
 Chad: Uh, it has definitely not
 helped me develop as a developer
 
-847
+660
 00:41:01,353 --> 00:41:05,103
 because that'd be no, I'm just
 uh, yeah, I've gotten, I've
 
-848
+661
 00:41:05,103 --> 00:41:09,543
 definitely gotten feedback. Um,
 Like one of the kind of key
 
-849
+662
 00:41:09,543 --> 00:41:12,873
 things about just being
 coachable, you know? And again,
 
-850
+663
 00:41:12,963 --> 00:41:18,934
 like, because it's a learning
 experience, you know, like, I
 
-851
+664
 00:41:18,934 --> 00:41:22,804
 don't wanna say, well, because
 it's a learning experience. You
 
-852
+665
 00:41:22,804 --> 00:41:26,673
 should really be happy for
 feedback. You know? Like you
 
-853
+666
 00:41:26,673 --> 00:41:28,923
 don't want somebody to be giving
 you feedback where they're like,
 
-854
-00:41:28,923 --> 00:41:30,528
+667
+00:41:28,923 --> 00:41:32,134
 ha ha you know, and they're just
-kind of yelling down. Like
+kind of yelling down. Like nobody
 
-855
-00:41:30,528 --> 00:41:32,133
-nobody
+668
+00:41:32,134 --> 00:41:35,403
+wants that. You know what I mean?
+But if it's like, Hey, I would
 
-856
-00:41:32,134 --> 00:41:33,768
-wants that. You know what I
-mean? But if it's like, Hey, I
-
-857
-00:41:33,768 --> 00:41:35,402
-would
-
-858
+669
 00:41:35,403 --> 00:41:39,963
 structure it this way. That's
 like the key thing about, you
 
-859
-00:41:39,963 --> 00:41:42,198
+670
+00:41:39,963 --> 00:41:44,434
 know, contributions, right? Like
-about open source, right? Like,
+about open source, right? Like, I
 
-860
-00:41:42,198 --> 00:41:44,433
-I
-
-861
+671
 00:41:44,434 --> 00:41:47,164
 don't wanna say it's judgment
 free again, you know, it depends
 
-862
-00:41:47,168 --> 00:41:50,061
-on who's giving you the
-feedback, but it's, it's, it's
+672
+00:41:47,168 --> 00:41:52,954
+on who's giving you the feedback,
+but it's, it's, it's somewhat
 
-863
-00:41:50,061 --> 00:41:52,954
-somewhat
+673
+00:41:52,958 --> 00:41:56,523
+non-committal in that sense, in a
+sense, you know, like you don't
 
-864
-00:41:52,958 --> 00:41:54,740
-non-committal in that sense, in
-a sense, you know, like you
-
-865
-00:41:54,740 --> 00:41:56,522
-don't
-
-866
+674
 00:41:56,554 --> 00:42:00,333
 have to give you contribution.
 You absolutely don't have to,
 
-867
+675
 00:42:00,333 --> 00:42:04,384
 it's not life or death. You know
 what I mean? So a lot of the
 
-868
+676
 00:42:04,384 --> 00:42:09,423
 times. Like, you can give your,
 you can give a contribution and
 
-869
+677
 00:42:09,423 --> 00:42:13,893
 they give you feedback. And that
 feedback is just gold. You know
 
-870
+678
 00:42:13,893 --> 00:42:16,833
 what I mean? It's just like,
 there's stuff that they talk
 
-871
+679
 00:42:16,838 --> 00:42:20,914
 about that they, that you didn't
 know, or even necessarily they
 
-872
+680
 00:42:20,918 --> 00:42:24,934
 give you feedback and you push
 back on the feedback and say,
 
-873
+681
 00:42:24,934 --> 00:42:28,173
 Hey, this is my, this is the
 reason why, like all of that,
 
-874
+682
 00:42:28,173 --> 00:42:31,998
 that interaction. Is extremely
 important. That's what you're
 
-875
+683
 00:42:31,998 --> 00:42:37,608
 gonna be doing on the job. You
 know, like code review is going
 
-876
+684
 00:42:37,608 --> 00:42:41,298
 to happen. like, well, I don't
 wanna say it's going to happen.
 
-877
+685
 00:42:41,298 --> 00:42:44,748
 There are some companies that
 anyways, but like the likelihood
 
-878
-00:42:44,748 --> 00:42:47,373
-of that is so high, like. That
-is just an interaction that you
+686
+00:42:44,748 --> 00:42:49,998
+of that is so high, like. That is
+just an interaction that you have
 
-879
-00:42:47,373 --> 00:42:49,998
-have
-
-880
+687
 00:42:49,998 --> 00:42:54,619
 to go through, you know, and not
 only that, like the amount of
 
-881
-00:42:54,619 --> 00:42:56,554
-information that you can get
-from somebody saying, you know,
+688
+00:42:54,619 --> 00:42:58,489
+information that you can get from
+somebody saying, you know, I
 
-882
-00:42:56,554 --> 00:42:58,489
-I
-
-883
+689
 00:42:58,489 --> 00:43:01,219
 don't think this is the best way
 of doing it. I think this is a
 
-884
+690
 00:43:01,219 --> 00:43:08,179
 better way is this is like,
 especially when. It's it can
 
-885
+691
 00:43:08,179 --> 00:43:12,498
 potentially be difficult or just
 hard to, to, to, to get
 
-886
+692
 00:43:12,498 --> 00:43:15,559
 information and to be able to
 leverage it immediately. Like,
 
-887
+693
 00:43:16,309 --> 00:43:18,978
 you know, you can go to a
 tutorial and you can learn a
 
-888
-00:43:18,978 --> 00:43:20,718
-bunch of things, but a lot of
-the times, if it doesn't apply
+694
+00:43:18,978 --> 00:43:22,458
+bunch of things, but a lot of the
+times, if it doesn't apply to
 
-889
-00:43:20,718 --> 00:43:22,458
-to
-
-890
-00:43:22,458 --> 00:43:24,318
+695
+00:43:22,458 --> 00:43:26,179
 whatever you're doing right now,
-you know, it doesn't stick
+you know, it doesn't stick unless
 
-891
-00:43:24,318 --> 00:43:26,178
-unless
-
-892
+696
 00:43:26,184 --> 00:43:31,128
 you keep doing it over and over.
 But like getting that feedback.
 
-893
+697
 00:43:31,443 --> 00:43:34,804
 You know, on something that
 you're working on and then
 
-894
-00:43:34,804 --> 00:43:36,859
-leveraging it and then, you
-know, like saying, okay, I've
+698
+00:43:34,804 --> 00:43:38,914
+leveraging it and then, you know,
+like saying, okay, I've applied
 
-895
-00:43:36,859 --> 00:43:38,914
-applied
-
-896
+699
 00:43:38,914 --> 00:43:41,853
 it or I don't, I don't
 necessarily agree with your
 
-897
+700
 00:43:41,853 --> 00:43:45,903
 feedback. Like that is such an
 important thing. Even if you
 
-898
+701
 00:43:45,909 --> 00:43:48,634
 don't agree with it, it might be
 something, whereas, you know,
 
-899
+702
 00:43:48,634 --> 00:43:51,123
 might be another tool in your
 toolbox. You know what I mean?
 
-900
-00:43:51,123 --> 00:43:54,250
+703
+00:43:51,123 --> 00:43:57,378
 So, It's it's kind, it's still
-kind of sticky because again,
+kind of sticky because again, you
 
-901
-00:43:54,250 --> 00:43:57,377
-you
-
-902
+704
 00:43:57,384 --> 00:43:59,958
 know, some people are a little
 bit more harsh with their
 
-903
+705
 00:43:59,958 --> 00:44:03,259
 feedback or it's not even
 necessarily harsh, but their
 
-904
+706
 00:44:03,259 --> 00:44:08,539
 feedback doesn't kind of mesh
 with how your culturally kind of
 
-905
-00:44:08,809 --> 00:44:11,343
+707
+00:44:08,809 --> 00:44:13,878
 built to accept feedback, you
-know, but like for the most
+know, but like for the most part,
 
-906
-00:44:11,343 --> 00:44:13,877
-part,
+708
+00:44:14,509 --> 00:44:17,509
+All of that stuff can potentially
+be gold to you, especially as a,
 
-907
-00:44:14,509 --> 00:44:16,009
-All of that stuff can
-potentially be gold to you,
-
-908
-00:44:16,009 --> 00:44:17,509
-especially as a,
-
-909
+709
 00:44:17,778 --> 00:44:21,528
 as a new person, still learning,
 you know, if like them telling
 
-910
+710
 00:44:21,528 --> 00:44:24,168
 you, Hey, I don't think this is
 necessarily the best way, you
 
-911
-00:44:24,168 --> 00:44:26,426
-know? All of that is great
-stuff. You know, that stuff that
+711
+00:44:24,168 --> 00:44:28,684
+know? All of that is great stuff.
+You know, that stuff that you
 
-912
-00:44:26,426 --> 00:44:28,684
-you
-
-913
+712
 00:44:28,684 --> 00:44:32,943
 can, you can put, you can put
 away and then like potentially
 
-914
+713
 00:44:32,943 --> 00:44:36,273
 work on later. Like even if say
 your contribution doesn't get
 
-915
-00:44:36,273 --> 00:44:38,163
-accepted for whatever reason,
-you know, like that information
+714
+00:44:36,273 --> 00:44:40,054
+accepted for whatever reason, you
+know, like that information for
 
-916
-00:44:38,163 --> 00:44:40,053
-for
-
-917
-00:44:40,054 --> 00:44:42,258
+715
+00:44:40,054 --> 00:44:44,463
 you is really, really good when
-you're learning, you know? And
+you're learning, you know? And it
 
-918
-00:44:42,258 --> 00:44:44,462
-it
-
-919
+716
 00:44:44,463 --> 00:44:48,454
 really just kind like, I would
 say in terms of navigating code
 
-920
+717
 00:44:48,514 --> 00:44:52,773
 code, uh, I don't wanna say well
 getting feedback. It really just
 
-921
+718
 00:44:52,773 --> 00:44:56,789
 kinda understanding. The person
 and how they're giving feedback.
 
-922
-00:44:57,148 --> 00:44:59,233
+719
+00:44:57,148 --> 00:45:01,318
 And if they're giving like
-feedback that is not
+feedback that is not particularly
 
-923
-00:44:59,233 --> 00:45:01,318
-particularly
-
-924
-00:45:01,318 --> 00:45:03,133
+720
+00:45:01,318 --> 00:45:04,949
 great or is demeaning, you know,
-let's get up and walk away
+let's get up and walk away again,
 
-925
-00:45:03,133 --> 00:45:04,948
-again,
-
-926
+721
 00:45:05,128 --> 00:45:08,668
 you're not committed, you know,
 like if they're going to be that
 
-927
+722
 00:45:08,668 --> 00:45:11,699
 person, you know, that's not
 somebody you want to be
 
-928
+723
 00:45:11,699 --> 00:45:16,534
 associated with. In any form of
 kind of long term anything, you
 
-929
+724
 00:45:16,534 --> 00:45:19,864
 know, but generally like, you
 know, people are very friendly.
 
-930
+725
 00:45:19,864 --> 00:45:22,474
 Like people want you to come
 back. Like some people
 
-931
+726
 00:45:22,474 --> 00:45:25,023
 desperately want you to come
 back. You know, it's like, you
 
-932
+727
 00:45:25,023 --> 00:45:28,503
 know, I'm working on this by
 myself or I'm working on this
 
-933
-00:45:28,503 --> 00:45:30,138
-with a small group of people,
-you know, more people who are
+728
+00:45:28,503 --> 00:45:31,773
+with a small group of people, you
+know, more people who are working
 
-934
-00:45:30,138 --> 00:45:31,773
-working
-
-935
+729
 00:45:31,773 --> 00:45:34,773
 with me, you know, the better,
 you know what I mean? So it's in
 
-936
+730
 00:45:34,773 --> 00:45:41,298
 their it's, they're incentivized
 to. To, to kind of keep you
 
-937
+731
 00:45:41,298 --> 00:45:45,289
 coming back, you know what I
 mean? That's and there's also
 
-938
+732
 00:45:45,289 --> 00:45:48,708
 like, this is a part of, kind of
 the community aspect of, of open
 
-939
+733
 00:45:48,708 --> 00:45:52,759
 source or a particular open
 source project, like how to kind
 
-940
+734
 00:45:52,759 --> 00:46:00,168
 of contribute and like having a,
 having a system kind of around
 
-941
-00:46:00,168 --> 00:46:02,530
-contribution in the sense of,
-you know, code style, you know,
+735
+00:46:00,168 --> 00:46:04,893
+contribution in the sense of, you
+know, code style, you know, Tools
 
-942
-00:46:02,530 --> 00:46:04,892
-Tools
-
-943
+736
 00:46:04,893 --> 00:46:08,134
 that you, you, you are using and
 stuff like that, being very
 
-944
-00:46:08,134 --> 00:46:10,608
-structured in that way, it
-really kind of lets people know
+737
+00:46:08,134 --> 00:46:13,083
+structured in that way, it really
+kind of lets people know how to,
 
-945
-00:46:10,608 --> 00:46:13,082
-how to,
-
-946
+738
 00:46:13,594 --> 00:46:17,583
 how to approach the project. You
 know what I mean? So that's also
 
-947
+739
 00:46:17,583 --> 00:46:21,634
-a good thing to kind of look
-for. It doesn't necessarily, it
+a good thing to kind of look for.
+It doesn't necessarily, it
 
-948
+740
 00:46:21,634 --> 00:46:24,813
 doesn't necessarily address
 feedback directly, you know, but
 
-949
-00:46:25,114 --> 00:46:26,614
+741
+00:46:25,114 --> 00:46:28,114
 it kind of addressed what, what
-your expectations of the
+your expectations of the feedback
 
-950
-00:46:26,614 --> 00:46:28,114
-feedback
-
-951
+742
 00:46:28,114 --> 00:46:32,704
 will, will, will be, you know,
 but yeah. I
 
-952
-00:46:32,898 --> 00:46:34,773
+743
+00:46:32,898 --> 00:46:36,648
 Dan: So as a, as a contributor,
-like a potential contributor to
+like a potential contributor to a
 
-953
-00:46:34,773 --> 00:46:36,648
-a
-
-954
+744
 00:46:36,648 --> 00:46:39,108
 project, what, what are your
 steps? Like, what do you do
 
-955
-00:46:39,108 --> 00:46:41,553
+745
+00:46:39,108 --> 00:46:43,998
 before, uh, before you like file
-a poll request? Like, what do
+a poll request? Like, what do you
 
-956
-00:46:41,553 --> 00:46:43,998
-you
+746
+00:46:44,059 --> 00:46:46,728
+like, I assume you maybe read the
+readme. What, what, what other
 
-957
-00:46:44,059 --> 00:46:45,393
-like, I assume you maybe read
-the readme. What, what, what
-
-958
-00:46:45,393 --> 00:46:46,727
-other
-
-959
-00:46:46,728 --> 00:46:48,756
+747
+00:46:46,728 --> 00:46:50,784
 kinda steps do you take? Like to
-make sure that you're. Doing
+make sure that you're. Doing what
 
-960
-00:46:48,756 --> 00:46:50,784
-what
-
-961
+748
 00:46:50,784 --> 00:46:52,563
 the maintainers want you to do,
 uh, you know,
 
-962
-00:46:53,253 --> 00:46:55,218
+749
+00:46:53,253 --> 00:46:57,184
 Chad: To be fair. So I've mostly
-been working with open source
+been working with open source and
 
-963
-00:46:55,218 --> 00:46:57,183
-and
-
-964
-00:46:57,184 --> 00:46:59,208
+750
+00:46:57,184 --> 00:47:01,233
 they've had, they have a very
-good, you know, kind
+good, you know, kind contributors
 
-965
-00:46:59,208 --> 00:47:01,232
-contributors
-
-966
+751
 00:47:01,239 --> 00:47:06,603
 doc, you know? And so they kind
 of put the systems in place so
 
-967
-00:47:06,603 --> 00:47:08,403
+752
+00:47:06,603 --> 00:47:10,204
 that you don't necessarily, so
-that you don't mess up, you
+that you don't mess up, you know,
 
-968
-00:47:08,403 --> 00:47:10,203
-know,
-
-969
+753
 00:47:10,264 --> 00:47:13,293
 in a sense, right. So there's
 like a lot of kind of guardrails
 
-970
-00:47:13,293 --> 00:47:15,588
+754
+00:47:13,293 --> 00:47:17,884
 and handholding that the, that
-the system will do, you know,
+the system will do, you know, but
 
-971
-00:47:15,588 --> 00:47:17,883
-but
-
-972
+755
 00:47:18,244 --> 00:47:22,083
 like, Again, you know, you can
 say for instance, there isn't
 
-973
-00:47:22,083 --> 00:47:25,053
+756
+00:47:22,083 --> 00:47:28,023
 really any Contra, uh, any. Docs
-on contributing generally.
+on contributing generally. That's
 
-974
-00:47:25,053 --> 00:47:28,023
-That's
-
-975
+757
 00:47:28,023 --> 00:47:31,173
 the first place you start, you
 know, docs on contribute just
 
-976
+758
 00:47:31,173 --> 00:47:35,313
 the, the, the kind docs on the
 infrastructure, right? Like on
 
-977
+759
 00:47:35,494 --> 00:47:39,333
 how you contribute. Just start
 there, you know, before, before
 
-978
-00:47:39,338 --> 00:47:40,970
+760
+00:47:39,338 --> 00:47:42,603
 anything else, because, uh, a
-good, well maintained open
+good, well maintained open source
 
-979
-00:47:40,970 --> 00:47:42,602
-source
-
-980
+761
 00:47:42,603 --> 00:47:46,668
 project will at least have docs
 docs to, to tell you. How to
 
-981
+762
 00:47:46,673 --> 00:47:49,699
 contribute if they don't
 necessarily have docs, you may,
 
-982
-00:47:49,969 --> 00:47:51,544
+763
+00:47:49,969 --> 00:47:53,119
 you know, may reach out to the
-maintainer and ask questions.
+maintainer and ask questions. You
 
-983
-00:47:51,544 --> 00:47:53,119
-You
-
-984
+764
 00:47:53,119 --> 00:47:56,599
 may file an issue, ask questions
 by the way, if they don't have
 
-985
+765
 00:47:56,869 --> 00:48:01,699
 docs on contributing, that's a
 really good contribution. you
 
-986
-00:48:01,704 --> 00:48:04,341
-know, like, but. It's just
-really just getting
+766
+00:48:01,704 --> 00:48:06,978
+know, like, but. It's just really
+just getting clarification, how
 
-987
-00:48:04,341 --> 00:48:06,978
-clarification, how
-
-988
+767
 00:48:07,159 --> 00:48:09,378
 however you can, like, that
 doesn't necessarily mean you
 
-989
+768
 00:48:09,378 --> 00:48:12,978
 don't, you can't just work on
 the, on the poll request
 
-990
-00:48:12,983 --> 00:48:14,916
+769
+00:48:12,983 --> 00:48:16,849
 immediately, but you know, like
-just getting clarification on
+just getting clarification on how
 
-991
-00:48:14,916 --> 00:48:16,849
-how
-
-992
+770
 00:48:16,849 --> 00:48:21,349
 they kind of want the, the poll
 request set up, like, and like I
 
-993
+771
 00:48:21,353 --> 00:48:24,318
 said, get that clarification.
 However you can either they have
 
-994
+772
 00:48:24,318 --> 00:48:29,043
 dots written or. Reach out to
 people directly, you know, you
 
-995
+773
 00:48:29,043 --> 00:48:32,523
 may even kind of go back to, to,
 to previous pull requests and,
 
-996
+774
 00:48:32,793 --> 00:48:36,543
 and take a look at that. But I
 would definitely say if they
 
-997
+775
 00:48:36,543 --> 00:48:40,023
 don't have docs, just reach out
 to the maintainer and, and start
 
-998
+776
 00:48:40,023 --> 00:48:44,043
 there. Um, I don't have the most
 amount of experience here
 
-999
+777
 00:48:44,043 --> 00:48:47,704
 because. You know, like my open
 source, the project that I work
 
-1000
-00:48:47,704 --> 00:48:50,059
+778
+00:48:47,704 --> 00:48:52,414
 with, mostly have a lot of these
-kind of things in place, but,
+kind of things in place, but, you
 
-1001
-00:48:50,059 --> 00:48:52,414
-you
-
-1002
+779
 00:48:52,414 --> 00:48:54,393
 know, just getting that
 clarification, like that's,
 
-1003
+780
 00:48:54,393 --> 00:48:56,074
 that's the best way I would
 submit them. Just get that
 
-1004
-00:48:56,074 --> 00:48:58,443
+781
+00:48:56,074 --> 00:49:00,813
 clarification first, because it
-would kind, it would kind of
+would kind, it would kind of suck
 
-1005
-00:48:58,443 --> 00:49:00,812
-suck
+782
+00:49:00,813 --> 00:49:03,423
+where you do all of this work. It
+may even take you like a couple
 
-1006
-00:49:00,813 --> 00:49:02,118
-where you do all of this work.
-It may even take you like a
-
-1007
-00:49:02,118 --> 00:49:03,423
-couple
-
-1008
+783
 00:49:03,423 --> 00:49:06,123
 of days, you do all of this work
 and then you make a poll request
 
-1009
+784
 00:49:06,423 --> 00:49:10,324
 and then they, they, they, they
 deny the poll request for
 
-1010
+785
 00:49:10,324 --> 00:49:13,474
 something simple that you could
 have easily sorted out day one,
 
-1011
+786
 00:49:13,923 --> 00:49:17,628
 you know? And, you know, nobody
 wants their full request,
 
-1012
+787
 00:49:17,628 --> 00:49:20,778
 rejected, you know what I mean?
 So it's like, it it's just like
 
-1013
+788
 00:49:20,869 --> 00:49:23,059
 at the bar least you can just do
 those things if you don't, if
 
-1014
+789
 00:49:23,059 --> 00:49:26,358
 you're not necessarily a hundred
 percent clear, you know,
 
-1015
+790
 00:49:27,693 --> 00:49:32,134
 Bekah: I love that. And I mean,
 so you've said you contribute to
 
-1016
+791
 00:49:32,134 --> 00:49:34,864
 opensource and they've got a
 great process. So if you wanna
 
-1017
+792
 00:49:34,864 --> 00:49:37,384
 get started and you wanna know
 what a good project looks like,
 
-1018
-00:49:37,384 --> 00:49:39,034
+793
+00:49:37,384 --> 00:49:40,684
 so you can identify other ones,
-then go to opensource and look
+then go to opensource and look at
 
-1019
-00:49:39,034 --> 00:49:40,684
-at
-
-1020
-00:49:40,893 --> 00:49:42,566
+794
+00:49:40,893 --> 00:49:44,239
 what they have there, because.
-That's a good way to start. And
+That's a good way to start. And I
 
-1021
-00:49:42,566 --> 00:49:44,239
-I
-
-1022
-00:49:44,239 --> 00:49:45,919
+795
+00:49:44,239 --> 00:49:47,599
 know, you know, we've got a
-pretty thorough, uh,
+pretty thorough, uh, contributing
 
-1023
-00:49:45,919 --> 00:49:47,599
-contributing
-
-1024
+796
 00:49:47,599 --> 00:49:51,438
 guidelines doc on our Virtual
 Coffee site as well. And you
 
-1025
+797
 00:49:51,438 --> 00:49:53,568
 know, sometimes there's
 discussions, not everybody has
 
-1026
-00:49:53,568 --> 00:49:55,353
-discussions enabled, but I
-really like discussions for
+798
+00:49:53,568 --> 00:49:57,139
+discussions enabled, but I really
+like discussions for being able
 
-1027
-00:49:55,353 --> 00:49:57,138
-being able
-
-1028
+799
 00:49:57,139 --> 00:50:00,378
 to have community members ask
 questions about things and to
 
-1029
+800
 00:50:00,384 --> 00:50:03,978
 learn more. And then also
 discussions allows us to see,
 
-1030
+801
 00:50:04,188 --> 00:50:07,429
 okay, yeah, maybe we're missing
 something here or we could add
 
-1031
+802
 00:50:07,429 --> 00:50:10,554
 this now here's an issue. Hey,
 since you brought it up, do you
 
-1032
+803
 00:50:10,554 --> 00:50:14,693
 want to be the one to make the
 pool request, um, for that
 
-1033
-00:50:14,693 --> 00:50:17,183
-project? So it is, it is step
-one is, well, maybe it's not
+804
+00:50:14,693 --> 00:50:19,673
+project? So it is, it is step one
+is, well, maybe it's not step
 
-1034
-00:50:17,183 --> 00:50:19,673
-step
-
-1035
+805
 00:50:19,673 --> 00:50:23,333
 one, but a good step is
 identifying what good projects
 
-1036
+806
 00:50:23,338 --> 00:50:26,693
 look like. So you can see them
 other places
 
-1037
+807
 00:50:27,768 --> 00:50:28,548
 Chad: definitely agree.
 
-1038
+808
 00:50:29,184 --> 00:50:32,764
 Bekah: I kind of wanna pivot a
 little bit before we end the
 
-1039
+809
 00:50:32,793 --> 00:50:35,974
 podcast episode and talk more
 about Tech is Hiring because you
 
-1040
+810
 00:50:35,974 --> 00:50:38,583
 know, all the things that we've
 talked about along with open
 
-1041
+811
 00:50:38,583 --> 00:50:42,184
 source, I think contribute to
 this idea of Tech is Hiring the
 
-1042
-00:50:42,184 --> 00:50:44,853
-idea of community, of
-connection, of navigating
+812
+00:50:42,184 --> 00:50:47,523
+idea of community, of connection,
+of navigating through a problem
 
-1043
-00:50:44,853 --> 00:50:47,522
-through a problem
+813
+00:50:47,528 --> 00:50:52,833
+that you identified. So what kind
+of started your inspiration for
 
-1044
-00:50:47,528 --> 00:50:50,180
-that you identified. So what
-kind of started your inspiration
-
-1045
-00:50:50,180 --> 00:50:52,832
-for
-
-1046
+814
 00:50:52,833 --> 00:50:53,704
 Tech is Hiring.
 
-1047
+815
 00:50:54,893 --> 00:51:00,114
 Chad: Well, it started really
 with my own job search. Um, I, I
 
-1048
-00:51:00,114 --> 00:51:01,659
-don't even know how I came
-across this, but I realized
+816
+00:51:00,114 --> 00:51:03,204
+don't even know how I came across
+this, but I realized that, you
 
-1049
-00:51:01,659 --> 00:51:03,204
-that, you
+817
+00:51:03,208 --> 00:51:05,844
+know, you could just make a tweet
+and say, Hey, I'm looking for a
 
-1050
-00:51:03,208 --> 00:51:04,526
-know, you could just make a
-tweet and say, Hey, I'm looking
-
-1051
-00:51:04,526 --> 00:51:05,844
-for a
-
-1052
+818
 00:51:05,844 --> 00:51:09,204
 role. And people retweeted, like
 people are very, at the very
 
-1053
+819
 00:51:09,208 --> 00:51:12,963
 least in, in the tech industry,
 uh, or on tech, Twitter, people
 
-1054
+820
 00:51:13,074 --> 00:51:19,518
 are very open about you. Helping
 people find new roles. And so,
 
-1055
-00:51:19,639 --> 00:51:21,244
+821
+00:51:19,639 --> 00:51:22,849
 you know, I was doing that a few
-times, like in my own job
+times, like in my own job search.
 
-1056
-00:51:21,244 --> 00:51:22,849
-search.
-
-1057
+822
 00:51:23,148 --> 00:51:26,268
 And then I think one day I was
 retweeting and I was just
 
-1058
+823
 00:51:26,268 --> 00:51:30,498
 realized, you know, if you don't
 have a good network and yeah, if
 
-1059
+824
 00:51:30,498 --> 00:51:33,798
 you don't have a good network,
 you know, L likelihood of you,
 
-1060
-00:51:33,878 --> 00:51:36,605
+825
+00:51:33,878 --> 00:51:39,333
 you, um, The likelihood of your
-tweet going viral in a sense,
+tweet going viral in a sense, it,
 
-1061
-00:51:36,605 --> 00:51:39,332
-it,
-
-1062
+826
 00:51:39,393 --> 00:51:43,833
 that would help you is, is, is
 pretty low. And so, you know, my
 
-1063
+827
 00:51:43,833 --> 00:51:46,384
 first thought was like, Hey, do
 we have like a hashtag or
 
-1064
+828
 00:51:46,384 --> 00:51:52,143
 something that we can, you know,
 that we can, um, like post our
 
-1065
-00:51:52,143 --> 00:51:53,553
+829
+00:51:52,143 --> 00:51:54,963
 tweet to. So at the very least,
-you know, it's in one
+you know, it's in one centralized
 
-1066
-00:51:53,553 --> 00:51:54,963
-centralized
-
-1067
+830
 00:51:54,963 --> 00:51:58,759
 place and people are like, no,
 and I was just. Okay. And
 
-1068
-00:51:58,759 --> 00:51:59,973
-somebody had reached out and
-they were little like, oh, so
+831
+00:51:58,759 --> 00:52:01,188
+somebody had reached out and they
+were little like, oh, so you're
 
-1069
-00:51:59,973 --> 00:52:01,187
-you're
-
-1070
+832
 00:52:01,188 --> 00:52:03,619
 gonna make a hashtag. Right. And
 I was like, I guess I am now. So
 
-1071
+833
 00:52:04,579 --> 00:52:09,498
 ended up like taking a yeah.
 Ended up taking like a couple of
 
-1072
-00:52:09,498 --> 00:52:11,328
-days, just kind of trying to
-come up with a name. And then,
+834
+00:52:09,498 --> 00:52:13,159
+days, just kind of trying to come
+up with a name. And then, you
 
-1073
-00:52:11,328 --> 00:52:13,158
-you
-
-1074
+835
 00:52:13,164 --> 00:52:16,458
 know, I just made a quick post
 and I was just like, Hey, this
 
-1075
+836
 00:52:16,458 --> 00:52:20,239
-hashtag, you know, post to it.
-If you, if you wanted to, if you
+hashtag, you know, post to it. If
+you, if you wanted to, if you
 
-1076
-00:52:20,239 --> 00:52:23,006
+837
+00:52:20,239 --> 00:52:25,773
 want to, to, to, to share your
-tweet and. Like I pretty much
+tweet and. Like I pretty much did
 
-1077
-00:52:23,006 --> 00:52:25,773
-did
-
-1078
-00:52:25,773 --> 00:52:28,173
+838
+00:52:25,773 --> 00:52:30,574
 that. And initially when I, when
-I made the first tweet, I
+I made the first tweet, I didn't,
 
-1079
-00:52:28,173 --> 00:52:30,573
-didn't,
+839
+00:52:30,574 --> 00:52:35,193
+I obviously didn't expect anybody
+to like be jumping, you know, out
 
-1080
-00:52:30,574 --> 00:52:32,883
-I obviously didn't expect
-anybody to like be jumping, you
-
-1081
-00:52:32,883 --> 00:52:35,192
-know, out
-
-1082
+840
 00:52:35,193 --> 00:52:38,344
 to the woodwork to kind of tweet
 to it. So I just went out my way
 
-1083
-00:52:38,349 --> 00:52:40,498
+841
+00:52:38,349 --> 00:52:42,648
 to go find tweets. You know, so
-for people to share, to just
+for people to share, to just kind
 
-1084
-00:52:40,498 --> 00:52:42,647
-kind
-
-1085
+842
 00:52:42,653 --> 00:52:46,998
 of encourage and to build that
 kind of backlog right. Of places
 
-1086
+843
 00:52:47,028 --> 00:52:51,199
 of, of, of resources and, you
 know, it just kind of grew from
 
-1087
+844
 00:52:51,199 --> 00:52:56,719
 there. So like, uh, I started
 adding tweets every day, you
 
-1088
-00:52:56,719 --> 00:52:58,413
-know, every weekday I should
-say, I started adding tweets
+845
+00:52:56,719 --> 00:53:00,108
+know, every weekday I should say,
+I started adding tweets every
 
-1089
-00:52:58,413 --> 00:53:00,107
-every
-
-1090
-00:53:00,108 --> 00:53:01,488
+846
+00:53:00,108 --> 00:53:02,869
 day, you know, just took, took a
-couple of minutes onto my day.
+couple of minutes onto my day. In
 
-1091
-00:53:01,488 --> 00:53:02,868
-In
-
-1092
+847
 00:53:02,869 --> 00:53:05,088
 fact, I'm probably gonna do that
 right after I get off of this,
 
-1093
+848
 00:53:05,389 --> 00:53:10,338
 but, uh, took a couple of
 minutes. Went through all, you
 
-1094
+849
 00:53:10,338 --> 00:53:14,659
 know, went and looked for, for
 people looking for jobs or had
 
-1095
+850
 00:53:14,659 --> 00:53:17,358
 jobs to share. And I would just
 ask them if I could add it to
 
-1096
-00:53:17,358 --> 00:53:19,548
-Tech is Hiring and I've just
-been doing that. And, you know,
+851
+00:53:17,358 --> 00:53:21,739
+Tech is Hiring and I've just been
+doing that. And, you know, at the
 
-1097
-00:53:19,548 --> 00:53:21,738
-at the
+852
+00:53:21,739 --> 00:53:26,478
+end of last year, I started doing
+spaces around, around Tech is
 
-1098
-00:53:21,739 --> 00:53:24,108
-end of last year, I started
-doing spaces around, around Tech
-
-1099
-00:53:24,108 --> 00:53:26,477
-is
-
-1100
+853
 00:53:26,483 --> 00:53:29,958
 Hiring. When, when spaces, you
 know, became a feature that was
 
-1101
+854
 00:53:29,958 --> 00:53:35,298
 open to the public, I started
 doing that. Um, and. There's a,
 
-1102
+855
 00:53:35,304 --> 00:53:38,728
 there's definitely a lot of
 people who just kind of like,
 
-1103
+856
 00:53:39,028 --> 00:53:42,239
 there's a lot of, kind of, I
 don't wanna say there's a lot of
 
-1104
+857
 00:53:42,239 --> 00:53:46,079
 information that people tend to
 lack, you know, like even,
 
-1105
+858
 00:53:46,168 --> 00:53:49,409
 especially there's a lot of job
 changes, right? So they may have
 
-1106
+859
 00:53:49,414 --> 00:53:54,418
 existed in an industry for
 periods of time, maybe years,
 
-1107
+860
 00:53:54,418 --> 00:53:57,719
 decades. Right. And they're
 transitioning into the tech
 
-1108
+861
 00:53:57,719 --> 00:54:02,338
 industry and like a simple thing
 as how to structure your resume.
 
-1109
-00:54:02,719 --> 00:54:04,504
-Is is something that they may
-not necessarily know. You know
+862
+00:54:02,719 --> 00:54:06,289
+Is is something that they may not
+necessarily know. You know what I
 
-1110
-00:54:04,504 --> 00:54:06,289
-what I
-
-1111
+863
 00:54:06,295 --> 00:54:09,918
 mean? And it's actually fairly
 difficult. It's not as difficult
 
-1112
-00:54:09,918 --> 00:54:11,598
-now because there's
-significantly more resources,
+864
+00:54:09,918 --> 00:54:13,278
+now because there's significantly
+more resources, but it's fairly
 
-1113
-00:54:11,598 --> 00:54:13,278
-but it's fairly
-
-1114
-00:54:13,284 --> 00:54:15,276
+865
+00:54:13,284 --> 00:54:17,268
 different, difficult to find out
-how to structure your resume in
+how to structure your resume in a
 
-1115
-00:54:15,276 --> 00:54:17,268
-a
+866
+00:54:17,268 --> 00:54:21,739
+good way. And so, you know, I was
+just like, you know, that's also
 
-1116
-00:54:17,268 --> 00:54:19,503
-good way. And so, you know, I
-was just like, you know, that's
+867
+00:54:21,739 --> 00:54:26,764
+resources that people could have,
+you know, People have, you know,
 
-1117
-00:54:19,503 --> 00:54:21,738
-also
-
-1118
-00:54:21,739 --> 00:54:24,251
-resources that people could
-have, you know, People have, you
-
-1119
-00:54:24,251 --> 00:54:26,763
-know,
-
-1120
+868
 00:54:26,764 --> 00:54:30,213
-hiring or just kind of job
-search or just those kind of
+hiring or just kind of job search
+or just those kind of
 
-1121
+869
 00:54:30,213 --> 00:54:35,583
 conversations on, on spaces. And
 I'll share that, you know, when,
 
-1122
+870
 00:54:35,583 --> 00:54:38,103
 whenever I can, it's like, Hey
 mind if I add this to tech to
 
-1123
+871
 00:54:38,108 --> 00:54:42,244
 hiring, you know, and I guess it
 just kind of evolved from there.
 
-1124
-00:54:42,244 --> 00:54:44,163
-I eventually started a
-newsletter to kind of do the
+872
+00:54:42,244 --> 00:54:46,083
+I eventually started a newsletter
+to kind of do the same thing,
 
-1125
-00:54:44,163 --> 00:54:46,082
-same thing,
-
-1126
+873
 00:54:46,414 --> 00:54:50,103
 whereas like I have I'll
 effectively curate the tweets
 
-1127
-00:54:50,103 --> 00:54:53,440
+874
+00:54:50,103 --> 00:54:56,778
 that I see. And then I'll. Take
-five of the five people. Who
+five of the five people. Who were
 
-1128
-00:54:53,440 --> 00:54:56,777
-were
+875
+00:54:56,778 --> 00:55:01,429
+looking for jobs and then 10 jobs
+during that week, and then any
 
-1129
-00:54:56,778 --> 00:54:59,103
-looking for jobs and then 10
-jobs during that week, and then
-
-1130
-00:54:59,103 --> 00:55:01,428
-any
-
-1131
+876
 00:55:01,429 --> 00:55:05,389
 additional, like additional
 information, like, say for
 
-1132
-00:55:05,389 --> 00:55:06,768
-instance, there was like a
-really good thread about, you
+877
+00:55:05,389 --> 00:55:08,148
+instance, there was like a really
+good thread about, you know,
 
-1133
-00:55:06,768 --> 00:55:08,147
-know,
-
-1134
+878
 00:55:08,208 --> 00:55:13,128
 again, let's keep it in context.
 Um, talking about resume. You
 
-1135
-00:55:13,128 --> 00:55:14,838
-know, like I'll, I'll, I'll
-share that anything that's a
+879
+00:55:13,128 --> 00:55:16,548
+know, like I'll, I'll, I'll share
+that anything that's a part of
 
-1136
-00:55:14,838 --> 00:55:16,548
-part of
-
-1137
-00:55:16,548 --> 00:55:18,633
+880
+00:55:16,548 --> 00:55:20,719
 the hashtag I won't like go
-searching for stuff, but
+searching for stuff, but anything
 
-1138
-00:55:18,633 --> 00:55:20,718
-anything
+881
+00:55:20,719 --> 00:55:23,539
+that's a part of the hashtag, you
+know, that got retweeted by with
 
-1139
-00:55:20,719 --> 00:55:22,129
-that's a part of the hashtag,
-you know, that got retweeted by
-
-1140
-00:55:22,129 --> 00:55:23,539
-with
-
-1141
+882
 00:55:23,543 --> 00:55:27,378
 the hashtag I'll, I'll add that
 to the newsletter and so on and
 
-1142
+883
 00:55:27,378 --> 00:55:32,119
 so forth. And, you know, it's
 really just kind of been about.
 
-1143
+884
 00:55:33,063 --> 00:55:37,773
 Just trying to be like, uh, make
 it, make that, make the whole
 
-1144
+885
 00:55:37,773 --> 00:55:41,704
 thing about either job searching
 or transitioning, just job
 
-1145
-00:55:41,704 --> 00:55:44,478
+886
+00:55:41,704 --> 00:55:47,253
 related stuff, make it easier,
-you know, especially, um, so
+you know, especially, um, so like
 
-1146
-00:55:44,478 --> 00:55:47,252
-like
+887
+00:55:47,259 --> 00:55:52,579
+the, the, the thing about Twitter
+is like, When you go on LinkedIn
 
-1147
-00:55:47,259 --> 00:55:49,919
-the, the, the thing about
-Twitter is like, When you go on
-
-1148
-00:55:49,919 --> 00:55:52,579
-LinkedIn
-
-1149
+888
 00:55:52,608 --> 00:55:57,289
 or when you apply for a job in
 any, in any, in any, I guess,
 
-1150
+889
 00:55:57,318 --> 00:56:02,358
 standard way, right? You, you
 upload your, your, your resume
 
-1151
-00:56:02,364 --> 00:56:04,041
-and so on and so forth. It's
-very likely that you won't
+890
+00:56:02,364 --> 00:56:05,719
+and so on and so forth. It's very
+likely that you won't necessarily
 
-1152
-00:56:04,041 --> 00:56:05,718
-necessarily
-
-1153
+891
 00:56:05,719 --> 00:56:08,358
 get seen by a human for whatever
 reason. I'm not even gonna get
 
-1154
+892
 00:56:08,364 --> 00:56:10,969
 into that. But for whatever
 reason, you may not necessarily
 
-1155
-00:56:10,974 --> 00:56:12,951
-get seen by a human, you know,
-or I don't wanna say that. Uh,
+893
+00:56:10,974 --> 00:56:14,929
+get seen by a human, you know, or
+I don't wanna say that. Uh, for
 
-1156
-00:56:12,951 --> 00:56:14,928
-for
-
-1157
+894
 00:56:14,929 --> 00:56:17,719
 whatever reason, you won't
 interact with a human, I should.
 
-1158
+895
 00:56:18,123 --> 00:56:21,333
 You know, you may get some
 automated email saying you were
 
-1159
+896
 00:56:21,333 --> 00:56:26,884
 rejected or you may not even get
 to reply at all. Right. But you
 
-1160
+897
 00:56:26,884 --> 00:56:30,994
 know, for Tech is Hiring because
 most of the times I'm retweeting
 
-1161
-00:56:30,994 --> 00:56:32,839
+898
+00:56:30,994 --> 00:56:34,684
 tweets that somebody else made,
-you know, a lot of the times
+you know, a lot of the times that
 
-1162
-00:56:32,839 --> 00:56:34,684
-that
-
-1163
+899
 00:56:34,684 --> 00:56:37,925
 person, and a lot of the times
 it's a person. This is a
 
-1164
+900
 00:56:38,014 --> 00:56:42,244
-legitimate person. That person
-is no kind of your, your
+legitimate person. That person is
+no kind of your, your
 
-1165
-00:56:42,244 --> 00:56:44,403
+901
+00:56:42,244 --> 00:56:46,563
 interaction, your point of
-contact. For that company. So
+contact. For that company. So say
 
-1166
-00:56:44,403 --> 00:56:46,562
-say
-
-1167
+902
 00:56:46,563 --> 00:56:49,563
 for instance, let's, let's go
 with AWS. A lot of people
 
-1168
+903
 00:56:49,563 --> 00:56:52,204
 actually, when they, when
 they're, when they're sharing
 
-1169
-00:56:52,204 --> 00:56:53,809
-jobs, they'll say, Hey, you
-know, like it's in particular
+904
+00:56:52,204 --> 00:56:55,414
+jobs, they'll say, Hey, you know,
+like it's in particular cases,
 
-1170
-00:56:53,809 --> 00:56:55,414
-cases,
+905
+00:56:55,414 --> 00:57:00,153
+they'll say I'll, I'll definitely
+not, what's not sponsors the
 
-1171
-00:56:55,414 --> 00:56:57,783
-they'll say I'll, I'll
-definitely not, what's not
-
-1172
-00:56:57,783 --> 00:57:00,152
-sponsors the
-
-1173
+906
 00:57:00,273 --> 00:57:04,369
 what's the phrase. When they,
 they recommend you, they they'll
 
-1174
+907
 00:57:04,369 --> 00:57:10,219
 recommend you, you know? And so
 you have that, excuse me, you
 
-1175
+908
 00:57:10,219 --> 00:57:15,648
 have that, um, point of contact
 with the organization, you know,
 
-1176
+909
 00:57:15,648 --> 00:57:20,418
 and like, for, for, for getting
 hired, like having somebody
 
-1177
+910
 00:57:20,449 --> 00:57:24,164
 recommend you, you know,
 especially. A big person
 
-1178
+911
 00:57:24,193 --> 00:57:28,603
 recommending you is a huge deal.
 You know, and for like,
 
-1179
-00:57:28,603 --> 00:57:30,448
+912
+00:57:28,603 --> 00:57:32,293
 especially for, for younger
-engineers, they don't
+engineers, they don't necessarily
 
-1180
-00:57:30,448 --> 00:57:32,293
-necessarily
-
-1181
+913
 00:57:32,293 --> 00:57:35,173
 have that network to have
 somebody recommend them for a
 
-1182
-00:57:35,173 --> 00:57:37,423
+914
+00:57:35,173 --> 00:57:39,673
 job. You know what I mean? And
-so, you know, when somebody
+so, you know, when somebody posts
 
-1183
-00:57:37,423 --> 00:57:39,673
-posts
-
-1184
+915
 00:57:39,673 --> 00:57:43,873
 that, you know, their job is
 looking for a opposition and
 
-1185
+916
 00:57:44,304 --> 00:57:47,384
 somebody sees that they can go
 and just reach out to them, they
 
-1186
+917
 00:57:47,384 --> 00:57:53,028
 can send them a DM or they can
 send them a reply. And. That,
 
-1187
-00:57:53,358 --> 00:57:55,233
-that interaction is
-significantly better. That even
+918
+00:57:53,358 --> 00:57:57,108
+that interaction is significantly
+better. That even if you're qual,
 
-1188
-00:57:55,233 --> 00:57:57,108
-if you're qual,
-
-1189
+919
 00:57:57,168 --> 00:57:59,418
 I mean, to be fair, if you're
 qualified for the job, you're
 
-1190
+920
 00:57:59,418 --> 00:58:02,869
 qualified for the job, but just
 having that kind of point of
 
-1191
-00:58:02,869 --> 00:58:04,339
-contact, you know, maybe it's
-not the job for you, but you
+921
+00:58:02,869 --> 00:58:05,809
+contact, you know, maybe it's not
+the job for you, but you don't
 
-1192
-00:58:04,339 --> 00:58:05,809
-don't
-
-1193
+922
 00:58:05,809 --> 00:58:07,489
 know that, you know, you're not
 gonna know that until you
 
-1194
+923
 00:58:07,489 --> 00:58:10,728
 interview, so you can sit down
 and talk with them. You know,
 
-1195
+924
 00:58:10,733 --> 00:58:15,259
 like just having that point of
 contact is so important. You
 
-1196
+925
 00:58:15,259 --> 00:58:19,338
-know, so like that's kind of,
-the real value of Tech is Hiring
+know, so like that's kind of, the
+real value of Tech is Hiring
 
-1197
+926
 00:58:19,338 --> 00:58:22,909
 currently is, is not even
 necessarily the resources that
 
-1198
+927
 00:58:22,914 --> 00:58:27,858
 get shared is the resources and
 the people who actually share
 
-1199
-00:58:27,864 --> 00:58:29,496
-them and your ability to
-interact with them. You know,
+928
+00:58:27,864 --> 00:58:31,128
+them and your ability to interact
+with them. You know, that's
 
-1200
-00:58:29,496 --> 00:58:31,128
-that's
-
-1201
+929
 00:58:31,128 --> 00:58:34,398
 really the, the, the main thing
 about Tech is Hiring.
 
-1202
+930
 00:58:35,074 --> 00:58:37,114
 Bekah: That's so great. Thanks
 for sharing that with us, Chad.
 
-1203
+931
 00:58:37,324 --> 00:58:40,414
 Uh, and thanks so much for being
 here with us today. So if you're
 
-1204
-00:58:40,414 --> 00:58:42,379
+932
+00:58:40,414 --> 00:58:44,344
 listening, please go ahead and
-follow Chad on Twitter and
+follow Chad on Twitter and follow
 
-1205
-00:58:42,379 --> 00:58:44,344
-follow
-
-1206
+933
 00:58:44,344 --> 00:58:47,884
 Tech is Hiring and make sure to
 subscribe to his newsletter.
 
-1207
+934
 00:58:47,884 --> 00:58:51,873
 We'll have links to all of those
 things in our show note. We will
 
-1208
+935
 00:58:52,293 --> 00:58:53,134
 see you next time.
 
-1209
+936
 00:58:53,864 --> 00:58:54,753
 Dan: Thank you, Chad. Thank
 
-1210
+937
 00:58:55,233 --> 00:58:55,623
 Chad: you, have
 
-1211
+938
 00:58:55,684 --> 00:58:55,733
 Dan: a
 
-1212
+939
 00:58:55,903 --> 00:58:56,353
 Chad: good
 
-1213
-00:58:56,804 --> 00:58:59,645
-Dan: one. Thank you for
-listening to this episode of the
+940
+00:58:56,804 --> 00:59:02,487
+Dan: one. Thank you for listening
+to this episode of the Virtual
 
-1214
-00:58:59,645 --> 00:59:02,486
-Virtual
-
-1215
+941
 00:59:02,487 --> 00:59:06,233
 Coffee Podcast. This episode was
 produced by Dan Ott and Bekah
 
-1216
-00:59:06,233 --> 00:59:07,622
+942
+00:59:06,233 --> 00:59:09,012
 Hawrot Weigel. If you have
-questions or comments you can
+questions or comments you can hit
 
-1217
-00:59:07,622 --> 00:59:09,011
-hit
-
-1218
+943
 00:59:09,012 --> 00:59:12,023
 us up on Twitter at
 VirtualCoffeeIO, or email us at
 
-1219
-00:59:12,023 --> 00:59:13,757
-podcast@virtualcoffee.io. You
-can find the show notes, sign up
+944
+00:59:12,023 --> 00:59:15,492
+podcast@virtualcoffee.io. You can
+find the show notes, sign up for
 
-1220
-00:59:13,757 --> 00:59:15,491
-for
-
-1221
+945
 00:59:15,492 --> 00:59:17,532
 the newsletter, check out any of
 our other resources on our
 
-1222
+946
 00:59:17,532 --> 00:59:20,922
 website VirtualCoffee.io. If
 you're interested in sponsoring
 
-1223
+947
 00:59:20,922 --> 00:59:23,322
 virtual coffee you can find out
 more information on our website
 
-1224
+948
 00:59:23,592 --> 00:59:28,032
 at VirtualCoffee.io/sponsorship.
 Please subscribe to our podcast
 
-1225
-00:59:28,063 --> 00:59:29,668
-and be sure to leave us a
-review. Thanks for listening and
+949
+00:59:28,063 --> 00:59:31,273
+and be sure to leave us a review.
+Thanks for listening and we'll
 
-1226
-00:59:29,668 --> 00:59:31,273
-we'll
-
-1227
+950
 00:59:31,273 --> 00:59:32,112
 see you next week!
