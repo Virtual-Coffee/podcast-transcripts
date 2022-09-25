@@ -7,5805 +7,6177 @@ welcome to Season 6, Episode 6
 00:00:12,000 --> 00:00:12,586
 of the
 
-2
-00:00:12,586 --> 00:00:17,426
-Virtual Coffee Podcast. I'm
-Bekah. And this is a podcast that
-
 3
+00:00:12,586 --> 00:00:15,006
+Virtual Coffee Podcast. I'm
+Bekah. And this is a podcast
+
+4
+00:00:15,006 --> 00:00:17,426
+that
+
+5
 00:00:17,426 --> 00:00:21,266
 features members of the Virtual
 Coffee community. Virtual Coffee
 
-4
-00:00:21,266 --> 00:00:24,356
+6
+00:00:21,266 --> 00:00:22,811
 is an intimate group of
-developers at all stages of their
+developers at all stages of
 
-5
+7
+00:00:22,811 --> 00:00:24,356
+their
+
+8
 00:00:24,356 --> 00:00:26,937
 coding journey. And they're here
 on this podcast, sharing their
 
-6
-00:00:26,937 --> 00:00:31,407
-stories and what they've learned.
-Here -- and we're here to share it
+9
+00:00:26,937 --> 00:00:29,172
+stories and what they've
+learned. Here -- and we're here
 
-7
+10
+00:00:29,172 --> 00:00:31,407
+to share it
+
+11
 00:00:31,411 --> 00:00:34,300
 with you. Here with me-
 
-8
+12
 00:00:34,300 --> 00:00:34,700
 Dan: You've said it [??].
 
-9
+13
 00:00:34,700 --> 00:00:36,402
 Bekah: -[laughs] is my cohost,
 Dan.
 
-8
+14
 00:00:37,496 --> 00:00:38,637
 Dan Ott: Hey, Bekah. How's it
 going?
 
-9
+15
 00:00:39,551 --> 00:00:40,572
 Bekah: Hey. It's fantastic
 [chuckles].
 
-10
+16
 00:00:42,896 --> 00:00:46,256
 Dan: [Laughs] Yes. We are in a
 silly mood cuz we just finished
 
-11
+17
 00:00:46,262 --> 00:00:51,057
 recording with Julia Seidman.
 Developer, educator, she's
 
-12
+18
 00:00:51,146 --> 00:00:53,966
 independent consultant, and
 she's had really long and
 
-13
-00:00:53,966 --> 00:00:58,046
+19
+00:00:53,966 --> 00:00:56,006
 interesting career, couple
-different roles. And- and it was a
+different roles. And- and it was
 
-14
+20
+00:00:56,006 --> 00:00:58,046
+a
+
+21
 00:00:58,046 --> 00:01:00,447
 really good time. It was a very
 silly time as well. So, we-
 
-15
+22
 00:01:00,506 --> 00:01:02,906
-we- we had a good time talking to
-Julia, as always.
+we- we had a good time talking
+to Julia, as always.
 
-16
+23
 00:01:03,307 --> 00:01:05,966
-Bekah: We did. We had a- a
-deep dive into our intro
+Bekah: We did. We had a- a deep
+dive into our intro
 
-17
-00:01:05,966 --> 00:01:09,417
-question. So I think that we have
-set the record for longest ever
+24
+00:01:05,966 --> 00:01:07,691
+question. So I think that we
+have set the record for longest
 
-18
+25
+00:01:07,691 --> 00:01:09,416
+ever
+
+26
 00:01:09,417 --> 00:01:14,066
-intro because we explored quite a
-few tangents.
+intro because we explored quite
+a few tangents.
 
-19
-00:01:15,296 --> 00:01:18,867
+27
+00:01:15,296 --> 00:01:17,081
 Dan: Yes. But we learned some
-things along the way, right [chuckles]?
+things along the way, right
 
-20
+28
+00:01:17,081 --> 00:01:18,866
+[chuckles]?
+
+29
 00:01:19,557 --> 00:01:23,277
 Bekah: We did. Some very- very
 interesting things about
 
-21
+30
 00:01:23,277 --> 00:01:27,716
 exploring different technologies
 as developer educator, and what
 
-22
+31
 00:01:27,716 --> 00:01:28,316
 that career path looks like.
 
-23
+32
 00:01:29,456 --> 00:01:30,281
 Dan: Mm-hmm. And also --
 
-24
-00:01:30,281 --> 00:01:33,611
-Bekah: Also about rhodium. [Dan laughs] You gotta-
-you gotta listen the end of the
+33
+00:01:30,281 --> 00:01:31,946
+Bekah: Also about rhodium. [Dan
+laughs] You gotta- you gotta
 
-25
+34
+00:01:31,946 --> 00:01:33,611
+listen the end of the
+
+35
 00:01:33,611 --> 00:01:34,700
 episode, though. If you wanna-
 
-26
+36
 00:01:34,700 --> 00:01:35,300
 Dan: You did that [laughs].
 
-27
+37
 00:01:35,000 --> 00:01:35,632
 Bekah: -know about rhodium.
 
-26
+38
 00:01:38,126 --> 00:01:41,516
 Dan: Yeah. No. Julia has a- a
 really great outlook on
 
-27
+39
 00:01:41,576 --> 00:01:43,647
 pretty much everything, you
 know? She talks a lot about how
 
-28
-00:01:43,652 --> 00:01:47,277
+40
+00:01:43,652 --> 00:01:45,464
 education is important in her
-writing process. And- and she has
+writing process. And- and she
 
-29
-00:01:47,277 --> 00:01:53,216
+41
+00:01:45,464 --> 00:01:47,276
+has
+
+42
+00:01:47,277 --> 00:01:50,246
 this -- I don't know if it's a
-ethos or whatever, but [laughs] she
+ethos or whatever, but [laughs]
 
-30
-00:01:53,216 --> 00:01:59,052
-says, "Embrace the careen over the
-career," right? And I, as another
+43
+00:01:50,246 --> 00:01:53,215
+she
 
-31
-00:01:59,052 --> 00:02:02,221
-person who -- I never thought about
-it like that exactly. But, I
+44
+00:01:53,216 --> 00:01:56,134
+says, "Embrace the careen over
+the career," right? And I, as
 
-32
+45
+00:01:56,134 --> 00:01:59,052
+another
+
+46
+00:01:59,052 --> 00:02:00,636
+person who -- I never thought
+about it like that exactly. But,
+
+47
+00:02:00,636 --> 00:02:02,220
+I
+
+48
 00:02:02,227 --> 00:02:04,811
 very much appreciate that- that
 look in life. I think it's
 
-33
+49
 00:02:04,811 --> 00:02:09,372
-very healthy one too. So,
-yeah. I don't know. I -- it was- it
+very healthy one too. So, yeah.
+I don't know. I -- it was- it
 
-34
-00:02:09,377 --> 00:02:12,877
+50
+00:02:09,377 --> 00:02:11,127
 was a good time, and it was fun.
-So I -- this is -- I'm horrible at
+So I -- this is -- I'm horrible
 
-35
-00:02:12,877 --> 00:02:15,098
-ending things. This is [Bekah laughs] -- I- I -- it hasn't gotten better.
+51
+00:02:11,127 --> 00:02:12,877
+at
 
-36
+52
+00:02:12,877 --> 00:02:13,987
+ending things. This is [Bekah
+laughs] -- I- I -- it hasn't
+
+53
+00:02:13,987 --> 00:02:15,097
+gotten better.
+
+54
 00:02:15,983 --> 00:02:20,212
 Bekah: I think that's probably
 my- my job to pick up with. We
 
-37
+55
 00:02:20,212 --> 00:02:23,272
 start every episode of the
 podcast like we start every
 
-38
+56
 00:02:23,277 --> 00:02:26,122
 Virtual Coffee. We introduce
 ourselves with our name,where
 
-39
+57
 00:02:26,122 --> 00:02:31,673
 we're from, what we do, and a
 random check-in question. And we
 
-40
-00:02:31,673 --> 00:02:44,288
-hope that you enjoy this episode.
-Our intro question today is if
+58
+00:02:31,673 --> 00:02:37,980
+hope that you enjoy this
+episode. Our intro question
 
-41
+59
+00:02:37,980 --> 00:02:44,287
+today is if
+
+60
 00:02:44,288 --> 00:02:49,268
 you could have an unlimited
 supply of one non-food thing for
 
-42
-00:02:49,268 --> 00:02:56,198
-the rest of your life, what would
-it be? My name is Bekah. I am a
+61
+00:02:49,268 --> 00:02:52,733
+the rest of your life, what
+would it be? My name is Bekah. I
 
-43
-00:02:56,198 --> 00:03:06,000
-technical community builder at a sm-
-[laughs] it's not what I normally say.
+62
+00:02:52,733 --> 00:02:56,198
+am a
 
-44
+63
+00:02:56,198 --> 00:03:01,099
+technical community builder at a
+sm- [laughs] it's not what I
+
+64
+00:03:01,099 --> 00:03:06,000
+normally say.
+
+65
 00:03:06,000 --> 00:03:07,027
 Dan: What?
 
-44
+66
 00:03:07,027 --> 00:03:07,300
 Bekah: I don't know. Hi-
 
-45
-00:03:07,300 -> 00:03:08,000
+67
+00:03:07,300 --> 00:03:08,000
 Julia Seidman: [Unintelligible].
 
-46
+68
 00:03:08,000 --> 00:03:08,587
 Bekah: -I'm Bekah
 
-45
+69
 00:03:10,388 --> 00:03:10,957
 Dan: It- it sounded good.
 
-46
-00:03:12,217 --> 00:03:15,247
-Bekah: It -- but it was like -- I don't --
-that's just not what I normally
+70
+00:03:12,217 --> 00:03:13,732
+Bekah: It -- but it was like --
+I don't -- that's just not what
 
-47
+71
+00:03:13,732 --> 00:03:15,247
+I normally
+
+72
 00:03:15,247 --> 00:03:17,918
 say. And then my brain was like,
 "What are you doing? This is not
 
-48
+73
 00:03:17,918 --> 00:03:20,807
-how we do this thing."
-Alright, brain --
+how we do this thing." Alright,
+brain --
 
-49
+74
 00:03:20,918 --> 00:03:23,048
 Dan: That's what my brain does
 every time, except that there's
 
-50
+75
 00:03:23,048 --> 00:03:24,247
 not a normal thing that it
 suppose to be doing.
 
-51
+76
 00:03:24,277 --> 00:03:26,798
 Bekah: Well, that's because you
 don't know what you do. You're
 
-52
+77
 00:03:26,798 --> 00:03:28,358
 very confused about --
 
-53
+78
 00:03:29,578 --> 00:03:32,467
 Julia: Same. Same.
 
-54
+79
 00:03:32,997 --> 00:03:36,277
 Bekah: Hi, I'm Bekah. I'm a
 technical community builder at
 
-55
+80
 00:03:36,277 --> 00:03:41,078
 DeepGram, from a small town in
 Ohio, and an unlimited supply of
 
-56
-00:03:41,078 --> 00:03:49,837
+81
+00:03:41,078 --> 00:03:45,457
 one nod food thing for the rest
-of my life [silence] I -- this is just,
+of my life [silence] I -- this
 
-57
+82
+00:03:45,457 --> 00:03:49,836
+is just,
+
+83
 00:03:49,837 --> 00:03:53,737
 I don't know where to go with
 this. I really like
 
-58
-00:03:53,768 --> 00:03:59,707
+84
+00:03:53,768 --> 00:03:56,737
 n-notebooks and pens, but that's
-two things. So that should it be,
+two things. So that should it
 
-59
+85
+00:03:56,737 --> 00:03:59,706
+be,
+
+86
 00:03:59,707 --> 00:04:03,397
 like, practical and does it just
 automatically appear? Because
 
-60
+87
 00:04:03,397 --> 00:04:07,298
 like, I, for a long time, kept
 forgetting to buy light bulbs.
 
-61
+88
 00:04:07,302 --> 00:04:10,927
 And so we were in the dark all
 the time. So -- or like triple A
 
-62
+89
 00:04:10,927 --> 00:04:13,358
-batteries. I don't -- I'm just --
+batteries. I don't -- I'm just
+--
 
-63
+90
 00:04:13,432 --> 00:04:13,832
 Julia: Oh, that's a good one.
 
-64
+91
 00:04:15,518 --> 00:04:16,867
 Bekah: And non food items. All I
 really wanted is-
 
-65
+92
 00:04:16,942 --> 00:04:17,392
 Julia: Always have double A's.
 
-66
+93
 00:04:17,528 --> 00:04:17,858
 Bekah: -non food [laughs].
 
-67
+94
 00:04:18,622 --> 00:04:20,833
 Julia: I always have double A's.
 Never have triple A's.
 
-68
+95
 00:04:21,007 --> 00:04:24,007
 Bekah: Yeah, exactly. Or like
 that one time you need a D
 
-69
+96
 00:04:24,007 --> 00:04:26,500
 battery and I'm like, "What
 the?" No, I don't have a D
 
-70
+97
 00:04:26,500 --> 00:04:28,940
 battery. So I don't --
 
-71
-00:04:28,956 --> 00:04:30,995
-Julia: Or you wanna show your kid
-what happens when you look at nine
+98
+00:04:28,956 --> 00:04:29,975
+Julia: Or you wanna show your
+kid what happens when you look
 
-72
+99
+00:04:29,975 --> 00:04:30,994
+at nine
+
+100
 00:04:30,995 --> 00:04:34,076
 volt and you don't have a nine
 volt.
 
-73
+101
 00:04:34,456 --> 00:04:35,000
 Bekah: [Laughs] Am I supposed-
 
-74
+102
 00:04:35,000 --> 00:04:35,500
 Dan: Yeah. True.
 
-75
+103
 00:04:35,300 --> 00:04:35,990
 Bekah: -to show my kid that?
 
-74
+104
 00:04:37,281 --> 00:04:39,576
 Julia: I don't know. I feel like
 it's a right of passage.
 
-75
+105
 00:04:40,011 --> 00:04:42,321
 Bekah: I don't even understand
 what that -- I've never heard of
 
-76
+106
 00:04:42,321 --> 00:04:42,800
 that.
 
-77
+107
 00:04:43,475 --> 00:04:44,495
-Dan: Go try it. See what happens.
+Dan: Go try it. See what
+happens.
 
-78
+108
 00:04:44,630 --> 00:04:45,891
 Bekah: I don't have a nine volt
 [Bekah and Dan laugh].
 
-80
+109
 00:04:53,500 --> 00:04:55,700
 Julia: My dad was a science
 teacher. We do a lot of
 
-81
+110
 00:04:55,700 --> 00:04:57,156
 questionable things.
 
-81
-00:04:57,500 --> 00:05:01,071
-Bekah: Dry ice is really fun. You
-can do -- my dad was a pharmacist.
+111
+00:04:57,500 --> 00:04:59,285
+Bekah: Dry ice is really fun.
+You can do -- my dad was a
 
-82
-00:05:01,071 --> 00:05:04,281
+112
+00:04:59,285 --> 00:05:01,070
+pharmacist.
+
+113
+00:05:01,071 --> 00:05:02,676
 I remember, like, sometimes he
-would bring home dry ice. I don't know. Like,
+would bring home dry ice. I
 
-83
+114
+00:05:02,676 --> 00:05:04,281
+don't know. Like,
+
+115
 00:05:04,790 --> 00:05:07,071
 something shipped in it. I'm
 like, "This is the coolest thing
 
-84
+116
 00:05:07,071 --> 00:05:09,891
-ever." I'll just go with dry ice.
-I'm gonna have an unlimited
+ever." I'll just go with dry
+ice. I'm gonna have an unlimited
 
-85
+117
 00:05:09,891 --> 00:05:12,300
 supply of dry ice for the rest
 of my life [laughs]. I don't
 
-86
+118
 00:05:12,300 --> 00:05:13,900
 know what I'm gonna do with it.
 But that's what I'm gonna go
 
-87
+119
 00:05:13,900 --> 00:05:14,060
 with [Bekah and Julia laugh].
 
-86
+120
 00:05:16,836 --> 00:05:20,315
-Dan: Alright. Well, you'll
-have lots of ... well, steam or,
+Dan: Alright. Well, you'll have
+lots of ... well, steam or,
 
-87
+121
 00:05:20,346 --> 00:05:22,206
-well, that's not really steam, is
-it? It's the --
+well, that's not really steam,
+is it? It's the --
 
-88
+122
 00:05:22,286 --> 00:05:23,000
 Julia: It -- the- the-
 
-89
+123
 00:05:23,000 --> 00:05:23,300
 Dan: Steam?
 
-90
+124
 00:05:23,300 --> 00:05:25,805
 Julia: -chemical process is
 called sublimation.
 
-89
+125
 00:05:26,975 --> 00:05:28,475
 Dan: Yeah, but what is the thing
 called? The --
 
-90
+126
 00:05:28,685 --> 00:05:28,800
 Julia: It's- it's --
 
-91
+127
 00:05:28,800 --> 00:05:29,500
 Dan: Double mates?
 
-90
+128
 00:05:29,500 --> 00:05:32,700
-Julia: -steam. It's when a
-solid [unintelligible].
+Julia: -steam. It's when a solid
+[unintelligible].
 
-91
+129
 00:05:31,235 --> 00:05:32,500
 Dan: It's steam. Okay. I-it's
 steam. Okay. Yeah, yeah. Yeah.
 
-92
+130
 00:05:33,000 --> 00:05:33,300
 Julia: Yeah.
 
-93
+131
 00:05:33,300 --> 00:05:36,755
 Dan: All right. Cool. Hi
 [laughs], I
 
-92
+132
 00:05:36,761 --> 00:05:43,896
 am Dan. I do stuff. I- I am a
 independent, computer person,
 
-93
+133
 00:05:44,826 --> 00:05:50,315
 developer guy. Yeah, I'm from
 Cleveland. And, yeah. I think,
 
-94
+134
 00:05:50,346 --> 00:05:52,625
 time is what I'm going with.
 That would be the thing that
 
-95
+135
 00:05:52,625 --> 00:05:53,300
 I have at the moment
 [unintelligible].
 
-95
+136
 00:05:52,745 --> 00:05:54,005
 Bekah: Oh, that's not fair.
 That's cheating [Bekah and
 
-96
+137
 00:05:54,005 --> 00:05:55,000
 Julia laughs] [unintelligible]
 all.
 
-96
+138
 00:05:56,675 --> 00:05:59,946
 Dan: Listen, it's not food.
 That's the only -- that was the
 
-97
+139
 00:05:59,946 --> 00:06:02,706
 only rule. All right, fine.
 
-98
+140
 00:06:03,045 --> 00:06:04,700
 Julia: That's time. Time. I
 mean, time- time is infinite,
 
-99
+141
 00:06:04,700 --> 00:06:04,855
 Dan [Bekah laughs].
 
-99
+142
 00:06:05,826 --> 00:06:08,700
 Dan: Hmm. But I don't have an
 infinite supply of it.
 
-100
+143
 00:06:09,000 --> 00:06:09,700
 Bekah: Well --
 
-101
+144
 00:06:09,700 --> 00:06:10,300
 Dan: See?
 
-100
+145
 00:06:11,315 --> 00:06:14,185
-Bekah: You want free time. That's
-what you're asking for.
+Bekah: You want free time.
+That's what you're asking for.
 
-101
+146
 00:06:15,336 --> 00:06:16,115
 Dan: I want more time.
 
-102
+147
 00:06:16,716 --> 00:06:17,776
 Julia: You wanna loop forever?
 
-103
+148
 00:06:19,175 --> 00:06:19,700
 Dan: [Laughs] No.
 
-104
+149
 00:06:20,000 --> 00:06:21,000
 Bekah: I would hate loop
 forever.
 
-105
+150
 00:06:20,500 --> 00:06:23,555
 Dan: No, that doesn't sound good
 either. Yeah, no, no, no.
 
-104
+151
 00:06:23,586 --> 00:06:28,956
 Alright, fine. How about ... can
 I sell the thing? Is it --
 
-105
+152
 00:06:29,031 --> 00:06:29,521
 Julia: Sure.
 
-106
+153
 00:06:29,795 --> 00:06:31,776
 Dan: Can I do ... I mean --
 
-107
+154
 00:06:32,120 --> 00:06:33,380
 Bekah: No drugs. You can't sell
 drugs.
 
-108
+155
 00:06:33,516 --> 00:06:33,700
 Dan: Can I do-
 
-109
+156
 00:06:33,700 --> 00:06:34,000
 Bekah: Nothing illegal.
 
-110
+157
 00:06:34,000 --> 00:06:37,536
 Dan: -money? Nothing illegal?
 What is this? You're
 
-109
+158
 00:06:37,536 --> 00:06:40,000
 putting all these rules in that
 didn't exist [chuckles].
 
-00:06:41,300 --> 00:06:42,000
+159
+00:06:41,000 --> 00:06:42,700
 Bekah: It was in the fine print.
 
-00:06:43,500 --> 00:06:45,125
+160
+00:06:43,700 --> 00:06:48,000
 Dan: Bo- gold. One of those
 things called ... Doubloons.
 
-110
-00:06:45,125 --> 00:06:49,000
-Dan: Yep. That's it.
+161
+00:06:48,000 --> 00:06:49,000
+Yep. That's it.
 
-111
+162
 00:06:49,000 --> 00:06:50,700
 Bekah: Doubloons? Like
 [inaudible]?
 
-112
+163
 00:06:51,000 --> 00:06:53,286
 Dan: [Laughs] Like a pirate.
 [Julia and Bekah laugh] And then
 
-111
+164
 00:06:53,286 --> 00:06:55,500
 I'll sell 'em when I need more
 money and the-
 
-112
+165
 00:06:55,500 --> 00:06:56,000
 Julia: Why doubl-
 
-113
+166
 00:06:56,000 --> 00:06:59,000
 Dan: -infinite supply. Yeah
 [laughs].
 
-114
+167
 00:06:59,700 --> 00:07:07,000
 Julia: Okay.
 
-112
+168
 00:07:01,000 --> 00:07:03,000
-Dan: It's the most practical
-way to transport gold [laughs].
+Dan: It's the most practical way
+to transport gold [laughs].
 
-113
+169
 00:07:03,700 --> 00:07:04,300
 Bekah: What is happening?
 
-114
+170
 00:07:06,000 --> 00:07:06,786
 Dan: Yeah. And,
 
-113
+171
 00:07:06,786 --> 00:07:09,516
 you know, I could fill up a pool
 and go swimming in it,
 
-114
+172
 00:07:09,516 --> 00:07:13,326
 Scrooge McDuck style. I could
 sell them, you know, when I
 
-115
+173
 00:07:13,331 --> 00:07:18,846
 needed more money for things. I
 could probably make jewelry out
 
-116
+174
 00:07:18,846 --> 00:07:23,225
 of them — Doubloons, you know?
 Is that, you know --
 
-117
+175
 00:07:23,255 --> 00:07:25,000
 Bekah: Listen. Just for
 reference. We are recording this
 
-118
+176
 00:07:25,000 --> 00:07:27,700
 on a Thursday at 1.30 Eastern-
 
-119
+177
 00:07:27,700 --> 00:07:27,995
 Dan: Mm-hmm.
 
-118
+178
 00:07:27,995 --> 00:07:30,336
 Bekah: -in the afternoon. We are
 not even like-
 
-119
+179
 00:07:31,216 --> 00:07:31,625
 Julia: No one's --
 
-120
+180
 00:07:31,625 --> 00:07:33,500
 Bekah: -to a point where we
 should be [laughs] having
 
-121
+181
 00:07:33,500 --> 00:07:34,700
 this conversation.
 
-120
+182
 00:07:34,776 --> 00:07:38,105
 Dan: I- I went home for lunch
 just before this and opened
 
-121
+183
 00:07:38,105 --> 00:07:41,511
 my fridge to get a soda. And
 definitely took a hard look at
 
-122
+184
 00:07:41,511 --> 00:07:46,190
 the beer [laughs]. I chose not
 to today. But I- I- I was like,
 
-123
+185
 00:07:46,190 --> 00:07:50,031
 "It's been that kind of week."
 I- I- I took a look at it. So I
 
-124
+186
 00:07:50,031 --> 00:07:51,300
 decided to wait to later. But-
 
-125
+187
 00:07:51,300 --> 00:07:51,500
 Julia: Oh, my god.
 
-126
+188
 00:07:51,500 --> 00:07:53,120
 Dan: -I actually got my first,
 like, full night sleep last
 
-125
+189
 00:07:53,125 --> 00:07:54,951
 night in, I don't know, at least
 a week.
 
-126
+190
 00:07:55,185 --> 00:07:56,975
 Bekah: Oh, your brain doesn't
 know what to do with itself now.
 
-127
+191
 00:07:57,000 --> 00:07:58,700
 It's very confused.
 
-127
+192
 00:07:57,201 --> 00:07:59,000
 Dan: I know, I know. I have lots
 of energy today, so -- anyway-
 
-128
+193
 00:07:59,000 --> 00:07:59,200
 Bekah: Doubloons.
 
-128
+194
 00:07:59,300 --> 00:08:04,000
 Dan: -me and my gold Doubloons
 are gonna, you know? That's what
 
-129
+195
 00:08:04,000 --> 00:08:04,581
 we're gonna do.
 
-129
+196
 00:08:05,096 --> 00:08:06,466
 Bekah: Good luck, Julia. It's
 your turn [laughs].
 
-130
+197
 00:08:07,206 --> 00:08:11,886
 Julia: Yeah. I have a lot of
 thoughts now. My name's Julia
 
-131
+198
 00:08:12,576 --> 00:08:19,700
 Seidman. I am ... [sigh] I don't
 know. I guess I call my --
 
-132
+199
 00:08:19,700 --> 00:08:20,555
 I -- lately, I've been
 
-132
+200
 00:08:20,555 --> 00:08:26,235
 calling myself a developer
 educator. I'm kind of -- mainly,
 
-133
+201
 00:08:26,495 --> 00:08:34,505
 what I do is I work with API
 companies to create sample apps,
 
-134
+202
 00:08:34,505 --> 00:08:38,495
 and getting started guides and
 tutorials, and generally help
 
-135
+203
 00:08:38,500 --> 00:08:43,500
 them, like, improve their
 developer experience, with
 
-136
+204
 00:08:43,500 --> 00:08:46,000
 specifically, like, with an eye
 towards onboarding new
 
-137
+205
 00:08:46,000 --> 00:08:46,775
 developers, but
 
-137
+206
 00:08:46,775 --> 00:08:50,375
 also, like, trying to create
 content that inspires
 
-138
+207
 00:08:50,870 --> 00:08:59,750
 creativity. So, I write code,
 and I write about code, and,
 
-139
-00:09:00,471 --> 00:09:08,571
+208
+00:09:00,471 --> 00:09:04,521
 yeah. I ... [sigh] if I had an
-unlimited supply of something. So
+unlimited supply of something.
 
-140
-00:09:09,890 --> 00:09:16,791
-I was gonna say sunscreen because
-I compulsively buy sunscreen,
+209
+00:09:04,521 --> 00:09:08,571
+So
 
-141
+210
+00:09:09,890 --> 00:09:13,340
+I was gonna say sunscreen
+because I compulsively buy
+
+211
+00:09:13,340 --> 00:09:16,790
+sunscreen,
+
+212
 00:09:17,091 --> 00:09:21,321
 like, in enormous quantities.
 Every time I see it, I'm like,
 
-142
+213
 00:09:21,350 --> 00:09:25,610
 "Oh, I should probably buy more
 sunscreen." But I don't ever
 
-143
+214
 00:09:25,610 --> 00:09:31,250
 actually remember to use it. And
 I'm imagining that if I had an
 
-144
+215
 00:09:31,250 --> 00:09:35,600
 unlimited supply that just like
 materialized, then maybe I would
 
-145
+216
 00:09:35,605 --> 00:09:38,841
 actually remember to use the
 sunblock and I would stop
 
-146
+217
 00:09:38,841 --> 00:09:41,300
 spending so much money on
 sunblock-
 
-147
+218
 00:09:41,300 --> 00:09:41,500
 Bekah: Mm-hmm.
 
-148
+219
 00:09:41,500 --> 00:09:44,030
 Julia: -that doesn't get used.
 
-147
+220
 00:09:44,691 --> 00:09:53,405
 But, then I thought, there are
 rare earth metals that are much
 
-148
+221
 00:09:53,405 --> 00:10:55,700
 more valuable per ounce than
 gold.
 
-149
-00:10:56,000 --> 00:10:57,700 
+222
+00:10:56,000 --> 00:10:57,700
 Dan: Yeah, but they
 [unintelligible] Doubloons.
 
-150
-00:10:56,500 --> 00:10:02,285
+223
+00:10:56,500 --> 00:10:56,501
 Julia: And if I'm allowed sell
 the thing, and
 
-149
+224
 00:10:02,285 --> 00:10:05,796
 especially if I could like have
 rare earth metals without the
 
-150
+225
 00:10:05,796 --> 00:10:09,605
 environmental costs of mining
 them, and like, the, like, child
 
-151
-00:10:09,605 --> 00:10:13,956
+226
+00:10:09,605 --> 00:10:11,780
 labor costs of mining them, and
-all of that, then- then that's --
+all of that, then- then that's
 
-152
+227
+00:10:11,780 --> 00:10:13,955
+--
+
+228
 00:10:13,956 --> 00:10:16,700
 that -- that'd be really good.
 So, I think -- I'm not sure
 
-153
+229
 00:10:16,700 --> 00:10:23,735
 which rare earth metal, I have
 to do my research. But some --
 
-154
+230
 00:10:23,735 --> 00:10:24,500
 yeah, that's what I'm thinking.
 
-155
+231
 00:10:24,700 --> 00:10:27,300
 Dan: Yes. I thought of another
 answer.
 
-156
+232
 00:10:28,000 --> 00:10:28,300
 Julia: Okay.
 
-157
+233
 00:10:28,500 --> 00:10:29,700
 Dan: E-energy. That'd be my --
 that was my-
 
-158
+234
 00:10:30,000 --> 00:10:30,300
 Bekah: Ohh.
 
-156
+235
 00:10:30,500 --> 00:10:34,520
 Dan: -last one, but, yeah. Cuz I
 could sell that too, honestly.
 
-157
+236
 00:10:34,520 --> 00:10:35,000
 But I could also, you know-
 
-158
+237
 00:10:35,000 --> 00:10:35,300
 Julia: What?
 
-159
+238
 00:10:35,500 --> 00:10:35,990
 Dan: -power all-
 
-158
+239
 00:10:36,426 --> 00:10:36,696
 Bekah: Whoa. I was thinking-
 
-159
+240
 00:10:36,890 --> 00:10:38,541
 Dan: -power all my ba- my
 battery things.
 
-160
+241
 00:10:37,000 --> 00:10:39,700
 Bekah: -like, energy to get
 through the day. You're
 
-00:10:39,700 --> 00:10:39,966
+242
+00:10:39,700 --> 00:10:40,221
 thinking of-
 
-161
+243
 00:10:40,221 --> 00:10:42,260
 Dan: Oh, personal energy? Oh,
 no, no, no. I meant, like --
 
-162
+244
 00:10:42,346 --> 00:10:42,956
 Bekah: -like, solar energy
 [laughs].
 
-163
+245
 00:10:42,956 --> 00:10:43,110
 Julia: Like, electricity.
 
-163
+246
 00:10:43,110 --> 00:10:45,700
 Dan: You -- you'll -- yeah,
 well, you know. Not -- don't
 
-164
+247
 00:10:45,700 --> 00:10:46,461
 have to be
 
-164
+248
 00:10:46,461 --> 00:10:48,711
 electricity. Just energy, you
 know? I can convert it into,
 
-165
+249
 00:10:48,711 --> 00:10:52,821
 like, electricity if I want. I
 can convert it into ... probably
 
-166
+250
 00:10:52,826 --> 00:10:53,331
 other things.
 
-167
+251
 00:10:53,615 --> 00:10:54,216
 Bekah: To be able to make you
 fast [chuckles]?
 
-168
+252
 00:10:55,760 --> 00:10:59,931
 Dan: Well, no. Probably could
 power a thing that, maybe, fast,
 
-169
+253
 00:10:59,931 --> 00:11:05,000
 you know? You know? So, yeah.
 That's it- that's it. That's-
 
-170
+254
 00:11:05,000 --> 00:11:05,300
 Bekah: Alright.
 
-170
+255
 00:11:05,300 --> 00:11:07,000
 Dan: -that's gotta be the real
 answer [chuckles].
 
-171
+256
 00:11:08,000 --> 00:11:08,200
 Bekah: Excellent.
 
-170
+257
 00:11:08,100 --> 00:11:10,490
-Dan: I- I- I do wanna
-know where these things come
+Dan: I- I- I do wanna know where
+these things come
 
-171
+258
 00:11:10,490 --> 00:11:11,700
 from, you know? Cuz -- because-
 
-172
+259
 00:11:12,000 --> 00:11:13,800
 Bekah: I wanna know where Julia
 gonna support her-
 
-173
+260
 00:11:12,500 --> 00:11:13,941
 Dan: -it's, like, unlimited
 supply.
 
-172
+261
 00:11:14,076 --> 00:11:17,500
 Bekah: -unlimited
 [unintelligible].
 
-173
+262
 00:11:16,400 --> 00:11:19,700
-Dan: Well, is it -- it not --
-is it -- unlimited supply, I
+Dan: Well, is it -- it not -- is
+it -- unlimited supply, I
 
-174
+263
 00:11:19,700 --> 00:11:21,700
 mean, yeah. Does it mean, like
 -- oh, you were asking about
 
-175
+264
 00:11:21,700 --> 00:11:23,270
 this too? Does it just, like,
 
-175
+265
 00:11:23,390 --> 00:11:25,551
 one appear when you need it? Or
 is it like --
 
-176
+266
 00:11:26,326 --> 00:11:27,500
 Julia: Yeah. [Unintelligible]-
 
-177
+267
 00:11:27,500 --> 00:11:28,700
 Dan: I mean it's an -- you know-
 
-178
+268
 00:11:28,000 --> 00:11:29,000
 Julia: -closet. Every time-
 
-177
+269
 00:11:29,300 --> 00:11:29,721
 Dan: -it has to be like that.
 
-177
+270
 00:11:29,500 --> 00:11:30,000
 Julia: -I'm looking at
 [unintelligible].
 
-178
+271
 00:11:29,700 --> 00:11:29,806
 Dan: Right.
 
-178
+272
 00:11:29,806 --> 00:11:32,936
 Bekah: Yeah. That's what I was
 imagining. A closet of
 
-179
+273
 00:11:32,936 --> 00:11:33,000
 [Julia laughs] --
 
-179
+274
 00:11:32,961 --> 00:11:36,591
 Dan: Yeah. Yeah. Cool. Yeah. So
 they don't -- yes. Nobody's
 
-180
+275
 00:11:36,596 --> 00:11:38,000
 mining them or- or- or making
 this sunblocker-
 
-181
+276
 00:11:38,000 --> 00:11:38,300
 Julia: Yeah.
 
-182
+277
 00:11:38,300 --> 00:11:38,750
 Dan: -or whatever.
 
-181
+278
 00:11:38,775 --> 00:11:39,265
 Julia: Yeah.
 
-182
+279
 00:11:39,410 --> 00:11:39,650
 Dan: Yeah.
 
-183
+280
 00:11:40,535 --> 00:11:43,385
 Julia: As far as I know,
 manufacturing sunblock is not,
 
-184
+281
 00:11:43,385 --> 00:11:43,806
 like-
 
-185
+282
 00:11:44,000 --> 00:11:44,931
 Dan: We need Kirk on this.
 
-186
+283
 00:11:45,306 --> 00:11:47,105
 Julia: -[inaudible]
 environmentally costly, but --
 
-187
+284
 00:11:47,841 --> 00:11:47,990
 Dan: I [inaudible].
 
-188
+285
 00:11:48,035 --> 00:11:49,500
 Bekah: We should -- that should
 be our last episode of this
 
-189
+286
 00:11:49,500 --> 00:11:51,936
 season. Should just be Kirk's
 questions that we answer.
 
-190
+287
 00:11:55,221 --> 00:11:57,561
 Dan: Oh, man. Kirk, if he was
 there for that, would just have
 
-191
+288
 00:11:57,566 --> 00:11:59,010
 an aneurysm, I think, by the end
 of it [laughs].
 
-192
+289
 00:12:01,160 --> 00:12:03,500
 Bekah: [Laughs] So, if you are
 listening and you have not
 
-193
-00:12:03,500 --> 00:12:06,711
-experienced a Kirk question, when
-we do these questions before
+290
+00:12:03,500 --> 00:12:05,105
+experienced a Kirk question,
+when we do these questions
 
-194
+291
+00:12:05,105 --> 00:12:06,710
+before
+
+292
 00:12:06,711 --> 00:12:11,120
 every Virtual Coffee, Kirk has
 been coming up with some-
 
-195
+293
 00:12:11,150 --> 00:12:16,791
 some doozies, I- I guess. You
 can label them where it leaves
 
-196
-00:12:16,791 --> 00:12:21,500
+294
+00:12:16,791 --> 00:12:19,145
 a lot of room for interpretation
-and requires you to think outside
+and requires you to think
 
-197
+295
+00:12:19,145 --> 00:12:21,499
+outside
+
+296
 00:12:21,500 --> 00:12:26,390
 of the box. Which is ... a
 rabbit hole for most of us
 
-198
+297
 00:12:26,390 --> 00:12:26,500
 [laughs].
 
-198
+298
 00:12:28,716 --> 00:12:33,546
-Julia: Yeah. I hold a little
-bit of blame, potentially. I
+Julia: Yeah. I hold a little bit
+of blame, potentially. I
 
-199
+299
 00:12:33,546 --> 00:12:37,115
 don't know. In that one time, in
 the co-working room, I pulled
 
-200
+300
 00:12:37,115 --> 00:12:39,000
 out a copy of, "Would You
 Rather?", questions-
 
-201
+301
 00:12:39,000 --> 00:12:39,500
 Bekah: Oh, yes.
 
-202
+302
 00:12:39,300 --> 00:12:42,275
 Julia: -for eight year olds? And
 
-201
+303
 00:12:42,275 --> 00:12:45,306
 there have been a few that were
 inspired by "Would You Rather?
 
-202
+304
 00:12:45,306 --> 00:12:46,235
 For 8 Year Olds".
 
-203
+305
 00:12:46,520 --> 00:12:48,500
 Bekah: Is that a book?
 
-204
+306
 00:12:48,816 --> 00:12:49,625
 Julia: It's a book.
 
-205
+307
 00:12:49,730 --> 00:12:50,841
 Bekah: Oh, oh.
 
-206
+308
 00:12:50,931 --> 00:12:51,350
 Dan: Mm.
 
-207
+309
 00:12:51,426 --> 00:12:54,700
 Julia: They have them -- one for
 seven year olds, eight year
 
-208
+310
 00:12:54,700 --> 00:12:56,300
 olds, nine year olds.
 
-209
+311
 00:12:56,500 --> 00:12:56,700
 Bekah: Oh.
 
-210
+312
 00:12:57,000 --> 00:12:59,706
 Julia: I don't know what the
 difference is, but --
 
-211
+313
 00:12:59,706 --> 00:13:00,201
 Bekah: My-
 
-209
+314
 00:13:00,201 --> 00:13:01,130
 Dan: I'm writing that down.
 
-210
+315
 00:13:01,145 --> 00:13:03,245
 Bekah: -kid has a birthday in a
 couple weeks. He's about to be
 
-211
+316
 00:13:03,245 --> 00:13:07,300
 eight, and he would love that.
 So I guess, don't -- this will
 
-212
+317
 00:13:07,300 --> 00:13:07,535
 come out
 
-212
-00:13:07,535 --> 00:13:15,995
-after his birthday. So in case he
-listens, it will not be spoiled.
+318
+00:13:07,535 --> 00:13:11,765
+after his birthday. So in case
+he listens, it will not be
 
-213
+319
+00:13:11,765 --> 00:13:15,995
+spoiled.
+
+320
 00:13:15,995 --> 00:13:17,135
 Julia: [Laughs] Right. Your kids
-[inaudible]. 
+[inaudible].
 
-213
+321
 00:13:17,135 --> 00:13:20,800
 Bekah: I think this is the
 record for our longest intro
 
-214
-00:13:20,800 --. 00:13:20,975
+322
+00:13:20,800 --> 00:13:20,975
 ever [laughs].
 
-214
+323
 00:13:22,056 --> 00:13:22,446
 Julia: [Laughs] Sorry.
 
-215
+324
 00:13:23,196 --> 00:13:26,316
 Bekah: No, don't be sorry. It
 was all Dan's fault.
 
-216
+325
 00:13:26,910 --> 00:13:27,260
 Dan: No. No.
 
-217
+326
 00:13:28,191 --> 00:13:31,931
 Julia: I even held back on a
 story about gold doubloons.
 
-218
+327
 00:13:33,456 --> 00:13:34,700
 Bekah: [Laughs] We -- you have a
 story about gold Doubloons?
 
-219
+328
 00:13:34,461 --> 00:13:34,740
 Dan: Oh, now I wanna hear it
 [laughs].
 
-220
+329
 00:13:35,000 --> 00:13:35,200
 Bekah: Yeah!
 
-220
+330
 00:13:35,630 --> 00:13:37,640
 Julia: Well, it's not about gold
 Doubloons. It's about gold
 
-221
+331
 00:13:37,640 --> 00:13:39,000
 Krugerrands, which --
 
-222
+332
 00:13:39,000 --> 00:13:39,700
 Dan: Wait. What are those?
 
-223
+333
 00:13:40,000 --> 00:13:43,941
 Julia: It -- so it was the
 currency in South Africa. Like
 
-222
+334
 00:13:44,091 --> 00:13:49,250
 ... I don't know. Historically,
 I'm not sure when they stopped
 
-223
+335
 00:13:49,250 --> 00:13:54,700
 using them. But they are ... I
 guess, they- [sigh] they were
 
-224
+336
 00:13:54,700 --> 00:13:55,941
 kinda popular
 
-224
+337
 00:13:56,030 --> 00:14:02,030
 among, like, people doing, like,
 black market kind of stuff,
 
-225
+338
 00:14:03,520 --> 00:14:10,880
-pre-internet age. And we had
-a super corrupt governor in
+pre-internet age. And we had a
+super corrupt governor in
 
-226
+339
 00:14:10,880 --> 00:14:15,801
 Connecticut when I was growing
 up named John Rowland. And one
 
-227
-00:14:15,801 --> 00:14:21,321
+340
+00:14:15,801 --> 00:14:18,561
 of  -- John Rowland had like a
-couple of cronies in my hometown.
+couple of cronies in my
 
-228
+341
+00:14:18,561 --> 00:14:21,321
+hometown.
+
+342
 00:14:21,441 --> 00:14:28,000
 And one of his ... I don't know.
 Partners in crime-
 
-229
+343
 00:14:28,500 --> 00:14:28,700
 Dan: Mm-hmm.
 
-230
+344
 00:14:29,000 --> 00:14:29,721
 Julia: -was the father
 
-229
-00:14:29,721 --> 00:14:38,480
-of one of my sister's classmates.
-And he- he was arrested
+345
+00:14:29,721 --> 00:14:34,100
+of one of my sister's
+classmates. And he- he was
 
-230
+346
+00:14:34,100 --> 00:14:38,479
+arrested
+
+347
 00:14:38,510 --> 00:14:46,221
 while my sister was in high
 school. And I -- in my mind,
 
-231
+348
 00:14:46,490 --> 00:14:51,331
 they actually caught him in the
 act of burying gold Krugerrands
 
-232
+349
 00:14:51,350 --> 00:14:54,740
 in his backyard. I don't know
 that they actually caught him in
 
-233
-00:14:54,745 --> 00:14:58,971
-the act. But, for sure, my sister
-went to high school with someone
+350
+00:14:54,745 --> 00:14:56,858
+the act. But, for sure, my
+sister went to high school with
 
-234
+351
+00:14:56,858 --> 00:14:58,971
+someone
+
+352
 00:14:59,000 --> 00:15:03,921
 who was -- whose father was
 arrested and found to have
 
-235
+353
 00:15:04,100 --> 00:15:08,990
 hundreds of thousands of dollars
 of, like, illegal South African
 
-236
+354
 00:15:08,990 --> 00:15:14,510
 gold coins buried in his
 backyard. So --
 
-237
+355
 00:15:14,591 --> 00:15:16,500
 Dan: [Chuckles] Ah, that is
 incredible. I like that.
 
-00:15:16,500 --> 00:15:18,000
+356
+00:15:16,000 --> 00:15:18,000
 Julia: It is. Really bizarre
 [laughs].
 
-00:15:16,800 --> 00:15:19,326
+357
+00:15:18,000 --> 00:15:19,326
 Dan: This is what I'm talking
 about. It's so much of a
 
-238
+358
 00:15:19,326 --> 00:15:21,725
 better story than if you just
 had, like, cash buried in his
 
-239
+359
 00:15:21,725 --> 00:15:22,086
 backyard, you know?
 
-239
+360
 00:15:22,086 --> 00:15:23,000
 Julia: Oh, totally. Well, there
 was-
 
-240
+361
 00:15:23,000 --> 00:15:23,300
 Dan: Yeah.
 
-241
+362
 00:15:23,200 --> 00:15:26,700
 Julia: -that guy from Louisiana
 who had cash in his freezer.
 
-240
+363
 00:15:27,000 --> 00:15:29,015
 This guy, way more [inaudible].
 
-241
+364
 00:15:29,855 --> 00:15:32,000
 Dan: [Inaudible] one and a half
 inches -- yeah, they're like
 
-242
-000:15:32,000 --> 0:15:33,395
+365
+00:15:32,000 --> 00:15:33,395
 this quarter. Like, a little
 
-242
+366
 00:15:33,395 --> 00:15:35,375
 bit bigger than an American
 quarter, I suppose.
 
-243
+367
 00:15:35,706 --> 00:15:36,515
 Julia: Are you looking it up?
 
-244
+368
 00:15:36,725 --> 00:15:40,115
 Dan: I'm looking at 'em on
 Wikipedia. So, by 1980, they
 
-245
+369
 00:15:40,115 --> 00:15:43,700
 accounted for more than 90% of
 the global coin market.
 
-247
+370
 00:15:43,700 --> 00:15:43,895
 Julia: Wow.
 
-246
+371
 00:15:43,895 --> 00:15:45,700
 Dan: And was the number one
 choice for investors buying
 
-247
+372
 00:15:45,700 --> 00:15:45,846
 gold.
 
-247
+373
 00:15:47,225 --> 00:15:47,885
 Julia: Yeah.
 
-248
+374
 00:15:47,951 --> 00:15:51,015
-Dan: Yeah, yeah. They're not
-the [unintelligible].
+Dan: Yeah, yeah. They're not the
+[unintelligible].
 
-249
-00:15:51,755 --> 00:15:51,500
+375
+00:15:51,755 --> 00:15:51,756
 Julia: They're more like
 [inaudible] untraceable-
 
-250
+376
 00:15:51,700 --> 00:15:52,500
 Dan: Yeah, for sure. Yeah.
 
-251
+377
 00:15:52,000 --> 00:15:52,956
 Julia: -you know? I dunno.
 Anyway --
 
-250
+378
 00:15:53,166 --> 00:15:56,015
 Bekah: This is where we need
 sound effects. For like,
 
-251
+379
 00:15:56,015 --> 00:15:58,025
-"[Singing] The more you know." 
+"[Singing] The more you know."
 Is that how it goes [laughs]?
 
-252
+380
 00:15:58,025 --> 00:16:01,416
 Dan: [Chuckles] Oh, yeah.
 Uh-huh.
 
-253
+381
 00:16:02,946 --> 00:16:03,125
 Bekah: We weren't --
 
-254
+382
 00:16:03,365 --> 00:16:04,000
 Dan: Well, I don't have that
 one. All I have is
 
-255
+383
 00:16:04,000 --> 00:16:04,596
 [winning sound effect plays].
 
-255
+384
 00:16:05,916 --> 00:16:06,336
 Bekah: That is --
 
-256
+385
 00:16:06,875 --> 00:16:07,206
 Dan: That's all I've got
 [laughs].
 
-257
+386
 00:16:07,525 --> 00:16:11,466
 Bekah: Not- not what we're --
 not the vibe I was going for
 
-258
+387
 00:16:11,466 --> 00:16:12,000
 [laughs].
 
-258
+388
 00:16:14,166 --> 00:16:16,300
 Dan: Alright. So, these are
 cool. But, yeah. Doubloons, I
 
-259
+389
 00:16:16,300 --> 00:16:18,900
 feel like I need them to be
 bigger and- and thicker, you
 
-260
+390
 00:16:18,900 --> 00:16:19,056
 know?
 
-260
+391
 00:16:19,446 --> 00:16:19,806
 Bekah: So you can get all of
 them?
 
-261
+392
 00:16:20,230 --> 00:16:22,000
 Dan: You know what I mean? Why,
 you could wear 'em, you could
 
-262
+393
 00:16:22,000 --> 00:16:24,096
-do, you know, I -- you
-what I mean?
+do, you know, I -- you what I
+mean?
 
-263
+394
 00:16:24,485 --> 00:16:25,500
 Julia: Well, I mean, the
 Krugerrands, like, they're a lot
 
+395
 00:16:25,500 --> 00:16:28,214
 more portable than like a big
 brick.
 
-264
+396
 00:16:28,214 --> 00:16:30,673
 Dan: Oh, I get it. I mean, I
 understand practically, like,
 
-265
+397
 00:16:30,703 --> 00:16:32,474
 these are good for crime and
 stuff, you know? [Inaudible].
 
-266
+398
 00:16:32,609 --> 00:16:33,729
 Bekah: These are good for crime
 [laughs]?
 
-267
+399
 00:16:34,394 --> 00:16:36,500
 Dan: I'm saying, for my thing
 [chuckles], you know, this is
 
+400
 00:16:36,500 --> 00:16:38,083
 why I want- I want -- if I have
 an unlimited supply,
 
-268
+401
 00:16:38,083 --> 00:16:41,083
 I'd might rather just, you know?
 You know what I mean?
 
-269
+402
 00:16:41,984 --> 00:16:44,443
 If I change my late -- mind
 later, I can just melt 'em down
 
-270
+403
 00:16:44,653 --> 00:16:46,000
 and make Krugerrands with them
 [laughs].
 
-271
+404
 00:16:46,000 --> 00:16:47,000
 Julia: True. True.
 
-272
+405
 00:16:49,500 --> 00:16:50,000
 Dan: Yeah, alright.
 
-273
+406
 00:16:50,000 --> 00:16:50,200
 Bekah: Okay.
 
-274
+407
 00:16:50,300 --> 00:16:54,700
 Dan: Well, that was our podcast
 [all laugh]. Thanks for coming,
 
-275
+408
 00:16:54,700 --> 00:16:57,000
 Julia [laughs].
 
-272
-00:16:57,089 --> 00:17:00,389
+409
+00:16:57,089 --> 00:16:58,739
 Bekah: I'm gonna -- there's no
-segue here. So, thanks for coming
+segue here. So, thanks for
 
-273
+410
+00:16:58,739 --> 00:17:00,389
+coming
+
+411
 00:17:00,389 --> 00:17:05,249
 on the podcast, Julia. We like
 to get started with your origin
 
-274
+412
 00:17:05,249 --> 00:17:08,969
 story. And maybe that's where it
 starts, with gold coins and
 
-275
+413
 00:17:08,969 --> 00:17:14,000
 backyards. But [Julia laughs]
 give us your- your story of how
 
-276
+414
 00:17:14,000 --> 00:17:16,078
 you came to this point in your
 tech journey.
 
-277
+415
 00:17:16,709 --> 00:17:24,959
 Julia: I wish. If only. So, I- I
 -- when I was in college, I --
 
-278
+416
 00:17:24,989 --> 00:17:31,679
 well, so, when I was in college,
 I double majored in
 
-279
+417
 00:17:31,679 --> 00:17:38,009
 anthropology and comparative
 religion, which is not useful
 
-280
+418
 00:17:38,128 --> 00:17:44,638
 in any commonly known sense of
 the word. But I had a- I had
 
-281
+419
 00:17:44,638 --> 00:17:50,500
 a- a dean who I knew pre -- she
 was actually -- well, anyway.
 
-282
+420
 00:17:50,500 --> 00:17:50,729
 I knew
 
-282
+421
 00:17:50,729 --> 00:17:52,648
 her pretty well, and we were
 talking one time, and she said
 
-283
-00:17:52,648 --> 00:17:56,999
+422
+00:17:52,648 --> 00:17:54,823
 something about how she had had
-a car- she had decided to embrace
+a car- she had decided to
 
-284
+423
+00:17:54,823 --> 00:17:56,998
+embrace
+
+424
 00:17:57,003 --> 00:18:04,108
 the careen over the career. And
 I just really liked that phrase
 
-285
+425
 00:18:04,108 --> 00:18:10,000
 and idea, like -- and- and I
 would say that that's kind of
 
-286
+426
 00:18:10,000 --> 00:18:10,814
 what I
 
-286
+427
 00:18:10,903 --> 00:18:17,773
 aspire to, is, like, I- I can't
 plan. I'm no good at committing
 
-287
+428
 00:18:17,923 --> 00:18:23,700
 to any- [laughs] any, like, long
 term vision, but what I am good
 
-287
+429
 00:18:23,700 --> 00:18:24,344
 at is rolling with the
 
-288
+430
 00:18:24,344 --> 00:18:29,834
 punches and, like, just kinda
 seeing where things go. So,
 
-289
+431
 00:18:31,423 --> 00:18:37,153
 after college, I bounced around
 for a few years, working in --
 
-290
+432
 00:18:37,153 --> 00:18:44,223
 as a professional fundraiser, as
 an events coordinator, really
 
-291
+433
 00:18:44,223 --> 00:18:53,653
 briefly, as a recruiter. And
 then, I spent like about four
 
-292
+434
 00:18:53,653 --> 00:18:58,544
 years working in finance, which
 was just a total -- like, I
 
-293
+435
 00:18:58,544 --> 00:19:02,084
 just stumbled into the job. They
 had hired somebody else who went
 
-294
-00:19:02,084 --> 00:19:06,794
-to the same college and they were
-like, "Huh, let's hire her. Let's
+436
+00:19:02,084 --> 00:19:04,439
+to the same college and they
+were like, "Huh, let's hire her.
 
-295
+437
+00:19:04,439 --> 00:19:06,794
+Let's
+
+438
 00:19:06,794 --> 00:19:08,000
 see how it goes." And-
 
-296
+439
 00:19:08,000 --> 00:19:08,300
 Dan: Mm-hmm.
 
-297
+440
 00:19:09,700 --> 00:19:15,284
 Julia: -I -- so, I really liked
 it in some ways.
 
-296
+441
 00:19:16,483 --> 00:19:20,000
 I really liked that -- the sort
 of -- the analytical work, I
 
-297
+442
 00:19:20,000 --> 00:19:23,500
 liked that I was learning a lot
 because I had no background in
 
-298
+443
 00:19:23,500 --> 00:19:27,044
 finance. I
 
-298
-00:19:27,044 --> 00:19:33,884
+444
+00:19:27,044 --> 00:19:30,464
 did a lot of writing while I was
-there. And if I kind of look back
+there. And if I kind of look
 
-299
+445
+00:19:30,464 --> 00:19:33,884
+back
+
+446
 00:19:34,003 --> 00:19:38,000
 at, like, what's the theme, in
 my- [chuckles] in my careen --
 
-300
+447
 00:19:38,000 --> 00:19:39,763
 what I would say is
 
-300
+448
 00:19:39,769 --> 00:19:45,554
 that I -- what I- what I do,
 over the long arc, I learn about
 
-301
+449
 00:19:45,554 --> 00:19:50,173
 things, and then I write about
 them. So, at that phase, I was
 
-302
+450
 00:19:50,203 --> 00:19:52,513
 learning about finance and
 writing about finance,
 
-303
+451
 00:19:52,663 --> 00:19:58,364
 simultaneously. And that was
 great for a few years. But
 
-304
-00:19:58,368 --> 00:20:06,733
+452
+00:19:58,368 --> 00:20:02,550
 then in 2000, fall of 2008,
-winter of 2009, I don't remember.
+winter of 2009, I don't
 
-305
+453
+00:20:02,550 --> 00:20:06,732
+remember.
+
+454
 00:20:06,733 --> 00:20:11,054
 I- I don't know if other people
 remember this time as acutely as
 
-306
+455
 00:20:11,054 --> 00:20:16,963
 I do. I live in Seattle, WAMU
 collapsed. I worked in finance,
 
-307
-00:20:16,993 --> 00:20:23,473
-everything else collapsed. We had
-people being taken to the ER in
+456
+00:20:16,993 --> 00:20:20,233
+everything else collapsed. We
+had people being taken to the ER
 
-308
+457
+00:20:20,233 --> 00:20:23,473
+in
+
+458
 00:20:23,473 --> 00:20:25,453
 the middle of the work day
 because they thought they were
 
-309
+459
 00:20:25,453 --> 00:20:29,443
 having heart attacks, but it was
 actually just panic attacks.
 
-310
+460
 00:20:29,503 --> 00:20:33,733
 It was such an intensely
 stressful time that I was like,
 
-311
+461
 00:20:34,423 --> 00:20:38,500
 "Peace. I am- I am out here
 [laughs]." I do not wanna work
 
-312
+462
 00:20:38,500 --> 00:20:39,284
 in this world
 
-312
+463
 00:20:39,284 --> 00:20:46,634
 anymore. No one is happy. And
 so, I did -- I went back to
 
-313
-00:20:46,634 --> 00:20:51,193
-school and did something that was
-probably as far in the opposite
+464
+00:20:46,634 --> 00:20:48,913
+school and did something that
+was probably as far in the
 
-314
+465
+00:20:48,913 --> 00:20:51,192
+opposite
+
+466
 00:20:51,193 --> 00:20:54,253
 direction as you could go. And I
 became a high school English
 
-315
+467
 00:20:54,253 --> 00:21:06,673
-teacher. I did that for
-about 10 years. And then just
+teacher. I did that for about 10
+years. And then just
 
-316
+468
 00:21:06,673 --> 00:21:15,374
 kind of got exhausted by the ...
 I don't know. The vagaries of
 
-317
+469
 00:21:15,374 --> 00:21:22,124
 working in public education. And
 it -- oh. It's another story for
 
-318
+470
 00:21:22,124 --> 00:21:27,673
 another day, but I worked at a
 very high pressure, in a ve-
 
-319
+471
 00:21:27,679 --> 00:21:33,000
 high income, high pressure
 community. And, I was really not
 
-320
+472
 00:21:33,000 --> 00:21:40,700
 ... happy with, like, the way
 that my students lives were
 
-321
+473
 00:21:40,700 --> 00:21:41,763
 being shaped.
 
-321
+474
 00:21:42,673 --> 00:21:50,054
 So, when my second child was
 born, I was like, "You know, I'm
 
-322
+475
 00:21:50,054 --> 00:21:52,800
 gonna take a break." And I took
 a year off, and it felt really
 
-323
+476
 00:21:52,800 --> 00:21:52,963
 good.
 
-323
+477
 00:21:52,963 --> 00:21:57,104
 And so, I took another year off.
 And during that second year, I
 
-324
+478
 00:21:57,104 --> 00:22:02,804
-started learning how to code.
-I started kind of more with data
+started learning how to code. I
+started kind of more with data
 
-325
+479
 00:22:02,804 --> 00:22:08,953
 science because of having that
 finance background. But along
 
-326
+480
 00:22:08,953 --> 00:22:13,034
 the way, kinda stumbled my way
 through various things. And I
 
-327
+481
 00:22:13,034 --> 00:22:16,814
 did a bootcamp, I did some
 self-taught stuff, I did some
 
-328
+482
 00:22:16,814 --> 00:22:26,953
 internships, I did a -- an kind
 of incubator program. And
 
-329
+483
 00:22:26,953 --> 00:22:32,233
 then stumbled my way once again
 into this role that I'm in now,
 
-330
+484
 00:22:32,624 --> 00:22:38,263
 doing developer education. So,
 once again, I'm learning about
 
-331
+485
 00:22:38,269 --> 00:22:42,700
 things, and then I'm writing
 about them. So, yeah. that's-
 
-332
+486
 00:22:42,700 --> 00:22:48,000
 that's my origin story. And I
 think it's good because I
 
-333
+487
 00:22:48,000 --> 00:22:48,568
 finally found
 
-333
+488
 00:22:48,568 --> 00:22:51,628
 something where, like, there's
 really no limit on how much I
 
-334
+489
 00:22:51,628 --> 00:22:59,398
 can learn. And I have a ton of
 control over who I work with,
 
-335
+490
 00:22:59,909 --> 00:23:04,000
 and when I work, and all of
 that. And the people that I am
 
-336
+491
 00:23:04,000 --> 00:23:08,700
 teaching through my work, really
-wanna learn [chuckles]. They are 
+wanna learn [chuckles]. They are
 
-337
+492
 00:23:09,000 --> 00:23:14,000
 intrinsically motivated and
 that's- that's cool. Yeah. So,
 
-338
+493
 00:23:14,000 --> 00:23:15,269
 that's me.
 
-338
+494
 00:23:16,199 --> 00:23:18,479
 Bekah: Yeah. That makes such a
 difference when people are
 
-339
+495
 00:23:18,479 --> 00:23:20,519
 motivated to learn.
 
-340
+496
 00:23:20,519 --> 00:23:25,000
 Julia: It's huge. [Laughs] It's
 huge. And, like, you get that
 
-341
+497
 00:23:25,000 --> 00:23:28,288
 sometimes in K-12
 
-341
+498
 00:23:28,288 --> 00:23:32,818
 education, right? Like, I'm -- I
 don't know. I'm sure we all had
 
-342
+499
 00:23:32,824 --> 00:23:38,489
 times in our education where we
 were really genuinely motivated
 
-343
+500
 00:23:38,489 --> 00:23:44,000
 by something, but there's just
 so much else going on that ...
 
-344
+501
 00:23:44,000 --> 00:23:46,000
 I- I don't know.
 
-345
+502
 00:23:46,000 --> 00:23:46,300
 Bekah: Yeah.
 
-346
+503
 00:23:46,500 --> 00:23:47,398
 Julia: I don't love it.
 
-345
+504
 00:23:48,148 --> 00:23:50,819
 Bekah: Right. Right. That's -- I
 mean, I -- my background's in
 
-346
+505
 00:23:50,825 --> 00:23:54,959
 education. I taught college
 English for 10 years. And it was
 
-347
+506
 00:23:54,959 --> 00:23:59,500
 a lot of core classes, which
 means people had to take those
 
-348
+507
 00:23:59,500 --> 00:23:59,669
 classes.
 
-349
+508
 00:23:59,669 --> 00:24:00,000
 Julia: Yeah.
 
-348
+509
 00:24:00,000 --> 00:24:02,878
 Bekah: It wasn't an option. Most
 of them did not wanna be there,
 
-349
+510
 00:24:02,884 --> 00:24:05,500
 didn't see the point of it,
 weren't motivated. And, like, to
 
-350
+511
 00:24:05,500 --> 00:24:09,500
 the point of being aggressively
 unmotivated and, like angry-
 
-351
+512
 00:24:09,500 --> 00:24:10,000
 Julia: Oh, yeah.
 
-351
+513
 00:24:10,000 --> 00:24:15,300
 Bekah: -about things. I'm like,
 "This is not- not why I signed-
 
-352
-00:24:15,300 -->00:24:15,500
+514
+00:24:15,300 --> 00:24:15,500
 Julia: [Laughs] No.
 
-351
+515
 00:24:15,500 --> 00:24:16,300
 Bekah: -up to teach."
 
-352
+516
 00:24:16,300 --> 00:24:16,500
 Julia: No.
 
-353
+517
 00:24:16,700 --> 00:24:17,923
 Bekah: And, like, the rare
 occasion, I
 
-352
+518
 00:24:17,923 --> 00:24:22,153
 would be able to teach a, like,
 a special interest class. I
 
-353
+519
 00:24:22,153 --> 00:24:25,000
 taught a screenwriting class
 once. I had eight or 10
 
-354
+520
 00:24:25,000 --> 00:24:25,874
 students. It
 
-354
+521
 00:24:25,874 --> 00:24:29,023
 was the best experience. I loved
 that. Because everybody was
 
-355
+522
 00:24:29,028 --> 00:24:32,953
 excited about being there and
 talking about those things.
 
-356
+523
 00:24:32,953 --> 00:24:33,074
 Julia: Yeah.
 
-356
+524
 00:24:33,074 --> 00:24:37,273
 Bekah: But those experiences are
 ... not as frequent [chuckles].
 
-357
+525
 00:24:37,949 --> 00:24:41,000
 Julia: No. Nope. No, they're
 not.
 
-358
-00:24:42,000 -->00:24:42,300
+526
+00:24:42,000 --> 00:24:42,300
 Bekah: Yeah.
 
-359
+527
 00:24:42,300 --> 00:24:44,909
 Julia: And yet -- I- I mean, the
 people who
 
-358
+528
 00:24:45,568 --> 00:24:49,798
 stick with it and do it for a
 long time and -- I mean, I have
 
-359
+529
 00:24:49,798 --> 00:24:58,709
 enormous respect, but I also
 don't at all judge anyone who
 
-360
+530
 00:24:58,769 --> 00:25:02,368
 opts out because it can be
 pretty demoralizing.
 
-361
-00:25:03,374 --> 00:25:06,973
+531
+00:25:03,374 --> 00:25:05,173
 Bekah: Yeah. And I think that —
-I don't know if it's a generational
+I don't know if it's a
 
-362
+532
+00:25:05,173 --> 00:25:06,972
+generational
+
+533
 00:25:06,973 --> 00:25:10,094
 thing or not — but I know my
 parents stayed in careers
 
-363
+534
 00:25:10,098 --> 00:25:16,094
 forever. And a lot of the people
 around us, who are in the
 
-364
-00:25:16,094 --> 00:25:19,453
-same generation, they spent their
-entire careers, you know, doing
+535
+00:25:16,094 --> 00:25:17,773
+same generation, they spent
+their entire careers, you know,
 
-365
+536
+00:25:17,773 --> 00:25:19,452
+doing
+
+537
 00:25:19,453 --> 00:25:24,433
 one thing. But I see more people
 now — maybe just cuz I'm older —
 
-366
+538
 00:25:25,874 --> 00:25:27,300
 changing careers and it-
 
-365
+539
 00:25:27,300 --> 00:25:27,500
 Julia: Yeah.
 
-366
+540
 00:25:27,500 --> 00:25:30,374
-Bekah: - in, like, not having
-to be stuck doing something that
+Bekah: - in, like, not having to
+be stuck doing something that
 
-367
-00:25:30,374 --> 00:25:35,384
-you're not interested in doing is
-really important to me. So, I know,
+541
+00:25:30,374 --> 00:25:32,879
+you're not interested in doing
+is really important to me. So, I
 
-368
-00:25:35,384 --> 00:25:38,233
+542
+00:25:32,879 --> 00:25:35,384
+know,
+
+543
+00:25:35,384 --> 00:25:36,808
 like, I would talk to somebody
-else about a career in tech and I
+else about a career in tech and
 
-369
-00:25:38,239 --> 00:25:41,203
-was like, "I don't know if I'll be
-here five years or not." She -- she's
+544
+00:25:36,808 --> 00:25:38,232
+I
 
-370
+545
+00:25:38,239 --> 00:25:39,721
+was like, "I don't know if I'll
+be here five years or not." She
+
+546
+00:25:39,721 --> 00:25:41,203
+-- she's
+
+547
 00:25:41,203 --> 00:25:43,334
 the same thing. Like, "Yeah, I
 don't know if I will either. I
 
-371
+548
 00:25:43,334 --> 00:25:47,834
 kinda hope I'm not." Like, there
 are lots of options out there in
 
-372
-00:25:47,834 --> 00:25:52,574
+549
+00:25:47,834 --> 00:25:50,204
 finding, exploring those things
-that keep you interested, I think
+that keep you interested, I
 
-373
+550
+00:25:50,204 --> 00:25:52,574
+think
+
+551
 00:25:52,578 --> 00:25:55,933
 helps you to, I dunno, be
 motivated in all areas of your
 
-374
+552
 00:25:55,933 --> 00:25:56,203
 life.
 
-375
+553
 00:25:56,429 --> 00:25:59,638
 Julia: Uh-huh. Yeah. And that's
 something, like, when I kinda
 
-376
+554
 00:25:59,638 --> 00:26:04,499
 made the transition into tech, I
 was pretty explicit in saying
 
-377
+555
 00:26:04,709 --> 00:26:09,328
 like, "It's not that I think I'm
 gonna be writing code all day,
 
-378
+556
 00:26:09,328 --> 00:26:16,269
 every day, for the rest of my
 life. This is a skill --
 
-379
+557
 00:26:18,403 --> 00:26:24,584
 it's a skill and like a
 discipline that can feed other
 
-380
+558
 00:26:24,673 --> 00:26:25,700
 kinds of growth-
 
-381
+559
 00:26:26,000 --> 00:26:26,200
 Bekah: Yes.
 
-382
+560
 00:26:26,250 --> 00:26:31,000
 Julia: -that can enable me to
 get involved in- in different
 
-381
+561
 00:26:31,000 --> 00:26:35,203
 things. And I- I think,
 initially, I thought of it more
 
-382
+562
 00:26:35,203 --> 00:26:38,864
 as a skill. And now, I would say
 it's really is more of like a
 
-383
+563
 00:26:38,864 --> 00:26:46,000
 discipline. Like, there's not
 one skill that- that anybody
 
-384
+564
 00:26:46,000 --> 00:26:52,000
 learns, except maybe -- and- and
 I think that thi-thi-this is
 
+565
 00:26:52,000 --> 00:26:54,163
 part of like what
 
-385
+566
 00:26:54,163 --> 00:26:59,534
 has helped make me successful in
 the time that I've been working
 
-386
+567
 00:26:59,534 --> 00:27:05,324
-in tech? Maybe the skill is
-just learning how to learn.
+in tech? Maybe the skill is just
+learning how to learn.
 
-387
+568
 00:27:05,324 --> 00:27:05,500
 Bekah: Mm-hmm.
 
-387
+569
 00:27:06,223 --> 00:27:09,700
 Julia: Like -- and I think that
 that's, like, if I [laughs] --
 
-388
+570
 00:27:09,700 --> 00:27:10,963
 kinda what I'm good at.
 
-388
+571
 00:27:10,963 --> 00:27:14,324
 Like, I'm good at learning about
 stuff. And that's, I think,
 
-389
+572
 00:27:14,324 --> 00:27:18,689
 probably the most essential
 skill. Otherwise, like, it's
 
-390
+573
 00:27:18,689 --> 00:27:21,929
 not, like, you could say like,
 "Oh, I have a skill in writing
 
-391
+574
 00:27:22,169 --> 00:27:27,719
 JavaScript." Like, that's not --
 I mean, that is skill, but it
 
-392
+575
 00:27:27,723 --> 00:27:34,019
 changes. And, really, the skill
 isn't ab- is about, like, habits
 
-393
+576
 00:27:34,023 --> 00:27:37,739
 of mind and ... I don't know.
 
-394
+577
 00:27:40,574 --> 00:27:44,400
 Bekah: Yeah. I love that. And I
 think, I- I also always struggle
 
-395
+578
 00:27:44,400 --> 00:27:44,503
 with
 
-395
+579
 00:27:44,503 --> 00:27:47,953
 people asking me what my career
 goals are. And I think, that's,
 
-396
+580
 00:27:47,983 --> 00:27:51,163
 for like a lot of this reason, I
 don't really have career goals.
 
-397
+581
 00:27:51,163 --> 00:27:54,200
 Like, I'm interested in, you
 know, connecting other people.
 
-398
+582
 00:27:54,200 --> 00:27:54,403
 And like
 
-398
+583
 00:27:54,403 --> 00:27:57,824
 you said, like, learning new
 things. And so, for me, it's not
 
-399
+584
 00:27:57,824 --> 00:28:01,814
 like, "Oh, I wanna be a senior
 blah, blah, blah, someday," you
 
-400
+585
 00:28:01,814 --> 00:28:05,683
 know? I just wanna keep doing
 things that I'm interested in
 
-401
+586
 00:28:05,713 --> 00:28:10,300
 and helping to support other
 people, you know, feel part of
 
-402
+587
 00:28:10,300 --> 00:28:10,483
 something.
 
-402
+588
 00:28:10,729 --> 00:28:15,929
 Julia: Mm-hmm. I mean, I think
 it's cool when people have those
 
-403
+589
 00:28:15,929 --> 00:28:17,368
 aspirations to --
 
-404
+590
 00:28:19,844 --> 00:28:21,500
 Bekah: Oh, yeah. Yeah. I think
 that's totally fine. I just
 
-405
+591
 00:28:21,500 --> 00:28:21,733
 think that
 
-405
-00:28:21,733 --> 00:28:25,723
+592
+00:28:21,733 --> 00:28:23,728
 there are so many different
-career paths and ways to approach
+career paths and ways to
 
-406
-00:28:25,729 --> 00:28:29,804
+593
+00:28:23,728 --> 00:28:25,723
+approach
+
+594
+00:28:25,729 --> 00:28:27,766
 what you're doing. That, like,
-acknowledging that I'm interested
+acknowledging that I'm
 
-407
+595
+00:28:27,766 --> 00:28:29,803
+interested
+
+596
 00:28:29,808 --> 00:28:33,000
 in learning or learning new
 things now. That's a really
 
-408
+597
 00:28:33,000 --> 00:28:33,824
 great place to be too.
 
-409
+598
 00:28:34,598 --> 00:28:36,088
 Julia: Mm-hmm. Mm-hmm.
 
-410
+599
 00:28:37,108 --> 00:28:40,318
 Bekah: So, let's back up a
 little bit and talk about what
 
-411
+600
 00:28:40,528 --> 00:28:42,689
 your work, what you do for work.
 
-412
+601
 00:28:42,989 --> 00:28:43,479
 Julia: Sure.
 
-413
+602
 00:28:44,759 --> 00:28:50,548
 Bekah: Just to give, like, more
 of a zoomed in idea of what
 
-414
+603
 00:28:50,548 --> 00:28:54,500
 you're doing daily, or, you
 know, how the projects get
 
-415
+604
 00:28:54,500 --> 00:28:55,229
 chosen that
 
-415
+605
 00:28:55,229 --> 00:28:58,199
 you're working on, and talk
 through some other things that
 
-416
+606
 00:28:58,199 --> 00:28:59,939
 you like about that.
 
-417
+607
 00:29:00,383 --> 00:29:03,144
 Julia: Okay. So I'll just talk
 about what I'm working on right
 
-418
+608
 00:29:03,144 --> 00:29:07,763
 now, cuz I think that's a good
 sort of snapshot. Right now, I
 
-419
+609
 00:29:07,763 --> 00:29:12,144
 have three main projects that
 I'm working on. Three different
 
-420
+610
 00:29:12,144 --> 00:29:21,173
 clients, three different sort of
 types of work. One is
 
-421
+611
 00:29:21,203 --> 00:29:28,554
-like an API tooling company,
-and I am a frequent contributor
+like an API tooling company, and
+I am a frequent contributor
 
-422
+612
 00:29:28,554 --> 00:29:36,054
 to their technical blog. So I
 just wrote a three part series
 
-423
+613
 00:29:37,074 --> 00:29:39,500
 on authentication and --
 authorization and an
 
-424
+614
 00:29:39,500 --> 00:29:41,500
 authentication best practices
 
-424
+615
 00:29:41,500 --> 00:29:45,953
 for APIs. So, I'm not writing
 code when I'm doing that,
 
-425
+616
 00:29:45,953 --> 00:29:51,324
 but I'm doing a lot of in depth
 technical research, reading
 
-426
+617
 00:29:51,324 --> 00:29:57,068
 code, reading, you know, reading
 documentation from different ...
 
-427
-00:29:59,739 --> 00:30:05,769
-I don't know. Different solutions
-providers. I did an SME
+618
+00:29:59,739 --> 00:30:02,754
+I don't know. Different
+solutions providers. I did an
 
-428
-00:30:05,888 --> 00:30:10,749
+619
+00:30:02,754 --> 00:30:05,769
+SME
+
+620
+00:30:05,888 --> 00:30:08,318
 interview as part of that with a
-senior engineer who oversees some
+senior engineer who oversees
 
-429
+621
+00:30:08,318 --> 00:30:10,748
+some
+
+622
 00:30:10,749 --> 00:30:16,929
 of their security stuff at- at
 that -- at my client company.
 
-430
+623
 00:30:16,989 --> 00:30:21,669
 And then writing those articles,
 like, for a technical audience.
 
-431
+624
 00:30:21,673 --> 00:30:26,000
 Writing for API developers to
 say, like, "Here's how to
 
-432
+625
 00:30:27,000 --> 00:30:30,300
 approach the decision making
 process." And that was one of
 
-433
+626
 00:30:30,300 --> 00:30:31,598
 the things that I
 
-433
+627
 00:30:31,719 --> 00:30:35,979
 try to do as a writer and like,
 part of why they keep bringing
 
-434
+628
 00:30:35,979 --> 00:30:41,000
 me back there [chuckles] is that
 there's a lot of repetitive
 
-435
+629
 00:30:41,000 --> 00:30:42,759
 content out there.
 
-435
+630
 00:30:43,838 --> 00:30:48,429
 So, if you look up like API
 security best practices, you're
 
-436
-00:30:48,429 --> 00:30:51,219
+631
+00:30:48,429 --> 00:30:49,824
 gonna see a lot of articles that
-say, essentially, the same thing.
+say, essentially, the same
 
-437
+632
+00:30:49,824 --> 00:30:51,219
+thing.
+
+633
 00:30:51,759 --> 00:30:58,000
-Anytime you look up anything
-to do with GWT -- JaWTs- JaWTs —
+Anytime you look up anything to
+do with GWT -- JaWTs- JaWTs —
 
-438
+634
 00:30:58,000 --> 00:31:00,000
 j- JSON Web Tokens [chuckles],
 
-438
+635
 00:31:00,000 --> 00:31:05,439
 the first hits are the same.
 Like, it's -- everything
 
-439
+636
 00:31:05,439 --> 00:31:15,909
 is so SEO optimized, like -- and
 what I try to do is to take a- a
 
-440
+637
 00:31:15,913 --> 00:31:19,659
 point of view that's a little
 bit more about like, "Okay,
 
-441
-00:31:19,659 --> 00:31:23,709
-there's a lot of options. There's
-not a best option. How do we come
+638
+00:31:19,659 --> 00:31:21,684
+there's a lot of options.
+There's not a best option. How
 
-442
+639
+00:31:21,684 --> 00:31:23,709
+do we come
+
+640
 00:31:23,709 --> 00:31:27,098
 up with a decision making
 framework?" Like, how do you, as
 
-443
-00:31:27,098 --> 00:31:31,058
+641
+00:31:27,098 --> 00:31:29,078
 a developer, as a, you know, as
-a team lead, a product architect,
+a team lead, a product
 
-444
-00:31:31,058 --> 00:31:35,439
-whatever, how do you approach the
-decision making process of like,
+642
+00:31:29,078 --> 00:31:31,058
+architect,
 
-445
+643
+00:31:31,058 --> 00:31:33,248
+whatever, how do you approach
+the decision making process of
+
+644
+00:31:33,248 --> 00:31:35,438
+like,
+
+645
 00:31:35,469 --> 00:31:41,919
 "What's the best option for me?"
 So, that's kinda part of
 
-446
+646
 00:31:41,919 --> 00:31:45,398
 what that series is about, and
 I've done things like that on
 
-447
+647
 00:31:45,398 --> 00:31:51,278
 other aspects of API design for
 them. So that's one thing and
 
-448
+648
 00:31:51,278 --> 00:31:56,229
 that's kind of the least
 technical part of what I do.
 
-449
+649
 00:31:57,578 --> 00:32:04,179
 Then, right now, I'm working
 with two other clients. One is
 
-450
+650
 00:32:05,558 --> 00:32:16,298
 they have a GraphQL API that
 coordinates the APIs for like,
 
-451
+651
 00:32:16,719 --> 00:32:20,858
 maybe, I don't know. Just
 estimating 40 different brands
 
-452
+652
 00:32:20,858 --> 00:32:27,700
 of IoT devices. So, like, your
 Schlage smart locks, or your
 
-453
+653
 00:32:27,700 --> 00:32:28,628
 Phillips hue
 
-453
+654
 00:32:28,634 --> 00:32:33,999
 light bulbs, or your ecobee
 thermostat, or whatever, each of
 
-454
-00:32:33,999 --> 00:32:40,703
-those has its own API and its own
-app. And as a homeowner, you can
+655
+00:32:33,999 --> 00:32:37,351
+those has its own API and its
+own app. And as a homeowner, you
 
-455
-00:32:40,703 --> 00:32:48,594
-use like Google Home or whatever.
-But let's say that you were,
+656
+00:32:37,351 --> 00:32:40,703
+can
 
-456
+657
+00:32:40,703 --> 00:32:44,648
+use like Google Home or
+whatever. But let's say that you
+
+658
+00:32:44,648 --> 00:32:48,593
+were,
+
+659
 00:32:48,594 --> 00:32:52,584
 like, an apartment building
 superintendent and you wanted to
 
-457
+660
 00:32:52,584 --> 00:32:56,213
 be able to manage all of the
 smart devices in your buildings
 
-458
+661
 00:32:57,114 --> 00:33:03,054
 from one place instead of all of
 those places, they make an API
 
-459
+662
 00:33:03,233 --> 00:33:09,594
 that coordinates all of those
 things. And so, I -- but right
 
-460
+663
 00:33:09,594 --> 00:33:15,000
 now, most of their documentation
 is very, like, marketing-
 
-461
+664
 00:33:15,000 --> 00:33:15,300
 Bekah: Mm.
 
-462
+665
 00:33:15,700 --> 00:33:17,000
 Julia: -oriented. They --
 
-461
+666
 00:33:17,000 --> 00:33:21,009
 it's, like, they've been very
 focused on just like onboarding
 
-462
+667
 00:33:21,009 --> 00:33:26,888
 their first few significant
 customers. And the -- and their
 
-463
+668
 00:33:26,888 --> 00:33:31,598
 technical onboarding has been
 like super intensive, custom,
 
-464
-00:33:31,598 --> 00:33:35,679
+669
+00:33:31,598 --> 00:33:33,638
 like, hand holding. And I --
-we're -- I'm involved in helping to
+we're -- I'm involved in helping
 
-465
+670
+00:33:33,638 --> 00:33:35,678
+to
+
+671
 00:33:35,679 --> 00:33:41,378
 transition them away from that,
 like, creating more standard
 
-466
-00:33:41,439 --> 00:33:46,628
+672
+00:33:41,439 --> 00:33:44,033
 documentation for like those
-getting started guides. So, how to
+getting started guides. So, how
 
-467
+673
+00:33:44,033 --> 00:33:46,627
+to
+
+674
 00:33:46,628 --> 00:33:51,338
 build a Node app that allows you
 to control all of your smart
 
-468
+675
 00:33:51,338 --> 00:33:55,209
-locks. How to build an, you know,
-and then, eventually, like
+locks. How to build an, you
+know, and then, eventually, like
 
-469
+676
 00:33:55,598 --> 00:33:58,358
 integrating all of these
 different things in there. But
 
-470
+677
 00:33:58,419 --> 00:34:03,849
 also, along the way, explaining
 like, "Why is this a GraphQL API
 
-471
+678
 00:34:04,388 --> 00:34:11,498
 instead of REST? Why do we
 insist on you using a specific
 
-472
+679
 00:34:11,503 --> 00:34:18,068
 authentication protocol?" And-
 and there are technical reasons
 
-473
-00:34:18,068 --> 00:34:21,219
+680
+00:34:18,068 --> 00:34:19,643
 that they do all of those things
-that have to do with coordinating
+that have to do with
 
-474
-00:34:21,224 --> 00:34:27,608
+681
+00:34:19,643 --> 00:34:21,218
+coordinating
+
+682
+00:34:21,224 --> 00:34:24,416
 between 40 different APIs. So,
-the content that I'm creating for
+the content that I'm creating
 
-475
-00:34:27,608 --> 00:34:32,168
-them, some of it is just creating
-these sample apps and kind of
+683
+00:34:24,416 --> 00:34:27,608
+for
 
-476
+684
+00:34:27,608 --> 00:34:29,888
+them, some of it is just
+creating these sample apps and
+
+685
+00:34:29,888 --> 00:34:32,168
+kind of
+
+686
 00:34:32,579 --> 00:34:37,659
 documenting the nitty-gritty of
 those apps. And then, some of
 
-477
+687
 00:34:37,659 --> 00:34:44,918
 it is the more in depth
 explanations of, like, wha- the
 
-478
+688
 00:34:44,923 --> 00:34:49,989
 why, of how it works. And that's
 been really cool because I've
 
-479
+689
 00:34:49,989 --> 00:34:51,500
 gotten to learn a lot about-
 
-480
+690
 00:34:51,500 --> 00:34:51,700
 Bekah: Mm-hmm.
 
-481
+691
 00:34:53,000 --> 00:34:54,969
 Julia: -these different aspects
 of it. Plus, I
 
-480
-00:34:54,969 --> 00:34:59,213
+692
+00:34:54,969 --> 00:34:57,091
 think IoT is really interesting.
-We have -- everything in our house
+We have -- everything in our
 
-481
+693
+00:34:57,091 --> 00:34:59,213
+house
+
+694
 00:34:59,213 --> 00:35:03,500
 is smart -- is like a smart
 device. And it frustrates me
 
-482
+695
 00:35:03,500 --> 00:35:06,500
 that they don't talk to each
 other very well [chuckles].
 
-483
+696
 00:35:06,500 --> 00:35:06,700
 Bekah: Yeah.
 
-484
+697
 00:35:07,000 --> 00:35:07,300
 Julia: And --
 
-485
+698
 00:35:07,300 --> 00:35:07,500
 Dan: Mm-hmm.
 
-486
+699
 00:35:09,000 --> 00:35:11,423
 Julia: [Laughs] It's ... yeah, I
 
-483
+700
 00:35:11,423 --> 00:35:14,543
 think it's cool. I just -- it's
 a really exciting, interesting
 
-484
+701
 00:35:14,543 --> 00:35:18,563
 project to be working on. And
 the engineers who work at this
 
-485
-00:35:18,563 --> 00:35:23,123
-company are, like, they are -- they
-know their stuff. Like, they are
+702
+00:35:18,563 --> 00:35:20,843
+company are, like, they are --
+they know their stuff. Like,
 
-486
+703
+00:35:20,843 --> 00:35:23,123
+they are
+
+704
 00:35:23,123 --> 00:35:31,523
 very smart people. Cr- creative,
 analytical people. So it's been
 
-487
+705
 00:35:31,523 --> 00:35:37,500
 really neat working with them.
 And then my other client
 
-488
+706
 00:35:37,500 --> 00:35:37,643
 [laughs] that I'm
 
-488
-00:35:37,643 --> 00:35:42,534
+707
+00:35:37,643 --> 00:35:40,088
 working on right now -- working
-with right now, this one is, like,
+with right now, this one is,
 
-489
-00:35:43,253 --> 00:35:47,304
-simultaneously an example of what
-I do and really, really, really
+708
+00:35:40,088 --> 00:35:42,533
+like,
 
-490
+709
+00:35:43,253 --> 00:35:45,278
+simultaneously an example of
+what I do and really, really,
+
+710
+00:35:45,278 --> 00:35:47,303
+really
+
+711
 00:35:47,304 --> 00:35:52,554
 do not like about my current
 role. So this is a company who
 
-491
+712
 00:35:52,554 --> 00:36:01,494
-makes a player engagement
-API for game developers. So, you
+makes a player engagement API
+for game developers. So, you
 
-492
+713
 00:36:01,494 --> 00:36:06,023
 know, sending push notifications
 and rewards, you know, in game
 
-493
+714
 00:36:07,583 --> 00:36:16,793
 ... stuff. And I'm creating a
 lot of the same kind of like
 
-494
+715
 00:36:16,793 --> 00:36:25,974
 getting started guides. Because,
 again, like, they -- their
 
-495
+716
 00:36:26,403 --> 00:36:29,034
 existing documentation sort of
 assumes that you already know
 
-496
-00:36:29,039 --> 00:36:33,503
-what this thing does and, roughly,
-how to use it. Like, maybe you've
+717
+00:36:29,039 --> 00:36:31,271
+what this thing does and,
+roughly, how to use it. Like,
 
-497
-00:36:33,509 --> 00:36:36,864
+718
+00:36:31,271 --> 00:36:33,503
+maybe you've
+
+719
+00:36:33,509 --> 00:36:35,186
 already been using a competitor
-product and you're just switching
+product and you're just
 
-498
-00:36:36,864 --> 00:36:41,153
-over. And so, it's- it's not gonna
-be any challenge to -- but they're
+720
+00:36:35,186 --> 00:36:36,863
+switching
 
-499
-00:36:41,153 --> 00:36:46,373
-hoping to expand and- and kind of
-make themselves more accessible
+721
+00:36:36,864 --> 00:36:39,008
+over. And so, it's- it's not
+gonna be any challenge to -- but
 
-500
+722
+00:36:39,008 --> 00:36:41,152
+they're
+
+723
+00:36:41,153 --> 00:36:43,763
+hoping to expand and- and kind
+of make themselves more
+
+724
+00:36:43,763 --> 00:36:46,373
+accessible
+
+725
 00:36:46,378 --> 00:36:55,509
 to a broader audience of game
 developers. So, to do this,
 
-501
+726
 00:36:55,628 --> 00:37:01,500
 to create the content that they
 want [chuckles], I have had to
 
-502
+727
 00:37:01,500 --> 00:37:07,298
 learn how to work with game
 code. And-
 
-503
+728
 00:37:07,358 --> 00:37:08,139
 Bekah: Ooh, right.
 
-504
+729
 00:37:09,009 --> 00:37:14,300
 Julia: -I -- it's just, it's not
 all the same [chuckles]. It's
 
-505
+730
 00:37:14,300 --> 00:37:14,498
 like, the
 
-505
+731
 00:37:14,498 --> 00:37:19,809
 transition from working with a
 REST API to a GraphQL API in
 
-506
+732
 00:37:19,809 --> 00:37:24,668
 Node is no big deal, right? The
 transition from working with one
 
-507
+733
 00:37:24,668 --> 00:37:29,599
 authentication protocol to
 another in .NET is no big deal.
 
-508
+734
 00:37:30,099 --> 00:37:35,409
 But changing this entire
 framework and way of thinking
 
-509
+735
 00:37:35,409 --> 00:37:40,688
-about project architecture
-has been really, really difficult
+about project architecture has
+been really, really difficult
 
-510
-00:37:40,688 --> 00:37:48,759
-for me. And it's just not easy to
-troubleshoot and it's ... yeah.
+736
+00:37:40,688 --> 00:37:44,723
+for me. And it's just not easy
+to troubleshoot and it's ...
 
-511
+737
+00:37:44,723 --> 00:37:48,758
+yeah.
+
+738
 00:37:48,818 --> 00:37:52,599
 It's been interesting. I mean,
 it's cool to be learning and
 
-512
+739
 00:37:52,599 --> 00:38:02,199
 working on- on something so
 radically different. And I hope,
 
-513
-00:38:02,259 --> 00:38:05,739
-eventually, I'll be able to create
-some content for them that's
+740
+00:38:02,259 --> 00:38:03,999
+eventually, I'll be able to
+create some content for them
 
-514
+741
+00:38:03,999 --> 00:38:05,739
+that's
+
+742
 00:38:05,739 --> 00:38:11,648
-useful and meaningful, but
-it is definitely something where
+useful and meaningful, but it is
+definitely something where
 
-515
+743
 00:38:11,648 --> 00:38:15,369
 I'm like, "Oh, there has gotta
 be somebody else out there who's
 
-516
+744
 00:38:15,369 --> 00:38:23,500
 better qualified to do this.
 [Laughs] It's sure not me. But
 
-517
+745
 00:38:23,500 --> 00:38:23,858
 it's kind of
 
-517
+746
 00:38:23,858 --> 00:38:26,700
 the nature of like, there are
 just -- there aren't an enormous
 
-518
+747
 00:38:26,700 --> 00:38:32,918
 number of companies that do what
 our company does. And I'm -- I'm
 
-519
-00:38:33,219 --> 00:38:37,989
-technically a freelancer, but I --
-almost all my work right now is
+748
+00:38:33,219 --> 00:38:35,604
+technically a freelancer, but I
+-- almost all my work right now
 
-520
+749
+00:38:35,604 --> 00:38:37,989
+is
+
+750
 00:38:37,994 --> 00:38:41,349
 through- is through an agency.
 And there just aren't that many
 
-521
+751
 00:38:41,353 --> 00:38:44,108
 agencies that do what we do. And
 we had a sales guy for a little
 
-522
-00:38:44,108 --> 00:38:51,384
+752
+00:38:44,108 --> 00:38:47,746
 whi- while who was maybe
-overselling [laughs] our technical
+overselling [laughs] our
 
-523
-00:38:51,384 --> 00:38:57,414
-expertise or, like, overselling the
-idea that, you know, developers
+753
+00:38:47,746 --> 00:38:51,384
+technical
 
-524
+754
+00:38:51,384 --> 00:38:54,399
+expertise or, like, overselling
+the idea that, you know,
+
+755
+00:38:54,399 --> 00:38:57,414
+developers
+
+756
 00:38:57,414 --> 00:39:04,000
 could learn anything and, you
 know, in no time flat
 
-525
+757
 00:39:04,000 --> 00:39:07,253
 [laughs]. Yeah.
 
-525
+758
 00:39:07,373 --> 00:39:12,204
 Yeah. But -- so, that -- that's
 the kind of thing, like, a --
 
-526
+759
 00:39:12,204 --> 00:39:13,704
 I'm -- I don't know. Does that
 answer? Is that a good answer?
 
-527
-00:39:13,918 --> 00:39:16,643
-Bekah: Yeah. Yeah, this is great. I
-mean, you really broke down a lot
+760
+00:39:13,918 --> 00:39:15,280
+Bekah: Yeah. Yeah, this is
+great. I mean, you really broke
 
-528
+761
+00:39:15,280 --> 00:39:16,642
+down a lot
+
+762
 00:39:16,643 --> 00:39:20,063
 of different things. Do you get
 to choose the projects and the
 
-529
+763
 00:39:20,063 --> 00:39:22,500
 companies that you work with or
 does the agency-
 
-530
+764
 00:39:22,500 --> 00:39:22,700
 Julia: Hmm.
 
-531
+765
 00:39:23,000 --> 00:39:23,934
 Bekah: -assign you?
 
-530
+766
 00:39:24,744 --> 00:39:30,143
 Julia: So, when I first started
 working with them, it was really
 
-531
+767
 00:39:30,143 --> 00:39:38,304
 just like, kind of one off
 freelance stuff. And over the
 
-532
-00:39:38,309 --> 00:39:43,418
-course of a couple years -- well,
-over the course of a year, you
+768
+00:39:38,309 --> 00:39:40,863
+course of a couple years --
+well, over the course of a year,
 
-533
-00:39:43,418 --> 00:39:46,628
+769
+00:39:40,863 --> 00:39:43,417
+you
+
+770
+00:39:43,418 --> 00:39:45,023
 know, I- I took on a variety of
-different projects. And at first,
+different projects. And at
 
-534
-00:39:46,628 --> 00:39:51,039
-they were like pretty targeted to
-stuff I already knew and stuff I
+771
+00:39:45,023 --> 00:39:46,628
+first,
 
-535
+772
+00:39:46,628 --> 00:39:48,833
+they were like pretty targeted
+to stuff I already knew and
+
+773
+00:39:48,833 --> 00:39:51,038
+stuff I
+
+774
 00:39:51,039 --> 00:39:54,009
 had already worked on. And then,
 gradually, they started kinda
 
-536
+775
 00:39:54,014 --> 00:39:56,018
 pulling me in on more stuff and
 saying, "Hey, would you be
 
-537
+776
 00:39:56,018 --> 00:39:58,389
 interested in this? Would you be
 interested in this?" And
 
-538
-00:39:59,259 --> 00:40:03,728
+777
+00:39:59,259 --> 00:40:01,493
 eventually, I think that they
-realized like, "Oh, hey. Julia is
+realized like, "Oh, hey. Julia
 
-539
+778
+00:40:01,493 --> 00:40:03,727
+is
+
+779
 00:40:03,728 --> 00:40:07,329
 a person who is happy to learn
 new stuff, happy to take on
 
-540
+780
 00:40:07,329 --> 00:40:15,128
 challenging clients." So, I --
 I'm now -- like, I'm a 1099, but
 
-541
-00:40:15,128 --> 00:40:23,318
+781
+00:40:15,128 --> 00:40:19,223
 I'm- I'm the staff writer at- at
-the agency. And, I mean, I kind of
+the agency. And, I mean, I kind
 
-542
+782
+00:40:19,223 --> 00:40:23,318
+of
+
+783
 00:40:23,318 --> 00:40:31,688
 get the clients that ... are too
 difficult to give to one of our
 
-543
-00:40:31,688 --> 00:40:38,739
+784
+00:40:31,688 --> 00:40:35,213
 freelancers. So, like, I kinda
-get to choose. I was -- you know,
+get to choose. I was -- you
 
-544
+785
+00:40:35,213 --> 00:40:38,738
+know,
+
+786
 00:40:38,739 --> 00:40:40,700
 at some point, they asked me
 like, "Hey, would you wanna work
 
-545
+787
 00:40:40,700 --> 00:40:45,500
 on this crypto thing?" And I was
 like,"No [laughs], not really."
 
-546
+788
 00:40:45,500 --> 00:40:46,389
 So, I mean, I do get
 
-546
+789
 00:40:46,389 --> 00:40:50,199
 some input. And that first
 client that I was talking about,
 
-547
+790
 00:40:50,199 --> 00:40:55,539
 is one where I did a few pieces
 for them, they really liked it.
 
-548
+791
 00:40:55,539 --> 00:40:58,300
 I was in some meetings with
 them. I really liked them. And
 
-549
+792
 00:40:58,300 --> 00:41:01,300
 so, I've gotten -- I've been
 able to say, "Hey, I-
 
-550
+793
 00:41:01,300 --> 00:41:01,500
 Bekah: Yeah.
 
-551
+794
 00:41:01,500 --> 00:41:02,708
 Julia: -really like working with
 
-550
+795
 00:41:02,708 --> 00:41:08,438
 them." Like, "I've got ideas.
 Let me -- let -- can, you know,
 
-551
+796
 00:41:08,438 --> 00:41:12,100
 can I take on more of that
 relationship?" But, yeah. I
 
-552
+797
 00:41:12,100 --> 00:41:12,369
 dunno [laughs].
 
-552
+798
 00:41:13,358 --> 00:41:13,700
 Bekah: So, so with-
 
-553
+799
 00:41:13,700 --> 00:41:14,000
 Dan: That's awesome.
 
-554
+800
 00:41:14,000 --> 00:41:18,000
 Bekah: -the ideas, do they come
 in -- does the company come in
 
-553
+801
 00:41:18,000 --> 00:41:22,989
-with ideas or they have, like,
-a general -- do you define --
+with ideas or they have, like, a
+general -- do you define --
 
-554
+802
 00:41:23,409 --> 00:41:28,500
 Julia: So we- we do our- our --
 I have a fly in here. Go away.
 
-555
+803
 00:41:29,700 --> 00:41:30,728
 Our principal
 
-555
+804
 00:41:30,733 --> 00:41:38,003
 consultant, when- when we
 onboard a new client, does a
 
-556
+805
 00:41:38,003 --> 00:41:42,384
-process that they call the-
-the dis- the developer content
+process that they call the- the
+dis- the developer content
 
-557
+806
 00:41:43,853 --> 00:41:48,293
 action plan. So they do like a
 developer content review where
 
-558
+807
 00:41:48,298 --> 00:41:53,500
 they say like, "Here are the
 gaps in your existing
 
-559
+808
 00:41:53,500 --> 00:41:53,664
 documentation.
 
-559
+809
 00:41:55,224 --> 00:41:59,483
 This is what developers want to
 see. This is, you know, this is
 
-560
+810
 00:42:00,324 --> 00:42:02,700
 -- these are your areas of
 strength." And- and they have --
 
-561
+811
 00:42:02,700 --> 00:42:03,864
 we have kind of a,
 
-561
+812
 00:42:03,923 --> 00:42:08,844
 you know, a rubric. And then
 they come up with a -- an action
 
-562
+813
 00:42:08,844 --> 00:42:14,693
 plan based on that content gap
 analysis. So, it's a
 
-563
+814
 00:42:14,699 --> 00:42:21,700
 collaborative process for sure.
 And the longer I've been with
 
-564
+815
 00:42:21,700 --> 00:42:22,284
 the agency,
 
-564
+816
 00:42:22,284 --> 00:42:26,994
 like, the more I've been able to
 be involved in that process.
 
-565
+817
 00:42:28,193 --> 00:42:34,943
 Yeah. So it- it's a mix, right?
 Sometimes clients have wacky
 
-566
+818
 00:42:34,943 --> 00:42:38,844
-ideas about what they want.
-And then we have some clients
+ideas about what they want. And
+then we have some clients
 
-567
+819
 00:42:38,844 --> 00:42:44,664
 who've been clients for a long
 time where we've moved past,
 
-568
+820
 00:42:44,664 --> 00:42:47,700
 like, that content gap, and it's
 more like, "Hey, we would love
 
-569
+821
 00:42:47,700 --> 00:42:48,594
 to have,
 
-569
+822
 00:42:49,134 --> 00:42:53,693
 you know, this more kinda off
 the wall piece. Like, I did a
 
-570
+823
 00:42:53,693 --> 00:42:58,554
 piece for Algolia around Black
 Friday last year. That was like
 
-571
+824
 00:42:59,184 --> 00:43:03,744
 an instant inventory. It was
 like, how can you use Algolia
 
-572
+825
 00:43:03,748 --> 00:43:06,000
 to, like, manage your Black
 Friday sales?
 
-573
+826
 00:43:06,500 --> 00:43:06,700
 Dan: Yeah.
 
-574
+827
 00:43:07,000 --> 00:43:07,614
-Julia: And they said, "You
-know, this is something we think
+Julia: And they said, "You know,
+this is something we think
 
-573
+828
 00:43:07,614 --> 00:43:12,000
 we'll, like, kinda republish
 every year leading up to Black
 
-574
+829
 00:43:12,000 --> 00:43:12,500
 Friday."
 
-575
-00:43:13,000 --> 00:43:13,500 
+830
+00:43:13,000 --> 00:43:13,500
 Bekah: That's awesome.
 
-576
+831
 00:43:14,000 --> 00:43:16,043
 Julia: So, you know, it- it's
 like that
 
-575
+832
 00:43:16,043 --> 00:43:21,023
 kind of thing where it's more
 like ... I don't know.
 
-576
+833
 00:43:21,518 --> 00:43:22,700
 Bekah: Yeah. Yeah.
 
-576
+834
 00:43:22,700 --> 00:43:23,300
 Julia: Creative.
 
-577
+835
 00:43:24,000 --> 00:43:26,739
 Bekah: That's fun. What? Okay.
-So, you've done -- [chuckles] 
+So, you've done -- [chuckles]
 
-577
+836
 00:43:26,949 --> 00:43:29,619
 you've really broken down a lot
 of the- the stuff that I was
 
-578
+837
 00:43:29,619 --> 00:43:31,748
 interested in hearing about,
 which is great. Like, there are
 
-579
+838
 00:43:31,748 --> 00:43:37,119
 some really fun parts. There are
 some parts that are not so fun
 
-580
+839
 00:43:37,123 --> 00:43:43,500
 or kind of challenging. Are --
 is there [laughs] any -- so, I
 
-581
+840
 00:43:43,500 --> 00:43:44,648
 would say, it sounds
 
-581
+841
 00:43:44,648 --> 00:43:48,188
 like the part that you like the
 most is being able to learn new
 
-582
+842
 00:43:48,188 --> 00:43:52,224
 things. But it also seems pretty
 fun to be able to develop those
 
-583
+843
 00:43:52,224 --> 00:43:54,954
 deeper relationships with the
 clients too. Is that --
 
-584
+844
 00:43:54,954 --> 00:44:03,000
 Julia: Absolutely. Yeah. And I-
 [exhales] I really -- I like
 
-00:44:03,000 --> 00:44:04,748
+845
+00:44:03,000 --> 00:44:05,679
 ... that I've been able to
 
-585
+846
 00:44:05,679 --> 00:44:09,009
 recently kind of develop these
 more in depth relationships with
 
-586
+847
 00:44:09,009 --> 00:44:16,869
 clients. It's a mixed bag
 though, because the consultant
 
-587
-00:44:16,869 --> 00:44:24,128
-client relationship is ... as I'm
-sure you both know, not always
+848
+00:44:16,869 --> 00:44:20,498
+client relationship is ... as
+I'm sure you both know, not
 
-588
+849
+00:44:20,498 --> 00:44:24,127
+always
+
+850
 00:44:24,128 --> 00:44:32,018
 the easiest relationship to
 navigate. And as a contractor
 
-589
+851
 00:44:32,018 --> 00:44:37,599
 with my agency, like, I'm always
 kind of -- I, like, a little on
 
-590
+852
 00:44:37,599 --> 00:44:41,800
 guard about, like -- oh, my god.
 I -- I'm not even an employee of
 
-591
+853
 00:44:41,800 --> 00:44:44,500
 this company exactly [laughs].
 
-591
+854
 00:44:44,500 --> 00:44:47,918
 Like, if I say the wrong thing
 and like, upset this client,
 
-592
+855
 00:44:47,949 --> 00:44:53,648
 like, "Aah," you know? It's my
 butt on the line. And our- our
 
-593
+856
 00:44:53,648 --> 00:45:00,438
 principal consultant is like an
 amazing guy. But it's just not-
 
-594
+857
 00:45:00,528 --> 00:45:07,143
 it's not the same as like being
 part of the same team, like,
 
-595
+858
 00:45:07,143 --> 00:45:11,600
 that manager relationship where
 like- like, I don't know. I
 
-596
+859
 00:45:11,600 --> 00:45:11,764
 just --
 
-596
+860
 00:45:12,664 --> 00:45:16,414
 there's always this, like, added
 level of stress in conversations
 
-597
+861
 00:45:16,414 --> 00:45:19,393
 with clients where I'm like,
 "Oh, I really hope I don't say
 
-598
+862
 00:45:19,393 --> 00:45:27,300
 the wrong thing [laughs]." But
 [deep exhales] I do like it, and
 
-599
+863
 00:45:27,300 --> 00:45:28,500
 I think that, like,
 
-599
+864
 00:45:28,500 --> 00:45:37,773
 whatever the next move is in my
 careen, I- I wanna have it be
 
-600
+865
 00:45:37,773 --> 00:45:41,884
 something where I have more
 depth-
 
-601
+866
 00:45:42,528 --> 00:45:42,648
 Bekah: Hmm.
 
-602
+867
 00:45:43,143 --> 00:45:45,844
 Julia: -more depth in my
 relationships with people, but
 
-603
+868
 00:45:45,844 --> 00:45:51,364
 also like, more depth in working
 with a- a more focused tech
 
-604
-00:45:51,364 --> 00:45:56,733
-stack, because it does get pretty
-exhausting. Like, just bouncing
+869
+00:45:51,364 --> 00:45:54,048
+stack, because it does get
+pretty exhausting. Like, just
 
-605
+870
+00:45:54,048 --> 00:45:56,732
+bouncing
+
+871
 00:45:56,739 --> 00:46:00,333
 from one thing to another and
 kinda feeling like I never
 
-606
+872
 00:46:00,333 --> 00:46:06,063
 work with any one thing long
 enough to really have any
 
-607
+873
 00:46:06,063 --> 00:46:10,534
 mastery. And like, I know I'm
 learning cuz when I come back to
 
-608
+874
 00:46:10,534 --> 00:46:19,023
 stuff later, like, I can achieve
 more complex results, and I can
 
-609
+875
 00:46:19,204 --> 00:46:22,443
 work faster, and I can
 troubleshoot better. But, like,
 
-610
+876
 00:46:22,443 --> 00:46:27,813
 I don't ever feel -- I- I never
 exactly feel competent [laughs].
 
-611
+877
 00:46:28,369 --> 00:46:28,858
 Bekah: Yeah.
 
-612
+878
 00:46:29,494 --> 00:46:33,063
 Julia: And that's kinda tough
 sometimes.
 
-613
+879
 00:46:33,168 --> 00:46:34,700
 Dan: Yeah. Totally get that. I
 mean, like, digging in all the
 
-614
+880
 00:46:34,700 --> 00:46:36,000
 way into something
 
-614
+881
 00:46:36,000 --> 00:46:38,700
 can feel good. It -- you know,
 [chuckles] I- I was gonna make
 
-615
+882
 00:46:38,700 --> 00:46:40,009
 some joke
 
-615
-00:46:40,009 --> 00:46:42,679
-about how that's like, just being
-a JavaScript in general, where
+883
+00:46:40,009 --> 00:46:41,344
+about how that's like, just
+being a JavaScript in general,
 
-616
+884
+00:46:41,344 --> 00:46:42,679
+where
+
+885
 00:46:42,679 --> 00:46:43,700
 everything's always new and
 changing-
 
-617
+886
 00:46:43,700 --> 00:46:44,000
 Julia: Yeah, yeah.
 
-618
+887
 00:46:44,300 --> 00:46:44,949
 Dan: -you know [laughs]?
 
-617
+888
 00:46:44,949 --> 00:46:46,923
 Julia: Well, I know. That's-
 that's, like, absolutely-
 
-618
+889
 00:46:46,188 --> 00:46:46,509
 Dan: But- but then it's --
 
-619
+890
 00:46:46,923 --> 00:46:49,114
 Julia: -an industry wide
 phenomenon.
 
-620
+891
 00:46:49,398 --> 00:46:52,700
-Dan: Right. But still, I mean,
-I -- you know, I still have been
+Dan: Right. But still, I mean, I
+-- you know, I still have been
 
-621
+892
 00:46:52,700 --> 00:46:56,599
 doing RAD for, like, years, you
 know? And it's like, I actually
 
-622
+893
 00:46:56,659 --> 00:46:58,309
 know it, like, pretty well. You
 know what I mean [laughs]? And
 
-623
+894
 00:46:58,309 --> 00:47:00,000
 it's- and it's- and it's nice to
 be able to do that.
 
-623
+895
 00:46:58,384 --> 00:47:02,000
 Julia: Yeah. And I would say,
 like, it's like ... you know,
 
-624
+896
 00:47:02,000 --> 00:47:04,143
 [deep exhales] earlier this
 spring, I was
 
-624
-00:47:04,143 --> 00:47:12,724
+897
+00:47:04,143 --> 00:47:08,433
 working on this kinda
-complicated .NET sequel thing, and
+complicated .NET sequel thing,
 
-625
-00:47:13,474 --> 00:47:18,514
+898
+00:47:08,433 --> 00:47:12,723
+and
+
+899
+00:47:13,474 --> 00:47:15,994
 then I'm working in Unity, and I
-have to learn Xcode, and how to do
+have to learn Xcode, and how to
 
-626
+900
+00:47:15,994 --> 00:47:18,514
+do
+
+901
 00:47:18,514 --> 00:47:24,264
 iOS development. And also on the
 side, I'm working with GraphQL,
 
-627
+902
 00:47:25,233 --> 00:47:29,000
 and, like -- it's like, I just
 -- I- I mean, I really bounce
 
-628
+903
 00:47:29,000 --> 00:47:29,500
 around a lot.
 
-628
+904
 00:47:29,500 --> 00:47:32,463
 And occasionally, they'll be
 like, "Do you know Angular?" And
 
-629
+905
 00:47:32,463 --> 00:47:36,700
 I'm like, "Oh." [All laugh]
 That's -- the- the- the GraphQL
 
-630
+906
 00:47:36,700 --> 00:47:38,974
 client. We're all in agreement.
 
-630
+907
 00:47:38,974 --> 00:47:42,273
 The- the next thing -- the next
 deliverable is for me to do
 
-631
+908
 00:47:42,273 --> 00:47:46,114
 something in Flutter. And I'm
 like, "Oh, for Christ's sake."
 
-632
+909
 00:47:46,324 --> 00:47:48,153
 Dan: Yeah. You were -- I saw you
 mentioned that on Slack. I don't
 
-633
+910
 00:47:48,153 --> 00:47:49,893
 even know what Flutter is
 really. What is it?
 
-634
+911
 00:47:49,963 --> 00:47:56,239
 Julia: It's- it's a mobile
 framework. So, it's like a --
 
-635
+912
 00:47:56,599 --> 00:48:01,398
 but it's ... so --
 
-636
+913
 00:48:01,923 --> 00:48:02,224
 Dan: Like JavaScript? But ...
 makes mobile apps?
 
-637
+914
 00:48:02,869 --> 00:48:05,179
 Julia: Yeah. But it's --
 
-638
+915
 00:48:05,344 --> 00:48:05,853
 Dan: I suppose I could look it
 up.
 
-639
+916
 00:48:06,153 --> 00:48:08,500
 Bekah: It seems like a React
 Native competitor. Am I wrong
 
-640
+917
 00:48:08,500 --> 00:48:08,914
 about that?
 
-640
+918
 00:48:08,989 --> 00:48:12,000
 Julia: It's a React Native
 competitor. It -- I can't
 
-641
+919
 00:48:12,000 --> 00:48:15,978
 remember what the big advantage
 is over React Native.
 
-642
+920
 00:48:16,083 --> 00:48:18,574
 Bekah: Well, I've heard a lot of
 React Native. People say there's
 
-643
+921
 00:48:18,574 --> 00:48:19,054
 no advantage [laughs].
 
-644
+922
 00:48:21,603 --> 00:48:25,324
 Dan: Well, React Native is
 really annoying. So, if this is
 
-645
+923
 00:48:25,324 --> 00:48:28,293
 better than, you know? I've just
 started my first React -- I just
 
-646
+924
 00:48:28,298 --> 00:48:30,483
 started digging to React Native
 for the first time, like, a
 
-647
+925
 00:48:30,489 --> 00:48:32,700
 month or two ago. And-
 
-648
-00:48:31,000 -->00:48:33,000
+926
+00:48:31,000 --> 00:48:33,000
 Julia: Yeah. It's a React Native
 competitor-
 
-649
+927
 00:48:32,700 --> 00:48:32,884
 Dan: -I'm still in that -- I'm
 just at a mad phase.
 
-648
+928
 00:48:33,208 --> 00:48:36,528
 Julia: -and the- and the idea is
 that, like- like, React Native,
 
-649
+929
 00:48:36,588 --> 00:48:42,199
 it's- it's, like, device
 agnostic. Like, it's not like
 
-650
+930
 00:48:42,409 --> 00:48:44,298
 writing an iOS app or
 [inaudible].
 
-651
-00:48:44,494 --> 00:48:46,923
+931
+00:48:44,494 --> 00:48:45,708
 Dan: Right, right. Wants to
-published anywhere kind of thing.
+published anywhere kind of
 
-652
+932
+00:48:45,708 --> 00:48:46,922
+thing.
+
+933
 00:48:47,253 --> 00:48:47,463
 Yeah.
 
-653
+934
 00:48:47,568 --> 00:48:47,958
 Julia: Yeah.
 
-654
+935
 00:48:48,784 --> 00:48:51,543
 Dan: Yeah. I mean, starting from
 scratch, i-in a, like, a big way
 
-655
+936
 00:48:51,543 --> 00:48:55,923
 like that is- is hard, you know?
 I was- I was just thinking in my
 
-656
+937
 00:48:55,923 --> 00:48:57,700
 head, I was just, like,
 outlining a blog post about,
 
-656
+938
 00:48:57,700 --> 00:48:58,594
 like, how I
 
-657
+939
 00:48:58,713 --> 00:49:00,700
 learned things, you know, from
 scratch, you know? And-
 
-658
+940
 00:49:01,000 --> 00:49:01,300
 Julia: Mm-hmm.
 
-659
+941
 00:49:01,100 --> 00:49:01,384
 Dan: -like, the
 
-658
+942
 00:49:01,384 --> 00:49:04,173
 bigger it is, like, the -- it's
 just like you were talking about
 
-659
+943
 00:49:04,173 --> 00:49:09,784
 the game app, right? The, like,
 the further away from what
 
-660
+944
 00:49:09,784 --> 00:49:12,000
 you're used to it is the harder
 it is. I mean- I mean, like,
 
-661
+945
 00:49:12,000 --> 00:49:14,500
 that's an, like, an obvious
 statement. But it's, like, it's-
 
-662
+946
 00:49:14,500 --> 00:49:15,664
 it's much more -- for me, it's
 
-662
+947
 00:49:15,664 --> 00:49:18,700
 much more exhausting too and it
 takes longer, but it's also-
 
-663
+948
 00:49:18,700 --> 00:49:19,000
 Julia: Yeah.
 
-663
+949
 00:49:19,500 --> 00:49:23,000
 Dan: -like, harder, [laughs] you
 know- you know what I mean?
 
-664
+950
 00:49:22,500 --> 00:49:22,700
 Julia: Yeah.
 
-665
+951
 00:49:23,000 --> 00:49:24,034
 Dan: Like, it's not just a
 
-664
+952
 00:49:24,063 --> 00:49:26,434
 simple, "Oh, it just takes two
 days instead of half an hour,"
 
-665
+953
 00:49:26,438 --> 00:49:28,300
 if it's, you know, some package
 or whatever, you know?
 
-666
+954
 00:49:28,300 --> 00:49:28,563
 [Inaudible].
 
-666
+955
 00:49:28,759 --> 00:49:30,349
 Julia: Well, it's like, you
 know, we- we --
 
-667
+956
 00:49:30,713 --> 00:49:31,534
 Dan: And it's -- it is. It's
 hard sometimes.
 
-668
+957
 00:49:31,728 --> 00:49:34,500
 Julia: We're all- all -- like,
 the idea that it's hard to
 
-669
+958
 00:49:34,500 --> 00:49:37,700
 estimate how long things will
 take is obviously well known
 
-670
+959
 00:49:37,700 --> 00:49:41,989
 phenomenon. But when you don't
 know anything [laughs]?
 
-671
+960
 00:49:42,559 --> 00:49:43,068
 Dan: Yeah. Yeah.
 
-672
+961
 00:49:43,338 --> 00:49:45,829
 Julia: It's impossible to
 estimate. It's like [inaudible]-
 
-673
+962
 00:49:46,309 --> 00:49:47,028
 Dan: Oh, I mean -- yeah.
 
-674
+963
 00:49:47,114 --> 00:49:49,700
 Julia: -probably roughly
 estimate how long it'll take me
 
-675
+964
 00:49:49,700 --> 00:49:50,148
 to, like,
 
-675
+965
 00:49:50,239 --> 00:49:53,778
 write something in Flutter.
 Because I read about it and I
 
-676
+966
 00:49:53,778 --> 00:49:56,300
 was like, "Oh, okay. This is not
 radically different than
 
-677
+967
 00:49:56,300 --> 00:49:58,000
 anything I've done before."
 
-678
+968
 00:49:58,000 --> 00:49:59,000
 Dan: Right.
 
-679
+969
 00:49:59,000 --> 00:50:01,500
 Julia: But with game
 development, it's like, "Oh,
 
-678
+970
 00:50:02,000 --> 00:50:06,800
 gee." Like, this is, you know,
 there's just reams of files that
 
-679
+971
 00:50:06,800 --> 00:50:11,088
 I'm like, "I have no idea what
 any of these do [laughs]."
 
-680
+972
 00:50:11,989 --> 00:50:12,289
 Dan: Yeah.
 
-681
+973
 00:50:12,798 --> 00:50:17,000
 Julia: You know? I don't know.
 It's just -- and yeah. I'm a-
 
-682
+974
 00:50:17,000 --> 00:50:22,000
 I'm a terrible jaw clincher,
 like, I just all day, every day.
 
-683
+975
 00:50:22,000 --> 00:50:27,500
 And over the last few months, as
 I've been working on this, like,
 
-684
+976
 00:50:27,500 --> 00:50:29,000
 these few particularly
 
-684
+977
 00:50:29,000 --> 00:50:33,829
 difficult projects, I- I
 actually went to the dentist.
 
-685
+978
 00:50:33,858 --> 00:50:37,300
 And I was like, "You have to
 help me [laughs]." Like, "I'm
 
-686
+979
 00:50:37,300 --> 00:50:42,300
 going crazy." So that's why I
 now ... sugar-free-
 
-687
+980
 00:50:42,300 --> 00:50:42,500
 Bekah: Aah.
 
-686
+981
 00:50:42,500 --> 00:50:45,858
 Julia: -Werthers Original. I'm
 like an 80 year old diabetic
 
-687
+982
 00:50:45,858 --> 00:50:47,539
 [Bekah laughs].
 
-687
+983
 00:50:47,539 --> 00:50:52,000
 I suck on sugar-free Werthers
 Original all day, cuz-
 
-688
+984
 00:50:52,039 --> 00:50:52,300
 Dan: Nice.
 
-688
+985
 00:50:52,100 --> 00:50:53,628
 Julia: -it keeps me from
 punching my teeth.
 
-689
+986
 00:50:54,094 --> 00:50:56,700
 Bekah: That's interesting. My
 dentist sent me to my
 
-690
+987
 00:50:57,000 --> 00:50:58,503
 chiropractor to
 
-690
+988
 00:50:58,503 --> 00:51:02,974
 have my jaw adjusted. That is
 one of, like, the most awkward,
 
-691
+989
 00:51:03,244 --> 00:51:08,193
 uncomfortable adjustments that I
 have had. But I am also a jaw
 
-692
+990
 00:51:08,193 --> 00:51:12,903
 clincher and it was causing my
 tooth to grow thickening roots
 
-693
+991
 00:51:12,903 --> 00:51:14,824
 that were starting to protrude
 in my gums [laughs].
 
-694
+992
 00:51:16,009 --> 00:51:21,300
 Julia: Yeah. Yeah. No, that's
 what I, like ... yeah. Anyway.
 
-695
+993
 00:51:21,300 --> 00:51:23,884
 We don't need to get into my
 oral health [all laugh].
 
-696
+994
 00:51:27,228 --> 00:51:29,929
 Dan: You mentioned the, you
 know, estimating and all that
 
-697
+995
 00:51:29,929 --> 00:51:32,358
 stuff. And I- I- I actually,
 like, I was been wondering about
 
-698
+996
 00:51:32,364 --> 00:51:34,009
 this since you talked about it,
 especially since you're a
 
-699
+997
 00:51:34,009 --> 00:51:38,659
 contractor. How, like, how it
 works? What, like, your
 
-700
+998
 00:51:38,659 --> 00:51:41,748
 arrangement? I mean, you get an
 assignment of writing an article
 
-701
+999
 00:51:41,748 --> 00:51:44,000
 about something that you don't
 know about yet. And so-
 
-702
+1000
 00:51:44,300 --> 00:51:44,500
 Julia: Right.
 
-703
+1001
 00:51:45,000 --> 00:51:45,318
 Dan: -like, how
 
-702
+1002
 00:51:45,318 --> 00:51:47,300
 does that- how does that break
 down? How does- how does --
 
-703
+1003
 00:51:47,300 --> 00:51:50,000
 what's the process of, like --
 cuz- cuz if I have a project,
 
-704
+1004
 00:51:50,000 --> 00:51:50,449
 you know, maybe I try
 
-704
+1005
 00:51:50,449 --> 00:51:52,938
 to estimate it or something, and
 there's always unknowns, but-
 
-705
+1006
 00:51:52,938 --> 00:51:53,599
 Julia: Right.
 
-705
+1007
 00:51:53,599 --> 00:51:56,000
 Dan: -with writing assignments,
 lots of times it's -- there's
 
-706
+1008
 00:51:56,000 --> 00:51:58,000
 other ... [chuckles] you know,
 it's- it's per pages.
 
-706
+1009
 00:51:58,000 --> 00:51:58,300
 Julia: You know --
 
-706
+1010
 00:51:58,300 --> 00:51:59,599
 Dan: Like, there's like --
 there's lots of
 
-707
+1011
 00:51:59,599 --> 00:52:02,164
 different ways. And so is it
 just ... you kinda treat it like
 
-708
+1012
 00:52:02,164 --> 00:52:03,500
 a software project and estimate-
 
-709
+1013
 00:52:03,300 --> 00:52:05,554
 Julia: Yeah. The writing- the
 writing-
 
-710
+1014
 00:52:03,500 --> 00:52:05,554
 Dan: -hourly and deliver
 everything at the end, or --
 
-709
+1015
 00:52:05,559 --> 00:52:08,074
 Julia: -process -- the writing
 process doesn't really take me
 
-710
+1016
 00:52:08,079 --> 00:52:14,700
 that much time. So, like, if I'm
 writing about something that I
 
-711
+1017
 00:52:14,700 --> 00:52:15,213
 already
 
-711
+1018
 00:52:15,213 --> 00:52:21,514
 understand really well or just,
 like, a very simple API where I
 
-712
+1019
 00:52:21,514 --> 00:52:28,000
 just wanna show, like, very
 basic, like, "Here's- here's how
 
-713
+1020
 00:52:28,000 --> 00:52:33,094
 to call it the first time." I
 know very well how long that'll
 
-714
+1021
 00:52:33,094 --> 00:52:35,500
 take me, like, the writing
 process. Just -- it's just --
 
+1022
 00:52:35,500 --> 00:52:40,000
 it's, like, as ... I don't know.
 
-715
+1023
 00:52:40,000 --> 00:52:45,700
 I -- the di- so, one of the
 differences is when I was
 
-716
+1024
 00:52:45,700 --> 00:52:45,934
 working —
 
-716
+1025
 00:52:46,143 --> 00:52:50,614
 before I kinda got brought in
 house as a staff writer, then I
 
-717
+1026
 00:52:50,614 --> 00:52:58,563
-was paid by piece. And it was
-a standard rate. And the
+was paid by piece. And it was a
+standard rate. And the
 
-718
+1027
 00:52:58,563 --> 00:53:03,333
 pieces that I was getting were
 pretty standardized. At the
 
-719
+1028
 00:53:03,333 --> 00:53:07,503
 point that it started getting
 more complex, where it was like,
 
-720
+1029
 00:53:07,503 --> 00:53:12,003
 Hey, stuff's coming back to me
 from the client, like, asking me
 
-721
+1030
 00:53:12,003 --> 00:53:16,000
 for a lot of revisions that,
 like, were not in scope," you
 
-722
+1031
 00:53:16,000 --> 00:53:21,813
 know [laughs]?
 
-723
+1032
 00:53:16,000 --> 00:53:16,300
 Bekah: Mm.
 
-724
+1033
 00:53:16,500 --> 00:53:16,700
 Dan: Mm-hmm.
 
-725
+1034
 00:53:17,000 --> 00:53:21,000
 Julia: Then it was like, "Can we
 have a conversation about
 
-723
+1035
 00:53:21,000 --> 00:53:25,500
 changing how I'm compensated?
 Because this is not- this is not
 
-724
+1036
 00:53:25,300 --> 00:53:26,000
 standard."
 
-725
+1037
 00:53:25,300 --> 00:53:25,500
 Bekah: Yeah.
 
-724
+1038
 00:53:26,000 --> 00:53:31,300
 Julia: Now, I'm paid a m- a
 monthly retainer. And our
 
-725
+1039
 00:53:31,300 --> 00:53:35,500
-project manager sort of -- I
-can wo- I communicate with her
+project manager sort of -- I can
+wo- I communicate with her
 
-726
+1040
 00:53:35,500 --> 00:53:37,684
 about, like, where I'm at on
 
-726
+1041
 00:53:37,684 --> 00:53:44,494
 different stuff. And we kind of
 scale how- how much I take on
 
-727
+1042
 00:53:44,494 --> 00:53:47,043
-just based on how long things are
-taking. So --
+just based on how long things
+are taking. So --
 
-728
+1043
 00:53:47,063 --> 00:53:47,873
 Dan: Yeah. Nice.
 
-729
+1044
 00:53:48,244 --> 00:53:51,634
 Julia: Yeah. Yeah. It's not --
 it's- it's pretty- it's pretty
 
-730
+1045
 00:53:51,634 --> 00:53:56,793
 flexible. They had expectations
 when I came on board as a staff
 
-731
+1046
 00:53:56,793 --> 00:54:00,300
 writer, that turned out to be,
 like, really wacky. But
 
-732
+1047
 00:54:00,300 --> 00:54:04,500
 everybody realized it very
 quickly, like [chuckles], I
 
-733
+1048
 00:54:04,500 --> 00:54:08,700
 cannot produce 10 articles a
 month if I have to learn an
 
-734
+1049
 00:54:08,700 --> 00:54:10,938
-entirely new framework for
-every single article.
+entirely new framework for every
+single article.
 
-735
+1050
 00:54:10,938 --> 00:54:11,700
 Bekah: I don't know if anybody-
 
-736
+1051
 00:54:11,500 --> 00:54:11,700
 Dan: Right. Yeah.
 
-736
+1052
 00:54:11,700 --> 00:54:16,700
 Bekah: -can produce 10 articles
 a month. Like, that's just a lot
 
-737
+1053
 00:54:16,700 --> 00:54:18,700
 of- [chuckles] a lot of way
 [??].
 
-737
+1054
 00:54:18,139 --> 00:54:21,700
 Julia: Yeah. I mean, like, I
 could do 10 if they're all just,
 
-738
+1055
 00:54:21,700 --> 00:54:22,159
 like --
 
-738
+1056
 00:54:23,074 --> 00:54:24,094
 Dan: It's stuff you already
 know, right?
 
-739
+1057
 00:54:24,349 --> 00:54:25,699
 Julia: Yeah. 500 words on-
 
-740
+1058
 00:54:26,673 --> 00:54:27,063
 Dan: Yeah, right. Yeah.
 
-741
+1059
 00:54:27,918 --> 00:54:28,398
 Julia: -you know-
 
-742
+1060
 00:54:28,833 --> 00:54:29,594
 Dan: No, that's cool.
 
-743
+1061
 00:54:30,349 --> 00:54:33,000
 Julia: -why you should have docs
 for your API [Dan and Bekah
 
-744
+1062
 00:54:33,000 --> 00:54:35,778
 chuckle]. I'm good. I could
 
-744
+1063
 00:54:35,778 --> 00:54:42,768
 write a lot of those. But, yeah.
 It's ... I don't know. It's
 
-745
+1064
 00:54:42,768 --> 00:54:45,139
 interesting though. I think I
 was talking about this with you
 
-746
+1065
 00:54:45,139 --> 00:54:51,500
 recently, Bekah. Like, feeling
 kind of like -- I do think I'm
 
-747
+1066
 00:54:51,500 --> 00:54:53,239
 underpaid,
 
-747
+1067
 00:54:53,628 --> 00:54:59,688
 maybe? Because I think that the
 amount that I actually get done-
 
-748
+1068
 00:54:59,688 --> 00:55:00,079
 Bekah: Mm-hmm.
 
-748
+1069
 00:55:00,079 --> 00:55:04,000
 Julia: -is probably on par with
 somebody who's a full-time
 
-749
+1070
 00:55:04,000 --> 00:55:07,159
 employee.
 
-749
+1071
 00:55:07,429 --> 00:55:16,858
 But I'm paid as a part-time 1099
 employee, because I don't have
 
-750
+1072
 00:55:17,568 --> 00:55:23,298
 this sort of like official role
 in the organization. The
 
-751
+1073
 00:55:23,298 --> 00:55:30,000
 upside is I have very few
 meetings [laughs] which I love.
 
-752
+1074
 00:55:30,000 --> 00:55:40,000
 But it's also harder to kind of
 -- I- I don't -- it's hard for
 
-753
+1075
 00:55:40,000 --> 00:55:43,759
 me to ... really,
 
-753
+1076
 00:55:43,759 --> 00:55:51,454
 like, figure out what, like,
 what my compensation should be
 
-754
+1077
 00:55:51,454 --> 00:55:55,500
 because I don't really know how,
 like, my role compares to
 
-755
+1078
 00:55:55,500 --> 00:55:58,300
 somebody who's in house
 somewhere. Although I will say
 
-756
+1079
 00:55:58,300 --> 00:55:58,713
 I interviewed
 
-756
+1080
 00:55:58,713 --> 00:56:03,003
 for a role somewhere recently
 where they said something like,
 
-757
+1081
 00:56:03,244 --> 00:56:06,514
 "Oh, our full-time writers write
 about four articles a month."
 
-758
+1082
 00:56:06,514 --> 00:56:17,014
 And I was like, [laughs] "What?"
 Like, "Oh, okay. I could do that
 
-759
+1083
 00:56:18,063 --> 00:56:18,483
 very easily." Like -- but, yeah.
 
-760
+1084
 00:56:18,824 --> 00:56:21,700
 Dan: Yeah. Well, no. I mean,
 that's- that's -- I mean ...
 
-761
+1085
 00:56:21,700 --> 00:56:23,253
 yeah. It's gotta
 
-761
+1086
 00:56:23,253 --> 00:56:25,773
 be tough, but like, the -- I,
 you know, I was thinking about
 
-762
+1087
 00:56:25,773 --> 00:56:28,000
-this when you were talking
-about the, like, actual
+this when you were talking about
+the, like, actual
 
-763
+1088
 00:56:28,000 --> 00:56:28,728
 different articles
 
-763
+1089
 00:56:28,728 --> 00:56:31,668
 you were writing. And, you know,
 some of the thought processes
 
-764
+1090
 00:56:31,668 --> 00:56:35,929
 you are explaining are complex
 things, right? That- that- that
 
-765
+1091
 00:56:35,929 --> 00:56:38,958
 are targeted towards more senior
 developers, right? You're not
 
-766
+1092
 00:56:38,958 --> 00:56:42,559
 writing the -- you're not being
 asked to write the, like, sort
 
-767
+1093
 00:56:43,429 --> 00:56:44,929
 of super inter- I mean, maybe
 you are. But, like, lots-
 
-768
+1094
 00:56:45,454 --> 00:56:46,474
 Julia: Yeah. On --
 
-769
+1095
 00:56:46,579 --> 00:56:47,500
 Dan: -of times, lots of time
 you're not writing the super
 
-770
+1096
 00:56:47,500 --> 00:56:52,309
 intro basic stuff or the SEO,
 you know, fodder stuff, right?
 
-771
+1097
 00:56:52,309 --> 00:56:52,700
 You're- you're writing --
 
-771
+1098
 00:56:52,489 --> 00:56:55,489
 Julia: No. Right. And that's
 something that we -- like, as a
 
-772
+1099
 00:56:55,489 --> 00:57:01,878
 company, we're like, "Listen.
 We're -- we'll like try to make
 
-773
+1100
 00:57:01,878 --> 00:57:07,000
 the stuff that we write
 reasonably optimized, SEO wise.
 
-774
+1101
 00:57:07,000 --> 00:57:07,938
 But that's
 
-774
+1102
 00:57:07,938 --> 00:57:13,800
 not what we're here for. Like,
 we are not here to, like, you
 
-775
+1103
 00:57:13,800 --> 00:57:17,500
 know, just create fluff content.
 Like, we want content that
 
-776
+1104
 00:57:17,500 --> 00:57:23,500
 actually engages developers for
 the long term." And there is
 
-777
+1105
 00:57:23,500 --> 00:57:29,208
 definitely, like, you have to be
 discoverable. And some of
 
-778
+1106
 00:57:29,208 --> 00:57:35,148
 that is like identifying search
 terms that just have really low
 
-779
+1107
 00:57:35,148 --> 00:57:42,500
 results volume. So, like, for
 example. Just recently, it was,
 
-780
+1108
 00:57:42,500 --> 00:57:42,708
 like, we
 
-780
+1109
 00:57:42,708 --> 00:57:46,248
 noticed that there's very few
 results for the search phrase,
 
-781
+1110
 00:57:46,489 --> 00:57:49,608
 JSON payload. And so we went to
 one of our clients. And we're
 
-782
+1111
 00:57:49,608 --> 00:57:54,858
 like, "Can we write something on
 this term? Like, it's relevant
 
-783
+1112
 00:57:54,858 --> 00:57:58,458
 to you. And like it's relevant
 to developers. People are
 
-784
+1113
 00:57:58,458 --> 00:58:03,000
 searching for it and there's not
 that much content." But it's
 
-785
+1114
 00:58:03,000 --> 00:58:03,889
 based on
 
-785
+1115
 00:58:03,893 --> 00:58:07,309
 the idea that like, people are
 searching for this because they
 
-786
+1116
 00:58:07,398 --> 00:58:09,500
 want information, not like-
 
-787
+1117
 00:58:09,500 --> 00:58:09,700
 Dan: Mm-hmm.
 
-788
+1118
 00:58:10,000 --> 00:58:11,869
 Julia: -they're searching for
 it. And so,
 
-787
+1119
 00:58:11,873 --> 00:58:18,228
 like, let's- let's create the
 fluff. I think -- so the- the
 
-788
+1120
 00:58:18,228 --> 00:58:21,000
 principal of our -- the
 principal consultant is, he
 
-789
+1121
 00:58:21,000 --> 00:58:21,619
 wrote a
 
-789
+1122
 00:58:21,619 --> 00:58:24,708
 book called "Developer Marketing
 Does Not Exist", which I think
 
-790
+1123
 00:58:24,708 --> 00:58:28,700
 is kind of a goofy title. That
 was a face of recognition.
 
-791
+1124
 00:58:28,700 --> 00:58:30,079
 Bekah, do you know the book?
 
-792
+1125
 00:58:30,079 --> 00:58:32,500
 Bekah: Yes. I -- it's -- so, I
 don't know who recommended it to
 
-793
+1126
 00:58:32,500 --> 00:58:35,100
 me. But it's definitely on my
 list of books that I should
 
-794
+1127
 00:58:35,100 --> 00:58:35,329
 read.
 
-794
+1128
 00:58:35,929 --> 00:58:39,588
 Julia: Yeah. He's -- and the
 idea is basically, like, if
 
-795
+1129
 00:58:39,588 --> 00:58:43,009
 developers feel like they're
 being marketed to, like, they're
 
-796
+1130
 00:58:43,009 --> 00:58:47,119
 not gonna -- nobody wants that.
 Like, I wanna know that a
 
-797
+1131
 00:58:47,449 --> 00:58:51,139
 product is gonna actually solve
 my problem. I wanna know that,
 
-798
+1132
 00:58:51,139 --> 00:58:54,000
 like, if I start using
 something, I'm gonna be fully
 
-799
+1133
 00:58:54,000 --> 00:58:55,608
 supported in my
 
-799
+1134
 00:58:55,639 --> 00:59:00,228
 journey as a technical user. And
 so, like, the content that we're
 
-800
+1135
 00:59:00,228 --> 00:59:04,000
 creating is really geared
 towards that developer
 
-801
+1136
 00:59:04,000 --> 00:59:04,909
 experience of
 
-801
+1137
 00:59:04,909 --> 00:59:10,608
 like, "Okay, great. You made it
 to our website. You signed, you
 
-802
+1138
 00:59:10,608 --> 00:59:15,889
 know, you signed up for your
 free trial account. Are you
 
-803
+1139
 00:59:15,889 --> 00:59:20,748
 gonna actually be able to get
 stuff done? And are you gonna
 
-804
+1140
 00:59:20,958 --> 00:59:27,768
 feel successful and empowered by
 the content that you find here?
 
-805
-00:59:27,798 --> 00:59:31,789
-Or are you gonna feel like you're
-being, you know, told exactly how
+1141
+00:59:27,798 --> 00:59:29,793
+Or are you gonna feel like
+you're being, you know, told
 
-806
+1142
+00:59:29,793 --> 00:59:31,788
+exactly how
+
+1143
 00:59:31,789 --> 00:59:33,829
 to do it? And if you wanna do
 anything different, you have
 
-807
+1144
 00:59:33,829 --> 00:59:40,338
 absolutely no idea how to make
 it work." Yeah. I can't remember
 
-808
+1145
 00:59:40,338 --> 00:59:43,039
 what you said that made me just
 march [??] into that. But --
 
-809
+1146
 00:59:43,489 --> 00:59:45,300
 Dan: Mm-hmm. No. I was just
 talking about the -- yeah, I was
 
-810
+1147
 00:59:45,300 --> 00:59:50,179
 talking about how the content
 you're writing is- is- is ...
 
-811
+1148
 00:59:50,179 --> 00:59:52,518
 talking about some high level
 concepts and, you know-
 
-812
+1149
 00:59:52,699 --> 00:59:53,268
 Julia: Oh, yeah, yeah. Like-
 like --
 
-813
+1150
 00:59:54,168 --> 00:59:56,568
 Dan: -it was mostly just- mostly
 just, like, you're operating on
 
-814
+1151
 00:59:56,574 --> 01:00:00,300
 like a senior developer level,
 you know? Well- well -- and you
 
-815
+1152
 01:00:00,300 --> 01:00:00,768
 were talking about
 
-815
+1153
 01:00:00,768 --> 01:00:02,300
 competition before. And that's
 what made- made me start-
 
-816
+1154
 01:00:02,300 --> 01:00:02,500
 Julia: Yeah.
 
-816
+1155
 01:00:02,500 --> 01:00:05,329
 Dan: -talking about this, you
 know?
 
-817
+1156
 01:00:05,329 --> 01:00:05,500
 Julia: Yeah.
 
-818
+1157
 01:00:05,329 --> 01:00:05,869
 Dan: But, like the- the --
 
-817
+1158
 01:00:05,869 --> 01:00:08,000
 Julia: And then, that's -- well,
 the hard -- part of the hard
 
-818
+1159
 01:00:08,000 --> 01:00:09,000
 thing for me is, like, I really,
 
-818
+1160
 01:00:09,000 --> 01:00:13,608
 genuinely love what I do and
 that actually makes it harder
 
-819
+1161
 01:00:13,909 --> 01:00:18,108
 for me to, like, fight for the
 compensation [laughs].
 
-820
+1162
 01:00:18,934 --> 01:00:20,494
 Dan: Mm. Yeah. Yeah. I hear
 that.
 
-821
+1163
 01:00:19,000 --> 01:00:21,300
 Julia: I also have a hard [??]
 time with the fact that right
 
-822
+1164
 01:00:21,300 --> 01:00:28,500
 now, like, I work from ten to
 three ... roughly.
 
-822
+1165
 01:00:28,500 --> 01:00:31,954
 Sometimes I work a little in the
 evenings, sometimes I
 
-823
+1166
 01:00:31,954 --> 01:00:36,184
 get started a little earlier in
 the morning, but, like, I really
 
-824
+1167
 01:00:36,184 --> 01:00:38,704
 only work like 20, 25 hours a
 week.
 
-825
+1168
 01:00:39,724 --> 01:00:40,023
 Dan: Yeah.
 
-826
+1169
 01:00:40,923 --> 01:00:44,000
 Julia: [Deep exhales] And I'm --
 I just -- I know that, like,
 
-827
+1170
 01:00:44,000 --> 01:00:45,873
 taking a full-time job,
 
-827
+1171
 01:00:45,873 --> 01:00:48,844
 like, the difference that
 additional 10 to 15 hours a week
 
-828
+1172
 01:00:48,873 --> 01:00:50,000
 is just gonna be meetings-
 
-829
+1173
 01:00:50,000 --> 01:00:50,200
 Bekah: Yes.
 
-830
+1174
 01:00:50,200 --> 01:00:54,393
 Julia: -and like, annoying
 emails. And like, I
 
-829
+1175
 01:00:54,393 --> 01:00:59,583
 don't -- like, am I willing to
 take less money to not deal with
 
-830
+1176
 01:00:59,588 --> 01:01:02,300
 that stuff? Like -- and have the
 flexibility in my schedule?
 
-831
+1177
 01:01:02,300 --> 01:01:04,300
 Like, yeah. I guess I am
 [chuckles].
 
-832
+1178
 01:01:03,414 --> 01:01:06,000
-Dan: Yep. I mean, if you
-really- really wanted or needed
+Dan: Yep. I mean, if you really-
+really wanted or needed
 
-833
+1179
 01:01:06,000 --> 01:01:07,054
 more money, you
 
-833
+1180
 01:01:07,054 --> 01:01:09,123
 could pick up more clients too.
 Like, that's the beauty of being
 
-834
+1181
 01:01:09,123 --> 01:01:10,744
 independent. It's -- you can do
 what you want.
 
-835
+1182
 01:01:10,000 --> 01:01:15,000
 Julia: Yeah, it's true. It's
 true. I could. And I do, you
 
-01:01:15,000 --> 01:01:17,884
+1183
+01:01:15,000 --> 01:01:18,063
 know, I toy it with that
 [laughs], but --
 
-836
+1184
 01:01:18,063 --> 01:01:20,193
 Dan: Or just raise your rates,
 you know? It's all- all good.
 
-837
+1185
 01:01:20,193 --> 01:01:20,300
 Julia: Yeah, yeah.
 
-837
+1186
 01:01:20,300 --> 01:01:21,603
 Dan: Just send up an email.
 That'll be fine.
 
-838
+1187
 01:01:23,554 --> 01:01:28,429
 Julia: Yeah, it's true. I have
 such anxiety about -- I think I
 
-839
+1188
 01:01:28,429 --> 01:01:31,639
 better deliver a couple of
 successful projects on these two
 
-840
+1189
 01:01:31,639 --> 01:01:34,518
 nightmare clients before I ask
 for --
 
-841
+1190
 01:01:35,554 --> 01:01:37,500
 Dan: Yes. Say, "Now that I am a
 game developer-
 
-842
+1191
 01:01:38,000 --> 01:01:38,500
 Julia: [Laughs] Yeah, right.
 
-842
+1192
 01:01:38,500 --> 01:01:39,454
 Dan: -this is my new rate
 [chuckles]."
 
-842
+1193
 01:01:43,909 --> 01:01:45,739
 Julia: [Laughs] I guess we all
 -- the game developers are paid.
 
-843
+1194
 01:01:47,224 --> 01:01:50,704
 Dan: Now that I'm a Flutter
 developer, this is my new rate.
 
-844
+1195
 01:01:50,778 --> 01:01:53,628
 Julia: All developers are, like,
 hideously underpaid.
 
-845
+1196
 01:01:54,664 --> 01:01:56,614
 Dan: Well, now that I'm --
 
-846
+1197
 01:01:58,903 --> 01:02:00,614
 Bekah: [Laughs] An Angular
 developer.
 
-847
+1198
 01:02:00,963 --> 01:02:05,764
 Dan: I'll- I'll write it for
 you. To whom it may concern --
 
-848
+1199
 01:02:06,000 --> 01:02:07,000
 Julia: Yeah.
 
-849
+1200
 01:02:07,500 --> 01:02:07,700
 Bekah: I know --
 
-850
+1201
 01:02:07,700 --> 01:02:11,119
 Julia: It's interesting. I mean,
 the whole game development world
 
-849
+1202
 01:02:11,123 --> 01:02:12,139
 is like its own --
 
-850
+1203
 01:02:12,909 --> 01:02:16,000
 Dan: Yeah, I don't know anything
 about it. Yeah. So far,
 
-851
+1204
 01:02:16,000 --> 01:02:18,333
 separated from ... it's -- it
 
-851
+1205
 01:02:18,338 --> 01:02:20,000
 is weird. Like, the -- if you
 think about it. Cuz I, you know,
 
+1206
 01:02:20,000 --> 01:02:21,543
 I- I- I get a lot
 
-852
+1207
 01:02:21,543 --> 01:02:24,094
 of over- I mean, obviously, most
 of my overlap is with other web
 
-853
+1208
 01:02:24,094 --> 01:02:26,643
 developers in different
 technologies. But even so,
 
-854
+1209
 01:02:26,643 --> 01:02:30,934
 there's ... I don't know anybody
 does game development, you know?
 
-855
+1210
 01:02:30,934 --> 01:02:33,000
 [Chuckles] Just, like -- and I
 know a lot of developers a-and
 
-856
+1211
 01:02:33,000 --> 01:02:33,500
 it's just, yeah. It's --
 
-856
+1212
 01:02:32,809 --> 01:02:36,978
 Julia: Yeah. I mean, I've lived
 in Seattle for 17 years. Like,
 
-857
+1213
 01:02:37,128 --> 01:02:45,768
 I've -- I know people at so many
 different tech companies. I know
 
-858
+1214
 01:02:45,768 --> 01:02:50,000
 recruiters all over the place.
 And at one point, I was --
 
-859
+1215
 01:02:50,000 --> 01:02:53,300
 somebody had expressed an
 interest in working for a game
 
-860
+1216
 01:02:53,300 --> 01:02:54,199
 company. And I was
 
-860
+1217
 01:02:54,199 --> 01:02:59,418
 like, "Well, I'll reach out."
 But like ... it was like, you
 
-861
+1218
 01:02:59,418 --> 01:03:02,700
 know, one person was like,
 "Well, I- I know that the VP of
 
-862
+1219
 01:03:02,700 --> 01:03:03,829
 HR at Wizards
 
-862
+1220
 01:03:03,829 --> 01:03:07,148
 of the Coast. But that's about
 as close as I can get." I was
 
-863
+1221
 01:03:07,148 --> 01:03:08,700
 like, "Well, I don't think
 that's quite what we're
 
-864
+1222
 01:03:08,700 --> 01:03:10,068
 looking for [Julia and Dan
 chuckle]."
 
-864
-01:03:14,778 --> 01:03:18,378
+1223
+01:03:14,778 --> 01:03:16,578
 Bekah: Well, Julia, this has
-been a really great conversation.
+been a really great
 
-865
+1224
+01:03:16,578 --> 01:03:18,378
+conversation.
+
+1225
 01:03:18,409 --> 01:03:22,000
 And -- but it is time to wrap it
 up.
 
-866
+1226
 01:03:22,000 --> 01:03:22,300
 Julia: Yes.
 
-867
+1227
 01:03:22,300 --> 01:03:23,700
 Bekah: So, is there-
 
-868
+1228
 01:03:23,700 --> 01:03:24,000
 Julia: Yes.
 
-869
+1229
 01:03:24,000 --> 01:03:26,500
 Bekah: -any last words of wisdom
 
-866
+1230
 01:03:26,500 --> 01:03:32,599
-you have for our listeners
-or things you want them to --
+you have for our listeners or
+things you want them to --
 
-867
+1231
 01:03:33,048 --> 01:03:35,418
 you think they would benefit
 from learning about?
 
-868
+1232
 01:03:36,978 --> 01:03:42,972
 Julia: Nah, I don't -- I was
 hanging with David Alpert a
 
-869
+1233
 01:03:42,972 --> 01:03:47,500
 couple weeks ago, and we were
 talking about the idea that,
 
-870
+1234
 01:03:47,500 --> 01:03:53,353
 like ... [exhales] it
 
-870
+1235
 01:03:53,353 --> 01:03:57,523
 was after I gave the lunch and
 learn about feedback. We were
 
-871
+1236
 01:03:57,523 --> 01:04:04,000
 talking about the idea that,
 like, giving feedback, being
 
-872
+1237
 01:04:04,000 --> 01:04:06,000
 a mentor of some kind,
 
-872
+1238
 01:04:06,000 --> 01:04:12,463
-formal or informal, is sort
-of an intrinsic part of your
+formal or informal, is sort of
+an intrinsic part of your
 
-873
+1239
 01:04:12,463 --> 01:04:20,172
 responsibility in- in the tech
 industry. And I- I think it's
 
-874
+1240
 01:04:20,177 --> 01:04:23,000
 a really -- it's something I
 think about a fair amount that,
 
-875
+1241
 01:04:23,000 --> 01:04:29,000
 like, you know, I don't
 necessarily have like ... a huge
 
-876
+1242
 01:04:29,000 --> 01:04:29,802
 wealth of
 
-876
+1243
 01:04:29,802 --> 01:04:34,152
 technical experience. I haven't
 been in the industry that
 
-877
+1244
 01:04:34,157 --> 01:04:38,472
 long. But I think it's just
 really important for everybody
 
-878
+1245
 01:04:38,472 --> 01:04:44,773
 to remember that, like, you have
 valuable experience, and
 
-879
+1246
 01:04:44,833 --> 01:04:50,000
 knowledge, and skills, and
 insight. And, you know, all of
 
-880
+1247
 01:04:50,000 --> 01:04:51,282
 us are always
 
-880
+1248
 01:04:51,282 --> 01:04:59,713
 learning and we should all
 always be teaching as well. And
 
-881
+1249
 01:04:59,717 --> 01:05:06,402
 that's not- that's not like to
 say that you need to be, you
 
-882
+1250
 01:05:06,402 --> 01:05:12,043
 know, giving formal instruction
 on something. But that, like, we
 
-883
+1251
 01:05:12,103 --> 01:05:18,043
 all benefit from people sharing
 what they know, sharing their
 
-884
+1252
 01:05:18,043 --> 01:05:26,592
-perspectives. You may not be
-an expert in anything, but
+perspectives. You may not be an
+expert in anything, but
 
-885
+1253
 01:05:26,592 --> 01:05:30,000
 you're an expert in being
 yourself, right? You know? And
 
-886
+1254
 01:05:30,000 --> 01:05:30,612
 it's like, I
 
-886
+1255
 01:05:31,123 --> 01:05:35,322
 talking with somebody who has a
 lot of experience in- in, like,
 
-887
+1256
 01:05:35,322 --> 01:05:39,012
 tech support. And I was like,
 "Listen, you may not think of
 
-888
+1257
 01:05:39,018 --> 01:05:46,032
 yourself this way, but you are a
 UX expert. Like, you know more
 
-889
+1258
 01:05:46,032 --> 01:05:53,000
 about actual user experience
 than, like, almost anybody. If
 
-890
+1259
 01:05:53,000 --> 01:05:56,000
 you've worked in tech support
 for three years or whatever,
 
-891
+1260
 01:05:56,000 --> 01:05:57,463
 like, you have
 
-891
+1261
 01:05:57,463 --> 01:06:03,702
 so much hands on knowledge and
 insight into how people use
 
-892
+1262
 01:06:03,708 --> 01:06:10,700
 technology, share that. Like, at
 -- but also, like, before you
 
-893
+1263
 01:06:10,700 --> 01:06:11,413
 can share
 
-893
+1264
 01:06:11,413 --> 01:06:15,072
 it, you have to actually reflect
 on it and try to like, give it
 
-894
+1265
 01:06:15,072 --> 01:06:18,500
 some framework." And I think
 that that's something I've
 
-895
+1266
 01:06:18,500 --> 01:06:27,700
 really been trying to do myself.
 Is, like, I know that I know
 
-896
+1267
 01:06:27,700 --> 01:06:31,500
 things. How can I put them in a
 framework that allows me to
 
-897
+1268
 01:06:31,500 --> 01:06:32,382
 share them with
 
-897
+1269
 01:06:32,382 --> 01:06:39,103
 other people? So, yeah. We're
 all always learning. We also
 
-898
+1270
 01:06:39,108 --> 01:06:44,300
 should all always be teaching.
 And I think that's ... I dunno.
 
-899
+1271
 01:06:44,300 --> 01:06:44,503
 Yeah.
 
-899
+1272
 01:06:44,943 --> 01:06:47,112
 Bekah: I love that. That's so
 great. And what a great way to
 
-900
+1273
 01:06:47,112 --> 01:06:49,693
 end this episode. So, thanks so
 much, Julia, for being with us.
 
-901
+1274
 01:06:49,693 --> 01:06:50,632
 We- we had a great time today.
 
-902
+1275
 01:06:50,682 --> 01:06:52,333
 Julia: Absolutely! My pleasure.
 
-903
+1276
 01:06:52,637 --> 01:06:55,300
 Dan: Thanks, Julia. Also I
 looked that up. And the most
 
-01:06:55,300 --> 01:06:58,000
+1277
+01:06:55,300 --> 01:06:58,300
 expensive precious metal is
 rhodium. So-
 
-904
+1278
 01:06:58,300 --> 01:06:58,500
 Julia: Oh.
 
-906
+1279
 01:06:58,700 --> 01:07:00,222
 Dan: -if you are going that
 direction,
 
-905
+1280
 01:07:00,222 --> 01:07:02,300
 rhodium is gonna be what --
 where you're going. I've never
 
-906
+1281
 01:07:02,300 --> 01:07:02,623
 heard of it before. But --
 
-906
+1282
 01:07:02,793 --> 01:07:04,000
 Julia: Rhodium. Well, I know
 that-
 
-907
+1283
 01:07:03,500 --> 01:07:04,000
 Bekah: Do you use it --
 
-907
+1284
 01:07:05,000 --> 01:07:08,922
 Julia: -rhodium-
 
-908
+1285
 01:07:05,500 --> 01:07:06,000
 Dan: Are- are right jewel- [??]
 
-909
+1286
 01:07:06,000 --> 01:07:08,922
 Julia: -jewelry is rhodium
 plating.
 
-908
+1287
 01:07:08,922 --> 01:07:10,617
 Bekah: Yeah.
 
-907
+1288
 01:07:10,617 --> 01:07:11,128
 Dan: Huh? That's because that's-
 
-908
+1289
 01:07:11,300 --> 01:07:11,532
 Bekah: Well, what else --
 
-909
+1290
 01:07:11,818 --> 01:07:16,600
 Dan: -that's -- it's fancy
 [chuckles]. I don't- I don't
 
-910
+1291
 01:07:16,600 --> 01:07:16,797
 know.
 
-910
+1292
 01:07:18,208 --> 01:07:19,100
 Bekah: Do we [unintelligible]
 here? I don't believe you
 
-911
+1293
 01:07:19,100 --> 01:07:19,108
 [laughs].
 
-911
+1294
 01:07:19,498 --> 01:07:22,708
 Dan: It's used for -- oh, it's
 very reflective. So it's used in
 
-912
+1295
 01:07:22,708 --> 01:07:25,700
 search lights, mirrors, and
 jewelry [chuckles]. I think it's
 
-913
+1296
 01:07:25,700 --> 01:07:28,000
 mostly just that it's rare. I
 don't know. Anyway --
 
-914
+1297
 01:07:28,000 --> 01:07:28,300
 Julia: I would --
 
-913
+1298
 01:07:28,700 --> 01:07:29,000
 Dan: That's it [laughs].
 
-914
+1299
 01:07:29,000 --> 01:07:30,000
 Julia: Yeah.
 
-915
+1300
 01:07:30,500 --> 01:07:31,000
 Dan: That's all I got [all
 laugh].
 
-916
+1301
 01:07:34,500 --> 01:07:35,000
 Julia: Good.
 
-914
+1302
 01:07:35,422 --> 01:07:38,500
 Dan: All right. Cool. Well,
 thank you, Julia. I [laughs] --
 
-915
+1303
 01:07:38,500 --> 01:07:39,000
 this is great.
 
-915
+1304
 01:07:38,700 --> 01:07:42,500
 Bekah: Great way to end this
 episode. You even did such a
 
-916
+1305
 01:07:42,500 --> 01:07:43,000
 great job [all laugh].
 
-915
+1306
 01:07:46,000 --> 01:07:48,500
 Dan: Well, I had the tab open
 from- from before-
 
-916
+1307
 01:07:49,000 --> 01:07:51,000
 Julia: [Unintelligible]-
 
-916
+1308
 01:07:48,500 --> 01:07:51,000
 Dan: -and then I- I forgot about
 it. Now -- I didn't wanna --
 
-917
+1309
 01:07:51,000 --> 01:07:53,000
 Julia: -what is sublimation.
 
-918
+1310
 01:07:53,000 --> 01:07:53,500
 Bekah: Yeah [laughs].
 
-919
-01:07:58,000 -->01:08:00,077
+1311
+01:07:58,000 --> 01:08:00,077
 Dan: Okay. Thanks, Julia.
 
-917
+1312
 01:08:00,972 --> 01:08:01,494
 Julia: Yeah, thank you.
 
-918
+1313
 01:08:05,994 --> 01:08:08,094
 Dan: Thank you for listening to
 this episode of the Virtual
 
-919
+1314
 01:08:08,094 --> 01:08:11,840
 Coffee Podcast. This episode was
 produced by Dan Ott and Bekah
 
-920
+1315
 01:08:11,840 --> 01:08:14,621
 Hawrot Weigel. If you have
 questions or comments, you can
 
-921
+1316
 01:08:14,621 --> 01:08:17,631
 hit us up on Twitter at
 VirtualCoffeeIO, or email us at
 
-922
+1317
 01:08:17,631 --> 01:08:21,100
 podcast@virtualcoffee.io. You
 can find the show notes, sign up
 
-923
+1318
 01:08:21,100 --> 01:08:23,140
 for the newsletter, check out
 any of our other resources on
 
-924
-01:08:23,140 --> 01:08:26,530
-our website, virtualcoffee.io. If
-you're interested in sponsoring
+1319
+01:08:23,140 --> 01:08:24,835
+our website, virtualcoffee.io.
+If you're interested in
 
-925
+1320
+01:08:24,835 --> 01:08:26,530
+sponsoring
+
+1321
 01:08:26,530 --> 01:08:28,930
 Virtual Coffee, you can find out
 more information on our website
 
-926
+1322
 01:08:29,201 --> 01:08:33,640
 at virtualcoffee.io/sponsorship.
 Please subscribe to our podcast
 
-927
-01:08:33,671 --> 01:08:36,881
-and be sure to leave us a review.
-Thanks for listening, and we'll
+1323
+01:08:33,671 --> 01:08:35,276
+and be sure to leave us a
+review. Thanks for listening,
 
-928
+1324
+01:08:35,276 --> 01:08:36,881
+and we'll
+
+1325
 01:08:36,881 --> 01:08:37,720
 see you next week!
