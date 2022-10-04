@@ -1,0 +1,5042 @@
+1
+00:00:03,875 --> 00:00:06,695
+Bekah: Hello and welcome to
+season six, episode seven of the
+
+2
+00:00:06,695 --> 00:00:12,111
+Virtual Coffee Podcast. I'm
+Bekah, and this is a podcast that
+
+3
+00:00:12,111 --> 00:00:16,221
+features members of the Virtual
+Coffee community. Virtual Coffee
+
+4
+00:00:16,221 --> 00:00:19,041
+is an intimate group of
+developers at all stages of their
+
+5
+00:00:19,045 --> 00:00:21,951
+coding journey, and they're here
+on this podcast sharing their
+
+6
+00:00:21,951 --> 00:00:24,771
+stories and what they've learned,
+and we are here to share it with
+
+7
+00:00:24,771 --> 00:00:27,670
+you. Here with me today is my
+co-host, Dan.
+
+8
+00:00:28,041 --> 00:00:29,690
+Dan: What Wuddup Bek? How's it
+going?
+
+9
+00:00:30,440 --> 00:00:32,750
+Bekah: It is. It is going well.
+How's it going with?
+
+10
+00:00:33,875 --> 00:00:37,926
+Dan: It's going okay. Um, yeah,
+we have a great episode today. We
+
+11
+00:00:37,926 --> 00:00:41,286
+met with Ryan Con, uh, who has
+done a lot of things through his
+
+12
+00:00:41,286 --> 00:00:44,453
+career. He was a teacher, he's a
+developer, and, uh, now Ryan is a
+
+13
+00:00:44,457 --> 00:00:47,482
+consultant who comes and helps
+teams improve their collaboration
+
+14
+00:00:47,482 --> 00:00:49,103
+and their communication skills.
+
+15
+00:00:49,447 --> 00:00:51,996
+Bekah: I loved how Ryan talked
+about the importance of
+
+16
+00:00:52,002 --> 00:00:57,741
+empathizing with your teammates.
+And treating each person as an
+
+17
+00:00:57,741 --> 00:01:01,762
+individual human being who makes
+up your team. I think that that's
+
+18
+00:01:01,762 --> 00:01:06,352
+a really great approach in order
+to, you know, empower your team
+
+19
+00:01:06,352 --> 00:01:10,792
+to do what they can do and the
+best ways that they can do it.
+
+20
+00:01:11,602 --> 00:01:15,906
+Dan: Yeah, absolutely. I, I mean,
+it was, it was, uh, Ryan's, I
+
+21
+00:01:15,906 --> 00:01:19,477
+mean, Ryan's always great to talk
+to you. Um, and yeah, and that,
+
+22
+00:01:19,477 --> 00:01:22,477
+that, like, that, that
+philosophy, I think, uh, I don't
+
+23
+00:01:22,477 --> 00:01:24,576
+know, lines up a lot with a lot
+of the stuff we talk about here
+
+24
+00:01:24,581 --> 00:01:27,277
+at Virtual Coffee. So, um, it was
+nice to hear him talk about it,
+
+25
+00:01:27,277 --> 00:01:32,647
+and it's nice that he is, uh,
+he's doing this, like he's, I was
+
+26
+00:01:32,652 --> 00:01:35,917
+very interested to hear about his
+consultancy, um, and his like,
+
+27
+00:01:36,367 --> 00:01:39,337
+sort of new journey that he is
+doing because, uh, it's a little
+
+28
+00:01:39,337 --> 00:01:42,427
+bit of a different approach than,
+you know, most people, I'm, I'm a
+
+29
+00:01:42,427 --> 00:01:46,177
+consultant myself, but I just
+kind of come in. Do like the
+
+30
+00:01:46,177 --> 00:01:49,087
+work, right? Or like, you know,
+the kind of stuff you, you think
+
+31
+00:01:49,087 --> 00:01:52,417
+about, right? And this is more,
+um, Ryan's gonna come in and help
+
+32
+00:01:52,417 --> 00:01:56,046
+teams, uh, improve their whole
+situation, right? And then leave
+
+33
+00:01:56,527 --> 00:01:59,016
+you know? And I think that's
+really great. I think it's a, I
+
+34
+00:01:59,016 --> 00:02:01,927
+think it's a very cool thing to
+do. Um, and I was excited to hear
+
+35
+00:02:01,927 --> 00:02:02,197
+about it.
+
+36
+00:02:03,081 --> 00:02:07,311
+Bekah: It is really something
+that I think is undervalued too.
+
+37
+00:02:07,311 --> 00:02:10,252
+So I think that a lot of teams
+experience these problems and
+
+38
+00:02:10,252 --> 00:02:15,201
+they just end up having a lot of
+turnover. Or things like that,
+
+39
+00:02:15,201 --> 00:02:19,912
+and there's not a huge focus on
+what Ryan's doing, but I think
+
+40
+00:02:19,912 --> 00:02:22,671
+it's something that should be
+focused on. It's really needed in
+
+41
+00:02:22,671 --> 00:02:23,301
+the industry.
+
+42
+00:02:24,701 --> 00:02:25,896
+Dan: Yeah, I agree.
+
+43
+00:02:27,562 --> 00:02:30,051
+Bekah: Well, we start every
+episode of the podcast, like we
+
+44
+00:02:30,056 --> 00:02:32,651
+start every virtual coffee. We
+introduce ourselves with our
+
+45
+00:02:32,651 --> 00:02:35,532
+name, where we're from, what we
+do, and a random check-in
+
+46
+00:02:35,532 --> 00:02:47,187
+question. We hope you enjoy this
+episode. Today's intro question
+
+47
+00:02:47,187 --> 00:02:51,537
+is if you could remove one task
+from your day, what would it be?
+
+48
+00:02:52,646 --> 00:02:55,826
+My name is Bekah. I am a
+technical community builder from
+
+49
+00:02:55,826 --> 00:03:02,456
+a small town in Ohio, and if I
+could remove one task I email or
+
+50
+00:03:02,456 --> 00:03:05,306
+no meetings, can I remove
+meetings? That's kind of like
+
+51
+00:03:05,306 --> 00:03:09,387
+general, but I would get rid of
+most of them.
+
+52
+00:03:10,387 --> 00:03:13,812
+Dan: So all meetings. All right.
+
+53
+00:03:14,081 --> 00:03:18,852
+Bekah: Only the only ones I wanna
+get rid of. The ones without
+
+54
+00:03:18,852 --> 00:03:21,312
+agendas. Those ones.
+
+55
+00:03:21,762 --> 00:03:22,122
+Dan: Sure.
+
+56
+00:03:22,197 --> 00:03:22,377
+Ryan: one.
+
+57
+00:03:22,602 --> 00:03:25,766
+Dan: Yeah. Well, this isn't a
+meeting, this is, this isn't an
+
+58
+00:03:25,766 --> 00:03:26,157
+event,
+
+59
+00:03:26,372 --> 00:03:27,981
+Bekah: Mm-hmm. this is an event.
+
+60
+00:03:28,766 --> 00:03:32,787
+Dan: Uh, alright. Hi, I'm Dan. I
+am in Cleveland. I do website
+
+61
+00:03:32,787 --> 00:03:36,387
+development. And, um, yeah, I
+think the first thing that popped
+
+62
+00:03:36,387 --> 00:03:39,537
+into my mind was like bedtime
+stuff with the kids. I, I don't
+
+63
+00:03:39,542 --> 00:03:42,236
+mind like the, all the way at the
+end reading books and stuff, but
+
+64
+00:03:42,241 --> 00:03:45,176
+it's all the, you know, bath and
+whatever, all that nonsense. But
+
+65
+00:03:45,176 --> 00:03:48,227
+then I think actually it's
+getting them in the car.
+
+66
+00:03:48,956 --> 00:03:49,056
+Bekah: Oh,
+
+67
+00:03:49,287 --> 00:03:51,806
+Dan: There's, I, my, you know, I
+still a three old and a six year
+
+68
+00:03:51,806 --> 00:03:54,986
+old, and so they're still all,
+both in car seats, you know, and
+
+69
+00:03:54,986 --> 00:03:57,236
+all that stuff. And doesn't
+matter where we're going, what
+
+70
+00:03:57,236 --> 00:04:00,417
+we're doing, it takes just for
+like ever, like I sell them to go
+
+71
+00:04:00,417 --> 00:04:02,667
+outside cause they can get into
+the car by themselves, you know?
+
+72
+00:04:03,086 --> 00:04:04,856
+And I tell 'em to go outside and
+get in the car and I go outside
+
+73
+00:04:04,856 --> 00:04:07,317
+and they're just like wandering
+around in the garage or whatever,
+
+74
+00:04:07,317 --> 00:04:10,407
+you know, and like, just, just
+get in the car. We just need to
+
+75
+00:04:10,407 --> 00:04:14,247
+go. This is, we don't have to do
+this every time. And like playing
+
+76
+00:04:14,247 --> 00:04:16,107
+with toys while trying to get
+them buckled and all this stuff.
+
+77
+00:04:16,112 --> 00:04:18,776
+So that's gonna be my answer.
+Yeah. Putting the kids in the
+
+78
+00:04:18,776 --> 00:04:21,627
+car, they could just like snap
+and they would just be strapp in
+
+79
+00:04:21,627 --> 00:04:21,956
+the car.
+
+80
+00:04:22,646 --> 00:04:24,357
+Bekah: with their shoes on too,
+right?
+
+81
+00:04:24,507 --> 00:04:26,276
+Dan: Sure. Yeah, yeah, yeah.
+Exactly. Yeah.
+
+82
+00:04:26,672 --> 00:04:28,916
+Bekah: don't know how many times
+we've been in the car and a kid
+
+83
+00:04:28,916 --> 00:04:32,336
+doesn't have shoes. Like my kids
+are all. Older. My youngest is
+
+84
+00:04:32,336 --> 00:04:36,836
+five and a half, but frequently
+we end up in the car and like one
+
+85
+00:04:36,836 --> 00:04:40,857
+kid's like, Oh, I didn't bring
+any shoes. Like, Why? What? How
+
+86
+00:04:40,857 --> 00:04:43,857
+is thing? Like you just always,
+You didn't tell me I needed to
+
+87
+00:04:43,862 --> 00:04:46,586
+put on shoes. You always put on
+shoes if you're getting in the
+
+88
+00:04:46,586 --> 00:04:47,396
+car, like,
+
+89
+00:04:47,992 --> 00:04:54,312
+Ryan: Um, standard operating
+procedure. Okay, well, I'm Ryan.
+
+90
+00:04:54,401 --> 00:04:57,701
+I am a, uh, developer, experience
+consultant and productivity
+
+91
+00:04:57,701 --> 00:05:00,432
+consultant in New York City. A
+little, little town in New York
+
+92
+00:05:00,432 --> 00:05:04,451
+called New York City. Um, my
+daughter is little over one year
+
+93
+00:05:04,451 --> 00:05:07,661
+old, so getting her in the car is
+very easy. We just pick her up
+
+94
+00:05:07,661 --> 00:05:09,762
+and put her in and she doesn't
+have much of a choice about it.
+
+95
+00:05:09,762 --> 00:05:13,002
+And if she needs shoes, we put
+'em on. Um, and yeah, meetings,
+
+96
+00:05:13,031 --> 00:05:15,221
+Uh, I actually like meetings. I
+think that that's when I do my
+
+97
+00:05:15,221 --> 00:05:19,857
+best work. So I won't say that. I
+will say, That is the one thing
+
+98
+00:05:19,857 --> 00:05:24,206
+that my wife and I have the most
+tension about is actually just
+
+99
+00:05:24,206 --> 00:05:27,297
+doing the dishes. Cause neither
+one of us likes to do it. Um, so
+
+100
+00:05:27,297 --> 00:05:31,166
+I would remove that from my day
+in a heartbeat. Uh, just, I mean,
+
+101
+00:05:31,197 --> 00:05:33,507
+I would want clean dishes. I
+wouldn't wanna just not do it and
+
+102
+00:05:33,512 --> 00:05:35,666
+have dirty dishes, but if the
+dishes get clean regardless,
+
+103
+00:05:35,672 --> 00:05:37,706
+that's what I would pick. Um,
+yeah.
+
+104
+00:05:39,132 --> 00:05:42,252
+Dan: Yeah, I actually, of all the
+like household chores that you
+
+105
+00:05:42,252 --> 00:05:44,471
+have to do all the time dishes
+are like one of the easiest ones
+
+106
+00:05:44,471 --> 00:05:48,072
+for me. Like, know, I, chores are
+like a paint, I don't mean easy,
+
+107
+00:05:48,312 --> 00:05:51,492
+like easy to get myself to do,
+you know? Um, I think I can
+
+108
+00:05:51,492 --> 00:05:53,651
+listen to podcasts and stuff, and
+so it's, I don't know.
+
+109
+00:05:53,982 --> 00:05:55,091
+Ryan: Yeah. It's rather
+meditative
+
+110
+00:05:55,091 --> 00:05:58,601
+Dan: when I'm doing the dishes.
+Yeah, exactly. Exactly. Like if
+
+111
+00:05:58,601 --> 00:06:02,172
+I'm doing that chore, then, you
+know, every. Somebody else is
+
+112
+00:06:02,502 --> 00:06:03,372
+dealing with the kids
+
+113
+00:06:04,062 --> 00:06:05,831
+Ryan: Hmm. A little break.
+
+114
+00:06:05,891 --> 00:06:08,201
+Dan: Oh man. But I don't like
+putting the dishes away.
+
+115
+00:06:08,232 --> 00:06:09,252
+Honestly. That's my,
+
+116
+00:06:10,122 --> 00:06:10,661
+Ryan: Oh,
+
+117
+00:06:11,172 --> 00:06:13,182
+Dan: don't mind cleaning them.
+It's like putting them away is
+
+118
+00:06:13,182 --> 00:06:14,711
+the thing that always bumps me.
+
+119
+00:06:15,057 --> 00:06:18,117
+Ryan: Our dishwasher's actually
+broken right now, all the dishes
+
+120
+00:06:18,117 --> 00:06:19,987
+are done by hand, which is
+probably why it's front of mine
+
+121
+00:06:19,987 --> 00:06:20,346
+for me
+
+122
+00:06:21,101 --> 00:06:24,851
+Bekah: Our dishwasher was broke
+for like over a month and it was,
+
+123
+00:06:24,911 --> 00:06:29,442
+it was the source of a lot of
+tension in the house. Like we
+
+124
+00:06:29,442 --> 00:06:32,442
+have four kids and then some of
+them like take plates in their
+
+125
+00:06:32,442 --> 00:06:35,682
+rooms and then you've got like
+crusty dishes, like, what are you
+
+126
+00:06:35,802 --> 00:06:36,242
+doing?
+
+127
+00:06:37,617 --> 00:06:38,596
+Ryan: and my wife does.
+
+128
+00:06:40,752 --> 00:06:44,141
+Bekah: Well Ryan, we are very
+happy to have you here with us
+
+129
+00:06:44,141 --> 00:06:47,982
+today to talk about. A lot of
+different things, but building
+
+130
+00:06:47,982 --> 00:06:50,951
+better teams I think is gonna be
+a great source of our
+
+131
+00:06:50,951 --> 00:06:55,572
+conversation. But before we get
+to that, let's hear your origin
+
+132
+00:06:55,572 --> 00:06:58,771
+story. So how did you get to this
+point in your tech career?
+
+133
+00:06:59,797 --> 00:07:02,007
+Ryan: Yeah, thanks. I mean, I
+always approach this story a
+
+134
+00:07:02,007 --> 00:07:05,817
+little differently every time I
+tell it. Um, I mean, I've always
+
+135
+00:07:05,817 --> 00:07:08,531
+been interested in computers,
+right when I was a kid. I
+
+136
+00:07:08,531 --> 00:07:10,872
+remember the first kind of
+computer programming thing,
+
+137
+00:07:10,872 --> 00:07:13,812
+computer programming thing that I
+did was, there was a video game I
+
+138
+00:07:13,812 --> 00:07:17,112
+liked to play and it was kind of
+like Iron Man mode where like if
+
+139
+00:07:17,112 --> 00:07:20,232
+you die, you die. And I, I had a
+big career in the game and then I
+
+140
+00:07:20,232 --> 00:07:23,112
+died and I was like, Oh my God. I
+was so depressed. Probably the
+
+141
+00:07:23,112 --> 00:07:26,442
+first time I was ever depressed
+in my life that I remember was I
+
+142
+00:07:26,447 --> 00:07:30,351
+dying in this game. And so I came
+in and I, I took the save game
+
+143
+00:07:30,351 --> 00:07:32,932
+file and I switched around the
+bits and made myself alive again,
+
+144
+00:07:33,742 --> 00:07:36,651
+And so that's where I started
+out. I think with the, uh, you
+
+145
+00:07:36,651 --> 00:07:39,052
+know, I always was interested in
+dos and kind of playing video
+
+146
+00:07:39,052 --> 00:07:42,081
+games, and so I've been talking
+to the computer for many years,
+
+147
+00:07:42,081 --> 00:07:45,507
+is what I call it, through the
+terminal. Um, but yeah, I never
+
+148
+00:07:45,507 --> 00:07:48,057
+considered it as a career. You
+know, I had a teacher in high
+
+149
+00:07:48,057 --> 00:07:51,987
+school who got me into economics.
+Um, and so I decided to study
+
+150
+00:07:51,992 --> 00:07:54,927
+that in college. But, you know,
+college didn't really agree with
+
+151
+00:07:54,932 --> 00:07:58,286
+me for mental health reasons. And
+so I dropped out and I was
+
+152
+00:07:58,286 --> 00:08:01,317
+working actually on a loading
+dock. Cause I had a, a cdl, like
+
+153
+00:08:01,322 --> 00:08:04,137
+a truck license, but I couldn't
+find a job driving a truck. So I
+
+154
+00:08:04,137 --> 00:08:06,627
+got a job loading the trucks. It
+was the middle of the, it was in
+
+155
+00:08:06,632 --> 00:08:08,966
+the middle of the night. It was,
+you know, I learned a lot on that
+
+156
+00:08:08,966 --> 00:08:12,776
+job about hard work. But, you
+know, it wasn't really what I
+
+157
+00:08:12,776 --> 00:08:16,586
+wanted to do long term. And a
+friend of mine who I met in
+
+158
+00:08:16,586 --> 00:08:19,257
+college was like, Hey, do you
+wanna be a software engineer? So,
+
+159
+00:08:19,257 --> 00:08:21,807
+I mean, this is kind of the, the
+height of privilege, right? It's
+
+160
+00:08:21,812 --> 00:08:24,447
+like someone just offers you a
+job and you don't have to apply.
+
+161
+00:08:24,447 --> 00:08:28,286
+And you know, like I, I, I feel
+for everybody these days who is
+
+162
+00:08:28,286 --> 00:08:30,716
+looking for a job as a software
+engineer and really kind of has
+
+163
+00:08:30,716 --> 00:08:33,626
+to look and look and look. You
+know, for me it just fell in my
+
+164
+00:08:33,631 --> 00:08:36,417
+lap even when I wasn't looking
+for it. So a lot of privilege.
+
+165
+00:08:37,287 --> 00:08:40,136
+And, uh, yeah, so, you know, I
+started off doing that job. It
+
+166
+00:08:40,136 --> 00:08:43,346
+was like a government contracting
+job. I actually really enjoyed
+
+167
+00:08:43,346 --> 00:08:46,466
+it. I remember the first problem
+I solved, which was putting a
+
+168
+00:08:46,466 --> 00:08:50,157
+ClickHandler on a button, And,
+you know, I, I solved it sort of
+
+169
+00:08:50,157 --> 00:08:53,277
+the, I put put it in the HTML as
+like text, which is, you know,
+
+170
+00:08:53,636 --> 00:08:56,937
+not how you even did it back then
+with J Query and stuff like that.
+
+171
+00:08:57,581 --> 00:09:01,991
+This was back in 2009. And uh,
+yeah, so I didn't even solve it
+
+172
+00:09:01,991 --> 00:09:04,331
+kind of the right way, but the
+elation of having solved a
+
+173
+00:09:04,331 --> 00:09:07,241
+problem was huge and I kind of
+tried to stay close to that
+
+174
+00:09:07,241 --> 00:09:10,032
+feeling. Um, kind of like, you
+know, with switching the bit in
+
+175
+00:09:10,037 --> 00:09:12,221
+the save game file, just trying
+to stay close to that feeling
+
+176
+00:09:12,221 --> 00:09:18,581
+throughout my career. Um, so I
+did that for about four years.
+
+177
+00:09:18,672 --> 00:09:21,011
+You know, my boss was like, I'm
+not gonna pay you anymore than
+
+178
+00:09:21,017 --> 00:09:22,991
+you're making now. And I was
+like, Well, I could make more
+
+179
+00:09:22,991 --> 00:09:27,912
+money. So I went to another job,
+um, a private sector job, cuz the
+
+180
+00:09:27,912 --> 00:09:30,721
+first job was a government
+contracting job. And, You know, I
+
+181
+00:09:30,721 --> 00:09:34,111
+enjoyed that too. You know, it's,
+it was in DC It's not like a big
+
+182
+00:09:34,111 --> 00:09:37,201
+market. So the company that I
+worked for was a little bit, you
+
+183
+00:09:37,201 --> 00:09:40,381
+know, janky, I would say kinda
+like the first one. Um, but I
+
+184
+00:09:40,381 --> 00:09:42,182
+learned a lot at that job. I
+worked with a lot of great
+
+185
+00:09:42,182 --> 00:09:45,331
+engineers, um, learned a lot
+about what I didn't want in a
+
+186
+00:09:45,331 --> 00:09:49,201
+job. Um, and at the same time, I,
+uh, I went to a meetup for
+
+187
+00:09:49,201 --> 00:09:52,062
+general Assembly and they asked
+me, Someone just came up and
+
+188
+00:09:52,062 --> 00:09:53,772
+said, Hey, do you wanna be a
+teacher? And I immediately said,
+
+189
+00:09:53,772 --> 00:09:56,741
+yes. Um, it's something I hadn't
+really thought about, but I was
+
+190
+00:09:56,741 --> 00:09:59,412
+always on Stack overflow, just
+kind of answering questions and,
+
+191
+00:10:00,042 --> 00:10:02,471
+and so it just was an immediate
+yes for me. Like I just kind of,
+
+192
+00:10:02,471 --> 00:10:05,501
+it blurred outta my mouth, you
+know, like joy without me even
+
+193
+00:10:05,501 --> 00:10:09,971
+thinking about it. And, uh, yeah,
+so I, I did some teaching, a
+
+194
+00:10:09,971 --> 00:10:12,912
+general assembly, and that was
+sort of the end of my programming
+
+195
+00:10:12,912 --> 00:10:15,522
+career, even though it lasted for
+another seven years or something.
+
+196
+00:10:16,062 --> 00:10:18,971
+Um, Actually, I don't know how
+long, but it lasted for a long
+
+197
+00:10:18,971 --> 00:10:22,241
+time after that, uh, even though
+I decide, I decided at that point
+
+198
+00:10:22,241 --> 00:10:25,572
+that I wanted to solve human
+problems, um, in software and not
+
+199
+00:10:25,572 --> 00:10:28,121
+so much solve the, the
+programming problems, but I kept
+
+200
+00:10:28,302 --> 00:10:31,812
+grinding at it for many years.
+Moved to New York. Uh, it's
+
+201
+00:10:31,812 --> 00:10:36,027
+continued to teach at a company
+called Thankful. Um, just worked
+
+202
+00:10:36,027 --> 00:10:39,177
+at Squarespace first and then
+Dropbox, and then eventually
+
+203
+00:10:39,177 --> 00:10:42,746
+just, you know, kind of burnt out
+on development. Uh, cuz again, I,
+
+204
+00:10:42,746 --> 00:10:45,027
+I kind of had already found
+something in my calling a little
+
+205
+00:10:45,027 --> 00:10:49,496
+bit, uh, in something else
+related. And so now I work as a
+
+206
+00:10:49,496 --> 00:10:52,557
+consultant. Um, and I guess we
+can talk about that, but yeah,
+
+207
+00:10:52,557 --> 00:10:56,486
+it's, you know, what I'm trying
+to do is help teams be more
+
+208
+00:10:56,486 --> 00:11:01,542
+knowledgeable and more
+productive, uh, and. Deliver kind
+
+209
+00:11:01,542 --> 00:11:04,272
+of on a promise of quality, you
+know, and, and, and timelines.
+
+210
+00:11:04,721 --> 00:11:06,822
+Uh, so that's what I'm trying to
+do as a consultant. But that was
+
+211
+00:11:06,822 --> 00:11:10,481
+sort of an evolution from
+teaching, uh, you know, from
+
+212
+00:11:10,481 --> 00:11:13,902
+teaching and, and solving human
+problems. So that kind of brings
+
+213
+00:11:13,902 --> 00:11:15,881
+me to where I'm at today. And
+then, you know, of course I'm in
+
+214
+00:11:15,881 --> 00:11:19,331
+vc, which is a wonderful
+community. Um, and that's been a
+
+215
+00:11:19,331 --> 00:11:23,052
+source of great joy for me. Uh,
+and you'll make other communities
+
+216
+00:11:23,052 --> 00:11:26,292
+that I'm in, but this is kind of
+the main one that I, I appreciate
+
+217
+00:11:26,292 --> 00:11:28,032
+the most. So yeah, that's kind of
+where I'm at.
+
+218
+00:11:29,106 --> 00:11:30,996
+Dan: We're the, we're the best
+one, obviously, so
+
+219
+00:11:31,317 --> 00:11:36,417
+Ryan: Well, the most welcoming
+right the most welcoming tech
+
+220
+00:11:36,417 --> 00:11:38,996
+community. I've started to get
+the invite, so I'm really happy
+
+221
+00:11:39,001 --> 00:11:41,697
+about that. I hope we can
+continue to expand at a, at a
+
+222
+00:11:41,701 --> 00:11:45,027
+measured rate, uh, with, you
+know, people who are aligned with
+
+223
+00:11:45,027 --> 00:11:45,596
+the vision.
+
+224
+00:11:46,662 --> 00:11:49,902
+Dan: Yeah. That's been so fun to
+have new people back, you know,
+
+225
+00:11:50,052 --> 00:11:51,942
+coming back in. It's been, it's
+really
+
+226
+00:11:52,767 --> 00:11:54,817
+Ryan: Yeah. I invited ahead.
+
+227
+00:11:54,881 --> 00:11:57,792
+Dan: ahead. I was just gonna say
+thank you for that story, but.
+
+228
+00:11:58,346 --> 00:12:00,687
+Ryan: Yeah. Okay. Sure. Yeah.
+Yeah. It's, it's, uh, it's a
+
+229
+00:12:00,687 --> 00:12:03,836
+story that, um, has other parts
+to it. Of course, it's hard to
+
+230
+00:12:03,836 --> 00:12:07,167
+kind of like capture a, the
+multidimensional nature of human
+
+231
+00:12:07,167 --> 00:12:11,126
+beings in a, in a short blurb.
+But yeah, happy to talk more
+
+232
+00:12:11,126 --> 00:12:12,297
+about it as we go forward.
+
+233
+00:12:13,076 --> 00:12:17,817
+Bekah: there a moment in when you
+were teaching that you really
+
+234
+00:12:17,817 --> 00:12:22,586
+felt, this is what I wanna be
+doing, Or do you think the whole
+
+235
+00:12:22,586 --> 00:12:25,736
+experience just kind of led you
+down this path?
+
+236
+00:12:26,802 --> 00:12:28,812
+Ryan: Well, there was a moment
+when I was like, This is not what
+
+237
+00:12:28,812 --> 00:12:31,731
+I want to do. Right in the
+beginning. You know, I taught
+
+238
+00:12:31,731 --> 00:12:34,822
+htm, I taught a front end course,
+a general assembly, and you know,
+
+239
+00:12:34,822 --> 00:12:37,461
+I taught HTML and it was great. I
+was like, Oh my God, I'm such a
+
+240
+00:12:37,461 --> 00:12:41,211
+good teacher. People love me. I'm
+getting great reviews. Like this
+
+241
+00:12:41,211 --> 00:12:45,351
+is what I want to do. And then we
+got into JavaScript And to be
+
+242
+00:12:45,356 --> 00:12:47,692
+fair, there was no curriculum,
+you know what I mean? Like this,
+
+243
+00:12:47,692 --> 00:12:50,751
+they just opened this office and
+General Assembly was rather, I
+
+244
+00:12:50,751 --> 00:12:54,836
+don't know how young it was, but
+it seemed. Pretty startupy. And
+
+245
+00:12:54,836 --> 00:12:57,297
+so there was no curriculum, so I
+had to make it up as I went. And
+
+246
+00:12:57,297 --> 00:13:00,596
+you know, I didn't do a good job
+at that initially. It's very
+
+247
+00:13:00,596 --> 00:13:05,096
+tough to teach JavaScript. And
+so, um, I got all these bad
+
+248
+00:13:05,101 --> 00:13:08,126
+reviews. People love me still cuz
+I'm like a nice person, but they
+
+249
+00:13:08,126 --> 00:13:11,456
+were like, he's a nice person but
+he's not a good teacher. Um, and
+
+250
+00:13:11,456 --> 00:13:14,942
+so that was sort of a lesson for
+me. It's like, okay, prepare. How
+
+251
+00:13:14,942 --> 00:13:17,971
+do you actually, you know, teach
+really hard material to pe to a
+
+252
+00:13:17,971 --> 00:13:21,511
+variety of people? So I learned a
+lot from that. But you know, the
+
+253
+00:13:21,511 --> 00:13:23,822
+initial kind of, you know, I
+wouldn't say high, but the
+
+254
+00:13:23,826 --> 00:13:28,351
+initial sort of like, um, joy of
+teaching was that first kind of
+
+255
+00:13:28,351 --> 00:13:31,591
+semester part of it, the first
+half of the course. And I really
+
+256
+00:13:31,591 --> 00:13:33,782
+enjoyed that. And that kind of
+carried me through even the tough
+
+257
+00:13:33,782 --> 00:13:38,162
+time of like, you know, not doing
+well. Um, but I also realized
+
+258
+00:13:38,162 --> 00:13:40,442
+from that, that I wanted to do
+individualized mentorship more
+
+259
+00:13:40,442 --> 00:13:43,976
+than I wanted to do. Teaching in
+general, you know, and I still
+
+260
+00:13:43,976 --> 00:13:47,277
+kind of struggle whether I wanna
+do conference talks or cuz I do
+
+261
+00:13:47,277 --> 00:13:49,527
+like what I can do in
+conversation rather than what I
+
+262
+00:13:49,527 --> 00:13:52,976
+do in kind of multiplexing, if
+you will, to a bunch of people.
+
+263
+00:13:53,547 --> 00:13:56,277
+Um, so yeah, I think teaching is
+great. I do enjoy kind of getting
+
+264
+00:13:56,277 --> 00:13:58,797
+up in front of people actually in
+the, the kind of nervousness of
+
+265
+00:13:58,797 --> 00:14:01,886
+that. And, but I do enjoy the
+individualized mentorship better
+
+266
+00:14:01,886 --> 00:14:05,216
+and that's kind of where I, I
+think I shine is pair programming
+
+267
+00:14:05,216 --> 00:14:07,256
+and, you know, conversations. So,
+
+268
+00:14:09,287 --> 00:14:13,647
+Dan: Yeah, that's, that's really
+cool. I was, I was, I think
+
+269
+00:14:13,647 --> 00:14:16,287
+that's actually the answer, but I
+was gonna ask, um, you know, you
+
+270
+00:14:16,287 --> 00:14:17,937
+talked when you were talking
+about, um, before you were
+
+271
+00:14:17,937 --> 00:14:21,567
+teaching, um, that feeling,
+right, the feeling fixing the
+
+272
+00:14:21,567 --> 00:14:24,807
+game or, uh, adding the
+ClickHandler, right? You were
+
+273
+00:14:24,807 --> 00:14:27,116
+talking about staying close to
+that feeling, which I, which is,
+
+274
+00:14:27,476 --> 00:14:30,956
+I turn a phrase that I love and
+also something that I've sort of
+
+275
+00:14:32,037 --> 00:14:34,407
+un, you know, unintentionally or
+intentionally sometimes try to
+
+276
+00:14:34,407 --> 00:14:37,167
+do, uh, throughout my career. But
+my, my question was going to be
+
+277
+00:14:37,167 --> 00:14:39,297
+like, how do you stay close to
+that feeling when you're not,
+
+278
+00:14:39,417 --> 00:14:42,642
+when you're. Solving technical
+computer problems anymore. Right.
+
+279
+00:14:42,642 --> 00:14:46,422
+How, like what, Like what are
+ways that you can, that you do
+
+280
+00:14:46,422 --> 00:14:48,761
+stay close to that? Because I, I
+imagine you do, but it's just a
+
+281
+00:14:48,767 --> 00:14:50,591
+little bit different. And so I
+was wondering if you talk a
+
+282
+00:14:50,591 --> 00:14:54,192
+little bit about like how you,
+um, or if you've thought about
+
+283
+00:14:54,197 --> 00:14:56,231
+that at all, how you stay close
+to that Um,
+
+284
+00:14:56,397 --> 00:14:57,777
+Ryan: I think it all the time
+actually.
+
+285
+00:14:57,922 --> 00:14:58,412
+Dan: Yeah.
+
+286
+00:14:59,096 --> 00:15:02,756
+Ryan: Um, well, for me it's the
+concept, you know, uh, there's a
+
+287
+00:15:02,756 --> 00:15:05,216
+Buddhist teacher named Suzuki
+Roshi who had a great phrase,
+
+288
+00:15:05,216 --> 00:15:07,466
+which is in the beginner's mind,
+there are many possibilities, and
+
+289
+00:15:07,466 --> 00:15:11,397
+the experts mind. There are a
+few. Um, and so I, I just
+
+290
+00:15:11,397 --> 00:15:14,711
+remember the beginner's mind. I
+try to remember that. I don't
+
+291
+00:15:14,711 --> 00:15:18,101
+know, basically anything, you
+know what I mean? Like you've had
+
+292
+00:15:18,101 --> 00:15:21,552
+experience with things, you've
+seen some problems, but every
+
+293
+00:15:21,552 --> 00:15:25,001
+problem you solve is totally new.
+Um, it's, you know, it's like,
+
+294
+00:15:25,001 --> 00:15:28,841
+it's some new combination, some
+new context, some new, uh,
+
+295
+00:15:28,871 --> 00:15:32,216
+outcome you're trying to achieve.
+Some new technologies. So I try
+
+296
+00:15:32,216 --> 00:15:35,606
+to stay close to beginner's mind
+as much as I can by reminding
+
+297
+00:15:35,606 --> 00:15:40,317
+myself that I don't know, and,
+uh, going from that sort of area
+
+298
+00:15:40,317 --> 00:15:44,096
+of possibility rather than sort
+of the preconceived notions. And
+
+299
+00:15:44,096 --> 00:15:48,807
+so in my current work, I try to
+work with companies that. Want to
+
+300
+00:15:48,807 --> 00:15:52,317
+hire junior developers. Um, I
+think that's sort of the, I'd
+
+301
+00:15:52,317 --> 00:15:55,076
+rather work with companies that
+are trying to integrate juniors
+
+302
+00:15:55,076 --> 00:15:57,716
+rather than companies that are
+obsessed with, you know,
+
+303
+00:15:57,716 --> 00:16:01,106
+seniority. Um, and the reason for
+that is that helps me stay close
+
+304
+00:16:01,111 --> 00:16:05,067
+to beginner's mind by working
+with beginners. Um, you see the
+
+305
+00:16:05,067 --> 00:16:08,652
+kind of endless possibilities in
+their mind. Um, as they create
+
+306
+00:16:08,652 --> 00:16:11,682
+sort of quote unquote bad code,
+it's like, that's actually
+
+307
+00:16:11,682 --> 00:16:14,142
+creative code. It's creative
+problem solving. It's not like
+
+308
+00:16:14,142 --> 00:16:16,841
+they're just wrote writing down
+something they already know.
+
+309
+00:16:16,841 --> 00:16:19,751
+They're really trying to solve a
+problem from a standpoint of
+
+310
+00:16:19,756 --> 00:16:24,116
+possibilities. And so, yeah, I
+think working with beginners, Is
+
+311
+00:16:24,116 --> 00:16:26,096
+how I stay close to that feeling.
+In addition to kind of
+
+312
+00:16:26,096 --> 00:16:29,126
+cultivating it in my own mind, I
+try to experience it through the
+
+313
+00:16:29,126 --> 00:16:32,907
+minds of actual, you know, you
+know, beginners. Um, so yeah, I
+
+314
+00:16:32,912 --> 00:16:35,547
+think that's, that's kind of the
+answer is I, I try to stay close
+
+315
+00:16:35,547 --> 00:16:38,397
+to that feeling and then that
+allows me that excitement when
+
+316
+00:16:38,397 --> 00:16:40,976
+other people solve problems when
+it clicks for other people.
+
+317
+00:16:41,726 --> 00:16:44,366
+That's where like it clicks for
+me too. You know, It's like I, I
+
+318
+00:16:44,366 --> 00:16:46,496
+don't know that I could do it. I
+mean, I, you know, if I'm solving
+
+319
+00:16:46,496 --> 00:16:49,496
+a problem myself, some sort of,
+you know, big scope problem as
+
+320
+00:16:49,501 --> 00:16:51,897
+you get when you're more
+experienced, there's clicks for,
+
+321
+00:16:51,897 --> 00:16:54,596
+you know, it clicks for me too.
+And I get that, that feeling of
+
+322
+00:16:54,596 --> 00:16:56,966
+like, Oh, it works, you know,
+there's no errors. Or, you know,
+
+323
+00:16:56,966 --> 00:17:00,476
+the type script compiler says, Go
+ahead. Um, you know, that's,
+
+324
+00:17:00,476 --> 00:17:03,236
+that's good stuff. But I do love
+feeling it click or seeing it
+
+325
+00:17:03,236 --> 00:17:06,987
+click beginners and kind of
+experiencing that joy. Um,
+
+326
+00:17:07,076 --> 00:17:07,356
+second.
+
+327
+00:17:09,221 --> 00:17:13,451
+Dan: That's awesome. That's very
+cool. Like being able to stay
+
+328
+00:17:13,451 --> 00:17:15,791
+close that feeling right by
+sharing it with other people. You
+
+329
+00:17:15,791 --> 00:17:19,362
+know, I before I ask this
+question. Yeah, yeah. Totally.
+
+330
+00:17:19,366 --> 00:17:22,001
+Totally. You know, and you had,
+you had started talking about um,
+
+331
+00:17:22,001 --> 00:17:26,711
+how you like doing more one on
+one, you know, pairing stuff like
+
+332
+00:17:26,711 --> 00:17:29,261
+that, um, with people, and I
+imagine that's, it becomes a lot
+
+333
+00:17:29,261 --> 00:17:32,771
+easier to do that right. To.
+Share in the experience when you,
+
+334
+00:17:32,951 --> 00:17:36,852
+when it's a more intimate, you
+know, learning situation, right?
+
+335
+00:17:36,912 --> 00:17:39,461
+With one, you know, one on one
+sort of thing, instead of like
+
+336
+00:17:39,491 --> 00:17:42,251
+teaching a class, for instance.
+Um, to,
+
+337
+00:17:42,596 --> 00:17:45,717
+Ryan: Also I've found that.
+Exactly. And also I've found
+
+338
+00:17:45,717 --> 00:17:48,626
+that, I mean this is an a d d
+trait, but like if you tell me to
+
+339
+00:17:48,626 --> 00:17:50,757
+go off and do something, if I'm
+not interested in it, I'm not
+
+340
+00:17:50,761 --> 00:17:54,386
+gonna do it And so like that's
+why freelancing
+
+341
+00:17:54,481 --> 00:17:54,761
+Dan: about that.
+
+342
+00:17:55,797 --> 00:17:58,977
+Ryan: Yeah, exactly. So, you
+know, it's, it's tough for me to
+
+343
+00:17:58,981 --> 00:18:02,636
+kind of do programming on my own.
+And I've found that like if
+
+344
+00:18:02,636 --> 00:18:08,067
+someone else holds the focus,
+like pair programming or. If, if
+
+345
+00:18:08,067 --> 00:18:10,616
+it's something I can do in the
+context of a meeting, you know,
+
+346
+00:18:10,616 --> 00:18:13,977
+like I just kind of go in, I do
+the meeting, I come out, I go
+
+347
+00:18:13,977 --> 00:18:17,096
+back to my life. Like that is
+actually where I do my best work,
+
+348
+00:18:17,096 --> 00:18:19,557
+is something I can do in
+conversation, in, in, in
+
+349
+00:18:19,557 --> 00:18:22,886
+collaboration where someone else
+holds the focus. I can do the
+
+350
+00:18:22,886 --> 00:18:25,856
+best work. But, so that's sort of
+a another thing about knowing
+
+351
+00:18:25,856 --> 00:18:30,146
+myself, right? It's like knowing
+where I work best and not trying
+
+352
+00:18:30,146 --> 00:18:32,997
+to like fit into someone else's
+life as a, as a software
+
+353
+00:18:32,997 --> 00:18:36,416
+developer, you know? So, and also
+trying, it took me a long time to
+
+354
+00:18:36,416 --> 00:18:40,656
+kind of. Release myself from the
+view I had of being a software
+
+355
+00:18:40,656 --> 00:18:45,037
+developer, cuz it was such a part
+of my identity. Um, and so it's,
+
+356
+00:18:45,037 --> 00:18:47,616
+it's tough like to say, like, you
+know, to give that up to say, you
+
+357
+00:18:47,616 --> 00:18:51,096
+know, I don't wanna be a software
+developer so much anymore, as
+
+358
+00:18:51,096 --> 00:18:53,436
+much as I wanna help other
+software developers. Like that's
+
+359
+00:18:53,436 --> 00:18:57,696
+a, it was a mind bending thing,
+you know? Cause I was so used to
+
+360
+00:18:57,696 --> 00:19:00,126
+seeing, you know, to to telling
+people I was a software engineer.
+
+361
+00:19:00,126 --> 00:19:03,277
+I still do sometimes cause it's
+much easier than explaining what
+
+362
+00:19:03,277 --> 00:19:05,436
+I try to do. You know, if I don't
+really wanna have the
+
+363
+00:19:05,436 --> 00:19:07,916
+conversation, if it's just.
+Somebody doesn't know the
+
+364
+00:19:07,916 --> 00:19:10,707
+difference anyway. Uh, I'll just
+say, Oh, I'm a software engineer,
+
+365
+00:19:10,711 --> 00:19:13,436
+but it's still true. I do a lot
+of engineering on my own, but
+
+366
+00:19:13,856 --> 00:19:16,317
+yeah, pair programming, things I
+can do in conversation is where I
+
+367
+00:19:16,317 --> 00:19:16,916
+really shine.
+
+368
+00:19:18,372 --> 00:19:20,981
+Bekah: So when you're working
+with teams, how do you kind of
+
+369
+00:19:20,981 --> 00:19:25,481
+transfer that same energy to
+teaching within a team, or what
+
+370
+00:19:25,481 --> 00:19:28,662
+do you think the role is and how
+that's translated from your
+
+371
+00:19:28,662 --> 00:19:30,031
+experience to what you're doing
+now?
+
+372
+00:19:31,257 --> 00:19:33,146
+Ryan: Well, I mean, first you
+have to know the team, right? You
+
+373
+00:19:33,146 --> 00:19:35,186
+have to kind of know what their
+individual problems are. You have
+
+374
+00:19:35,186 --> 00:19:38,126
+to talk to them. Um, and so, you
+know, I, I start with like an
+
+375
+00:19:38,132 --> 00:19:41,906
+audit where I go in and kind of
+identify the pain points for
+
+376
+00:19:41,906 --> 00:19:45,281
+people so that way when I go pair
+with people, I know them and I
+
+377
+00:19:45,281 --> 00:19:48,132
+know the kind of what they're
+working on. I know where they're
+
+378
+00:19:48,132 --> 00:19:52,422
+struggling. Um, so yeah, I think
+that, uh, yeah, knowing, knowing
+
+379
+00:19:52,422 --> 00:19:54,701
+people, knowing the people on the
+team is kind of the most
+
+380
+00:19:54,701 --> 00:19:57,221
+important thing. And being
+personal, um, you know, I don't,
+
+381
+00:19:57,281 --> 00:20:00,162
+I'm not writing a book, right.
+I'm not writing a book on how to
+
+382
+00:20:00,162 --> 00:20:02,501
+solve all the problems. If I was
+doing that, I mean, that would be
+
+383
+00:20:02,531 --> 00:20:04,811
+great too. But it's like I'm
+really creating an
+
+384
+00:20:04,811 --> 00:20:09,146
+individualized. Plan for people
+and companies as well. You know,
+
+385
+00:20:09,152 --> 00:20:11,547
+there's a plan for the team.
+There's also a plan for
+
+386
+00:20:11,547 --> 00:20:15,176
+individual pe, individual people
+for how to improve, how to, um,
+
+387
+00:20:15,237 --> 00:20:18,477
+to do better. Uh, so yeah, I
+think I've actually forgot what
+
+388
+00:20:18,477 --> 00:20:21,086
+the, what the feeling was you
+were asking about, but I think
+
+389
+00:20:21,092 --> 00:20:23,727
+that's sort of maybe an answer. I
+mean, if you, if you have a
+
+390
+00:20:23,731 --> 00:20:26,636
+follow up, I mean, maybe I can
+get back on track, but that was
+
+391
+00:20:26,636 --> 00:20:27,717
+the first thing that came to
+mind.
+
+392
+00:20:29,487 --> 00:20:32,696
+Bekah: Yeah. Well, I mean, it's a
+hard balance transitioning from
+
+393
+00:20:32,696 --> 00:20:37,497
+doing like one on one mentorship
+and teaching to going inside of a
+
+394
+00:20:37,501 --> 00:20:40,707
+team. And I think that idea of
+getting to know people is super
+
+395
+00:20:40,707 --> 00:20:45,957
+important because I, I think that
+you can be way more effective as
+
+396
+00:20:45,957 --> 00:20:50,156
+a teacher if you do know the
+people in front of you. Um,
+
+397
+00:20:50,287 --> 00:20:54,842
+because like I, I think. So much
+of the time we depersonalize what
+
+398
+00:20:54,842 --> 00:20:58,711
+we're doing or we abstract these
+concepts out and try to apply
+
+399
+00:20:58,711 --> 00:21:02,342
+them rather than like recognizing
+like there's a dynamic group of
+
+400
+00:21:02,342 --> 00:21:05,582
+people in front of us and this
+approach is not going to work
+
+401
+00:21:05,582 --> 00:21:09,211
+unless you have an understanding
+of who those human beings are.
+
+402
+00:21:09,217 --> 00:21:13,007
+And I think that's, You know,
+having those conversations and
+
+403
+00:21:13,186 --> 00:21:16,186
+the, like we do in Virtual Coffee
+and the breakout rooms makes a
+
+404
+00:21:16,186 --> 00:21:20,267
+big difference. And there there
+can be a real balance of like
+
+405
+00:21:20,267 --> 00:21:25,727
+trying to have that personal
+experience and having empathy and
+
+406
+00:21:25,727 --> 00:21:30,287
+then also teaching in that
+situation. So do you have any
+
+407
+00:21:30,346 --> 00:21:33,136
+strategies for being able to
+balance those?
+
+408
+00:21:34,707 --> 00:21:37,317
+Ryan: Well, you know, I, I think
+there's, I have sort of a view on
+
+409
+00:21:37,317 --> 00:21:39,297
+learning. I mean, I have a lot of
+soundbites, right, that I say
+
+410
+00:21:39,297 --> 00:21:43,436
+over and over again. But, um, you
+know, my view on learning is
+
+411
+00:21:43,442 --> 00:21:46,932
+that, And knowledge is that it's,
+there's nobody has the same
+
+412
+00:21:46,932 --> 00:21:50,382
+knowledge. We all think that
+like, Oh, I learned react, you
+
+413
+00:21:50,382 --> 00:21:54,251
+know, react like we know the same
+thing, right? But actually, you
+
+414
+00:21:54,251 --> 00:21:57,402
+know, the way we really learn is
+by connecting to our experience.
+
+415
+00:21:57,761 --> 00:22:00,551
+We have all these analogies that
+are personal, that we use to kind
+
+416
+00:22:00,551 --> 00:22:04,061
+of identify and understand
+problems, understand solutions,
+
+417
+00:22:04,061 --> 00:22:07,301
+understand technologies, and so
+it's really like a 3D space where
+
+418
+00:22:07,301 --> 00:22:09,852
+nobody really overlaps. It's like
+you have this sort of bubble of
+
+419
+00:22:09,852 --> 00:22:14,471
+knowledge in the, in the problem.
+And it's very multidimensional.
+
+420
+00:22:14,477 --> 00:22:16,932
+It doesn't overlap with other
+people. It's centered around you.
+
+421
+00:22:17,622 --> 00:22:19,692
+Um, and so I think when you're
+working with a team, it's like
+
+422
+00:22:20,231 --> 00:22:22,662
+you have to kinda understand that
+a team is a collection of
+
+423
+00:22:22,666 --> 00:22:26,531
+individuals who have common
+goals. It's not like a unit, um,
+
+424
+00:22:26,531 --> 00:22:28,721
+like you know, in the military or
+something where everybody just
+
+425
+00:22:28,727 --> 00:22:31,031
+sort of like follows an, I mean,
+I don't know, I never in the
+
+426
+00:22:31,031 --> 00:22:34,511
+military, but you know, it's like
+that software team is very much
+
+427
+00:22:34,511 --> 00:22:37,632
+like individual people tackling
+problems individually. And I
+
+428
+00:22:37,632 --> 00:22:41,846
+think that the other thing.
+Trying to break that cycle and
+
+429
+00:22:41,846 --> 00:22:44,517
+improve kind of pairing and
+knowledge sharing between the
+
+430
+00:22:44,517 --> 00:22:47,336
+team. Because a lot of times, I
+mean, teams, these teams I've
+
+431
+00:22:47,336 --> 00:22:50,817
+been on, it's like you come in
+and people are individually
+
+432
+00:22:50,817 --> 00:22:52,886
+working on problems, your
+individual productivity,
+
+433
+00:22:52,886 --> 00:22:56,396
+everybody's trying to burn down
+their sprint points. And you
+
+434
+00:22:56,402 --> 00:22:58,406
+know, there's not like a lot of,
+you know, some people will come
+
+435
+00:22:58,406 --> 00:23:00,267
+up and ask a question
+occasionally, but there's not.
+
+436
+00:23:00,957 --> 00:23:03,957
+Teams working together. And so I
+think the, the ultimate thing is
+
+437
+00:23:03,957 --> 00:23:07,017
+I don't wanna be there long term,
+you know, I'm not there to like
+
+438
+00:23:07,017 --> 00:23:09,807
+be the teacher forever. I, my, my
+goal is to change the team
+
+439
+00:23:09,807 --> 00:23:13,047
+dynamic to make everybody a
+teacher, you know, make everybody
+
+440
+00:23:13,047 --> 00:23:17,186
+sort of a learner and everybody a
+mentor. You know, not obviously
+
+441
+00:23:17,186 --> 00:23:19,767
+people have different capacities
+and interests in it, but you
+
+442
+00:23:19,767 --> 00:23:22,166
+know, just improving their
+ability to do it in their own
+
+443
+00:23:22,166 --> 00:23:25,346
+way. Um, I think is kind of, I
+think that answers your question.
+
+444
+00:23:25,346 --> 00:23:27,987
+I always get off on these
+tangents, but I think that's sort
+
+445
+00:23:27,987 --> 00:23:31,977
+of how I approach. The team
+dynamic is really trying to make
+
+446
+00:23:31,977 --> 00:23:36,507
+myself irrelevant. make myself
+not necessary in the long term.
+
+447
+00:23:36,777 --> 00:23:38,876
+Cuz again, I wanna work in
+limited engagements. It's again,
+
+448
+00:23:38,876 --> 00:23:42,086
+an a, d, D thing. I'm not trying
+to make a year contract with
+
+449
+00:23:42,092 --> 00:23:45,086
+somebody where I'm just like
+constantly grinding with them.
+
+450
+00:23:45,092 --> 00:23:48,567
+It's like, no, I wanna make them
+better in a short term, in an
+
+451
+00:23:48,567 --> 00:23:51,957
+impactful way. Like do the, do
+the judo move where you just sort
+
+452
+00:23:51,957 --> 00:23:56,126
+of like come in and flip things
+around and leave, you know, Um,
+
+453
+00:23:56,126 --> 00:23:59,846
+that's kind of my ultimate. Is
+not to, not to be, to make people
+
+454
+00:23:59,846 --> 00:24:02,067
+dependent on you, to make people
+self-sufficient
+
+455
+00:24:03,207 --> 00:24:06,146
+Bekah: I think that's great and I
+think that one of the biggest
+
+456
+00:24:06,146 --> 00:24:13,616
+things that I see or hear in the
+industry is it kind of takes a
+
+457
+00:24:13,616 --> 00:24:18,267
+breaking point to bring somebody
+in to rectify communication and
+
+458
+00:24:18,267 --> 00:24:24,717
+team. Um, I don't know what the
+right word is. Uh, what would
+
+459
+00:24:24,717 --> 00:24:25,436
+you, what did you say?
+
+460
+00:24:26,217 --> 00:24:26,906
+Ryan: Uh, Dynamics.
+
+461
+00:24:27,267 --> 00:24:30,537
+Bekah: dynamics. You know, people
+wait until there's a problem and
+
+462
+00:24:30,537 --> 00:24:36,747
+I feel like bringing someone in
+very early on can reduce
+
+463
+00:24:36,751 --> 00:24:43,436
+miscommunications, burn out. Um,
+Problems that you see because you
+
+464
+00:24:43,436 --> 00:24:46,616
+haven't spent that time
+developing communication. And I
+
+465
+00:24:46,616 --> 00:24:49,287
+don't know if this is
+particularly a startup issue, but
+
+466
+00:24:49,287 --> 00:24:52,586
+like the whole move fast and
+break things, I feel like there's
+
+467
+00:24:52,586 --> 00:24:57,027
+a lot lost in how we communicate
+within teams and cross team
+
+468
+00:24:57,027 --> 00:25:00,957
+communication. So like what? What
+is your ideal situation to come
+
+469
+00:25:00,961 --> 00:25:04,227
+in? Would you like to come in
+from the beginning or do you like
+
+470
+00:25:04,227 --> 00:25:09,237
+to come in and kind of like blow
+people's minds by fixing their
+
+471
+00:25:09,237 --> 00:25:09,747
+problem?
+
+472
+00:25:10,797 --> 00:25:13,136
+Ryan: That's a good way to put
+it. Yeah, I mean, a lot of the
+
+473
+00:25:13,136 --> 00:25:16,076
+things I offer are
+counterintuitive, right? Um, like
+
+474
+00:25:16,076 --> 00:25:18,717
+slowing down, like, you know, not
+going, moving fast and breaking
+
+475
+00:25:18,717 --> 00:25:22,047
+things, but instead, you know,
+allowing people the time and the,
+
+476
+00:25:22,106 --> 00:25:26,757
+the ability to talk to each other
+first, you know, and second,
+
+477
+00:25:26,761 --> 00:25:29,936
+create quality. Um, but I will
+say that there's the ideal
+
+478
+00:25:29,936 --> 00:25:33,176
+situation there is sort of a size
+of the company that makes sense.
+
+479
+00:25:33,567 --> 00:25:37,632
+I think that one thing people
+kind of. Discount is that the
+
+480
+00:25:37,721 --> 00:25:41,201
+best practices for a very small
+company are different than the
+
+481
+00:25:41,201 --> 00:25:44,172
+best practices for a large
+company. You know, if you're like
+
+482
+00:25:44,172 --> 00:25:47,531
+a small company and you're trying
+to scale, you know you wanna get
+
+483
+00:25:47,531 --> 00:25:50,561
+started first. You wanna create
+an mvp, you wanna, And so the
+
+484
+00:25:50,561 --> 00:25:53,142
+best practices for doing that are
+not necessarily focused on
+
+485
+00:25:53,142 --> 00:25:56,951
+quality as much as they are
+vetting and validating your idea
+
+486
+00:25:57,521 --> 00:26:00,162
+and validating that it has a
+market and validating that people
+
+487
+00:26:00,166 --> 00:26:05,337
+want to use it. And that maybe
+creates incentives that are. and
+
+488
+00:26:05,343 --> 00:26:07,797
+if you're like a series a company
+where you have maybe 10, 20
+
+489
+00:26:07,797 --> 00:26:10,227
+people and you have some
+investment and you have some
+
+490
+00:26:10,227 --> 00:26:13,977
+ability to take risks to improve
+quality, right? So I think the
+
+491
+00:26:13,981 --> 00:26:17,247
+ideal situation is a little
+larger company. Um, also larger
+
+492
+00:26:17,251 --> 00:26:20,126
+companies have the ability to
+onboard juniors more. I think
+
+493
+00:26:20,126 --> 00:26:22,856
+that, you know, it, it's tough
+when you're a small company to
+
+494
+00:26:22,856 --> 00:26:26,426
+have maybe one developer. Who you
+know is a junior developer. I
+
+495
+00:26:26,426 --> 00:26:28,886
+think it's probably great from a
+standpoint to that junior
+
+496
+00:26:28,886 --> 00:26:30,987
+developer, they learned so much.
+I've been in that situation where
+
+497
+00:26:30,987 --> 00:26:33,537
+I'm the only front end developer
+or something, and I was kind of
+
+498
+00:26:33,537 --> 00:26:36,416
+junior and I learned a lot, you
+know, so I think it's great for
+
+499
+00:26:36,416 --> 00:26:39,057
+the person, but for the company,
+maybe it's like they wanna move
+
+500
+00:26:39,061 --> 00:26:42,057
+faster, they wanna, they wanna
+break things, but like they don't
+
+501
+00:26:42,057 --> 00:26:45,116
+wanna things to be broken
+constantly. Um, so yeah, you
+
+502
+00:26:45,116 --> 00:26:47,517
+know, I think that the best
+practices are different and the
+
+503
+00:26:47,517 --> 00:26:50,457
+ideal situation is maybe a
+slightly larger company where
+
+504
+00:26:50,457 --> 00:26:53,071
+there is a team. The team is sort
+of established. There's
+
+505
+00:26:53,071 --> 00:26:56,342
+investment and ability to take
+risks. Um, I would love to work
+
+506
+00:26:56,342 --> 00:26:58,561
+with, you know, smaller companies
+and work from the beginning.
+
+507
+00:26:58,561 --> 00:27:01,922
+Right. But that also is maybe
+they may, may be a little more
+
+508
+00:27:01,926 --> 00:27:04,561
+dependent on me, right? They
+actually may wanna hire me as
+
+509
+00:27:04,561 --> 00:27:06,632
+like a senior developer, and
+that's not really what I'm trying
+
+510
+00:27:06,636 --> 00:27:10,291
+to do. I want to come in and like
+have a team that I can work with
+
+511
+00:27:10,321 --> 00:27:14,221
+and kind of affect, especially a
+junior team. Um, so yeah, I think
+
+512
+00:27:14,221 --> 00:27:16,172
+that I would love to be there
+from the beginning and help them
+
+513
+00:27:16,172 --> 00:27:18,541
+build quality, but I'd rather be
+there when they are ready to
+
+514
+00:27:18,541 --> 00:27:23,906
+build. Um, ready to, to have
+those counterintuitive solutions.
+
+515
+00:27:23,906 --> 00:27:27,116
+Like, hey, you know, slow down.
+Don't when there's a, when
+
+516
+00:27:27,116 --> 00:27:29,906
+there's tech debt, solve it right
+away. Have everybody work on it.
+
+517
+00:27:29,906 --> 00:27:32,606
+You know, things like this, which
+are sort of like, not the
+
+518
+00:27:32,606 --> 00:27:35,217
+incentives you usually have, you
+know? Cuz the main thing is
+
+519
+00:27:35,217 --> 00:27:36,797
+they've been trying things, like
+you said, there's a problem
+
+520
+00:27:36,797 --> 00:27:41,126
+right. The CTO is talking to the
+ceo and the CEO is like, Hey,
+
+521
+00:27:41,126 --> 00:27:44,096
+you're not delivering on these
+business needs. Your team is
+
+522
+00:27:44,096 --> 00:27:48,926
+making a qu product that lacks in
+quality in our users notice, and
+
+523
+00:27:48,926 --> 00:27:51,567
+you know, what's the problem that
+you're, you can't affect these
+
+524
+00:27:51,567 --> 00:27:54,537
+things. That's kind of the, the
+issue that I would come in and
+
+525
+00:27:54,537 --> 00:27:57,987
+sort of solve is like when that
+exists, and I think it exists in
+
+526
+00:27:57,987 --> 00:28:01,076
+a lot of teams at different
+times. Um, but yeah, that's what
+
+527
+00:28:01,076 --> 00:28:04,047
+I would say. It's like there is
+an ideal size and an ideal
+
+528
+00:28:04,047 --> 00:28:07,376
+problem to come in and solve and,
+and not, companies are not really
+
+529
+00:28:07,376 --> 00:28:10,257
+ready for counterintuitive
+solutions when they're,
+
+530
+00:28:10,257 --> 00:28:13,227
+everything's working fine. I
+think they don't want to come in
+
+531
+00:28:13,227 --> 00:28:14,936
+and like change things. They're
+like, Oh, everything's working
+
+532
+00:28:14,936 --> 00:28:17,997
+fine. But when there's a problem
+it's like, try something
+
+533
+00:28:17,997 --> 00:28:21,207
+different. Try a different tact,
+because that's how you're gonna
+
+534
+00:28:21,207 --> 00:28:21,896
+find a solution.
+
+535
+00:28:23,683 --> 00:28:27,703
+Dan: know, we talked, Ryan had me
+on his Twitter space. What was
+
+536
+00:28:27,703 --> 00:28:29,834
+that last week? This week? I
+don't know.
+
+537
+00:28:29,848 --> 00:28:31,439
+Ryan: Um, the past
+
+538
+00:28:31,544 --> 00:28:33,644
+Dan: Recently, And,
+
+539
+00:28:33,778 --> 00:28:34,709
+Ryan: not future,
+
+540
+00:28:34,723 --> 00:28:37,784
+Dan: one of the things we talked
+about was a lot was, um, was the
+
+541
+00:28:37,784 --> 00:28:41,308
+idea of technical debt. On teams.
+Right. And, and that's like one
+
+542
+00:28:41,308 --> 00:28:45,749
+of the, one of the, maybe one of
+the problems that you are hoping
+
+543
+00:28:45,749 --> 00:28:48,479
+to be able to help solve. Right.
+With, with these teams. Could you
+
+544
+00:28:48,479 --> 00:28:51,719
+talk a little bit about what,
+what technical debt is, you know,
+
+545
+00:28:51,723 --> 00:28:54,118
+like what, what it means to you
+when somebody says technical debt
+
+546
+00:28:54,118 --> 00:28:59,068
+and what, and then, and then also
+like, you know, how, how that can
+
+547
+00:28:59,068 --> 00:29:02,489
+like negatively affect, um, a
+team, you know, maybe even
+
+548
+00:29:02,489 --> 00:29:03,838
+without them knowing about.
+
+549
+00:29:04,499 --> 00:29:06,088
+Ryan: Well, I think there's
+actually, it's important to say
+
+550
+00:29:06,088 --> 00:29:08,818
+there's actually lots of
+different kinds of debt. That are
+
+551
+00:29:08,818 --> 00:29:11,009
+different than just, I mean, a
+lot of people when they say
+
+552
+00:29:11,009 --> 00:29:13,618
+technical debt, they think of
+some developer experience problem
+
+553
+00:29:14,098 --> 00:29:18,028
+where it's like there's something
+counterintuitive code. Um, some
+
+554
+00:29:18,088 --> 00:29:20,969
+feature, but you know, Excuse me.
+There's actually multiple
+
+555
+00:29:20,969 --> 00:29:24,808
+different kinds of debt. There's
+quality debt. Which is where
+
+556
+00:29:24,808 --> 00:29:27,959
+you're building things kind of
+let lack quality and you just
+
+557
+00:29:27,959 --> 00:29:30,838
+leave it that way. I did this
+funny tweet where I had a bridge
+
+558
+00:29:30,838 --> 00:29:33,328
+that I built in like poly bridge.
+I dunno if you know this game,
+
+559
+00:29:33,598 --> 00:29:35,669
+but it has these gaps in the
+bridge and like the truck goes
+
+560
+00:29:35,669 --> 00:29:38,009
+across it and the bridge flexes
+around and I'm like, this is kind
+
+561
+00:29:38,013 --> 00:29:40,828
+of how we built products. We
+leave these gaps and we say, Oh,
+
+562
+00:29:40,834 --> 00:29:43,558
+the, the truck can get across the
+bridge without the, the whole
+
+563
+00:29:43,558 --> 00:29:47,249
+thing being built, therefore it's
+done. And um, so I think that's
+
+564
+00:29:47,249 --> 00:29:50,429
+sort of a quality problem, right?
+So that's quality debt. There's
+
+565
+00:29:50,429 --> 00:29:53,608
+knowledge. Which is where the,
+the, the product doesn't teach
+
+566
+00:29:53,608 --> 00:29:56,939
+people how to use it, how to
+develop on it rather. Um, and I
+
+567
+00:29:56,939 --> 00:29:59,699
+think that the ultimate sort of
+product is one that teaches the
+
+568
+00:29:59,699 --> 00:30:04,138
+developers how to, how to, how to
+create. Changes in it, right? How
+
+569
+00:30:04,138 --> 00:30:07,558
+to extend it, how to modify it to
+maintain it. If the product isn't
+
+570
+00:30:07,558 --> 00:30:10,229
+teaching people that, that's
+knowledge debt, right? That's
+
+571
+00:30:10,229 --> 00:30:12,598
+sort of, And the team isn't
+sharing the knowledge too, right?
+
+572
+00:30:12,598 --> 00:30:14,669
+But, so it's kind of a
+combination of sort of like
+
+573
+00:30:14,699 --> 00:30:18,388
+automated solutions and just
+plain old interfacing with other
+
+574
+00:30:18,388 --> 00:30:22,558
+people face to face or you know,
+remotely or even asynchronously,
+
+575
+00:30:22,558 --> 00:30:24,419
+right? Cause there's lots of
+different ways teams operate
+
+576
+00:30:24,419 --> 00:30:27,479
+these days. So that's knowledge
+debt. There's tactical debt,
+
+577
+00:30:27,479 --> 00:30:29,398
+which is, you know, what we
+talked about, sort of like.
+
+578
+00:30:30,179 --> 00:30:34,318
+Developer facing problems in the
+code that make it hard to develop
+
+579
+00:30:34,318 --> 00:30:37,199
+that, make it hard to implement
+quality, hard to share knowledge.
+
+580
+00:30:37,588 --> 00:30:41,009
+Um, and then there's, there's one
+other one that I, I can't think
+
+581
+00:30:41,009 --> 00:30:44,308
+of right now, but yeah, it's,
+there's, that's what I would say.
+
+582
+00:30:44,308 --> 00:30:47,294
+There's lot, there's other
+different kinds of debt. Um,
+
+583
+00:30:47,354 --> 00:30:49,574
+quality debt, knowledge, debt,
+technical debt. Well, you know,
+
+584
+00:30:49,574 --> 00:30:52,243
+I'll think of it. Um, it's just
+funny. I should know it cuz it's
+
+585
+00:30:52,243 --> 00:30:54,223
+kind of something, I dunno if
+it's something I came up with,
+
+586
+00:30:54,223 --> 00:30:57,163
+but it's something I talk about a
+lot. But there's different kinds
+
+587
+00:30:57,163 --> 00:31:01,064
+of, um, Oh, innovation debt.
+That's it. So innovation debt is
+
+588
+00:31:01,064 --> 00:31:05,219
+like, Is, um, things you wanna do
+but you haven't done cuz you
+
+589
+00:31:05,219 --> 00:31:08,128
+can't do it for some reason. You
+know, like, you wanna build this
+
+590
+00:31:08,128 --> 00:31:11,009
+feature, you wanna implement this
+big change, refactor the product,
+
+591
+00:31:11,278 --> 00:31:13,469
+but everything else is holding
+you back. Right. So that's sort
+
+592
+00:31:13,469 --> 00:31:16,739
+of like there's a debt in the, in
+the innovation you're trying to
+
+593
+00:31:16,739 --> 00:31:19,439
+do. So yeah, I think breaking it
+down in different, into different
+
+594
+00:31:19,443 --> 00:31:22,739
+kinds of debt, not just focusing
+on calling it technical debt sort
+
+595
+00:31:22,739 --> 00:31:26,074
+of opens you up. To really affect
+the problems that are holding you
+
+596
+00:31:26,074 --> 00:31:28,894
+back, to affect the things that
+are preventing you from
+
+597
+00:31:28,894 --> 00:31:31,983
+delivering on that promise, like
+I said, and quality right, and
+
+598
+00:31:31,983 --> 00:31:34,413
+promise of timelines. Yeah.
+
+599
+00:31:35,219 --> 00:31:37,919
+Bekah: I love how you break that
+down. I think that that really
+
+600
+00:31:37,919 --> 00:31:43,558
+helps to better understand what,
+what problems that you're facing,
+
+601
+00:31:43,648 --> 00:31:47,338
+um, and also to be able to
+explain it to other people,
+
+602
+00:31:47,338 --> 00:31:51,989
+especially if you have junior
+members who are, are just coming
+
+603
+00:31:51,993 --> 00:31:54,929
+into the industry and trying to
+understand exactly what you mean
+
+604
+00:31:54,929 --> 00:32:00,449
+by technical debt. I think. It
+also can help people to better
+
+605
+00:32:00,449 --> 00:32:05,578
+identify their problems by
+looking at it in that way. Um, so
+
+606
+00:32:05,584 --> 00:32:09,209
+I, I think that this kind of
+touches on this idea of knowledge
+
+607
+00:32:09,209 --> 00:32:13,858
+sharing and how you do that in
+teams. So, um, can you first
+
+608
+00:32:13,858 --> 00:32:17,878
+define knowledge sharing for us?
+And then maybe talk about where
+
+609
+00:32:17,878 --> 00:32:19,328
+to start with that.
+
+610
+00:32:20,588 --> 00:32:23,469
+Ryan: Yeah, I mean, I think it's,
+uh, you know, we have this
+
+611
+00:32:23,469 --> 00:32:26,338
+problem of droughts these days.
+Because of, you know, global
+
+612
+00:32:26,338 --> 00:32:29,159
+warming and there's places that
+have water, there's places that
+
+613
+00:32:29,159 --> 00:32:31,259
+don't have water, and how do you
+irrigate? You know, how do you
+
+614
+00:32:31,259 --> 00:32:33,838
+get water from one place to
+another so that everybody can
+
+615
+00:32:33,844 --> 00:32:37,229
+drink, everybody can grow crops.
+Right? And that's sort of what I
+
+616
+00:32:37,229 --> 00:32:40,169
+see knowledge sharing as is.
+There's people that have the
+
+617
+00:32:40,229 --> 00:32:43,679
+context, have the understanding,
+and there's people that need that
+
+618
+00:32:43,679 --> 00:32:47,068
+understanding, that need that
+context to affect their work. And
+
+619
+00:32:47,068 --> 00:32:49,118
+it's like, how do you get the
+water from one place to another?
+
+620
+00:32:50,124 --> 00:32:52,854
+And, uh, there's lots of
+different ways to do it, right?
+
+621
+00:32:52,913 --> 00:32:55,104
+There's, you know, documentation.
+Cause the thing is, there's
+
+622
+00:32:55,134 --> 00:32:57,354
+asynchronous and synchronous
+knowledge sharing, right?
+
+623
+00:32:57,864 --> 00:32:59,903
+Synchronous knowledge sharing is
+what we're doing right now. We're
+
+624
+00:32:59,903 --> 00:33:03,624
+having a conversation in real
+time. I'm telling you, you're
+
+625
+00:33:03,624 --> 00:33:07,513
+asking me questions. I'm telling
+you. Something logical. I
+
+626
+00:33:07,513 --> 00:33:09,403
+wouldn't call it an answer,
+right? Cuz there's lots of
+
+627
+00:33:09,403 --> 00:33:11,804
+different answers. But I'm
+telling you personal answers
+
+628
+00:33:11,804 --> 00:33:14,443
+about like how I think about
+problems. So that's like
+
+629
+00:33:14,443 --> 00:33:16,663
+synchronous knowledge sharing.
+And I think that if you can do
+
+630
+00:33:16,663 --> 00:33:19,844
+that, that's kind of the best way
+to do it. Yes, it costs two
+
+631
+00:33:19,844 --> 00:33:23,203
+people's time. Um, which is kind
+of where people get caught up is
+
+632
+00:33:23,203 --> 00:33:25,663
+like, Oh, there's a big cost. You
+know, like pairing, there's a big
+
+633
+00:33:25,663 --> 00:33:31,453
+cost with meetings, you know, Um,
+or one on ones ideal. Um, but you
+
+634
+00:33:31,453 --> 00:33:33,794
+know, of course there's a cost,
+but it's like there's a huge
+
+635
+00:33:33,794 --> 00:33:36,854
+benefit. It's not like two times,
+two people is two times work, you
+
+636
+00:33:36,854 --> 00:33:40,364
+know, and two times cost. It's
+like, maybe it's two times cost,
+
+637
+00:33:40,368 --> 00:33:42,523
+but it's like there's a
+multiplication effect that
+
+638
+00:33:42,523 --> 00:33:44,953
+happens when people share
+knowledge, both in terms of the,
+
+639
+00:33:44,953 --> 00:33:47,983
+our ability to execute and also
+their ability to build quality,
+
+640
+00:33:47,983 --> 00:33:50,653
+right? Cuz they know the edge
+cases, they know sort of the
+
+641
+00:33:50,653 --> 00:33:54,614
+context they need to create best
+practices within the product. And
+
+642
+00:33:54,614 --> 00:33:56,413
+then there's asynchronous
+knowledge sharing, which is
+
+643
+00:33:56,534 --> 00:33:59,693
+around. It could be Slack, right?
+It could just be that's async
+
+644
+00:33:59,699 --> 00:34:02,213
+sort of knowledge sharing.
+There's also documentation,
+
+645
+00:34:02,213 --> 00:34:05,394
+right? I have a lot of ideas on
+documentation and kind of how to
+
+646
+00:34:05,394 --> 00:34:09,503
+affect it and make it sort of,
+uh, useful for people. But yeah,
+
+647
+00:34:09,503 --> 00:34:11,184
+that's what I would say. That's
+sort of knowledge sharing in a
+
+648
+00:34:11,184 --> 00:34:14,244
+nutshell. It's like how do you
+irrigate this knowledge between
+
+649
+00:34:14,333 --> 00:34:17,514
+different areas, the people that
+have it, the people that need it,
+
+650
+00:34:18,023 --> 00:34:20,603
+and, uh, doing it synchronously
+and asynchronously and sort of
+
+651
+00:34:20,603 --> 00:34:22,914
+like being aware of the
+difference between.
+
+652
+00:34:24,128 --> 00:34:26,619
+Dan: I love that metaphor. No, it
+makes, it makes a ton of sense.
+
+653
+00:34:26,619 --> 00:34:27,668
+I, you know, uh,
+
+654
+00:34:28,298 --> 00:34:30,759
+Ryan: I have a lot of water based
+metaphors for programming.
+
+655
+00:34:30,909 --> 00:34:33,429
+Dan: water-based metaphors, All
+right. I I'm, a big fan of, I'm a
+
+656
+00:34:33,429 --> 00:34:35,648
+big fan of, uh, of Data's
+
+657
+00:34:35,708 --> 00:34:36,969
+Bekah: be a water bender.
+
+658
+00:34:37,688 --> 00:34:39,969
+Ryan: No, I would be Bruce Lee.
+Like, you know, if you put water
+
+659
+00:34:39,969 --> 00:34:42,398
+in a cup, it becomes the cup. You
+put water in a bottle, it becomes
+
+660
+00:34:42,398 --> 00:34:45,128
+the bottle. That's sort of my
+thinking of water is that it's
+
+661
+00:34:45,128 --> 00:34:49,478
+like, it's flexible and I like, I
+like that idea. It's a flexible.
+
+662
+00:34:51,443 --> 00:34:54,744
+Dan: nevermind. I was just I was
+gonna take this metaphor too far.
+
+663
+00:34:55,389 --> 00:34:57,998
+Ryan: No, well, you know, mean,
+it's great metaphor, so
+
+664
+00:34:58,043 --> 00:34:59,903
+Dan: Oh, I was trying to figure
+out what, what, like Twitter
+
+665
+00:34:59,909 --> 00:35:02,934
+would be if you're, you know,
+sharing if knowledge is, is
+
+666
+00:35:03,099 --> 00:35:04,869
+Ryan: Twitter is a rainstorm.
+
+667
+00:35:05,364 --> 00:35:08,844
+Dan: is a rainstorm or is like
+you like your Twitter account,
+
+668
+00:35:08,844 --> 00:35:10,884
+not you, but like a person's
+Twitter account is like you
+
+669
+00:35:10,884 --> 00:35:12,773
+standing there with a scorecard.
+right.
+
+670
+00:35:13,208 --> 00:35:14,469
+Ryan: You're just, it's a fire
+You're
+
+671
+00:35:14,498 --> 00:35:15,248
+Dan: That's right.
+
+672
+00:35:15,429 --> 00:35:16,418
+Ryan: a, Into a chasm.
+
+673
+00:35:16,909 --> 00:35:19,659
+Dan: Right, right. Yeah. Maybe it
+hits
+
+674
+00:35:19,764 --> 00:35:21,893
+Ryan: And sometimes it splashes
+back at you, but that's, you
+
+675
+00:35:21,893 --> 00:35:22,074
+know,
+
+676
+00:35:22,208 --> 00:35:22,389
+Dan: right?
+
+677
+00:35:22,583 --> 00:35:24,563
+Ryan: that's about it. I don't
+know. That's a good question.
+
+678
+00:35:24,789 --> 00:35:27,998
+Dan: I, I like, No, I mean, but,
+but going back to like what you
+
+679
+00:35:27,998 --> 00:35:30,998
+were saying before, the, the,
+that metaphor of the, especially
+
+680
+00:35:31,148 --> 00:35:33,789
+the, uh, you started this with
+the, uh, concept of droughts.
+
+681
+00:35:33,789 --> 00:35:37,869
+Right. And, um, and I think, I
+feel like that is a really
+
+682
+00:35:37,869 --> 00:35:41,034
+powerful part of this metaphor
+is. You have these droughts,
+
+683
+00:35:41,034 --> 00:35:45,384
+Right? And of knowledge and, and
+yeah. Yeah. And the, the lake of
+
+684
+00:35:45,384 --> 00:35:47,784
+knowledge, like you have the lake
+sounds, This is
+
+685
+00:35:47,829 --> 00:35:49,898
+Ryan: A drought, nothing grows,
+what I mean? Nothing is
+
+686
+00:35:50,244 --> 00:35:52,014
+Dan: Right, right, right. Yeah.
+And
+
+687
+00:35:52,239 --> 00:35:53,318
+Ryan: People are, you know,
+
+688
+00:35:53,813 --> 00:35:54,173
+Dan: I think
+
+689
+00:35:54,429 --> 00:35:54,849
+Ryan: thirsty.
+
+690
+00:35:55,554 --> 00:35:57,773
+Dan: yes, I think that's a great
+way of thinking about it. Uh,
+
+691
+00:35:57,773 --> 00:35:58,103
+it's,
+
+692
+00:35:58,268 --> 00:36:01,599
+Ryan: Kim Kardashian is like
+watering her lawn at 200,000
+
+693
+00:36:01,599 --> 00:36:04,509
+gallons. You know, It's like, no,
+nobody else has the water. I
+
+694
+00:36:04,509 --> 00:36:04,789
+don't know
+
+695
+00:36:05,768 --> 00:36:08,978
+Dan: Right. So that means she's
+the senior developer who doesn't
+
+696
+00:36:08,978 --> 00:36:09,849
+talk to anybody
+
+697
+00:36:09,898 --> 00:36:12,188
+Ryan: exactly. I there are those
+people right there
+
+698
+00:36:13,028 --> 00:36:14,289
+Dan: absolutely. You know, and,
+
+699
+00:36:14,409 --> 00:36:15,489
+Ryan: knowledge Dragons,
+
+700
+00:36:15,818 --> 00:36:21,548
+Dan: and talked about, Yeah, we,
+we, we talked about, uh, or you
+
+701
+00:36:21,548 --> 00:36:25,059
+talked about, um, you know, Some
+of this work being easier with
+
+702
+00:36:25,119 --> 00:36:27,728
+larger teams or whatever, things
+like that. Um, I feel like this
+
+703
+00:36:27,733 --> 00:36:30,998
+happens a lot more often with
+smaller teams. Uh, maybe not more
+
+704
+00:36:30,998 --> 00:36:33,518
+often, but it is a harder solve
+problem to solve, right? With a
+
+705
+00:36:33,523 --> 00:36:38,498
+smaller team. Um, especially like
+long term. So I'm just talking
+
+706
+00:36:38,498 --> 00:36:41,528
+about myself here, So just like
+talk about, but like, I've been
+
+707
+00:36:41,534 --> 00:36:44,949
+working on some of these, some of
+these products for, um, like
+
+708
+00:36:45,159 --> 00:36:50,034
+your. Uh, I don't know. I've been
+working on one client for over 10
+
+709
+00:36:50,034 --> 00:36:54,293
+years. Right. And I have a ton of
+knowledge just in my head about
+
+710
+00:36:54,293 --> 00:36:56,454
+it. And, you know, I try to do
+docs and stuff, but it's like
+
+711
+00:36:56,454 --> 00:36:59,213
+small team, right? So that means
+mostly me, you know, And then
+
+712
+00:36:59,219 --> 00:37:02,543
+sometimes, like Bekah worked with
+me for a while and, and, and, um,
+
+713
+00:37:02,753 --> 00:37:05,724
+I have somebody else working with
+me now, you know, and it's.
+
+714
+00:37:06,713 --> 00:37:09,414
+There's all these, there's all,
+there's like deserts right? Of,
+
+715
+00:37:09,474 --> 00:37:12,653
+of, of, of not knowledge, right?
+I, you know, there's places where
+
+716
+00:37:12,653 --> 00:37:14,813
+I've like, this is gonna be
+confusing, so I'm gonna like,
+
+717
+00:37:14,818 --> 00:37:17,123
+write things down. But there's
+other places where, you know,
+
+718
+00:37:17,153 --> 00:37:19,974
+either, well, for a million
+different reasons, there's, you
+
+719
+00:37:19,978 --> 00:37:23,873
+know, nothing, right? And, um, I
+guess I don't really have a point
+
+720
+00:37:23,873 --> 00:37:26,273
+other than it's hard. It's our
+problem. It can be a very hard
+
+721
+00:37:26,273 --> 00:37:27,923
+problem to solve for teams all
+size.
+
+722
+00:37:29,349 --> 00:37:31,418
+Ryan: you know what? I would say
+again, counterintuitive
+
+723
+00:37:31,418 --> 00:37:35,949
+solutions, right? Um, My way of
+keeping, my way of saying keep
+
+724
+00:37:35,949 --> 00:37:39,699
+docs up to date is don't try You
+know, speaking of the water
+
+725
+00:37:39,699 --> 00:37:42,009
+metaphor, it's a point in time
+thing. There's, Well, go ahead.
+
+726
+00:37:42,068 --> 00:37:42,398
+What were you gonna
+
+727
+00:37:42,458 --> 00:37:44,829
+Dan: talk more. No, I was gonna
+say, talk more about this. That
+
+728
+00:37:44,833 --> 00:37:46,748
+is, never heard somebody say that
+before, so I wanna hear what you
+
+729
+00:37:46,824 --> 00:37:49,284
+Ryan: Well, I think there's some
+documentation that needs to be
+
+730
+00:37:49,284 --> 00:37:52,373
+sort of evergreen, right? Like
+onboarding documentation. It sort
+
+731
+00:37:52,373 --> 00:37:55,403
+of needs to be evergreen. Read
+means need to be evergreen. But I
+
+732
+00:37:55,409 --> 00:37:58,673
+think architectural documentation
+with like diagrams and like how
+
+733
+00:37:58,673 --> 00:38:02,514
+things work, I think it's, it's
+so tough to kind of keep that up
+
+734
+00:38:02,514 --> 00:38:05,603
+to date because it's such a big
+sort of problem. You know, like
+
+735
+00:38:05,603 --> 00:38:07,974
+how does the whole thing work?
+It's different from onboarding,
+
+736
+00:38:07,974 --> 00:38:10,463
+which is like, how do you start
+the thing you don't know. But,
+
+737
+00:38:10,463 --> 00:38:12,114
+um, architectural, Go ahead.
+
+738
+00:38:13,268 --> 00:38:14,469
+Dan: Oh, I was just saying
+totally. I was just
+
+739
+00:38:14,664 --> 00:38:17,244
+Ryan: Oh yeah, exactly. Documenta
+or, you know, architectural
+
+740
+00:38:17,244 --> 00:38:20,664
+documentation is so tough to kind
+of like take the whole product
+
+741
+00:38:20,668 --> 00:38:24,114
+and put it, boil it down into a
+little residue of knowledge. And
+
+742
+00:38:24,114 --> 00:38:26,483
+so I think, you know, I really
+like the idea of architectural
+
+743
+00:38:26,483 --> 00:38:30,143
+decision records. Which is, I see
+it like a blog. You know, you're
+
+744
+00:38:30,143 --> 00:38:32,364
+keeping a blog of like all the
+changes you're making in the
+
+745
+00:38:32,364 --> 00:38:35,333
+product and it's point in time.
+You don't update it. It's just
+
+746
+00:38:35,333 --> 00:38:38,333
+like, this is the decision we
+made. And then if you, you, I
+
+747
+00:38:38,333 --> 00:38:40,614
+think if you reference those in
+the code, right, you know, you
+
+748
+00:38:40,614 --> 00:38:43,523
+have some anchor comments or
+something that like link to these
+
+749
+00:38:43,523 --> 00:38:46,583
+different architectural records
+and you know, the architectural
+
+750
+00:38:46,588 --> 00:38:50,434
+records supersede each other.
+They amend each other, they have
+
+751
+00:38:50,438 --> 00:38:52,623
+linkages, sort of like hyper
+text, right? It's like they're
+
+752
+00:38:52,623 --> 00:38:55,474
+all linked together. So it is
+very much like a blog that you're
+
+753
+00:38:55,474 --> 00:38:57,903
+keeping of the decisions you make
+throughout the development of the
+
+754
+00:38:57,903 --> 00:39:01,023
+product. And you're not trying to
+like go in and create sort of an
+
+755
+00:39:01,023 --> 00:39:05,074
+omnibus like book that's
+constantly has new additions.
+
+756
+00:39:05,373 --> 00:39:08,313
+You're creating blog posts that
+sort of like, you know, do the
+
+757
+00:39:08,313 --> 00:39:11,804
+point in time thing. And that's
+much easier to. Approach,
+
+758
+00:39:11,804 --> 00:39:14,233
+especially as a small team,
+because you don't, you're not
+
+759
+00:39:14,233 --> 00:39:16,664
+like constantly going back and
+trying to create evergreen, you
+
+760
+00:39:16,664 --> 00:39:19,184
+know, an evergreen documentation.
+You're just writing these blog
+
+761
+00:39:19,184 --> 00:39:22,304
+posts and leaving it, you know,
+as you go, as little breadcrumbs
+
+762
+00:39:22,304 --> 00:39:25,094
+for someone to say, Oh, this is
+how the product evolved. Also,
+
+763
+00:39:25,099 --> 00:39:29,153
+you have sort of knowledge about
+how the product used to be. Which
+
+764
+00:39:29,153 --> 00:39:31,224
+I think is also very important
+because sometimes you wanna go
+
+765
+00:39:31,224 --> 00:39:34,373
+back you know, sometimes you
+wanna learn from the past, you
+
+766
+00:39:34,373 --> 00:39:37,193
+wanna learn from like how things
+were done initially. And also
+
+767
+00:39:37,193 --> 00:39:40,193
+it's just like, it explains
+things in a way that maybe, uh,
+
+768
+00:39:40,224 --> 00:39:43,643
+just a present sort of evergreen
+documentation wouldn't cuz you
+
+769
+00:39:43,643 --> 00:39:46,373
+say like, Oh, this is why that
+was done. There's so many times
+
+770
+00:39:46,373 --> 00:39:48,773
+when we go into a code base and
+go, Oh my God, this is horrible.
+
+771
+00:39:48,833 --> 00:39:52,398
+I was just done this way. And the
+truth is always a reason. There's
+
+772
+00:39:52,398 --> 00:39:54,199
+always a reason. I always try to
+tell people that when they're
+
+773
+00:39:54,199 --> 00:39:57,048
+like, Oh, I got this legacy code
+base, and it's like, it's the
+
+774
+00:39:57,048 --> 00:40:00,048
+worst. Like I can't believe it.
+Who are these bad developers?
+
+775
+00:40:00,048 --> 00:40:02,539
+It's like, you know, they were
+you just in the past working with
+
+776
+00:40:02,539 --> 00:40:05,418
+problems, know, they're not like
+bad developers. It's just they're
+
+777
+00:40:05,418 --> 00:40:07,878
+working on deadlines, they're
+working on the context is
+
+778
+00:40:07,878 --> 00:40:10,639
+different and so like, I think
+knowing that having empathy for
+
+779
+00:40:10,639 --> 00:40:13,938
+those original sort of the
+ancestors of the code base is
+
+780
+00:40:13,938 --> 00:40:16,954
+sort of like important. And just,
+that's kind of something you get
+
+781
+00:40:16,954 --> 00:40:20,014
+from a decision record that you
+wouldn't get from, you know, like
+
+782
+00:40:20,793 --> 00:40:24,123
+explanation of what, how things
+are. And also it kind of, it
+
+783
+00:40:24,123 --> 00:40:26,793
+shows sort of alternate solutions
+that you might consider in the
+
+784
+00:40:26,793 --> 00:40:29,344
+future. The decision record. If
+you, if you look at the, the,
+
+785
+00:40:29,344 --> 00:40:32,554
+the, you know, the way they're
+written, it sometimes talks about
+
+786
+00:40:32,554 --> 00:40:34,833
+alternate paths that could have
+been taken in the decision that
+
+787
+00:40:34,833 --> 00:40:37,143
+was made, and that could be
+useful in the future. You might
+
+788
+00:40:37,143 --> 00:40:38,974
+say, Oh, you know, that's
+actually a way we could go with
+
+789
+00:40:38,974 --> 00:40:42,588
+this based on the current
+context. Let's go refactor. And
+
+790
+00:40:42,588 --> 00:40:46,128
+it's also in the code. There's
+context, you know, it's like, um,
+
+791
+00:40:46,188 --> 00:40:49,278
+and I think documentation and
+code is really the way to go, um,
+
+792
+00:40:49,369 --> 00:40:52,309
+for all things. Cuz I think it's
+like when you separate it from
+
+793
+00:40:52,309 --> 00:40:55,789
+the code, you lose the context
+of, um, you lose context. And I
+
+794
+00:40:55,789 --> 00:40:58,548
+think that's important to
+understanding how things work.
+
+795
+00:40:58,548 --> 00:41:01,219
+But yeah, that's kind of my
+thinking again, counterintuitive
+
+796
+00:41:01,224 --> 00:41:03,708
+solutions. It's like, try
+something different. There's a
+
+797
+00:41:03,708 --> 00:41:05,898
+thing called like o bleak
+strategies where it's like, it's
+
+798
+00:41:05,898 --> 00:41:08,568
+like you just have a card, you
+pull it out and it says like,
+
+799
+00:41:09,188 --> 00:41:12,429
+Dance around in a circle and like
+that's how you like cultivate
+
+800
+00:41:12,429 --> 00:41:15,639
+your creativity. I think like
+thinking differently and trying
+
+801
+00:41:15,639 --> 00:41:18,338
+different things than you would
+normally do or are normally done
+
+802
+00:41:18,338 --> 00:41:21,248
+in the industry is sort of an if,
+even if it doesn't work, it tells
+
+803
+00:41:21,248 --> 00:41:23,438
+you something about how it might
+work. You know, it's an
+
+804
+00:41:23,438 --> 00:41:26,438
+experiment that you're testing
+hypothesis and maybe it doesn't
+
+805
+00:41:26,438 --> 00:41:29,228
+work, but like you learn
+something new in the process. So
+
+806
+00:41:30,159 --> 00:41:32,228
+I was a dog Yeah, that's what I,
+that's what I think.
+
+807
+00:41:33,639 --> 00:41:36,878
+Dan: I love that I, this
+architectural decision records,
+
+808
+00:41:36,938 --> 00:41:41,048
+um, I was just looking it up. Uh,
+I found a couple, I kind of found
+
+809
+00:41:41,048 --> 00:41:41,829
+a couple blog
+
+810
+00:41:41,978 --> 00:41:43,989
+Ryan: It's like adr GitHub dot. I
+owe
+
+811
+00:41:44,228 --> 00:41:46,298
+Dan: that's what I, Yeah, that's,
+that's what I'm on right now. Um,
+
+812
+00:41:46,659 --> 00:41:49,509
+and I, I like that concept a lot.
+I like to, you know, it's, it
+
+813
+00:41:49,509 --> 00:41:52,719
+becomes, and I, you know, I have,
+I have spoken about this before,
+
+814
+00:41:52,719 --> 00:41:56,739
+but I have ADHD too, right? And
+it's like, um, the, the idea of
+
+815
+00:41:56,739 --> 00:42:00,443
+like, Oh, okay, I need docs.
+Right. This is like the thing
+
+816
+00:42:00,443 --> 00:42:02,244
+that pops in my head, right?
+Like, there's nothing here. I
+
+817
+00:42:02,244 --> 00:42:05,903
+need docs. But then like what are
+like, it's just such a huge thing
+
+818
+00:42:05,963 --> 00:42:08,934
+to try to Like you said, it's
+like writing a book almost, and
+
+819
+00:42:08,934 --> 00:42:10,673
+you know that like, I mean, and
+then when you start thinking
+
+820
+00:42:10,673 --> 00:42:13,463
+about it, you know it's going to
+be out of date immediately and oh
+
+821
+00:42:13,469 --> 00:42:16,943
+my gosh. So now it's like huge
+chunk of work to begin with. And
+
+822
+00:42:16,943 --> 00:42:21,054
+then also huge annoying chunk of
+works, like chunks of work, uh,
+
+823
+00:42:21,114 --> 00:42:23,813
+to keep it up to date. And it
+just seems impossible in my head
+
+824
+00:42:23,813 --> 00:42:24,594
+sometimes, you know?
+
+825
+00:42:24,818 --> 00:42:26,829
+Ryan: Well, you know, when I
+worked at Dropbox, just to be the
+
+826
+00:42:26,829 --> 00:42:31,958
+things wild, we had librarians,
+technical librarians who li I
+
+827
+00:42:31,958 --> 00:42:32,469
+mean literal
+
+828
+00:42:32,574 --> 00:42:32,934
+Dan: like that
+
+829
+00:42:33,028 --> 00:42:36,748
+Bekah: I wanna be a technical
+librarian. didn't know that was a
+
+830
+00:42:36,748 --> 00:42:37,259
+thing.
+
+831
+00:42:38,048 --> 00:42:39,159
+Ryan: can connect if you want.
+
+832
+00:42:39,384 --> 00:42:42,173
+Dan: uh, that sounds awesome. I
+mean, like, that's the kind of
+
+833
+00:42:42,173 --> 00:42:45,983
+thing you, you the, once your
+company grows in size, like, you
+
+834
+00:42:45,983 --> 00:42:48,023
+know, you can start having people
+that have jobs of, you know,
+
+835
+00:42:48,023 --> 00:42:50,873
+specific jobs. Right. And smaller
+teams, you have to do everything
+
+836
+00:42:50,903 --> 00:42:54,983
+right. Um, and that's, that's a
+very cool I wonder
+
+837
+00:42:55,179 --> 00:42:56,139
+Ryan: you get, that's a big
+
+838
+00:42:56,244 --> 00:42:59,648
+Dan: if there's like a
+consulting. Technical librarians
+
+839
+00:42:59,648 --> 00:43:00,699
+that can consult
+
+840
+00:43:01,119 --> 00:43:02,199
+Ryan: Well, there are technical
+writer
+
+841
+00:43:02,318 --> 00:43:03,429
+Bekah: what I wanna do. I wanna
+
+842
+00:43:03,608 --> 00:43:04,478
+Dan: Yeah. I mean like
+
+843
+00:43:04,778 --> 00:43:05,289
+Bekah: librarian.
+
+844
+00:43:05,349 --> 00:43:06,338
+Dan: Right, right, right. So,
+
+845
+00:43:06,639 --> 00:43:08,768
+Bekah: you put the books back in
+the right order,
+
+846
+00:43:09,699 --> 00:43:10,539
+Dan: Yeah, because like,
+
+847
+00:43:10,719 --> 00:43:11,619
+Bekah: miscategorized.
+
+848
+00:43:12,338 --> 00:43:14,259
+Dan: Right. And then keeping it
+up to date, like if you have
+
+849
+00:43:14,264 --> 00:43:17,048
+somebody that is not a full-time
+employee, Right. But somebody
+
+850
+00:43:17,054 --> 00:43:21,969
+who's like, all right, the first,
+uh, run through would be. big
+
+851
+00:43:21,969 --> 00:43:24,009
+project. Right. But like after
+that, it's like maintenance
+
+852
+00:43:24,009 --> 00:43:26,679
+stuff. Maybe a couple hours,
+whatever, a week or a month, you
+
+853
+00:43:26,679 --> 00:43:29,498
+know, whatever it is. But like
+that man. Alright. I have to
+
+854
+00:43:29,498 --> 00:43:29,918
+think this.
+
+855
+00:43:30,054 --> 00:43:33,023
+Ryan: No, I, I agree. It's, it's,
+uh, it's a, it's a huge task and
+
+856
+00:43:33,023 --> 00:43:36,833
+so like having specialized people
+is really valuable, but, you
+
+857
+00:43:36,833 --> 00:43:38,483
+know, also, but they're, they
+don't necessarily have the
+
+858
+00:43:38,483 --> 00:43:41,664
+context, so they're just sort of,
+Organizing, making sure things
+
+859
+00:43:41,664 --> 00:43:44,514
+are formatted correctly, making
+sure things are linked correctly.
+
+860
+00:43:44,844 --> 00:43:47,153
+But you know, the knowledge has
+to come sort of ultimately from
+
+861
+00:43:47,153 --> 00:43:49,344
+the people who are on the you
+know?
+
+862
+00:43:49,494 --> 00:43:53,063
+Dan: But, but if somebody's like,
+and that this is like, you know,
+
+863
+00:43:53,063 --> 00:43:55,583
+speaking of something that I've
+done that is not well documented,
+
+864
+00:43:55,583 --> 00:43:58,253
+whatever, but somebody asks me a
+question about it, then I'm like,
+
+865
+00:43:58,463 --> 00:44:00,684
+can talk about it for a while.
+You know what I mean? But then,
+
+866
+00:44:01,224 --> 00:44:03,563
+and you mentioned like, like
+those async, you know, learning
+
+867
+00:44:03,563 --> 00:44:05,364
+channels and stuff like that.
+That's this kind of thing. And
+
+868
+00:44:05,364 --> 00:44:08,543
+then, but then it gets buried in
+a slack, you know, thread
+
+869
+00:44:08,548 --> 00:44:12,083
+somewhere and disappears cuz
+don't pay for slack you know, and
+
+870
+00:44:12,083 --> 00:44:15,653
+all that stuff. Right? And so,
+um, Man, I, I like the idea of
+
+871
+00:44:15,653 --> 00:44:18,173
+having somebody, an outside
+person plus like, if you see
+
+872
+00:44:18,173 --> 00:44:20,873
+somebody do, I'm sorry I'm
+talking about this so much, but
+
+873
+00:44:20,873 --> 00:44:24,204
+I'm excited about it now, But if
+you, if like, if me as, as like
+
+874
+00:44:24,204 --> 00:44:26,693
+the whatever lead developer on a
+project and you have an outside
+
+875
+00:44:26,693 --> 00:44:30,233
+person that comes and gets
+something going or adds an
+
+876
+00:44:30,233 --> 00:44:32,574
+addition, you'll be able to like,
+I would be able to like see if
+
+877
+00:44:32,574 --> 00:44:35,003
+it's wrong or needs some like,
+not wrong, but, you know, need
+
+878
+00:44:35,003 --> 00:44:38,034
+some like tweaks or whatever. And
+that's an easier job than,
+
+879
+00:44:38,889 --> 00:44:39,878
+Ryan: Well, there's a value
+
+880
+00:44:39,893 --> 00:44:41,634
+Dan: the, starting from the
+beginning. Right.
+
+881
+00:44:41,858 --> 00:44:44,168
+Ryan: It's a value to an external
+perspective. That's what I always
+
+882
+00:44:44,168 --> 00:44:47,978
+say about myself is like, you
+know, you've tried things, you
+
+883
+00:44:47,978 --> 00:44:51,548
+have a context about how things
+work. I can come in as with an
+
+884
+00:44:51,548 --> 00:44:54,458
+external perspective and provide
+additional value that you
+
+885
+00:44:54,458 --> 00:44:57,608
+otherwise wouldn't get. You know,
+it's kind of like, uh, I'm trying
+
+886
+00:44:57,608 --> 00:45:00,159
+to think of an explanation. It's
+cross pollination, you know what
+
+887
+00:45:00,159 --> 00:45:04,119
+I mean? It's like you're getting
+sort of information or genetic
+
+888
+00:45:04,119 --> 00:45:07,748
+information from an external
+source, and that creates a. Sort
+
+889
+00:45:07,748 --> 00:45:10,809
+of, you know, better result if
+you just kind of like, I don't
+
+890
+00:45:10,809 --> 00:45:13,389
+wanna get into like genetics, but
+it's like, you know, you don't
+
+891
+00:45:13,389 --> 00:45:16,208
+wanna just breed the same genes
+over and over again. It creates
+
+892
+00:45:16,208 --> 00:45:19,539
+sort of problems. And so it's
+like you need that external
+
+893
+00:45:19,748 --> 00:45:22,208
+information, external
+perspective. And, you know, I
+
+894
+00:45:22,208 --> 00:45:24,099
+think every company needs that.
+And that's kind of what you get
+
+895
+00:45:24,099 --> 00:45:26,949
+when you hire people, right?
+You're hiring someone, they come
+
+896
+00:45:26,949 --> 00:45:30,309
+in with their own sort of
+knowledge and abilities and, uh,
+
+897
+00:45:30,608 --> 00:45:32,708
+but you know, if you can just,
+you can also hire a consultant,
+
+898
+00:45:32,768 --> 00:45:35,228
+you know, and, and they can
+provide the same sort of thing on
+
+899
+00:45:35,228 --> 00:45:38,994
+a more temporary sort. Basis and
+less, you know, ultimately less
+
+900
+00:45:38,994 --> 00:45:42,114
+cost. Right. You know, than
+hiring somebody. But, uh, over,
+
+901
+00:45:42,114 --> 00:45:44,364
+over, you know, if they come in
+for three months and you cost
+
+902
+00:45:44,364 --> 00:45:47,844
+this much, hiring someone for a
+year and maybe not having them do
+
+903
+00:45:47,849 --> 00:45:50,273
+the same work is, you know, a
+different, different calculus.
+
+904
+00:45:50,273 --> 00:45:52,583
+But yeah, external perspectives
+very valuable.
+
+905
+00:45:54,909 --> 00:45:58,764
+Dan: I love that. You've given me
+a lot to think about I mean,
+
+906
+00:45:59,094 --> 00:46:01,284
+I'll, I'll Every time we, every
+time
+
+907
+00:46:01,373 --> 00:46:02,693
+Ryan: have talk about it some
+more. Yeah.
+
+908
+00:46:03,054 --> 00:46:05,724
+Dan: Yeah. I always, I always end
+up coming away with a, with a lot
+
+909
+00:46:05,724 --> 00:46:06,954
+of stuff to think about all of.
+
+910
+00:46:07,764 --> 00:46:09,563
+Ryan: Yeah. Well, that's the
+point, right? Is like, that's
+
+911
+00:46:09,563 --> 00:46:12,804
+the, I have the external
+perspective and you're learning
+
+912
+00:46:12,804 --> 00:46:17,273
+from it, and I'm learning from
+yours. That's sort of the, the
+
+913
+00:46:17,278 --> 00:46:21,384
+ultimate idea, right? Is like we
+learn from each other. That's why
+
+914
+00:46:21,384 --> 00:46:24,534
+we have conversations. It's not
+to like, I'm not like telling you
+
+915
+00:46:24,534 --> 00:46:25,523
+stuff. I wanna listen you.
+
+916
+00:46:27,833 --> 00:46:32,784
+Bekah: that's so important. Um,
+that idea of listening, cuz it's
+
+917
+00:46:33,083 --> 00:46:38,364
+hard to do and so much of the
+time we spend listening to
+
+918
+00:46:38,364 --> 00:46:42,599
+respond to other people rather
+than. Just listening to
+
+919
+00:46:42,599 --> 00:46:47,248
+understand people, and I think
+that's, it's a hard thing to do,
+
+920
+00:46:47,248 --> 00:46:53,039
+but it's a good habit to work on
+in, in any situation, but
+
+921
+00:46:53,039 --> 00:46:57,539
+especially if you're on a team of
+diverse people or I, I think too,
+
+922
+00:46:57,653 --> 00:47:01,244
+Ryan: Well, hopefully you are
+Yeah. I think that listening it
+
+923
+00:47:01,273 --> 00:47:04,393
+requires empathy, right? But it,
+it's more than that. I think it,
+
+924
+00:47:04,423 --> 00:47:06,673
+because empathy comes from
+letting go of yourself.
+
+925
+00:47:06,778 --> 00:47:07,389
+Bekah: mm-hmm.
+
+926
+00:47:07,574 --> 00:47:09,463
+Ryan: If you come into a
+listening situation without
+
+927
+00:47:09,463 --> 00:47:12,554
+compassion, which is literally
+just like not putting yourself in
+
+928
+00:47:12,554 --> 00:47:14,503
+the other person's shoes, but
+just not even, just not even
+
+929
+00:47:14,503 --> 00:47:17,293
+really imagining, you know what I
+mean? You just kind of let go of
+
+930
+00:47:17,293 --> 00:47:21,434
+your own preconceived notions and
+listen to the person, and then
+
+931
+00:47:21,434 --> 00:47:23,764
+when they're done, you come out
+of it and try to integrate it.
+
+932
+00:47:24,108 --> 00:47:26,059
+Then you can come up with some
+advice. But if you're sitting
+
+933
+00:47:26,059 --> 00:47:28,369
+there in your head sort of
+calculating like, Oh, this is my
+
+934
+00:47:28,369 --> 00:47:31,338
+answer. This is my answer, this
+is how I think about it, this is
+
+935
+00:47:31,338 --> 00:47:34,639
+how you know. Then you're not
+really listening. You're like, I
+
+936
+00:47:34,639 --> 00:47:36,289
+don't know what it is, but you're
+not listening. You know?
+
+937
+00:47:36,289 --> 00:47:40,248
+Listening is really like letting
+go of yourself for a moment
+
+938
+00:47:40,639 --> 00:47:43,818
+completely as much as possible,
+and just being present with the
+
+939
+00:47:43,978 --> 00:47:46,664
+other person. And really like
+trying to, That's how empathy
+
+940
+00:47:46,664 --> 00:47:49,603
+comes, is not from like relating
+it to your experience, your own
+
+941
+00:47:49,603 --> 00:47:53,653
+sort of hurts and desires and you
+know, suffering or whatever you
+
+942
+00:47:53,653 --> 00:47:56,264
+wanna put it, you know, in the
+Buddhist sense I would say. But
+
+943
+00:47:56,268 --> 00:47:59,114
+yeah, you know, it's really just
+kind of listening and being there
+
+944
+00:47:59,114 --> 00:48:02,264
+for the other person and then
+after they're done you come back
+
+945
+00:48:02,264 --> 00:48:05,023
+and you go, wow, you know, I
+really learn from that
+
+946
+00:48:05,023 --> 00:48:07,784
+perspective, you know, cuz it's
+ultimately listening is learning,
+
+947
+00:48:07,784 --> 00:48:10,664
+right? And the way you learn is
+not by, is by integrating, but
+
+948
+00:48:10,664 --> 00:48:14,309
+first sort of, you know,
+transporting yourself to. Another
+
+949
+00:48:14,309 --> 00:48:15,809
+way of being, another
+perspective.
+
+950
+00:48:17,804 --> 00:48:21,014
+Bekah: Yeah. I love that. Well,
+Ryan, it's about time for us to
+
+951
+00:48:21,014 --> 00:48:26,653
+wrap up. Is there one tip that
+you can leave our listeners with
+
+952
+00:48:26,653 --> 00:48:31,603
+to help them get started and this
+idea of build. Better teams
+
+953
+00:48:31,603 --> 00:48:34,543
+through, um, empathy and
+listening.
+
+954
+00:48:35,969 --> 00:48:40,574
+Ryan: Wow. That's a good
+question. Um, I think it's being,
+
+955
+00:48:40,574 --> 00:48:43,273
+you know, compassion is very
+important. There's a big push
+
+956
+00:48:43,273 --> 00:48:46,873
+these days for compassionate
+coding, for compassionate teams.
+
+957
+00:48:47,353 --> 00:48:49,903
+And you know, I've been on some
+teams as well that just don't,
+
+958
+00:48:49,963 --> 00:48:53,474
+there's some lack of disconnected
+compassion, you know, And so
+
+959
+00:48:53,474 --> 00:48:57,014
+being gentle with each other,
+being empathetic, as you said, is
+
+960
+00:48:57,014 --> 00:49:03,119
+such an important skill and such
+an important you. Component of
+
+961
+00:49:03,119 --> 00:49:06,599
+being a team. That listing aspect
+of really kind of letting go of
+
+962
+00:49:06,599 --> 00:49:10,378
+yourself and connecting with
+another person is, you know, and
+
+963
+00:49:10,378 --> 00:49:12,809
+then, and then sharing knowledge,
+you know, is like, that's, that's
+
+964
+00:49:12,813 --> 00:49:15,208
+the, the basis of sharing
+knowledge is connecting with the
+
+965
+00:49:15,208 --> 00:49:18,148
+other person's experience. You're
+just talking at them and saying,
+
+966
+00:49:18,153 --> 00:49:21,539
+Read the docs. You know, like
+that's not how you connect with a
+
+967
+00:49:21,539 --> 00:49:24,568
+person and connect because
+ultimately knowledge, as I said,
+
+968
+00:49:24,568 --> 00:49:28,523
+is like about connecting. Some
+sort of theory to your personal
+
+969
+00:49:28,523 --> 00:49:31,554
+experience. You know, that's how
+you transfer knowledge is, I tell
+
+970
+00:49:31,554 --> 00:49:34,798
+you, this is my experience. Or
+you tell me first. I think you
+
+971
+00:49:34,798 --> 00:49:37,648
+have to ask questions first. You
+know, ask questions first and
+
+972
+00:49:37,648 --> 00:49:40,559
+listen, and you say, This is my
+experience. Then I go, Oh, you
+
+973
+00:49:40,559 --> 00:49:43,228
+know, based on what I think, this
+is how I might connect with what
+
+974
+00:49:43,233 --> 00:49:45,659
+you said, This is how I might
+connect with you as a person.
+
+975
+00:49:46,139 --> 00:49:48,239
+See, I don't know if that makes
+sense to your question, but
+
+976
+00:49:48,239 --> 00:49:50,398
+that's what I would say is being
+gentle, being compassionate
+
+977
+00:49:50,403 --> 00:49:54,708
+first. Not trying to just kind of
+grind people, you know, cuz
+
+978
+00:49:54,708 --> 00:49:57,739
+that's really how you lose your
+team. It's how you lose kind of
+
+979
+00:49:57,739 --> 00:50:00,259
+the knowledge that people have
+when they leave is you burn them
+
+980
+00:50:00,259 --> 00:50:02,509
+out and you're not being
+compassionate. And I think it's
+
+981
+00:50:02,509 --> 00:50:05,478
+so tough on a corporate level to
+be compassionate cuz there's the
+
+982
+00:50:05,483 --> 00:50:08,418
+profit, motive, and business
+needs and all this stuff. But if
+
+983
+00:50:08,418 --> 00:50:11,059
+you can really kind of let that
+go and say, Look, we're gonna
+
+984
+00:50:11,059 --> 00:50:13,909
+care about our people first, that
+will reap the rewards you.
+
+985
+00:50:14,173 --> 00:50:17,054
+That'll reap the rewards more
+than like, you know, burning
+
+986
+00:50:17,054 --> 00:50:19,244
+people out for a business end,
+you know what I mean? Like,
+
+987
+00:50:19,244 --> 00:50:22,423
+there's more to life. You're a
+person too. The CEO's a person,
+
+988
+00:50:22,423 --> 00:50:24,164
+you know, they don't want to,
+they wanna go golfing or
+
+989
+00:50:24,164 --> 00:50:26,623
+whatever. They don't wanna like,
+you know, just be burning
+
+990
+00:50:26,623 --> 00:50:30,193
+themselves out and, you know, to
+like, to, to, to make money. I
+
+991
+00:50:30,193 --> 00:50:33,614
+think ultimately maybe they do,
+but that's sort of my opinion, is
+
+992
+00:50:33,614 --> 00:50:36,253
+like, you wanna build a great
+team, be compassionate and play
+
+993
+00:50:36,253 --> 00:50:38,474
+golf, I guess, you know, let them
+play golf. I don't know whether
+
+994
+00:50:38,474 --> 00:50:41,934
+they were, they. I play disc
+golf, but, you know, let people
+
+995
+00:50:41,934 --> 00:50:44,213
+be themselves. And I think
+that's, you also have to accept
+
+996
+00:50:44,213 --> 00:50:46,974
+that people don't work the same
+hours, People don't have the same
+
+997
+00:50:46,974 --> 00:50:49,103
+accommodations. Like that's
+where, that's where compassion
+
+998
+00:50:49,103 --> 00:50:52,074
+comes in is like understanding
+the diversity of people and
+
+999
+00:50:52,074 --> 00:50:54,443
+trying to make them productive
+and not trying to put them on a
+
+1000
+00:50:54,443 --> 00:50:57,773
+clock. And like, like where, you
+know, in the Henry Ford factory,
+
+1001
+00:50:58,193 --> 00:51:00,563
+um, it's creative work. You
+really need to kind of disconnect
+
+1002
+00:51:00,563 --> 00:51:04,074
+from that idea of like, you know,
+hours and time and productivity.
+
+1003
+00:51:06,409 --> 00:51:09,384
+Bekah: was a great way to end the
+episode. Thank you so much, Ryan.
+
+1004
+00:51:10,358 --> 00:51:11,188
+Dan: Thanks, Ryan. Thanks for.
+
+1005
+00:51:11,994 --> 00:51:13,733
+Ryan: Of course. It's so
+wonderful to talk to you both the
+
+1006
+00:51:13,733 --> 00:51:16,704
+two people I really respect and
+have great connection with and
+
+1007
+00:51:16,704 --> 00:51:19,313
+it's so nice to be able to spend
+time with you and you know, I
+
+1008
+00:51:19,318 --> 00:51:21,713
+guess record it, but just to
+spend you is really
+
+1009
+00:51:21,728 --> 00:51:22,148
+Bekah: Yeah.
+
+1010
+00:51:22,628 --> 00:51:25,478
+Dan: Yeah, Agreed. All right. Um,
+yeah, we'll talk to you later.
+
+1011
+00:51:25,778 --> 00:51:26,349
+Bekah: Thank you
+
+1012
+00:51:26,423 --> 00:51:27,264
+Ryan: Oh, you talk to me now,
+
+1013
+00:51:29,139 --> 00:51:30,159
+Dan: and also later,
+
+1014
+00:51:30,713 --> 00:51:32,454
+Ryan: and also later. Yeah. Love
+you
+
+1015
+00:51:32,739 --> 00:51:39,137
+Dan: right. Bye Ryan. Thank you
+for listening to this episode of
+
+1016
+00:51:39,137 --> 00:51:42,893
+the Virtual Coffee Podcast. This
+episode was produced by Dan Ott
+
+1017
+00:51:42,943 --> 00:51:45,873
+and Bekah Hawrot Weigel. If you
+have questions or comments you
+
+1018
+00:51:45,873 --> 00:51:49,123
+can hit us up on Twitter at
+VirtualCoffeeIO, or email us at
+
+1019
+00:51:49,123 --> 00:51:52,592
+podcast@virtualcoffee.io. You can
+find the show notes, sign up for
+
+1020
+00:51:52,592 --> 00:51:54,632
+the newsletter, check out any of
+our other resources on our
+
+1021
+00:51:54,632 --> 00:51:58,023
+website VirtualCoffee.io. If
+you're interested in sponsoring
+
+1022
+00:51:58,023 --> 00:52:00,422
+virtual coffee you can find out
+more information on our website
+
+1023
+00:52:00,693 --> 00:52:05,132
+at VirtualCoffee.io/sponsorship.
+Please subscribe to our podcast
+
+1024
+00:52:05,163 --> 00:52:08,373
+and be sure to leave us a review.
+Thanks for listening and we'll
+
+1025
+00:52:08,373 --> 00:52:09,213
+see you next week!
