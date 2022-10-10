@@ -18,8 +18,8 @@ We want to improve every episode's transcription so they can be accessible to ev
 - Open the file of the podcast's episode. 
   e.g.: `1_0.srt` means season 1 episode 0
 -  Listen to the podcast's episode and improve the transcript based on your hearing.
--  [Fix the format](https://github.com/Virtual-Coffee/podcast-transcripts#fixing-formatting-issues) by running `yarn srt-check`.
-- After running `yarn srt-check`, fix timestamps suggestions format manually, if any.
+-  [Fix the format](https://github.com/Virtual-Coffee/podcast-transcripts#fixing-formatting-issues) by running `yarn check-srt`.
+- After running `yarn check-srt`, fix timestamps suggestions format manually, if any.
 
 ## Accessibility Resources
 
