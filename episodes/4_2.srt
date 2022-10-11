@@ -1,4268 +1,4180 @@
 1
-00:00:05,203 --> 00:00:07,213
-Bekah Hawrot Weigel: Hello, and
-welcome to Season 4, Episode 2
+00:00:05,203 --> 00:00:09,223
+Bekah: Hello, and welcome to
+season four, episode two of the
 
 2
-00:00:07,213 --> 00:00:09,223
-two of the
-
-3
 00:00:09,223 --> 00:00:11,342
 Virtual Coffee Podcast. I'm
 Bekah. And this is a podcast
 
-4
+3
 00:00:11,342 --> 00:00:13,461
 that
 
-5
+4
 00:00:13,461 --> 00:00:17,452
 features members of the Virtual
 Coffee community. Virtual Coffee
 
-6
+5
 00:00:17,452 --> 00:00:18,876
 is an intimate group of
 developers at all stages of
 
-7
+6
 00:00:18,876 --> 00:00:20,300
 their
 
-8
+7
 00:00:20,301 --> 00:00:23,271
 coding journey. And they're here
 on this podcast, sharing their
 
-9
+8
 00:00:23,271 --> 00:00:24,891
 stories and what they've
 learned. And we're here to share
 
-10
+9
 00:00:24,891 --> 00:00:26,511
 it with
 
-11
+10
 00:00:26,512 --> 00:00:29,692
 you here with me. Today is my
 cohost Dan.
 
+11
+00:00:30,754 --> 00:00:34,325
+Dan: Thanks Bekah. Today we're
+joined by Todd Libby. Todd is a
+
 12
-00:00:30,754 --> 00:00:32,539
-Dan Ott: Thanks Bekah. Today
-we're joined by Todd Libby. Todd
-
-13
-00:00:32,539 --> 00:00:34,324
-is a
-
-14
 00:00:34,325 --> 00:00:37,804
 web developer designer and
 accessibility advocate. And he's
 
-15
+13
 00:00:37,984 --> 00:00:41,104
 been doing it for over 20 years.
 He's currently an accessibility
 
-16
+14
 00:00:41,104 --> 00:00:44,225
 engineer at WebstaurantStore.
 And he's also a member of the
 
-17
+15
 00:00:44,225 --> 00:00:46,624
-Worldwide Web Consortium. Also
+worldwide web consortium. Also
 known as W3C, doing work
 
-18
+16
 00:00:46,624 --> 00:00:49,023
 updating
 
-19
+17
 00:00:49,024 --> 00:00:53,104
 their web content accessibility
 guidelines. Todd also hosts a
 
-20
+18
 00:00:53,104 --> 00:00:55,804
-podcast called Front End
+podcast called the Front End
 Nerdery, so once you're done
 
-21
+19
 00:00:55,804 --> 00:00:58,125
 listening to this episode, head
 over there and give that one a
 
-22
+20
 00:00:58,145 --> 00:01:01,445
 listen. We had a great time
 talking with Todd and hearing
 
-23
+21
 00:01:01,445 --> 00:01:02,839
 about his long journey in tech,
 how and why he developed a
 
-24
+22
 00:01:02,839 --> 00:01:04,233
 career
 
-25
+23
 00:01:04,234 --> 00:01:07,685
 focusing on accessibility and
 shared with us about what
 
-26
+24
 00:01:07,775 --> 00:01:10,685
 accessibility means to him and
 what kinds of things all
 
-27
+25
 00:01:10,685 --> 00:01:12,814
 developers can do to ensure
 their work is accessible by
 
-28
+26
 00:01:12,814 --> 00:01:14,943
 everyone. I
 
-29
+27
 00:01:14,944 --> 00:01:15,905
 know you're going to enjoy it.
 
-30
+28
 00:01:24,066 --> 00:01:26,676
 Bekah: We start every episode of
 the podcast. Like we start every
 
-31
+29
 00:01:26,676 --> 00:01:30,605
 Virtual Coffee. We introduce
 ourselves with our name, where
 
-32
+30
 00:01:30,605 --> 00:01:32,700
 we're from, what we do and a
 random check-in question.
 
-33
+31
 00:01:32,700 --> 00:01:34,795
 Today's
 
-34
+32
 00:01:34,816 --> 00:01:40,215
 question is what famous artist,
 dead or alive, or you want to
 
-35
+33
 00:01:40,215 --> 00:01:45,813
 paint your portrait. We hope you
 enjoy this episode. name is
 
-36
+34
 00:01:45,813 --> 00:01:49,575
 Bekah. I am a front end
 developer from a small town in
 
-37
+35
 00:01:49,575 --> 00:01:53,337
 Ohio, and if
 
-38
+36
 00:01:53,399 --> 00:01:57,509
 I could have one person paint my
 portrait, I, when I was in
 
-39
+37
 00:01:57,599 --> 00:01:59,684
 college, Georgia, there was like
 big Georgia O'Keeffe paintings
 
-40
+38
 00:01:59,684 --> 00:02:01,769
 or
 
-41
+39
 00:02:02,489 --> 00:02:06,478
 replicas in the hallways of my
 department. And I always loved
 
-42
+40
 00:02:06,478 --> 00:02:09,143
-them. I know that's not what,
-she doesn't paint people, but I
+them. I know that's not what she
+doesn't paint people, but I
 
-43
+41
 00:02:09,143 --> 00:02:11,808
 think
 
-44
+42
 00:02:11,808 --> 00:02:16,038
 it would be cool to see how I
 would be represented by her. So
 
-45
+43
 00:02:16,188 --> 00:02:17,329
 I'm going to go with Georgia
-O'Keeffe.
+O'Keeffe
 
-46
+44
 00:02:19,144 --> 00:02:21,573
-Dan: Hi, I'm Dan I'm a front end
-developer in Cleveland,
+Dan: Um, hi, I'm Dan I'm a front
+end developer in Cleveland,
 
-47
+45
 00:02:21,573 --> 00:02:24,002
 Ohio,
 
-48
+46
 00:02:24,093 --> 00:02:27,693
-and, does it have to be famous
-person?
+and, um, does it have to be
+famous person?
 
-49
+47
 00:02:27,693 --> 00:02:28,463
 Bekah: Did I say famous?
 
-50
+48
 00:02:28,463 --> 00:02:29,403
 Dan: I, it said famous in the
 question.
 
-51
+49
 00:02:29,433 --> 00:02:30,968
 Bekah: I did. but now like just
 take it out.
 
-52
+50
 00:02:31,354 --> 00:02:33,393
-Dan: I mean, Kate, one of my
+Dan: I mean, uh, Kate, one of my
 good friends at Kate Brideau
 
-53
+51
 00:02:33,393 --> 00:02:35,432
 from
 
-54
+52
 00:02:35,433 --> 00:02:39,033
-college, I would say that would
-be the person. That'd
+college, um, I would say that
+would be the person. Um, that'd
 
-55
+53
 00:02:39,033 --> 00:02:42,213
 be famous. I don't, I don't
 really know a lot of famous
 
-56
-00:02:42,943 --> 00:02:43,623
-painter names. I mean, except
-for like the really famous ones,
+54
+00:02:42,943 --> 00:02:44,303
+names. I mean, except for like
+the really famous ones, you
 
-57
-00:02:43,623 --> 00:02:44,303
-you
-
-58
+55
 00:02:44,303 --> 00:02:45,663
 know,
 
-59
+56
 00:02:45,693 --> 00:02:50,503
 and that seems like a boring
-answer. Maybe have Raphael,
+answer. Um, maybe have Raphael,
 
-60
+57
 00:02:50,524 --> 00:02:52,743
-but not the, not the artist the
+but not the, not the artist that
 ninja turtle.
 
-61
+58
 00:02:53,614 --> 00:02:54,204
-Bekah: Or my son
+Bekah: Or my
 
-62
+59
 00:02:55,324 --> 00:02:58,644
 Dan: Yeah. Well it's well, sure.
 There's there's that too. Yeah.
 
-63
-00:02:58,683 --> 00:02:59,563
+60
+00:02:58,683 --> 00:03:00,443
 Any Raphael really? I'll take,
-take any version.
+uh, take any version. Sounds
 
-64
-00:02:59,563 --> 00:03:00,443
-Bekah: Sounds
-
-65
+61
 00:03:00,443 --> 00:03:02,203
 like
 
-66
+62
 00:03:02,204 --> 00:03:02,743
 a good choice.
 
-67
+63
 00:03:05,588 --> 00:03:09,818
-Todd Libby: And I'm Todd Libby.
-I am a front end developer and
+Todd: And I'm Todd Libby. I am a
+front end developer and
 
-68
+64
 00:03:09,818 --> 00:03:15,968
 accessibility engineer currently
 in Phoenix, Arizona. And I guess
 
-69
+65
 00:03:16,959 --> 00:03:25,429
 my artist would be, I dunno, he
 was really unique. So I guess I
 
-70
+66
 00:03:25,429 --> 00:03:27,868
 would say Salvador Dali.
 
-71
+67
 00:03:28,899 --> 00:03:29,519
 Bekah: That's cool.
 
-72
+68
 00:03:29,718 --> 00:03:30,258
 Dan: That'd be a good one.
 
-73
+69
 00:03:31,449 --> 00:03:32,853
-Bekah: There's anytime somebody
-is from Phoenix, I
+Bekah: There's um, anytime
+somebody is from Phoenix, I
 
-74
+70
 00:03:32,853 --> 00:03:34,257
 think
 
-75
+71
 00:03:34,258 --> 00:03:36,268
 of a short story that I read
-from Sherman Alexie. "This Is
+from Sherman Alexie. This is
 
-76
+72
 00:03:36,268 --> 00:03:38,278
-What It
+what it
 
-77
+73
 00:03:38,278 --> 00:03:41,998
-Means To Say Phoenix, Arizona."
+means to say Phoenix, Arizona.
 And I remember nothing about the
 
-78
+74
 00:03:41,998 --> 00:03:43,618
 short story except for the
 title. And it's just
 
-79
+75
 00:03:43,618 --> 00:03:45,238
 automatically,
 
-80
-00:03:45,239 --> 00:03:47,459
-that what comes into my mind. So
-if you haven't, read it, check
+76
+00:03:45,239 --> 00:03:49,679
+that's my mind. So if you
+haven't, read it, check it out
 
-81
-00:03:47,459 --> 00:03:49,679
-it out
-
-82
+77
 00:03:49,679 --> 00:03:51,179
 and then remind me what it was
 about.
 
-83
+78
 00:03:51,609 --> 00:03:55,028
 Todd: I haven't, but I will look
 that up. Definitely. I'm
 
-84
+79
 00:03:55,028 --> 00:03:58,688
 originally from Portland Maine.
 So of course everybody knows me
 
-85
+80
 00:03:58,688 --> 00:04:00,549
 because of the lobster roll
 thing. So.
 
-86
+81
 00:04:01,554 --> 00:04:05,514
 Bekah: Yes, Todd is all about
 the lobsters and in our Virtual
 
-87
+82
 00:04:05,514 --> 00:04:10,883
 Coffee Slack, he always uses the
 lobster emoji to respond to
 
-88
+83
 00:04:10,883 --> 00:04:12,608
 people. And so we just
 automatically recognize that
 
-89
+84
 00:04:12,608 --> 00:04:14,333
 it's
 
-90
+85
 00:04:14,334 --> 00:04:18,444
-Todd. So it's like he- he has
+Todd. So it's like he, he has
 claimed that emoji and it's one
 
-91
+86
 00:04:18,444 --> 00:04:19,553
 of the greatest things ever.
 
-92
+87
 00:04:20,303 --> 00:04:22,803
 Dan: It's really cool. And it's
 just like, you see the lobster
 
-93
+88
 00:04:22,803 --> 00:04:24,394
 emoji pop up. You're like, oh,
 cool. Todd's here.
 
-94
+89
 00:04:26,093 --> 00:04:28,255
-Bekah: I just think it's- it's
-funny, like when- when new
+Bekah: I just think it's it's
+funny, like when, when new
 
-95
+90
 00:04:28,255 --> 00:04:30,417
 people
 
-96
+91
 00:04:30,418 --> 00:04:33,538
 come into Virtual Coffee and
 then they also click the lobster
 
-97
+92
 00:04:33,538 --> 00:04:34,069
 emoji. So.
 
-98
+93
 00:04:34,069 --> 00:04:36,749
 Dan: I mean I always click it. I
 mean, I don't first, you know
 
-99
+94
 00:04:36,749 --> 00:04:37,963
-what I mean? But like, it's,
-it's like high fiving Todd,
+what I mean? But like, um, it's,
+it's like high five and Todd,
 
-100
+95
 00:04:37,963 --> 00:04:39,177
 you
 
-101
+96
 00:04:39,178 --> 00:04:43,559
 know, it's like celebrating the
 Toddness of it.
 
-102
+97
 00:04:44,363 --> 00:04:46,343
-Todd: the virtual-virtual high
+Todd: the virtual virtual high
 five,
 
-103
+98
 00:04:46,798 --> 00:04:47,459
 Dan: That's right.
 
-104
+99
 00:04:47,848 --> 00:04:48,983
 Bekah: Right. And it can be
 about all sorts of different
 
-105
+100
 00:04:48,983 --> 00:04:50,118
 things.
 
-106
+101
 00:04:50,119 --> 00:04:51,874
 Like somebody could post a
 question that they have, and
 
-107
+102
 00:04:51,874 --> 00:04:53,629
 then
 
-108
+103
 00:04:53,629 --> 00:04:56,869
 like, there's a lobster emoji.
 It's not about lobster. Although
 
-109
+104
 00:04:56,959 --> 00:04:59,059
 if I had a question about
 lobster, I would definitely ask
 
-110
+105
 00:04:59,059 --> 00:04:59,658
 Todd first.
 
-111
+106
 00:05:02,963 --> 00:05:04,494
 Todd: I've got a million no one
 answers.
 
-112
+107
 00:05:05,838 --> 00:05:08,048
 Bekah: I feel like that's a
 separate podcast episode.
 
-113
+108
 00:05:08,048 --> 00:05:08,168
 Todd: Yes.
 
-114
+109
 00:05:08,209 --> 00:05:09,189
 Dan: Does it have to be though?
 
-115
+110
 00:05:09,548 --> 00:05:13,968
 Bekah: Thank you so much for
 being here with us. Todd, we
 
-116
+111
 00:05:14,358 --> 00:05:18,559
 always like to start with the
 origin story. How did you get to
 
-117
+112
 00:05:18,588 --> 00:05:20,403
 where you are today? So if you.
 want to take us through that
 
-118
+113
 00:05:20,403 --> 00:05:22,218
 path
 
-119
+114
 00:05:22,309 --> 00:05:22,488
-would be awesome.
+would be.
 
-120
+115
 00:05:23,423 --> 00:05:27,173
 Todd: Yeah. Oh boy. That's a
-long one. I'll give you the
+long one. Um, I'll give you the
 
-121
+116
 00:05:27,173 --> 00:05:32,824
 abridged version. I'm nine years
 old. I started on a Commodore
 
-122
+117
 00:05:32,824 --> 00:05:38,463
-PET. In school and then
+PET. Um, in school and then
 gradually worked my way up to a
 
-123
-00:05:38,463 --> 00:05:40,848
+118
+00:05:38,463 --> 00:05:43,233
 Commodore 64, where I learned
-BASIC, a lot of different
+BASIC a lot of different flavors
 
-124
-00:05:40,848 --> 00:05:43,233
-flavors
-
-125
+119
 00:05:43,233 --> 00:05:50,343
-of BASIC, and was just, you
+of BASIC, um, and was just, you
 know, it was just a hobby of
 
-126
+120
 00:05:50,343 --> 00:05:55,803
-course at that point. But, what
-was it about 1999? I
+course at that point. But, um,
+what was it about 1999? Um, I
 
-127
+121
 00:05:55,803 --> 00:06:01,263
 had
 
-128
+122
 00:06:01,264 --> 00:06:09,139
 a. What was it? A 386 desktop,
 IBM computer. And I started to
 
-129
+123
 00:06:09,139 --> 00:06:12,153
 learn HTML and this was before
 CSS. So that is the indication
 
-130
+124
 00:06:12,153 --> 00:06:15,167
 of
 
-131
+125
 00:06:15,168 --> 00:06:23,178
 how old I am and JavaScript was
-just kicking around. I
+just kicking around. Um, I
 
-132
+126
 00:06:23,178 --> 00:06:25,323
 started learning how to design
 websites using Front Page
 
-133
+127
 00:06:25,323 --> 00:06:27,468
 Express
 
-134
+128
 00:06:27,499 --> 00:06:35,103
 in Internet Explorer, three and
 four. And just, it went from
 
-135
+129
 00:06:35,103 --> 00:06:44,733
-there. Programming was cool. I
-used to do, in BASIC on a
+there. Um, programming was cool.
+I used to do, um, in BASIC on a
 
-136
+130
 00:06:44,733 --> 00:06:49,564
 Commodore I would program. If
-anybody remembers those, "Choose
+anybody remembers those, choose
 
-137
-00:06:49,564 --> 00:06:50,786
-Your Own Adventure" books from
-way back in the day. I- I used
+131
+00:06:49,564 --> 00:06:52,009
+your own adventure books from
+way back in the day. I, I used
 
-138
-00:06:50,786 --> 00:06:52,008
-Dan: Oh yeah.
-
-139
+132
 00:06:52,009 --> 00:06:54,454
-Todd: To
+to
 
-140
+133
 00:06:54,454 --> 00:07:01,863
-program a text-based, Pretty
+program a text-based, uh, Pretty
 much copied and I hope no one's
 
-141
-00:07:01,863 --> 00:07:03,400
+134
+00:07:01,863 --> 00:07:04,938
 listening from that company,
-[laughter] but, I- I used
+but, um, I, I used to, just to
 
-142
-00:07:03,400 --> 00:07:04,937
-to, just to
-
-143
+135
 00:07:04,938 --> 00:07:08,013
 just
 
-144
+136
 00:07:08,014 --> 00:07:13,399
 practice, I would just. Code
 those books into a, into a
 
-145
+137
 00:07:13,399 --> 00:07:18,468
 text-based game on Commodore 64.
 And that's really what got me
 
-146
+138
 00:07:18,468 --> 00:07:22,249
 started because I was living in
-a very rural area in- in New
+a very rural area in, in New
 
-147
+139
 00:07:22,249 --> 00:07:28,009
-England. And, there wasn't much
-to do so except for
+England. And, uh, there wasn't
+much to do so except for
 
-148
+140
 00:07:28,038 --> 00:07:34,488
 programming at that point. So
 skip ahead to today, or when I
 
-149
+141
 00:07:34,488 --> 00:07:40,548
 started professionally and I was
-22 years ago. And I started,
+22 years ago. And I started, um,
 
-150
+142
 00:07:41,538 --> 00:07:44,689
-I read Jeffrey Zeldman's book,
-"Designing with Web Standards"
+I read Jeffrey Zeldman his book,
+Designing with Web Standards
 
-151
+143
 00:07:45,168 --> 00:07:49,788
 instantly got hooked into web
-standards, progressive
+standards, uh, progressive
 
-152
+144
 00:07:49,788 --> 00:07:52,038
 enhancement accessibility. And
 it just, you know, took off to
 
-153
+145
 00:07:52,038 --> 00:07:54,288
 the
 
-154
+146
 00:07:54,288 --> 00:07:59,449
 point where it is today, where
 I'm in the field that I enjoy
 
-155
+147
 00:07:59,478 --> 00:08:01,478
 being in, and that's
 accessibility.
 
-156
+148
 00:08:04,269 --> 00:08:07,298
 Dan: I think that's awesome. I,
-and I- I love that book too. And
+and I, I love that book too. And
 
-157
-00:08:08,499 --> 00:08:11,664
-Jeffery Zeldman I have been, so
-22 years ago is what, 99,
+149
+00:08:08,499 --> 00:08:14,829
+Zeldman I have been, um, so 22
+years ago what, 99, 2000
 
-158
-00:08:11,664 --> 00:08:14,829
-2000
-
-159
+150
 00:08:14,829 --> 00:08:19,478
 something like that, know? And I
 think I got into, I mean, I was
 
-160
+151
 00:08:19,478 --> 00:08:21,748
 starting to make something
 around then and really. Got a
 
-161
+152
 00:08:21,748 --> 00:08:24,018
 lot more
 
-162
+153
 00:08:24,019 --> 00:08:27,588
 into it a couple of years later.
-But was with the web
+Um, but was with the web
 
-163
+154
 00:08:27,588 --> 00:08:28,713
 standards, you know, movement
 and everything like that. And
 
-164
+155
 00:08:28,713 --> 00:08:29,838
 I've
 
-165
+156
 00:08:29,838 --> 00:08:31,953
-been, you know, and similarly
-front-end focused for
+been, uh, you know, and
+similarly front-end focused for
 
-166
+157
 00:08:31,953 --> 00:08:34,068
 a long
 
-167
+158
 00:08:34,068 --> 00:08:35,463
-time. And, one of us was just
-one of the reasons I was
+time. And, um, one of us was
+just one of the reasons I was
 
-168
+159
 00:08:35,463 --> 00:08:36,858
 very
 
-169
-00:08:36,859 --> 00:08:37,901
-excited to have you on this
-podcast and to kind of get to
+160
+00:08:36,859 --> 00:08:38,943
+excited to have you podcast and
+to kind of get to get to hang
 
-170
-00:08:37,901 --> 00:08:38,943
-get to hang
-
-171
+161
 00:08:38,943 --> 00:08:41,027
 out
 
-172
+162
 00:08:41,028 --> 00:08:42,288
-with a little bit more.
+with a little bit more. Um,
 
-173
+163
 00:08:42,318 --> 00:08:42,438
 Todd: Yeah.
 
-174
+164
 00:08:43,879 --> 00:08:49,428
-Dan: It's so, know, on front end
-and focusing on
+Dan: It's uh, so, know, on front
+end and focusing on
 
-175
+165
 00:08:49,428 --> 00:08:54,303
-accessibility, things like that.
-I mean, what career
+accessibility, um, things like
+that. I mean, what career
 
-176
+166
 00:08:54,303 --> 00:08:56,313
 opportunities has that like
 presented you from, you know,
 
-177
+167
 00:08:56,313 --> 00:08:59,073
 starting, you don't need to like
 list every single one or
 
-178
+168
 00:08:59,073 --> 00:09:01,433
-whatever, but like run- run us
+whatever, but like run, run us
 through a little bit of how
 
-179
-00:09:01,443 --> 00:09:02,665
-that's been being like, front
-end and especially
+169
+00:09:01,443 --> 00:09:03,888
+that's been being like, uh,
+front end and accessibility, you
 
-180
-00:09:02,665 --> 00:09:03,887
-accessibility, you
-
-181
+170
 00:09:03,888 --> 00:09:06,333
 know,
 
-182
+171
 00:09:06,364 --> 00:09:08,734
-a specialist, for whatever that
-means for you- You
+a specialist, um, for whatever
+that means for you. Uh, you
 
-183
+172
 00:09:08,734 --> 00:09:11,104
 know,
 
-184
+173
 00:09:11,124 --> 00:09:12,163
 run it through a little bit,
-like how that's been finding-
+like how that's been finding,
 
-185
+174
 00:09:12,163 --> 00:09:13,202
 finding
 
-186
+175
 00:09:13,744 --> 00:09:14,973
 work and finding people that
 care about that sort of thing.
 
-187
+176
+00:09:14,973 --> 00:09:16,202
+Um,
+
+177
 00:09:16,869 --> 00:09:18,564
 Bekah: Can I just jump into, if
 you can just provide some
 
-188
+178
 00:09:18,564 --> 00:09:20,259
 context
 
-189
+179
 00:09:20,259 --> 00:09:22,764
-for what- what does
+for what, what does
 accessibility mean and how does
 
-190
+180
 00:09:22,764 --> 00:09:25,269
 that work as
 
-191
+181
 00:09:25,269 --> 00:09:26,048
 part of a job?
 
-192
+182
 00:09:27,379 --> 00:09:30,244
-Todd: Okay. To address what it's
-accessibility mean,
+Todd: Okay. Um, to address what
+it's accessibility mean, uh,
 
-193
+183
 00:09:30,244 --> 00:09:33,109
 I'll
 
-194
+184
 00:09:33,109 --> 00:09:38,708
 address that first and that is
 making the web equal and
 
-195
+185
 00:09:38,708 --> 00:09:42,634
-accessible for everybody. It
+accessible for everybody. Um, it
 just doesn't have to be a
 
-196
+186
 00:09:42,634 --> 00:09:44,989
 disability. It can be, you know,
-somebody in, I'll use this
+somebody in I'll use this
 
-197
+187
 00:09:44,989 --> 00:09:47,344
 example
 
-198
+188
 00:09:47,673 --> 00:09:50,763
 in a very rural area who has a
-3G phone. And, you know, it's
+3g phone. And, you know, it's
 
-199
+189
 00:09:50,763 --> 00:09:53,853
 not a
 
-200
+190
 00:09:53,854 --> 00:09:57,484
 very fast connection is to, you
 know, what we have these days
 
-201
+191
 00:09:57,484 --> 00:10:04,714
 with our shiny new iPhones and
-stuff like that and then
+stuff like that. Um, and then
 
-202
+192
 00:10:04,714 --> 00:10:10,188
 accessibility. Somebody in
 accessibility would basically,
 
-203
+193
 00:10:10,278 --> 00:10:16,038
-not only advocate, but don't in
-my daily routine of doing
+um, not only advocate, but don't
+in my daily routine of doing
 
-204
+194
 00:10:16,068 --> 00:10:19,353
 auditing on websites. It's just
-checking to see if, Sites
+checking to see if, uh, Sites
 
-205
+195
 00:10:19,353 --> 00:10:22,638
 are
 
-206
+196
 00:10:22,639 --> 00:10:27,619
 accessible if they're, you know,
-if they should be failing,
+if they should be failing, um,
 
-207
+197
 00:10:27,918 --> 00:10:32,239
 web content, accessibility
 guidelines WCAG is how I
 
-208
+198
 00:10:32,298 --> 00:10:33,843
 pronounce it. There's many
 different pronunciations to
 
-209
+199
 00:10:33,843 --> 00:10:35,388
 that,
 
-210
+200
 00:10:35,389 --> 00:10:46,489
-but, the, you know, and you
-know, there's different,
+but, um, um, the, um, you know,
+and you know, there's different,
 
-211
+201
 00:10:46,489 --> 00:10:50,619
 I guess. Levels of how people
 will do an audit. Like, you
 
-212
+202
 00:10:50,619 --> 00:10:54,749
 know,
 
-213
+203
 00:10:55,558 --> 00:10:58,048
-you can do, you know, A and AA
+you can do, you know, a and AA
 as far as the levels. So there's
 
-214
+204
 00:10:58,048 --> 00:11:00,538
-A,
+a
 
-215
+205
 00:11:00,568 --> 00:11:06,058
-AA, and AAA, a lot of people I
+AA and AAA, a lot of people I
 find don't do AAA, because it's
 
-216
+206
 00:11:06,058 --> 00:11:08,593
 too stringent and it's also, you
 don't have to go that far in
 
-217
+207
 00:11:08,593 --> 00:11:11,128
 most
 
-218
+208
 00:11:11,129 --> 00:11:17,224
-cases. but. It's just auditing,
-making sure sites are
+cases. Um, but. It's just
+auditing, making sure sites are
 
-219
+209
 00:11:17,224 --> 00:11:22,984
-accessible in, creating a report
-for a client and then
+accessible in, um, creating a
+report for a client and then
 
-220
+210
 00:11:23,043 --> 00:11:25,098
 telling them here's what's
 wrong. Here's how you need to
 
-221
+211
 00:11:25,098 --> 00:11:27,153
 fix it.
 
-222
+212
 00:11:27,214 --> 00:11:32,553
 This doesn't, you know, adhere
-to the guidelines and,
+to the guidelines and, um,
 
-223
+213
 00:11:32,583 --> 00:11:37,803
 recommendations for best
-practices as well. And, You
+practices as well. And, um, You
 
-224
+214
 00:11:37,803 --> 00:11:40,953
 know, looking at code and, you
 know, always looking at HTML and
 
-225
+215
 00:11:40,953 --> 00:11:46,594
 CSS because CSS too has a strong
-effect on accessibility and,
+effect on accessibility and, uh,
 
-226
+216
 00:11:47,043 --> 00:11:51,464
-that's what the job entails. and
-Dan, what was your question?
+that's what the job entails. Um,
+and Dan, what was your question?
 
-227
+217
 00:11:52,369 --> 00:11:53,463
 Dan: Alright, I guess my
-question was, you know,
+question was, um, you know,
 
-228
+218
 00:11:53,463 --> 00:11:54,557
-it's- it's a
+it's, it's a
 
-229
+219
 00:11:54,558 --> 00:11:57,568
 sort of. I don't know if
 non-traditional is the right
 
-230
+220
 00:11:57,568 --> 00:12:01,019
 word, but, you know, being a
 specialist really in any regard,
 
-231
+221
 00:12:01,078 --> 00:12:03,163
-is- is a choice, you know, and
-can limit your
+um, is, uh, is a choice, you
+know, and can limit your
 
-232
+222
 00:12:03,163 --> 00:12:05,248
 options,
 
-233
+223
 00:12:05,249 --> 00:12:09,208
 but like also what you want to
-do. Right. and so I, my
+do. Right. Um, and so I, my
 
-234
+224
 00:12:09,208 --> 00:12:13,048
 question was more like, how has
-it been, on your career
+it been, uh, on your career
 
-235
+225
 00:12:13,048 --> 00:12:15,568
 journey? You know, being a
 specialist, especially in the
 
-236
+226
 00:12:15,568 --> 00:12:16,948
 accessibility world,
 
-237
+227
 00:12:17,803 --> 00:12:22,543
-Todd: Right. it's been a
+Todd: Right. Um, it's been a
 challenge lately in, I would say
 
-238
+228
 00:12:22,543 --> 00:12:30,793
 the past. Five, maybe 10 years.
-because not a lot of people,
+Um, because not a lot of people,
 
-239
+229
 00:12:30,793 --> 00:12:33,464
 not a lot of companies were
 looking for accessibility
 
-240
+230
 00:12:33,464 --> 00:12:39,764
-specialists. not until I've
+specialists. Um, not until I've
 pretty much noticed this year. A
 
-241
+231
 00:12:39,764 --> 00:12:43,333
 lot of companies are now looking
 for accessibility specialists
 
-242
+232
 00:12:43,333 --> 00:12:47,668
 because companies are getting
 sued. And they don't want to get
 
-243
+233
 00:12:47,668 --> 00:12:53,908
 sued. That's that's the bottom
 line. So my professional journey
 
-244
+234
 00:12:53,908 --> 00:13:00,239
-had been, I worked, I started, I
-did a website for
+had been, I worked, uh, I
+started, I did a website for
 
-245
+235
 00:13:00,239 --> 00:13:07,769
-somebody I knew back in, new
-England, Maine. And, it was
+somebody I knew back in, uh, new
+England, Maine. And, um, it was
 
-246
+236
 00:13:07,769 --> 00:13:10,288
-just a  site. And then from
+just a small. And then from
 there I got, you know, a few
 
-247
+237
 00:13:10,288 --> 00:13:12,807
 different
 
-248
+238
 00:13:13,019 --> 00:13:16,859
 jobs doing websites. And then
 from there I was like, well, you
 
-249
+239
 00:13:16,859 --> 00:13:18,794
 know, this thing's taken off.
 I'm going to do the I'm going to
 
-250
+240
 00:13:18,794 --> 00:13:20,729
 go
 
-251
+241
 00:13:20,739 --> 00:13:26,321
 the freelance route. So that's
 what I did. And. Up until 2015,
 
-252
+242
 00:13:26,321 --> 00:13:31,903
 I
 
-253
+243
 00:13:31,903 --> 00:13:36,644
-was a freelance, developer, I
-guess you could say I got into
+was a freelance, uh, developer,
+I guess you could say I got into
 
-254
+244
 00:13:36,644 --> 00:13:42,313
-WordPress, PHP development. And
-then, I was hired by a
+WordPress, uh, PHP development.
+And then, um, I was hired by a
 
-255
+245
 00:13:42,313 --> 00:13:51,403
 company to do their website and
-their SASS, their SASS,
+their SAS, um, their SAS, uh,
 
-256
+246
 00:13:52,663 --> 00:14:01,124
 site, I guess. It was a, a thing
 where you log in and it wasn't a
 
-257
+247
 00:14:01,124 --> 00:14:06,583
-public facing site. And, from
-there it would be- been
+public facing site. And, um,
+from there it would be been
 
-258
+248
 00:14:06,583 --> 00:14:12,042
 about, I
 
-259
+249
 00:14:12,043 --> 00:14:14,368
 don't know. I think I counted
 over 2000 resumes that I had
 
-260
+250
 00:14:14,368 --> 00:14:16,693
 sent
 
-261
+251
 00:14:16,693 --> 00:14:23,323
 out to companies in 20 years in.
 One company hired me. And that
 
-262
+252
 00:14:23,323 --> 00:14:28,994
 was that company that I worked
-for in 2015 to, just,
+for in 2015 to, uh, just, uh,
 
-263
+253
 00:14:29,024 --> 00:14:34,033
 last year as a matter of fact.
 And then finally somebody took a
 
-264
+254
 00:14:34,033 --> 00:14:36,823
 chance on me that would have
 been Nobility. I was hired by
 
-265
+255
 00:14:36,823 --> 00:14:43,903
-Nobility, in March and March or
-April. Geez, it's been over
+Nobility, uh, in March and March
+or April. Geez, it's been over
 
-266
+256
 00:14:43,903 --> 00:14:46,033
-six months, but,
+six months, but, um,
 
-267
+257
 00:14:46,889 --> 00:14:47,818
-Dan: What is time anyway?
+Dan: What is time anyway.
 
-268
-00:14:48,418 --> 00:14:49,888
+258
+00:14:48,418 --> 00:14:51,359
 Todd: well, I don't even know
-[laughter] anymore. I'm in a
+anymore. I'm in a different time
 
-269
-00:14:49,888 --> 00:14:51,358
-different time
-
-270
+259
 00:14:51,359 --> 00:14:57,928
 zone now, so that's messed me up
-too. but Nobility gave me
+too. Uh, but no ability gave me
 
-271
+260
 00:14:57,928 --> 00:15:02,458
 a, you know, an opportunity and
 very grateful for that
 
-272
+261
 00:15:02,458 --> 00:15:09,178
-opportunity with them and, a lot
-of great people in Nobility
+opportunity with them and, um, a
+lot of great people in Nobility
 
-273
+262
 00:15:09,208 --> 00:15:12,238
-that work for the company.
+that work for the company. Um,
 everybody is a matter of fact
 
-274
+263
 00:15:12,238 --> 00:15:15,268
 and
 
-275
+264
 00:15:15,298 --> 00:15:17,578
 they do some really good stuff
 as far as accessibility goes.
 
-276
+265
 00:15:17,578 --> 00:15:19,858
 And,
 
-277
+266
 00:15:19,918 --> 00:15:24,127
-as of October 1st, I will be, on
-the,
+um, as of October 1st, I will
+be, um, on the, uh,
 
-278
+267
 00:15:24,127 --> 00:15:28,336
 WebstaurantStore
 
-279
+268
 00:15:28,466 --> 00:15:32,677
 team as an accessibility
-engineer. So I look forward
+engineer. Uh, so I look forward
 
-280
-00:15:32,677 --> 00:15:34,000
+269
+00:15:32,677 --> 00:15:34,366
 to that. Yeah.
 
-281
-00:15:34,100 --> 00:15:34,366
-Dan: Honestly
-
-282
+270
 00:15:34,866 --> 00:15:37,506
 Bekah: Can you talk a little bit
 about what you'll be doing in
 
-283
+271
 00:15:37,506 --> 00:15:39,756
 that role there? Maybe dive into
-a little bit of details.
+a little bit of detail.
 
-284
+272
 00:15:41,871 --> 00:15:46,251
-Todd: for right now, all I know
-is it's basically doing the
+Todd: Um, for right now, all I
+know is it's basically doing the
 
-285
+273
 00:15:46,251 --> 00:15:52,192
 same thing I do now and that's
-auditing, their product for
+auditing, um, their product for
 
-286
+274
 00:15:52,192 --> 00:16:04,251
-their, website. I know they use,
-they use React and I think
+their, uh, website. I know they
+use, they use react and I think
 
-287
+275
 00:16:04,282 --> 00:16:10,042
-it was .Net. So that I'll be in
-that, environment.
+it was .net. So that I'll be in
+that, um, environment.
 
-288
+276
 00:16:10,782 --> 00:16:13,182
 Bekah: So like when you do an
 audit, where do you start with
 
-289
+277
 00:16:13,182 --> 00:16:13,272
 that?
 
-290
+278
 00:16:14,961 --> 00:16:18,216
 Todd: So when I do an audit, I
-do automated, checks and
+do automated, uh, checks and
 
-291
+279
 00:16:18,216 --> 00:16:21,471
 scans
 
-292
+280
 00:16:21,471 --> 00:16:27,772
 first. So I use stuff like the
-WAVE extension, The Axe, I
+WAVE extension, um, the axe, I
 
-293
+281
 00:16:28,131 --> 00:16:32,601
 now wait until the end to use
-the Axe-Core extension in the
+the axe-core extension in the
 
-294
+282
 00:16:32,601 --> 00:16:40,297
-browser. Things like, there's a
-command line called
+browser. Um, Things like, uh,
+there's a command line called
 
-295
+283
 00:16:40,297 --> 00:16:48,726
-Pa11y. So it's PA one, one Y,
-there's that I use, does
+Pa11y. So it's PA one, one Y uh,
+there's that I use, um, does
 
-296
+284
 00:16:48,756 --> 00:16:55,057
 Bookmarklets from Ian Lloyd and
 Paul J. Adam that I use to also
 
-297
+285
 00:16:55,326 --> 00:17:01,206
-do checks. Let's see what else?
-There's Microsoft
+do checks. Um, Let's see what
+else? There's Microsoft
 
-298
+286
 00:17:01,236 --> 00:17:07,267
 Accessibility Insights, which is
-a great tool to use. what
+a great tool to use. Um, what
 
-299
+287
 00:17:07,267 --> 00:17:15,517
-else? And I said, Axe, color,
-contrast checks. I use, the
+else? And I said, axe, color,
+contrast checks. I use, um, the
 
-300
+288
 00:17:15,517 --> 00:17:19,626
 Firefox accessibility dev tools,
 the accessibility panels and
 
-301
+289
 00:17:19,626 --> 00:17:22,911
 those, and then I move on to,
-manual testing. So. mouse
+um, manual testing. So. mouse
 
-302
+290
 00:17:22,911 --> 00:17:26,196
 only,
 
-303
+291
 00:17:26,961 --> 00:17:33,112
-keyboard only I will do it,
+um, keyboard only I will do it,
 which goes back to color
 
-304
+292
 00:17:33,112 --> 00:17:35,842
 contrast. I'll do the squint
 test. So I'll just look at the
 
-305
+293
 00:17:35,842 --> 00:17:39,352
 site while I'm squinting at it
 and see if, you know, I can make
 
-306
+294
 00:17:39,352 --> 00:17:45,951
-out anything cause, that I was
-taught not too long ago. So,
+out anything cause that I was
+taught not too long ago. So, um,
 
-307
-00:17:46,551 --> 00:17:49,626
-Dan: I like that
+295
+00:17:46,551 --> 00:17:52,701
+and uh, screen readers, I will
+use screen readers. So for Mac
 
-308
-00:17:46,551 --> 00:17:49,000
-Todd: And screen readers,  I
-will use
-
-309
-00:17:49,626 --> 00:17:52,000
-screen readers. So for Mac
-
-310
+296
 00:17:52,701 --> 00:17:58,192
 there's Voiceover. And it's best
 to use Voiceover in Safari
 
-311
+297
 00:17:58,221 --> 00:18:01,686
 because the native, you know,
-Mac app and everything, and
+Mac app and everything, um, and
 
-312
+298
 00:18:01,686 --> 00:18:05,151
-NVDA
+VDA
 
-313
+299
 00:18:05,332 --> 00:18:10,071
-and Jaws on a Windows. And, if,
-and it's very, very rare,
+and Jaws on a Windows. And, um,
+if, and it's very, very rare,
 
-314
+300
 00:18:10,071 --> 00:18:14,810
 but
 
-315
+301
 00:18:14,811 --> 00:18:21,067
 if somebody says, oh, you know,
 we have Linux users. So I will
 
-316
-00:18:21,067 --> 00:18:22,761
-test on what and it's called
-Orca for Linux and, yeah,
+302
+00:18:21,067 --> 00:18:24,456
+test on what it's called Orca
+for Linux and, um, yeah, those
 
-317
-00:18:22,761 --> 00:18:24,455
-those
-
-318
+303
 00:18:24,456 --> 00:18:27,845
 are
 
-319
+304
 00:18:27,846 --> 00:18:31,041
-pretty much, if I remember them
-all correctly, those
+pretty much, uh, if I remember
+them all correctly, um, those
 
-320
+305
 00:18:31,041 --> 00:18:34,236
 are
 
-321
+306
 00:18:34,237 --> 00:18:35,317
-the tools I use. Ha Ha.
+the tools I use.
 
-322
+307
 00:18:36,207 --> 00:18:38,366
 Dan: That's. Yeah, that's
 awesome. It's very extensive. I
 
-323
+308
 00:18:38,366 --> 00:18:39,926
 was just writing all them down
 so that
 
-324
+309
 00:18:39,997 --> 00:18:42,176
 Bekah: So as I well, the link to
 those show notes.
 
-325
+310
 00:18:42,471 --> 00:18:44,136
 Dan: Yeah, absolutely. And so,
 so like day to day, I mean, I
 
-326
+311
 00:18:44,136 --> 00:18:45,801
 know
 
-327
+312
 00:18:45,801 --> 00:18:47,661
 you haven't started yet, but
 like in your, in your role, will
 
-328
+313
 00:18:47,661 --> 00:18:49,521
 it be
 
-329
+314
 00:18:49,882 --> 00:18:53,541
 mostly doing audits after the
 fact? Or like, will you be
 
-330
+315
 00:18:53,541 --> 00:18:54,876
 interfacing with, you know, I'm
 not sure what they do, what
 
-331
+316
 00:18:54,876 --> 00:18:56,211
 they,
 
-332
+317
 00:18:56,241 --> 00:18:59,092
-what- what they make or anything
+what, what they make or anything
 like that, but you know, like
 
-333
+318
 00:18:59,092 --> 00:19:03,142
-where in the process are you-
-are you, doing like
+where in the process are you,
+are you, uh, doing like
 
-334
+319
 00:19:03,142 --> 00:19:06,336
-accessibility? you know, helping
-the team with, with this
+accessibility? Uh, you know,
+helping the team with, with this
 
-335
+320
 00:19:06,336 --> 00:19:10,446
 stuff, like, know, audits for me
 imply, and I know this isn't
 
-336
+321
 00:19:10,446 --> 00:19:13,537
 always true, but when I think of
 it as something, oh, something's
 
-337
-00:19:13,537 --> 00:19:15,172
+322
+00:19:13,537 --> 00:19:16,807
 done, now we do an audit on it.
-You know what I mean?
+You know what I mean? but I was
 
-338
-00:19:15,172 --> 00:19:16,807
-Dan: but I was
-
-339
+323
 00:19:16,807 --> 00:19:18,936
 wondering if, and I'm sure
 that's an important part. I was
 
-340
+324
 00:19:18,936 --> 00:19:21,066
-wondering if there's, places
+wondering if there's, um, places
 earlier in the process where,
 
-341
+325
+00:19:21,066 --> 00:19:23,196
+um,
+
+326
 00:19:23,886 --> 00:19:28,386
 where, you know, you're able to
 interface and like, you know,
 
-342
+327
 00:19:28,866 --> 00:19:31,747
 make suggestions before it, you
 know, as opposed to like fixing
 
-343
+328
 00:19:31,747 --> 00:19:34,576
 things, but like help build
 something you know, the first
 
-344
+329
 00:19:34,576 --> 00:19:34,666
 time.
 
-345
+330
 00:19:34,666 --> 00:19:34,997
 Todd: Right. Yeah,
 
-346
+331
 00:19:35,017 --> 00:19:35,696
 Dan: Does that make sense?
 
-347
+332
 00:19:36,277 --> 00:19:42,946
-Todd: yeah- yeah. I'm, I'm sure
-it's going to be probably a
+Todd: yeah, yeah. Um, I'm, I'm
+sure it's going to be probably a
 
-348
+333
 00:19:42,946 --> 00:19:49,096
-lot of both. maybe there's
-existing things on the site,
+lot of both. Um, maybe there's
+existing things on the site, uh,
 
-349
+334
 00:19:49,636 --> 00:19:56,416
-that need to be checked,
+that need to be checked, um,
 components that may be being
 
-350
+335
 00:19:56,416 --> 00:20:00,561
 worked on. We'll have to be
 checked. I mean, it's that way,
 
-351
+336
 00:20:00,561 --> 00:20:02,646
 pretty much with any kind of
 audit. So I've had companies
 
-352
+337
 00:20:02,646 --> 00:20:04,731
 come
 
-353
+338
 00:20:04,741 --> 00:20:07,946
 to me and say, you know, we
 we've got somebody who emailed
 
-354
+339
 00:20:07,946 --> 00:20:11,151
 us and
 
-355
+340
 00:20:11,152 --> 00:20:13,806
 said, this isn't accessible, so
 we need a, an audit done and
 
-356
+341
 00:20:13,806 --> 00:20:16,460
 I'll
 
-357
+342
 00:20:16,461 --> 00:20:20,287
 go through the site and say,
 okay, I found all this. Here's
 
-358
+343
 00:20:20,287 --> 00:20:24,757
 what you need to do to fix it.
 They'll fix it. That'll be after
 
-359
+344
 00:20:24,757 --> 00:20:28,146
 the fact of course, I've had
 companies come in and ask me to
 
-360
+345
 00:20:28,146 --> 00:20:31,386
 do consulting with their teams
 before the project starts to
 
-361
+346
 00:20:31,386 --> 00:20:34,626
 make
 
-362
+347
 00:20:34,626 --> 00:20:37,567
 sure that it gets done
 beforehand. Because when you do
 
-363
+348
 00:20:37,567 --> 00:20:40,836
 an accessibility, when you, when
 you bring in accessibility from
 
-364
+349
 00:20:40,836 --> 00:20:45,146
 the start of a project, it's so
 much easier and there's less, a
 
-365
+350
 00:20:45,146 --> 00:20:50,416
 lot less stress, doing it from
 the very beginning, because when
 
-366
+351
 00:20:50,416 --> 00:20:53,957
 you get to the end and you've
 got, everything is as accessible
 
-367
+352
 00:20:53,957 --> 00:20:58,336
 as you can. And I'll add that
 nothing's a hundred percent
 
-368
+353
 00:20:58,336 --> 00:21:05,537
-accessible. it's- it's a lot
+accessible. Um, it's, it's a lot
 easier on your teams. You know,
 
-369
+354
 00:21:05,567 --> 00:21:06,812
 like I said, there's a lot less
 stress. You don't have to go
 
-370
+355
 00:21:06,812 --> 00:21:08,057
 back
 
-371
+356
 00:21:08,057 --> 00:21:13,237
 and scatter around trying to fix
 this, that, and the other thing
 
-372
+357
 00:21:13,656 --> 00:21:17,826
-after the fact. So, and that's
-also where my advocacy
+after the fact. So, um, and
+that's also where my advocacy
 
-373
+358
 00:21:17,826 --> 00:21:22,086
 comes in is saying, okay, if you
 get this done from the start,
 
-374
+359
 00:21:22,866 --> 00:21:24,741
 you're going to be, it's going
 to be so much easier and it's
 
-375
+360
 00:21:24,741 --> 00:21:26,616
 going
 
-376
-00:21:26,616 --> 00:21:27,741
+361
+00:21:26,616 --> 00:21:28,866
 to cost less money because
-you're not going back. It's
+you're not going to. It's going
 
-377
-00:21:27,741 --> 00:21:28,866
-going
-
-378
+362
 00:21:28,866 --> 00:21:31,116
 to cause
 
-379
+363
 00:21:31,446 --> 00:21:33,426
 a lot less stress again. And,
-those are the two main
+uh, those are the two main
 
-380
+364
 00:21:33,426 --> 00:21:35,406
 things.
 
-381
+365
 00:21:35,767 --> 00:21:39,126
-but to answer the question, it's
-going to be a little bit of
+Um, but to answer the question,
+it's going to be a little bit of
 
-382
+366
 00:21:39,126 --> 00:21:40,746
 both. I would think, because
 like I said, it's usually that
 
-383
+367
 00:21:40,746 --> 00:21:42,366
 way at
 
-384
+368
 00:21:42,366 --> 00:21:45,906
-the beginning, you know?
+the beginning, you know? Um,
 
-385
+369
 00:21:45,906 --> 00:21:47,346
 Dan: Get something to a baseline
 first.
 
-386
+370
 00:21:47,366 --> 00:21:51,807
-Todd: Yeah. Yeah. And- and- and
+Todd: Yeah. Yeah. And, and, and
 it's still really early in the
 
-387
+371
 00:21:51,807 --> 00:21:54,687
 process, so I'm not too sure,
 but I know that there'll be a
 
-388
+372
 00:21:54,687 --> 00:21:57,567
 lot of,
 
-389
+373
 00:21:57,626 --> 00:22:00,746
 you know, checking to make sure
 everything's good. On the end
 
-390
+374
 00:22:00,746 --> 00:22:03,866
 of,
 
-391
+375
 00:22:04,346 --> 00:22:07,047
 you know, before we put this
 out, we need to make sure it's
 
-392
+376
 00:22:07,047 --> 00:22:09,416
 accessible. So. yeah.
 
-393
+377
 00:22:10,311 --> 00:22:12,051
 Bekah: As you've been working
 through this industry, do you
 
-394
+378
 00:22:12,051 --> 00:22:18,307
 think. Is there one problem that
 you keep encountering over and
 
-395
+379
 00:22:18,307 --> 00:22:22,356
 over, like stand out issues,
 things that people can just
 
-396
+380
 00:22:22,356 --> 00:22:25,656
 really look at and say, all
 right, let's start here.
 
-397
-00:22:26,352 --> 00:22:30,431
+381
+00:22:26,352 --> 00:22:34,511
 Todd: Well, where do I begin?
-It's- it's a lot, but mainly
+It's it's a lot, but mainly it's
 
-398
-00:22:30,431 --> 00:22:34,510
-it's
-
-399
+382
 00:22:34,511 --> 00:22:42,311
-color contrast. Okay. that's the
-biggest one. and,
+color contrast. Okay. Um, that's
+the biggest one. Um, and, uh,
 
-400
-00:22:43,846 --> 00:22:45,256
+383
+00:22:43,846 --> 00:22:46,666
 Keyboard accessibility is
-another and I'll throw in a
+another and throwing a third
 
-401
-00:22:45,256 --> 00:22:46,666
-third
-
-402
+384
 00:22:46,666 --> 00:22:49,486
 one. And
 
-403
+385
 00:22:49,487 --> 00:22:52,352
-that being, ALT text on images,
-the alternative text,
+that being, uh, alt text on
+images, the alternative text,
 
-404
+386
+00:22:52,352 --> 00:22:55,217
+um,
+
+387
 00:22:56,537 --> 00:23:07,217
-I've had, you know, a lot of ALT
-text can be a tricky, a
+I've had, you know, a lot of alt
+text can be a tricky, um, uh, a
 
-405
+388
 00:23:07,217 --> 00:23:11,747
 tricky thing because people
 think, well, I have this image.
 
-406
+389
 00:23:12,817 --> 00:23:19,477
 And I need to really go into
 detail what that image is
 
-407
+390
 00:23:19,477 --> 00:23:21,711
 conveying. If it's an
 informative image and you really
 
-408
+391
 00:23:21,711 --> 00:23:23,945
 don't just a
 
-409
+392
 00:23:23,946 --> 00:23:31,146
 short, you know, it's a purple
-flower in a field, is fine.
+flower in a field, um, is fine.
 
-410
+393
 00:23:31,146 --> 00:23:33,546
 You don't have to go into, I've
 seen on Twitter because they
 
-411
+394
 00:23:33,546 --> 00:23:35,946
 give
 
-412
+395
 00:23:35,946 --> 00:23:38,218
 you a thousand characters for
-ALT text. And I've seen this.
+alt text. And I've seen this.
 
-413
+396
 00:23:38,218 --> 00:23:40,490
 I've
 
-414
+397
 00:23:40,491 --> 00:23:41,892
-seen ALT text that long before.
+seen alt text that long before.
 
-415
+398
 00:23:42,031 --> 00:23:43,771
-Bekah: I always wonder, like, I-
+Bekah: I always wonder, like, I,
 I don't think I've written
 
-416
+399
 00:23:43,771 --> 00:23:45,511
 enough
 
-417
+400
 00:23:45,541 --> 00:23:47,311
 because I'm not even close to
 the 1000 and I have a thousand
 
-418
+401
 00:23:47,311 --> 00:23:49,081
 to
 
-419
+402
 00:23:49,082 --> 00:23:49,531
 write.
 
-420
-00:23:49,696 --> 00:23:50,731
+403
+00:23:49,696 --> 00:23:51,766
 Dan: Yeah. I always try to just
-like- like, just say the joke.
+like, like, just say the joker.
 
-421
-00:23:50,731 --> 00:23:51,766
-or whateve
-
-422
+404
 00:23:51,766 --> 00:23:53,836
 I
 
-423
+405
 00:23:53,836 --> 00:23:54,961
 mean, usually if I'm posting an
 image, it's a joke, you know,
 
-424
+406
 00:23:54,961 --> 00:23:56,086
 but
 
-425
+407
 00:23:56,086 --> 00:24:00,136
 like the shortest version of the
 joke is, you know, so I like
 
-426
+408
 00:24:00,136 --> 00:24:03,287
 posted one today and it was just
 like guys saying thumbs up or
 
-427
+409
 00:24:03,287 --> 00:24:05,267
-something like that- that, you
+something like that, that, you
 know, you know what I mean? like
 
-428
+410
 00:24:05,416 --> 00:24:07,111
 that seems that at least seems
 like usually enough. I don't
 
-429
+411
 00:24:07,111 --> 00:24:08,806
 need
 
-430
+412
 00:24:08,807 --> 00:24:09,436
 to give the whole,
 
-431
+413
 00:24:09,557 --> 00:24:11,656
 Bekah: Sometimes I just don't
 post because I don't know how to
 
-432
+414
 00:24:11,656 --> 00:24:15,856
 describe it. Like, well, I'm not
 really sure that I know how to
 
-433
+415
 00:24:15,856 --> 00:24:19,336
 say capture what this is doing,
 so we'll go, we'll go for
 
-434
+416
 00:24:19,336 --> 00:24:19,936
 something else.
 
-435
+417
 00:24:20,767 --> 00:24:24,297
 Todd: There's a lot of debate
 around how long should it be? It
 
-436
+418
 00:24:24,297 --> 00:24:27,116
 shouldn't be 180 characters.
 Should it be a certain amount of
 
-437
+419
 00:24:27,116 --> 00:24:31,646
 words, but just as long as it
 conveys in a short succinct,
 
-438
+420
 00:24:32,636 --> 00:24:39,086
 Sentence, I guess that's fine.
-and of course you have some
+Um, and of course you have some
 
-439
+421
 00:24:39,176 --> 00:24:43,287
 images decorative that, ya know,
-it needs an empty ALT text. And
+it needs an empty all text. And
 
-440
+422
 00:24:43,287 --> 00:24:47,876
 that's a big one because I was
 just doing an audit and they had
 
-441
+423
 00:24:47,876 --> 00:24:53,547
-decorative images, but no, ALT,
-no empty ALT text, which is
+decorative images, but no, alt,
+no empty alt text, um, which is
 
-442
+424
 00:24:53,547 --> 00:24:57,326
-just the ALT equals, you know,
+just the alt equals, you know,
 quotes and it's, the quotes are
 
-443
+425
 00:24:57,326 --> 00:24:58,346
 empty in between,
 
-444
+426
 00:24:58,961 --> 00:25:01,781
 Bekah: Can you explain that?
 Cause that I had just recently
 
-445
+427
 00:25:01,781 --> 00:25:06,892
 learned about that, but. Don't
 quite understand why that's the
 
-446
+428
 00:25:06,892 --> 00:25:07,471
 standard.
 
-447
+429
 00:25:08,172 --> 00:25:11,757
 Todd: So there's a, it tells a
 screen reader. There's an image
 
-448
+430
 00:25:11,757 --> 00:25:14,081
 there, but it doesn't, it
 doesn't need it's decorative
 
-449
+431
 00:25:14,081 --> 00:25:16,405
 basically.
 
-450
+432
 00:25:16,406 --> 00:25:19,237
 So it just there's, there's no
-need to,  describe
+need to, to
 
-451
+433
 00:25:19,636 --> 00:25:22,426
-Dan: ha what happens in a screen
-reader? If it runs into an
+Dan: ha what happens in a
+screenwriter? If it runs into an
 
-452
+434
 00:25:22,426 --> 00:25:24,257
-image with no ALT attribute at
+image with no alt attribute at
 all?
 
-453
+435
 00:25:25,297 --> 00:25:29,797
-Todd: it skips over it. So
-you're loo the- the user is
+Todd: Uh, it skips over it. So
+you're loo the, the user is
 
-454
+436
 00:25:29,797 --> 00:25:31,326
 losing information. So if
 there's something you're trying
 
-455
+437
 00:25:31,326 --> 00:25:32,855
 to
 
-456
+438
 00:25:32,856 --> 00:25:37,567
-convey, like let's use the,
+convey, like let's use the, um,
 like, an infographic, for
 
-457
+439
 00:25:37,656 --> 00:25:40,491
-example, and there's no ALT text
+example, and there's no alt text
 on it. That user that's using
 
-458
+440
 00:25:40,491 --> 00:25:43,326
 the
 
-459
+441
 00:25:43,326 --> 00:25:47,356
 screen reader is not gonna know
 that it's there.
 
-460
+442
 00:25:47,997 --> 00:25:52,836
-Dan: Totally- Totally. And so in
+Dan: Totally. Totally. And so in
 the case of a decorative image
 
-461
+443
 00:25:52,866 --> 00:25:56,317
 where we don't need. It's okay.
 If his screen, you know, if it's
 
-462
+444
 00:25:56,317 --> 00:25:59,227
 okay, if anybody skips over it,
 what do you know, what is the
 
-463
+445
 00:25:59,227 --> 00:26:01,446
 tactical difference for a screen
 reader for a user on a screen
 
-464
+446
 00:26:01,446 --> 00:26:07,326
 reader between empty, an image
-with an like with a ALT property
+with an like with a alt property
 
-465
+447
 00:26:07,326 --> 00:26:12,727
 and just an empty string and an
-image with ALT you know, defined
+image with alt you know, defined
 
-466
+448
 00:26:12,727 --> 00:26:13,086
 at all.
 
-467
-00:26:15,707 --> 00:26:20,286
-Todd: So. if it's okay. Let's
-use a logo. As an example, if
+449
+00:26:15,707 --> 00:26:24,866
+Todd: So. it's okay. Let's use a
+logo. As an example, if you have
 
-468
-00:26:20,286 --> 00:26:24,865
-you have
-
-469
+450
 00:26:25,287 --> 00:26:31,257
-empty ALT text on your logo, and
+empty alt text on your logo, and
 it's also linked, the screen
 
-470
+451
 00:26:31,257 --> 00:26:39,116
 reader will read that link and
 you don't want that to read it.
 
-471
+452
 00:26:39,326 --> 00:26:45,382
 You don't want it to. It doesn't
 really need to, I mean, there's
 
-472
+453
 00:26:45,382 --> 00:26:51,352
 cases where somebody may say,
 yeah, I want the person to know
 
-473
+454
 00:26:51,352 --> 00:26:53,901
 what the logo looks like, but if
-it's not really necessary,
+it's not really necessary, um,
 
-474
+455
 00:26:53,901 --> 00:26:56,450
 no
 
-475
+456
 00:26:56,451 --> 00:27:04,342
-ALT text, you know, it's the
+alt text, you know, it's the
 screen reader. Won't read
 
-476
+457
 00:27:04,342 --> 00:27:07,994
 anything and. As far as I know.
 And I'll be the first to say,
 
-477
+458
 00:27:07,994 --> 00:27:11,646
 I'm
 
-478
+459
 00:27:11,646 --> 00:27:13,986
 not an expert by any means with
 screen readers, because this is
 
-479
+460
 00:27:13,986 --> 00:27:16,326
 a
 
-480
+461
 00:27:16,326 --> 00:27:19,836
 lot of different stuff. I've
 been learning lately, but to
 
-481
+462
 00:27:19,836 --> 00:27:23,346
 mine, to
 
-482
+463
 00:27:23,346 --> 00:27:30,096
 my recollection, anyways, an
 empty. So the end. So no alt
 
-483
+464
 00:27:30,096 --> 00:27:35,872
 texts. Let me get this straight.
-No, ALT text, the URL will be
+No, alt text, the URL will be
 
-484
+465
 00:27:35,872 --> 00:27:37,311
 read to the image.
 
-485
+466
 00:27:39,307 --> 00:27:40,507
 Dan: Okay. Yeah. That's the big
 difference. All right. That's
 
-486
+467
 00:27:40,507 --> 00:27:41,707
 the
 
-487
+468
 00:27:41,707 --> 00:27:42,126
-part, I didn't know
+part, I didn't
 
-488
+469
 00:27:42,422 --> 00:27:43,321
 Todd: Yes. Yup.
 
-489
-00:27:43,356 --> 00:27:48,000
-Dan: No ALT text at all, like
-no, ALT property defined. When a
+470
+00:27:43,356 --> 00:27:48,547
+Dan: no alt text at all, like
+no, alt property defined. When a
 
-490
+471
 00:27:48,547 --> 00:27:50,797
 screen reader is reading it,
 it'll come through normal texts
 
-491
+472
 00:27:50,826 --> 00:27:52,506
 and then it'll just read like,
-blah- blah- blah dot JPEG.
+blah, blah, blah dot JPEG.
 
-492
+473
 00:27:52,506 --> 00:27:54,186
-Todd: Yes
+Right.
 
-493
+474
 00:27:54,707 --> 00:27:55,686
-Dan: Right Okay. That's it
+Okay. That's
 
-494
+475
 00:27:55,721 --> 00:27:59,892
 Todd: And then the, the empty
-ALT is silent. So that's.
+alt is silent. So that's.
 
-495
+476
 00:27:59,961 --> 00:28:01,191
-Dan: It'll that tells it to skip
+Dan: it'll that tells it to skip
 right over it, which is you
 
-496
+477
 00:28:01,191 --> 00:28:02,421
 want.
 
-497
+478
 00:28:02,422 --> 00:28:04,432
 Sometimes like, sometimes that
 is the preferred thing or like
 
-498
+479
 00:28:04,432 --> 00:28:06,442
 the
 
-499
+480
 00:28:06,442 --> 00:28:09,652
 decorative image where it's a
 background image or something
 
-500
+481
 00:28:09,652 --> 00:28:12,832
 like that, or, background, but
 like, you know, sometimes it's
 
-501
+482
 00:28:12,832 --> 00:28:14,872
 just used for decoration.
 Doesn't need to convey actually
 
-502
+483
 00:28:14,872 --> 00:28:17,352
 information. and so in those
 cases, putting an empty, alt
 
-503
+484
 00:28:17,352 --> 00:28:19,832
 like
 
-504
+485
 00:28:19,832 --> 00:28:24,862
-ALT equals, you know, empty
+alt equals, you know, empty
 string. Is is actually very good
 
-505
+486
 00:28:24,862 --> 00:28:28,521
 and much like very good for
 accessibility because otherwise
 
-506
+487
 00:28:28,521 --> 00:28:32,632
 they're going to see probably a
 very long URL with dot JPEG,
 
-507
+488
 00:28:32,991 --> 00:28:34,311
 which means nothing to them.
 Right.
 
-508
+489
 00:28:34,382 --> 00:28:35,491
 Todd: Yes. Exactly.
 
-509
+490
 00:28:35,721 --> 00:28:38,211
-Dan: Oh, that's great. that's
-one of those things that.
+Dan: Oh, that's great. Um,
+that's one of those things that.
 
-510
+491
 00:28:38,211 --> 00:28:40,701
 And
 
-511
+492
 00:28:40,701 --> 00:28:44,541
 I've seen a lot of people. This
 is a separate topic, like that,
 
-512
+493
 00:28:44,541 --> 00:28:48,711
 that little, like, pick that
-little bit, just- just even just
+little bit, just, just even just
 
-513
+494
 00:28:48,711 --> 00:28:52,642
-ALT getting like your head
+Alt getting like your head
 wrapped around how to deal with
 
-514
+495
 00:28:52,682 --> 00:28:56,932
-ALT- ALT texts. like you said,
-makes can make a huge
+alt, alt texts. Um, like you
+said, mix can make a huge
 
-515
+496
 00:28:56,932 --> 00:29:00,501
 difference for accessibility
 making a for your users. oh,
 
-516
+497
 00:29:00,501 --> 00:29:01,132
 that's really cool.
 
-517
+498
 00:29:02,376 --> 00:29:03,636
 Bekah: And you were talking
 about one of the big problems
 
-518
+499
 00:29:03,636 --> 00:29:04,896
 being
 
-519
+500
 00:29:04,896 --> 00:29:09,727
 color contrast. And that seems
 like something that could be
 
-520
+501
 00:29:09,727 --> 00:29:15,636
 pretty simple to identify with a
-Lighthouse audit. Can you
+Lighthouse audit. Um, can you
 
-521
+502
 00:29:15,636 --> 00:29:18,606
 explain what a Lighthouse audit
 is? And if you're like, that's
 
-522
+503
 00:29:18,606 --> 00:29:21,787
 not the way to go. This other
-method is better. I would
+method is better. Um, I would
 
-523
+504
 00:29:21,787 --> 00:29:22,207
-love to hear as well.
+love to hear that.
 
-524
+505
 00:29:23,862 --> 00:29:26,786
 Todd: So, I mean, I've used
 Lighthouse before. I don't
 
-525
+506
 00:29:26,786 --> 00:29:29,710
 really
 
-526
+507
 00:29:29,711 --> 00:29:32,186
 rely on lighthouse. Lighthouse
-runs off of Axe-core and which
+runs off of axe-core and which
 
-527
+508
 00:29:32,186 --> 00:29:34,661
 is
 
-528
+509
 00:29:34,662 --> 00:29:42,132
 great, but I don't think it
 really gets to the root of every
 
-529
+510
 00:29:42,521 --> 00:29:49,301
-issue. And it really can't. plus
-you have false positives,
+issue. And it really can't. Uh,
+plus you have false positives,
 
-530
+511
 00:29:49,301 --> 00:29:52,692
 which is, you know, something,
 it, for example, I was just
 
-531
+512
 00:29:52,692 --> 00:29:55,932
 talking about this on the, in
-the, in the Slack, Virtual
+the, in the Slack, uh, Virtual
 
-532
+513
 00:29:55,932 --> 00:29:58,699
 Coffee Slack. False positives
 for color contrast, you know,
 
-533
+514
 00:29:58,699 --> 00:30:01,466
 I've
 
-534
+515
 00:30:01,467 --> 00:30:04,737
 come across instances where it
 will flag color, contrast
 
-535
+516
 00:30:04,737 --> 00:30:08,007
 errors,
 
-536
+517
 00:30:08,007 --> 00:30:13,676
 but the color contrast is far
 exceeds the 4.5 to one ratio. So
 
-537
+518
 00:30:14,126 --> 00:30:16,767
 I don't really rely on
 Lighthouse. I mean, it's a good
 
-538
+519
 00:30:16,767 --> 00:30:18,701
 tool. Don't get me wrong because
 there's that performance piece
 
-539
+520
 00:30:18,701 --> 00:30:20,635
 to
 
-540
+521
 00:30:20,636 --> 00:30:25,693
-it that I really- really like,
-using and, As far as,
+it that I really, really like,
+uh, using and, um, As far as,
 
-541
+522
 00:30:25,693 --> 00:30:30,750
 you
 
-542
+523
 00:30:30,751 --> 00:30:34,301
 know, it's a good tool, don't
 get me wrong, but I use, and I
 
-543
+524
 00:30:34,301 --> 00:30:37,851
 used
 
-544
+525
 00:30:37,852 --> 00:30:40,432
 to use it. I used to use it
 myself. I mean, I used it on my
 
-545
+526
 00:30:40,432 --> 00:30:42,801
 site and was like, yeah, one
 hundreds. I got one hundreds
 
-546
+527
 00:30:42,801 --> 00:30:46,342
 across the board and you know,
-that- that virtual confetti
+that, that virtual confetti
 
-547
+528
 00:30:46,342 --> 00:30:53,471
-flying everywhere. But, the
-tools that I use would be,
+flying everywhere. But, um, the
+tools that I use would be, um,
 
-548
+529
 00:30:56,067 --> 00:30:59,711
 It's a contrast hyphen
 ratio.com, which is Lea Verou,
 
-549
+530
 00:30:59,711 --> 00:31:03,355
-color
+uh, color
 
-550
+531
 00:31:03,356 --> 00:31:06,716
-contrast site. I also use, the,
-let me look, I have it on
+contrast site. I also use, um,
+the, let me look, I have it on
 
-551
+532
 00:31:06,716 --> 00:31:10,076
 my
 
-552
+533
 00:31:10,076 --> 00:31:12,836
 other machine here, the color
 contrast analyzer. And that is
 
-553
+534
 00:31:12,836 --> 00:31:15,596
 by
 
-554
+535
 00:31:15,747 --> 00:31:18,926
 The Paciello Group. So Steven
 Faulkner has based on the
 
-555
+536
 00:31:18,926 --> 00:31:22,105
 Windows
 
-556
+537
 00:31:22,106 --> 00:31:24,131
 version, the Mac iOS version was
-developed by somebody else.
+developed by somebody else. Uh,
 
-557
+538
 00:31:24,131 --> 00:31:26,156
 I
 
-558
+539
 00:31:26,156 --> 00:31:33,926
-use that- that tool as well. and
-I will provide, the link
+use that, that tool as well. Um,
+and I will provide, uh, the link
 
-559
+540
 00:31:33,926 --> 00:31:34,497
 to that.
 
-560
+541
 00:31:35,414 --> 00:31:37,419
 Bekah: This great, I'm like
 really looking forward, it could
 
-561
+542
 00:31:37,419 --> 00:31:40,598
 diving into a lot of these
 resources that you are dropping
 
-562
+543
 00:31:40,598 --> 00:31:43,043
 right now. Cause I think
 sometimes it's hard to know
 
-563
+544
 00:31:43,043 --> 00:31:45,488
 where
 
-564
+545
 00:31:45,489 --> 00:31:51,068
 to start. And, I think that's
 just a problem with teaching
 
-565
+546
 00:31:51,429 --> 00:31:54,413
 developers in general. There's
-not a focus on it- It's not
+not a focus on it. It's not
 
-566
+547
 00:31:54,413 --> 00:31:57,397
 built
 
-567
+548
 00:31:57,429 --> 00:32:07,118
-into most curriculums and, at
-all. And so there's a lack of
+into most curriculums and, um,
+at all. And so there's a lack of
 
-568
+549
 00:32:07,118 --> 00:32:11,773
 focus, I think, as a result of
 that. And then not knowing where
 
-569
+550
 00:32:11,773 --> 00:32:16,114
 to start, or if you're with a
 company that doesn't look at
 
-570
+551
 00:32:16,114 --> 00:32:18,668
 those things, then I think it
 can be, you can find yourself a
 
-571
+552
 00:32:18,668 --> 00:32:21,222
 while
 
-572
+553
 00:32:21,223 --> 00:32:27,223
 down the path and and not know
 what you should be identifying,
 
-573
+554
 00:32:27,223 --> 00:32:30,374
 how you should be approaching
 this. And so the more that we
 
-574
+555
 00:32:30,374 --> 00:32:35,084
 talk about it, I think the
-better, where do you think
+better, um, where do you think
 
-575
+556
 00:32:35,534 --> 00:32:39,044
 people could get started if they
 want to learn more about
 
-576
+557
 00:32:39,044 --> 00:32:39,403
-accessiblity?
+accessible?
 
-577
+558
 00:32:40,094 --> 00:32:44,378
-Todd: So the W three C has a
-great, intro to
+Todd: So the w three C has a
+great, um, intro to
 
-578
+559
 00:32:44,378 --> 00:32:48,662
 accessibility
 
-579
+560
 00:32:48,692 --> 00:32:52,982
 class, which I believe is still
 free. And yeah, it's an
 
-580
+561
 00:32:53,042 --> 00:32:55,947
 Introduction to Web
 Accessibility on edex.org. And,
 
-581
+562
 00:32:55,947 --> 00:32:58,852
-I took that
+uh, I took that
 
-582
+563
 00:32:58,853 --> 00:33:01,450
-class even. and it was it's
-great. you can pace
+class even. Um, and it was it's
+great. Uh, you can pace
 
-583
+564
 00:33:01,450 --> 00:33:04,047
 yourself.
 
-584
+565
 00:33:04,528 --> 00:33:07,092
 Doesn't have to be real fast is
 no, you know, there's no due
 
-585
+566
 00:33:07,092 --> 00:33:09,656
 date
 
-586
+567
 00:33:09,657 --> 00:33:11,907
 or anything. There's a free
 version. If you want a
 
-587
+568
 00:33:11,907 --> 00:33:17,877
 certificate, you got to pay a
-certain amount. it's like if
+certain amount. Um, it's like if
 
-588
+569
 00:33:17,877 --> 00:33:21,238
 you put in four to five hours a
 week, it's like for four weeks
 
-589
+570
 00:33:21,238 --> 00:33:27,373
-long, to do. It gives a good
+long, uh, to do. It gives a good
 overview of, excuse me,
 
-590
+571
 00:33:27,373 --> 00:33:30,868
 accessibility, and you know,
 some of the guidelines there's,
 
-591
+572
 00:33:30,868 --> 00:33:34,363
-a
+um, a
 
-592
+573
 00:33:34,363 --> 00:33:40,542
 lot of good information on the
-web, and, even have to
+web, uh, and, uh, even have to
 
-593
+574
 00:33:40,542 --> 00:33:44,532
 pitch Nobility's website and
 their blog. They go over some of
 
-594
+575
 00:33:44,532 --> 00:33:50,337
-the, WCAG guidelines and
+the, uh, WCAG guidelines and
 accessibility is also, I want to
 
-595
-00:33:50,337 --> 00:33:52,707
-make this clear, accessibility
-is more than just WCAG
+576
+00:33:50,337 --> 00:33:55,077
+make this clear accessibility is
+more than just WCAG guidelines.
 
-596
-00:33:52,707 --> 00:33:55,077
-guidelines.
-
-597
+577
 00:33:55,438 --> 00:34:01,647
-It's also about inclusive design
-as well. Making sure,
+Um, it's also about inclusive
+design as well. Um, making sure,
 
-598
+578
 00:34:01,917 --> 00:34:07,048
 you know, certain demographics
 aren't, you know, kept out that,
 
-599
+579
 00:34:07,048 --> 00:34:12,117
-that everybody's included, hence
-the name inclusive design.
+that everybody's included, um,
+hence the name inclusive design.
 
-600
+580
 00:34:12,447 --> 00:34:21,768
-But, Some other, let's see.
-That's a good
+Um, but, um, Some other, um,
+let's see. That's a good
 
-601
+581
 00:34:21,768 --> 00:34:24,797
 question. Cause there's so much,
 I mean, I guess, you know, a
 
-602
+582
 00:34:24,797 --> 00:34:31,728
 search would come up with a lot
 of different things. WebAIM.org
 
-603
+583
 00:34:31,797 --> 00:34:36,027
 has some good stuff. As far as
 accessibility, learning
 
-604
+584
 00:34:36,027 --> 00:34:43,018
-accessibility, level access
-does, let's see who else.
+accessibility, um, level access
+does, uh, let's see who else.
 
-605
+585
 00:34:44,327 --> 00:34:47,310
 TPGI has good stuff. So there's,
 there's a lot out there that,
 
-606
+586
 00:34:47,310 --> 00:34:50,293
 you
 
-607
+587
 00:34:50,293 --> 00:34:54,913
 know, people can find on, you
 know, even there's even like
 
-608
+588
 00:34:54,913 --> 00:35:00,943
 courses on, I guess Udemy and
 platforms like that as well.
 
-609
+589
 00:35:03,853 --> 00:35:06,613
-Bekah: So ki- this has kind of
-been your focus the entire time
+Bekah: So, this has kind of been
+your focus the entire time
 
-610
+590
 00:35:06,613 --> 00:35:09,373
 you've
 
-611
+591
 00:35:09,373 --> 00:35:15,373
 been working in tech. Was there
 a reason that you went down this
 
-612
+592
 00:35:15,373 --> 00:35:17,877
-path or- or something that kind
+path or, or something that kind
 of inspired this journey? Or
 
-613
+593
 00:35:17,877 --> 00:35:20,381
 have
 
-614
+594
 00:35:20,382 --> 00:35:22,463
 you just always been interested
 in it?
 
-615
+595
 00:35:24,333 --> 00:35:30,722
-Todd: It started when a couple
-of family members, I have
+Todd: Uh, it started when a
+couple of family members, I have
 
-616
+596
 00:35:30,722 --> 00:35:36,603
 like three family members that
-have disabilities, two have
+have disabilities, um, to have
 
-617
+597
 00:35:36,603 --> 00:35:45,012
 motor skill disabilities, one
 visual and. Seeing the looks of
 
-618
+598
 00:35:45,012 --> 00:35:48,342
 frustration on their faces when
 they're trying to access
 
-619
+599
 00:35:48,342 --> 00:35:52,842
 something that's inaccessible on
 the web really got me motivated
 
-620
+600
 00:35:52,842 --> 00:36:01,362
 in the beginning and carries me
-to this day. Really. I kind
+to this day. Really. Um, I kind
 
-621
+601
 00:36:01,362 --> 00:36:08,916
 of towards like 2018, 2019 was
 kind of like. I guess slacking
 
-622
+602
 00:36:08,916 --> 00:36:11,631
 off a little bit with my
 accessibility, but I get
 
-623
+603
 00:36:11,631 --> 00:36:14,346
 together
 
-624
+604
 00:36:14,347 --> 00:36:17,197
 with our friend, Chris DeMars in
 Burlington, Vermont. There was
 
-625
+605
 00:36:17,197 --> 00:36:20,047
 a,
 
-626
+606
 00:36:20,106 --> 00:36:27,811
 there was a conference and. You
 know, he gave a great talk and
 
-627
+607
 00:36:27,992 --> 00:36:32,972
 that really lit the fire again.
 So there's been a really, it's
 
-628
+608
 00:36:32,972 --> 00:36:38,911
 been like laser, like focus for
 me as far as, since then. And,
 
-629
+609
 00:36:38,942 --> 00:36:41,896
-just the looks of frustration on
-faces of people
+um, just the looks of
+frustration on faces of people
 
-630
+610
 00:36:41,896 --> 00:36:44,850
 that I've
 
-631
+611
 00:36:44,851 --> 00:36:49,831
 seen, trying to access something
 that's inaccessible on the web.
 
-632
+612
 00:36:50,461 --> 00:36:58,416
-Yeah. It's just, it's very, the
-word I'm looking for here,
+Yeah. It's just, it's very, um,
+the word I'm looking for here,
 
-633
+613
 00:36:58,956 --> 00:37:04,086
-very, it hits home. It really,
-you know, being that I
+very, uh, it hits home. It
+really, you know, being that I
 
-634
+614
 00:37:04,086 --> 00:37:12,186
 try to advocate for people that
-don't have a voice. And, I
+don't have a voice. And, um, I
 
-635
+615
 00:37:12,186 --> 00:37:17,452
-think as- as accessibility,
+think as, as accessibility,
 professional, We all, do we try
 
-636
+616
 00:37:17,452 --> 00:37:20,992
 to advocate for those people?
-Especially lately with
+Um, especially lately with
 
-637
+617
 00:37:20,992 --> 00:37:24,532
 certain, I
 
-638
+618
 00:37:24,532 --> 00:37:28,641
 will use it in quotes,
 accessibility, overlays, for
 
-639
+619
 00:37:28,641 --> 00:37:35,331
-instance, but, yeah, that's
+instance, but, um, yeah, that's
 basically where it all started
 
-640
+620
 00:37:35,331 --> 00:37:37,956
 was just those family members
 and friends and just seeing
 
-641
+621
 00:37:37,956 --> 00:37:40,581
 people,
 
-642
+622
 00:37:40,731 --> 00:37:45,711
-yeah. Th- the frustration and
+uh, yeah. Th the frustration and
 the point where they're ready to
 
-643
+623
 00:37:45,711 --> 00:37:46,282
 give up.
 
-644
+624
 00:37:47,967 --> 00:37:53,067
 Bekah: Yeah, I, was just with
-Chris last week. He spoke at
+Chris last week. Um, he spoke at
 
-645
+625
 00:37:53,336 --> 00:37:58,117
-KCDC. He along with Cass Ferris
-and they did an accessibility
+KC DC. He along with Cass Ferris
+and they did anaccessibility
 
-646
+626
 00:37:58,137 --> 00:38:00,777
 talk. That was the first time I
 got to see him speak in person.
 
-647
+627
 00:38:01,422 --> 00:38:05,052
 It was really great because they
 both come at it with a lot of
 
-648
+628
 00:38:05,052 --> 00:38:07,316
 passion and examples. And I
 think for so many of us, we have
 
-649
+629
 00:38:07,316 --> 00:38:09,580
 a
 
-650
+630
 00:38:09,581 --> 00:38:13,001
 general sense of what
 accessibility is, but we don't
 
-651
+631
 00:38:13,001 --> 00:38:18,876
-have that broader sense of, you
-know, it might be. there
+have that broader sense of, uh,
+you know, it might be. Um, there
 
-652
+632
 00:38:18,876 --> 00:38:23,257
 might be a disability that you
 can't see, or it might be a
 
-653
+633
 00:38:23,257 --> 00:38:25,132
 temporary disability or a mental
 health challenge that somebody
 
-654
+634
 00:38:25,132 --> 00:38:27,007
 is
 
-655
+635
 00:38:27,007 --> 00:38:30,126
 going through and all of those
 things can impact what
 
-656
+636
 00:38:30,126 --> 00:38:34,177
 accessibility looks like. And if
 you really look at the people
 
-657
+637
 00:38:34,177 --> 00:38:39,681
-around you- you for sure know
+around you, you for sure know
 someone that has one of those
 
-658
+638
 00:38:39,681 --> 00:38:43,492
-challenges or- or you have one
+challenges or, or you have one
 yourself. And so, you know,
 
-659
+639
 00:38:43,521 --> 00:38:46,192
 opening up the conversations
 about this, you know, like you
 
-660
+640
 00:38:46,192 --> 00:38:50,751
-have in- in like Chris and Cass
+have in, in like Chris and Cass
 have, I think is so important to
 
-661
+641
 00:38:50,961 --> 00:38:53,902
-really making change in- in tech
+really making change in, in tech
 overall.
 
-662
+642
 00:38:55,661 --> 00:38:58,871
 Todd: Yeah, I, you, know, you
 you brought up invisible.
 
-663
+643
 00:39:01,766 --> 00:39:06,297
 Disabilities. I have migraine
-headaches. I get them when
+headaches. Uh, I get them when
 
-664
+644
 00:39:06,297 --> 00:39:11,306
 something sets off, if there's a
 website, I visit that as, you
 
-665
+645
 00:39:11,306 --> 00:39:17,306
 know, animation or motion that
 really it's too much. And it's
 
-666
+646
 00:39:17,336 --> 00:39:20,757
 triggers a migraine. I mean,
 there's all that stuff that you
 
-667
+647
 00:39:20,757 --> 00:39:26,541
 mentioned and. Yeah. It's, you
-know, Chris is great. You
+know, uh, Chris is great. You
 
-668
+648
 00:39:26,541 --> 00:39:33,231
-know, I- I I've seen him talk,
+know, I, I I've seen him talk,
 you know, virtually and then
 
-669
+649
 00:39:33,831 --> 00:39:37,132
 before the pandemic and
 everything, and we've gotten to
 
-670
+650
 00:39:37,132 --> 00:39:39,306
 know each other and he, you
 know, he does a great job
 
-671
+651
 00:39:39,306 --> 00:39:41,480
 advocating.
 
-672
+652
 00:39:41,880 --> 00:39:44,369
 Bekah: yeah. I think, you know,
 even so a couple of years ago I
 
-673
+653
 00:39:44,369 --> 00:39:48,090
 was diagnosed with ADHD and it's
 interesting how much I didn't
 
-674
+654
 00:39:48,090 --> 00:39:50,370
 realize that impacts the things
 that I interact with and the
 
-675
+655
 00:39:50,370 --> 00:39:52,650
 ways
 
-676
+656
 00:39:52,650 --> 00:39:56,965
 that I interact with things.
 Maybe this is just a personal
 
-677
+657
 00:39:56,965 --> 00:39:59,905
 problem, but this is the
 conversation between Discord and
 
-678
+658
 00:39:59,905 --> 00:40:04,135
 Slack. For me, like I walk into
 Discord, I don't walk in there.
 
-679
+659
 00:40:04,494 --> 00:40:06,684
-I open up Discord and it's
+Um, I open up Discord and it's
 immediately just overwhelming
 
-680
+660
 00:40:06,684 --> 00:40:08,874
 and
 
-681
+661
 00:40:08,875 --> 00:40:11,514
 I don't know where to go from
 there. And then I just like
 
-682
+662
 00:40:11,844 --> 00:40:15,655
 slowly back out the door, right?
 Like there's too much going on
 
-683
+663
 00:40:15,655 --> 00:40:16,135
 for me.
 
-684
+664
 00:40:16,356 --> 00:40:19,657
 Todd: Yeah. That information
 overload happens to me as well.
 
-685
+665
 00:40:19,717 --> 00:40:28,811
-It's like Slack and, Discord
-and. There's yeah, I was
+Um, it's like Slack and, uh,
+Discord and. There's yeah, I was
 
-686
+666
 00:40:28,811 --> 00:40:32,171
-on, I was watching a, Twitch
+on, I was watching a, uh, Twitch
 stream yesterday and the chat
 
-687
+667
 00:40:32,171 --> 00:40:35,531
 was
 
-688
+668
 00:40:35,532 --> 00:40:39,882
 going off and I was just like, I
 just, I can't, I want to be able
 
-689
+669
 00:40:39,882 --> 00:40:44,112
 to kind of read the chat and I
 can't because you know it, yeah.
 
-690
+670
 00:40:44,121 --> 00:40:46,481
 The information overload is a
 big thing too.
 
-691
+671
 00:40:47,889 --> 00:40:52,929
 Bekah: So I, you know, I think,
-Your background, you talked
+um, Your background, you talked
 
-692
+672
 00:40:52,929 --> 00:40:57,400
 about your journey through this
 and it seems like you've been
 
-693
+673
 00:40:57,429 --> 00:40:59,679
 mostly self-taught then, is that
 right?
 
-694
+674
 00:41:00,586 --> 00:41:03,248
-Todd: Yeah. I started, when I
-picked up that Commodore 64
+Todd: Yeah. Um, I started, when
+I picked up that Commodore 64
 
-695
+675
 00:41:03,248 --> 00:41:05,910
 user
 
-696
+676
 00:41:05,911 --> 00:41:09,841
 manual. And just, I love to read
-and I read that. I had purchased
+and I read that I had purchased
 
-697
+677
 00:41:09,841 --> 00:41:13,771
 a
 
-698
+678
 00:41:13,771 --> 00:41:17,821
 book. It was a Learn HTML in 21
 days. And it was like a big,
 
-699
+679
 00:41:17,821 --> 00:41:21,871
 huge
 
-700
+680
 00:41:21,902 --> 00:41:26,851
 thick phone book, like manual.
 And I read through that. That's
 
-701
+681
 00:41:26,851 --> 00:41:33,242
 how I actually made my first
-website. Not that I put it
+website. Uh, not that I put it
 
-702
+682
 00:41:33,242 --> 00:41:39,632
 out on the web or anything, but
-then I- I graduated from
+then I. Um, I graduated from
 
-703
+683
 00:41:39,632 --> 00:41:41,761
 there on, I went to Geo Cities
 and Angel Fire and Tripod and
 
-704
+684
 00:41:41,761 --> 00:41:43,890
 all
 
-705
+685
 00:41:43,891 --> 00:41:46,922
 those websites, if you remember
 those websites
 
-706
+686
 00:41:46,942 --> 00:41:47,612
-Dan: Oh. Yeah.
+Dan: here. Yeah.
 
-707
+687
 00:41:47,972 --> 00:41:52,411
 Todd: and all the great, you
 know, lime green and pastel and,
 
-708
+688
 00:41:52,742 --> 00:41:56,559
 you know, fluorescent colors.
-and then, you know, It's
+Um, and then, you know, It's
 
-709
+689
 00:41:56,559 --> 00:42:00,376
 been a
 
-710
+690
 00:42:00,376 --> 00:42:04,847
 learning process the entire time
 and I love to learn. So it's one
 
-711
+691
 00:42:04,847 --> 00:42:07,456
 of those things where if I can
 pick up something in a Slack
 
-712
+692
 00:42:07,876 --> 00:42:13,427
 group or on a Discord channel,
 that's great. I've, you know, I
 
-713
+693
 00:42:13,427 --> 00:42:19,947
 keep learning every day and, you
 know, learning. Lately it's been
 
-714
+694
 00:42:19,947 --> 00:42:23,936
 learning the intricacies of the
 WCAG guidelines because there's
 
-715
+695
 00:42:23,936 --> 00:42:26,756
-so much there. and being able
-to, and I'm grateful for
+so much there. Um, and being
+able to, and I'm grateful for
 
-716
+696
 00:42:26,756 --> 00:42:29,576
 this
 
-717
+697
 00:42:29,606 --> 00:42:36,177
 being able to work on the next,
 I guess, version, which is 3.0,
 
-718
+698
 00:42:36,987 --> 00:42:41,097
 which is a few years down the
 road has been a learning process
 
-719
+699
 00:42:41,097 --> 00:42:43,091
 as well. And being a member of
-the W3C is too, and being in
+the W3C is to, and being in
 
-720
+700
 00:42:43,091 --> 00:42:45,085
 those
 
-721
+701
 00:42:45,086 --> 00:42:49,902
 meetings and. We're learning so
 much from a great group of
 
-722
+702
 00:42:49,902 --> 00:42:50,322
 people.
 
-723
+703
 00:42:50,942 --> 00:42:52,547
 Bekah: Yeah, that's awesome. I
 love that idea of just
 
-724
+704
 00:42:52,547 --> 00:42:54,152
 consistent
 
-725
+705
 00:42:54,152 --> 00:42:55,636
 learning and being open to
 learning all of the time,
 
-726
+706
 00:42:55,636 --> 00:42:57,120
 because
 
-727
+707
 00:42:57,121 --> 00:43:02,161
 I think no matter what part of
-tech or- or any industry really
+tech or, or any industry really
 
-728
+708
 00:43:02,161 --> 00:43:05,612
 that you're in the being open to
 learning new things and talking
 
-729
+709
 00:43:05,612 --> 00:43:07,697
 through things with other
 people. and understanding is,
 
-730
+710
 00:43:07,697 --> 00:43:09,782
 you know,
 
-731
+711
 00:43:09,782 --> 00:43:14,251
-that- that's what growing is
+that that's what growing is
 about. That's what is important
 
-732
+712
 00:43:14,251 --> 00:43:14,882
 to what you're doing.
 
-733
+713
 00:43:18,112 --> 00:43:23,001
 Todd: Yeah. It's, you know, even
 I've, you know, learned, I
 
-734
+714
 00:43:23,001 --> 00:43:26,722
 learned on Twitter as well, you
 know, I see something, a link to
 
-735
+715
 00:43:26,722 --> 00:43:30,262
 an article or something and I
 check it out and it's like, oh,
 
-736
+716
 00:43:30,291 --> 00:43:37,981
 well, you know, Today I learned,
 you know, and you know, I it's
 
-737
+717
 00:43:38,041 --> 00:43:40,591
 it's, you know, there was a
 quote and I'll try to find that
 
-738
+718
 00:43:40,591 --> 00:43:43,141
 quote
 
-739
+719
 00:43:43,172 --> 00:43:49,532
-because I love the quote. It had
-something to do with,
+because I love the quote. Um, it
+had something to do with, uh,
 
-740
+720
 00:43:49,652 --> 00:43:57,601
 doing something. Yeah, right
-there. "There are three
+there. Um, there are three
 
-741
+721
 00:43:57,601 --> 00:44:03,976
 things. Everyone should do every
 day. Number one is laugh. Number
 
-742
+722
 00:44:03,976 --> 00:44:09,407
 two is think, spend some time in
 thought number three, you should
 
-743
+723
 00:44:09,407 --> 00:44:11,221
 have your emotions, you to
 tears. If you laugh, think and
 
-744
+724
 00:44:11,221 --> 00:44:13,035
 cry,
 
-745
-00:44:13,036 --> 00:44:15,256
-that's a heck of a day." And
-that was just like the best
+725
+00:44:13,036 --> 00:44:17,476
+that's a heck of a day. And that
+was just like the best quote. I
 
-746
-00:44:15,256 --> 00:44:17,476
-quote. I
-
-747
+726
 00:44:17,476 --> 00:44:21,916
 think I've seen it in a long,
 long time. I even add to that
 
-748
+727
 00:44:21,916 --> 00:44:23,137
 learning one thing a day.
 
-749
+728
 00:44:23,873 --> 00:44:27,838
 Bekah: Yeah. I love that so
 much. I didn't think, you know,
 
-750
+729
 00:44:27,869 --> 00:44:30,133
 learning things on Twitter for
 me has been really big as well.
 
-751
+730
 00:44:30,133 --> 00:44:32,397
 Even
 
-752
+731
 00:44:32,398 --> 00:44:36,239
 when somebody just has a small
 portion of a tweet at, for some
 
-753
+732
 00:44:36,239 --> 00:44:39,329
 reason, it sticks in my mind
 better than if I read a whole
 
-754
+733
 00:44:39,329 --> 00:44:42,418
 article on that thing. And I
 think maybe because there's some
 
-755
+734
 00:44:42,418 --> 00:44:44,278
 type of personal connection
 there. Oh, I remember that
 
-756
+735
 00:44:44,278 --> 00:44:46,138
 person
 
-757
+736
 00:44:46,139 --> 00:44:48,929
 said this one thing and it, you
 know, it might be some type of
 
-758
+737
 00:44:49,199 --> 00:44:53,338
 coding tip or whatever, but I
 think that just be just sharing
 
-759
+738
 00:44:53,338 --> 00:44:57,568
-that knowledge or- or it's Hey,
+that knowledge or, or it's Hey,
 I know that I could ask that
 
-760
+739
 00:44:57,568 --> 00:45:02,849
 person. That question can be
 really helpful in finding the
 
-761
+740
 00:45:02,849 --> 00:45:07,768
 answers to things or having more
-confidence in- in being, being
+confidence in, in being, being
 
-762
+741
 00:45:07,798 --> 00:45:09,298
 able to ask questions.
 
-763
-00:45:10,208 --> 00:45:13,928
-Todd: Yeah. It's- it's, you
-know, I use Twitter as a tool to
+742
+00:45:10,208 --> 00:45:17,648
+Todd: Yeah. It's it's, you know,
+I use Twitter as a tool to say,
 
-764
-00:45:13,928 --> 00:45:17,648
-say,
-
-765
+743
 00:45:18,699 --> 00:45:22,358
-you know, oh, you- you mentioned
+you know, oh, you, you mentioned
 something about the new, you
 
-766
+744
 00:45:22,358 --> 00:45:25,388
-know, whatever coming- coming
-down the line. I've got a
+know, um, whatever coming,
+coming down the line. I've got a
 
-767
+745
 00:45:25,388 --> 00:45:28,418
 couple
 
-768
+746
 00:45:28,418 --> 00:45:33,349
-of questions for you.  You know,
-Hey, can I, you know, DM
+of questions for you. Um, you
+know, Hey, can I, you know, DM
 
-769
+747
 00:45:33,349 --> 00:45:36,998
 you, I got a question I need to
 ask and it reaching out to
 
-770
+748
 00:45:36,998 --> 00:45:40,869
 somebody to, or to the person
 that, you know, had that tweet
 
-771
+749
 00:45:41,259 --> 00:45:44,243
-it's, and, and Most you know, I
-don't think I've ever had
+it's, uh, and, and Mo you know,
+I don't think I've ever had
 
-772
+750
 00:45:44,243 --> 00:45:47,227
 anybody
 
-773
+751
 00:45:47,228 --> 00:45:48,743
 go no I don't want to tell you
 the answer or anything like
 
-774
+752
 00:45:48,743 --> 00:45:50,258
 that.
 
-775
+753
 00:45:50,438 --> 00:45:55,418
-So, yeah, it's- it's always
-been, you know, Hey, you
+So, um, yeah, it's, uh, it's
+always been, you know, Hey, you
 
-776
+754
 00:45:55,418 --> 00:46:00,074
 know, I've got this question.
 People are more than, you know,
 
-777
+755
 00:46:00,943 --> 00:46:04,304
 more than welcome to, to answer
 those questions.
 
-778
+756
 00:46:05,634 --> 00:46:07,943
 Bekah: Yeah. And I think that's
 so big, especially when we're
 
-779
+757
 00:46:07,943 --> 00:46:11,244
 talking about this topic. If you
 don't know it is okay to ask
 
-780
+758
 00:46:11,244 --> 00:46:13,208
 somebody, Or ask someone just to
-direct you- you know, I'm
+direct you, you know, I'm
 
-781
+759
 00:46:13,208 --> 00:46:15,172
 getting
 
-782
+760
 00:46:15,173 --> 00:46:17,003
 started in this. It's not been a
-focus. How- how do I get
+focus. How, how do I get
 
-783
+761
 00:46:17,003 --> 00:46:18,833
 started?
 
-784
+762
 00:46:18,833 --> 00:46:20,798
 What do I do? And dropped a lot
 of great resources here, but,
 
-785
+763
 00:46:20,798 --> 00:46:22,763
 you
 
-786
+764
 00:46:22,764 --> 00:46:26,333
-know, I think in- in every place
+know, I think in, in every place
 and space we should, we should
 
-787
+765
 00:46:26,333 --> 00:46:27,893
 know that it is okay to ask
 about these things. And it's
 
-788
+766
 00:46:27,893 --> 00:46:29,453
 good to do
 
-789
+767
 00:46:29,454 --> 00:46:29,813
 that.
 
-790
+768
 00:46:30,429 --> 00:46:32,393
 Todd: Yeah, definitely. You
 know, I tell people, you know,
 
-791
+769
 00:46:32,393 --> 00:46:34,357
 if you
 
-792
+770
 00:46:34,358 --> 00:46:35,738
 have a question about
 accessibility, I'll do my best
 
-793
+771
 00:46:35,738 --> 00:46:37,118
 to
 
-794
+772
 00:46:37,119 --> 00:46:38,903
 answer. If I can't answer it, I
 will find somebody that can, or
 
-795
+773
 00:46:38,903 --> 00:46:40,687
 I
 
-796
+774
 00:46:40,688 --> 00:46:42,103
 will look it up and see if I can
 get you the answer, because
 
-797
+775
 00:46:42,103 --> 00:46:43,518
 it's,
 
-798
+776
 00:46:43,518 --> 00:46:45,490
-it's- it's that little, you
+it's, it's that little, you
 know, it's that being helpful?
 
-799
+777
 00:46:45,490 --> 00:46:47,462
 And
 
-800
+778
 00:46:47,463 --> 00:46:50,364
 again, making, you know, making
 sure that person has that
 
-801
+779
 00:46:50,364 --> 00:46:54,594
 information for me anyways, is,
 is big. And, you know, just
 
-802
+780
 00:46:54,594 --> 00:46:57,684
 saying, you know, feeling good
 about being able to help people.
 
-803
+781
 00:46:59,293 --> 00:47:01,364
 Bekah: Yeah, for sure. That's so
 important.
 
-804
+782
 00:47:01,364 --> 00:47:02,224
 Dan: I love it.
 
-805
-00:47:03,773 --> 00:47:05,295
-Bekah: Todd we have about one, a
-time for one more question. And,
+783
+00:47:03,773 --> 00:47:06,818
+Bekah: we have about one a time
+for one more question. And, and
 
-806
-00:47:05,295 --> 00:47:06,817
-and
-
-807
+784
 00:47:06,818 --> 00:47:07,958
 I'd love to hear what you have
 to say about this. Cause I know
 
-808
+785
 00:47:07,958 --> 00:47:09,098
 that
 
-809
+786
 00:47:09,099 --> 00:47:12,699
 there still are companies out
-there that are, have some
+there that are, um, have some
 
-810
+787
 00:47:12,699 --> 00:47:18,398
 pushback about paying for making
 things accessible, or they say
 
-811
+788
 00:47:18,398 --> 00:47:20,588
 like, well, that's not our focus
 right now because we don't have
 
-812
+789
 00:47:20,588 --> 00:47:22,628
 the time or the money to do
 that. How would you that
 
-813
+790
 00:47:22,628 --> 00:47:24,668
 situation? Or,
 
-814
+791
 00:47:24,818 --> 00:47:26,228
 you know, maybe if you were a
 developer consulting on that,
 
-815
+792
 00:47:26,228 --> 00:47:27,638
 you
 
-816
+793
 00:47:27,639 --> 00:47:30,398
 know, how would you kind of
-convince them that this- this
+convince them that this, this
 
-817
+794
 00:47:30,398 --> 00:47:31,179
 should be a priority?
 
-818
+795
 00:47:31,643 --> 00:47:36,463
 Todd: Okay. Funny. You mentioned
 that. Cause I wrote a article,
 
-819
+796
 00:47:36,824 --> 00:47:42,164
-about that and it's on smashing
-magazine. So I'll get
+uh, about that and it's on
+smashing magazine. So I'll get
 
-820
+797
 00:47:42,164 --> 00:47:46,981
 that. Link to you as well. It's
 a very tricky slope sometimes.
 
-821
+798
+00:47:46,981 --> 00:47:51,798
+Um,
+
+799
 00:47:51,858 --> 00:47:55,608
 you know, I've heard people for
 instance say, well, you don't
 
-822
+800
 00:47:55,608 --> 00:48:00,534
 want to get sued. And that kind
 of. Perks up stakeholders ears
 
-823
+801
 00:48:00,534 --> 00:48:03,353
 and says, oh, you know, well, I
 guess we're going to have to do
 
-824
+802
 00:48:03,353 --> 00:48:14,934
-this. Me. I use real world
+this me. I use real world
 examples of, for instance, I ran
 
-825
+803
 00:48:14,934 --> 00:48:21,083
-into a stakeholder on a project.
+into a stakeholder on a project
 and I said, we've got to make
 
-826
+804
 00:48:21,083 --> 00:48:24,054
 sure accessibility is done from
 the very beginning of the
 
-827
+805
 00:48:24,054 --> 00:48:27,773
 project. He turned to me and
 said, we don't have disabled
 
-828
+806
 00:48:27,773 --> 00:48:30,503
 users. I in turn said to him,
 you're wearing eyeglasses,
 
-829
+807
 00:48:30,503 --> 00:48:33,233
 that's
 
-830
+808
 00:48:33,233 --> 00:48:38,454
 an assistive technology and he
 kind of perked up, but I'd,
 
-831
+809
 00:48:38,454 --> 00:48:40,928
 hadn't convinced him. So the,
 you know, there's some people
 
-832
+810
 00:48:40,928 --> 00:48:43,402
 that
 
-833
+811
 00:48:43,403 --> 00:48:47,934
 can be very stubborn. So I went
 as far as to say, you know,
 
-834
+812
 00:48:48,534 --> 00:48:50,754
 somebody's working. You know,
 using your product, they can
 
-835
+813
 00:48:50,754 --> 00:48:52,974
 have
 
-836
+814
 00:48:52,974 --> 00:48:55,554
 a broken arm, it could be a
 situational disability. They
 
-837
+815
 00:48:55,563 --> 00:48:58,224
 could have a broken arm. They
 could be at home working with a
 
-838
+816
 00:48:58,224 --> 00:49:02,094
 child on their lap. That's very
 fussy. I've been there a long
 
-839
+817
 00:49:02,094 --> 00:49:05,403
 time ago. I know that feeling
 and I, you know, I know Bekah,
 
-840
+818
 00:49:05,403 --> 00:49:08,712
 you're
 
-841
+819
 00:49:08,713 --> 00:49:10,753
 a parent. I don't know if you're
 a parent, Dan, but.
 
-842
+820
 00:49:10,853 --> 00:49:11,253
-Dan: Hell yeah.
+Dan: yeah.
 
-843
+821
 00:49:11,753 --> 00:49:15,264
-Todd: Yeah- Yeah. So you both
+Todd: Yeah. Yeah. So you both
 know that, you know, you have a
 
-844
+822
 00:49:15,264 --> 00:49:18,563
 child on your lap and they're
 fussy, you know, and you're
 
-845
+823
 00:49:18,563 --> 00:49:22,164
 trying to answer an email or
 something. It's very difficult.
 
-846
+824
 00:49:22,164 --> 00:49:26,408
 So, you know, getting teams on
 board is another thing too,
 
-847
+825
 00:49:26,408 --> 00:49:30,652
 where
 
-848
+826
 00:49:30,684 --> 00:49:35,918
 getting somebody. A person
 dedicated to doing accessibility
 
-849
+827
 00:49:35,918 --> 00:49:39,338
 on the design side, on the
 development side, on the
 
-850
+828
 00:49:39,338 --> 00:49:45,009
 marketing side. That helps too.
 But the main thing is getting
 
-851
+829
 00:49:45,009 --> 00:49:47,604
 stakeholders on board. If you
 can get a stakeholder on board,
 
-852
+830
 00:49:47,604 --> 00:49:50,199
 then
 
-853
+831
 00:49:50,318 --> 00:49:52,703
-it should be much- much easier
+it should be much, much easier
 to get the entire organization
 
-854
+832
 00:49:52,703 --> 00:49:55,088
 on
 
-855
+833
 00:49:55,088 --> 00:49:55,498
 board.
 
-856
+834
 00:49:57,268 --> 00:49:58,433
 Bekah: Yeah, that's great. I
 love that. You know, it all
 
-857
+835
 00:49:58,433 --> 00:49:59,598
 comes down
 
-858
+836
 00:49:59,599 --> 00:50:03,228
 to listening and being
 open-minded right. If we work
 
-859
+837
 00:50:03,228 --> 00:50:05,238
 towards understanding each
 other, then we can all do a
 
-860
+838
 00:50:05,238 --> 00:50:07,248
 whole lot
 
-861
+839
 00:50:07,248 --> 00:50:09,139
 more to improve things for
 everyone.
 
-862
+840
 00:50:10,478 --> 00:50:15,188
 Todd: Yeah, definitely.
 Definitely. Yep. I've heard it,
 
-863
+841
 00:50:15,998 --> 00:50:19,268
 I've heard it before. We don't
 have the budget, you know, we'll
 
-864
+842
 00:50:19,268 --> 00:50:26,418
 get to it after launch. Well,
 that brings me back to. Yep. If
 
-865
+843
 00:50:26,418 --> 00:50:28,998
 you do everything from the
 beginning, you will have the
 
-866
+844
 00:50:28,998 --> 00:50:33,108
 money for it and you know, it
 will be less stressed, so, yeah.
 
-867
+845
 00:50:33,148 --> 00:50:35,188
 Dan: don't need to pay for it.
 Find the budget to pay for a
 
-868
+846
 00:50:35,188 --> 00:50:38,454
 whole round of. You know,
 auditing and stuff.
 
-869
+847
 00:50:39,208 --> 00:50:45,298
 Todd: Right. Yeah. And auditing.
 So I'll use an example of a
 
-870
+848
 00:50:45,298 --> 00:50:53,664
 company that got sued and what
 they could have. What they could
 
-871
+849
 00:50:53,664 --> 00:50:55,643
 have spent just with, you know,
 doing it from the beginning,
 
-872
+850
 00:50:55,643 --> 00:50:57,622
 they
 
-873
+851
 00:50:57,623 --> 00:51:00,713
 ended up paying seven figures
 for an audit. So that should
 
-874
+852
 00:51:00,713 --> 00:51:03,803
 tell you
 
-875
+853
 00:51:03,804 --> 00:51:05,634
 something about that process.
 
-876
+854
 00:51:06,099 --> 00:51:07,149
 Bekah: Right. And it shouldn't
 ever have to come to that.
 
-877
+855
 00:51:07,149 --> 00:51:08,199
 That's
 
-878
+856
 00:51:08,648 --> 00:51:10,989
-know, absolutely ridiculous.
+know, absolutely ridiculous,
 
-879
+857
 00:51:11,494 --> 00:51:11,793
-Todd: Yeah.
+Todd: yeah.
 
-880
+858
 00:51:12,728 --> 00:51:14,768
 Bekah: But I'm so glad that you
 were here today to talk us
 
-881
+859
 00:51:14,768 --> 00:51:17,228
 through this and drop all of
 these great resources. And I
 
-882
+860
 00:51:17,228 --> 00:51:19,283
 really hope that, you know, it
 helps people who are listening
 
-883
+861
 00:51:19,283 --> 00:51:21,338
 to
 
-884
+862
 00:51:22,059 --> 00:51:24,878
 work through the stuff. And to
 know that it's okay to ask
 
-885
+863
 00:51:24,878 --> 00:51:30,233
 questions. And to Grow and learn
-more all the time. So we'll
+more all the time. Um, so we'll
 
-886
+864
 00:51:30,233 --> 00:51:33,563
 make sure that we drop all those
 links in the show notes. And
 
-887
+865
 00:51:33,713 --> 00:51:35,634
 thanks so much for being here
 with us today. Todd
 
-888
+866
 00:51:36,474 --> 00:51:37,134
 Todd: Well, thank you.
 
-889
+867
 00:51:37,173 --> 00:51:38,074
 Dan: Really appreciate it too.
 
-890
+868
 00:51:38,483 --> 00:51:39,804
 Todd: Yeah. Thank you both for
 having me
 
-891
+869
 00:51:40,844 --> 00:51:41,483
 Bekah: Bye.
 
-892
+870
 00:51:41,824 --> 00:51:44,023
-Dan: Alright, bye Todd.
+Dan: alright, bye Todd.
 
-893
+871
 00:51:44,684 --> 00:51:44,873
 Todd: Bye
 
-894
+872
 00:51:46,646 --> 00:51:48,956
 Dan: Thank you for listening to
 this episode of the Virtual
 
-895
+873
 00:51:48,956 --> 00:51:52,476
 Coffee Podcast. This episode was
 produced by Dan Ott and Bekah
 
-896
+874
 00:51:52,496 --> 00:51:55,657
 Hawrot Weigel, and was edited by
 Andy Bonjour at GoodDay
 
-897
+875
 00:51:55,677 --> 00:51:58,467
 Communications. If you have
 questions or comments, you can
 
-898
+876
 00:51:58,467 --> 00:52:01,706
 hit us up on Twitter at
 VirtualCoffeeIO or email us at
 
-899
+877
 00:52:01,706 --> 00:52:04,136
 podcast@virtualcoffee.io. You
 can find the show notes, sign up
 
-900
+878
 00:52:04,136 --> 00:52:06,566
 for
 
-901
+879
 00:52:06,567 --> 00:52:08,907
 our newsletter, check out any of
 our other resources on our
 
-902
+880
 00:52:08,907 --> 00:52:11,141
 website at virtualcoffee.io. And
 of course join us for our
 
-903
+881
 00:52:11,141 --> 00:52:13,375
 Virtual
 
-904
+882
 00:52:13,376 --> 00:52:16,226
 Coffee Chats every Tuesday at 9
-AM Eastern and Thursday at
+am Eastern and Thursday at
 
-905
+883
 00:52:16,226 --> 00:52:18,024
-12 PM Eastern Please subscribe
+12 pm Eastern Please subscribe
 to our podcast and be
 
-906
+884
 00:52:18,024 --> 00:52:19,822
 sure to
 
-907
+885
 00:52:19,822 --> 00:52:22,882
 leave us a review. Thanks for
 listening and we'll see you next
 
-908
+886
 00:52:22,882 --> 00:52:23,213
 week!
