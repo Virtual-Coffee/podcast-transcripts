@@ -31,4272 +31,4272 @@ their
 coding journey. And they're
 here, on this podcast, sharing
 
-9
+8
 00:00:24,000 --> 00:00:26,700
 their stories and what they've
 learned. And we're here to share
 
-11
+9
 00:00:26,700 --> 00:00:30,509
 it with you. Here with me today
 is my cohost, Dan.
 
-12
+10
 00:00:31,347 --> 00:00:34,000
 Dan Ott: Thanks, Bekah. Today,
 we're talking with Ayu Adiati.
 
-13
+11
 00:00:34,000 --> 00:00:37,226
 Ayu's originally from Indonesia
 and now based in The
 
-14
+12
 00:00:37,226 --> 00:00:39,086
 Netherlands. She's a
 
-15
+13
 00:00:39,087 --> 00:00:42,896
 self-taught front-end developer
 and prolific technical blogger.
 
-16
+14
 00:00:43,256 --> 00:00:46,286
 And she's on her way to break
 into tech after being a
 
-17
+15
 00:00:46,286 --> 00:00:48,191
 stay-at-home mom for her
 daughter for the past four
 
-19
+16
 00:00:48,191 --> 00:00:53,300
 years. We talked with Ayu about
 the impact of community, being a
 
-20
+17
 00:00:53,300 --> 00:00:56,000
 blogger while she's learning web
 development, and her recent
 
-21
+18
 00:00:56,000 --> 00:00:57,237
 experiences with burnout.
 
-22
+19
 00:00:58,072 --> 00:01:00,591
 Bekah: We start every episode of
 the podcast like we start every
 
-23
+20
 00:01:00,591 --> 00:01:03,292
 Virtual Coffee. We introduce
 ourselves with our name, where
 
-24
+21
 00:01:03,292 --> 00:01:05,436
 we're from, what we do, and a
 random check-in question.
 
-26
+22
 00:01:07,000 --> 00:01:11,300
 Today's random question is, if
 you could teleport to anywhere
 
-27
+23
 00:01:11,300 --> 00:01:11,931
 for 15
 
-28
+24
 00:01:11,932 --> 00:01:18,059
 minutes, where would you go? We
 hope you enjoy this episode.
 
-29
+25
 00:01:23,500 --> 00:01:28,055
 Hey, I'm Bekah. I am a front-end
 developer from a small town in
 
-30
+26
 00:01:28,055 --> 00:01:33,975
 Ohio. And if I could teleport to
 anywhere for 15 minutes
 
-31
+27
 00:01:33,975 --> 00:01:40,500
 [silence] I don't -- I like --
 
-32
+28
 00:01:40,500 --> 00:01:44,156
 I can't decide if I want like a
 nice, beautiful location
 
-33
+29
 00:01:44,156 --> 00:01:49,085
 or if I want, like, really good
 food. I -- well, I don't know. I
 
-34
+30
 00:01:49,085 --> 00:01:51,695
 don't have a really good
 specific place. But I would go-
 
-35
+31
 00:01:51,695 --> 00:01:51,800
 Dan: Ooh.
 
-36
+32
 00:01:51,700 --> 00:01:55,000
 Bekah: -somewhere that has a
 beautiful location that has good
 
-37
+33
 00:01:55,000 --> 00:01:58,475
 food and drink. So [chuckles],
 that's my answer.
 
-38
+34
 00:01:59,700 --> 00:02:03,600
 Dan: I -- man, that just made me
 start thinking like, "Okay,
 
-39
+35
 00:02:03,600 --> 00:02:05,490
 well, now I need to know the
 rules." Can you take things with
 
-40
+36
 00:02:05,490 --> 00:02:06,480
 you when you teleport back?
 
-41
+37
 00:02:07,766 --> 00:02:08,966
 Bekah: [Chuckles] You can do
 whatever you want.
 
-42
+38
 00:02:09,841 --> 00:02:10,350
 Dan: [Laughs] Okay.
 
-43
+39
 00:02:10,586 --> 00:02:10,825
 Bekah: You're a universe [??]
 [laughs].
 
-44
+40
 00:02:10,920 --> 00:02:14,360
 Dan: I mean, that just changed
 my whole -- alright. Hi. I'm --
 
-45
+41
 00:02:14,420 --> 00:02:18,000
 hi, I'm Dan. I am from Lakewood,
 Ohio, I do front-end
 
-46
+42
 00:02:18,000 --> 00:02:19,500
 development. If I could --
 
-47
+43
 00:02:19,500 --> 00:02:23,341
 so, I was going to say something
 like, somewhere, maybe
 
-48
+44
 00:02:23,341 --> 00:02:27,360
 like the top of Mount Everest or
 somewhere where it's generally
 
-49
+45
 00:02:27,360 --> 00:02:31,920
 like, not great to be, or the --
 it's really hard to get to, you
 
-50
+46
 00:02:31,920 --> 00:02:33,991
 know? But it would be cool to
 just like be there for 15
 
-51
+47
 00:02:33,991 --> 00:02:37,191
 minutes, kind of see everything,
 whatever. And by the time the
 
-52
+48
 00:02:37,191 --> 00:02:40,411
 15 minutes are up, you know,
 oxygen deprivation is probably
 
-53
+49
 00:02:40,411 --> 00:02:44,431
 setting in, I'm pretty cold, so
 I'm ready to go home. But you
 
-54
+50
 00:02:44,431 --> 00:02:48,996
 said food, which made me think,
 "Okay, well, you know, can you
 
-55
+51
 00:02:48,996 --> 00:02:51,700
 take things with you?" And in --
 so, maybe, my answer is more
 
-56
+52
 00:02:51,700 --> 00:02:53,975
 like ... you know, Fort Knox
 [laughs].
 
-57
+53
 00:02:54,020 --> 00:02:54,411
 Bekah: Vaults of a bank?
 
-58
+54
 00:02:55,225 --> 00:02:57,500
 Dan: Yeah, vaults of a bank
 [laughs]. Right.
 
-59
+55
 00:02:57,500 --> 00:02:59,125
 Somewhere other, you know,
 
-60
+56
 00:02:59,126 --> 00:03:00,115
 other secret -- and now I'm
 thinking, oh, maybe there's
 
-61
+57
 00:03:00,115 --> 00:03:01,104
 like-
 
-62
+58
 00:03:01,436 --> 00:03:05,366
 like that secret room in the
 Library of Congress that was in,
 
-63
+59
 00:03:05,395 --> 00:03:07,030
 you know, one of the "National
 Treasure" books, you
 
-64
+60
 00:03:07,030 --> 00:03:08,665
 know? Or maybe
 
-65
+61
 00:03:08,695 --> 00:03:12,985
 "National Treasure" movies.
 Somewhere to, like, find a bunch
 
-66
+62
 00:03:12,985 --> 00:03:17,181
 of secrets or something, you
 know? Anyway, I'm going to stick
 
-67
+63
 00:03:17,181 --> 00:03:19,912
 with my original answer,
 officially, as Mount Everest.
 
-68
+64
 00:03:19,912 --> 00:03:21,562
 And we'll -- we can move on from
 there [laughs].
 
-69
+65
 00:03:24,317 --> 00:03:26,836
 Ayu Adiati: Hi, I'm Ayu. And I'm
 front-end developer from
 
-70
+66
 00:03:26,836 --> 00:03:29,355
 Indonesia,
 
-71
+67
 00:03:29,387 --> 00:03:34,546
 originally, but based in
 Netherlands now. And if I can
 
-72
+68
 00:03:34,637 --> 00:03:40,000
 teleport myself for 15 minutes,
 I would split it into two. I
 
-73
+69
 00:03:40,000 --> 00:03:40,700
 would visit-
 
-74
+70
 00:03:40,700 --> 00:03:41,000
 Dan: Cool.
 
-75
+71
 00:03:41,000 --> 00:03:45,401
 Ayu: -my sister in Australia and
 my brother in New Zealand.
 
-76
+72
 00:03:46,062 --> 00:03:48,792
 That would be nice. Because we
 haven't seen each other for ...
 
-77
+73
 00:03:49,542 --> 00:03:50,981
 almost three years now?
 
-78
+74
 00:03:51,231 --> 00:03:51,681
 Dan: Oh, wow.
 
-79
+75
 00:03:51,681 --> 00:03:52,426
 Ayu: So, yeah.
 
-80
+76
 00:03:52,426 --> 00:03:52,967
 Bekah: Wow.
 
-81
+77
 00:03:53,622 --> 00:03:55,842
 Dan: Yeah. Well, that's- that's
 a good answer. I live too close
 
-82
+78
 00:03:55,842 --> 00:03:56,711
 to all of my family, so [laughs]
 --
 
-83
+79
 00:03:58,426 --> 00:04:01,606
 Bekah: Yeah. My brother lives
 down the street. Literal-
 
-84
+80
 00:04:01,606 --> 00:04:04,000
 literally have run to my
 parents' house and to my other
 
-85
+81
 00:04:04,000 --> 00:04:05,206
 brother's house. So --
 
-86
+82
 00:04:06,081 --> 00:04:06,352
 Ayu: That's nice.
 
-87
+83
 00:04:06,676 --> 00:04:07,127
 Bekah: Not that far.
 
-88
+84
 00:04:07,211 --> 00:04:10,391
 Dan: No, it's- it's nice. I --
 we- we do it on purpose. But,
 
-89
+85
 00:04:10,391 --> 00:04:12,800
 you know, it's ... fine. I could
 take 15 minutes and probably get
 
-90
+86
 00:04:12,800 --> 00:04:13,461
 away from all of them [laughs].
 
-91
+87
 00:04:14,981 --> 00:04:17,900
 Bekah: Yeah, I like the take up.
 Splitting. That's -- that was
 
-92
+88
 00:04:17,900 --> 00:04:18,161
 good.
 
-93
+89
 00:04:18,552 --> 00:04:19,889
 Dan: Yeah. Yeah. There's a lot
 of- a lot of --
 
-94
+90
 00:04:20,019 --> 00:04:22,384
 Bekah: Welcome, Ayu. We are very
 happy to have you here with us.
 
-95
+91
 00:04:22,384 --> 00:04:25,000
 And for everyone
 
-96
+92
 00:04:25,000 --> 00:04:27,809
 who's listening, I just wanna
 say a special thank you
 
-97
+93
 00:04:27,809 --> 00:04:32,399
 to Ayu. Because she's doing this
 super late, so we can make
 
-98
+94
 00:04:32,399 --> 00:04:35,607
 sure that the time zones matched
 up, and we could get her on
 
-99
+95
 00:04:35,608 --> 00:04:37,918
 here. So we are very, very happy
 that this works out.
 
-100
+96
 00:04:39,269 --> 00:04:40,468
 Ayu: Thank you for having me.
 
-101
+97
 00:04:41,848 --> 00:04:44,428
 Bekah: We always like to start
 with everyone's origin
 
-102
+98
 00:04:44,428 --> 00:04:46,378
 story, kind of how they got to
 this point where they're
 
-103
+99
 00:04:46,378 --> 00:04:48,328
 learning tech
 
-104
+100
 00:04:48,329 --> 00:04:52,459
 or in tech. So, if you could,
 just give us your background.
 
-105
+101
 00:04:53,978 --> 00:05:01,853
 Ayu: Well, I have a hobby as a
 photography. And it was starting
 
-106
+102
 00:05:02,213 --> 00:05:07,947
 from my photography hobby. And I
 did the freelancer for stock
 
-107
+103
 00:05:07,947 --> 00:05:10,467
 photography. And then I have my
 daughter, and then when she
 
-108
+104
 00:05:10,467 --> 00:05:12,987
 started, like,
 
-109
+105
 00:05:13,047 --> 00:05:18,206
 one and half year, and -- it
 becomes like really fun. Because
 
-110
+106
 00:05:18,206 --> 00:05:23,802
 she start to, you know, be aware
 of the camera. So, yeah.
 
-111
+107
 00:05:23,831 --> 00:05:26,771
 It's- it's from there. And then
 I thought it would be nice if I
 
-112
+108
 00:05:26,771 --> 00:05:30,672
 have like a blog or something,
 like, to have this personal
 
-113
+109
 00:05:30,672 --> 00:05:32,892
 documentation. So I was like,
 browsing anything about
 
-114
+110
 00:05:32,892 --> 00:05:35,112
 WordPress or
 
-115
+111
 00:05:35,112 --> 00:05:41,802
 any blogging things. But then, I
 bumped into FreeCodeCamp and
 
-116
+112
 00:05:41,802 --> 00:05:48,911
 then I just tried it. And from
 there, I just like it. I mean,
 
-117
+113
 00:05:50,081 --> 00:05:53,700
 like, there's no going back from
 there. It's like, I want to know
 
-119
+114
 00:05:53,700 --> 00:05:58,601
 more, and more, and more. That's
 how I finally got into coding.
 
-120
+115
 00:06:00,752 --> 00:06:02,069
 Bekah: I love that. It's always
 so great to hear how people
 
-121
+116
 00:06:02,069 --> 00:06:03,386
 discover it,
 
-122
+117
 00:06:03,387 --> 00:06:07,557
 like, through other things that
 they've enjoyed doing. And then
 
-123
+118
 00:06:07,557 --> 00:06:10,000
 it just kind of becomes
 something that you want to do
 
-125
+119
 00:06:10,000 --> 00:06:14,966
 more and more of. So you said --
 you mentioned FreeCodeCamp. Is
 
-126
+120
 00:06:14,966 --> 00:06:18,627
 that -- how long did you stay in
 FreeCodeCamp, or are you
 
-127
+121
 00:06:18,627 --> 00:06:21,687
 still doing FreeCodeCamp, or,
 you know, what are the resources
 
-128
+122
 00:06:21,687 --> 00:06:23,076
 that you found really helpful?
 
-129
+123
 00:06:23,612 --> 00:06:26,011
 Ayu: I actually not. I mean,
 like, for something that I
 
-130
+124
 00:06:26,011 --> 00:06:28,410
 learned for
 
-131
+125
 00:06:28,411 --> 00:06:30,691
 the first time, I'm more an
 audio-visual person. So I like
 
-132
+126
 00:06:30,691 --> 00:06:32,971
 video more.
 
-133
+127
 00:06:32,971 --> 00:06:37,291
 And -- so, a friend of mine, she
 was like, "Why don't you try
 
-134
+128
 00:06:37,291 --> 00:06:40,528
 Udemy?" So, I start with Udemy.
 And I like it. I mean, like,
 
-135
+129
 00:06:40,528 --> 00:06:43,765
 when-
 
-136
+130
 00:06:43,817 --> 00:06:45,622
 when I see, you know, like, I
 see and then I- I code along
 
-137
+131
 00:06:45,622 --> 00:06:47,427
 with it, then
 
-138
+132
 00:06:47,637 --> 00:06:53,591
 it's just clicked. And -- but I
 still use FreeCodeCamp to get
 
-139
+133
 00:06:53,622 --> 00:06:56,891
 the certifications. Like, you
 don't have to finish all the
 
-140
+134
 00:06:56,891 --> 00:07:00,341
 modules, right? And you can just
 jump into, like, make all the
 
-141
+135
 00:07:00,341 --> 00:07:04,331
 projects that- that are needed
 and finish
 
-142
+136
 00:07:04,382 --> 00:07:10,161
 certification. I did the first
 certification of ... web
 
-143
+137
 00:07:10,232 --> 00:07:14,700
 responsive dis- design, I think?
 Yeah, it was it. And-
 
-144
+138
 00:07:14,700 --> 00:07:15,700
 Dan: Mm-hmm.
 
-145
+139
 00:07:15,700 --> 00:07:18,206
 Ayu: -yeah. Since then, I use
 
-146
+140
 00:07:18,266 --> 00:07:24,386
 more video from YouTube or
 something like that. But after
 
-147
+141
 00:07:24,387 --> 00:07:29,547
 I understand something, then I
 can use the other resources like
 
-148
+142
 00:07:29,726 --> 00:07:34,826
 blog articles or something like
 that. Yeah. But for the
 
-149
+143
 00:07:34,826 --> 00:07:35,817
 first time, it's always video.
 
-150
+144
 00:07:38,137 --> 00:07:40,596
 Bekah: I think that's great. And
 it's always interesting to hear
 
-151
+145
 00:07:40,596 --> 00:07:43,117
 the different approaches that
 people take, because I know for
 
-152
+146
 00:07:43,117 --> 00:07:47,557
 me, I can't watch the videos at
 first. I'm the opposite. So I
 
-153
+147
 00:07:47,557 --> 00:07:51,700
 need to read through it and then
 I can watch the videos. I was
 
-154
+148
 00:07:51,700 --> 00:07:52,257
 like, "What is
 
-155
+149
 00:07:52,257 --> 00:07:56,007
 happening here?" So it's -- and
 that's just another reason why
 
-156
+150
 00:07:56,036 --> 00:07:57,791
 content creation in all forms
 can be so great. Because
 
-157
+151
 00:07:57,791 --> 00:07:59,546
 everybody
 
-158
+152
 00:07:59,547 --> 00:08:02,937
 learns differently. And those
 different approaches, one
 
-159
+153
 00:08:02,937 --> 00:08:06,716
 works for me, and one works for
 you, and something different
 
-160
+154
 00:08:06,716 --> 00:08:10,166
 works for somebody else. And so
 it's great to be able to have
 
-161
+155
 00:08:10,166 --> 00:08:10,706
 that out there.
 
-162
+156
 00:08:11,122 --> 00:08:11,961
 Ayu: Yeah. True.
 
-163
+157
 00:08:12,577 --> 00:08:17,817
 Bekah: So, Ayu, I think that I
 may have known you longer than
 
-164
+158
 00:08:17,918 --> 00:08:19,617
 anybody else at Virtual Coffee.
 
-165
+159
 00:08:19,737 --> 00:08:20,817
 Ayu: Yeah, I think so, too
 [chuckles].
 
-166
+160
 00:08:21,877 --> 00:08:25,627
 Bekah: Because I think, I- I- I
 met you shortly after I started
 
-167
+161
 00:08:25,627 --> 00:08:27,247
 learning to code, I think. We
 were both doing -- we were both
 
-168
+162
 00:08:27,247 --> 00:08:33,067
 in the group Moms Can Code, and
 that's how we met.
 
-169
+163
 00:08:33,097 --> 00:08:35,700
 Bekah: And we were both learning
 to code with kids at home. And-
 
-170
+164
 00:08:35,700 --> 00:08:36,000
 Ayu: Yeah.
 
-171
+165
 00:08:36,000 --> 00:08:38,707
 Bekah: -as we all know [Bekah
 and Ayu laugh], that
 
-172
+166
 00:08:38,717 --> 00:08:40,000
 can be a challenge.
 
-173
+167
 00:08:40,000 --> 00:08:40,300
 Ayu: Yeah.
 
-174
+168
 00:08:42,000 --> 00:08:44,143
 Bekah: So- so, what- what was it
 like for -- what
 
-175
+169
 00:08:44,143 --> 00:08:46,182
 has it been like for you?
 Because you are also
 
-176
+170
 00:08:46,182 --> 00:08:48,221
 self-taught. You're
 
-177
+171
 00:08:48,222 --> 00:08:53,712
 pursuing this, not in the
 confines of a bootcamp or in a
 
-178
+172
 00:08:53,712 --> 00:08:58,033
 traditional school setting, and
 you have a kid at home too. So,
 
-179
+173
 00:08:58,243 --> 00:09:00,523
 there's just a lot of different
 moving pieces there.
 
-180
+174
 00:09:01,413 --> 00:09:06,033
 Ayu: Yeah. I start to learn to
 code when she was -- my
 
-181
+175
 00:09:06,033 --> 00:09:12,457
 daughter was two years old. And
 -- I was self-taught, and then,
 
-182
+176
 00:09:12,758 --> 00:09:15,690
 I think that I tweeted- I
 tweeted one time that -- how to
 
-183
+177
 00:09:15,690 --> 00:09:18,622
 juggling between the-
 
-184
+178
 00:09:18,923 --> 00:09:25,072
 the house chores, and- and the
 kid, and also learning. And
 
-185
+179
 00:09:25,072 --> 00:09:29,500
 then I remember that one of who
 were response to my tweet
 
-186
+180
 00:09:29,500 --> 00:09:33,000
 was you, Bekah. So -- and you
 said, "Why don't you join Mom
 
-187
+181
 00:09:33,000 --> 00:09:33,643
 Can Code?" And I was
 
-188
+182
 00:09:33,643 --> 00:09:38,000
 like, "Oh, there's a Mom Can
 Code. That's nice," you know?
 
-189
+183
 00:09:38,000 --> 00:09:38,801
 So, yeah.
 
-190
+184
 00:09:38,832 --> 00:09:44,700
 I joined it, but yeah, with the
 time differences, I got
 
-191
+185
 00:09:44,700 --> 00:09:49,712
 more coworking with the European
 time zones' moms. And we we were
 
-192
+186
 00:09:49,712 --> 00:09:54,222
 like, learning
 
-193
+187
 00:09:54,702 --> 00:09:59,312
 things that are different one to
 another. Like, one is
 
-194
+188
 00:09:59,312 --> 00:10:03,000
 like doing the back end, and the
 other is the front end. But,
 
-195
+189
 00:10:03,000 --> 00:10:03,272
 I mean,
 
-196
+190
 00:10:03,273 --> 00:10:06,753
 like, that's for the first time
 that I felt like I'm not
 
-197
+191
 00:10:06,753 --> 00:10:08,402
 alone, you know? Like, I don't
 care what they're doing, but
 
-198
+192
 00:10:08,402 --> 00:10:10,051
 it's
 
-199
+193
 00:10:10,052 --> 00:10:14,403
 like, I'm not- I'm not learning
 by myself. And I -- we can have,
 
-200
+194
 00:10:14,403 --> 00:10:19,000
 like, all our- our kids, like,
 you know, my kid were crying,
 
-201
+195
 00:10:19,000 --> 00:10:20,000
 and the other one like,
 
-202
+196
 00:10:20,000 --> 00:10:23,153
 "Hey, stop it!" There were -- or
 something like that. But, yeah.
 
-203
+197
 00:10:23,212 --> 00:10:30,023
 It's- it's not easy. And when
 she was two, my -- the
 
-204
+198
 00:10:30,023 --> 00:10:35,000
 time for me to learn was only on
 her nap time. And then I have to
 
-206
+199
 00:10:35,000 --> 00:10:38,467
 wait until the whole house is
 sleeping, like around 10 at
 
-207
+200
 00:10:38,467 --> 00:10:43,628
 night. And then I start learning
 from that until 12, one in the
 
-208
+201
 00:10:43,628 --> 00:10:49,717
 morning. And, yeah. It's getting
 easier now after she
 
-209
+202
 00:10:49,717 --> 00:10:52,312
 start with her elementary
 school. But it was like, hell
 
-210
+203
 00:10:52,312 --> 00:10:54,907
 before [chuckles].
 
-211
+204
 00:10:55,148 --> 00:11:00,500
 It's like, I- I couldn't find
 any perfect time to learn and
 
-212
+205
 00:11:00,500 --> 00:11:02,602
 I only have like two
 
-213
+206
 00:11:02,602 --> 00:11:08,332
 hours in total for the whole
 learning. So, yeah. So I cannot
 
-214
+207
 00:11:08,363 --> 00:11:10,700
 imagine that you have four,
 Bekah, and you still pulled it
 
-215
+208
 00:11:10,700 --> 00:11:11,300
 out [laughs].
 
-216
+209
 00:11:14,677 --> 00:11:18,577
 Bekah: You know, it- it was one
 of those things where you start
 
-217
+210
 00:11:18,577 --> 00:11:22,500
 to get used to being able to
 pivot pretty quickly. Like, "Oh,
 
-218
+211
 00:11:22,500 --> 00:11:22,807
 my kids
 
-219
+212
 00:11:22,807 --> 00:11:25,477
 are playing, I'm gonna sit down
 at this computer." And then
 
-220
+213
 00:11:25,477 --> 00:11:26,857
 my mind would just like switch
 on. Like, it knew, it has to do
 
-221
+214
 00:11:26,857 --> 00:11:28,237
 it
 
-222
+215
 00:11:28,238 --> 00:11:33,128
 right in this second. But, you
 know, I had a lot of help from
 
-223
+216
 00:11:33,128 --> 00:11:36,600
 ... my parents would watch the
 kids or if I had a- a project
 
-224
+217
 00:11:36,600 --> 00:11:36,817
 to do -- I
 
-225
+218
 00:11:36,817 --> 00:11:39,427
 remember one weekend, my husband
 was out of town speaking at a
 
-226
+219
 00:11:39,427 --> 00:11:43,087
 conference. And so they took the
 kids. And it- it was the same
 
-227
+220
 00:11:43,118 --> 00:11:46,097
 thing like you were talking
 about. You're just trying to fit
 
-228
+221
 00:11:46,097 --> 00:11:51,168
 in this time. And so I stayed up
 so late, and then woke up the
 
-229
+222
 00:11:51,168 --> 00:11:54,500
 next morning to try and get it
 done cuz you're trying to fit it
 
-230
+223
 00:11:54,500 --> 00:11:55,500
 in. But at the
 
-231
+224
 00:11:55,500 --> 00:11:59,493
 same time, you don't wanna be
 forming, like, bad self-care
 
-232
+225
 00:11:59,493 --> 00:12:05,013
 habits. Because then, that just
 leads to frustration and not
 
-233
+226
 00:12:05,013 --> 00:12:08,462
 wanting to do the thing that you
 want to do. And then being mad
 
-234
+227
 00:12:08,462 --> 00:12:10,952
 that you don't wanna do the
 thing that you know you want to
 
-235
+228
 00:12:10,952 --> 00:12:15,500
 do, right [chuckles]? So it's
 all -- it's a whole ... I don't
 
-236
+229
 00:12:15,500 --> 00:12:17,283
 know. Thing to
 
-237
+230
 00:12:17,283 --> 00:12:21,442
 juggle and it's not just about
 learning. It's about, you know,
 
-238
+231
 00:12:21,442 --> 00:12:25,373
 the growth and the changes that
 you're facing yourself. And it's
 
-239
+232
 00:12:25,373 --> 00:12:28,852
 a different role that you're
 taking on and trying to figure
 
-240
+233
 00:12:28,852 --> 00:12:33,500
 out how all these things work
 together. And so it- it can be
 
-242
+234
 00:12:33,500 --> 00:12:37,283
 really great, but certainly, it-
 it can be really frustrating.
 
-243
+235
 00:12:38,347 --> 00:12:40,500
 Ayu: True. True. And especially
 that I don't have my family
 
-245
+236
 00:12:40,500 --> 00:12:45,500
 here, right? And my husband
 works. So I have to do
 
-246
+237
 00:12:45,500 --> 00:12:47,000
 everything by myself. So, yeah.
 
-247
+238
 00:12:47,000 --> 00:12:50,500
 It's like -- and people said
 that, "Oh, you have, like,
 
-248
+239
 00:12:50,500 --> 00:12:54,700
 lots of time because you only
 stay at home." And -- oh my god.
 
-249
+240
 00:12:54,700 --> 00:12:55,227
 I feel like
 
-250
+241
 00:12:55,227 --> 00:12:59,518
 I wanna cry every time I hear
 that. Because, no. If we can
 
-251
+242
 00:12:59,518 --> 00:13:02,700
 have, like, more than 24 hours
 in a day, that would be ...
 
-252
+243
 00:13:02,700 --> 00:13:07,500
 perfect, you know? But we don't
 have it. So [chuckles] --
 
-253
+244
 00:13:06,932 --> 00:13:08,942
 Bekah: Yeah. I always say that's
 like my biggest challenge.
 
-254
+245
 00:13:09,003 --> 00:13:10,562
 There's not 36 hours in a day
 [chuckles].
 
-255
+246
 00:13:10,942 --> 00:13:11,243
 Ayu: Yeah [laughs].
 
-256
+247
 00:13:13,888 --> 00:13:17,300
 Dan: I imagine it -- at least,
 Bekah, knowing you, I -- if you
 
-257
+248
 00:13:17,300 --> 00:13:17,857
 had 36
 
-258
+249
 00:13:17,857 --> 00:13:19,717
 hours in a day, you would find a
 way to fill all of that, and
 
-259
+250
 00:13:19,717 --> 00:13:21,000
 still [laughs]-
 
-260
+251
 00:13:21,500 --> 00:13:22,300
 Ayu: And still not enough.
 
-261
+252
 00:13:22,300 --> 00:13:25,000
 Dan: -and still you wish there
 was more [laughs]. Yeah. It's
 
-262
+253
 00:13:25,000 --> 00:13:25,700
 just a guess. Just a guess.
 
-263
+254
 00:13:25,273 --> 00:13:25,812
 Bekah: That is accurate.
 
-264
+255
 00:13:27,158 --> 00:13:31,300
 Dan: I -- yeah. It's -- that-
 that switch off, I mean, we --
 
-265
+256
 00:13:31,300 --> 00:13:31,582
 my kids
 
-266
+257
 00:13:31,582 --> 00:13:34,500
 are in daycare, you know? My
 wife and I both work. But during
 
-267
+258
 00:13:34,500 --> 00:13:37,903
 the pandemic, you know, at- at
 the beginning, everything was
 
-268
+259
 00:13:37,903 --> 00:13:38,848
 shut down. Daycare was shut
 down, you know? And so we were
 
-269
+260
 00:13:38,848 --> 00:13:39,793
 trying
 
-270
+261
 00:13:39,793 --> 00:13:43,062
 to do that. We were trying to
 juggle the kids, and work, and,
 
-271
+262
 00:13:43,062 --> 00:13:46,700
 you know, Emily and I would
 switch off, you know, watching
 
-272
+263
 00:13:47,113 --> 00:13:51,500
 the kids. And it's -- for- for
 me, that -- for me, I struggled
 
-273
+264
 00:13:51,500 --> 00:13:52,467
 really hard with that
 
-274
+265
 00:13:52,467 --> 00:13:54,747
 context, switching like, Bekah,
 you said you got- you got good
 
-275
+266
 00:13:54,748 --> 00:13:57,000
 at it. That was really, very
 hard for me, you know? It's-
 
-276
+267
 00:13:57,000 --> 00:13:58,557
 it's like -- and
 
-277
+268
 00:13:58,557 --> 00:14:01,738
 honestly it was less some -- it
 wasn't that you sitting down at
 
-278
+269
 00:14:01,738 --> 00:14:06,207
 the computer part. It was the-
 the going back from computer to
 
-279
+270
 00:14:06,207 --> 00:14:10,378
 kids switch. That was the- that
 was the struggle for me, you
 
-280
+271
 00:14:10,378 --> 00:14:15,067
 know? I- I- I just have so much
 respect for- for people who are
 
-281
+272
 00:14:15,518 --> 00:14:18,000
 parenting like full-time and-
 and trying to learn or- or work,
 
-282
+273
 00:14:18,000 --> 00:14:21,878
 and like, through all this. I --
 that I don't know how you do it.
 
-283
+274
 00:14:21,878 --> 00:14:23,107
 But it seems like you've been
 managing it [chuckles].
 
-284
+275
 00:14:23,727 --> 00:14:27,057
 Ayu: I don't know. I still don't
 know how to do it, Dan. I still
 
-285
+276
 00:14:27,057 --> 00:14:27,177
 don't know [Ayu and Dan laugh].
 
-286
+277
 00:14:28,607 --> 00:14:29,500
 Bekah: I mean that it's the
 truth, too.
 
-287
+278
 00:14:29,500 --> 00:14:29,700
 Ayu: Yeah.
 
-288
+279
 00:14:29,700 --> 00:14:31,000
 Bekah: I mean, people will ask,
 like, "How do you do it?"
 
-289
+280
 00:14:31,000 --> 00:14:34,700
 Like, "I don't know," [chuckles]
 you know?
 
-290
+281
 00:14:34,700 --> 00:14:35,000
 Ayu: No [chuckles].
 
-291
+282
 00:14:35,000 --> 00:14:37,827
 Bekah: You just do the things
 that you- you have to do.
 
-292
+283
 00:14:37,967 --> 00:14:39,707
 Ayu: Yeah. Exactly.
 
-293
+284
 00:14:39,912 --> 00:14:43,422
 Bekah: We talked about these
 frustrations that can be — that
 
-294
+285
 00:14:43,542 --> 00:14:46,241
 you're facing, that we're all
 facing — as we're learning these
 
-295
+286
 00:14:46,241 --> 00:14:47,906
 things, and as we're parenting,
 and going through a global
 
-296
+287
 00:14:47,906 --> 00:14:49,571
 pandemic
 
-297
+288
 00:14:49,572 --> 00:14:54,792
 together. And- and so, I think,
 sometimes, really leaning into
 
-298
+289
 00:14:54,792 --> 00:14:59,981
 the things that encourage us or
 inspire us can be really useful.
 
-299
+290
 00:14:59,981 --> 00:15:03,300
 Have there been things or people
 along the way that you found
 
-300
+291
 00:15:03,300 --> 00:15:09,000
 have helped you continue the
 journey or prevented you from
 
-301
+292
 00:15:09,000 --> 00:15:11,000
 giving up? And maybe some of
 those times that were really
 
-302
+293
 00:15:11,000 --> 00:15:11,392
 hard?
 
-303
+294
 00:15:12,174 --> 00:15:17,154
 Ayu: Yeah. I mean, like, I got
 burned out like so many times,
 
-304
+295
 00:15:17,154 --> 00:15:23,815
 right? And- and -- well, I've
 been active on Twitter, and that
 
-305
+296
 00:15:23,815 --> 00:15:30,065
 helps. I'm doing the hundred
 [days] codes of challenge. And,
 
-306
+297
 00:15:30,095 --> 00:15:34,235
 every time I said like, "Oh my,
 god, I don't know what to do,"
 
-307
+298
 00:15:34,235 --> 00:15:37,100
 and then some people, like,
 random people, like, "No, you
 
-308
+299
 00:15:37,100 --> 00:15:37,475
 can do
 
-309
+300
 00:15:37,475 --> 00:15:43,195
 this." And yeah, I got -- I get
 my spirit back. And -- but there
 
-310
+301
 00:15:43,195 --> 00:15:46,300
 are also times, especially when
 you're a self-taught, right? And
 
-311
+302
 00:15:46,300 --> 00:15:46,763
 you- you
 
-312
+303
 00:15:46,764 --> 00:15:51,504
 don't- you don't have anybody to
 talk with. Like, my husband, he
 
-313
+304
 00:15:51,504 --> 00:15:55,465
 doesn't know anything about
 webdev. So I can not like, "Oh,
 
-314
+305
 00:15:55,465 --> 00:15:57,000
 I'm having trouble with this
 code." And he would be like,
 
-315
+306
 00:15:57,000 --> 00:15:58,884
 "What? What are you -- what do
 
-316
+307
 00:15:58,884 --> 00:16:04,000
 you mean?" Right? So, yeah. I
 mean, I got the one time
 
-317
+308
 00:16:04,000 --> 00:16:08,700
 burnout. Like, that's pretty
 recently. That I think, like,
 
-318
+309
 00:16:08,700 --> 00:16:12,739
 "Okay. I don't think that this
 is for me." I'm like, I'm gonna-
 
-319
+310
 00:16:12,739 --> 00:16:14,704
 I'm gonna just quit."
 
-320
+311
 00:16:14,825 --> 00:16:21,000
 And I was like, I got so- so
 surprise actually with- with
 
-321
+312
 00:16:21,000 --> 00:16:23,500
 that thoughts. Because I never
 thought like -- yeah, I got
 
-322
+313
 00:16:23,500 --> 00:16:27,000
 burnout. But then, like, you
 know, like, I'm taking break and
 
-323
+314
 00:16:27,000 --> 00:16:28,315
 stuffs, and I
 
-324
+315
 00:16:28,315 --> 00:16:30,924
 would be fine again. But this
 time it's, like, different. I
 
-325
+316
 00:16:30,924 --> 00:16:35,995
 already took break. I mean,
 like, I already procrastinated.
 
-326
+317
 00:16:35,995 --> 00:16:40,000
 But still, like, I don't know
 how to get myself together this
 
-327
+318
 00:16:40,000 --> 00:16:46,000
 time. Like, I got panic attack.
 It was like, I learned, and then
 
-328
+319
 00:16:46,000 --> 00:16:46,639
 one time,
 
-329
+320
 00:16:46,639 --> 00:16:51,700
 like, we- we were having this
 project team, right? I -- I'm-
 
-330
+321
 00:16:51,700 --> 00:16:52,719
 I'm trying with
 
-331
+322
 00:16:52,720 --> 00:16:57,500
 some VC members to have this
 group project about vanilla
 
-332
+323
 00:16:57,500 --> 00:17:01,179
 JavaScript. I mean, I got burned
 out with React -- with learning
 
-333
+324
 00:17:01,179 --> 00:17:02,754
 React before, and then I
 thought, "Oh, this is a good
 
-334
+325
 00:17:02,754 --> 00:17:04,329
 chance because
 
-335
+326
 00:17:04,329 --> 00:17:07,180
 it's vanilla JavaScript. So I
 can, like, take a step back and
 
-336
+327
 00:17:07,180 --> 00:17:13,210
 then do what I know," you know?
 But because so far I learned by
 
-337
+328
 00:17:13,210 --> 00:17:16,960
 myself, doing everything by
 myself, when it's in a group,
 
-338
+329
 00:17:16,990 --> 00:17:20,019
 it's a different story, right?
 You have somebody else to
 
-339
+330
 00:17:20,019 --> 00:17:24,190
 collaborate and- and everybody
 has their own thoughts, like, on
 
-340
+331
 00:17:24,190 --> 00:17:28,100
 how to approach something, which
 is not the approach that I
 
-341
+332
 00:17:28,100 --> 00:17:29,000
 probably would take.
 
-342
+333
 00:17:29,000 --> 00:17:31,380
 So it's kind of made me
 confused. And then I got, like,
 
-343
+334
 00:17:31,680 --> 00:17:36,150
 so freaked out. And I was like,
 "What is happening? Where are
 
-344
+335
 00:17:36,150 --> 00:17:39,720
 we? And, I don't know. My god,
 this is vanilla JavaScript. And
 
-345
+336
 00:17:39,720 --> 00:17:43,000
 I've done this, like, so many
 times, but how come I'm not
 
-346
+337
 00:17:43,000 --> 00:17:43,710
 following this?"
 
-347
+338
 00:17:43,710 --> 00:17:47,000
 You know, it's like, "No, I
 think I cannot do it." And it
 
-348
+339
 00:17:47,000 --> 00:17:48,508
 just feels like I wanna
 
-349
+340
 00:17:48,509 --> 00:17:56,459
 stop. So I kind of pull myself a
 little bit off from everybody
 
-350
+341
 00:17:56,460 --> 00:18:00,000
 for like a week or so. But then
 I thought like, "No, I- I need
 
-351
+342
 00:18:00,000 --> 00:18:00,480
 to talk
 
-352
+343
 00:18:00,480 --> 00:18:05,160
 to someone about this," right?
 So I start to talk to some of my
 
-353
+344
 00:18:05,160 --> 00:18:09,300
 friends, and they were all like,
 "Hey, we are all struggling."
 
-354
+345
 00:18:09,300 --> 00:18:14,300
 Like, "You can do this." And
 then, like, one of them even say
 
-355
+346
 00:18:14,300 --> 00:18:18,500
 to me, like, "It's actually good
 that you- you have that thought
 
-356
+347
 00:18:18,500 --> 00:18:19,424
 of quitting
 
-357
+348
 00:18:19,545 --> 00:18:22,934
 because you don't understand
 things. Because if you have that
 
-358
+349
 00:18:22,934 --> 00:18:25,755
 thought, it means that you know
 so many things, so you get
 
-359
+350
 00:18:25,755 --> 00:18:29,000
 confused, you know? It's not
 like you don't know anything."
 
-360
+351
 00:18:29,000 --> 00:18:31,700
 And I was like, "Yeah, you're
 right [laughs]."
 
-361
+352
 00:18:31,700 --> 00:18:35,315
 So, I was like, "Okay." And
 that's, you know, like,
 
-362
+353
 00:18:36,545 --> 00:18:39,775
 people don't want to share
 they're struggling, right? I- I
 
-363
+354
 00:18:39,785 --> 00:18:43,700
 don't know. Maybe because they
 think that -- they don't want
 
-364
+355
 00:18:43,700 --> 00:18:44,490
 people to think
 
-365
+356
 00:18:44,490 --> 00:18:47,490
 they're weak, or ... I don't
 know. They- they have their own
 
-366
+357
 00:18:47,490 --> 00:18:55,259
 reasons. As for me, I feel more
 or less embarrassed. Like, I've
 
-367
+358
 00:18:55,289 --> 00:18:59,220
 been learning for so long, and
 then suddenly, like, I know
 
-368
+359
 00:18:59,220 --> 00:19:04,000
 nothing, you know? And I don't
 -- I just don't want to share
 
-369
+360
 00:19:04,000 --> 00:19:05,608
 that. But if
 
-370
+361
 00:19:05,640 --> 00:19:08,970
 I really want to do this, I want
 to step forward. Then, I think
 
-371
+362
 00:19:08,970 --> 00:19:13,300
 that I should share this
 struggle with, at least,
 
-372
+363
 00:19:13,300 --> 00:19:14,250
 somebody that
 
-373
+364
 00:19:14,279 --> 00:19:19,000
 can -- that I know that can hear
 me out, listen to me, you know?
 
-374
+365
 00:19:19,000 --> 00:19:24,000
 And it was a good decision that
 I made. That I just, you know,
 
-375
+366
 00:19:24,000 --> 00:19:24,420
 shared-
 
-376
+367
 00:19:24,480 --> 00:19:28,319
 shared my struggles. And then,
 people support me. I mean, like,
 
-377
+368
 00:19:28,349 --> 00:19:31,000
 if you- if you don't share,
 nobody knows. And you just have
 
-378
+369
 00:19:31,000 --> 00:19:37,000
 to deal it yourself. So, yeah.
 It's- it's been a journey
 
-379
+370
 00:19:37,000 --> 00:19:37,184
 [laughs].
 
-380
+371
 00:19:39,194 --> 00:19:42,275
 Bekah: Certainly a journey. You-
 you said some things in there
 
-381
+372
 00:19:42,335 --> 00:19:46,055
 that- that really struck me. And
 so you talked about this idea of
 
-382
+373
 00:19:46,055 --> 00:19:50,194
 community, and isolation, and
 sharing. And I think that, you
 
-383
+374
 00:19:50,194 --> 00:19:52,505
 know, all of these things go
 together. And especially when
 
-384
+375
 00:19:52,505 --> 00:19:56,464
 we're in those tough moments
 where we tend to isolate from
 
-385
+376
 00:19:56,464 --> 00:19:59,734
 other people. For those reasons
 that you spoke about, you know,
 
-386
+377
 00:19:59,765 --> 00:20:03,300
 it's self-doubt, and not
 thinking you can do it, and
 
-387
+378
 00:20:03,300 --> 00:20:03,605
 being
 
-388
+379
 00:20:03,605 --> 00:20:07,325
 embarrassed or afraid to share
 things. And I- I got a piece of
 
-389
+380
 00:20:07,325 --> 00:20:10,904
 advice pretty early on from
 someone. And they said, "You
 
-390
+381
 00:20:10,904 --> 00:20:13,904
 don't share it for your sha-
 yourself. You share for other
 
-391
+382
 00:20:13,904 --> 00:20:16,000
 people because other people who
 are going through the same
 
-392
+383
 00:20:16,000 --> 00:20:20,000
 things can recognize that, 'Oh,
 I don't have to do this in
 
-393
+384
 00:20:20,000 --> 00:20:20,893
 isolation. I'm
 
-394
+385
 00:20:20,894 --> 00:20:23,595
 not the only one that feels this
 way.' And then, that's how
 
-395
+386
 00:20:23,595 --> 00:20:27,000
 community is formed." And I just
 always loved that idea because
 
-396
+387
 00:20:27,000 --> 00:20:27,433
 it-
 
-397
+388
 00:20:27,434 --> 00:20:31,875
 it can be so hard to share those
 things, and to feel alone, and
 
-398
+389
 00:20:31,875 --> 00:20:35,700
 to feel like ... I dunno.
 You're- you're not where you
 
-399
+390
 00:20:35,700 --> 00:20:40,000
 should be, right? Like, I --
 it's -- it happens every week.
 
-400
+391
 00:20:40,000 --> 00:20:41,190
 I look at someone else and
 
-401
+392
 00:20:41,190 --> 00:20:44,300
 I'm like, "Oh, wow. I-
 [chuckles] I should- I should be
 
-402
+393
 00:20:44,300 --> 00:20:46,529
 able to know what they're
 talking about," and I don't,
 
-403
+394
 00:20:46,529 --> 00:20:47,939
 right? And then it's like,
 
-404
+395
 00:20:47,970 --> 00:20:50,519
 "Oh, don't fall into the
 comparison trap." Number one.
 
-405
+396
 00:20:50,579 --> 00:20:53,700
 But number two, like, embrace
 that community of people that's
 
-406
+397
 00:20:53,700 --> 00:20:54,239
 around
 
-407
+398
 00:20:54,240 --> 00:20:57,329
 you. And, you know, for me, Ayu,
 you've been such a huge part of
 
-408
+399
 00:20:57,329 --> 00:21:02,154
 my community. And I don't know
 how you do it, but I feel like
 
-409
+400
 00:21:02,154 --> 00:21:06,000
 there are times when I am
 really, really struggling, and I
 
-410
+401
 00:21:02,154 --> 00:21:06,774
 won't say
 
-411
+402
 00:21:06,775 --> 00:21:10,255
 anything, and then I get a DM
 from you checking on me, and I'm
 
-412
+403
 00:21:10,255 --> 00:21:14,000
 like, "Oh, okay. Like,
 [chuckles] Ayu's here. This is
 
-413
+404
 00:21:14,000 --> 00:21:15,684
 what I needed," you know?
 
-414
+405
 00:21:16,585 --> 00:21:20,423
 And so for me, that's been such
 a -- an important piece of-
 
-415
+406
 00:21:20,515 --> 00:21:23,484
 of all of the things that have
 happened to me since I met you.
 
-416
+407
 00:21:23,484 --> 00:21:27,355
 Because it's nice to have that
 connection and to know that
 
-417
+408
 00:21:27,355 --> 00:21:30,924
 there are people that are- are-
 are willing to- to care about
 
-418
+409
 00:21:30,924 --> 00:21:31,015
 you.
 
-419
+410
 00:21:32,625 --> 00:21:37,184
 Ayu: And- and I- I learned so
 much from- from your trauma
 
-420
+411
 00:21:37,184 --> 00:21:41,375
 stories, Bekah. I mean, like,
 you've been so open, right? And-
 
-421
+412
 00:21:41,375 --> 00:21:44,500
 and you reach so many people
 with your story. And- and I
 
-422
+413
 00:21:44,500 --> 00:21:48,419
 mean, like, there are plenty of
 people that- that have the same
 
-423
+414
 00:21:48,419 --> 00:21:51,733
 feeling
 
-424
+415
 00:21:51,734 --> 00:21:54,825
 like how you feel, but they
 cannot let it out. So I thought,
 
-425
+416
 00:21:54,825 --> 00:21:56,369
 like, when- when I was
 struggling, I thought, like,
 
-426
+417
 00:21:56,369 --> 00:21:57,913
 "Okay, this is
 
-427
+418
 00:21:57,914 --> 00:22:03,734
 for- for me, for myself," you
 know? I mean, like -- and- and
 
-428
+419
 00:22:03,734 --> 00:22:06,464
 ... I also think that maybe I'm
 not the only one. Maybe- maybe
 
-429
+420
 00:22:06,464 --> 00:22:10,000
 there's also people out there
 that having the struggle the
 
-430
+421
 00:22:10,000 --> 00:22:11,000
 same as I do.
 
-431
+422
 00:22:11,000 --> 00:22:14,444
 And if I open up, maybe those
 people can open up as well.
 
-432
+423
 00:22:14,444 --> 00:22:17,444
 And they- and they could, like,
 feel a little bit relieved that,
 
-433
+424
 00:22:17,444 --> 00:22:20,835
 "Okay. I'm not the only one. And
 I- I can- I can talk about it."
 
-434
+425
 00:22:20,835 --> 00:22:25,500
 Like, it's- it's okay to not
 feel okay, you know? So, yeah.
 
-435
+426
 00:22:25,500 --> 00:22:29,000
 And thank you so much because, I
 mean, like, you taught me how
 
-436
+427
 00:22:29,000 --> 00:22:29,775
 to do that.
 
-437
+428
 00:22:32,105 --> 00:22:33,244
 Bekah: And now I'm gonna cry.
 
-438
+429
 00:22:38,160 --> 00:22:40,000
 Dan: I -- you know, you- you
 talked about sharing, you know,
 
-439
+430
 00:22:40,000 --> 00:22:43,700
 your story, especially regarding
 the burnout and, you know, the
 
-440
+431
 00:22:43,700 --> 00:22:44,549
 -- we'll post on
 
-441
+432
 00:22:44,549 --> 00:22:48,299
 the- on the show notes. But you
 wrote a really great piece about
 
-442
+433
 00:22:48,299 --> 00:22:50,700
 it about two week -- a couple
 weeks ago, or a week ago, or
 
-443
+434
 00:22:50,700 --> 00:22:54,155
 whatever it was. And I- I- I
 just wanted to call it out
 
-444
+435
 00:22:54,155 --> 00:22:56,920
 because I-
 
-445
+436
 00:22:56,920 --> 00:22:58,339
 I love to reading it. And I
 loved that, you know, you
 
-446
+437
 00:22:58,339 --> 00:22:59,758
 shared-
 
-447
+438
 00:22:59,849 --> 00:23:03,119
 you shared the struggle part,
 which is ... I agree is very
 
-448
+439
 00:23:03,119 --> 00:23:06,750
 important and very helpful for
 people. But I- I very much
 
-449
+440
 00:23:06,750 --> 00:23:10,859
 loved how you -- a lo- a lot of
 the article is more about how to
 
-450
+441
 00:23:10,859 --> 00:23:12,209
 survive it, you know -- how- how
 to sort of recognize those
 
-451
+442
 00:23:12,209 --> 00:23:13,559
 feelings
 
-452
+443
 00:23:13,559 --> 00:23:16,700
 for what they are, and then how
 to sort of survive it, and move
 
-453
+444
 00:23:16,700 --> 00:23:19,700
 on. And I just really
 appreciated it. I don't- I don't
 
-454
+445
 00:23:19,700 --> 00:23:21,000
 have [chuckles]-
 
-455
+446
 00:23:21,000 --> 00:23:22,000
 Ayu: Thank you so much [laughs].
 
-456
+447
 00:23:22,000 --> 00:23:22,700
 Dan: -I don't really have a
 question or a point, but- but I
 
-457
+448
 00:23:22,700 --> 00:23:26,000
 appreciated it. I mean, you
 know, it -- and- and a lot of it
 
-458
+449
 00:23:26,000 --> 00:23:27,809
 is just the -- allowing
 
-459
+450
 00:23:27,809 --> 00:23:32,700
 yourself to sort of be not okay
 or whatever, allow yourself to
 
-460
+451
 00:23:32,700 --> 00:23:38,234
 take a break or step back. And I
 think it's so important. It
 
-461
+452
 00:23:38,234 --> 00:23:39,015
 was- it was a good.
 
-462
+453
 00:23:39,085 --> 00:23:41,000
 Ayu: Yeah. I mean, self-care is
 really, really important. I
 
-463
+454
 00:23:41,000 --> 00:23:44,065
 mean, like ... this is,
 
-464
+455
 00:23:44,065 --> 00:23:47,875
 like, one point in my- in my
 learning journey where I really,
 
-465
+456
 00:23:47,875 --> 00:23:52,134
 really want to rush things, you
 know? Like, I've been learning
 
-466
+457
 00:23:52,134 --> 00:23:57,720
 for ... two years? Two and half
 years now? And I feel like,
 
-467
+458
 00:23:57,990 --> 00:24:03,500
 why am I so slow? So I'm trying
 to, you know, speed up a bit.
 
-468
+459
 00:24:03,500 --> 00:24:03,838
 But I
 
-469
+460
 00:24:03,900 --> 00:24:07,890
 think, like, because I start to
 understand things, so I really
 
-470
+461
 00:24:07,890 --> 00:24:14,369
 want to speed up again, speed up
 again. But I didn't -- I -- you
 
-471
+462
 00:24:14,369 --> 00:24:18,700
 can say that I ignore my limit,
 where I should take a break, but
 
-472
+463
 00:24:18,700 --> 00:24:19,349
 I don't.
 
-473
+464
 00:24:19,349 --> 00:24:24,309
 Because no, I want to be in this
 momentum, you know? Like, I- I
 
-474
+465
 00:24:24,319 --> 00:24:29,000
 want to keep it up, but now this
 is my limit to take a break for
 
-475
+466
 00:24:29,000 --> 00:24:34,970
 a bit, but I didn't. So I think
 that's where most people also
 
-476
+467
 00:24:35,089 --> 00:24:39,230
 don't aware where they really
 want to push, and push, and push
 
-477
+468
 00:24:39,230 --> 00:24:44,869
 forward. They need to, you know,
 like, take a step back and- and
 
-478
+469
 00:24:44,910 --> 00:24:49,700
 just review things, and just
 slowing down a bit, and -- they
 
-479
+470
 00:24:49,700 --> 00:24:50,338
 don't think
 
-480
+471
 00:24:50,339 --> 00:24:54,000
 about themselves, you know?
 Like- like, they can get
 
-481
+472
 00:24:54,000 --> 00:25:01,000
 burnout or can get frustration.
 So, yeah. I hope that my
 
-482
+473
 00:25:01,000 --> 00:25:03,569
 experience can, like, reminding
 
-483
+474
 00:25:03,569 --> 00:25:09,029
 people as well that the -- they
 need to, you know, take a step
 
-484
+475
 00:25:09,029 --> 00:25:10,470
 back once in a while.
 
-485
+476
 00:25:12,269 --> 00:25:14,500
 Dan: Yeah. And it- it's hard to
 do [chuckles]. Or it can be-
 
-486
+477
 00:25:14,500 --> 00:25:15,000
 Ayu: Yeah, true.
 
-487
+478
 00:25:14,700 --> 00:25:16,000
 Dan: -you know, i-i-it can be
 hard to do.
 
-488
+479
 00:25:16,000 --> 00:25:17,000
 Ayu: True. True.
 
-489
+480
 00:25:17,000 --> 00:25:18,809
 Dan: At least in my personal
 experience [chuckles].
 
-490
+481
 00:25:20,009 --> 00:25:22,559
 Bekah: Well, and I think, too,
 when you take that step back,
 
-491
+482
 00:25:22,559 --> 00:25:25,799
 sometimes it's hard to get
 started again, right? There's
 
-492
+483
 00:25:25,799 --> 00:25:30,269
 this fear of losing momentum.
 Like, well, I was there. And you
 
-493
+484
 00:25:30,269 --> 00:25:34,469
 have to backtrack a little bit
 if you take a break. And so for
 
-494
+485
 00:25:34,470 --> 00:25:40,529
 a lot of people, I think, it's
 ... I don't know exactly how to
 
-495
+486
 00:25:40,529 --> 00:25:43,500
 describe that feeling, whether
 it's being upset with themselves
 
-496
+487
 00:25:43,500 --> 00:25:47,250
 or having to go back or getting
 -- being hard on yourself and
 
-497
+488
 00:25:47,250 --> 00:25:50,519
 thinking like, "Well, I should
 know this stuff," right? But
 
-498
+489
 00:25:50,519 --> 00:25:55,600
 it's okay to have to backtrack.
 It's okay to start from a
 
-499
+490
 00:25:55,600 --> 00:25:55,950
 different
 
-500
+491
 00:25:55,950 --> 00:25:59,275
 point that you ended at. But I
 think, like you're saying,
 
-501
+492
 00:25:59,275 --> 00:26:01,119
 there's just not that many
 people that are talking about
 
-502
+493
 00:26:01,119 --> 00:26:02,963
 those
 
-503
+494
 00:26:02,964 --> 00:26:05,000
 things, you know? It is okay to
 take a break.
 
-504
+495
 00:26:05,000 --> 00:26:05,304
 Ayu: Yeah.
 
-505
+496
 00:26:05,304 --> 00:26:07,644
 Bekah: It is okay to be at
 
-506
+497
 00:26:07,644 --> 00:26:11,694
 a different point than someone
 else's going to be. And I don't
 
-507
+498
 00:26:11,704 --> 00:26:14,700
 know. I al- [chuckles] this is
 gonna sound silly, but I always
 
-508
+499
 00:26:14,700 --> 00:26:15,025
 used to
 
-509
+500
 00:26:15,025 --> 00:26:18,894
 compare myself to Kent C. Dodds,
 which is like, not fair in any
 
-510
+501
 00:26:18,894 --> 00:26:21,535
 way shape or form cuz he's been
 doing this a long time, but
 
-511
+502
 00:26:21,535 --> 00:26:24,700
 I'm like, "He's got four kids.
 How come he can do all this
 
-512
+503
 00:26:24,700 --> 00:26:26,000
 stuff," right? [Chuckles]
 
-513
+504
 00:26:26,000 --> 00:26:30,019
 Well, it's a little bit
 different. He actually -- he
 
-514
+505
 00:26:30,019 --> 00:26:33,650
 wrote a- a newsletter ... for
 mother's day, one year, I think,
 
-515
+506
 00:26:33,650 --> 00:26:37,490
 that talked about how much his
 wife does to support him and
 
-516
+507
 00:26:37,700 --> 00:26:41,500
 their kids. And it was like,
 "Oh, okay. I- I get- I get
 
-517
+508
 00:26:41,500 --> 00:26:42,559
 this," right? Like,
 
-518
+509
 00:26:42,559 --> 00:26:45,740
 there's a lot of support for the
 things that he's doing and he's
 
-519
+510
 00:26:45,740 --> 00:26:50,045
 been doing it a really long
 time. And it's not a reasonable
 
-520
+511
 00:26:50,045 --> 00:26:53,345
 comparison. I'm not really that
 reasonable. So it's- it's not
 
-521
+512
 00:26:53,345 --> 00:26:56,404
 surprising that I would do that.
 But, it -- and it's not even,
 
-522
+513
 00:26:56,404 --> 00:26:59,463
 like, look
 
-523
+514
 00:26:59,464 --> 00:27:03,154
 at the people who are learning
 alongside you. It should never
 
-524
+515
 00:27:03,694 --> 00:27:07,595
 -- if that's the motivation,
 then there's always gonna be a
 
-525
+516
 00:27:07,595 --> 00:27:10,865
 point where you start to really
 get down on yourself because
 
-526
+517
 00:27:11,224 --> 00:27:14,734
 everybody moves in different
 ways and in different paces. And
 
-527
+518
 00:27:14,734 --> 00:27:18,950
 you know, sometimes you'll hit a
 plateau. And it'll be really
 
-528
+519
 00:27:18,950 --> 00:27:23,359
 hard to get back up like the
 mountain. But then- but then
 
-529
+520
 00:27:23,359 --> 00:27:25,700
 you'll gain some momentum. And
 then you'll go fast again,
 
-530
+521
 00:27:25,700 --> 00:27:26,765
 right? Or, you
 
-531
+522
 00:27:26,765 --> 00:27:30,724
 know, maybe you're- you're study
 all the time. Everybody learns
 
-532
+523
 00:27:30,724 --> 00:27:34,805
 differently. Everybody can apply
 things in different ways
 
-533
+524
 00:27:34,805 --> 00:27:38,525
 and has different strengths. And
 I think we just failed to
 
-534
+525
 00:27:38,525 --> 00:27:43,025
 recognize that complexity, and
 we try and make it this really
 
-535
+526
 00:27:43,144 --> 00:27:48,875
 simple story of success. And we
 forget all of the, you know,
 
-536
+527
 00:27:49,295 --> 00:27:51,964
 things about being human that go
 along with that story.
 
-537
+528
 00:27:54,079 --> 00:27:59,480
 Ayu: Yeah, true. And I kind of
 forget that. I mean, like, I was
 
-538
+529
 00:27:59,480 --> 00:28:03,259
 thinking, I'm learning for two,
 two and a half years, and
 
-539
+530
 00:28:03,289 --> 00:28:09,664
 I'm- I'm going so slow. But I
 forgot that most of the days, I
 
-540
+531
 00:28:09,664 --> 00:28:12,244
 only have two until three hours
 ... a day to learn, right? So I
 
-541
+532
 00:28:12,244 --> 00:28:14,824
 cannot
 
-542
+533
 00:28:14,855 --> 00:28:17,419
 compare myself to someone who
 can spend like more than five
 
-543
+534
 00:28:17,419 --> 00:28:19,983
 hours a
 
-544
+535
 00:28:19,984 --> 00:28:24,384
 day to learn. So, yeah. I need
 to remind myself that ...
 
-545
+536
 00:28:26,505 --> 00:28:28,800
 you're- you're going forward.
 Only that-
 
-546
+537
 00:28:28,800 --> 00:28:29,000
 Bekah: Yeah.
 
-547
+538
 00:28:29,000 --> 00:28:32,300
 Ayu: -you have, like, less time
 than other people. So, you
 
-548
+539
 00:28:32,300 --> 00:28:33,410
 cannot compare yourself to
 
-549
+540
 00:28:33,410 --> 00:28:38,660
 other people, but -- this is
 your time, right? I mean, I do
 
-550
+541
 00:28:38,960 --> 00:28:43,849
 the best way -- I mean, like,
 the best that I could within two
 
-551
+542
 00:28:43,849 --> 00:28:47,269
 and three hours a day. And- and
 that's actually good, you know?
 
-552
+543
 00:28:47,509 --> 00:28:49,924
 Like, when I got exhausted, I
 still can save some time to
 
-553
+544
 00:28:52,609 --> 00:28:57,000
 learn. So, I- I think that I've
 been too hard on myself or
 
-554
+545
 00:28:57,000 --> 00:28:57,605
 something like
 
-555
+546
 00:28:57,605 --> 00:29:01,000
 that? And not ap- appreciate
 myself [laughs]? I don't know.
 
-556
+547
 00:29:01,000 --> 00:29:03,335
 But, yeah. I'm trying
 
-557
+548
 00:29:03,335 --> 00:29:07,000
 to remind me -- myself about
 that. Like, "You're- you're
 
-558
+549
 00:29:07,000 --> 00:29:10,444
 doing good. You're- you're doing
 okay," you know? So --
 
-559
+550
 00:29:12,609 --> 00:29:16,000
 Dan: Yeah. I- I mean, you are
 [chuckles]. You're doing great.
 
-560
+551
 00:29:16,000 --> 00:29:18,339
 I can't ... try-
 
-561
+552
 00:29:18,339 --> 00:29:20,170
 trying to fit that learning and-
 and it's not just the hours,
 
-562
+553
 00:29:20,170 --> 00:29:22,500
 right? Is -- you've talked --
 you were talking about how it's
 
-563
+554
 00:29:22,500 --> 00:29:22,778
 like a
 
-564
+555
 00:29:22,779 --> 00:29:25,990
 little bit during nap time and
 then, late at night.
 
-565
+556
 00:29:26,029 --> 00:29:26,599
 Ayu: Yeah.
 
-566
+557
 00:29:26,900 --> 00:29:30,500
 Dan: Which is probably not the
 best, you know? Your brain's
 
-567
+558
 00:29:30,500 --> 00:29:31,700
 probably not in the best shape
 for learning-
 
-568
+559
 00:29:31,700 --> 00:29:32,000
 Ayu: No.
 
-569
+560
 00:29:31,800 --> 00:29:33,000
 Dan: -at that point either,
 right? And so --
 
-570
+561
 00:29:33,000 --> 00:29:33,300
 Ayu: Yeah.
 
-571
+562
 00:29:33,500 --> 00:29:35,210
 Dan: That's what I mean. You're
 -- you know, you're- you're-
 
-572
+563
 00:29:35,779 --> 00:29:37,399
 you're working with what you
 have. And the progress
 
-573
+564
 00:29:39,019 --> 00:29:41,000
 you've made seems ... I don't
 know. Seem -- from where I'm
 
-574
+565
 00:29:41,000 --> 00:29:45,700
 sitting, seems incredible. You
 also have been just a
 
-575
+566
 00:29:45,700 --> 00:29:47,209
 prolific blogger, for
 
-576
+567
 00:29:47,690 --> 00:29:51,700
 like, over the last ... however
 long it -- couple years?
 
-577
+568
 00:29:52,000 --> 00:29:55,000
 And I've -- that has always been
 a prob- I mean, like, that you
 
-578
+569
 00:29:55,000 --> 00:29:56,450
 ... I don't know. I've read, I
 
-579
+570
 00:29:56,450 --> 00:29:58,000
 think, probably most of
 everything you've written. But
 
-580
+571
 00:29:58,000 --> 00:29:58,430
 like, it's-
 
-581
+572
 00:29:58,789 --> 00:30:03,049
 it's- very impressive. I was
 wondering how you approach,
 
-582
+573
 00:30:03,049 --> 00:30:06,920
 like, mixing that into your
 normal routine of like learning
 
-583
+574
 00:30:06,920 --> 00:30:07,490
 and stuff like that?
 
-584
+575
 00:30:08,599 --> 00:30:11,630
 Ayu: No. Blogging is- is
 completely different thing. I
 
-585
+576
 00:30:11,630 --> 00:30:17,210
 mean, like, I really have to
 make a time to write a blog. And
 
-586
+577
 00:30:17,930 --> 00:30:23,390
 English is not my native, right?
 So, I'm not native English
 
-587
+578
 00:30:23,390 --> 00:30:29,000
 speakers. So, I mean, I need
 like three to four hours to
 
-588
+579
 00:30:29,000 --> 00:30:35,000
 write 600 to 800 words. Can you
 imagine? So, yeah. Mostly, like,
 
-589
+580
 00:30:35,000 --> 00:30:35,660
 when I do
 
-590
+581
 00:30:35,660 --> 00:30:41,960
 blogging, if I have an idea, I
 will do the bullet points. And
 
-591
+582
 00:30:41,960 --> 00:30:47,960
 then from there, then I will try
 to, you know, like, talk about
 
-592
+583
 00:30:47,960 --> 00:30:50,000
 the bullet plain -- points, a
 little bit like explanation,
 
-593
+584
 00:30:50,000 --> 00:30:58,700
 something like that. It- it
 helps me to- to write a- a
 
-594
+585
 00:30:58,700 --> 00:31:00,000
 little bit faster.
 
-595
+586
 00:31:02,000 --> 00:31:02,500
 Dan: Yeah. Yeah.
 
-596
+587
 00:31:02,100 --> 00:31:05,700
 Ayu: And if you see, like, my
 blog's style, most of them
 
-597
+588
 00:31:06,000 --> 00:31:08,119
 always have, like, the bullet
 points [laughs]. So, yeah.
 
-598
+589
 00:31:08,724 --> 00:31:08,964
 Dan: Oh, I had --
 
-599
+590
 00:31:10,369 --> 00:31:12,200
 Bekah: Well, I think that's
 great for readers too.
 
-600
+591
 00:31:12,305 --> 00:31:14,000
 Dan: Yeah. I think it's a really
 effective way to- to
 
-601
+592
 00:31:14,000 --> 00:31:17,375
 write. Absolutely. That's how I-
 that's how I usually write the
 
-602
+593
 00:31:17,494 --> 00:31:21,904
 -- when I blog once a year. I
 did the same thing. [Laughs]
 
-603
+594
 00:31:21,904 --> 00:31:25,300
 A-as opposed to [laughs] yours.
 Once a week. I s- yeah, for me,
 
-604
+595
 00:31:25,300 --> 00:31:25,864
 it's once a year maybe.
 
-605
+596
 00:31:25,865 --> 00:31:30,214
 But I- I -- I've just -- I'm-
 I'm impressed in, especially on
 
-606
+597
 00:31:30,214 --> 00:31:34,500
 a limited time schedule. Like,
 you have -- that you have both
 
-607
+598
 00:31:34,500 --> 00:31:36,500
 the -- I don't know.
 
-608
+599
 00:31:36,500 --> 00:31:40,390
 The dedication, the willpower,
 you know, to- to- to
 
-609
+600
 00:31:40,400 --> 00:31:42,500
 do the blogging. Because it's, I
 mean, it's optional, right?
 
-610
+601
 00:31:42,500 --> 00:31:46,000
 Nobody's making you do it, or
 it's not like part of any of
 
-611
+602
 00:31:46,000 --> 00:31:47,269
 your, I don't
 
-612
+603
 00:31:47,269 --> 00:31:49,579
 know, certifications or anything
 like that, right? And so you're-
 
-613
+604
 00:31:49,579 --> 00:31:55,000
 you're- you're just doing it on
 your own. And it's impressive
 
-614
+605
 00:31:55,000 --> 00:31:57,000
 that -- like, blogging is one of
 those things where I'm always,
 
-615
+606
 00:31:57,000 --> 00:32:00,000
 like, "Yes, this month I'm gonna
 get into the habit," you know?
 
-616
+607
 00:32:00,000 --> 00:32:01,009
 [Laughs] And it
 
-617
+608
 00:32:01,009 --> 00:32:02,809
 never happens because it's --
 nobody's making, you know- you
 
-618
+609
 00:32:02,809 --> 00:32:03,919
 know, nobody's asking me to
 write on my own- on my own
 
-619
+610
 00:32:03,919 --> 00:32:06,700
 website. So, I'm always
 impressed by-
 
-620
+611
 00:32:06,700 --> 00:32:07,000
 Ayu: No, I mean, like-
 
-621
+612
 00:32:06,800 --> 00:32:07,654
 Dan: -people who can --
 
-622
+613
 00:32:07,724 --> 00:32:12,000
 Ayu: -the- the -- it's actually
 one of the things that- that get
 
-623
+614
 00:32:13,000 --> 00:32:17,505
 me into learning to code as
 well. Because beside that I
 
-624
+615
 00:32:17,505 --> 00:32:24,000
 want to ... have my photos
 showcase, I also want to --
 
-625
+616
 00:32:24,000 --> 00:32:28,700
 wanted to write about my
 experience, like, living- living
 
-626
+617
 00:32:28,700 --> 00:32:29,255
 in another
 
-627
+618
 00:32:29,255 --> 00:32:35,855
 country, and with a toddler, and
 stuffs. But I finally didn't
 
-628
+619
 00:32:36,634 --> 00:32:41,000
 write anything [Ayu and Dan
 chuckle] until, thank you VC,
 
-629
+620
 00:32:41,000 --> 00:32:43,174
 for having that a monthly
 
-630
+621
 00:32:43,174 --> 00:32:48,484
 challenge of November, where we
 have to write, right? And it's
 
-631
+622
 00:32:48,484 --> 00:32:53,525
 actually -- that's one of the
 things that can ... hmm. How do
 
-632
+623
 00:32:53,525 --> 00:33:00,125
 you say? Make ... how do you say
 that? Ac- accountable? Make me
 
-633
+624
 00:33:00,125 --> 00:33:01,000
 accountable?
 
-634
+625
 00:33:01,000 --> 00:33:01,300
 Bekah: Mm-hmm.
 
-635
+626
 00:33:01,300 --> 00:33:01,500
 Dan: Mm-hmm.
 
-636
+627
 00:33:01,500 --> 00:33:02,500
 Ayu: Hold me accountable? Yeah?
 
-637
+628
 00:33:02,500 --> 00:33:03,000
 Dan: Yeah, yeah.
 
-638
+629
 00:33:03,000 --> 00:33:05,615
 Ayu: And, yeah. It's ... when we
 do
 
-639
+630
 00:33:05,615 --> 00:33:09,934
 something together, right? And
 then, like, yeah. Everybody's
 
-640
+631
 00:33:09,934 --> 00:33:13,414
 like, "Oh, I already wrote this,
 and I wrote this," and I was
 
-641
+632
 00:33:13,595 --> 00:33:15,000
 like, "[Excited voice] Oh, yeah,
 yeah, yeah. I'm gonna do that!"
 
-642
+633
 00:33:15,000 --> 00:33:16,595
 You know? [Dan laughs] Like,
 it's-
 
-643
+634
 00:33:16,835 --> 00:33:23,105
 it's fun! And even after the-
 the monthly challenge done,
 
-644
+635
 00:33:23,974 --> 00:33:28,265
 I was still, like, in my, you
 know, I- I was, like, in my mood
 
-645
+636
 00:33:28,265 --> 00:33:33,224
 to- to- to write. And that's why
 I- I keep writing.
 
-646
+637
 00:33:33,279 --> 00:33:33,970
 Dan: That's awesome.
 
-647
+638
 00:33:33,970 --> 00:33:35,710
 Ayu: But it's all started from
 VC.
 
-648
+639
 00:33:36,275 --> 00:33:40,700
 Bekah: As -- in November, we ran
 our first monthly challenge and
 
-649
+640
 00:33:40,700 --> 00:33:44,500
 that was -- November is
 NaNoWriMo. So, National Novel
 
-650
+641
 00:33:44,500 --> 00:33:45,244
 Writing Month.
 
-651
+642
 00:33:45,664 --> 00:33:50,074
 And the goal is to write 50,000
 words, which is about the size
 
-652
+643
 00:33:50,075 --> 00:33:53,500
 of a novel. And so, we said,
 "Hey, why don't we all work
 
-653
+644
 00:33:53,500 --> 00:33:58,700
 together, and try and pick --
 get -- hit 50,000 words this
 
-654
+645
 00:33:58,700 --> 00:34:01,234
 month, writing and adding to our
 blogs?"
 
-655
+646
 00:34:01,315 --> 00:34:02,154
 Dan: Like, collectively.
 
-656
+647
 00:34:02,644 --> 00:34:04,625
 Bekah: It- it -- yes. Not
 individually [laughs].
 
-657
+648
 00:34:04,625 --> 00:34:04,894
 Dan: Right [Dan and Ayu laugh].
 
-658
+649
 00:34:06,664 --> 00:34:09,844
 Bekah: And it turned out to be a
 lot of fun! It was kind of
 
-659
+650
 00:34:09,844 --> 00:34:15,500
 a last minute thing. And a lot
 of people participated, a lot of
 
-660
+651
 00:34:15,500 --> 00:34:18,700
 people were writing for the
 first time, and we didn't hit
 
-661
+652
 00:34:18,700 --> 00:34:21,300
 50,000. But I think, you know,
 we didn't really gear up either.
 
-662
+653
 00:34:21,300 --> 00:34:21,789
 It was
 
-663
+654
 00:34:21,789 --> 00:34:24,300
 like, "Okay, we're- we're gonna
 do this." But I really think
 
-664
+655
 00:34:24,300 --> 00:34:28,700
 this November, we could hit
 50,000 words and it'll be a lot
 
-665
+656
 00:34:28,700 --> 00:34:31,700
 of fun. It was great to see
 everybody sharing, and asking
 
-666
+657
 00:34:31,700 --> 00:34:33,130
 for feedback,
 
-667
+658
 00:34:33,130 --> 00:34:39,394
 and- and getting, like, new and
 exciting ideas out there. But
 
-668
+659
 00:34:39,394 --> 00:34:42,275
 I also wanna bring up -- so,
 you're writing across platforms.
 
-669
+660
 00:34:42,304 --> 00:34:46,264
 And, not only that. But you're,
 like, recognized on all of the
 
-670
+661
 00:34:46,264 --> 00:34:49,300
 platforms that you're writing
 on. Like, you're consistently
 
-671
+662
 00:34:49,300 --> 00:34:56,700
 one of the top bloggers in ...
 you were recognized -- well, why
 
-672
+663
 00:34:56,700 --> 00:34:59,700
 don't you talk about that first?
 [Chuckles] Or I get ahead of
 
-673
+664
 00:34:59,700 --> 00:35:00,815
 myself. I'm so excited
 
-674
+665
 00:35:00,815 --> 00:35:05,780
 about it. You're writing on all
 of these different platforms and
 
-675
+666
 00:35:05,780 --> 00:35:11,150
 your choice to do that. And you
 know, how- how are -- I- I wanna
 
-676
+667
 00:35:11,150 --> 00:35:13,579
 say that I don't think you give
 yourself enough credit, right?
 
-677
+668
 00:35:13,579 --> 00:35:16,730
 Because everybody is giving you
 credit here and saying like,
 
-678
+669
 00:35:16,730 --> 00:35:20,100
 "Ayu is an amazing writer and
 all these ways!" And
 
-679
+670
 00:35:20,100 --> 00:35:20,150
 [Bekah and Ayu chuckle] ... I
 mean, you can --
 
-680
+671
 00:35:21,880 --> 00:35:24,489
 Ayu: No. I mean, like, I w- I
 write, because I want to write,
 
-681
+672
 00:35:24,489 --> 00:35:26,634
 right? It- it was- it was only
 for the sake of the monthly
 
-682
+673
 00:35:26,634 --> 00:35:28,779
 challenge —
 
-683
+674
 00:35:28,900 --> 00:35:34,300
 at the beginning. And I don't
 have any, you know, like a
 
-684
+675
 00:35:34,300 --> 00:35:38,860
 website or something like that.
 So I started with a platform
 
-685
+676
 00:35:38,860 --> 00:35:48,679
 called Hashnode where I can have
 my own [domain] address, but
 
-686
+677
 00:35:48,679 --> 00:35:53,719
 I can use their platform. And
 then from there, I crossposted
 
-687
+678
 00:35:53,780 --> 00:35:58,219
 to DEV, and then- and then
 there's a CodeNewbie, and then
 
-688
+679
 00:35:58,219 --> 00:36:02,500
 I crosspost it as well to
 CodeNewbie. I never think about,
 
-689
+680
 00:36:02,500 --> 00:36:03,859
 like, gaining ... like,
 
-690
+681
 00:36:05,929 --> 00:36:09,550
 gaining readers or something
 like that. Because I thought --
 
-691
+682
 00:36:09,559 --> 00:36:14,700
 I even thought that no one will-
 will ever read my blog. And I
 
-692
+683
 00:36:14,700 --> 00:36:16,460
 write- I
 
-693
+684
 00:36:16,460 --> 00:36:21,000
 write the blog posts purely only
 for myself, you know? Like, I-
 
-694
+685
 00:36:21,000 --> 00:36:24,260
 I want to have my notes out
 there because my notes are so
 
-695
+686
 00:36:24,260 --> 00:36:32,050
 cluttering, And I want to look
 back to it. And, yeah. Just -- I
 
-696
+687
 00:36:32,050 --> 00:36:35,289
 write for myself. That- that-
 that was the first thing. So I-
 
-697
+688
 00:36:35,289 --> 00:36:39,000
 I- [laughs] I didn't even know,
 like- like, when you say, Bekah,
 
-698
+689
 00:36:39,000 --> 00:36:43,700
 like, "Oh, how do you do that?"
 I have no idea. I mean, like, I
 
-699
+690
 00:36:43,700 --> 00:36:46,449
 never even thought that anyone
 would read. So --
 
-700
+691
 00:36:47,949 --> 00:36:51,700
 Bekah: Well, I think, everyone
 is reading. And also, you were
 
-701
+692
 00:36:51,700 --> 00:36:56,500
 one of the CodeNewbie Spotlights
 in ... April. Yeah. April.
 
-702
+693
 00:36:56,500 --> 00:36:57,000
 Ayu: Yeah, April.
 
-703
+694
 00:36:57,000 --> 00:36:57,578
 Bekah: You were a CodeNewbie
 Spotlight.
 
-704
+695
 00:36:57,578 --> 00:36:58,000
 Ayu: Yeah.
 
-705
+696
 00:36:58,000 --> 00:37:00,129
 Bekah: Talk a little bit about
 that. Cuz that's awesome.
 
-706
+697
 00:37:00,844 --> 00:37:04,500
 Ayu: Yeah. I mean, like, it- it-
 it was a nice surprise. I mean,
 
-707
+698
 00:37:05,000 --> 00:37:12,000
 CodeNewbie, like, sent me a- a-
 a DM on Twitter, and, "Hey, do
 
-708
+699
 00:37:12,000 --> 00:37:13,835
 you want to be our April
 
-709
+700
 00:37:13,844 --> 00:37:17,000
 Spotlight?" And I was like, "Oh,
 yeah, sure!" I mean, like, "How
 
-710
+701
 00:37:17,000 --> 00:37:20,000
 come?" You know? [Ayu and Dan
 laugh]
 
-711
+702
 00:37:21,005 --> 00:37:25,000
 I have no idea. I mean, like,
 it's- it's a big surprise. And,
 
-712
+703
 00:37:25,000 --> 00:37:27,469
 yeah. So, that-
 
-713
+704
 00:37:27,599 --> 00:37:27,659
 Bekah: Well --
 
-714
+705
 00:37:27,860 --> 00:37:30,500
 Ayu: -that was pretty much about
 it. I mean, like, I- I- I didn't
 
-715
+706
 00:37:30,500 --> 00:37:32,150
 see that it's coming, you know?
 
-716
+707
 00:37:34,710 --> 00:37:37,079
 Bekah: I mean, I just love that.
 I love the picture of you and
 
-717
+708
 00:37:37,079 --> 00:37:42,959
 your mom in- in that spotlight.
 It's just such a beautiful way
 
-718
+709
 00:37:42,989 --> 00:37:46,769
 to kind of end that there. And,
 you know, I don't- I don't know
 
-719
+710
 00:37:46,769 --> 00:37:49,000
 if you wanna say anything about
 your mom, but I know that she
 
-720
+711
 00:37:49,000 --> 00:37:49,349
 was a big supporter --
 
-721
+712
 00:37:49,800 --> 00:37:54,500
 Ayu: Yeah. Yeah, yeah. It's-
 it's actually- it's actually
 
-722
+713
 00:37:54,500 --> 00:38:00,949
 kind of- kind of nice story, I
 think. Like, my mom -- we were,
 
-723
+714
 00:38:00,949 --> 00:38:04,010
 we were really like best friend.
 I mean, like, we were really
 
-724
+715
 00:38:04,070 --> 00:38:13,130
 close. And ... she suddenly got
 diagnosed with auto-immune.
 
-725
+716
 00:38:13,639 --> 00:38:18,300
 And it's actually pretty much
 maintainable, if you- if you
 
-726
+717
 00:38:18,300 --> 00:38:18,710
 have like a
 
-727
+718
 00:38:18,710 --> 00:38:23,690
 good medicine, right? And one of
 it is, like, steroids. But at
 
-728
+719
 00:38:23,780 --> 00:38:29,700
 that time, in- in where- where
 she lived, the -- that's --
 
-729
+720
 00:38:29,700 --> 00:38:30,288
 there's not enough steroids.
 
-730
+721
 00:38:30,349 --> 00:38:35,000
 So she got worse, and worse, and
 worse, like, really fast.
 
-731
+722
 00:38:35,000 --> 00:38:40,340
 So, like, one day -- and- and
 she didn't want to receive
 
-732
+723
 00:38:40,340 --> 00:38:43,760
 call for like a couple of weeks.
 Because she was like so -- in so
 
-733
+724
 00:38:43,760 --> 00:38:48,000
 bad- bad condition. And she
 didn't want to say anything.
 
-734
+725
 00:38:48,000 --> 00:38:48,550
 But one
 
-735
+726
 00:38:48,559 --> 00:38:53,364
 time, like, finally she received
 my phone call, and then, I told
 
-736
+727
 00:38:53,364 --> 00:38:57,804
 her, like -- we talked a lot.
 We- we talked almost two hours
 
-737
+728
 00:38:57,804 --> 00:39:03,385
 at that day. And I told her,
 like, "Hey, I want to
 
-738
+729
 00:39:03,385 --> 00:39:08,000
 participate in this photography,
 you know, photography challenge.
 
-739
+730
 00:39:08,000 --> 00:39:13,000
 And if I won," I said, "then-
 then I would be, like, in this
 
-740
+731
 00:39:13,000 --> 00:39:16,700
 magazine in Germany," I said.
 And, "They- they would pick up,
 
-741
+732
 00:39:16,700 --> 00:39:21,000
 like, twenty- twenty pictures.
 And- and- and the top winner
 
-742
+733
 00:39:21,000 --> 00:39:26,000
 would be, like, going into the
 magazine in Germany."
 
-743
+734
 00:39:26,000 --> 00:39:28,860
 And she was like, "Oh, you
 should make me as
 
-744
+735
 00:39:28,860 --> 00:39:31,215
 your model," you know? "And- and
 I think that you would win with
 
-745
+736
 00:39:31,215 --> 00:39:33,570
 my- with
 
-746
+737
 00:39:33,570 --> 00:39:35,285
 my photo on it. And I really
 want to see you on the
 
-747
+738
 00:39:35,285 --> 00:39:37,000
 magazine." And
 
-748
+739
 00:39:37,000 --> 00:39:42,000
 I was like, "Yeah, right
 [chuckles]." And then, like, I
 
-749
+740
 00:39:42,000 --> 00:39:45,875
 didn't even get into the- the-
 the challenge of
 
-750
+741
 00:39:45,875 --> 00:39:51,275
 the photography. And, like, not
 long after that, it's like
 
-751
+742
 00:39:51,275 --> 00:39:56,135
 a week or two weeks, something
 like that, then, I got a
 
-752
+743
 00:39:56,135 --> 00:40:00,695
 phone call from my aunt. And she
 said, like, "I think that
 
-753
+744
 00:40:00,695 --> 00:40:06,000
 you should go back. All of you."
 Like, me and my siblings. "You
 
-754
+745
 00:40:06,000 --> 00:40:06,500
 all should
 
-755
+746
 00:40:06,500 --> 00:40:09,664
 go back because, like, she's
 getting worse." And we were,
 
-756
+747
 00:40:09,724 --> 00:40:14,000
 like, "Oh, okay." So we flew,
 right? We flew there. And after
 
-757
+748
 00:40:14,000 --> 00:40:20,700
 I was there, five days late --
 later, she passed away. So I
 
-758
+749
 00:40:20,700 --> 00:40:21,215
 didn't- I
 
-759
+750
 00:40:21,215 --> 00:40:25,684
 didn't get into a the magazine,
 of course, because I didn't- I
 
-760
+751
 00:40:25,684 --> 00:40:33,574
 didn't ... participate in- in
 the photography challenge. And
 
-761
+752
 00:40:33,574 --> 00:40:39,335
 with this CodeNewbie, and
 suddenly -- no. After- after the
 
-762
+753
 00:40:39,335 --> 00:40:44,945
 -- my profile got into prod-
 CodeNewbie, and then I
 
-763
+754
 00:40:44,945 --> 00:40:48,724
 remember this, you know, like,
 this conversation. Like, when
 
-764
+755
 00:40:48,724 --> 00:40:54,000
 she said, "I want to see you on
 that magazine." And this time,
 
-765
+756
 00:40:54,000 --> 00:40:56,000
 like, it's not the magazine,
 
-766
+757
 00:40:56,000 --> 00:40:59,929
 but I- I mean, like, I'm on an
 article. And that's me.
 
-767
+758
 00:40:59,929 --> 00:41:04,000
 That's me there. And that's why
 I took my mom picture there.
 
-768
+759
 00:41:04,000 --> 00:41:07,800
 Because like, "Hey, mom," it's
 like, "You're there now," you
 
-769
+760
 00:41:07,800 --> 00:41:08,929
 know? Like, "It's
 
-770
+761
 00:41:08,929 --> 00:41:12,230
 not, it's not on the photography
 thing that we talked about, but
 
-771
+762
 00:41:13,400 --> 00:41:17,000
 you're there on- on my -- on an
 article about me." So, yeah. I
 
-772
+763
 00:41:17,000 --> 00:41:21,485
 hope that ... she liked it.
 
-773
+764
 00:41:21,485 --> 00:41:24,514
 Bekah: It's such a beautiful
 story. And it's so nice to hear
 
-774
+765
 00:41:24,514 --> 00:41:28,925
 you share it and to talk about
 your mom. And- and- and that
 
-775
+766
 00:41:28,925 --> 00:41:32,974
 support and to see how it just
 all kind of come arounds, and,
 
-776
+767
 00:41:32,974 --> 00:41:40,500
 you know ... yeah. I just- I
 just -- really, really
 
-777
+768
 00:41:40,500 --> 00:41:40,804
 beautiful.
 
-778
+769
 00:41:43,619 --> 00:41:45,719
 Ayu: Yeah. I- I just hope that
 she proud of me.
 
-779
+770
 00:41:45,719 --> 00:41:47,570
 I mean, like ... yeah
 [chuckles].
 
-780
+771
 00:41:48,704 --> 00:41:52,349
 Bekah: I mean, Ayu, you're doing
 so much. I mean,
 
-781
+772
 00:41:52,349 --> 00:41:53,834
 you're taking care of your
 daughter, you're learning,
 
-782
+773
 00:41:53,834 --> 00:41:55,319
 you're ...
 
-783
+774
 00:41:56,969 --> 00:41:59,759
 bringing up -- helping so much
 with the community, and being
 
-784
+775
 00:41:59,759 --> 00:42:02,549
 such a- a
 
-785
+776
 00:42:02,849 --> 00:42:07,530
 great person to have in our
 community. And to, you know,
 
-786
+777
 00:42:07,559 --> 00:42:10,710
 have your support, and all of
 the things that you share, and,
 
-787
+778
 00:42:10,710 --> 00:42:15,269
 you know, you've- you've touched
 so many lives. So I- I feel like
 
-788
+779
 00:42:15,329 --> 00:42:16,769
 she, most definitely, is proud
 of you.
 
-789
+780
 00:42:18,599 --> 00:42:21,269
 Ayu: Thank you. Thank you so
 much. And I'm- I'm- I'm very,
 
-790
+781
 00:42:21,269 --> 00:42:25,289
 very grateful to find Virtual
 Coffee, to be honest. I mean,
 
-791
+782
 00:42:25,289 --> 00:42:32,449
 like, thank you Bekah, Dan, and
 Kirk, and Sara, and, yeah.
 
-792
+783
 00:42:32,449 --> 00:42:34,794
 Everybody in VC, like, very,
 very supportive and very, very
 
-793
+784
 00:42:34,794 --> 00:42:37,139
 loving. I mean, like,
 
-794
+785
 00:42:37,139 --> 00:42:39,989
 this is the first time that I
 feel like I'm not alone, not
 
-795
+786
 00:42:40,199 --> 00:42:45,269
 only in the journey of learning,
 but VC is more like a family to
 
-796
+787
 00:42:45,269 --> 00:42:48,374
 me. And even though we haven't
 met in real life, but I feel
 
-797
+788
 00:42:48,374 --> 00:42:51,479
 like
 
-798
+789
 00:42:51,869 --> 00:42:56,000
 I'm so close to everyone as if
 like, yeah, I- I've- I've meet
 
-799
+790
 00:42:56,000 --> 00:42:59,800
 you all for a thousand years.
 So, yeah [Dan chuckles].
 
-800
+791
 00:43:02,739 --> 00:43:06,219
 Bekah: Yeah. I mean, that's been
 my experience too, you know? I
 
-801
+792
 00:43:06,579 --> 00:43:12,730
 always struggled with finding
 friends, and fitting in, and
 
-802
+793
 00:43:12,730 --> 00:43:15,500
 kind of understanding like my
 place in things. And it's just
 
-803
+794
 00:43:15,500 --> 00:43:16,268
 been really
 
-804
+795
 00:43:16,269 --> 00:43:18,969
 nice to be able to share that
 with other people, and for other
 
-805
+796
 00:43:18,969 --> 00:43:25,614
 people to except -- accept me
 where I'm at in that place, and-
 
-806
+797
 00:43:25,724 --> 00:43:28,974
 and to be able to talk about
 things more openly. Because I
 
-807
+798
 00:43:28,974 --> 00:43:30,504
 don't know if- if you knew me
 five years ago, I'm a- a much
 
-808
+799
 00:43:30,504 --> 00:43:32,034
 different
 
-809
+800
 00:43:32,034 --> 00:43:34,945
 person than I was. And before, I
 never would have shared any of
 
-810
+801
 00:43:34,945 --> 00:43:37,795
 that. I just would've, like,
 bottled it all up. But it's nice
 
-811
+802
 00:43:37,795 --> 00:43:39,519
 to have a community that you
 feel safe and supported with and
 
-812
+803
 00:43:39,519 --> 00:43:41,243
 to be
 
-813
+804
 00:43:41,244 --> 00:43:43,914
 able to talk about those things
 like, "Wow, I'm just really,
 
-814
+805
 00:43:43,914 --> 00:43:47,300
 really having a tough day
 today," you know? And- and just
 
-815
+806
 00:43:47,300 --> 00:43:48,184
 to -- even
 
-816
+807
 00:43:48,215 --> 00:43:50,885
 just somebody giving me a heart
 emoji is like, sometimes that's
 
-817
+808
 00:43:50,885 --> 00:43:54,275
 all I need. I just need someone
 to acknowledge that I am having
 
-818
+809
 00:43:54,275 --> 00:44:00,155
 a hard day. And it's- and it's
 just a really special place. I
 
-819
+810
 00:44:00,155 --> 00:44:01,894
 haven't found anything else like
 that.
 
-820
+811
 00:44:03,690 --> 00:44:09,329
 Ayu: True. True. I feel- I feel
 the same. I mean, like, when was
 
-821
+812
 00:44:09,329 --> 00:44:14,565
 I find Virtual Coffee? It was
 from your tweet, right, Bekah?
 
-822
+813
 00:44:14,565 --> 00:44:17,300
 And I was, like, "Hey, I'm
 having this virtual coffee."
 
-823
+814
 00:44:17,300 --> 00:44:19,425
 And, you- you post
 
-824
+815
 00:44:19,425 --> 00:44:25,965
 the Slack- the Slack link, and I
 did join the Slack. But I wasn't
 
-825
+816
 00:44:25,965 --> 00:44:29,500
 saying anything at all. And I
 was like -- I don't know. I
 
-826
+817
 00:44:29,500 --> 00:44:34,000
 mean, like, I'm still learning.
 And all people here are already
 
-827
+818
 00:44:34,000 --> 00:44:39,000
 developer, you know? And, like,
 I -- how can I s- I- I didn't
 
-828
+819
 00:44:39,000 --> 00:44:44,000
 even dare to say hi. Hmm. I was,
 like, "Oh, my god. Who am I?"
 
-829
+820
 00:44:44,000 --> 00:44:51,300
 You know? [Laughs] But, yeah. So
 I, finally, after -- I don't
 
-830
+821
 00:44:51,300 --> 00:44:55,534
 know. A couple of months, I
 think. And finally, I say hi and
 
-831
+822
 00:44:55,655 --> 00:44:59,764
 introduce myself in the Slack.
 And then I went to the
 
-832
+823
 00:44:59,764 --> 00:45:03,500
 meeting for the first time. And
 I was like, "No, everybody's,
 
-833
+824
 00:45:03,500 --> 00:45:06,700
 like, so nice." And- and
 everybody's, like, maybe already
 
-834
+825
 00:45:06,700 --> 00:45:08,525
 have more than 10 years
 
-835
+826
 00:45:08,525 --> 00:45:12,425
 experience, but they're still,
 like, so humble and so caring.
 
-836
+827
 00:45:12,425 --> 00:45:16,000
 And I was like, "Yes. I think I
 know that I'm in the right
 
-837
+828
 00:45:16,000 --> 00:45:17,405
 place." In a
 
-838
+829
 00:45:17,405 --> 00:45:20,344
 heartbeat, I just knew that,
 "Yeah. This is- this is my
 
-839
+830
 00:45:20,344 --> 00:45:25,000
 community," you know? Like,
 it's- it's nice. It's always
 
-840
+831
 00:45:25,000 --> 00:45:26,604
 nice to be in VC. I mean, like,
 
-841
+832
 00:45:27,114 --> 00:45:31,000
 you can see me almost every day
 on Slack. Oh, I'm so sorry for
 
-842
+833
 00:45:31,000 --> 00:45:33,114
 that. But I just cannot help it
 [laughs].
 
-843
+834
 00:45:37,760 --> 00:45:43,280
 Dan: Oh, we're certainly glad
 that you are here in Slack and-
 
-844
+835
 00:45:43,409 --> 00:45:47,000
 and- and at the meetings. It's-
 it's -- I don't know. It's
 
-845
+836
 00:45:47,000 --> 00:45:48,050
 always good to see you there.
 
-846
+837
 00:45:50,889 --> 00:45:54,925
 Ayu: Oh, oh, oh, one time, like,
 I usually, like, do cowork at
 
-847
+838
 00:45:54,925 --> 00:45:58,465
 nights, right? Because I learn
 at nights. And most of the
 
-848
+839
 00:45:58,465 --> 00:46:02,909
 time, I- I cannot really talk
 because my husband and my-
 
-849
+840
 00:46:02,940 --> 00:46:07,440
 my daughter's super sensitive to
 voices. But the -- for today, I
 
-850
+841
 00:46:07,440 --> 00:46:10,139
 already told my husband, like,
 "Don't get bothered because I'm
 
-851
+842
 00:46:10,139 --> 00:46:15,000
 gonna talk loud." [All chuchkle]
 And, yeah. So usually, in the
 
-852
+843
 00:46:15,000 --> 00:46:17,000
 coworking channel, like,
 
-853
+844
 00:46:17,000 --> 00:46:21,719
 people don't really hear my
 voice because I always typing.
 
-854
+845
 00:46:21,719 --> 00:46:25,700
 Like, people say something, and
 I always, "Wait! I type," right?
 
-855
+846
 00:46:25,700 --> 00:46:29,700
 [Ayu and Dan laugh] And then,
 one time, Glen, he was like, "I
 
-856
+847
 00:46:29,700 --> 00:46:33,700
 will give ten bucks to anybody
 who can [laughs]- who can make
 
-857
+848
 00:46:33,700 --> 00:46:37,329
 her talk [Ayu and Dan laugh].
 Because I never hear her voice."
 
-858
+849
 00:46:40,894 --> 00:46:41,594
 Dan: That's amazing [laughs].
 
-859
+850
 00:46:44,135 --> 00:46:45,065
 Bekah: That is so funny.
 
-860
+851
 00:46:45,639 --> 00:46:46,269
 Ayu: Yeah.
 
-861
+852
 00:46:46,635 --> 00:46:49,394
 Dan: Well, now we can just send
 him this podcast episode, right?
 
-862
+853
 00:46:49,704 --> 00:46:49,705
 Bekah: That's right.
 
-863
+854
 00:46:50,000 --> 00:46:50,500
 Ayu: Yeah, right?
 
-864
+855
 00:46:50,200 --> 00:46:51,000
 Bekah: Who gets the ten bucks?
 
-865
+856
 00:46:52,275 --> 00:46:53,534
 Dan: Oh, yeah. Who gets it?
 We'll split it.
 
-866
+857
 00:46:54,000 --> 00:46:54,469
 Ayu: Split it [Ayu and Dan
 chuckle].
 
-867
+858
 00:46:58,699 --> 00:47:00,124
 Bekah: I guess you've given a
 lot of advice throughout this
 
-868
+859
 00:47:00,124 --> 00:47:01,549
 podcast
 
-869
+860
 00:47:01,550 --> 00:47:04,340
 and through all the blogs that
 you've written. So I have -- I
 
-870
+861
 00:47:04,340 --> 00:47:07,639
 guess, two more questions for
 you. And the first would be what
 
-871
+862
 00:47:07,639 --> 00:47:10,204
 has been your favorite blog post
 to write, if you have one? And
 
-872
+863
 00:47:10,204 --> 00:47:12,769
 then,
 
-873
+864
 00:47:12,769 --> 00:47:17,150
 the second question would be, if
 you had advice to give to
 
-874
+865
 00:47:17,150 --> 00:47:20,690
 somebody in your shoes, what
 would that advice be?
 
-875
+866
 00:47:23,324 --> 00:47:29,500
 Ayu: My favorite- my favorite
 post so far is the last one to
 
-876
+867
 00:47:29,500 --> 00:47:34,500
 be honest. It's the massive
 burnout ones. That -- when I --
 
-877
+868
 00:47:34,500 --> 00:47:40,700
 that's the fastest one that I-
 that I wrote because it's really
 
-878
+869
 00:47:40,700 --> 00:47:44,700
 coming- coming from -- like, I
 don't- I don't really filter it.
 
-879
+870
 00:47:44,700 --> 00:47:45,150
 It's just
 
-880
+871
 00:47:45,179 --> 00:47:49,409
 coming out. And, yeah. That one
 is my favorite blog posts.
 
-881
+872
 00:47:50,219 --> 00:47:55,574
 And if I have ... oh, what- what
 did you say again?
 
-882
+873
 00:47:56,760 --> 00:47:58,700
 Bekah: If you had one piece of
 advice to give to someone in
 
-883
+874
 00:47:58,700 --> 00:48:00,449
 your shoes, what would it be?
 
-884
+875
 00:48:02,864 --> 00:48:09,570
 Ayu: Well, if you- if you're a
 self-learner, like, try to find
 
-885
+876
 00:48:09,570 --> 00:48:11,715
 a community. Because it's -- it
 really, really helps you. I
 
-886
+877
 00:48:11,715 --> 00:48:13,860
 mean,
 
-887
+878
 00:48:13,860 --> 00:48:16,935
 like, it's -- it helps me a lot.
 I get more confident
 
-888
+879
 00:48:16,935 --> 00:48:20,010
 and- and
 
-889
+880
 00:48:20,010 --> 00:48:25,980
 I have people to support me. And
 when- when I can, I also- I also
 
-890
+881
 00:48:25,980 --> 00:48:30,700
 can support someone, right? And
 it makes you feel like you're
 
-891
+882
 00:48:30,700 --> 00:48:36,000
 not alone, but also valuable for
 somebody else. And if you want
 
-892
+883
 00:48:36,000 --> 00:48:41,005
 to start your blog, don't think
 twice. Just- just write it,
 
-893
+884
 00:48:41,025 --> 00:48:43,334
 and- and- and don't think that
 maybe nobody will- will read it
 
-894
+885
 00:48:43,334 --> 00:48:45,643
 or maybe it's
 
-895
+886
 00:48:45,644 --> 00:48:50,594
 not good. No, it -- just- just
 write it. I mean, like, it's --
 
-896
+887
 00:48:50,594 --> 00:48:54,000
 you write it for yourself.
 That's- that's the first thing
 
-897
+888
 00:48:54,000 --> 00:48:56,700
 that you only have to think.
 Like, write it for yourself,
 
-898
+889
 00:48:56,700 --> 00:48:58,844
 and then the rest will come.
 
-899
+890
 00:49:00,719 --> 00:49:03,840
 Bekah: Yeah, that's so great.
 Well, Ayu, thank you so much for
 
-900
+891
 00:49:03,840 --> 00:49:07,500
 being here with us today on the
 podcast, but for being such a
 
-901
+892
 00:49:07,500 --> 00:49:10,300
 great part of the community.
 It's been so wonderful to have
 
-902
+893
 00:49:10,300 --> 00:49:11,219
 you here with us.
 
-903
+894
 00:49:11,219 --> 00:49:13,700
 Ayu: Yeah. Thank you so much for
 having me.
 
-904
+895
 00:49:13,700 --> 00:49:14,554
 Dan: Yeah, thank you.
 
-905
+896
 00:49:17,847 --> 00:49:20,157
 Bekah: Thank you for listening
 to this episode of the Virtual
 
-906
+897
 00:49:20,157 --> 00:49:25,438
 Coffee Podcast. This episode was
 produced by Dan Ott and Bekah
 
-907
+898
 00:49:25,438 --> 00:49:29,737
 Hawrot Weigel, and edited by Dan
 Ott. If you have questions or
 
-908
+899
 00:49:29,737 --> 00:49:33,987
 comments, you can hit us up on
 Twitter at VirtualCoffeeIO, or
 
-909
+900
 00:49:33,987 --> 00:49:36,302
 you can email us at
 podcast@virtualcoffee.io. You
 
-910
+901
 00:49:36,302 --> 00:49:38,617
 can
 
-911
+902
 00:49:38,617 --> 00:49:40,087
 find the show notes, plus you
 can sign up for our newsletter
 
-912
+903
 00:49:40,087 --> 00:49:41,557
 to
 
-913
+904
 00:49:41,557 --> 00:49:45,378
 find out what Virtual Coffee's
 been up to on our website at
 
-914
+905
 00:49:45,378 --> 00:49:46,978
 virtualcoffee.io.
 
-915
+906
 00:49:47,693 --> 00:49:50,422
 Dan: Please subscribe to our
 podcast and be sure to leave us
 
-916
+907
 00:49:50,422 --> 00:49:53,603
 a review. Thanks for listening,
 and we'll see you next week!
