@@ -26,3 +26,5 @@ This tool will:
 
 - Check for invalid timestamp formatting
 - Find and attempt to fix indexing issues
+
+After running `yarn check-srt`, fix the incorrect timestamps format manually, if any.
