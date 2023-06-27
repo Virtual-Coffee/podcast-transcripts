@@ -14,30 +14,39 @@ Those utterances are:
   - Mm-hmm, Mm (affirmative) or Mm-mm (negative)
   - Uh-huh (affirmative) or Uh-uh (negative)
 
-## Speaker labels
+## Table of Contents
 
-1. Use the full name on first reference
-2. Use the speaker’s first name for the remainder of the transcription.
+- [⚠️ Important](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#%EF%B8%8F-important)
+  - [Colons](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#colons-)
+  - [Paragraph](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#paragraph)
+  - [Timestamp](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#timestamp)
+  - [Speaker Labels](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#speaker-labels)
+- [Formatting](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#formatting)
+  - [Double Quotations Marks ("")](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#double-quotations-marks-)
+  - [Comma (,)](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#comma-)
+  - [Single Dash (-)](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#single-dash--)
+  - [Double Dash (--)](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#double-dash---)
+  - [Em Dash (—)](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#em-dash-)
+  - [Ellipsis ( ... )](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#ellipsis---)
+  - [Capitalization](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#capitalization)
+  - [Non-Text Audio](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#non-text-audio)
+- [Other Notes](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#other-notes)
+- [Resources](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#resources)
 
-```text
-  Bekah Hawrot Weigel: Hello, and welcome to Season 1, Episode 1 of the Virtual Coffee podcast…
+## ⚠️ Important
 
-  Dan Ott: Thanks, Bekah. In this episode, …
+### Colons (:)
 
-  Bekah: We start every episode of the podcast like we start every Virtual Coffee.
+**Do not use colons (`:`) anywhere except in the timestamp and directly after the speaker label.** The way that Buzzsprout processes `.srt` files results in errors or misparsed speaker names if colons are present in the text.
+Most times, we can use an [em dash (—)](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#em-dash-).
 
-  Dan: Hi, I'm Dan. I'm a front-end developer…
-```
-
-## Colons
-
-**Do not use colons (`:`) anywhere except in the timestamp and directly after the speaker label.** The way that Buzzsprout processes srt files results in errors or mis-parsed speaker names if colons are present in the text. Most times we can use an [em dash](#em-dash-).
-
-## Paragraph
+### Paragraph
 
 1. Keep the original one or two lines per number of a range of timestamps.
-2. Make sure that there is no space after the last word of each paragraph.
-3. Each section should be 4 lines (index, timestamp, and two lines of text). The [`check-srt`](https://github.com/Virtual-Coffee/podcast-transcripts#fixing-formatting-issues) command will fix these up for you as well.
+2. Ensure there is no space after the last word of each paragraph.
+3. Each section should have a maximum of 4 lines (index, timestamp, and 1 or 2 lines of text).
+
+   The [`check-srt`](https://github.com/Virtual-Coffee/podcast-transcripts#fixing-formatting-issues) command will fix these for you. But you need to fix the timestamps manually afterward if necessary.
 
 ```text
   812
@@ -46,11 +55,26 @@ Those utterances are:
   to that talk.
 ```
 
-## Timestamp
+### Timestamp
 
-- Make sure to always include the three digits after comma. Write `000` if it's unknown, but make sure that the end time is later than the start time.
+- Make sure to always **include the three digits after the comma**. Write 000 if it's unknown, but ensure the end time is later than the start time.
 
   `04:05:20,000 --> 04:05:21,638`
+
+### Speaker Labels
+
+1. Use the speaker's full name on their first reference.
+2. Use the speaker’s first name for the rest of the transcription.
+
+```text
+  Bekah Hawrot Weigel: Hello, and welcome to Season 1, Episode 1 of the Virtual Coffee podcast. With me today is my co-host, Dan.
+
+  Dan Ott: Hey, Bekah. How are you doing?
+
+  Bekah: I'm doing good. How about you?
+
+  Dan: I'm great.
+```
 
 ## Formatting
 
@@ -76,7 +100,7 @@ Those utterances are:
 
   `I really, really love that book.`
 
-### Single dash (-)
+### Single Dash (-)
 
 - Stutters:
 
@@ -105,7 +129,7 @@ Those utterances are:
 - Do not give space before and after the single dash, except for repetitions and unfinished words.
 - In the case of severe stuttering, type a maximum of three stuttered sounds.
 
-### Double dash (--)
+### Double Dash (--)
 
 - Use it for false starts or when there is a change of thoughts.
 
@@ -122,7 +146,7 @@ Those utterances are:
 - Give space before and after the double dash.
 - Use lowercase for the sentence that follows the double dash.
 
-### Em dash –
+### Em Dash (—)
 
 - Use it to introduce a list or idea.
 
@@ -136,7 +160,7 @@ Those utterances are:
 
 [How to create em dash on Windows or Mac](https://www.techtoolsforwriters.com/how-to-create-an-em-dash/).
 
-### Ellipsis (…)
+### Ellipsis ( ... )
 
 - Use it to describe a short pause; not longer than 4 seconds.
 
@@ -154,7 +178,7 @@ Those utterances are:
 - Capitalize titles of movies, books, et cetera `e.g., “Gone With The Wind”`.
 - Capitalize spelling `e.g., “My name is Anna, A-N-N-A.”`
 
-### Non-text audio
+### Non-Text Audio
 
 - Sound events that are significant to the audio should also be noted by using brackets [ ].
   `e.g., [laughs] [chuckles] [giggles] [gasp]`. [Laughs] is a normal laugh; [chuckles] is a soft laugh.
@@ -180,7 +204,7 @@ Those utterances are:
 
   `Yeah, there's not really much of [unintelligible].`
 
-## Other notes
+## Other Notes
 
 - Do not correct grammatical errors made by the speakers.
 - Strictly transcribe what the speakers actually say, except for ‘uh’ and ‘um’.
