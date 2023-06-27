@@ -219,9 +219,9 @@ Most times, we can use an [em dash (—)](https://github.com/Virtual-Coffee/podc
 ## Resources
 
 - [GoTranscript](https://gotranscript.com/transcription-guidelines)
-- [#causeascene](https://hashtagcauseascene.com/community-transcription-guide/)
 - [OneSpace](http://support.onespace.com/training-resources/transcription-style-guide)
 - [Software Engineering Unlocked Podcast repo](https://github.com/mgreiler/se-unlocked/blob/master/Transcription_Guidelines.md)
 - [Anecdote style](https://sites.google.com/site/anecdotestyle/style-guides/general-transcription-style-guide)
 - [Punctuation Marks](https://punctuationmarks.org/em-dash/)
 - [CC TRANSCRIBERS](https://cctranscribers.wordpress.com/2016/12/22/four-rules-of-verbatim-transcription/)
+- [The False Start](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/trllex_e_html/projects/false_start.html)
