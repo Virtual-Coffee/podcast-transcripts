@@ -171,7 +171,7 @@ Most times, we can use an [em dash (–)](https://github.com/Virtual-Coffee/podc
 - The beginning of every sentence should be capitalized.
 - When quoting, the first word of a complete sentence should be capitalized.
 - Always research the proper capitalization, e.g., `iPhone`, `Ruby on Rails`, `SaaS`.
-- Always capitalize AM and PM for time, e.g., `2:45 PM`, `5:00 AM`.
+- Always capitalize AM and PM for time, e.g., `two forty PM`, `five AM`.
 - Capitalize nouns followed by numbers or letters that are part of a series, e.g., `Season 1`, `Episode 1`.
 - Capitalize titles of movies, books, et cetera, e.g., `“Gone With The Wind”`.
 - Capitalize spelling, e.g., `“My name is Anna, A-N-N-A.”`
