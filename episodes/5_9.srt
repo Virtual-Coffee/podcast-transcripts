@@ -9,7 +9,7 @@ of the
 
 3
 00:00:09,746 --> 00:00:12,400
-Virtual Coffee podcast. I'm
+Virtual Coffee Podcast. I'm
 Bekah. And this is a podcast
 
 4
@@ -31,237 +31,237 @@ developers at all stages of
 their
 
 8
-00:00:21,653 --> 00:00:24,414
-coding journey. And they're here
-on this podcast, sharing their
+00:00:21,653 --> 00:00:23,033
+coding journey. And they're
+here, on this podcast, sharing
 
 9
+00:00:23,033 --> 00:00:24,413
+their
+
+10
 00:00:24,414 --> 00:00:25,928
 stories and what they've
 learned. And we're here to share
 
-10
+11
 00:00:25,928 --> 00:00:27,442
 it with
 
-11
+12
 00:00:27,443 --> 00:00:31,583
 you. Here with me today is my
 co-host, Dan, and everybody's
 
-12
+13
 00:00:31,583 --> 00:00:33,084
 favorite maintainer, Kirk.
 
-13
+14
 00:00:33,567 --> 00:00:39,476
-Dan: Hello! Welcome to our
+Dan Ott: Hello! Welcome to our
 season finale of Season 5. As we
 
-14
+15
 00:00:39,476 --> 00:00:41,591
 traditionally do, we have Kirk
 on to hang out with us because
 
-15
+16
 00:00:41,591 --> 00:00:43,706
 we
 
-16
+17
 00:00:43,707 --> 00:00:47,877
 all love Kirk very much. And we
 are going to talk about some
 
-17
-00:00:47,877 --> 00:00:53,286
-choices we made with- with
-Virtual Coffee and some feedback
-
 18
+00:00:47,877 --> 00:00:50,581
+choices we made with- with
+Virtual Coffee, and some
+
+19
+00:00:50,581 --> 00:00:53,285
+feedback
+
+20
 00:00:53,286 --> 00:00:57,606
 we've had over the last few
 months, and what we have
 
-19
+21
 00:00:57,606 --> 00:01:00,336
 going on in the future. So, glad
 as always to have Kirk here.
 
-20
+22
 00:01:00,336 --> 00:01:03,066
-And,
+And--
 
-21
+23
 00:01:03,097 --> 00:01:04,626
 yeah, it's gonna be fun.
 
-22
+24
 00:01:05,552 --> 00:01:07,861
 Bekah: Yeah. And we're gonna
 start off this episode of the
 
-23
+25
 00:01:07,861 --> 00:01:12,001
 podcast like we start off every
 Virtual Coffee. We'll introduce
 
-24
+26
 00:01:12,001 --> 00:01:15,811
 ourselves with our name, where
 we're from, what we do, and a
 
-25
+27
 00:01:15,811 --> 00:01:27,832
 random check-in question. We
 hope you enjoy this episode. Our
 
-26
+28
 00:01:27,832 --> 00:01:30,547
 question today is, what was your
 favorite game to play as a
 
-27
+29
 00:01:30,547 --> 00:01:33,262
 child?
 
-28
+30
 00:01:34,843 --> 00:01:37,362
 My name is Bekah. I'm a
 technical community builder from
 
-29
+31
 00:01:37,362 --> 00:01:39,881
 a small
 
-30
+32
 00:01:39,882 --> 00:01:42,247
 town in Ohio, and my favorite
-game to play as a child -- I
+game to play as a child-- I
 
-31
+33
 00:01:42,247 --> 00:01:44,612
 mean,
 
-32
+34
 00:01:44,662 --> 00:01:46,922
-like, due to I grew up to --
-here, I really loved Othello, so
+like, due to I grew up to--
+here, I really loved Othello. So
 
-33
+35
 00:01:46,922 --> 00:01:49,182
 I played
 
-34
+36
 00:01:49,183 --> 00:01:53,263
 a lot of Othello with my dad.
-And then I'm gonna go outdoor
+And then, I'm gonna go outdoor
 
-35
+37
 00:01:53,322 --> 00:01:57,612
 games. We also played a lot of
 kickball and badminton in my
 
-36
+38
 00:01:57,612 --> 00:01:59,923
-backyard. So I can't really
+backyard. So, I can't really
 decide between kickball and
 
-37
+39
 00:01:59,923 --> 00:02:04,332
 badminton, but I have very fond
 memories of all of those things.
 
-38
+40
 00:02:04,628 --> 00:02:06,158
 Dan: All right, so you're going
 three games.
 
-39
+41
 00:02:06,403 --> 00:02:08,143
 Bekah: Yeah. Okay. I can do what
 I want, right [laughs]?
 
-40
+42
 00:02:07,000 --> 00:02:08,858
 Dan: What are your three
 favorite games [laughs]?
 
-41
-00:02:10,000 --> 00:02:10,500
-Kirk Shillingford: Pick your
-favorite game. It doesn't mean
-
-42
-00:02:10,500 --> 00:02:11,000
---
-
 43
+00:02:10,000 --> 00:02:11,000
+Kirk Shillingford: Pick your
+favorite game. It doesn't mean--
+
+44
 00:02:11,832 --> 00:02:12,973
 Bekah: You get one, Dan.
 
-44
+45
 00:02:14,228 --> 00:02:18,273
 Dan: [Laughs] Hi, I'm Dan. You
 all know who I am. My favorite
 
-45
+46
 00:02:18,273 --> 00:02:22,318
 game ... I don't
 
-46
-00:02:22,318 --> 00:02:23,518
-know. This is like when my mind
-just to the next --
-
 47
-00:02:23,772 --> 00:02:25,077
-Bekah: Wait- wait a minute. You
-said, "We -- you all know who I
+00:02:22,318 --> 00:02:23,518
+know. This is, like, when my
+mind just to the next--
 
 48
+00:02:23,772 --> 00:02:25,077
+Bekah: Wait- wait a minute. You
+said, "We-- you all know who I
+
+49
 00:02:25,077 --> 00:02:26,382
 am." [Dan laughs] What if you
 have a
 
-49
+50
 00:02:26,383 --> 00:02:28,092
 first time listener here, okay?
 
-50
+51
 00:02:28,298 --> 00:02:30,408
 Dan: Okay. Well, first time
 listener. Well, I'm Dan. I live
 
-51
+52
 00:02:30,408 --> 00:02:32,518
 in Cleveland. I make
 
-52
+53
 00:02:32,578 --> 00:02:34,918
 websites stuff with code.
-Sometimes in front end -- most
+Sometimes in front end-- most
 
-53
+54
 00:02:34,918 --> 00:02:37,258
 of the time,
 
-54
+55
 00:02:37,258 --> 00:02:40,858
 front end, sometimes back end. I
 do a lot of other things too.
 
-55
+56
 00:02:41,337 --> 00:02:44,622
 And it's all on my computer [Dan
 and Bekah laugh]. I'm sorry. I'm
 
-56
-00:02:44,622 --> 00:02:47,907
-having trouble
-
 57
-00:02:47,907 --> 00:02:48,897
-today. All right.
+00:02:44,622 --> 00:02:48,897
+having trouble today. All right.
 
 58
 00:02:49,677 --> 00:02:51,672
@@ -269,5828 +269,5766 @@ Bekah: You should participated
 in the monthly challenge last
 
 59
-00:02:51,672 --> 00:02:53,667
+00:02:51,672 --> 00:02:54,598
 month for the elevator pitch. I
-
-60
-00:02:53,668 --> 00:02:54,598
 think it would have helped you-
 
-61
+60
 00:02:54,828 --> 00:02:55,457
 Kirk: No, that's the perfect
 [unintelligible]-
 
-62
+61
 00:02:55,497 --> 00:02:56,548
 Bekah: -refine your intro.
 
-63
+62
 00:02:57,168 --> 00:02:57,807
 Dan: I should have.
 
-64
+63
 00:02:57,828 --> 00:02:58,518
 Kirk: -angel word.
 
-65
+64
 00:02:59,068 --> 00:03:08,728
 Dan: I- I make computer things
 [chuckles].
 
-66
+65
 00:03:04,000 --> 00:03:05,000
 Kirk: Real quick.
 
-67
+66
 00:03:05,000 --> 00:03:10,373
 Dan: So, games as a child ... we
 had this- we had this board game
 
-68
+67
 00:03:10,373 --> 00:03:15,746
 called Omega Virus-
 
-69
+68
 00:03:15,747 --> 00:03:15,758
 Bekah: Yes! Yes, yes, Omega
 Virus.
 
-70
+69
 00:03:15,758 --> 00:03:16,592
 Dan: -is the first thing that
 popped in mind. You know Omega
 
-71
+70
 00:03:16,592 --> 00:03:17,426
 Virus?
 
-72
+71
 00:03:17,627 --> 00:03:17,627
 Bekah: Yes!
 
-73
+72
 00:03:18,000 --> 00:03:20,000
 Dan: [Chuckles] Oh my god.
 That's amazing.
 
-74
+73
 00:03:20,000 --> 00:03:21,729
 Bekah: I think I accidentally
 called Omicron, Omega virus
 
-75
+74
 00:03:21,729 --> 00:03:23,458
 [laughs] one time in public. And
 somebody was like, "What?"
 
-76
+75
 00:03:23,458 --> 00:03:25,187
 [laughs].
 
-77
+76
 00:03:25,587 --> 00:03:26,967
 Dan: [Laughs] It's amazing!
 Okay. So that game was really
 
-78
+77
 00:03:26,967 --> 00:03:28,347
 fun. I- I
 
-79
+78
 00:03:28,348 --> 00:03:29,338
 mean, I don't even know if it's
-a good game, but it had -- you
+a good game, but it had-- you
 
-80
+79
 00:03:29,338 --> 00:03:30,328
 know,
 
-81
+80
 00:03:30,328 --> 00:03:32,127
 a guy that yelled at you, and
 robots, and stuff. And so it
 
-82
+81
 00:03:32,127 --> 00:03:33,926
 was-
 
-83
+82
 00:03:33,987 --> 00:03:35,907
 it was fun. That was the first
 thing that popped in my mind. So
 
-84
+83
 00:03:36,687 --> 00:03:39,687
 we played lots of games growing
 up. But that one has
 
-85
+84
 00:03:39,687 --> 00:03:42,094
 a special place, you know, in my
 heart. So ... for my one
 
-86
+85
 00:03:42,094 --> 00:03:44,501
 favorite game, I'm picking
 
-87
+86
 00:03:44,502 --> 00:03:45,173
 Omega Virus.
 
-88
+87
 00:03:45,353 --> 00:03:46,000
-Bekah: I was the one -- I wanna
+Bekah: I was the one-- I wanna
 add another one.
 
-89
+88
 00:03:47,000 --> 00:03:48,000
-Dan: Cuz I thought the rules --
+Dan: Cuz I thought the rules--
 
-90
+89
 00:03:48,000 --> 00:03:49,946
 Bekah: Number four. Computer
 game, loved Monkey Island, and
 
-91
+90
 00:03:49,946 --> 00:03:51,892
 it's coming back. And
 
-92
+91
 00:03:51,893 --> 00:03:54,109
 I'm so excited about that. So,
 now I'm done. Go ahead, Kirk
 
-93
+92
 00:03:54,109 --> 00:03:56,325
 [chuckles].
 
-94
+93
 00:03:57,211 --> 00:04:00,028
 Kirk: By so many thoughts, the
 thought of a trailer for a
 
-95
+94
 00:04:00,028 --> 00:04:02,845
 Monkey
 
-96
+95
 00:04:02,846 --> 00:04:04,406
 Island, it's so strange. It
 looks like the strangest game in
 
-97
-00:04:04,406 --> 00:04:05,966
-the
-
-98
-00:04:05,966 --> 00:04:07,660
-world. And then I said, "Of
+96
+00:04:04,406 --> 00:04:07,660
+the world. And then I said, "Of
 course, Bekah likes this. [Bekah
 
-99
+97
 00:04:07,660 --> 00:04:09,354
 laughs] You know, craps."
 
-100
+98
 00:04:10,436 --> 00:04:17,906
 Games that I liked as a child is
 you're-not-leaving-this-table-
 
-101
+99
 00:04:17,906 --> 00:04:21,985
 until-you-eat-these-vegetables-
 jokes-on-you. I have a book. A
 
-102
+100
 00:04:21,985 --> 00:04:26,755
 game. Because me and my mom
 played that a lot. And I won a
 
-103
+101
 00:04:26,755 --> 00:04:28,867
 lot, like, "Just get to finish
 your food," and I'm like, "I'm
 
-104
+102
 00:04:28,867 --> 00:04:30,979
 just
 
-105
+103
 00:04:30,980 --> 00:04:34,085
 gonna read until we get bored,
 and I'm gonna go [chuckles]".
 
-106
+104
 00:04:34,085 --> 00:04:37,190
 Okay.
 
-107
+105
 00:04:37,290 --> 00:04:38,100
 Bekah: [Chuckles] It's not a
 real game.
 
-108
+106
 00:04:39,680 --> 00:04:43,281
 Kirk: It's a real game, and I'm
 the champion. Board games,
 
-109
+107
 00:04:43,670 --> 00:04:45,950
-Risk is -- I know a lot of
-people hate Risk. I love Risk.
+Risk is-- I know a lot of people
+hate Risk. I love Risk.
 
-110
+108
 00:04:45,950 --> 00:04:48,230
 I'm super
 
-111
+109
 00:04:48,230 --> 00:04:51,470
 into roll those dice, fighting
-those armies, you know? I own --
+those armies, you know? I own--
 
-112
+110
 00:04:51,470 --> 00:04:54,710
 I
 
-113
+111
 00:04:54,711 --> 00:04:57,463
-love -- I got beaten up at Risk
+love-- I got beaten up at Risk
 by, like, an 86 year old woman.
 
-114
+112
 00:04:57,463 --> 00:05:00,215
 And I sort
 
-115
+113
 00:05:00,216 --> 00:05:02,390
 of like dedicated six months of
 my life [chuckles] to revenge on
 
-116
+114
 00:05:02,390 --> 00:05:04,564
 the board
 
-117
+115
 00:05:04,565 --> 00:05:12,485
-game, not -- you know. So, Risk
+game, not-- you know. So, Risk
 is pretty big ... computer
 
-118
+116
 00:05:12,485 --> 00:05:15,538
-games? There's this really --
+games? There's this really--
 this is computer game called DX
 
-119
+117
 00:05:15,538 --> 00:05:18,591
 Ball. And
 
-120
+118
 00:05:18,591 --> 00:05:20,225
 it's basically just like
 glorified, like, Pong. It was
 
-121
+119
 00:05:20,225 --> 00:05:21,859
 like
 
-122
+120
 00:05:21,860 --> 00:05:24,335
 super Pong. And if I, like, get
 200 levels, there were
 
-123
+121
 00:05:24,335 --> 00:05:26,810
 explosions and
 
-124
+122
 00:05:27,290 --> 00:05:29,630
-it was like a real -- there's a
+it was like a real-- there's a
 lot going on there. I really
 
-125
+123
 00:05:29,630 --> 00:05:31,970
 liked that.
 
-126
+124
 00:05:32,271 --> 00:05:35,271
 That was really fun. And I also
 remember at the age of seven, my
 
-127
+125
 00:05:35,271 --> 00:05:38,271
 mom
 
-128
+126
 00:05:38,271 --> 00:05:41,750
-got me like a Reader Rabbit.
+got me, like, a Reader Rabbit.
 Learn math on the computer CD
 
-129
+127
 00:05:41,880 --> 00:05:44,990
 cuz that seemed like a great
 idea. And it immediately crashed
 
-130
+128
 00:05:44,990 --> 00:05:47,015
-our computer and it like never
+our computer and it, like, never
 turned back on. So, I don't know
 
-131
+129
 00:05:47,015 --> 00:05:49,040
 what the
 
-132
+130
 00:05:49,040 --> 00:05:51,230
 life lesson there is. Don't
 [unintelligible]-
 
-133
+131
 00:05:51,350 --> 00:05:52,850
 Bekah: There's a lot of Reader
 Rabbit.
 
-134
+132
 00:05:53,540 --> 00:05:56,687
 Kirk: -your children arithmetic.
 Those are my answers.
 
-135
+133
 00:05:57,757 --> 00:05:59,347
-Dan: I -- all right. I'm gonna
-add -- I'm having an addict- an
+Dan: I-- all right. I'm gonna
+add-- I'm having an addict- an
 
-136
+134
 00:05:59,347 --> 00:06:00,937
-addition. I thought about --
+addition. I thought about--
 
-137
+135
 00:06:01,237 --> 00:06:03,158
 I remembered Wolfenstein on a
 computer game.
 
-138
+136
 00:06:03,163 --> 00:06:03,913
-Bekah: Yeah -- no. You're not
+Bekah: Yeah, no. You're not
 allowed.
 
-139
+137
 00:06:04,072 --> 00:06:04,673
 Dan: Yeah. Wolfenstein is
 awesome.
 
-140
+138
 00:06:04,692 --> 00:06:06,372
 Bekah: Sorry. Take it back.
 You're done.
 
-141
+139
 00:06:06,817 --> 00:06:07,867
 Dan: So I played that lot.
 
-142
+140
 00:06:08,098 --> 00:06:09,627
 Kirk: Out of the things, you
 fire this? [??]
 
-143
-00:06:10,052 --> 00:06:11,612
+141
+00:06:10,052 --> 00:06:13,172
 Bekah: Yeah. Well, Dan's in
 trouble, so he doesn't get all
 
-144
-00:06:11,612 --> 00:06:13,172
-of
-
-145
+142
 00:06:13,173 --> 00:06:13,174
-the things [laughs].
+of the things [laughs].
 
-146
+143
 00:06:14,000 --> 00:06:14,000
 Dan: In trouble [chuckles].
 
-147
+144
 00:06:15,000 --> 00:06:16,000
 Bekah: Being punished.
 
-148
+145
 00:06:16,000 --> 00:06:17,000
 Dan: For what?
 
-149
+146
 00:06:17,000 --> 00:06:18,000
 Bekah: I won [chuckles].
 
-150
+147
 00:06:18,550 --> 00:06:20,259
 Dan: I don't even know what I
 did.
 
-151
+148
 00:06:21,949 --> 00:06:22,889
 Kirk: Well, I don't really swift
-the -- you know, a no old game
+the-- you know, a no old game
 
-152
+149
 00:06:22,889 --> 00:06:23,829
 of Othello or something.
 
-153
+150
 00:06:24,029 --> 00:06:27,034
 Dan: Othello was pretty cool
 too. I liked the artists. I
 
-154
+151
 00:06:27,034 --> 00:06:30,039
 don't
 
-155
+152
 00:06:30,040 --> 00:06:31,809
 know if they all do, but ours
 had like a felt boarders, you
 
-156
+153
 00:06:31,809 --> 00:06:33,578
 know?
 
-157
+154
 00:06:33,579 --> 00:06:33,579
 Bekah: Yeah.
 
-158
+155
 00:06:33,730 --> 00:06:35,945
 Dan: Okay. Yeah. That's cool. I
 don't know. I appreciate that it
 
-159
+156
 00:06:35,945 --> 00:06:38,160
-had -- oh, I thought I had a- I
+had-- oh, I thought I had a- I
 had a really nice tactical feel
 
-160
-00:06:38,160 --> 00:06:40,375
-to it
+157
+00:06:38,160 --> 00:06:41,944
+to it that the pieces in the- in
+the felt and stuff.
 
-161
-00:06:40,375 --> 00:06:41,944
-that the pieces in the- in the
-felt and stuff.
-
-162
+158
 00:06:42,805 --> 00:06:44,529
 Bekah: Yeah. I started playing
 it with my 12-year-old, but
 
-163
+159
 00:06:44,529 --> 00:06:46,253
 then,
 
-164
-00:06:46,254 --> 00:06:48,654
+160
+00:06:46,254 --> 00:06:47,454
 like, one of the other kids got
-ahold of it. And so now we don't
+ahold of it. And so now, we
 
-165
+161
+00:06:47,454 --> 00:06:48,654
+don't
+
+162
 00:06:48,654 --> 00:06:53,334
-have all of the chips. So from
--- Backgammon. I like Backgammon
+have all of the chips. So from--
+Backgammon. I like Backgammon
 
-166
+163
 00:06:53,334 --> 00:06:54,745
 too. I like games.
 
-167
+164
 00:06:54,954 --> 00:06:56,394
 Dan: I never learned how to play
 Backgammon.
 
-168
+165
 00:06:57,129 --> 00:06:59,500
 Kirk: I had one of those chess
 boards. It was like chess on top
 
-169
+166
 00:06:59,500 --> 00:07:01,435
-and then back-end low. So below
-was just like -- it was like in
+and then back-end low. So, below
+was just like-- it was like in
 
-170
-00:07:01,435 --> 00:07:03,370
-the
+167
+00:07:01,435 --> 00:07:06,879
+the "Lion King". Like, just
+don't go there cuz it's bad.
 
-171
-00:07:03,370 --> 00:07:06,879
-"Lion King". Like, just don't go
-there cuz it's bad.
-
-172
+168
 00:07:08,064 --> 00:07:08,064
 Dan: [Laughs] Yeah. Yeah, same.
 
-173
+169
 00:07:08,064 --> 00:07:09,000
 Bekah: The dad will die
 [chuckles].
 
-174
+170
 00:07:09,000 --> 00:07:10,207
-Dan: I played the -- I played
+Dan: I played the-- I played
 chess a lot, and never played
 
-175
-00:07:10,207 --> 00:07:11,414
-Backgammon,
+171
+00:07:10,207 --> 00:07:13,134
+Backgammon, and never ... I
+dunno. I--
 
-176
-00:07:11,415 --> 00:07:13,134
-and never ... I dunno. I --
-
-177
+172
 00:07:13,165 --> 00:07:14,935
 Bekah: We have very cool
 Backgammon suit- it was like a
 
-178
+173
 00:07:14,935 --> 00:07:16,405
 suitcase. It looked like a small
-suitcase and then we were like
+suitcase, and then we were,
 
-179
-00:07:16,405 --> 00:07:17,875
-pop
+174
+00:07:16,405 --> 00:07:19,225
+like, pop open. It was very
+nice.
 
-180
-00:07:17,875 --> 00:07:19,225
-open. It was very nice.
-
-181
+175
 00:07:20,747 --> 00:07:23,071
 Kirk: I played to defeat my
-father. Like, I only -- I found
+father. Like, I only-- I found
 
-182
+176
 00:07:23,071 --> 00:07:25,395
 the game. I pressed
 
-183
+177
 00:07:25,396 --> 00:07:31,007
-him every day for months and he
+him every day for months, and he
 would beat me every day. And so
 
-184
+178
 00:07:31,007 --> 00:07:33,331
 the day I beat him, and then ...
-it was like the happiest day of
+it was, like, the happiest day
 
-185
+179
 00:07:33,331 --> 00:07:35,655
-my
+of my
 
-186
+180
 00:07:35,656 --> 00:07:37,669
-life [chuckles]. And then we
+life [chuckles]. And then, we
 kept playing until it was pretty
 
-187
+181
 00:07:37,669 --> 00:07:39,682
 even who
 
-188
+182
 00:07:39,682 --> 00:07:41,541
-would win. And then he was like,
-"I'm not playing anymore
+would win. And then, he was
+like, "I'm not playing anymore
 
-189
-00:07:41,541 --> 00:07:43,400
-[laughs]." The
+183
+00:07:41,541 --> 00:07:46,956
+[laughs]." The whole point of
+being here is it-- I beat you
 
-190
-00:07:43,401 --> 00:07:46,956
-whole point of being here is it
-I beat you at being
-
-191
+184
 00:07:46,956 --> 00:07:50,511
-[unintelligible] or all the way
-around? And that's
+at being [unintelligible] or all
+the way around? And that's
 
-192
+185
 00:07:50,512 --> 00:07:52,836
 pretty much the last time I
 played chess. I did what I set
 
-193
+186
 00:07:52,836 --> 00:07:55,160
 out to accomplish.
 
-194
+187
 00:07:56,721 --> 00:07:59,091
-Bekah: Okay. But, we are not
-here to talk about games the
+Bekah: Okay. But we are not here
+to talk about games the
 
-195
+188
 00:07:59,091 --> 00:08:01,461
 entire
 
-196
+189
 00:08:01,461 --> 00:08:04,034
 time, although that might be a
 fun episode [chuckles]. So, we
 
-197
+190
 00:08:04,034 --> 00:08:06,607
 put it out
 
-198
+191
 00:08:06,607 --> 00:08:09,336
 there to the Virtual Coffee
 community, what they wanted to
 
-199
+192
 00:08:09,336 --> 00:08:13,716
 hear about. And I think they
 wanted to hear about what we had
 
-200
+193
 00:08:13,716 --> 00:08:17,497
 as our back pocket topic anyway.
-So, today we're gonna be
+So, today, we're gonna be
 
-201
+194
 00:08:17,497 --> 00:08:20,826
 talking about our decision to
 pause membership with Virtual
 
-202
+195
 00:08:20,826 --> 00:08:25,596
 Coffee, the things that we've
-been doing and what we see for
+been doing, and what we see for
 
-203
+196
 00:08:25,596 --> 00:08:27,261
 the future. So, Kirk, do you
 wanna give a little bit of a
 
-204
-00:08:27,261 --> 00:08:28,926
-recap
+197
+00:08:27,261 --> 00:08:30,427
+recap of where we're at?
 
-205
-00:08:29,016 --> 00:08:30,427
-of where we're at?
-
-206
+198
 00:08:31,622 --> 00:08:36,062
 Kirk: Yeah. I think how it can
-be sort of like summing up
+be-- sort of like summing up
 
-207
+199
 00:08:36,062 --> 00:08:38,956
 of the- the concise way.
-Membership -- incoming members
+Membership-- incoming members
 
-208
-00:08:38,956 --> 00:08:41,850
-has
-
-209
-00:08:41,851 --> 00:08:46,892
-been paused with the Virtual
+200
+00:08:38,956 --> 00:08:46,892
+has been paused with the Virtual
 Coffee community for a couple of
 
-210
+201
 00:08:46,892 --> 00:08:54,062
-months now. This -- the decision
+months now. This-- the decision
 was not made lightly. We spent a
 
-211
+202
 00:08:54,062 --> 00:08:55,187
 lot of time thinking about it
 and trying to figure out if
 
-212
+203
 00:08:55,187 --> 00:08:56,312
-there was
+there was,
 
-213
+204
 00:08:56,312 --> 00:09:00,601
-like another way to not have to
+like, another way to not have to
 do that, to sort of like get the
 
-214
-00:09:00,601 --> 00:09:06,662
-desired outcomes. But I think we
-just realized, the only way we
+205
+00:09:00,601 --> 00:09:03,631
+desired outcomes. But I think,
+we just realized, the only way
 
-215
+206
+00:09:03,631 --> 00:09:06,661
+we
+
+207
 00:09:06,662 --> 00:09:09,626
 were gonna sort of keep things
 okay for our volunteers, and
 
-216
+208
 00:09:09,626 --> 00:09:12,590
 also
 
-217
-00:09:12,591 --> 00:09:16,971
-just like give us the bandwidth
-to make things better for
+209
+00:09:12,591 --> 00:09:14,781
+just, like, give us the
+bandwidth to make things better
 
-218
+210
+00:09:14,781 --> 00:09:16,971
+for
+
+211
 00:09:16,971 --> 00:09:19,266
 incoming members, was to take a
 pause, right? And it's- it's
 
-219
+212
 00:09:19,266 --> 00:09:21,561
 like one
 
-220
-00:09:21,562 --> 00:09:25,072
-of those real -- you know,
-sometimes like you just have to
+213
+00:09:21,562 --> 00:09:23,317
+of those real-- you know,
+sometimes, like, you just have
 
-221
+214
+00:09:23,317 --> 00:09:25,072
+to
+
+215
 00:09:25,162 --> 00:09:26,496
 make priorities when you do not
 have internet resources. And
 
-222
+216
 00:09:26,496 --> 00:09:27,830
 that
 
-223
+217
 00:09:27,831 --> 00:09:31,552
 was a decision we made, and I
-think it was the right one. I
+think, it was the right one. I
 
-224
+218
 00:09:31,552 --> 00:09:34,011
-think -- we think it was the
+think-- we think it was the
 right one. As it's given us a
 
-225
+219
 00:09:34,011 --> 00:09:36,470
 lot of space to
 
-226
+220
 00:09:36,471 --> 00:09:38,473
 really go with like, "Hey, when
 we open back up, what do we
 
-227
+221
 00:09:38,473 --> 00:09:40,475
 wanna
 
-228
+222
 00:09:40,476 --> 00:09:43,356
 do? What do we want this to be?"
 Think back to what our
 
-229
+223
 00:09:43,356 --> 00:09:46,596
-mission is. Think back to like
+mission is. Think back to, like,
 what's working well, what's not
 
-230
+224
 00:09:46,596 --> 00:09:50,616
 working well, how can we empower
 the parts that are, like, really
 
-231
+225
 00:09:50,616 --> 00:09:54,456
 valuable for people, one of the
 stress points or the pain points
 
-232
+226
 00:09:54,456 --> 00:09:58,836
 that we can, like, reduce. So, I
 think that's been good. And I
 
-233
-00:09:58,836 --> 00:10:03,736
-guess there's a little bit there
-about having the ability to do
+227
+00:09:58,836 --> 00:10:01,286
+guess, there's a little bit
+there about having the ability
 
-234
+228
+00:10:01,286 --> 00:10:03,736
+to do
+
+229
 00:10:03,736 --> 00:10:08,206
-that type of thing, being just
-like a friendly community, but
+that type of thing, being just,
+like, a friendly community but
 
-235
+230
 00:10:08,206 --> 00:10:10,676
 also, you know, not- not a
 service or a product or
 
-236
+231
 00:10:10,676 --> 00:10:13,146
 something. It- it makes
 
-237
-00:10:13,147 --> 00:10:16,147
+232
+00:10:13,147 --> 00:10:14,647
 it easier for us to say like,
-"Yeah. We can- we can still just
+"Yeah. We can- we can still
 
-238
+233
+00:10:14,647 --> 00:10:16,147
+just,
+
+234
 00:10:16,147 --> 00:10:17,957
-like be us for a little bit
-before we start be in -- out of
+like, be us for a little bit
+before we start be in-- out of
 
-239
-00:10:17,957 --> 00:10:19,767
-cast, be with
+235
+00:10:17,957 --> 00:10:20,256
+cast, be with people again."
 
-240
-00:10:19,767 --> 00:10:20,256
-people again."
-
-241
+236
 00:10:22,246 --> 00:10:24,346
-Bekah: Yeah. And I think during
+Bekah: Yeah. And I think, during
 the time, right, after we
 
-242
+237
 00:10:24,346 --> 00:10:26,446
 decided
 
-243
+238
 00:10:26,447 --> 00:10:29,086
 to pause membership, we were
 nominated for most welcoming,
 
-244
+239
 00:10:29,356 --> 00:10:32,866
-new -- most welcoming developer
+new-- most welcoming developer
 community, which we did win
 
-245
+240
 00:10:32,927 --> 00:10:37,907
 at the DevRel Award, which was
 really fun. But I- I know that
 
-246
+241
 00:10:37,907 --> 00:10:39,409
 that was, you know, there-
 there's probably a hesitancy,
 
-247
+242
 00:10:39,409 --> 00:10:40,911
 like, "How
 
-248
+243
 00:10:40,912 --> 00:10:44,211
 can you be the most welcoming
 community and not be having new
 
-249
+244
 00:10:44,211 --> 00:10:49,432
 members at this point?" And for
 me, I felt like it further
 
-250
+245
 00:10:50,106 --> 00:10:52,807
 ensured that we are a welcoming
 community because we're taking
 
-251
+246
 00:10:52,807 --> 00:10:54,756
 the time to figure out how we
 can best welcome people, how we
 
-252
+247
 00:10:54,756 --> 00:10:56,705
 can
 
-253
+248
 00:10:56,706 --> 00:11:02,106
 continue to welcome our existing
 members. And in the last year,
 
-254
+249
 00:11:02,106 --> 00:11:04,297
 I've talked to a lot of
 different, small community
 
-255
+250
 00:11:04,297 --> 00:11:06,321
 builders, and I've seen them,
 you know, fold or say like,
 
-256
+251
 00:11:06,321 --> 00:11:08,345
 "Hey,
 
-257
+252
 00:11:08,677 --> 00:11:11,024
 we're gonna stop doing this
 because we're burnt out and
 
-258
+253
 00:11:11,024 --> 00:11:13,371
 we're
 
-259
+254
 00:11:13,371 --> 00:11:15,912
 just gonna send everybody to
 Virtual Coffee. And it's- it's
 
-260
+255
 00:11:15,922 --> 00:11:19,432
 like a house of cards, right?
-Like, one small community folds
+Like, one small community folds,
 
-261
+256
 00:11:19,491 --> 00:11:21,201
 and then all of the people go to
 the next small community, into
 
-262
-00:11:21,201 --> 00:11:22,911
-the
+257
+00:11:21,201 --> 00:11:25,701
+the next. And so, we wanted to
+make sure that- that we weren't
 
-263
-00:11:22,912 --> 00:11:25,701
-next. And so, we wanted to make
-sure that- that we weren't
-
-264
+258
 00:11:25,701 --> 00:11:30,621
 falling with- with those other
 small communities, which I-
 
-265
+259
 00:11:30,621 --> 00:11:32,481
 I don't think that we felt that
-we were, but you can definitely
+we were. But you can definitely
 
-266
+260
 00:11:32,481 --> 00:11:34,341
 see
 
-267
+261
 00:11:34,341 --> 00:11:36,689
 that coming down the line. So,
 for us, it was super important
 
-268
+262
 00:11:36,689 --> 00:11:39,037
 to be
 
-269
+263
 00:11:39,037 --> 00:11:43,267
 able to think through all of
 these processes, exactly like
 
-270
+264
 00:11:43,267 --> 00:11:45,876
 what Kirk said, like, you know,
 what makes Virtual Coffee
 
-271
+265
 00:11:45,876 --> 00:11:49,417
 special? How do we preserve that
 intimacy and how do we scale
 
-272
+266
 00:11:49,417 --> 00:11:49,746
 that?
 
-273
+267
 00:11:50,547 --> 00:11:51,641
 Dan: Yeah. I don't really have
 anything to add. I mean, you
 
-274
+268
 00:11:51,641 --> 00:11:52,735
 both- you both
 
-275
+269
 00:11:52,767 --> 00:11:55,647
 kind of hit all the- all the
 points that we were thinking
 
-276
+270
 00:11:55,647 --> 00:11:57,897
-about it, you know? And I'm --
+about it, you know? And I'm--
 our- our- our growth chart or
 
-277
+271
 00:11:57,897 --> 00:12:00,147
-whatever. We
+whatever—we
 
-278
+272
 00:12:00,147 --> 00:12:01,571
 don't actually have growth chart
-[laughs], but like, you know,
+[laughs]—but, like, you know,
 
-279
+273
 00:12:01,571 --> 00:12:02,995
-you- you can just --
+you- you can just--
 
-280
+274
 00:12:02,996 --> 00:12:04,241
 when you're in the community,
 you can get a sense of it. And
 
-281
+275
 00:12:04,241 --> 00:12:05,486
-it's --
+it's--
 
-282
+276
 00:12:05,517 --> 00:12:10,192
 you know, it- it was increasing
-rapidly, you know, and -- which
+rapidly, you know, and-- which
 
-283
+277
 00:12:10,192 --> 00:12:11,886
 is cool, obviously, in one- in
 one part. And we- we all very
 
-284
+278
 00:12:11,886 --> 00:12:13,580
 much
 
-285
+279
 00:12:13,581 --> 00:12:17,001
 want more people to be joining
 again. Like, we're all, I think,
 
-286
+280
 00:12:17,001 --> 00:12:19,552
 very excited about getting back
 to the place where we can open
 
-287
+281
 00:12:19,552 --> 00:12:23,631
 membership again. And that's
 just a matter of building up
 
-288
+282
 00:12:23,631 --> 00:12:26,657
 our ... you know, different
 resources, building up our
 
-289
+283
 00:12:26,657 --> 00:12:28,157
 processes, and- and figuring out
 some- some paths for, you know,
 
-290
+284
 00:12:28,157 --> 00:12:29,657
 how we wanna
 
-291
+285
 00:12:29,657 --> 00:12:35,986
-handle things. We have -- just
+handle things. We have-- just
 recently, we took two
 
-292
+286
 00:12:35,986 --> 00:12:37,981
 steps. We- we did one thing
 where we were able to highlight
 
-293
-00:12:37,981 --> 00:12:39,976
-our
-
-294
-00:12:39,976 --> 00:12:43,067
-members that are, you know,
+287
+00:12:37,981 --> 00:12:43,067
+our members that are, you know,
 giving back to the community by
 
-295
+288
 00:12:43,157 --> 00:12:44,417
 volunteering and in leadership
 positions or- or just helping
 
-296
+289
 00:12:44,417 --> 00:12:45,677
 out in
 
-297
+290
 00:12:45,677 --> 00:12:48,947
 different roles on our website.
 So, on virtualcoffee.io/members
 
-298
+291
 00:12:48,947 --> 00:12:55,162
-now, anybody who's -- who has
-... you know, who's-
+now, anybody who's-- who has ...
+you know, who's-
 
-299
+292
 00:12:55,162 --> 00:12:56,451
 who's actively helping with the
 community has- has a little tag,
 
-300
-00:12:56,451 --> 00:12:57,740
-you
+293
+00:12:56,451 --> 00:13:00,201
+you know, based on what they're
+doing. Things like room leaders
 
-301
-00:12:57,741 --> 00:13:00,201
-know, based on what they're
-doing. Things like room leaders,
-
-302
+294
 00:13:00,231 --> 00:13:03,111
 and note takers, and, you know,
-the -- our-our monthly challenge
+the-- our-our monthly challenge
 
-303
+295
 00:13:03,111 --> 00:13:05,991
 team,
 
-304
+296
 00:13:06,022 --> 00:13:10,971
-and everybody else. And then
+and everybody else. And then,
 after that, we have been working
 
-305
+297
 00:13:10,971 --> 00:13:13,792
 last a little bit ... I dunno,
 the last couple months, I guess,
 
-306
+298
 00:13:13,822 --> 00:13:20,371
 on describing better ways that
 people can- can join to help.
 
-307
+299
 00:13:20,402 --> 00:13:22,441
 Because we've been kind of just
 grabbing people [laughs],
 
-308
+300
 00:13:22,441 --> 00:13:24,480
 mostly, to- to
 
-309
-00:13:24,481 --> 00:13:27,991
-help. And they've been, you know
--- everybody has been amazing.
+301
+00:13:24,481 --> 00:13:26,236
+help. And they've been-- you
+know, everybody has been
 
-310
+302
+00:13:26,236 --> 00:13:27,991
+amazing.
+
+303
 00:13:28,022 --> 00:13:29,626
 But to support more and more
-people, like, we need -- like,
+people, like, we need-- like,
 
-311
-00:13:29,626 --> 00:13:31,230
-if
-
-312
-00:13:31,231 --> 00:13:35,611
-we're going to scale, the
+304
+00:13:29,626 --> 00:13:35,611
+if we're going to scale, the
 volunteers need to scale first
 
-313
+305
 00:13:35,672 --> 00:13:38,401
 before the- before the members.
-Do -- you know, the- the -- if
+Do-- you know, the- the-- if
 
-314
+306
 00:13:38,401 --> 00:13:41,130
 you just take
 
-315
+307
 00:13:41,131 --> 00:13:46,537
 our- our coffee meetings, for
 example, we have awesome
 
-316
+308
 00:13:46,537 --> 00:13:50,856
 team of room leaders and note
-takers, and they do a great job,
+takers, and they do a great job.
 
-317
+309
 00:13:50,917 --> 00:13:54,157
-but there's a limited amount of
-them, right? And so, that means
+But there's a limited amount of
+them, right? And so, that means,
 
-318
+310
 00:13:54,157 --> 00:13:56,677
 there's a limited amount of
 people that we can actually have
 
-319
+311
 00:13:56,677 --> 00:13:59,917
 at the meetings. And it's not
 that high [laughs], honestly.
 
-320
+312
 00:13:59,917 --> 00:14:03,157
 And so,
 
-321
+313
 00:14:03,427 --> 00:14:06,547
-the -- so, what we wanted to do,
+the-- so, what we wanted to do--
 okay. How do we get more room
 
-322
+314
 00:14:06,547 --> 00:14:08,946
-leaders and- and also hosts? So
-up until ... yesterday -- so,
+leaders and- and also hosts? So,
+up until ... yesterday-- so,
 
-323
+315
 00:14:08,946 --> 00:14:11,345
 we're
 
-324
+316
 00:14:11,346 --> 00:14:13,656
 recording on- on Friday the
-13th, and so yesterday was the
+13th. And so, yesterday was the
 
-325
-00:14:13,656 --> 00:14:15,966
-first
+317
+00:14:13,656 --> 00:14:17,721
+first day that we had-- not a
+maintainer-- host, one of our
 
-326
-00:14:15,966 --> 00:14:17,721
-day that we had -- not a
-maintainer. Host, one of our
-
-327
+318
 00:14:17,721 --> 00:14:19,476
 coffees.
 
-328
+319
 00:14:19,476 --> 00:14:19,476
 Bekah: MC.
 
-329
+320
 00:14:20,000 --> 00:14:22,513
 Dan: MC. Sorry. I- I say host.
-See, this is why -- it's a- it's
+See, this is why-- it's a- it's
 
-330
+321
 00:14:22,513 --> 00:14:25,026
-a bad name for it. But- but
-like, the --
+a bad name for it. But- but,
+like, the--
 
-331
+322
 00:14:25,032 --> 00:14:26,172
 Bekah: We're also working on
 titles [laughs].
 
-332
+323
 00:14:26,287 --> 00:14:27,277
 Dan: Right. We're working on
-titles. But what I mean is,
+titles. But what I mean is--
 
-333
+324
 00:14:27,277 --> 00:14:28,267
 yeah,
 
-334
+325
 00:14:28,297 --> 00:14:32,407
 MC. I-I-I always called host in
 my head cuz that's what I
 
-335
+326
 00:14:32,407 --> 00:14:34,956
 think of, but the person who's
 running the coffee meeting,
 
-336
+327
 00:14:35,147 --> 00:14:37,061
 that- that is talking to
 everybody. And- and it was Suze,
 
-337
+328
 00:14:37,061 --> 00:14:38,975
 and she did
 
-338
+329
 00:14:38,976 --> 00:14:42,096
 an awesome job. But that- that
 sort of thing is we can't
 
-339
+330
 00:14:42,096 --> 00:14:45,111
 just ... we- we- we feel very
 strongly that we want these to
 
-340
+331
 00:14:45,111 --> 00:14:48,126
 be good
 
-341
+332
 00:14:48,126 --> 00:14:50,181
 experiences, and they always
-are. But they -- that- that-
+are. But they-- that- that--
 
-342
+333
 00:14:50,181 --> 00:14:52,236
 that's because we
 
-343
+334
 00:14:52,236 --> 00:14:55,956
 put a lot of thought into the MC
 stuff, and the room leaders,
 
-344
+335
 00:14:55,956 --> 00:14:57,261
-and all -- everything like that.
+and all-- everything like that.
 And so, we need to make sure
 
-345
+336
 00:14:57,261 --> 00:14:58,566
 that people
 
-346
+337
 00:14:58,567 --> 00:15:03,532
 are supported and have what they
 need to, you know,
 
-347
+338
 00:15:03,532 --> 00:15:05,287
 bring good- good experiences to
-all the other people. And so --
+all the other people. And so--
 
-348
+339
 00:15:05,287 --> 00:15:07,042
 as sort of
 
-349
+340
 00:15:07,042 --> 00:15:09,172
 like a top-down scaling
 situation [chuckles] for us. And
 
-350
+341
 00:15:09,172 --> 00:15:11,302
 so, that's one of
 
-351
+342
 00:15:11,302 --> 00:15:13,057
 the, like, big reasons we needed
-to -- we- we felt we- we should-
+to-- we- we felt we- we should-
 
-352
+343
 00:15:13,057 --> 00:15:14,812
 we should
 
-353
+344
 00:15:14,812 --> 00:15:17,572
 be pausing membership was- was
-that. And it's been -- we've
+that. And it's been-- we've
 
-354
+345
 00:15:17,572 --> 00:15:22,042
 gotten a lot of good responses
 from people. Yeah. I
 
-355
+346
 00:15:22,042 --> 00:15:22,956
 don't know if I actually said
 this out loud [chuckles], but we
 
-356
+347
 00:15:22,956 --> 00:15:23,870
 made some-
 
-357
+348
 00:15:24,231 --> 00:15:26,676
-some ... like documents, and
+some ... like, documents, and
 forms, and stuffs to- to make it
 
-358
+349
 00:15:26,676 --> 00:15:29,121
 easier
 
-359
+350
 00:15:29,121 --> 00:15:31,806
 for people to- to- to volunteer
-for us and -- for Virtual
+for us and-- for Virtual
 
-360
+351
 00:15:31,806 --> 00:15:34,491
 Coffee. So, that was
 
-361
+352
 00:15:34,491 --> 00:15:35,526
-the- that was the -- our next
+the- that was the-- our next
 step. And that's been going
 
-362
+353
 00:15:35,526 --> 00:15:36,561
 well. I don't know.
 
-363
+354
 00:15:37,062 --> 00:15:39,162
 Bekah: And I think that makes it
 easier for us. Because like you
 
-364
+355
 00:15:39,162 --> 00:15:40,482
 said before, there wasn't a
-clear process, and even we'd
+clear process. And even we'd
 
-365
+356
 00:15:40,482 --> 00:15:41,802
 have
 
-366
+357
 00:15:41,802 --> 00:15:43,737
 members like, "Oh, I wanna help.
-How can I help?" And so much of
+How can I help?" And so much
 
-367
+358
 00:15:43,737 --> 00:15:45,672
---
+of--
 
-368
+359
 00:15:45,731 --> 00:15:47,666
 because Virtual Coffee was not
 an intentionally planned
 
-369
+360
 00:15:47,666 --> 00:15:49,601
 community,
 
-370
-00:15:49,601 --> 00:15:52,511
-it's always been like keeping up
-with the needs of the community,
+361
+00:15:49,601 --> 00:15:51,056
+it's always been, like, keeping
+up with the needs of the
 
-371
+362
+00:15:51,056 --> 00:15:52,511
+community,
+
+363
 00:15:52,942 --> 00:15:55,341
 the excitement of the community,
 and doing all these cool and fun
 
-372
+364
 00:15:55,341 --> 00:15:58,341
-things. And I think we've done a
-pretty good job of keeping up
+things. And I think, we've done
+a pretty good job of keeping up
 
-373
+365
 00:15:58,341 --> 00:16:02,991
-with processes, but things like
-that, like what- what do we
+with processes. But things like
+that, like, what- "what do we
 
-374
+366
 00:16:02,991 --> 00:16:06,142
-need help with? And I don't
+need help with?" and I don't
 think that's something that's
 
-375
+367
 00:16:06,172 --> 00:16:09,951
 particularly a Virtual Coffee
 problem. I think that anybody
 
-376
+368
 00:16:09,951 --> 00:16:12,103
 who's running a community, if-
 if you don't have things set up,
 
-377
+369
 00:16:12,103 --> 00:16:14,255
-you --
+you--
 
-378
+370
 00:16:14,346 --> 00:16:16,896
 like, you know that you need
 help [chuckles], but it's like,
 
-379
+371
 00:16:16,896 --> 00:16:19,446
 "How do I get
 
-380
+372
 00:16:19,447 --> 00:16:22,986
-people -- how do I onboard them?
+people-- how do I onboard them?
 What do- what do I really need
 
-381
+373
 00:16:22,986 --> 00:16:26,106
 here?" And so, like, pausing to
 take the time to think through
 
-382
+374
 00:16:26,317 --> 00:16:28,866
-what do I need, what are the
+"what do I need, what are the
 processes that need to be
 
-383
+375
 00:16:28,866 --> 00:16:31,447
-updated, those are the things
+updated", those are the things
 that are going to help you to
 
-384
+376
 00:16:31,447 --> 00:16:35,376
 scale down the road because it's
 set up. I can bring in a new,
 
-385
+377
 00:16:35,557 --> 00:16:40,162
 like, four new note takers this
 morning. I added to our
 
-386
+378
 00:16:40,162 --> 00:16:41,842
-organization and set them up
+organization, and set them up
 with the documentation that they
 
-387
+379
 00:16:41,842 --> 00:16:43,522
 need,
 
-388
+380
 00:16:43,522 --> 00:16:47,331
 and walk through the processes.
-And I've -- we've got a couple
+And I've-- we've got a couple
 
-389
+381
 00:16:47,331 --> 00:16:50,662
 more volunteers that I reached
 out to as well, but all
 
-390
+382
 00:16:50,662 --> 00:16:52,297
 of that needed to be set up in
-advance. So when somebody says,
+advance. So, when somebody says,
 
-391
+383
 00:16:52,297 --> 00:16:53,932
 "I
 
-392
+384
 00:16:53,932 --> 00:16:57,621
 would like to help, where can I
 help?" there's a place to send
 
-393
+385
 00:16:57,621 --> 00:16:58,101
 them to.
 
-394
-00:16:58,649 --> 00:17:00,839
-Dan: Yeah. And like -- oh, I was
-just gonna say, at the --
+386
+00:16:58,649 --> 00:17:03,029
+Dan: Yeah. And, like-- oh, I was
+just gonna say, at the-- having-
 
-395
-00:17:00,839 --> 00:17:03,029
-having-
-
-396
+387
 00:17:03,029 --> 00:17:04,552
 having more people helps do
-things, like we've- we've talked
+things, like, we've- we've
 
-397
+388
 00:17:04,552 --> 00:17:06,075
-about adding
+talked about adding
 
-398
+389
 00:17:06,134 --> 00:17:09,345
 a day for coffees, right? But we
-can't -- you know, up until now,
+can't-- you know, up until now,
 
-399
+390
 00:17:09,634 --> 00:17:11,259
 we've- we've only had our
-maintainers being -- kind of
+maintainers being kind of
 
-400
+391
 00:17:11,259 --> 00:17:12,884
 controlling
 
-401
+392
 00:17:12,884 --> 00:17:14,624
-those -- that -- dealing MC
-first for these events. And
+those-- that-- dealing MC first
+for these events, and--
 
-402
+393
 00:17:14,624 --> 00:17:16,364
 while we're-
 
-403
+394
 00:17:16,365 --> 00:17:20,055
 we're just sort of expect it in
--- as it is. So, adding-
+as it is. So, adding-
 
-404
+395
 00:17:20,805 --> 00:17:24,045
-adding them — see, like, Suze —
-is a big step for us. And, you
+adding them—see, like, Suze—is a
+big step for us. And, you
 
-405
+396
 00:17:24,045 --> 00:17:25,994
 know, we don't wanna just do it
-willy-nilly. So, like -- just
+willy-nilly. So, like-- just
 
-406
+397
 00:17:25,994 --> 00:17:27,943
 like
 
-407
+398
 00:17:27,944 --> 00:17:30,525
-Bekah was saying this, having
+Bekah was saying, this-- having
 all that stuff written down and
 
-408
+399
 00:17:30,525 --> 00:17:33,404
 having clear paths for people,
 it's turned out very
 
-409
+400
 00:17:33,404 --> 00:17:33,795
 important [chuckles].
 
-410
+401
 00:17:35,819 --> 00:17:37,454
 Bekah: Yeah. And we sent out a
 community survey or- or we had
 
-411
+402
 00:17:37,454 --> 00:17:39,089
 the
 
-412
+403
 00:17:39,089 --> 00:17:41,460
 community survey that we were
 posting in Slack and during our
 
-413
+404
 00:17:41,460 --> 00:17:45,299
 Virtual Coffee meetings for a
 couple of weeks to get feedback
 
-414
+405
 00:17:45,299 --> 00:17:47,234
 from the community. And so,
-we're also taking like, what-
+we're also taking, like, what-
 
-415
+406
 00:17:47,234 --> 00:17:49,169
 what does
 
-416
+407
 00:17:49,170 --> 00:17:52,349
 the community value? So, we know
 that there are- are things that
 
-417
+408
 00:17:52,349 --> 00:17:55,619
-everybody values, but like
+everybody values. But, like,
 really getting that down, having
 
-418
+409
 00:17:55,619 --> 00:17:58,439
 conversations, having
 maintainers Q&As allows us to
 
-419
-00:17:58,439 --> 00:18:01,259
-get
-
-420
-00:18:01,259 --> 00:18:03,854
-feedback and really think
+410
+00:17:58,439 --> 00:18:06,450
+get feedback and really think
 through what we're- we're doing.
 
-421
-00:18:03,854 --> 00:18:06,449
-Kirk,
-
-422
+411
 00:18:06,450 --> 00:18:08,910
-do you wanna talk a little bit
-about the results of those
+Kirk, do you wanna talk a little
+bit about the results of those
 
-423
+412
 00:18:08,910 --> 00:18:10,690
-surveys? Some of the key
+surveys, some of the key
 takeaways that we had?
 
-424
-00:18:12,585 --> 00:18:13,845
+413
+00:18:12,585 --> 00:18:15,105
 Kirk: Yeah. Well, in the sort of
 like overarching ourselves that
 
-425
-00:18:13,845 --> 00:18:15,105
-we
-
-426
+414
 00:18:15,105 --> 00:18:20,355
-had, first of all, generally
+we had, first of all, generally
 positive responses, which is
 
-427
+415
 00:18:20,355 --> 00:18:24,555
-nice. I don't know. It's just
+nice-- I don't know. It's just
 nice to not be told, like, "You
 
-428
+416
 00:18:24,555 --> 00:18:27,899
 suck [laughs]," in another time
 [??]. So, mostly positive. A lot
 
-429
+417
 00:18:27,899 --> 00:18:31,243
-of it was like existing
+of it was, like, existing
 
-430
+418
 00:18:31,244 --> 00:18:32,729
-systems that people want, maybe
-like a little bit more, you
+systems that people want. Maybe,
+like, a little bit more, you
 
-431
+419
 00:18:32,729 --> 00:18:34,214
 know?
 
-432
+420
 00:18:34,785 --> 00:18:37,964
-And I think a lot of it was
-maybe just like a little more
+And I think a lot of it was--
+maybe just, like, a little more
 
-433
+421
 00:18:37,964 --> 00:18:40,307
-like fidelity and we've talked
+like fidelity, and we've talked
 about this. Like, "If I wanna
 
-434
+422
 00:18:40,307 --> 00:18:42,650
 volunteer,
 
-435
+423
 00:18:42,829 --> 00:18:44,449
 how do I do that?" So, there are
-a lot of people who weren't like
+a lot of people who weren't,
 
-436
+424
 00:18:44,449 --> 00:18:46,069
---
+like--
 
-437
+425
 00:18:46,069 --> 00:18:47,434
 or they're new, or they're still
-sort of getting into things
+sort of getting into things,
 
-438
+426
 00:18:47,434 --> 00:18:48,799
 like,
 
-439
+427
 00:18:48,799 --> 00:18:50,374
 "How do I do more?" And making
 that really, really transparent
 
-440
-00:18:50,374 --> 00:18:51,949
-with
-
-441
-00:18:51,950 --> 00:18:54,364
-people, with something that
+428
+00:18:50,374 --> 00:18:54,364
+with people, with something that
 seemed to resonate. Right now,
 
-442
+429
 00:18:54,364 --> 00:18:56,778
 we have a
 
-443
+430
 00:18:56,779 --> 00:19:02,329
 few sort of like key events that
 happen in the community. We have
 
-444
+431
 00:19:02,390 --> 00:19:07,085
 our Lunch & Learns, we have the
 Lightning Talks, but we also
 
-445
+432
 00:19:07,085 --> 00:19:08,404
-have -- I guess this concept
-that wouldn't be about -- like,
+have-- I guess this concept that
+wouldn't be about-- like,
 
-446
+433
 00:19:08,404 --> 00:19:09,723
 this
 
-447
+434
 00:19:09,755 --> 00:19:11,944
 Coffee Table groups, which are
 really just things started by
 
-448
+435
 00:19:11,944 --> 00:19:14,133
 the
 
-449
+436
 00:19:14,134 --> 00:19:18,214
-members where they saw like a
+members where they saw, like, a
 need or a space for something
 
-450
-00:19:18,214 --> 00:19:21,275
-they were interested in and they
-just self-organized. And that's
+437
+00:19:18,214 --> 00:19:19,744
+they were interested in, and
+they just self-organized. And
 
-451
+438
+00:19:19,744 --> 00:19:21,274
+that's
+
+439
 00:19:21,275 --> 00:19:25,595
-super great. And we, like, we
+super great. And we, like-- we
 like those things, so there's a
 
-452
+440
 00:19:25,595 --> 00:19:28,159
 question. Okay. How do we
 support people who wanna do
 
-453
+441
 00:19:28,159 --> 00:19:30,723
 this?
 
-454
+442
 00:19:31,595 --> 00:19:36,079
 How do we, again, like, avoid
 some of the pitfalls or some of
 
-455
+443
 00:19:36,079 --> 00:19:37,609
-the dangers of like doing a lot
-of volunteer work, right? So
+the dangers of, like, doing a
+lot of volunteer work, right?
 
-456
+444
 00:19:37,609 --> 00:19:39,139
-it's
+So it's
 
-457
+445
 00:19:39,140 --> 00:19:41,224
-like, if you wanna do this
+like, "If you wanna do this
 group, what can we help you
 
-458
+446
 00:19:41,224 --> 00:19:43,308
-with?
+with?"
 
-459
+447
 00:19:43,309 --> 00:19:46,039
-Like, what support can we give
+Like, "What support can we give
 you? What support do you need?
 
-460
+448
 00:19:47,569 --> 00:19:49,294
-Can we equip you to kind of
-like, have an idea of like how
+Can we equip you to kind of like
+have an idea of, like, how
 
-461
+449
 00:19:49,294 --> 00:19:51,019
 much
 
-462
+450
 00:19:51,049 --> 00:19:52,609
 effort it's gonna take, if you
-need to stop — I think it is
+need to stop—I think it is,
 
-463
+451
 00:19:52,609 --> 00:19:54,169
-like
+like,
 
-464
+452
 00:19:54,170 --> 00:19:56,352
-most important that — if you
-need to stop performing a role,
+most important—that if you need
+to stop performing a role,
 
-465
+453
 00:19:56,352 --> 00:19:58,534
 can you
 
-466
+454
 00:19:58,535 --> 00:20:01,055
-do that -- communicate that in a
+do that-- communicate that in a
 way that, like, is safe for you,
 
-467
+455
 00:20:01,055 --> 00:20:03,379
 comfortable for you, like,
-minimal pain points. So there's
+minimal pain points." So there's
 
-468
+456
 00:20:03,379 --> 00:20:05,703
 been
 
-469
+457
 00:20:05,704 --> 00:20:07,535
 a lot of things like that, you
 know? Basically just people
 
-470
+458
 00:20:07,535 --> 00:20:09,484
 saying like, "This stuff is
 going on here. I really like it.
 
-471
+459
 00:20:09,484 --> 00:20:11,433
 How
 
-472
+460
 00:20:11,434 --> 00:20:12,784
 can I get more involved?" And
 then us figuring out a way to,
 
-473
+461
 00:20:12,784 --> 00:20:14,134
 like,
 
-474
+462
 00:20:15,704 --> 00:20:19,154
 take people's enthusiasm and
-then like put them on a path to
+then, like, put them on a path
 
-475
+463
 00:20:19,154 --> 00:20:21,404
-success for what they're gonna
-do, which I think is super
+to success for what they're
+gonna do, which I think is super
 
-476
+464
 00:20:21,404 --> 00:20:23,402
-important, you know? Like a lot
+important, you know? Like, a lot
 of ... I don't know. When I
 
-477
+465
 00:20:23,402 --> 00:20:25,400
-think of like what it
+think of, like, what it
 
-478
+466
 00:20:25,400 --> 00:20:28,619
-comes down to with like these
+comes down to with, like, these
 types of initiatives, it's ...
 
-479
-00:20:28,619 --> 00:20:31,838
-you
-
-480
-00:20:31,839 --> 00:20:36,670
-find two issues. Sometimes
+467
+00:20:28,619 --> 00:20:36,670
+you find two issues. Sometimes
 someone has a great idea, but a
 
-481
+468
 00:20:36,670 --> 00:20:39,910
 system's not set up for it so
-they can execute it and they get
+they can execute it, and they
 
-482
+469
 00:20:39,910 --> 00:20:41,920
-bummed out. Or they have an idea
-and they sort of like go
+get bummed out. Or they have an
+idea, and they sort of like go
 
-483
+470
 00:20:41,920 --> 00:20:43,930
 headlong
 
-484
+471
 00:20:43,930 --> 00:20:48,640
-into it and, you know, kind of
+into it, and, you know, kind of
 like burn through their life
 
-485
+472
 00:20:48,640 --> 00:20:51,307
 force like a Phoenix. And
 neither of those is great. So, a
 
-486
+473
 00:20:51,307 --> 00:20:53,974
 nice
 
-487
+474
 00:20:53,974 --> 00:20:59,884
-middle ground and it, you know,
+middle ground and it-- you know,
 I think this idea of sustainable
 
-488
+475
 00:21:00,335 --> 00:21:04,565
 leadership, I think is something
 is really important to us. If
 
-489
+476
 00:21:04,565 --> 00:21:07,384
 you wanna lead something, we
-wanna help you do it, but in a
+wanna help you do it but in a
 
-490
+477
 00:21:07,384 --> 00:21:12,515
 way where you can keep doing it
 on your own terms and not feel
 
-491
+478
 00:21:12,515 --> 00:21:14,749
 like you have to because of
 other people, or you have to
 
-492
+479
 00:21:14,749 --> 00:21:16,983
 because
 
-493
+480
 00:21:16,984 --> 00:21:18,807
-it's like, you know, just ... I
+it's, like, you know, just ... I
 wanna do this while it provides
 
-494
+481
 00:21:18,807 --> 00:21:20,630
 value and
 
-495
+482
 00:21:20,630 --> 00:21:24,079
 joy for me, and then when I'm
 ready to stop, you can stop. And
 
-496
+483
 00:21:24,079 --> 00:21:26,269
 that's okay. And I think that's
 the thing we've- we've kind of
 
-497
+484
 00:21:26,269 --> 00:21:28,459
 gone over
 
-498
+485
 00:21:28,490 --> 00:21:34,490
 this community. We like the fact
 this is not a space where
 
-499
+486
 00:21:34,490 --> 00:21:38,750
 you have to come in perfect, you
 know? We like the fact that
 
-500
+487
 00:21:38,750 --> 00:21:41,757
 people can grow here, there was
 this little space to grow here,
 
-501
+488
 00:21:41,757 --> 00:21:44,764
 there's a
 
-502
+489
 00:21:44,765 --> 00:21:47,345
 space to make mistakes within
 reason, there's a space to
 
-503
+490
 00:21:47,345 --> 00:21:51,785
 practice things that you're not
 perfect at, you know? A lot of
 
-504
+491
 00:21:51,785 --> 00:21:52,810
-times people hesitate, I mean
-even things like, why don't you
+times people hesitate. I mean,
+even things like, "why don't you
 
-505
+492
 00:21:52,810 --> 00:21:53,835
-learn --
+learn ..."
 
-506
+493
 00:21:53,855 --> 00:21:55,024
 just like, "I've never," you
 know, "I've never done speaking
 
-507
+494
 00:21:55,024 --> 00:21:56,193
-before,"
+before."
 
-508
+495
 00:21:56,315 --> 00:21:58,295
-but like, if you haven't, this
+But, like, if you haven't, this
 is probably the best space to
 
-509
+496
 00:21:58,295 --> 00:22:00,275
 give
 
-510
+497
 00:22:00,275 --> 00:22:02,584
 it a try. It's a non-hostile
 audience who only is interested
 
-511
+498
 00:22:02,584 --> 00:22:04,893
 in
 
-512
+499
 00:22:04,894 --> 00:22:11,359
-just like supporting you as much
-as possible, you know? So,
+just, like, supporting you as
+much as possible, you know? So,
 
-513
+500
 00:22:11,359 --> 00:22:13,744
-yeah. It- it -- the -- well, I
-was really validated by a lot of
+yeah. It- it-- the-- well, I was
+really validated by a lot of
 
-514
-00:22:13,744 --> 00:22:16,129
-the
+501
+00:22:13,744 --> 00:22:19,549
+the survey responses kind of
+echo what we were feeling as
 
-515
-00:22:16,130 --> 00:22:19,549
-survey responses kind of echo
-what we were feeling as
-
-516
+502
 00:22:19,549 --> 00:22:24,259
-maintainers and everyone seems
-to kind of be on board, like
+maintainers. And everyone seems
+to kind of be on board, like,
 
-517
+503
 00:22:24,259 --> 00:22:25,069
 making this even more awesome.
 
-518
+504
 00:22:26,539 --> 00:22:29,690
 Bekah: Yeah. Dan, do you wanna
 talk through the things that you
 
-519
+505
 00:22:29,690 --> 00:22:32,240
 implemented to help support our
 Coffee Table groups?
 
-520
+506
 00:22:33,755 --> 00:22:35,374
-Dan: Yeah. I mean, we -- the --
-I think the- the biggest thing
+Dan: Yeah. I mean, we-- the-- I
+think the- the biggest thing--
 
-521
+507
 00:22:35,374 --> 00:22:36,993
--- the first
+the first
 
-522
+508
 00:22:36,994 --> 00:22:38,659
-thing is just the -- is just
-that the form and the stuff that
+thing is just the-- is just that
+the form and the stuff that
 
-523
+509
 00:22:38,659 --> 00:22:40,324
 we've
 
-524
+510
 00:22:40,325 --> 00:22:43,295
 been talking about a little bit
 i-i-is making it available. Just
 
-525
+511
 00:22:44,464 --> 00:22:46,625
 letting our members know that
 it's- it's a thing that they
 
-526
+512
 00:22:46,625 --> 00:22:51,125
-could do, you know? And then
+could do, you know? And then,
 after that, I've just kind of
 
-527
+513
 00:22:51,125 --> 00:22:54,454
 scratched the surface about
 supporting these groups on a
 
-528
-00:22:54,664 --> 00:22:59,194
-technical level. But -- you
-know. So, one of the things was-
+514
+00:22:54,664 --> 00:22:56,929
+technical level. But-- you
+know-- so, one of the things
 
-529
+515
+00:22:56,929 --> 00:22:59,194
+was-
+
+516
 00:22:59,194 --> 00:23:03,365
 was setting up a calendar system
 so that I, you know, people
 
-530
+517
 00:23:03,365 --> 00:23:05,360
-can log in -- our- our members
--- I mean, our -- the- the group
+can log in-- our- our members--
+I mean, our-- the- the group
 
-531
+518
 00:23:05,360 --> 00:23:07,355
 leaders can
 
-532
+519
 00:23:07,355 --> 00:23:11,375
 log in and add their events, you
 know, recurring events or one
 
-533
+520
 00:23:11,375 --> 00:23:13,962
-off events. And then those
+off events. And then, those
 events get filter back out
 
-534
+521
 00:23:13,962 --> 00:23:16,549
 through
 
-535
+522
 00:23:16,549 --> 00:23:18,349
 our website and, you know, onto
-our events' page. And they also
+our events' page. And they
 
-536
+523
 00:23:18,349 --> 00:23:20,149
--- I added
+also-- I added
 
-537
+524
 00:23:20,150 --> 00:23:22,940
-a Slack bot sort of thing that,
+a Slack bot sort of thing that--
 well, we'll- we'll send
 
-538
+525
 00:23:22,940 --> 00:23:25,730
 reminders from
 
-539
+526
 00:23:25,730 --> 00:23:29,630
-that. So we moved on from
+that. So, we moved on from
 Meeting Place and are using
 
-540
+527
 00:23:29,630 --> 00:23:30,905
-that for our events now too, and
-not just the special interest
+that for our events now, too,
+and not just the special
 
-541
+528
 00:23:30,905 --> 00:23:32,180
-group
+interest group
 
-542
+529
 00:23:32,180 --> 00:23:34,055
-stuff -- Coffee Table groups
+stuff-- Coffee Table groups
 [chuckles]. Sorry. We call them
 
-543
+530
 00:23:34,055 --> 00:23:35,930
 the special
 
-544
+531
 00:23:35,930 --> 00:23:41,359
 interest groups for a long time.
-But -- so- so- so, yeah. So
+But-- so- so- so-- yeah. So,
 
-545
-00:23:41,359 --> 00:23:46,144
-that was like, this is like kind
-of step one, is- is allowing
+532
+00:23:41,359 --> 00:23:43,751
+that was, like, this is, like,
+kind of step one, is- is
 
-546
+533
+00:23:43,751 --> 00:23:46,143
+allowing
+
+534
 00:23:46,625 --> 00:23:51,275
 our group leaders to sort of
 roll their own stuff, you know?
 
-547
+535
 00:23:51,315 --> 00:23:54,005
 So they don't have to ask us to
 add things to the calendar, ask
 
-548
+536
 00:23:54,005 --> 00:23:57,365
-us to add things to Slack -- in
+us to add things to Slack-- in
 Slack, you know, Slack
 
-549
+537
 00:23:57,424 --> 00:24:03,664
 reminders, and things like that.
-And- and with -- along with
+And- and with-- along with
 
-550
+538
 00:24:03,664 --> 00:24:05,944
 that, sort of copied the
 co-working room experience and
 
-551
+539
 00:24:05,944 --> 00:24:08,224
 [chuckles]
 
-552
+540
 00:24:08,615 --> 00:24:10,879
-made it -- so that we could --
-so our group leaders could use
+made it-- so that we could-- so
+our group leaders could use
 
-553
-00:24:10,879 --> 00:24:13,143
-our
-
-554
-00:24:13,144 --> 00:24:16,654
-Zoom for events, which was
+541
+00:24:10,879 --> 00:24:16,654
+our Zoom for events, which was
 another sticking point because
 
-555
+542
 00:24:17,375 --> 00:24:21,095
 if you don't have a paid Zoom
 account, then I think you were
 
-556
+543
 00:24:21,095 --> 00:24:23,285
 still limited to 40 minutes or
-something like that. You know,
+something like that, you know?
 
-557
+544
 00:24:23,285 --> 00:24:24,815
-there's limitations for- for
+There's limitations for- for
 free accounts. And so, having a
 
-558
+545
 00:24:24,815 --> 00:24:26,345
 central
 
-559
+546
 00:24:26,345 --> 00:24:30,154
 place that you can trust that we
 will have things to get taken
 
-560
+547
 00:24:30,154 --> 00:24:31,219
 care of and have some moderation
 tools in place, things like
 
-561
+548
 00:24:31,219 --> 00:24:32,284
 that.
 
-562
+549
 00:24:32,434 --> 00:24:37,625
-So- so, yeah. And then I think I
-have, you know, next is gonna
+So- so-- yeah. And then I think,
+I have-- you know, next is gonna
 
-563
+550
 00:24:37,625 --> 00:24:43,549
 be some things more for general
 users to log in and be able to
 
-564
+551
 00:24:44,180 --> 00:24:46,940
 maybe RSVP for events or add
 things to calendars, things like
 
-565
+552
 00:24:46,940 --> 00:24:49,445
 that. So, that's coming down the
-line. But- but, yeah. That's --
+line. But- but-- yeah. That's
 
-566
+553
 00:24:49,445 --> 00:24:51,950
-all
+all.
 
-567
+554
 00:24:51,950 --> 00:24:54,950
-the- the- the group membership
+The- the- the group membership
 stuff is in place right now. So
 
-568
+555
 00:24:55,039 --> 00:24:56,240
 it's kind of- kind of exciting.
 
-569
+556
 00:24:57,035 --> 00:24:58,594
 Bekah: Yeah, I think it's been
-great. And I'd like -- I would
+great. And I'd like-- I would
 
-570
+557
 00:24:58,594 --> 00:25:00,153
 just wanna
 
-571
+558
 00:25:00,154 --> 00:25:04,265
 share what some of our Coffee
 Table groups are, just so if you
 
-572
+559
 00:25:04,325 --> 00:25:08,914
 are listening, you have an idea.
-We've got -- at -- well, every
+We've got-- at-- well, every
 
-573
+560
 00:25:08,914 --> 00:25:10,586
 Monday, in Slack, in our
 announcements channel, it drops
 
-574
+561
 00:25:10,586 --> 00:25:12,258
 all of the
 
-575
+562
 00:25:12,259 --> 00:25:15,289
 things that are happening this
-week. So it gives an overview.
+week. So, it gives an overview.
 
-576
+563
 00:25:15,289 --> 00:25:19,549
 We've got tech interview study
 group where they go through job
 
-577
+564
 00:25:19,579 --> 00:25:21,334
 preparation materials, give each
 other feedback, answer
 
-578
+565
 00:25:21,334 --> 00:25:23,089
 questions,
 
-579
+566
 00:25:23,119 --> 00:25:28,069
-and things like that. Meg — who
-you heard from this season — is
+and things like that. Meg—who
+you heard from this season—is
 
-580
+567
 00:25:28,130 --> 00:25:32,539
 running the accountability
 buddies sessions, where it's,
 
-581
+568
 00:25:32,569 --> 00:25:37,430
 again, I think job focused or-
 or working on projects, that
 
-582
+569
 00:25:37,430 --> 00:25:43,605
 kind of thing. We have the React
 group as well. We have ... let's
 
-583
+570
 00:25:43,605 --> 00:25:48,585
 see. Indie hackers, and we've
 got a new one, which is like a
 
-584
-00:25:48,615 --> 00:25:50,370
+571
+00:25:48,615 --> 00:25:52,125
 Virtual Coffee speaking group
-where -- actually Kirk, you and
+where-- actually Kirk, you and I
 
-585
-00:25:50,370 --> 00:25:52,125
-I
-
-586
+572
 00:25:52,125 --> 00:25:54,434
 are up first, next week. Is that
-next week, or the week after?
+next week or the week after?
 
-587
+573
 00:25:54,434 --> 00:25:56,743
 Well,
 
-588
+574
 00:25:56,744 --> 00:25:59,234
-we're giving short speeches. So
+we're giving short speeches. So,
 we should prepare for those,
 
-589
+575
 00:25:59,234 --> 00:25:59,474
 right?
 
-590
+576
 00:25:59,930 --> 00:26:00,320
 Kirk: We should really find out.
 If it's [chuckles] next week or
 
-591
+577
 00:26:00,320 --> 00:26:00,710
 few weeks.
 
-592
+578
 00:26:02,694 --> 00:26:04,000
 Bekah: It's in the calendar for
 sure.
 
-593
+579
 00:26:04,000 --> 00:26:05,000
 Kirk: There you go.
 
-594
+580
 00:26:05,000 --> 00:26:08,434
-Bekah: So [chuckles] I should
+Bekah: So [chuckles], I should
 write something. I know I'm
 
-595
+581
 00:26:08,434 --> 00:26:11,868
 missing some of the other groups
 that we
 
-596
-00:26:11,869 --> 00:26:13,519
+582
+00:26:11,869 --> 00:26:15,169
 have going on there, but those
 are the ones that- that I can
 
-597
-00:26:13,519 --> 00:26:15,169
-see
-
-598
+583
 00:26:15,230 --> 00:26:21,605
-right now, and are coming to ...
-my thoughts. So, I don't
+see right now, and are coming to
+... my thoughts. So-- I don't
 
-599
+584
 00:26:21,605 --> 00:26:23,134
-know, just like a lot of really
-fun stuff in the- the VC's
+know. Just, like, a lot of
+really fun stuff in the- the
 
-600
+585
 00:26:23,134 --> 00:26:24,663
-speaking
+VC's speaking
 
-601
+586
 00:26:24,664 --> 00:26:30,365
-group — the Virtual Coffee,
-we've refer it as VC — is a cool
+group—the Virtual Coffee, we've
+refer it as VC—is a cool
 
-602
+587
 00:26:30,365 --> 00:26:34,595
 one that's just started meeting
-this past week? I don't know.
+this past week? I don't know--
 
-603
+588
 00:26:34,605 --> 00:26:36,190
-The last couple of weeks. So it
+the last couple of weeks. So it
 all kind of blend together. So
 
-604
+589
 00:26:36,190 --> 00:26:37,775
 [chuckles], we- we
 
-605
+590
 00:26:37,775 --> 00:26:39,545
 met fairly recently for the
 first time, and kind of plan
 
-606
+591
 00:26:39,545 --> 00:26:41,315
 things out,
 
-607
+592
 00:26:41,315 --> 00:26:44,105
 and things are growing from
 there. So, there's always
 
-608
+593
 00:26:44,105 --> 00:26:48,095
 something that there's a need
 that can be filled or there's an
 
-609
+594
 00:26:48,095 --> 00:26:49,842
-interest like, honestly, I- I
-was thinking about like, "Okay,
+interest, like, honestly, I- I
+was thinking about, like, "Okay,
 
-610
+595
 00:26:49,842 --> 00:26:51,589
 what
 
-611
+596
 00:26:51,740 --> 00:26:53,310
 Coffee Table groups would I like
 to see?" And I don't know if
 
-612
+597
 00:26:53,310 --> 00:26:54,880
 this
 
-613
+598
 00:26:55,039 --> 00:27:00,859
 fits into a Coffee Table group,
 but, like, I don't know
 
-614
+599
 00:27:00,859 --> 00:27:06,785
 what to call it. Happy Hour-
 Happy Hour Special Interest
 
-615
+600
 00:27:06,785 --> 00:27:10,055
-group? I -- it kind of like
-falls outside of there, but like
+group? I-- it kind of like falls
+outside of there, but, like,
 
-616
+601
 00:27:10,115 --> 00:27:12,379
-something low-key, let's get
-together, and hang out. We've
+something low-key. Let's get
+together and hang out. We've
 
-617
+602
 00:27:12,379 --> 00:27:14,643
 done
 
-618
+603
 00:27:14,644 --> 00:27:17,569
 some happy hours or social hours
-before. And- and just like
+before. And- and just, like,
 
-619
+604
 00:27:17,569 --> 00:27:20,494
 seeing
 
-620
+605
 00:27:20,494 --> 00:27:24,244
 the community interact in those
 ways has been a lot of fun. But
 
-621
+606
 00:27:24,244 --> 00:27:25,909
 are there other groups that you
 two would like to see at Virtual
 
-622
+607
 00:27:25,909 --> 00:27:27,574
 Coffee?
 
-623
+608
 00:27:29,974 --> 00:27:31,984
-Kirk: It's -- see, this is ... I
+Kirk: It's-- see, this is ... I
 don't know if it's different
 
-624
+609
 00:27:31,984 --> 00:27:33,994
 from the
 
-625
+610
 00:27:33,994 --> 00:27:36,335
 happy hour group, but we've been
 talking about VC
 
-626
+611
 00:27:36,335 --> 00:27:39,394
-karaoke for like, forever. And
+karaoke for, like, forever. And
 I'm- I'm so down. So down with
 
-627
+612
 00:27:39,394 --> 00:27:42,453
 the karaoke.
 
-628
+613
 00:27:45,005 --> 00:27:48,305
-There's a -- okay. So this is
-one that came up just yesterday
+There's a-- okay. So this is one
+that came up just yesterday
 
-629
+614
 00:27:48,305 --> 00:27:52,729
-actually. I was talking -- who
+actually. I was talking-- who
 was I talking to? People [Bekah
 
-630
+615
 00:27:52,729 --> 00:27:57,153
 chuckles]. And we were
 
-631
+616
 00:27:57,154 --> 00:27:59,652
 talking about ... oh, yeah-
 yeah. We were talking about
 
-632
+617
 00:27:59,652 --> 00:28:02,150
 poetry. And we were like,
 
-633
+618
 00:28:02,180 --> 00:28:03,499
-where -- if you were gonna share
+"Where-- if you were gonna share
 your poetry and music, like,
 
-634
+619
 00:28:03,499 --> 00:28:04,818
 where do
 
-635
+620
 00:28:04,819 --> 00:28:09,769
-you put -- content creation is
+you put ..." content creation is
 slightly different. It's not
 
-636
+621
 00:28:09,769 --> 00:28:11,794
 necessarily content, right?
-Like, it's just like -- it's
+Like, it's just, like-- it's
 
-637
+622
 00:28:11,794 --> 00:28:13,819
-like art, that for
+like art—that for—me
 
-638
+623
 00:28:13,819 --> 00:28:17,119
-me -- that I'm sharing with,
-like, friends. So then it's
+that I'm sharing with, like,
+friends. So then, it's
 
-639
+624
 00:28:17,119 --> 00:28:20,419
 like, "Hmm. Maybe
 
-640
+625
 00:28:20,420 --> 00:28:22,295
-that goes into --" I think we
-have a -- so -- do we have a
+that goes into ..." I think, we
+have a-- so, do we have a
 
-641
+626
 00:28:22,295 --> 00:28:24,170
 channel about crafts? Is it
-craft --
+craft--
 
-642
+627
 00:28:24,170 --> 00:28:24,769
 Bekah: Making stuffs.
 
-643
+628
 00:28:24,769 --> 00:28:28,849
 Kirk: Yeah. I'm not in it cuz I
 thought it was about macaroni,
 
-644
+629
 00:28:28,970 --> 00:28:33,077
 but it's not [Bekah chuckles]. I
-get this idea. So yeah. It was
+get this idea. So, yeah. It
 
-645
+630
 00:28:33,077 --> 00:28:37,184
--- maybe there- maybe there's
-like another space
+was-- maybe there- maybe
+there's, like, another space
 
-646
-00:28:37,184 --> 00:28:39,974
-for that, but, you know, that's
--- those- those are the two that
+631
+00:28:37,184 --> 00:28:38,579
+for that, but, you know,
+that's-- those- those are the
 
-647
+632
+00:28:38,579 --> 00:28:39,974
+two that
+
+633
 00:28:40,214 --> 00:28:42,434
 immediately came to mind. But I
 feel like there's a ton more
 
-648
+634
 00:28:42,525 --> 00:28:45,685
 like ... I don't know. I- I
-think since the [chuckles] --
+think since the [chuckles]--
 
-649
+635
 00:28:45,685 --> 00:28:48,845
-since we get -- we got past
+since we get-- we got past
 
-650
+636
 00:28:48,845 --> 00:28:51,725
 the- the time of Bryan
 [chuckles] making channels
 
-651
+637
 00:28:51,725 --> 00:28:54,605
 [laughs], we've been a lot more
 
-652
+638
 00:28:56,035 --> 00:28:59,065
 judicious about them. We made a
 channel for making channels,
 
-653
+639
 00:28:59,095 --> 00:29:00,264
 which I actually think has
 worked out pretty well, as like
 
-654
+640
 00:29:00,264 --> 00:29:01,433
 giving
 
-655
+641
 00:29:01,434 --> 00:29:03,339
-people like a clear space to
+people, like, a clear space to
 discuss wanting certain
 
-656
+642
 00:29:03,339 --> 00:29:05,244
 channels.
 
-657
+643
 00:29:05,755 --> 00:29:10,134
-The -- yeah. What I like about
-the special interest groups is
+The-- yeah. What I like about
+the special interest groups is,
 
-658
+644
 00:29:10,134 --> 00:29:12,204
-like, it -- we don't predict
-them, right? The members --
+like, it-- we don't predict
+them, right? The members--
 
-659
+645
 00:29:12,204 --> 00:29:14,274
 someone has
 
-660
+646
 00:29:14,275 --> 00:29:18,654
-an idea, they will typically
-like find some way to poll the
+an idea, they will typically,
+like, find some way to poll the
 
-661
+647
 00:29:18,654 --> 00:29:20,814
 community, you know? Get
-feedback, and like, general
+feedback, and, like, general
 
-662
+648
 00:29:20,814 --> 00:29:22,974
-random, if
+random. If
 
-663
+649
 00:29:22,974 --> 00:29:24,756
 there's enough interest and
-people like hype enough, they
+people, like, hype enough, they
 
-664
+650
 00:29:24,756 --> 00:29:26,538
 give it a try.
 
-665
+651
 00:29:26,930 --> 00:29:29,539
-And then, like, we, as the
-maintainers, only come in like,
+And then, like, we—as the
+maintainers—only come in, like,
 
-666
-00:29:29,569 --> 00:29:31,414
+652
+00:29:29,569 --> 00:29:33,259
 "Hey, you're doing an awesome
-thing," you know, "Let's see if
+thing," you know? "Let's see if
 
-667
-00:29:31,414 --> 00:29:33,259
-we
-
-668
+653
 00:29:33,259 --> 00:29:37,534
-can, like, help out with it."
+we can, like, help out with it."
 Yeah. I mean, having a process
 
-669
+654
 00:29:37,534 --> 00:29:41,809
 to that is good [??], too.
 
-670
+655
 00:29:44,549 --> 00:29:45,420
-Dan: Yeah. I mean I -- What was
+Dan: Yeah. I mean, I-- what was
 that? What did you say?
 
-671
+656
 00:29:46,009 --> 00:29:47,599
 Kirk: I mean, having a process
-for that is good. It's like some
+for that is good. It's, like,
 
-672
+657
 00:29:47,599 --> 00:29:49,189
-things
+some things
 
-673
+658
 00:29:49,190 --> 00:29:50,869
-end up not being like -- they
-just -- it's like, okay. Like,
+end up not being, like-- they
+just-- it's, like, okay. Like,
 
-674
+659
 00:29:50,869 --> 00:29:52,548
 if we have
 
-675
+660
 00:29:52,549 --> 00:29:56,079
 external events, right? Which is
 where people can basically, you
 
-676
+661
 00:29:56,079 --> 00:29:58,670
 know, if they have a thing
 that's going on outside of the
 
-677
+662
 00:29:58,670 --> 00:30:01,430
-community, you can always like
+community, you can always, like,
 put it in there. A lot
 
-678
+663
 00:30:01,430 --> 00:30:03,305
-of stuff ends up like, well,
+of stuff ends up like, "Well,
 this is probably just an
 
-679
+664
 00:30:03,305 --> 00:30:05,180
-external.
+external
 
-680
+665
 00:30:05,509 --> 00:30:08,480
-Coffee Tables, or, spec- now I'm
-saying special interest groups.
+Coffee Tables," or, spec- now
+I'm saying special interest
 
-681
+666
 00:30:08,509 --> 00:30:09,019
-Dan, what have you [chuckles] --
+groups. Dan, what have you
+[chuckles]--
 
-682
-00:30:11,829 --> 00:30:13,660
-Dan: Well, we call them that for
-like a year. And then we figured
+667
+00:30:11,829 --> 00:30:12,744
+Dan: Well, we call them that
+for, like, a year. And then, we
 
-683
+668
+00:30:12,744 --> 00:30:13,659
+figured
+
+669
 00:30:13,660 --> 00:30:16,119
 out Coffee Table groups, which I
 like. It's just- it's just the
 
-684
+670
 00:30:16,119 --> 00:30:17,349
 other one is stuck in my head.
-So --
+So--
 
-685
+671
 00:30:18,210 --> 00:30:20,664
 Kirk: Yeah. The- the- the key
-thing is that it's- it's a by
+thing is that it's- it's a "by
 
-686
+672
 00:30:20,664 --> 00:30:23,118
-members for members. I
+members for members". I
 
-687
+673
 00:30:23,119 --> 00:30:25,429
-think that's like the- the --
+think that's, like, the- the--
 sort of the core concept, you
 
-688
+674
 00:30:25,429 --> 00:30:27,739
 know? So,
 
-689
+675
 00:30:27,740 --> 00:30:28,745
 it's not like an outside person
-coming in all that it's just
+coming in all that, it's just,
 
-690
+676
 00:30:28,745 --> 00:30:29,750
-like
+like,
 
-691
+677
 00:30:29,750 --> 00:30:33,200
 a seminar hold by our member
 [??]. So if you're gonna
 
-692
+678
 00:30:33,200 --> 00:30:37,029
 maybe expand it to everyone,
 then it sort of, you know, the
 
-693
+679
 00:30:37,029 --> 00:30:40,858
 ability
 
-694
-00:30:40,859 --> 00:30:46,230
-to like make sure it stays like
-VC oriented will be diminished,
+680
+00:30:40,859 --> 00:30:43,544
+to, like, make sure it stays,
+like, VC-oriented will be
 
-695
+681
+00:30:43,544 --> 00:30:46,229
+diminished,
+
+682
 00:30:46,230 --> 00:30:47,612
 right? Like, sticking to the
-CoC, there's like all these
+CoC. There's, like-- all these
 
-696
+683
 00:30:47,612 --> 00:30:48,994
 other
 
-697
+684
 00:30:48,994 --> 00:30:51,095
 things you just can't control if
-it's not. So -- you know.
+it's not. So-- you know.
 
-698
+685
 00:30:51,930 --> 00:30:53,774
 Bekah: We- we have talked about
 some cross community
 
-699
+686
 00:30:53,774 --> 00:30:55,618
 collaboration.
 
-700
+687
 00:30:55,920 --> 00:30:57,945
 And I know that there has been
 some talk among our members,
 
-701
+688
 00:30:57,945 --> 00:30:59,970
-like
+like,
 
-702
+689
 00:31:00,029 --> 00:31:03,014
-what if this small interest --
-oh my, I did it now! [Deep
+what if this small interest-- oh
+my, I did it now! [Deep
 
-703
+690
 00:31:03,014 --> 00:31:05,999
 exhales] Dan. Why you of all
-people --
+people--
 
-704
+691
 00:31:06,000 --> 00:31:06,000
 Dan: What have I done? [Laughs]
 
-705
+692
 00:31:06,119 --> 00:31:10,036
 Bekah: [Chuckles] What if our
 Coffee Table groups collaborated
 
-706
+693
 00:31:10,036 --> 00:31:13,953
 with
 
-707
+694
 00:31:13,954 --> 00:31:18,154
 somebody else? Like, you know,
-had another -- a community, a
+had another-- a community, a
 
-708
+695
 00:31:18,154 --> 00:31:21,934
 meetup, like, maybe freeCodeCamp
 Philly. Meg was talking about
 
-709
-00:31:21,934 --> 00:31:25,234
-join accountability buddies. And
-so there's definitely something
+696
+00:31:21,934 --> 00:31:23,584
+joined accountability buddies.
+And so, there's definitely
 
-710
+697
+00:31:23,584 --> 00:31:25,234
+something
+
+698
 00:31:25,234 --> 00:31:26,719
-that we're considering. And it
--- you know, it goes back to
+that we're considering. And it--
+you know, it goes back to,
 
-711
+699
 00:31:26,719 --> 00:31:28,204
-like, what
+like, "What
 
-712
+700
 00:31:28,204 --> 00:31:31,775
 are the needs of our members and
-the leaders of those groups. So,
+the leaders of those groups?"
 
-713
+701
 00:31:32,045 --> 00:31:34,400
-you know, it- it -- always
+So, you know, it- it-- always
 talking things through and
 
-714
+702
 00:31:34,400 --> 00:31:36,755
-figuring out like, is
+figuring out like, "Is
 
-715
+703
 00:31:36,755 --> 00:31:41,855
 this a good fit for our
 community? Is the priority of
 
-716
+704
 00:31:41,914 --> 00:31:42,634
-everything that we're doing?
+everything that we're doing?"
 
-717
+705
 00:31:44,089 --> 00:31:47,930
-Kirk: Yeah. We, you know, like
-acknowledging that we can't be
+Kirk: Yeah. We-- you know, like,
+acknowledging that, we can't be
 
-718
+706
 00:31:47,930 --> 00:31:55,910
 everything for all people. And
-also, like, we can't — ourselves
+also, like, we can't—ourselves
 
-719
+707
 00:31:55,910 --> 00:31:57,634
-necessarily — like, handle like
-every -- like there's lots of
+necessarily—like, handle, like,
+every-- like, there's lots of
 
-720
+708
 00:31:57,634 --> 00:31:59,358
 good things
 
-721
+709
 00:31:59,359 --> 00:32:02,660
 that members might want or like,
 but we're just not equipped to
 
-722
+710
 00:32:02,660 --> 00:32:04,594
 provide those things. So if
-there's like a great partnership
+there's, like, a great
 
-723
+711
 00:32:04,594 --> 00:32:06,528
-with somebody
+partnership with somebody
 
-724
+712
 00:32:06,529 --> 00:32:11,279
 else who is doing that, then
 that's awesome. Brian Rinaldi
 
-725
+713
 00:32:11,279 --> 00:32:13,910
-comes to mind with like cfe.dev,
-you know? Like,
+comes to mind with, like,
+cfe.dev, you know? Like,
 
-726
+714
 00:32:14,210 --> 00:32:18,799
 consistent guest speakers, great
 quality talks, like, that's
 
-727
+715
 00:32:18,799 --> 00:32:22,940
 something to takes a whole team
 to organize and through all that
 
-728
-00:32:22,940 --> 00:32:24,590
-consistent basis. We, you and I,
-have the bandwidth for that if
+716
+00:32:22,940 --> 00:32:26,240
+consistent basis. We—you and
+I—have the bandwidth for that if
 
-729
-00:32:24,590 --> 00:32:26,240
-he
-
-730
+717
 00:32:26,240 --> 00:32:27,725
-does. And so, like, letting
+he does. And so, like, letting
 members like, "Hey, every two
 
-731
+718
 00:32:27,725 --> 00:32:29,210
 weeks,
 
-732
+719
 00:32:29,210 --> 00:32:31,160
-you're getting like a high
+you're getting, like, a high
 quality thing that you can just
 
-733
+720
 00:32:31,279 --> 00:32:33,807
 check out," feels good. Like,
-everyone seems -- both sides are
+everyone seems-- both sides are
 
-734
+721
 00:32:33,807 --> 00:32:36,335
 sort of like
 
-735
+722
 00:32:36,335 --> 00:32:39,305
 getting something out of it. So,
 if there's ways to do more of
 
-736
+723
 00:32:39,305 --> 00:32:44,525
 that, it's great. Yeah. But
-those do always require like
+those do always require, like,
 
-737
+724
 00:32:44,585 --> 00:32:46,654
-extended -- you just have to
-like work them out more because
+extended-- you just have to,
+like, work them out more because
 
-738
+725
 00:32:46,654 --> 00:32:48,723
 now,
 
-739
-00:32:48,724 --> 00:32:50,599
-you have to like check in that
+726
+00:32:48,724 --> 00:32:52,474
+you have to, like, check in that
 this other group are aligned
 
-740
-00:32:50,599 --> 00:32:52,474
-with
-
-741
+727
 00:32:52,474 --> 00:32:54,214
-you, you gotta figure out
-timing, you gotta -- you have
+with you, you gotta figure out
+timing, you gotta-- you have
 
-742
+728
 00:32:54,214 --> 00:32:55,954
 your own
 
-743
+729
 00:32:55,954 --> 00:32:57,094
 cadence of work, they have their
 own cadence work, it becomes
 
-744
+730
 00:32:57,094 --> 00:32:58,234
 this
 
-745
-00:32:58,234 --> 00:33:00,987
-thing, you know, but -- or not.
-I don't think we're opposed to
+731
+00:32:58,234 --> 00:33:03,740
+thing, you know? But-- or not. I
+don't think we're opposed to,
 
-746
-00:33:00,987 --> 00:33:03,740
-like
-
-747
+732
 00:33:03,799 --> 00:33:08,390
-anything that doesn't bring
-value for them in.
+like, anything that doesn't
+bring value for them in.
 
-748
+733
 00:33:10,454 --> 00:33:15,500
 Bekah: Yes, 100%. So, you know,
 as we're working through
 
-749
+734
 00:33:15,500 --> 00:33:18,799
 all of this stuff, there's
 obviously still pain points that
 
-750
+735
 00:33:18,799 --> 00:33:21,650
-we need to solve. So I thought
+we need to solve. So, I thought,
 maybe we could talk a little bit
 
-751
+736
 00:33:21,650 --> 00:33:23,030
 about, you know, some of the
 things that we're still trying
 
-752
+737
 00:33:23,030 --> 00:33:24,410
 to
 
-753
+738
 00:33:24,410 --> 00:33:30,319
 work through and- and maybe some
 of the ideas that we have or
 
-754
+739
 00:33:30,859 --> 00:33:35,059
 just thoughts that we are trying
 to work through.
 
-755
-00:33:37,345 --> 00:33:39,157
-Dan: Yeah. So I [clear-throat],
-excuse me, I think one of our
+740
+00:33:37,345 --> 00:33:37,346
+Dan: Yeah. So I [clear
+throat]—excuse me—I think
 
-756
-00:33:39,157 --> 00:33:40,969
-based -- I mean, we've
+741
+00:33:37,157 --> 00:33:40,969
+one of our based-- I mean, we've
 
-757
+742
 00:33:40,970 --> 00:33:42,799
 talked about some of the
 struggles and, you know, some of
 
-758
+743
 00:33:42,799 --> 00:33:46,009
 them when we were talking about
 why we pause memberships
 
-759
+744
 00:33:46,069 --> 00:33:50,539
 wh-with regards to having
 leadership support and things
 
-760
+745
 00:33:50,539 --> 00:33:54,650
 like that. But a-another side of
-that was -- is just handling
+that was-- is just handling
 
-761
+746
 00:33:54,769 --> 00:33:58,579
 incoming members, right? So I- I
-think probably a lot of people
+think, probably a lot of people
 
-762
+747
 00:33:58,579 --> 00:34:00,890
 have had the experience of
 joining some community at this
 
-763
+748
 00:34:00,890 --> 00:34:03,035
-quarter, Slack, or whatever, and
-being just overwhelmed
+quarter [??], Slack, or
+whatever, and being just
 
-764
+749
 00:34:03,035 --> 00:34:05,180
-[chuckles], or
+overwhelmed [chuckles], or
 
-765
+750
 00:34:05,180 --> 00:34:09,949
 not having any idea what to do,
-or- or maybe it's a little
+or- or, maybe, it's a little
 
-766
+751
 00:34:09,949 --> 00:34:11,824
-clear, but it's still just a
-huge community with a million
+clear but it's still just a huge
+community with a million
 
-767
+752
 00:34:11,824 --> 00:34:13,699
 channels
 
-768
+753
 00:34:14,389 --> 00:34:18,102
 a-a-and no, you know, personal
 connection for you. And so, you
 
-769
+754
 00:34:18,102 --> 00:34:21,815
 put your
 
-770
+755
 00:34:21,815 --> 00:34:23,045
 name in [chuckles], you know,
 you fill out the intro thing and
 
-771
+756
 00:34:23,045 --> 00:34:24,275
-say, "Hello
+say, "Hello,
 
-772
+757
 00:34:24,275 --> 00:34:26,255
 everybody," and, you know, some
-people react and say hi and
+people react, and say hi, and
 
-773
+758
 00:34:26,255 --> 00:34:28,279
 stuff, and then- and then it's
 kinda ... right [chuckles]? I
 
-774
+759
 00:34:28,279 --> 00:34:30,303
 wouldn't want
 
-775
+760
 00:34:30,304 --> 00:34:31,429
-that to be -- I mean, if peep-
-if that's what happens in
+that to be-- I mean, if peep- if
+that's what happens in
 
-776
+761
 00:34:31,429 --> 00:34:32,554
 Virtual Coffee,
 
-777
+762
 00:34:32,554 --> 00:34:36,065
-that, you know, so be it for-
+that-- you know, so be it for-
 for a person, but in general, we
 
-778
+763
 00:34:36,065 --> 00:34:39,815
 don't want that to be that case,
-right? And so our -- and this is
+right? And so, our-- and this is
 
-779
+764
 00:34:39,815 --> 00:34:43,715
 why we've stuck pretty hard with
-our- our -- how you join Virtual
+our- our-- how you join Virtual
 
-780
+765
 00:34:43,715 --> 00:34:46,175
 Coffee is by coming to one of
-our coffees, right? First.
+our Coffees, right-- first,
 
-781
+766
 00:34:46,175 --> 00:34:48,635
-Before any
+before any
 
-782
+767
 00:34:48,844 --> 00:34:51,154
 Slack invites happen, things
-like that. [Clear-throat] One of
+like that. [Clear throat] One of
 
-783
+768
 00:34:51,154 --> 00:34:53,464
 the difficulties
 
-784
+769
 00:34:53,465 --> 00:34:56,959
-with that is- is -- it was a
-very manual process, right? The
+with that is- is, it was a very
+manual process, right?
 
-785
+770
 00:34:56,959 --> 00:35:00,453
---
+The--
 
-786
+771
 00:35:00,485 --> 00:35:02,314
 you know, Zoom has its own
-authentication stuff, and
+authentication stuff and
 
-787
+772
 00:35:02,314 --> 00:35:04,143
 there's
 
-788
+773
 00:35:04,144 --> 00:35:06,972
 no way to have people signed
-into like a Zoom account, all of
+into, like, a Zoom account, all
 
-789
+774
 00:35:06,972 --> 00:35:09,800
-the
+of the
 
-790
+775
 00:35:09,800 --> 00:35:11,360
-same account. Otherwise -- I
-mean, it -- or- or unless they
+same account. Otherwise-- I
+mean, it-- or- or unless they
 
-791
+776
 00:35:11,360 --> 00:35:12,920
 were paid members,
 
-792
+777
 00:35:12,920 --> 00:35:14,745
-right? So if you are on a work
+right? So, if you are on a work
 Zoom or something, you know,
 
-793
+778
 00:35:14,745 --> 00:35:16,570
 that- that
 
-794
+779
 00:35:16,579 --> 00:35:17,749
 your work is paying for every
 single seat [chuckles]. And so,
 
-795
+780
 00:35:17,749 --> 00:35:18,919
 that's
 
-796
+781
 00:35:18,920 --> 00:35:20,509
 obviously not a- a solution for
-us. So when you join a Virtual
+us. So, when you join a Virtual
 
-797
+782
 00:35:20,509 --> 00:35:22,098
 Coffee's
 
-798
+783
 00:35:22,099 --> 00:35:23,599
 Zoom, you're just joining on
 your own account, and you can
 
-799
+784
 00:35:23,599 --> 00:35:25,099
 fill out
 
-800
+785
 00:35:25,099 --> 00:35:28,670
 whatever details you want.
 There's no way for us to manage
 
-801
+786
 00:35:28,670 --> 00:35:32,269
 any of that. What that means is
-there's no auto- there's -- it's
+there's no auto- there's-- it's
 
-802
+787
 00:35:32,269 --> 00:35:34,894
-very complicated, and possibly
+very complicated, and possibly,
 sometimes impossible to connect
 
-803
+788
 00:35:34,894 --> 00:35:37,519
 a
 
-804
+789
 00:35:37,519 --> 00:35:40,639
 Zoom account with a person, you
 know? And whether they've joined
 
-805
+790
 00:35:40,639 --> 00:35:43,610
 or not before, and things like
 that. And so, our solution was
 
-806
+791
 00:35:43,610 --> 00:35:46,760
 just to have people fill out the
 membership form and, you know,
 
-807
+792
 00:35:46,760 --> 00:35:51,019
 we'd have a little link after
-coffees, and they would fill out
+Coffees, and they would fill out
 
-808
+793
 00:35:51,019 --> 00:35:52,887
-the form, and then we would
+the form, and then, we would
 essentially go and make sure
 
-809
+794
 00:35:52,887 --> 00:35:54,755
 that
 
-810
+795
 00:35:54,755 --> 00:35:56,674
 they actually came, and then
 send them a Slack invite, sort
 
-811
+796
 00:35:56,674 --> 00:35:58,593
 of all
 
-812
-00:35:58,594 --> 00:36:01,144
-manually. We -- wait, peep- just
--- maintainers were just doing
+797
+00:35:58,594 --> 00:35:59,869
+manually. We-- wait, peep-
+just-- maintainers were just
 
-813
+798
+00:35:59,869 --> 00:36:01,144
+doing
+
+799
 00:36:01,144 --> 00:36:04,175
 that. And that was hard too, you
 know? I mean, that was time
 
-814
+800
 00:36:04,175 --> 00:36:07,324
-consuming even when there was
+consuming, even when there was
 just five people that, you know,
 
-815
+801
 00:36:07,324 --> 00:36:11,885
-joined that week, it took up
+joined that week. It took up
 time. And we have more and more
 
-816
+802
 00:36:11,885 --> 00:36:15,784
 people coming, things like that.
-And, so, that's one of the
+And so, that's one of the
 
-817
+803
 00:36:15,784 --> 00:36:17,224
 challenges that I'd like to nail
-down i-is just like what- what
+down—i-is just, like, what- what
 
-818
+804
 00:36:17,224 --> 00:36:18,664
 it means
 
-819
+805
 00:36:18,664 --> 00:36:23,105
 to be a member? How to- how to
 join things, you know?
 
-820
+806
 00:36:23,195 --> 00:36:26,225
 Those sorts of topics, right?
-And then how can we- how can we
+And then, how can we- how can we
 
-821
+807
 00:36:26,225 --> 00:36:29,255
 keep
 
-822
+808
 00:36:29,434 --> 00:36:33,454
 the sort of intimate nature of-
 of joining Virtual Coffee
 
-823
+809
 00:36:33,844 --> 00:36:36,184
 while supporting multiple
 members, you know, more and
 
-824
+810
 00:36:36,184 --> 00:36:40,324
 more, large and larger group of
-people. And then also how to
+people. And then, also how to
 
-825
+811
 00:36:41,105 --> 00:36:44,195
 onboard them gracefully and
 things like that, not overwhelm
 
-826
+812
 00:36:44,195 --> 00:36:48,739
 people, and not call with them
 with, you know, a million
 
-827
+813
 00:36:48,739 --> 00:36:50,404
 channels and huge group of
 people that they don't know
 
-828
+814
 00:36:50,404 --> 00:36:52,069
 anything
 
-829
+815
 00:36:52,070 --> 00:36:53,840
-about. So, that's -- we --
-we've- we've been talking a lot
+about. So, that's-- we-- we've-
+we've been talking a lot
 
-830
+816
 00:36:53,840 --> 00:36:55,610
 about that
 
-831
+817
 00:36:55,610 --> 00:36:57,260
 too over the past few months.
 
-832
+818
 00:36:58,525 --> 00:36:59,799
 Bekah: Yeah. And along with
 that, when you have more people,
 
-833
+819
 00:36:59,799 --> 00:37:01,073
 you're
 
-834
+820
 00:37:01,074 --> 00:37:04,494
 gonna need more moderation,
 right? So for us, moderation
 
-835
+821
 00:37:04,494 --> 00:37:10,105
-hasn't been a huge issue, but as
+hasn't been a huge issue. But as
 you onboard more people and have
 
-836
+822
 00:37:10,554 --> 00:37:13,795
 less of a personal relationship
 with every single person that
 
-837
+823
 00:37:13,795 --> 00:37:15,837
 comes in, it- it becomes a
 little bit trickier, right? And
 
-838
+824
 00:37:15,837 --> 00:37:17,879
-so you wanna
+so, you wanna
 
-839
+825
 00:37:17,880 --> 00:37:21,360
 make sure that you're prepared
-for something that might happen
+for something that might happen,
 
-840
+826
 00:37:21,360 --> 00:37:25,739
 and dealing with those types of
 issues, and making sure that
 
-841
+827
 00:37:25,739 --> 00:37:28,650
 everybody has access to that
 information that they need. Not
 
-842
+828
 00:37:28,650 --> 00:37:30,914
 everybody needs access to all of
 the information. And so,
 
-843
+829
 00:37:30,914 --> 00:37:33,178
 providing
 
-844
+830
 00:37:33,210 --> 00:37:37,769
 each group of volunteers with
 that information, making sure
 
-845
+831
 00:37:37,769 --> 00:37:40,769
 that they're up to date and can
 communicate openly with each
 
-846
+832
 00:37:40,769 --> 00:37:43,286
 other when something needs to be
-updated or changed is -- those
+updated or changed is-- those
 
-847
+833
 00:37:43,286 --> 00:37:45,803
 are
 
-848
+834
 00:37:45,835 --> 00:37:47,410
 also, you know, priorities and
 pain points that we're trying to
 
-849
-00:37:47,410 --> 00:37:48,985
-work
-
-850
-00:37:48,985 --> 00:37:51,688
-through. Kirk, do you have
+835
+00:37:47,410 --> 00:37:51,688
+work through. Kirk, do you have
 anything to add?
 
-851
+836
 00:37:52,478 --> 00:37:55,778
-Kirk: I think we should go back
+Kirk: I think, we should go back
 to trial by combat for
 
-852
+837
 00:37:55,778 --> 00:38:00,159
 membership. Maybe we should go
 back to the old ways. Now ...
 
-853
+838
 00:38:00,219 --> 00:38:03,818
 no. I think, you guys, you hit
 the nail on the head. I was just
 
-854
+839
 00:38:05,918 --> 00:38:12,623
 thinking through things being
 conscientious. You can only
 
-855
+840
 00:38:12,623 --> 00:38:16,853
 get so far, just kind of like
 going with the flow, and
 
-856
+841
 00:38:16,853 --> 00:38:18,083
 eventually, like, if the flow
 becomes like a delusion, you
 
-857
+842
 00:38:18,083 --> 00:38:19,313
 kinda
 
-858
+843
 00:38:19,313 --> 00:38:24,744
 need to have a plan. Yeah. And
 it's- it's- it's just us sort of
 
-859
+844
 00:38:25,014 --> 00:38:26,663
 being a lot more thoughtful
 about stuff, and kind of
 
-860
+845
 00:38:26,663 --> 00:38:28,312
 stepping back,
 
-861
+846
 00:38:28,313 --> 00:38:34,128
 and saying, "Okay, if something
 works now, why does it work? Is
 
-862
+847
 00:38:34,128 --> 00:38:36,393
-there a way to like, clarify
+there a way to, like, clarify
 that so we can reference why,
 
-863
-00:38:36,393 --> 00:38:38,658
-new
+848
+00:38:36,393 --> 00:38:40,474
+new people can reference why,"
+and, like, we start, you know,
 
-864
-00:38:38,659 --> 00:38:40,474
-people can reference why," and
-like, we start, you know,
-
-865
+849
 00:38:40,474 --> 00:38:42,289
 building that up.
 
-866
+850
 00:38:42,978 --> 00:38:44,928
-You know, we recently had like
-something that make -- the
+You know, we recently had, like,
+something that make-- the
 
-867
+851
 00:38:44,928 --> 00:38:46,878
 maintainers
 
-868
+852
 00:38:46,878 --> 00:38:49,719
-were discussing and were like,
+were discussing, and were like,
 "Hey, is this in the Code of
 
-869
+853
 00:38:49,728 --> 00:38:50,913
 Conduct?" And we were like,
 "No," like, "We should probably,
 
-870
+854
 00:38:50,913 --> 00:38:52,098
 like, put
 
-871
+855
 00:38:52,099 --> 00:38:53,704
-it in there, right?" Just so
-like we don't forget later if it
+it in there, right? Just so,
+like, we don't forget later if
 
-872
+856
 00:38:53,704 --> 00:38:55,309
-happens
+it happens
 
-873
+857
 00:38:55,309 --> 00:38:58,278
-again, there's like something
-that we can reference and go,
+again, there's, like, something
+that we can reference and go."
 
-874
+858
 00:38:58,338 --> 00:39:00,115
-"Well, we're not just making it
-up on the fly as we go along."
+Well, we're not just making it
+up on the fly as we go along.
 
-875
+859
 00:39:00,115 --> 00:39:01,892
-Or, I
+Or-- I
 
-876
+860
 00:39:01,893 --> 00:39:03,828
-mean, we are, but like, the
+mean, we are, but, like, the
 things that we wanna keep
 
-877
+861
 00:39:03,828 --> 00:39:05,763
 [chuckles], we're
 
-878
+862
 00:39:05,764 --> 00:39:08,909
 putting it somewhere where it-
 it can, you know, stay. Yeah, I
 
-879
+863
 00:39:08,909 --> 00:39:12,054
 don't know.
 
-880
+864
 00:39:12,123 --> 00:39:17,043
-And there's something about like
-habits and traditions. If
+And there's something about,
+like, habits and traditions. If
 
-881
+865
 00:39:17,043 --> 00:39:22,324
 something is good and provides
-good value for you, you should
+good value for you, you should,
 
-882
+866
 00:39:22,324 --> 00:39:25,083
-like find a way to keep it. And
+like, find a way to keep it. And
 if something is not providing
 
-883
+867
 00:39:25,083 --> 00:39:26,950
 good value for you, then, like,
-you should set it free. But you
+you should set it free. But
 
-884
+868
 00:39:26,950 --> 00:39:28,817
--- it's
+you-- it's
 
-885
+869
 00:39:28,818 --> 00:39:31,128
 hard to do that if you're not
 keeping track of those things.
 
-886
+870
 00:39:31,579 --> 00:39:33,000
-So, yeah.
+So-- yeah.
 
-887
+871
 00:39:34,000 --> 00:39:35,000
-Bekah: I think along --
+Bekah: I think along--
 
-888
+872
 00:39:34,000 --> 00:39:37,824
 Kirk: But [unintelligible]
 thing, we can totally ... I'm
 
-889
+873
 00:39:37,824 --> 00:39:41,648
 ready. Dan, are you ready? Dan
 is [unintelligible].
 
-890
+874
 00:39:43,634 --> 00:39:44,353
 Dan: I'm always ready.
 
-891
+875
 00:39:44,353 --> 00:39:48,000
 Kirk: There you go. Bekah,
 you're ready?
 
-892
+876
 00:39:48,403 --> 00:39:52,393
 Bekah: Always. Always ready. I-
-I think along with all this
+I think along with all this,
 
-893
+877
 00:39:52,393 --> 00:39:55,724
 too, when we're thinking about
 these things, we also have to
 
-894
+878
 00:39:55,724 --> 00:39:57,988
 think about them on a much
 larger scale, right? So, if it
 
-895
+879
 00:39:57,988 --> 00:40:00,252
 works now,
 
-896
+880
 00:40:00,253 --> 00:40:08,778
 will it work if we have 500 more
 people? And the biggest
 
-897
+881
 00:40:09,994 --> 00:40:11,524
 value of Virtual Coffee, I
 think, comes from the intimacy
 
-898
+882
 00:40:11,524 --> 00:40:13,054
 those
 
-899
+883
 00:40:13,054 --> 00:40:18,063
 small group connections. And so,
-I say 500 people and like, that
+I say, 500 people and like, that
 
-900
+884
 00:40:18,063 --> 00:40:19,458
 sounds scary to me. But, you
 know, there's potential for
 
-901
+885
 00:40:19,458 --> 00:40:20,853
 that.
 
-902
+886
 00:40:20,853 --> 00:40:23,088
-There -- we would love to have
-as many people as we can, if we
+There-- we would love to have as
+many people as we can, if we
 
-903
+887
 00:40:23,088 --> 00:40:25,323
 can
 
-904
+888
 00:40:25,324 --> 00:40:27,304
 replicate that same intimacy.
-And so trying to figure out how
+And so, trying to figure out how
 
-905
+889
 00:40:27,304 --> 00:40:29,284
 do
 
-906
+890
 00:40:29,284 --> 00:40:33,603
-you do that? If you add another
-coffee chat, are- are 500 people
+you do that-- if you add another
+Coffee chat, are- are 500 people
 
-907
+891
 00:40:33,603 --> 00:40:37,583
 just going to suddenly appear in
 Slack? I mean, they wouldn't
 
-908
+892
 00:40:37,583 --> 00:40:39,308
 suddenly appear right there.
-We'll be [chuckles] -- we're not
+We'll be [chuckles]-- we're not
 
-909
+893
 00:40:39,308 --> 00:40:41,033
 going to get
 
-910
+894
 00:40:41,034 --> 00:40:45,918
 500 new people overnight. But
 that's something that we have to
 
-911
+895
 00:40:45,918 --> 00:40:50,028
 think about. I don't think it's
 bad to have another pause
 
-912
+896
 00:40:50,028 --> 00:40:51,633
 and membership in the future.
-Now there are some communities
+Now, there are some communities
 
-913
+897
 00:40:51,633 --> 00:40:53,238
 that
 
-914
+898
 00:40:53,239 --> 00:40:56,838
 have opened membership as one-
 one month during a quarter or
 
-915
+899
 00:40:56,838 --> 00:41:01,414
-something. Or one week they
+something. Or one week, they
 onboard new folks who are coming
 
-916
-00:41:01,414 --> 00:41:05,193
-into the community and otherwise
-they're closed. So, there are a
+900
+00:41:01,414 --> 00:41:03,303
+into the community, and
+otherwise, they're closed. So,
 
-917
+901
+00:41:03,303 --> 00:41:05,192
+there are a
+
+902
 00:41:05,193 --> 00:41:08,974
 lot of different ways that you
 can build that into the process,
 
-918
+903
 00:41:09,184 --> 00:41:13,713
 give everybody a break, kind of
 like a vacation to pause,
 
-919
+904
 00:41:13,713 --> 00:41:17,643
 breathe, think things through.
-But, you know, ultimately we
+But, you know, ultimately, we
 
-920
+905
 00:41:17,643 --> 00:41:22,023
 have to be thinking about how do
-we replicate — exactly what Kirk
+we replicate—exactly what Kirk
 
-921
+906
 00:41:22,023 --> 00:41:23,683
-was saying — is- is good about
+was saying—is- is good about
 this community as we scale as
 
-922
+907
 00:41:23,683 --> 00:41:25,343
 well.
 
-923
+908
 00:41:27,614 --> 00:41:29,446
 Kirk: Yeah. And there's
 something that's been bouncing
 
-924
+909
 00:41:29,446 --> 00:41:31,278
 around in my
 
-925
+910
 00:41:31,278 --> 00:41:33,993
 head a lot about, like,
 community size. And I have a
 
-926
+911
 00:41:33,993 --> 00:41:36,708
 working
 
-927
+912
 00:41:36,708 --> 00:41:44,358
 hypothesis, which is that I ...
 don't think community size is
 
-928
+913
 00:41:44,358 --> 00:41:47,389
 necessarily a problem. I feel
 like it's almost like a
 
-929
+914
 00:41:47,389 --> 00:41:50,599
 precursor, like, having the
 community getting bigger can
 
-930
+915
 00:41:50,599 --> 00:41:53,809
 lead
 
-931
+916
 00:41:53,809 --> 00:41:55,789
 to other things. Like, those
 things are actually the problem
 
-932
+917
 00:41:55,818 --> 00:41:57,880
-or like a lack of certain
+or, like, a lack of certain
 things. But if you know what it
 
-933
+918
 00:41:57,880 --> 00:41:59,942
 is and you're
 
-934
-00:41:59,943 --> 00:42:03,393
+919
+00:41:59,943 --> 00:42:01,668
 prepared for it, I don't think
-it's like -- so, like, obviously
+it's, like-- so, like,
 
-935
+920
+00:42:01,668 --> 00:42:03,393
+obviously,
+
+921
 00:42:03,603 --> 00:42:05,343
 suddenly having 500 members
 would probably be a bad thing,
 
-936
+922
 00:42:05,343 --> 00:42:07,083
 you
 
-937
+923
 00:42:07,083 --> 00:42:11,673
 know? But I guess if there was
 an increase in 500 members over
 
-938
+924
 00:42:11,673 --> 00:42:14,103
-the course of like 10 years,
-like, I don't know. That's a
+the course of, like, 10 years,
+like-- I don't know. That's a
 
-939
+925
 00:42:14,103 --> 00:42:15,468
-bad thing. So the problem might
+bad thing. So, the problem might
 not be the 500 members. It's
 
-940
+926
 00:42:15,468 --> 00:42:16,833
-just
+just,
 
-941
+927
 00:42:16,833 --> 00:42:20,943
 like, what is it mean when new
 people enter the group, right?
 
-942
+928
 00:42:20,943 --> 00:42:29,164
 And we found ... too many people
 in at once, it starts to get a
 
-943
+929
 00:42:29,164 --> 00:42:29,884
 little-
 
-944
+930
 00:42:31,103 --> 00:42:32,903
 Bekah: Dilutes the experience or
 something.
 
-945
+931
 00:42:33,344 --> 00:42:34,933
-Kirk: -it gets a little -- yeah.
-Well, it gets a little -- it's
+Kirk: -it gets a little-- yeah.
+Well, it gets a little-- it's,
 
-946
+932
 00:42:34,933 --> 00:42:36,522
-like more strangers
+like, more strangers
 
-947
-00:42:36,523 --> 00:42:40,063
+933
+00:42:36,523 --> 00:42:38,293
 in a room. And as much as
-possible we try and like remove
+possible, we try and, like,
 
-948
-00:42:40,063 --> 00:42:41,968
-the feeling of like strangers in
-a room, you know? Like, there --
+934
+00:42:38,293 --> 00:42:40,063
+remove
 
-949
+935
+00:42:40,063 --> 00:42:41,015
+the feeling of, like, strangers
+in a room, you know? Like,
+
+936
+00:42:41,015 --> 00:42:41,967
+there--
+
+937
 00:42:41,968 --> 00:42:43,873
-it's like, this is
+it's, like-- this is,
 
-950
+938
 00:42:43,873 --> 00:42:45,748
-like
+like,
 friend-I-don't-know-too-well-yet
 
-951
+939
 00:42:45,748 --> 00:42:47,623
-versus
+versus,
 
-952
+940
 00:42:47,623 --> 00:42:50,198
-like, person that I- I- I just
--- I don't want to interact
+like, person that I- I- I just--
+I don't want to interact
 
-953
+941
 00:42:50,198 --> 00:42:52,773
 with. But
 
-954
+942
 00:42:52,773 --> 00:42:54,658
-we also know like having fresh
-new faces is just the way of --
+we also know, like, having fresh
+new faces is just the way of--
 
-955
+943
 00:42:54,658 --> 00:42:56,543
 like, it
 
-956
+944
 00:42:56,583 --> 00:43:00,634
-just -- it keeps things fun, it
+just-- it keeps things fun, it
 keeps things healthy.
 
-957
+945
 00:43:01,923 --> 00:43:04,833
 Communities are dynamic systems.
 People enter, people leave,
 
-958
+946
 00:43:04,864 --> 00:43:07,249
-people return. And like, being
-able to like handle all those
+people return. And, like, being
+able to, like, handle all those
 
-959
+947
 00:43:07,249 --> 00:43:09,634
 steps of
 
-960
+948
 00:43:09,634 --> 00:43:12,664
 your journey as a community
-member is really important for
+member is really important for,
 
-961
+949
 00:43:12,664 --> 00:43:14,734
-like having a good community,
-you know? So, yeah. Let's say we
+like, having a good community,
+you know? So-- yeah. Let's say
 
-962
+950
 00:43:14,734 --> 00:43:16,804
-have
+we have,
 
-963
+951
 00:43:16,804 --> 00:43:18,574
-like a thousand members, but
-we're probably not gonna have
+like, a thousand members, but
+we're probably not gonna have,
 
-964
-00:43:18,574 --> 00:43:21,603
-like a thousand people active at
-the same time. They'll come in
+952
+00:43:18,574 --> 00:43:20,088
+like, a thousand people active
+at the same time. They'll come
 
-965
+953
+00:43:20,088 --> 00:43:21,602
+in
+
+954
 00:43:21,603 --> 00:43:25,594
 waves, they'll come and go, and
-it- it, you know, there's -- I
+it- it, you know, there's-- I
 
-966
+955
 00:43:25,594 --> 00:43:28,143
-think there's a way of like
+think, there's a way of, like,
 living in that space that can
 
-967
+956
 00:43:28,143 --> 00:43:30,183
 feel really good. Like, very
 quickly you figured out, "Oh,
 
-968
+957
 00:43:30,183 --> 00:43:32,223
 it's
 
-969
+958
 00:43:32,224 --> 00:43:34,909
 not so much." Zooms can have
 lots of people. As long as when
 
-970
+959
 00:43:34,909 --> 00:43:37,594
 people
 
-971
+960
 00:43:37,594 --> 00:43:39,229
 finally start talking, they're
-in like a small enough space
+in, like, a small enough space
 
-972
+961
 00:43:39,229 --> 00:43:40,864
 that it
 
-973
+962
 00:43:40,864 --> 00:43:43,923
 feels comfortable. And that's
 how the breakout room started.
 
-974
+963
 00:43:44,643 --> 00:43:47,463
-So -- and I think there's like
-similar techniques, so we can
+So-- and I think, there's, like,
+similar techniques so we can
 
-975
+964
 00:43:47,463 --> 00:43:52,204
-grow, and not necessarily it's
+grow, and not necessarily it's,
 like ... I don't know. This will
 
-976
+965
 00:43:52,204 --> 00:43:55,173
 become like a thesis at some
 point. But the key metric may
 
-977
+966
 00:43:55,173 --> 00:43:58,142
 not
 
-978
+967
 00:43:58,143 --> 00:44:02,824
 be total numbers, but sort of
 like, how are the people
 
-979
+968
 00:44:02,824 --> 00:44:06,003
 interacting with other people?
 Are they still getting a chance
 
-980
+969
 00:44:06,003 --> 00:44:09,514
 for, like, intimate moments with
-a few members at any given time,
+a few members at any given time
 
-981
+970
 00:44:10,338 --> 00:44:11,448
 and we can make that work? And
 we think we can make that work.
 
-982
+971
 00:44:11,448 --> 00:44:12,558
 We
 
-983
-00:44:12,559 --> 00:44:14,568
-also think we can have like the
-greatest conference of all time.
+972
+00:44:12,559 --> 00:44:13,563
+also think we can have, like,
+the greatest conference of all
 
-984
+973
+00:44:13,563 --> 00:44:14,567
+time.
+
+974
 00:44:14,929 --> 00:44:16,039
 We have big thoughts.
 
-985
+975
 00:44:16,474 --> 00:44:17,000
 Bekah: Next summer.
 
-986
+976
 00:44:17,000 --> 00:44:18,000
 Kirk: Am I right?
 
-987
+977
 00:44:18,000 --> 00:44:22,404
 Bekah:  Well, I'm gonna push
 back a little bit, Kirk. Cuz I
 
-988
+978
 00:44:22,404 --> 00:44:26,808
 disagree slightly with what
 you're saying. I do
 
-989
+979
 00:44:26,809 --> 00:44:30,438
 think the total number matters.
-And I keep going back to -- it's
+And I keep going back to-- it's
 
-990
+980
 00:44:30,438 --> 00:44:32,643
-Dunbar's number, that you can
+Dunbar's number—that you can
 maintain 150 connections at
 
-991
+981
 00:44:32,643 --> 00:44:34,848
 once.
 
-992
+982
 00:44:35,329 --> 00:44:38,274
 And I think that- that allows
 for Slack intimacy. So, I think
 
-993
+983
 00:44:38,274 --> 00:44:41,219
 that
 
-994
+984
 00:44:41,309 --> 00:44:43,739
 we also have to think through
 two things here, right? We're
 
-995
+985
 00:44:43,739 --> 00:44:45,104
 thinking about, like, what does
 it look like, in the breakout
 
-996
+986
 00:44:45,104 --> 00:44:46,469
 rooms,
 
-997
+987
 00:44:46,498 --> 00:44:49,889
 in Tuesdays and Thursdays? We
 like to keep it to eight to 10
 
-998
+988
 00:44:49,889 --> 00:44:52,786
 people per room. And I think
 that- that is- that is good. But
 
-999
+989
 00:44:52,786 --> 00:44:55,683
 I also
 
-1000
+990
 00:44:55,684 --> 00:44:59,463
 think that having that small
 experience where you know
 
-1001
+991
 00:44:59,463 --> 00:45:01,158
 people in Slack is important.
 And it is tricky for the reasons
 
-1002
+992
 00:45:01,158 --> 00:45:02,853
 that
 
-1003
+993
 00:45:02,853 --> 00:45:04,533
 you say. Because people come in
 and they come out all of the
 
-1004
+994
 00:45:04,533 --> 00:45:06,213
 time,
 
-1005
+995
 00:45:06,543 --> 00:45:07,983
-you know? Somebody has -- is
+you know? Somebody has-- is
 super active, and then they get
 
-1006
+996
 00:45:07,983 --> 00:45:09,423
 a
 
-1007
+997
 00:45:09,423 --> 00:45:11,493
 new job, and then you don't hear
 from them as much, right? Or
 
-1008
+998
 00:45:11,493 --> 00:45:13,563
 they
 
-1009
+999
 00:45:13,563 --> 00:45:15,783
 can't participate anymore, which
-is totally fine. So it's a --
+is totally fine. So, it's a--
 
-1010
+1000
 00:45:15,783 --> 00:45:18,003
-this like
+this, like,
 
-1011
+1001
 00:45:19,009 --> 00:45:21,528
 constant flow of people coming
-in, so, you know, we might have
+in. So, you know, we might
 
-1012
+1002
 00:45:21,528 --> 00:45:24,047
---
+have--
 
-1013
+1003
 00:45:24,378 --> 00:45:26,898
 might say we have 500 people in
 Slack, but we certainly don't
 
-1014
+1004
 00:45:26,898 --> 00:45:31,579
 have 500 active people in Slack.
 But I do think that that idea of
 
-1015
+1005
 00:45:31,579 --> 00:45:37,039
 having 150 people says something
 for the intimacy of the group.
 
-1016
+1006
 00:45:37,068 --> 00:45:40,338
 It's like their extended network
 of people. You can go to an
 
-1017
+1007
 00:45:40,338 --> 00:45:41,673
 in-person conference and be
 like, "Oh, I know that person
 
-1018
+1008
 00:45:41,673 --> 00:45:43,008
 there from
 
-1019
+1009
 00:45:43,009 --> 00:45:44,701
 Virtual Coffee, so I'm going to
 talk to them because I'm
 
-1020
+1010
 00:45:44,701 --> 00:45:46,393
 standing
 
-1021
+1011
 00:45:46,393 --> 00:45:49,963
 in this corner alone by myself."
 Maybe that was me [chuckles].
 
-1022
+1012
 00:45:49,963 --> 00:45:53,533
 But I- I
 
-1023
+1013
 00:45:54,103 --> 00:45:57,284
-would like to figure out, or I,
+would like to figure out or I,
 you know, I think that we're
 
-1024
+1014
 00:45:57,284 --> 00:46:00,873
 making progress towards figuring
 out how to maintain that
 
-1025
+1015
 00:46:00,903 --> 00:46:03,243
 intimacy in both places. So I
 think that maybe there is a
 
-1026
+1016
 00:46:03,243 --> 00:46:05,583
 world
 
-1027
+1017
 00:46:05,583 --> 00:46:08,493
 where we do have 500 people in
 what- whatever platform we're
 
-1028
+1018
 00:46:08,493 --> 00:46:11,403
 on, but
 
-1029
+1019
 00:46:11,403 --> 00:46:18,393
 can still maintain that, like,
 150 person asynchronous
 
-1030
+1020
 00:46:18,454 --> 00:46:22,384
 communication intimacy, as well
 as those breakout room
 
-1031
+1021
 00:46:22,443 --> 00:46:23,373
 communications.
 
-1032
+1022
 00:46:24,478 --> 00:46:26,263
 Dan: Yeah, I- I- I agree. And I-
-I think that [clear-throat] to
+I think that [clears throat] to,
 
-1033
+1023
 00:46:26,263 --> 00:46:28,048
 like, kind of
 
-1034
+1024
 00:46:28,048 --> 00:46:29,908
 combine what both of you were
 saying together, you know, it's
 
-1035
+1025
 00:46:29,908 --> 00:46:31,768
-the --
+the--
 
-1036
+1026
 00:46:32,039 --> 00:46:33,418
-like the large number isn't the
+like, the large number isn't the
 met- isn't the important metric,
 
-1037
+1027
 00:46:33,418 --> 00:46:34,797
 you
 
-1038
+1028
 00:46:34,798 --> 00:46:35,863
 know? And I think that's the
 biggest, like, thing that I
 
-1039
+1029
 00:46:35,863 --> 00:46:36,928
-love,
+love—what-
 
-1040
+1030
 00:46:36,929 --> 00:46:39,151
-what- what was Kirk was saying
-was like, if we- we- we
+what was Kirk was saying—was,
+like, if we- we- we
 
-1041
+1031
 00:46:39,151 --> 00:46:41,373
 aggressively
 
-1042
+1032
 00:46:41,373 --> 00:46:43,548
-don't have metrics [laughs], but
-like, if we did, like, that —
+don't have metrics [laughs]. But
+like, if we did, like, that—and
 
-1043
+1033
 00:46:43,548 --> 00:46:45,723
-and it was
+it was
 
-1044
+1034
 00:46:45,724 --> 00:46:47,079
-possible — that would be the
-thing to measure on, right? Is
+possible—that would be the thing
+to measure on, right? Is--
 
-1045
+1035
 00:46:47,079 --> 00:46:48,434
--- like, are
+like, are
 
-1046
+1036
 00:46:48,434 --> 00:46:50,764
 our members making intimate
 connections, you know? Are our
 
-1047
+1037
 00:46:50,764 --> 00:46:57,753
 members, like, part- part of a
 group, you know- you know
 
-1048
+1038
 00:46:57,753 --> 00:47:00,634
-what I mean? And so -- and I
+what I mean? And so-- and I
 totally agree with you, Bekah.
 
-1049
+1039
 00:47:00,664 --> 00:47:02,448
-Like, i-it's like, it- it --
-when you say, oh, it -- the
+Like, i-it's like, it- it-- when
+you say, "Oh, it-- the
 
-1050
+1040
 00:47:02,448 --> 00:47:04,232
 number, it doesn't
 
-1051
+1041
 00:47:04,233 --> 00:47:07,083
-matter, you know? It's -- you're
-gonna -- like, the number does
+matter," you know? It's-- you're
+gonna-- like, the number does
 
-1052
+1042
 00:47:07,083 --> 00:47:09,933
 matter,
 
-1053
+1043
 00:47:09,963 --> 00:47:12,288
 right? And whether that 150
 numbers is- is, you know, feels
 
-1054
+1044
 00:47:12,288 --> 00:47:14,613
 right
 
-1055
+1045
 00:47:14,614 --> 00:47:18,184
 or not is- is probably up in the
-air. But like, it's- it's one of
+air. But, like, it's- it's one
 
-1056
+1046
 00:47:18,184 --> 00:47:22,083
-those things where it's -- and
+of those things where it's-- and
 this is why we pause membership.
 
-1057
+1047
 00:47:22,083 --> 00:47:24,123
-And this is why we're like
+And this is why we're, like,
 thinking so hard, is because we
 
-1058
-00:47:24,123 --> 00:47:27,558
+1048
+00:47:24,123 --> 00:47:30,993
 want to be able to keep the- to
-keep the ... intimacy, and the
+keep the ... intimacy, and the--
 
-1059
-00:47:27,558 --> 00:47:30,993
---
-
-1060
+1049
 00:47:31,054 --> 00:47:33,911
 sort of shape of our [chuckles]
 community while growing. And
 
-1061
+1050
 00:47:33,911 --> 00:47:36,768
-that's hard and not a
+that's hard, and not a
 
-1062
+1051
 00:47:36,768 --> 00:47:39,889
 lot of people have done it. And
 we think we can crack it, and I
 
-1063
+1052
 00:47:39,889 --> 00:47:44,088
 think we're pretty close,
-honestly. And -- but, yeah.
+honestly. And-- but-- yeah.
 
-1064
+1053
 00:47:44,088 --> 00:47:48,018
-It's- it's -- and it's very
+It's- it's-- and it's very
 important to us, I think. And
 
-1065
+1054
 00:47:48,018 --> 00:47:50,898
 I think it's important to our
 community members as well. So
 
-1066
+1055
 00:47:51,829 --> 00:47:55,369
 I, you know, when you are on
 out- outside of the community of
 
-1067
-00:47:55,369 --> 00:47:57,034
-Virtual Coffee, or maybe you're
+1056
+00:47:55,369 --> 00:47:58,699
+Virtual Coffee or maybe you're
 brand new member, it might not
 
-1068
-00:47:57,034 --> 00:47:58,699
-be
-
-1069
+1057
 00:47:58,699 --> 00:48:00,726
-as clear. Or maybe if you
+be as clear. Or maybe, if you
 haven't thought about it
 
-1070
+1058
 00:48:00,726 --> 00:48:02,753
 [laughs], you know, and-
 
-1071
+1059
 00:48:02,753 --> 00:48:06,963
 and you just kind of along for
-the ride. I know for- for my, at
+the ride. I know for- for my--
 
-1072
+1060
 00:48:06,963 --> 00:48:08,643
-least personally, like,
-sometimes I just don't -- I
+at least personally, like,
+sometimes I just don't-- I
 
-1073
+1061
 00:48:08,643 --> 00:48:10,323
 don't think about
 
-1074
+1062
 00:48:10,324 --> 00:48:11,929
-why something feels great, or
-like why something is, because I
+why something feels great or,
+like, why something is because I
 
-1075
+1063
 00:48:11,929 --> 00:48:13,534
 enjoy
 
-1076
+1064
 00:48:13,563 --> 00:48:14,913
-it, you know what I mean? And it
--- that's okay too [laughs].
+it, you know what I mean? And
+it-- that's okay too [laughs].
 
-1077
+1065
 00:48:14,913 --> 00:48:16,263
 Like, it's
 
-1078
+1066
 00:48:16,264 --> 00:48:19,673
-okay to just enjoy things. But
+okay to just enjoy things. But,
 like, this is why we wanted to
 
-1079
+1067
 00:48:19,673 --> 00:48:20,803
 talk about this. This is- this
 is the other side of the coin.
 
-1080
+1068
 00:48:20,803 --> 00:48:21,933
-And it's like [clear-throat]
+And it's, like, [clears throat]
 
-1081
+1069
 00:48:23,704 --> 00:48:25,428
 we use it so that we can help
 support it. We are thinking very
 
-1082
+1070
 00:48:25,428 --> 00:48:27,152
 hard
 
-1083
+1071
 00:48:27,153 --> 00:48:30,116
 about why, you know? And- and-
-and how we can do more. So,
+and how we can do more. So--
 
-1084
+1072
 00:48:30,116 --> 00:48:33,079
 yeah. And it's-
 
-1085
-00:48:33,349 --> 00:48:34,804
+1073
+00:48:33,349 --> 00:48:36,259
 it's hard, but it's fun. It's
 also fun and very gratifying
 
-1086
-00:48:34,804 --> 00:48:36,259
-too.
-
-1087
+1074
 00:48:36,259 --> 00:48:36,528
-So --
+too. So--
 
-1088
+1075
 00:48:37,483 --> 00:48:37,994
-Kirk: There are people --
+Kirk: There are people--
 
-1089
+1076
 00:48:38,059 --> 00:48:38,539
 Dan: I'm excited.
 
-1090
+1077
 00:48:39,403 --> 00:48:43,273
-Kirk: Yeah. So I'm just gonna-
+Kirk: Yeah. So, I'm just gonna-
 just gonna set the tone by
 
-1091
+1078
 00:48:43,273 --> 00:48:46,934
 saying a bunch of buzzwords
 related to this scalability,
 
-1092
+1079
 00:48:47,443 --> 00:48:50,153
 continuous integration,
 [chuckles] continuous
 
-1093
+1080
 00:48:50,153 --> 00:48:52,863
 deployment. Because I
 
-1094
+1081
 00:48:52,864 --> 00:48:54,229
-can't help -- even as we're
+can't help-- even as we're
 talking about this, I'm like ...
 
-1095
+1082
 00:48:54,229 --> 00:48:55,594
 I dunno. Like,
 
-1096
+1083
 00:48:55,594 --> 00:48:56,764
 kind of feels like that other
 stuff that I talk too much
 
-1097
+1084
 00:48:56,764 --> 00:48:57,934
 about.
 
-1098
+1085
 00:48:58,503 --> 00:49:00,663
-But nice. It's- it's sort of --
-it's- it's the same -- it's-
+But nice. It's- it's sort of--
+it's- it's the same-- it's-
 
-1099
+1086
 00:49:00,663 --> 00:49:02,823
 it's a
 
-1100
+1087
 00:49:02,824 --> 00:49:07,893
 similar concept of ... there is
-a thing that you are a part of
+a thing that you are a part of,
 
-1101
+1088
 00:49:07,893 --> 00:49:13,233
 and you're working on, and, you
 know, if- if that big core
 
-1102
+1089
 00:49:13,233 --> 00:49:15,963
-concept is there, and like the
+concept is there, and, like, the
 people are there, and the energy
 
-1103
+1090
 00:49:15,963 --> 00:49:18,423
 is there, it grows. And that's
 good. But there are different
 
-1104
+1091
 00:49:18,423 --> 00:49:20,883
 problems
 
-1105
+1092
 00:49:20,884 --> 00:49:23,134
-at different sizes. And like,
+at different sizes. And, like,
 part of keeping something going
 
-1106
+1093
 00:49:23,134 --> 00:49:25,384
 is
 
-1107
-00:49:25,384 --> 00:49:30,483
-knowing like, not just how to be
-the like plucky up and coming
+1094
+00:49:25,384 --> 00:49:27,933
+knowing, like, not just how to
+be the, like, plucky up and
 
-1108
+1095
+00:49:27,933 --> 00:49:30,482
+coming
+
+1096
 00:49:30,483 --> 00:49:34,293
 thing, but also how to be this
 sort of like mature, ongoing
 
-1109
+1097
 00:49:34,293 --> 00:49:37,893
 thing. And we're- we're at that
 point. Which is a good point
 
-1110
+1098
 00:49:37,893 --> 00:49:40,023
 to be, you know? I don't know
 what the- the tech equivalent
 
-1111
+1099
 00:49:40,023 --> 00:49:42,153
 is.
 
-1112
+1100
 00:49:42,454 --> 00:49:45,844
 Series C ... I don't know the
 words.
 
-1113
+1101
 00:49:46,054 --> 00:49:49,443
 Bekah: [Chuckles] That's right.
 We're Series C community.
 
-1114
+1102
 00:49:50,818 --> 00:49:52,469
 Kirk: Sure. That sounds fine.
 
-1115
+1103
 00:49:52,943 --> 00:49:53,784
 Dan: Capital C.
 
-1116
+1104
 00:49:54,000 --> 00:49:54,000
 Bekah: Yeah.
 
-1117
+1105
 00:49:55,949 --> 00:49:56,599
-Kirk: You can tell the nearest
---
+Kirk: You can tell the nearest--
 
-1118
+1106
 00:49:58,773 --> 00:50:01,833
 Dan: Or a capital C++ community
 [laughs].
 
-1119
+1107
 00:50:03,148 --> 00:50:03,599
 Kirk: Oh, no.
 
-1120
+1108
 00:50:05,000 --> 00:50:05,000
-Bekah: Not, Dan.
+Bekah: Not-- Dan.
 
-1121
+1109
 00:50:05,853 --> 00:50:07,923
 Dan: I see if I can get Kirk to
 yell at me about C++
 
-1122
+1110
 00:50:07,923 --> 00:50:08,074
 again [laughs].
 
-1123
+1111
 00:50:10,329 --> 00:50:13,272
 Kirk: I mean, I didn't yell at
-you. You were just [Dan laughs]
+you. You were just [Dan laughs],
 
-1124
-00:50:13,272 --> 00:50:16,215
-like -- you were like walked the
-difference between C# and C++.
+1112
+00:50:13,272 --> 00:50:14,743
+like-- you were, like, walked
+the difference between C# and
 
-1125
+1113
+00:50:14,743 --> 00:50:16,214
+C++.
+
+1114
 00:50:16,215 --> 00:50:19,158
-And then I immediately thought
-of
+And then, I immediately thought
+of,
 
-1126
+1115
 00:50:19,159 --> 00:50:22,413
-like a thousand thoughts at a
+like, a thousand thoughts at a
 time. I'm like, "Will you get it
 
-1127
+1116
 00:50:22,413 --> 00:50:25,667
 back, or watch it," you know?
 
-1128
+1117
 00:50:25,909 --> 00:50:26,989
 Dan: Oh, man.
 
-1129
+1118
 00:50:27,338 --> 00:50:31,088
 Bekah: Dan, you're derailing us.
 We have done so well. We- we-
 
-1130
+1119
 00:50:31,088 --> 00:50:31,088
-Dan: I -- listen. I --
+Dan: I-- listen. I--
 
-1131
+1120
 00:50:31,088 --> 00:50:33,548
 Bekah: -recovered from the
 initial intro question and then
 
-1132
+1121
 00:50:33,548 --> 00:50:36,008
 we were- were
 
-1133
+1122
 00:50:36,018 --> 00:50:37,059
-good. And then you were like-
+good. And then, you were like-
 
-1134
+1123
 00:50:37,188 --> 00:50:37,728
-Dan: I- [chuckles] I have a --
+Dan: I- [chuckles] I have a--
 
-1135
+1124
 00:50:38,079 --> 00:50:39,653
-Bekah: -I'm going to break this
+Bekah: -"I'm going to break this
 up before the end of the
 
-1136
+1125
 00:50:39,653 --> 00:50:41,227
-podcast.
+podcast."
 
-1137
+1126
 00:50:42,139 --> 00:50:43,548
-Dan: I have -- just -- there-
+Dan: I have-- just-- there-
 there is a- a set limit of the
 
-1138
+1127
 00:50:43,548 --> 00:50:44,957
 amount of time that I can be
 
-1139
+1128
 00:50:44,958 --> 00:50:47,358
 serious for [laughs] the amount
 of time straight. I'm sorry.
 
-1140
+1129
 00:50:47,358 --> 00:50:49,758
-I've -- I feel like I'm
+I've-- I feel like I'm
 
-1141
+1130
 00:50:49,759 --> 00:50:50,763
 proud of us too. I feel like we
 held it together for a long
 
-1142
+1131
 00:50:50,763 --> 00:50:51,767
 time.
 
-1143
+1132
 00:50:52,188 --> 00:50:54,401
 And we had some good- some good
 thoughts and stuff. But then
 
-1144
+1133
 00:50:54,401 --> 00:50:56,614
 Kirk
 
-1145
+1134
 00:50:56,614 --> 00:50:57,663
-started yelling at me about C++
+started yelling at me about C++,
 and it all just went up from
 
-1146
+1135
 00:50:57,663 --> 00:50:58,712
 there.
 
-1147
+1136
 00:50:58,744 --> 00:51:00,333
 Bekah: He didn't yell at you
 during this podcast.
 
-1148
-00:51:00,393 --> 00:51:01,773
-Dan: Yeah, no, no. I had him do
-it. Yeah. No, it's -- that's
+1137
+00:51:00,393 --> 00:51:03,153
+Dan: Yeah-- no, no. I had him do
+it. Yeah. No, it's-- that's
 
-1149
-00:51:01,773 --> 00:51:03,153
-what -- that's exactly what
-
-1150
+1138
 00:51:03,153 --> 00:51:04,923
-happened. We're all --
+what-- that's exactly what
+happened. We're all--
 
-1151
+1139
 00:51:07,478 --> 00:51:07,925
 Kirk: [Unintelligible] you let
-me do it. It is -- this was
+me do it. It is-- this was
 
-1152
+1140
 00:51:07,925 --> 00:51:08,372
-[laughs] ... one yo, you
-[unintelligible].
+[laughs] ... "One yo, you
+[unintelligible]."
 
-1153
+1141
 00:51:08,373 --> 00:51:09,678
 Bekah: Okay, listen. I think the
 key takeaway from this podcast
 
-1154
+1142
 00:51:09,678 --> 00:51:10,983
 is
 
-1155
+1143
 00:51:10,983 --> 00:51:14,943
 Dan is the instigator in every-
 every one of these situations,
 
-1156
+1144
 00:51:14,943 --> 00:51:18,423
-okay. Go back and listen to all
+okay? Go back and listen to all
 the podcast episodes. It is Dan.
 
-1157
+1145
 00:51:18,483 --> 00:51:18,753
 Every time.
 
-1158
-00:51:18,813 --> 00:51:19,963
+1146
+00:51:18,813 --> 00:51:21,113
 Dan: Nope. There's always
-somebody else there. And there
+somebody else there. And there--
 
-1159
-00:51:19,963 --> 00:51:21,113
---
-
-1160
+1147
 00:51:21,184 --> 00:51:21,454
-the -- their- their fault.
+the-- their- their fault.
 
-1161
+1148
 00:51:21,764 --> 00:51:23,054
-Bekah: Dan, it's- it's -- still
+Bekah: Dan, it's- it's-- still
 [chuckles].
 
-1162
+1149
 00:51:23,239 --> 00:51:26,838
 Dan: If I was just on my own, I
 would get in no trouble.
 
-1163
+1150
 00:51:26,838 --> 00:51:26,838
-Bekah: Oh yeah.
+Bekah: Oh, yeah.
 
-1164
+1151
 00:51:26,838 --> 00:51:28,919
 Dan: And that's not true
-[laughs]. Oh- oh, also -- oh,
+[laughs]. Oh- oh, also-- oh,
 
-1165
+1152
 00:51:28,919 --> 00:51:31,000
-no, this will be out --
+no, this will be out--
 
-1166
+1153
 00:51:32,000 --> 00:51:33,000
 Bekah: [Whispers] Couple weeks.
 
-1167
+1154
 00:51:33,000 --> 00:51:34,734
 Dan: This is gonna come out in a
-couple of weeks. So we'll
+couple of weeks. So, we'll
 
-1168
+1155
 00:51:34,734 --> 00:51:36,468
 already have a couple, but Kirk
 
-1169
+1156
 00:51:36,469 --> 00:51:38,748
 and I are starting a new
 streaming series called
 
-1170
+1157
 00:51:38,778 --> 00:51:41,000
-TypeScript Tuesdays. And --
+TypeScript Tuesdays. And--
 
-1171
+1158
 00:51:41,000 --> 00:51:42,000
-Kirk: I just want to --
+Kirk: I just want to--
 
-1172
+1159
 00:51:42,000 --> 00:51:44,409
-Dan: So, there'll be a couple of
--- so- so come find us on the
+Dan: So, there'll be a couple
+of-- so- so, come find us on
 
-1173
+1160
 00:51:44,409 --> 00:51:46,818
-Virtual Coffee's stream on
+the Virtual Coffee's stream on
 Twitch. It's VirtualCoffeeIO-
 
-1174
+1161
 00:51:47,693 --> 00:51:48,204
-Kirk: I just wanna --
+Kirk: I just wanna--
 
-1175
+1162
 00:51:47,693 --> 00:51:48,204
 Bekah: VirtualCoffeeIO.
 
-1176
+1163
 00:51:48,228 --> 00:51:51,829
-Dan: -I think like that. But,
+Dan: -I think like that. But--
 yeah. I imagine that Kirk is
 
-1177
+1164
 00:51:51,829 --> 00:51:53,629
 going to be yelling at me a lot,
-there, too. So if you like
+there, too. So, if you like
 
-1178
+1165
 00:51:53,629 --> 00:51:55,429
 hearing
 
-1179
+1166
 00:51:55,489 --> 00:51:57,439
-Kirk yell at me [laughs] — he's
+Kirk yell at me [laughs]—he's
 holding his breath very
 
-1180
+1167
 00:51:57,439 --> 00:51:59,389
 aggressively right
 
-1181
+1168
 00:51:59,389 --> 00:52:02,208
-now — so [Dan and Bekah laugh],
+now—so [Dan and Bekah laugh],
 come join us on Twitch every
 
-1182
+1169
 00:52:02,208 --> 00:52:05,027
 Tuesday as well [laughs].
 
-1183
+1170
 00:52:06,414 --> 00:52:08,423
 Bekah: Yeah. And I think that's
-something that we're working on
+something that we're working on,
 
-1184
-00:52:08,423 --> 00:52:11,748
+1171
+00:52:08,423 --> 00:52:15,073
 too. Like, while membership is
 closed, how do we provide ...
 
-1185
-00:52:11,748 --> 00:52:15,073
-nope.
-
-1186
+1172
 00:52:15,103 --> 00:52:17,173
-My brain stopped. How do we
-provide --
+nope. My brain stopped. How do
+we provide--
 
-1187
-00:52:17,313 --> 00:52:18,573
+1173
+00:52:17,313 --> 00:52:19,833
 Kirk: Finding other [??] spaces
 where we get to interact with
 
-1188
-00:52:18,573 --> 00:52:19,833
-people outside of
-
-1189
+1174
 00:52:19,833 --> 00:52:20,253
-the community?
+people outside of the community?
 
-1190
+1175
 00:52:21,193 --> 00:52:23,000
 Bekah: Yes. Value to the
 external tech community.
 
-1191
+1176
 00:52:23,000 --> 00:52:23,000
 Dan: Yes.
 
-1192
+1177
 00:52:23,000 --> 00:52:24,403
 Bekah: That was what I like to
 go.
 
-1193
+1178
 00:52:24,664 --> 00:52:28,000
 Dan: Yes! Oh! And Bekah started
 that Twitter ... that was-
 
-1194
+1179
 00:52:28,000 --> 00:52:29,000
 Bekah: Chat. Yes!
 
-1195
+1180
 00:52:29,000 --> 00:52:30,207
-Dan: -tweet -- Twitter chat.
+Dan: -tweet-- Twitter chat.
 That's what we call it. Yeah.
 
-1196
+1181
 00:52:30,207 --> 00:52:31,414
 Yeah.
 
-1197
+1182
 00:52:31,728 --> 00:52:32,659
-Bekah: Yeah. So --
+Bekah: Yeah. So--
 
-1198
+1183
 00:52:32,733 --> 00:52:32,914
 Dan: How did that go?
 
-1199
+1184
 00:52:33,619 --> 00:52:37,009
 Bekah: It went pretty well. It
 was fun. I have some ideas for
 
-1200
+1185
 00:52:37,009 --> 00:52:42,259
 some ways to update it. So,
 basically I took the intro
 
-1201
+1186
 00:52:42,259 --> 00:52:47,389
-question and the backpocket
-topic and put it out there for
+question, and the backpocket
+topic, and put it out there for
 
-1202
+1187
 00:52:47,389 --> 00:52:51,739
 asynchronous Twitter chat last
 week. I did it on ... I think, a
 
-1203
+1188
 00:52:51,739 --> 00:52:56,239
 Wednesday. So that was prior to
 doing the Thursday coffee. And
 
-1204
+1189
 00:52:56,268 --> 00:53:00,559
 I'd love to be able to combine
 those two. So if we have related
 
-1205
+1190
 00:53:00,559 --> 00:53:04,938
 topics, then what might work in
 the future is having an intro
 
-1206
+1191
 00:53:04,938 --> 00:53:08,719
 question for people to get to
 know each other and including
 
-1207
+1192
 00:53:08,719 --> 00:53:11,418
 both of those conversations.
 And, you know, both of our- our
 
-1208
+1193
 00:53:11,418 --> 00:53:14,898
 members who weren't able to
 attend can engage in those and
 
-1209
+1194
 00:53:15,168 --> 00:53:16,728
 the external community as well.
 So, we'll try it out for a
 
-1210
+1195
 00:53:16,728 --> 00:53:18,288
 while,
 
-1211
+1196
 00:53:18,289 --> 00:53:22,568
-see how it goes. And hopefully
+see how it goes. And hopefully,
 people will find value in it.
 
-1212
+1197
 00:53:23,673 --> 00:53:25,534
 Kirk: My topics will never be
 related [chuckles].
 
-1213
-00:53:27,708 --> 00:53:28,938
-Bekah: [Chuckles] They -- Kirk.
+1198
+00:53:27,708 --> 00:53:30,168
+Bekah: [Chuckles] They-- Kirk.
 We're going to meet on Monday
 
-1214
-00:53:28,938 --> 00:53:30,168
-and we're going to
-
-1215
+1199
 00:53:30,168 --> 00:53:30,918
-figure it out.
+and we're going to figure it
+out.
 
-1216
+1200
 00:53:31,099 --> 00:53:33,721
 Kirk: My topics only exist to
-sow the seeds of chaos. And then
+sow the seeds of chaos. And
 
-1217
+1201
 00:53:33,721 --> 00:53:36,343
-I
+then, I
 
-1218
+1202
 00:53:36,344 --> 00:53:38,923
-have to spend half a day feeling
---
+have to spend half a day
+feeling--
 
-1219
+1203
 00:53:38,958 --> 00:53:41,343
 Bekah: Loki. You're Loki. I
 think next time we do this, we
 
-1220
+1204
 00:53:41,343 --> 00:53:43,728
-should -- we --
+should-- we--
 
-1221
+1205
 00:53:43,728 --> 00:53:49,188
-our intro question should be
-like, what character -- what
+our intro question should be,
+like, what character-- what
 
-1222
+1206
 00:53:49,188 --> 00:53:54,000
 super villain would one of the
 other co-host be.
 
-1223
+1207
 00:53:54,000 --> 00:53:55,000
-Dan: Hm. I'll put --
+Dan: Hm. I'll put--
 
-1224
+1208
 00:53:55,000 --> 00:53:58,349
 Bekah: So, like you, Dan, would
 have to say Kirk's super villain
 
-1225
+1209
 00:53:58,349 --> 00:54:01,698
-character, Kirk --
+character, Kirk--
 
-1226
+1210
 00:54:02,188 --> 00:54:02,278
-Kirk: So you're talking through
-him. You just say --
+Kirk: So, you're talking through
+him. You just say--
 
-1227
+1211
 00:54:02,389 --> 00:54:04,909
 Dan: Okay. But we're saving-
 we're saving this for next time.
 
-1228
+1212
 00:54:05,719 --> 00:54:06,539
-Kirk: Yeah, I'm like -- I'm
-putting --
+Kirk: Yeah, I'm, like-- I'm
+putting--
 
-1229
+1213
 00:54:06,619 --> 00:54:08,719
 Bekah: Or unless you- unless you
 have it now.
 
-1230
+1214
 00:54:08,878 --> 00:54:09,583
 Kirk: Putting the thought in
 your head now. [Unintelligible]
 
-1231
+1215
 00:54:09,583 --> 00:54:10,288
 Doctor Doom. He's evil.
 
-1232
+1216
 00:54:10,789 --> 00:54:12,498
 Dan: I don't- I don't- I don't
 have to think about it. Yeah.
 
-1233
+1217
 00:54:12,498 --> 00:54:14,207
 Wait. Doctor- Doctor Doom? That
 what you said?
 
-1234
+1218
 00:54:14,509 --> 00:54:17,148
 Kirk: Yes. Wait. What was that
 tone? Whoa. Whoa-whoa-whoa.
 
-1235
+1219
 00:54:17,239 --> 00:54:18,274
 Dan: Oh, I thought you said
 Doctor Who for a second. And I
 
-1236
+1220
 00:54:18,274 --> 00:54:19,309
 was a bit like,
 
-1237
+1221
 00:54:19,309 --> 00:54:20,628
 "Doctor Who? I don't think he's
 a villain."
 
-1238
+1222
 00:54:21,128 --> 00:54:21,369
 Kirk: Ah [unintelligible].
 
-1239
+1223
 00:54:21,498 --> 00:54:22,998
-Dan: When you said Doctor Doom,
+Dan: When you said Doctor Doom
 and then makes more sense.
 
-1240
+1224
 00:54:23,688 --> 00:54:25,618
 Kirk: I can- I can upset an
 entire fandom right now
 
-1241
+1225
 00:54:25,618 --> 00:54:27,548
 [laughs].
 
-1242
+1226
 00:54:30,228 --> 00:54:32,028
 Dan: [Laughs] I mean, go for it.
-I -- I'm not a Doctor Who -- I
+I-- I'm not a Doctor Who-- I
 
-1243
+1227
 00:54:32,028 --> 00:54:33,828
 mean, I'm not a
 
-1244
+1228
 00:54:33,829 --> 00:54:34,000
 not-fan-
 
-1245
+1229
 00:54:34,000 --> 00:54:36,000
 Kirk: You can call
 [unintelligible] 'Whovians'.
 
-1246
+1230
 00:54:34,000 --> 00:54:35,339
-Dan: -but I'm not a fan either,
-so you're not gonna make me
+Dan: -but I'm not a fan either.
+So you're not gonna make me
 
-1247
+1231
 00:54:35,339 --> 00:54:36,678
 upset.
 
-1248
+1232
 00:54:36,884 --> 00:54:38,308
 Bekah: I've only seen one
 episode of "Doctor Who" and I
 
-1249
+1233
 00:54:38,308 --> 00:54:39,732
 think mannequins
 
-1250
+1234
 00:54:39,733 --> 00:54:42,523
 came alive or something. And I
-was like, it was not for me.
+was like, "It was not for me."
 
-1251
+1235
 00:54:42,739 --> 00:54:44,749
 Kirk: They call themselves
-'Whovians' and it sounds like
+'Whovians', and it sounds like
 
-1252
+1236
 00:54:44,749 --> 00:54:46,759
 children got abused [??].
 
-1253
+1237
 00:54:47,983 --> 00:54:48,000
 Bekah: You mean from "Whoville"?
 With lil'-
 
-1254
+1238
 00:54:48,000 --> 00:54:48,000
 Kirk: Exactly.
 
-1255
+1239
 00:54:48,000 --> 00:54:49,500
 Bekah: -little Cindy Lou Who?
 [Crosstalk] Holding hands and
 
-1256
+1240
 00:54:49,500 --> 00:54:51,000
 sing?
 
-1257
+1241
 00:54:50,000 --> 00:54:51,000
 Kirk: You sound like
 rapa-pam-pam-pam.
 
-1258
+1242
 00:54:51,168 --> 00:54:54,889
 Dan: Cindy Lou Whovian.
 
-1259
+1243
 00:54:54,889 --> 00:54:55,679
 Kirk: What were we talking
 about?
 
-1260
-00:54:57,518 --> 00:54:59,978
+1244
+00:54:57,518 --> 00:54:58,748
 Bekah: What a great podcast this
-is and we're glad that everybody
+is. And we're glad that
 
-1261
+1245
+00:54:58,748 --> 00:54:59,978
+everybody
+
+1246
 00:54:59,978 --> 00:55:04,059
 has listened to all of Season 5.
-Come back for Season 6,
+Come back for Season 6
 
-1262
+1247
 00:55:04,059 --> 00:55:05,199
 to hear answers [laughs].
 
-1263
+1248
 00:55:01,000 --> 00:55:05,000
 Dan: Yes. [Laughs] Please-
 please stay subscribed.
 
-1264
+1249
 00:55:05,733 --> 00:55:05,884
-Kirk: If you're listening --
+Kirk: If you're listening--
 
-1265
+1250
 00:55:06,728 --> 00:55:08,438
 Bekah: If you like our podcast,
-please give us 5 stars, and
+please give us 5 stars and
 
-1266
+1251
 00:55:08,438 --> 00:55:10,148
 write a
 
-1267
+1252
 00:55:10,148 --> 00:55:13,298
 comment to help other people
 find our podcast too.
 
-1268
+1253
 00:55:13,548 --> 00:55:18,469
 Dan: Yes. If you write a comment
-that -- oh, I was gonna say
+that-- oh, I was gonna say
 
-1269
+1254
 00:55:18,469 --> 00:55:24,000
-something -- [laughs] I don't
+something-- [laughs] I don't
 want to prejudge the comments.
 
-1270
+1255
 00:55:24,000 --> 00:55:24,000
-Kirk: Dan speak --
+Kirk: Dan speak--
 
-1271
-00:55:25,000 --> 00:55:26,219
+1256
+00:55:25,000 --> 00:55:27,438
 Dan: I was gonna say, if you
 write a comment that's
 
-1272
-00:55:26,219 --> 00:55:27,438
-interesting, we
-
-1273
+1257
 00:55:27,438 --> 00:55:28,000
-might read it on the podcast.
+interesting, we might read it on
+the podcast.
 
-1274
+1258
 00:55:29,000 --> 00:55:29,000
 Bekah: Yes.
 
-1275
+1259
 00:55:29,000 --> 00:55:32,336
-Dan: But like, don't make that,
-you know, don't let that stop
+Dan: But, like, don't make
+that-- you know, don't let that
 
-1276
+1260
 00:55:32,336 --> 00:55:35,672
-you from writing a comment that
-is ... not
+stop you from writing a comment
+that is ... not
 
-1277
+1261
 00:55:35,673 --> 00:55:36,063
 interesting [laughs].
 
-1278
+1262
 00:55:36,153 --> 00:55:38,000
 Bekah: We find every comment
 interesting.
 
-1279
+1263
 00:55:38,000 --> 00:55:38,000
 Dan: Yes [laughs]!
 
-1280
+1264
 00:55:39,000 --> 00:55:40,833
 Bekah: So, write the comment.
 
-1281
+1265
 00:55:40,833 --> 00:55:43,264
 Dan: We would hear from
-everybody. So, yeah. If you
+everybody. So-- yeah. If you
 
-1282
+1266
 00:55:43,264 --> 00:55:46,744
 wanna send us any questions that
 you'd like us to answer in
 
-1283
+1267
 00:55:46,744 --> 00:55:50,043
-the future, or any ideas for the
+the future or any ideas for the
 podcast, things like that,
 
-1284
+1268
 00:55:50,164 --> 00:55:54,483
 we're always excited to hear any
 feedback, or questions, or
 
-1285
+1269
 00:55:54,483 --> 00:55:57,543
 anything like that. So, yeah,
 podcast@virtualcoffee.io,
 
-1286
+1270
 00:55:57,963 --> 00:56:01,534
 or Twitter, or Slack, or any of
-that stuff too.
+that stuff, too.
 
-1287
+1271
 00:56:03,114 --> 00:56:04,853
 Bekah: Yeah. Thanks joining us
 for Season 5.
 
-1288
+1272
 00:56:05,059 --> 00:56:06,018
 Dan: Yeah. Thank you.
 
-1289
+1273
 00:56:06,518 --> 00:56:09,463
 Kirk: Thanks for coming to 'my'
 podcast [Dan and Bekah chuckle].
 
-1290
+1274
 00:56:09,463 --> 00:56:12,408
 See you later on 'my' podcast.
 Like, I let
 
-1291
+1275
 00:56:12,409 --> 00:56:17,298
 Bekah and Dan be on because I'm
 nice, and I never yell.
 
-1292
+1276
 00:56:17,974 --> 00:56:20,284
 Bekah: Thanks for allowing us to
 be on your podcast, Kirk.
 
-1293
+1277
 00:56:20,469 --> 00:56:21,759
 Kirk: You're very welcome.
 
-1294
+1278
 00:56:23,329 --> 00:56:27,079
 Dan: Kirk, I'll talk to you on
 Tuesday when ar- arguing with
 
-1295
+1279
 00:56:27,079 --> 00:56:28,219
 you about tip- TypeScript
 [chuckles].
 
-1296
+1280
 00:56:28,809 --> 00:56:30,458
 Kirk: With hushed tones. And
 [unintelligible].
 
-1297
+1281
 00:56:34,233 --> 00:56:37,380
 Dan: [Laughs] Okay. Thank you
 for listening to this episode of
 
-1298
+1282
 00:56:37,380 --> 00:56:40,527
 the Virtual
 
-1299
+1283
 00:56:40,528 --> 00:56:44,275
 Coffee Podcast. This episode was
 produced by Dan Ott and Bekah
 
-1300
+1284
 00:56:44,275 --> 00:56:45,664
 Hawrot Weigel. If you have
 questions or comments, you can
 
-1301
+1285
 00:56:45,664 --> 00:56:47,053
 hit
 
-1302
+1286
 00:56:47,054 --> 00:56:50,065
 us up on Twitter at
 VirtualCoffeeIO, or email us at
 
-1303
+1287
 00:56:50,065 --> 00:56:51,799
 podcast@virtualcoffee.io. You
 can find the show notes, sign up
 
-1304
+1288
 00:56:51,799 --> 00:56:53,533
 for
 
-1305
+1289
 00:56:53,534 --> 00:56:55,574
 the newsletter, check out any of
 our other resources on our
 
-1306
+1290
 00:56:55,574 --> 00:56:58,965
 website, virtualcoffee.io. If
 you're interested in sponsoring
 
-1307
+1291
 00:56:58,965 --> 00:57:01,364
 Virtual Coffee, you can find out
 more information on our website
 
-1308
+1292
 00:57:01,635 --> 00:57:06,074
 at virtualcoffee.io/sponsorship.
 Please subscribe to our podcast,
 
-1309
-00:57:06,105 --> 00:57:07,710
+1293
+00:57:06,105 --> 00:57:09,315
 and be sure to leave us a
 review. Thanks for listening,
 
-1310
-00:57:07,710 --> 00:57:09,315
-and we'll
-
-1311
+1294
 00:57:09,315 --> 00:57:10,155
-see you next week.
+and we'll see you next week.
