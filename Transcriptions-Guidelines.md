@@ -9,7 +9,7 @@ Those utterances are:
 - **Filler words**: kind of, sort of, I mean, you know, etc. (**Exception**: uh, um)
 - **Slang words**: Kinda, gotta, gotcha, betcha, wanna, dunno, etc.
 - **Stutters**: `I-I bought that ch-ch-ch-chair yesterday.`
-- **Repetitions**: `I went- I went to the bank last Friday.`
+- **Repetitions**: `I went- went to the bank last Friday.`
 - **Use these forms for the affirmative/negative**:
   - Mm-hmm, Mm (affirmative), or Mm-mm (negative)
   - Uh-huh (affirmative) or Uh-uh (negative)
@@ -82,7 +82,7 @@ Most times, we can use an [em dash (–)](https://github.com/Virtual-Coffee/podc
 
 - Use it whenever there is a direct quotation.
 
-  `And they told me, "You are not qualified for this role at all.”`
+  `They told me, "You are not qualified for this role at all,” and then, "but thank you for applying."`
 
 - Internal dialogues are seen as direct quotations.
 
@@ -90,7 +90,7 @@ Most times, we can use an [em dash (–)](https://github.com/Virtual-Coffee/podc
 
 - The punctuation at the end of quotations goes inside the quotation marks.
 - When quoting, the first word of a complete sentence should be capitalized.
-- Use quotation marks for book titles, movie titles, song titles, etc.
+- Use quotation marks for book titles, movie titles, song titles, etc. In this case, punctuation goes outside the quotation marks.
 
   `My favorite movie is definitely "Moana".`
 
@@ -106,9 +106,9 @@ Most times, we can use an [em dash (–)](https://github.com/Virtual-Coffee/podc
 
   `I-I bought that ch-ch-ch-chair yesterday.`
 
-- Repetitions:
+- One word repetitions:
 
-  `I went- I went to the bank last Friday.`
+  `I went- went to the bank last Friday.`
 
 - Spelling:
 
@@ -142,6 +142,10 @@ Most times, we can use an [em dash (–)](https://github.com/Virtual-Coffee/podc
 - Incomplete sentence:
 
   `I wanted to say something but--`
+
+- Repetitions with more than one word:
+
+  `I feel like-- I feel like I wanna go there someday.`
 
 - Give no space before and a space after the double dash.
 - Use lowercase for the sentence that follows the double dash.
