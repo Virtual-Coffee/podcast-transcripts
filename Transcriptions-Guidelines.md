@@ -158,7 +158,9 @@ Most times, we can use an [em dash (–)](https://github.com/Virtual-Coffee/podc
 
 - Use it to insert an explanation, an example, or added information in the middle of a sentence.
 
-  `We used to own a computer when—not like when I was super young—but when I was in high school.`
+  `We used to own a computer when — not like when I was super young — but when I was in high school.`
+
+- Give a space before and after the em dash.
 
 [How to create an em dash on Windows or Mac](https://www.techtoolsforwriters.com/how-to-create-an-em-dash/).
 
