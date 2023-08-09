@@ -38,7 +38,7 @@ Those utterances are:
 ### Colons (:)
 
 **Do not use colons (`:`) anywhere except in the timestamp and directly after the speaker label.** The way that Buzzsprout processes `.srt` files results in errors or misparsed speaker names if colons are present in the text.
-Most times, we can use an [em dash (–)](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#em-dash-).
+Most times, we can use an [em dash (–)](#em-dash-).
 
 ### Paragraph
 
@@ -46,7 +46,7 @@ Most times, we can use an [em dash (–)](https://github.com/Virtual-Coffee/podc
 2. Ensure there is no space after the last word of each paragraph.
 3. Each section should have a maximum of 4 lines (index, timestamp, and 1 or 2 lines of text).
 
-   The [`check-srt`](https://github.com/Virtual-Coffee/podcast-transcripts#fixing-formatting-issues) command will fix these for you. But you need to fix the timestamps manually afterward if necessary.
+   The [`check-srt`](README.md#fixing-formatting-issues) command will fix these for you. But you need to fix the timestamps manually afterward if necessary.
 
 ```text
   812
