@@ -16,24 +16,24 @@ Those utterances are:
 
 ## Table of Contents
 
-- [⚠️ Important](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#%EF%B8%8F-important)
-  - [Colons](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#colons-)
-  - [Paragraph](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#paragraph)
-  - [Timestamp](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#timestamp)
-  - [Speaker Labels](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#speaker-labels)
-- [Formatting](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#formatting)
-  - [Double Quotations Marks ("")](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#double-quotations-marks-)
-  - [Comma (,)](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#comma-)
-  - [Single Dash (-)](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#single-dash--)
-  - [Double Dash (--)](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#double-dash---)
-  - [Em Dash (—)](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#em-dash-)
-  - [Ellipsis ( ... )](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#ellipsis---)
-  - [Capitalization](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#capitalization)
-  - [Non-Text Audio](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#non-text-audio)
-- [Other Notes](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#other-notes)
-- [Resources](https://github.com/Virtual-Coffee/podcast-transcripts/blob/main/Transcriptions-Guidelines.md#resources)
+- [⚠️ Important to read before improving transcripts](#%EF%B8%8F-important-to-read-before-improving-transcripts)
+  - [Colons](#colons-)
+  - [Paragraph](#paragraph)
+  - [Timestamp](#timestamp)
+  - [Speaker Labels](#speaker-labels)
+- [🖊️ Formatting](#%EF%B8%8F-formatting)
+  - [Double Quotations Marks ("")](#double-quotations-marks-)
+  - [Comma (,)](#comma-)
+  - [Single Dash (-)](#single-dash--)
+  - [Double Dash (--)](#double-dash---)
+  - [Em Dash (–)](#em-dash-)
+  - [Ellipsis ( ... )](#ellipsis---)
+  - [Capitalization](#capitalization)
+  - [Non-Text Audio](#non-text-audio)
+- [📝 Other Notes](#-other-notes)
+- [📚 Resources](#-resources)
 
-## ⚠️ Important
+## ⚠️ Important to read before improving transcripts
 
 ### Colons (:)
 
@@ -76,7 +76,7 @@ Most times, we can use an [em dash (–)](https://github.com/Virtual-Coffee/podc
   Dan: I'm great.
 ```
 
-## Formatting
+## 🖊️ Formatting
 
 ### Double Quotations Marks ("")
 
@@ -214,7 +214,7 @@ Most times, we can use an [em dash (–)](https://github.com/Virtual-Coffee/podc
 
   `Yeah, there's not really much of [unintelligible].`
 
-## Other Notes
+## 📝 Other Notes
 
 - Do not correct grammatical errors made by the speakers.
 - Strictly transcribe what the speakers say, except for ‘uh’ and ‘um’.
@@ -226,7 +226,7 @@ Most times, we can use an [em dash (–)](https://github.com/Virtual-Coffee/podc
 
 ---
 
-## Resources
+## 📚 Resources
 
 - [GoTranscript](https://gotranscript.com/transcription-guidelines)
 - [OneSpace](http://support.onespace.com/training-resources/transcription-style-guide)
