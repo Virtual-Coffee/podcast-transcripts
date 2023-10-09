@@ -42,7 +42,7 @@ We take our [Code of Conduct](https://virtualcoffee.io/code-of-conduct) very ser
     
     Fix the incorrect timestamp format manually, if any.
 9. [Add](https://github.com/git-guides/git-add#common-usages-and-options-for-git-add) and [commit](https://github.com/git-guides/git-commit#common-usages-and-options-for-git-commit) your changes.
-10. [Push](https://www.atlassian.com/git/tutorials/syncing/git-push) the commits to your forked repo.
+10. [Push](https://www.atlassian.com/git/tutorials/syncing/git-push) your local working branch to your forked repo.
 11. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request).
 
 ---
