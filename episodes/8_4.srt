@@ -1,0 +1,3894 @@
+1
+00:00:06,126 --> 00:00:09,976
+Bekah: Hello and welcome to.Is
+Season eight,episode four of the
+
+2
+00:00:09,976 --> 00:00:14,989
+Virtual Coffee Podcast.I'm Bekah,
+and this is a podcast that
+
+3
+00:00:14,989 --> 00:00:18,618
+features members of the Virtual
+Coffee community.Virtual Coffee
+
+4
+00:00:18,618 --> 00:00:22,849
+is an intimate tech community of
+people at all stages of their
+
+5
+00:00:22,849 --> 00:00:26,239
+journey,and they're here on this
+podcast sharing their stories and
+
+6
+00:00:26,239 --> 00:00:29,599
+what they've learned,and we're
+here to share it with you.Here
+
+7
+00:00:29,599 --> 00:00:31,879
+with me today is my co-host,Dan.
+
+8
+00:00:32,448 --> 00:00:33,598
+Dan: What up back?How's it going?
+
+9
+00:00:34,399 --> 00:00:36,439
+Bekah: It's going good.How's it
+going with you?
+
+10
+00:00:36,973 --> 00:00:41,863
+Dan: It's going very,very well.
+Um,we just finished recording a
+
+11
+00:00:41,863 --> 00:00:45,793
+really great episode with Caitlin
+Floyd.So Caitlin is a front end
+
+12
+00:00:45,793 --> 00:00:49,311
+developer who transitioned into
+tech from a background in
+
+13
+00:00:49,311 --> 00:00:53,932
+linguistics and education and
+nonprofit management.Um,and,uh,
+
+14
+00:00:53,962 --> 00:00:56,421
+she had a really interesting
+journey.She,she was doing
+
+15
+00:00:56,421 --> 00:00:59,332
+bootcamp in the,the middle of
+bootcamp is when the pandemic,
+
+16
+00:00:59,362 --> 00:01:02,031
+uh,shutdowns happened.And so that
+was a really fascinating story to
+
+17
+00:01:02,031 --> 00:01:05,272
+hear about.And um,and then she
+shared with us a lot of thoughts
+
+18
+00:01:05,272 --> 00:01:09,561
+on,um,mentorship.And it was a
+really,really good conversation.
+
+19
+00:01:10,206 --> 00:01:13,626
+Bekah: Yeah.I appreciated hearing
+all of her thoughts on,uh,how to,
+
+20
+00:01:13,686 --> 00:01:18,156
+how to be mentored,how to be a
+mentor,and how we all can kind of
+
+21
+00:01:18,156 --> 00:01:21,096
+men.Mentor each other.I think
+that she did a good job of
+
+22
+00:01:21,096 --> 00:01:24,216
+redefining what we traditionally
+think of mentorship in a way that
+
+23
+00:01:24,216 --> 00:01:26,257
+will be really useful to a lot of
+people.
+
+24
+00:01:26,796 --> 00:01:29,992
+Dan: Yeah,totally.There's,
+there's a lot of,uh,Details and,
+
+25
+00:01:30,022 --> 00:01:32,721
+you know,the,the mentor mentee
+relationship can look different
+
+26
+00:01:32,721 --> 00:01:35,421
+in a lot of different ways.And I
+think that Caitlin did a,a great
+
+27
+00:01:35,421 --> 00:01:39,412
+job of breaking down,uh,breaking
+down those differences and,you
+
+28
+00:01:39,417 --> 00:01:42,111
+know,some of the benefits and
+downsides of,of different
+
+29
+00:01:42,231 --> 00:01:48,171
+relationships and,um,ways that we
+can find those relationships in,
+
+30
+00:01:48,171 --> 00:01:51,712
+in our,in our careers,in our
+lives.Uh,whether it's from the
+
+31
+00:01:51,712 --> 00:01:55,611
+mentee perspective or the mentor
+perspective.Um,she had a lot of
+
+32
+00:01:55,611 --> 00:01:56,361
+great thoughts on that.
+
+33
+00:01:57,087 --> 00:02:01,796
+Bekah: Yeah,so we start every
+episode of the podcast,like we
+
+34
+00:02:01,796 --> 00:02:04,527
+start every Virtual Coffee.We
+introduce ourselves with our
+
+35
+00:02:04,527 --> 00:02:08,217
+name,where we're from,what we do,
+and a random check-in question.
+
+36
+00:02:08,546 --> 00:02:19,913
+We hope you enjoy this episode.
+Today's random question is,if you
+
+37
+00:02:19,913 --> 00:02:23,872
+were a character in a video game,
+what would your special ability
+
+38
+00:02:23,872 --> 00:02:29,362
+or power up be?I.My name is
+Bekah.I am the developer
+
+39
+00:02:29,362 --> 00:02:35,062
+experience lead at Open Sauce.
+I'm from a small town in Ohio and
+
+40
+00:02:35,062 --> 00:02:42,502
+my special ability or power up,
+what was I,I was playing Smash
+
+41
+00:02:42,502 --> 00:02:48,532
+Bros the other day,and there were
+some cool abilities,but like
+
+42
+00:02:48,652 --> 00:02:52,582
+somebody I think created a portal
+and could jump through it.That
+
+43
+00:02:52,582 --> 00:02:58,673
+was a pretty cool one.But I
+always did like in Mario,like the
+
+44
+00:02:58,763 --> 00:03:04,073
+getting the fire flower or
+whatever it's called,but like who
+
+45
+00:03:04,073 --> 00:03:07,163
+are you gonna hit with the fire?
+Like you In real life,you can't
+
+46
+00:03:07,163 --> 00:03:10,973
+really just like fireball
+somebody I don't think.
+
+47
+00:03:13,098 --> 00:03:16,217
+Dan: I mean,you could,but it
+would be illegal
+
+48
+00:03:16,342 --> 00:03:17,002
+Bekah: Would it be nice?
+
+49
+00:03:17,087 --> 00:03:17,957
+Dan: probably immoral.
+
+50
+00:03:20,002 --> 00:03:21,233
+Bekah: So I guess just a portal.
+
+51
+00:03:23,432 --> 00:03:27,453
+Dan: Uh,okay.Yeah,I am Dan.I live
+in Cleveland and I do website
+
+52
+00:03:27,453 --> 00:03:31,592
+development.And,um,yeah,I mean,
+so the question starts with if
+
+53
+00:03:31,592 --> 00:03:34,112
+you're a character in a video
+game,so like,are you in,in the
+
+54
+00:03:34,112 --> 00:03:38,043
+video game or is this like,I can
+take a power from any video game
+
+55
+00:03:38,048 --> 00:03:39,062
+and just apply it to my
+
+56
+00:03:39,307 --> 00:03:44,557
+Bekah: Oh,I suppose it meant in a
+video game,but I decided to apply
+
+57
+00:03:44,557 --> 00:03:45,997
+it to real life instead.
+
+58
+00:03:46,263 --> 00:03:49,967
+Dan: I mean,right.They're
+different,right?So like,I mean,
+
+59
+00:03:49,967 --> 00:03:52,788
+the easy answer for me is the
+star,you know,for Mario,right?
+
+60
+00:03:52,788 --> 00:03:56,087
+Where you just become invincible
+and you get some later ones,you
+
+61
+00:03:56,177 --> 00:03:58,698
+become faster and stuff,and
+you're really flashy and
+
+62
+00:03:58,927 --> 00:03:59,557
+Bekah: you destroy
+
+63
+00:03:59,568 --> 00:04:03,587
+Dan: uh,sure.Yeah.I'm not big on
+destroying people.Uh,I know
+
+64
+00:04:03,587 --> 00:04:08,987
+that's kind of your jam,but,uh,
+portals made me like,that was a
+
+65
+00:04:08,987 --> 00:04:13,668
+good call too.Um,there's the game
+portal and I think it's called
+
+66
+00:04:13,668 --> 00:04:16,398
+Portal.Uh,it's a video game and
+it's really,really cool.So you
+
+67
+00:04:16,403 --> 00:04:19,112
+have like a gun and you can,you
+know,shoot a.The entrance one
+
+68
+00:04:19,112 --> 00:04:22,593
+place and then the exit,another
+place,you know,and,and uh,
+
+69
+00:04:22,923 --> 00:04:26,252
+basically just instantly
+transport to anywhere.That's
+
+70
+00:04:26,252 --> 00:04:29,463
+cool.That's cool too.So if I,if
+I'm going real life,I'm gonna do,
+
+71
+00:04:29,492 --> 00:04:33,122
+do the portal thing.If I'm going
+video game,I suppose the,the
+
+72
+00:04:33,122 --> 00:04:37,052
+power up,you know,the star from,
+from Mario,you know,plus you get
+
+73
+00:04:37,052 --> 00:04:40,293
+to wear overalls all the time,
+which is cool.He got a nice hat.
+
+74
+00:04:40,533 --> 00:04:45,153
+So,I dunno,that's my answer.Go
+ahead Caitlin.
+
+75
+00:04:45,593 --> 00:04:49,793
+Caitlin: Um,yeah,this is a tricky
+one.My,the first thing that came
+
+76
+00:04:49,793 --> 00:04:54,367
+to mind was just like I.Power up,
+like energy.I'm always tired.Uh,
+
+77
+00:04:54,398 --> 00:04:56,557
+so it would be nice to do that.
+But the portal thing is
+
+78
+00:04:56,557 --> 00:05:00,848
+interesting too.I like,there's a,
+a similar concept in this classic
+
+79
+00:05:00,877 --> 00:05:04,598
+Japanese,um,cartoon where he has
+like a door that can take him
+
+80
+00:05:04,598 --> 00:05:08,798
+anywhere,but he also has these
+like pills you can take to learn
+
+81
+00:05:08,798 --> 00:05:11,617
+anything you want.You just like,
+it's like a tiny little book and
+
+82
+00:05:11,617 --> 00:05:13,927
+you eat it and you can learn
+anything you want.I think it's
+
+83
+00:05:13,927 --> 00:05:17,437
+for24hours or something,but that
+could be really handy too.Um,
+
+84
+00:05:18,382 --> 00:05:20,572
+It's not a video game,it's a
+cartoon,but I feel like that
+
+85
+00:05:20,572 --> 00:05:24,533
+could be a video game.Power to
+just knowledge,power.Uh,I'll go
+
+86
+00:05:24,533 --> 00:05:24,892
+with that.
+
+87
+00:05:26,507 --> 00:05:29,538
+Dan: I like that.And can you,uh,
+for the listeners do
+
+88
+00:05:29,708 --> 00:05:33,487
+Caitlin: Oh,I didn't do my intro.
+Sorry.I was so,I was thinking so
+
+89
+00:05:33,487 --> 00:05:37,148
+hard about my answer to the
+question.Yeah,sorry.My name is
+
+90
+00:05:37,148 --> 00:05:41,288
+Caitlin.Uh,I use she her
+pronouns.Um,I am based in the
+
+91
+00:05:41,288 --> 00:05:46,117
+Washington DC area and I'm a
+front end developer here.Um,and
+
+92
+00:05:46,148 --> 00:05:49,538
+yeah,knowledge would be my
+superpower of choice.
+
+93
+00:05:51,083 --> 00:05:51,533
+Bekah: I like it.
+
+94
+00:05:52,548 --> 00:05:55,757
+Dan: Yeah,there's that.Also not a
+video game,but uh,the movie
+
+95
+00:05:55,762 --> 00:05:59,447
+Limitless.You know,there's that
+pill and just like makes you,I
+
+96
+00:05:59,447 --> 00:06:02,927
+guess,super smart,but also able
+to learn things very quickly.I
+
+97
+00:06:02,927 --> 00:06:05,088
+don't,I haven't watched that
+movie for a long time,but you
+
+98
+00:06:05,088 --> 00:06:07,427
+know that,that.If there was no
+side effects,that always seemed
+
+99
+00:06:07,427 --> 00:06:11,838
+like a pretty cool,uh,you know,
+fake thing too.It's just the
+
+100
+00:06:11,838 --> 00:06:13,937
+ability to use your brain better,
+you know?
+
+101
+00:06:15,588 --> 00:06:18,038
+Bekah: Yeah,I could use that.I'm
+using my brain better.
+
+102
+00:06:19,958 --> 00:06:20,708
+Caitlin: Couldn't we all?
+
+103
+00:06:22,733 --> 00:06:25,252
+Bekah: Well,Caitlin,thanks so
+much for being here with us
+
+104
+00:06:25,252 --> 00:06:28,882
+today.We're very happy to finally
+have you on the podcast
+
+105
+00:06:30,067 --> 00:06:30,987
+Caitlin: Yeah.Thanks for having
+me.
+
+106
+00:06:31,545 --> 00:06:33,795
+Bekah: Um,we always like to get
+started with your origin story,
+
+107
+00:06:33,795 --> 00:06:36,906
+so let us know like how you got
+to this point in your career.
+
+108
+00:06:37,846 --> 00:06:40,846
+Caitlin: Sure.Yeah.So,um,yeah,
+thanks for having me today.I'm
+
+109
+00:06:40,846 --> 00:06:48,180
+very excited to be here.Um,so my
+journey into tech,um,felt.In some
+
+110
+00:06:48,180 --> 00:06:51,511
+ways kind of inevitable,but it
+was a very intentional decision
+
+111
+00:06:51,511 --> 00:06:55,951
+on my part.Um,like a lot of
+people in the VC community,I had
+
+112
+00:06:55,951 --> 00:07:00,420
+a previous career,uh,before going
+into tech.My,my career was in
+
+113
+00:07:00,420 --> 00:07:04,980
+language access.Um,so I studied
+linguistics as an undergrad,went
+
+114
+00:07:04,980 --> 00:07:08,011
+into teaching English to speakers
+of other languages,both
+
+115
+00:07:08,011 --> 00:07:12,031
+domestically and abroad.Um,did
+some teacher training,so teaching
+
+116
+00:07:12,060 --> 00:07:17,370
+teachers.How to teach.Um,and
+then,uh,moved into nonprofit
+
+117
+00:07:17,370 --> 00:07:20,190
+management at a refugee
+resettlement agency where I
+
+118
+00:07:20,190 --> 00:07:24,870
+oversaw the education program
+there.Um,so I loved that whole
+
+119
+00:07:24,875 --> 00:07:29,221
+career.Uh,it was really
+rewarding,but uh,at the same time
+
+120
+00:07:29,221 --> 00:07:33,690
+I was starting to experience
+pretty intense burnout,um,and.
+
+121
+00:07:34,651 --> 00:07:38,730
+Decided to kind of take stock of
+what I wanted out of a career,
+
+122
+00:07:38,730 --> 00:07:42,300
+because I kind of realized I
+hadn't been super intentional up
+
+123
+00:07:42,300 --> 00:07:46,800
+until that point about crafting
+my career.Um,and burnout was a
+
+124
+00:07:46,800 --> 00:07:52,185
+great,uh,motivator to do that.So
+I,I realized that,um,I already
+
+125
+00:07:52,185 --> 00:07:56,656
+knew that.I loved linguistics,
+communication,problem solving,
+
+126
+00:07:56,985 --> 00:08:00,555
+um,like pattern recognition.
+Those were things I liked and,
+
+127
+00:08:00,586 --> 00:08:05,656
+um,that I was good at.Um,but as
+far as what I wanted from a job,
+
+128
+00:08:05,661 --> 00:08:09,286
+I knew that I wanted something
+that was a change of pace from
+
+129
+00:08:09,290 --> 00:08:13,115
+constant triaging of problems,
+uh,like you do in.Bekah,as you
+
+130
+00:08:13,115 --> 00:08:17,375
+know,in teaching,um,as well as in
+nonprofit management.Um,and so I
+
+131
+00:08:17,375 --> 00:08:20,315
+wanted something that allowed me
+like deep work and flow state.
+
+132
+00:08:20,706 --> 00:08:24,815
+Um,and I also wanted something
+more importantly that would give
+
+133
+00:08:24,815 --> 00:08:29,826
+me flexibility to kind of,um,I
+have work-life balance.Uh,I
+
+134
+00:08:29,826 --> 00:08:35,956
+wanted to.Work to live,not live
+to work.Um,and so something that
+
+135
+00:08:35,956 --> 00:08:40,096
+could give me flexibility about
+where I wanted to work from,uh,
+
+136
+00:08:40,096 --> 00:08:43,966
+the concept of remote work was
+really novel in2019.Uh,less so
+
+137
+00:08:43,966 --> 00:08:48,676
+now,but it's still a big benefit
+to working in tech.Um,and you
+
+138
+00:08:48,676 --> 00:08:52,515
+know,also when you're working.
+Um,so these were all factors that
+
+139
+00:08:52,515 --> 00:08:55,966
+kind of,I had this mixing pot of
+ideas and it kind of distilled
+
+140
+00:08:55,966 --> 00:08:59,025
+down into,I should really
+consider software engineering.
+
+141
+00:08:59,056 --> 00:09:03,375
+Um,this is kind of a.Great fit
+for all of those factors.It's,
+
+142
+00:09:03,466 --> 00:09:08,625
+it's new and exciting.It's a
+growing industry.Um,and so I,uh,
+
+143
+00:09:09,495 --> 00:09:15,105
+I went to a coding bootcamp,um,
+and,uh,it was a struggle,but I,I
+
+144
+00:09:15,105 --> 00:09:19,336
+made it through.There were some
+tears shed,but,um,I made it.Uh,
+
+145
+00:09:19,341 --> 00:09:24,166
+and then,um,I landed at my
+current job,um,at a news agency,
+
+146
+00:09:24,225 --> 00:09:27,046
+uh,where I'm doing front end
+development.And it's been,um,a
+
+147
+00:09:27,051 --> 00:09:30,791
+really rewarding,um,Job,and I'm
+really happy that I made that
+
+148
+00:09:30,791 --> 00:09:31,030
+change.
+
+149
+00:09:32,765 --> 00:09:35,416
+Bekah: That's so good to hear.
+Uh,can you talk a little bit more
+
+150
+00:09:35,416 --> 00:09:38,385
+about your bootcamp?Were you in
+person online?How long did that
+
+151
+00:09:38,390 --> 00:09:38,535
+take?
+
+152
+00:09:39,556 --> 00:09:44,985
+Caitlin: Yeah,so I signed up for
+an in-person bootcamp,but uh,we
+
+153
+00:09:44,985 --> 00:09:49,666
+were supposed to finish in May of
+2020,so it did not end as an
+
+154
+00:09:49,666 --> 00:09:54,346
+in-person bootcamp.Uh,we started
+in-person,um,and then I was also
+
+155
+00:09:54,346 --> 00:09:58,725
+in New York City at the time,so
+that was,uh,hit quite early,um,
+
+156
+00:09:58,905 --> 00:10:03,645
+in the country.So,uh,Yeah,we were
+in person for most of the
+
+157
+00:10:03,645 --> 00:10:07,635
+learning modules.The second half
+of the bootcamp was,um,more
+
+158
+00:10:07,666 --> 00:10:11,775
+project based and that we had one
+week in person before they told
+
+159
+00:10:11,780 --> 00:10:16,035
+us we were gonna try remote for
+quote unquote,for maybe a week or
+
+160
+00:10:16,035 --> 00:10:19,936
+so.Uh,we never saw each other
+again,which was,uh,unfortunate.
+
+161
+00:10:20,115 --> 00:10:22,155
+It was a good learning
+experience,though I had a great
+
+162
+00:10:22,155 --> 00:10:26,596
+team and,um,we learned trial by
+fire.We learned how to
+
+163
+00:10:26,596 --> 00:10:30,615
+collaborate remotely.Um,Luckily,
+we were all very,you know,
+
+164
+00:10:30,885 --> 00:10:36,405
+communication was something we
+all valued.So,um,it was,um,yeah,
+
+165
+00:10:36,405 --> 00:10:38,566
+I mean,I don't have anything to
+compare it to.I've always
+
+166
+00:10:38,596 --> 00:10:41,836
+collaborated with other
+developers remotely,uh,because
+
+167
+00:10:41,836 --> 00:10:44,926
+of,of the nature of how things
+played out,but I really enjoy it.
+
+168
+00:10:45,015 --> 00:10:47,745
+Um,yeah.Yeah,it was great.
+
+169
+00:10:49,140 --> 00:10:52,083
+Bekah: I think you might be the
+first person,that we talked to.
+
+170
+00:10:53,494 --> 00:10:59,014
+Um,who was impacted by the
+pandemic during their bootcamp
+
+171
+00:10:59,014 --> 00:11:03,033
+experience,cuz so many people
+decided during the pandemic to
+
+172
+00:11:03,333 --> 00:11:06,964
+change careers,but you were in
+the midst of it during that,
+
+173
+00:11:06,964 --> 00:11:10,354
+which I think is probably more
+chaotic because,I don't know,
+
+174
+00:11:10,354 --> 00:11:13,443
+like with my kids coming home,
+like they sent home all their
+
+175
+00:11:13,443 --> 00:11:16,894
+books and stuff,but nobody knew
+what to do.The,the learning
+
+176
+00:11:16,894 --> 00:11:20,583
+experience was awful just
+because,It was not anticipated.
+
+177
+00:11:20,583 --> 00:11:23,673
+That had to be.That sounds like
+it was a,a big challenge.
+
+178
+00:11:24,183 --> 00:11:28,729
+Caitlin: Yeah,definitely it was,
+um,Yeah,I was not prepared for,
+
+179
+00:11:29,359 --> 00:11:32,269
+for that.I mean,no one was
+prepared for the pivot,but it was
+
+180
+00:11:32,269 --> 00:11:36,828
+an interesting time to have quit
+my job and entered,uh,not very
+
+181
+00:11:37,188 --> 00:11:42,109
+junior friendly workforce as an
+engineer.Um,but I mean,luckily
+
+182
+00:11:42,114 --> 00:11:46,489
+our teachers,you know,were very
+tech savvy,uh,being,you know,
+
+183
+00:11:47,058 --> 00:11:51,798
+tech professionals.So that pivot
+I think was.It's easier for them
+
+184
+00:11:51,798 --> 00:11:55,548
+than other teachers I've known
+who worked in,you know,not in the
+
+185
+00:11:55,548 --> 00:11:59,958
+tech space.I think that I,like my
+heart went out to so many,I knew
+
+186
+00:11:59,958 --> 00:12:02,269
+a lot of English teachers who
+were having to figure that out.
+
+187
+00:12:02,269 --> 00:12:06,078
+My mom also is a teacher,uh,and
+she was having to teach her peers
+
+188
+00:12:06,318 --> 00:12:12,139
+how to,like,what is Zoom?Like
+what is a webcam?Uh,and it was,
+
+189
+00:12:12,229 --> 00:12:15,558
+uh,it was chaotic for all of us.
+But yeah,that,that was an
+
+190
+00:12:15,558 --> 00:12:18,469
+interesting time to be going
+through bootcamp.
+
+191
+00:12:19,918 --> 00:12:23,668
+Dan: Aside from,you know,the.I
+don't know,technical adjustments
+
+192
+00:12:23,668 --> 00:12:27,658
+that ev everybody would expect.
+Are there like any,how did the,
+
+193
+00:12:27,658 --> 00:12:31,379
+like learning process,I mean,I
+know it changed,but,you know,
+
+194
+00:12:31,619 --> 00:12:33,899
+comparing and contrasting since
+it was the same class right?You
+
+195
+00:12:33,899 --> 00:12:37,649
+know,halfway through whatever.
+Um,how,how did it,you know,how
+
+196
+00:12:37,649 --> 00:12:41,729
+did not being in the room with
+people affect your,like the
+
+197
+00:12:41,729 --> 00:12:44,969
+learning process and maybe your
+enjoyment and or effectiveness of
+
+198
+00:12:44,969 --> 00:12:45,719
+it?Um,
+
+199
+00:12:45,969 --> 00:12:48,798
+Caitlin: Yeah,I mean,I am really
+grateful that we at least had
+
+200
+00:12:48,798 --> 00:12:52,849
+that initial period of time to
+get to know each other.So I was
+
+201
+00:12:52,854 --> 00:12:56,269
+at least more comfortable asking
+my teachers questions or my peers
+
+202
+00:12:56,274 --> 00:13:00,499
+because I had,you know,like run
+into them,uh,at the,in the
+
+203
+00:13:00,499 --> 00:13:04,879
+kitchen or something.And,and we
+had that foundation,but pivoting
+
+204
+00:13:04,879 --> 00:13:12,918
+into being remote,um,it was just
+such a,A paradigm shift of how,
+
+205
+00:13:13,519 --> 00:13:18,198
+how do I approach even like pair
+programming.Uh,we had to,we were
+
+206
+00:13:18,198 --> 00:13:21,828
+like,all right,let's Google,you
+know,remote pairing tools,uh,
+
+207
+00:13:21,859 --> 00:13:25,249
+figure it out.Um,and so I think
+our default was to just
+
+208
+00:13:25,369 --> 00:13:28,849
+over-communicating,which I think
+was the right call of just,you
+
+209
+00:13:28,849 --> 00:13:32,568
+know,if,if you have a question,
+just ask it.Um,and if you,you
+
+210
+00:13:32,568 --> 00:13:36,724
+know,if you are.You know,I don't
+know if you see foresee a
+
+211
+00:13:36,724 --> 00:13:42,453
+possible problem,just bring it
+up.Um,my,my project,um,teammates
+
+212
+00:13:42,453 --> 00:13:47,193
+and I were pretty much on Zoom
+all day,which was,uh,that was
+
+213
+00:13:47,193 --> 00:13:51,543
+before we had ever heard the term
+Zoom fatigue.But um,yeah,it was
+
+214
+00:13:51,543 --> 00:13:54,634
+kind of interesting because in
+some ways it was kind of,
+
+215
+00:13:55,489 --> 00:13:59,688
+Exciting to kind of realize,
+okay,we can share screens and we
+
+216
+00:13:59,688 --> 00:14:02,869
+can both be researching separate
+things at the same time,still see
+
+217
+00:14:02,869 --> 00:14:06,259
+each other's screens.We can be
+looking at docs and kind of like
+
+218
+00:14:06,288 --> 00:14:11,389
+distill down,um,what we've been
+learning or watching a video.Um,
+
+219
+00:14:11,389 --> 00:14:16,278
+and so I think that kind of
+helped me to think more flexibly
+
+220
+00:14:16,278 --> 00:14:20,989
+in terms of how I was learning
+and kind of think more,um,I feel
+
+221
+00:14:20,989 --> 00:14:24,469
+like it,it made me work the
+elasticity of my brain in a
+
+222
+00:14:24,469 --> 00:14:29,479
+different way.Um,so yeah,I mean,
+again,I,I don't have anything
+
+223
+00:14:30,109 --> 00:14:35,658
+like to compare it to like my
+chaotic version was,was the
+
+224
+00:14:35,658 --> 00:14:40,158
+version.I know.Um,but I think it
+helped me to get an appreciation
+
+225
+00:14:40,158 --> 00:14:46,278
+for some of the collaborative,
+collaborative tools that are
+
+226
+00:14:46,283 --> 00:14:49,833
+available to you.Remotely that
+are not available to you in
+
+227
+00:14:49,839 --> 00:14:52,984
+person.Usually you hear people
+making the opposite case.Um,
+
+228
+00:14:53,884 --> 00:14:56,163
+there's valid arguments to be
+made there,but I think there are
+
+229
+00:14:56,163 --> 00:15:00,274
+some benefits to working remotely
+that you don't get working in
+
+230
+00:15:00,274 --> 00:15:00,813
+person.So,
+
+231
+00:15:02,099 --> 00:15:05,908
+Dan: Yeah,totally.I,I,I,uh,I was
+just,I was curious because I,I
+
+232
+00:15:05,913 --> 00:15:08,999
+feel like the stories that we've
+heard of people doing boot camps
+
+233
+00:15:08,999 --> 00:15:13,183
+that were more successful,I.Um,
+were often ones where there's
+
+234
+00:15:13,183 --> 00:15:16,634
+more contact,more communication
+with other students.Um,you know,
+
+235
+00:15:16,754 --> 00:15:20,803
+whether that's in person or,um,I
+know one member like did just on
+
+236
+00:15:20,808 --> 00:15:22,874
+their own,but,you know,made a
+study group with,with the other
+
+237
+00:15:22,874 --> 00:15:27,553
+students,uh,and communicated like
+that together.Right.Um,and,uh,I
+
+238
+00:15:27,553 --> 00:15:30,464
+feel like the,the people that had
+a good experience,um,you know,
+
+239
+00:15:30,464 --> 00:15:34,094
+in,in boot camps,uh,often have
+similar stories like that,you
+
+240
+00:15:34,094 --> 00:15:36,254
+know,and so I was,I was curious
+and it's good to hear that you
+
+241
+00:15:36,254 --> 00:15:39,823
+guys worked it out,right?The,
+that,the,um,Since you already
+
+242
+00:15:39,823 --> 00:15:42,854
+knew each other,maybe it was a
+lot easier to just try to push
+
+243
+00:15:42,854 --> 00:15:45,464
+through some of those things.
+Whereas if you had started all
+
+244
+00:15:45,464 --> 00:15:49,813
+remote,you know,it's all just
+strangers and,um,maybe it
+
+245
+00:15:49,813 --> 00:15:52,964
+would've been a harder,uh,
+especially if the,the teachers or
+
+246
+00:15:52,969 --> 00:15:55,124
+whatever don't encourage that
+sort of thing,you know,or don't,
+
+247
+00:15:55,153 --> 00:15:59,144
+um,put a emphasis on it.Um,so I
+don't know.That sounds cool.It
+
+248
+00:15:59,144 --> 00:16:02,354
+sounds like you,you all did like
+a really good job of,of,uh,
+
+249
+00:16:02,384 --> 00:16:03,163
+making it through that
+
+250
+00:16:03,984 --> 00:16:05,224
+Caitlin: Yeah,we did our best.
+
+251
+00:16:05,894 --> 00:16:06,104
+Dan: Yeah.
+
+252
+00:16:06,604 --> 00:16:06,783
+Caitlin: Yeah.
+
+253
+00:16:08,313 --> 00:16:10,443
+Bekah: What was the mentorship
+like as you went through boot
+
+254
+00:16:10,443 --> 00:16:13,083
+camp?Was that a thing?Do,do you
+feel like you had good
+
+255
+00:16:13,083 --> 00:16:14,104
+experiences there?
+
+256
+00:16:15,303 --> 00:16:18,933
+Caitlin: Yeah,we,so our program
+had,I,I think this is pretty
+
+257
+00:16:18,938 --> 00:16:25,053
+common in bootcamps of some kind
+of a TA position,um,where those
+
+258
+00:16:25,053 --> 00:16:28,024
+are people who have recently gone
+through the bootcamp and they're,
+
+259
+00:16:28,234 --> 00:16:32,764
+uh,there to serve as extra
+support for,um,current students.
+
+260
+00:16:32,764 --> 00:16:37,458
+And so we had that program,um,
+Which was really,really helpful
+
+261
+00:16:37,458 --> 00:16:42,288
+because sometimes you feel a
+little,you,something's not
+
+262
+00:16:42,288 --> 00:16:44,719
+clicking very quickly,and if
+you're talking to your teacher
+
+263
+00:16:44,719 --> 00:16:47,239
+who knows it,like the back of
+their hand,it can be a little
+
+264
+00:16:47,239 --> 00:16:51,379
+intimidating to ask questions.
+So,um,having someone who's a
+
+265
+00:16:51,379 --> 00:16:54,604
+little bit more closely.More
+recently gone through,the
+
+266
+00:16:54,604 --> 00:16:58,744
+experience you had gone through
+was really helpful for,um,asking
+
+267
+00:16:58,744 --> 00:17:03,214
+technical questions or even
+asking more career strategic,uh,
+
+268
+00:17:03,244 --> 00:17:08,074
+questions of like,you know,how do
+I work on a resume or something
+
+269
+00:17:08,078 --> 00:17:12,753
+like that.Um,and so I thought
+that,um,our program did a really
+
+270
+00:17:12,753 --> 00:17:18,334
+great job of picking,uh,People
+for those positions who were
+
+271
+00:17:18,334 --> 00:17:21,874
+interested in helping us to
+develop our skills,who were not
+
+272
+00:17:22,114 --> 00:17:26,284
+just like looking for a resume
+booster,but actually had,um,some
+
+273
+00:17:26,288 --> 00:17:30,663
+of the skills to back it up,um,
+the technical skills and the more
+
+274
+00:17:30,903 --> 00:17:35,163
+the soft skills,um,needed to
+support very vulnerable people
+
+275
+00:17:35,169 --> 00:17:39,453
+who are feeling dumb every day.
+Um,and,and yeah,I thought that
+
+276
+00:17:39,453 --> 00:17:42,364
+was a,a pretty crucial part of my
+experience.
+
+277
+00:17:43,084 --> 00:17:44,733
+Bekah: What do you think some of
+those skills are that make
+
+278
+00:17:44,733 --> 00:17:45,903
+somebody a good mentor?
+
+279
+00:17:46,594 --> 00:17:51,933
+Caitlin: Ooh,great question.Um,I
+think that first and foremost,
+
+280
+00:17:52,144 --> 00:18:02,134
+um,having a strong sense of
+curiosity,um,and being,I think
+
+281
+00:18:02,134 --> 00:18:06,544
+that seeking mentorship can be a
+very vulnerable position.And so
+
+282
+00:18:06,544 --> 00:18:11,868
+having empathy for that and,um,
+Not being judgmental of someone
+
+283
+00:18:11,868 --> 00:18:14,719
+who's asking you questions is,is
+a really important starting
+
+284
+00:18:14,719 --> 00:18:19,159
+point.Creating that trust,uh,
+with someone to open up and seek
+
+285
+00:18:19,159 --> 00:18:23,568
+advice.Um,yeah,I would say that's
+probably the most important
+
+286
+00:18:23,574 --> 00:18:29,538
+thing.Um,and f for on the,on the
+empathy point,being able to put
+
+287
+00:18:29,538 --> 00:18:32,449
+yourself in someone else's shoes,
+um,whether or not you've
+
+288
+00:18:32,449 --> 00:18:35,239
+necessarily had the exact same
+experience,being able to relate,
+
+289
+00:18:35,628 --> 00:18:39,933
+um,experiences to your own and,
+and considering.What might be
+
+290
+00:18:39,933 --> 00:18:42,544
+different and what challenges
+someone might be facing that are
+
+291
+00:18:42,544 --> 00:18:46,864
+different than you,um,will help
+you to give better advice than if
+
+292
+00:18:46,864 --> 00:18:51,963
+you're just kind of just making
+it like all about me.This is,you
+
+293
+00:18:51,963 --> 00:18:54,814
+know,everything that worked for
+me.Um,considering what might have
+
+294
+00:18:54,818 --> 00:18:56,374
+worked for you might not work for
+someone else.
+
+295
+00:18:58,848 --> 00:19:03,124
+Bekah: Yeah.I love that.It's so
+important,um,to be able to.Get
+
+296
+00:19:03,124 --> 00:19:05,854
+yourself in somebody else's
+viewpoint because everybody
+
+297
+00:19:05,854 --> 00:19:08,253
+learns in different ways.They
+understand differently,and you
+
+298
+00:19:08,253 --> 00:19:12,574
+have to be able to explain those
+things.And I think that,you know,
+
+299
+00:19:12,574 --> 00:19:16,054
+Caitlin,you've done a great job
+at Virtual Coffee and a lot of
+
+300
+00:19:16,054 --> 00:19:19,834
+other places in supporting other
+people.So do you wanna talk a
+
+301
+00:19:19,834 --> 00:19:24,064
+little bit about how that role
+has shifted for you?So how you
+
+302
+00:19:24,064 --> 00:19:29,884
+went from being the one mentored
+to being the mentor?Yep.That's
+
+303
+00:19:29,884 --> 00:19:30,034
+it.
+
+304
+00:19:30,993 --> 00:19:33,513
+Caitlin: Yeah.Thanks so much for
+saying that.That's very,um,nice
+
+305
+00:19:33,513 --> 00:19:39,348
+of you to say,um,Yeah,I think
+that my introduction to the
+
+306
+00:19:39,348 --> 00:19:42,679
+concept of mentorship was very
+much from a place of desperation
+
+307
+00:19:42,679 --> 00:19:45,469
+and like,I need someone to help
+me and tell me what to do because
+
+308
+00:19:45,473 --> 00:19:50,269
+I don't know what I'm doing.Um,
+and that is not the best,uh,
+
+309
+00:19:50,298 --> 00:19:54,199
+place to be coming from.I think,
+uh,what really helped me as a
+
+310
+00:19:54,439 --> 00:20:01,189
+mentee,uh,was.Starting to reframe
+that relationship as,um,you know,
+
+311
+00:20:01,189 --> 00:20:06,618
+not like this all-knowing person
+who's distilling knowledge down
+
+312
+00:20:06,624 --> 00:20:09,469
+to me,but just someone else who's
+been where I'm at and has
+
+313
+00:20:09,473 --> 00:20:14,868
+experience to share and that I
+can learn from.Um,kind of see it,
+
+314
+00:20:14,959 --> 00:20:18,648
+reframing it that way was helpful
+to me in not being afraid to seek
+
+315
+00:20:18,648 --> 00:20:23,148
+out mentors.Um,I also,it was
+really helpful to me hearing
+
+316
+00:20:23,148 --> 00:20:26,838
+about the concept of peer
+mentorship,uh,because that also
+
+317
+00:20:26,838 --> 00:20:30,138
+made it a little bit more
+attainable that,oh,like I can
+
+318
+00:20:30,409 --> 00:20:34,519
+seek mentorship from my peers.I
+could also give mentorship to my
+
+319
+00:20:34,519 --> 00:20:38,058
+peers.Um,you know,I might have
+some experience in a specific
+
+320
+00:20:38,058 --> 00:20:43,548
+area,uh,that's valuable to them.
+Um,so I think kind of what helped
+
+321
+00:20:43,548 --> 00:20:47,868
+me start to shift into taking on
+some mentor,some mentoring
+
+322
+00:20:47,929 --> 00:20:52,864
+opportunities was I.Uh,kind of
+trying to embody that duality of
+
+323
+00:20:52,864 --> 00:20:58,503
+having the curiosity of more of a
+student.Um,and also kind of
+
+324
+00:20:58,653 --> 00:21:01,624
+trying to take on some of the,
+more of the generosity of a
+
+325
+00:21:01,624 --> 00:21:06,064
+teacher,um,and realizing that you
+can do both.You don't have to be
+
+326
+00:21:06,068 --> 00:21:10,443
+like,I am now a mentor.I am no
+longer a mentee.Like it's,it's a
+
+327
+00:21:10,473 --> 00:21:13,534
+fluid relationship there.Um,and
+you might even have relationships
+
+328
+00:21:13,534 --> 00:21:16,503
+with some people where you fill
+both of those roles depending on
+
+329
+00:21:16,503 --> 00:21:20,298
+the day.I like,for example,I have
+a,um,A colleague that I work
+
+330
+00:21:20,298 --> 00:21:23,509
+with,uh,we started on the exact
+same day.Um,and we check in
+
+331
+00:21:23,509 --> 00:21:27,469
+regularly and sometimes she is
+giving me more advice,sometimes
+
+332
+00:21:27,469 --> 00:21:33,019
+I'm giving her more.Um,and so
+like that helped kind of ease me
+
+333
+00:21:33,023 --> 00:21:36,828
+along the river of mentorship,I
+guess where I,I was kind of
+
+334
+00:21:37,068 --> 00:21:40,848
+understanding that it's not a
+finite position that you take.
+
+335
+00:21:40,848 --> 00:21:44,328
+It's,it's just kind of a,it's
+just relationships at the end of
+
+336
+00:21:44,328 --> 00:21:47,298
+the day.It's just scary words to
+describe relationships that we
+
+337
+00:21:47,298 --> 00:21:47,689
+all have.
+
+338
+00:21:49,648 --> 00:21:53,249
+Dan: Do you have an,in your
+current situation,any,like any,
+
+339
+00:21:53,308 --> 00:21:57,584
+um,Any mentor or mentee
+relationships that are like
+
+340
+00:21:57,584 --> 00:22:01,574
+defined that way?You know,uh,I
+mean the,the relationship between
+
+341
+00:22:01,574 --> 00:22:03,854
+your colleague sounds like really
+good and healthy,you know,work
+
+342
+00:22:03,858 --> 00:22:06,943
+relationship.But,um,I was just
+curious if there's,if there's a
+
+343
+00:22:06,943 --> 00:22:09,614
+situations that you're in now
+where,there,where it's like it
+
+344
+00:22:09,614 --> 00:22:12,403
+is,it does have that scary word
+attached to it,you know,like
+
+345
+00:22:12,403 --> 00:22:13,003
+officially.
+
+346
+00:22:13,249 --> 00:22:17,558
+Caitlin: Yeah.Um,at my job I
+don't currently have.Either a
+
+347
+00:22:17,558 --> 00:22:22,358
+formal mentor or mentee.Um,but I
+do,uh,volunteer often with the
+
+348
+00:22:22,358 --> 00:22:25,778
+collab lab,which,um,I know you've
+both heard of,uh,there's a lot of
+
+349
+00:22:25,778 --> 00:22:28,028
+people in Virtual Coffee,but for
+anyone listening,if they don't
+
+350
+00:22:28,028 --> 00:22:31,778
+know,it's a program that is
+designed specifically to provide
+
+351
+00:22:31,784 --> 00:22:37,023
+mentorship to or early career
+developers.Um,And I started there
+
+352
+00:22:37,023 --> 00:22:42,753
+as a mentee,uh,like as a,we call
+them collabs.Um,and you know,I
+
+353
+00:22:42,753 --> 00:22:47,614
+formally had a few people,uh,who
+were my mentors.Actually Jono was
+
+354
+00:22:47,618 --> 00:22:52,173
+one of my,uh,mentors.Um,and that
+was really nice having,sometimes
+
+355
+00:22:52,173 --> 00:22:55,503
+it is helpful to have a defined
+relationship where you are like,
+
+356
+00:22:55,503 --> 00:22:58,624
+okay,this is the person that I'm
+asking advice for.There's a time
+
+357
+00:22:58,624 --> 00:23:02,733
+limit set.Um,so it's less
+pressure,um,for someone to accept
+
+358
+00:23:02,733 --> 00:23:07,419
+that position.Um,And I've since
+moved into,you know,the other
+
+359
+00:23:07,419 --> 00:23:11,558
+side where I'm mentoring.Um,
+there and there,there definitely
+
+360
+00:23:11,558 --> 00:23:16,088
+are some benefits to having that
+structured relationship.Um,but it
+
+361
+00:23:16,088 --> 00:23:20,348
+definitely can be a little bit of
+a daunting label to put on.So
+
+362
+00:23:20,348 --> 00:23:23,858
+just keeping in mind that it's,
+it sounds scary,but it doesn't
+
+363
+00:23:23,888 --> 00:23:27,038
+have to be.It's just,you know,
+cultivating a relationship with
+
+364
+00:23:27,038 --> 00:23:32,344
+someone.Um,and.it,it,I think it
+feels transactional when you use
+
+365
+00:23:32,344 --> 00:23:35,523
+the word mentorship.Um,but that
+doesn't have to be a dirty word.
+
+366
+00:23:35,584 --> 00:23:40,263
+Um,and you can always,even as a
+mentee,you can always be sharing
+
+367
+00:23:40,263 --> 00:23:43,713
+your experience.Um,you,you are
+always bringing something to the
+
+368
+00:23:43,713 --> 00:23:47,463
+table so you can still benefit
+your mentor even if,even in that,
+
+369
+00:23:47,763 --> 00:23:49,624
+uh,closely defined relationship.
+
+370
+00:23:51,273 --> 00:23:54,993
+Bekah: Yeah.I also think like as
+developers,it's important to be
+
+371
+00:23:54,993 --> 00:23:57,784
+around other people of lots of
+different levels,and you might
+
+372
+00:23:57,784 --> 00:24:00,844
+naturally find yourself in the
+role of mentor,but it also helps
+
+373
+00:24:00,844 --> 00:24:04,334
+you to understand user experience
+too,right?Like there are
+
+374
+00:24:04,334 --> 00:24:07,713
+different.People at all different
+stages.You're not always building
+
+375
+00:24:07,713 --> 00:24:11,733
+for somebody with,um,years of
+experience and vast amounts of
+
+376
+00:24:11,733 --> 00:24:15,364
+knowledge.So to be able to
+clearly communicate with a large,
+
+377
+00:24:15,453 --> 00:24:19,773
+uh,audience,I think it that makes
+it kind of essential to embrace
+
+378
+00:24:19,778 --> 00:24:24,213
+the idea of horizontal mentorship
+and be willing to listen to other
+
+379
+00:24:24,213 --> 00:24:27,304
+people and to associate with
+them.Otherwise,you start to get
+
+380
+00:24:27,513 --> 00:24:28,413
+tunnel vision.
+
+381
+00:24:29,884 --> 00:24:33,753
+Caitlin: Yeah,for sure.I think
+it's so important for,um,anyone
+
+382
+00:24:33,753 --> 00:24:39,064
+who's working in tech to have a.
+Uh,to constantly have a,a
+
+383
+00:24:39,064 --> 00:24:43,324
+beginner's mindset and always be
+wanting to learn.So even if you
+
+384
+00:24:43,324 --> 00:24:47,374
+are a,you know,a staff engineer
+talking to a junior engineer,
+
+385
+00:24:47,374 --> 00:24:51,663
+like to kind of have an extreme
+example,like coming to that
+
+386
+00:24:51,663 --> 00:24:55,743
+conversation and,and being
+willing to learn something,um,I
+
+387
+00:24:55,743 --> 00:25:00,124
+think is,uh,a really important
+skill and really beneficial,um,
+
+388
+00:25:00,453 --> 00:25:02,733
+in terms of long,long-term career
+growth.
+
+389
+00:25:04,554 --> 00:25:07,513
+Bekah: Yeah,I was recently on
+Twitter and somebody was asking
+
+390
+00:25:07,513 --> 00:25:12,134
+like,how do you even find a
+mentor?I'm trying to learn,and so
+
+391
+00:25:12,403 --> 00:25:16,483
+I know I,I.You probably have
+thoughts on this,so,you know,if
+
+392
+00:25:16,483 --> 00:25:19,094
+you were to offer that person
+advice,what would it be?
+
+393
+00:25:20,269 --> 00:25:23,419
+Caitlin: Yeah,I definitely have
+been that person before of like
+
+394
+00:25:23,419 --> 00:25:26,509
+desperately wanting mentors and
+not knowing where to look.Um,I
+
+395
+00:25:26,509 --> 00:25:30,439
+think one,I mean,one starting
+point is seeking out peer
+
+396
+00:25:30,439 --> 00:25:33,439
+mentorship.That can be a lot less
+daunting.I.Or it's,it's a lot
+
+397
+00:25:33,439 --> 00:25:36,828
+more accessible to you.So if
+you're in a bootcamp,um,you know,
+
+398
+00:25:37,189 --> 00:25:40,038
+linking up with other people in
+your bootcamp and kind of helping
+
+399
+00:25:40,098 --> 00:25:44,104
+each other out that way,um,
+There's also a great talk that I
+
+400
+00:25:44,104 --> 00:25:48,874
+saw,um,by,uh Kay Woo on Twitter.
+Um,I can share the link
+
+401
+00:25:48,874 --> 00:25:51,903
+afterwards,but she talks about
+the idea of being a stealth
+
+402
+00:25:51,903 --> 00:25:56,554
+mentee,um,where the person who is
+your mentor doesn't have to know
+
+403
+00:25:56,554 --> 00:25:59,854
+they're your mentor,uh,
+necessarily.Like if we broaden
+
+404
+00:25:59,854 --> 00:26:05,759
+our.Um,our definition of what
+mentorship is,um,it becomes a lot
+
+405
+00:26:05,759 --> 00:26:09,209
+more accessible.So if you are
+just having a conversation with,
+
+406
+00:26:09,598 --> 00:26:13,769
+um,for example,uh,a developer on
+your team or just chatting with
+
+407
+00:26:13,769 --> 00:26:17,699
+someone at a,at a conference,um,
+you can learn a lot.You can ask
+
+408
+00:26:17,699 --> 00:26:22,169
+questions,uh,to benefit from
+their experience.Um,and that's
+
+409
+00:26:22,169 --> 00:26:26,009
+really what mentorship is at the
+end of the day.Um,you could even,
+
+410
+00:26:26,009 --> 00:26:31,173
+I.Kind of,it's a little bit,uh,
+outside of the traditional,um,
+
+411
+00:26:31,233 --> 00:26:35,013
+definition of mentorship,but you
+could read a blog post or watch a
+
+412
+00:26:35,013 --> 00:26:37,834
+video from someone and there's
+not even necessarily a direct
+
+413
+00:26:37,834 --> 00:26:40,983
+relationship there,but you're
+still getting the benefits of
+
+414
+00:26:40,983 --> 00:26:44,314
+mentorship if you're learning
+from their experience.So I think,
+
+415
+00:26:44,403 --> 00:26:48,604
+um,Being less strict with your
+definition can help you to kind
+
+416
+00:26:48,604 --> 00:26:52,864
+of ease into finding different
+avenues for mentorship.Um,and
+
+417
+00:26:52,864 --> 00:26:54,993
+then eventually if you're
+constantly seeking that out,
+
+418
+00:26:54,993 --> 00:26:57,273
+you'll,you'll kind of start to
+foster those relationships that
+
+419
+00:26:57,273 --> 00:27:01,894
+can lead to more traditional,um,
+mentorship relationships.
+
+420
+00:27:03,653 --> 00:27:06,314
+Bekah: I love that so much.Uh,it
+reminds me.Me,I think it was an
+
+421
+00:27:06,314 --> 00:27:11,263
+Instagram story I saw with,um,
+Sarah Blakely,the founder of
+
+422
+00:27:11,263 --> 00:27:15,134
+Spanx,and she met this woman,I
+don't know,it was like at the
+
+423
+00:27:15,134 --> 00:27:18,134
+store.She just ran into her.The
+woman was so excited.She was
+
+424
+00:27:18,134 --> 00:27:22,753
+like,you are my mentor.And she
+had a list of five mentors,which
+
+425
+00:27:22,753 --> 00:27:26,864
+were like celebrities or people
+that are prominent in their
+
+426
+00:27:26,864 --> 00:27:31,358
+field.And she said that,She,
+these are people that she always
+
+427
+00:27:31,358 --> 00:27:35,138
+listens to what they're saying.
+She watches their talks,she reads
+
+428
+00:27:35,138 --> 00:27:37,989
+their books or listens to their
+podcasts or whatever because they
+
+429
+00:27:37,989 --> 00:27:40,898
+have so much knowledge that
+they're sharing and she knows
+
+430
+00:27:40,898 --> 00:27:43,689
+that she'll probably never have a
+personal relationship with those
+
+431
+00:27:43,689 --> 00:27:48,338
+people.But it's not,it,it's,they
+are still providing her with
+
+432
+00:27:48,338 --> 00:27:51,953
+mentorship.In a different way.
+And so it was expanding that
+
+433
+00:27:51,953 --> 00:27:56,124
+definition to really glow it,
+grow in that knowledge.And so it,
+
+434
+00:27:56,124 --> 00:27:59,574
+even if you go that far,which I
+think might feel like the extreme
+
+435
+00:27:59,574 --> 00:28:03,713
+opposite end,it's all about like
+being open to growing and
+
+436
+00:28:03,713 --> 00:28:07,884
+learning from different people.
+And so I really love the idea of
+
+437
+00:28:07,884 --> 00:28:11,229
+just.Thinking about it in new
+ways,you know,it doesn't have to
+
+438
+00:28:11,229 --> 00:28:14,709
+be that one-on-one relationship.
+And like,to be honest with you,I
+
+439
+00:28:14,709 --> 00:28:18,969
+think the,the most impactful
+mentorship that I've had has been
+
+440
+00:28:19,209 --> 00:28:23,919
+being part of a community because
+it's just like everybody,just by
+
+441
+00:28:23,919 --> 00:28:26,769
+the nature of developing
+relationships,respecting each
+
+442
+00:28:26,769 --> 00:28:29,769
+other,trusting each other,
+growing together.We all kind of
+
+443
+00:28:29,769 --> 00:28:33,788
+mentor each other in a way that's
+really authentic.And I think when
+
+444
+00:28:33,788 --> 00:28:38,888
+that happens,that's for me
+personally,something that is,um,
+
+445
+00:28:39,999 --> 00:28:41,739
+a really great experience.
+
+446
+00:28:42,753 --> 00:28:46,983
+Caitlin: Yeah,I totally agree.I
+think like,um,networking is
+
+447
+00:28:46,983 --> 00:28:50,433
+another one of those words that
+sounds scary and it,it,it's like
+
+448
+00:28:50,433 --> 00:28:53,824
+has all this pressure associated
+with it,but really it's just
+
+449
+00:28:54,334 --> 00:28:57,034
+forming relationships and
+community.Um,and I'm really
+
+450
+00:28:57,034 --> 00:29:02,163
+grateful to vc.I feel like it's
+really helped me to expand,um,
+
+451
+00:29:02,364 --> 00:29:04,973
+And like take off some of the
+pressure of what I associated
+
+452
+00:29:04,973 --> 00:29:08,753
+with networking.Um,you're just
+meeting people and cultivating
+
+453
+00:29:08,753 --> 00:29:13,284
+relationships.Um,and that is a
+much more comfortable way of
+
+454
+00:29:13,584 --> 00:29:16,884
+forming those kind of mentoring
+relationships if you are just
+
+455
+00:29:16,884 --> 00:29:20,304
+chatting with someone and getting
+to know them as opposed to like
+
+456
+00:29:20,308 --> 00:29:22,703
+sending a cold message on
+LinkedIn of like,I want to be my
+
+457
+00:29:22,703 --> 00:29:25,644
+mentor.Like,that's,that's a lot
+of pressure if you're just
+
+458
+00:29:25,644 --> 00:29:29,243
+starting to get to know someone.
+It's a lot more of a,of a natural
+
+459
+00:29:29,243 --> 00:29:31,044
+way of forming that relationship.
+
+460
+00:29:32,314 --> 00:29:34,384
+Bekah: Yeah,and that can be
+really hard.Uh,there's a lot of
+
+461
+00:29:34,384 --> 00:29:37,713
+people that want the one-on-one
+time,and I,I do feel like
+
+462
+00:29:37,983 --> 00:29:41,943
+sometimes there's a time and a
+place for that.But group
+
+463
+00:29:41,949 --> 00:29:45,933
+mentorship in a lot of ways can
+be more impactful because you
+
+464
+00:29:45,933 --> 00:29:49,598
+hear other people asking
+questions.And I don't know,
+
+465
+00:29:49,598 --> 00:29:51,788
+there's something about that.I
+think there's a couple of things.
+
+466
+00:29:51,788 --> 00:29:55,778
+Like one,it helps you to see,it
+helps,it helped me to overcome
+
+467
+00:29:55,778 --> 00:30:00,278
+imposter syndrome.Like,oh,that
+person has that question too.Um,
+
+468
+00:30:00,338 --> 00:30:03,368
+it also helps you to learn how to
+communicate with other people
+
+469
+00:30:03,368 --> 00:30:06,788
+because you know,no matter where
+you are,you're,you need to be
+
+470
+00:30:06,788 --> 00:30:10,689
+asking questions to learn and to
+grow and what is the right way to
+
+471
+00:30:10,689 --> 00:30:13,419
+do that?I mean,there's no one
+right way,but there are
+
+472
+00:30:13,419 --> 00:30:17,288
+definitely ways that are going to
+help you progress and grow a lot
+
+473
+00:30:17,288 --> 00:30:22,263
+more.Um,if you know how to ask
+the right questions or what the
+
+474
+00:30:22,263 --> 00:30:26,223
+process looks like.And so even
+like group mentorship,actually
+
+475
+00:30:26,253 --> 00:30:29,104
+Virtual Coffee,coffee table
+groups I think are kind of a good
+
+476
+00:30:29,104 --> 00:30:32,044
+example of this cuz we have
+people at all different levels
+
+477
+00:30:32,044 --> 00:30:36,574
+who are sharing and being part of
+these groups together.And that
+
+478
+00:30:36,634 --> 00:30:43,203
+the um,diversity of level of
+folks in those groups,I think
+
+479
+00:30:43,203 --> 00:30:46,834
+allows people to learn and grow a
+a lot more.
+
+480
+00:30:47,963 --> 00:30:51,114
+Caitlin: Yeah,I totally agree.I
+think too,another benefit of
+
+481
+00:30:51,443 --> 00:30:54,294
+group mentorship as opposed to
+one-on-one is that when you're
+
+482
+00:30:54,294 --> 00:30:56,784
+getting one-on-one mentorship,
+you always have to be aware that
+
+483
+00:30:57,443 --> 00:31:02,634
+this is one person's opinion
+based on their lived experience.
+
+484
+00:31:02,844 --> 00:31:06,503
+They might have,you know,
+blinders on as to certain factors
+
+485
+00:31:06,503 --> 00:31:09,503
+that might impact you,as opposed
+to if you're getting,um,feedback
+
+486
+00:31:09,503 --> 00:31:11,963
+from a group of people,you're
+getting a,a little bit more of a
+
+487
+00:31:11,963 --> 00:31:17,013
+balanced,um,Perspective on your
+problems.And so,um,yeah,I think
+
+488
+00:31:17,013 --> 00:31:21,423
+there's a ton of benefits to
+getting,um,less conventional
+
+489
+00:31:21,634 --> 00:31:22,653
+types of mentorship.
+
+490
+00:31:25,048 --> 00:31:29,699
+Dan: Yeah,I'd agree with that.
+And,and that's like that,uh,the
+
+491
+00:31:29,699 --> 00:31:34,138
+value of like having more eyes on
+a,on a thing is,is true in,in
+
+492
+00:31:34,199 --> 00:31:37,378
+mentorship,is true in code.It's
+true in a lot of ways,you know,
+
+493
+00:31:37,378 --> 00:31:42,344
+and I think I.I mean,not to,you
+know,pump up Virtual Coffee even
+
+494
+00:31:42,344 --> 00:31:44,804
+more in our own podcast,but,you
+know,it,it's,it is one of the
+
+495
+00:31:44,804 --> 00:31:47,503
+like really awesome things,you
+know,and when we're doing,like,
+
+496
+00:31:47,503 --> 00:31:50,594
+octoberfest,right?We have people
+that have never done open source
+
+497
+00:31:50,594 --> 00:31:53,773
+before.We have people that are,
+you know,do it for their work.
+
+498
+00:31:53,834 --> 00:31:56,743
+Like all involved in the same,in
+the same thing.And,you know,a
+
+499
+00:31:56,743 --> 00:31:58,963
+nice channel where,where people
+can ask questions and all that
+
+500
+00:31:58,963 --> 00:32:01,513
+stuff.And,and you're right,you
+get,you get lots of different
+
+501
+00:32:01,513 --> 00:32:05,653
+answers.Here's what works worked
+for me.Uh,here's what worked for.
+
+502
+00:32:05,868 --> 00:32:08,989
+Five other people,right?And,uh,
+sometimes it's gonna be the same
+
+503
+00:32:08,989 --> 00:32:10,729
+answer.You know,like sometimes
+it's all just everybody's saying,
+
+504
+00:32:10,729 --> 00:32:13,128
+yes,that thing is,that thing is
+good,that solution is the right
+
+505
+00:32:13,128 --> 00:32:16,848
+one.And sometimes it's,you know,
+most times in tech or career or
+
+506
+00:32:16,848 --> 00:32:21,499
+whatever,there's not one right
+answer.And,um,the,the more,the
+
+507
+00:32:21,499 --> 00:32:23,778
+more you can get,uh,you know,
+there's diminishing returns,I
+
+508
+00:32:23,778 --> 00:32:27,078
+suppose,you know,if you ask a
+question on Twitter just for
+
+509
+00:32:27,078 --> 00:32:30,689
+everybody to answer.The,the
+results may vary,right.You know,
+
+510
+00:32:30,689 --> 00:32:34,378
+uh,but,but that's,that's the
+value of having,you know,a,a
+
+511
+00:32:34,378 --> 00:32:36,719
+smaller group or a smaller
+community where you do know
+
+512
+00:32:36,719 --> 00:32:39,298
+people and you know their
+histories and all that stuff.Um,
+
+513
+00:32:40,588 --> 00:32:41,398
+it's,it's really good.
+
+514
+00:32:41,673 --> 00:32:44,554
+Caitlin: Yeah.And getting to know
+those people over time too,so you
+
+515
+00:32:44,554 --> 00:32:49,054
+can kind of understand.Um,It
+gives you a little bit more
+
+516
+00:32:49,054 --> 00:32:51,933
+context,uh,for where they're
+coming from as opposed to like,
+
+517
+00:32:51,993 --> 00:32:55,203
+you know,going on Stack Overflow
+is not the same as going to like
+
+518
+00:32:55,203 --> 00:32:59,074
+a VC group and asking a question.
+Um,it's a lot more,um,of a
+
+519
+00:32:59,074 --> 00:33:03,634
+personalized experience.So,yeah,
+I,I think it's finding those
+
+520
+00:33:03,638 --> 00:33:10,413
+communities,um,can really help
+you to,to develop that kind of a,
+
+521
+00:33:10,743 --> 00:33:11,344
+a rapport.
+
+522
+00:33:12,429 --> 00:33:17,019
+Dan: Yeah.And the,the over time
+aspect of it I think is,is one of
+
+523
+00:33:17,023 --> 00:33:20,548
+the big,is one of the big.Pieces
+of this,right?And,and this is
+
+524
+00:33:20,548 --> 00:33:24,179
+true even with,uh,single mentor,
+you know,mentee relationship,is
+
+525
+00:33:24,509 --> 00:33:27,538
+that I think the value of it will
+increase over time,right?Uh,
+
+526
+00:33:27,568 --> 00:33:31,828
+because you both know more about
+each other.Um,and the same with
+
+527
+00:33:31,828 --> 00:33:33,838
+groups and things like that.I,
+and I think this is probably a
+
+528
+00:33:33,838 --> 00:33:38,038
+good value of,uh,collab lab too,
+right?Is is it's,it's not just a
+
+529
+00:33:38,038 --> 00:33:41,679
+one time thing or,or random
+groups.I mean,I suppose it.I
+
+530
+00:33:41,679 --> 00:33:43,628
+don't know.I don't know how they
+choose,you know who the groups
+
+531
+00:33:43,628 --> 00:33:45,548
+are,but the groups are small.
+Right?And then it's the same
+
+532
+00:33:45,548 --> 00:33:48,098
+group for eight,eight weeks.Is
+that what it is?
+
+533
+00:33:48,439 --> 00:33:49,548
+Caitlin: Yeah,it's eight weeks.
+Yep.
+
+534
+00:33:49,568 --> 00:33:52,209
+Dan: right.Yeah.And so you,you
+end up learning the same thing,
+
+535
+00:33:52,269 --> 00:33:55,209
+uh,the same kinds of things about
+the people in the group over,or I
+
+536
+00:33:55,213 --> 00:33:58,148
+would imagine,anyway.I've not,
+I've never done it.But it seems
+
+537
+00:33:58,148 --> 00:34:00,878
+like that that would be a value
+of that,of that kind of group
+
+538
+00:34:00,878 --> 00:34:05,499
+too.Um,is over time,you know,
+you,you develop those connections
+
+539
+00:34:05,499 --> 00:34:09,338
+and the,the,the answers become
+more specific,you know,uh,and
+
+540
+00:34:09,338 --> 00:34:12,103
+things like that.Um,Yeah.I,I
+
+541
+00:34:12,213 --> 00:34:12,543
+Caitlin: with that.
+
+542
+00:34:13,034 --> 00:34:15,313
+Dan: yeah.Yeah.I,I,I actually
+like speaking of collab lab,I was
+
+543
+00:34:15,313 --> 00:34:17,114
+wondering if you could talk a
+little bit more just about,
+
+544
+00:34:17,324 --> 00:34:21,043
+specifically about the
+experience,um,as a mentor,cuz you
+
+545
+00:34:21,043 --> 00:34:23,083
+were a mentor.How many times have
+you
+
+546
+00:34:24,168 --> 00:34:29,059
+Caitlin: I've mentored.Yeah,so
+I've mentored,um,a few times in a
+
+547
+00:34:29,059 --> 00:34:33,003
+few different ways.So there's.
+Two main ways that I've mentored,
+
+548
+00:34:33,063 --> 00:34:36,844
+um,as a project mentor,which is,
+uh,what you're describing where
+
+549
+00:34:36,844 --> 00:34:39,784
+there's eight weeks and you're
+paired with a small team.Um,we
+
+550
+00:34:39,789 --> 00:34:44,224
+also have,um,mentors that work
+with our,um,career lab program.
+
+551
+00:34:44,494 --> 00:34:48,634
+Um,and so that is short,a
+shorter,um,period of time and
+
+552
+00:34:48,639 --> 00:34:53,224
+more focused on helping someone
+to develop,um,either their mock
+
+553
+00:34:53,224 --> 00:34:57,844
+interview or their job interview
+skills,um,or their LinkedIn,um,
+
+554
+00:34:57,844 --> 00:35:01,833
+and things like that.Um,And so
+those are pretty different types
+
+555
+00:35:01,833 --> 00:35:06,994
+of,uh,relationships there.The,
+the career lab is a shorter term,
+
+556
+00:35:07,384 --> 00:35:10,684
+uh,relationship with a more
+focused goal of,you know,
+
+557
+00:35:10,684 --> 00:35:16,443
+developing this one part of
+someone's,um,job hunting package.
+
+558
+00:35:16,684 --> 00:35:17,313
+Um,
+
+559
+00:35:17,414 --> 00:35:19,213
+Dan: just,is that one on one or?
+
+560
+00:35:19,353 --> 00:35:23,434
+Caitlin: Yeah.Yeah.So,so there
+is,there's kind of a group,
+
+561
+00:35:23,463 --> 00:35:26,733
+there's a cohort that goes
+through career lab.Um,and then,
+
+562
+00:35:26,853 --> 00:35:30,094
+uh,each person is paired with a
+few different mentors to help
+
+563
+00:35:30,094 --> 00:35:34,503
+them with a few different pieces
+of their,um,job hunting package.
+
+564
+00:35:34,503 --> 00:35:39,003
+So they might be paired with one
+person for a mock,uh,behavioral
+
+565
+00:35:39,003 --> 00:35:42,153
+interview,another for a mock
+technical interview,and another
+
+566
+00:35:42,153 --> 00:35:45,693
+for reviewing their LinkedIn,uh,
+materials,which again,like you're
+
+567
+00:35:45,693 --> 00:35:47,989
+getting different.They're
+focusing on different things,but
+
+568
+00:35:47,989 --> 00:35:50,539
+you're still getting three
+different people's perspectives
+
+569
+00:35:50,539 --> 00:35:54,228
+and they might have different
+advice to give you.Um,so it's,
+
+570
+00:35:54,228 --> 00:35:59,119
+it's beneficial in that way.Um,
+and then,so the other,uh,type of,
+
+571
+00:35:59,358 --> 00:36:04,248
+uh,mentorship,uh,that I've gotten
+to take part in is the project
+
+572
+00:36:04,278 --> 00:36:11,179
+mentor.Um,and that too,uh,we have
+four collabs,four developers,and
+
+573
+00:36:11,179 --> 00:36:15,454
+then three mentors that are
+paired that are,um,Grouped with
+
+574
+00:36:15,454 --> 00:36:19,833
+them.Um,and so again,you're
+getting to benefit from multiple
+
+575
+00:36:19,833 --> 00:36:22,893
+people's experiences and getting
+to kind of distill that
+
+576
+00:36:22,893 --> 00:36:27,003
+information into what works for
+you.Um,and that is,uh,over eight
+
+577
+00:36:27,009 --> 00:36:29,403
+weeks.So you've got a little bit
+of time to develop re
+
+578
+00:36:29,434 --> 00:36:33,003
+relationships with them.Um,you
+can interact with them in a group
+
+579
+00:36:33,003 --> 00:36:35,764
+setting with the rest of your
+team.Um,sometimes we'll have
+
+580
+00:36:35,764 --> 00:36:39,213
+office hours so you can kind of
+talk one-on-one or ask questions.
+
+581
+00:36:39,514 --> 00:36:45,063
+Um,and so I,I,I value both types
+of,uh,relationships,but.It is
+
+582
+00:36:45,063 --> 00:36:48,784
+really nice to get to see someone
+over time.Um,you know,thinking
+
+583
+00:36:48,784 --> 00:36:51,693
+from the perspective of a mentor.
+They,they wanna help you,they
+
+584
+00:36:51,693 --> 00:36:54,184
+wanna see you growing,so it's
+kind of nice to have a longer
+
+585
+00:36:54,184 --> 00:36:57,784
+term relationship and get to see,
+um,how you're growing and
+
+586
+00:36:57,784 --> 00:37:01,204
+developing.Um,you know,hopefully
+from the benefit of their advice.
+
+587
+00:37:03,494 --> 00:37:06,074
+Dan: It sounds really awesome.It
+sounds really valuable from both
+
+588
+00:37:06,079 --> 00:37:09,103
+sides.Like it sounds valuable as
+a,as a mentee,somebody learning,
+
+589
+00:37:09,103 --> 00:37:12,224
+you know,but also,I mean,I mean,
+maybe you could speak to this,
+
+590
+00:37:12,224 --> 00:37:17,474
+but it sounds like very valuable,
+uh,as a,as a mentor,um,to,I don't
+
+591
+00:37:17,474 --> 00:37:20,143
+know,to,to learn from other
+people and,and practice this kind
+
+592
+00:37:20,143 --> 00:37:22,708
+of thing.Um,It just seems like a
+cool project,so
+
+593
+00:37:22,929 --> 00:37:26,088
+Caitlin: Yeah,totally.I think
+it's good to keep in mind for
+
+594
+00:37:26,088 --> 00:37:30,858
+mentees too,that you know,like
+what is the benefit to my mentor
+
+595
+00:37:30,918 --> 00:37:34,159
+for this?It's probably they,they
+feel good about helping you and
+
+596
+00:37:34,159 --> 00:37:37,369
+they wanna see you develop.And
+so,uh,one thing you can do to be
+
+597
+00:37:37,369 --> 00:37:40,849
+a good mentee is to demonstrate
+that,like show them,Hey,I
+
+598
+00:37:40,853 --> 00:37:44,148
+followed up on this advice and,
+and it really worked for me.Or,
+
+599
+00:37:44,358 --> 00:37:47,028
+you know,I followed up on your
+advice and I'm still struggling
+
+600
+00:37:47,028 --> 00:37:50,059
+with it.Maybe we can follow up.
+Um,thinking about that as a
+
+601
+00:37:50,059 --> 00:37:53,208
+mentee can help you to develop
+even better relationships with
+
+602
+00:37:53,208 --> 00:37:53,958
+your mentor.
+
+603
+00:37:55,293 --> 00:37:57,454
+Bekah: I love that.I don't think
+I've ever heard that advice given
+
+604
+00:37:57,454 --> 00:38:00,094
+before,but I think that's a
+really great way to look at it.
+
+605
+00:38:00,574 --> 00:38:03,664
+Um,one of the challenges that I
+see in mentor-mentee
+
+606
+00:38:03,664 --> 00:38:07,503
+relationships sometimes is that
+I.The mentee becomes too
+
+607
+00:38:07,503 --> 00:38:11,253
+dependent on the mentor.And so
+rather than spending that,
+
+608
+00:38:11,284 --> 00:38:14,764
+spending extra time,it's just
+kind of like the knee jerk
+
+609
+00:38:14,764 --> 00:38:18,273
+reaction to like,I'm stuck,I've
+gotta ask my mentor.And then just
+
+610
+00:38:18,273 --> 00:38:23,434
+that continued behavior,um,which
+makes it hard for them to grow,
+
+611
+00:38:23,494 --> 00:38:27,423
+right?Like to separate themselves
+from that relationship.And I
+
+612
+00:38:27,423 --> 00:38:32,298
+think it's also challenging as a
+mentor.To identify that and to
+
+613
+00:38:32,298 --> 00:38:35,809
+kind of like guide them in the
+right direction when you see that
+
+614
+00:38:35,809 --> 00:38:38,329
+happening.I don't know if you
+have any thoughts on that or
+
+615
+00:38:38,329 --> 00:38:41,929
+advice,but I,I think that that
+gets a little tricky.
+
+616
+00:38:42,824 --> 00:38:47,804
+Caitlin: Yeah,for sure.Um,and I,
+I can relate as someone who
+
+617
+00:38:48,074 --> 00:38:50,713
+doesn't,you know,sometimes hasn't
+always had confidence and just
+
+618
+00:38:50,713 --> 00:38:53,083
+wants to ask someone for help,
+um,I think that's a really
+
+619
+00:38:53,083 --> 00:38:57,289
+natural thing.Um,As a mentor,
+something that you can do for
+
+620
+00:38:57,289 --> 00:39:02,329
+that is maybe leaning more
+towards coaching than mentoring.
+
+621
+00:39:02,628 --> 00:39:07,039
+Um,so mentoring is generally when
+you're giving someone advice
+
+622
+00:39:07,068 --> 00:39:10,969
+based on your own experience,um,
+and,and just kind of letting them
+
+623
+00:39:10,969 --> 00:39:14,659
+use that to help solve their
+problems.Uh,whereas coaching can
+
+624
+00:39:14,659 --> 00:39:17,923
+sometimes be differentiated
+where.It's a little bit closer to
+
+625
+00:39:17,929 --> 00:39:22,034
+teaching where you're asking
+questions to help someone come to
+
+626
+00:39:22,034 --> 00:39:26,594
+their own conclusions.Um,and so,
+you know,if someone's asking you
+
+627
+00:39:26,599 --> 00:39:30,164
+like,how do I solve this problem?
+Instead of just being like,well,
+
+628
+00:39:30,164 --> 00:39:32,773
+this is what I did in the past.
+You could lean more towards
+
+629
+00:39:32,773 --> 00:39:37,003
+asking questions like,well,uh,
+what kind of documentation do we
+
+630
+00:39:37,003 --> 00:39:41,523
+think we should look for?Or,you
+know,like,what,um,What are some
+
+631
+00:39:41,523 --> 00:39:44,884
+keywords we can search for online
+to help us find a problem?Is
+
+632
+00:39:44,884 --> 00:39:48,664
+there a stack trace we can use
+to,you know,start from there and,
+
+633
+00:39:48,664 --> 00:39:52,833
+and follow up?So,um,asking
+questions is a really good way to
+
+634
+00:39:52,838 --> 00:39:56,614
+help kind of take off some of
+those training wheels and help
+
+635
+00:39:56,614 --> 00:40:00,153
+someone to start to find their
+own answers to the questions so
+
+636
+00:40:00,153 --> 00:40:03,634
+that they're able to kind of
+exercise those skills even when
+
+637
+00:40:03,634 --> 00:40:04,293
+you're not there.
+
+638
+00:40:05,115 --> 00:40:07,846
+Dan: I agree.I,I was just gonna
+say,I,I love that advice and you
+
+639
+00:40:07,846 --> 00:40:12,306
+know,it's like even,um,From a
+parenting perspective,right?I
+
+640
+00:40:12,311 --> 00:40:15,335
+have,you know,young kids and
+it's,it's the same kind of thing.
+
+641
+00:40:15,340 --> 00:40:17,646
+It's,they asks the same question
+over and over again,you know,
+
+642
+00:40:18,186 --> 00:40:22,206
+and,um,trying to pro provide for
+them,uh,the tools to figure the
+
+643
+00:40:22,210 --> 00:40:25,896
+answer out themselves,uh,
+although more complicated and
+
+644
+00:40:25,896 --> 00:40:28,775
+takes a little more effort,uh,
+you know,in the initial stages,
+
+645
+00:40:28,806 --> 00:40:34,356
+um,can yeah.Pay a lot of
+dividends,uh,in the end.So it
+
+646
+00:40:34,356 --> 00:40:38,925
+just made me think,yeah.Ben,you
+know,you know where to find out
+
+647
+00:40:38,925 --> 00:40:41,655
+what's for dinner.We,we write it
+down on the fridge.Go,go look at
+
+648
+00:40:41,655 --> 00:40:44,416
+it.Don't yell at me from the
+couch.What's for dinner?
+
+649
+00:40:47,661 --> 00:40:50,481
+Caitlin: Yeah,I'm sure as a
+parent you have those skills down
+
+650
+00:40:50,481 --> 00:40:54,411
+pat.Like if you're dealing with
+someone who has,you know,has
+
+651
+00:40:54,411 --> 00:40:58,070
+learned the life skills,it's way
+easy to just point them towards
+
+652
+00:40:58,521 --> 00:40:58,971
+just Google it.
+
+653
+00:41:00,346 --> 00:41:02,896
+Dan: Right.How would you find
+that information out
+
+654
+00:41:02,931 --> 00:41:08,900
+Bekah: ask Alexa.I need someone
+to check my math homework.Alexa
+
+655
+00:41:08,900 --> 00:41:17,481
+will check your math homework.
+Um,oh wait,I,I had an another
+
+656
+00:41:17,541 --> 00:41:21,440
+question that I don't know.I feel
+like this is a tricky topic too.
+
+657
+00:41:21,771 --> 00:41:26,240
+Um,we see a lot of people in job
+situations who are forced to
+
+658
+00:41:26,240 --> 00:41:30,735
+mentor,like,You are a senior
+developer,you must mentor this
+
+659
+00:41:30,735 --> 00:41:33,376
+junior developer because that's
+what senior developers have to
+
+660
+00:41:33,376 --> 00:41:37,905
+do.And I think,I think that
+mentorship is a skill that needs
+
+661
+00:41:38,085 --> 00:41:42,315
+to be developed,and some people
+are better at it than other
+
+662
+00:41:42,320 --> 00:41:45,976
+people.And I don't know that I
+necessarily agree with the idea
+
+663
+00:41:45,976 --> 00:41:49,190
+that.Everybody should be a
+mentor.Like we all have our
+
+664
+00:41:49,190 --> 00:41:53,811
+strengths and weaknesses,things
+that bring us joy and energy.And
+
+665
+00:41:53,840 --> 00:41:57,440
+so I don't know what your
+thoughts are on that and I feel
+
+666
+00:41:57,445 --> 00:41:59,960
+like I kind of put you on the
+spot here a little bit with that
+
+667
+00:41:59,960 --> 00:42:03,681
+question.Um,but I think that it's
+good to kind of have this
+
+668
+00:42:03,681 --> 00:42:06,621
+conversation since it's
+definitely something that we've
+
+669
+00:42:06,621 --> 00:42:08,570
+heard over and over at Virtual
+Coffee.
+
+670
+00:42:09,635 --> 00:42:13,610
+Caitlin: Yeah,for sure.I totally
+agree that.It's not a great
+
+671
+00:42:13,610 --> 00:42:16,190
+starting point.If someone is
+feeling forced into a
+
+672
+00:42:16,190 --> 00:42:19,820
+relationship with someone,that
+other person is often probably
+
+673
+00:42:19,820 --> 00:42:22,641
+gonna feel like a burden,like
+they're not wanted and,and not
+
+674
+00:42:22,641 --> 00:42:28,550
+really feel comfortable seeking
+out mentorship.Um,I,I think it is
+
+675
+00:42:28,550 --> 00:42:32,150
+a complicated issue.Um,I totally
+agree that there are skills that
+
+676
+00:42:32,150 --> 00:42:36,456
+you need to learn to be a good
+mentor.Um,and I think that,It's
+
+677
+00:42:36,456 --> 00:42:40,295
+good for there to be an
+expectation that more experienced
+
+678
+00:42:40,295 --> 00:42:43,715
+people on a team should be
+mentoring,um,less experienced
+
+679
+00:42:43,715 --> 00:42:49,835
+people.But I think that really.
+This is a,a,a kind of lofty goal,
+
+680
+00:42:49,835 --> 00:42:52,956
+but as an industry,we need to
+really value those skills that
+
+681
+00:42:52,956 --> 00:42:56,436
+are important for mentoring.If we
+think that a senior developer
+
+682
+00:42:56,436 --> 00:42:59,135
+should be mentoring,then we
+should be valuing the skills that
+
+683
+00:42:59,135 --> 00:43:02,346
+help them to be a good mentor.
+And those should be important for
+
+684
+00:43:02,346 --> 00:43:04,925
+someone to be demonstrating
+before they're getting those
+
+685
+00:43:04,925 --> 00:43:07,896
+promotions where they're going to
+have to serve as a mentor to
+
+686
+00:43:07,896 --> 00:43:12,516
+someone.So,you know,valuing those
+collaborative skills,um,you know,
+
+687
+00:43:12,516 --> 00:43:18,545
+being able to,um,see someone.
+Having an ability to teach other
+
+688
+00:43:18,545 --> 00:43:21,576
+people if they're not
+demonstrating it,their manager
+
+689
+00:43:21,576 --> 00:43:24,005
+should be helping them to develop
+those skills before they get to
+
+690
+00:43:24,005 --> 00:43:27,485
+the point of being the like
+person forced into mentorship.
+
+691
+00:43:27,516 --> 00:43:31,655
+Um,so that's,I mean,that's kind
+of like easier said than done.
+
+692
+00:43:31,835 --> 00:43:35,226
+Um,if someone is finding themself
+in a position of being forced to
+
+693
+00:43:35,226 --> 00:43:38,820
+mentor,um,there's lots of great.
+Resources out there where you can
+
+694
+00:43:38,820 --> 00:43:41,340
+learn those skills because it is,
+it,it is a skill that can be
+
+695
+00:43:41,340 --> 00:43:43,951
+learned,um,you know,if you're
+going to like lead dev or
+
+696
+00:43:43,951 --> 00:43:48,990
+something like that.And,um,
+really prioritizing those skills
+
+697
+00:43:48,990 --> 00:43:53,311
+because it's,if you want to have
+a functioning team,you need to
+
+698
+00:43:53,311 --> 00:43:57,661
+have people who are continuing to
+grow.And so it is,um,kind of
+
+699
+00:43:57,661 --> 00:44:02,226
+important for managers and other
+people like that to.To put their
+
+700
+00:44:02,226 --> 00:44:04,925
+money where their mouth is and
+value,um,those skills.And if
+
+701
+00:44:04,925 --> 00:44:09,186
+someone isn't demonstrating it to
+like invest in teaching them
+
+702
+00:44:09,186 --> 00:44:09,365
+skills.
+
+703
+00:44:11,619 --> 00:44:14,438
+Bekah: I think that's super
+important and something that's
+
+704
+00:44:14,438 --> 00:44:17,768
+overlooked.I don't know why it's
+so overlooked.I think it's like
+
+705
+00:44:17,768 --> 00:44:21,849
+similar to that idea where people
+just kind of max out and they
+
+706
+00:44:21,938 --> 00:44:25,539
+throw'em as a manager,like,okay,
+you've reached a skill level,now
+
+707
+00:44:25,539 --> 00:44:30,728
+you're a manager.And that,that's
+a different skill set and I,I
+
+708
+00:44:30,728 --> 00:44:34,869
+think it just needs to be
+recognized that.Hey,like people
+
+709
+00:44:34,869 --> 00:44:38,889
+are good at different things.We
+just need to make sure that if
+
+710
+00:44:38,889 --> 00:44:41,588
+this is the path that we're
+sending them on,that we equip
+
+711
+00:44:41,588 --> 00:44:44,739
+them to do that.And I don't think
+it should be an expectation that
+
+712
+00:44:45,039 --> 00:44:50,679
+every senior plus developer knows
+how to mentor.Um,and in fact,
+
+713
+00:44:50,679 --> 00:44:55,088
+like some of them were not
+mentored in.Anyway,uh,there have
+
+714
+00:44:55,088 --> 00:44:57,849
+definitely been people who have
+had those experiences,which makes
+
+715
+00:44:57,849 --> 00:45:01,869
+it even more challenging for them
+to learn and grow.And also,like,
+
+716
+00:45:02,259 --> 00:45:05,559
+you gotta evaluate,is this,is
+this the best person to mentor?
+
+717
+00:45:05,563 --> 00:45:08,918
+Because that idea that you talked
+about before in peer-to-peer
+
+718
+00:45:08,918 --> 00:45:14,048
+mentoring,I think that,you know
+that you can,it,I think it's
+
+719
+00:45:14,054 --> 00:45:17,858
+possible to have a junior
+developer mentor,another junior
+
+720
+00:45:17,858 --> 00:45:21,264
+developer.It's just about like,
+Looking at those skill sets,
+
+721
+00:45:21,534 --> 00:45:24,864
+looking at the communication
+skills and the collaboration and
+
+722
+00:45:25,103 --> 00:45:29,184
+does this make sense?And,you
+know,then maybe providing some
+
+723
+00:45:29,184 --> 00:45:32,724
+upper level support if there are
+questions.But I,I think that it
+
+724
+00:45:32,724 --> 00:45:36,594
+does come down to like evaluating
+that,that side of things.
+
+725
+00:45:38,054 --> 00:45:40,884
+Caitlin: Yeah,I totally agree.
+Yeah,it exactly like you said,
+
+726
+00:45:40,884 --> 00:45:44,153
+it's sometimes people.People
+shouldn't be a manager or
+
+727
+00:45:44,153 --> 00:45:47,483
+shouldn't be a mentor.Um,or maybe
+not that they shouldn't be,but
+
+728
+00:45:47,483 --> 00:45:51,264
+they're not ready yet.Uh,and need
+to be prepared for that kind of,
+
+729
+00:45:51,594 --> 00:45:55,704
+um,shift cuz it's totally
+different position than what they
+
+730
+00:45:55,733 --> 00:45:58,824
+have been doing before,what
+they've been evaluated on before.
+
+731
+00:45:59,123 --> 00:46:02,123
+And you can't just say,oh well,
+like this person's good at
+
+732
+00:46:02,123 --> 00:46:05,094
+juggling,so let's go make them a
+lion tamer.Like that doesn't make
+
+733
+00:46:05,094 --> 00:46:09,503
+any sense.Um,you need to evaluate
+the skills needed to do a job.
+
+734
+00:46:09,503 --> 00:46:09,563
+Yeah.
+
+735
+00:46:12,204 --> 00:46:16,134
+Bekah: Okay.Before we go,
+Caitlyn,I've got one last
+
+736
+00:46:16,134 --> 00:46:19,983
+question for you.I'm just trying
+to pick what is the right one.
+
+737
+00:46:21,688 --> 00:46:24,237
+We'll end on a positive note cuz
+my other question was a little
+
+738
+00:46:24,237 --> 00:46:30,867
+bit negative.Um,uh,what are some
+tips or,uh,some bits of advice
+
+739
+00:46:30,867 --> 00:46:35,307
+that you have for mentors to be
+able to help their mentees kind
+
+740
+00:46:35,307 --> 00:46:38,538
+of level up setting,whether
+that's setting career goals,
+
+741
+00:46:39,418 --> 00:46:42,507
+learning something new,or landing
+that first job.
+
+742
+00:46:44,847 --> 00:46:51,597
+Caitlin: Ooh,good question.Um,so
+I think two things I'll say.One
+
+743
+00:46:51,597 --> 00:46:57,943
+is that,um,if you're a mentor,
+really I.Try to put a lot of
+
+744
+00:46:57,943 --> 00:47:01,663
+energy into listening to the
+mentee before you're jumping in
+
+745
+00:47:01,663 --> 00:47:04,512
+and like giving them advice.Make
+sure you're listening to the
+
+746
+00:47:04,512 --> 00:47:07,842
+problems that they're actually
+wanting to solve,um,and not just
+
+747
+00:47:07,842 --> 00:47:10,992
+assuming that they want to do the
+exact same thing that you've
+
+748
+00:47:10,992 --> 00:47:15,282
+done.Uh,because I think we all
+have experience,uh,giving or
+
+749
+00:47:15,282 --> 00:47:19,362
+receiving unwanted advice,and
+it's not,you know,it,it's not
+
+750
+00:47:19,362 --> 00:47:21,523
+really helpful to anyone.So
+making sure that you are
+
+751
+00:47:21,523 --> 00:47:26,833
+understanding what kind of advice
+someone wants,um,before you.Jump
+
+752
+00:47:26,833 --> 00:47:32,143
+into providing feedback.The other
+thing I'll say is that,um,again,
+
+753
+00:47:33,193 --> 00:47:38,563
+try not to think of mentorship as
+this huge thing,like this huge
+
+754
+00:47:38,568 --> 00:47:43,963
+responsibility of like a huge
+commitment.Um,it can be a lot
+
+755
+00:47:43,963 --> 00:47:47,143
+more manageable if you break it
+down.You can,you can really help
+
+756
+00:47:47,143 --> 00:47:52,632
+someone.Um,By,you know,thinking,
+identifying a small problem that
+
+757
+00:47:52,632 --> 00:47:56,413
+they're having and giving them
+advice to solve that problem,um,
+
+758
+00:47:57,492 --> 00:48:00,313
+can be just as beneficial as,as
+finding a big problem and,and
+
+759
+00:48:00,313 --> 00:48:04,302
+helping them work through it,
+like whatever your capacity is.
+
+760
+00:48:04,302 --> 00:48:09,507
+Finding ways of helping people,I
+think is,um,Just start there.
+
+761
+00:48:10,228 --> 00:48:13,228
+And,um,yeah,whether it's
+mentorship or sponsorship as
+
+762
+00:48:13,228 --> 00:48:16,768
+well,you can also,um,be really
+helpful in like,providing
+
+763
+00:48:16,768 --> 00:48:20,967
+opportunities for people.Um,or,
+you know,like opening a door for
+
+764
+00:48:20,967 --> 00:48:27,228
+someone.Um,try not to think of it
+as a huge undertaking.Try and
+
+765
+00:48:27,233 --> 00:48:30,943
+just start with baby steps
+because that's,uh,A more
+
+766
+00:48:31,603 --> 00:48:35,353
+approachable way of,um,getting
+into mentoring and it's,it's
+
+767
+00:48:35,353 --> 00:48:37,273
+really gonna help someone.If
+you're anything is better than
+
+768
+00:48:37,273 --> 00:48:42,492
+nothing,well usually,uh,any
+giving,giving help,uh,whether
+
+769
+00:48:42,498 --> 00:48:48,853
+small or large,uh,is,is,uh,gonna
+help benefit someone,but be
+
+770
+00:48:48,853 --> 00:48:49,422
+mindful about it.
+
+771
+00:48:50,922 --> 00:48:52,782
+Bekah: I am glad I,I chose that
+question cuz that was a really
+
+772
+00:48:52,782 --> 00:48:56,202
+good way to,uh,end the episode.
+You did a really good job of
+
+773
+00:48:56,713 --> 00:48:59,202
+answering that question and
+sharing some things to think
+
+774
+00:48:59,202 --> 00:49:02,293
+about.So thanks Caitlyn so much
+for being here with us today and
+
+775
+00:49:02,297 --> 00:49:04,902
+talking about mentorship.We're
+happy to have you on the podcast.
+
+776
+00:49:05,668 --> 00:49:06,358
+Caitlin: Thanks for having me.
+
+777
+00:49:06,788 --> 00:49:12,914
+Dan: Thanks,Caitlin.Thank you so
+much for listening to this
+
+778
+00:49:12,914 --> 00:49:16,304
+episode of the Virtual Coffee
+Podcast.This episode was produced
+
+779
+00:49:16,304 --> 00:49:19,304
+by Dan Ott and Bekah Hawrot
+Weigel,and edited by Ashley
+
+780
+00:49:19,304 --> 00:49:21,855
+Mulder.If you have questions or
+comments,you can hit us up on
+
+781
+00:49:21,855 --> 00:49:25,925
+Twitter@VirtualCoffeeIO or email
+us at podcast@virtualcoffee.io.
+
+782
+00:49:26,474 --> 00:49:28,905
+You can find the show notes,sign
+up for the newsletter,buy some VC
+
+783
+00:49:28,905 --> 00:49:31,364
+merch,and check out all of our
+other resources on our website,
+
+784
+00:49:31,364 --> 00:49:34,724
+virtualcoffee.io.If you're
+interested in sponsoring virtual
+
+785
+00:49:34,730 --> 00:49:37,840
+Coffee,you can find out more
+information on our website at
+
+786
+00:49:37,840 --> 00:49:41,061
+virtualcoffee.io/sponsorship.
+Please subscribe to our podcast
+
+787
+00:49:41,061 --> 00:49:43,731
+and be sure to leave us a review.
+Thanks for listening and we'll
+
+788
+00:49:43,731 --> 00:49:44,661
+see you next week.
