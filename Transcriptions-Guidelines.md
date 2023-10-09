@@ -16,12 +16,11 @@ Those utterances are:
 
 ## Table of Contents
 
-- [⚠️ Important to read before improving transcripts](#⚠️-important-to-read-before-improving-transcripts)
+- [⚠️ Important to read before improving transcripts](#%EF%B8%8F-important-to-read-before-improving-transcripts)
   - [Colons](#colons-)
   - [Timestamp](#timestamp)
   - [Paragraph](#paragraph)
-  - [Speaker Labels](#speaker-labels)
-- [🖊️ Formatting](#🖊️-formatting)
+- [🖊️ Formatting](#%EF%B8%8F-formatting)
   - [Double Quotations Marks ("")](#double-quotations-marks-)
   - [Comma (,)](#comma-)
   - [Single Dash (-)](#single-dash--)
@@ -30,8 +29,8 @@ Those utterances are:
   - [Ellipsis ( ... )](#ellipsis---)
   - [Capitalization](#capitalization)
   - [Non-Text Audio](#non-text-audio)
-- [📝 Other Notes](#📝-other-notes)
-- [📚 Resources](#📚-resources)
+- [📝 Other Notes](#-other-notes)
+- [📚 Resources](#-resources)
 
 ---
 
