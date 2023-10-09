@@ -16,12 +16,12 @@ Those utterances are:
 
 ## Table of Contents
 
-- [⚠️ Important to read before improving transcripts](#%EF%B8%8F-important-to-read-before-improving-transcripts)
+- [⚠️ Important to read before improving transcripts](#⚠️-important-to-read-before-improving-transcripts)
   - [Colons](#colons-)
-  - [Paragraph](#paragraph)
   - [Timestamp](#timestamp)
+  - [Paragraph](#paragraph)
   - [Speaker Labels](#speaker-labels)
-- [🖊️ Formatting](#%EF%B8%8F-formatting)
+- [🖊️ Formatting](#🖊️-formatting)
   - [Double Quotations Marks ("")](#double-quotations-marks-)
   - [Comma (,)](#comma-)
   - [Single Dash (-)](#single-dash--)
@@ -30,15 +30,25 @@ Those utterances are:
   - [Ellipsis ( ... )](#ellipsis---)
   - [Capitalization](#capitalization)
   - [Non-Text Audio](#non-text-audio)
-- [📝 Other Notes](#-other-notes)
-- [📚 Resources](#-resources)
+- [📝 Other Notes](#📝-other-notes)
+- [📚 Resources](#📚-resources)
 
-## ⚠️ Important to read before improving transcripts
+---
+
+## ⚠️ Important to Read Before Improving Transcripts
 
 ### Colons (:)
 
 **Do not use colons (`:`) anywhere except in the timestamp and directly after the speaker label.** The way that Buzzsprout processes `.srt` files results in errors or misparsed speaker names if colons are present in the text.
 Most times, we can use an [em dash (–)](#em-dash-).
+
+### Timestamp
+
+- Make sure to always **include the three digits after the comma**. Write `000` if it's unknown, but ensure the end time is later than the start time.
+
+  ```text
+  04:05:20,000 --> 04:05:21,638
+  ```
 
 ### Paragraph
 
@@ -55,26 +65,7 @@ Most times, we can use an [em dash (–)](#em-dash-).
   to that talk.
 ```
 
-### Timestamp
-
-- Make sure to always **include the three digits after the comma**. Write `000` if it's unknown, but ensure the end time is later than the start time.
-
-  `04:05:20,000 --> 04:05:21,638`
-
-### Speaker Labels
-
-1. Use the speaker's full name on their first reference.
-2. Use the speaker’s first name for the rest of the transcription.
-
-```text
-  Bekah Hawrot Weigel: Hello, and welcome to Season 1, Episode 1 of the Virtual Coffee podcast. With me today is my co-host, Dan.
-
-  Dan Ott: Hey, Bekah. How are you doing?
-
-  Bekah: I'm doing good. How about you?
-
-  Dan: I'm great.
-```
+---
 
 ## 🖊️ Formatting
 
