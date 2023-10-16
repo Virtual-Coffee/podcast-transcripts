@@ -1,6 +1,6 @@
 1
 00:00:05,758 --> 00:00:07,452
-Bekah: Hello and welcome to
+Bekah Hawrot Weigel: Hello and welcome to
 season four, episode seven of
 
 2
@@ -51,7 +51,7 @@ cohost Dan.
 
 12
 00:00:31,096 --> 00:00:33,795
-Dan: Thanks Bekah. Today, we had
+Dan Ott: Thanks Bekah. Today, we had
 a great time hanging out with
 
 13
@@ -61,7 +61,7 @@ self-taught developer and staff
 
 14
 00:00:37,426 --> 00:00:39,345
-author for the freeCodeCamp news
+author for the FreeCodeCamp news
 publication. Jessica talked
 
 15
@@ -90,37 +90,37 @@ your tech writing by eliminating
 20
 00:00:53,746 --> 00:00:57,886
 assumptions about your audience.
-And avoiding terms. Uh, like
+And avoiding terms, like
 
 21
 00:00:58,305 --> 00:01:01,786
 "it's so easy" and "just do
-this." Uh, she gave some tips,
+this." she gave some tips,
 
 22
 00:01:01,786 --> 00:01:04,695
 like adding a prerequisites to
-your posts or, uh, other
+your posts or, other
 
 23
 00:01:04,725 --> 00:01:10,635
-resources. Um, Basically, um,
+resources. Basically,
 Outlined her entire process for
 
 24
 00:01:10,665 --> 00:01:13,846
 all of her tech writing that she
-does. And, uh, she does a lot of
+does. And, she does a lot of
 
 25
 00:01:13,846 --> 00:01:16,995
 it and it's all pretty awesome.
-Um it was a really great
+it was a really great
 
 26
 00:01:17,025 --> 00:01:19,906
 conversation and i know you were
-going to enjoy it
+going to enjoy it.
 
 27
 00:01:20,287 --> 00:01:22,867
@@ -143,7 +143,7 @@ hope
 
 31
 00:01:29,677 --> 00:01:40,533
-you enjoy this episode. My name
+you enjoy this episode. [music] My name
 is Bekah. I am a front end
 
 32
@@ -163,7 +163,7 @@ name is Dan. I am a front end
 35
 00:01:51,343 --> 00:01:56,143
 developer from Cleveland, Ohio.
-And, um, yeah, my, my favorite
+And, yeah, my, my favorite
 
 36
 00:01:56,143 --> 00:01:59,173
@@ -173,7 +173,7 @@ if I had to pick one, it would,
 37
 00:01:59,352 --> 00:02:02,352
 it would be Return of the Jedi.
-Um, yeah. As, as a child, I
+yeah. As, as a child, I
 
 38
 00:02:02,362 --> 00:02:06,692
@@ -182,11 +182,11 @@ So it's easy choice for me.
 
 39
 00:02:06,798 --> 00:02:07,668
-Bekah: The solid choice.
+Bekah: It's a solid choice.
 
 40
 00:02:08,897 --> 00:02:13,638
-Jessica: Sounds pretty good. Hi,
+Jessica Wilkins: Sounds pretty good. Hi,
 I am Jessica Wilkins and I am a
 
 41
@@ -196,7 +196,7 @@ am also a technical writer for
 
 42
 00:02:17,418 --> 00:02:21,948
-freeCodeCamp News. my favorite
+FreeCodeCamp News. my favorite
 movie was actually the Toy Story
 
 43
@@ -206,11 +206,11 @@ but all four of them are
 
 44
 00:02:23,868 --> 00:02:25,788
-amazing.
+amazing there.
 
 45
 00:02:26,992 --> 00:02:28,457
-Dan: Those are on big rotation
+Dan: Nice, those are on big rotation
 at our house with, with our
 
 46
@@ -219,8 +219,8 @@ kids.
 
 47
 00:02:29,923 --> 00:02:32,103
-Uh, we also enjoy them. They're
-solid.
+We also enjoy them. They're
+[crosstalk] solid.
 
 48
 00:02:32,103 --> 00:02:35,818
@@ -229,7 +229,7 @@ Andy went to college, I bawled
 
 49
 00:02:35,848 --> 00:02:38,877
-like a little baby. I was like,
+like a little baby. I'm like,
 oh my gosh, he can't leave. And
 
 50
@@ -256,7 +256,7 @@ discourage that. That's I
 
 55
 00:02:45,897 --> 00:02:46,867
-started
+Toy Story
 
 56
 00:02:46,867 --> 00:02:49,048
@@ -266,7 +266,7 @@ discourage Toy Story 3 just
 57
 00:02:49,048 --> 00:02:52,298
 because it. It's very good. It's
-about it is emotionally, uh,
+about it is emotionally,
 
 58
 00:02:52,418 --> 00:02:52,867
@@ -306,7 +306,7 @@ kids. Cause like I just find
 
 66
 00:03:10,402 --> 00:03:13,223
-myself being, you know, uh,
+myself being, you know,
 affected by this stuff in
 
 67
@@ -326,7 +326,7 @@ novels. I read. As like a young
 70
 00:03:23,117 --> 00:03:29,867
 adult to my kids. I, because I
-always young adult fiction and I
+always loved young adult fiction and I
 
 71
 00:03:29,867 --> 00:03:35,027
@@ -350,7 +350,7 @@ very different, lots of crying
 
 75
 00:03:47,867 --> 00:03:49,358
-and young adult novel reading.
+and young adult novel reading too.
 
 76
 00:03:49,358 --> 00:03:53,043
@@ -369,11 +369,11 @@ identifying much more with
 
 79
 00:04:02,052 --> 00:04:02,962
-parents.
+the parents. Anyway,
 
 80
 00:04:03,872 --> 00:04:05,372
-Bekah: Um, welcome. Jessica is
+Bekah: Welcome. Jessica it's
 so great to have you here with
 
 81
@@ -445,7 +445,7 @@ blogging challenge and our goal
 95
 00:04:51,017 --> 00:04:55,757
 was hit 50,000 words. That's
-what, uh, as a community, that's
+what, as a community, that's
 
 96
 00:04:55,757 --> 00:04:57,062
@@ -458,12 +458,12 @@ it,
 
 98
 00:04:58,968 --> 00:05:03,348
-this year the, today is Tuesday,
+but this year in, today is Tuesday,
 November 9th. We have already
 
 99
 00:05:03,918 --> 00:05:06,408
-have we, where are we at? We're
+have we? where are we at? We're
 past halfway.
 
 100
@@ -483,7 +483,7 @@ Dan: Yep. Over well, over
 
 103
 00:05:15,577 --> 00:05:16,208
-Jessica: Oh, cool.
+Jessica: Oh, cool. cool.
 
 104
 00:05:17,148 --> 00:05:18,857
@@ -507,7 +507,7 @@ awesome one. So tell us a little
 108
 00:05:28,487 --> 00:05:32,517
 bit about how you got to this
-point your career.
+point in your career.
 
 109
 00:05:33,127 --> 00:05:36,603
@@ -534,8 +534,8 @@ And,
 
 114
 00:05:44,793 --> 00:05:47,297
-uh, grew up with a single mom
-who was a teacher. And so. Uh, I
+grew up with a single mom
+who was a teacher. And so. I
 
 115
 00:05:47,297 --> 00:05:49,801
@@ -553,7 +553,7 @@ early on, I decided I'm going to
 
 118
 00:05:56,822 --> 00:06:00,632
-be a professional musician. Uh,
+be a professional musician.
 and so I started with piano and
 
 119
@@ -572,7 +572,7 @@ didn't really like it. Cause I
 
 122
 00:06:08,642 --> 00:06:09,752
-didn't sound that good at it,
+didn't sound that good at it, [chuckles]
 
 123
 00:06:10,577 --> 00:06:10,757
@@ -609,7 +609,7 @@ that
 130
 00:06:23,762 --> 00:06:27,273
 route and be a classical
-professional musician. so, uh,
+professional musician. and so,
 
 131
 00:06:27,273 --> 00:06:31,142
@@ -619,7 +619,7 @@ from high school, I went on to
 132
 00:06:31,353 --> 00:06:33,348
 Eastman School of Music, which
-is in Rochester, New York, uh,
+is in Rochester, New York,
 
 133
 00:06:33,348 --> 00:06:35,343
@@ -674,12 +674,12 @@ run
 
 144
 00:07:03,048 --> 00:07:08,362
-that. And then also, uh, perform
-and freelance and so. Uh, from
+that. And then also, perform
+and freelance and so. from
 
 145
 00:07:08,362 --> 00:07:14,723
-2015 to 2020, uh, all I did was
+2015 to 2020, all I did was
 perform and record and run my
 
 146
@@ -694,7 +694,7 @@ all that fun stuff. And then
 
 148
 00:07:21,068 --> 00:07:23,723
-changed.
+[chuckles] changed.
 
 149
 00:07:23,723 --> 00:07:28,642
@@ -722,7 +722,7 @@ then
 
 154
 00:07:40,668 --> 00:07:45,617
-in June of 2020, um, you know,
+in June of 2020, you know,
 US was going through a lot with
 
 155
@@ -751,7 +751,7 @@ huge
 
 160
 00:08:00,182 --> 00:08:02,282
-diversity problem, with, uh,
+diversity problem, with,
 with black representation,
 
 161
@@ -833,12 +833,12 @@ I'm at now.
 
 178
 00:08:41,633 --> 00:08:44,023
-Bekah: awesome. Does that site
+Bekah: That's so awesome. Does that site
 still exist out there?
 
 179
 00:08:44,842 --> 00:08:46,987
-Jessica: So I created, um,
+Jessica: Yes, so I created,
 version one about six months
 
 180
@@ -858,7 +858,7 @@ and Vanilla JavaScript. and then
 183
 00:08:58,222 --> 00:09:02,898
 I revisited it a few months ago,
-um, over the summer of 2021
+over the summer of 2021
 
 184
 00:09:03,768 --> 00:09:07,067
@@ -872,7 +872,7 @@ more games and all of this fun
 
 186
 00:09:11,597 --> 00:09:15,378
-stuff. yeah, so this was always
+stuff. and yeah, so this was always
 like a passion project. And so I
 
 187
@@ -896,9 +896,17 @@ happened. I wildly miss,
 understood how COVID works. I
 
 191
-00:09:29,957 --> 00:09:32,388
+00:09:29,957 --> 00:09:31,000
 totally thought this was just
 going to be like a couple of
+
+191
+00:09:31,001 --> 00:09:31,005
+Bekah: same
+
+191
+00:09:31,957 --> 00:09:32,388
+Dan: everyone did.
 
 192
 00:09:32,388 --> 00:09:36,918
@@ -908,7 +916,7 @@ wrong. So, but, and then I ended
 193
 00:09:36,918 --> 00:09:40,727
 up starting to get developer
-work, uh, and that was kinda
+work, and that was kinda
 
 194
 00:09:40,758 --> 00:09:44,238
@@ -931,7 +939,7 @@ there. So yeah.
 198
 00:09:49,648 --> 00:09:55,148
 Bekah: That is so awesome. So,
-um, that project is an open
+that project is an open
 
 199
 00:09:55,148 --> 00:09:56,018
@@ -949,7 +957,7 @@ source. It's a, anybody could
 
 202
 00:10:03,148 --> 00:10:05,698
-like in there and if they want
+like dive in there and if they want
 to contribute there, I'm pretty
 
 203
@@ -968,7 +976,7 @@ awesome. And again, those links
 206
 00:10:12,847 --> 00:10:21,243
 will be in the show notes I just
-think seem like. Uh, so driven
+think seem like. So driven
 
 207
 00:10:21,243 --> 00:10:25,773
@@ -991,7 +999,7 @@ and that's not an easy thing. So
 
 211
 00:10:34,743 --> 00:10:38,192
-you have this, um, I don't know,
+you have this, I don't know,
 Tenacity or, or something. How
 
 212
@@ -1016,7 +1024,7 @@ were single parents. And so one
 
 216
 00:10:54,302 --> 00:10:56,522
-was by choice. my mom, uh,
+was by choice. my mom,
 worked as a teacher for many
 
 217
@@ -1030,7 +1038,7 @@ she wanted to adopt and have a
 
 219
 00:11:01,442 --> 00:11:04,712
-child. Um, and so, uh, she had
+child. and so, she had
 me when she was like 44 or 45.
 
 220
@@ -1039,7 +1047,7 @@ And
 
 221
 00:11:07,982 --> 00:11:12,452
-then with my grandmother, uh,
+then with my grandmother,
 she was married, but it was
 
 222
@@ -1055,7 +1063,7 @@ kids by herself and was also a
 224
 00:11:19,263 --> 00:11:22,052
 teacher. but then went on to,
-um, you know, own land in
+you know, own land in
 
 225
 00:11:22,052 --> 00:11:24,841
@@ -1064,7 +1072,7 @@ certain
 226
 00:11:24,842 --> 00:11:29,373
 parts of California and just be
-fiercely independent. so I just
+fiercely independent. and so I just
 
 227
 00:11:29,373 --> 00:11:31,952
@@ -1120,7 +1128,7 @@ in to. The conservatory I was,
 
 238
 00:11:56,943 --> 00:11:59,253
-it
+but it
 
 239
 00:11:59,253 --> 00:12:04,173
@@ -1139,7 +1147,7 @@ my
 242
 00:12:08,903 --> 00:12:11,673
 dream schools. So at first I was
-like, well maybe I'll just start
+like, well maybe I'm just not
 
 243
 00:12:11,673 --> 00:12:15,423
@@ -1149,7 +1157,7 @@ rejections from other schools.
 244
 00:12:15,663 --> 00:12:19,232
 But then at the very end I was
-accepted, uh, to Eastman. And
+accepted, to Eastman. And
 
 245
 00:12:19,232 --> 00:12:21,423
@@ -1167,16 +1175,16 @@ So that worked out.
 
 248
 00:12:26,368 --> 00:12:28,318
-Dan: awesome. Oh, um, the oboe
+Dan: awesome. Oh, the oboe
 is an interesting choice. What,
 
 249
 00:12:28,318 --> 00:12:30,268
-uh,
+
 
 250
 00:12:30,298 --> 00:12:33,057
-w w do you have any reason why,
+w- w- do you have any reason why,
 like, what made you like lean
 
 251
@@ -1195,8 +1203,8 @@ that.
 
 254
 00:12:38,538 --> 00:12:40,638
-Jessica: so I didn't actually
-choose it. Um,
+Jessica: yeah so I didn't actually
+choose it.
 
 255
 00:12:41,177 --> 00:12:41,388
@@ -1205,7 +1213,7 @@ Dan: Sure.
 256
 00:12:42,347 --> 00:12:44,282
 Jessica: I didn't choose it.
-Yeah. um, I was learning piano
+Yeah. I was learning piano
 
 257
 00:12:44,282 --> 00:12:46,217
@@ -1214,7 +1222,7 @@ in
 258
 00:12:46,217 --> 00:12:50,052
 elementary school, and then I
-tried to pick up trumpet. That
+tried to pick up trumpet. But That
 
 259
 00:12:50,143 --> 00:12:52,993
@@ -1229,7 +1237,7 @@ to be in band because all my
 261
 00:12:56,562 --> 00:13:00,913
 friends were in band and I loved
-music. so I asked the, uh, band
+music. so I asked the, band
 
 262
 00:13:00,913 --> 00:13:03,102
@@ -1263,7 +1271,7 @@ You
 268
 00:13:18,567 --> 00:13:21,658
 know, blow and just how you make
-an abasured. And I did that and
+an embouchure. And I did that and
 
 269
 00:13:21,658 --> 00:13:23,998
@@ -1357,7 +1365,7 @@ like fight it there, so.
 
 288
 00:14:10,113 --> 00:14:12,932
-Bekah: Oldest is learning their
+Bekah: My oldest is learning the
 trombone because someone gave us
 
 289
@@ -1394,7 +1402,7 @@ your
 296
 00:14:27,312 --> 00:14:31,602
 you've had this history of
-teaching in your family, it
+teaching in your family, and it
 
 297
 00:14:31,602 --> 00:14:35,052
@@ -1431,7 +1439,7 @@ you've learned from your mom and
 
 304
 00:14:51,557 --> 00:14:56,447
-your grandmother, um, or is it
+your grandmother, or is it
 something that you thought you
 
 305
@@ -1441,7 +1449,7 @@ acquire that skill?
 
 306
 00:14:59,993 --> 00:15:02,647
-Jessica: Yeah, I you know what I
+Jessica: Yeah, I, I you really know when I
 was teaching beginners, there's
 
 307
