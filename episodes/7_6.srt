@@ -1,0 +1,4375 @@
+1
+00:00:08,961 --> 00:00:12,861
+Bekah: hello and welcome to
+season seven,episode six of the
+
+2
+00:00:12,861 --> 00:00:18,163
+Virtual Coffee Podcast.I'm Bekah,
+and this is a podcast that
+
+3
+00:00:18,163 --> 00:00:21,913
+features members of the Virtual
+Coffee community.Virtual Coffee
+
+4
+00:00:21,913 --> 00:00:24,702
+is an intimate group of
+developers at all stages of their
+
+5
+00:00:24,702 --> 00:00:28,033
+coding journey,and they're here
+on this podcast sharing their
+
+6
+00:00:28,033 --> 00:00:31,632
+stories and what they've learned,
+and we are here to share it with
+
+7
+00:00:31,632 --> 00:00:34,243
+you.Here with me today is my
+co-host.
+
+8
+00:00:36,298 --> 00:00:37,677
+Dan: What up,Bek?How's it going?
+
+9
+00:00:38,023 --> 00:00:39,703
+Bekah: Hey,it's going okay.
+
+10
+00:00:40,347 --> 00:00:41,067
+Dan: Going all right today.
+
+11
+00:00:41,472 --> 00:00:42,493
+Bekah: Just,just,all right.
+
+12
+00:00:42,883 --> 00:00:43,482
+Dan: Just chilling.
+
+13
+00:00:43,753 --> 00:00:44,173
+Bekah: Yep.
+
+14
+00:00:44,832 --> 00:00:49,963
+Dan: Um,well,glad to hear it.Uh,
+yeah.Um,today we are speaking
+
+15
+00:00:49,963 --> 00:00:53,802
+with Arthur Doler,who has,uh,
+been a Virtual Coffee member for
+
+16
+00:00:53,802 --> 00:00:58,093
+a while and he's been a software
+engineer for a long time.Uh,
+
+17
+00:00:58,302 --> 00:01:01,482
+well,let's see,his bio says19
+years,so that's,that's a pretty
+
+18
+00:01:01,482 --> 00:01:04,483
+long time.Um,and he's worked on a
+bunch of different things over
+
+19
+00:01:04,483 --> 00:01:08,923
+his career and he's also gotten
+into,um,mental health advocacy,
+
+20
+00:01:09,022 --> 00:01:11,423
+during his career.So,uh,
+especially related to tech stuff,
+
+21
+00:01:11,423 --> 00:01:15,703
+I think,um,although maybe not
+exclusively tech related mental
+
+22
+00:01:15,703 --> 00:01:18,793
+health stuff,but,um,he's done a
+lot of blog posts and talks about
+
+23
+00:01:18,793 --> 00:01:21,643
+mental health,uh,over the last
+few years.It's,it's been really
+
+24
+00:01:21,643 --> 00:01:23,683
+cool.It's one of the things that
+caught my eye about Arthur when
+
+25
+00:01:23,683 --> 00:01:28,783
+he joined the community,uh,
+joined Virtual Coffee was his
+
+26
+00:01:28,783 --> 00:01:31,513
+work and his thoughts in that
+area.Uh,and we talked about a
+
+27
+00:01:31,513 --> 00:01:32,862
+lot,uh,in it was.
+
+28
+00:01:33,582 --> 00:01:37,093
+Bekah: Yeah,I actually got the
+chance to meet Arthur last year
+
+29
+00:01:37,753 --> 00:01:40,483
+to one of his talks that we've
+included in the show notes about
+
+30
+00:01:40,483 --> 00:01:44,082
+burnout.And one of the things
+that I love about Arthur and
+
+31
+00:01:44,082 --> 00:01:47,022
+talking to him is I will always
+learn something in those
+
+32
+00:01:47,022 --> 00:01:51,013
+conversations.He'll teach me
+something about mental health and
+
+33
+00:01:51,373 --> 00:01:55,183
+I,it's from a perspective that I
+might not have known had I not
+
+34
+00:01:55,183 --> 00:01:58,783
+had that conversation or heard
+what he said,and I know.Now that
+
+35
+00:01:58,783 --> 00:02:02,772
+as I'm kind of transitioning and
+looking for a new job,I've taken
+
+36
+00:02:02,772 --> 00:02:06,462
+a lot of what he's taught me in
+that talk about burnout and kind
+
+37
+00:02:06,462 --> 00:02:09,252
+of applied it to the process that
+I'm going through right now.And
+
+38
+00:02:09,252 --> 00:02:12,733
+so it,it's great to be able to
+talk a little bit about that,
+
+39
+00:02:12,733 --> 00:02:16,872
+but,um,about a lot of different
+aspects of mental health in this
+
+40
+00:02:16,877 --> 00:02:17,413
+episode today.
+
+41
+00:02:18,277 --> 00:02:21,217
+Dan: Yeah,totally.And we,we
+talked a lot about,um,we also got
+
+42
+00:02:21,217 --> 00:02:27,668
+into the idea of the,the human
+sort of network that is a
+
+43
+00:02:27,673 --> 00:02:31,057
+company,right?And,and how a,a
+company or a,a team or whatever
+
+44
+00:02:31,057 --> 00:02:34,138
+isn't just.Some sort of plug and
+play thing.And it's not just a
+
+45
+00:02:34,138 --> 00:02:36,717
+machine,right?It's a bunch of
+people and they all work
+
+46
+00:02:36,717 --> 00:02:40,108
+differently.Managers work
+differently,uh,contributors work
+
+47
+00:02:40,108 --> 00:02:44,008
+differently,and it all has to
+work together somehow.Right.And,
+
+48
+00:02:44,008 --> 00:02:47,608
+um,so we,we talked a lot about
+some,some of that,uh,the mental
+
+49
+00:02:47,612 --> 00:02:52,187
+health,uh,vis-a-vis management
+and,and how it's sometimes hard
+
+50
+00:02:52,187 --> 00:02:54,467
+to forget when you're having an
+issue with somebody that,that
+
+51
+00:02:54,527 --> 00:02:57,138
+they have all these feelings and,
+and motivations and,uh,
+
+52
+00:02:57,138 --> 00:03:01,277
+everything too.And usually it's
+very easy to like villainize
+
+53
+00:03:01,638 --> 00:03:05,568
+somebody,who you're having issues
+with.And,um,how that's not always
+
+54
+00:03:05,568 --> 00:03:08,538
+the most helpful,helpful thing in
+the world.although it can feel
+
+55
+00:03:08,538 --> 00:03:10,848
+good,you know,in the moment when
+you're doing some bending,but,
+
+56
+00:03:10,877 --> 00:03:14,358
+uh,to actually move forward,
+right?There's,there's like needs
+
+57
+00:03:14,358 --> 00:03:17,457
+that connection and the empathy
+between,between two.as opposed to
+
+58
+00:03:17,457 --> 00:03:20,937
+just manager and reportee,you
+know?Um,so
+
+59
+00:03:21,168 --> 00:03:25,877
+Bekah: Yeah.Yeah.That of
+motivation is.Arthur had some new
+
+60
+00:03:25,877 --> 00:03:29,418
+takes on it that I hadn't heard,
+that I know that actually I was
+
+61
+00:03:29,418 --> 00:03:33,647
+like just looking at my,my
+reading list of books that I want
+
+62
+00:03:33,647 --> 00:03:36,497
+to read in the next couple weeks.
+And there were a couple of them I
+
+63
+00:03:36,502 --> 00:03:40,038
+think that he mentioned that I
+have on there too.And so,uh,
+
+64
+00:03:40,043 --> 00:03:43,217
+hopefully you'll find some
+resources here.You'll find some
+
+65
+00:03:43,217 --> 00:03:48,108
+new ideas,exploring motivation,
+exploring mental health and all
+
+66
+00:03:48,108 --> 00:03:50,717
+of the things that we talked
+about that maybe can be applied
+
+67
+00:03:50,723 --> 00:03:50,927
+to your.
+
+68
+00:03:51,948 --> 00:03:52,397
+Dan: Totally.
+
+69
+00:03:53,448 --> 00:03:56,448
+Bekah: So we start every episode
+of the podcast,like we start
+
+70
+00:03:56,448 --> 00:03:59,448
+every Virtual Coffee.We introduce
+ourselves with our name,where
+
+71
+00:03:59,453 --> 00:04:03,078
+we're from,what we do,and a
+random check-in question.We hope
+
+72
+00:04:03,078 --> 00:04:14,554
+you enjoy this episode.Today's
+random question is,what is your
+
+73
+00:04:14,554 --> 00:04:20,463
+favorite hobby?We hope you enjoy
+this episode.Hi,my name is Bekah.
+
+74
+00:04:20,494 --> 00:04:24,033
+I am a technical community
+builder from a small town in
+
+75
+00:04:24,184 --> 00:04:28,653
+Ohio,and this is an easy one at
+weightlifting is my favorite
+
+76
+00:04:28,653 --> 00:04:32,673
+hobby.I don't really have any
+other hobbies besides raising
+
+77
+00:04:32,673 --> 00:04:35,434
+children and gardening badly,so
+that was easy.
+
+78
+00:04:37,038 --> 00:04:39,918
+Dan: Gardening badly.Uh,you could
+be bad at something and still
+
+79
+00:04:39,918 --> 00:04:42,918
+have it be your favorite,you
+know,but it's probably easier
+
+80
+00:04:42,918 --> 00:04:45,168
+when you're good at something to
+have it be your favorite.So
+
+81
+00:04:45,348 --> 00:04:51,048
+that's cool.Um,yeah.I'm Dan.I
+live in Cleveland.It was like63
+
+82
+00:04:51,108 --> 00:04:54,889
+here yesterday,and today it is
+like38in raining.So that's
+
+83
+00:04:54,889 --> 00:05:00,108
+Cleveland life for you?Uh,yeah.
+Well,it might be coming,I don't
+
+84
+00:05:00,108 --> 00:05:00,319
+know.
+
+85
+00:05:00,528 --> 00:05:02,449
+Bekah: It is Friday.It's gonna be
+cold.
+
+86
+00:05:02,718 --> 00:05:05,749
+Dan: Yeah.Yeah.Yeah.And,uh,
+favorite hobby?Oh,my favorite
+
+87
+00:05:05,749 --> 00:05:10,009
+hobby is disc golf.So that's golf
+played with,uh,you know,flying
+
+88
+00:05:10,009 --> 00:05:14,598
+discs or Frisbees if you want to
+use the brand name.And,uh,yeah,
+
+89
+00:05:14,598 --> 00:05:17,478
+I've been,I got into it in
+college and,uh,playing,playing a
+
+90
+00:05:17,483 --> 00:05:23,163
+lot since then.So,just played36
+holes on,um,Last Friday.So it's
+
+91
+00:05:23,163 --> 00:05:27,403
+good stuff.Keeps me in the woods
+pretty soon.Uh,I got Ollie,
+
+92
+00:05:27,423 --> 00:05:29,793
+here's,is he here in the
+recording studio with me So
+
+93
+00:05:29,793 --> 00:05:31,444
+pretty soon he's gonna come,
+start coming with me too.I'm
+
+94
+00:05:31,449 --> 00:05:33,274
+excited about that.I was looking
+into
+
+95
+00:05:34,278 --> 00:05:37,608
+Bekah: I was just gonna say for,
+for context,Ollie is Dan's dog.
+
+96
+00:05:38,149 --> 00:05:41,329
+Dan: Yeah,yeah,yeah.And I was,
+well,I was about to,I was about
+
+97
+00:05:41,329 --> 00:05:44,449
+to clue that in because I was
+looking at disc golf bags for
+
+98
+00:05:44,449 --> 00:05:49,399
+dogs,so I can have him just carry
+all of my stuff around you know,
+
+99
+00:05:49,759 --> 00:05:52,848
+and it,it would be perfect.So,
+uh,I'm,that's the dream really.
+
+100
+00:05:52,939 --> 00:05:53,749
+That's,I'm excited about that.
+
+101
+00:05:55,189 --> 00:05:59,329
+Arthur: All right.Uh,hi.My name's
+Arthur Doer or Art.Um,I'm from
+
+102
+00:05:59,329 --> 00:06:03,048
+Omaha,Nebraska,where it is cold
+and snowing right now,so you're
+
+103
+00:06:03,048 --> 00:06:07,459
+gonna get it probably in a couple
+days.Um,and I'm a senior software
+
+104
+00:06:07,463 --> 00:06:10,488
+engineer and,uh,community and
+culture steward is,I think what
+
+105
+00:06:10,488 --> 00:06:13,636
+we're calling the other half of
+my title.my favorite hobby is
+
+106
+00:06:13,641 --> 00:06:15,615
+actually,I don't know if it
+counts as a hobby,but public
+
+107
+00:06:15,615 --> 00:06:20,596
+speaking,it's more of a lifestyle
+I guess.But,um,it's definitely
+
+108
+00:06:20,596 --> 00:06:24,786
+the thing that takes up a ton of
+my time,that is not my job.So
+
+109
+00:06:24,901 --> 00:06:27,151
+Dan: I'd say if you,yeah,if
+you're not getting paid for it or
+
+110
+00:06:27,151 --> 00:06:29,790
+maybe even if you are getting
+paid for it,I don't know.I guess,
+
+111
+00:06:29,790 --> 00:06:32,161
+yeah,if you're just doing it by
+choice,then it,then it,we can
+
+112
+00:06:32,161 --> 00:06:32,971
+call it a hobby,right?
+
+113
+00:06:34,036 --> 00:06:35,865
+Arthur: how often do you have to
+get paid before it becomes a side
+
+114
+00:06:35,865 --> 00:06:36,315
+gig?Like,
+
+115
+00:06:36,630 --> 00:06:39,930
+Dan: yeah.That's the,yeah,that's
+always the problem.Uh,you know,
+
+116
+00:06:40,321 --> 00:06:44,656
+it is,uh,Sometimes when you're
+good at a hobby and it can,you
+
+117
+00:06:44,656 --> 00:06:47,295
+know it's possible to get paid
+for it,you know,it becomes tempt
+
+118
+00:06:47,295 --> 00:06:50,925
+tempting to follow that down.So
+just like this,golf,I almost went
+
+119
+00:06:50,925 --> 00:06:54,466
+pro and then,uh,no,I'm just
+kidding.I was,I was never good
+
+120
+00:06:54,466 --> 00:06:54,826
+enough.
+
+121
+00:06:55,740 --> 00:06:57,451
+Bekah: Is there pro disc golf?
+
+122
+00:06:57,886 --> 00:07:00,766
+Dan: Yeah,big time.Like million
+dollar contract.Pro,pro.This
+
+123
+00:07:00,766 --> 00:07:05,115
+golf.Yeah,it's on ESPN and all
+that stuff now too.So yeah,it's
+
+124
+00:07:05,115 --> 00:07:05,446
+the same with.
+
+125
+00:07:05,911 --> 00:07:06,151
+Arthur: like,
+
+126
+00:07:06,795 --> 00:07:09,855
+Dan: Well,sure,sure,sure.Yeah.I
+mean,this is like,this is the
+
+127
+00:07:09,855 --> 00:07:12,225
+same with lots of sports where
+there's companies that want you
+
+128
+00:07:12,225 --> 00:07:15,045
+to buy their products and so they
+start sponsoring people that are
+
+129
+00:07:15,050 --> 00:07:17,685
+really good at it.And that's,you
+know,that's,that's how it goes.
+
+130
+00:07:17,685 --> 00:07:21,105
+And so you,and,and of course the
+sponsors,they,you know,they can
+
+131
+00:07:21,105 --> 00:07:24,906
+only use those ones,uh,and they
+still win tournaments.And so
+
+132
+00:07:24,906 --> 00:07:27,586
+you're like,well,I should buy
+that company's,you know,discs or
+
+133
+00:07:28,485 --> 00:07:33,526
+shoes or whatever.is a baseball
+hat will make me better at disc
+
+134
+00:07:33,526 --> 00:07:34,096
+golf.I'm sure
+
+135
+00:07:36,019 --> 00:07:40,369
+Bekah: For sure.I'm a
+professional weightlifter,so
+
+136
+00:07:40,908 --> 00:07:41,509
+Dan: Oh,nice.
+
+137
+00:07:41,778 --> 00:07:47,149
+Bekah: Yeah.Not really I'm just
+manifesting it.I think that's how
+
+138
+00:07:47,149 --> 00:07:51,949
+that works.You say it and then
+people make you it.So next week,
+
+139
+00:07:51,978 --> 00:07:52,819
+watch out.
+
+140
+00:07:53,699 --> 00:07:54,829
+Arthur: sponsorship's rolling in.
+
+141
+00:07:54,894 --> 00:07:58,053
+Dan: the,the thing to watch out
+for there,right,is like,oh,you
+
+142
+00:07:58,053 --> 00:08:00,694
+start going to a gym and like,
+oh,like,oh,I'll teach a class,
+
+143
+00:08:00,694 --> 00:08:02,644
+you know,here and there,
+whatever.And then like you teach
+
+144
+00:08:02,644 --> 00:08:04,983
+'em more and more classes and
+then,you know,pretty soon
+
+145
+00:08:05,254 --> 00:08:07,173
+somebody's like,wanna hire you
+full-time.And then it becomes a
+
+146
+00:08:07,173 --> 00:08:08,434
+job and then it's no fun anymore.
+
+147
+00:08:08,899 --> 00:08:13,608
+Bekah: I just,I just want them to
+give me workout gear,like,here's
+
+148
+00:08:13,608 --> 00:08:16,218
+a pair of new leggings.Sweet.
+
+149
+00:08:17,319 --> 00:08:18,408
+Arthur: Exercise influencer.
+
+150
+00:08:19,119 --> 00:08:19,528
+Bekah: I know.
+
+151
+00:08:19,588 --> 00:08:20,079
+Dan: Yeah.
+
+152
+00:08:20,749 --> 00:08:27,858
+Bekah: Yep.maybe that,um,welcome
+Arthur.It is good to have you
+
+153
+00:08:27,863 --> 00:08:32,389
+here on the podcast.We always
+like to get started with your
+
+154
+00:08:32,448 --> 00:08:36,499
+origin story,and we're gonna
+start by asking you what is one
+
+155
+00:08:36,589 --> 00:08:40,009
+word that describes your career
+journey?
+
+156
+00:08:41,163 --> 00:08:46,203
+Arthur: Uh,I think my word is
+gonna be concentric,um,in that
+
+157
+00:08:46,264 --> 00:08:50,494
+I've started.I went to school for
+computer engineering and then
+
+158
+00:08:50,494 --> 00:08:55,024
+rapidly realized that that was a
+thing that,um,you know,you went
+
+159
+00:08:55,024 --> 00:08:57,063
+to a couple,couple different
+companies,like one of a couple
+
+160
+00:08:57,063 --> 00:08:59,703
+companies,and then they burned
+you out and then you moved on to
+
+161
+00:08:59,703 --> 00:09:05,178
+other stuff.But,um,The story of
+my career has been kind of ever
+
+162
+00:09:05,178 --> 00:09:09,739
+expanding circles of kind of what
+I care about,where it's moved
+
+163
+00:09:09,739 --> 00:09:13,278
+from,caring about the technology
+to,okay,let's care about the
+
+164
+00:09:13,278 --> 00:09:16,908
+architecture.Okay,let's care
+about like the process that we're
+
+165
+00:09:16,913 --> 00:09:22,788
+doing to now.It's very about the
+humans,um,that either the humans
+
+166
+00:09:22,788 --> 00:09:25,278
+that we're writing the software
+for,or the humans who are writing
+
+167
+00:09:25,278 --> 00:09:28,908
+the software,or the humans who
+are affected by the software.So,
+
+168
+00:09:30,724 --> 00:09:31,624
+Bekah: I really love that.
+
+169
+00:09:32,114 --> 00:09:32,604
+Dan: Yeah.
+
+170
+00:09:33,874 --> 00:09:37,683
+Bekah: So how did that,so I,I
+like the different concentric
+
+171
+00:09:37,683 --> 00:09:40,923
+circles and almost,I imagine
+there's some kind of journey
+
+172
+00:09:40,923 --> 00:09:45,124
+behind each of those different
+circles and how they're kind of
+
+173
+00:09:45,124 --> 00:09:48,874
+related to each other.So do you
+wanna talk a little bit about
+
+174
+00:09:48,964 --> 00:09:54,484
+maybe I,however you wanna tell
+your story of your tech journey.
+
+175
+00:09:54,724 --> 00:09:57,634
+Um,but if there are highlight
+moments that you think were
+
+176
+00:09:57,634 --> 00:09:59,073
+really pivotal there,I'd love to
+hear.
+
+177
+00:10:00,033 --> 00:10:03,214
+Arthur: Sure.Um,I mean,really
+it's,it's a,it's a story of
+
+178
+00:10:03,219 --> 00:10:07,024
+getting frustrated a bunch,uh,
+and just going like,well,there
+
+179
+00:10:07,024 --> 00:10:11,464
+has to be a better way to do
+this.Like,um,I mean,it started
+
+180
+00:10:11,464 --> 00:10:15,379
+out in a,um,I went to a small
+technical college in Terre Haute,
+
+181
+00:10:15,384 --> 00:10:19,639
+Indiana,um,and paid a lot of
+money to learn the lesson that I
+
+182
+00:10:19,639 --> 00:10:22,428
+am not the smartest person on the
+planet,which is a very valuable
+
+183
+00:10:22,433 --> 00:10:27,798
+lesson to learn.Uh,and then kind
+of fell back afterwards into a
+
+184
+00:10:27,803 --> 00:10:33,678
+job,um,doing JSPs.Uh,cuz that
+was,that was the style at the
+
+185
+00:10:33,678 --> 00:10:37,908
+time.Um,and.
+
+186
+00:10:38,009 --> 00:10:39,649
+Dan: can you,can you,what are,
+what are JSPs?
+
+187
+00:10:40,009 --> 00:10:43,609
+Arthur: Uh,Java server,it pages.
+So back in the bad old days of
+
+188
+00:10:43,609 --> 00:10:48,048
+the internet,um,it was,you know,
+we didn't have your fancy reacts
+
+189
+00:10:48,048 --> 00:10:50,509
+or anything.It was all like
+server driven,you know,server
+
+190
+00:10:50,509 --> 00:10:53,719
+side stuff.So it was,okay,well
+we're gonna write these webpages
+
+191
+00:10:53,719 --> 00:10:57,589
+in Java.Cool.Um,
+
+192
+00:10:57,913 --> 00:10:58,278
+Dan: sounds great.
+
+193
+00:10:59,328 --> 00:11:03,528
+Arthur: Fantastic.Uh,so I mean,
+again,there's like,yeah,there has
+
+194
+00:11:03,528 --> 00:11:05,479
+to be a better way to do this.
+What are we doing with our,what
+
+195
+00:11:05,479 --> 00:11:09,844
+am I doing with my life?just been
+a lot of being frustrated about,
+
+196
+00:11:09,874 --> 00:11:14,823
+um,the technology that I work
+with,the way that we're building
+
+197
+00:11:14,823 --> 00:11:18,783
+it and kind of realizing,oh,
+okay,well this situation gets a
+
+198
+00:11:18,783 --> 00:11:22,894
+little better if I can affect
+something downstream.Like,or
+
+199
+00:11:22,899 --> 00:11:26,943
+upstream rather,like,okay,so if
+I'm frustrated about,oh,well I'm,
+
+200
+00:11:26,948 --> 00:11:31,533
+I'm being asked to code something
+and I wanna make it great.Okay,
+
+201
+00:11:31,533 --> 00:11:35,433
+that's easy.And then,I mean,it's
+not easy,sorry,but it's a,it's a
+
+202
+00:11:35,438 --> 00:11:39,739
+simpler problem.And then,
+Realized that I'm being asked to
+
+203
+00:11:39,739 --> 00:11:42,259
+code something that is stupid.
+Why am I being asked to code
+
+204
+00:11:42,259 --> 00:11:44,989
+something that is stupid?Well,
+that's what the requirements say,
+
+205
+00:11:44,989 --> 00:11:48,469
+and it's like,okay,so let's move
+into that and think about why am
+
+206
+00:11:48,474 --> 00:11:50,989
+I being asked to code something
+that is stupid,that I think is
+
+207
+00:11:50,989 --> 00:11:53,538
+stupid?Does this make sense in a
+context?What is the user
+
+208
+00:11:53,538 --> 00:11:57,259
+thinking?And kind of expanding my
+scope in that regard.And then
+
+209
+00:11:57,349 --> 00:12:01,259
+starting to realize,well,these
+pro,like now we're trying to.
+
+210
+00:12:02,053 --> 00:12:05,443
+Learning these things that make
+sense about the users and about
+
+211
+00:12:05,443 --> 00:12:10,683
+what they want,but.You know,we
+keep running up in crunch.We keep
+
+212
+00:12:10,683 --> 00:12:13,744
+winding up with a deadline
+overrun.So let's think about the
+
+213
+00:12:13,744 --> 00:12:17,374
+process and how are we building
+these things.And kind of parallel
+
+214
+00:12:17,379 --> 00:12:21,124
+to all of that has been my
+personal journey of trying to
+
+215
+00:12:21,124 --> 00:12:25,083
+understand what the hell is
+happening inside of my head.Um,
+
+216
+00:12:25,323 --> 00:12:27,663
+which is a thing that I've been,
+I mean,it's a lifelong struggle,
+
+217
+00:12:27,663 --> 00:12:30,303
+but it's been something I've been
+actively working on since I was
+
+218
+00:12:30,303 --> 00:12:37,594
+15.Um,And so there's been a lot
+of research into,okay,I mean,
+
+219
+00:12:37,594 --> 00:12:41,014
+it's like any good therapist or
+psychologist starts out as just
+
+220
+00:12:41,014 --> 00:12:43,504
+like,well,why am I screwed up?
+Let's figure that out.Clearly
+
+221
+00:12:43,943 --> 00:12:46,443
+somebody has understood this and
+there must be a book out there
+
+222
+00:12:46,443 --> 00:12:49,953
+that will perfectly describe why
+I do the dumb things I do and how
+
+223
+00:12:49,953 --> 00:12:52,894
+to not do those things,and then
+you rapidly realize that that
+
+224
+00:12:52,894 --> 00:12:55,323
+isn't true.But there's a whole
+bunch of other interesting things
+
+225
+00:12:55,323 --> 00:12:59,193
+that people have learned.Um,so I
+vanished down that rabbit hole,
+
+226
+00:12:59,224 --> 00:13:04,833
+um,about at the same time I took
+a job.um,drove me back into
+
+227
+00:13:04,833 --> 00:13:07,894
+therapy.Um,cause I was,you know,
+went through the whole therapy
+
+228
+00:13:07,894 --> 00:13:11,374
+gamut and diagnoses when I was in
+middle school and high school and
+
+229
+00:13:11,379 --> 00:13:16,594
+then,uh,kind of fell out of it in
+college.Um,stopped taking my meds
+
+230
+00:13:16,594 --> 00:13:22,953
+cuz that's what you do in college
+is do dumb things.Um,and yeah,I
+
+231
+00:13:22,958 --> 00:13:28,053
+mean,it's a perfect time for it.
+But,um,so this job I was in my,
+
+232
+00:13:28,144 --> 00:13:33,244
+my late twenties.No,that would've
+been early thirties cause that
+
+233
+00:13:33,244 --> 00:13:40,803
+would've been2011ish.Um,and just,
+it was a nightmare job.Um,for a
+
+234
+00:13:40,803 --> 00:13:43,683
+bunch of different reasons.
+Things like,we released too fast
+
+235
+00:13:43,688 --> 00:13:47,313
+for the support team of the
+company.Um,so they refused to
+
+236
+00:13:47,313 --> 00:13:49,594
+support our products.So all of
+our customers called our BA
+
+237
+00:13:49,624 --> 00:13:51,663
+directly and then she would
+immediately wind up on,like,
+
+238
+00:13:51,663 --> 00:13:57,153
+standing on our desks for things.
+It was exciting.Um,and it was
+
+239
+00:13:57,153 --> 00:14:02,418
+all,um,it was election related
+stuff,so.Just ratchet all the
+
+240
+00:14:02,418 --> 00:14:04,999
+stress three notches higher on
+all of it.
+
+241
+00:14:05,703 --> 00:14:05,943
+Dan: Yeah.
+
+242
+00:14:06,558 --> 00:14:10,578
+Arthur: Um,I kind of found myself
+at a,on the phone with somebody
+
+243
+00:14:10,583 --> 00:14:13,308
+from,I think it was Hamilton
+County,Ohio,actually from their
+
+244
+00:14:13,668 --> 00:14:16,999
+election board.Um,I mean,in the
+median age of somebody that works
+
+245
+00:14:16,999 --> 00:14:22,009
+at an election commission
+anywhere is like80.So I'm on the
+
+246
+00:14:22,009 --> 00:14:24,678
+phone with this guy attempting to
+teach him how to copy paste over
+
+247
+00:14:24,678 --> 00:14:27,798
+the phone.And it was just like
+one of those moments you see in a
+
+248
+00:14:27,798 --> 00:14:30,528
+movie where it's.From office
+space or whatever,it's just like,
+
+249
+00:14:30,528 --> 00:14:38,058
+what am I doing,Um,so I mean,
+about that time I was starting to
+
+250
+00:14:38,058 --> 00:14:41,719
+dig into some stuff like,uh,
+Daniel Pink's Drive was one of my
+
+251
+00:14:41,719 --> 00:14:48,139
+gateway drugs to really getting
+into,um,What is effectively pop
+
+252
+00:14:48,139 --> 00:14:52,908
+psych,um,you know,popular
+psychology books and starting to
+
+253
+00:14:52,908 --> 00:14:56,479
+understand a lot more about
+organizational psychology and
+
+254
+00:14:56,538 --> 00:15:00,558
+behavioral economics and
+cognitive psychology and,you
+
+255
+00:15:00,558 --> 00:15:05,149
+know,chasing down a bunch of
+rabbit holes there.And it was not
+
+256
+00:15:05,538 --> 00:15:11,178
+that much later,um,a couple years
+into a new job and I realized
+
+257
+00:15:11,178 --> 00:15:14,854
+that I started wanting to get
+into public speaking and.Was
+
+258
+00:15:14,854 --> 00:15:18,274
+like,okay,well let's figure out,
+you know,I started doing,um,uh,
+
+259
+00:15:18,453 --> 00:15:20,703
+we do lightning talks at work and
+we used to do'em every week.We do
+
+260
+00:15:20,703 --> 00:15:26,344
+'em every other week now.But it
+was a,um,forced myself to give a
+
+261
+00:15:26,344 --> 00:15:30,004
+lightning talk every week and
+rapidly ran out of technical
+
+262
+00:15:30,004 --> 00:15:33,004
+things that I wanted to talk
+about,and then decided I was
+
+263
+00:15:33,004 --> 00:15:34,923
+gonna start talking about
+cognitive biases at work and
+
+264
+00:15:34,923 --> 00:15:39,903
+went,wow,this is a lot more fun
+and exciting Um,and that was,
+
+265
+00:15:39,903 --> 00:15:44,089
+that was2016.And.Started speaking
+at conferences and have been
+
+266
+00:15:44,089 --> 00:15:49,009
+doing that and my making my focus
+a lot more about the humans of
+
+267
+00:15:49,009 --> 00:15:54,528
+software since then of,okay,how
+do we get people to build these
+
+268
+00:15:54,528 --> 00:15:58,399
+things?Understanding that there
+are systemic forces that are
+
+269
+00:15:58,399 --> 00:16:02,869
+driving this instead of looking
+at individuals as the problem or
+
+270
+00:16:02,869 --> 00:16:06,889
+even looking at teams as the
+problem.and trying to understand
+
+271
+00:16:06,889 --> 00:16:08,778
+that there,this is stuff we've
+been learning about since the
+
+272
+00:16:08,778 --> 00:16:12,198
+fifties for Christ's sake in some
+cases.Um,it's one of the most
+
+273
+00:16:12,198 --> 00:16:14,359
+frustrating things about some of
+the talks I do is I go back and
+
+274
+00:16:14,359 --> 00:16:16,428
+look at the resources and like
+studies and it's like,well,we
+
+275
+00:16:16,428 --> 00:16:19,938
+knew about it in the seventies
+and we're still,we're still
+
+276
+00:16:19,938 --> 00:16:22,346
+screwing this up now so.
+
+277
+00:16:22,691 --> 00:16:25,691
+Dan: an example of is there is an
+example that pops in your mind of
+
+278
+00:16:25,961 --> 00:16:26,740
+one of those things?
+
+279
+00:16:26,951 --> 00:16:28,931
+Arthur: I mean,one of the basics
+would be from Daniel Pink's
+
+280
+00:16:28,931 --> 00:16:32,530
+drive.Like the,the study research
+about intrinsic versus extrinsic
+
+281
+00:16:32,530 --> 00:16:36,431
+motivations has been around since
+the seventies,easily,like as a
+
+282
+00:16:36,431 --> 00:16:40,510
+known fact.And,um,the difference
+there is,is an intrinsic
+
+283
+00:16:40,515 --> 00:16:44,921
+motivation is something that is
+internal to the person.So,a,if
+
+284
+00:16:44,921 --> 00:16:47,711
+you work out,for instance,like
+Bekah does,one of the values that
+
+285
+00:16:47,711 --> 00:16:50,951
+you like,the benefits that you
+get out of it is in the doing of
+
+286
+00:16:51,181 --> 00:16:55,750
+the.right?The benefit comes from
+the act as opposed to an
+
+287
+00:16:55,750 --> 00:16:59,951
+extrinsic motivation,which is
+like paying your kid$5to,uh,take
+
+288
+00:16:59,951 --> 00:17:06,881
+out the guard.It is a motivation,
+a r a,uh,impulse that,or rather
+
+289
+00:17:06,941 --> 00:17:11,651
+impetus,rather that is external
+to the thing.So without digging
+
+290
+00:17:11,651 --> 00:17:14,441
+too much into the book and kind
+of restating his entire thesis,
+
+291
+00:17:14,471 --> 00:17:19,480
+um,intrinsic motivation is a lot
+more sticky.Um,extrinsic
+
+292
+00:17:19,486 --> 00:17:22,631
+motivation.You,you get what,uh,
+some people call the hedonistic
+
+293
+00:17:22,631 --> 00:17:26,980
+treadmill,um,or hedonistic
+acclimation,where after a while
+
+294
+00:17:27,010 --> 00:17:30,611
+the level of reward you get stops
+being effective.Eventually your
+
+295
+00:17:30,611 --> 00:17:34,661
+kid's gonna want10bucks to take
+out the garbage.Um,but even
+
+296
+00:17:34,661 --> 00:17:38,980
+without that,it.You can never,I
+mean,I don't have kids,but I've
+
+297
+00:17:38,980 --> 00:17:42,101
+talked to people who do,once you
+pay them to do the chores,it's,
+
+298
+00:17:42,250 --> 00:17:45,010
+you're never gonna not have to
+pay them to do the chores again.
+
+299
+00:17:45,641 --> 00:17:49,691
+Uh,it's really one of the big
+lessons of that is that extrinsic
+
+300
+00:17:49,691 --> 00:17:53,290
+motivators actually kill
+intrinsic motivation.You will be
+
+301
+00:17:53,290 --> 00:17:56,320
+less intrinsically motivated
+after I've,you've applied an
+
+302
+00:17:56,320 --> 00:18:02,980
+extrinsic motivator,but extrinsic
+motivators are easy and.it's easy
+
+303
+00:18:02,980 --> 00:18:05,651
+for a manager to go,well,we're
+just gonna have a thing.And the
+
+304
+00:18:05,651 --> 00:18:10,090
+people personally fixes the most
+bugs,gets an Xbox.I mean,most
+
+305
+00:18:10,090 --> 00:18:13,270
+managers have moved past that
+point,but there are still a lot
+
+306
+00:18:13,270 --> 00:18:18,131
+of extrinsic motivation about,
+um,you know,even things like
+
+307
+00:18:18,131 --> 00:18:20,351
+velocity.Are you meeting your
+velocity?That's an extrinsic
+
+308
+00:18:20,355 --> 00:18:23,800
+motivator,not an intrinsic
+motivator to the task itself.
+
+309
+00:18:25,526 --> 00:18:28,645
+Bekah: That's really fascinating.
+I actually hadn't really thought
+
+310
+00:18:28,645 --> 00:18:31,826
+about it like that.Now I need to
+go listen to that book,so that's
+
+311
+00:18:31,826 --> 00:18:36,175
+gonna be on my list.But I,I think
+that the idea of extrinsic
+
+312
+00:18:36,175 --> 00:18:39,955
+motivation,I've been thinking a
+lot about company.Culture what?
+
+313
+00:18:40,076 --> 00:18:43,076
+How to determine if a company has
+a good culture.We see a lot of
+
+314
+00:18:43,076 --> 00:18:46,556
+people at Virtual Coffee that
+interview for roles that seem
+
+315
+00:18:46,556 --> 00:18:49,256
+great,and then they get there and
+the company culture is not great.
+
+316
+00:18:49,556 --> 00:18:55,105
+And oftentimes a lot of the
+things that we see is,um,there
+
+317
+00:18:55,105 --> 00:18:58,895
+are those extrinsic.Motivators,
+right?Like,we pay a great salary,
+
+318
+00:18:59,076 --> 00:19:04,355
+we have unlimited paid time off.
+We give you a budget for food,we
+
+319
+00:19:04,355 --> 00:19:08,496
+give you a budget for the gym or
+whatever.And in a lot of ways,I
+
+320
+00:19:08,496 --> 00:19:12,486
+think that companies are trying
+to use,they use extrinsic
+
+321
+00:19:12,486 --> 00:19:16,986
+motivators to kind of lure you in
+and make you feel like there's a
+
+322
+00:19:16,986 --> 00:19:23,891
+good culture there.But maybe that
+what,what.Makes a good culture is
+
+323
+00:19:23,891 --> 00:19:28,070
+finding ways to cultivate that
+intrinsic motivation.Or at the
+
+324
+00:19:28,076 --> 00:19:31,871
+very least,getting to know your
+employees and figuring out how to
+
+325
+00:19:31,871 --> 00:19:36,431
+utilize their strengths and allow
+them to fulfill the things that
+
+326
+00:19:36,431 --> 00:19:37,240
+they're good at doing.
+
+327
+00:19:38,080 --> 00:19:42,730
+Arthur: or what they want to do.
+Right?I mean,if,if I have a.You
+
+328
+00:19:42,730 --> 00:19:45,851
+know,we have a,I don't wanna say
+we at the company,but like in,
+
+329
+00:19:45,881 --> 00:19:50,471
+I've seen cases where folks are
+feel frustrated or angry because
+
+330
+00:19:50,471 --> 00:19:52,721
+they care a lot about something
+and they're not being allowed to
+
+331
+00:19:52,721 --> 00:19:56,411
+do it.They care a lot about
+quality,they care a lot about the
+
+332
+00:19:56,415 --> 00:19:58,931
+process and the way that this
+thing works.And then the company
+
+333
+00:19:58,931 --> 00:20:04,090
+is not allowing them to go be in
+DevOps or in,you know,or shaping
+
+334
+00:20:04,090 --> 00:20:06,310
+things so that they have a role
+to play where they can bring
+
+335
+00:20:06,310 --> 00:20:10,076
+those desires to bear.And that's
+a loss on both sides because now
+
+336
+00:20:10,105 --> 00:20:12,655
+one person's frustrated and then
+the company's not seeing a
+
+337
+00:20:12,655 --> 00:20:16,526
+benefit out of it.With that they
+could be,um,yeah,it's what I mean
+
+338
+00:20:16,526 --> 00:20:20,336
+by like the extrinsic motivators
+are easy.Right.It's one of my
+
+339
+00:20:20,786 --> 00:20:23,756
+fun,I mean,it's not my favorite
+hobby,but it's a fun hobby is if
+
+340
+00:20:23,760 --> 00:20:26,756
+you go to another company and
+they've got like a break room or
+
+341
+00:20:26,786 --> 00:20:30,266
+whatever,a foosball table,like
+just.Is the table dusty?Like is
+
+342
+00:20:30,266 --> 00:20:34,465
+anybody actually using it?Um,
+like,you know,we have one at our
+
+343
+00:20:34,465 --> 00:20:36,536
+company and you know,people use
+it cuz it's like the Foosballs
+
+344
+00:20:36,536 --> 00:20:38,935
+people are sometimes broken and
+there's like pieces and repair
+
+345
+00:20:38,935 --> 00:20:43,855
+parts around the,the room.Um,you
+know,we have a dart board and a,
+
+346
+00:20:43,861 --> 00:20:46,226
+a ping pong table and there's
+like just,you open a drawer
+
+347
+00:20:46,230 --> 00:20:48,326
+somewhere and it's like just full
+of ping pong balls cuz people
+
+348
+00:20:48,326 --> 00:20:52,405
+actually use them and they're,
+um,various bits and pieces need
+
+349
+00:20:52,405 --> 00:20:57,760
+repaired.So that's,but it's,
+it's,is there a question?They
+
+350
+00:20:57,760 --> 00:21:00,161
+have these extrinsic motivators,
+like you mentioned,uh,unlimited
+
+351
+00:21:00,161 --> 00:21:04,601
+pto the culture set so that you
+can actually take it.Is there an
+
+352
+00:21:04,601 --> 00:21:08,290
+expectation that that will
+happen?I mean,unlimited PTO can
+
+353
+00:21:08,290 --> 00:21:12,641
+be a trap where suddenly it's,
+oh,I'm gonna take this PTO that I
+
+354
+00:21:12,645 --> 00:21:15,070
+think I'm allowed to.But there's
+a company culture where you
+
+355
+00:21:15,101 --> 00:21:20,381
+actually can take way less PTO
+than you would have if it was
+
+356
+00:21:20,381 --> 00:21:21,971
+yours.Right.
+
+357
+00:21:22,917 --> 00:21:26,067
+Bekah: Yeah.I've seen a lot more
+job descriptions out there saying
+
+358
+00:21:26,097 --> 00:21:32,077
+unlimited paid,uh,paid time off.
+But mandatory two weeks off or
+
+359
+00:21:32,077 --> 00:21:36,307
+something like that to indicate
+that we have this,but we are
+
+360
+00:21:36,307 --> 00:21:39,998
+going to force you to take off
+two weeks.And even at my company,
+
+361
+00:21:39,998 --> 00:21:44,768
+we have unlimited P T O,but we
+also have company-wide days off
+
+362
+00:21:44,827 --> 00:21:49,938
+that are usually,you know,some
+type of holiday that we.um,em
+
+363
+00:21:49,942 --> 00:21:54,948
+embrace as a company,right?And so
+at the very least,uh,those days,
+
+364
+00:21:54,948 --> 00:21:58,698
+everybody will get off.And that
+doesn't,that doesn't happen
+
+365
+00:21:58,698 --> 00:22:03,678
+everywhere anymore either.I'm
+really,it amazes me that there
+
+366
+00:22:03,682 --> 00:22:07,337
+are companies out there that say,
+Hey,you get two or three weeks
+
+367
+00:22:07,367 --> 00:22:10,138
+off during the year.If you wanna
+use'em on those days,use'em on
+
+368
+00:22:10,144 --> 00:22:13,097
+those days.But we're not taking
+company wide holidays,which is
+
+369
+00:22:14,087 --> 00:22:14,657
+kind of mind.
+
+370
+00:22:16,137 --> 00:22:18,417
+Arthur: I find that for a lot of
+cases to be,um,I mean that's
+
+371
+00:22:18,417 --> 00:22:20,577
+where,where I work does that,
+it's easier from an
+
+372
+00:22:20,577 --> 00:22:26,667
+administrative standpoint.It's
+also,it can be more flexible for
+
+373
+00:22:27,087 --> 00:22:31,317
+a diverse workplace.Um,
+especially when,you know,a lot of
+
+374
+00:22:31,317 --> 00:22:36,268
+major holidays in the US are
+religious to an extent,um,or at
+
+375
+00:22:36,268 --> 00:22:39,807
+least some of the,you know,the
+huge ones.And so it's a question
+
+376
+00:22:39,807 --> 00:22:41,877
+of,okay,well how do you,how do
+you accommodate things like
+
+377
+00:22:41,877 --> 00:22:46,948
+Ramadan at your workplace?Um,so
+it can be a way to do that,but a
+
+378
+00:22:46,948 --> 00:22:49,617
+lot of cases it's not,it's just
+an,you know,it's a little easier
+
+379
+00:22:49,617 --> 00:22:52,528
+to be an accounting,uh,to manage
+it from an accounting
+
+380
+00:22:52,528 --> 00:22:56,218
+perspective.And then it's a
+question,like you said,it's,am I
+
+381
+00:22:56,218 --> 00:23:01,288
+gonna work that day?Well,I
+should.Okay.I guess I'm gonna,
+
+382
+00:23:01,347 --> 00:23:05,097
+you know,maybe I'll work remote
+now after the pandemic,but I'm
+
+383
+00:23:05,097 --> 00:23:06,958
+still,you know,gonna clock the
+hours.
+
+384
+00:23:07,958 --> 00:23:09,728
+Bekah: Yeah.And all of those
+things are super tricky,
+
+385
+00:23:09,728 --> 00:23:13,567
+especially in the remote world
+where it's almost like work
+
+386
+00:23:13,567 --> 00:23:16,958
+doesn't ever turn off.Especially
+if you're working on a team that
+
+387
+00:23:16,958 --> 00:23:19,867
+has people in lots of different
+time zones or you know,if they're
+
+388
+00:23:19,873 --> 00:23:23,137
+a global organization,then
+somebody is always working.And I
+
+389
+00:23:23,137 --> 00:23:26,018
+know,like,at least from my
+perspective,I have a hard time
+
+390
+00:23:26,018 --> 00:23:30,147
+turning work off,you know?Slack
+or email on my phone frequently.
+
+391
+00:23:30,147 --> 00:23:32,728
+And sometimes I'll delete them
+and then it's like,well,I'm
+
+392
+00:23:32,728 --> 00:23:36,238
+traveling so I need to ha have
+access to this somehow and it
+
+393
+00:23:36,238 --> 00:23:40,827
+gets back on my phone.But,but
+there's this,I think that tech
+
+394
+00:23:40,827 --> 00:23:45,208
+can be really hard right now in
+the fact that it's,it can be very
+
+395
+00:23:45,212 --> 00:23:50,607
+hard to turn off because of the
+continued,somebody is always
+
+396
+00:23:50,607 --> 00:23:51,478
+working right.
+
+397
+00:23:51,593 --> 00:23:54,442
+Arthur: Mm-hmm.Well,and some
+people like it,like I have
+
+398
+00:23:54,792 --> 00:24:00,772
+coworkers.I way more time than I
+would ever want to spend.But to
+
+399
+00:24:00,772 --> 00:24:05,002
+them,it's not a question of,
+being unsustainable.That's just
+
+400
+00:24:05,008 --> 00:24:09,232
+the pace that they like and the
+way that they like to work.And
+
+401
+00:24:09,593 --> 00:24:11,752
+you get,you can get trapped,kind
+of holding yourself up to a
+
+402
+00:24:11,752 --> 00:24:15,053
+standard for somebody else that
+doesn't meet your,your lifestyle.
+
+403
+00:24:15,893 --> 00:24:18,803
+Uh,but you can also get trapped
+by,I mean,I talked about kind of
+
+404
+00:24:18,803 --> 00:24:25,387
+my journey concentric,right?Um,
+as you.Okay,so let's start with
+
+405
+00:24:25,387 --> 00:24:29,288
+the thesis.Um,that tech is
+actually creative work.
+
+406
+00:24:30,262 --> 00:24:30,682
+Bekah: Hmm.
+
+407
+00:24:30,788 --> 00:24:35,708
+Arthur: really engineering work.
+Um,I know that's a huge bombshell
+
+408
+00:24:35,708 --> 00:24:41,587
+for argument,but.Tech is in,a lot
+of tech is not.We're doing the
+
+409
+00:24:41,587 --> 00:24:44,498
+same thing over and over.It is,
+we're kind of doing the same
+
+410
+00:24:44,498 --> 00:24:46,867
+thing,but these things are
+different and it's weirdly
+
+411
+00:24:46,867 --> 00:24:49,988
+innovative and new in this way,
+and this situation is different.
+
+412
+00:24:49,988 --> 00:24:53,107
+The user wants this piece
+slightly different this time.So
+
+413
+00:24:53,137 --> 00:24:55,988
+there's a bunch of novelty every
+time.And that novelty means that
+
+414
+00:24:55,988 --> 00:25:00,097
+we have to be creative.And the
+thing about creative work is
+
+415
+00:25:00,097 --> 00:25:03,337
+that,I mean,you can go ask the UX
+folks at your work.I mean,if
+
+416
+00:25:03,337 --> 00:25:09,248
+they'd been through like a.
+Curriculum.Right?Um,they learn
+
+417
+00:25:09,248 --> 00:25:14,557
+fairly quickly that there is no
+turning that off.Uh,there is no
+
+418
+00:25:14,587 --> 00:25:18,127
+moment where your brain won't tap
+you on the shoulder and be like,
+
+419
+00:25:18,127 --> 00:25:20,678
+Hey,that thing you thought you
+were,you know,you were thinking
+
+420
+00:25:20,678 --> 00:25:26,587
+about.Uh,yeah.We have the answer
+to that now.if you can't,I mean,
+
+421
+00:25:26,948 --> 00:25:29,798
+trust me,if we could turn the
+brain off,it would be,life would
+
+422
+00:25:29,798 --> 00:25:31,387
+be a lot easier on a number of
+fronts,but
+
+423
+00:25:32,843 --> 00:25:33,333
+Dan: True.
+
+424
+00:25:33,718 --> 00:25:36,772
+Arthur: if,if you know you since
+you can't turn it off,how do you
+
+425
+00:25:37,393 --> 00:25:42,682
+navigate that balance between,
+or,or find a balance between,um,
+
+426
+00:25:43,103 --> 00:25:46,343
+hey,this is when my brain decides
+that it would be productive for
+
+427
+00:25:46,343 --> 00:25:50,692
+me to work,versus how do I
+maintain that balance,you know,
+
+428
+00:25:50,698 --> 00:25:54,232
+that,that the distance between me
+and the actual job so that the
+
+429
+00:25:54,232 --> 00:25:59,002
+job doesn't flow backward into my
+life and define me.And that's,
+
+430
+00:25:59,063 --> 00:26:01,958
+um,I mean,there's no simple
+answer to that.
+
+431
+00:26:03,563 --> 00:26:04,972
+Bekah: Yeah,if there is,let me
+know cuz I
+
+432
+00:26:05,192 --> 00:26:05,682
+Dan: Yeah.
+
+433
+00:26:05,992 --> 00:26:06,893
+Bekah: been working on that.
+
+434
+00:26:07,762 --> 00:26:10,942
+Dan: I love that framing though.
+The,the job floating,floating
+
+435
+00:26:10,942 --> 00:26:12,982
+back.Wait,how did you say it?I'm
+sorry.Cuz it was
+
+436
+00:26:13,028 --> 00:26:15,228
+Arthur: Yeah.The job flowing
+backward into your life.
+
+437
+00:26:15,353 --> 00:26:18,413
+Dan: flowing backward into your
+life.Yeah,that was,I,I I love
+
+438
+00:26:18,413 --> 00:26:22,133
+that.Um,just that framing of that
+whole problem.It,it's such a,
+
+439
+00:26:22,137 --> 00:26:24,712
+that's a really nice metaphor.
+I'm,I'm a collector of metaphors
+
+440
+00:26:24,712 --> 00:26:29,123
+and I,I like that one.Uh,and it's
+a problem in it,and it's like a
+
+441
+00:26:29,123 --> 00:26:31,583
+great way to frame it,right?
+Because you,you know,you,you have
+
+442
+00:26:31,583 --> 00:26:35,482
+a job and.Obsessively need to get
+work done and all that stuff.But
+
+443
+00:26:35,482 --> 00:26:38,242
+you don't want your job
+necessarily to be defining
+
+444
+00:26:38,242 --> 00:26:41,002
+things.And I think we talk about
+it or defining things in your
+
+445
+00:26:41,002 --> 00:26:43,192
+life,you know,and I think we talk
+about it in different ways.
+
+446
+00:26:43,373 --> 00:26:45,893
+Work-life balance is like a
+phrase that gets thrown around a
+
+447
+00:26:45,893 --> 00:26:49,252
+lot.All all that stuff.But that
+idea of that flow,you know,and,
+
+448
+00:26:49,252 --> 00:26:53,083
+and having your decisions,like
+what is driving your.Decision
+
+449
+00:26:53,083 --> 00:26:56,893
+making in your life,uh,is,I mean,
+that's obviously,like you said,
+
+450
+00:26:56,893 --> 00:26:59,833
+that's a big problem and,and not
+an easy answer,but,um,I think
+
+451
+00:26:59,833 --> 00:27:02,202
+that framing is,is really useful
+and I,I like that idea,
+
+452
+00:27:03,157 --> 00:27:05,228
+Arthur: Well,and it's easy things
+to be like.It's an easy thing to
+
+453
+00:27:05,228 --> 00:27:07,988
+say,Hey,we pro,we strive to
+promote a good work-life balance
+
+454
+00:27:07,988 --> 00:27:12,278
+here.Um,and then you get into the
+thick of it.Like,I mean,like
+
+455
+00:27:12,307 --> 00:27:15,428
+Bekah was talking about companies
+that promote that.As,you know,
+
+456
+00:27:15,428 --> 00:27:18,397
+here we,you know,we love to
+balance work and play or
+
+457
+00:27:18,397 --> 00:27:22,748
+whatever,and I mean,sometimes
+that's a huge red flag.Um,
+
+458
+00:27:25,147 --> 00:27:28,567
+Especially like the phrase,work
+hard,play hard,like that one's a
+
+459
+00:27:28,567 --> 00:27:30,067
+huge red flag.Um,
+
+460
+00:27:30,143 --> 00:27:30,823
+Dan: Nope,Nope.
+
+461
+00:27:31,438 --> 00:27:37,853
+Arthur: but.It's easy to say
+that.And then what you see in
+
+462
+00:27:38,323 --> 00:27:42,053
+practice is a series of
+exceptions where it's,oh,well,
+
+463
+00:27:42,053 --> 00:27:44,692
+just this once,okay,just this
+time,well,this thing's happening
+
+464
+00:27:44,698 --> 00:27:47,903
+and I need to get this done.And
+th and tho it's a death of a
+
+465
+00:27:47,907 --> 00:27:52,403
+thousand cuts where,um,that those
+exceptions become the norm and
+
+466
+00:27:52,403 --> 00:27:58,147
+they define the norm.And if you
+don't have cultural.Guardrails
+
+467
+00:27:58,147 --> 00:28:02,198
+around that at a corporate level,
+at a team level.Cuz it can't just
+
+468
+00:28:02,198 --> 00:28:05,137
+be corporate.It has to actually
+be at the team levels as well.
+
+469
+00:28:05,137 --> 00:28:07,538
+Cause it's easy,again,to say at
+the corporate level,well,don't do
+
+470
+00:28:07,538 --> 00:28:10,478
+this in your teams.And then the
+manager,you know,it happens and
+
+471
+00:28:10,478 --> 00:28:13,087
+the manager gets a slap on the
+wrist and says,don't do that with
+
+472
+00:28:13,093 --> 00:28:16,208
+your teams.And meanwhile their
+team is burnt out and chattered.
+
+473
+00:28:16,807 --> 00:28:24,233
+Um,so it,it's,you can't just,
+especially,you know,if you're.I
+
+474
+00:28:24,239 --> 00:28:26,063
+know through in Virtual Coffee
+you have a lot of folks that are
+
+475
+00:28:26,063 --> 00:28:29,512
+breaking into dev,into,into being
+devs.You don't have a ton of
+
+476
+00:28:29,512 --> 00:28:35,752
+power there.Um,especially since
+there is a,there's often a high
+
+477
+00:28:35,752 --> 00:28:41,452
+supply of new devs,right?It is a
+career that does pay a lot.Um,it
+
+478
+00:28:41,458 --> 00:28:44,452
+has a lot of upward mobility.It
+has a bunch of cool benefits.
+
+479
+00:28:44,452 --> 00:28:46,643
+Like you get to work with code,
+you get to work with really cool
+
+480
+00:28:46,643 --> 00:28:50,722
+problems.Uh,it is a desirable
+career,so the supply of new devs
+
+481
+00:28:50,722 --> 00:28:55,327
+can often.You know,large,and that
+means that you have less
+
+482
+00:28:55,327 --> 00:29:00,127
+leverage.So,you know,as a junior
+dev,it's really hard to be like,
+
+483
+00:29:00,577 --> 00:29:03,758
+no,I'm gonna go do disc golf
+tomorrow and not show up at work.
+
+484
+00:29:03,758 --> 00:29:07,298
+Like,you can't,how,how do you
+have that discussion with your
+
+485
+00:29:07,298 --> 00:29:10,117
+manager when your manager is
+like,but the client is,you know,
+
+486
+00:29:10,258 --> 00:29:12,968
+having this,you know,there's a
+hair fire and you have to deal
+
+487
+00:29:12,968 --> 00:29:17,107
+with it and you're the only one
+that can handle it.Um,so as some
+
+488
+00:29:17,107 --> 00:29:23,603
+of that has to be at that level
+of the manager doing,Um,that
+
+489
+00:29:23,603 --> 00:29:26,182
+guidance,but it can't,again,it
+can't just be the manager either.
+
+490
+00:29:26,182 --> 00:29:30,083
+It has,that actually has to exist
+almost like fractally at each
+
+491
+00:29:30,083 --> 00:29:32,932
+level of the organization where
+everybody is working to protect
+
+492
+00:29:32,932 --> 00:29:35,333
+that because everybody benefits
+from it.
+
+493
+00:29:37,087 --> 00:29:41,377
+Dan: My,my wife at her last job
+had a bad culture like that,you
+
+494
+00:29:41,383 --> 00:29:44,708
+know,the,the,like,the bad example
+of this.And she was a manager,
+
+495
+00:29:44,712 --> 00:29:48,458
+you know,in her own right and she
+felt very strongly ab,you know,
+
+496
+00:29:48,518 --> 00:29:52,952
+in favor of protecting her,you
+know.You know,her direct reports
+
+497
+00:29:53,073 --> 00:29:55,232
+and things like that.But it's
+exactly what you're saying
+
+498
+00:29:55,232 --> 00:29:57,992
+happened,you know,is that she
+would protect the people that
+
+499
+00:29:57,992 --> 00:30:01,442
+reported to her,but nobody was
+protecting her.And,and so she got
+
+500
+00:30:01,442 --> 00:30:03,512
+burned out.Honestly,she got
+burned out.Her man,her,her
+
+501
+00:30:03,512 --> 00:30:06,212
+reportees were like,loved her and
+was like,you're the best manager
+
+502
+00:30:06,212 --> 00:30:09,272
+ever.And she's like,I'm getting
+out of here You know,like right
+
+503
+00:30:09,272 --> 00:30:12,833
+now,cuz uh,is is the same thing
+cuz it was a,it was a cultural
+
+504
+00:30:12,837 --> 00:30:17,258
+thing.It went way.to the top,you
+know?Um,so I,I was wondering,you
+
+505
+00:30:17,258 --> 00:30:20,167
+know,listening to you talk and,
+and,um,with the amount of like,
+
+506
+00:30:20,377 --> 00:30:24,067
+thought you've put into this,uh,
+do you have any advice for people
+
+507
+00:30:24,073 --> 00:30:27,518
+who find themselves especially,
+especially,uh,lower,you know,uh,
+
+508
+00:30:27,548 --> 00:30:29,708
+newer devs,do you have any advice
+for people who find themselves in
+
+509
+00:30:29,708 --> 00:30:33,788
+those situations?Um,where they
+are,they don't have a lot of
+
+510
+00:30:33,788 --> 00:30:36,488
+power.They don't have a lot of,
+you know,they can't like throw
+
+511
+00:30:36,488 --> 00:30:40,823
+their weight around but are being
+asked to.maybe do things that
+
+512
+00:30:40,823 --> 00:30:43,762
+they are,that are outside of
+where they would like their
+
+513
+00:30:43,762 --> 00:30:47,992
+boundaries to be.Um,you know,
+like is there any actual advice
+
+514
+00:30:47,992 --> 00:30:52,012
+aside from finding a new job?Uh,
+which is a fine piece of advice,
+
+515
+00:30:52,012 --> 00:30:56,063
+honestly,that I've given before,
+but not,you know,not always,uh,
+
+516
+00:30:56,423 --> 00:30:57,232
+possible So,
+
+517
+00:30:57,607 --> 00:31:00,067
+Arthur: I mean,it's a,I often,I
+have a toll talk on burnout that
+
+518
+00:31:00,067 --> 00:31:02,258
+I talk about,and it's like one of
+the options for burnout is find a
+
+519
+00:31:02,262 --> 00:31:05,557
+new job.But not everybody can do
+that for a lot of different
+
+520
+00:31:05,557 --> 00:31:06,758
+reasons.Um,
+
+521
+00:31:06,817 --> 00:31:09,637
+Dan: it,it could take a long time
+too,so you could still be stuck.
+
+522
+00:31:09,968 --> 00:31:10,117
+Yeah.
+
+523
+00:31:10,567 --> 00:31:18,588
+Arthur: So my best advice in
+those cases is kind of to,I tend
+
+524
+00:31:18,594 --> 00:31:22,897
+to think of it in terms of almost
+Aikido.Um,Which is,if you're not
+
+525
+00:31:22,897 --> 00:31:25,448
+familiar,it's a martial arts
+style that is very focused on,
+
+526
+00:31:26,048 --> 00:31:31,147
+um,as they would frame it,like
+redirection of energy.And what
+
+527
+00:31:31,147 --> 00:31:33,788
+they mean by that is typically
+that in Aikido it is entirely
+
+528
+00:31:33,792 --> 00:31:38,498
+defensive.Um,and you are
+typically taking somebody,
+
+529
+00:31:38,498 --> 00:31:42,907
+throwing a punch at you,somebody
+throwing a kick at you,and you.
+
+530
+00:31:44,407 --> 00:31:49,178
+Blocking,but taking that energy
+and re taking their motion,their
+
+531
+00:31:49,178 --> 00:31:52,087
+momentum,their actual velocity,
+and redirecting it in a direction
+
+532
+00:31:52,087 --> 00:31:58,718
+that you want,um,you can use
+those moments to kind of do the
+
+533
+00:31:58,718 --> 00:32:04,087
+same thing to haggle in the
+moment about,okay,if we're gonna
+
+534
+00:32:04,087 --> 00:32:07,417
+do this,then we need something
+else.Like,what can you give me in
+
+535
+00:32:07,417 --> 00:32:09,758
+that moment?Right?Because in
+those moments,you do have a
+
+536
+00:32:09,758 --> 00:32:13,897
+little more power of.They want
+this exception,they want this
+
+537
+00:32:13,903 --> 00:32:16,778
+thing.You can turn around and
+say,you know,accept that thing
+
+538
+00:32:16,778 --> 00:32:20,048
+and try and in the,you know,the
+best terms of improv.Yes.And it,
+
+539
+00:32:20,617 --> 00:32:26,377
+right.Um,where you're giving them
+what they want and then trying to
+
+540
+00:32:26,377 --> 00:32:29,738
+go,okay,but I would like comp
+time tomorrow for this.Or,can you
+
+541
+00:32:29,742 --> 00:32:34,972
+give me off Friday so that I can
+go to this appointment?if you're
+
+542
+00:32:34,978 --> 00:32:38,813
+not making a ton of leverage,
+they're trying to,I mean,not to,
+
+543
+00:32:39,532 --> 00:32:43,103
+um,immediately politicize it,but
+trying to almost unionize to some
+
+544
+00:32:43,103 --> 00:32:49,192
+degree of,can you as a team
+define your working structure as
+
+545
+00:32:49,192 --> 00:32:54,502
+a uh,individual?Can you find
+other people who agree with you
+
+546
+00:32:54,502 --> 00:32:58,042
+about,Hey,we don't want to do X,
+we don't want to do Y.And try and
+
+547
+00:32:58,042 --> 00:33:04,327
+make that the norm inside of your
+team itself.Um,And the key thing
+
+548
+00:33:04,327 --> 00:33:07,028
+here is you don't wanna try,I
+mean,you don't wanna alienate the
+
+549
+00:33:07,028 --> 00:33:09,607
+manager,right?Because if you
+start doing that,then you wind up
+
+550
+00:33:09,607 --> 00:33:12,038
+in a situation where you've
+immediately created an US versus
+
+551
+00:33:12,038 --> 00:33:15,337
+then situation.And once you do
+that,there's a whole bunch of
+
+552
+00:33:15,337 --> 00:33:17,798
+human psychology that starts
+coming into play where it's so
+
+553
+00:33:17,803 --> 00:33:22,208
+much easier to demonize the other
+person to,uh,believe that they
+
+554
+00:33:22,212 --> 00:33:26,317
+are,you know,that their actions
+are due to innate,um,attributes.
+
+555
+00:33:26,407 --> 00:33:28,417
+Uh,there's this thing called the,
+well,in this case it would be the
+
+556
+00:33:28,417 --> 00:33:32,932
+ultimate attribution error where,
+um,We have what's called in
+
+557
+00:33:32,932 --> 00:33:35,542
+groups and outgroups,where an
+in-group is a group you're part
+
+558
+00:33:35,542 --> 00:33:38,722
+of,and an OUTGROUP is a group
+that you're not part of.Um,we
+
+559
+00:33:38,722 --> 00:33:41,722
+tend to believe that our
+outgroups,you know,groups that
+
+560
+00:33:41,722 --> 00:33:44,962
+we're not part of,they behave
+certain ways because of innate
+
+561
+00:33:44,962 --> 00:33:49,163
+attributes of those groups.Um,so
+as an example,like qa,people are
+
+562
+00:33:49,167 --> 00:33:54,893
+all extremely persnickety and
+uptight,right?Or,you know,for the
+
+563
+00:33:54,893 --> 00:33:59,692
+opposite way,devs are completely
+loose and utterly lazy and have
+
+564
+00:33:59,692 --> 00:34:03,772
+no,you know,rigor or,uh,
+coherence to their work.Right.
+
+565
+00:34:04,597 --> 00:34:04,897
+Dan: Right.
+
+566
+00:34:06,472 --> 00:34:08,663
+Arthur: neither true,but it's
+easy when you're on the other
+
+567
+00:34:08,663 --> 00:34:11,663
+side of it looking in and it's,
+it's a shortcut your brain takes
+
+568
+00:34:11,663 --> 00:34:17,753
+basically to go,okay,we can think
+about people in this way.Um,So
+
+569
+00:34:17,992 --> 00:34:20,842
+alienating your manager and you
+want to kind of pull them in and
+
+570
+00:34:20,842 --> 00:34:24,023
+be like,okay,you're part of the
+team.We are together on this.We
+
+571
+00:34:24,023 --> 00:34:28,282
+all want to succeed.Um,which is
+true to an extent in that you
+
+572
+00:34:28,282 --> 00:34:35,963
+have a shared goal,um,with,you
+know,the rest of your team.You,I
+
+573
+00:34:35,963 --> 00:34:40,012
+at least hopefully all want to
+deliver good software.Right.And I
+
+574
+00:34:40,012 --> 00:34:43,733
+mean,if you don't,then you're in
+a harder position where now you
+
+575
+00:34:43,733 --> 00:34:47,512
+have to try and find something
+that does unify you,um,with this
+
+576
+00:34:47,512 --> 00:34:51,293
+manager,et cetera.I mean,in the
+cases where you can't make any
+
+577
+00:34:51,293 --> 00:34:55,268
+inroads and you can't,you know,
+they're completely,uh,othering
+
+578
+00:34:55,268 --> 00:34:59,137
+you,as in they're gonna manage at
+you and they don't consider
+
+579
+00:34:59,137 --> 00:35:01,688
+themselves part of the team.
+Those are harder situations,and
+
+580
+00:35:01,688 --> 00:35:04,927
+those are the ones where I would
+start going.Maybe you can try and
+
+581
+00:35:04,927 --> 00:35:08,168
+find a lateral move in the
+company.Maybe you can try and,
+
+582
+00:35:08,407 --> 00:35:10,867
+you know,um,yeah.
+
+583
+00:35:11,543 --> 00:35:13,853
+Dan: Yeah,no,there,there is.I
+mean,there definitely are just
+
+584
+00:35:13,853 --> 00:35:19,012
+situations where the manager is
+either unaware of those issues
+
+585
+00:35:19,103 --> 00:35:23,213
+and,you know,or,or,or knows about
+'em and doesn't care.right?Like,
+
+586
+00:35:23,422 --> 00:35:26,213
+you know,they're feeling pressure
+from above somehow.And,you know,
+
+587
+00:35:26,543 --> 00:35:28,853
+uh,they deal with it in,in
+different ways,obviously.
+
+588
+00:35:29,543 --> 00:35:30,143
+Arthur: Well,I mean,they can
+
+589
+00:35:30,248 --> 00:35:32,797
+Dan: times where there's,where
+there's no solution really with
+
+590
+00:35:32,813 --> 00:35:33,563
+Arthur: they can be burned out
+
+591
+00:35:33,637 --> 00:35:37,208
+Dan: a manager.Right?Exactly.
+Yeah.And like lots of people,I
+
+592
+00:35:37,208 --> 00:35:40,507
+think,experience burnout in
+different ways.And react,react,
+
+593
+00:35:40,568 --> 00:35:44,378
+reacted to burnout in different
+ways.Um,or just even pre burnout,
+
+594
+00:35:44,378 --> 00:35:49,027
+you know,like,uh,stress you know,
+people react to,uh,all sorts of
+
+595
+00:35:49,027 --> 00:35:51,608
+inputs in different ways.So,um
+
+596
+00:35:51,893 --> 00:35:54,713
+Arthur: once you're at a manager
+level,um,there's all kinds of
+
+597
+00:35:54,833 --> 00:35:59,963
+internal status things that start
+pinging in your head about,you
+
+598
+00:35:59,967 --> 00:36:02,543
+know,uh,human group dynamic stuff
+that starts caring about like,
+
+599
+00:36:02,572 --> 00:36:06,682
+oh,I have a certain amount of
+status in this group,in this,in
+
+600
+00:36:06,682 --> 00:36:11,648
+this workplace,and.This is where
+like if you're,this is where the
+
+601
+00:36:11,648 --> 00:36:14,407
+Aikido thing comes in.Cuz if you
+start immediately coming against
+
+602
+00:36:14,407 --> 00:36:17,858
+them,they start responding.And
+this is a challenge to their
+
+603
+00:36:17,858 --> 00:36:18,458
+authority.
+
+604
+00:36:19,643 --> 00:36:19,963
+Dan: Mm-hmm.
+
+605
+00:36:20,108 --> 00:36:22,898
+Arthur: not necessarily because
+they're bad people,right?Uh,this
+
+606
+00:36:22,898 --> 00:36:26,168
+is just a natural human thing to,
+especially if you're doing it in
+
+607
+00:36:26,168 --> 00:36:30,038
+public,in meetings,their brain,
+like,you know,the monkey brain
+
+608
+00:36:30,038 --> 00:36:33,128
+starts screaming,just going like,
+duh,what do you do?Like,you've
+
+609
+00:36:33,128 --> 00:36:35,527
+gotta stand up for yourself.
+You've gotta demonstrate that you
+
+610
+00:36:35,532 --> 00:36:41,032
+are in charge.Um,and I mean,
+that's something they can combat
+
+611
+00:36:41,302 --> 00:36:46,492
+and should be working to combat,
+right?But,uh,it is definitely a
+
+612
+00:36:46,492 --> 00:36:51,143
+human response to respond that
+way or to feel those emotions in
+
+613
+00:36:51,143 --> 00:36:56,543
+that moment.Uh,and so what if you
+can help them through that?Uh,
+
+614
+00:36:56,547 --> 00:36:59,603
+that makes it a little easier to
+have those negotiations,to have
+
+615
+00:36:59,603 --> 00:37:00,083
+those discuss.
+
+616
+00:37:01,193 --> 00:37:06,893
+Dan: Yeah.Right.Uh,yeah,if,if you
+can like align on the goals,like
+
+617
+00:37:06,893 --> 00:37:09,202
+you said,everybody want on the
+team wants to make a good product
+
+618
+00:37:09,202 --> 00:37:15,083
+or whatever,right?And so keeping
+that goal,Mind,you know,um,seems
+
+619
+00:37:15,083 --> 00:37:18,862
+like a way to work together,to,
+to get things done right.Uh,and
+
+620
+00:37:18,862 --> 00:37:22,463
+like there's,there's deadlines,
+there's,you know,always,oh,
+
+621
+00:37:22,463 --> 00:37:25,103
+probably lots of times.Too much
+work for everybody.And,you know,
+
+622
+00:37:25,552 --> 00:37:28,672
+um,just kind of remembering,I
+think you said remember that the
+
+623
+00:37:28,672 --> 00:37:32,693
+other person has like emotions
+and has,you know,their own,their
+
+624
+00:37:32,693 --> 00:37:35,512
+own things going on.Uh,I think
+we'll take you a long way.Um,I
+
+625
+00:37:35,512 --> 00:37:38,632
+try to use that,that sort of
+empathy in all,all these kinds of
+
+626
+00:37:38,963 --> 00:37:44,248
+situations,but that.Um,you know,
+human thinking,like remembering
+
+627
+00:37:44,248 --> 00:37:47,708
+the people on the other end of
+anything is,are people right?And
+
+628
+00:37:47,708 --> 00:37:52,688
+have their own have their own.
+Uh,Hey Bekah,you okay?You just
+
+629
+00:37:52,688 --> 00:37:53,708
+smacked your microphone there,
+
+630
+00:37:53,768 --> 00:37:56,407
+Bekah: Sorry,trying to come back
+quiet.
+
+631
+00:37:57,458 --> 00:38:00,907
+Dan: yeah,yeah.You know,you
+failed at that one.Um,but what I
+
+632
+00:38:00,907 --> 00:38:02,858
+was saying was,um,remembering
+that people have their own
+
+633
+00:38:02,858 --> 00:38:05,108
+motivations and trying to figure
+out what they are,you know,uh,
+
+634
+00:38:05,288 --> 00:38:07,657
+it,I mean,it can help you in a
+lot of ways.I think people have
+
+635
+00:38:07,663 --> 00:38:11,782
+talked about that with winning.
+Winning haggling situations,but
+
+636
+00:38:11,782 --> 00:38:15,413
+like it can help you and just not
+in that and not in devious ways,
+
+637
+00:38:15,413 --> 00:38:20,092
+but like understanding where
+people are coming from,um,I think
+
+638
+00:38:20,092 --> 00:38:23,003
+can help you get what you want
+and also what they want together,
+
+639
+00:38:23,588 --> 00:38:24,773
+Right.That's,
+
+640
+00:38:24,818 --> 00:38:25,568
+Arthur: Well,that's exactly it.
+
+641
+00:38:25,612 --> 00:38:26,242
+Dan: that's the ideal,
+
+642
+00:38:26,557 --> 00:38:30,547
+Arthur: We often approach
+conflict as a,um,uh,what ar shown
+
+643
+00:38:30,552 --> 00:38:36,608
+term model one,um,which is a,it
+is an,a combative,uh,zero sum
+
+644
+00:38:36,728 --> 00:38:40,447
+game where you are working to
+control the emotions of the other
+
+645
+00:38:40,447 --> 00:38:46,297
+participant.Um,where you are,if
+you win,they lose and vice versa.
+
+646
+00:38:46,538 --> 00:38:52,657
+And if we look at conflict in
+that lens,y.I mean,it's possible,
+
+647
+00:38:52,898 --> 00:38:56,108
+but you're in for a hard fight
+right now.You've gotta bat
+
+648
+00:38:56,467 --> 00:38:58,478
+somebody down.If you're a
+manager,you're trying to do
+
+649
+00:38:58,478 --> 00:39:02,438
+things like,uh,have quick
+conversations so that you are
+
+650
+00:39:02,887 --> 00:39:05,168
+the,there's no time for the
+emotion.It's like,well,here's
+
+651
+00:39:05,172 --> 00:39:08,197
+your performance review and this
+is,and here's the things that you
+
+652
+00:39:08,202 --> 00:39:10,867
+can do to improve.And then the,
+and the meeting's over and the
+
+653
+00:39:10,867 --> 00:39:13,148
+person's still like sitting there
+processing their own emotions.
+
+654
+00:39:13,208 --> 00:39:17,018
+Um,but you win because you don't
+have to have the hard
+
+655
+00:39:17,018 --> 00:39:20,873
+conversation or,you know,see
+them.And emotionally respond to
+
+656
+00:39:20,873 --> 00:39:27,802
+any of it.Um,and the alternative
+to model one is model two,which
+
+657
+00:39:27,802 --> 00:39:33,413
+is,I mean,they're not great at
+naming things,but,um,it is a,a
+
+658
+00:39:33,413 --> 00:39:37,072
+collaborative win-win approach
+where you are recognizing that
+
+659
+00:39:37,762 --> 00:39:40,583
+conflict is,is inherently
+emotional,that humans are
+
+660
+00:39:40,922 --> 00:39:44,663
+inherently emotional and you're
+respecting and acknowledging the
+
+661
+00:39:44,663 --> 00:39:49,972
+emotions of others,including
+yourself.and attempting to find a
+
+662
+00:39:49,972 --> 00:39:54,742
+situation that benefits all
+parties to a,you know,it's
+
+663
+00:39:54,802 --> 00:39:57,242
+stereotypical,but to find those
+win-win situations.
+
+664
+00:39:57,521 --> 00:39:59,882
+Dan: Yeah,absolutely.Go ahead.
+
+665
+00:40:00,110 --> 00:40:03,030
+Bekah: was just gonna say,like,
+I,I think as part of that,it's
+
+666
+00:40:03,061 --> 00:40:06,391
+really important to understand
+how people communicate,right?
+
+667
+00:40:06,391 --> 00:40:11,460
+Like for me,I,my emotions go from
+zero to a hundred in like a split
+
+668
+00:40:11,465 --> 00:40:16,081
+second,right?And so if there's a
+situation that I know is going to
+
+669
+00:40:16,081 --> 00:40:19,501
+be an emotional one,I'll ask
+people like,Hey,can you gimme a
+
+670
+00:40:19,501 --> 00:40:23,161
+heads up before we talk about
+this?Or,I'm,I'm getting better at
+
+671
+00:40:23,161 --> 00:40:27,351
+saying like,before I just like
+jump into my emotional response.
+
+672
+00:40:28,545 --> 00:40:31,846
+Can we take a step back and talk
+about this later?Uh,because I
+
+673
+00:40:31,846 --> 00:40:35,146
+know that I'm not going to give
+the response that I want to be
+
+674
+00:40:35,146 --> 00:40:39,226
+giving,and it's not gonna be
+productive for anyone in that
+
+675
+00:40:39,226 --> 00:40:44,101
+situation,right?And I think that.
+Understanding that we communicate
+
+676
+00:40:44,101 --> 00:40:49,920
+in different ways,that we,um,we
+receive feedback in different
+
+677
+00:40:49,920 --> 00:40:53,880
+ways is incredibly important to
+finding that place where you can
+
+678
+00:40:53,885 --> 00:40:57,090
+have that productive conversation
+where you can have those hard
+
+679
+00:40:57,090 --> 00:40:59,851
+conver,nobody,I mean,I don't
+think anybody likes to have hard
+
+680
+00:40:59,851 --> 00:41:05,311
+conversations.I don't,it takes a
+lot of work to do that,right?And
+
+681
+00:41:05,311 --> 00:41:11,420
+so finding the best way to do
+that.Is going to benefit everyone
+
+682
+00:41:11,425 --> 00:41:14,081
+and then you'll be able to grow
+through those conversations.
+
+683
+00:41:15,615 --> 00:41:18,195
+Arthur: I think what you're,
+there's two things I want I want
+
+684
+00:41:18,195 --> 00:41:23,385
+to touch on that you pulled,you
+mentioned,um,the first is that
+
+685
+00:41:23,385 --> 00:41:26,715
+there is some degree of,uh,the
+concept's called it kind of
+
+686
+00:41:26,715 --> 00:41:32,581
+called managing upward.Um,but it
+works regardless of.The
+
+687
+00:41:32,581 --> 00:41:35,371
+description of the concept is
+that you are providing
+
+688
+00:41:35,371 --> 00:41:39,451
+information to your superiors
+about how you work and what the
+
+689
+00:41:39,451 --> 00:41:43,561
+best way to manage you is.Um,
+there is a tendency to believe
+
+690
+00:41:43,561 --> 00:41:47,130
+that just because somebody is a
+manager,that they have.All seeing
+
+691
+00:41:47,190 --> 00:41:52,451
+human powers,um,is absolutely not
+true.Uh,you know,they're,they're
+
+692
+00:41:52,451 --> 00:41:55,440
+just people like you,right?So
+they don't necessarily,I mean,in
+
+693
+00:41:55,440 --> 00:41:58,050
+a lot of cases,especially in
+tech,they are somebody who was
+
+694
+00:41:58,050 --> 00:42:00,391
+really good at the tech side.And
+it's like,well,what's the program
+
+695
+00:42:00,391 --> 00:42:03,670
+motion path?Well,now you're a
+tech lead.great.And you have all
+
+696
+00:42:03,670 --> 00:42:06,161
+of these human things that you've
+never had any training in and
+
+697
+00:42:06,161 --> 00:42:09,400
+never,you don't have a ton of
+experience in.Um,so helping them
+
+698
+00:42:09,400 --> 00:42:11,891
+out and be like,well,this is how
+I respond to things.This is the
+
+699
+00:42:11,891 --> 00:42:14,650
+best way to tell me about X.This
+is the best way to do that can
+
+700
+00:42:14,650 --> 00:42:16,931
+help.But that doesn't have to be
+just that their manager that can
+
+701
+00:42:16,936 --> 00:42:19,871
+actually be at your entire team.
+This is the best way to work with
+
+702
+00:42:19,871 --> 00:42:23,940
+me.This is the way that I tend to
+respond to things.But the other
+
+703
+00:42:23,940 --> 00:42:27,090
+piece that Bekah mentioned that I
+wanna pull up is,is making space
+
+704
+00:42:27,090 --> 00:42:30,001
+for your emotions and making
+space for emotions and work in
+
+705
+00:42:30,001 --> 00:42:36,300
+general.Um,which sounds like,I
+mean,we're,you know,in the tech
+
+706
+00:42:36,300 --> 00:42:40,021
+space,so it's like har,we don't
+want to talk about any of that.
+
+707
+00:42:40,561 --> 00:42:44,521
+Um,god forbid we ever admit that
+we're angry about something or,
+
+708
+00:42:44,701 --> 00:42:51,585
+you know,upset or scared about
+something.Um,I think that
+
+709
+00:42:52,806 --> 00:42:54,795
+recognizing and making space for
+your own emotions is important.
+
+710
+00:42:54,795 --> 00:42:58,635
+So as a,as a perfect example for
+Junior Debs,um,if you didn't go
+
+711
+00:42:58,635 --> 00:43:02,505
+through like again,an art school
+education,um,art school,they,
+
+712
+00:43:02,565 --> 00:43:06,615
+they train you about on how to
+literally separate yourself from
+
+713
+00:43:06,615 --> 00:43:13,590
+your creations.We don't get that.
+What we get is,You code.If you do
+
+714
+00:43:13,590 --> 00:43:19,351
+good code,you are good developer.
+And that in like ties our concept
+
+715
+00:43:19,380 --> 00:43:23,971
+of,wait,the,the flip side of that
+is if I don't code well I'm not a
+
+716
+00:43:23,971 --> 00:43:27,300
+good developer.So when we start
+doing peer reviews or pull
+
+717
+00:43:27,300 --> 00:43:29,760
+request or whatever your
+methodology is for these things,
+
+718
+00:43:29,760 --> 00:43:34,621
+or even peer programming,um,
+Where you code a thing and
+
+719
+00:43:35,021 --> 00:43:37,621
+somebody says,that's not right,
+here's the right way to do it.
+
+720
+00:43:38,521 --> 00:43:41,371
+Now you've got a moment in your
+brain where your brain is like,
+
+721
+00:43:41,731 --> 00:43:45,451
+oh no,I've gotten conflicting
+information.Um,I wanna believe
+
+722
+00:43:45,451 --> 00:43:48,331
+I'm a good developer,but somebody
+has just told me I did a bad
+
+723
+00:43:48,331 --> 00:43:54,210
+thing.So am bad developer,and it
+helps to have a moment to go.
+
+724
+00:43:55,641 --> 00:43:59,416
+Okay.I'm just,I know that I'm
+gonna respond to this poorly,so
+
+725
+00:43:59,655 --> 00:44:03,195
+I'm going to,like Bekah said,
+take a moment to go.Can we talk
+
+726
+00:44:03,195 --> 00:44:06,237
+about this tomorrow?Or in a case
+of a peer review,to explicitly be
+
+727
+00:44:06,242 --> 00:44:09,496
+like,I'm gonna take a minute to
+think about this.Um,and that
+
+728
+00:44:09,501 --> 00:44:12,795
+could go for being a reviewer as
+well.I know there are moments
+
+729
+00:44:12,800 --> 00:44:19,036
+where I look at like the PR and,
+uh,I,I,you know,make a comment.
+
+730
+00:44:19,036 --> 00:44:22,606
+I'm like,I don't like this.I
+don't know why I don't like this,
+
+731
+00:44:23,626 --> 00:44:27,315
+but I'm gonna try and figure it
+out.Give me24hours.And I'd sit
+
+732
+00:44:27,315 --> 00:44:29,445
+back like,cuz I'm having an
+immediate gut response of like,
+
+733
+00:44:29,445 --> 00:44:33,135
+that's wrong cuz my brain is
+telling me that.And I don't
+
+734
+00:44:33,135 --> 00:44:36,990
+necessarily know why.So I give
+myself some time to think about
+
+735
+00:44:36,996 --> 00:44:39,840
+it,to chew on it,and I come back
+to it and I go,okay,if I have a
+
+736
+00:44:39,840 --> 00:44:42,181
+reason,I can put the reason in.
+If I don't have a reason,I
+
+737
+00:44:42,181 --> 00:44:45,030
+basically say,all right,I don't
+still don't like it,but I don't
+
+738
+00:44:45,030 --> 00:44:48,210
+have a reason for it.So go ahead.
+Um,
+
+739
+00:44:48,221 --> 00:44:52,036
+Dan: yeah.That's awesome.I That's
+a great idea on a poll request
+
+740
+00:44:52,036 --> 00:44:55,425
+too,cuz Yeah.I was,you.Wanna get
+it,like to hit submit.You want to
+
+741
+00:44:55,431 --> 00:44:57,885
+have all of your thoughts in
+order.But I think that idea of
+
+742
+00:44:57,885 --> 00:45:01,786
+saying,Hey man,like,you know,
+just like,pause on this for a
+
+743
+00:45:01,791 --> 00:45:04,306
+second cuz like something,you
+know,I wanna think about this a
+
+744
+00:45:04,306 --> 00:45:06,826
+little bit longer.You know,I'm
+not ignoring your poll request.
+
+745
+00:45:07,065 --> 00:45:08,985
+You know what I mean?Uh,I just
+wanna like get through it.I think
+
+746
+00:45:08,990 --> 00:45:10,036
+that's great advice.I like that.
+
+747
+00:45:11,505 --> 00:45:13,485
+Arthur: It just gives them a
+little breathing room from,I
+
+748
+00:45:13,490 --> 00:45:17,536
+mean,it's a space for those
+emotions to exist,right?And the
+
+749
+00:45:17,536 --> 00:45:19,005
+same thing can be true,
+especially in things like
+
+750
+00:45:19,005 --> 00:45:22,545
+retrospectives.We,I mean,if
+you're using an agile philosophy
+
+751
+00:45:22,545 --> 00:45:25,096
+or whatever,or you know,
+explicitly scrum,you get these
+
+752
+00:45:25,096 --> 00:45:29,911
+retrospectives.And a lot of the
+time it's.Um,okay,well,we're
+
+753
+00:45:29,911 --> 00:45:31,771
+gonna make complaints about a
+bunch of things that we can't
+
+754
+00:45:31,771 --> 00:45:37,860
+control.uh,or a bunch of
+completely superfluous,like,oh,
+
+755
+00:45:37,865 --> 00:45:40,590
+well,maybe we could be slightly
+better about pointing things.
+
+756
+00:45:40,596 --> 00:45:45,030
+This,like,you're,you're nibbling
+around the edges of these,um,I
+
+757
+00:45:45,036 --> 00:45:49,471
+don't wanna say useless,but not
+often super productive,uh,
+
+758
+00:45:49,471 --> 00:45:52,561
+changes that you make to the way
+that your process works,et
+
+759
+00:45:52,565 --> 00:45:55,891
+cetera.Instead of asking
+questions about,well,what are the
+
+760
+00:45:55,891 --> 00:45:59,610
+emotions we have about this?What
+are people getting frustrated
+
+761
+00:45:59,610 --> 00:46:05,521
+about?Um,and what are the things
+that,I mean,we've used a,a thing
+
+762
+00:46:05,525 --> 00:46:08,371
+in our own retros,like,uh,on the
+team I'm currently on,it's like
+
+763
+00:46:08,376 --> 00:46:12,121
+the,the glad,mad,sad retro board.
+Like they're a million different
+
+764
+00:46:12,126 --> 00:46:15,990
+types of retros.Cuz at this point
+I think somebody has a job where
+
+765
+00:46:16,021 --> 00:46:21,181
+they're just cranking'em out.Um,
+but like we use,like,we use this
+
+766
+00:46:21,181 --> 00:46:26,041
+one where it's explicitly these
+emotional columns and.Like we've
+
+767
+00:46:26,041 --> 00:46:28,110
+drained the emotion out of the
+actual things that we're putting
+
+768
+00:46:28,110 --> 00:46:31,050
+under these individual columns.
+We're not talking about it in
+
+769
+00:46:31,050 --> 00:46:36,420
+terms of,um,Hey,I'm actually
+really glad that this thing
+
+770
+00:46:36,425 --> 00:46:40,740
+happened.I'm actually,uh,really
+upset that this particular thing
+
+771
+00:46:40,746 --> 00:46:43,021
+happened.I'm mad about this
+particular thing,or,I'm really
+
+772
+00:46:43,021 --> 00:46:48,150
+sad that this,you know,this thing
+occurred.Um,and it,it's a
+
+773
+00:46:48,570 --> 00:46:52,126
+question of like if,um,Agile
+methodologies,they'll do like
+
+774
+00:46:52,126 --> 00:46:55,516
+fist of five.Have you ever heard
+of that?Like,um,it's kind of a
+
+775
+00:46:55,516 --> 00:46:58,155
+confidence thing after you do
+your planning where it's like,
+
+776
+00:46:58,155 --> 00:47:01,306
+how confident are you that you
+can actually deliver what's in
+
+777
+00:47:01,306 --> 00:47:09,115
+the sprint?And what's interesting
+to me is that that is a.weird
+
+778
+00:47:09,146 --> 00:47:11,815
+performative kind of thing.Most
+of the time when I've seen it
+
+779
+00:47:11,815 --> 00:47:17,186
+used,uh,where it's,if you have a,
+like,if you have dare to raise a
+
+780
+00:47:17,190 --> 00:47:21,686
+one as like,I'm not sure.Um,it's
+like the whole team comes,like
+
+781
+00:47:21,690 --> 00:47:25,646
+the,the whole force of the team
+comes to bear on you.This
+
+782
+00:47:25,646 --> 00:47:30,096
+tremendous normative force to be
+like,why are you not conforming?
+
+783
+00:47:32,695 --> 00:47:35,126
+and suddenly you've got to like,
+I mean,and the same thing can be
+
+784
+00:47:35,126 --> 00:47:37,525
+true even if you're just doing
+normal pointing,right?I mean,
+
+785
+00:47:37,525 --> 00:47:40,076
+like,that's the,the Agile joke is
+like,well,everything's a three
+
+786
+00:47:40,106 --> 00:47:43,916
+because there's this,again,
+tremendous normative force to
+
+787
+00:47:43,916 --> 00:47:48,626
+push.if you have something that's
+outside where it's a one or you
+
+788
+00:47:48,626 --> 00:47:51,835
+have a,an eight,or God forbid,
+like a13,if you're doing like FE
+
+789
+00:47:51,835 --> 00:47:56,246
+numbers or whatever,um,there's
+this tremendous force to be like,
+
+790
+00:47:56,246 --> 00:48:02,275
+why is that the case and not to.
+You know,to recognize that
+
+791
+00:48:02,275 --> 00:48:06,356
+typically those things mean that
+there is an emotion there.If I'm
+
+792
+00:48:06,356 --> 00:48:10,286
+looking at it as a13,it isn't
+just that it's technically
+
+793
+00:48:10,585 --> 00:48:13,945
+difficult,that could be the case,
+but in a lot of cases it's,I'm
+
+794
+00:48:13,945 --> 00:48:20,166
+scared there's risk here,right?
+Or we've tried something like
+
+795
+00:48:20,166 --> 00:48:23,036
+this before in the past and it
+didn't work,and I'm afraid that
+
+796
+00:48:23,036 --> 00:48:27,775
+it might not work again.But we
+never frame it in that term and
+
+797
+00:48:27,775 --> 00:48:32,740
+we should.we should be talking
+about.I am scared about this.Why
+
+798
+00:48:32,740 --> 00:48:36,610
+am I scared about this?I'm,you
+know,we're in the middle of a,a
+
+799
+00:48:36,610 --> 00:48:41,320
+revamp of,um,some code that is,
+uh,let's just say,let's be
+
+800
+00:48:41,320 --> 00:48:47,920
+charitable and say it was hastily
+written.Um,there were
+
+801
+00:48:47,920 --> 00:48:50,650
+externalities that,that has had
+to deal
+
+802
+00:48:50,831 --> 00:48:52,780
+Dan: I just,just call it legacy
+code.It'll be fine.
+
+803
+00:48:54,280 --> 00:48:59,606
+Arthur: this.This is the most
+legacy code I've ever seen.Um,I
+
+804
+00:48:59,606 --> 00:49:02,726
+mean in,in,in real talk,some of
+the ca the code that we are
+
+805
+00:49:02,726 --> 00:49:04,195
+working with is25years old.
+
+806
+00:49:04,811 --> 00:49:05,231
+Bekah: Wow.
+
+807
+00:49:05,576 --> 00:49:07,405
+Arthur: Um,there are nine
+different languages on this
+
+808
+00:49:07,405 --> 00:49:15,146
+project.Uh,yeah,it's exciting.So
+there's a lot of emotions,and we
+
+809
+00:49:15,150 --> 00:49:17,635
+are currently supporting this,
+this code that's,I mean,it's in
+
+810
+00:49:17,635 --> 00:49:23,186
+production,it's running,and there
+is a lot of emotions around.I am
+
+811
+00:49:23,190 --> 00:49:25,706
+afraid that we're on the hook for
+something that we're,you know,
+
+812
+00:49:25,710 --> 00:49:30,626
+code we didn't.and code that we
+don't understand,still don't
+
+813
+00:49:30,626 --> 00:49:37,465
+understand.And being able to
+literally say those words that I
+
+814
+00:49:37,465 --> 00:49:43,376
+am,I am scared of.This,opens the
+door to a better understanding
+
+815
+00:49:43,376 --> 00:49:48,536
+instead of having to,to wrap it
+in,um,the trappings of,of
+
+816
+00:49:48,536 --> 00:49:52,675
+scientific,you know,fake science
+basically.Well,I'm worried about,
+
+817
+00:49:52,675 --> 00:49:56,201
+you know,I mean,even,you know,
+words like the externalities that
+
+818
+00:49:56,201 --> 00:49:58,931
+I used,right?Like we're we wrap
+it in terms like that,where it's
+
+819
+00:49:58,931 --> 00:50:01,061
+like there's a lot of
+externalities,this code,there's a
+
+820
+00:50:01,061 --> 00:50:03,731
+bunch of complexity,there's a
+bunch of technical debt.We've
+
+821
+00:50:03,731 --> 00:50:06,190
+made up words that basically all
+mean the same thing,which is
+
+822
+00:50:06,190 --> 00:50:10,871
+like,it,it's a nasty,dark thicket
+of code and I'm scared of it,
+
+823
+00:50:11,800 --> 00:50:16,061
+right?That doesn't mean that
+there isn't reason for it,right?
+
+824
+00:50:16,061 --> 00:50:22,766
+We also dismiss the emotions as
+as,as irrational or.Less valuable
+
+825
+00:50:22,771 --> 00:50:25,766
+than a narrative cognitive
+explanation,but in,in a lot of
+
+826
+00:50:25,766 --> 00:50:28,916
+cases,they're equally valuable,
+at least in terms of
+
+827
+00:50:28,916 --> 00:50:31,916
+understanding your situation and,
+and the human element of it,and
+
+828
+00:50:31,916 --> 00:50:35,005
+understanding what the next path
+forward is.If you're scared of
+
+829
+00:50:35,005 --> 00:50:38,545
+the thing,you fix that by
+understanding it,you fix that by
+
+830
+00:50:38,545 --> 00:50:41,456
+starting to go through and
+figuring out what the replacement
+
+831
+00:50:41,456 --> 00:50:45,385
+is,what the path forward is.
+Right?I mean,going back to the,
+
+832
+00:50:45,385 --> 00:50:50,590
+the human behavioral health side
+of things,right?There's the.The
+
+833
+00:50:50,590 --> 00:50:57,190
+idiom that,um,anxiety lives in
+uncertainty and the more you can
+
+834
+00:50:57,190 --> 00:51:00,521
+be certain about something,the
+less fear room there is for fear
+
+835
+00:51:00,525 --> 00:51:01,331
+in that environment.
+
+836
+00:51:03,041 --> 00:51:06,101
+Dan: Yeah,absolutely.I,I've had
+the experience many times and we,
+
+837
+00:51:06,106 --> 00:51:11,425
+we,uh,Oh,just today it went out.
+Um,with,with Kai,we,we talked
+
+838
+00:51:11,425 --> 00:51:14,726
+about that.Uh,I've,like me
+personally,I've had this
+
+839
+00:51:14,726 --> 00:51:16,766
+experience of just avoiding
+things that I should learn or
+
+840
+00:51:16,766 --> 00:51:20,815
+should do just because it was.A
+big ball of unknown,you know?And
+
+841
+00:51:20,815 --> 00:51:23,846
+my brain had,my brain was just
+like,no,run away from this.You
+
+842
+00:51:23,846 --> 00:51:26,186
+don't know anything.Like,you
+don't understand it.It's like
+
+843
+00:51:26,215 --> 00:51:28,735
+it's,you know,it's,it's like
+that,it's exactly the dark
+
+844
+00:51:28,735 --> 00:51:31,916
+thicket,you know,like,I'm just
+gonna skirt around this,this
+
+845
+00:51:31,916 --> 00:51:35,335
+instead of diving in,you know?
+Um,but I guess to extend the
+
+846
+00:51:35,340 --> 00:51:38,065
+metaphor,right?Get a flashlight
+and a me a compass and,
+
+847
+00:51:38,626 --> 00:51:39,456
+Arthur: Or a machete.
+
+848
+00:51:39,956 --> 00:51:42,865
+Dan: Or a machete.Yeah,yeah,
+yeah,yeah.Exactly.Uh,one way or
+
+849
+00:51:42,865 --> 00:51:45,655
+the other.Figure out how to,how
+to,how to get through it,you
+
+850
+00:51:45,655 --> 00:51:47,376
+know?Uh,yeah.I.
+
+851
+00:51:49,001 --> 00:51:52,481
+Bekah: Well,Arthur,I wanna say
+we're,um,at about time and I
+
+852
+00:51:52,481 --> 00:51:55,840
+wanna thank you so much for
+chatting with us today.I know
+
+853
+00:51:55,840 --> 00:51:58,150
+that these are,this one of those
+conversations that I could have
+
+854
+00:51:58,150 --> 00:52:02,050
+had for probably another three
+hours and found so much value.
+
+855
+00:52:02,050 --> 00:52:06,280
+So,first of all,I wanna know when
+your book is coming out because I
+
+856
+00:52:06,280 --> 00:52:10,990
+wanna read it and I would love to
+see you put something out there
+
+857
+00:52:10,990 --> 00:52:11,501
+like that.
+
+858
+00:52:12,490 --> 00:52:14,590
+Arthur: I probably should at some
+point.I'm actually working on a
+
+859
+00:52:14,590 --> 00:52:19,121
+course for,um,folks at work that
+want to get into speaking and I'm
+
+860
+00:52:19,121 --> 00:52:22,061
+up to like98pages,so I don't
+think I'm accidentally writing a
+
+861
+00:52:22,061 --> 00:52:27,010
+book about that.Um,so we'll see
+if that happens,but if it does,
+
+862
+00:52:27,010 --> 00:52:27,920
+maybe there will be another one.
+
+863
+00:52:28,856 --> 00:52:32,846
+Bekah: That would be amazing.Uh,
+and I'm gonna end with our last
+
+864
+00:52:32,846 --> 00:52:36,655
+question,which is,what is one
+word you would use to describe
+
+865
+00:52:36,655 --> 00:52:37,135
+yourself?
+
+866
+00:52:38,456 --> 00:52:43,826
+Arthur: I think my one word is
+idiosyncratic.Um,I love that word
+
+867
+00:52:43,826 --> 00:52:47,726
+because I think it describes like
+it is just about being slightly
+
+868
+00:52:47,726 --> 00:52:51,565
+different,about approaching
+things a different way,about,um,
+
+869
+00:52:51,686 --> 00:52:54,746
+not being what you would expect,
+and that I feel like that
+
+870
+00:52:54,746 --> 00:52:56,606
+summarizes a lot of my life.
+
+871
+00:52:58,525 --> 00:52:59,005
+Dan: Pull up that.
+
+872
+00:52:59,471 --> 00:53:02,021
+Bekah: Yeah.I appreciate that.I
+think it,it,that's a really nice
+
+873
+00:53:02,021 --> 00:53:07,661
+way to.Word to pair up with the
+concentric circles in the journey
+
+874
+00:53:07,661 --> 00:53:09,731
+that you're talking about,
+because it is that different
+
+875
+00:53:09,731 --> 00:53:13,240
+perspective.So thank you so much
+for sharing that with us and for
+
+876
+00:53:13,240 --> 00:53:15,311
+sharing the time with us on the
+podcast today.
+
+877
+00:53:15,806 --> 00:53:16,945
+Arthur: Thanks very much for
+having me.
+
+878
+00:53:17,425 --> 00:53:19,496
+Dan: Yeah.Thank you Arthur.We'll
+see you.Uh,see you soon.
+
+879
+00:53:19,976 --> 00:53:20,456
+Arthur: See you.
+
+880
+00:53:23,835 --> 00:53:25,936
+Dan: Thank you for listening to
+this episode of the Virtual
+
+881
+00:53:25,936 --> 00:53:29,681
+Coffee Podcast.This episode was
+produced by Dan Ott and Bekah
+
+882
+00:53:29,681 --> 00:53:32,461
+Hawrot Weigel.If you have
+questions or comments you can hit
+
+883
+00:53:32,461 --> 00:53:35,472
+us up on Twitter at
+VirtualCoffeeIO,or email us at
+
+884
+00:53:35,472 --> 00:53:38,942
+podcast@virtualcoffee.io.You can
+find the show notes,sign up for
+
+885
+00:53:38,942 --> 00:53:40,981
+the newsletter,check out any of
+our other resources on our
+
+886
+00:53:40,981 --> 00:53:44,371
+website VirtualCoffee.io.If
+you're interested in sponsoring
+
+887
+00:53:44,371 --> 00:53:46,771
+Virtual Coffee you can find out
+more information on our website
+
+888
+00:53:47,041 --> 00:53:51,481
+at VirtualCoffee.io/sponsorship.
+Please subscribe to our podcast
+
+889
+00:53:51,512 --> 00:53:54,722
+and be sure to leave us a review.
+Thanks for listening and we'll
+
+890
+00:53:54,722 --> 00:53:55,561
+see you next week!
