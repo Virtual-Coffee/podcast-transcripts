@@ -1,19 +1,11 @@
 1
-00:00:05,758 --> 00:00:06,605
+00:00:05,758 --> 00:00:09,146
 Bekah: Hello and welcome to
-season four, episode
-
-2
-00:00:06,605 --> 00:00:07,452
-seven of
-
-3
-00:00:07,452 --> 00:00:09,146
-the
+Season 4, Episode 7 of the
 
 4
 00:00:09,147 --> 00:00:11,537
-Virtual Coffee podcast. I'm
+Virtual Coffee Podcast. I'm
 Bekah. And this is a podcast
 
 5
@@ -32,11 +24,11 @@ developers at all stages of
 
 8
 00:00:18,757 --> 00:00:20,077
-their
+their coding
 
 9
 00:00:20,077 --> 00:00:22,987
-coding journey. And they're here
+journey. And they're here,
 on this podcast, sharing their
 
 10
@@ -50,13 +42,13 @@ it with
 
 12
 00:00:26,018 --> 00:00:29,047
-you here with me today, is my
-cohost Dan.
+you. Here with me today is my
+co-host, Dan.
 
 13
 00:00:31,096 --> 00:00:32,445
-Dan: Thanks Bekah. Today, we had
-a great time hanging out
+Dan: Thanks, Bekah. Today, we
+had a great time hanging out
 
 14
 00:00:32,445 --> 00:00:33,794
@@ -69,8 +61,8 @@ self-taught developer and staff
 
 16
 00:00:37,426 --> 00:00:39,345
-author for the FreeCodeCamp news
-publication. Jessica talked
+author for the freeCodeCamp News
+Publication. Jessica talked
 
 17
 00:00:39,345 --> 00:00:41,264
@@ -84,7 +76,7 @@ writing, how to differentiate
 19
 00:00:44,115 --> 00:00:46,635
 between constructive criticism
-and negative feedback. And how
+and negative feedback, and how
 
 20
 00:00:46,635 --> 00:00:49,155
@@ -98,42 +90,42 @@ your tech writing by eliminating
 22
 00:00:53,746 --> 00:00:57,886
 assumptions about your audience.
-And avoiding terms, like
+And avoiding terms like,
 
 23
 00:00:58,305 --> 00:01:01,786
-"it's so easy" and "just do
-this." she gave some tips,
+"It's so easy," and, "just do
+this!" She gave some tips
 
 24
 00:01:01,786 --> 00:01:04,695
 like adding a prerequisites to
-your posts or, other
+your posts or other resources
 
 25
 00:01:04,725 --> 00:01:10,635
-resources. Basically, Outlined
+and, basically, outlined
 her entire process for
 
 26
 00:01:10,665 --> 00:01:13,846
 all of her tech writing that she
-does. And, she does a lot of
+does. And she does a lot of
 
 27
 00:01:13,846 --> 00:01:16,995
-it and it's all pretty awesome.
-it was a really great
+it. And it's all pretty awesome.
+It was a really great
 
 28
 00:01:17,025 --> 00:01:19,906
-conversation and I know you were
+conversation and I know you are
 going to enjoy it.
 
 29
 00:01:20,287 --> 00:01:22,867
 Bekah: We start every episode of
-the podcast. Like we start every
+the podcast like we start every
 
 30
 00:01:22,867 --> 00:01:25,987
@@ -142,7 +134,7 @@ ourselves with our name, where
 
 31
 00:01:25,987 --> 00:01:27,832
-we're from, what we do and a
+we're from, what we do, and a
 random check-in question. We
 
 32
@@ -150,13 +142,9 @@ random check-in question. We
 hope
 
 33
-00:01:29,677 --> 00:01:35,105
-you enjoy this episode. [music]
-My name is Bekah. I am a front
-
-34
-00:01:35,105 --> 00:01:40,533
-end
+00:01:29,677 --> 00:01:40,533
+you enjoy this episode. My
+name is Bekah. I am a front-end
 
 35
 00:01:40,533 --> 00:01:44,222
@@ -165,36 +153,44 @@ Ohio, and my favorite childhood
 
 36
 00:01:44,222 --> 00:01:45,722
-movie was Beauty and the Beast.
+movie was "Beauty and the
+Beast".
 
 37
 00:01:47,322 --> 00:01:51,343
 Dan: That's a good one. Hi, my
-name is Dan. I am a front end
+name is Dan. I am a front-end
 
 38
 00:01:51,343 --> 00:01:56,143
 developer from Cleveland, Ohio.
-And, yeah, my, my favorite
+And-- yeah, my- my favorite
 
 39
 00:01:56,143 --> 00:01:59,173
-movie is Star Wars. I think if I
-had to pick one, it would,
+movie was s- "Star Wars". I think
+if I had to pick one, it would--
 
 40
 00:01:59,352 --> 00:02:02,352
-it would be Return of the Jedi.
-yeah. As, as a child, I
+it would be "Return of the
+Jedi". Yeah, as- as a child, I
 
 41
-00:02:02,362 --> 00:02:06,692
-watched that. just, just a lot.
-So it's easy choice for me.
+00:02:02,362 --> 00:02:06,000
+watched that-- well, just- just
+a lot [chuckles]. So it's
+
+00:02:06,000 --> 00:02:06,692
+easy choice for me.
 
 42
 00:02:06,798 --> 00:02:07,668
 Bekah: It's a solid choice.
+
+43
+00:02:07,668 --> 00:02:08,897
+Dan: Yeah.
 
 43
 00:02:08,897 --> 00:02:11,267
@@ -212,58 +208,67 @@ am also a technical writer for
 
 46
 00:02:17,418 --> 00:02:19,683
-FreeCodeCamp News and my
+freeCodeCamp News. And my
 favorite movie was actually the
 
 47
 00:02:19,683 --> 00:02:21,948
-Toy Story
+"Toy Story"
 
 48
 00:02:21,948 --> 00:02:23,868
-movies. And so the original one,
-but all four of them are
+movies. And so, the original
+one-- but all four of them are
 
 49
 00:02:23,868 --> 00:02:25,788
 amazing there.
 
 50
-00:02:26,992 --> 00:02:27,724
-Dan: Nice, those are on big
-rotation at our house with, with
-
-51
-00:02:27,724 --> 00:02:28,456
-our
+00:02:26,992 --> 00:02:28,457
+Dan: Nice. Those are on big
+rotation at our house with- with
 
 52
 00:02:28,457 --> 00:02:29,922
-kids.
+our kids.
 
 53
 00:02:29,923 --> 00:02:32,103
 We also enjoy them. They're
-[crosstalk] solid.
+[crosstalk] pretty solid.
 
 54
 00:02:32,103 --> 00:02:35,818
-Jessica: I totally cried. When
-Andy went to college, I bawled
+Jessica: I totally cried when
+Andy went to college. I bawled
 
 55
 00:02:35,848 --> 00:02:38,877
-like a little baby. I'm like, oh
-my gosh, he can't leave. And
+like a little baby. I'm like, "Oh,
+my gosh. He can't leave. And
 
 56
-00:02:38,877 --> 00:02:42,568
+00:02:38,877 --> 00:02:42,000
 then he was giving his toys to
-the little girl. I'm like, I
+the little girl. I'm like-
 
 57
-00:02:42,568 --> 00:02:43,728
-mean, teary-eyed now.
+00:02:42,000 --> 00:02:42,200
+Dan: Yeah.
+
+57
+00:02:42,200 --> 00:02:42,700
+Jessica: -I mean-
+
+58
+00:02:42,700 --> 00:02:43,000
+Dan: I--
+
+59
+00:02:43,000 --> 00:02:43,728
+Jessica: -getting teary-eyed
+down-
 
 58
 00:02:43,728 --> 00:02:43,948
@@ -271,85 +276,94 @@ Dan: Yes.
 
 59
 00:02:44,207 --> 00:02:44,518
-Jessica: ya know?
+Jessica: -ya know? [Laughs]
 
 60
 00:02:44,927 --> 00:02:45,897
-Dan: I actually tried to
-discourage that. That's I
+Dan: Yeah. I actually tried to
+discourage that- that's
 
 61
 00:02:45,897 --> 00:02:46,867
-Toy Story
+"Toy Story 3".
 
 62
 00:02:46,867 --> 00:02:49,048
-three. I tried to actually
-discourage Toy Story 3 just
+I tried to actually
+discourage "Toy Story 3" just
 
 63
 00:02:49,048 --> 00:02:52,298
-because it. It's very good. It's
-about it is emotionally,
+because it-- it's very good.
+It's-- well, it is emotionally
 
 64
 00:02:52,418 --> 00:02:52,867
-affecting
+affecting [chuckles].
 
 65
 00:02:53,568 --> 00:02:53,747
-Jessica: Right,
+Jessica: Right [laughs].
 
 66
 00:02:53,798 --> 00:02:54,397
-Dan: absolutely.
+Dan: Absolutely.
 
 67
 00:02:54,812 --> 00:02:57,752
-Bekah: my oldest is 12 and he'll
-look at me and be like, are you
+Bekah: My- my oldest is 12, and
+he'll look at me, and be like,
 
 68
 00:02:57,752 --> 00:03:00,272
-crying? yes.
+"Are you crying?" "That's ..."
 
 69
-00:03:00,782 --> 00:03:02,902
-Jessica: It's very sad. We grew
-up with Andy.
+00:03:00,782 --> 00:03:02,700
+Jessica: Like, it's very sad. We
+grew up-
+
+70
+00:03:02,300 --> 00:03:02,500
+Bekah: It's very sad.
+
+71
+00:03:02,700 --> 00:03:02,902
+Jessica: -with Andy [laughs].
 
 70
 00:03:04,133 --> 00:03:07,492
-Dan: Dude, I entertainment. Like
+Dan: Dude, I-- entertainment, like,
 it takes on a whole new slant
 
 71
 00:03:07,492 --> 00:03:10,402
-when, especially when you have
-kids. Cause like I just find
+when-- especially when you have
+kids cuz, like, I just find
 
 72
 00:03:10,402 --> 00:03:13,223
 myself being, you know, affected
-by this stuff in
+by this stuff in- in
 
 73
 00:03:13,223 --> 00:03:16,342
-different ways, you know? And
-it's like, I don't it's matter.
+different ways, you know? And-
+and it's like, I don't-- it's
 
 74
 00:03:16,372 --> 00:03:16,733
-It's cool. it's good stuff.
+matter. It's cool. it's good
+stuff.
 
 75
 00:03:17,772 --> 00:03:23,117
 Bekah: It's been wild rereading
-novels. I read. As like a young
+novels I read. As, like, a young
 
 76
 00:03:23,117 --> 00:03:26,492
-adult to my kids. I, because I
+adult to my kids. I-- because I
 always loved young adult fiction
 
 77
@@ -359,81 +373,73 @@ and I
 78
 00:03:29,867 --> 00:03:35,027
 always loved the young adult
-character. Right? And now as a
+character, right? And now, as a
 
 79
-00:03:35,027 --> 00:03:40,068
-parent, when I read it, I with
-the parents and the novels and
+00:03:35,027 --> 00:03:39,200
+parent, when I read it, I
+identify with the parents and
+
+80
+00:03:39,200 --> 00:03:40,068
+the novels, and
 
 80
 00:03:40,068 --> 00:03:42,707
-I'm like, oh, they don't
+I'm like, "Oh, they don't
 understand what they're doing to
 
 81
-00:03:42,707 --> 00:03:47,867
-their parents. So, yeah, it's
-very different, lots of crying
+00:03:42,707 --> 00:03:47,000
+their parents." [Jessica laughs]
+So, yeah, it's very different.
 
 82
-00:03:47,867 --> 00:03:49,358
-and young adult novel reading
-too.
+00:03:47,000 --> 00:03:49,358
+Lots of crying in young adult
+novel reading too.
 
 83
 00:03:49,358 --> 00:03:53,043
-Dan: Yeah. at some point I
-realized it with Calvin and
+Dan: Yeah. At some point, I
+realized it with "Calvin and
 
 84
 00:03:53,043 --> 00:03:56,342
-Hobbes. I was a big Calvin and
-Hobbes fan Growing up and found
+Hobbes". I was a big "Calvin and
+Hobbes" fan, growing up, and
 
 85
 00:03:56,342 --> 00:03:59,492
-myself recently, you know,
-identifying much more with
+found myself recently, you know,
+identifying much more [laughs]
 
 86
 00:04:02,052 --> 00:04:02,962
-the parents. [chuckles] Anyway,
+with the parents. Anyway--
 
 87
-00:04:03,872 --> 00:04:05,372
-Bekah: Welcome. Jessica it's so
-great to have you here with
-
-88
-00:04:05,372 --> 00:04:06,872
-us
+00:04:03,872 --> 00:04:06,872
+Bekah: Welcome, Jessica. It's so
+great to have you here with us
 
 89
-00:04:06,872 --> 00:04:08,154
+00:04:06,872 --> 00:04:11,200
 today, especially because we did
-a lunch and learn recently with
+a Lunch and Learn recently with
 
 90
-00:04:08,154 --> 00:04:09,436
-Jessica
-
-91
-00:04:09,437 --> 00:04:12,002
-and
+00:04:11,200 --> 00:04:12,002
+Jessica and
 
 92
-00:04:12,002 --> 00:04:13,412
+00:04:12,002 --> 00:04:14,822
 we'll put the link to that in
 the show notes. And she did such
 
-93
-00:04:13,412 --> 00:04:14,822
-a
-
 94
 00:04:14,823 --> 00:04:17,298
-good job about talking us
+a good job about talking us
 through writing and writing
 
 95
@@ -443,16 +449,16 @@ career. And
 96
 00:04:19,802 --> 00:04:23,072
 it is our monthly challenge this
-month, every month we hold a
+month. Every month, we hold a
 
 97
 00:04:23,072 --> 00:04:26,492
-monthly challenge, in the
-community is welcome to do it.
+monthly challenge. Everybody in
+the community is welcome to do
 
 98
 00:04:26,492 --> 00:04:30,468
-And this is. The one-year
+it. And this is the one-year
 anniversary of when we started
 
 99
@@ -463,68 +469,65 @@ one of my favorites. It's the
 100
 00:04:34,098 --> 00:04:38,148
 blog writing challenge and it's
-based off of NaNoWriMo national
+based off of NaNoWriMo — National
 
 101
 00:04:38,148 --> 00:04:44,867
-novel writing month. And so
+Novel Writing Month. And so,
 Jessica is just an amazing
 
 102
 00:04:44,927 --> 00:04:51,017
 writer. And we kicked off the
-blogging challenge and our goal
+blogging challenge. And our goal
 
 103
 00:04:51,017 --> 00:04:55,757
 was hit 50,000 words. That's
-what, as a community, that's
+what's-- as a community. That's
 
 104
-00:04:55,757 --> 00:04:57,062
+00:04:55,757 --> 00:04:58,000
 what it was last year. We didn't
 quite make it. We almost made
 
-105
-00:04:57,062 --> 00:04:58,367
-it,
-
 106
-00:04:58,968 --> 00:05:01,158
-but this year in, today is
+00:04:58,000 --> 00:05:01,158
+it. But this year, in-- today is
 Tuesday, November 9th. We have
 
 107
 00:05:01,158 --> 00:05:03,348
-already
+already--
 
 108
 00:05:03,918 --> 00:05:06,408
-have we? where are we at? We're
+have we-- where are we at? We're
 past halfway.
 
 109
 00:05:06,947 --> 00:05:10,367
-Jessica: I think we're at
-27,000, I think. Yeah.
+Jessica: We're at 27,000, I
+think? Yeah.
 
 110
 00:05:10,908 --> 00:05:13,307
-Bekah: and largely in part due
-to Jessica
+Bekah: And largely, in part, due
+to Jessica [laughs]--
 
 111
 00:05:13,408 --> 00:05:15,452
-Dan: Yep. Over well, over
+Dan: Yep. Over-- well, over
 28,000. Yeah.
 
 112
 00:05:15,577 --> 00:05:16,208
-Jessica: Oh, cool. cool.
+Jessica: Oh, cool. Cool
+[chuckles].
 
 113
 00:05:17,148 --> 00:05:18,857
-Bekah: So extra happy to have
+Bekah: So, extra happy to have
 you here to talk about this
 
 114
@@ -547,9 +550,13 @@ bit about how you got to this
 point in your career.
 
 118
-00:05:33,127 --> 00:05:36,603
+00:05:33,127 --> 00:05:36,000
 Jessica: Yeah. it's definitely
-unique there. So I grew up in
+unique there [laughs]. So, I
+
+119
+00:05:36,000 --> 00:05:36,603
+grew up in
 
 119
 00:05:36,603 --> 00:05:38,147
@@ -562,40 +569,36 @@ which
 
 121
 00:05:39,692 --> 00:05:42,212
-is like two hours south of Los
-Angeles in California there.
+is, like, two hours south of Los
+Angeles in- in California there.
 
 122
 00:05:42,212 --> 00:05:44,732
-And,
+And I
 
 123
-00:05:44,793 --> 00:05:47,297
+00:05:44,793 --> 00:05:49,801
 grew up with a single mom who
-was a teacher. And so. I
-
-124
-00:05:47,297 --> 00:05:49,801
-got
+was a teacher. And so, I got
 
 125
 00:05:49,802 --> 00:05:54,213
-into a music pretty early at
+into music pretty early at
 seven, and then just kind of
 
 126
 00:05:54,213 --> 00:05:56,822
 stuck with it. And it pretty
-early on, I decided I'm going to
+early on, I decided I'm gonna
 
 127
 00:05:56,822 --> 00:06:00,632
-be a professional musician. and
-so I started with piano and
+be a professional musician. And
+so, I started with piano, and
 
 128
 00:06:00,632 --> 00:06:02,597
-then I at 11 started learning
+then, I, at 11, started learning
 the oboe, which is like a
 
 129
@@ -604,13 +607,13 @@ woodwind
 
 130
 00:06:04,562 --> 00:06:08,642
-instrument. And I. At first
-didn't really like it. Cause I
+instrument. And I-- at first I
+didn't really like it cuz I
 
 131
 00:06:08,642 --> 00:06:09,752
-didn't sound that good at it,
-[chuckles]
+didn't sound that good at it
+[laughs].
 
 132
 00:06:10,577 --> 00:06:10,757
@@ -618,46 +621,46 @@ Dan: Yeah.
 
 133
 00:06:10,923 --> 00:06:12,182
-Jessica: then I started to kind
-of get into it. I was like,
+Jessica: But then I started to
+kinda get into it. I was like,
 
 134
 00:06:12,182 --> 00:06:13,441
-okay,
+"Okay,
 
 135
 00:06:13,442 --> 00:06:15,723
-cool. So then I started doing
-like festivals and private
+cool." So then, I started doing,
+like, festivals, and private
 
 136
 00:06:15,723 --> 00:06:19,202
-lessons and all that fun stuff.
-And I decided like 15, I'm going
+lessons, and all that fun stuff.
+And I decided, like, 15, I'm
 
 137
-00:06:19,202 --> 00:06:21,482
-to go, try to go to music school
-or conservatory. And go down
+00:06:19,202 --> 00:06:23,000
+gonna go-- try to go to music
+school or conservatory. And go
 
 138
-00:06:21,482 --> 00:06:23,762
-that
+00:06:23,000 --> 00:06:23,762
+down that
 
 139
 00:06:23,762 --> 00:06:27,273
 route and be a classical
-professional musician. and so,
+professional musician. And so,
 
 140
 00:06:27,273 --> 00:06:31,142
-when I graduated from college or
-from high school, I went on to
+when I graduated from college--
+or from high school, I went on
 
 141
 00:06:31,353 --> 00:06:33,348
-Eastman School of Music, which
-is in Rochester, New York,
+to Eastman School of Music,
+which is in Rochester, New York,
 
 142
 00:06:33,348 --> 00:06:35,343
@@ -676,11 +679,11 @@ Master's at University of
 145
 00:06:42,093 --> 00:06:44,683
 Michigan, which is in Ann Arbor.
-and then after that, I decided
+And then after that, I decided
 
 146
 00:06:44,683 --> 00:06:47,273
-to
+to come back to
 
 147
 00:06:47,312 --> 00:06:50,478
@@ -690,7 +693,7 @@ cold was just not agreeing with
 148
 00:06:50,478 --> 00:06:52,353
 me. So after six years of really
-cold weather, I was like, no
+cold weather, I was like, "No,
 
 149
 00:06:52,353 --> 00:06:54,228
@@ -699,7 +702,7 @@ hard
 150
 00:06:54,228 --> 00:06:58,517
 pass. Let's go back to Southern
-California. So I came back and
+California." So, I came back and
 
 151
 00:06:58,608 --> 00:07:00,828
@@ -707,56 +710,65 @@ decided that I wanted to start
 my own sheet music company and
 
 152
-00:07:00,828 --> 00:07:03,048
-run that.
+00:07:00,828 --> 00:07:03,500
+run that-
 
 153
-00:07:03,048 --> 00:07:04,000
+00:07:03,048 --> 00:07:03,500
 Dan: That's cool.
 
 154
-00:07:08,000 --> 00:07:08,362
-And then also, perform and
-freelance and so. from
+00:07:03,500 --> 00:07:08,362
+Jessica: -and then also perform
+and freelance. And so, for--
 
 155
 00:07:08,362 --> 00:07:14,723
-2015 to 2020, all I did was
-perform and record and run my
+from 2015 to 2020, all I did was
+perform, and record, and run my
 
 156
 00:07:14,723 --> 00:07:18,413
-sheet music company and teach.
+sheet music company, and teach.
 And so I was kind of busy with
 
 157
-00:07:18,413 --> 00:07:21,068
-all that fun stuff. And then
-2020 happened and everything
+00:07:18,413 --> 00:07:22,200
+all that fun stuff. And then,
+2020 happened [Jessica and Dan
 
 158
-00:07:21,068 --> 00:07:23,723
-[chuckles] changed.
+00:07:22,200 --> 00:07:23,723
+chuckles] and everything
+changed.
 
 159
-00:07:23,723 --> 00:07:28,642
-So for everybody, but me, it was
-just okay, go home. And there's
+00:07:23,723 --> 00:07:28,200
+So-- for everybody. But for me,
+it was just, "Okay, go home. And 
+
+160
+00:07:28,200 --> 00:07:28,642
+there's
 
 160
 00:07:28,642 --> 00:07:32,028
-no work for you. and I'm like
-Great. So what am I supposed to
+no work for you." And I'm like,
+"Great. So what am I supposed to
 
 161
-00:07:32,028 --> 00:07:36,317
-do now? So I just worked on the
-business and try to keep that
+00:07:32,028 --> 00:07:35,500
+do now?" [Chuckles] So, I just
+worked on the business and try
+
+162
+00:07:35,500 --> 00:07:36,317
+to keep that
 
 162
 00:07:36,557 --> 00:07:38,612
 going and afloat and changing
-there, for a few months. But
+there for a few months. But
 
 163
 00:07:38,612 --> 00:07:40,667
@@ -770,11 +782,11 @@ was going through a lot with
 165
 00:07:45,648 --> 00:07:50,377
 COVID and then race relations
-with the George Floyd murder And
+with the George Floyd murder. And
 
 166
 00:07:50,403 --> 00:07:54,093
-so a lot of people were talking
+so, a lot of people were talking
 about diversity issues within
 
 167
@@ -785,25 +797,21 @@ myself, right? My industry with
 168
 00:07:56,913 --> 00:07:58,547
 the classical world of operas
-and orchestras, cause there's a
+and orchestras, cuz there's a
 
 169
 00:07:58,547 --> 00:08:00,181
 huge
 
 170
-00:08:00,182 --> 00:08:02,282
-diversity problem, with, black
-representation,
-
-171
-00:08:02,282 --> 00:08:04,382
-especially.
+00:08:00,182 --> 00:08:04,382
+diversity problem with black
+representation, especially.
 
 172
 00:08:04,382 --> 00:08:06,427
-And so people were asking me.
-Yeah. Can you give me
+And so, people were asking me
+like, "Yo, can you give me
 
 173
 00:08:06,427 --> 00:08:08,472
@@ -812,7 +820,7 @@ information
 174
 00:08:08,473 --> 00:08:10,797
 about composers I can learn
-about so we can start to change.
+about so we can start to change?"
 
 175
 00:08:10,797 --> 00:08:13,121
@@ -821,12 +829,12 @@ And I
 176
 00:08:13,122 --> 00:08:15,103
 decided there should be a
-website. Like there should just
+website. Like, there should just
 
 177
 00:08:15,103 --> 00:08:16,888
 be one place where people can
-find all this stuff. and I, I
+find all this stuff. And I- I
 
 178
 00:08:16,888 --> 00:08:18,673
@@ -834,25 +842,21 @@ was
 
 179
 00:08:18,673 --> 00:08:20,443
-like, well, maybe could build
-it. I've never built anything.
+like, "Well, maybe I could build
+it." I've never built anything,
 
 180
 00:08:20,443 --> 00:08:22,213
 I've
 
 181
-00:08:22,213 --> 00:08:23,878
-never coded before, but Hey,
-we've got all this time, so
-
-182
-00:08:23,878 --> 00:08:25,543
-maybe
+00:08:22,213 --> 00:08:25,000
+never coded before, but hey,
+we've got all this time. So
 
 183
-00:08:25,543 --> 00:08:27,717
-we'll learn and see what
+00:08:25,000 --> 00:08:27,717
+maybe we'll learn and see what
 happens. So that's how I got
 
 184
@@ -865,17 +869,13 @@ programming and been doing this
 for about a year and a half now.
 
 186
-00:08:34,543 --> 00:08:37,137
-Yeah, so that's kind of my
-origin story and how I got into,
-
-187
-00:08:37,137 --> 00:08:39,731
-where
+00:08:34,543 --> 00:08:39,300
+And-- yeah. So that's kind of my
+origin story and how I got into
 
 188
-00:08:39,732 --> 00:08:40,182
-I'm at now.
+00:08:39,300 --> 00:08:40,182
+where I'm at now.
 
 189
 00:08:41,633 --> 00:08:44,023
@@ -884,7 +884,7 @@ that site still exist out there?
 
 190
 00:08:44,842 --> 00:08:46,987
-Jessica: Yes, so I created,
+Jessica: Yes. So I created
 version one about six months
 
 191
@@ -899,12 +899,12 @@ Black Excellence Music Project.
 193
 00:08:52,913 --> 00:08:58,222
 And I built that with HTML, CSS,
-and Vanilla JavaScript. and then
+and vanilla JavaScript. and then
 
 194
 00:08:58,222 --> 00:09:02,898
 I revisited it a few months ago,
-over the summer of 2021
+over the summer of 2021 and
 
 195
 00:09:03,768 --> 00:09:07,067
@@ -913,12 +913,12 @@ built with React and Tailwind
 
 196
 00:09:07,067 --> 00:09:11,597
-CSS, and has more artists and
-more games and all of this fun
+CSS, and has more artists, and
+more games, and all of this fun
 
 197
 00:09:11,597 --> 00:09:13,487
-stuff. and yeah, so this was
+stuff. And-- yeah, so this was
 always like a passion project.
 
 198
@@ -932,67 +932,69 @@ wanted to switch careers. I
 
 200
 00:09:17,443 --> 00:09:19,508
-thought initially in
+thought, initially, in June,
 
 201
 00:09:19,508 --> 00:09:22,187
-June I was like, oh, this thing
-will just blow over eventually.
+I was like, "Oh, this thing
+will just blow over, eventually.
 
 202
 00:09:22,187 --> 00:09:25,158
-And I go back to my old life and
-yeah. Obviously not what
+And I go back to my old life."
+And that's obviously not what
 
 203
-00:09:25,158 --> 00:09:29,957
-happened. I wildly misunderstood
-how COVID works. I
+00:09:25,158 --> 00:09:29,000
+happened [laughs]. I wildly
+misunderstood how, like, COVID
 
 204
-00:09:25,957 --> 00:09:31,005
-Bekah: same
+00:09:29,000 --> 00:09:29,957
+works. I totally-
+
+204
+00:09:29,957 --> 00:09:31,005
+Bekah: Same.
+
+206
+00:09:30,000 --> 00:09:31,700
+Jessica: -thought this
+was just gonna be-
 
 205
 00:09:31,005 --> 00:09:32,388
-Dan: everyone did.
-
-206
-00:09:32,388 --> 00:09:32,694
-Jessica: totally thought this
-was just going to be like a
+Dan: I-- everyone did.
 
 207
-00:09:32,694 --> 00:09:33,000
-couple of
+00:09:31,700 --> 00:09:33,500
+Jessica: -like a couple of
+months there [laughs].
 
 208
-00:09:33,000 --> 00:09:36,918
-months and I was completely
-wrong. So, but, and then I ended
+00:09:33,500 --> 00:09:37,200
+And I was completely wrong. So--
+but-- and then I ended up--
 
 209
-00:09:36,918 --> 00:09:40,727
-up starting to get developer
-work, and that was kinda
+00:09:37,200 --> 00:09:40,727
+yeah, I starting to get
+developer work, and that was kinda
 
 210
 00:09:40,758 --> 00:09:44,238
 cool. And then I started writing
-for FreeCodeCamp, which was also
+for freeCodeCamp, which was also
 
 211
-00:09:44,238 --> 00:09:45,828
-kind of cool. and I was like,
-well, maybe I could have a
-
-212
-00:09:45,828 --> 00:09:47,418
-career
+00:09:44,238 --> 00:09:47,000
+kinda cool. So-- and I was like,
+"Well, maybe I could have a
 
 213
-00:09:47,418 --> 00:09:49,128
-there. So yeah.
+00:09:47,000 --> 00:09:49,128
+career there." So- [chuckles]
+so, yeah.
 
 214
 00:09:49,648 --> 00:09:55,148
@@ -1010,40 +1012,33 @@ it's available on my personal
 
 217
 00:10:00,268 --> 00:10:03,148
-GitHub, but it's completely open
-source. It's a, anybody could
+GitHub but it's completely open
+source. It's a-- anybody could,
 
 218
-00:10:03,148 --> 00:10:04,423
-like dive in there and if they
-want to contribute there, I'm
+00:10:03,148 --> 00:10:07,000
+like, dive in there and- and if
+they, you know, wanna contribute
 
 219
-00:10:04,423 --> 00:10:05,698
-pretty
-
-220
-00:10:05,698 --> 00:10:08,248
-open
-
-221
-00:10:08,248 --> 00:10:09,957
-to that. So, yeah.
+00:10:07,000 --> 00:10:09,957
+there, I'm- I'm pretty open to
+that. So, yeah.
 
 222
 00:10:10,327 --> 00:10:12,847
-Bekah: Right. It is really
-awesome. And again, those links
+Bekah: That is really awesome.
+And, again, those links will
 
 223
 00:10:12,847 --> 00:10:21,243
-will be in the show notes I just
-think you seem like. So driven
+be in the show notes. And I just
+think you seem like I-- so driven
 
 224
 00:10:21,243 --> 00:10:25,773
 and motivated from everything
-that you've talked about your
+that you've talked about. Your
 
 225
 00:10:25,982 --> 00:10:27,902
@@ -1051,22 +1046,23 @@ career as a musician, you know,
 at 15 years old, you decided
 
 226
-00:10:27,902 --> 00:10:29,822
-that
+00:10:27,902 --> 00:10:31,700
+that you were gonna do this
+thing.
 
 227
-00:10:29,822 --> 00:10:34,743
-you were going to do this thing,
-and that's not an easy thing. So
+00:10:31,700 --> 00:10:34,743
+And it-- that's not an easy
+thing! [Jessica chuckles] So
 
 228
 00:10:34,743 --> 00:10:38,192
-you have this, I don't know,
-Tenacity or, or something. How
+you have this-- I don't know.
+Tenacity or- or something. How
 
 229
 00:10:38,192 --> 00:10:40,457
-would you kind of describe that,
+would you kind of describe that-
 that drivenness that's allowed
 
 230
@@ -1086,59 +1082,47 @@ part to both my mom and my
 233
 00:10:50,253 --> 00:10:54,302
 grandmother. And so both of them
-were single parents. And so one
+were single parents. And so, one
 
 234
-00:10:54,302 --> 00:10:56,522
-was by choice. my mom, worked as
-a teacher for many
-
-235
-00:10:56,522 --> 00:10:58,742
-years and
+00:10:54,302 --> 00:10:58,742
+was by choice. My mom worked as
+a teacher for many years. And
 
 236
 00:10:58,743 --> 00:11:01,442
-then in her forties decided that
+then, in her 40s, decided that
 she wanted to adopt and have a
 
 237
-00:11:01,442 --> 00:11:04,712
-child. and so, she had me when
-she was like 44 or 45.
-
-238
-00:11:04,712 --> 00:11:07,982
-And
+00:11:01,442 --> 00:11:07,982
+child. And so, she had me when
+she was, like, 44 or 45. And
 
 239
 00:11:07,982 --> 00:11:12,452
-then with my grandmother, she
+then, with my grandmother, she
 was married, but it was
 
 240
 00:11:12,452 --> 00:11:15,332
 unfortunately an abusive
-situation. So she had to get out
+situation. So she had to get out,
 
 241
 00:11:15,332 --> 00:11:19,263
-and get to safety and raise two
-kids by herself and was also a
+and get to safety, and raise two
+kids by herself, and was also a
 
 242
-00:11:19,263 --> 00:11:22,052
-teacher. but then went on to,
-you know, own land in
-
-243
-00:11:22,052 --> 00:11:24,841
-certain
+00:11:19,263 --> 00:11:24,841
+teacher. But then, went on to,
+you know, own land in certain
 
 244
 00:11:24,842 --> 00:11:27,107
 parts of California and just be
-fiercely independent. and so I
+fiercely independent. And so I
 
 245
 00:11:27,107 --> 00:11:29,372
@@ -1146,125 +1130,127 @@ just
 
 246
 00:11:29,373 --> 00:11:31,952
-kind of picked up on that, where
-if they decided they were going
+kinda picked up on that, where
+if they decided they were gonna
 
 247
-00:11:31,952 --> 00:11:32,927
-to do something, they just went
-for it. so I, Growing up with
+00:11:31,952 --> 00:11:34,500
+do something, they just went
+for it. It's-- I just
 
 248
-00:11:32,927 --> 00:11:33,902
-that
-
-249
-00:11:33,902 --> 00:11:35,852
-type
+00:11:34,500 --> 00:11:35,852
+growing up with that type
 
 250
-00:11:35,852 --> 00:11:37,307
-of mindset and energy, it's
-like, well, I guess That's just
+00:11:35,852 --> 00:11:38,500
+of mindset and energy. It's,
+like-- well, I guess that's just
 
 251
-00:11:37,307 --> 00:11:38,762
-what we
+00:11:38,500 --> 00:11:39,700
+what we do here [laughs]
 
 252
-00:11:38,763 --> 00:11:42,312
-do here. If you just want to go
-do something. so when I
+00:11:39,700 --> 00:11:42,312
+if you just wanna go do
+something. So when I
 
 253
 00:11:42,513 --> 00:11:46,863
-discovered my love for operas
-and orchestra and this weird,
+discovered my love for operas,
+and orchestra, and this weird,
 
 254
 00:11:46,863 --> 00:11:48,438
 beautiful instrument of the
-oboe, I was like, I want to go
+oboe, I was like, "I wanna go
 
 255
 00:11:48,438 --> 00:11:50,013
-do that
+do that." And- and, "I wanna
 
 256
 00:11:50,552 --> 00:11:54,633
-I want to go achieve that. And
-so I just went for it definitely
+go achieve that." And so I just
+went for it. And I- I definitely
 
 257
 00:11:54,633 --> 00:11:56,943
-didn't think I was going to get
-in to. The conservatory I was,
+didn't think I was gonna get
+into the conservatory I was,
 
 258
 00:11:56,943 --> 00:11:59,253
-but it
+but it ended
 
 259
 00:11:59,253 --> 00:12:04,173
-ended up working out thankfully,
-but leading up to it cause I got
+up working out, thankfully,
+but leading up to it cuz I got
 
 260
 00:12:04,383 --> 00:12:06,643
 four rejections and then the
-last one was an acceptation into
+last one was an acception into
 
 261
 00:12:06,643 --> 00:12:08,903
-my
+[chuckles] my dream
 
 262
 00:12:08,903 --> 00:12:11,673
-dream schools. So at first I was
-like, well maybe I'm just not
+school. So at first, I was
+like, "Well, maybe I'm just not
 
 263
-00:12:11,673 --> 00:12:15,423
-going to college. I have four
-rejections from other schools.
+00:12:11,673 --> 00:12:14,000
+going to college." [Laughs]
+And-- cuz I have four rejections
+
+264
+00:12:14,000 --> 00:12:15,423
+from other schools.
 
 264
 00:12:15,663 --> 00:12:19,232
-But then at the very end I was
-accepted, to Eastman. And
+But then, at the very end, I was
+accepted to Eastman. And
 
 265
 00:12:19,232 --> 00:12:21,423
 that was the last school I heard
-back from. And I was like, okay,
+back from. And I was like,
 
 266
-00:12:21,423 --> 00:12:23,702
-cool. I guess we're going. And
-we're going to my dream school.
+00:12:21,423 --> 00:12:22,500
+"Okay, cool. I guess we're
+going. And we're going to my
 
 267
-00:12:23,702 --> 00:12:24,633
-So that worked out.
+00:12:22,500 --> 00:12:24,633
+dream school." So that worked
+out.
 
 268
-00:12:26,368 --> 00:12:28,318
-Dan: awesome. Oh, the oboe is an
-interesting choice. What,
+00:12:26,368 --> 00:12:29,300
+Dan: That's awesome. Oh, the
+oboe is an interesting choice.
 
 269
-00:12:28,318 --> 00:12:30,659
-w- w- do you have any reason
-why, like, what made you like
+00:12:29,300 --> 00:12:32,000
+What-- wha- wha- [chuckles] do
+you have any reason why-- like,
 
 270
-00:12:30,659 --> 00:12:33,000
-lean
+00:12:32,000 --> 00:12:33,500
+what made you, like, lean
+towards the oboe?
 
 271
-00:12:33,057 --> 00:12:35,427
-towards the oboe, I know from,
-you know, I, I know it's very
+00:12:33,500 --> 00:12:35,427
+I- I know from-- you know, I- I
+know it's very
 
 272
 00:12:35,427 --> 00:12:37,587
@@ -1277,30 +1263,31 @@ that.
 
 274
 00:12:38,538 --> 00:12:40,638
-Jessica: yeah so I didn't
-actually choose it.
+Jessica: Yeah. So I didn't
+actually choose it [laughs].
 
 275
 00:12:41,177 --> 00:12:41,388
-Dan: Sure. [crosstalk]
+Dan: [Laughs] Sure. What happens
+to it then?
 
 276
-00:12:42,347 --> 00:12:44,282
-Jessica: I didn't choose it.
-Yeah. I was learning piano
+00:12:42,347 --> 00:12:44,700
+Jessica: My-- [laughs] I didn't
+choose it. Yeah. So, I was
 
 277
-00:12:44,282 --> 00:12:46,217
-in
+00:12:44,700 --> 00:12:46,217
+learning piano in
 
 278
 00:12:46,217 --> 00:12:48,134
-elementary school, and then I
-tried to pick up trumpet. But
+elementary school. And then I
+tried to pick up trumpet but
 
 279
 00:12:48,134 --> 00:12:50,051
-That
+that
 
 280
 00:12:50,143 --> 00:12:52,993
@@ -1308,146 +1295,157 @@ definitely was not the right fit
 for me. I couldn't really make
 
 281
-00:12:52,993 --> 00:12:56,562
-any type of sounds, but I wanted
-to be in band because all my
+00:12:52,993 --> 00:12:56,000
+any type of sounds and all. But
+I wanted to be in band because
+
+282
+00:12:56,000 --> 00:12:56,562
+all of my
 
 282
 00:12:56,562 --> 00:13:00,913
 friends were in band and I loved
-music. so I asked the, band
+music. And so I asked the band
 
 283
 00:13:00,913 --> 00:13:03,102
 director at the middle school
-and I told him, I said, Hey, I'm
+and I told him, I said, "Hey,
 
 284
-00:13:03,102 --> 00:13:06,263
-really passionate. I want to
-learn something. his answer was,
+00:13:03,102 --> 00:13:05,800
+I'm really passionate. I wanna
+learn something." And his answer
 
 285
-00:13:06,283 --> 00:13:10,182
-you should learn the oboe. And
-I'm like, Okay. what is that? He
+00:13:05,800 --> 00:13:08,300
+was, "You should learn the
+oboe." And I'm like, "Okay. What
 
 286
-00:13:10,182 --> 00:13:13,383
-was like here. And so he got out
-and oboe and he got out of reed
+00:13:08,300 --> 00:13:11,300
+is that?" And [laughs] he
+was like, "Here." And so, he got
+
+286
+00:13:11,300 --> 00:13:14,143
+out an oboe, and he got out a
+reed, and
 
 287
-00:13:14,143 --> 00:13:16,355
-he put it together for me and
-put it, he said, okay, this is.
+00:13:14,143 --> 00:13:17,000
+he put it together for me, and
+put it-- and he said, "Okay,
 
 288
-00:13:16,355 --> 00:13:18,567
-You
+00:13:17,000 --> 00:13:18,567
+this is how you, you know,
 
 289
-00:13:18,567 --> 00:13:20,112
-know, blow and just how you make
-an embouchure. And I did that
+00:13:18,567 --> 00:13:21,300
+blow, and this is how you make
+an embouchure." And I did that,
 
 290
-00:13:20,112 --> 00:13:21,657
-and
+00:13:21,300 --> 00:13:21,657
+and it
 
 291
 00:13:21,658 --> 00:13:23,998
-it squeaked, he's like perfect.
+squeaked. He's like, "Perfect.
 You should be our new oboe
 
 292
-00:13:23,998 --> 00:13:28,158
-player. I was like, Okay, cool.
-And I'm like 11 years old, so
+00:13:23,998 --> 00:13:266,500
+player." [Dan laughs] I was
+like, "Okay, cool." And I'm,
 
 293
-00:13:28,158 --> 00:13:30,242
+00:13:266,500 --> 00:13:28,158
+like, 11 years old. So
+
+293
+00:13:28,158 --> 00:13:32,000
 I've just game for anything. And
 he probably totally planned
 
-294
-00:13:30,242 --> 00:13:32,326
-that.
-
 295
-00:13:32,327 --> 00:13:35,878
-Like, yes, we got another one
-because oboe's so rare in
+00:13:32,000 --> 00:13:35,878
+that. Like, "Yes! We got another
+one." Cuz oboe's so rare in
 
 296
-00:13:35,927 --> 00:13:38,492
-schools, along with like
-bassoon. So that's when he heard
+00:13:35,927 --> 00:13:39,500
+schools, along with, like,
+bassoon. And so that's- that's
 
 297
-00:13:38,492 --> 00:13:41,057
-that I
+00:13:39,500 --> 00:13:42,000
+probably when he heard that I
+was-- I just wanna to join. And
 
 298
-00:13:41,057 --> 00:13:43,427
-was, I just wanted to join and
-he's like, cool. Let's just talk
+00:13:42,000 --> 00:13:44,300
+he's like, "Cool. Let's just
+talk her into playing this
 
 299
-00:13:43,427 --> 00:13:47,408
-her into playing this thing. And
-we're all taken care of, but I
+00:13:44,300 --> 00:13:47,408
+thing, and- and we're all taken
+care of." But I- I
 
 300
 00:13:47,418 --> 00:13:49,998
 guess I have to thank him for it
-because I ended up falling in
+cuz I ended up falling in
 
 301
 00:13:49,998 --> 00:13:50,957
-love with it. So.
+love with it [chuckles]. So--
 
 302
-00:13:51,727 --> 00:13:52,867
+00:13:51,727 --> 00:13:53,700
 Dan: Yeah, that's awesome. Yeah,
-I imagine there was, there was
-
-303
-00:13:52,867 --> 00:13:54,007
-no
+I'm-- I imagine there was--
 
 304
-00:13:54,008 --> 00:13:55,508
-oboe player, you know, before he
-started.
+00:13:53,700 --> 00:13:55,400
+there was no oboe player, you
+know, before you started?
+
+305
+00:13:55,400 --> 00:13:55,508
+[Chuckles]
 
 305
 00:13:56,107 --> 00:13:57,832
 Jessica: Yeah, there was
-actually just one, but then he
+actually just one.
 
 306
-00:13:57,832 --> 00:13:59,557
-was like,
+00:13:57,832 --> 00:13:58,300
+Dan: Oh, there was it?
+
+306
+00:13:58,300 --> 00:14:02,000
+Jessica: But then, he was like,
+"We really need one other one."
 
 307
-00:13:59,557 --> 00:14:02,242
-we really need one other one.
-And so it was easy to talk at 11
-
-308
-00:14:02,242 --> 00:14:04,927
-year
+00:14:02,000 --> 00:14:05,000
+[Laughs] And so it was easy to
+talk at 11 year old.
 
 309
-00:14:04,927 --> 00:14:07,148
-old, because at that age, you're
-just like, I just want to do
+00:14:05,000 --> 00:14:07,148
+It cuz at that age, you're
+just like, "I just wanna do
 
 310
 00:14:07,148 --> 00:14:09,908
-anything and you're not going to
-like fight it there, so.
+anything." And you're not gonna,
+like, fight it there. So--
 
 311
 00:14:10,113 --> 00:14:12,932
@@ -1456,12 +1454,12 @@ trombone because someone gave us
 
 312
 00:14:12,932 --> 00:14:13,773
-a free trombone.
+a free trombone. So [chuckles]--
 
 313
 00:14:14,337 --> 00:14:15,477
-Jessica: see, there you go.
-Yeah, exactly. That's how, like
+Jessica: See? There you go.
+Yeah, exactly. That's how, like,
 
 314
 00:14:15,477 --> 00:14:16,617
@@ -1470,62 +1468,59 @@ most
 315
 00:14:16,618 --> 00:14:18,717
 kids fall into it. They're like,
-I don't know. Just give me an
+"I don't know. Just give me an
 
 316
 00:14:18,717 --> 00:14:20,187
-instrument. I'll figure it out.
+instrument. I'll figure it out."
+[Chuckles]
 
 317
 00:14:21,913 --> 00:14:24,567
 Bekah: Yeah, that is awesome.
-And so it's great to hear too
+And-- so, it's great to hear to
 
 318
 00:14:24,567 --> 00:14:27,221
-your
+your--
 
 319
 00:14:27,312 --> 00:14:31,602
 you've had this history of
-teaching in your family, and it
+teaching in your family. And it
 
 320
 00:14:31,602 --> 00:14:35,052
 sounds like you also taught
-music, but you're also teaching
+music. But you're also teaching
 
 321
 00:14:35,052 --> 00:14:37,393
-now through what you're doing.
-You know, you did the lunch and
+now through what you're doing,
+you know? You did the Lunch and
 
 322
-00:14:37,393 --> 00:14:39,523
-learn for us and taught us all
-about writing, but also as
-
-323
-00:14:39,523 --> 00:14:41,653
-you're
+00:14:37,393 --> 00:14:41,300
+Learn for us and taught us all
+about writing. But also, as
 
 324
-00:14:41,653 --> 00:14:43,977
-writing, you're teaching. So,
-how much of that do you think
+00:14:41,300 --> 00:14:44,000
+you're writing, you're teaching.
+So, you know, how much of that
 
 325
-00:14:43,977 --> 00:14:46,301
-that,
+00:14:44,000 --> 00:14:46,301
+do you think that
 
 326
 00:14:47,173 --> 00:14:51,557
-you're able to lean on. What
+you're able to lean on what
 you've learned from your mom and
 
 327
 00:14:51,557 --> 00:14:56,447
-your grandmother, or is it
+your grandmother? Or is it
 something that you thought you
 
 328
@@ -1534,17 +1529,13 @@ really had to work hard to
 acquire that skill?
 
 329
-00:14:59,993 --> 00:15:01,320
-Jessica: Yeah, I, I you really
-know when I was teaching
+00:14:59,993 --> 00:15:03,500
+Jessica: Yeah. I- I really-- you
+know, when I was teaching
 
 330
-00:15:01,320 --> 00:15:02,647
-beginners, there's
-
-331
-00:15:02,647 --> 00:15:05,301
-a
+00:15:03,500 --> 00:15:05,301
+beginners-- there's a
 
 332
 00:15:05,302 --> 00:15:09,113
@@ -1554,12 +1545,12 @@ you're teaching beginner
 333
 00:15:09,113 --> 00:15:12,232
 students, especially beginner
-oboist, because it's like a
+oboist. Because it's, like, a
 
 334
 00:15:12,273 --> 00:15:15,748
 really weird instrument and
-there's not a lot- Unnatural
+there's not a lot of unnatural
 
 335
 00:15:15,748 --> 00:15:18,807
@@ -1568,61 +1559,61 @@ requires a lot of patience and
 
 336
 00:15:18,807 --> 00:15:21,658
-just saying, okay, let's just
-take it one step at a time. And
+just saying, "Okay, let's just
+take it one step at a time." And
 
 337
 00:15:21,658 --> 00:15:25,498
 so I think that translates a lot
-into the articles I write. Now I
+into the articles I write now. I
 
 338
 00:15:25,498 --> 00:15:29,697
 write a lot of beginner articles
-on HTML and CSS and JavaScript
+on HTML, and CSS, and JavaScript,
 
 339
 00:15:29,697 --> 00:15:34,018
-and tutorials and all that fun
+and tutorials, and all that fun
 stuff. And so I know what it's
 
 340
-00:15:34,018 --> 00:15:35,812
-like. First start out in
+00:15:34,018 --> 00:15:37,607
+like to just first start out in
 programming. And I think a lot
 
-341
-00:15:35,812 --> 00:15:37,606
-of
-
 342
-00:15:37,607 --> 00:15:39,707
-writers just skip over stuff
-[chuckles] and they'll skip like
+00:15:37,607 --> 00:15:40,500
+of writers just skip over stuff
+[chuckles] and they'll skip,
 
 343
-00:15:39,707 --> 00:15:41,807
-20 steps when
+00:15:40,500 --> 00:15:41,807
+like, 20 steps when they're
 
 344
 00:15:41,807 --> 00:15:44,118
-they're writing about something
-and they'll go, oh yeah, first
+writing about something. And
+they'll go, "Oh, yeah. First,
 
 345
 00:15:44,118 --> 00:15:47,057
 you do this. And then when you
-log in, just take care of this
+log in, just take care of this,
 
 346
 00:15:47,057 --> 00:15:49,008
-and then go over here and I'm
-like, wait, wait, wait a minute.
+and then go over here," and I'm
+like, "Wait, wait, wait a minute."
 
 347
-00:15:49,008 --> 00:15:52,638
-Like, how is a beginner supposed
-to kind of fill in those gaps?
+00:15:49,008 --> 00:15:51,500
+Like, "How is a beginner
+[chuckles] supposed to kind of
+
+348
+00:15:51,500 --> 00:15:52,638
+fill in those gaps?"
 
 348
 00:15:52,638 --> 00:15:55,248
@@ -1630,72 +1621,56 @@ And so I really try to be
 conscious about explaining
 
 349
-00:15:55,248 --> 00:15:57,362
+00:15:55,248 --> 00:15:59,000
 things, not assuming anything,
-being patient there, I think
-
-350
-00:15:57,362 --> 00:15:59,476
-that
+being patient there, as I think
 
 351
-00:15:59,477 --> 00:16:02,055
-goes into my writing. Cause I
-just want to help people as
+00:15:59,000 --> 00:16:04,000
+that goes into my writing. Cuz
+I- I just wanna help people as
 
 352
-00:16:02,055 --> 00:16:04,633
-best
-
-353
-00:16:04,633 --> 00:16:05,293
-as I can.
+00:16:04,000 --> 00:16:05,293
+best as I can.
 
 354
 00:16:07,102 --> 00:16:12,077
-Bekah: That's so important
-because the, it. It really helps
+Bekah: That's so important.
+Because the-- it- it really helps
 
 355
 00:16:12,077 --> 00:16:17,658
 to create a more welcoming and
-inclusive space in tech to have.
+inclusive space in tech to have
 
 356
-00:16:19,067 --> 00:16:21,572
-Tutorials or guides or articles
-that don't make assumptions
+00:16:19,067 --> 00:16:23,000
+... tutorials, or guides, or
+articles that don't make
 
 357
-00:16:21,572 --> 00:16:24,077
-about
+00:16:23,000 --> 00:16:24,077
+assumptions about
 
 358
-00:16:24,077 --> 00:16:25,239
+00:16:24,077 --> 00:16:27,700
 the people who are reading them.
 Because I can't tell you how
 
 359
-00:16:25,239 --> 00:16:26,401
-many times
-
-360
-00:16:26,402 --> 00:16:28,727
-I
+00:16:27,700 --> 00:16:28,727
+many times I
 
 361
-00:16:28,727 --> 00:16:31,007
+00:16:28,727 --> 00:16:33,288
 started reading something and
 got very frustrated because I
 
-362
-00:16:31,007 --> 00:16:33,287
-was
-
 363
 00:16:33,288 --> 00:16:37,812
-following the steps. But it
-wasn't working and I didn't know
+was following the steps. But it
+wasn't working. And I didn't know
 
 364
 00:16:37,812 --> 00:16:41,863
@@ -1719,60 +1694,64 @@ that's part of your process.
 
 368
 00:16:54,753 --> 00:16:58,038
-Jessica: Yeah. Yeah. Cause it's
-just like the person came to
+Jessica: Mm-hmm. Yeah. Yeah. Cuz
+it's just, like, the person came
 
 369
 00:16:58,038 --> 00:17:01,727
-learn. And so when you're just
-skipping steps or saying, oh,
+to learn. And so, when you're
+just skipping steps or saying, "Oh,
 
 370
 00:17:01,758 --> 00:17:03,032
-what are the things too? That's
-a pet peeve is when people say,
+what odd to takes [??] to ..."
+that's a pet peeve is when
 
 371
 00:17:03,032 --> 00:17:04,306
-oh,
+people say, "Oh,
 
 372
 00:17:04,307 --> 00:17:05,417
-it's so easy. You just do this.
-You can't say that. [Chuckles]
+it's so easy. You just do this."
+You can't say that [laughs].
 
 373
-00:17:05,417 --> 00:17:06,527
-Like a lot
-
-374
-00:17:06,527 --> 00:17:08,747
-of
+00:17:08,300 --> 00:17:08,747
+Like, a lot of
 
 375
 00:17:08,748 --> 00:17:10,788
 people do this when they're
-setting up, like gitHub for the
+setting up, like, GitHub for the
 
 376
 00:17:10,788 --> 00:17:14,242
-first time and they'll say, oh
-yeah, This up and you just run
+first time and they'll say, "Oh,
+yeah. You just set this up, and
 
 377
-00:17:14,242 --> 00:17:16,403
-these commands, just open up
-your, your. terminal. It's
+00:17:14,242 --> 00:17:15,500
+you just run these commands,
+just open up your- your
 
 378
-00:17:16,403 --> 00:17:19,252
-totally fine. And, and there you
-go. And it's like, no, it's not
+00:17:15,500 --> 00:17:16,800
+terminal, it's totally fine.
+
+378
+00:17:16,800 --> 00:17:19,252
+And- and there you go." And
+it's, like-- no, it's not
 
 379
-00:17:19,252 --> 00:17:22,583
-totally fine. This is brand new
-for a lot of people. So you've
+00:17:19,252 --> 00:17:22,000
+totally fine [chuckles]. This is
+brand new for a lot of people.
+
+380
+00:17:22,000 --> 00:17:22,583
+So you've
 
 380
 00:17:22,583 --> 00:17:25,643
@@ -1780,62 +1759,63 @@ got to walk through those steps
 and throw in some screenshots
 
 381
-00:17:26,303 --> 00:17:27,997
-make sure that people can follow
-along. Cause it might be easy
+00:17:26,303 --> 00:17:28,700
+and make sure that people can
+follow along. Cuz it might be
 
 382
-00:17:27,997 --> 00:17:29,691
-for
+00:17:28,700 --> 00:17:29,691
+easy for
 
 383
 00:17:29,692 --> 00:17:30,877
 somebody that's been doing it
-for many, many years, but when
+for many, many years. But when
 
 384
 00:17:30,877 --> 00:17:32,062
 you're
 
 385
-00:17:32,063 --> 00:17:32,913
+00:17:32,063 --> 00:17:34,500
 first learning it, you're going,
-wait, where's my terminal?
+"Wait. Where's my terminal?
 
 386
-00:17:32,913 --> 00:17:33,763
+00:17:34,500 --> 00:17:37,300
 Where's my command prompt? How
-
-387
-00:17:33,763 --> 00:17:34,613
-do I type, do I type this in
-
-388
-00:17:36,307 --> 00:17:38,001
-first
+do I type? Do I type this in
 
 389
-00:17:38,002 --> 00:17:40,313
-and then do this? Or this is
-very confusing. So.
+00:17:37,300 --> 00:17:40,313
+first and then do this?" Or,
+"This is very confusing." So--
 
 390
-00:17:40,833 --> 00:17:42,228
-Bekah: Yeah, I'll never forget.
-[crosstalk] It's one of the
+00:17:40,833 --> 00:17:41,200
+Bekah: Yeah, I'll-
 
 391
-00:17:42,228 --> 00:17:43,623
-first times I
+00:17:41,200 --> 00:17:41,500
+Dan: Do you--
 
 392
-00:17:43,623 --> 00:17:45,662
-paired with somebody is somebody
-that I really like admired in
+00:17:41,300 --> 00:17:41,800
+Bekah: -never forget-
 
 393
-00:17:45,662 --> 00:17:47,701
-the
+00:17:42,000 --> 00:17:42,228
+Dan: Oh, go ahead.
+
+394
+00:17:42,228 --> 00:17:44,800
+Bekah: -one of the-- first
+times I paired with somebody
+
+392
+00:17:44,800 --> 00:17:47,701
+is somebody that I really, like,
+admired in the
 
 394
 00:17:47,702 --> 00:17:51,542
@@ -1843,27 +1823,23 @@ industry. And I was terrified
 because I didn't know. And at
 
 395
-00:17:51,542 --> 00:17:56,012
+00:17:51,542 --> 00:17:56,700
 that point I hadn't really been
-using. VS Code or, or
+using VS Code or- or anything
 
 396
-00:17:56,012 --> 00:17:58,982
-anything like that. And so they
-said okay, can you open up a
-
-397
-00:17:58,982 --> 00:18:01,952
-text
+00:17:56,700 --> 00:18:01,952
+like that. And so, they said,
+"Okay, can you open up a text
 
 398
 00:18:01,952 --> 00:18:06,843
-editor? And I had no idea what
+editor?" And I had no idea what
 that word meant. And so I opened
 
 399
 00:18:06,843 --> 00:18:09,152
-up Google docs and, they like,
+up Google Docs. And they, like,
 kind of went with it. And then
 
 400
@@ -1872,30 +1848,27 @@ eventually
 
 401
 00:18:11,462 --> 00:18:15,313
-they were like, do you have
-something like VS Code or Atom.
+they were like, "Do you have
+something like VS Code or Atom?"
 
 402
 00:18:16,232 --> 00:18:19,390
-oh, that's a text editor. like,
-Things like that, you know, I
+And I was like, "Oh, that's a
+text editor." I mean, like,
 
 403
-00:18:19,390 --> 00:18:22,548
-didn't
-
-404
-00:18:22,577 --> 00:18:22,718
-know.
+00:18:19,390 --> 00:18:22,718
+things like that, you know, I-
+I didn't know.
 
 405
 00:18:22,718 --> 00:18:22,807
-Jessica: Right.
+Jessica: Right. Right.
 
 406
 00:18:22,877 --> 00:18:27,528
 Bekah: I hadn't seen it written
-before and I was using built-in,
+before and I was using built-in
 
 407
 00:18:28,907 --> 00:18:30,782
@@ -1903,13 +1876,13 @@ things with the lessons that I
 was learning. And I remember
 
 408
-00:18:30,782 --> 00:18:32,657
-just
+00:18:30,782 --> 00:18:33,700
+just that, like, sense
 
 409
-00:18:32,657 --> 00:18:37,278
-that sense of shame that didn't
-belong there. Right. I shouldn't
+00:18:33,700 --> 00:18:37,278
+of shame that didn't belong
+there, right? I- I shouldn't
 
 410
 00:18:37,278 --> 00:18:41,357
@@ -1918,13 +1891,13 @@ when you feel like there are
 
 411
 00:18:41,373 --> 00:18:45,633
-assumptions like, oh, I should
-have known that. And it's not
+assumptions like, "Oh, I should
+have known that." And it's not
 
 412
 00:18:45,633 --> 00:18:49,623
 true. So to have people breaking
-things down to avoid, that makes
+things down to avoid that makes
 
 413
 00:18:49,623 --> 00:18:52,472
@@ -1933,8 +1906,8 @@ keep learning.
 
 414
 00:18:53,673 --> 00:18:57,442
-Jessica: Yeah, exactly. Cause I
-mean, people want to learn and,
+Jessica: Yeah, exactly. Cuz, I
+mean, people want to learn and-
 
 415
 00:18:57,442 --> 00:19:00,363
@@ -1942,13 +1915,13 @@ and I think writing is just such
 an important skill. I think
 
 416
-00:19:00,363 --> 00:19:02,537
-everybody should write and work
-on writing. And, and I think
+00:19:00,363 --> 00:19:04,000
+everybody should write and- and
+work on writing. And- and I
 
 417
-00:19:02,537 --> 00:19:04,711
-there's
+00:19:04,000 --> 00:19:04,711
+think, there's
 
 418
 00:19:04,712 --> 00:19:07,353
@@ -1963,45 +1936,45 @@ personal story. And so the cool
 420
 00:19:10,113 --> 00:19:13,113
 thing about this monthly
-challenge is I get to do both is
+challenge is I get to do both,
 
 421
 00:19:13,113 --> 00:19:15,722
-I get to focus on some technical
-stuff and then I get to talk
+is I get to focus on some
+technical stuff and then I get to
 
 422
-00:19:15,722 --> 00:19:17,867
-about, some yo weird stories I
-have some fun articles coming up
+00:19:15,722 --> 00:19:19,000
+talk about, yo some weird
+stories. And I have some fun
 
 423
-00:19:17,867 --> 00:19:20,012
-there
+00:19:19,000 --> 00:19:20,012
+articles coming up there
 
 424
 00:19:20,012 --> 00:19:21,782
-and just kind of sharing my
+and just kinda sharing my
 story there.
 
 425
 00:19:24,083 --> 00:19:26,940
-Dan: Yeah, I think that's
-awesome. That balance of, of,
+Dan: Yeah, I- I think that's
+awesome. That balance of- of
 
 426
 00:19:26,940 --> 00:19:29,797
-you
+... you
 
 427
 00:19:29,798 --> 00:19:34,448
 know, not making assumptions
-about your audience and, but
+about your audience and-- but-
 
 428
 00:19:34,448 --> 00:19:35,618
-also still kind of getting your
-point across for the thing
+but also still kind of getting
+your point across for the thing
 
 429
 00:19:35,618 --> 00:19:36,788
@@ -2009,105 +1982,113 @@ you're
 
 430
 00:19:36,788 --> 00:19:40,278
-trying to learn is, is a, is a
-hard balance to strike and I
+trying to learn is- is a-- is a
+hard balance to- to strike and I
 
 431
-00:19:40,278 --> 00:19:44,387
-think you do it well. there, is
-there anything. If somebody was
+00:19:40,278 --> 00:19:43,200
+think you- you do it well. Is
+there-- is there anything, like,
 
 432
-00:19:44,387 --> 00:19:46,727
+00:19:43,200 --> 00:19:44,387
+if somebody was
+
+432
+00:19:44,387 --> 00:19:48,500
 starting a technical article,
-you know, I mean, w- what advice
+you know-- I mean, w-what advice
 
 433
-00:19:46,727 --> 00:19:49,067
-would
+00:19:48,500 --> 00:19:49,500
+would you give?
 
 434
-00:19:49,067 --> 00:19:50,897
-you give? Like, you know, say
-the thing that I wanted to learn
+00:19:49,500 --> 00:19:52,000
+Like, if- if-- what-- you know,
+say the thing that I wanted to
 
 435
-00:19:50,897 --> 00:19:52,727
-or
+00:19:52,000 --> 00:19:52,727
+learn or
 
 436
 00:19:52,728 --> 00:19:56,657
 that I wanted to, you know,
-teach, had required GitHub,
+teach had-- required GitHub.
 
 437
 00:19:56,657 --> 00:19:59,117
-you know, required you to check
-out a repository and all of that
+You know, required you to
+checkout a repository and all of
 
 438
-00:19:59,117 --> 00:20:03,887
-stuff. you say, like, would you
-suggest putting all that stuff
+00:19:59,117 --> 00:20:03,300
+that stuff. Would you say,
+like-- would you suggest putting
 
 439
-00:20:03,887 --> 00:20:09,093
-step-by-step in or linking to.
-Articles about, you know, about
+00:20:03,300 --> 00:20:04,800
+all that stuff step-by-step
+
+439
+00:20:04,800 --> 00:20:09,093
+in or linking to, you know,
+articles about, you know, about
 
 440
 00:20:09,093 --> 00:20:10,982
 how to do that and that kind of
-thing. Like what, what kind of
+thing? Like, what- what kind of
 
 441
 00:20:10,982 --> 00:20:13,202
 approach, you know, generally
-would you would you suggest?
+would you-- would you suggest?
 
 442
 00:20:13,538 --> 00:20:17,438
-Jessica: Yeah. So I think it's
-fine if there's. if you want
+Jessica: Yeah. Yeah. So I think
+it's fine if there's-- like, if
 
 443
 00:20:17,438 --> 00:20:20,327
-to Link an article, or if you
-want to have a right at the very
+you wanna link an article or if
+you wanna have a-- right at the very
 
 444
 00:20:20,327 --> 00:20:23,778
 top of your articles, just say,
-prerequisites must be familiar
+prerequisites, must be familiar
 
 445
 00:20:23,778 --> 00:20:27,768
 with Git and GitHub. I mean, I
-just wrote an article about,
+just wrote an article about
 
 446
 00:20:27,798 --> 00:20:31,067
 how to work with Node and
-NodeMailer for emails. And so I
+Nodemailer for emails. And so I
 
 447
 00:20:31,067 --> 00:20:33,857
-had a prerequisite say, okay,
-I'm not going to cover basic
+had a prerequisite saying,
+"Okay, I'm not gonna cover basic
 
 448
 00:20:33,857 --> 00:20:37,688
-JavaScript. So it's important.
-That you understand some of the
+JavaScript [chuckles]. So it's
+important that you understand some of the
 
 449
 00:20:37,688 --> 00:20:40,538
 basic concepts and the basics
-behind nodes. So we can dive
+behind Node so we can dive
 
 450
 00:20:40,538 --> 00:20:42,623
-straight into this. And there
+straight into this." And there
 was one section where there's a
 
 451
@@ -2117,7 +2098,7 @@ different
 452
 00:20:44,708 --> 00:20:48,847
 setup with how to do Google with
-NodeMailer and set up all the,
+Nodemailer and set up all the--
 
 453
 00:20:49,688 --> 00:20:52,448
@@ -2126,28 +2107,28 @@ And so I did link to another
 
 454
 00:20:52,448 --> 00:20:54,938
-FreeCodeCamp article and say,
-okay, here's a detailed
+freeCodeCamp article and say,
+"Okay. Here's a detailed
 
 455
 00:20:54,968 --> 00:20:57,518
-step-by-step process. If you're
-going to use Google with
+step-by-step process if you're
+gonna use Google with
 
 456
 00:20:57,518 --> 00:21:00,428
-NodeMailer, otherwise you could
+Nodemailer. Otherwise, you could
 walk through the steps that I'm
 
 457
 00:21:00,428 --> 00:21:02,768
-going to show you here. So I
+gonna show you here." So I
 think that's completely fine.
 
 458
 00:21:03,067 --> 00:21:06,893
-There were, if you feel like you
-could write through. All of
+There were-- if you feel like
+you could write through all of
 
 459
 00:21:06,893 --> 00:21:09,952
@@ -2156,28 +2137,28 @@ think either approach works
 
 460
 00:21:09,952 --> 00:21:12,563
-there. But I, I think it's
+there. But I- I think it's
 healthy to have like a
 
 461
 00:21:12,563 --> 00:21:16,222
-prerequisites if necessary, just
-to let everybody know, Hey, if
+prerequisites, if necessary,
+just to let everybody know,
 
 462
 00:21:16,252 --> 00:21:19,192
-you don't have these
-prerequisites, that is going to
+"Hey, if you don't have these
+prerequisites, that is gonna
 
 463
 00:21:19,192 --> 00:21:22,432
-be kind of hard to follow,
+be kinda hard to follow." Es-
 especially for some of the
 
 464
 00:21:22,432 --> 00:21:25,853
-tutorials, because I see a lot
-of people have FreeCodeCamp, go
+tutorials. Because I- I see a
+lot of people of freeCodeCamp go
 
 465
 00:21:25,853 --> 00:21:29,482
@@ -2185,47 +2166,47 @@ through a lot of our Python
 tutorials, which assume you have
 
 466
-00:21:29,482 --> 00:21:31,434
-some basic knowledge, but
+00:21:29,482 --> 00:21:32,700
+some basic knowledge. But
 they're not acknowledging that
 
 467
-00:21:31,434 --> 00:21:33,386
-you have,
+00:21:32,700 --> 00:21:35,000
+you have that pretty-- that
 
 468
-00:21:33,478 --> 00:21:36,807
-that basic knowledge. And so
+00:21:35,000 --> 00:21:36,807
+basic knowledge. And so
 they'll come to the forum and
 
 469
 00:21:36,807 --> 00:21:39,057
-they'll go, how do I do this? Or
-why does it say I have an
+they'll go, "How do I do this?"
+Or, "Why does it say I have an
 
 470
 00:21:39,057 --> 00:21:41,518
-indentation error? And so we'll
-tell them, like, you're doing
+indentation error?" And so we'll
+tell them, like, "You're doing
 
 471
-00:21:41,518 --> 00:21:42,613
+00:21:41,518 --> 00:21:43,300
 crazy things with your
 indentation. You can't do that
 
 472
-00:21:42,613 --> 00:21:43,708
-in
+00:21:43,300 --> 00:21:43,708
+in Python."
 
 473
 00:21:43,708 --> 00:21:46,948
-Python, but they won't know that
-because they just started coding
+But they won't know that because
+they just started coding
 
 474
 00:21:46,978 --> 00:21:50,278
-Python like two days ago. And
-they're trying to build like a
+Python, like, two days ago. And
+they're trying to build, like, a
 
 475
 00:21:50,278 --> 00:21:54,143
@@ -2235,7 +2216,7 @@ properly communicating. Like,
 476
 00:21:54,143 --> 00:21:58,613
 this is not necessarily a
-beginner or if it is like, some
+beginner, or if it is, like, "Here some
 
 477
 00:21:58,613 --> 00:22:00,098
@@ -2248,139 +2229,123 @@ article
 
 479
 00:22:01,583 --> 00:22:04,853
-that lays it out. so I, I think
+that lays it out." So I- I think
 that's completely fine there.
 
 480
 00:22:04,992 --> 00:22:08,413
-Dan: Ah, I love that, that,
-prerequisites, you know, is, I
+Dan: Yeah, I love that. That
+prerequisites, you know, it-- it's--
 
 481
 00:22:08,413 --> 00:22:09,763
-think that's a great, a great
-way to set expectations for the,
+I think that's a great-- a great
+way to set expectations for
 
 482
 00:22:09,763 --> 00:22:11,113
-you
+the-- you
 
 483
 00:22:11,113 --> 00:22:12,388
-know, for the article. Right.
-And then you don't get down
+know, for the article, right?
+That way you don't get down
 
 484
 00:22:12,388 --> 00:22:13,663
 three
 
 485
-00:22:13,663 --> 00:22:15,002
+00:22:13,663 --> 00:22:17,000
 paragraphs in and become totally
-lost Assuming you read
+lost, assuming you read
 
 486
-00:22:15,002 --> 00:22:16,341
-prerequisites, you
-
-487
-00:22:16,342 --> 00:22:19,021
+00:22:17,000 --> 00:22:19,021
+[laughs] the prerequisites, you
 know?
 
 488
-00:22:19,048 --> 00:22:22,288
-Jessica: Yeah. Yeah. I try to
-make it obvious, you know? a
+00:22:19,048 --> 00:22:21,800
+Jessica: Yeah. Yeah. Yeah, I- I
+try to make it obvious. It-- you
 
 489
-00:22:22,288 --> 00:22:23,488
-heading, like here you go.
+00:22:21,800 --> 00:22:23,488
+know, a heading like, "Here you
+go." [Laughs]
 
 490
 00:22:23,823 --> 00:22:24,262
-Dan: Right, right.
+Dan: Right, right [laughs].
+Yeah.
 
 491
-00:22:25,198 --> 00:22:26,682
+00:22:25,198 --> 00:22:27,700
 Jessica: So if someone misses
-it, it's like, okay, well, I did
-
-492
-00:22:26,682 --> 00:22:28,166
-try
+it, and I was like, "Okay. Well,
 
 493
-00:22:28,167 --> 00:22:28,557
-to warn you. [chuckles]
+00:22:27,700 --> 00:22:28,557
+I- I did try to warn ya
+[laughs]."
 
 494
 00:22:28,962 --> 00:22:31,373
-Dan: Yeah, exactly. I think
-that's great advice. Yeah.
+Dan: Yeah, yeah,  exactly. I
+think that's great advice. Yeah.
 
 495
 00:22:33,587 --> 00:22:37,097
-Bekah: Yeah, I think too, it's
+Bekah: Yeah, I think, too, it's
 almost a really good convention
 
 496
-00:22:37,127 --> 00:22:39,887
-to build into something so I
-could see, Like software
-
-497
-00:22:39,887 --> 00:22:42,647
-that
+00:22:37,127 --> 00:22:42,647
+to build into something. So I
+could see a software that
 
 498
 00:22:42,647 --> 00:22:47,928
-hosts tech blogging, like, tech
-blogging platforms. be
+hosts tech blogging. Like, tech
+blogging platforms. It'd be
 
 499
-00:22:47,928 --> 00:22:49,180
-really nice if that was built
-in. so what are the
-
-500
-00:22:49,180 --> 00:22:50,432
-prerequisites?
+00:22:47,928 --> 00:22:52,800
+really nice if that was built-in
+So what are the prerequisites?
 
 501
-00:22:50,433 --> 00:22:52,938
-And
+00:22:52,800 --> 00:22:53,200
+And then you can
 
 502
-00:22:52,938 --> 00:22:56,508
-then you can click the thing or
-you can add the thing then that
+00:22:53,200 --> 00:22:56,508
+click the thing. Or you can add
+the thing. And then that way,
 
 503
-00:22:56,508 --> 00:22:59,327
-way it already, everybody knows
-where they should look for Okay.
+00:22:56,508 --> 00:23:01,500
+it already-- everybody knows
+where they should look for,
 
 504
-00:22:59,327 --> 00:23:02,146
-This
+00:23:01,500 --> 00:23:02,146
+"Okay. This
 
 505
 00:23:02,147 --> 00:23:05,238
 is what I need to know. I don't
-know those things. And it also
+know those things." And it also
 
 506
-00:23:05,238 --> 00:23:07,562
+00:23:05,238 --> 00:23:09,887
 puts it in the writer's mind
 that it makes it obvious to them
 
-507
-00:23:07,562 --> 00:23:09,886
-to
-
 508
 00:23:09,887 --> 00:23:15,657
-think about. It makes it a
+to think about it- it makes it a
 deliberate decision to recognize
 
 509
@@ -2390,86 +2355,78 @@ they should already know coming
 
 510
 00:23:18,162 --> 00:23:20,667
-into
+into this.
 
 511
 00:23:20,667 --> 00:23:24,178
-this. So I think like from both
+So I think, like, from both
 perspectives, it would be really
 
 512
 00:23:24,178 --> 00:23:29,127
 useful in helping us to have
-these conversations about, what
+these conversations about what
 
 513
 00:23:29,127 --> 00:23:32,577
-content is usable, usable for
+content is usab- usable for
 different audiences.
 
 514
-00:23:33,762 --> 00:23:35,457
+00:23:33,762 --> 00:23:36,000
 Jessica: Right. And then there's
 some tutorials where people
 
-515
-00:23:35,457 --> 00:23:37,152
-label
-
 516
-00:23:37,153 --> 00:23:39,613
-it beginner, but it's clearly
-isn't beginner. I'm like, I
+00:23:36,000 --> 00:23:40,000
+label it beginner but it clearly
+isn't beginner. I'm like-
+
+00:23:39,613 --> 00:23:40,000
+Bekah: Absolutely [??].
 
 517
-00:23:39,613 --> 00:23:42,073
-don't
+00:23:41,500 --> 00:23:44,300
+Jessica: -I don't think
+beginners or I wasn't doing that
 
 518
-00:23:42,073 --> 00:23:44,188
-think beginners or I wasn't
-doing that. I was first starting
-
-519
-00:23:44,188 --> 00:23:46,303
-out.
+00:23:44,300 --> 00:23:46,303
+[laughs] when I was first
+starting out.
 
 520
 00:23:46,932 --> 00:23:50,952
-And so sometimes people really
-mislabel, which hurts beginners,
+And so, sometimes people really
+mislabel, which hurts beginners.
 
 521
 00:23:50,982 --> 00:23:53,143
-and then they're going through
-it. They're like, well, how do I
+And then, they're going through
+it, they're like, "Well, how do I
 
 522
 00:23:53,143 --> 00:23:55,553
-do this? I was like, well, maybe
+do this?" I'm like, "Well, maybe
 we start off with something a
 
 523
-00:23:55,553 --> 00:23:58,330
-little bit easier if, if that's
-okay. So yeah, so sometimes
+00:23:55,553 --> 00:24:00,000
+little bit easier if- if that's
+okay." [Laughs] So-- yeah. So,
 
 524
-00:23:58,330 --> 00:24:01,107
-people, I
+00:24:00,000 --> 00:24:01,107
+sometimes, people-- I- I
 
 525
-00:24:01,147 --> 00:24:02,887
+00:24:01,147 --> 00:24:04,300
 think a lot of it has to do
-with, they forget what it's like
+with they forget what it's like
 
 526
-00:24:02,887 --> 00:24:04,627
-to be
-
-527
-00:24:04,627 --> 00:24:05,198
-a beginner
+00:24:04,300 --> 00:24:05,198
+to be a beginner-
 
 528
 00:24:05,198 --> 00:24:05,288
@@ -2477,32 +2434,28 @@ Dan: Yes.
 
 529
 00:24:05,288 --> 00:24:07,597
-Jessica: or they rewrite history
-and they're like, oh, I was
+Jessica: -or they rewrite history
+and they're like, "Oh, I was
 
 530
-00:24:07,597 --> 00:24:09,262
+00:24:07,597 --> 00:24:10,928
 totally doing this when I was
 first learning in six months or
 
-531
-00:24:09,262 --> 00:24:10,927
-a
-
 532
 00:24:10,928 --> 00:24:15,008
-year. And it's like, no, you
-probably weren't. You probably
+a year." And I was like, "No, you
+probably weren't [laughs]. You probably
 
 533
 00:24:15,008 --> 00:24:18,248
-just forgot you weren't doing
-those types of things. Cause I
+just forgot that you weren't doing
+those types of things." Cuz, I
 
 534
 00:24:18,248 --> 00:24:19,940
-think the first few months.
-Going through a FreeCodeCamp and
+mean, the first few months I was
+going through freeCodeCamp and
 
 535
 00:24:19,940 --> 00:24:21,632
@@ -2511,12 +2464,12 @@ going
 536
 00:24:21,643 --> 00:24:25,323
 through the certifications, but
-I didn't understand how HTML CSS
+I didn't understand how HTML, CSS,
 
 537
 00:24:25,323 --> 00:24:27,782
 and JavaScript work together. I
-was just like, okay, there's
+was just like, "Okay, there's
 
 538
 00:24:27,782 --> 00:24:30,992
@@ -2525,241 +2478,216 @@ objects, but how do I make a
 
 539
 00:24:30,992 --> 00:24:33,452
-webpage? So I just didn't
+webpage?" So, like, I just didn't
 understand how everything
 
 540
 00:24:33,452 --> 00:24:38,643
-connected. and so beginners,
-it's, it's a lot of information
+connected. And so, beginners,
+it's- it's a lot of information
 
 541
-00:24:38,643 --> 00:24:40,457
+00:24:38,643 --> 00:24:42,000
 and it's just like fire hose.
 And so you just have to make
 
-542
-00:24:40,457 --> 00:24:42,271
-sure
-
 543
-00:24:42,272 --> 00:24:45,242
-that you're not making
-assumptions going, oh yeah, you
+00:24:42,000 --> 00:24:45,242
+sure that you're not making
+assumptions going, "Oh, yeah. You
 
 544
 00:24:45,242 --> 00:24:48,212
-could totally do this with your
-beginner. And it's like, no. you
+could totally do this when you're
+a beginner." And I was like, "No. You
 
 545
 00:24:48,212 --> 00:24:51,528
-gotta break that down there.
+gotta- gotta break that down there.
 That's definitely not a beginner
 
 546
 00:24:51,528 --> 00:24:54,468
 tutorial. Let's label it
-intermediate at best there.
+intermediate at- at best there."
 
 547
-00:24:55,512 --> 00:24:57,142
+00:24:55,512 --> 00:24:57,500
 Dan: Yeah, absolutely. And you
-know, to your point. People
+know, to- to your point about
 
 548
-00:24:57,142 --> 00:24:58,772
-could
+00:24:57,500 --> 00:24:58,772
+how people could
 
 549
-00:24:58,772 --> 00:25:00,972
-forget, you know, the, what it
-feels like to be a beginner
-
-550
-00:25:00,972 --> 00:25:03,172
-at
+00:24:58,772 --> 00:25:03,172
+forget, you know, the-- what it
+feels like to be a beginner at
 
 551
 00:25:03,173 --> 00:25:04,648
-it from experience. It's very
+it-- from experience. It's very
 easy to forget that, you know,
 
 552
 00:25:04,648 --> 00:25:06,123
-it
+i-it
 
 553
-00:25:06,123 --> 00:25:07,753
+00:25:06,123 --> 00:25:08,800
 takes effort to remember that in
-practice. I'm sure. You know, it
-
-554
-00:25:07,753 --> 00:25:09,383
-becomes,
+practice, I'm sure, you know? It
 
 555
-00:25:09,823 --> 00:25:11,392
-easier. but, yeah, it's, it's
-hard to, it's hard
+00:25:08,800 --> 00:25:09,000
+becomes-- it becomes-
 
 556
-00:25:11,392 --> 00:25:12,961
-sometimes to
+00:25:09,800 --> 00:25:10,800
+Jessica: Right. Right.
 
 557
-00:25:12,962 --> 00:25:14,752
-put yourself back in. know, once
-you're a few years into a
+00:25:10,000 --> 00:25:12,500
+Dan: -easier. But-- yeah.
+It's- it's hard to-- it's hard
+
+557
+00:25:12,500 --> 00:25:14,752
+sometimes to put yourself back
+in the-- you know, once you're
 
 558
 00:25:14,752 --> 00:25:16,542
-career,
+a few years into a career,
 
 559
 00:25:16,903 --> 00:25:20,863
-to put yourself back into spot,
-you know, the like total
+to put yourself back into that
+spot, you know? The-- like,
 
 560
 00:25:20,863 --> 00:25:21,792
-utter confusion,
+total utter confusion
+[chuckles].
 
 561
 00:25:22,188 --> 00:25:23,238
-Jessica: Right. Exactly.
+Jessica: Right. Exactly
+[laughs].
 
 562
-00:25:23,532 --> 00:25:24,792
-Dan: like, I, I can't remember
-it, you know, if I, if I make
+00:25:23,532 --> 00:25:25,500
+Dan: Like, I- I- I can't
+remember, you know, if I--
 
 563
-00:25:24,792 --> 00:25:26,052
-my,
+00:25:25,500 --> 00:25:26,052
+if I make my s-
 
 564
-00:25:26,173 --> 00:25:29,053
+00:25:26,173 --> 00:25:28,700
 like, if I think about it, I can
-remember it, you know? And I was
+remember it, you know? It-- and
 
 565
-00:25:29,053 --> 00:25:29,922
-at the same boat. I'm like,
-well, I'm writing, you see him
-
-566
-00:25:29,922 --> 00:25:30,791
-out
+00:25:28,700 --> 00:25:30,000
+I was at the same boat. But I'm
+like, "Well, I'm already 
 
 567
-00:25:30,792 --> 00:25:32,247
-here. I'm like, and I was
-writing like PHP at the same
+00:25:30,000 --> 00:25:33,000
+familiar [??]." I'm like-- and I
+was writing, like, PHP at the
 
 568
-00:25:32,247 --> 00:25:33,702
-time. Like I
+00:25:33,000 --> 00:25:33,702
+same t- like-- I was,
 
 569
-00:25:33,702 --> 00:25:34,536
-was like learning it all at the
+00:25:33,702 --> 00:25:36,000
+like, learning it all at the
 same time and totally didn't
 
 570
-00:25:34,536 --> 00:25:35,370
-understand how
-
-571
-00:25:35,370 --> 00:25:37,038
-they
+00:25:36,000 --> 00:25:37,038
+understand how they
 
 572
-00:25:37,038 --> 00:25:38,253
-all connected. And, you know,
+00:25:37,038 --> 00:25:39,000
+all connected and, you know,
 somebody sent me a CSS file.
 
 573
-00:25:38,253 --> 00:25:39,468
-He's
+00:25:39,000 --> 00:25:39,468
+He's like,
 
 574
 00:25:39,468 --> 00:25:42,798
-like instead of using whatever
-use this. And I'm like, well,
+"Here. Instead of using whatever
+use this." And I'm like, "Well,
 
 575
 00:25:42,807 --> 00:25:44,928
 here's a bunch of black magic.
-I'm just going to drop into my
+I'm just gonna drop it into my,
 
 576
-00:25:44,928 --> 00:25:46,622
-like... into my program.
-apparently it works, you know,
+00:25:44,928 --> 00:25:47,700
+like-- into my program [laughs]
+and- and apparently it works,"
 
 577
-00:25:46,622 --> 00:25:48,316
-it
+00:25:47,700 --> 00:25:48,316
+you know? It--
 
 578
 00:25:48,798 --> 00:25:53,147
-it's, yeah, it can be a, a hard
-thing to, to remember, but
+it's-- yeah, it can be a- a
+hard thing to- to remember, but
 
 579
 00:25:53,208 --> 00:25:54,498
 an important thing for sure.
 
 580
-00:25:55,863 --> 00:25:57,272
-Bekah: So I want to back up a
+00:25:55,863 --> 00:25:58,682
+Bekah: So I wanna back up a
 little bit because I feel like
-
-581
-00:25:57,272 --> 00:25:58,681
-we
 
 582
 00:25:58,682 --> 00:26:01,442
-miss this very impart important
-part of the story of. You
+we miss this very impart--
+important part of the story of
 
 583
 00:26:01,442 --> 00:26:04,202
-started
+you started
 
 584
 00:26:04,202 --> 00:26:07,482
-learning to code and suddenly
-you're writing for FreeCodeCamp.
+learning to code and suddenly,
+you're writing for freeCodeCamp.
 
 585
 00:26:07,502 --> 00:26:10,113
-Like that's not something little
-right.
+Like, that's not something
+little, alright? That's-
 
 586
 00:26:10,163 --> 00:26:11,573
-Jessica: totally glossed over
-that. Yeah.
+Jessica: [Laughs] We totally
+glossed over that. Yeah.
 
 587
-00:26:12,452 --> 00:26:13,412
-Bekah: That's a major
-accomplishment. So I don't want
+00:26:12,452 --> 00:26:15,700
+Bekah: -a major accomplishment.
+So I don't wanna lose that.
 
 588
-00:26:13,412 --> 00:26:14,372
-to lose that. so tell
-
-589
-00:26:14,372 --> 00:26:16,292
-us,
-
-590
-00:26:16,482 --> 00:26:17,853
-how did that happen?
+00:26:15,700 --> 00:26:17,853
+So, tell us, how did that
+happen?
 
 591
 00:26:18,323 --> 00:26:20,182
@@ -2772,46 +2700,38 @@ life. But
 
 593
 00:26:22,042 --> 00:26:25,942
-what ends up happening is around
-October of 2020, or actually
+what end up happening is around
+October of 2020-- or actually
 
 594
 00:26:25,942 --> 00:26:29,663
 September of 2020, I decided to
-join the FreeCodeCamp forum
+join the freeCodeCamp forum
 
 595
-00:26:29,663 --> 00:26:31,057
-because like a lot of
-self-taught developers, you kind
-
-596
-00:26:31,057 --> 00:26:32,451
-of bounce
+00:26:29,663 --> 00:26:32,451
+cuz like a lot of self-taught
+developers, you kind of bounce
 
 597
-00:26:32,452 --> 00:26:34,312
-around different. Resources, and
-then you try to find one
-
-598
-00:26:34,312 --> 00:26:36,172
-that
+00:26:32,452 --> 00:26:36,172
+around different resources, and
+then you try to find one that
 
 599
 00:26:36,173 --> 00:26:38,393
-works. And so I did a few
+works. And so, I did a few
 different things before
 
 600
 00:26:38,393 --> 00:26:41,482
-FreeCodeCamp, but then I landed
-on FreeCodeCamp. I was like, I
+freeCodeCamp, but then, I landed
+on freeCodeCamp. I was like, "I
 
 601
 00:26:41,482 --> 00:26:43,147
-kinda like this. Okay, cool. So
-I started going through, the
+kinda like this. Okay, cool."
+So I started going through the
 
 602
 00:26:43,147 --> 00:26:44,812
@@ -2819,23 +2739,23 @@ first
 
 603
 00:26:44,813 --> 00:26:48,232
-certification, which is on HTML
-and CSS and responsive design.
+certification, which is on HTML,
+and CSS, and responsive design.
 
 604
 00:26:48,728 --> 00:26:51,847
 And so I decided to just sign up
-for the forum. I was like, maybe
+for the forum. I was like,
 
 605
 00:26:51,847 --> 00:26:54,407
-I could connect with some
-beginners that be kind of cool.
+"Maybe I could connect with some
+beginners. That be kinda cool,
 
 606
 00:26:54,518 --> 00:26:56,153
-And some other developers just
-talk with them. And so I
+and some other developers just
+talk with them." And so I--
 
 607
 00:26:56,153 --> 00:26:57,788
@@ -2843,18 +2763,18 @@ originally,
 
 608
 00:26:57,788 --> 00:26:59,917
-I just thought I would just kind
-of hang in the background and
+I just thought I would just
+kinda hang in the background and
 
 609
 00:26:59,917 --> 00:27:03,488
-maybe jump in once in a while,
-but I ended up jumping in a lot
+maybe jump in once in a while.
+But I ended up jumping in a lot
 
 610
 00:27:03,488 --> 00:27:06,938
-more and answering questions or
-just giving my perspective and
+more, and answering questions or
+just giving my perspective, and
 
 611
 00:27:06,938 --> 00:27:09,817
@@ -2864,17 +2784,17 @@ about a month of being on the
 612
 00:27:09,817 --> 00:27:13,667
 forum, Quincy reached out to me
-and he was like, Hey, you're
+and he was like, "Hey, you're
 
 613
 00:27:13,667 --> 00:27:17,448
 super active and what's your
-story? Let's talk. And so we set
+story? Let's talk." And so, we
 
 614
 00:27:17,448 --> 00:27:20,718
-up a Google Meet we talked for
-about like 45 minutes, and we
+set up a Google Meet. And we
+talked for about, like, 45 minutes. And we
 
 615
 00:27:20,718 --> 00:27:23,897
@@ -2884,40 +2804,40 @@ coming from a teacher into tech
 616
 00:27:23,897 --> 00:27:27,617
 and then my background with
-music. And he decided, he said,
+music. And he decided-- he said,
 
 617
 00:27:27,708 --> 00:27:32,057
-well, you should join our forum
-moderator team and start writing
+"Well, you should join our Forum
+Moderator Team and start writing
 
 618
-00:27:32,057 --> 00:27:35,988
-for FreeCodeCamp as a volunteer.
-Okay. I don't know what to write
+00:27:32,057 --> 00:27:34,000
+for freeCodeCamp as a
+volunteer." And I was like,
+
+00:27:34,000 --> 00:27:37,000
+"Okay. I don't know what to write
+about. Cuz I've just been doing
 
 619
-00:27:35,988 --> 00:27:37,998
-about. Cause I've just been
-doing this for like two seconds
-
-620
-00:27:37,998 --> 00:27:40,008
-and he
+00:27:37,000 --> 00:27:40,300
+this for, like, two seconds
+[laughs]." And he said, "Just
 
 621
-00:27:40,008 --> 00:27:43,307
-said, just share your story. And
-I'm like, oh, I could do that.
+00:27:40,300 --> 00:27:43,307
+share your story." And I'm like,
+"Oh, I- I- I could do that. That
 
 622
 00:27:43,307 --> 00:27:46,607
-That sounds fun. So I decided to
+sounds fun." So I decided to
 just write a few posts about my
 
 623
 00:27:46,607 --> 00:27:49,607
-story so I wrote one, my first
+story. So I wrote one-- my first
 one was about what I enjoyed
 
 624
@@ -2931,50 +2851,46 @@ parallels
 
 626
 00:27:53,057 --> 00:27:58,008
-between music and. learning code
-and programming.
+between music and ... learning
+code, and programming.
 
 627
 00:27:58,188 --> 00:28:02,327
 And then that was noticed by
-Gatsby and they were like, Hey,
+Gatsby, and they were like, "Hey,
 
 628
 00:28:02,327 --> 00:28:03,932
 we have this blog and do you
-want to write it? We'll pay you.
+wanna write? It-- we'll pay you.
 
 629
 00:28:03,932 --> 00:28:05,537
-I was
+And I was
 
 630
 00:28:05,538 --> 00:28:08,597
-like, yeah, that sounds fun to
-me. So that I wrote about
+like, "Yeah, that sounds fun to
+me." So that I wrote about
 
 631
-00:28:08,597 --> 00:28:10,157
+00:28:08,597 --> 00:28:11,800
 imposter syndrome and how I
 dealt with it as a musician and
 
-632
-00:28:10,157 --> 00:28:11,717
-how.
-
 633
-00:28:12,188 --> 00:28:14,798
-Yeah, it goes in with
-programming. so now all of a
+00:28:11,800 --> 00:28:14,798
+how I'd-- yeah, it goes in with
+programming. And so now, all of a
 
 634
 00:28:14,798 --> 00:28:19,057
-sudden I start writing articles
-and just sharing my story. And
+sudden, I start writing articles
+[laughs] and just sharing my story.
 
 635
 00:28:19,057 --> 00:28:20,452
-after a few months of doing
+And after a few months of doing
 that, Quincy comes back to me
 
 636
@@ -2983,76 +2899,72 @@ and says,
 
 637
 00:28:22,087 --> 00:28:24,817
-well, I've got another
-proposition for you. do you
+"Well, I've got another
+proposition for you. Do you
 
 638
 00:28:24,817 --> 00:28:27,938
-want to start writing technical
+wanna start writing technical
 articles and we'll pay you per
 
 639
 00:28:27,938 --> 00:28:32,538
-article? And I was like, ah, I
-don't think I could do that. So
+article?" And I was like, "I ...
+don't think I could do that." So
 
 640
 00:28:32,538 --> 00:28:36,048
-originally I actually said no
-very politely, because I just
+originally, I actually said no
+[chuckles] very politely because I just
 
 641
-00:28:36,048 --> 00:28:37,038
+00:28:36,048 --> 00:28:38,028
 didn't think I could do that.
-Cause at this point this was
-
-642
-00:28:37,038 --> 00:28:38,028
-like
+Cuz at this point this was, like,
 
 643
 00:28:38,028 --> 00:28:42,468
-six months in and we're at the
+six months in and around the
 same time I had started my first
 
 644
 00:28:42,468 --> 00:28:45,258
-developer job, but I was still
+developer job but I was still
 kind of overwhelmed with that. I
 
 645
-00:28:45,258 --> 00:28:46,577
+00:28:45,258 --> 00:28:47,500
 was working part-time at this
 small company. And so I was
 
-646
-00:28:46,577 --> 00:28:47,896
-like,
-
 647
-00:28:47,968 --> 00:28:51,637
-I don't know if I'm qualified to
-write technical articles, like
+00:28:47,968 --> 00:28:50,300
+like, "I don't know if I'm
+qualified to- [chuckles] to
 
 648
-00:28:51,647 --> 00:28:55,488
-who is going to believe me. I, I
-don't know what I'm doing. And.
+00:28:50,300 --> 00:28:51,300
+write technical articles. Like,
+
+648
+00:28:51,300 --> 00:28:55,488
+who is gonna believe me? Cuz I-
+I don't know what I'm doing." And
 
 649
 00:28:55,978 --> 00:28:58,768
-He said, well, I, I think you
-can, I think you really good at
+he said, "Well, I- I think you
+can. I think you really good at
 
 650
-00:28:58,768 --> 00:29:03,327
-just breaking down concepts and
-could pick articles you feel
+00:28:58,768 --> 00:29:02,500
+just breaking down concepts and-
+and you could pick articles and--
 
 651
-00:29:03,327 --> 00:29:06,958
-comfortable with. And so he had
-this whole Trello board,
+00:29:02,500 --> 00:29:06,958
+that you feel comfortable with."
+And so he had this whole Trello board of
 
 652
 00:29:06,988 --> 00:29:10,498
@@ -3062,7 +2974,7 @@ which ones I felt comfortable
 653
 00:29:10,498 --> 00:29:13,377
 with. So I picked all the HTML,
-CSS, ones, I think maybe a
+CSS ones. And I think maybe a
 
 654
 00:29:13,377 --> 00:29:17,127
@@ -3071,74 +2983,78 @@ just started from there. And
 
 655
 00:29:17,127 --> 00:29:20,488
-so a few months of just writing
+so a few months of just writing,
 and getting paid per article on
 
 656
 00:29:20,488 --> 00:29:26,137
-my own schedule and, around
-July. It was interesting
+my own schedule, and around
+July, it was interesting.
 
 657
 00:29:26,167 --> 00:29:29,887
-because I was deciding if I
+Because I was deciding if I
 actually wanted this to be a
 
 658
-00:29:29,887 --> 00:29:33,728
-full-time career or not. And, an
-opportunity came up with
+00:29:29,887 --> 00:29:34,000
+full-time career or not. And an
+opportunity came up with Disney
 
 659
-00:29:33,728 --> 00:29:38,428
-Disney for a music job, but I
+00:29:34,000 --> 00:29:38,428
+for one-- a music job. But I
 ended up turning that down to
 
 660
 00:29:38,428 --> 00:29:39,458
-pursue software
+pursue software [laughs].
 
 661
 00:29:40,278 --> 00:29:40,617
-Dan: Wow.
+Dan: Oh, wow.
 
 662
-00:29:40,907 --> 00:29:44,347
-Jessica: Yeah. Which is a whole
-other story in of itself, which
+00:29:40,907 --> 00:29:43,000
+Jessica: Yeah [chuckles]. Which
+is a whole other story in of
 
 663
-00:29:44,347 --> 00:29:46,077
-we could cover. But, but yeah,
-so then I was like, okay,
+00:29:43,000 --> 00:29:44,347
+itself, right? Which
 
-664
-00:29:46,077 --> 00:29:47,807
-I
+663
+00:29:44,347 --> 00:29:47,300
+we could cover. But- but-- yeah.
+And so then I was like, "Okay.
 
 665
-00:29:47,807 --> 00:29:51,518
-guess we're going into software
-now I turned down that job and
+00:29:47,300 --> 00:29:50,000
+Well, I guess we're going into
+software now [laughs] since I
+
+666
+00:29:50,000 --> 00:29:51,518
+turned down that job." And
 
 666
 00:29:51,518 --> 00:29:54,087
 then Quincy reached out again,
-said, Hey, I've got a job for
+said, "Hey, I've got a job for
 
 667
 00:29:54,087 --> 00:29:58,337
 you. I want you to join my team
-officially you know, and be,
+officially and, you know, be
 
 668
-00:29:58,397 --> 00:29:59,807
-writing all the time. I was
-like, okay, cool. So it's funny
+00:29:58,397 --> 00:30:00,300
+writing all the time." I was
+like, "Okay, cool." So it's
 
 669
-00:29:59,807 --> 00:30:01,217
-how
+00:30:00,300 --> 00:30:01,217
+funny how
 
 670
 00:30:01,218 --> 00:30:03,333
@@ -3151,8 +3067,8 @@ opens
 
 672
 00:30:05,448 --> 00:30:09,988
-around. I started officially in
-August of 2021. Writing
+around-- I started officially in
+August of 2021, writing
 
 673
 00:30:09,988 --> 00:30:13,057
@@ -3167,7 +3083,7 @@ come from very diverse
 675
 00:30:16,077 --> 00:30:17,862
 backgrounds and we're located
-all around the world. but he'll
+all around the world. But he'll
 
 676
 00:30:17,862 --> 00:30:19,647
@@ -3179,23 +3095,23 @@ assign us articles. And so he'll
 send us like 10 or 12 different
 
 678
-00:30:22,647 --> 00:30:25,252
-headlines at a time. And then.
-we just write. basically we
+00:30:22,647 --> 00:30:26,500
+headlines at a time. And then
+we just write [chuckles].
 
 679
-00:30:25,252 --> 00:30:27,857
-research
+00:30:26,500 --> 00:30:27,857
+Basically, we research
 
 680
 00:30:27,857 --> 00:30:31,127
-and write. So right now I have a
-whole bunch of SQL
+and write. So right now, I have
+a whole bunch of SQL
 
 681
 00:30:31,127 --> 00:30:32,912
-articles and I've been learning
-about that and just writing
+articles. And I've been learning
+about that, and just writing
 
 682
 00:30:32,912 --> 00:30:34,697
@@ -3203,83 +3119,91 @@ about
 
 683
 00:30:35,387 --> 00:30:38,837
-SQL basically as Well, as a few
+SQL, basically, as well as a few
 more JavaScript articles that I
 
 684
 00:30:38,837 --> 00:30:41,798
 have leftover that I need to
-write about. But Yeah. that's,
+write about. But-- yeah. That's-
 
 685
 00:30:41,798 --> 00:30:45,468
-that's kinda my story. How I, my
-weird story, how I wound up at
+that's kinda my story, how I--
+my weird story. How I wind up
 
 686
-00:30:45,468 --> 00:30:46,288
-FreeCodeCamp.
+00:30:45,468 --> 00:30:46,000
+at freeCodeCamp.
+
+00:30:46,000 --> 00:30:46,300 
+Bekah: Best story.
 
 687
-00:30:46,303 --> 00:30:47,497
-Dan: Oh, [crosstalk] Thats
-great. Yeah. And you actually
+00:30:46,303 --> 00:30:48,300
+Dan: Oh, that- that's great.
+Yeah. And you actually answered
 
 688
-00:30:47,497 --> 00:30:48,691
-answered it at the
+00:30:48,300 --> 00:30:48,691
+it at the
 
 689
 00:30:48,692 --> 00:30:51,032
-end of a question I was going to
-ask was, you know, how to
+end, a- a question I was going
+to ask was, you know, how to
 
 690
 00:30:51,032 --> 00:30:54,393
-balance, like, if you're, if
-writing is, you know, your main
+balance, like, if you're-- if
+writing is, you know, you-- your
 
 691
-00:30:54,452 --> 00:30:56,913
-job, how to balance actually
-learning, you know, whilst
+00:30:54,452 --> 00:30:56,500
+main job, how to balance
+actually learning, you know,
 
 692
-00:30:56,913 --> 00:30:59,462
-writing, but it sounds like kind
-of built into the job, right?
+00:30:56,500 --> 00:30:58,800
+whilst writing? But it sounds
+like-- that's kinda built into
+
+693
+00:30:58,800 --> 00:30:59,462
+the job, right? [Chuckles]
 
 693
 00:30:59,788 --> 00:31:00,387
-Jessica: Exactly. yeah.
+Jessica: Exactly. Yeah
+[chuckles].
 
 694
 00:31:00,522 --> 00:31:01,262
-Dan: very cool.
+Dan: It's very cool.
 
 695
 00:31:01,357 --> 00:31:03,557
-Jessica: Cause there's times
+Jessica: Cuz there's times
 where I'll get assigned articles
 
-696
-00:31:03,557 --> 00:31:03,617
-Dan: Yeah.
-
 697
-00:31:03,617 --> 00:31:05,548
-Jessica: and I'm like, okay, I
-feel comfortable about this. And
+00:31:03,557 --> 00:31:05,548
+and I'm like, "Okay, I feel
+comfortable about this." And
 
 698
 00:31:05,548 --> 00:31:08,488
-then there's times where I'm
-like, I've never really worked
+then, there's times where I'm
+like, "I've never really worked
 
 699
-00:31:08,488 --> 00:31:13,107
-with this. So I guess I'll have
-to learn it because I have to
+00:31:08,488 --> 00:31:12,500
+with this. So I guess, I'll have
+to learn it [laughs]." It's
+
+700
+00:31:12,500 --> 00:31:13,107
+because I have to
 
 700
 00:31:13,107 --> 00:31:16,048
@@ -3287,36 +3211,36 @@ write about it and convince
 people that I know what I'm
 
 701
-00:31:16,048 --> 00:31:17,562
-talking about there, but it's
-really great because I get to,
+00:31:16,048 --> 00:31:18,800
+talking about there. But it's-
+It's really great because I- I
 
 702
-00:31:17,562 --> 00:31:19,076
-we
+00:31:18,800 --> 00:31:19,076
+get to-- we
 
 703
-00:31:19,077 --> 00:31:21,215
-all have that, where we are. One
-of the authors was asked to
+00:31:19,077 --> 00:31:22,300
+all have that where we are asked
+to-- one of the authors was
 
 704
-00:31:21,215 --> 00:31:23,353
-learn
+00:31:22,300 --> 00:31:23,353
+asked to learn some
 
 705
 00:31:23,593 --> 00:31:26,502
-some PHP and writes a PHP
-articles. Another one was asked
+PHP and writes a PHP articles.
+And another one was asked to
 
 706
 00:31:26,502 --> 00:31:30,492
-to write C, C++, and learn that.
-we're all down for just
+write C and C++, and learn that.
+And so we're all down for just
 
 707
 00:31:30,492 --> 00:31:32,427
-learning, whatever we need to
+learning whatever we need to
 learn and get the job done
 
 708
@@ -3328,39 +3252,39 @@ there.
 Bekah: I love that so much.
 
 710
-00:31:37,103 --> 00:31:37,333
-Dan: That's Awesome
+00:31:36,300 --> 00:31:37,000
+Dan: That's awesome.
 
 711
 00:31:38,018 --> 00:31:38,678
 Bekah: Sorry, go ahead.
 
 712
-00:31:39,538 --> 00:31:41,847
-Dan: That was my whole thing.
-That was awesome. That sounds
+00:31:39,538 --> 00:31:41,500
+Dan: I just-- that was my whole
+thing. That was awesome
 
 713
-00:31:41,847 --> 00:31:42,208
-awesome.
+00:31:41,500 --> 00:31:42,208
+[chuckles]. That sounds awesome.
 
 714
-00:31:43,538 --> 00:31:45,293
-Bekah: I just kind of want to
-sum up your whole timeline here
+00:31:43,538 --> 00:31:45,800
+Bekah: Well, I just, like, kind
+of want to sum up your whole
 
 715
-00:31:45,293 --> 00:31:47,048
-of
+00:31:45,800 --> 00:31:47,048
+timeline here of
 
 716
-00:31:47,048 --> 00:31:48,995
+00:31:47,048 --> 00:31:50,300
 everything that's happened
-before. I think that for a lot
+because I- I think that for a
 
 717
-00:31:48,995 --> 00:31:50,942
-of
+00:31:50,300 --> 00:31:50,942
+lot of
 
 718
 00:31:50,942 --> 00:31:54,962
@@ -3368,98 +3292,90 @@ people that we talked to,
 especially people who are trying
 
 719
-00:31:54,962 --> 00:31:57,617
+00:31:54,962 --> 00:32:00,000
 to transition into a tech
-career, it's where to get start.
-
-720
-00:31:57,617 --> 00:32:00,272
-And
+career, it's where to get start?
 
 721
-00:32:00,303 --> 00:32:02,373
-first of all, like get
+00:32:00,000 --> 00:32:02,373
+And first of all, like, get
 comfortable with being
 
 722
 00:32:02,373 --> 00:32:07,952
-uncomfortable, but also. You
+uncomfortable. But also, you
 finding that spot, you had this
 
 723
 00:32:07,952 --> 00:32:11,173
 opportunity because you
-participated on FreeCodeCamp
+participated on freeCodeCamp.
 
 724
 00:32:11,192 --> 00:32:14,313
-because they reached out to you
-because they saw like, look,
+Because they reached out to you,
+because they saw like, "Look,
 
 725
 00:32:14,343 --> 00:32:16,713
-Jessica is awesome and she's
-here and she's contributing.
+Jessica is awesome, and she's
+here, and she's contributing."
 
 726
 00:32:16,713 --> 00:32:19,083
-that just
+And that just
 
 727
 00:32:19,083 --> 00:32:21,407
-progressively led to more and
-bigger and better things. And
+progressively led to more, and
+bigger, and better things. And
 
 728
 00:32:21,407 --> 00:32:23,731
 so,
 
 729
-00:32:23,883 --> 00:32:25,053
+00:32:23,883 --> 00:32:27,700
 you know, start with telling
-your story and, and, writing
+your story, and- and writing
 
 730
-00:32:25,053 --> 00:32:26,223
-those
-
-731
-00:32:26,223 --> 00:32:28,563
-words
+00:32:27,700 --> 00:32:28,563
+those words,
 
 732
 00:32:28,563 --> 00:32:31,792
-and this. You know, that's
+and this is, you know, that's
 largely been my blogging
 
 733
 00:32:31,792 --> 00:32:36,442
 experience. I rarely write very
-technical things because just
+technical things because I just
 
 734
 00:32:36,442 --> 00:32:41,093
-want to get the words out on
-paper, or it's not on paper, but
+wanna get the words out on paper
+or-- it's not on paper, but
 
 735
-00:32:41,333 --> 00:32:46,063
-put, put it out there into the
-world and that's a good place to
+00:32:41,333 --> 00:32:45,500
+put- put it out there into the
+world. And- and that's a good
 
 736
-00:32:46,182 --> 00:32:46,603
-start.
+00:32:45,500 --> 00:32:46,603
+place to start.
 
 737
 00:32:47,222 --> 00:32:50,012
-Jessica: Yeah. I mean, there's,
-everybody has a story and
+Jessica: Yeah. I mean, there's--
+everybody has a story, and
 
 738
 00:32:50,012 --> 00:32:53,192
 everybody has something to talk
-about and share. And so just,
+about and share. And so, just-
 
 739
 00:32:53,192 --> 00:32:56,163
@@ -3469,7 +3385,7 @@ be surprised who reaches out. I
 740
 00:32:56,163 --> 00:32:57,783
 mean, that's how I got my first
-developer job is I wasn't
+developer job is at-- I wasn't
 
 741
 00:32:57,783 --> 00:32:59,403
@@ -3478,171 +3394,151 @@ looking
 742
 00:32:59,403 --> 00:33:02,282
 for a job. I didn't think I was
-anywhere close to being ready,
+anywhere close to being ready.
 
 743
 00:33:02,492 --> 00:33:04,712
-but this guy found me on the
-forum. He's like, Hey, I'm
+But this guy found me on the
+forum. He's like, "Hey, I'm
 
 744
 00:33:04,712 --> 00:33:07,798
-looking for a junior. Yeah. A
-junior in what?
+looking for a junior." And I'm
+like, "A junior in what?"
 
 745
-00:33:09,208 --> 00:33:12,597
-Jessica: you want me to write
-code for you? And so he's like,
+00:33:09,208 --> 00:33:12,000
+[Laughs] Like, "You want me to
+write code for you?" And so,
 
 746
-00:33:12,597 --> 00:33:16,738
-yeah. And, I still work with him
-to this day and it's been an
+00:33:12,000 --> 00:33:13,000
+he's like, "Yeah."
+
+746
+00:33:13,000 --> 00:33:16,738
+And- and I still work with him
+to this day, and it's been an
 
 747
 00:33:16,738 --> 00:33:20,367
-incredible learning experience,
-but that came out of just being
+incredible learning experience.
+But that came out of just being
 
 748
 00:33:20,367 --> 00:33:23,548
 active on the forum and just,
-know, writing and talking about
+you know, writing and talking
 
 749
 00:33:23,548 --> 00:33:24,298
-my story there.
+about my story there.
 
 750
-00:33:24,729 --> 00:33:27,489
-Bekah: Sorry. I was like, my
-brain is split in two different
+00:33:24,729 --> 00:33:27,000
+Bekah: Sorry. I was, like-- my-
+my brain is split in two
 
 751
-00:33:27,489 --> 00:33:29,693
-directions of where to go here.
-I'm a, Dan is you want to
-
-752
-00:33:29,693 --> 00:33:31,897
-add
+00:33:27,000 --> 00:33:31,000
+different directions of- of
+where to go here. I dunno. Dan,
 
 753
-00:33:31,898 --> 00:33:34,298
-something before I take us off
-on a tangent?
+00:33:31,000 --> 00:33:34,298
+do you wanna add something
+before I take us off on a tangent?
 
 754
 00:33:34,743 --> 00:33:37,023
-Dan: Nope. I would say pick the
-left one.
+Dan: Nope. Nope. I would say,
+pick the left one.
 
 755
 00:33:37,513 --> 00:33:41,473
 Bekah: The left one. Okay. My
-left one was, thinking about
+left one was thinking about
 
 756
 00:33:41,473 --> 00:33:45,973
-your, and literally in my mind,
-it was, it was on the left. your
+your-- and lit- literally in my mind,
+it was-- it was on the left [chuckles]. Your
 
 757
-00:33:45,973 --> 00:33:47,398
+00:33:45,973 --> 00:33:48,000
 career goals. I don't know if
-you have career goals, but does,
+you have career goals, but
 
 758
-00:33:47,398 --> 00:33:48,823
-is
+00:33:48,000 --> 00:33:48,823
+does-- is
 
 759
-00:33:48,824 --> 00:33:50,309
-writing something that you want
-to continue to do? Do you want
-
-760
-00:33:50,309 --> 00:33:51,794
-to
+00:33:48,824 --> 00:33:51,794
+writing something that you wanna
+continue to do? Do you wanna
 
 761
 00:33:51,794 --> 00:33:57,344
-pursue, the writing aspect of
-coding or, or find yourself
+pursue the writing aspect of
+coding, or- or find yourself
 
 762
-00:33:57,344 --> 00:33:59,383
-somewhere in the middle or just
-see this as part of a tangent of
+00:33:57,344 --> 00:34:00,300
+somewhere in the middle, or just
+see this as, you know, part of
 
 763
-00:33:59,383 --> 00:34:01,422
-your
-
-764
-00:34:01,493 --> 00:34:01,953
-journey?
+00:34:00,300 --> 00:34:01,953
+a- a tangent of your journey?
 
 765
 00:34:02,538 --> 00:34:06,949
-Jessica: Yeah. Yeah. I would
-like to have at one point a, a
+Jessica: Yeah. Yeah. I- I would
+like to have, at one point, a- a
 
 766
 00:34:06,949 --> 00:34:10,128
-traditional, like full-time
-developer job, but I definitely
+traditional, like, full-time
+developer job. But I def- I
 
 767
-00:34:10,128 --> 00:34:11,478
-still want to keep writing. And
-so if there's any way I can
+00:34:10,128 --> 00:34:12,300
+definitely still want to keep
+writing. And so, if there's any
 
 768
-00:34:11,478 --> 00:34:12,828
-still
+00:34:12,300 --> 00:34:12,828
+way I can still
 
 769
 00:34:12,829 --> 00:34:16,369
 be involved, especially with
-FreeCodeCamp, and still write
+freeCodeCamp, and still write
 
 770
-00:34:16,369 --> 00:34:18,093
+00:34:16,369 --> 00:34:19,817
 articles for them in some sort
-of capacity. Cause I just, I, I
-
-771
-00:34:18,093 --> 00:34:19,817
-love
+of capacity. Cuz I just-- I- I
 
 772
-00:34:19,818 --> 00:34:23,031
-to write it. I love. Teach
-people and help out wherever I
+00:34:19,818 --> 00:34:24,500
+love to write. It-- I love to
+just teach people and- and help
 
 773
-00:34:23,031 --> 00:34:26,244
-can. but
+00:34:24,500 --> 00:34:26,244
+out wherever I can. But
 
 774
-00:34:26,244 --> 00:34:27,758
-they think the bigger career
-goal too, is I have all these
-
-775
-00:34:27,758 --> 00:34:29,272
-ideas
+00:34:26,244 --> 00:34:29,272
+I think the bigger career goal
+too, is I have all these ideas
 
 776
-00:34:29,273 --> 00:34:31,658
-for music related, tech that I
-want to build. And some of
-
-777
-00:34:31,658 --> 00:34:34,043
-them
+00:34:29,273 --> 00:34:34,043
+for music related tech that I
+want to build. And some of them
 
 778
 00:34:34,043 --> 00:34:35,928
@@ -3651,29 +3547,25 @@ guess all my ideas are crazy,
 
 779
 00:34:35,928 --> 00:34:37,813
-but
+but [laughs]--
 
 780
 00:34:38,054 --> 00:34:39,083
-Bekah: those are my favorite.
+Bekah: Those are my favorite.
 
 781
 00:34:39,153 --> 00:34:40,453
-Jessica: I guess That's the
+Jessica: I guess that's the
 entrepreneurship in me where
 
 782
 00:34:40,453 --> 00:34:41,753
-it's
+it's,
 
 783
-00:34:41,753 --> 00:34:43,378
-like, oh, my ideas are insane,
-but I just don't want to let
-
-784
-00:34:43,378 --> 00:34:45,003
-them
+00:34:41,753 --> 00:34:45,003
+like, all my ideas are insane
+but I just don't wanna let them
 
 785
 00:34:45,003 --> 00:34:45,443
@@ -3681,58 +3573,46 @@ go.
 
 786
 00:34:45,503 --> 00:34:45,824
-Dan: Those are
+Dan: It's the best ones.
 
 787
-00:34:45,824 --> 00:34:47,508
-Jessica: the best ones And so.
-Exactly. So, yeah, so that's
-
-788
-00:34:47,508 --> 00:34:49,192
-like
+00:34:45,824 --> 00:34:49,192
+Jessica: Exactly [chuckles].
+So-- yeah. So that's, like,
 
 789
 00:34:49,193 --> 00:34:52,943
-the long-term goal is to start
-slowly tackling some of these
+the long-term goal is to just
+start slowly tackling some of these
 
 790
 00:34:52,943 --> 00:34:57,623
-ideas and just kind of go from
-there and work a regular
+ideas, and just kinda go from
+there, and- and work a regular
 
 791
-00:34:57,623 --> 00:34:59,498
-developer job, but then also
-keep writing and have fun with
-
-792
-00:34:59,498 --> 00:35:01,373
-it.
+00:34:57,623 --> 00:35:01,373
+developer job. But then also keep
+writing and- and just have fun with it.
 
 793
 00:35:02,753 --> 00:35:05,108
-Bekah: Yeah, that gives me an
-idea for a monthly challenge,
+Bekah: Yeah, it-- that gives me
+an idea for a monthly challenge
 
 794
 00:35:05,108 --> 00:35:07,463
 because I
 
 795
-00:35:07,463 --> 00:35:09,728
-think we have a big energy
+00:35:07,463 --> 00:35:11,993
+think we- we have a big energy
 channel in Slack. And a lot of
-
-796
-00:35:09,728 --> 00:35:11,993
-it
 
 797
 00:35:11,994 --> 00:35:19,494
-is just GIF's, to bring us big
-energy. But I really think
+it is just GIFs to bring us big
+energy, but I- I really think
 
 798
 00:35:19,494 --> 00:35:22,434
@@ -3742,30 +3622,30 @@ big ideas that we think are
 799
 00:35:22,434 --> 00:35:24,038
 unattainable, or this is too
-big, or this is too out there.
+big, or this is too out there,
 
 800
 00:35:24,038 --> 00:35:25,642
-Right.
+right? Or-
 
 801
-00:35:25,884 --> 00:35:28,689
-Or there's just too many of them
-to like focus on one. if there
+00:35:25,884 --> 00:35:29,000
+or there's just too many of them
+to- to, like [chuckles], focus
 
 802
-00:35:28,689 --> 00:35:31,494
-was a big
+00:35:29,000 --> 00:35:31,494
+on one. But if there was a big
 
 803
 00:35:31,494 --> 00:35:34,943
-idea month, right? Like we all
+idea month, right? Like, we all
 write down all of our big ideas
 
 804
 00:35:34,943 --> 00:35:37,148
-that we want to share. And work
-together to kind of give
+that we wanna share them. And
+work together to kind of give
 
 805
 00:35:37,148 --> 00:35:39,353
@@ -3773,36 +3653,32 @@ feedback
 
 806
 00:35:39,353 --> 00:35:40,868
-on those big ideas and figure
-out like where to focus or how
+on those big ideas, and figure
+out, like, where to focus or how
 
 807
 00:35:40,868 --> 00:35:42,383
 to
 
 808
-00:35:42,384 --> 00:35:44,048
+00:35:42,384 --> 00:35:45,712
 break things down. And then, you
-know, that way, like together,
-
-809
-00:35:44,048 --> 00:35:45,712
-we
+know, that way, like, together,
 
 810
 00:35:45,713 --> 00:35:48,893
-have that support, but we're,
+we have that support, but we're-
 we're making progress on the
 
 811
 00:35:48,893 --> 00:35:51,143
-things that we really enjoy
-doing it.
+thing that we- we really enjoy
+doing.
 
 812
 00:35:52,153 --> 00:35:53,728
 Jessica: Exactly. I mean, I
-think ideas are fun and playing
+think ideas are fun, and playing
 
 813
 00:35:53,728 --> 00:35:55,303
@@ -3810,8 +3686,8 @@ around
 
 814
 00:35:55,304 --> 00:35:58,184
-with them and then trying to
-implement them. And sometimes
+with them, and then trying to
+implement them. And sometimes,
 
 815
 00:35:58,184 --> 00:36:00,103
@@ -3819,19 +3695,23 @@ people will call you crazy. I
 mean, people thought I was nuts
 
 816
-00:36:00,344 --> 00:36:03,764
-to try to do a publishing
-company. I remember I went to an
+00:36:00,344 --> 00:36:03,000
+to- to try to do a publishing
+company [chuckles]. I remember
+
+817
+00:36:03,000 --> 00:36:03,764
+I went to an
 
 817
 00:36:03,764 --> 00:36:07,523
 alumni event. And I was just
-started with the business and I,
+started with the business. And
 
 818
 00:36:07,523 --> 00:36:10,344
-you know, you go around and does
-events and you talk to small
+I, you know, you go around in
+those events, and you talk to small
 
 819
 00:36:10,344 --> 00:36:11,649
@@ -3849,8 +3729,8 @@ was asking me what my next plans
 
 822
 00:36:17,304 --> 00:36:19,268
-were. I said, well, you know, I
-just moved here to LA and
+were. I said, "Well, you know,
+I- I just moved here to LA and
 
 823
 00:36:19,268 --> 00:36:21,232
@@ -3862,41 +3742,41 @@ for freelance work, but I also
 have this sheet music business
 
 825
-00:36:24,353 --> 00:36:26,278
-that he just got started and she
-was. Why I'm like, oh, okay.
+00:36:24,353 --> 00:36:27,000
+that I just got started." And
+she was like, "Why?" I'm like,
 
 826
-00:36:26,278 --> 00:36:28,203
-Well,
+00:36:27,000 --> 00:36:30,500
+"Oh, okay. Well [Jessica and Dan
+laugh], let me tell you why."
 
 827
-00:36:29,403 --> 00:36:33,333
-let me tell you why that was a
-little taken aback. I was like,
+00:36:30,500 --> 00:36:33,333
+That was-- that was a little
+taken aback. I was like,
 
 828
-00:36:33,333 --> 00:36:35,448
-okay, great. Well, this
+00:36:33,333 --> 00:36:35,000
+"Okay, great. Well, this
 
 829
-00:36:35,448 --> 00:36:37,563
-conversation won't last long,
-but
+00:36:35,000 --> 00:36:37,563
+conversation won't last long [laughs]." But-- so,
 
 830
 00:36:37,563 --> 00:36:40,324
-so I had a few people. They're
-just like, why would you, why
+I had a few people and they're
+just like, "Why would you-- why
 
 831
-00:36:40,324 --> 00:36:42,401
-would you do that? But I just
-had a very specific. Vision of
+00:36:40,324 --> 00:36:43,000
+would you do that?" [Chuckles]
+But I just had a very specific
 
 832
-00:36:42,401 --> 00:36:44,478
-what I
+00:36:43,000 --> 00:36:44,478
+vision of what I
 
 833
 00:36:44,478 --> 00:36:46,548
@@ -3904,335 +3784,344 @@ wanted with my sheet music
 business. And then people were
 
 834
-00:36:46,548 --> 00:36:47,913
+00:36:46,548 --> 00:36:48,800
 surprised that it actually
 turned into a business. I'm
 
 835
-00:36:47,913 --> 00:36:49,278
-like, well,
+00:36:48,800 --> 00:36:50,000
+like, "Well, yeah. I told you I
 
 836
-00:36:49,309 --> 00:36:52,639
-yeah, I told her I was going to
-do that. You didn't believe me.
+00:36:50,000 --> 00:36:52,639
+was gonna do that. And you
+didn't believe me [laughs]."
 
 837
 00:36:53,628 --> 00:36:56,748
-And so, yeah, I think sometimes
-people will just reject it and
+And so-- yeah. I think sometimes
+people will just reject it, and
 
 838
-00:36:56,748 --> 00:36:58,458
-then once they see it come true
-and they're like, oh, okay. I
-
-839
-00:36:58,458 --> 00:37:00,168
-see
+00:36:56,748 --> 00:37:00,168
+then once they see it, it come true,
+and they're like, "Oh, okay. I see
 
 840
 00:37:00,168 --> 00:37:02,778
-it there. I mean, the same thing
-happened with, with Disney where
+it there." I mean, the same thing
+happened with- with Disney where
 
 841
-00:37:02,778 --> 00:37:04,233
+00:37:02,778 --> 00:37:05,688
 people thought he was nuts to
 build a park in Anaheim where
 
-842
-00:37:04,233 --> 00:37:05,688
-all
-
 843
-00:37:05,688 --> 00:37:07,553
-these orange trees were and
-then. Obviously that worked out
-
-844
-00:37:07,553 --> 00:37:09,418
-for
+00:37:05,688 --> 00:37:09,418
+all these orange trees were, and
+then, obviously, that worked out
 
 845
-00:37:09,418 --> 00:37:11,113
-him, but initially people
-thought he was just completely
+00:37:09,418 --> 00:37:11,800
+for him [laughs]. But initially, 
+people thought he was just
 
 846
-00:37:11,113 --> 00:37:12,808
-nuts. Like
+00:37:11,800 --> 00:37:12,808
+completely nuts. Like,
 
 847
 00:37:12,809 --> 00:37:16,378
-who's going to go to this park
-and where is Anaheim and Well,
+"Who's gonna go to this park?"
+And, "Where is Anaheim?" And,
 
 848
 00:37:16,409 --> 00:37:17,429
-people were wrong there.
+well, people were wrong there 
+[chuckles].
 
 849
 00:37:20,003 --> 00:37:21,844
-Bekah: Well, I love that
-confidence that you talk It with
+Bekah: Well, I like that
+confidence that you talk about it with,
 
 850
-00:37:21,864 --> 00:37:23,199
-too. You're like, yeah, I'm
-going to do this thing because I
-
-851
-00:37:23,199 --> 00:37:24,534
-want
+00:37:21,864 --> 00:37:24,534
+too. You're like, "Yeah, I'm
+gonna do this thing cuz I wanna
 
 852
-00:37:24,534 --> 00:37:28,043
-to do it. And it's a good idea.
+00:37:24,534 --> 00:37:27,800
+to do it. And it's a good idea."
 And at some point, people start
 
 853
-00:37:28,043 --> 00:37:32,003
+00:37:27,800 --> 00:37:31,800
 to buy into that idea because of
 how you present it and the
 
 854
-00:37:32,003 --> 00:37:33,803
+00:37:31,800 --> 00:37:35,000
 confidence that you use. And,
-oh, you're just like, love how
+oh, you're just, like, I love
 
 855
-00:37:33,803 --> 00:37:35,603
-chill
+00:37:35,000 --> 00:37:35,603
+how chill
 
 856
-00:37:35,603 --> 00:37:37,664
+00:37:35,603 --> 00:37:37,300
 you are when you talk about
-things. I'm like, oh yeah, yeah.
+things. I'm like, "Oh yeah,
 
 857
-00:37:37,673 --> 00:37:40,824
-I would definitely work with
-Jessica on that, you know?
+00:37:37,300 --> 00:37:40,000
+yeah. I would-- I would
+definitely work with Jessica on
 
 858
-00:37:42,068 --> 00:37:44,818
-Jessica: I just like going for
-things cause it's like, Yeah, it
+00:37:40,000 --> 00:37:40,824
+that," you know? [Chuckles]
+Like--
+
+858
+00:37:42,068 --> 00:37:44,000
+Jessica: [Laughs] I just like
+going for things cuz it's like-- 
 
 859
-00:37:44,818 --> 00:37:46,203
-either works out or it doesn't
-it. And if it doesn't work out,
+00:37:44,000 --> 00:37:44,818
+it-- yeah. It
 
-860
-00:37:46,203 --> 00:37:47,588
-I
+859
+00:37:44,818 --> 00:37:47,588
+either works out, or it doesn't.
+And if it doesn't work out, I
 
 861
 00:37:47,588 --> 00:37:50,318
 learned something. I had plenty
-of things that didn't work out,
+of things that didn't work out.
 
 862
-00:37:50,708 --> 00:37:52,628
-I'm glad I tried it. So I could
-at least learn along the way,
+00:37:50,708 --> 00:37:53,500
+But I'm glad I tried it, so I
+could at least learn along the
 
 863
-00:37:52,628 --> 00:37:54,548
-but
+00:37:53,500 --> 00:37:54,548
+way. But you--
 
 864
 00:37:54,639 --> 00:37:57,759
-sometimes you just gotta go for
+sometimes, you just gotta go for
 it. You can't really play safe
 
 865
 00:37:57,789 --> 00:38:00,438
-and, and, you know what to do
-too risky. You don't want to go
+and- and, you know, what-- do
+too risky. You don't wanna go,
 
 866
-00:38:00,438 --> 00:38:01,963
-like bankrupt or anything crazy,
-but like, you know, you just
+00:38:00,438 --> 00:38:03,000
+like, bankrupt or anything
+crazy. But, like, you- you know,
 
 867
-00:38:01,963 --> 00:38:03,488
-want
+00:38:03,000 --> 00:38:03,488
+you just wanna--
 
 868
 00:38:03,489 --> 00:38:07,583
-to. If you have an idea and you
+if you have an idea and you
 feel really confident about it,
 
 869
 00:38:07,583 --> 00:38:09,954
-just, just go for it and take it
-one step at a time. There.
+just- just go for it and take it
+one step at a time there.
 
 870
 00:38:10,929 --> 00:38:13,748
-Dan: Yeah, it's a theme. That's
-come up a few times on the
+Dan: Yeah, it's- it's a theme
+that's come up a few times on
 
 871
-00:38:13,748 --> 00:38:16,889
-podcast that, you know, it makes
-me think of a Structured YOLO.
+00:38:13,748 --> 00:38:16,200
+the podcast that, you know, it
+make- makes me think- think of
+
+872
+00:38:16,200 --> 00:38:16,889
+Structured YOLO that
 
 872
 00:38:16,989 --> 00:38:20,528
-Nick Taylor, which is a phrase
-he, he coined, you know,
+Nick Taylor-- which is a phrase
+he- he coined, you know?
 
 873
-00:38:20,528 --> 00:38:22,073
-but it's the same sort of idea,
-right? It's is. You know, I
+00:38:20,528 --> 00:38:23,000
+But it's the same sort of idea,
+right? It is-- it is-- you know,
 
 874
-00:38:22,073 --> 00:38:23,618
-mean,
+00:38:23,000 --> 00:38:26,500
+I mean, [chuckles] I-- you know,
+I not wanna do-- go full YOLO,
 
 875
-00:38:25,059 --> 00:38:27,998
-don't want to go full YOLO,
-right. But the
+00:38:26,500 --> 00:38:28,778
+right? But [laughs]-- but the--
+but the-
+
+875
+00:38:27,800 --> 00:38:28,074
+Bekah: Yeah.
 
 876
 00:38:28,074 --> 00:38:28,614
-Jessica: Exactly.
+Jessica: Exactly. Yeah.
 
 877
 00:38:28,778 --> 00:38:29,659
-Dan: structured YOLO. Yeah,
+Dan: -the Structured YOLO. Yeah.
 
 878
-00:38:29,693 --> 00:38:30,563
-Jessica: the way out there. I
+00:38:28,850 --> 00:38:30,800
+Jessica: We don't wanna go all
+the way out there.
 
 879
-00:38:30,708 --> 00:38:30,918
-Dan: yeah,
+00:38:30,000 --> 00:38:30,300
+Bekah: Yes [chuckles].
 
 880
-00:38:31,103 --> 00:38:31,224
-Jessica: my
+00:38:30,300 --> 00:38:30,800
+Jessica: I mean, like-
+
+879
+00:38:30,800 --> 00:38:31,000
+Dan: Yeah.
+
+880
+00:38:31,103 --> 00:38:31,500
+Jessica: -my busines--
 
 881
 00:38:31,228 --> 00:38:32,139
-Bekah: little bit of YOLO.
+Bekah: A little bit of YOLO
+[chuckles].
 
 882
 00:38:32,588 --> 00:38:32,918
-Dan: yeah,
+Dan: Yeah.
 
 883
-00:38:32,934 --> 00:38:35,213
-Jessica: my business, I wasn't
-like, okay, cool. Let's just
+00:38:32,934 --> 00:38:34,500
+Jessica: Yeah. With my business,
+I wasn't like, "Okay, cool.
+
+884
+00:38:34,500 --> 00:38:35,213
+Let's just
 
 884
 00:38:35,213 --> 00:38:37,224
-raise all this money. No, that
-would have been crazy. Cause I
+raise all this money." No, that
+would have been crazy. Cuz I
 
 885
-00:38:37,224 --> 00:38:38,423
-was like young, 20 something
-year old had didn't know what
+00:38:37,224 --> 00:38:39,000
+was, like, young. Twenty
+something year old that had--
 
 886
-00:38:38,423 --> 00:38:39,622
-they
+00:38:39,000 --> 00:38:40,000
+didn't know what [chuckles] they
 
 887
-00:38:39,623 --> 00:38:41,138
-were doing. Excited to take
+00:38:40,000 --> 00:38:42,653
+were doing. So I had to take
 small little steps to get there.
-
-888
-00:38:41,138 --> 00:38:42,653
-I
 
 889
 00:38:42,653 --> 00:38:46,673
-couldn't go that big and do some
-crazy fundraising goal or
+I couldn't go that big, and- and
+do some crazy fundraising goal
 
 890
 00:38:46,673 --> 00:38:49,284
-whatever when I had no clue what
-I was doing. So.
+or whatever when I had no clue
+what I was doing. So--
 
 891
-00:38:49,559 --> 00:38:54,219
-Dan: Absolutely. But the, know,
-the willingness to have an idea
+00:38:49,559 --> 00:38:53,300
+Dan: Yeah. Absolutely. The-- but
+the-- you know, the willingness
 
 892
-00:38:54,219 --> 00:38:59,048
-that is not what a normal, I
-guess, whenever, you know, idea
+00:38:53,300 --> 00:38:54,219
+to have an idea
+
+892
+00:38:54,219 --> 00:38:58,500
+that is not-- one of ... normal,
+I guess? Whenever, you know, 
+
+893
+00:38:58,500 --> 00:38:59,048
+[chuckles] an idea
 
 893
 00:38:59,048 --> 00:39:01,028
 that you might run into that
-conversation with somebody like,
+conversation of with somebody
 
 894
 00:39:01,059 --> 00:39:03,039
-well, why, why are you doing
-that? You know, but the
+like, "Well, why? Why you doing
+that?" You know? But the
 
 895
-00:39:03,039 --> 00:39:04,988
-willingness to, jump into it,
-you know, and, and push
-
-896
-00:39:04,988 --> 00:39:06,937
-through,
+00:39:03,039 --> 00:39:06,937
+willingness to ... jump into it,
+you know, and then push through,
 
 897
-00:39:06,969 --> 00:39:09,278
-I think is, a, know, a valuable,
-valuable trait to
-
-898
-00:39:09,278 --> 00:39:11,587
-have,
+00:39:06,969 --> 00:39:11,587
+I think is- is- is a-- I dunno.
+A valuable-- a valuable trait to
 
 899
-00:39:11,588 --> 00:39:12,543
-you know, and obviously it's
-served you, served you really
+00:39:11,588 --> 00:39:13,498
+have, you know? And obviously,
+it's served you-- served you
 
 900
-00:39:12,543 --> 00:39:13,498
-well.
+00:39:13,498 --> 00:39:14,000
+really well.
 
 901
 00:39:16,043 --> 00:39:22,224
-Bekah: So sometimes, it can be
-really challenging to write.
+Bekah: So, sometimes, it can be
+really challenging to write
 
 902
 00:39:22,989 --> 00:39:29,289
-Blog posts to get started and to
-receive feedback on blog posts.
+blog posts, to get started, and to
+receive feedback on blog posts,
 
 903
 00:39:29,318 --> 00:39:33,239
-You know, whether that's from an
+you know? Whether that's from an
 editor or somebody who has
 
 904
 00:39:33,628 --> 00:39:42,369
 commented on your posts in a way
-that is not, kind So how do
+that is not ... kind. So, how do
 
 905
 00:39:42,369 --> 00:39:45,838
@@ -4240,13 +4129,13 @@ you navigate those challenging
 situations while you're writing?
 
 906
-00:39:46,489 --> 00:39:48,431
-Jessica: Yeah, It's feedback is
-always interesting, especially
+00:39:46,489 --> 00:39:49,800
+Jessica: Yeah. Yeah. It's--
+feedback is always interesting,
 
 907
-00:39:48,431 --> 00:39:50,373
-in
+00:39:49,800 --> 00:39:50,373
+especially in
 
 908
 00:39:50,373 --> 00:39:51,768
@@ -4258,77 +4147,89 @@ because people can just hide
 behind their
 
 910
-00:39:53,164 --> 00:39:56,043
-computers and save virtually
-anything to you that they
+00:39:53,164 --> 00:39:55,800
+computers and say virtually
+anything to you [chuckles] that
 
 911
-00:39:56,043 --> 00:39:58,923
-probably wouldn't say if you
-guys, if you were face-to-face
+00:39:55,800 --> 00:39:58,000
+they probably wouldn't say if
+you got-- if you were, like,
+
+912
+00:39:58,000 --> 00:39:58,923
+face-to-face
 
 912
 00:39:58,923 --> 00:40:02,824
-with them, but I try to just
-separate them between actual,
+with them. But I- I try to just
+separate them between actual
 
 913
 00:40:02,824 --> 00:40:06,893
-constructive feedback versus. ok
-this is not helpful. I'm just
+constructive feedback versus,
+ok, this is not helpful. I'm
 
 914
 00:40:06,893 --> 00:40:09,983
-going to move on. And so I've
-had, some constructive
+just gonna move on. And so,
+I've had some constructive
 
 915
-00:40:09,983 --> 00:40:13,643
-feedback, like, oh, this is
-really good. could you like,
+00:40:09,983 --> 00:40:12,500
+feedback, like, "Oh, this is
+really good." Or, "Could you,
 
 916
-00:40:13,793 --> 00:40:17,213
-you know, expand on this part or
-could you talk more about this?
+00:40:12,500 --> 00:40:16,500
+like, you know, expand on this
+part?" Or, "Could you talk more
+
+917
+00:40:16,500 --> 00:40:17,213
+about this?"
 
 917
 00:40:17,213 --> 00:40:18,983
-And I'm like, okay. Yeah, that
-makes sense. And then there's
+And I'm like, "Okay. Yeah, that
+makes sense." And then, there's
 
 918
-00:40:18,983 --> 00:40:20,588
+00:40:18,983 --> 00:40:21,500
 been times where it's like,
-well, I think it would be better
+"Well, I think it would be
 
 919
-00:40:20,588 --> 00:40:22,193
-if you
+00:40:21,500 --> 00:40:22,193
+better if you
 
 920
 00:40:22,193 --> 00:40:25,014
 went into this. I mean, that's
-what real developers do or
+what real developers do," or
 
 921
-00:40:25,014 --> 00:40:27,983
-whatever. So I've got like those
-comments I'm like, okay, well
+00:40:25,014 --> 00:40:27,000
+whatever. So I've got, like,
+those comments. And I'm like,
 
 922
-00:40:27,983 --> 00:40:32,003
-you're an obviously not helpful.
-And so I just learned that,
+00:40:27,000 --> 00:40:30,000
+"Okay. Well, you're not--
+obviously not helpful [laughs]."
 
 923
-00:40:32,003 --> 00:40:33,558
+00:40:30,000 --> 00:40:32,003
+And so, I just learned that,
+
+923
+00:40:32,003 --> 00:40:34,500
 when I was running my business,
-There's just those comments
+that there's just those
 
 924
-00:40:33,558 --> 00:40:35,113
-that,
+00:40:34,500 --> 00:40:35,113
+comments that-
 
 925
 00:40:35,123 --> 00:40:38,923
@@ -4337,23 +4238,23 @@ know, just write things and
 
 926
 00:40:38,923 --> 00:40:41,864
-you're just like, okay, I'm just
-not going to waste my energy on
+you're just like, "Okay. I'm- I'm
+just not gonna waste my energy on
 
 927
 00:40:41,864 --> 00:40:46,003
-that. It's a, luckily I haven't
+that. It's a-- luckily, I haven't
 had too many just absolutely
 
 928
 00:40:46,003 --> 00:40:49,063
-horrific things. at least with
-my programming writing,
+horrific things, at least with
+my programming writing.
 
 929
 00:40:49,094 --> 00:40:52,514
-there was only one incident,
-that I had when I was running my
+There was only one incident that
+I had, when I was running my
 
 930
 00:40:52,574 --> 00:40:54,254
@@ -4366,31 +4267,31 @@ his
 
 932
 00:40:55,934 --> 00:41:01,054
-way. To make accounts and post
-race, racist memes and stuff on
+way to make accounts, and post
+race- racist memes and stuff on
 
 933
 00:41:01,054 --> 00:41:04,324
-my page and on my YouTube
-channel. And I, of course I had
+my page, and on my YouTube
+channel. And I have-- of course, I had
 
 934
 00:41:04,324 --> 00:41:06,784
-to block all that, but he would
-keep creating new accounts of
+to block all that. But he would
+keep creating new accounts and
 
 935
-00:41:06,793 --> 00:41:08,723
-like, you're that threatened by
-what I'm doing, that you have to
+00:41:06,793 --> 00:41:09,000
+was like, "You've got
+threatened, like, by what I'm
 
 936
-00:41:08,723 --> 00:41:10,653
-spend
+00:41:09,000 --> 00:41:10,653
+doing that you have to spend
 
 937
 00:41:10,653 --> 00:41:12,918
-time. And so there are people
+time." And so, there are people
 out there that just are that
 
 938
@@ -4404,53 +4305,49 @@ your race or your gender. And
 
 940
 00:41:19,653 --> 00:41:22,474
-it's just like, okay, you know,
-it's a it's, it's okay to be
+it's just like, okay, you know?
+It's a-- it's- it's okay to be
 
 941
-00:41:22,474 --> 00:41:24,343
-human. Yeah. you know, feel that
-and go, well, come on.
+00:41:22,474 --> 00:41:25,700
+human and, like, ya- you know,
+feel that and go, "Well, come
 
 942
-00:41:24,343 --> 00:41:26,212
-Yeah.
+00:41:25,700 --> 00:41:26,212
+on." Yeah.
 
 943
-00:41:26,244 --> 00:41:27,433
+00:41:26,244 --> 00:41:28,500
 But at the end of the day, you
-just have to remember like
+just have to remember, like,
 
 944
-00:41:27,433 --> 00:41:28,622
+00:41:28,500 --> 00:41:28,622
 that's
 
 945
-00:41:28,643 --> 00:41:30,548
-their issue, right. They they're
-just a hateful person. Is he
+00:41:28,643 --> 00:41:32,000
+their issue, right? They--
+they're just a hateful person.
 
 946
-00:41:30,548 --> 00:41:32,453
-just
+00:41:32,000 --> 00:41:32,453
+And so you just
 
 947
-00:41:32,454 --> 00:41:34,673
-trying to block them and move
-on? and, and just focus on
-
-948
-00:41:34,673 --> 00:41:36,892
-the
+00:41:32,454 --> 00:41:36,892
+try to block them and- and move
+on, and- and just focus on the-
 
 949
-00:41:37,063 --> 00:41:38,658
-helpful, constructive feedback
-as well as the positive feedback
+00:41:37,063 --> 00:41:39,200
+the helpful, constructive
+feedback as well as the positive
 
 950
-00:41:38,658 --> 00:41:40,253
-to,
+00:41:39,200 --> 00:41:40,253
+feedback to-
 
 951
 00:41:40,403 --> 00:41:42,623
@@ -4473,7 +4370,7 @@ time, I
 955
 00:41:47,693 --> 00:41:52,134
 stayed away from blogging on any
-platform except my own blog,
+platform except my own blog
 
 956
 00:41:52,164 --> 00:41:55,929
@@ -4481,18 +4378,18 @@ because I didn't have comments
 enabled. I couldn't see how many
 
 957
-00:41:55,929 --> 00:41:57,923
-people liked it, And I still
-frequently think about going
+00:41:55,929 --> 00:41:59,000
+people liked it, you know? And I
+still frequently think about
 
 958
-00:41:57,923 --> 00:41:59,917
-back
+00:41:59,000 --> 00:41:59,917
+going back
 
 959
 00:41:59,918 --> 00:42:02,408
 to that rather than cross
-posting other places that, that
+posting other places that- that
 
 960
 00:42:02,408 --> 00:42:04,898
@@ -4500,113 +4397,111 @@ have
 
 961
 00:42:05,349 --> 00:42:08,469
-those built-in things, because
-sometimes it can just, it can be
+those built-in things because
+sometimes, it can just-- it can
 
 962
-00:42:08,469 --> 00:42:10,719
-hard or you put a lot of time
-and effort into something maybe
+00:42:08,469 --> 00:42:12,000
+be hard. Or you put a lot of
+time and effort into something,
 
 963
-00:42:10,719 --> 00:42:12,969
-two
+00:42:12,000 --> 00:42:12,969
+and maybe two
 
 964
 00:42:12,969 --> 00:42:17,119
 people like it versus the thing
-that I, I YOLO'ed on a Saturday
+that I- I YOLO'ed on a Saturday
 
 965
 00:42:17,139 --> 00:42:20,378
-night. And then there's all of
-these hits and like, what, what
+night. And then, there's all of
+these hits and I'm like, "What-
 
 966
 00:42:20,378 --> 00:42:21,248
-is this?
+what is this?"
 
 967
 00:42:22,059 --> 00:42:23,528
-Jessica: Yeah. I, I've been
-there so many times both with
+Jessica: Yeah. I-- I've been
+there so many times. Both with,
 
 968
-00:42:23,528 --> 00:42:24,997
-like
+00:42:23,528 --> 00:42:25,500
+like, writing
 
 969
-00:42:24,998 --> 00:42:28,179
-writing technical articles then
+00:42:25,500 --> 00:42:28,179
+technical articles, and then
 with sheet music where I'll
 
 970
 00:42:28,179 --> 00:42:31,239
-release a new product I'll be
-like, oh, this is good. Totally
+release a new product, and I'll be
+like, "Oh, this is good. Totally
 
 971
-00:42:31,239 --> 00:42:32,766
+00:42:31,239 --> 00:42:33,800
 sell through. This is gonna be a
-hit. And then. The sales are
+hit." And then, the sales are,
 
 972
-00:42:32,766 --> 00:42:34,293
-like
+00:42:33,800 --> 00:42:35,000
+like, nothing. I'm like,
 
 973
-00:42:34,293 --> 00:42:38,134
-nothing. I'm like, okay, wildly
-misjudged that. And then I'll
+00:42:35,000 --> 00:42:38,500
+"Okay, wildly misjudged that."[Laughs] And then I'll release
 
 974
-00:42:38,134 --> 00:42:40,773
-release another product then
-like, okay, this will do okay.
+00:42:38,500 --> 00:42:40,773
+another product, then I'm like,
+"Okay, this will do okay."
 
 975
 00:42:40,773 --> 00:42:42,963
-And then it ends up being a
-breakout. I'm like, what
+And then it ends up being a- a
+breakout. I'm like, "What
 
 976
-00:42:42,963 --> 00:42:47,193
-happened? What did I misjudged?
-That it's the same thing with
+00:42:42,963 --> 00:42:46,000
+happened? What did-- why did I misjudged that?" [Laughs] And
+
+977
+00:42:46,000 --> 00:42:47,193
+it's the same thing with
 
 977
 00:42:47,193 --> 00:42:49,594
-writing where there'll be some
+writing, where there'll be some
 articles. Actually, this just
 
 978
 00:42:49,594 --> 00:42:53,253
 happened with the CodePen and
-Replit articles, because I
+Replit articles because-- I
 
 979
-00:42:53,253 --> 00:42:54,903
+00:42:53,253 --> 00:42:56,553
 decided to write those because
-FreeCodeCamp up uses both of
-
-980
-00:42:54,903 --> 00:42:56,553
-those
+freeCodeCamp uses both of those
 
 981
 00:42:56,554 --> 00:42:59,998
-tools, in their certifications.
-There really
+tools in their certifications.
+And I thought, "There really
 
 982
 00:42:59,998 --> 00:43:04,048
 should be a guide to help them
-since it's based on the course.
+since it's based on the course."
 
 983
 00:43:04,048 --> 00:43:05,398
-And I just thought, okay, well,
-few people write these.
+And I just thought, "Okay, well,
+a few people will write these.
 
 984
 00:43:05,398 --> 00:43:06,748
@@ -4614,96 +4509,105 @@ Hopefully
 
 985
 00:43:06,748 --> 00:43:09,449
-they'll just refer to them. But
+they'll just refer it to them." But
 then both of them were retweeted
 
 986
-00:43:09,478 --> 00:43:13,829
-by the co-founders and the CEO.
-And I'm like, okay, that was
+00:43:09,478 --> 00:43:10,800
+by the co-founders-
+
+987
+00:43:10,800 --> 00:43:11,000
+Bekah: Yes.
+
+988
+00:43:11,000 --> 00:43:13,829
+Jessica: -and the CEO.
+And I'm like, "Okay, that was
 
 987
 00:43:13,858 --> 00:43:15,659
-unexpected, but that's kind of
-cool.
+unexpected, but that's kinda
+cool."
 
 988
-00:43:17,081 --> 00:43:21,608
-Dan: Do you ever, like doing
-tech support comments, you know,
+00:43:17,081 --> 00:43:20,800
+Dan: Do you ever find yourself,
+like, doing tech support in
 
 989
-00:43:21,608 --> 00:43:24,409
-sections when you're writing
-technical articles,
+00:43:20,800 --> 00:43:23,000
+comments, you know, sections
+when you're writing technical-
+
+990
+00:43:23,000 --> 00:43:24,409
+technical articles?
 
 990
 00:43:24,409 --> 00:43:27,568
-Jessica: I do. Yeah. Yeah.
-Sometimes someone's like, oh, I
+Jessica: Sometimes I do. Yeah. Yeah.
+Sometimes, someone's like, "Oh, I
 
 991
 00:43:27,568 --> 00:43:31,259
 tried this example from your
-article. It's not working. And
+article. It's not working." And
 
 992
-00:43:31,259 --> 00:43:32,308
-I'm like, oh, could you write
-the code? It's sometimes it's
-
-993
-00:43:32,308 --> 00:43:33,357
-hard.
+00:43:31,259 --> 00:43:32,800
+I'm like, "Oh, could you write
+the code?" It's-- sometimes it's
 
 994
-00:43:33,358 --> 00:43:36,329
-Cause like Twitter and stuff,
-it's not really good for writing
+00:43:33,800 --> 00:43:35,000
+hard. Cuz [unintelligible] like
+Twitter and stuff, it's not
 
 995
-00:43:36,329 --> 00:43:37,319
-code, but I'm like, I don't
-know, just try your best or take
+00:43:35,000 --> 00:43:37,319
+really good for writing code.
+But I'm, like, I don't know,
 
 996
-00:43:37,319 --> 00:43:38,309
-a
+00:43:37,319 --> 00:43:39,800
+"Just try your best or take a
+picture or something." And then
 
 997
-00:43:38,309 --> 00:43:41,429
-picture or something. then I'll
-say, oh, you have this syntax
+00:43:39,800 --> 00:43:41,429
+I'll say, "Oh, you have this
+syntax
 
 998
 00:43:41,429 --> 00:43:43,739
 error right here. If you clean
-that up, that you should be good
+that up, then you should be good
 
 999
 00:43:43,739 --> 00:43:47,829
-to go. It's a. Sometimes just
-kind of, or actually this
+to go." It-- it's a-- sometimes,
+just kind of-- or actually this
 
 1000
 00:43:47,829 --> 00:43:50,679
-just happened to, with, the
+just happened to-- with the
 NodeMailer article where they're
 
 1001
 00:43:50,679 --> 00:43:53,588
-like, oh, could you put this up
-on, GitHub repos so we could
+like, "Oh, could you put this up
+on a GitHub repo so we could
 
 1002
 00:43:53,588 --> 00:43:55,688
-study it? And I was like, oh
-yeah, I should totally do that.
+study it?" And I was like, "Oh,
+yeah. I should totally do that."
 
 1003
 00:43:55,688 --> 00:43:57,773
-Cause I had just posted the
-final code in the article. and
+Cuz I had just posted the
+final code in the article. And
 
 1004
 00:43:57,773 --> 00:43:59,858
@@ -4711,99 +4615,96 @@ without
 
 1005
 00:43:59,858 --> 00:44:03,548
-thinking, like people would want
-to study it and, you know,
+thinking, like, people would
+want to study it, and, you know,
 
 1006
 00:44:03,548 --> 00:44:06,068
-fork it and all this fun stuff.
-I was like, oh yeah, we should
+fork it, and all this fun stuff.
+I was like, "Oh, yeah. We should
 
 1007
 00:44:06,068 --> 00:44:10,088
-probably do that. So I created a
-GitHub repository and then,
+probably do that." So I created
+a GitHub repository, and- and
 
 1008
 00:44:10,119 --> 00:44:11,768
-just shared it with them. But
-sometimes I'll kind of
+then, just shared it with them.
+But sometimes, I'll kind of
 
 1009
 00:44:11,768 --> 00:44:14,018
 troubleshoot with them as best
-as possible. but sometimes
+as possible. But sometimes,
 
 1010
-00:44:14,018 --> 00:44:16,268
-their questions are vague.
+00:44:14,018 --> 00:44:17,300
+they've-- their questions are
+vague. I'm like, "I'm not really
 
 1011
-00:44:16,298 --> 00:44:19,719
-I'm like, I'm not really sure
-what you're working with unless
+00:44:17,300 --> 00:44:20,000
+sure what you're working with
+[chuckles], unless we, like,
 
 1012
-00:44:19,719 --> 00:44:22,838
-we like together on some sort of
-zoom meet, but I don't know how
+00:44:20,000 --> 00:44:22,500
+get together on some sort of
+Zoom meet, but I don't know,
 
 1013
-00:44:23,079 --> 00:44:24,369
-feasible that is, but
+00:44:22,500 --> 00:44:24,369
+like, how feasible that is.
+But-- yeah.
 
 1014
 00:44:26,273 --> 00:44:27,833
-Bekah: yeah. that doesn't scale.
-Well, I think.
+Bekah: Yeah, that doesn't scale
+well, I think [chuckles].
 
 1015
 00:44:30,639 --> 00:44:33,518
-Dan: What about, so you
-mentioned like code stuff like
+Dan: What about-- so you
+mentioned, like, code examples and stuff like
 
 1016
 00:44:33,518 --> 00:44:38,409
-that. kind of, I dunno process,
-or I guess I'm looking
+that. What- what kind of-- I
+don't know, process or-- I guess I'm looking
 
 1017
 00:44:38,409 --> 00:44:43,313
-for advice generally. if, you if
-if your, article Involves a
+for advice generally. But, like, if-- you know, if you-- if your article involves a
 
 1018
-00:44:43,313 --> 00:44:45,473
-lot of code and stuff like that.
-Do you try to, like break things
-
-1019
-00:44:45,473 --> 00:44:47,633
-up
+00:44:43,313 --> 00:44:47,633
+lot of code and stuff like that,
+do you try to, like, break things up
 
 1020
 00:44:47,634 --> 00:44:49,419
-into little bits or make a link
-to a repository Like, you know,
+into little bits or- or make a
+link to a repository, like-- you
 
 1021
 00:44:49,419 --> 00:44:51,204
-like you
+know, like you
 
 1022
 00:44:51,204 --> 00:44:53,574
-mentioned, what, what kind of,
-of approaches do you take
+mentioned? What- what kind of--
+what kind of approaches do you take
 
 1023
 00:44:53,574 --> 00:44:56,213
-with, w with technical articles
-and with examples
+with- w-wi- with technical
+articles and with code examples?
 
 1024
 00:44:56,994 --> 00:44:58,568
-Jessica: Yeah. So for some of
-the examples they're really
+Jessica: Yeah. Yeah. So for some
+of the examples, they're really
 
 1025
 00:44:58,568 --> 00:45:00,142
@@ -4811,124 +4712,112 @@ small,
 
 1026
 00:45:00,143 --> 00:45:04,494
-like I just wrote one about,
+like, I just wrote one about
 JavaScript contains or includes
 
 1027
 00:45:04,494 --> 00:45:07,704
-method. and so those were like
-really, really small,
+method. And so those were, like,
+really, really small
 
 1028
-00:45:07,824 --> 00:45:09,443
+00:45:07,824 --> 00:45:11,062
 code examples in there. But then
-one of my other articles
-
-1029
-00:45:09,443 --> 00:45:11,062
-was
+one of my other articles was
 
 1030
-00:45:11,063 --> 00:45:13,568
-on the MVC pattern. And so I
+00:45:11,063 --> 00:45:15,500
+of the MVC pattern. And so I
 kind of had to struggle with how
 
-1031
-00:45:13,568 --> 00:45:16,073
-much
-
 1032
-00:45:16,074 --> 00:45:18,864
-code am I going to include in
-this? Cause I built an app
+00:45:15,500 --> 00:45:18,864
+much code am I gonna include in
+this? Cuz I built an app
 
 1033
 00:45:18,864 --> 00:45:22,518
 specifically to talk about that
-pattern. But I thought, okay, is
+pattern. But I thought, "Okay.
 
 1034
 00:45:22,518 --> 00:45:25,969
-this going to be a full
-walkthrough tutorial, or am I
+Is this gonna be a full
+walkthrough tutorial or am I
 
 1035
 00:45:25,969 --> 00:45:29,449
-just going to give out chunks of
-it? So it ended up working where
+just gonna give out chunks of
+it?" So it ended up working where
 
 1036
 00:45:29,449 --> 00:45:33,384
-I said, okay, it's fine. If they
-don't. Work with that particular
+I said, "Okay. It's fine if they
+don't work with that particular
 
 1037
 00:45:33,384 --> 00:45:35,543
-stack that I was working with
-and I was working with the MERN
+stack that I was working with."
+And I was working with the MERN
 
 1038
 00:45:35,543 --> 00:45:38,664
-stack, but if I could just talk
+stack. But if I could just talk
 about the concepts and just have
 
 1039
-00:45:38,664 --> 00:45:40,268
+00:45:38,664 --> 00:45:41,872
 a few snippets of code and say,
-this is what this code does.
-
-1040
-00:45:40,268 --> 00:45:41,872
-Even
+"This is what this code does."
 
 1041
 00:45:41,873 --> 00:45:44,994
-if you're not a JavaScript
-developer, at least they can,
+Even if you're not a JavaScript
+developer, at least they can--
 
 1042
 00:45:45,023 --> 00:45:48,384
-there's some context. And I had
-the final, project there that
+there's some context, and I had
+the final project there that
 
 1043
 00:45:48,384 --> 00:45:51,503
-they could look at and say, oh,
-okay, that's what she's doing
+they could look at and say, "Oh,
+okay. That's what she's doing
 
 1044
 00:45:51,503 --> 00:45:54,173
-here. And so sometimes you'll
-you just want to have like these
+here." And so, sometimes, you'll--
+you just wanna have, like, these
 
 1045
 00:45:54,173 --> 00:45:56,364
-small little code examples
-sometimes it's totally fine to
+small little code examples,
+sometimes, it's totally fine to
 
 1046
 00:45:56,364 --> 00:45:58,669
 just link to a repository if
-it's super super long. cause
+it's super, super long. Cuz
 
 1047
 00:45:58,669 --> 00:46:00,974
-then
+then,
 
 1048
 00:46:01,034 --> 00:46:04,034
 there's that battle between
-length and it's like, how much
+length and it's, like, how much
 
 1049
 00:46:04,034 --> 00:46:08,173
-are people really gonna read? If
-it's super, super long, there's
+are people really gonna read [chuckles] if
+it's super, super long? There's
 
 1050
 00:46:08,173 --> 00:46:09,718
-not too many, really long
-articles on FreeCodeCamp.
+not too many really long
+articles on freeCodeCamp.
 
 1051
 00:46:09,718 --> 00:46:11,263
@@ -4936,21 +4825,21 @@ There's
 
 1052
 00:46:11,264 --> 00:46:14,474
-a few that are like at 7,000
+a few that are, like, at 7,000
 plus words. I personally haven't
 
 1053
-00:46:14,474 --> 00:46:17,331
-written any of those. but I
-think my longest is 20 I think
+00:46:14,474 --> 00:46:18,000
+written any of those. Bu- but I
+think, my longest was, like,
 
 1054
-00:46:17,331 --> 00:46:20,188
-my
+00:46:18,000 --> 00:46:20,188
+twenty-- oh, no. I think my
 
 1055
 00:46:20,188 --> 00:46:21,838
-longest was 3000, but that ended
+longest was 3000. But that ended
 up just listing off all the
 
 1056
@@ -4958,181 +4847,175 @@ up just listing off all the
 types
 
 1057
-00:46:23,489 --> 00:46:25,784
-of like free courses you could
-take. but, yeah, I try to
-
-1058
-00:46:25,784 --> 00:46:28,079
-hit
+00:46:23,489 --> 00:46:28,079
+of, like, free courses you could
+take. But-- yeah. I try to hit
 
 1059
 00:46:28,079 --> 00:46:32,789
-that magic mark of like 1500, a
-thousand words or less. I mean,
+that magic mark of, like, fifteen hundred, a thousand words, or less. I mean,
 
 1060
 00:46:32,789 --> 00:46:35,009
-if there's only so much, you
+if-- there's only so much, you
 could write about some of these
 
 1061
 00:46:35,009 --> 00:46:38,849
-methods where it's like, I can't
-write 1500 words on the includes
+methods where it's, like, I
+don't-- I can't write fifteen hundred words on the includes
 
 1062
 00:46:38,849 --> 00:46:41,248
-method for JavaScript. There's
-only so much you could do there
+method for JavaScript. They--
+there's only so much you could
 
 1063
 00:46:42,208 --> 00:46:42,449
-that.
+do there [chuckles]. Yeah.
 
 1064
-00:46:43,403 --> 00:46:44,115
-Dan: Oh, that's a good note. I
-mean, and that's also an
-
-1065
-00:46:44,115 --> 00:46:44,827
-interesting
-
-1066
-00:46:44,828 --> 00:46:46,253
-thing
+00:46:43,403 --> 00:46:45,000
+Dan: Oh, that's a good note. And
+I mean, it-- and that's also an-
 
 1067
-00:46:46,253 --> 00:46:52,539
-to like of, you know, writing,
-do you. If you could feel
+00:46:45,000 --> 00:46:48,500
+an interesting thing to, like,
+keep track of, you know, when-
 
 1068
-00:46:52,539 --> 00:46:55,329
-yourself getting like too long,
-you know, it, do you try to cut
+00:46:48,500 --> 00:46:53,000
+when you're writing. Do you-- if
+you could feel yourself getting,
+
+1068
+00:46:53,000 --> 00:46:55,329
+like, too long, you know,
+would it-- do you try to cut
 
 1069
-00:46:55,329 --> 00:46:57,309
-down or do you about splitting
-it up, but, you I suppose it
-
-1070
-00:46:57,309 --> 00:46:59,289
-depends
+00:46:55,329 --> 00:46:58,000
+down or do you think about
+splitting it up but, you know,
 
 1071
-00:46:59,289 --> 00:47:03,668
-on what platform you're on or
-Code Camp or not, or, you know,
+00:46:58,000 --> 00:47:00,800
+I- I suppose it's depends on,
+you know, what platform you're
 
 1072
-00:47:03,668 --> 00:47:05,268
-but generally
+00:47:00,800 --> 00:47:01,800
+on or whatever [chuckles]-
+
+1073
+00:47:01,500 --> 00:47:01,800
+Jessica: Yeah.
+
+1074
+00:47:02,000 --> 00:47:03,800 
+Dan: -free ride-- freeCodeCamp
+or- or not, or-- you know? But-
+
+1072
+00:47:03,700 --> 00:47:04,000
+Jessica: Right.
+
+1074
+00:47:03,800 --> 00:47:05,268
+Dan: -I just-- ge- generally-
 
 1073
 00:47:05,548 --> 00:47:05,728
-Jessica: right. Cause
+Jessica: Right. Cuz I'm part-
 
 1074
 00:47:05,798 --> 00:47:06,159
-Dan: you know,
+Dan: -you know?
 
 1075
-00:47:06,344 --> 00:47:08,953
-Jessica: I just joined dev.to,
-week ago and, or I think I
+00:47:06,344 --> 00:47:10,000
+Jessica: of-- I just joined
+dev.to, like, a week ago
 
 1076
-00:47:08,953 --> 00:47:11,562
-joined
+00:47:10,000 --> 00:47:12,000
+[laughs]. And-- or I think I
+joined a while ago
 
 1077
-00:47:11,563 --> 00:47:16,184
-a while for Nick's VS Code tips,
-and then just hadn't used it for
+00:47:12,000 --> 00:47:16,184
+for Nick's VS Code tips, and
+then just hadn't used it in--
 
 1078
 00:47:16,184 --> 00:47:19,643
-awhile then, like rejoined, I
-guess. and for the NodeMailer
+for awhile then, like, rejoined,
+I guess. And for the NodeMailer
 
 1079
 00:47:19,664 --> 00:47:22,833
-article, I was like, oh, Well, I
+article, I was like, "Okay. Well, I
 have these ideas about how to
 
 1080
-00:47:22,833 --> 00:47:24,888
-style the emails and how to,
-actually, you know, deploy
-
-1081
-00:47:24,888 --> 00:47:26,943
-it
+00:47:22,833 --> 00:47:26,943
+style the emails and how to
+actually, you know, deploy it
 
 1082
-00:47:26,943 --> 00:47:28,068
+00:47:26,943 --> 00:47:29,193
 to Heroku. But maybe we could
-just break that up. That could
-
-1083
-00:47:28,068 --> 00:47:29,193
-be
+just break that up, that could
 
 1084
-00:47:29,193 --> 00:47:30,933
-a separate article. And I like
-how in DEV.to, you can link
-
-1085
-00:47:30,933 --> 00:47:32,673
-to
+00:47:29,193 --> 00:47:32,673
+be a separate article." And I
+like how in dev.to you can link
 
 1086
 00:47:32,673 --> 00:47:35,014
-like, create your own little
-series and it will link all the
+to, like, create your own little
+series, and it will link all the
 
 1087
 00:47:35,014 --> 00:47:38,224
-articles together. so sometimes
+articles together. So sometimes
 when you're writing something,
 
 1088
 00:47:38,224 --> 00:47:41,284
-you're like, huh, I have these
-other ideas. Maybe it could be
+you're like, "Huh, I have these
+other ideas. Maybe it could be,
 
 1089
 00:47:41,284 --> 00:47:42,889
 like, this is part one. And then
-this is part two and stick
+this is part two, and stick
 
 1090
 00:47:42,889 --> 00:47:44,494
-around
+around for
 
 1091
 00:47:44,494 --> 00:47:47,253
-for part three or something.
+part three," or something. I
 think that's totally fine. Just
 
 1092
 00:47:47,253 --> 00:47:50,164
 so it doesn't become this
-monster article. It's like, ah,
+monster article. It's like, "Ah, I don't know if
 
 1093
 00:47:50,699 --> 00:47:54,349
-Everybody. It's the same thing
-with videos. I think some of the
+everybody ..." [Chuckles] It's
+the same thing with videos, I think. Some of the
 
 1094
 00:47:54,349 --> 00:47:58,099
-videos are super long on some of
-these channels
+videos are super long [chuckles]
+on some of these- these channels-
 
 1095
 00:47:58,224 --> 00:47:58,344
@@ -5140,18 +5023,18 @@ Dan: Yeah.
 
 1096
 00:47:58,759 --> 00:48:00,438
-Jessica: where like, if
-somebody's going to sit through
+Jessica: -and I'm like, "If
+somebody's gonna sit through
 
 1097
-00:48:00,438 --> 00:48:03,679
-17 hours or is that one of those
-things where you just got to
+00:48:00,438 --> 00:48:03,000
+17 hours [laughs] or is that one
+of those things where you just
 
 1098
-00:48:03,679 --> 00:48:08,119
-break it up into smaller bite
-size videos. but I guess
+00:48:03,000 --> 00:48:08,119
+got to break it up into smaller
+bite size videos?" But I guess,
 
 1099
 00:48:08,119 --> 00:48:10,518
@@ -5166,11 +5049,11 @@ hour video or, you know, 7,000.
 1101
 00:48:15,318 --> 00:48:17,594
 Bekah: My husband used to
-livestream for FreeCodeCamp. And
+livestream for freeCodeCamp. And
 
 1102
 00:48:17,903 --> 00:48:21,673
-sometimes he would do it for
+sometimes, he would do it for
 hours and people would stay the
 
 1103
@@ -5178,51 +5061,59 @@ hours and people would stay the
 whole time.
 
 1104
-00:48:22,273 --> 00:48:24,748
-Jessica: Oh, yeah. Yeah. There's
-some like, yeah. I'm just like,
+00:48:22,273 --> 00:48:22,800
+Jessica: Oh, yeah. Yeah.
 
 1105
-00:48:24,869 --> 00:48:26,099
-wow, how
+00:48:23,000 --> 00:48:23,500
+Bekah: And I'm like--
+
+1106
+00:48:23,200 --> 00:48:26,099
+Jessica: There's some, like--
+yeah. I'm just like, "Wow. How?"
+
+1107
+00:48:26,099 --> 00:48:26,159
+[Laughs]
 
 1106
 00:48:26,159 --> 00:48:30,028
 Bekah: I just live stream for an
-hour for the first time ever,
+hour for the first-time ever,
 
 1107
 00:48:30,028 --> 00:48:35,998
-probably by myself. I was tired
-of hearing myself talk, like, I
+probably, by myself. And I was tired
+of hearing myself talk, like, [laughs] I
 
 1108
 00:48:35,998 --> 00:48:38,159
 can't imagine how everybody else
-was feeling. You know
+was feeling, you know?
 
 1109
 00:48:38,219 --> 00:48:38,789
-Jessica: right.
+Jessica: Right.
 
 1110
-00:48:39,028 --> 00:48:41,613
-Bekah: my attention span starts
-to die. And then I, then I start
+00:48:39,028 --> 00:48:43,500
+Bekah: My attention span starts
+to die. And then I-- then I
 
 1111
-00:48:41,613 --> 00:48:44,198
-YOLOing
+00:48:43,500 --> 00:48:44,500
+start YOLO-ing things
 
 1112
-00:48:44,248 --> 00:48:47,849
-things and it's, it's not, not
-the place I want to be
+00:48:44,500 --> 00:48:47,849
+and it's- it's not- not- not
+the place I wanna be [chuckles].
 
 1113
 00:48:48,179 --> 00:48:50,384
 Jessica: Right. Right. You know,
-actually that reminds me, Danny
+actually, that reminds me, Danny
 
 1114
 00:48:50,384 --> 00:48:52,169
@@ -5236,36 +5127,36 @@ spaces,
 1116
 00:48:53,983 --> 00:48:57,134
 but they're really good. So
-that's why he kind of is able to
+that's why he kinda-- is able to
 
 1117
-00:48:57,134 --> 00:48:59,011
-get away with it because for
-most people. They would kind of
+00:48:57,134 --> 00:49:00,200
+get away with it because, like,
+for most people, they would
 
 1118
-00:48:59,011 --> 00:49:00,888
-die
+00:49:00,200 --> 00:49:00,888
+kinda die off
 
 1119
 00:49:00,889 --> 00:49:05,389
-off after like at 45 minutes or
-an hour, sometimes he'll go for
+after, like, at 45 minutes or
+an hour, sometimes he's-- he'll go for,
 
 1120
 00:49:05,389 --> 00:49:08,148
-like three hours or longer. And
-then there's still like hundreds
+like, three hours or longer. And
+then there's still, like, hundreds
 
 1121
 00:49:08,148 --> 00:49:12,079
-of people and I'm just like,
-wow, that's kudos to him there.
+of people there [laughs]. And I'm just like,
+"Wow, that's kudos to him there."
 
 1122
 00:49:14,429 --> 00:49:15,659
 Bekah: I feel like you need
-voice training for some or
+voice training for some-- or
 
 1123
 00:49:15,659 --> 00:49:16,889
@@ -5273,73 +5164,65 @@ something,
 
 1124
 00:49:16,918 --> 00:49:19,378
-you know, like even talking,
-even when I used to teach night
+you know? Like, even talking.
+Even when I used to teach night
 
 1125
 00:49:19,378 --> 00:49:24,208
-classes, like three hours of
-having conversation and by the
+classes, like, three hours of
+having conversation, and by the
 
 1126
-00:49:24,208 --> 00:49:27,266
-end, My throat hurts, you know,
-and like I am done, I, I did
+00:49:24,208 --> 00:49:29,700
+end, just-- my throat hurts, you
+know? And like, "I am done. I-
 
 1127
-00:49:27,266 --> 00:49:30,324
-know
+00:49:29,700 --> 00:49:30,324
+I did know
 
 1128
-00:49:30,324 --> 00:49:33,048
+00:49:30,324 --> 00:49:35,772
 a teacher who was taking voice
-classes for that reason, because
-
-1129
-00:49:33,048 --> 00:49:35,772
-they
+classes for that reason. Because
 
 1130
 00:49:35,784 --> 00:49:38,213
-were saying, it's, it's how
-you're using your voice and you
+they were saying, "It's- it's how
+you're using your voice, and you
 
 1131
-00:49:38,213 --> 00:49:39,503
+00:49:38,213 --> 00:49:40,793
 have to do it in this different
-way. And then you'll be fine.
-
-1132
-00:49:39,503 --> 00:49:40,793
-And
+way, and then, you'll be fine.
 
 1133
-00:49:40,793 --> 00:49:47,949
-exercise your muscle. Like, ah,
-I know that's a lot. I mean, I
+00:49:40,793 --> 00:49:44,800
+And exercise your muscle." Like
+... ugh. I dunno. That's--
+
+1134
+00:49:44,800 --> 00:49:47,949
+that's a lot. I mean, I
 
 1134
 00:49:47,949 --> 00:49:50,619
 think it's the same thing for
-writing too. It's it's a muscle
+writing too. It's- it's a muscle
 
 1135
 00:49:50,619 --> 00:49:53,679
 that you have to exercise. So I
-imagine, I mean, you're writing
+imagine-- I mean, you're writing
 
 1136
-00:49:53,679 --> 00:49:55,598
+00:49:53,679 --> 00:49:57,517
 on a lot of new topics all the
 time and learning things, but
 
-1137
-00:49:55,598 --> 00:49:57,517
-has
-
 1138
 00:49:57,518 --> 00:49:59,498
-the writing process gotten
+has the writing process gotten
 easier?
 
 1139
@@ -5348,13 +5231,9 @@ Jessica: Yeah. Yeah. I now have
 more of like a game plan on how
 
 1140
-00:50:03,543 --> 00:50:05,058
-I'm going to enter into an
-article. And so I usually like
-
-1141
-00:50:05,058 --> 00:50:06,573
-to
+00:50:03,543 --> 00:50:06,573
+I'm gonna enter into an article.
+And so I usually like to
 
 1142
 00:50:06,574 --> 00:50:09,213
@@ -5363,18 +5242,18 @@ introductory paragraph, knowing
 
 1143
 00:50:09,213 --> 00:50:11,914
-I'm probably going to edit it
+I'm probably gonna edit it
 later on, but I just throw
 
 1144
 00:50:11,914 --> 00:50:15,003
-something up and then I get into
+something up. And then I get into
 the meat of the article and kind
 
 1145
 00:50:15,003 --> 00:50:19,023
-of flesh it out. and then once I
-clean up the actual main
+of flesh it out. And then, once
+I clean up the actual main
 
 1146
 00:50:19,023 --> 00:50:21,994
@@ -5384,7 +5263,7 @@ come up with a really good
 1147
 00:50:22,023 --> 00:50:25,384
 introductory paragraph and a
-conclusion there I try to focus
+conclusion there. I try to focus
 
 1148
 00:50:25,384 --> 00:50:29,824
@@ -5392,27 +5271,24 @@ all my intention, you know, just
 writing the main parts. And
 
 1149
-00:50:29,824 --> 00:50:33,139
-sometimes I just do like a free
-write. Throw words on the page
+00:50:29,824 --> 00:50:32,000
+sometimes, I just do like a free
+write where I'll just throw
 
 1150
-00:50:33,139 --> 00:50:35,089
-and of them make it some of
-them, I cut out sections. I'm
+00:50:32,000 --> 00:50:35,700
+words on the page and some of
+them make it, some of them,
 
 1151
-00:50:35,089 --> 00:50:37,039
-like, I
+00:50:35,700 --> 00:50:37,800
+yeah, I cut out sections. And
+I'm like, "I don't know what
 
 1152
-00:50:37,039 --> 00:50:38,748
-don't know what this was. I
-mean, that just happened with
-
-1153
-00:50:38,748 --> 00:50:40,457
-the
+00:50:37,800 --> 00:50:40,457
+this was [laughs]." I mean, that
+just happened with an
 
 1154
 00:50:40,458 --> 00:50:42,168
@@ -5425,36 +5301,36 @@ some
 
 1156
 00:50:43,878 --> 00:50:47,208
-of those sections of like, why
-this doesn't make any sense. I
+of those sections I'm like, "Why
+this doesn't make any sense? I
 
 1157
-00:50:47,208 --> 00:50:48,948
-don't know why this, I thought
-this was relevant, but I was
+00:50:47,208 --> 00:50:50,000
+don't know why this-- [laughs] I
+thought this was relevant." But
 
 1158
-00:50:48,948 --> 00:50:50,688
-just
+00:50:50,000 --> 00:50:50,688
+I was just
 
 1159
 00:50:50,688 --> 00:50:53,028
 throwing words on the page. I'm
-like, oh, I should talk about
+like, "Oh, I should talk about
 
 1160
-00:50:53,028 --> 00:50:54,950
-this. And then I read it back.
-No, I shouldn't have talked
+00:50:53,028 --> 00:50:56,300
+this." And then I read it back.
+I'm like, "No, I shouldn't have
 
 1161
-00:50:54,950 --> 00:50:56,872
-about
+00:50:56,300 --> 00:50:57,000
+talked about that."
 
 1162
-00:50:56,873 --> 00:50:59,784
-that, but that's an easier? for
-us to kind of cut things out
+00:50:57,000 --> 00:50:59,784
+But that-- that's an easier 
+for us to kinda cut things out
 
 1163
 00:50:59,784 --> 00:51:02,844
@@ -5463,34 +5339,32 @@ into something acceptable that I
 
 1164
 00:51:02,844 --> 00:51:04,268
-could send to the editor. and
+could send to the editor. And
 she doesn't have to look at it
 
 1165
-00:51:04,268 --> 00:51:05,692
-and
-
-1166
-00:51:05,693 --> 00:51:06,773
-go, what is this?
+00:51:05,000 --> 00:51:06,773
+and go, "What is this?" You
+know? [Chuckles]
 
 1167
-00:51:08,463 --> 00:51:09,663
+00:51:08,463 --> 00:51:10,300
 Dan: There's one of the benefits
-of the writing medium, right? Is
+of the writing medium, right?
 
 1168
-00:51:09,663 --> 00:51:10,863
-do you
+00:51:10,300 --> 00:51:10,863
+Is the-- that you have
 
 1169
-00:51:10,864 --> 00:51:14,733
-have the, it easier to go back
-and things out that don't make
+00:51:10,864 --> 00:51:14,000
+the-- it's easier to go back
+and [chuckles]- and take things
 
 1170
-00:51:14,733 --> 00:51:14,974
-sense,
+00:51:14,000 --> 00:51:14,974
+out that don't make sense, you
+know? Like-
 
 1171
 00:51:15,364 --> 00:51:16,324
@@ -5498,43 +5372,44 @@ Jessica: Exactly. Yeah.
 
 1172
 00:51:16,384 --> 00:51:18,439
-Dan: as opposed to maybe a live
-streamer, something things to
+Dan: -as opposed to maybe a live
+streamer, something like that.
 
 1173
-00:51:18,439 --> 00:51:20,494
-get
-
-1174
-00:51:20,494 --> 00:51:20,914
-out there?
+00:51:18,439 --> 00:51:20,914
+The things just get out there.
 
 1175
-00:51:20,983 --> 00:51:23,143
-Bekah: the expectation of live
-streaming, so
+00:51:20,983 --> 00:51:21,800
+Bekah: Well I think-- I mean,
+like, that's the expectation of-
+
+1176
+00:51:21,800 --> 00:51:24,200
+of live streaming. So, it's like
+the- 
 
 1176
 00:51:23,474 --> 00:51:23,914
-Dan: no, for sure.
+Dan: No, for sure.
 
 1177
-00:51:24,974 --> 00:51:29,300
-Bekah: acceptable thing. I can't
-remember what I was to say. Oh,
+00:51:24,974 --> 00:51:31,000
+Bekah: -built-in acceptable
+thing. [Silence] Oh, I can't
 
 1178
-00:51:29,300 --> 00:51:33,626
-I
+00:51:31,000 --> 00:51:33,626
+remember what's to say. Oh, I
 
 1179
-00:51:33,626 --> 00:51:36,539
-know what I was gonna say. Rough
-drafts are so important.
+00:51:33,626 --> 00:51:38,500
+know what I was gonna say 
+[chuckles]. Rough drafts are so
 
 1180
-00:51:36,539 --> 00:51:39,452
-I,
+00:51:38,500 --> 00:51:39,452
+important. I--
 
 1181
 00:51:39,452 --> 00:51:41,641
@@ -5543,26 +5418,26 @@ to point out that there's a
 
 1182
 00:51:41,641 --> 00:51:43,830
-process
+process,
 
 1183
 00:51:43,862 --> 00:51:46,081
 that you get better at that
-process. And you have a rough
+process, and you have a rough
 
 1184
 00:51:46,081 --> 00:51:50,132
-draft. No, nobody puts out a
+draft. No-- nobody puts out a
 perfect rough draft, a perfect
 
 1185
 00:51:50,132 --> 00:51:54,141
-draft. The first time it is a
+draft, the first time. It is a
 process and it does take time.
 
 1186
 00:51:55,097 --> 00:51:57,151
-But You know, just listening to
+But, you know, just listening to
 you talk about tech, Jessica,
 
 1187
@@ -5572,7 +5447,7 @@ you
 1188
 00:51:59,237 --> 00:52:04,967
 communicate it so well that it's
-really, I feel like I learned a
+really-- I feel like I learned a
 
 1189
 00:52:04,967 --> 00:52:08,757
@@ -5582,30 +5457,26 @@ these things. And so you can
 1190
 00:52:08,757 --> 00:52:12,286
 really appreciate that process
-of learning and then, and how it
+of learning and then-- and how
 
 1191
 00:52:12,286 --> 00:52:16,916
-impacts the way that you talk
-about things. And I imagine it,
+it impacts the way that- that you talk
+about things. And I imagine it--
 
 1192
 00:52:16,936 --> 00:52:18,991
-that goes into interviewing and
-stuff like that. Because if you
+that goes into interviewing and-
+and stuff like that. Because if
 
 1193
 00:52:18,991 --> 00:52:21,046
-talk
+you talk
 
 1194
-00:52:21,047 --> 00:52:22,797
+00:52:21,047 --> 00:52:24,547
 with credibility, then people
-are more likely to. see you
-
-1195
-00:52:22,797 --> 00:52:24,547
-as a
+are more likely to see you as a
 
 1196
 00:52:24,547 --> 00:52:25,536
@@ -5613,60 +5484,56 @@ credible person.
 
 1197
 00:52:26,356 --> 00:52:29,297
-Jessica: Yeah, Yeah. And that's
-the thing is that want to come
+Jessica: Yeah. Yeah. And that's
+the thing is that y-you wanna come
 
 1198
 00:52:29,297 --> 00:52:31,187
-across as, how can I add value
-to the company or organization
+across as how can I add value
+to the company or organization.
 
 1199
 00:52:31,187 --> 00:52:33,077
-if
+If
 
 1200
 00:52:33,077 --> 00:52:36,166
-you come across as I just really
-need a job? Well, the company's
+you come across as, "I just really
+need a job." Well, the company's
 
 1201
 00:52:36,166 --> 00:52:37,546
 not really hiring you because
-you need a job. Like they're
+you need a job. Like, they're
 
 1202
 00:52:37,546 --> 00:52:38,926
 hiring
 
 1203
-00:52:38,927 --> 00:52:40,727
+00:52:38,927 --> 00:52:42,527
 you because they need people to
 join their team and add value.
 
-1204
-00:52:40,727 --> 00:52:42,527
-if
-
 1205
 00:52:42,527 --> 00:52:45,376
-you come in and say, here's how
-I can add value to you, then
+And so, if you come in and say, "Here's
+how I can add value to you," then
 
 1206
 00:52:45,376 --> 00:52:48,347
-they'll listen. And I think
+they'll listen. And- and so I- I think,
 that's just coming in with a
 
 1207
 00:52:48,347 --> 00:52:51,291
-little bit of confidence. Will
+little bit of confidence will
 go a long way there.
 
 1208
 00:52:53,206 --> 00:52:55,111
 Bekah: Yeah, absolutely. So
-we're at about time here, but
+we're at about time here. But
 
 1209
 00:52:55,111 --> 00:52:57,016
@@ -5675,35 +5542,31 @@ are there
 1210
 00:52:57,016 --> 00:53:02,297
 any last tips that you have for
-our listeners about getting,
+our listeners about get this--
 
 1211
 00:53:02,297 --> 00:53:04,007
-started with writing?
+getting started with writing?
 
 1212
 00:53:04,967 --> 00:53:09,737
 Jessica: I think just the best
-tip is just, get started. I
+tip is just- just get started
 
 1213
 00:53:09,737 --> 00:53:12,106
-think a lot of people
-procrastinate because they're
+[laughs]. I think a lot of people
+procrastinate because they're,
 
 1214
-00:53:12,106 --> 00:53:13,006
+00:53:12,106 --> 00:53:13,906
 like, I don't know what to write
-about. I don't know what to do.
-
-1215
-00:53:13,006 --> 00:53:13,906
-I
+about, I don't know what to do,
 
 1216
 00:53:13,907 --> 00:53:17,416
-don't know how to get started.
-get started and just start
+I don't know how to get started.
+Just- just get started. And- and just start
 
 1217
 00:53:17,416 --> 00:53:19,936
@@ -5711,23 +5574,19 @@ working from there. And you can
 always ask for feedback within
 
 1218
-00:53:19,936 --> 00:53:21,406
-your community and say, Hey, I'm
+00:53:19,936 --> 00:53:22,876
+your community and say, "Hey, I'm
 writing this article. I dunno
-
-1219
-00:53:21,406 --> 00:53:22,876
-how
 
 1220
 00:53:22,876 --> 00:53:27,496
-it really works it yet, or it
-needs some help, but, don't
+how it really works it- it- it-- yet," or,
+"it needs some help." But don't
 
 1221
 00:53:27,496 --> 00:53:29,353
-wait for the perfect moment. To
-get started writing. to just
+wait for the perfect moment to
+get started writing. To- to
 
 1222
 00:53:29,353 --> 00:53:31,210
@@ -5744,49 +5603,41 @@ creating
 
 1225
 00:53:34,121 --> 00:53:37,961
-an outline, then you can shape
-it and edit it down from there.
+an outline, and then you can shape
+it, and edit it down from there.
 
 1226
-00:53:39,271 --> 00:53:40,246
-Bekah: Awesome. thank you so
+00:53:39,271 --> 00:53:42,000
+Bekah: Awesome. Thank you so
 much for being here with us
 
 1227
-00:53:40,246 --> 00:53:41,221
-today. This
-
-1228
-00:53:41,221 --> 00:53:43,171
-is really great
-
-1229
-00:53:43,257 --> 00:53:43,617
-Dan: Yeah.
+00:53:42,000 --> 00:53:43,652
+today. This is really great
 
 1230
 00:53:43,652 --> 00:53:46,771
-Bekah: to hear you talk about
-this and your journey. You have
+to hear you talk about this. And
+your journey, you have
 
 1231
 00:53:46,771 --> 00:53:49,592
-so many fascinating things, and
-I'm really glad that we got to
+so many fascinating things and
+I'm- I'm really glad that we got
 
 1232
 00:53:49,592 --> 00:53:50,311
-hear them today.
+to hear them today.
 
 1233
 00:53:50,621 --> 00:53:52,181
-Jessica: Yeah. Well, Thank you,
+Jessica: Yeah. Well, thank you
 so much for having me.
 
 1234
 00:53:52,516 --> 00:53:54,617
-Dan: Yeah. Thank you, Jessica. I
-appreciate it.
+Dan: Yeah. Thank you, Jessica.
+We- we really appreciate it.
 
 1235
 00:53:55,411 --> 00:53:56,132
@@ -5822,8 +5673,8 @@ questions or comments, you can
 
 1242
 00:54:12,844 --> 00:54:16,083
-hit us up on Twitter at
-VirtualCoffeeIO or email us at
+hit us up on Twitter
+@VirtualCoffeeIO or email us at
 
 1243
 00:54:16,083 --> 00:54:18,513
@@ -5842,7 +5693,7 @@ our other resources on our
 1246
 00:54:23,284 --> 00:54:25,518
 website at virtualcoffee.io. And
-of course join us for our
+of course, join us for our
 
 1247
 00:54:25,518 --> 00:54:27,752
@@ -5851,22 +5702,18 @@ Virtual
 1248
 00:54:27,753 --> 00:54:30,603
 Coffee Chats every Tuesday at 9
-am Eastern and Thursday at
+AM Eastern and Thursday at
 
 1249
-00:54:30,603 --> 00:54:32,401
-12 pm Eastern Please subscribe
-to our podcast and be
-
-1250
-00:54:32,401 --> 00:54:34,199
-sure to
+00:54:30,603 --> 00:54:34,199
+12 PM Eastern. Please subscribe
+to our podcast and be sure to
 
 1251
 00:54:34,199 --> 00:54:37,260
 leave us a review. Thanks for
-listening and we'll see you next
+listening, and we'll see you
 
 1252
 00:54:37,260 --> 00:54:37,590
-week!
+next week!
