@@ -1,0 +1,3539 @@
+1
+00:00:06,024 --> 00:00:10,044
+Bekah: Hello and welcome to
+season eight,episode three of the
+
+2
+00:00:10,044 --> 00:00:15,028
+Virtual Coffee Podcast.I'm Bekah,
+and this is a podcast that
+
+3
+00:00:15,028 --> 00:00:18,809
+features members of the Virtual
+Coffee community.Virtual Coffee
+
+4
+00:00:18,809 --> 00:00:22,829
+is an intimate group of
+developers at all stages of their
+
+5
+00:00:22,829 --> 00:00:25,949
+journey,and they're here on this
+podcast sharing their stories and
+
+6
+00:00:25,949 --> 00:00:29,998
+what they've learned here with me
+today is my co-host Dan.
+
+7
+00:00:31,879 --> 00:00:34,066
+Dan: What up Bek?Uh,hey,how's it
+going?
+
+8
+00:00:35,176 --> 00:00:36,786
+Bekah: It's going well.How's it
+going with you?
+
+9
+00:00:37,216 --> 00:00:42,975
+Dan: It is going fantastic.Kali f
+fantastically.It's going well.
+
+10
+00:00:43,776 --> 00:00:47,176
+Well,I feel like going fantastic
+is not good,you know,proper
+
+11
+00:00:47,176 --> 00:00:50,536
+grammar,right?Because.It's
+fantastic as an adjective and not
+
+12
+00:00:50,536 --> 00:00:55,006
+an adverb.And so,yeah,but
+fantastically is a weird sounding
+
+13
+00:00:55,006 --> 00:01:02,340
+word,so.Anyway,I'm fantastic.Um,
+anyway,today's episode features
+
+14
+00:01:02,369 --> 00:01:08,250
+Carmen Kolohe and she is a DevOps
+engineer.And,um,we had a really
+
+15
+00:01:08,250 --> 00:01:11,849
+great time,uh,talking with,with
+Carmen.Uh,she had a lot of.Great
+
+16
+00:01:11,849 --> 00:01:15,150
+things to share about her
+process,like how she got into
+
+17
+00:01:15,180 --> 00:01:18,659
+tech and how she got into DevOps
+in particular.And I thought she
+
+18
+00:01:18,659 --> 00:01:24,390
+had a really unique perspective
+on,on making connections and,uh,
+
+19
+00:01:24,390 --> 00:01:28,980
+you know,involving your community
+and your network and furthering
+
+20
+00:01:28,984 --> 00:01:32,489
+your career goals and furthering
+your developer journey.And I
+
+21
+00:01:32,489 --> 00:01:34,540
+dunno,it was,it was cool.It was,
+it was a good conversation.
+
+22
+00:01:35,400 --> 00:01:37,950
+Bekah: Yeah,I appreciated that
+she talked about being an
+
+23
+00:01:37,950 --> 00:01:40,620
+introvert,and I think she's
+mentioned that she might be shy
+
+24
+00:01:40,620 --> 00:01:44,670
+too.And so it was a good example
+of what happens when you take
+
+25
+00:01:44,670 --> 00:01:47,909
+yourself out of your comfort zone
+a little bit and how,uh,
+
+26
+00:01:47,909 --> 00:01:50,909
+impactful that can be on the rest
+of your career.I.
+
+27
+00:01:51,840 --> 00:01:54,810
+Dan: Totally.And not,not just
+taking yourself out of your
+
+28
+00:01:54,810 --> 00:01:59,534
+comfort zone,but ways to do that.
+Um.But feel more comfortable
+
+29
+00:01:59,534 --> 00:02:03,254
+doing it,which is sort of,I don't
+know,uh,a weird thing to say
+
+30
+00:02:03,254 --> 00:02:05,625
+about going out of your comfort
+zone,you know,but,uh,ways,ways to
+
+31
+00:02:05,625 --> 00:02:08,895
+make your,maybe it's just ways to
+expand your comfort zone.I don't,
+
+32
+00:02:08,895 --> 00:02:13,425
+I don't know.Um,but either way,
+uh,we'll let Carmen do the
+
+33
+00:02:13,425 --> 00:02:17,594
+talking for,for us,uh,cuz she did
+a good job explaining it and I am
+
+34
+00:02:17,594 --> 00:02:19,245
+not doing a good job explaining
+it.
+
+35
+00:02:21,509 --> 00:02:23,669
+Bekah: No,it was really great to
+learn from her in this episode
+
+36
+00:02:23,669 --> 00:02:27,360
+and learn a little bit more about
+what DevOps is and to,I think,
+
+37
+00:02:27,365 --> 00:02:30,870
+inspire some people who are in
+the middle of their career
+
+38
+00:02:30,870 --> 00:02:35,001
+journey.we start every episode of
+the podcast,like we start every
+
+39
+00:02:35,001 --> 00:02:37,491
+Virtual Coffee.We introduce
+ourselves with our name,where
+
+40
+00:02:37,491 --> 00:02:41,931
+we're from,what we do,and a
+random check-in question.We hope
+
+41
+00:02:41,936 --> 00:02:53,913
+you enjoy this episode.Today's
+random check-in question is if
+
+42
+00:02:54,182 --> 00:02:57,663
+you could have a superpower that
+only worked while you were
+
+43
+00:02:57,663 --> 00:03:05,117
+sleeping,what would it be?My name
+is Bekah.I am the developer
+
+44
+00:03:05,117 --> 00:03:10,646
+experience lead at Open Sauced
+from a small town in Ohio.And I
+
+45
+00:03:10,646 --> 00:03:15,236
+think like the superpower.Okay,
+so there's two options here.Like
+
+46
+00:03:15,236 --> 00:03:19,887
+the ability to like really engage
+with your dreams and remember
+
+47
+00:03:19,887 --> 00:03:22,616
+them,like those become actual
+worlds.That would be pretty cool.
+
+48
+00:03:23,037 --> 00:03:29,651
+Um,or having my whole house
+cleaned while I'm asleep.So that
+
+49
+00:03:29,651 --> 00:03:33,912
+one's not as cool,but definitely
+practical and I would appreciate
+
+50
+00:03:33,912 --> 00:03:39,491
+that.So I think,I think I'm gonna
+have to go with my house being
+
+51
+00:03:39,491 --> 00:03:41,532
+cleaned when I woke up.
+
+52
+00:03:43,461 --> 00:03:45,651
+Dan: Uh,all right.That's fair.
+You know,that makes me weird.
+
+53
+00:03:45,681 --> 00:03:50,097
+Like,do you remember,um,What is
+that King Arthur Disney movie
+
+54
+00:03:50,097 --> 00:03:54,116
+called,uh,the Sword and the
+Stone?Um,you know,where the,like
+
+55
+00:03:54,627 --> 00:03:57,206
+the wizard,the Merlin starts
+doing the like,you know,but they
+
+56
+00:03:57,206 --> 00:03:59,516
+get out of control after if he
+doesn't pay attention to him.
+
+57
+00:03:59,516 --> 00:04:01,856
+That,that like worries me,you
+know?You know,like,like when a
+
+58
+00:04:01,861 --> 00:04:05,606
+Roomba,I don't know,gets,gets
+into trouble,right?So
+
+59
+00:04:05,681 --> 00:04:07,872
+Bekah: that in King Arthur?Is
+that in Fantasia
+
+60
+00:04:08,456 --> 00:04:11,276
+Dan: No,no,no.It was,well,maybe
+both actually.I'm not sure.I
+
+61
+00:04:11,276 --> 00:04:14,067
+haven't,I watched Sword Stone a
+lot more than I watched Fantasia,
+
+62
+00:04:14,067 --> 00:04:17,531
+so.I'm not gonna say it's not
+advantageous,but I'm thinking
+
+63
+00:04:17,591 --> 00:04:21,641
+specifically of sword and stone.
+But anyway,the like non-conscious
+
+64
+00:04:21,641 --> 00:04:23,982
+control over something that is
+like cleaning things,you know,
+
+65
+00:04:24,312 --> 00:04:26,862
+like could be,it could be
+problematic,but in general that
+
+66
+00:04:26,867 --> 00:04:28,182
+does sound nice.Um,
+
+67
+00:04:28,197 --> 00:04:30,387
+Bekah: my house is pretty messy,
+so I don't think it would get
+
+68
+00:04:30,391 --> 00:04:31,226
+that worse.
+
+69
+00:04:31,586 --> 00:04:38,007
+Dan: Right.Uh,okay.I'm Dan.I do
+development.I live in Ohio and in
+
+70
+00:04:38,007 --> 00:04:42,896
+Cleveland,I suppose.And,um,not,I
+suppose that's where I live and,
+
+71
+00:04:43,276 --> 00:04:48,757
+uh,what I do development,I,I
+think,um,I think I'm gonna go
+
+72
+00:04:48,757 --> 00:04:52,357
+with like Wolverine level,you
+know,regeneration,healing,you
+
+73
+00:04:52,357 --> 00:04:55,987
+know,so you could go to sleep and
+like anything that's like wrong
+
+74
+00:04:55,987 --> 00:04:59,857
+or broken,you know,gets fixed up
+while you're sleeping.Um,that was
+
+75
+00:04:59,857 --> 00:05:02,137
+the first thing that popped in my
+head.And,and I,I haven't thought
+
+76
+00:05:02,137 --> 00:05:04,536
+of anything better,so I'm gonna,
+I'm gonna go with,yeah.
+
+77
+00:05:04,541 --> 00:05:06,786
+Regeneration,you know,healing.
+Healing powers while you're
+
+78
+00:05:06,786 --> 00:05:10,721
+sleeping seems,seems nice.Maybe
+it'd fix up some of my.Just
+
+79
+00:05:10,721 --> 00:05:13,992
+general aches and stuff too,you
+know,I could pop out of bed in
+
+80
+00:05:13,992 --> 00:05:17,502
+the morning,uh,you know,I dunno.
+Uh,so yeah,that's gonna be my
+
+81
+00:05:17,502 --> 00:05:20,141
+answer.And,um,here's our guest.
+Carmen,go ahead.
+
+82
+00:05:21,211 --> 00:05:26,461
+Carmen: Hi.Hi friends.I'm Carmen,
+I'm a DevOps engineer in
+
+83
+00:05:26,461 --> 00:05:34,081
+Portland,Oregon.And,uh,Bekah you
+actually inspired me for,and it's
+
+84
+00:05:34,081 --> 00:05:37,262
+like,uh,have either of you
+watched Rick and Morty?
+
+85
+00:05:38,726 --> 00:05:39,146
+Dan: A little bit.
+
+86
+00:05:39,567 --> 00:05:43,646
+Carmen: Terry.Well,scary Terry is
+like a reference to uh,Freddie
+
+87
+00:05:43,646 --> 00:05:47,906
+Krueger,but it's not like I'm
+gonna like hurt people in dreams.
+
+88
+00:05:47,906 --> 00:05:52,586
+I just wanna be in other people's
+dreams,you know,and like travel
+
+89
+00:05:52,586 --> 00:05:55,857
+through dreams,I guess,and other
+people's dreams type of thing.I
+
+90
+00:05:55,857 --> 00:05:59,966
+think that would be cool cuz my
+sister and I both have very vivid
+
+91
+00:05:59,966 --> 00:06:04,117
+dreams.It'd be cool to actually
+like be in her dream and make my
+
+92
+00:06:04,117 --> 00:06:08,346
+own choices and not,she tells me
+what I did in her dream,you know?
+
+93
+00:06:08,346 --> 00:06:11,197
+And then it's like,I'm sorry that
+I did that,or,you know,I would've
+
+94
+00:06:11,201 --> 00:06:12,726
+done it differently probably.
+
+95
+00:06:14,637 --> 00:06:16,947
+Dan: Uh,yeah,that made me start
+thinking about like,inception,
+
+96
+00:06:16,947 --> 00:06:19,737
+you know,or where they like
+design,design the dreams and are,
+
+97
+00:06:19,737 --> 00:06:23,817
+act actively like,you know,
+acting in them and stuff.Uh,
+
+98
+00:06:24,387 --> 00:06:28,406
+some,you know,some scary
+possibilities though if you're
+
+99
+00:06:28,411 --> 00:06:31,797
+able to go in anybody's dreams,
+you know,uh,like Steeler Secrets
+
+100
+00:06:31,797 --> 00:06:35,187
+or whatever,I suppose.I don't
+know.Um,but I think that'd be
+
+101
+00:06:35,187 --> 00:06:38,367
+cool.Um,Yeah.Especially if you
+could do it with a buddy,you
+
+102
+00:06:38,367 --> 00:06:39,747
+know,be like,Hey,let's meet up.
+
+103
+00:06:40,281 --> 00:06:41,906
+Bekah: Maybe they have to give
+you a password,
+
+104
+00:06:42,146 --> 00:06:42,656
+Dan: Yeah.Oh,
+
+105
+00:06:43,137 --> 00:06:47,007
+Bekah: in the dream that allows
+you to be in their dream.
+
+106
+00:06:47,312 --> 00:06:48,262
+Carmen: Uhhuh Uhhuh.
+
+107
+00:06:48,512 --> 00:06:48,947
+Dan: your handshake.
+
+108
+00:06:49,617 --> 00:06:50,786
+Carmen: Yeah.That's so
+
+109
+00:06:50,987 --> 00:06:51,427
+Dan: I love it.
+
+110
+00:06:52,076 --> 00:06:55,586
+Carmen: I,uh,I had a very vivid
+room this morning and it was,I
+
+111
+00:06:55,586 --> 00:07:00,057
+was taking a test and my phone
+kept going off during the exam,
+
+112
+00:07:00,057 --> 00:07:03,416
+and I kept having to turn it off.
+Come to find out I was actually
+
+113
+00:07:03,422 --> 00:07:07,536
+turning my alarm off on my phone
+that was trying to wake me up,
+
+114
+00:07:08,026 --> 00:07:13,797
+and I turned off four of them.
+Luckily,I set like10of them,so I
+
+115
+00:07:13,797 --> 00:07:16,557
+was like,what a,what?Dreams are
+just crazy.Huh?
+
+116
+00:07:19,271 --> 00:07:22,512
+Dan: funny.Your subconscious is,
+you know,just telling you you
+
+117
+00:07:22,512 --> 00:07:23,562
+need some more sleep,I guess.
+
+118
+00:07:24,117 --> 00:07:26,786
+Carmen: Oh,yeah,and,and that I
+have an exam coming up.
+
+119
+00:07:27,221 --> 00:07:28,362
+Dan: Right,right,right.
+
+120
+00:07:30,086 --> 00:07:32,906
+Bekah: Well,Carmen,we're really
+happy to have you here with us
+
+121
+00:07:32,906 --> 00:07:37,617
+today.Thanks for being here.And
+we always like to get started
+
+122
+00:07:37,617 --> 00:07:42,447
+with your journey into tech.So
+how did you get from Pretech
+
+123
+00:07:42,447 --> 00:07:44,036
+Carmen to where you are now?
+
+124
+00:07:45,012 --> 00:07:48,161
+Carmen: Yeah,thanks for having
+me.I've been listening to the
+
+125
+00:07:48,161 --> 00:07:55,451
+podcast for a bit now.Uh,so how
+did I get to here?Um,well it all
+
+126
+00:07:55,451 --> 00:08:00,882
+started in Poland.Um,I was born
+in Poland and uh,I grew up in
+
+127
+00:08:00,887 --> 00:08:04,182
+Chicago and only,I don't have a
+Polish accent,but I do have a
+
+128
+00:08:04,182 --> 00:08:09,237
+Chicago accent.When I say Chicago
+Hot dog or Costco.Other than
+
+129
+00:08:09,237 --> 00:08:15,956
+that,you would've no idea where
+I'm from.Uh,and yeah,I,uh,I
+
+130
+00:08:16,646 --> 00:08:21,266
+initially,uh,got my degree in
+psychology.I've always wanted to
+
+131
+00:08:21,266 --> 00:08:26,276
+help people and,uh,you know,that
+was my goal.Like for early on,
+
+132
+00:08:26,396 --> 00:08:29,096
+very early on that I was gonna
+get my doctorate,I was gonna get
+
+133
+00:08:29,101 --> 00:08:33,386
+into psychology and,uh,yeah,that
+I got my degree and I realized
+
+134
+00:08:33,392 --> 00:08:39,542
+that's not what I wanted to do.
+So I decided to,um,you know,I,I
+
+135
+00:08:39,542 --> 00:08:42,631
+graduated,I was living in Hawaii
+at the time,and,uh,then I
+
+136
+00:08:42,631 --> 00:08:45,961
+graduated,you know,lived my best
+life in Hawaii and then decided
+
+137
+00:08:45,961 --> 00:08:50,672
+to travel through Europe for a
+bit.And,uh,then when I got back
+
+138
+00:08:50,677 --> 00:08:54,511
+from Europe,um,I was just,uh,in
+Colorado,just hanging out in
+
+139
+00:08:54,522 --> 00:08:58,892
+Colorado.And,uh,my friend,uh,my
+childhood friend shows up and
+
+140
+00:08:58,892 --> 00:09:03,751
+she's like,let's learn html,c s s
+and JavaScript,just randomly one
+
+141
+00:09:03,751 --> 00:09:06,871
+night.And I was like,sure,why
+not?Like,what else are we gonna
+
+142
+00:09:06,871 --> 00:09:13,241
+do tonight?You know?And uh,it was
+really cool.It was fun.Uh,And,
+
+143
+00:09:13,272 --> 00:09:18,282
+uh,that's when,uh,I decided to,
+uh,move to Seattle with,uh,a
+
+144
+00:09:18,282 --> 00:09:21,731
+partner at the time and go to,I,
+I researched this one bootcamp
+
+145
+00:09:21,912 --> 00:09:24,912
+that I really wanted to do
+because,uh,then I could do the
+
+146
+00:09:24,912 --> 00:09:28,481
+bootcamp and work part-time at a
+restaurant or something and then,
+
+147
+00:09:28,481 --> 00:09:34,841
+you know,just not be,be able to
+do both.Um,then2020happened.Uh,
+
+148
+00:09:35,567 --> 00:09:38,476
+That fun time and we were in
+Seattle and that was like ground
+
+149
+00:09:38,476 --> 00:09:44,476
+zero,right?Uh,so everything shut
+down.Um,and I was like,if there
+
+150
+00:09:44,476 --> 00:09:49,076
+was a sign from the universe that
+I should just.Do nothing but
+
+151
+00:09:49,076 --> 00:09:52,647
+learn something new or do a
+career change,it's now I have the
+
+152
+00:09:52,647 --> 00:09:57,777
+opportunity to do that.Uh,so,uh,
+yeah,yeah,yeah.I,I,I got into the
+
+153
+00:09:57,777 --> 00:10:01,437
+bootcamp that I wanted to,and it
+was all remote.Um,they did a
+
+154
+00:10:01,437 --> 00:10:05,126
+hybrid between Seattle,Portland,
+and,uh,people that were outta
+
+155
+00:10:05,126 --> 00:10:09,956
+state too.And,um,it was hard.
+They call it a bootcamp for a
+
+156
+00:10:09,956 --> 00:10:16,052
+reason.Like it's not a joke.It
+was intense and uh,and you know,
+
+157
+00:10:16,052 --> 00:10:18,721
+you have everything on top of
+that.You know,you have covid
+
+158
+00:10:18,812 --> 00:10:23,011
+happening.There was wildfires
+going a around,so the air was
+
+159
+00:10:23,011 --> 00:10:31,017
+toxic with disease and smoke.Uh,
+so it was a tough time.And,uh,
+
+160
+00:10:31,076 --> 00:10:34,976
+you know,uh,towards the end of
+it,I had no idea how people made
+
+161
+00:10:34,976 --> 00:10:38,486
+money.Just Cody,I'm like,you're
+gonna pay me to code.Like,how
+
+162
+00:10:38,486 --> 00:10:44,067
+does that work?And,uh,in this
+last like hail Mary attempt to
+
+163
+00:10:44,072 --> 00:10:50,397
+like,figure things out,I,um,I
+sent an email to a really good
+
+164
+00:10:50,397 --> 00:10:53,846
+friend of mine now,but,so,so I
+guess,let me back up.The,the
+
+165
+00:10:53,846 --> 00:10:59,621
+bootcamp they would do,uh,um,
+Like lunch speakers during lunch,
+
+166
+00:11:00,042 --> 00:11:05,142
+and one of them,uh,was,uh,this
+fine gentleman named Jonin,uh,
+
+167
+00:11:05,621 --> 00:11:11,412
+and,uh,in fact,you know,jonin.
+Yeah.Uh,he,uh,he's a developer
+
+168
+00:11:11,412 --> 00:11:17,287
+relations,uh,person.Great human
+being.Um,just.Great person.Uh,
+
+169
+00:11:17,407 --> 00:11:21,517
+and I,I sent him an email,you
+know,it'd been like five months
+
+170
+00:11:21,517 --> 00:11:24,427
+since he did the lunch and learn,
+but I just,I sent him this novel
+
+171
+00:11:24,427 --> 00:11:27,726
+of an email and I was like,my
+life is a dumpster fire right
+
+172
+00:11:27,726 --> 00:11:33,067
+now.Uh,but it keeps me warm and
+um,it gives me light,you know?
+
+173
+00:11:33,072 --> 00:11:36,371
+Cause I,I've made a bunch of
+friends.You know,we were all
+
+174
+00:11:36,402 --> 00:11:39,731
+trauma bonded through our
+bootcamp too,cuz we,all we had
+
+175
+00:11:39,731 --> 00:11:43,601
+was each other and we all had to
+try and figure it out and get
+
+176
+00:11:43,601 --> 00:11:48,761
+jobs from this somehow.Uh,and
+Jonah actually,he replied and he
+
+177
+00:11:48,761 --> 00:11:50,711
+was like,these are really good
+questions.Cause I asked a bunch
+
+178
+00:11:50,711 --> 00:11:55,032
+of questions like,how do I make
+money?What is this?You know?And
+
+179
+00:11:55,032 --> 00:11:58,751
+he's,he,he responded.He's like,
+these are great questions to,um,
+
+180
+00:11:58,871 --> 00:12:01,692
+that I feel a lot of other people
+just starting out in tech would.
+
+181
+00:12:02,442 --> 00:12:06,822
+Would want answers to.And uh,he
+was like,would you be open to
+
+182
+00:12:06,822 --> 00:12:11,261
+like,come on,uh,my Twitch stream
+and ask them.And like then other
+
+183
+00:12:11,261 --> 00:12:15,822
+people can have these answers
+available to them as well.And I
+
+184
+00:12:15,822 --> 00:12:20,532
+am introverted and very shy and I
+was like,uh,can I bring my
+
+185
+00:12:20,537 --> 00:12:26,591
+friends with me?And I brought two
+of my friends from the bootcamp
+
+186
+00:12:26,682 --> 00:12:30,011
+cuz I figured they also had
+questions to ask.And you know,
+
+187
+00:12:30,011 --> 00:12:32,081
+it's always good when you're an
+introvert and you have an
+
+188
+00:12:32,081 --> 00:12:35,621
+extrovert friend,cuz then it
+takes the pressure off of you.
+
+189
+00:12:36,011 --> 00:12:36,581
+Uh,
+
+190
+00:12:37,197 --> 00:12:37,417
+Bekah: Yep.
+
+191
+00:12:38,142 --> 00:12:43,101
+Carmen: yeah.So,uh,then,uh,then
+we,uh,did this stream.It turned
+
+192
+00:12:43,392 --> 00:12:47,861
+into like a weekly thing,uh,all
+of2020.Uh,it was really good cuz
+
+193
+00:12:47,861 --> 00:12:52,121
+um,we were all really isolated.
+You know,you couldn't go outside.
+
+194
+00:12:52,121 --> 00:12:57,251
+Uh,And,uh,met a lot of people
+through it.Like,uh,Nick that goes
+
+195
+00:12:57,251 --> 00:13:01,932
+to Virtual Coffee.Um,it was just
+a safe space,uh,you know,and that
+
+196
+00:13:01,937 --> 00:13:05,322
+that's what Virtual Coffee is,
+uh,as well.But we were more like
+
+197
+00:13:05,322 --> 00:13:11,591
+virtual happy hour cuz we would
+have drinks.Um,uh,it was late,
+
+198
+00:13:11,621 --> 00:13:15,971
+late,it was at night.Uh,so,uh,
+yeah,we would just,we would a,
+
+199
+00:13:16,032 --> 00:13:21,397
+take questions from either,um,
+the chat or,uh,We had questions
+
+200
+00:13:21,397 --> 00:13:25,537
+obviously,cause we were still in
+bootcamp.Uh,and it turned into a
+
+201
+00:13:25,542 --> 00:13:31,027
+really wonderful thing that I,I,
+I cherished a lot.Um,it was a
+
+202
+00:13:31,027 --> 00:13:35,017
+good time.And,uh,then,uh,yeah,so
+the bootcamp,uh,the bootcamp
+
+203
+00:13:35,017 --> 00:13:38,856
+happened and with this bootcamp
+they offer an internship and I
+
+204
+00:13:38,996 --> 00:13:45,067
+got this internship.Uh,and my
+task as an intern was to build a
+
+205
+00:13:45,067 --> 00:13:51,402
+full stack app.Uh,and I did.
+Because,you know,a great poet
+
+206
+00:13:51,432 --> 00:13:55,331
+once said,you know,you only get
+one shot,one opportunity to seize
+
+207
+00:13:55,331 --> 00:13:59,081
+everything you ever wanted.One
+moment.Would you capture it or
+
+208
+00:13:59,081 --> 00:14:02,621
+let it slip?Right.And I did.Um,I
+
+209
+00:14:02,772 --> 00:14:04,761
+Dan: That's cha,that's chaser,
+right?That's a,
+
+210
+00:14:06,101 --> 00:14:07,572
+Carmen: You know your poetry,
+huh?
+
+211
+00:14:08,142 --> 00:14:11,381
+Dan: that's,I'm an English major.
+You know,don't like to brag about
+
+212
+00:14:11,381 --> 00:14:11,831
+it too much.
+
+213
+00:14:13,932 --> 00:14:18,312
+Carmen: Uh,but yeah,I,I saw the
+opportunity and I built it and at
+
+214
+00:14:18,317 --> 00:14:22,272
+the end of my,uh,internship,I was
+in one of their meetings where
+
+215
+00:14:22,277 --> 00:14:26,366
+they were going over their like
+quarterly,uh,Goals.And in quarter
+
+216
+00:14:26,366 --> 00:14:31,017
+four,uh,they were looking to hire
+a junior developer.And I was
+
+217
+00:14:31,017 --> 00:14:35,397
+like,Hey,let me help you meet
+this goal sooner.Like thi right
+
+218
+00:14:35,397 --> 00:14:38,846
+now,like,how about you just hire
+me and I'll maintain this app?
+
+219
+00:14:39,386 --> 00:14:42,986
+Cause we were about to deploy and
+everything like that.And they,
+
+220
+00:14:42,991 --> 00:14:47,667
+they said yes.I'm like,you like
+me,I like you.Like,not ruin a
+
+221
+00:14:47,667 --> 00:14:53,427
+good thing.And,uh,yeah.Uh,I got
+hired as a junior developer
+
+222
+00:14:53,427 --> 00:14:59,216
+there,and it,it was,uh,for a
+nonprofit.Uh,and,uh,it,it was,it
+
+223
+00:14:59,216 --> 00:15:02,096
+was really,really cool work cuz
+the,the work I was doing was
+
+224
+00:15:02,101 --> 00:15:05,726
+helping people and uh,that,
+that's when I knew like,this is
+
+225
+00:15:05,726 --> 00:15:09,397
+how I could help people was like
+in tech and especially in2022cuz
+
+226
+00:15:09,687 --> 00:15:12,417
+businesses were closing down.
+Like people were trying to figure
+
+227
+00:15:12,417 --> 00:15:15,657
+out ways to get online to do
+anything.I was like,this is how I
+
+228
+00:15:15,657 --> 00:15:22,407
+directly can help people.And,uh,
+the.The first job meant a lot to
+
+229
+00:15:22,407 --> 00:15:26,667
+me because it also goes like full
+circle.Uh,the friend that,you
+
+230
+00:15:26,667 --> 00:15:30,326
+know,came over that one day and
+was like,Hey,let's do this on a
+
+231
+00:15:30,326 --> 00:15:35,277
+Friday night.Uh,her life was
+saved.Uh,so the nonprofit is for
+
+232
+00:15:35,277 --> 00:15:41,427
+organ and,uh,tissue,uh,donation
+and,and transplantation,um,and
+
+233
+00:15:41,427 --> 00:15:45,777
+procurement.And that friend,her
+life was saved by a liver
+
+234
+00:15:45,777 --> 00:15:49,647
+donation when she was a baby.And
+so it just was like a full circle
+
+235
+00:15:49,647 --> 00:15:53,576
+moment.Like my first job was,you
+know,doing something that,you
+
+236
+00:15:53,576 --> 00:15:57,777
+know,that got me to this point.
+So it was really cool.Uh,and
+
+237
+00:15:57,777 --> 00:16:03,807
+yeah.And then,uh,the DevOps
+engineer decided to take,uh,um,
+
+238
+00:16:04,076 --> 00:16:06,746
+an opportunity elsewhere.So the
+position was open.I was like,
+
+239
+00:16:06,746 --> 00:16:11,547
+Hey,I like you,you like me?Like,
+how about I try,try the DevOps
+
+240
+00:16:11,547 --> 00:16:14,787
+position,you know,instead of
+hiring someone else,like,well,
+
+241
+00:16:14,787 --> 00:16:17,547
+let's see if I could do it.And
+they,you know,they believed in me
+
+242
+00:16:17,606 --> 00:16:21,476
+and,uh,I,I stepped up and,and
+started doing DevOps for them.
+
+243
+00:16:22,106 --> 00:16:26,927
+And then,uh,and then,yeah,and
+then I,uh,got another opportunity
+
+244
+00:16:26,927 --> 00:16:32,307
+offered,uh,where I could,um,grow
+and work with people at a,you
+
+245
+00:16:32,307 --> 00:16:39,206
+know,a larger scale work with,
+uh,um,Leadership,uh,and,uh,so,so
+
+246
+00:16:39,206 --> 00:16:42,417
+I left that place and,uh,I'm at
+this place now as the DevOps
+
+247
+00:16:42,417 --> 00:16:46,616
+engineer and uh,it's really
+great.It's really cool stuff.So
+
+248
+00:16:46,621 --> 00:16:47,846
+that,that's kind of,it's.
+
+249
+00:16:49,386 --> 00:16:53,287
+Bekah: That's awesome.What an
+incredible journey.Um,before we
+
+250
+00:16:53,292 --> 00:17:00,006
+move on,for our listeners,can you
+describe what a DevOps engineer
+
+251
+00:17:00,006 --> 00:17:01,267
+is and what they do?
+
+252
+00:17:04,001 --> 00:17:10,632
+Carmen: Me,uh,gosh,uh,DevOps
+means everything and nothing,not
+
+253
+00:17:10,636 --> 00:17:14,892
+nothing,but,uh,means something
+different to everyone and every
+
+254
+00:17:14,892 --> 00:17:18,951
+company depending on what their
+ne needs are.Uh,some people think
+
+255
+00:17:18,951 --> 00:17:22,241
+DevOps should only be there at
+the very beginning or at the very
+
+256
+00:17:22,241 --> 00:17:27,642
+end,or,You know,but it's,uh,it's
+a,it's a Jedi way.It's a,it's a,
+
+257
+00:17:27,642 --> 00:17:31,632
+it's a mindset,you know?Uh,
+overall I think,uh,how I see
+
+258
+00:17:31,662 --> 00:17:35,771
+DevOps is like,you see the whole
+big picture and then can like
+
+259
+00:17:36,071 --> 00:17:39,521
+zoom into like one specific part,
+whether it's development,whether
+
+260
+00:17:39,521 --> 00:17:47,156
+it's deployment,uh,you know,all
+of it together.Um,so,uh,It kind
+
+261
+00:17:47,156 --> 00:17:50,606
+of just,and it's,you know,those
+famous words to it on every team.
+
+262
+00:17:50,606 --> 00:17:58,076
+Someone always says,it depends.
+It depends.So a DevOps engineer
+
+263
+00:17:58,082 --> 00:18:02,096
+Yeah,they're,they're not,uh,you
+know,I,I,I'm not just,uh,focused
+
+264
+00:18:02,096 --> 00:18:05,817
+on,you know,front end work,but I
+can be,if you need me there,I can
+
+265
+00:18:05,817 --> 00:18:09,326
+be there and I can do it.Or if
+it's backend work or if it's,um,
+
+266
+00:18:09,356 --> 00:18:15,356
+deploying or if it's networking,
+you know?So,uh,yeah.But overall
+
+267
+00:18:15,356 --> 00:18:20,217
+it's,it's a way of,of thinking of
+things.Uh,yeah.
+
+268
+00:18:21,011 --> 00:18:23,981
+Bekah: And what kind of
+interested you in moving in that
+
+269
+00:18:23,981 --> 00:18:24,701
+direction?
+
+270
+00:18:26,126 --> 00:18:30,807
+Carmen: Um,because I feel like I
+was already doing it as a junior
+
+271
+00:18:30,807 --> 00:18:34,527
+developer because we were a small
+team.It was just me and the
+
+272
+00:18:34,527 --> 00:18:41,696
+DevOps engineer and,uh,All I,all
+that was missing was access to
+
+273
+00:18:41,696 --> 00:18:49,317
+Azure.Then I feel like I was,you
+know,basically helping,you know,
+
+274
+00:18:49,317 --> 00:18:54,086
+do the work too.And yeah,it,it's
+good.It's nice to see the overall
+
+275
+00:18:54,092 --> 00:18:59,096
+picture cuz then you can.Code
+more mindfully if it's,you know,
+
+276
+00:18:59,156 --> 00:19:03,326
+front end work or backend work
+because you see how it can impact
+
+277
+00:19:03,326 --> 00:19:09,926
+things or how,you know,things,
+uh,have to scale or,um,yeah,so
+
+278
+00:19:10,436 --> 00:19:12,936
+that,that's why I move towards
+that,that route.
+
+279
+00:19:14,301 --> 00:19:16,521
+Dan: I think you'd find that in
+a,in a lot of small teams where
+
+280
+00:19:16,521 --> 00:19:20,627
+people are wearing lots of hats,
+right.And,I've certainly,like,I
+
+281
+00:19:20,627 --> 00:19:24,228
+never considered myself a DevOps
+engineer,you know,but I've
+
+282
+00:19:24,228 --> 00:19:28,907
+certainly done a lot of things.
+Engineer does.Right.You know,and
+
+283
+00:19:28,907 --> 00:19:30,917
+so like,I,I like your description
+of,you know,seeing the big
+
+284
+00:19:30,917 --> 00:19:34,758
+picture and,and sort of having,
+having an idea,uh,like a bird's
+
+285
+00:19:34,758 --> 00:19:38,357
+eye view of the whole ecosystem,
+right.Of your app or your company
+
+286
+00:19:38,357 --> 00:19:41,387
+or,or whatever.Um,cuz there's
+lots of pieces that go into it.
+
+287
+00:19:41,508 --> 00:19:45,377
+Um,and it's a,I I just,uh,I
+enjoyed your description of that.
+
+288
+00:19:45,377 --> 00:19:46,048
+It's,it's cool.Cool.
+
+289
+00:19:47,472 --> 00:19:47,893
+Carmen: Thanks.
+
+290
+00:19:49,742 --> 00:19:52,863
+Bekah: So in a lot of this
+journey,you talked about the
+
+291
+00:19:52,867 --> 00:19:55,923
+people who have been a part of
+that journey and it seems like,
+
+292
+00:19:56,163 --> 00:19:58,053
+you know,developing those
+relationships and those
+
+293
+00:19:58,053 --> 00:20:03,512
+friendships have been really
+important in your journey.So,um,
+
+294
+00:20:03,752 --> 00:20:07,363
+just what advice do you have for
+our listeners out there about
+
+295
+00:20:07,742 --> 00:20:10,143
+building those relationships and
+especially like you talked about
+
+296
+00:20:10,143 --> 00:20:16,232
+being an introvert too,so how
+does that play into it and,and
+
+297
+00:20:16,623 --> 00:20:20,567
+how can other people.Get that
+energy too.
+
+298
+00:20:21,798 --> 00:20:27,617
+Carmen: Uh,I think what really
+helped was,uh,Having the
+
+299
+00:20:27,678 --> 00:20:32,867
+bootcamp,I went to be remote.I
+never did remote school.Uh,so
+
+300
+00:20:32,867 --> 00:20:38,597
+like for,for example,when when I
+got my,my degree,I,I think I made
+
+301
+00:20:38,597 --> 00:20:45,198
+two friends in college.Because I
+was so shy,but when I,when I did
+
+302
+00:20:45,198 --> 00:20:49,817
+the,the bootcamp and so I got
+the,when I got my first job,I had
+
+303
+00:20:49,817 --> 00:20:53,057
+to sign my paperwork in Seattle,
+but then I drove to Portland
+
+304
+00:20:53,057 --> 00:20:56,087
+because I made so many friends in
+Portland and everyone,almost
+
+305
+00:20:56,093 --> 00:21:00,857
+everyone in the cohort all met up
+at a park.And we all,you know,I
+
+306
+00:21:00,857 --> 00:21:04,637
+don't,we all just wanted to be
+friends and that's why I moved to
+
+307
+00:21:04,637 --> 00:21:10,290
+Portland.Uh,and I think,uh,I
+think it's for,for introverts.
+
+308
+00:21:10,347 --> 00:21:14,367
+it's easier to make friends,I
+guess,because,uh,remotely or like
+
+309
+00:21:14,367 --> 00:21:19,452
+online,because you know you're in
+your safe space.You know,and,uh,
+
+310
+00:21:19,752 --> 00:21:24,012
+if something feels awkward or
+unsafe,you can just close the
+
+311
+00:21:24,012 --> 00:21:27,522
+window and be like,whoops,power
+went out.You know,like you,you
+
+312
+00:21:27,522 --> 00:21:33,823
+have,uh,you have more escape
+route,I guess.But,uh,joking
+
+313
+00:21:33,827 --> 00:21:37,782
+aside,um,what was really cool was
+when I was first starting out,
+
+314
+00:21:37,843 --> 00:21:43,718
+um,I just started reaching out to
+people when Twitter was a thing.
+
+315
+00:21:44,018 --> 00:21:47,468
+I don't know if it's still a
+thing,but I'm not on Twitter
+
+316
+00:21:47,468 --> 00:21:51,488
+anymore,but when I was like,I
+would watch like a,a,a YouTube
+
+317
+00:21:51,492 --> 00:21:56,018
+tutorial about how,how to use
+some.Some package,some N P M
+
+318
+00:21:56,018 --> 00:21:59,678
+package,and I would directly go
+and message this person and be
+
+319
+00:21:59,678 --> 00:22:02,678
+like,Hey,th thanks this tutorial
+really helped me do this.It's
+
+320
+00:22:02,678 --> 00:22:05,948
+really cool.Like,would you have
+time to like,you know,jump on a
+
+321
+00:22:05,952 --> 00:22:09,907
+call or,or talk more about it?
+And you,I was so shocked at first
+
+322
+00:22:09,968 --> 00:22:13,117
+how many people were like,yeah,
+let's do it.Cuz people just wanna
+
+323
+00:22:13,147 --> 00:22:16,567
+nerd out and,and talk about the
+work that they're doing.Cause
+
+324
+00:22:16,573 --> 00:22:20,188
+they're excited and they,they
+love what they do and.That's how
+
+325
+00:22:20,188 --> 00:22:23,877
+um,I made a lot of,um,friends was
+just reaching out to people cuz
+
+326
+00:22:23,877 --> 00:22:26,637
+they wanna talk about the things
+that they're excited about
+
+327
+00:22:26,637 --> 00:22:33,208
+building.Uh,and then Virtual
+Coffee too,like,uh,so we,uh,with
+
+328
+00:22:33,238 --> 00:22:37,288
+the stream end ending in a sense
+of,you know,everyone life
+
+329
+00:22:37,292 --> 00:22:42,853
+happened and,uh,So,uh,you know,
+everyone found jobs and,uh,moved
+
+330
+00:22:42,853 --> 00:22:45,553
+or,um,were on different time
+zones,so we stopped doing the
+
+331
+00:22:45,553 --> 00:22:50,113
+stream and then I,I really leaned
+on Virtual Coffee,uh,you know,
+
+332
+00:22:50,803 --> 00:22:54,163
+so,and then same thing,I would
+just reach out to people and be
+
+333
+00:22:54,163 --> 00:22:57,752
+like,Hey,like,do you have time to
+talk about this?And yeah,it's,
+
+334
+00:22:57,782 --> 00:23:01,813
+it's been,I've had a really great
+experience meeting people that
+
+335
+00:23:01,813 --> 00:23:08,202
+are just very welcoming and kind
+and,uh,wanna just.Build cold
+
+336
+00:23:08,208 --> 00:23:08,992
+stuff together.
+
+337
+00:23:10,843 --> 00:23:14,563
+Bekah: Yeah,I think that's great
+that it,um,that's a lot of my
+
+338
+00:23:14,563 --> 00:23:19,182
+journey as well,and I didn't try
+to come into tech,but like one of
+
+339
+00:23:19,182 --> 00:23:22,272
+the things that brought me here
+was the great community of
+
+340
+00:23:22,272 --> 00:23:25,603
+people.So I was just kind of like
+learning a little bit on my own,
+
+341
+00:23:25,603 --> 00:23:28,663
+started tweeting about it,and
+then people were so positive and
+
+342
+00:23:28,663 --> 00:23:31,752
+like cheering me on if I had a
+problem.Somebody would wanna
+
+343
+00:23:31,752 --> 00:23:34,752
+help.And I was just shocked
+because I had not experienced
+
+344
+00:23:34,752 --> 00:23:38,923
+that in other ways.And like I,I
+think that it really did help,
+
+345
+00:23:38,923 --> 00:23:44,323
+like one that I was online and so
+like that introvert to shyness
+
+346
+00:23:44,712 --> 00:23:48,522
+kind of,it was much easier.But
+then I,I was even reflecting on
+
+347
+00:23:48,522 --> 00:23:53,502
+this the other day,I feel like I
+have overcome a lot of my shyness
+
+348
+00:23:53,502 --> 00:23:56,863
+in the last couple of years
+because of all of the positive
+
+349
+00:23:56,863 --> 00:24:01,827
+interactions that I've had.And I
+think it takes like one person
+
+350
+00:24:01,827 --> 00:24:05,488
+saying something positive to you
+to help you,like,move in the
+
+351
+00:24:05,488 --> 00:24:10,498
+direction of like getting up the
+courage to ask somebody for help
+
+352
+00:24:10,498 --> 00:24:14,127
+or sending that email like the
+one that you sent to Joann.And I
+
+353
+00:24:14,127 --> 00:24:17,429
+imagine like that experience was
+it,was it nerve-wracking for you
+
+354
+00:24:17,667 --> 00:24:20,278
+to send him that email with all
+of those questions?
+
+355
+00:24:21,553 --> 00:24:25,512
+Carmen: Uh,Well,was it
+nerve-wracking?No.Cuz it was like
+
+356
+00:24:25,512 --> 00:24:30,343
+my,like a Hail Mary because,uh,
+everything kind of was a dumpster
+
+357
+00:24:30,343 --> 00:24:34,002
+fire at the moment.Like,uh,I had
+to move in three days across the.
+
+358
+00:24:35,008 --> 00:24:39,298
+And live back with my,uh,with my
+parents because like,you know,I
+
+359
+00:24:39,298 --> 00:24:43,258
+was unemployed and,uh,you know,
+at that point I was like,I will,
+
+360
+00:24:43,768 --> 00:24:47,428
+we'll see what happens.And if,if
+they don't respond,that's fine,
+
+361
+00:24:47,728 --> 00:24:54,627
+but it,it can't,it can't hurt to
+ask.Right.Uh,so that,that's how I
+
+362
+00:24:54,627 --> 00:24:59,248
+felt.It's like if they don't have
+the bandwidth to reply,then.Uh,
+
+363
+00:24:59,278 --> 00:25:04,587
+then they won't,but it's no harm
+to just ask,uh,this and then
+
+364
+00:25:04,587 --> 00:25:07,587
+that.That's how I feel.It's like,
+you know,you just,just ask.And if
+
+365
+00:25:07,593 --> 00:25:11,458
+someone has the time and the
+bandwidth to,to reply and you
+
+366
+00:25:11,462 --> 00:25:15,718
+know,and,and be there to help
+you,they will.And I,I feel like
+
+367
+00:25:15,722 --> 00:25:17,788
+the same thing goes to like when
+you're trying to find like a
+
+368
+00:25:17,788 --> 00:25:23,218
+mentor or something.Uh,that was
+another thing that,um,I
+
+369
+00:25:23,367 --> 00:25:27,387
+discovered,uh,well,I heard about
+was like,you should get a mentor,
+
+370
+00:25:27,387 --> 00:25:30,778
+like that would help.And it's
+like,how does one get mentor?You
+
+371
+00:25:30,778 --> 00:25:33,417
+know?How do you find that?Like,
+it's not like they're,you know,
+
+372
+00:25:33,478 --> 00:25:38,998
+displayed or,uh,but it's,uh,it,
+it,it's a,it's just asking.And
+
+373
+00:25:38,998 --> 00:25:41,538
+then if that person does have the
+time and wants to do it,they,
+
+374
+00:25:41,817 --> 00:25:47,218
+they will or they'll say no,and
+that's okay too.Um,Yeah,I forgot.
+
+375
+00:25:47,248 --> 00:25:51,478
+Was that the question?I think I,
+I think I went off on that one.
+
+376
+00:25:53,150 --> 00:25:55,738
+Dan: We're big fans of tangents
+here at Virtual Coffee Podcast,
+
+377
+00:25:56,147 --> 00:25:59,954
+so,um,I like.What you talked
+about with the mentorship too,
+
+378
+00:25:59,954 --> 00:26:05,924
+that I was wondering if you
+could,um,talk a little bit more.
+
+379
+00:26:06,315 --> 00:26:08,174
+You don't have to like share
+specific details if you don't
+
+380
+00:26:08,174 --> 00:26:11,204
+want to,but,uh,about your
+experience like finding a mentor
+
+381
+00:26:11,204 --> 00:26:14,414
+and you know,how that worked.
+
+382
+00:26:16,184 --> 00:26:21,884
+Carmen: Yeah.Yeah.Um,since I was
+like on a,such a small team,uh,
+
+383
+00:26:22,545 --> 00:26:28,275
+I.Yeah,I,I made it like my
+mission to kind of try and find a
+
+384
+00:26:28,275 --> 00:26:30,704
+way to work with people.Not
+necessarily look for a mentor,
+
+385
+00:26:30,704 --> 00:26:34,515
+but,well,once I stepped into like
+a,the,the DevOps position,I was
+
+386
+00:26:34,519 --> 00:26:38,714
+like,I need a mentor.I'm by
+myself right now,and this is a
+
+387
+00:26:38,720 --> 00:26:46,244
+little daunting.Uh,and,uh,yeah,
+I,I would just,uh,I reached out
+
+388
+00:26:46,244 --> 00:26:50,775
+to some people and just asked,
+uh,if it was,you know,front end
+
+389
+00:26:50,775 --> 00:26:56,099
+work or something,and,uh,I don't
+know if it was luck or,or what,
+
+390
+00:26:56,099 --> 00:26:59,430
+but yeah,they were like,yeah,
+let's set up weekly check-ins and
+
+391
+00:26:59,430 --> 00:27:04,319
+if you have any questions or
+anything like that,we can discuss
+
+392
+00:27:04,319 --> 00:27:10,769
+it or work through a problem or
+uh,uh,things like that.But,um,I
+
+393
+00:27:10,775 --> 00:27:14,700
+think it's just asking,uh,I don't
+know.
+
+394
+00:27:14,914 --> 00:27:18,454
+Dan: Yeah.Yeah.So,so,so this was,
+these were people like you didn't
+
+395
+00:27:18,454 --> 00:27:19,595
+personally know yet,
+
+396
+00:27:20,160 --> 00:27:20,369
+Carmen: No,
+
+397
+00:27:21,275 --> 00:27:22,384
+Dan: are,are the people you did
+know.
+
+398
+00:27:24,015 --> 00:27:24,234
+Carmen: Mm.
+
+399
+00:27:24,585 --> 00:27:26,805
+Dan: Yeah,you didn't know.And so
+it was like kind of a cold call,
+
+400
+00:27:26,924 --> 00:27:29,714
+you know,not cold call make,that
+makes it sound bad,but like,you
+
+401
+00:27:29,714 --> 00:27:33,855
+know,uh,sort of out of the
+blue-ish sort of thing,and you
+
+402
+00:27:33,855 --> 00:27:37,005
+just asked,Hey,I am,you know,
+doing this stuff.I was wondering
+
+403
+00:27:37,005 --> 00:27:40,890
+if you.time to be a mentor.I,I'm
+asking because I really don't
+
+404
+00:27:40,890 --> 00:27:43,559
+like,this is something that I've
+thought about myself a lot and
+
+405
+00:27:43,799 --> 00:27:46,349
+I've never got like,gotten
+through actually following
+
+406
+00:27:46,349 --> 00:27:49,650
+through with it.And so I'm always
+looking for advice as far as like
+
+407
+00:27:49,650 --> 00:27:52,349
+finding a mentor,uh,and that kind
+of thing.So that's why I'm,
+
+408
+00:27:52,380 --> 00:27:54,720
+that's why I'm like,I keep asking
+about it.
+
+409
+00:27:55,394 --> 00:27:59,505
+Carmen: Yeah.Um,I think when I
+was a junior developer,it was,
+
+410
+00:27:59,535 --> 00:28:02,144
+uh,when we were doing the stream
+all the time,and there was one
+
+411
+00:28:02,144 --> 00:28:05,775
+particular developer that showed
+up every time we did the stream
+
+412
+00:28:05,775 --> 00:28:11,505
+and had great advice to give,uh,
+in the chat and just was like
+
+413
+00:28:11,509 --> 00:28:15,944
+supplemental,like on,on top of
+like what we were,uh,what we were
+
+414
+00:28:15,944 --> 00:28:20,355
+giving and uh,just.Uh,I,I just
+reached out to them after the
+
+415
+00:28:20,355 --> 00:28:22,994
+stream being like,thank you for
+giving such great advice and
+
+416
+00:28:22,994 --> 00:28:28,305
+being,you know,so supportive to
+others.Um,and then I was like,
+
+417
+00:28:28,305 --> 00:28:31,605
+well,gee,that's how I asked
+there.And then,uh,for,for DevOps,
+
+418
+00:28:32,144 --> 00:28:35,845
+it was,uh,through Virtual Coffee,
+just going to,to Virtual Coffee
+
+419
+00:28:35,904 --> 00:28:40,275
+and then hearing,you know,you
+know,when you do the intros and
+
+420
+00:28:40,275 --> 00:28:44,474
+then being like,Hey,like I,I,I
+just stepped into DevOps,or I
+
+421
+00:28:44,474 --> 00:28:50,140
+have some questions.Or posting
+in,uh,in Slack as well with
+
+422
+00:28:50,140 --> 00:28:53,259
+questions.And you know,the people
+that have the bandwidth will
+
+423
+00:28:53,259 --> 00:28:56,769
+reply and then I would would
+message them and be like,Hey,
+
+424
+00:28:56,769 --> 00:29:00,609
+like,you know,have some more
+questions.And do you,do you have
+
+425
+00:29:00,615 --> 00:29:02,809
+time?Uh,yeah.
+
+426
+00:29:04,694 --> 00:29:05,295
+Dan: I love that.
+
+427
+00:29:05,795 --> 00:29:08,384
+Bekah: Yeah,I think that there
+are a couple of things that I.I
+
+428
+00:29:08,384 --> 00:29:11,265
+just wanna make sure that we
+highlight here because it's said
+
+429
+00:29:11,265 --> 00:29:14,505
+a lot of great things,like one,
+if people have the bandwidth,
+
+430
+00:29:14,505 --> 00:29:19,275
+then they'll respond to you just.
+It can be nerve wracking or scary
+
+431
+00:29:19,275 --> 00:29:24,615
+to send somebody a message and
+ask for mentorship.And sometimes
+
+432
+00:29:24,615 --> 00:29:27,944
+people will respond and sometimes
+people won't respond,and that's
+
+433
+00:29:27,944 --> 00:29:32,565
+okay.Like,that's not on you.
+Right?That's,they might not have
+
+434
+00:29:32,565 --> 00:29:38,204
+that time or the capability to do
+that.Right.Um,so I think that
+
+435
+00:29:38,295 --> 00:29:44,250
+that idea like reach out and ask
+you at the,the very least,They
+
+436
+00:29:44,250 --> 00:29:49,559
+might say,Hey,I'm,I can give you
+a little bit of my time.Um,the
+
+437
+00:29:49,559 --> 00:29:52,170
+second thing that I wanna
+highlight,you said you,when you
+
+438
+00:29:52,170 --> 00:29:55,170
+reached out to somebody,I,I think
+that you said like,thank you for
+
+439
+00:29:55,170 --> 00:29:58,619
+those answers.Those were really
+helpful.And so when you're asking
+
+440
+00:29:58,625 --> 00:30:01,920
+someone for something,you know,
+it's nice to engage in that
+
+441
+00:30:01,920 --> 00:30:05,099
+conversation a little bit first
+and let them know like that you
+
+442
+00:30:05,099 --> 00:30:09,569
+do appreciate what they've given
+you already.And this has been a
+
+443
+00:30:09,569 --> 00:30:12,984
+really great place.This might be
+a good place to start,like,uh,
+
+444
+00:30:13,015 --> 00:30:15,565
+more of a relationship or deepen
+that into some sort of
+
+445
+00:30:15,565 --> 00:30:19,674
+mentorship.And so I think that
+like there are also,you mentioned
+
+446
+00:30:19,674 --> 00:30:22,674
+like multiple modes of
+mentorship,so that might be a
+
+447
+00:30:22,674 --> 00:30:25,404
+one-on-one thing.It might be a
+conversation with a group of
+
+448
+00:30:25,404 --> 00:30:29,634
+people.It might be Slack messages
+in a particular channel.Like all
+
+449
+00:30:29,640 --> 00:30:33,414
+of these things are mentorship.
+Anything where you're learning
+
+450
+00:30:33,414 --> 00:30:38,684
+and growing,I think.Is a form of
+mentorship,so sometimes it's
+
+451
+00:30:38,684 --> 00:30:42,464
+important to think outside of
+what the traditional definition
+
+452
+00:30:42,555 --> 00:30:44,085
+of mentorship might be.
+
+453
+00:30:45,085 --> 00:30:50,349
+Carmen: Yeah.Yeah.Um,I agree.
+Because sometimes it's just
+
+454
+00:30:50,890 --> 00:30:54,759
+having a place to rubber doc.
+It's like you have a question and
+
+455
+00:30:54,759 --> 00:30:58,390
+then you write it all out,you
+know,and then you send it and
+
+456
+00:30:58,390 --> 00:31:02,680
+it's like,oh,solve this.Thanks
+for,you know,being a great
+
+457
+00:31:02,684 --> 00:31:07,359
+mentor.And it was just giving me
+this space to send this to
+
+458
+00:31:07,365 --> 00:31:14,769
+someone.Uh,but yeah,it,it can
+take many forms and,uh,yeah.It,
+
+459
+00:31:14,769 --> 00:31:20,246
+it's,it's.I think that was the,
+biggest hurdle was just to,uh,to
+
+460
+00:31:20,246 --> 00:31:24,653
+know that,you know,just reach out
+and,uh,if they don't respond,
+
+461
+00:31:25,042 --> 00:31:28,432
+that's okay.And if they respond
+negatively,that's not someone
+
+462
+00:31:28,432 --> 00:31:34,613
+that you should interact with.I
+feel,uh,there's other options out
+
+463
+00:31:34,613 --> 00:31:41,317
+there.Um,So,yeah.Yeah.Just,uh,
+making it less daunting to,to
+
+464
+00:31:41,317 --> 00:31:46,718
+reach out to people that either
+have good,uh,good feedback or
+
+465
+00:31:46,778 --> 00:31:49,897
+experience in things that you
+wanna learn or do.Cause more than
+
+466
+00:31:49,897 --> 00:31:51,397
+likely they wanna share it with,
+
+467
+00:31:54,028 --> 00:31:56,127
+Bekah: Are there any specific
+conversations that you can
+
+468
+00:31:56,127 --> 00:31:59,877
+remember that really impacted
+your journey or what you know
+
+469
+00:31:59,877 --> 00:32:00,397
+about DevOps?
+
+470
+00:32:01,742 --> 00:32:05,833
+Carmen: I am still learning so
+much,uh,constantly learning
+
+471
+00:32:06,123 --> 00:32:11,819
+DevOps things.Uh,I don't know.
+It,it's been a journey like,when
+
+472
+00:32:11,819 --> 00:32:15,089
+we were talking about dreams too,
+it's like right now I,I was
+
+473
+00:32:15,089 --> 00:32:20,684
+working in Azure previously and
+now I'm moving to a w s.And now
+
+474
+00:32:20,684 --> 00:32:25,095
+I'm getting AWS certified.So my
+dream about taking an exam and my
+
+475
+00:32:25,095 --> 00:32:30,525
+alarm going off is very,is
+accurate.I'm in the middle of
+
+476
+00:32:30,525 --> 00:32:36,075
+studying for the,for aws,so
+
+477
+00:32:36,289 --> 00:32:41,599
+Bekah: Wow,that's,that's a lot.
+Um,how are you balancing all of
+
+478
+00:32:41,599 --> 00:32:45,900
+this with.Work and being involved
+in the community.
+
+479
+00:32:47,234 --> 00:32:52,255
+Carmen: Uh,gosh.Oh,you know,
+it's,it's part of work.it's,you
+
+480
+00:32:52,255 --> 00:32:56,515
+know,especially when you,you find
+a,a job that invests in,in
+
+481
+00:32:56,575 --> 00:32:59,634
+furthering your education,cuz
+they know that it will,it's
+
+482
+00:32:59,694 --> 00:33:04,105
+mutual.You learn,you know,and
+that,that helps,um,your work.
+
+483
+00:33:04,433 --> 00:33:08,711
+it's setting,uh,calendar events,
+you know,like this is the lot of
+
+484
+00:33:08,711 --> 00:33:13,309
+time I have for coding stuff or
+stuff in the code.And it's like
+
+485
+00:33:13,400 --> 00:33:18,079
+hard stop,don't keep,continue
+down the rabbit hole.And then
+
+486
+00:33:18,079 --> 00:33:23,058
+it's shifting to,uh,to studying
+and then learning.yeah.
+
+487
+00:33:24,227 --> 00:33:29,957
+Dan: Was it their like idea to
+get,get the AWS certification and
+
+488
+00:33:29,957 --> 00:33:32,267
+all that stuff?Is it like a
+requirement or anything?Or is it
+
+489
+00:33:32,267 --> 00:33:35,557
+just like,Hey,this might be fun
+or something,you know,like how,
+
+490
+00:33:35,561 --> 00:33:38,777
+how did that,how.I least
+suggested Yeah.That,that,
+
+491
+00:33:38,916 --> 00:33:42,096
+Carmen: and I was all for it.I,I
+love learning and it's really
+
+492
+00:33:42,096 --> 00:33:46,277
+great and especially,you know,
+shifting.Uh,From,from Azure to
+
+493
+00:33:46,487 --> 00:33:50,926
+aws.There's,it's,it's similar
+services.They're just name
+
+494
+00:33:50,926 --> 00:33:56,267
+different things and it's knowing
+the differences in names and
+
+495
+00:33:56,271 --> 00:34:02,987
+they're,yeah.So,but the concepts
+are all the same.How,how to,uh,
+
+496
+00:34:04,826 --> 00:34:06,886
+work in the cloud.Um,
+
+497
+00:34:07,717 --> 00:34:10,117
+Dan: How to connect all the pipes
+together.Just a whole set,
+
+498
+00:34:10,266 --> 00:34:13,237
+separate set of acronyms to
+memorize,right?
+
+499
+00:34:13,521 --> 00:34:16,521
+Carmen: so many acr.It's what one
+of the whiteboards says is just
+
+500
+00:34:16,942 --> 00:34:17,501
+acronyms.
+
+501
+00:34:17,931 --> 00:34:21,021
+Dan: Yeah.Yeah,that's one of my
+biggest struggles.Cause I don't
+
+502
+00:34:21,021 --> 00:34:25,101
+like get into,into AWS stuff very
+often.And so every time I do,I
+
+503
+00:34:25,101 --> 00:34:27,862
+have to like,refresh my memory
+on,on all of it.Cuz it's like,
+
+504
+00:34:28,222 --> 00:34:31,101
+cuz they internally re refer to
+everything with their acronyms,
+
+505
+00:34:31,132 --> 00:34:35,271
+you know?Um,and yeah,it,it can be
+frustrating if you don't,if you
+
+506
+00:34:35,271 --> 00:34:38,961
+don't have it all in your brain.
+Uh,so that's cool.So how's study?
+
+507
+00:34:38,961 --> 00:34:43,791
+So what does the exam like?Is it,
+what does that experience look
+
+508
+00:34:43,791 --> 00:34:46,342
+like?Uh,not studying,but more of
+like,do you know what the exam is
+
+509
+00:34:46,342 --> 00:34:50,541
+going to look like?Is it.An hour
+or I,I,I've never done that,so I,
+
+510
+00:34:50,541 --> 00:34:54,652
+I'd be curious to,you know,what
+does an A certification entail?
+
+511
+00:34:55,206 --> 00:34:59,856
+Carmen: Oh yeah,so I'm not sure
+how long it takes.I know that,
+
+512
+00:34:59,887 --> 00:35:06,637
+um,you can choose to do it
+remotely,uh,and you need to have
+
+513
+00:35:06,637 --> 00:35:12,456
+your laptop.Properly set up.And
+you know,they,they,this is all
+
+514
+00:35:12,456 --> 00:35:15,847
+I've heard,I don't know yet.Uh,
+and you have to do a pretty
+
+515
+00:35:15,851 --> 00:35:21,786
+rigorous process to prove that
+you're not cheating.Uh,and so
+
+516
+00:35:21,786 --> 00:35:27,052
+then it's,people have been,uh,
+Telling me to just go do it.I in
+
+517
+00:35:27,052 --> 00:35:31,431
+a facility,in person,because then
+it's less,uh,less of a headache
+
+518
+00:35:31,762 --> 00:35:34,581
+to get like,to proof that,you
+know,there's no way you can cheat
+
+519
+00:35:34,586 --> 00:35:38,242
+that,you know,your system is
+good,uh,to take it remotely.But I
+
+520
+00:35:38,242 --> 00:35:43,072
+have not looked into it further.
+I'm still,uh,going through the
+
+521
+00:35:43,072 --> 00:35:45,202
+tutorials to,to know all the
+acronyms.
+
+522
+00:35:47,081 --> 00:35:50,181
+Dan: So,yeah,so it is a,it is
+like a sort of traditional.
+
+523
+00:35:50,652 --> 00:35:51,072
+Carmen: Mm-hmm.
+
+524
+00:35:51,771 --> 00:35:56,601
+Dan: Like one time test thing,
+like,like in school,right?Like,
+
+525
+00:35:57,231 --> 00:36:01,041
+yeah.That's really interesting.
+Yeah,that's,I could see how your
+
+526
+00:36:01,672 --> 00:36:04,101
+subconscious would get,start to
+get worried about something like
+
+527
+00:36:04,101 --> 00:36:08,831
+that.I,uh,I haven't taken a test
+for a long,long time,so it makes
+
+528
+00:36:09,081 --> 00:36:10,152
+me a little nervous just thinking
+about it.
+
+529
+00:36:11,137 --> 00:36:14,737
+Carmen: Yeah,I knew I was in a
+dream though when like this
+
+530
+00:36:14,737 --> 00:36:18,726
+Scantron like where you have to
+like shade in the bubble.It was
+
+531
+00:36:18,726 --> 00:36:23,496
+like really big and I was like,
+this is ridiculous.Like this
+
+532
+00:36:23,496 --> 00:36:24,666
+can't be real.
+
+533
+00:36:28,791 --> 00:36:30,541
+Dan: Remember to turn your phone
+off,I guess,when you take the
+
+534
+00:36:30,541 --> 00:36:31,061
+test straight.
+
+535
+00:36:31,556 --> 00:36:31,847
+Carmen: Yeah.
+
+536
+00:36:34,027 --> 00:36:36,786
+Bekah: I wanted to circle back a
+little bit,um,to what we were
+
+537
+00:36:36,786 --> 00:36:39,786
+talking about before with meeting
+new people and friendship
+
+538
+00:36:39,786 --> 00:36:43,327
+building.Uh,cuz I,I think one of
+the things that I.Heard a lot of
+
+539
+00:36:43,327 --> 00:36:48,217
+people say that,especially people
+who are learning.I don't have the
+
+540
+00:36:48,217 --> 00:36:53,737
+time to meet new people or to
+join communities.It's
+
+541
+00:36:53,737 --> 00:36:58,206
+overwhelming.Right.I also went to
+a bootcamp.I was working,I had
+
+542
+00:36:58,206 --> 00:37:03,186
+four kids and I was going to
+bootcamp at the time,and it does
+
+543
+00:37:03,186 --> 00:37:06,936
+feel overwhelming.It feels like.
+You can't put one more thing on
+
+544
+00:37:06,936 --> 00:37:10,387
+your plate.And I imagine in a
+similar circumstance,like what
+
+545
+00:37:10,387 --> 00:37:14,166
+you're,you're working now,you are
+studying for this exam,it can be
+
+546
+00:37:14,166 --> 00:37:17,527
+overwhelming.So in cases like
+that,why do you think it is
+
+547
+00:37:17,532 --> 00:37:21,036
+important to still maintain those
+friendships or nurture those
+
+548
+00:37:21,041 --> 00:37:22,806
+relationships that you've built?
+
+549
+00:37:23,806 --> 00:37:28,786
+Carmen: Uh,yeah,because that's
+what friends are for.They're your
+
+550
+00:37:28,786 --> 00:37:33,317
+support system,right.Uh,and it's,
+it's good to know that you're not
+
+551
+00:37:33,322 --> 00:37:37,246
+alone.And,uh,that's why I make
+it,like I,I put in my calendar
+
+552
+00:37:37,246 --> 00:37:42,106
+Virtual Coffee,6:00AM Tuesdays,
+you know,it's,uh,it's something
+
+553
+00:37:42,106 --> 00:37:46,771
+that I strive to,to make because
+it's,it's.You know,you could,I
+
+554
+00:37:46,771 --> 00:37:51,931
+could be lost in AWS world and I
+feel like,or nothing is working
+
+555
+00:37:51,931 --> 00:37:55,052
+in the code.And,you know,you feel
+very isolated and then,you know,
+
+556
+00:37:55,052 --> 00:37:59,461
+you,you,uh,you have a community
+to go to and be like,Hey,I've
+
+557
+00:37:59,461 --> 00:38:01,711
+been down this rabbit hole too.
+And it's like,you're not alone.
+
+558
+00:38:02,311 --> 00:38:07,141
+And there is someone that can,
+you know,either whether just to
+
+559
+00:38:07,141 --> 00:38:11,731
+listen or to,you know,It,it's,
+uh,it's good to have if,if you
+
+560
+00:38:11,731 --> 00:38:18,211
+have,if you can,uh,in some way or
+another,uh,whether it's,uh,going
+
+561
+00:38:18,211 --> 00:38:23,041
+to an actual,like meetup
+virtually or,or in person or,um,
+
+562
+00:38:23,132 --> 00:38:26,972
+staying active on a Slack channel
+or Discord.I,I was invited to a
+
+563
+00:38:26,972 --> 00:38:29,731
+lot of Discord channels and that
+got overwhelming.I was like,I
+
+564
+00:38:29,731 --> 00:38:34,021
+can't do this.I can't,um,be
+active on,on all of these
+
+565
+00:38:34,291 --> 00:38:39,887
+discords.But,um,yeah.Uh,I found
+that was good.Or,or hack Tober
+
+566
+00:38:39,887 --> 00:38:44,686
+Fest too.That's also a really fun
+way to,to meet people and to,to
+
+567
+00:38:44,867 --> 00:38:50,836
+directly work on things and help
+each other out and,um,bond over,
+
+568
+00:38:50,927 --> 00:38:55,817
+you know,a PR or,uh,learn
+something together.Um,that was
+
+569
+00:38:55,817 --> 00:38:59,746
+another thing that I thought was
+really daunting at first,uh,when
+
+570
+00:38:59,746 --> 00:39:03,976
+I first started off,uh,was
+contributing to like open source.
+
+571
+00:39:04,487 --> 00:39:06,527
+I thought that was extremely
+daunting.Cause you don't know
+
+572
+00:39:06,527 --> 00:39:10,726
+them.And I was working on a small
+team,so,uh,the whole,uh,poll
+
+573
+00:39:10,726 --> 00:39:14,896
+request and,uh,everything like
+that wasn't as,uh,refined as some
+
+574
+00:39:15,077 --> 00:39:18,916
+open source are.And that was
+another thing a,a friend and I
+
+575
+00:39:18,916 --> 00:39:23,186
+did was we wanted to stream.Uh,
+maintaining an open source
+
+576
+00:39:23,186 --> 00:39:28,737
+project on Octoberfest and,and,
+uh,humanizing.What,what a PR is
+
+577
+00:39:28,737 --> 00:39:32,097
+that it's not,it's not personal,
+it's not a judgment on,on your
+
+578
+00:39:32,097 --> 00:39:36,507
+code or anything like that.It's,
+you know,the person,uh,the
+
+579
+00:39:36,507 --> 00:39:40,597
+maintainer,learning what you
+wrote,and then,uh,offering
+
+580
+00:39:40,916 --> 00:39:44,577
+suggestions and then the,the
+author learning something new
+
+581
+00:39:44,577 --> 00:39:51,422
+maybe from that suggestion.Uh,so
+that was,uh,another.Thing that I
+
+582
+00:39:51,422 --> 00:39:53,972
+thought was,uh,neat to do with
+friends.
+
+583
+00:39:55,661 --> 00:39:59,447
+Bekah: That sounds awesome.Are
+those videos still up somewhere
+
+584
+00:39:59,447 --> 00:40:01,936
+or are they gone?
+
+585
+00:40:02,521 --> 00:40:04,802
+Carmen: I don't know.I don't
+think so.Cause I think it
+
+586
+00:40:04,802 --> 00:40:09,722
+depends.I could check,but Twitch,
+uh,Twitch doesn't keep videos
+
+587
+00:40:09,722 --> 00:40:13,771
+after a while,and I think it's
+been two years since we did that.
+
+588
+00:40:14,461 --> 00:40:17,492
+Uh,really wanted to continue
+doing that,but,you know,life
+
+589
+00:40:17,492 --> 00:40:21,632
+happens and it's,uh,you know,
+especially,and streaming is,you
+
+590
+00:40:21,632 --> 00:40:24,661
+know,a whole,whole other world in
+general because you have to make
+
+591
+00:40:24,661 --> 00:40:29,072
+sure the,the stuff works and the
+sound is heard and the music is
+
+592
+00:40:29,072 --> 00:40:32,311
+heard.And you both,no,you're both
+nodding.
+
+593
+00:40:32,831 --> 00:40:36,692
+Bekah: It was literally last I
+decided to live stream this week.
+
+594
+00:40:37,246 --> 00:40:40,996
+A couple of days ago,I was really
+struggling to like,focus.I was
+
+595
+00:40:40,996 --> 00:40:43,726
+really tired and I was like,
+well,livestream and it'll make me
+
+596
+00:40:43,726 --> 00:40:46,996
+accountable.Like I'll feel
+accountable.And then like my
+
+597
+00:40:46,996 --> 00:40:50,536
+sound wasn't working,my video
+wasn't working.I'm like,this is
+
+598
+00:40:50,536 --> 00:40:54,978
+not why I decided to livestream.
+So then I was navigating those
+
+599
+00:40:54,983 --> 00:40:59,387
+problems live.Um,but it's okay.
+Like I did,I didn't end up
+
+600
+00:40:59,387 --> 00:41:03,527
+getting that.I merged in my own
+pr.That's,that's just the way
+
+601
+00:41:03,532 --> 00:41:06,797
+that I do things these days,this
+morning.So,
+
+602
+00:41:06,902 --> 00:41:09,692
+Carmen: you're not alone.Like
+literally that was us every
+
+603
+00:41:09,692 --> 00:41:13,862
+stream.Our sound never worked.We
+would go live with no sound,not
+
+604
+00:41:13,862 --> 00:41:16,532
+know until someone in the chat
+would tell us that they can't
+
+605
+00:41:16,532 --> 00:41:21,791
+hear us.And we just,so we knew
+we'd have a good stream.So you,
+
+606
+00:41:22,112 --> 00:41:28,231
+you're not alone,but streaming as
+a whole other beast.And uh,I
+
+607
+00:41:28,237 --> 00:41:31,021
+commend anyone that does it and
+maintains it.
+
+608
+00:41:32,896 --> 00:41:33,467
+Bekah: Yeah,it can be.
+
+609
+00:41:33,931 --> 00:41:34,652
+Dan: Oh,go ahead,Bekah.
+
+610
+00:41:34,817 --> 00:41:35,717
+Bekah: No,you.
+
+611
+00:41:36,061 --> 00:41:38,222
+Dan: I was just gonna say,have
+you been doing any streaming
+
+612
+00:41:38,282 --> 00:41:40,501
+lately?Any code related stuff
+
+613
+00:41:40,996 --> 00:41:45,106
+Carmen: Uh,no,it would be so fun
+to to,to get back into it.My,my
+
+614
+00:41:45,106 --> 00:41:47,717
+friends and I,we,we talk about
+it.The friends that I,I did
+
+615
+00:41:47,717 --> 00:41:52,036
+streaming with,uh,uh,we're such
+good friends now.I'm even in one
+
+616
+00:41:52,036 --> 00:41:53,206
+of their weddings.Like,
+
+617
+00:41:53,452 --> 00:41:54,211
+Dan: Oh,nice.
+
+618
+00:41:54,376 --> 00:42:02,371
+Carmen: really cool.But,uh,it's,
+uh,No,no.Life happens.I moved and
+
+619
+00:42:02,371 --> 00:42:05,972
+started a new job and someone
+else moved to Europe and we're on
+
+620
+00:42:05,976 --> 00:42:11,492
+a12hour difference and it's,uh,
+it's been hard to,to stream.
+
+621
+00:42:11,492 --> 00:42:15,121
+Maybe one day it would be,it
+would be cool to,to do again.
+
+622
+00:42:17,746 --> 00:42:20,416
+Dan: can be hard to even,even if
+you're just doing it by yourself,
+
+623
+00:42:20,416 --> 00:42:23,987
+it's can be really hard to keep,
+keep anything like that up,you
+
+624
+00:42:23,987 --> 00:42:26,806
+know?Especially when you have
+other people involved.Yeah.Life,
+
+625
+00:42:26,867 --> 00:42:28,876
+like you said,life,life happens.
+Can be tough.
+
+626
+00:42:29,797 --> 00:42:31,501
+Bekah: Yeah,I think it's
+important to prioritize those
+
+627
+00:42:31,501 --> 00:42:34,891
+things that.Are working for you
+too,right?And like I think
+
+628
+00:42:34,891 --> 00:42:40,202
+sometimes when it starts to feel
+like that extra thing is a drag
+
+629
+00:42:40,202 --> 00:42:43,322
+and you don't wanna do it
+anymore,or you know,it's just
+
+630
+00:42:43,322 --> 00:42:46,351
+like overwhelming to think about
+it,then that's probably like the
+
+631
+00:42:46,356 --> 00:42:48,362
+time to let it go for a little
+bit.
+
+632
+00:42:49,626 --> 00:42:52,447
+Carmen: Yeah,I,I completely
+agree.That's how I felt,uh,
+
+633
+00:42:52,447 --> 00:42:55,597
+about,uh,yeah,the first time I
+did hack Octoberfest when we were
+
+634
+00:42:55,597 --> 00:42:59,586
+trying to stream it,maintain an
+open source,do all of the things,
+
+635
+00:42:59,586 --> 00:43:02,706
+and it's like,this is supposed to
+be fun.If it's getting stressful,
+
+636
+00:43:02,706 --> 00:43:06,606
+let's stop.Cuz it's supposed to
+be for fun.It's supposed to be
+
+637
+00:43:06,606 --> 00:43:09,637
+to,to help people and educate
+people.But if it's starting to
+
+638
+00:43:09,637 --> 00:43:13,206
+turn into a stressor,then it's,
+uh,no know your limits and
+
+639
+00:43:13,206 --> 00:43:17,047
+boundaries and yeah,be kind to
+yourself.Um,cause something's
+
+640
+00:43:17,047 --> 00:43:20,577
+gonna,Uh,yeah.Suffer in it.
+
+641
+00:43:21,947 --> 00:43:25,108
+Bekah: Yeah,and I think.this is
+kind of a tangent,but like taking
+
+642
+00:43:25,108 --> 00:43:28,349
+a personal inventory is something
+that we've talked about,uh,in the
+
+643
+00:43:28,349 --> 00:43:31,259
+last couple of months at Virtual
+Coffee.Just to kind of see where
+
+644
+00:43:31,259 --> 00:43:34,048
+you are,where you are,like what
+your needs are,what your
+
+645
+00:43:34,048 --> 00:43:38,518
+strengths and weaknesses are,but
+also to kind of identify those
+
+646
+00:43:38,518 --> 00:43:42,028
+types of things.You know,if
+you're feeling overwhelmed by is
+
+647
+00:43:42,028 --> 00:43:45,628
+this,you might have needed that
+thing three months ago and it
+
+648
+00:43:45,628 --> 00:43:48,418
+might have been really good for
+you in that moment,or like that
+
+649
+00:43:48,418 --> 00:43:51,528
+community that you're a part of.
+That was really great for you
+
+650
+00:43:51,528 --> 00:43:54,918
+last year,but it's not so great
+for you this year and like
+
+651
+00:43:54,918 --> 00:43:58,668
+recognizing that like,hey,we
+change and we grow as people and
+
+652
+00:43:58,668 --> 00:44:03,139
+we have different needs all the
+time.Figuring out like what is
+
+653
+00:44:03,139 --> 00:44:06,619
+helping me to accomplish the
+things that I need to be doing
+
+654
+00:44:06,619 --> 00:44:10,789
+every single day is really
+important,but also like sometimes
+
+655
+00:44:10,789 --> 00:44:15,523
+really hard to identify If you
+don't stop for a second.And,and
+
+656
+00:44:15,523 --> 00:44:18,764
+really think about like,what is
+enriching my life right now?What
+
+657
+00:44:18,764 --> 00:44:23,204
+is helping me be the person that
+I wanna be,rather than like,this
+
+658
+00:44:23,208 --> 00:44:26,804
+was helping me three months ago.
+It should still be helping me
+
+659
+00:44:26,809 --> 00:44:28,704
+now,and then trying to power
+through it.
+
+660
+00:44:30,079 --> 00:44:32,278
+Carmen: Mm-hmm.Yeah,I agree.
+
+661
+00:44:34,215 --> 00:44:40,036
+Bekah: Um,okay.So I guess maybe
+one way that we can start to wrap
+
+662
+00:44:40,036 --> 00:44:45,766
+things up here is talking about
+that introverted experience and
+
+663
+00:44:45,856 --> 00:44:49,876
+what advice you have for
+individuals who are feeling
+
+664
+00:44:50,175 --> 00:44:55,246
+really nervous about coming into
+tech and interviewing for their
+
+665
+00:44:55,246 --> 00:44:58,635
+first or second job.Because I
+think that,you know,being an
+
+666
+00:44:58,635 --> 00:45:04,231
+introvert makes it.Maybe a little
+bit harder to interview for that
+
+667
+00:45:04,231 --> 00:45:08,490
+job and to be able to find those
+connections.So do you have any
+
+668
+00:45:08,490 --> 00:45:13,081
+advice for how to approach that
+in a way that doesn't seem
+
+669
+00:45:13,085 --> 00:45:13,891
+overwhelming?
+
+670
+00:45:14,498 --> 00:45:20,704
+Carmen: Um,gosh.It's,uh,it's hard
+for me to answer this one because
+
+671
+00:45:20,704 --> 00:45:24,333
+both of my,like interviews in
+tech have been very,uh,
+
+672
+00:45:24,364 --> 00:45:28,563
+non-traditional because,uh,first
+one was an internship and it was
+
+673
+00:45:28,568 --> 00:45:34,373
+just like,I like you,you like me,
+let's be a happy DevOps family
+
+674
+00:45:34,864 --> 00:45:38,884
+type of thing.And then the second
+job was actually through,uh,a
+
+675
+00:45:38,884 --> 00:45:43,443
+friend I made in Virtual Coffee.
+So,uh,both of them were very
+
+676
+00:45:43,503 --> 00:45:47,719
+non-traditional because they were
+like,I know that you know the
+
+677
+00:45:47,719 --> 00:45:52,128
+things cuz you talk about them in
+Virtual Coffee.So I don't need to
+
+678
+00:45:52,128 --> 00:45:55,188
+interview you technically about
+the things,and it's like,I wanna
+
+679
+00:45:55,188 --> 00:46:01,159
+work with you.Uh,so I guess,uh,
+that's one way to go about it is
+
+680
+00:46:01,188 --> 00:46:03,969
+make friends and then friends
+wanna work with friends because
+
+681
+00:46:03,969 --> 00:46:10,369
+you,you get along,you know,uh,
+you,you know how each other.Tick
+
+682
+00:46:10,429 --> 00:46:15,018
+kind of.So it's like,you know how
+to approach each other.Uh,so,so I
+
+683
+00:46:15,018 --> 00:46:16,958
+guess that's one way of going
+about it.
+
+684
+00:46:18,798 --> 00:46:21,619
+Bekah: I,I think that's really
+great advice,right?Like making
+
+685
+00:46:21,619 --> 00:46:25,639
+those connections can help ease
+that interview process for sure.
+
+686
+00:46:25,639 --> 00:46:32,748
+And that's been.All of my jobs in
+tech too,I think.Uh,and it,it
+
+687
+00:46:32,748 --> 00:46:36,139
+didn't start with meeting people.
+It started with tweeting about it
+
+688
+00:46:36,139 --> 00:46:38,869
+and then writing about it and
+then talking about it in
+
+689
+00:46:38,873 --> 00:46:44,673
+different ways.And so maybe like
+there's,I.There's a place where
+
+690
+00:46:44,673 --> 00:46:48,634
+you feel kind of comfortable or
+you don't feel as uncomfortable
+
+691
+00:46:48,634 --> 00:46:52,143
+or as exhausted from those
+interactions,and you can still
+
+692
+00:46:52,143 --> 00:46:54,994
+have a community and you can
+still meet people if you're
+
+693
+00:46:54,994 --> 00:46:58,054
+blogging about it or if you're
+writing about it,or if you post a
+
+694
+00:46:58,054 --> 00:47:01,313
+YouTube video.You don't have to
+have that face-to-face
+
+695
+00:47:01,313 --> 00:47:04,983
+interaction.But I do think that
+it's easier to have that
+
+696
+00:47:04,983 --> 00:47:08,824
+face-to-face interaction once
+you've engaged with people on
+
+697
+00:47:09,184 --> 00:47:10,233
+other platforms.
+
+698
+00:47:12,164 --> 00:47:16,083
+Carmen: Yeah.Yeah,definitely.
+And,and also you're interviewing
+
+699
+00:47:16,083 --> 00:47:20,403
+them,like,do you wanna work with.
+Best person,so I guess it goes
+
+700
+00:47:20,403 --> 00:47:21,273
+both ways.
+
+701
+00:47:22,804 --> 00:47:25,744
+Bekah: Yeah,absolutely.All right,
+Carmen,thanks so much for being
+
+702
+00:47:25,744 --> 00:47:29,134
+here with us today and sharing
+your story.We really appreciate
+
+703
+00:47:29,134 --> 00:47:32,583
+this.I think that it's gonna be
+helpful to a lot of people who
+
+704
+00:47:32,824 --> 00:47:35,853
+are going through some struggles
+now and have in the past,and
+
+705
+00:47:35,853 --> 00:47:39,423
+feeling like they're not alone in
+that experience.So thanks so much
+
+706
+00:47:39,423 --> 00:47:41,483
+for sharing your story with us
+today.
+
+707
+00:47:42,423 --> 00:47:43,324
+Carmen: Thank you.
+
+708
+00:47:43,878 --> 00:47:49,150
+Dan: Thanks Carmen.Thank you so
+much for listening to this
+
+709
+00:47:49,150 --> 00:47:52,541
+episode of the Virtual Coffee
+Podcast.This episode was produced
+
+710
+00:47:52,541 --> 00:47:55,541
+by Dan Ott and Bekah Hawrot
+Weigel,and edited by Ashley
+
+711
+00:47:55,541 --> 00:47:58,090
+Mulder.If you have questions or
+comments,you can hit us up on
+
+712
+00:47:58,090 --> 00:48:02,161
+Twitter@VirtualCoffeeIO or email
+us at podcast@virtualcoffee.io.
+
+713
+00:48:02,710 --> 00:48:05,141
+You can find the show notes,sign
+up for the newsletter,buy some VC
+
+714
+00:48:05,141 --> 00:48:07,601
+merch,and check out all of our
+other resources on our website,
+
+715
+00:48:07,601 --> 00:48:10,960
+virtualcoffee.io.If you're
+interested in sponsoring Virtual
+
+716
+00:48:10,965 --> 00:48:14,077
+Coffee,you can find out more
+information on our website at
+
+717
+00:48:14,077 --> 00:48:17,297
+virtualcoffee.io/sponsorship.
+Please subscribe to our podcast
+
+718
+00:48:17,297 --> 00:48:19,967
+and be sure to leave us a review.
+Thanks for listening and we'll
+
+719
+00:48:19,967 --> 00:48:20,896
+see you next week.
