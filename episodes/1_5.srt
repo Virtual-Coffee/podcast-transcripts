@@ -1,7 +1,7 @@
 1
 00:00:14,640 --> 00:00:16,980
 Bekah Hawrot Weigel: Hello, and
-welcome to season 1, episode
+welcome to Season 1, Episode
 
 2
 00:00:16,980 --> 00:00:23,339
@@ -19,133 +19,133 @@ Virtual Coffee is an intimate
 group of developers at all
 
 5
-00:00:29,670 --> 00:00:33,299
+00:00:29,670 --> 00:00:31,484
 stages of their coding journey.
-And they're here on this podcast
+And they're here, on this
 
 6
+00:00:31,484 --> 00:00:33,298
+podcast,
+
+7
 00:00:33,299 --> 00:00:36,329
 sharing their stories and what
 they've learned. And we're here
 
-7
+8
 00:00:36,329 --> 00:00:39,689
 to share it with you. Here with
 me today is my co-host, Dan.
 
-8
-00:00:40,590 --> 00:00:43,979
-Dan Ott: Thanks, Bekah. Today on
-this episode, you'll hear from
-
 9
-00:00:43,979 --> 00:00:47,369
-Rahat Chowdhury, and Cameron
-Bardell. Rahat is a
+00:00:40,590 --> 00:00:43,979
+Dan Ott: Thanks, Bekah. Today,
+on this episode, you'll hear
 
 10
+00:00:43,979 --> 00:00:47,369
+from Rahat Chowdhury and Cameron
+Bardell. Rahat is a
+
+11
 00:00:47,369 --> 00:00:50,640
 second-career developer, mental
 health advocate, live coding
 
-11
+12
 00:00:50,640 --> 00:00:53,700
 streamer, and a rapper. He is
 also the founder of a mental
 
-12
+13
 00:00:53,700 --> 00:00:56,939
 health startup called Whimser,
 which is aimed at providing
 
-13
+14
 00:00:56,939 --> 00:01:01,140
 tools to help keep up your
 mental health. Cameron is an iOS
 
-14
+15
 00:01:01,140 --> 00:01:04,379
 developer in the healthcare
 industry from Waterloo, Ontario.
 
-15
+16
 00:01:04,500 --> 00:01:07,439
 He is also in the final stages
 of an undergraduate degree in
 
-16
+17
 00:01:07,439 --> 00:01:11,340
 physics and computer science. In
 this episode, we talk about
 
-17
+18
 00:01:11,340 --> 00:01:14,069
 building mental health projects
 balancing mental health with
 
-18
+19
 00:01:14,069 --> 00:01:17,609
 careers and life and how mental
 health recovery isn't linear.
 
-19
-00:01:18,269 --> 00:01:20,099
-Bekah Hawrot Weigel: We start
-every episode of the podcast
-
 20
+00:01:18,269 --> 00:01:20,099
+Bekah: We start every episode of
+the podcast
+
+21
 00:01:20,099 --> 00:01:22,859
 like we start every Virtual
 Coffee. We introduce ourselves
 
-21
+22
 00:01:22,859 --> 00:01:27,000
 with our name, where we're from,
 what we do, and a random check
 
-22
-00:01:27,000 --> 00:01:31,349
-in question. Today's question is
-if you had to choose one
-
 23
+00:01:27,000 --> 00:01:31,349
+in question. Today's question
+is, if you had to choose one
+
+24
 00:01:31,349 --> 00:01:34,109
 song for karaoke, what would it
 be?
 
-24
+25
 00:01:43,469 --> 00:01:47,040
-Hey, I'm Bekah. I'm a front end
+Hey, I'm Bekah. I'm a front-end
 developer from a small town in
 
-25
+26
 00:01:47,040 --> 00:01:49,785
 Ohio. And if I could sing one
 song for karaoke, it would be
 
-26
-00:01:49,785 --> 00:01:52,530
-"No
-
 27
-00:01:52,530 --> 00:01:54,090
-Time Left For You" by The Guess
-Who?
+00:01:49,785 --> 00:01:54,090
+"No Time Left For You" by The
+Guess Who?
 
 28
 00:01:55,799 --> 00:01:59,340
-Dan Ott: Nice. Hi, I'm Dan. I'm
-a front end developer from
+Dan: Nice. Hi, I'm Dan. I'm a
+front-end developer from
 
 29
 00:01:59,370 --> 00:02:06,000
-Cleveland, Ohio. I would, if I
+Cleveland, Ohio. I would-- if I
 could sing any karaoke song, I
 
 30
 00:02:06,000 --> 00:02:08,639
-think anything about Cake is
-like really in my wheelhouse.
+think anything about Cake is,
+like, really in my wheelhouse.
 
 31
 00:02:09,210 --> 00:02:14,129
@@ -154,7 +154,7 @@ and his register kind of matches
 
 32
 00:02:14,129 --> 00:02:17,159
-mine. So I think pretty much
+mine. So I think, pretty much
 anything by Cake. And I would
 
 33
@@ -184,65 +184,65 @@ for the past month. So yeah.
 
 38
 00:02:34,110 --> 00:02:34,710
-Dan Ott: That's a good one.
+Dan: That's a good one.
 
 39
-00:02:35,879 --> 00:02:37,439
-Cameron Bardell: That's better
-than what I got (laugh). I'm
+00:02:35,879 --> 00:02:38,999
+Cameron: That's better than what
+I got [laughs]. I'm Cameron.
 
 40
-00:02:37,439 --> 00:02:38,999
-Cameron.
-
-41
 00:02:39,000 --> 00:02:43,379
 I'm an iOS developer from
 Waterloo, Ontario. And my go-to
 
-42
+41
 00:02:43,379 --> 00:02:45,750
 karaoke song is "Smile" by Uncle
 Cracker.
 
-43
+42
 00:02:46,650 --> 00:02:47,400
-Dan Ott: Nice.
+Dan: Nice.
+
+43
+00:02:47,490 --> 00:02:50,520
+Bekah: Awesome. Well, thank you
+both for being
 
 44
-00:02:47,490 --> 00:02:50,520
-Bekah Hawrot Weigel: Awesome.
-Well, thank you both for being
-
-45
 00:02:50,520 --> 00:02:53,550
 here. We're very excited to have
 you on today to talk about
 
-46
+45
 00:02:53,550 --> 00:02:56,879
 mental health tech. Both have
 been working on some really cool
 
-47
+46
 00:02:56,879 --> 00:03:01,169
 projects that we're excited to
 talk about. But before we get
 
-48
+47
 00:03:01,169 --> 00:03:04,500
 there, I always like to do a
 little bit of the origin story.
 
+48
+00:03:04,530 --> 00:03:06,674
+And so, can you talk about
+that-- maybe, Cameron, if you
+
 49
-00:03:04,530 --> 00:03:08,819
-And so can you talk about that
-maybe Cameron, if you want to
+00:03:06,674 --> 00:03:08,818
+want to
 
 50
 00:03:08,819 --> 00:03:12,449
 talk first and tell us how you
-got into tech and then Rahat.
+got into tech, and then Rahat.
 
 51
 00:03:12,449 --> 00:03:13,289
@@ -251,17 +251,17 @@ That would be awesome.
 52
 00:03:14,020 --> 00:03:16,449
 Cameron Bardell: Sure, yeah. I
-was always like, it's kind of a
+was always, like, it's kind of
 
 53
 00:03:16,900 --> 00:03:20,199
-techie kid. And then, but I
+a techie kid. And then-- but I
 didn't do any real programming
 
 54
 00:03:20,199 --> 00:03:23,979
 until I got to high school. So I
-think it was in about grade 10
+think, it was in about grade 10
 
 55
 00:03:24,310 --> 00:03:25,810
@@ -274,18 +274,18 @@ which was
 
 57
 00:03:27,310 --> 00:03:33,039
-all in Python. And my, my
-teacher, that course, who was a
+all in Python. And my- my
+teacher that course—who was a
 
 58
 00:03:33,039 --> 00:03:35,229
-really good guy who I still talk
-to sometimes, he was my
+really good guy, who I still
+talk to sometimes—he was my
 
 59
 00:03:35,229 --> 00:03:37,689
 computer science and physics
-teacher in high school. And now
+teacher in high school. And now,
 
 60
 00:03:37,689 --> 00:03:40,300
@@ -300,7 +300,7 @@ that I was taking a bit of extra
 62
 00:03:42,879 --> 00:03:44,484
 interest, then he pulled me
-aside and said, would you like
+aside and said, "Would you like
 
 63
 00:03:44,484 --> 00:03:46,089
@@ -308,83 +308,83 @@ to find
 
 64
 00:03:46,090 --> 00:03:49,120
-some extra projects to work on?
-And I said, yeah. So he sent me
+some extra projects to work on?"
+And I said, "Yeah." So, he sent
 
 65
 00:03:49,120 --> 00:03:53,530
-down to the like center for
-extended learning, I think it
+me down to the, like, center for
+extended learning—I think it
 
 66
-00:03:53,530 --> 00:03:55,540
-was called there in high school.
-And they were started, got
+00:03:53,530 --> 00:03:54,535
+was called there, in high
+school. And they were started--
 
 67
+00:03:54,535 --> 00:03:55,540
+got
+
+68
 00:03:55,540 --> 00:03:57,550
 started with a
 
-68
+69
 00:03:57,550 --> 00:03:59,395
 project building Flash games and
-action, and ActionScript
-
-69
-00:03:59,395 --> 00:04:01,240
-(laugh).
+Action- and ActionScript
 
 70
-00:04:01,900 --> 00:04:05,319
-Educational, yeah, RAP Flash,
-educational games and
+00:03:59,395 --> 00:04:01,240
+[laughs].
 
 71
-00:04:05,319 --> 00:04:07,374
-ActionScript for students, and
-that was my first, I don't know,
+00:04:01,900 --> 00:04:05,319
+Educational-- yeah, RAP Flash,
+educational games and
 
 72
-00:04:07,374 --> 00:04:09,429
-the first thing I
+00:04:05,319 --> 00:04:07,374
+ActionScript for students, and
+that was my first-- I don't
 
 73
-00:04:09,520 --> 00:04:12,789
-ever programmed that anyone else
-ever looked at. And you know, I
+00:04:07,374 --> 00:04:09,429
+know, the first thing I
 
 74
-00:04:12,789 --> 00:04:14,289
-just took it from there.
+00:04:09,520 --> 00:04:12,789
+ever programmed that anyone else
+ever looked at. And, you know,
 
 75
-00:04:14,889 --> 00:04:16,269
-Bekah Hawrot Weigel: That's
-awesome.  I always love those
+00:04:12,789 --> 00:04:14,289
+I just took it from there.
 
 76
+00:04:14,889 --> 00:04:16,269
+Bekah: That's awesome. I always
+love those
+
+77
 00:04:16,269 --> 00:04:19,240
 stories when you have good
 teachers who kind of, you know,
 
-77
+78
 00:04:19,420 --> 00:04:22,930
-notice that in you and, and
+notice that in you and- and
 they're able to cultivate that.
 
-78
-00:04:24,040 --> 00:04:25,540
-Cameron Bardell: That's a big
-thing what he does at that
-
 79
-00:04:25,540 --> 00:04:27,084
-school with me. He always like
-kinda gets identifies the kids
+00:04:24,040 --> 00:04:25,540
+Cameron: That's a big thing what
+he does at that school with me.
 
 80
-00:04:27,084 --> 00:04:28,628
-who
+00:04:25,540 --> 00:04:28,628
+He always, like, kinda gets
+identifies the kids who
 
 81
 00:04:28,660 --> 00:04:31,540
@@ -398,18 +398,18 @@ his wing. Just super great.
 
 83
 00:04:34,540 --> 00:04:36,730
-Bekah Hawrot Weigel: So great.
-All right. Rahat.
+Bekah: So great. All right.
+Rahat.
 
 84
 00:04:37,300 --> 00:04:40,629
-Rahat Chowdhury: Yeah, so I got
-into tech a little bit later in
+Rahat: Yeah. So, I got into tech
+a little bit later in
 
 85
 00:04:40,629 --> 00:04:44,379
-life, I guess. So I had a built
-up a career kind of in like
+life, I guess. So, I had a built
+up a career kind of in, like,
 
 86
 00:04:44,379 --> 00:04:47,319
@@ -417,4818 +417,4978 @@ customer support. And I was
 managing customer support teams
 
 87
-00:04:47,319 --> 00:04:52,149
+00:04:47,319 --> 00:04:49,734
 at different tech startups. And
-I got to like work with a lot of
+I got to, like, work with a lot
 
 88
-00:04:52,149 --> 00:04:55,120
-the engineers just seeing like
-different bugs kind of get fixed
+00:04:49,734 --> 00:04:52,149
+of
 
 89
+00:04:52,149 --> 00:04:55,120
+the engineers just seeing, like,
+different bugs kind of get fixed
+
+90
 00:04:55,120 --> 00:04:57,189
 whenever a customer would like
 complain about things, I guess.
 
-90
+91
 00:04:57,759 --> 00:05:01,779
 And that's what kind of got me
 interested into the whole thing
 
-91
+92
 00:05:01,779 --> 00:05:05,290
 at first. I wanted to see if I
 could be the one actually fixing
 
-92
+93
 00:05:05,290 --> 00:05:10,329
-stuff. So my wife is really
+stuff. So, my wife is really
 supportive. She helped me
 
-93
+94
 00:05:10,329 --> 00:05:14,620
 through a lot of things and went
-to a bootcamp and yeah, now I'm
-
-94
-00:05:14,620 --> 00:05:15,579
-doing fixing stuff.
+to a bootcamp. And, yeah, now
 
 95
-00:05:17,139 --> 00:05:21,819
-Bekah Hawrot Weigel: That is
-awesome. I love it. And so you
+00:05:14,620 --> 00:05:15,579
+I'm doing fixing stuff.
 
 96
+00:05:17,139 --> 00:05:21,819
+Bekah: That is awesome. I love
+it. And so you
+
+97
 00:05:21,819 --> 00:05:24,459
 both also have different
 histories with Virtual Coffee.
 
-97
+98
 00:05:24,459 --> 00:05:28,930
 Cameron, I feel like I've known
 you forever. I remember you
 
-98
+99
 00:05:28,930 --> 00:05:32,470
 first joining Virtual Coffee.
 But I always like to ask to
 
-99
+100
 00:05:32,470 --> 00:05:35,050
 you, how did you find Virtual
 Coffee?
 
-100
-00:05:35,550 --> 00:05:37,110
-Cameron Bardell: Yeah. So
-someone retweeted I think it was
-
 101
-00:05:37,110 --> 00:05:40,110
-in June, you guys there in
-April, right? Then somebody
+00:05:35,550 --> 00:05:37,110
+Cameron: Yeah. So, someone
+retweeted, I think. It
 
 102
-00:05:40,110 --> 00:05:43,500
-retweeted your invite link in
-June. And I think I just
+00:05:37,110 --> 00:05:40,110
+was in June, you guys there in
+April, right? Then, somebody
 
 103
-00:05:43,500 --> 00:05:45,540
-replied to the tweet asking you
-if it was public, or if it was
+00:05:40,110 --> 00:05:43,500
+retweeted your invite link in
+June. And I think, I just
 
 104
-00:05:45,540 --> 00:05:47,430
-like, kind of close thing? You
-said, yeah, it's public. Come
+00:05:43,500 --> 00:05:45,540
+replied to the tweet asking you
+if it was public or if it was,
 
 105
-00:05:47,430 --> 00:05:50,550
-join. So I did. And I've been
-coming ever since then. It was
+00:05:45,540 --> 00:05:47,430
+like, kind of close thing? You
+said, "Yeah, it's public. Come
 
 106
-00:05:50,550 --> 00:05:52,740
-probably, it was really, you
-know, in the midst of the
+00:05:47,430 --> 00:05:50,550
+join." So, I did. And I've been
+coming ever since then. It was
 
 107
-00:05:52,740 --> 00:05:55,620
-pandemic, and, you know, talk to
-anyone that it wasn't directly
+00:05:50,550 --> 00:05:52,740
+probably-- it was really, you
+know, in the midst of the
 
 108
-00:05:55,620 --> 00:05:59,550
-related to a month. It was a bit
-of a savior for me.
+00:05:52,740 --> 00:05:55,620
+pandemic. And, you know, talk to
+anyone that it wasn't directly
 
 109
+00:05:55,620 --> 00:05:59,550
+related to a month, it was a bit
+of a savior for me.
+
+110
 00:05:59,550 --> 00:06:01,529
 Definitely one of the best
 things I did in all of 2020.
 
-110
-00:06:02,279 --> 00:06:04,800
-Bekah Hawrot Weigel: Yeah, and
-now you are, you're growing our
-
 111
-00:06:04,829 --> 00:06:06,779
-iOS, our mobile group of
-developers, because people see,
+00:06:02,279 --> 00:06:04,800
+Bekah: Yeah. And now, you are--
+you're growing
 
 112
+00:06:04,829 --> 00:06:06,779
+our iOS, our mobile group of
+developers because people see,
+
+113
 00:06:06,779 --> 00:06:08,729
 and they come for Cameron.
 
-113
-00:06:08,970 --> 00:06:09,105
-Cameron Bardell: Yeah. I was the
-only one for a long time
-
 114
-00:06:09,105 --> 00:06:09,240
-(laugh).
+00:06:08,970 --> 00:06:09,240
+Cameron: Yeah. I was the only
+one for a long time [laughs].
 
 115
 00:06:11,850 --> 00:06:13,290
 I was only one for a few months.
-Now I think
+Now, I think,
 
 116
 00:06:13,290 --> 00:06:16,589
 we're up to four or five. You
-know, we're still, what is
+know, we're still ... what is
 
 117
 00:06:16,589 --> 00:06:18,810
 that? 2% of all the people who
-attend (laugh), but still.
+attend [laughs], but still.
 
 118
 00:06:19,889 --> 00:06:22,019
-Dan Ott: Also a strong member of
-our Canadian contingent.
+Dan: Also a strong member of our
+Canadian contingent.
 
 119
 00:06:22,500 --> 00:06:23,160
-Cameron Bardell: Right? Yeah.
+Cameron: Right? Yeah.
 
 120
 00:06:23,910 --> 00:06:24,480
-Bekah Hawrot Weigel: Yeah.
+Bekah: Yeah.
 
 121
 00:06:24,480 --> 00:06:26,699
-Cameron Bardell: Like, I'm
-meeting some niche groups.
+Cameron: Like, I'm meeting some
+niche groups.
 
 122
-00:06:29,579 --> 00:06:30,929
-Bekah Hawrot Weigel: (laugh) And
-Rahat. How did you find Virtual
+00:06:29,579 --> 00:06:32,279
+Bekah: [Laughs] And Rahat, how
+did you find Virtual Coffee?
 
 123
-00:06:30,929 --> 00:06:32,279
-Coffee?
+00:06:32,819 --> 00:06:34,514
+Rahat: I think I've seen it a
+couple times on
 
 124
-00:06:32,819 --> 00:06:34,514
-Rahat Chowdhury: Um, I think
-I've seen it a couple times on
-
-125
 00:06:34,514 --> 00:06:36,209
 Twitter.
 
-126
+125
 00:06:36,449 --> 00:06:38,219
-And I didn't join at first,
+And I didn't join at first
 because I'm not 100% know what
 
-127
-00:06:38,219 --> 00:06:39,989
-it
-
-128
-00:06:39,990 --> 00:06:47,579
-was? And then I think it was
+126
+00:06:38,219 --> 00:06:47,579
+it was? And then, I think it was
 Andy, from protege.dev, told
 
-129
+127
 00:06:47,579 --> 00:06:52,350
 me a little bit about it. And
 yeah, joined in into one of the
 
-130
+128
 00:06:53,699 --> 00:06:57,089
 meetups, I guess. And then,
 yeah, from there just really
 
-131
+129
 00:06:57,089 --> 00:07:00,269
 loved the environment and vibe.
-So kept going.
+So, kept going.
 
-132
+130
 00:07:00,750 --> 00:07:02,579
-Bekah Hawrot Weigel: Yeah, nice.
-I remember, I remember that
+Bekah: Yeah, nice. I remember- I
+remember that
 
-133
+131
 00:07:02,579 --> 00:07:05,129
 conversation now. Because we
 were talking about working on
 
-134
+132
 00:07:05,160 --> 00:07:06,180
 Epic React.
 
-135
+133
 00:07:06,269 --> 00:07:06,569
-Rahat Chowdhury: Yeah.
+Rahat: Yeah.
+
+134
+00:07:06,600 --> 00:07:10,439
+Bekah: And we have a channel for
+that, which is not
+
+135
+00:07:10,439 --> 00:07:10,980
+that active [laughs].
 
 136
-00:07:06,600 --> 00:07:10,439
-Bekah Hawrot Weigel: And we have
-a channel for that, which is not
+00:07:13,290 --> 00:07:14,309
+Rahat: [Laughs] Came for Epic
+React, stayed for
 
 137
-00:07:10,439 --> 00:07:10,980
-that active. (laugh)
-
-138
-00:07:13,290 --> 00:07:14,309
-Rahat Chowdhury: (laugh) Came
-for Epic React, stayed for
-
-139
 00:07:14,309 --> 00:07:15,328
 everything else.
 
-140
+138
 00:07:16,019 --> 00:07:18,180
-Bekah Hawrot Weigel: There you
-go. It's our new tagline.
+Bekah: There you go. It's our
+new tagline.
 
-141
+139
 00:07:20,040 --> 00:07:23,639
 Okay, so both of you have
 projects using mental health
 
-142
+140
 00:07:23,639 --> 00:07:26,970
 tech, and I'd love to talk a
-little bit more about those. So
+little bit more about those. So,
 
-143
+141
 00:07:27,600 --> 00:07:30,540
 can you just kind of give an
 overview about the projects that
 
-144
+142
 00:07:30,540 --> 00:07:31,529
 you started?
 
-145
-00:07:32,699 --> 00:07:34,589
-Rahat Chowdhury: Yeah. So
-there's a couple, two things
+143
+00:07:32,699 --> 00:07:36,479
+Rahat: Yeah. So, there's a
+couple-- two things that I'm
 
-146
-00:07:34,589 --> 00:07:36,479
-that I'm
-
-147
+144
 00:07:36,509 --> 00:07:40,649
 mainly working on. One is an
-open-source project. It's called
+open source project. It's called
 
-148
+145
 00:07:40,649 --> 00:07:47,040
-The Sylar Project. So that is
-sort of like a database of
+The Sylar Project. So, that is
+sort of, like, a database of
 
-149
+146
 00:07:47,040 --> 00:07:51,600
 different mental health
 resources in the US. What I'm
 
-150
+147
 00:07:51,600 --> 00:07:55,110
 hoping is to kind of like, get
 people to help me add more and
 
-151
+148
 00:07:55,110 --> 00:07:59,370
 more resources to it. And either
 in their own states or cities.
 
-152
+149
 00:07:59,699 --> 00:08:04,800
-So there could be like more
+So, there could be, like, more
 stuff for people to look up. The
 
-153
+150
 00:08:04,800 --> 00:08:08,160
 reason I kind of started it is
 because, you know, taking that
 
-154
+151
 00:08:08,160 --> 00:08:12,240
-step into, like trying to find
+step into, like, trying to find
 help or find resources that will
 
-155
+152
 00:08:12,240 --> 00:08:16,620
 help you is like a pretty big
 one. And I wanted to make it as
 
-156
+153
 00:08:16,620 --> 00:08:20,310
-easy as possible, like once you
+easy as possible, like, once you
 did make that step to find
 
-157
+154
 00:08:20,399 --> 00:08:23,790
 something that could be helpful
-for you. So having it all kind
+for you. So, having it all kind
 
-158
+155
 00:08:23,790 --> 00:08:27,060
 of like in one central place
 would be, you know, probably
 
-159
+156
 00:08:27,060 --> 00:08:32,250
-ideal for that. So yeah, I'm,
+ideal for that. So yeah, I'm--
 eventually I'm going to turn it
 
-160
-00:08:32,250 --> 00:08:35,309
-into like an API that other
-developers can like, build stuff
+157
+00:08:32,250 --> 00:08:33,779
+into, like, an API that other
+developers can, like, build
 
-161
+158
+00:08:33,779 --> 00:08:35,308
+stuff
+
+159
 00:08:35,309 --> 00:08:40,559
 off of. But for now, yeah, it's
 just kind of a list. The US,
 
-162
+160
 00:08:40,559 --> 00:08:45,240
 hopefully, maybe in more
 countries soon. And yeah, the
 
-163
+161
 00:08:45,269 --> 00:08:49,500
 thing is a startup, I'm hoping
 to launch very, very soon. It's
 
-164
+162
 00:08:49,500 --> 00:08:53,100
 called Whimser. And it's all
 about cognitive-behavioral
 
-165
+163
 00:08:53,100 --> 00:08:56,940
 therapy, and kind of like
 journaling and voice note
 
-166
+164
 00:08:56,940 --> 00:09:00,870
 journaling, and kind of getting
-reminders of like, the good
+reminders of, like, the good
 
-167
+165
 00:09:01,049 --> 00:09:03,929
 things that happened over time
 and challenging those negative
 
-168
+166
 00:09:03,929 --> 00:09:04,320
 thoughts and stuffs.
 
-169
+167
 00:09:05,669 --> 00:09:08,340
-Bekah Hawrot Weigel: That's
-awesome. I love that. I was
+Bekah: That's awesome. I love
+that. I was
 
-170
+168
 00:09:08,399 --> 00:09:13,440
 working on this postpartum app.
 And I kind of just went into it,
 
-171
+169
 00:09:13,860 --> 00:09:17,220
 working on it by myself. But I
 reached out to a group of moms
 
-172
+170
 00:09:17,220 --> 00:09:19,679
-and I said, like, what would you
-like to see in something like
+and I said, like, "What would
+you like to see in something
 
-173
+171
 00:09:19,679 --> 00:09:23,370
-this? And one of the top
+like this?" And one of the top
 responses was resources for my
 
-174
+172
 00:09:23,370 --> 00:09:29,039
 area. And I didn't have anything
 about that there. But also, it
 
-175
+173
 00:09:29,039 --> 00:09:34,139
 was really hard to find that
-online, too. And so I certainly
+online, too. And so, I certainly
 
-176
+174
 00:09:34,139 --> 00:09:38,700
 think that that's really, really
 valuable. Along with, you know,
 
-177
+175
 00:09:38,759 --> 00:09:41,669
 all of the other things,
 anything that can benefit mental
 
-178
+176
 00:09:41,669 --> 00:09:43,740
 health is super important.
 
-179
+177
 00:09:45,090 --> 00:09:46,529
-Rahat Chowdhury: Yeah, I think
-there's like a lot of, I guess,
+Rahat: Yeah, I think there's
+like a lot of, I guess,
 
-180
+178
 00:09:46,529 --> 00:09:49,139
 niches in mental health that
 aren't really covered in some of
 
-181
+179
 00:09:49,139 --> 00:09:52,139
-the general labs. So there's
+the general labs. So, there's
 definitely a lot of things that
 
-182
+180
 00:09:52,139 --> 00:09:54,450
 we can do in this space.
 
-183
+181
 00:09:55,019 --> 00:09:56,730
-Bekah Hawrot Weigel: I feel like
-I could talk about it for seven
+Bekah: I feel like I could talk
+about it for seven
 
-184
+182
 00:09:56,730 --> 00:10:03,059
-hours. So try and stay focused
-here. Um, Cameron, what about
+hours. So, try and stay focused
+here. Cameron, what about
 
-185
+183
 00:10:03,059 --> 00:10:03,840
 your project?
 
-186
+184
 00:10:04,320 --> 00:10:06,629
-Cameron Bardell: Sure. So my
-project kind of grew out of my
+Cameron: Sure. So, my project
+kind of grew out of my
 
-187
+185
 00:10:06,629 --> 00:10:09,450
 own personal journey with mental
-health, I was doing lots of
+health. I was doing lots of
 
-188
+186
 00:10:09,450 --> 00:10:12,570
 research on how people track
 their mental health over time
 
-189
+187
 00:10:12,570 --> 00:10:15,929
-and how you can do, there's
-various different methods to
+and how you can do-- there's
+various different methods to,
+
+188
+00:10:15,929 --> 00:10:19,169
+like, check trends and mental
+health. Whether it's like- like
+
+189
+00:10:19,169 --> 00:10:20,639
+CBT—like Rahat said—or just,
+like, doing daily journaling
 
 190
-00:10:15,929 --> 00:10:19,169
-like check trends and mental
-health, whether it's like, like
+00:10:20,639 --> 00:10:22,109
+or--
 
 191
-00:10:19,169 --> 00:10:22,110
-CBT, like Rahat said, or just
-like doing daily journaling, or,
-
-192
 00:10:22,529 --> 00:10:26,580
 and I found that a lot of these
 clinical studies use these super
 
+192
+00:10:26,580 --> 00:10:28,500
+long surveys that can take up
+to, like, half an hour to
+
 193
-00:10:26,580 --> 00:10:29,250
-long surveys that can take up to
-like, half an hour to complete,
+00:10:28,500 --> 00:10:30,960
+complete, and you're supposed to
+do them every day. And that's
 
 194
-00:10:29,250 --> 00:10:30,960
-and you're supposed to do them
-every day. And that's
-
-195
 00:10:30,960 --> 00:10:33,690
 exhausting. And it was a time
 for that. So I dug a little more
 
-196
+195
 00:10:33,690 --> 00:10:36,480
-into that, and found that those
-studies who use those, I would
+into that and found that those
+studies who use those-- I would
 
-197
+196
 00:10:36,480 --> 00:10:38,039
 certainly have their place and
 not saying they should be
 
-198
+197
 00:10:38,039 --> 00:10:41,909
 replaced in anyway. But they can
 often get similar results to
 
-199
+198
 00:10:41,909 --> 00:10:44,970
 these other smaller scale
 studies that use really simple
 
+199
+00:10:45,000 --> 00:10:46,274
+measurement systems. And the one
+I found that I really liked
+
 200
-00:10:45,000 --> 00:10:47,549
-measurement systems and the one
-I found that I really liked was,
+00:10:46,274 --> 00:10:47,548
+was--
 
 201
 00:10:49,379 --> 00:10:52,320
-so it's just really simple, all
-you do is you get yourself, your
+so, it's just really simple. All
+you do is you get yourself your
 
 202
 00:10:52,320 --> 00:10:55,110
-mental well being whatever is
-most important to you, on a
+mental well-being—whatever is
+most important to you—on a
 
 203
 00:10:55,110 --> 00:10:57,690
 scale of 1 to 10, once in the
-morning, and once in the
+morning and once in the
 
 204
 00:10:57,690 --> 00:11:00,570
 evening, and you do that twice.
-So you do it kind of for your
+So, you do it kind of for your
 
 205
-00:11:00,570 --> 00:11:02,639
-general overall well being, then
-you pick another thing that's
+00:11:00,570 --> 00:11:01,604
+general overall well-being.
+Then, you pick another thing
 
 206
-00:11:02,639 --> 00:11:04,889
-important to you, whether
-that's, you know, your sleep, or
+00:11:01,604 --> 00:11:02,638
+that's
 
 207
+00:11:02,639 --> 00:11:04,889
+important to you, whether
+that's, you know, your sleep or
+
+208
 00:11:04,889 --> 00:11:08,490
 your anxiety or your nutrition,
 and you rate that in a scale of
 
-208
+209
 00:11:08,490 --> 00:11:10,440
 1 to 10 along with your general
-wellness. So you're
+wellness. So, you're
 
-209
+210
 00:11:10,440 --> 00:11:12,419
 basically doing four readings a
 day. Two in the morning, two in
 
-210
+211
 00:11:12,419 --> 00:11:14,234
 the afternoon. It's super easy
-to do. You, I, you know, you
+to do. You-- I-- you know, you
 
-211
+212
 00:11:14,234 --> 00:11:16,049
 open
 
-212
+213
 00:11:16,049 --> 00:11:18,269
 after 10 seconds a day and do
 your reading, and then you go
 
-213
+214
 00:11:18,269 --> 00:11:20,700
 about with your day. So I
 started building an app for
 
-214
+215
 00:11:20,700 --> 00:11:24,299
 that. And I've had to kind of
 shell that a little bit because
 
-215
+216
 00:11:24,299 --> 00:11:27,179
 I recently started a new full
 time job, hoping to get back to
 
-216
-00:11:27,179 --> 00:11:29,639
-it soon. But yeah, I think a lot
-of the solutions out there
-
 217
+00:11:27,179 --> 00:11:29,639
+it soon. But, yeah, I think a
+lot of the solutions out there
+
+218
 00:11:31,019 --> 00:11:32,729
 really intensive and
 time-consuming. And you're meant
 
-218
+219
 00:11:32,729 --> 00:11:34,439
 to
 
-219
+220
 00:11:34,440 --> 00:11:37,350
 open the app and kind of spend
 some time in there. But I think,
 
-220
+221
 00:11:37,350 --> 00:11:40,320
 you know, the goal for my app
 would be to spend as little time
 
-221
+222
 00:11:40,320 --> 00:11:40,980
 in it as possible.
 
-222
-00:11:43,409 --> 00:11:45,000
-Bekah Hawrot Weigel: Yeah, I
-like that approach. Some of
-
 223
-00:11:45,000 --> 00:11:47,685
-those, you, you look at in it,
-it's so complicated, it that it,
+00:11:43,409 --> 00:11:45,000
+Bekah: Yeah, I like that
+approach. Some of
 
 224
-00:11:47,685 --> 00:11:50,370
-it's an
+00:11:45,000 --> 00:11:47,685
+those, you- you look at in it,
+it's so complicated. It-- that
 
 225
-00:11:50,370 --> 00:11:54,330
-automatic like, I'm done. I'm
-not gonna sit here and go
+00:11:47,685 --> 00:11:50,370
+it-- it's an
 
 226
+00:11:50,370 --> 00:11:54,330
+automatic, like, I'm done. I'm
+not gonna sit here and go
+
+227
 00:11:54,330 --> 00:11:57,509
 through all of these things. And
 watch all of your screens give
 
-227
+228
 00:11:57,509 --> 00:11:59,309
 me messages and positive things
 like I want to feel where I
 
-228
+229
 00:11:59,309 --> 00:12:01,109
 wanna go.
 
-229
-00:12:02,220 --> 00:12:03,299
-Cameron Bardell: It feels like
-you're supposed to live in the
-
 230
-00:12:03,299 --> 00:12:05,730
-app, sometimes. Like they have
-common videos to watch, and you
+00:12:02,220 --> 00:12:03,299
+Cameron: It feels like you're
+supposed to live in the
 
 231
-00:12:05,730 --> 00:12:08,519
-know, like maybe guided
-meditations, or some of them are
+00:12:03,299 --> 00:12:05,730
+app, sometimes. Like, they have
+common videos to watch and, you
 
 232
-00:12:08,519 --> 00:12:11,220
-like gamified, where you can
-like earn awards and stuff. And
+00:12:05,730 --> 00:12:07,124
+know, like, maybe guided
+meditations, or some of them
 
 233
+00:12:07,124 --> 00:12:08,518
+are,
+
+234
+00:12:08,519 --> 00:12:11,220
+like, gamified, where you can,
+like, earn awards and stuff. And
+
+235
 00:12:11,220 --> 00:12:13,710
 sure, yeah, those work for tons
 of people get great reviews and
 
-234
+236
 00:12:13,710 --> 00:12:15,359
 works a lot. But it doesn't work
-for me (laugh). I want to, you
+for me [laughs]. I want to, you
 
-235
+237
 00:12:15,359 --> 00:12:17,008
 know, I
 
-236
+238
 00:12:17,009 --> 00:12:20,009
 want to spend as little time
-thinking about it. So, and there
-
-237
-00:12:20,009 --> 00:12:21,299
-was no solution out there. So I
-built it.
-
-238
-00:12:22,379 --> 00:12:26,039
-Dan Ott: That's awesome. I was
-going to say something about
+thinking about it. So-- and
 
 239
-00:12:26,039 --> 00:12:29,699
-the,
+00:12:20,009 --> 00:12:21,299
+there was no solution out there.
+So, I built it.
 
 240
-00:12:29,700 --> 00:12:32,639
-oh, the cognitive therapy, yeah.
-Rahat, you had mentioned that
+00:12:22,379 --> 00:12:26,039
+Dan: That's awesome. I was going
+to say something about
 
 241
-00:12:32,639 --> 00:12:35,624
-with your, with your startup
-that you're working on. The,
+00:12:26,039 --> 00:12:29,699
+the--
 
 242
+00:12:29,700 --> 00:12:32,639
+oh, the cognitive therapy. Yeah.
+Rahat, you had mentioned that
+
+243
+00:12:32,639 --> 00:12:35,624
+with your- with your startup
+that you're working on, the--
+
+244
 00:12:35,624 --> 00:12:38,609
 that area
 
-243
+245
 00:12:38,610 --> 00:12:42,509
-of like therapy has been very
+of, like, therapy has been very
 interesting to me. And at some
 
-244
+246
 00:12:42,509 --> 00:12:44,474
-times, it's been successful, but
-a lot of it with, I mean
+times, it's been successful but
+a lot of it with-- I mean,
 
-245
+247
 00:12:44,474 --> 00:12:46,439
 personally,
 
-246
+248
 00:12:46,440 --> 00:12:48,150
-when, I mean it's just my
+when-- I mean, it's just my
 personal experience, my problem
 
-247
+249
 00:12:48,150 --> 00:12:49,860
 with it
 
-248
+250
 00:12:49,860 --> 00:12:54,509
 is sort of getting myself to do
 anything about it. And this is
 
-249
+251
 00:12:54,509 --> 00:12:57,029
 sort of applies to what Cameron
-was saying to you. But like, the
+was saying to you. But, like,
 
-250
+252
 00:12:57,120 --> 00:12:58,470
-exercises that a therapist
-would, would give me would be,
+the exercises that a therapist
+would- would give me would be,
 
-251
+253
 00:12:58,470 --> 00:12:59,820
 you
 
-252
+254
 00:12:59,820 --> 00:13:02,519
 know, these things that I have
-to both remember how to do,
+to both remember how to do-
 
-253
+255
 00:13:02,580 --> 00:13:06,509
 remember to do them, and then
 also, I don't know, do them at
 
-254
-00:13:06,509 --> 00:13:08,700
-the right way, or whatever. Or
-maybe there isn't like a right
+256
+00:13:06,509 --> 00:13:07,604
+the right way or whatever. Or
+maybe, there isn't, like, a
 
-255
+257
+00:13:07,604 --> 00:13:08,699
+right
+
+258
 00:13:08,700 --> 00:13:12,149
 way. But it's like there's full
 of doubt, you know, like,
 
-256
+259
 00:13:13,980 --> 00:13:15,600
 wondering if I'm doing it the
-right way or not. So I was, I
-
-257
-00:13:15,600 --> 00:13:17,220
-was
-
-258
-00:13:17,220 --> 00:13:20,610
-wondering if there's, if you
-have some plans with cognitive
-
-259
-00:13:20,610 --> 00:13:24,750
-therapy, like specifically
-about, you know, I don't know.
+right way or not. So, I was- I
 
 260
-00:13:24,779 --> 00:13:27,389
-About how to approach like, sort
-of things like that?
+00:13:15,600 --> 00:13:18,105
+was wondering if there's-- if
+you have some plans with
 
 261
-00:13:27,570 --> 00:13:30,149
-Rahat Chowdhury: Yeah, I think
-in our case, probably, cognitive
+00:13:18,105 --> 00:13:20,610
+cognitive
 
 262
-00:13:30,299 --> 00:13:33,299
-behavioral therapy is probably
-just kind of in the MVP, or the
+00:13:20,610 --> 00:13:24,750
+therapy, like, specifically
+about, you know-- I don't know.
 
 263
-00:13:33,299 --> 00:13:35,864
-beginning stages. What we're
-kind of planning to do is like,
+00:13:24,779 --> 00:13:27,389
+About how to approach, like,
+sort of things like that?
 
 264
+00:13:27,570 --> 00:13:30,149
+Rahat: Yeah. I think, in our
+case, probably-- cognitive
+
+265
+00:13:30,299 --> 00:13:33,299
+behavioral therapy is probably
+just kind of in the MVP or the
+
+266
+00:13:33,299 --> 00:13:35,864
+beginning stages. What we're
+kind of planning to do is, like,
+
+267
 00:13:35,864 --> 00:13:38,429
 have it
 
-265
+268
 00:13:39,360 --> 00:13:42,690
 be a little bit of a guided sort
 of prompt thing, but hopefully,
 
-266
+269
 00:13:42,690 --> 00:13:45,929
-with not too many prompts, like
-Cameron mentioned, which is
+with not too many prompts—like
+Cameron mentioned—which is
 
-267
+270
 00:13:45,929 --> 00:13:49,289
 definitely an issue in a lot of
-apps. So it's kind of like,
+apps. So, it's kind of like
 
-268
+271
 00:13:49,919 --> 00:13:54,929
 choose your emotion. You can
 write down something, record
 
-269
-00:13:54,929 --> 00:13:59,039
-something and be done with that.
-Or if you want to, like, get
+272
+00:13:54,929 --> 00:13:56,984
+something, and be done with
+that. Or if you want to, like,
 
-270
+273
+00:13:56,984 --> 00:13:59,039
+get
+
+274
 00:13:59,039 --> 00:14:01,740
 more insight onto things and
 challenge some of your thoughts.
 
-271
+275
 00:14:02,070 --> 00:14:04,769
 It'll then take you on, like,
-guided like two more questions
+guided, like, two more questions
 
-272
+276
 00:14:04,799 --> 00:14:07,829
-of like, what's a cognitive,
-like a cognitive behavioral
+of, like, "what's a cognitive",
+like, "a cognitive behavioral
 
-273
+277
 00:14:07,829 --> 00:14:10,859
 distortion
 
-274
+278
 00:14:11,519 --> 00:14:15,360
-that you're facing right now.
-Gives you some info about what
+that you're facing right now",
+gives you some info about what
 
-275
+279
 00:14:15,360 --> 00:14:19,080
 those are, and asks you to kind
 of challenge the thought in some
 
-276
+280
 00:14:19,080 --> 00:14:21,915
-way. And, you know, if, and
-that, that journey, I think is
+way. And, you know, if-- and
+that- that journey, I think, is
 
-277
+281
 00:14:21,915 --> 00:14:24,750
 more
 
-278
+282
 00:14:24,750 --> 00:14:30,059
 optional. And sort of like, if
-you just want to record, record
+you just want to record- record
 
-279
+283
 00:14:30,059 --> 00:14:33,240
 yourself an event, it's kind of
-like, that's an option too.
+like-- that's an option too.
 
-280
-00:14:33,960 --> 00:14:39,840
-And if you do want more, more of
-that info and more like, I guess
+284
+00:14:33,960 --> 00:14:36,900
+And if you do want more- more of
+that info and more, like, I
 
-281
+285
+00:14:36,900 --> 00:14:39,840
+guess
+
+286
 00:14:39,870 --> 00:14:44,100
 more deeper CBT stuff, then it's
 a little bit guided scope and
 
-282
+287
 00:14:44,100 --> 00:14:49,200
 more questions on that. Our
 eventual hope is that the app
 
-283
+288
 00:14:49,200 --> 00:14:55,379
 kind of becomes a sort of like a
-custom journey based on like
+custom journey based on, like,
 
-284
+289
 00:14:55,379 --> 00:14:57,450
-your work with like your
-therapist or psychiatrist, or
+your work with, like, your
+therapist or psychiatrist or
 
-285
-00:14:57,450 --> 00:15:01,289
-whoever. We're hoping that like
-health professionals can like
+290
+00:14:57,450 --> 00:14:59,369
+whoever. We're hoping that,
+like, health professionals can,
 
-286
+291
+00:14:59,369 --> 00:15:01,288
+like,
+
+292
 00:15:01,379 --> 00:15:03,584
 prescribe a journey for the app
 that's tailored towards the
 
-287
+293
 00:15:03,584 --> 00:15:05,789
 user.
 
-288
-00:15:06,750 --> 00:15:08,160
-Dan Ott: That's really
-interesting. Yeah, that, I
+294
+00:15:06,750 --> 00:15:09,570
+Dan: That's really interesting.
+Yeah, that-- I hadn't
 
-289
-00:15:08,160 --> 00:15:09,570
-hadn't
+295
+00:15:09,570 --> 00:15:12,030
+really thought about-- I mean,
+they don't always-- like,
 
-290
-00:15:09,570 --> 00:15:14,490
-really thought about, I mean,
-they don't always like, there's
+296
+00:15:12,030 --> 00:15:14,490
+there's
 
-291
+297
 00:15:14,490 --> 00:15:19,440
 a lot of apps out there. But not
-always connected, you know, to
+always connected, you know, to,
 
-292
+298
 00:15:19,590 --> 00:15:20,955
 like, to therapy, right? And
-it's kind of okay, therapy is
+it's kind of, "Okay, therapy is
 
-293
+299
 00:15:20,955 --> 00:15:22,320
 either
 
-294
+300
 00:15:22,320 --> 00:15:25,559
-not doing it for me or, you
+not doing it for me," or, you
 know, something like that. And
 
-295
+301
 00:15:25,559 --> 00:15:28,889
 people are kind of going on
-their own to like, onto the App
+their own-- to, like, onto the
 
-296
+302
 00:15:28,889 --> 00:15:29,700
-Store, you know?
+app store, you know?
 
-297
+303
 00:15:29,000 --> 00:15:31,909
-Rahat Chowdhury: I think CBT
-definitely doesn't work for
+Rahat: I think CBT definitely
+doesn't work for
 
-298
+304
 00:15:31,909 --> 00:15:37,190
 everybody. So, yeah, our goal is
-just to like, while we're
+just to, like, while we're
 
-299
+305
 00:15:37,190 --> 00:15:41,509
 starting there, we just want to
-figure out like, something easy
+figure out, like, something easy
 
-300
+306
 00:15:41,509 --> 00:15:45,559
 and simple for people to do that
 is helpful for them. And just
 
-301
+307
 00:15:45,559 --> 00:15:48,980
 based on stuff that an actual
 therapist would recommend for
 
-302
+308
 00:15:48,980 --> 00:15:50,690
 them to do on their own time.
 
-303
+309
 00:15:51,169 --> 00:15:51,919
-Cameron Bardell: Like Rahat said
+Cameron: Like Rahat said
 earlier, there's tons of room in
 
-304
-00:15:51,919 --> 00:15:52,669
-the
+310
+00:15:51,919 --> 00:15:53,524
+the space, very-- like, very
+individual responses. I mean,
 
-305
-00:15:52,730 --> 00:15:55,129
-space very, like very individual
-responses. I mean, that's the
+311
+00:15:53,524 --> 00:15:55,129
+that's the
 
-306
+312
 00:15:55,129 --> 00:15:56,629
 whole problem with mental
 health. It's the problem and
 
-307
+313
 00:15:56,629 --> 00:15:58,159
-the solution, I guess. Is that
+the solution, I guess, is that
 it's so varied for an
 
-308
+314
 00:15:58,159 --> 00:15:59,689
 individual,
 
-309
+315
 00:15:59,690 --> 00:16:02,600
 for everyone. So yeah, there's
 just tons of different ways to
 
-310
-00:16:02,629 --> 00:16:05,720
-build tools like this. And each
-I know, part of figuring out how
+316
+00:16:02,629 --> 00:16:04,174
+build tools like this. And
+each-- I know, part of figuring
 
-311
+317
+00:16:04,174 --> 00:16:05,719
+out how
+
+318
 00:16:05,720 --> 00:16:07,220
 to control your own mental
 health is you might have to try
 
-312
+319
 00:16:07,220 --> 00:16:08,870
 a lot of these different things,
 and most of them won't work. And
 
-313
+320
 00:16:08,870 --> 00:16:10,235
 that's really hard and
 frustrating. But, you know, it's
 
-314
-00:16:10,235 --> 00:16:11,600
-part of
+321
+00:16:10,235 --> 00:16:11,929
+part of the journey.
 
-315
-00:16:11,600 --> 00:16:11,929
-the journey.
-
-316
+322
 00:16:14,190 --> 00:16:16,409
-Bekah Hawrot Weigel: Yeah, and I
-think, you know, they're all
+Bekah: Yeah. And I think, you
+know, they're all
 
-317
+323
 00:16:16,440 --> 00:16:19,799
 valuable. Because everybody
 approaches it a different way.
 
-318
+324
 00:16:19,799 --> 00:16:23,309
 And I think that technology is
 really changing the face of how
 
-319
+325
 00:16:23,309 --> 00:16:27,330
 we view mental health. I mean,
 even openness to talking about
 
-320
+326
 00:16:27,330 --> 00:16:30,990
-it, and having these
-conversations. I know like in
+it and having these
+conversations. I know, like, in
 
-321
+327
 00:16:30,990 --> 00:16:34,889
 my mental health journey, it
 would not be nearly as
 
-322
+328
 00:16:34,889 --> 00:16:38,850
 productive as it was if I didn't
 talk to other people who
 
-323
+329
 00:16:38,850 --> 00:16:43,049
 I never would have met on, if I
-weren't on Twitter, or online,
+weren't on Twitter or online
 
-324
+330
 00:16:43,049 --> 00:16:46,830
-or whatever, you know? So
+or whatever, you know? So,
 hearing other people's stories
 
-325
+331
 00:16:46,830 --> 00:16:51,210
 kind of guided my journey and
 where I was going, but it looks
 
-326
+332
 00:16:51,210 --> 00:16:57,360
 different for every person. And
 the more we learn about it, I
 
-327
+333
 00:16:57,360 --> 00:17:01,049
 think using technology also
 helps us better identify the
 
-328
+334
 00:17:01,049 --> 00:17:04,140
 problems and the solutions that
 will work for different people.
 
-329
+335
 00:17:05,368 --> 00:17:06,868
-Cameron Bardell: And the good
-thing about using technology for
+Cameron: And the good thing
+about using technology for
 
-330
+336
 00:17:06,868 --> 00:17:08,969
 that kind of things, it's
-impartial. Like a big part of
+impartial. Like, a big part of
 
-331
+337
 00:17:08,969 --> 00:17:10,364
 the reason why I built what I
-built is that like uncompress
+built is that, like, uncompress
 
-332
+338
 00:17:10,364 --> 00:17:11,759
 new
 
-333
+339
 00:17:11,759 --> 00:17:14,489
-things and graphs and numbers.
-And so I wanted to see like,
+things, and graphs, and numbers.
+And so, I wanted to see, like,
 
-334
+340
 00:17:15,538 --> 00:17:18,509
-kind of the true history of, of
+kind of the true history of- of
 what I was feeling. And so I
 
-335
+341
 00:17:18,509 --> 00:17:20,638
 looked, and when I was doing
 this research, I found out that
 
-336
+342
 00:17:20,699 --> 00:17:24,179
 there's a lot of studies that
 show that if you ask people how
 
-337
+343
 00:17:24,179 --> 00:17:26,788
-they're feeling, at a certain
-time, and on a scale of 1 to
+they're feeling at a certain
+time and on a scale of 1 to
 
-338
+344
 00:17:26,788 --> 00:17:29,818
-10 like I said, like say, they
+10 like I said, like, say, they
 get a text and they have to say
 
-339
+345
 00:17:29,818 --> 00:17:32,308
-how do I feel right now? And,
+"How do I feel right now?" And-
 and you do that multiple times,
 
-340
+346
 00:17:32,308 --> 00:17:33,448
-maybe throughout a day, or
+maybe throughout a day or
 throughout the week, and then
 
-341
+347
 00:17:33,448 --> 00:17:34,588
 you ask them
 
-342
+348
 00:17:34,588 --> 00:17:37,528
 later on, looking back, how did
 you feel on average in total?
 
-343
+349
 00:17:38,128 --> 00:17:40,078
 Those two numbers almost never
 lined up. How people say they
 
-344
+350
 00:17:40,078 --> 00:17:41,758
 feel at the moment is not how
 they say they felt later
 
-345
+351
 00:17:41,758 --> 00:17:43,438
-(laugh). So
+[laughs]. So,
 
-346
+352
 00:17:43,439 --> 00:17:45,868
-that was one of, of another one
+that was one of- of another one
 reasons why I made this thing
 
-347
+353
 00:17:45,868 --> 00:17:48,388
-that you have to do. Well you
-don't have to, you can do it
+that you have to do. Well, you
+don't have to-- you can do it
 
-348
+354
 00:17:48,388 --> 00:17:50,548
-as many times as you want. But
+as many times as you want. But,
 you know, ideally twice a day,
 
-349
+355
 00:17:50,848 --> 00:17:54,179
 and you do it right in the
 moment really quickly. It's just
 
-350
+356
 00:17:54,179 --> 00:17:56,189
 really important to have that
-kind of self-knowledge and be
+kind of self-knowledge, and be
 
-351
-00:17:56,189 --> 00:17:58,739
-able to look back and see things
-trending up or down in different
+357
+00:17:56,189 --> 00:17:57,464
+able to look back, and see
+things trending up or down in
 
-352
+358
+00:17:57,464 --> 00:17:58,739
+different
+
+359
 00:17:58,739 --> 00:18:01,439
-directions. Like my app doesn't
+directions. Like, my app doesn't
 offer any kind of therapy or any
 
-353
+360
 00:18:01,439 --> 00:18:04,648
 information other than what you
-give it. It's just, it's just a
+give it. It's just- it's just a
 
-354
+361
 00:18:04,648 --> 00:18:05,338
 personal record.
 
-355
+362
 00:18:07,858 --> 00:18:08,578
-Dan Ott: Yeah. That's really
-cool.
+Dan: Yeah. That's really cool.
 
-356
+363
 00:18:10,170 --> 00:18:13,049
-Bekah Hawrot Weigel: Yeah, I,
-Cameron, I wanted to talk about
+Bekah: Yeah, I-- Cameron, I
+wanted to talk about
 
-357
+364
 00:18:13,049 --> 00:18:15,599
 something that you said in Slack
 the other day, too. I
 
-358
+365
 00:18:15,599 --> 00:18:19,920
 think it was somewhere near you
 is trying to help people feel
 
-359
+366
 00:18:19,920 --> 00:18:24,509
 connected during the time of the
 pandemic. And I'm always, you
 
-360
+367
 00:18:24,509 --> 00:18:28,170
 know, found that community is
 the most important part of
 
-361
+368
 00:18:28,440 --> 00:18:32,430
 growing through mental health
 challenges. Can you just talk a
 
-362
+369
 00:18:32,430 --> 00:18:36,660
 little bit about what they were
-doing there? Because I found it
+doing there? Because I found it,
 
-363
+370
 00:18:36,660 --> 00:18:41,369
-like, this really kind of
-simple, but beautiful way of
+like, this really kind of simple
+but beautiful way of
 
-364
+371
 00:18:41,369 --> 00:18:42,450
 connecting people.
 
-365
+372
 00:18:42,900 --> 00:18:44,609
-Cameron Bardell: Yeah, that was
-a really interesting project.
+Cameron: Yeah, that was a really
+interesting project.
 
-366
+373
 00:18:44,609 --> 00:18:48,420
-Um, so it's called, I go to
+So, it's called-- I go to
 University of Waterloo, which
 
-367
+374
 00:18:48,420 --> 00:18:52,529
-is, like common engineering and
+is, like, common engineering and
 science-based school in Ontario.
 
-368
+375
 00:18:52,799 --> 00:18:55,680
-And so I just saw on Twitter
+And so, I just saw on Twitter
 that a couple of engineering
 
-369
+376
 00:18:55,680 --> 00:18:57,420
 students put together this
 project, and it's basically a
 
-370
+377
 00:18:57,420 --> 00:19:01,049
 heat map of the university
 campus and where people report
 
-371
+378
 00:19:01,049 --> 00:19:04,170
 they've cried on campus, which
 sounds kind of funny. I think
 
-372
+379
 00:19:04,170 --> 00:19:06,359
 it's really interesting because
-their, their stated goal is just
+their- their stated goal is just
 
-373
+380
 00:19:06,359 --> 00:19:09,839
-to show people, like when you
+to show people, like, when you
 get, you know, into kind of
 
-374
+381
 00:19:09,839 --> 00:19:11,789
 worked up emotional state like
 that, I think it's really normal
 
-375
+382
 00:19:11,789 --> 00:19:13,680
 to kind of want to hide
-yourself, you know, you want to
+yourself, you know? You want to
 
-376
+383
 00:19:13,680 --> 00:19:16,470
-make, you want to go be alone
+make-- you want to go, be alone
 somewhere, and you kind of
 
-377
+384
 00:19:16,470 --> 00:19:19,049
 experienced that on your own.
 But, yeah, they just put
 
-378
+385
 00:19:19,049 --> 00:19:22,829
 together this map just to show
 that, you know, if you've done
 
-379
+386
 00:19:22,829 --> 00:19:25,559
 it, if you're struggling with
 it, then someone else's too. And
 
-380
+387
 00:19:25,559 --> 00:19:27,750
-they've got it's a heat map,
-like I said. And then there's
+they've got-- it's a heat map,
+like I said. And then, there's
 
-381
+388
 00:19:27,750 --> 00:19:30,359
 also just kind of some people
 did more personalized stories.
 
-382
+389
 00:19:30,750 --> 00:19:32,430
-So I thought that was a really
+So, I thought, that was a really
 interesting project, especially
 
-383
+390
 00:19:32,430 --> 00:19:34,410
 during a pandemic and we're all
 more isolated than ever.
 
-384
-00:19:37,109 --> 00:19:38,459
-Bekah Hawrot Weigel: Yeah, that
-idea of, of connecting people
-
-385
-00:19:38,459 --> 00:19:39,809
-is,
-
-386
-00:19:39,839 --> 00:19:44,250
-is really important. I think
-that, you know, you do sometimes
-
-387
-00:19:44,250 --> 00:19:46,019
-get in that moment where you
-think like, well, I'm the only
-
-388
-00:19:46,019 --> 00:19:48,900
-one that feels this way. But
-just like having a simple visual
-
-389
-00:19:48,900 --> 00:19:52,710
-of like, oh, I cried, but look
-at somebody right over there did
-
-390
-00:19:52,710 --> 00:19:53,160
-too.
-
 391
-00:19:53,940 --> 00:19:55,200
-Cameron Bardell: I'm looking at
-the map right now and I'm like,
+00:19:37,109 --> 00:19:38,459
+Bekah: Yeah, that idea of- of
+connecting people
 
 392
-00:19:55,200 --> 00:19:57,660
-oh look, at the engineering
-building. I've had long nights
+00:19:38,459 --> 00:19:44,250
+is- is really important. I think
+that, you know, you do sometimes
 
 393
-00:19:57,660 --> 00:20:01,980
-there too. (laugh)
+00:19:44,250 --> 00:19:46,019
+get in that moment where you
+think, like, "Well, I'm the only
 
 394
-00:20:02,009 --> 00:20:03,990
-Bekah Hawrot Weigel: Yeah, I
-think that's really, really
+00:19:46,019 --> 00:19:47,459
+one that feels this way." But
+just, like, having a simple
 
 395
-00:20:03,990 --> 00:20:05,610
-great. Okay, so I would love,
-you talked a little bit about,
+00:19:47,459 --> 00:19:48,899
+visual
 
 396
+00:19:48,900 --> 00:19:52,710
+of, like, "Oh, I cried. But look
+at somebody right over there did
+
+397
+00:19:52,710 --> 00:19:53,160
+too."
+
+398
+00:19:53,940 --> 00:19:55,200
+Cameron: I'm looking at the map
+right now, and I'm like,
+
+399
+00:19:55,200 --> 00:19:57,660
+"Oh, look at the engineering
+building. I've had long nights
+
+400
+00:19:57,660 --> 00:20:01,980
+there too." [Laughs]
+
+401
+00:20:02,009 --> 00:20:03,990
+Bekah: Yeah, I think that's
+really, really
+
+402
+00:20:03,990 --> 00:20:05,610
+great. Okay. So, I would love--
+you talked a little bit about,
+
+403
 00:20:05,610 --> 00:20:07,230
 you
 
-397
+404
 00:20:07,230 --> 00:20:11,099
 know, how you kind of got into
-pursuing these. So it sounds
-
-398
-00:20:11,099 --> 00:20:14,519
-like for both of you, there's
-some type of personal component
-
-399
-00:20:14,519 --> 00:20:18,509
-to this. And I'd love to know,
-or if you are up for talking a
-
-400
-00:20:18,509 --> 00:20:22,170
-little bit more about, like the
-inspiration behind this. And if
-
-401
-00:20:22,170 --> 00:20:26,009
-you learned anything new about
-yourself, or, you know, what you
-
-402
-00:20:26,009 --> 00:20:30,059
-were doing through, through this
-journey, that would be awesome.
-
-403
-00:20:31,410 --> 00:20:36,390
-Rahat Chowdhury: Yeah, I think,
-for me, so the idea for this
-
-404
-00:20:36,450 --> 00:20:38,399
-kind came out of like, some of
-my own personal experiences.
+pursuing these. So, it sounds
 
 405
+00:20:11,099 --> 00:20:14,519
+like, for both of you, there's
+some type of personal component
+
+406
+00:20:14,519 --> 00:20:18,509
+to this. And I'd love to know--
+or if you are up for talking a
+
+407
+00:20:18,509 --> 00:20:22,170
+little bit more about, like, the
+inspiration behind this. And if
+
+408
+00:20:22,170 --> 00:20:26,009
+you learned anything new about
+yourself or, you know, what you
+
+409
+00:20:26,009 --> 00:20:30,059
+were doing through- through this
+journey, that would be awesome.
+
+410
+00:20:31,410 --> 00:20:36,390
+Rahat: Yeah. I think, for me--
+so, the idea for this
+
+411
+00:20:36,450 --> 00:20:38,399
+kind came out of, like, some of
+my own personal experiences.
+
+412
 00:20:38,399 --> 00:20:40,348
 Going to
 
-406
+413
 00:20:40,349 --> 00:20:44,519
 therapy, trying to take care of
 my own mental health and all
 
-407
-00:20:44,519 --> 00:20:52,859
+414
+00:20:44,519 --> 00:20:48,689
 that. And, like, the one of the
-main things was like, therapy is
+main things was, like, therapy
 
-408
+415
+00:20:48,689 --> 00:20:52,859
+is
+
+416
 00:20:52,950 --> 00:20:57,480
 helpful. But it's only 45
 minutes, once or twice a month,
 
-409
+417
 00:20:57,990 --> 00:21:01,349
 or every other week, or
 something like that. And there's
 
-410
+418
 00:21:01,349 --> 00:21:05,430
-all this other time in between,
-where just like, I, I'm not
+all this other time in between
+where just, like, I-- I'm not
 
-411
+419
 00:21:05,430 --> 00:21:10,259
-sure, sometimes, like, I guess,
+sure sometimes, like, I guess,
 how to take care of myself for,
 
-412
+420
 00:21:10,349 --> 00:21:15,990
 you know, try to, I guess, make
 my mental health better in some
 
-413
+421
 00:21:15,990 --> 00:21:19,980
 way. So that was like a large
 part of the conversation that I
 
-414
+422
 00:21:19,980 --> 00:21:22,980
 was having with my therapist.
-And she would give me like
+And she would give me, like,
 
-415
-00:21:22,980 --> 00:21:27,630
-different prompts and stuff. And
-like, sort of like CBT based
+423
+00:21:22,980 --> 00:21:25,305
+different prompts and stuff.
+And, like, sort of like CBT
 
-416
+424
+00:21:25,305 --> 00:21:27,630
+based
+
+425
 00:21:27,630 --> 00:21:32,549
 things to try out on my own is
 writing stuff out. And it was
 
-417
+426
 00:21:32,549 --> 00:21:37,049
 pretty helpful. And the thing
 that I realized was really
 
-418
+427
 00:21:37,049 --> 00:21:40,380
-helpful for me was like, when I
-in those moments, when I was
+helpful for me was, like, when
+I-- in those moments, when I was
 
-419
+428
 00:21:40,380 --> 00:21:44,400
-able to remember back to like, a
-positive thing, kind of related
+able to remember back to, like,
+a positive thing—kind of related
 
-420
+429
 00:21:44,400 --> 00:21:50,279
 to whatever I was doing. Like,
-if, like, if I was having a
+if- like, if I was having a
 
-421
+430
 00:21:50,309 --> 00:21:54,420
-crap day at work, but then
+crap day at work. But then,
 thinking about another time
 
-422
+431
 00:21:54,420 --> 00:21:57,180
 where, you know, something went
 right at work, that was
 
-423
+432
 00:21:57,180 --> 00:22:00,029
-sometimes pretty helpful. So
+sometimes pretty helpful. So,
 that was kind of like a lot of
 
-424
+433
 00:22:00,029 --> 00:22:03,839
-the basis for the app itself of
+the basis for the app itself of,
 like, having some positive
 
-425
+434
 00:22:03,839 --> 00:22:05,700
 reinforcement in those negative
 times.
 
-426
+435
 00:22:06,809 --> 00:22:08,519
-Dan Ott: Yeah, that's really
-cool. I have, I also have
+Dan: Yeah, that's really cool. I
+have-- I also have trouble
 
-427
-00:22:08,519 --> 00:22:10,229
-trouble
+436
+00:22:10,230 --> 00:22:11,639
+with it. The connection between,
+like, different appointments
 
-428
-00:22:10,230 --> 00:22:13,049
-with it. The connection between
-like, different appointments and
+437
+00:22:11,639 --> 00:22:13,048
+and-
 
-429
+438
 00:22:13,049 --> 00:22:15,420
 and just sort of everything, it
 seems to make sense, you know,
 
-430
+439
 00:22:15,420 --> 00:22:19,529
 when you walk out of an
 appointment, and then a week
 
-431
+440
 00:22:19,529 --> 00:22:21,209
-later, you're like, I don't
-(laugh), I don't know. I don't
+later, you're like, "I don't--
+[laughs] I don't know. I don't
 
-432
+441
 00:22:21,209 --> 00:22:22,889
 know what
 
-433
+442
 00:22:22,890 --> 00:22:24,945
-I'm doing. I don't know, you
-know? Like, all the, all that
+I'm doing. I don't know," you
+know? Like, all the-- all that
 
-434
+443
 00:22:24,945 --> 00:22:27,000
 stuff. I
 
-435
+444
 00:22:27,000 --> 00:22:30,660
-guess a place where like
+guess a place where, like,
 technology can, you know, like,
 
-436
+445
 00:22:30,660 --> 00:22:33,480
-really shine? I think if you
+really shine, I think, if, you
 know, if applied correctly.
 
-437
+446
 00:22:35,220 --> 00:22:36,299
-Bekah Hawrot Weigel: Cameron, I
-don't know, if you want to
+Bekah: Cameron, I don't know if
+you want to
 
-438
+447
 00:22:36,299 --> 00:22:37,710
-share. You don't have to, but
+share. You don't have to, but--
 
-439
+448
 00:22:37,720 --> 00:22:40,089
-Cameron Bardell: Yeah, no,
-totally. Yeah, part of my like,
+Cameron: Yeah, no, totally.
+Yeah, part of my, like,
 
-440
+449
 00:22:40,359 --> 00:22:42,369
 journey with my personal mental
 health, I guess, I started
 
-441
+450
 00:22:42,369 --> 00:22:46,059
 struggling with anxiety in my
-pre early teens, and kind of
+pre early teens and kind of
 
-442
+451
 00:22:46,059 --> 00:22:51,039
 kept them to myself for a long
-time. So like, I feel like most
+time. So, like, I feel like most
 
-443
+452
 00:22:51,039 --> 00:22:54,400
 of the last several years for me
 has been a process of opening
 
-444
+453
 00:22:54,400 --> 00:22:56,859
 it up to slowly, like, wider and
-wider circle of people. So it
+wider circle of people. So, it
 
-445
+454
 00:22:56,859 --> 00:22:59,140
 started eventually, like, you
 know, talking to my parents, and
 
-446
-00:22:59,140 --> 00:23:02,140
+455
+00:22:59,140 --> 00:23:00,640
 then they helped me a lot. And
-then you know, from there, I was
+then, you know, from there, I
 
-447
+456
+00:23:00,640 --> 00:23:02,140
+was
+
+457
 00:23:02,140 --> 00:23:03,759
-like, okay, that worked out
-pretty well. And then I, you
+like, "Okay, that worked out
+pretty well." And then I, you
 
-448
+458
 00:23:03,759 --> 00:23:05,650
 know, started talking to a
 doctor, and then I do even more.
 
-449
+459
 00:23:06,009 --> 00:23:07,839
-I said, wow. This seems to be a
-trend (laugh) if there's
+I said, "Wow. This seems to be a
+trend [laughs] if there's
 
-450
+460
 00:23:07,839 --> 00:23:09,669
-anything. So then, you know, you
+anything." So then, you know,
+you
 
-451
-00:23:09,670 --> 00:23:12,250
+461
+00:23:09,670 --> 00:23:10,960
 start opening up to a wider
-circle of people. So my friends,
+circle of people. So, my
 
-452
+462
+00:23:10,960 --> 00:23:12,250
+friends,
+
+463
 00:23:12,849 --> 00:23:15,250
-you know, you guys eventually.
-And now here I am on a podcast
+you know, you guys, eventually.
+And now here I am, on a podcast,
 
-453
+464
 00:23:15,250 --> 00:23:17,680
 talking about it. That's been a
 really important part of the
 
-454
+465
 00:23:17,680 --> 00:23:20,650
 process for me. We have a Slack
-channel in, in Virtual Coffee,
+channel in- in Virtual Coffee,
 
-455
+466
 00:23:20,650 --> 00:23:23,740
 where we talk about these sorts
 of things. And, you know, people
 
-456
+467
 00:23:23,740 --> 00:23:26,079
 have been, you know, pretty
 open. And, you know, not
 
-457
+468
 00:23:26,079 --> 00:23:26,979
-everyone has to be open, and
-just something that happens to
+everyone has to be open and just
+something that happens to
 
-458
+469
 00:23:26,979 --> 00:23:27,879
 help
 
-459
+470
 00:23:27,970 --> 00:23:32,410
 me personally. I would never say
-that, like, I don't even know
+that, like-- I don't even know
 
-460
+471
 00:23:32,410 --> 00:23:35,440
 how to phrase this. Like, I
 would never tell anyone that
 
-461
+472
 00:23:35,440 --> 00:23:37,569
 they should go and talk about
-their experiences, because it
+their experiences because it
 
-462
+473
 00:23:37,569 --> 00:23:39,099
 will definitely help, you know,
-it might not (laugh). Depends.
+it might not [laughs]. Depends.
 
-463
+474
 00:23:39,099 --> 00:23:40,629
 It just
 
-464
+475
 00:23:40,750 --> 00:23:42,024
 happened to help out for me. And
 I only came to that realization
 
-465
-00:23:42,024 --> 00:23:43,298
-after
+476
+00:23:42,024 --> 00:23:46,839
+after, like, several years of
+struggling. So yeah. That's-
 
-466
-00:23:43,299 --> 00:23:46,839
-like several years of
-struggling. So yeah. That's,
-
-467
+477
 00:23:47,799 --> 00:23:49,779
 that's kind of been an ongoing
 thing for me.
 
-468
+478
 00:23:50,940 --> 00:23:53,369
-Dan Ott: Yeah, that's actually
-been a trend we've noticed with
+Dan: Yeah, that's actually been
+a trend we've noticed with
 
-469
+479
 00:23:53,400 --> 00:23:55,559
 Virtual Coffee. And not just
 with mental health, although
 
-470
+480
 00:23:55,559 --> 00:23:59,849
-definitely with mental health,
-and even just being becoming a
+definitely with mental health.
+And even just being-- becoming a
 
-471
+481
 00:23:59,849 --> 00:24:04,619
-developer or learning, finding,
+developer or learning, finding--
 you know, finding a job, all of
 
-472
-00:24:04,619 --> 00:24:08,640
-these things that, over and over
-again, we have people that come
+482
+00:24:04,619 --> 00:24:06,629
+these things that-- over and
+over again, we have people that
 
-473
+483
+00:24:06,629 --> 00:24:08,639
+come
+
+484
 00:24:08,640 --> 00:24:11,519
-in or just feel alone, you know,
-feel like they're the only
+in or just feel alone, you know?
+Feel like they're the only
 
-474
+485
 00:24:11,519 --> 00:24:13,650
 ones are feeling something's
 wrong with them that because
 
-475
+486
 00:24:13,950 --> 00:24:17,400
 they are struggling finding a
 job or struggling learning, you
 
-476
+487
 00:24:17,400 --> 00:24:20,490
 know? Anything. Learning
 anything in tech and is or
 
-477
+488
 00:24:20,490 --> 00:24:22,080
 struggling with, you know,
 mental health things and finding
 
-478
+489
 00:24:22,080 --> 00:24:23,670
 other
 
-479
+490
 00:24:23,670 --> 00:24:25,410
 people that are also, you know,
 going through a lot of the same
 
-480
+491
 00:24:25,410 --> 00:24:27,150
 things.
 
-481
+492
 00:24:27,000 --> 00:24:29,490
-Cameron Bardell: And I would
-encourage you to say like, you
+Cameron: And I would encourage
+you to say like, "You
 
-482
+493
 00:24:27,150 --> 00:24:31,289
 don't even have to say anything
 
-483
+494
 00:24:29,490 --> 00:24:33,569
-when you're in these spaces.
-Like you can just go and be a
+when you're in these spaces."
+Like, "You can just go and be a
 
-484
+495
 00:24:31,289 --> 00:24:35,549
 lurker until you feel
-comfortable. I mean, you'll
+comfortable." I mean, you'll
 
-485
+496
 00:24:33,569 --> 00:24:37,500
 never feel comfortable sharing
 yourself that you can go and see
 
-486
+497
 00:24:35,549 --> 00:24:39,794
 what other people are saying,
-you know, maybe that's something
+you know? Maybe that's something
 
-487
+498
 00:24:39,794 --> 00:24:44,039
 that
 
-488
+499
 00:24:38,009 --> 00:24:42,149
-could help. Like, that includes
+could help. Like, that includes,
 like, you know, mental health
 
-489
+500
 00:24:42,149 --> 00:24:46,289
 stuff in
 
-490
+501
 00:24:44,039 --> 00:24:48,630
-the job search and I know
+the job search. And I know
 Bekah's been and several other
 
-491
+502
 00:24:46,289 --> 00:24:50,549
 people in the Slack've been
-leading the way on like a
+leading the way on, like, a
 
-492
+503
 00:24:48,630 --> 00:24:53,039
 neuro-diversity channel, which
 is really great to see. So all
 
-493
+504
 00:24:50,549 --> 00:24:54,750
-those kinds of things. You can,
+those kinds of things. You can-
 you can reach out and find these
 
-494
+505
 00:24:53,039 --> 00:24:57,420
-spaces and you don't have to be
+spaces, and you don't have to be
 sure if it's right for you to
 
-495
-00:24:54,750 --> 00:24:59,880
+506
+00:24:54,750 --> 00:24:57,315
 share. You can definitely kind
-of hang out for a while and it's
+of hang out for a while, and
 
-496
+507
+00:24:57,315 --> 00:24:59,880
+it's
+
+508
 00:24:57,420 --> 00:24:59,805
-take your bearings, and maybe
+take your bearings. And maybe
 decided that it's not for you,
 
-497
+509
 00:24:59,805 --> 00:25:02,190
 and
 
-498
+510
 00:24:59,880 --> 00:25:03,569
-that's okay, too. But yeah, you
+that's okay, too. But, yeah, you
 don't have to feel pressured to
 
-499
+511
 00:25:02,190 --> 00:25:03,569
 say anything.
 
-500
+512
 00:25:04,559 --> 00:25:07,349
-Rahat Chowdhury: Yeah, I think a
-pretty good other benefit that
+Rahat: Yeah. I think, a pretty
+good other benefit that
 
-501
+513
 00:25:07,349 --> 00:25:09,599
-comes from that is like, just
+comes from that is, like, just
 knowing that you're not alone,
 
-502
+514
 00:25:09,599 --> 00:25:11,730
 sort of. There's other people
 kind of like going through
 
-503
+515
 00:25:11,730 --> 00:25:15,180
-similar stuff. I think there's
-definitely just like powering
+similar stuff. I think, there's
+definitely just, like, powering
 
-504
+516
 00:25:15,180 --> 00:25:20,730
-as like not feeling as alone.
+as, like, not feeling as alone.
 Like, for me, especially when I
 
-505
+517
 00:25:20,730 --> 00:25:23,220
 start doing talks on it, and
 kind of like openly talking
 
-506
+518
 00:25:23,220 --> 00:25:26,759
-about it, so like, other people
-responding by like, hey,
+about it. So, like, other people
+responding by, like, "Hey,
 
-507
+519
 00:25:27,089 --> 00:25:28,874
-I, you know, I go through this
-kind of similar stuff, too. It's
+I," you know, "I go through this
+kind of similar stuff, too."
 
-508
+520
 00:25:28,874 --> 00:25:30,659
-just
+It's just,
 
-509
+521
 00:25:30,660 --> 00:25:36,269
-like, it was kind, maybe not, I
-don't know, good is the right
+like, it was kind-- maybe not--
+I don't know. Good is the right
 
-510
+522
 00:25:36,329 --> 00:25:40,680
-word to say, but more like just,
-it doesn't feel as bad
+word to say, but more like,
+just, it doesn't feel as bad
 
-511
+523
 00:25:40,680 --> 00:25:43,619
 going through it, knowing that
 you're not going through it by
 
-512
+524
 00:25:43,619 --> 00:25:44,220
 yourself.
 
-513
+525
 00:25:45,480 --> 00:25:46,049
-Bekah Hawrot Weigel: For sure.
+Bekah: For sure.
 
-514
-00:25:46,000 --> 00:25:46,960
-Cameron Bardell: It kinda like,
-it kind of shows how like, the
+526
+00:25:46,000 --> 00:25:47,920
+Cameron: It kinda like-- it kind
+of shows how, like, the progress
 
-515
-00:25:46,960 --> 00:25:47,920
-progress
-
-516
+527
 00:25:47,920 --> 00:25:51,309
-isn't linear, either. Like it's
+isn't linear either. Like, it's
 normal and honestly in some
 
-517
+528
 00:25:51,309 --> 00:25:54,039
 ways, kind of important to have
-back slides. And then, and then
+back slides. And then- and then
 
-518
+529
 00:25:54,039 --> 00:25:56,170
 show yourself that you can get
 through them, you know? If you
 
-519
+530
 00:25:56,170 --> 00:25:57,970
 feel like you've made progress,
 and then you revert back for a
 
-520
+531
 00:25:57,970 --> 00:25:59,470
 little bit, that's a normal part
 of the process. And you
 
-521
+532
 00:25:59,470 --> 00:26:01,690
-shouldn't, you know, something
+shouldn't-- you know, something
 that I like to say is you
 
-522
+533
 00:26:01,690 --> 00:26:03,940
 shouldn't feel bad about feeling
 bad. Like, you don't have to
 
-523
+534
 00:26:03,940 --> 00:26:05,950
 beat yourself up over your lack
 of progress over thing, you
 
-524
+535
 00:26:05,950 --> 00:26:07,960
 know, any of these
 
-525
+536
 00:26:07,960 --> 00:26:13,329
-areas. So again, it's, the
-recovery, like showing you that
+areas. So again, it's-- the
+recovery, like, showing you that
 
-526
+537
 00:26:13,329 --> 00:26:15,309
-you have, showing yourself that
+you have-- showing yourself that
 you have the strength to recover
 
-527
+538
 00:26:15,309 --> 00:26:17,079
 from something like that is
 really important as well.
 
-528
-00:26:18,019 --> 00:26:20,119
-Bekah Hawrot Weigel: Yeah, I,
-um, so my journey into tech
+539
+00:26:18,019 --> 00:26:22,220
+Bekah: Yeah, I-- so, my journey
+into tech started
 
-529
-00:26:20,119 --> 00:26:22,219
-started
-
-530
+540
 00:26:22,220 --> 00:26:25,009
 with a trauma that I went
 through. And so I talked a lot
 
-531
+541
 00:26:25,009 --> 00:26:29,990
-about it about having anxiety,
-depression, PTSD, but like one
+about it. About having anxiety,
+depression, PTSD, but, like, one
 
-532
+542
 00:26:29,990 --> 00:26:33,559
 of the most pivotal moments for
-me was when I was in bootcamp,
+me was when I was in bootcamp.
 
-533
+543
 00:26:33,589 --> 00:26:39,230
-my educational coach, who was
-assigned to me and she said,
+My educational coach—who was
+assigned to me—and she said,
 
-534
-00:26:39,230 --> 00:26:42,380
-hey, can I share a story with
-you? I said, sure. And she said,
+544
+00:26:39,230 --> 00:26:40,805
+"Hey, can I share a story with
+you?" I said, "Sure." And she
 
-535
+545
+00:26:40,805 --> 00:26:42,380
+said,
+
+546
 00:26:42,680 --> 00:26:46,309
-I went through trauma, too. I
-was run over by a semi truck.
+"I went through trauma too. I
+was run over by a semi truck."
 
-536
+547
 00:26:46,670 --> 00:26:49,099
 And that was the first person I
 had ever talked to about
 
-537
+548
 00:26:49,099 --> 00:26:53,089
 trauma. And our traumas were
 very, very different. But all of
 
-538
+549
 00:26:53,089 --> 00:26:55,970
 the words that she were saying,
 they were the words that had
 
-539
+550
 00:26:55,970 --> 00:26:59,599
 gone through my head so many
 times. And I finally realized
 
-540
+551
 00:26:59,599 --> 00:27:04,519
-that I wasn't alone. So I had
-spent so much time alone in, in
+that I wasn't alone. So, I had
+spent so much time alone in- in
 
-541
+552
 00:27:04,519 --> 00:27:09,079
-that, that, that just moment of
-connection was enough to like,
+that- that- that just moment of
+connection was enough to, like,
 
-542
+553
 00:27:09,410 --> 00:27:14,269
 give me hope to keep going. And
-that was, my trauma was four
+that was-- my trauma was four
 
-543
+554
 00:27:14,269 --> 00:27:18,920
 years ago. And I gave a talk
 about it the other day. Told the
 
-544
+555
 00:27:18,920 --> 00:27:22,759
 story many, many times. And I
-just started crying and I don't
+just started crying, and I don't
 
-545
+556
 00:27:22,759 --> 00:27:24,709
-ever cry. So it was like on a
+ever cry. So, it was like on a
 screen full of people, just
 
-546
+557
 00:27:24,709 --> 00:27:26,659
 crying.
 
-547
+558
 00:27:26,720 --> 00:27:29,509
-Couldn't get it, couldn't get it
+Couldn't get it- couldn't get it
 together. And it was that
 
-548
+559
 00:27:29,509 --> 00:27:32,119
-feeling of like being super
-frustrated at myself. Like why,
+feeling of, like, being super
+frustrated at myself. Like, why-
 
-549
+560
 00:27:32,150 --> 00:27:33,979
 why is this happening now? And
 the talk, that's recorded.
 
-550
+561
 00:27:33,979 --> 00:27:35,808
 That's
 
-551
+562
 00:27:35,809 --> 00:27:37,879
 gonna be on YouTube, right? And
-so like I wrote a little post on
+so, like, I wrote a little post
 
-552
+563
 00:27:37,879 --> 00:27:39,949
-my
+on my
 
-553
+564
 00:27:39,950 --> 00:27:43,819
 trauma blog about it. And
 somebody messaged me, and she
 
-554
-00:27:43,819 --> 00:27:47,900
-said, this is what I needed to
-hear in this moment, because she
+565
+00:27:43,819 --> 00:27:45,859
+said, "This is what I needed to
+hear in this moment." Because
 
-555
+566
+00:27:45,859 --> 00:27:47,899
+she
+
+567
 00:27:47,900 --> 00:27:51,650
 had also gone through a trauma
 in a couple of years ago. And
 
-556
-00:27:51,680 --> 00:27:55,789
-suddenly, she was like, hit with
-that moment, too. And just felt
+568
+00:27:51,680 --> 00:27:53,734
+suddenly, she was, like, hit
+with that moment, too. And just
 
-557
+569
+00:27:53,734 --> 00:27:55,788
+felt
+
+570
 00:27:55,789 --> 00:27:59,329
 like very frustrated with
-herself. And so it exactly what
+herself. And so, it exactly what
 
-558
+571
 00:27:59,329 --> 00:28:02,390
-you're saying, Cameron. It's
+you're saying, Cameron. It's,
 like, it's not linear, right?
 
-559
+572
 00:28:02,390 --> 00:28:07,759
 Like, there's gonna be waves and
-somebody once said, like, it
+somebody once said like, "It
 
-560
-00:28:07,910 --> 00:28:11,420
+573
+00:28:07,910 --> 00:28:09,665
 doesn't go away, but it gets
-different. And I think that, you
+different." And I think that,
 
-561
+574
+00:28:09,665 --> 00:28:11,420
+you
+
+575
 00:28:11,420 --> 00:28:14,660
 know, that might be specific to
 trauma. But, you know, we find
 
-562
+576
 00:28:14,660 --> 00:28:17,690
 these moments in our lives,
-where we're like, man, I really
+where we're like, "Man, I really
 
-563
+577
 00:28:17,690 --> 00:28:21,410
-thought that I was passed this.
+thought that I was passed this."
 And that can be hard. But when
 
-564
+578
 00:28:21,559 --> 00:28:24,529
 you connect with somebody else,
 and you can kind of talk about
 
-565
+579
 00:28:24,529 --> 00:28:27,440
 it together, then you realize,
-like, okay, you know, like, we
+like, "Okay," you know, like,
 
-566
+580
 00:28:27,470 --> 00:28:28,970
-we've got this together.
+"We-- we've got this together."
 
-567
+581
 00:28:31,440 --> 00:28:32,759
-Cameron Bardell: It can be
-helpful, too, if you've been,
+Cameron: It can be helpful too
+if you've been—like
 
-568
+582
 00:28:32,759 --> 00:28:34,334
-like you said, you've kind of,
-you hear your own words in your
+you said—you've kind of-- you
+hear your own words in your
 
-569
+583
 00:28:34,334 --> 00:28:35,909
 head so much. And
 
-570
+584
 00:28:35,910 --> 00:28:38,519
 maybe you don't know if it makes
 sense. Because these things can
 
-571
+585
 00:28:38,519 --> 00:28:40,049
 often be really hard to put
 words to, because it's not
 
-572
+586
 00:28:40,049 --> 00:28:43,859
-something that necessarily has
-like a physical analogy for
+something that necessarily has,
+like, a physical analogy for
 
-573
+587
 00:28:43,859 --> 00:28:46,140
-everyone. So if you can, like
-kind of, say these words out
+everyone. So, if you can, like,
+kind of say these words out
 
-574
-00:28:46,140 --> 00:28:48,390
-loud, and someone says, yeah,
-no, that makes sense. That makes
+588
+00:28:46,140 --> 00:28:47,265
+loud, and someone says, "Yeah,
+no, that makes sense." That
 
-575
+589
+00:28:47,265 --> 00:28:48,390
+makes
+
+590
 00:28:48,390 --> 00:28:51,210
 you feel a little less, I don't
-know, lost sometimes. So.
+know, lost sometimes. So--
 
-576
+591
 00:28:54,118 --> 00:28:55,979
-Bekah Hawrot Weigel: Yeah, also,
-I think, you know, if we're
+Bekah: Yeah. Also, I think, you
+know, if we're
 
-577
+592
 00:28:55,979 --> 00:29:00,898
 talking technology too,
-sometimes, sometimes you can
+sometimes- sometimes you can
 
-578
+593
 00:29:00,929 --> 00:29:05,338
 deny things to yourself, right?
 But if the data is in front of
 
-579
+594
 00:29:05,338 --> 00:29:09,028
-you, like, okay, I've been
+you, like, "Okay, I've been
 tracking my mood for this long,
 
-580
+595
 00:29:09,028 --> 00:29:12,268
-for the last, however much time.
-Maybe, maybe I'm not being
+for the last however much time.
+Maybe- maybe I'm not being
 
-581
+596
 00:29:12,268 --> 00:29:15,508
 honest
 
-582
+597
 00:29:15,509 --> 00:29:21,388
 with myself about how bad I feel
-right now. Or good. Maybe you
+right now--" or good. Maybe you
 
-583
+598
 00:29:21,388 --> 00:29:22,169
-feel good, hopefully. (laugh)
+feel good, hopefully [laughs].
 
-584
+599
 00:29:24,670 --> 00:29:27,549
-Cameron Bardell: People aren't
-good at, um like, I don't know,
+Cameron: People aren't good at,
+like-- I don't know.
 
-585
+600
 00:29:27,579 --> 00:29:29,230
-maybe you're not, it's not that
+Maybe you're not-- it's not that
 you're not being honest with
 
-586
+601
 00:29:29,230 --> 00:29:30,100
 yourself. People just aren't
 really that good at
 
-587
+602
 00:29:30,100 --> 00:29:30,970
 self-evaluation.
 
-588
+603
 00:29:30,970 --> 00:29:35,589
 It's just how human brains work.
-So it's not, it's not
+So it's not- it's not
 
-589
+604
 00:29:35,589 --> 00:29:38,259
-necessarily like intentional or
-otherwise, like deluding
+necessarily, like, intentional
+or otherwise, like, deluding
 
-590
+605
 00:29:38,259 --> 00:29:40,420
-yourself or lying to yourself,
+yourself, or lying to yourself,
 or whatever you want to call it.
 
-591
+606
 00:29:41,380 --> 00:29:42,759
 It's just not an easy, normal
 thing to do.
 
-592
+607
 00:29:42,000 --> 00:29:47,160
-Dan Ott: Mm hmm. Yeah. And that
-kind of circles back to some of
+Dan: Mm-hmm. Yeah. And that kind
+of circles back to some of
 
-593
+608
 00:29:47,160 --> 00:29:51,000
 the cognitive behavioral therapy
-stuff is your brain like, will
+stuff is your brain, like, will
 
-594
+609
 00:29:51,000 --> 00:29:53,610
 actually actively lie to you
-about al of things. Is, yeah,
+about al of things. Is-- yeah,
 
-595
+610
 00:29:53,610 --> 00:29:56,220
 well,
 
-596
+611
 00:29:56,579 --> 00:29:58,769
 like we said at the beginning,
 we could probably all talk about
 
-597
+612
 00:29:58,769 --> 00:30:01,649
-this for (laugh) a long, long,
-long time. Kind of moving,
+this for [laughs] a long, long,
+long time. Kind of moving-
 
-598
+613
 00:30:01,649 --> 00:30:04,529
 moving on.
 
-599
+614
 00:30:05,549 --> 00:30:08,910
-So you're both pretty busy, you
+So, you're both pretty busy. You
 have a lot of side projects
 
-600
+615
 00:30:08,910 --> 00:30:12,690
 going on and along with, you
-know, career stuff and family
+know, career stuff, and family
 
-601
+616
 00:30:12,690 --> 00:30:17,910
-stuff, school. So we were
+stuff, school. So, we were
 wondering how each of you sort
 
-602
+617
 00:30:17,910 --> 00:30:19,665
-of balance your, your own mental
-health, like with, with work,
+of balance your- your own mental
+health, like, with- with work,
 
-603
-00:30:19,665 --> 00:30:21,420
-and
-
-604
-00:30:21,420 --> 00:30:22,560
-with side projects, and
+618
+00:30:19,665 --> 00:30:22,560
+and with side projects, and
 everything else that goes along
 
-605
+619
 00:30:22,560 --> 00:30:23,700
 with being,
 
-606
+620
 00:30:23,730 --> 00:30:28,829
 you know, a human in the, you
 know, in 2021. Rahat, we'll
 
-607
+621
 00:30:28,829 --> 00:30:31,529
-start with you. At a talk, one
-of our lightning talks last
+start with you. At a talk—one of
+our lightning talks last
 
-608
+622
 00:30:31,529 --> 00:30:35,220
-year was sort of about some of
-this. So, I start with you, and
+year—was sort of about some of
+this. So, I start with you and
 
-609
+623
 00:30:35,609 --> 00:30:36,480
 see what your thoughts were.
 
-610
+624
 00:30:36,809 --> 00:30:41,069
-Rahat Chowdhury: Yeah, for me, I
-tend to forget a lot of times to
+Rahat: Yeah. For me, I tend to
+forget a lot of times to
 
-611
+625
 00:30:41,069 --> 00:30:44,670
-really stop and just like, not
+really stop and just, like, not
 work on all the different things
 
-612
+626
 00:30:44,670 --> 00:30:50,759
 I'm working on for a little bit.
-So the way I've recently been
+So, the way I've recently been
 
-613
-00:30:50,759 --> 00:30:56,369
-managing it is just like, trying
-to remember that, you know, I
+627
+00:30:50,759 --> 00:30:53,564
+managing it is just, like,
+trying to remember that, you
 
-614
+628
+00:30:53,564 --> 00:30:56,369
+know, I
+
+629
 00:30:56,369 --> 00:30:59,910
 have a daughter now. I need some
 time for her, I need some time
 
-615
+630
 00:30:59,910 --> 00:31:02,160
 for myself, I need some time to
-just like unwind from
+just, like, unwind from
 
-616
+631
 00:31:02,160 --> 00:31:04,529
-everything, because there is a
+everything because there is a
 ton of stuff I'm doing right
 
-617
-00:31:04,529 --> 00:31:12,690
-now. And it took, it takes a lot
-of work for me to like, get past
+632
+00:31:04,529 --> 00:31:08,609
+now. And it took-- it takes a
+lot of work for me to, like, get
 
-618
+633
+00:31:08,609 --> 00:31:12,689
+past
+
+634
 00:31:12,690 --> 00:31:18,119
 my own, I guess, self-imposed
 deadlines on things that don't
 
-619
+635
 00:31:18,119 --> 00:31:24,900
 actually mean anything. And the
 way I had sort of tried to
 
-620
-00:31:26,609 --> 00:31:29,579
+636
+00:31:26,609 --> 00:31:28,094
 accept a little exercise I do
-just in my head is like pretend
+just in my head is, like,
 
-621
-00:31:29,579 --> 00:31:32,279
-that like I'm a stakeholder in a
-meeting, and I'm like pushing
+637
+00:31:28,094 --> 00:31:29,579
+pretend
 
-622
-00:31:32,279 --> 00:31:34,710
-the state back a little bit
-like, hey, we don't need it till
+638
+00:31:29,579 --> 00:31:30,929
+that, like, I'm a stakeholder in
+a meeting, and I'm, like,
 
-623
-00:31:34,710 --> 00:31:37,050
-this time. That's kinda, that's
-something that kinda works for
+639
+00:31:30,929 --> 00:31:32,279
+pushing
 
-624
+640
+00:31:32,279 --> 00:31:33,494
+the state back a little bit,
+like, "Hey, we don't need it
+
+641
+00:31:33,494 --> 00:31:34,709
+till
+
+642
+00:31:34,710 --> 00:31:35,880
+this time." That's kinda--
+that's something that kinda
+
+643
+00:31:35,880 --> 00:31:37,050
+works for
+
+644
 00:31:37,050 --> 00:31:39,390
 me a little
 
-625
+645
 00:31:39,390 --> 00:31:43,890
 bit. And then those moments,
-I'll try to let go and like
+I'll try to let go and, like,
 
-626
+646
 00:31:43,890 --> 00:31:49,140
 just take a walk or play some
 video games, anything like
 
-627
+647
 00:31:49,140 --> 00:31:53,250
 that, and just try to get away
 from what I'm working on. And
 
-628
-00:31:53,250 --> 00:31:56,609
-just like, also trying to remind
-myself that if I wanna work
+648
+00:31:53,250 --> 00:31:54,929
+just, like, also trying to
+remind myself that if I wanna
 
-629
+649
+00:31:54,929 --> 00:31:56,608
+work
+
+650
 00:31:56,609 --> 00:32:00,059
 quickly through things, then I
 need to take a break. Because
 
-630
+651
 00:32:00,059 --> 00:32:03,480
-I've like gone through burnout
+I've, like, gone through burnout
 before, like, not being able to
 
-631
+652
 00:32:03,480 --> 00:32:07,950
 do something for a couple
 months. And just kind of like
 
-632
+653
 00:32:07,950 --> 00:32:09,945
 getting it down in my head and
-it was like, if I don't stop
+it was like, "If I don't stop
 
-633
+654
 00:32:09,945 --> 00:32:11,940
-sometimes, and just
+sometimes, and just,
 
-634
+655
 00:32:11,940 --> 00:32:16,920
-like take a breath, I won't be
+like, take a breath, I won't be
 able to continue doing as much
 
-635
+656
 00:32:17,009 --> 00:32:18,329
-stuff as I hope to do.
+stuff as I hope to do."
 
-636
+657
 00:32:19,380 --> 00:32:24,119
-Dan Ott: Yeah, totally. I think
-that's, I mean, we've sort of
+Dan: Yeah, totally. I think
+that's-- I mean, we've sort of
 
-637
-00:32:24,119 --> 00:32:27,240
+658
+00:32:24,119 --> 00:32:25,679
 talked about this before, but I
-think that, that's like a great,
+think that-- that's, like, a
 
-638
+659
+00:32:25,679 --> 00:32:27,239
+great-
+
+660
 00:32:28,349 --> 00:32:32,789
-a great thing to do consciously
-is sort of try to jam, like not
+a great thing to do consciously,
+is sort of try to jam, like, not
 
-639
+661
 00:32:32,819 --> 00:32:34,680
 jam those breaks into your
-schedule, but like actually
+schedule. But, like, actually
 
-640
+662
 00:32:34,680 --> 00:32:37,259
 schedule, you know, breaks in
 and make sure you're taking care
 
-641
+663
 00:32:37,259 --> 00:32:40,619
 of them. Cameron, do you have
-anything like, I don't know,
+anything, like-- I don't know,
 
-642
+664
 00:32:41,130 --> 00:32:42,525
-specific thing you do, to try
-to, you know, take care of
+specific thing you do to try to,
+you know, take care of
 
-643
+665
 00:32:42,525 --> 00:32:43,920
 yourself
 
-644
+666
 00:32:43,920 --> 00:32:45,464
 or, you know, getting everything
 done. And, you know, side
 
-645
+667
 00:32:45,464 --> 00:32:47,008
 project thing and all that?
 
-646
+668
 00:32:48,359 --> 00:32:49,019
-Cameron Bardell: Yeah,
-[unintelligible], I guess. I'm
+Cameron: Yeah, [unintelligible],
+I guess. I'm
 
-647
+669
 00:32:49,019 --> 00:32:49,679
 coming out with a bit of a
 
-648
+670
 00:32:49,829 --> 00:32:51,779
-period where I've like been
+period where I've, like, been
 bouncing around on a lot of
 
-649
+671
 00:32:51,779 --> 00:32:54,359
 different things. Because about
 a year ago, for a long time, I
 
-650
+672
 00:32:54,359 --> 00:32:56,880
 was kind of torn between whether
-I would do like science and
+I would do, like, science and
 
-651
+673
 00:32:56,880 --> 00:32:59,220
 research or just go into tech.
 And about a year ago, I finally
 
-652
+674
 00:32:59,220 --> 00:33:03,150
-decided, okay, tech can be the
-thing. So at that point, I
+decided, "Okay, tech can be the
+thing." So at that point, I
 
-653
-00:33:03,150 --> 00:33:05,519
-started doing like a bunch more
-freelancing and did a couple
+675
+00:33:03,150 --> 00:33:04,334
+started doing, like, a bunch
+more freelancing, and did a
 
-654
-00:33:05,519 --> 00:33:07,710
-internships and side projects
-and stuff, so it was like, okay.
+676
+00:33:04,334 --> 00:33:05,518
+couple
 
-655
+677
+00:33:05,519 --> 00:33:06,614
+internships, and side projects
+and stuff. So it was like,
+
+678
+00:33:06,614 --> 00:33:07,709
+"Okay.
+
+679
 00:33:07,740 --> 00:33:09,120
 Here's what I need to do again
-to get into the tech industry.
+to get into the tech industry."
 
-656
+680
 00:33:09,120 --> 00:33:10,500
 And
 
-657
+681
 00:33:10,500 --> 00:33:12,599
 then, you know, a couple weeks
 ago, I just got hired full time.
 
-658
+682
 00:33:12,630 --> 00:33:15,690
-So then that period of like
+So then, that period of, like,
 doing a whole bunch of stuff and
 
-659
+683
 00:33:15,690 --> 00:33:18,059
 bouncing around is kind of
-settling down now. So in back,
+settling down now. So, in back,
 
-660
+684
 00:33:18,059 --> 00:33:20,099
 it's like reevaluating and
-focusing on, okay, here's the
+focusing on, "Okay, here's the
 
-661
+685
 00:33:20,099 --> 00:33:23,309
-main things I need to do. Like,
-I need to do like this much.
+main things I need to do." Like,
+"I need to do, like, this much.
 
-662
+686
 00:33:23,339 --> 00:33:25,799
 Well, I need to work, you know,
-40 hours a week, and I need to
+40 hours a week. And I need to
 
-663
+687
 00:33:25,799 --> 00:33:29,579
 do this much school, and then I
-also need to exercise. So I've
+also need to exercise." So I've
 
-664
+688
 00:33:29,579 --> 00:33:32,940
 been coming out of kind of a
 chaotic period and settling into
 
-665
+689
 00:33:32,940 --> 00:33:34,710
 more of a routine the past few
 weeks, which isn't really nice
 
-666
+690
 00:33:34,710 --> 00:33:36,480
-(laugh).
+[laughs].
 
-667
+691
 00:33:37,529 --> 00:33:40,019
-Yeah, but I still think that,
+Yeah. But I still think that
 that period of working hard was
 
-668
+692
 00:33:40,019 --> 00:33:41,534
-important, because I ended up,
+important because I ended up,
 you know, in a place that I
 
-669
+693
 00:33:41,534 --> 00:33:43,049
 really wanted to
 
-670
+694
 00:33:43,049 --> 00:33:45,509
 get. And yeah, it was hard for a
 while. But here I am.
 
-671
+695
 00:33:46,798 --> 00:33:49,499
-Bekah Hawrot Weigel: I think,
-too, when you can see, this
+Bekah: I think, too, when you
+can see, this
 
-672
+696
 00:33:49,499 --> 00:33:53,308
-isn't a forever thing, there,
-this is going to end then it
+isn't a forever thing. There--
+this is going to end, then it
 
-673
+697
 00:33:53,308 --> 00:33:56,638
 makes it feel a little bit more
 doable. But there's also this,
 
-674
+698
 00:33:57,239 --> 00:34:00,479
-like natural tendency in tech. I
-think tech just moves so
+like, natural tendency in tech.
+I think tech just moves so
 
-675
+699
 00:34:00,479 --> 00:34:04,528
 quickly, right? That people feel
-this, this need to hustle all
+this- this need to hustle all
 
-676
+700
 00:34:04,528 --> 00:34:07,558
-the time. And that's like, I
+the time. And that's, like-- I
 can't stand that word, hustle.
 
-677
+701
 00:34:09,628 --> 00:34:13,528
-But like to continue to keep
+But, like, to continue to keep
 doing stuff all the time. And I
 
-678
+702
 00:34:13,528 --> 00:34:17,938
 find that as much as I don't
 like that word, I have a really
 
-679
+703
 00:34:17,938 --> 00:34:21,599
 hard time turning off my brain
 when there's always something to
 
-680
+704
 00:34:21,599 --> 00:34:24,163
 be done because, you know, like,
 tech moves fast and so do
 
-681
-00:34:24,163 --> 00:34:26,727
-people.
+705
+00:34:24,163 --> 00:34:27,239
+people. So [laughs]--
 
-682
-00:34:26,728 --> 00:34:27,239
-So, (laugh)
+706
+00:34:28,500 --> 00:34:30,780
+Cameron: Yeah. I really kind of
+like-- it's kind of a strong
 
-683
-00:34:28,500 --> 00:34:29,640
-Cameron Bardell: Yeah. I really
-kind of like, it's kind of a
-
-684
-00:34:29,640 --> 00:34:30,780
-strong
-
-685
+707
 00:34:30,780 --> 00:34:33,960
 word, but I kind of detest that
-part of Twitter's like, I don't
+part of Twitter's, like, I don't
 
-686
+708
 00:34:33,960 --> 00:34:36,929
-know. Silicon Valley, like VC
-hustle porn kind of like, if
+know. Silicon Valley-- like, VC
+hustle porn kind of like—if
 
-687
+709
 00:34:36,929 --> 00:34:38,744
 you're not working you're losing
 money. I don't know. Everyone
 
-688
+710
 00:34:38,744 --> 00:34:40,559
 should be the
 
-689
+711
 00:34:40,559 --> 00:34:42,570
 founder kind of thing which is
 not true. Not everyone should be
 
-690
+712
 00:34:42,570 --> 00:34:46,064
 a founder. Being a founder kind
-of sucks (laugh). Yeah. And,
+of sucks [laughs]. Yeah. And--
 
-691
+713
 00:34:46,064 --> 00:34:49,558
 yeah, I don't
 
-692
-00:34:49,559 --> 00:34:54,030
-know. I just like, what you said
-about having a deadline was,
+714
+00:34:49,559 --> 00:34:51,794
+know. I just-- like, what you
+said about having a deadline
 
-693
+715
+00:34:51,794 --> 00:34:54,029
+was-
+
+716
 00:34:54,059 --> 00:34:55,484
 was really stood out to me
-because yeah, like I had, so
+because-- yeah, like, I had--
 
-694
+717
 00:34:55,484 --> 00:34:56,909
-when
+so, when
 
-695
+718
 00:34:56,909 --> 00:34:59,280
 I made the decision to go into
 tech, I had a year and a half
 
-696
+719
 00:34:59,280 --> 00:35:00,449
 left in my degree. And I was
-like, okay, so I'm going to work
+like, "Okay, so I'm going to
 
-697
+720
 00:35:00,449 --> 00:35:01,618
-really hard for
+work really hard for
 
-698
+721
 00:35:01,619 --> 00:35:03,780
 this next year and a half, and
-then I'm going to be settled
+then, I'm going to be settled
 
-699
+722
 00:35:03,780 --> 00:35:06,389
-into a career hopefully. And
+into a career, hopefully." And
 having that deadline really
 
-700
+723
 00:35:06,389 --> 00:35:08,639
-helped. And then when I got
+helped. And then, when I got
 hired full time, I had four
 
-701
+724
 00:35:08,639 --> 00:35:11,219
 months left in my undergrad
 degree. So just to make the full
 
-702
+725
 00:35:11,219 --> 00:35:12,689
 time work, I stretched that out
-into eight months. So starting,
+into eight months. So, starting,
 
-703
+726
 00:35:12,689 --> 00:35:14,159
 you
 
-704
+727
 00:35:14,159 --> 00:35:15,509
 know, in August, I'll be done
 with school and just working.
 
-705
+728
 00:35:15,509 --> 00:35:16,859
 And
 
-706
+729
 00:35:16,860 --> 00:35:20,400
-then I feel like then, you know,
-like I said, even now, I'm
+then, I feel like-- then, you
+know, like I said, even now, I'm
 
-707
+730
 00:35:20,400 --> 00:35:22,500
 working less hard than I was
-three or four months ago, but
+three or four months ago. But
 
-708
+731
 00:35:23,010 --> 00:35:26,820
 even past the summer, I'll be
 pretty fully settled in just
 
-709
+732
 00:35:26,820 --> 00:35:27,929
 having that in mind really
 helps.
 
-710
+733
 00:35:29,219 --> 00:35:31,440
-Bekah Hawrot Weigel: Yeah, and I
-know Rahat too, you have been
+Bekah: Yeah. And I know, Rahat,
+too, you have been
 
-711
+734
 00:35:31,440 --> 00:35:35,039
 working on a book. And at some
 point, you tweeted that you were
 
-712
+735
 00:35:35,039 --> 00:35:37,889
-talking about like building a
+talking about, like, building a
 mental health breaks, which I
 
-713
+736
 00:35:37,889 --> 00:35:42,239
 just really loved that idea.
-Because we're always focusing on
+Because we're always focusing
 
-714
+737
 00:35:42,239 --> 00:35:43,469
-like, you've got to learn,
-you've got to learn fast,
+on, like, you've got to learn-
+you've got to learn fast.
 
-715
+738
 00:35:43,469 --> 00:35:44,699
-bootcamps
+Bootcamps
 
-716
+739
 00:35:44,699 --> 00:35:47,940
 are moving people through
 quickly, everybody's looking for
 
-717
+740
 00:35:47,940 --> 00:35:52,739
-jobs. And that idea of like,
-okay, you can learn, but let's
+jobs. And that idea of, like,
+"Okay, you can learn, but let's
 
-718
+741
 00:35:52,739 --> 00:35:56,099
-pause and take care of you. And
+pause and take care of you." And
 I just found that concept
 
-719
+742
 00:35:56,099 --> 00:35:58,349
 really, really fascinating. Are
-you, is that make it, does it,
+you-- is that make it-- does
 
-720
+743
 00:35:58,349 --> 00:36:00,599
-did
+it-- did
 
-721
-00:36:00,599 --> 00:36:02,954
-it make a place in, does it have
-a place, oh my gosh. Does that
+744
+00:36:00,599 --> 00:36:01,776
+it make a place in-- does it
+have a place-- oh my gosh. Does
 
-722
-00:36:02,954 --> 00:36:05,309
-have,
+745
+00:36:01,776 --> 00:36:02,953
+that
 
-723
-00:36:05,699 --> 00:36:06,570
-did, I can't do it (laugh).
+746
+00:36:02,954 --> 00:36:06,570
+have-- did-- I can't do it
+[laughs].
 
-724
+747
 00:36:09,539 --> 00:36:10,559
-Dan Ott: (laugh) Is that in your
+Dan: [Laughs] Is that in your
 book?
 
-725
+748
 00:36:14,340 --> 00:36:15,509
-Rahat Chowdhury: (laugh) Yeah.
-So I've definitely built it into
+Rahat: [Laughs] Yeah. So, I've
+definitely built it into
 
-726
+749
 00:36:15,509 --> 00:36:16,678
 the chapters
 
-727
-00:36:16,679 --> 00:36:20,909
-I've been writing recently. Like
-at the end, depending on like
+750
+00:36:16,679 --> 00:36:18,794
+I've been writing recently.
+Like, at the end, depending on,
 
-728
+751
+00:36:18,794 --> 00:36:20,909
+like,
+
+752
 00:36:20,909 --> 00:36:24,329
 what subject I cover in that
 specific chapter, like, there's
 
-729
+753
 00:36:24,329 --> 00:36:27,869
-one where talking about like,
+one where talking about, like,
 trying to find other people
 
-730
+754
 00:36:27,869 --> 00:36:30,239
-similar, like in the same
+similar-- like, in the same
 journey as you are going into
 
-731
+755
 00:36:30,239 --> 00:36:35,099
-tech and seeing like, you know,
+tech and seeing, like, you know,
 if you can band together to work
 
-732
+756
 00:36:35,099 --> 00:36:41,340
 on some stuff. And at the end, I
-kind of like, I want to have
+kind of like-- I want to have,
 
-733
+757
 00:36:41,340 --> 00:36:43,619
-like a sort of like a norm-,
+like, a sort of, like, a norm-
 kind of like an alert box type
 
-734
-00:36:43,619 --> 00:36:46,530
-thing at the end of like, hey,
-you know, reaching out to people
+758
+00:36:43,619 --> 00:36:45,074
+thing at the end of, like,
+"Hey," you know, "reaching out
 
-735
+759
+00:36:45,074 --> 00:36:46,529
+to people
+
+760
 00:36:47,699 --> 00:36:51,900
 can be hard. Talking to people
-is pretty hard. Especially if
+is pretty hard. Especially, if
 
-736
+761
 00:36:51,900 --> 00:36:56,849
 you're like me, have some social
 anxiety and stuff. And, you
 
-737
+762
 00:36:56,849 --> 00:37:00,659
 know, if you've talked to a
 couple people, great. You don't
 
-738
+763
 00:37:00,659 --> 00:37:03,900
 have to keep doing it. Take a
 break, just remember to take
 
-739
-00:37:03,900 --> 00:37:06,780
-care of yourself stuff like
-that. And that, there's a little
+764
+00:37:03,900 --> 00:37:05,340
+care of yourself." Stuff like
+that. And that-- there's a
 
-740
-00:37:06,809 --> 00:37:09,929
-like alerts, like at the end of
-each chapter like that, based on
+765
+00:37:05,340 --> 00:37:06,780
+little,
 
-741
+766
+00:37:06,809 --> 00:37:08,369
+like, alerts, like, at the end
+of each chapter like that, based
+
+767
+00:37:08,369 --> 00:37:09,929
+on
+
+768
 00:37:09,929 --> 00:37:12,599
-whatever we covered. It's just
+whatever we covered. It's just,
 like, it's awesome that you're
 
-742
+769
 00:37:12,599 --> 00:37:15,869
 doing this, but you should also
 be taking care of yourself as
 
-743
+770
 00:37:15,869 --> 00:37:16,170
 well.
 
-744
+771
 00:37:18,599 --> 00:37:19,380
-Dan Ott: That's really cool.
+Dan: That's really cool.
 
-745
+772
 00:37:20,699 --> 00:37:21,789
-Cameron Bardell: Now that I
-remember what Bekah said, sorry,
+Cameron: Now that I remember
+what Bekah said--
 
-746
+773
 00:37:21,789 --> 00:37:22,879
-just to jump in quick. Bekah
-said something that stood out to
+sorry, just to jump in quick.
+Bekah said something that stood
 
-747
+774
 00:37:22,879 --> 00:37:23,969
-me.
+out to me.
 
-748
+775
 00:37:23,969 --> 00:37:25,199
-I guess it's like these
-bootcamps and online, different
+I guess, it's-- like, these
+bootcamps and online-- different
 
-749
+776
 00:37:25,199 --> 00:37:26,429
 online, you know,
 
-750
+777
 00:37:27,630 --> 00:37:28,785
 learning platforms, whether it's
-Udemy, or like something
+Udemy or, like, something
 
-751
+778
 00:37:28,785 --> 00:37:29,940
 self-directed
 
-752
+779
 00:37:29,940 --> 00:37:32,219
 like that, they kind of try to
-push you through, like
+push you through—like
 
-753
+780
 00:37:32,219 --> 00:37:34,619
-you said, and finish quickly.
-And that's, they present it in
+you said—and finish quickly. And
+that's-- they present it in
 
-754
+781
 00:37:34,619 --> 00:37:37,019
-ways if that's good for you, and
-it's not as good to them, then
+ways if that's good for you and
+it's not as good to them. Then,
 
-755
+782
 00:37:37,019 --> 00:37:38,639
 they can get more people in
-(laugh) and charge more people
+[laughs] and charge more people
 
-756
+783
 00:37:38,639 --> 00:37:40,259
 more money.
 
-757
+784
 00:37:40,260 --> 00:37:42,420
 So yeah, of course, they have to
 present that in a way that makes
 
-758
+785
 00:37:42,420 --> 00:37:43,170
 it seem like it's for you, but
 it's not.
 
-759
+786
 00:37:45,269 --> 00:37:47,070
-Dan Ott: Yeah, it seem, that's
-actually, that's an interesting
+Dan: Yeah, it seem-- that's
+actually-- that's an interesting
 
-760
+787
 00:37:47,070 --> 00:37:50,369
 point. And in the bootcamps,
 from what I've heard, it seems
 
-761
+788
 00:37:50,369 --> 00:37:53,130
-like they're either in a like,
-kind of class, like they're
+like they're either in a, like,
+kind of class, like, they're--
 
-762
+789
 00:37:53,130 --> 00:37:56,159
 where people are pushing and
-pushing, or it's either that,
+pushing. Or it's either that,
 
-763
+790
 00:37:56,159 --> 00:37:58,394
 or you're in the self-guided
-path. And it, from what I've
+path. And it—from what I've
 
-764
+791
 00:37:58,394 --> 00:38:00,629
-heard, and
+heard and
 
-765
+792
 00:38:00,630 --> 00:38:02,789
 I don't have full experience
-with this, but from what I've
+with this—but from what I've
 
-766
+793
 00:38:02,789 --> 00:38:06,119
 heard, it's sort of like very
 much on your own in a point, you
 
-767
+794
 00:38:06,119 --> 00:38:08,909
-know? And so you can go, try to
+know? And so, you can go, try to
 go faster, or you go slow, or
 
-768
-00:38:08,909 --> 00:38:11,309
-you lost or whatever, but you're
-sort of like drifting off on
+795
+00:38:08,909 --> 00:38:10,109
+you lost, or whatever. But
+you're sort of like drifting off
 
-769
+796
+00:38:10,109 --> 00:38:11,309
+on
+
+797
 00:38:11,309 --> 00:38:13,574
 your own. I think, yeah,
-getting, getting some, some of
+getting- getting some- some of
 
-770
+798
 00:38:13,574 --> 00:38:15,839
 that
 
-771
+799
 00:38:15,840 --> 00:38:18,690
-thought into learning, like
+thought into learning, like,
 learning materials and learning,
 
-772
+800
 00:38:19,110 --> 00:38:24,869
-you know, courses and programs.
-It seems very important. A lot,
+you know, courses and programs,
+it seems very important. A lot-
 
-773
+801
 00:38:24,869 --> 00:38:28,590
 a lot of people struggling in
-bootcamps. From what I've
+bootcamps—from what I've
 
-774
+802
 00:38:28,590 --> 00:38:30,420
-learned over the last, over the
+learned over the last- over the
 last year.
 
-775
+803
 00:38:32,309 --> 00:38:33,254
-Rahat Chowdhury: Yeah, I think
-that's definitely like a culture
+Rahat: Yeah. I think that's
+definitely, like, a culture
 
-776
+804
 00:38:33,254 --> 00:38:34,199
 and a
 
-777
+805
 00:38:34,199 --> 00:38:39,360
 lot of bootcamps that needs to
 change. Because, yeah, we're
 
-778
-00:38:39,360 --> 00:38:43,019
-just kind of pushing and pushing
-and not reminding people to just
+806
+00:38:39,360 --> 00:38:41,189
+just kind of pushing and
+pushing, and not reminding
 
-779
+807
+00:38:41,189 --> 00:38:43,018
+people to just
+
+808
 00:38:43,050 --> 00:38:46,110
-take a break. Like, I also do,
+take a break. Like, I also do--
 I'm a TA at a bootcamp,
 
-780
+809
 00:38:46,110 --> 00:38:49,170
 part-time.
 
-781
+810
 00:38:49,170 --> 00:38:52,530
-And like, one of my students was
-asking me, like,
+And, like, one of my students
+was asking me like,
 
-782
+811
 00:38:53,010 --> 00:38:54,735
-how do I get better at
-JavaScript? How do I like, do
+"How do I get better at
+JavaScript? How do I, like, do
 
-783
+812
 00:38:54,735 --> 00:38:56,460
 more stuff to,
 
-784
+813
 00:38:57,599 --> 00:39:01,139
-you know, keep, keep building. I
+you know, keep- keep building? I
 tried to work on things every
 
-785
+814
 00:39:01,139 --> 00:39:06,449
 single day, for X amount of
-hours. And I'm just like, take a
+hours." And I'm just like, "Take
 
-786
-00:39:06,449 --> 00:39:08,969
-break sometimes, and just let
-the information kind of sink in.
+815
+00:39:06,449 --> 00:39:07,709
+a break sometimes and just let
+the information kind of sink
 
-787
+816
+00:39:07,709 --> 00:39:08,969
+in."
+
+817
 00:39:09,000 --> 00:39:11,880
-Because sometimes you just need
-to walk away from it to like,
+Because sometimes, you just need
+to walk away from it to, like,
 
-788
-00:39:12,300 --> 00:39:16,710
+818
+00:39:12,300 --> 00:39:14,505
 let yourself absorb it.
-Sometimes just like walking away
+Sometimes, just, like, walking
 
-789
+819
+00:39:14,505 --> 00:39:16,710
+away
+
+820
 00:39:16,710 --> 00:39:18,869
-is like one of the best things
-you can do to like, solve a
+is, like, one of the best things
+you can do to, like, solve a
 
-790
+821
 00:39:18,869 --> 00:39:22,019
-problem. Like there's countless
-sign I think a lot of people
+problem. Like, there's countless
+sign, I think, a lot of people
 
-791
+822
 00:39:22,139 --> 00:39:24,599
-talking about it of like, you
+talking about it of, like, you
 know, you're going through
 
-792
+823
 00:39:24,599 --> 00:39:27,179
 trying to fix a bug, you don't
-know what's going on, you walk
+know what's going on. You walk
 
-793
-00:39:27,179 --> 00:39:30,360
-away, you come back and you know
-what's going on now. Because you
+824
+00:39:27,179 --> 00:39:28,769
+away, you come back, and you
+know what's going on now because
 
-794
+825
+00:39:28,769 --> 00:39:30,359
+you
+
+826
 00:39:30,360 --> 00:39:33,750
 need to refresh or you need to
-just like step away sometimes.
+just, like, step away sometimes.
 
-795
+827
 00:39:34,769 --> 00:39:35,550
-Dan Ott: Absolutely.
+Dan: Absolutely.
 
-796
+828
 00:39:35,820 --> 00:39:37,230
-Cameron Bardell: Yeah.
-Motivation is like a finite
+Cameron: Yeah. Motivation is,
+like, a finite resource
 
-797
+829
 00:39:37,230 --> 00:39:37,769
-resource (laugh).
+[laughs].
 
-798
+830
 00:39:38,250 --> 00:39:42,780
-Dan Ott: Yeah, yeah. I feel like
-that, that go take a walk is, is
+Dan: Yeah, yeah. I feel like
+that- that go take a walk is- is
 
-799
+831
 00:39:42,780 --> 00:39:46,829
-gotta be like, when people are
+gotta be, like, when people are
 having a, you know, when people
 
-800
+832
 00:39:46,829 --> 00:39:49,079
-are like, I can't figure this
-thing out, you know, it's like,
+are like, "I can't figure this
+thing out," you know? It's like
 
-801
+833
 00:39:49,320 --> 00:39:51,239
 when you're doing tech support,
 you need the first question is,
 
-802
+834
 00:39:51,239 --> 00:39:52,694
-when did you turn it off and
-turn it back on again, right?
+"When did you turn it off and
+turn it back on again," right?
 
-803
+835
 00:39:52,694 --> 00:39:54,149
-And so
+And so,
 
-804
+836
 00:39:54,420 --> 00:39:57,869
-when you do like bug support,
-you're like, okay, did you, did
+when you do, like, bug support,
+you're like, "Okay. Did you- did
 
-805
+837
 00:39:57,869 --> 00:39:59,670
 you take a walk? Have you
-stepped away from the computer,
+stepped away from the computer
 
-806
+838
 00:39:59,670 --> 00:40:01,710
-yet? (laugh) Step away from the
+yet? [Laughs] Step away from the
 computer and come back. And then
 
-807
+839
 00:40:01,710 --> 00:40:03,750
 let's
 
-808
+840
 00:40:03,750 --> 00:40:05,010
 see if you're still having the
-same problem (laugh).
+same problem [laughs]."
 
-809
+841
 00:40:06,659 --> 00:40:09,360
-Bekah Hawrot Weigel: It's so
-hard to, I think, in bootcamps,
+Bekah: It's so hard to-- I
+think, in bootcamps,
 
-810
+842
 00:40:09,389 --> 00:40:12,659
 there's that sense of loneliness
 and lack of community,
 
-811
+843
 00:40:12,690 --> 00:40:16,949
 especially for online bootcamps
 with self-paced students that
 
-812
+844
 00:40:16,949 --> 00:40:20,760
 don't prioritize community. And
-then you, you find that problem.
+then you- you find that problem.
 
-813
-00:40:20,760 --> 00:40:23,579
-So you can take a walk and come
-back and have nobody to ask,
+845
+00:40:20,760 --> 00:40:22,169
+So, you can take a walk, and
+come back, and have nobody to
 
-814
+846
+00:40:22,169 --> 00:40:23,578
+ask,
+
+847
 00:40:23,579 --> 00:40:26,519
-right? And so that's like,
+right? And so, that's, like,
 bootcamps come with built-in
 
-815
+848
 00:40:26,519 --> 00:40:28,439
-loneliness, like, I don't know,
-that needs to be (laugh)
+loneliness, like-- I don't know,
+that needs to be [laughs]
 
-816
-00:40:28,439 --> 00:40:30,359
-advertised or
+849
+00:40:28,439 --> 00:40:30,900
+advertised or something.
 
-817
-00:40:30,360 --> 00:40:30,900
-something.
-
-818
+850
 00:40:31,769 --> 00:40:35,099
-Cameron Bardell: Yeah. Meg, in
-our Slack at VC, Meg was talking
+Cameron: Yeah. Meg-- in our
+Slack at VC, Meg was talking
 
-819
+851
 00:40:35,099 --> 00:40:36,779
 about that a lot. How she's
 doing the self-guided bootcamp.
 
-820
+852
 00:40:36,779 --> 00:40:38,459
 And that she can't
 
-821
+853
 00:40:38,460 --> 00:40:40,800
 do it as fast as some of her
 peers because she's working at
 
-822
-00:40:40,800 --> 00:40:43,380
+854
+00:40:40,800 --> 00:40:42,090
 the same time. So she's kind of
-fell behind like the people she
+fell behind, like, the people
 
-823
+855
+00:40:42,090 --> 00:40:43,380
+she
+
+856
 00:40:43,380 --> 00:40:45,929
-started with just for lack of
-time. And then I think that
+started with, just for lack of
+time. And then, I think that
 
-824
+857
 00:40:45,929 --> 00:40:48,239
 contributed to some of your
 dissatisfaction.
 
-825
+858
 00:40:48,690 --> 00:40:50,429
-Dan Ott: Yeah, absolutely. Um,
-she's one of the people I was
+Dan: Yeah, absolutely. She's one
+of the people I was
 
-826
-00:40:50,519 --> 00:40:55,440
-thinking about. Marie was, while
-she was on the podcast a couple
+859
+00:40:50,519 --> 00:40:52,979
+thinking about. Marie was--
+while she was on the podcast a
 
-827
+860
+00:40:52,979 --> 00:40:55,439
+couple
+
+861
 00:40:55,440 --> 00:41:00,300
 episodes ago, but was talking
-about, she did a, like the
+about-- she did a-- like the
 
-828
+862
 00:41:00,300 --> 00:41:03,090
 scheduled one, right? But they
 didn't have a lot of support.
 
-829
+863
 00:41:03,090 --> 00:41:05,340
-And she was struggling. And so
+And she was struggling. And so,
 she basically strong armchair
 
-830
-00:41:05,340 --> 00:41:08,820
+864
+00:41:05,340 --> 00:41:07,080
 class into doing study groups.
-And they all found it, you know,
+And they all found it-- you
 
-831
+865
+00:41:07,080 --> 00:41:08,820
+know,
+
+866
 00:41:08,820 --> 00:41:13,170
 I mean, they all found it very
 valuable, you know? But it was
 
-832
+867
 00:41:13,170 --> 00:41:17,250
 not a program thing, you know?
-It was, it was Marie, doing it,
+It was- it was Marie, doing it,
 
-833
+868
 00:41:17,250 --> 00:41:19,500
 because she wanted the support.
 And it turned out other people,
 
-834
+869
 00:41:19,500 --> 00:41:20,610
-you know, found it valuable,
-too.
+you know, found it valuable too.
 
-835
+870
 00:41:20,909 --> 00:41:22,184
-Cameron Bardell: It's the same
-way I pass like undergrad.
+Cameron: It's the same way I
+pass, like, undergrad.
 
-836
+871
 00:41:22,184 --> 00:41:23,459
-(laugh) Just
+[Laughs] Just
 
-837
+872
 00:41:23,460 --> 00:41:26,849
 having groups of people to study
-with, um, you know, that went
+with-- you know, that went
 
-838
+873
 00:41:26,849 --> 00:41:28,769
 away for a lot of people in the
-pandemic, and I can't imagine
+pandemic. And I can't imagine
 
-839
+874
 00:41:28,769 --> 00:41:31,079
-what it would have been like, as
+what it would have been like as
 the first year you're going into
 
-840
+875
 00:41:31,079 --> 00:41:32,459
-do that, you know. And the only
+do that, you know? And the only
 way I passed, you know, second
 
-841
+876
 00:41:32,459 --> 00:41:33,839
 year
 
-842
+877
 00:41:33,840 --> 00:41:35,249
 calculus is because I was doing
 it with a group of friends
 
-843
+878
 00:41:35,249 --> 00:41:36,658
-(laugh). So
+[laughs]. So
 
-844
+879
 00:41:36,659 --> 00:41:38,309
 yeah, I definitely feel bad for
 those people.
 
-845
+880
 00:41:40,079 --> 00:41:42,750
-Bekah Hawrot Weigel: I was
-talking to a mom recently, and I
+Bekah: I was talking to a mom
+recently, and I
 
-846
+881
 00:41:42,750 --> 00:41:44,265
 don't remember she's going
 through a bootcamp or a
 
-847
+882
 00:41:44,265 --> 00:41:45,780
-self-taught,
+self-taught.
 
-848
+883
 00:41:45,840 --> 00:41:53,519
-she's doing like a guided, can't
-talk today (laugh). Can't
+She's doing, like, a guided--
+can't talk today [laughs]. Can't
 
-849
+884
 00:41:53,519 --> 00:41:58,829
 remember if she is self-taught
 or doing a bootcamp. But one of
 
-850
-00:41:58,829 --> 00:42:02,369
+885
+00:41:58,829 --> 00:42:00,599
 the things she was saying was,
-it's just so hard to find time,
+"It's just so hard to find
 
-851
+886
+00:42:00,599 --> 00:42:02,369
+time,"
+
+887
 00:42:02,400 --> 00:42:05,579
-you know, a lot of moms are at
+you know? A lot of moms are at
 home with kids right now
 
-852
+888
 00:42:05,579 --> 00:42:08,909
 because of the pandemic, and
 there's no childcare. And so
 
-853
+889
 00:42:09,179 --> 00:42:12,599
-she's saying, yeah, you know,
-like, I guide my students do
+she's saying, "Yeah," you know,
+like, "I guide my students do
 
-854
-00:42:12,599 --> 00:42:17,969
+890
+00:42:12,599 --> 00:42:15,284
 their schoolwork all day, and
-then I stay up from like, 12 30
+then I stay up from, like,
 
-855
-00:42:18,000 --> 00:42:22,199
-until 3 30, and then I've got to
-get up at 7, you know, and
+891
+00:42:15,284 --> 00:42:17,969
+twelve
 
-856
+892
+00:42:18,000 --> 00:42:20,099
+thirty until three thirty, and
+then I've got to get up at
+
+893
+00:42:20,099 --> 00:42:22,198
+seven," you know? And
+
+894
 00:42:22,199 --> 00:42:26,760
-it's like, okay. Let, let's
+it's like, "Okay. Let-- let's
 break this down a little bit and
 
-857
+895
 00:42:26,760 --> 00:42:29,969
-figure out something that's,
-that's doable, and maintainable,
+figure out something that's-
+that's doable and maintainable,
 
-858
-00:42:29,969 --> 00:42:35,130
-and that allows you to get rest.
-Because a rested brain is going
+896
+00:42:29,969 --> 00:42:32,549
+and that allows you to get
+rest." Because a rested brain is
 
-859
+897
+00:42:32,549 --> 00:42:35,129
+going
+
+898
 00:42:35,130 --> 00:42:38,550
 to absorb the material more.
 But, you know, there's this
 
-860
+899
 00:42:38,550 --> 00:42:44,039
 pressure to continue to go all
 the time, despite everything
 
-861
+900
 00:42:44,039 --> 00:42:48,000
 else. And you, I don't know, you
 can't really strong-arm your way
 
-862
+901
 00:42:48,000 --> 00:42:52,260
-through, well, I was gonna say
-through, through lack of sleep,
+through-- well, I was gonna say
+through- through lack of sleep,
 
-863
+902
 00:42:52,260 --> 00:42:53,955
 but parenthood that kind of
 makes you do that. So maybe you
 
-864
+903
 00:42:53,955 --> 00:42:55,650
-can (laugh)
+can [laughs]--
 
-865
+904
 00:42:57,449 --> 00:42:58,664
-Dan Ott: (laugh) Anyway that
-also, you know, confirms that
+Dan: [Laughs] Anyway, that also,
+you know, confirms that
 
-866
+905
 00:42:58,664 --> 00:42:59,879
 it's not a good
 
-867
+906
 00:42:59,880 --> 00:43:04,530
 idea by the end of the choices
 you're making after four weeks
 
-868
+907
 00:43:04,530 --> 00:43:11,159
 of not sleeping. It's good stuff
-though (laugh).
+though [laughs].
 
-869
+908
 00:43:13,679 --> 00:43:18,000
-Bekah Hawrot Weigel: So I've
-been doing like a deep dive into
+Bekah: So, I've been doing,
+like, a deep dive into
 
-870
+909
 00:43:18,030 --> 00:43:22,980
 deep learning and mental health.
-And I've been like, very, very
+And I've been, like, very, very
 
-871
+910
 00:43:22,980 --> 00:43:27,300
 fascinated by all of the
 different ways that they are
 
-872
+911
 00:43:27,329 --> 00:43:31,110
 approaching mental health with
 technology and how I think
 
-873
+912
 00:43:31,110 --> 00:43:38,309
 that's gonna provide more
-individualistic care for, for
+individualistic care for- for
 
-874
+913
 00:43:38,309 --> 00:43:42,360
-people and address like, I
+people, and address, like, I
 think, you know, really
 
-875
+914
 00:43:42,719 --> 00:43:47,010
 understanding what mental health
 looks like. And so I think that
 
-876
+915
 00:43:47,010 --> 00:43:49,829
 that's really exciting. But I
 also feel like, you know,
 
-877
+916
 00:43:49,829 --> 00:43:53,039
-there's this, this tendency,
-like, I'm so excited about this
+there's this- this tendency,
+like, "I'm so excited about this
 
-878
+917
 00:43:53,039 --> 00:43:57,480
-thing, but you're gonna have to
+thing" but you're gonna have to
 wait forever for it to come out
 
-879
+918
 00:43:57,480 --> 00:44:00,660
-and to apply, to apply it to
+and to apply- to apply it to
 your own life. But I think that,
 
-880
+919
 00:44:00,660 --> 00:44:03,840
 you
 
-881
+920
 00:44:03,840 --> 00:44:08,159
 know, all of these little things
 that bring us hope can be really
 
-882
+921
 00:44:08,159 --> 00:44:10,800
 useful. I don't know if there's
 anything that you found that
 
-883
-00:44:10,800 --> 00:44:13,710
-you're like, yes, this is really
-helpful, whether it's for you,
+922
+00:44:10,800 --> 00:44:12,255
+you're like, "Yes, this is
+really helpful," whether it's
 
-884
+923
+00:44:12,255 --> 00:44:13,710
+for you,
+
+924
 00:44:13,710 --> 00:44:18,840
 or someone you know, or for your
 projects in terms of tech and
 
-885
+925
 00:44:18,840 --> 00:44:20,699
 mental health, but I'd love to
 hear about it.
 
-886
+926
 00:44:22,019 --> 00:44:24,630
-Cameron Bardell: I don't have
-anything, you know, anything
+Cameron: I don't have anything--
+you know, anything,
 
-887
+927
 00:44:24,630 --> 00:44:26,820
-like deep learning or AI or
+like, deep learning or AI or
 anything like that. I did take
 
-888
+928
 00:44:26,820 --> 00:44:28,650
 some of my own trend data and
 kind of feed it into a
 
-889
+929
 00:44:28,980 --> 00:44:30,989
 prediction engine in a
 classification engine, just to
 
-890
+930
 00:44:30,989 --> 00:44:32,399
 see if I can find, you know,
 anything. I didn't find anything
 
-891
+931
 00:44:32,399 --> 00:44:33,809
 that's
 
-892
-00:44:33,809 --> 00:44:35,789
+932
+00:44:33,809 --> 00:44:34,799
 useful, mostly because my data
-is like, pretty one dimensional.
+is, like, pretty one
 
-893
+933
+00:44:34,799 --> 00:44:35,789
+dimensional.
+
+934
 00:44:36,300 --> 00:44:38,280
-But yeah, I don't, nothing that
+But yeah, I don't-- nothing that
 I've used personally comes right
 
-894
-00:44:38,280 --> 00:44:40,260
-to
-
-895
-00:44:40,260 --> 00:44:42,780
-mind. But like you said, you
+935
+00:44:38,280 --> 00:44:42,780
+to mind. But like you said, you
 know, we're kind of using our
 
-896
+936
 00:44:42,780 --> 00:44:45,300
 own experiences to look at these
 things. And you said, well,
 
-897
+937
 00:44:45,539 --> 00:44:47,309
 maybe it'll take a long time for
 these to come out and be
 
-898
+938
 00:44:47,309 --> 00:44:50,519
-available to use ourselves but
-or, we could use our experiences
+available to use ourselves but--
+or we could use our experiences
 
-899
+939
 00:44:50,519 --> 00:44:52,589
 to build them for, you know, the
 next group of people. And they
 
-900
+940
 00:44:52,589 --> 00:44:54,659
 can improve
 
-901
+941
 00:44:54,659 --> 00:44:56,699
 upon what we build. I think
 that's kind of the dream of the
 
-902
+942
 00:44:56,699 --> 00:44:58,679
 tech industry is that things
-keep improving. So, (laugh)
+keep improving. So, [laughs]
 
-903
+943
 00:44:58,679 --> 00:45:00,659
 hopefully. We'll
 
-904
+944
 00:45:00,659 --> 00:45:01,260
 see how it goes.
 
-905
+945
 00:45:02,489 --> 00:45:05,159
-Rahat Chowdhury: Yeah, deep
-learning stuff is cool. We
+Rahat: Yeah, deep learning stuff
+is cool. We
 
-906
+946
 00:45:05,159 --> 00:45:08,668
-actually, like one component of
-our app is like the whole
+actually, like, one component of
+our app is, like, the whole
 
-907
+947
 00:45:08,668 --> 00:45:11,938
 reminder of something, you know,
 relevant to what you're going
 
-908
+948
 00:45:11,938 --> 00:45:18,809
 through right now. And we're
-building this with like, AWS
+building this with, like, AWS
 
-909
+949
 00:45:18,809 --> 00:45:23,369
 Amplify, which gives us access
 to a couple cool like machine
 
-910
+950
 00:45:23,369 --> 00:45:28,048
 learning stuff that they have
 kind of built-in. And right now,
 
-911
+951
 00:45:28,048 --> 00:45:30,929
 we're kind of like trying to
 figure out the best way to kind
 
-912
+952
 00:45:30,929 --> 00:45:35,338
 of compare one entry that you're
 not having a good day on
 
-913
+953
 00:45:35,338 --> 00:45:40,259
-to something that's like,
+to something that's, like,
 relevant, but you did have a
 
-914
+954
 00:45:40,259 --> 00:45:44,278
 good day on to remind you of
-stuff. So while we're kind of
+stuff. So, while we're kind of
 
-915
+955
 00:45:44,278 --> 00:45:48,869
-like using that, I guess API for
-now, what we kind of want to do
+like using that—I guess API for
+now—what we kind of want to do
 
-916
+956
 00:45:48,869 --> 00:45:52,438
 eventually is probably build
-something of our own based on
+something of our own based on,
 
-917
+957
 00:45:52,438 --> 00:45:57,509
 like, what our users are
 actually going through. So we
 
-918
+958
 00:45:57,509 --> 00:46:00,208
 have someone on board who's kind
 of like leading that a little
 
-919
+959
 00:46:00,208 --> 00:46:07,139
 bit. And, yeah, I think there's
 a lot of room to do some cool
 
-920
+960
 00:46:07,139 --> 00:46:09,148
 stuff with deep learning and
 mental health.
 
-921
+961
 00:46:11,730 --> 00:46:15,329
-Dan Ott: That's pretty
-interesting. I know, I keep
+Dan: That's pretty interesting.
+I know I keep
 
-922
+962
 00:46:15,329 --> 00:46:18,659
 coming back to the cognitive
-therapy stuff, but like yet,
+therapy stuff. But, like, yet--
 
-923
+963
 00:46:18,719 --> 00:46:22,650
-like adding that little aspect
+like, adding that little aspect
 into it. And you're saying,
 
-924
+964
 00:46:22,949 --> 00:46:26,699
-like, for example, you're like,
-you're really upset, because you
+like, for example, you're, like,
+you're really upset because you
 
-925
+965
 00:46:26,699 --> 00:46:29,460
 feel like you can't do a thing
 or something. And then the app
 
-926
+966
 00:46:29,460 --> 00:46:31,349
-can be like, well, here.
-Actually, here's proof that you
+can be like, well, here--
+actually, here's proof that you
 
-927
+967
 00:46:31,349 --> 00:46:32,879
-have done (laugh) a similar
-thing, you know, like six times
+have done [laughs] a similar
+thing, you know, like, six times
 
-928
+968
 00:46:32,879 --> 00:46:34,409
 in the
 
-929
+969
 00:46:34,409 --> 00:46:37,800
 past, like, since we've started,
 you know, working together, or
 
-930
+970
 00:46:37,829 --> 00:46:39,629
 something like that, that could
-be really, I don't know. Really
+be really-- I don't know. Really
 
-931
+971
 00:46:39,629 --> 00:46:41,429
 valuable.
 
-932
+972
 00:46:41,460 --> 00:46:42,300
-Rahat Chowdhury: Yeah,
-definitely.
+Rahat: Yeah, definitely.
 
-933
+973
 00:46:43,440 --> 00:46:46,980
-Bekah Hawrot Weigel: Always, um,
-you know, like, after I finally
+Bekah: Always-- you know, like,
+after I finally
 
-934
+974
 00:46:46,980 --> 00:46:54,570
-felt like I was a, had my trauma
-under control, I always
+felt like I was a-- had my
+trauma under control, I always
 
-935
+975
 00:46:54,570 --> 00:46:58,199
 would talk to people about this
-idea of like, having this
+idea of, like, having this
 
-936
+976
 00:46:58,650 --> 00:47:01,619
 experience in your back pocket,
-like, look, I was able to make
+like, "Look, I was able to make
 
-937
+977
 00:47:01,619 --> 00:47:06,269
 it through this. And it was
 really challenging for a period
 
-938
+978
 00:47:06,269 --> 00:47:09,929
 of time. But I've developed
-these tools, or like, I know
+these tools or, like, I know
 
-939
+979
 00:47:09,960 --> 00:47:12,719
 that I need community, or I know
 that this is going to be a
 
-940
+980
 00:47:12,719 --> 00:47:17,309
 trigger for me to predict some
-of those things. But at the
+of those things." But at the
 
-941
+981
 00:47:17,309 --> 00:47:21,750
 beginning of the pandemic, I
 found myself, again, frustrated
 
-942
+982
 00:47:21,750 --> 00:47:26,670
-with myself, because I thought,
+with myself because I thought,
 you know, so much of what I feel
 
-943
+983
 00:47:26,670 --> 00:47:30,389
 like I'm going through, like, I
 lost my job, my kids were at
 
-944
+984
 00:47:30,389 --> 00:47:34,469
 home, and I was supervising
 their schooling. And I just felt
 
-945
+985
 00:47:34,469 --> 00:47:37,559
 like really isolated and alone.
-I'm like, I have navigated
+I'm like, "I have navigated
 
-946
-00:47:37,559 --> 00:47:40,860
+986
+00:47:37,559 --> 00:47:39,209
 through this before. But I'm
-crying every single night. Like,
+crying every single night."
 
-947
+987
+00:47:39,209 --> 00:47:40,859
+Like,
+
+988
 00:47:40,860 --> 00:47:45,809
-what, what, why, why can't I
-make it through this and, and
+"What- what-- why- why can't I
+make it through this?" And- and,
 
-948
+989
 00:47:45,809 --> 00:47:47,789
 like, ultimately, what I
-remembered was, hey, community
+remembered was, "Hey, community
 
-949
+990
 00:47:47,789 --> 00:47:49,769
 plays
 
-950
+991
 00:47:49,769 --> 00:47:52,829
 a really big role in that,
-right? And so that's, that's how
+right?" And so that's- that's
 
-951
+992
 00:47:52,829 --> 00:47:55,710
-Virtual Coffee was started.
-Because I was like, hey, anyone
+how Virtual Coffee was started.
+Because I was like, "Hey, anyone
 
-952
+993
 00:47:55,710 --> 00:47:59,760
-want to get together because I
-feel really lonely. But then
+want to get together? Because I
+feel really lonely." But then,
 
-953
+994
 00:47:59,789 --> 00:48:05,670
 also, recognizing that I wasn't
 the only one going through the
 
-954
+995
 00:48:05,670 --> 00:48:08,789
-experience of the pandemic, and
+experience of the pandemic and
 the effects of it. Like,
 
-955
+996
 00:48:09,179 --> 00:48:13,409
 everybody was experiencing it.
 And that's very different from
 
-956
+997
 00:48:13,409 --> 00:48:18,150
 navigating your own situation.
-And so, you know, I think, for
+And so, you know, I think—for
 
-957
+998
 00:48:18,150 --> 00:48:21,869
-me, at least, I have this
-tendency to be really frustrated
+me at least—I have this tendency
+to be really frustrated
 
-958
+999
 00:48:21,900 --> 00:48:27,119
-with myself when I think like, I
-should have the skills or the
+with myself when I think, like,
+I should have the skills or the
 
-959
+1000
 00:48:27,119 --> 00:48:29,940
 tools or whatever to make it
 through this. But also, not
 
-960
+1001
 00:48:29,940 --> 00:48:35,159
 every experience is the same.
 And that's gonna vary from time
 
-961
+1002
 00:48:35,159 --> 00:48:39,480
 to time. So there's learning new
 things, and there's growing as a
 
-962
+1003
 00:48:39,480 --> 00:48:43,769
 person. And I think that, you
 know, being able to share those
 
-963
+1004
 00:48:43,769 --> 00:48:45,119
-things, and the first couple
-Virtual Coffees, that's what
+things and the first couple
+virtual coffees, that's what
 
-964
-00:48:45,119 --> 00:48:46,469
-they
-
-965
-00:48:46,469 --> 00:48:49,409
-were, it was like, I'm
+1005
+00:48:45,119 --> 00:48:49,409
+they were. It was like, "I'm
 frustrated, there's a pandemic,
 
-966
+1006
 00:48:49,440 --> 00:48:54,480
 and I'm very sad about it right
-now. But that's what creates
+now." But that's what creates
 
-967
+1007
 00:48:54,480 --> 00:48:58,619
-that like closeness and that
+that, like, closeness and that
 ability for vulnerability and,
 
-968
+1008
 00:48:58,949 --> 00:49:01,469
-you know, for, for other people
+you know, for- for other people
 to be able to share their
 
-969
+1009
 00:49:01,469 --> 00:49:02,460
 stories as well.
 
-970
+1010
 00:49:04,110 --> 00:49:04,559
-Dan Ott: Word. (laugh)
+Dan: Word! [Laughs]
 
-971
-00:49:07,949 --> 00:49:08,924
-Bekah Hawrot Weigel: (laugh)
-Sorry. I feel like I did a
+1011
+00:49:07,949 --> 00:49:09,899
+Bekah: [Laughs] Sorry. I feel
+like I did a monologue. You
 
-972
-00:49:08,924 --> 00:49:09,899
-monologue. You
-
-973
+1012
 00:49:09,900 --> 00:49:10,619
 can cut that.
 
-974
+1013
 00:49:12,239 --> 00:49:13,050
-Cameron Bardell: No, don't cut
-that.
+Cameron: No, don't cut that.
 
-975
+1014
 00:49:13,829 --> 00:49:14,429
-Rahat Chowdhury: Yeah, that was
-awesome.
+Rahat: Yeah, that was awesome.
 
-976
+1015
 00:49:14,699 --> 00:49:15,929
-Dan Ott: No, I think it was
-great. I just didn't have
+Dan: No, I think it was great. I
+just didn't have
 
-977
+1016
 00:49:15,929 --> 00:49:16,889
 anything really to add.
 
-978
+1017
 00:49:16,949 --> 00:49:17,940
-Rahat Chowdhury: And not to add.
-Yeah. (laugh)
+Rahat: And not to add. Yeah.
+[Laughs]
 
-979
+1018
 00:49:23,909 --> 00:49:28,739
-Dan Ott: Okay, so wrapping up. I
+Dan: Okay. So, wrapping up. I
 guess just the last question
 
-980
+1019
 00:49:28,829 --> 00:49:33,599
 that is a little more general.
 We, in Virtual Coffee, talk a
 
-981
+1020
 00:49:33,599 --> 00:49:36,840
-lot about you know, finding
-teams and you know, find a job
+lot about, you know, finding
+teams and, you know, find a job
 
-982
+1021
 00:49:36,840 --> 00:49:40,440
 and stuff like that. So when
 you're thinking about either
 
-983
+1022
 00:49:40,440 --> 00:49:44,159
 joining a company or creating a
 team to work on a project, what
 
-984
+1023
 00:49:44,159 --> 00:49:46,784
-is, what is like a
-characteristic, what just, just
+is- what is, like, a
+characteristic, what-- just-
 
-985
+1024
 00:49:46,784 --> 00:49:49,409
-like pick one,
+just, like, pick one,
 
-986
+1025
 00:49:49,409 --> 00:49:53,460
 but what is one characteristic
-that you value in people, in
+that you value in people- in
 
-987
+1026
 00:49:53,460 --> 00:49:56,789
 people you work with? We'll
 start with Rahat.
 
-988
+1027
 00:49:57,960 --> 00:50:00,750
-Rahat Chowdhury: Yeah, I mean,
-I've been recently applying for
+Rahat: Yeah, I mean, I've been
+recently applying for
 
-989
+1028
 00:50:00,900 --> 00:50:04,349
-jobs and stuffs. So one thing
-I've been kind of like, asking a
+jobs and stuffs. So, one thing
+I've been kind of like asking a
 
-990
+1029
 00:50:04,349 --> 00:50:07,289
-lot about is like, how the
-culture is in terms of like pair
+lot about is, like, how the
+culture is in terms of, like,
 
-991
+1030
 00:50:07,289 --> 00:50:11,010
-programming. I love like
-learning things from like my
+pair programming. I love, like,
+learning things from, like, my
 
-992
+1031
 00:50:11,010 --> 00:50:15,989
-experience steps. So if there's
-like a environment for that,
+experience steps. So if there's,
+like, a environment for that,
 
-993
+1032
 00:50:16,019 --> 00:50:20,369
 that's definitely something
 super important to me. I've had
 
-994
-00:50:20,369 --> 00:50:22,500
+1033
+00:50:20,369 --> 00:50:21,434
 a couple of companies tell me
-straight up that, yeah, we don't
+straight up that, "Yeah, we
 
-995
+1034
+00:50:21,434 --> 00:50:22,499
+don't
+
+1035
 00:50:22,500 --> 00:50:23,924
-really have time for that, like
-hmm, probably don't want to
+really have time for that."
+Like, "Hmm, probably don't want
 
-996
+1036
 00:50:23,924 --> 00:50:25,348
-continue
+to continue
 
-997
-00:50:25,349 --> 00:50:32,099
-with you then. So, yeah, I mean,
-I feel like that kind of like,
+1037
+00:50:25,349 --> 00:50:28,724
+with you then." So, yeah. I
+mean, I feel like that kind of,
 
-998
+1038
+00:50:28,724 --> 00:50:32,099
+like,
+
+1039
 00:50:32,099 --> 00:50:36,179
 shows you a little bit about
 how, you know, senior devs kind
 
-999
+1040
 00:50:36,179 --> 00:50:41,039
 of like support the more junior
 ones. And I guess the overall
 
-1000
+1041
 00:50:41,039 --> 00:50:46,650
-team dynamic of like, having
-that willingness to just like
+team dynamic of, like, having
+that willingness to just, like,
 
-1001
+1042
 00:50:46,650 --> 00:50:49,530
 hop on a call or something with
 somebody and help them through a
 
-1002
+1043
 00:50:49,530 --> 00:50:50,070
 problem.
 
-1003
-00:50:51,420 --> 00:50:52,844
-Dan Ott: Yeah, absolutely. I
-found with pair programming,
+1044
+00:50:51,420 --> 00:50:54,268
+Dan: Yeah, absolutely. I found
+with pair programming, too,
 
-1004
-00:50:52,844 --> 00:50:54,268
-too,
+1045
+00:50:54,269 --> 00:50:56,114
+it's- it's sometimes-- it's a
+top down issue, right? You know?
 
-1005
-00:50:54,269 --> 00:50:57,960
-it's, it's sometimes, it's a top
-down issue, right? You know? So,
+1046
+00:50:56,114 --> 00:50:57,959
+So-
 
-1006
-00:50:57,989 --> 00:51:02,460
-so like, you could have a senior
-developer, be willing, or you
+1047
+00:50:57,989 --> 00:51:00,224
+so, like, you could have a
+senior developer be willing--
 
-1007
+1048
+00:51:00,224 --> 00:51:02,459
+or, you
+
+1049
 00:51:02,460 --> 00:51:04,380
 know, willing to talk and
 willing to do stuff like that.
 
-1008
+1050
 00:51:04,380 --> 00:51:06,659
-But when you phrase it as like
+But when you phrase it as, like,
 pair programming, then
 
-1009
+1051
 00:51:06,659 --> 00:51:08,114
-management gets jumpy, because
-two people, like in their mind,
+management gets jumpy because
+two people, like-- in their
 
-1010
+1052
 00:51:08,114 --> 00:51:09,569
-two people are
+mind, two people are
 
-1011
+1053
 00:51:09,570 --> 00:51:13,530
 working on the same problem or
-whatever, so, yeah. I think
+whatever. So, yeah. I think
 
-1012
+1054
 00:51:13,530 --> 00:51:15,360
-that's, that's really important
+that's- that's really important
 to think about when you're
 
-1013
+1055
 00:51:15,869 --> 00:51:18,179
 finding people to work with.
 Cameron, what about you?
 
-1014
+1056
 00:51:18,630 --> 00:51:20,730
-Cameron Bardell: Yeah, that was
-a good one. One thing I noticed,
+Cameron: Yeah, that was a good
+one. One thing I noticed,
 
-1015
+1057
 00:51:20,849 --> 00:51:23,190
 I was doing a bunch of
 interviewing. I interviewed at a
 
-1016
+1058
 00:51:23,190 --> 00:51:25,380
-lot of places, even something
-like that, I was pretty sure I
+lot of places even-- something
+like that. I was pretty sure I
 
-1017
+1059
 00:51:25,380 --> 00:51:27,900
 would take a job just to kind of
 find out what the tech industry
 
-1018
+1060
 00:51:27,900 --> 00:51:30,090
-was like, because I didn't
-really know. And one thing I
+was like because I didn't really
+know. And one thing I
 
-1019
+1061
 00:51:30,090 --> 00:51:32,699
-noticed was, that kind of stood
+noticed was-- that kind of stood
 out to me with some places don't
 
-1020
+1062
 00:51:32,699 --> 00:51:34,559
-ever talk about like, the
+ever talk about, like, the
 products they're building. And
 
-1021
-00:51:34,559 --> 00:51:37,019
-if you (laugh) can't really tell
-if they care about what they're
+1063
+00:51:34,559 --> 00:51:35,789
+if you [laughs] can't really
+tell if they care about what
 
-1022
+1064
+00:51:35,789 --> 00:51:37,019
+they're
+
+1065
 00:51:37,019 --> 00:51:40,590
-building, or if they want to be
+building or if they want to be
 good. And yeah, I just
 
-1023
+1066
 00:51:40,590 --> 00:51:43,289
 really wanted to build something
-where like, everybody wanted to
+where, like, everybody wanted to
 
-1024
+1067
 00:51:43,320 --> 00:51:46,440
 actually make it good. You know,
 even if it was something that
 
-1025
+1068
 00:51:47,010 --> 00:51:48,614
 would have just be an internal
-tool, or you know, something
+tool or, you know, something
 
-1026
+1069
 00:51:48,614 --> 00:51:50,218
 that's in
 
-1027
+1070
 00:51:50,219 --> 00:51:52,409
 kind of like a boring industry,
 like, I still want to make
 
-1028
+1071
 00:51:52,409 --> 00:51:54,869
-something that's nice to use and
-looks good, and supports
+something that's nice to use,
+and looks good, and supports
 
-1029
+1072
 00:51:54,869 --> 00:51:58,380
-accessibility and all these
-things. See, I kind of, I was
+accessibility, and all these
+things. See? I kind of-- I was
 
-1030
+1073
 00:51:58,380 --> 00:52:03,119
 definitely more willing to talk
 to people who seem to care and
 
-1031
+1074
 00:52:03,119 --> 00:52:06,449
 know a lot about the product and
 want to continually improve it
 
-1032
+1075
 00:52:06,449 --> 00:52:08,909
 instead of just, I don't know,
 make it good enough.
 
-1033
+1076
 00:52:09,960 --> 00:52:13,050
-Dan Ott: Yeah, I think that's, I
+Dan: Yeah, I think that's- I
 think that's great. I feel like
 
-1034
+1077
 00:52:13,050 --> 00:52:16,469
-that's usually a good sign that
-like, people are invested in it,
+that's usually a good sign that,
+like, people are invested in it
 
-1035
+1078
 00:52:16,530 --> 00:52:18,690
 too. And don't have a lot of
 turnover, you know, if you have
 
-1036
+1079
 00:52:18,690 --> 00:52:20,249
-a new, new people that are
+a new- new people that are
 coming and going all the time,
 
-1037
+1080
 00:52:20,249 --> 00:52:21,808
-then you
+then you can't,
 
-1038
+1081
 00:52:21,809 --> 00:52:23,849
-can't like build any connection
-to it, right? So,
+like, build any connection to
+it, right? So--
 
-1039
+1082
 00:52:23,900 --> 00:52:25,174
-Cameron Bardell: Yeah. It's
-kinda surprising you. Especially
+Cameron: Yeah. It's kinda
+surprising you. Especially
 
-1040
+1083
 00:52:25,174 --> 00:52:26,448
 a lot of the startups
 
-1041
+1084
 00:52:26,449 --> 00:52:27,664
-was working at, I thought they
-were all like, deeply care
+was working at-- I thought they
+were all, like, deeply care
 
-1042
+1085
 00:52:27,664 --> 00:52:28,879
 about,
 
-1043
+1086
 00:52:28,880 --> 00:52:31,219
-like the thing that they're
+like, the thing that they're
 building, but they didn't.
 
-1044
+1087
 00:52:31,760 --> 00:52:32,899
-Dan Ott: They deep, deeply?
-Yeah. Maybe deeply care about
+Dan: They deep- deeply? Yeah.
+Maybe deeply care about
 
-1045
+1088
 00:52:32,899 --> 00:52:34,038
-the project, but,
+the project, but--
 
-1046
+1089
 00:52:35,449 --> 00:52:36,079
-Cameron Bardell: Maybe they
-deeply care about the money they
+Cameron: Maybe they deeply care
+about the money they
 
-1047
+1090
 00:52:36,079 --> 00:52:36,709
-were making? Yeah. (laugh)
+were making? Yeah [laughs].
 
-1048
+1091
 00:52:40,190 --> 00:52:42,739
-Bekah Hawrot Weigel: Awesome.
-Thanks for being here. We really
+Bekah: Awesome. Thanks for being
+here. We really
 
-1049
+1092
 00:52:42,739 --> 00:52:45,739
 enjoyed having this
 conversation. But before we
 
-1050
+1093
 00:52:45,739 --> 00:52:49,340
 leave, can you let us know if
 there's anything you're up to?
 
-1051
+1094
 00:52:49,340 --> 00:52:51,199
 Or how our listeners can find
 you?
 
-1052
+1095
 00:52:52,309 --> 00:52:53,780
-Cameron Bardell: Sure, yeah, you
-can always you can find me at
+Cameron: Sure, yeah. You can
+always-- you can find me at
 
-1053
+1096
 00:52:53,840 --> 00:52:57,050
 Virtual Coffee, obviously, twice
 a week. You can find me on
 
-1054
+1097
 00:52:57,050 --> 00:53:00,260
 Twitter, @CameronBardell. And
 that's where you can see me
 
-1055
+1098
 00:53:00,260 --> 00:53:02,780
-doing most of my stuff, kind of,
+doing most of my stuff, kind of.
 I don't have a lot of time for
 
-1056
+1099
 00:53:02,780 --> 00:53:05,030
-doing like open-source work
+doing, like, open source work
 right now. But I hope to get
 
-1057
+1100
 00:53:05,059 --> 00:53:07,250
 started back up in the next few
 months. So yeah.
 
-1058
+1101
 00:53:08,480 --> 00:53:10,940
-Rahat Chowdhury: Yeah. You can
-also find me on Virtual Coffee.
+Rahat: Yeah. You can also find
+me on Virtual Coffee.
 
-1059
+1102
 00:53:10,940 --> 00:53:14,659
 I usually come to the afternoon
-meetings. And yeah, I'm on
+meetings. And, yeah, I'm on
 
-1060
+1103
 00:53:14,929 --> 00:53:19,340
 Twitter, @Rahatcodes. And if
-you're into open-source and
+you're into open source and
 
-1061
+1104
 00:53:19,340 --> 00:53:20,449
-stuff definitely looking for
+stuff, definitely looking for
 some contributors to my mental
 
-1062
-00:53:20,449 --> 00:53:21,558
-health
+1105
+00:53:20,449 --> 00:53:23,869
+health project. So, definitely
+check that out.
 
-1063
-00:53:21,559 --> 00:53:23,869
-project. So. Definitely check
-that out.
-
-1064
+1106
 00:53:25,159 --> 00:53:25,519
-Bekah Hawrot Weigel: Awesome.
+Bekah: Awesome.
 
-1065
+1107
 00:53:25,519 --> 00:53:26,989
-Dan Ott: That's awesome. Well,
-obviously the link of all that
+Dan: That's awesome. Well,
+obviously, the link of all that
 
-1066
-00:53:26,989 --> 00:53:28,459
-in
-
-1067
-00:53:28,460 --> 00:53:33,260
-the show notes. Okay, well,
+1108
+00:53:26,989 --> 00:53:33,260
+in the show notes. Okay, well,
 thank you both for joining us.
 
-1068
+1109
 00:53:33,980 --> 00:53:37,639
 And we will catch up with you
-guys on, on Virtual Coffee.
+guys on- on Virtual Coffee.
 
-1069
+1110
 00:53:38,179 --> 00:53:39,139
-Cameron Bardell: Thanks, guys.
-Always great and fun.
+Cameron: Thanks, guys. Always
+great and fun.
 
-1070
+1111
 00:53:40,670 --> 00:53:41,059
-Rahat Chowdhury: Yeah. Thank
-you.
+Rahat: Yeah. Thank you.
 
-1071
+1112
 00:53:46,159 --> 00:53:48,050
-Bekah Hawrot Weigel: Thank you
-for listening to this episode of
+Bekah: Thank you for listening
+to this episode of
 
-1072
+1113
 00:53:48,050 --> 00:53:52,250
 the Virtual Coffee podcast. This
 episode was produced by Dan Ott
 
-1073
+1114
 00:53:52,250 --> 00:53:56,480
 and Bekah Hawrot Weigel, and
 edited by Dan Ott. If you have
 
-1074
+1115
 00:53:56,480 --> 00:53:59,000
 questions or comments, you can
 hit us up on Twitter
 
-1075
+1116
 00:53:59,269 --> 00:54:03,739
 @VirtualCoffeeIO. Or you can
 email us at
 
-1076
+1117
 00:54:03,769 --> 00:54:07,250
 podcast@virtualcoffee.io. You
-can find the show notes. Plus
+can find the show notes. Plus,
 
-1077
+1118
 00:54:07,250 --> 00:54:09,469
 you can sign up for our
 newsletter to find out what
 
-1078
+1119
 00:54:09,469 --> 00:54:14,300
 Virtual Coffee's been up to on
 our website at virtualcoffee.io.
 
-1079
+1120
 00:54:14,869 --> 00:54:18,110
-Dan Ott: Please subscribe to our
+Dan: Please subscribe to our
 podcast and write a review. Next
 
-1080
+1121
 00:54:18,110 --> 00:54:21,110
-week we'll have Drew Clements on
-the podcast to talk about
+week, we'll have Drew Clements
+on the podcast to talk about
 
-1081
+1122
 00:54:21,139 --> 00:54:23,659
 building a career and a
 community. Thanks for listening
 
-1082
+1123
 00:54:23,659 --> 00:54:24,079
 everyone.
